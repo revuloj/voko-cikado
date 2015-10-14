@@ -1,0 +1,46 @@
+/* HTML-elementoj */
+BODY {font-size: large; margin: 2cm}
+H1 {color: darkgreen; font-size: 30pt}
+H2 {color: darkgreen; font-size: 24pt}
+H3 {color: darkgreen; font-size: 20pt}
+H4 {color: darkgreen; font-size: 16pt}
+/*A {text-decoration: none}*/
+A:link {text-decoration: none; color: darkblue}
+A:visited {text-decoration: none; color: darkblue}
+A.active {color: blue}
+SUP {font-size: smaller}
+
+.author {color: darkgreen; font-size: 24pt; margin: 2mm}
+.mainTitle {margin: 5mm}
+.contentTitle {margin-left: 3cm}
+.content {margin-left: 1cm; width: 13cm}
+li.content {margin-bottom: 5mm}
+.subcontent {margin-left: 1cm; margin-top: 5mm; width: 11cm}
+li.subcontent {margin-bottom: 1mm; margin-top: 1mm;}
+
+.head {font-variant: small-caps}
+.p {text-indent: 5mm; margin-bottom: 1mm; margin-top: 1mm; text-align:justify}
+.first_p {margin-bottom: 1mm; margin-top: 1mm; text-align: justify}
+.lg {margin: 10mm}
+.stanza {margin: 5mm}
+/* .l {text-align: left; margin-top: 0mm; margin-bottom: 0mm;
+   margin-left: 5cm} */
+.note {font-style: italic}
+
+.header {font-variant: small-caps; font-size: 90%; font-weight: bold; 
+         margin-bottom: 0; height: 1em }
+.header_left {display: block; float: left; text-align: left; margin: 0; }
+.header_center { display: block; float: right; text-align: right; margin: 0; }
+.footer {font-variant: small-caps; font-size: 90%; font-weight: bold;
+        margin-top: 0; text-align: right;}
+
+.signed { text-align: right }
+.center { text-align: center }
+
+
+
+
+
+
+
+

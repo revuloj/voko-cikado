@@ -1,0 +1,98 @@
+@import url("teixlite_epub.css");
+
+@font-face {
+  font-family: Libertine;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../otf/LinLibertine_Re-4.7.5.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Libertine;
+  font-weight: normal;
+  font-style: italic;
+  src: url(../otf/LinLibertine_It-4.2.6.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Libertine;
+  font-weight: bold;
+  font-style: normal;
+  src: url(../otf/LinLibertine_Bd-4.1.5.otf) format("opentype");
+}
+
+@font-face {
+  font-family: Libertine-oblikva;
+  font-weight: normal;
+  font-style: italic;
+  src: url(../otf/LinLibertine_It-4.2.6.otf) format("opentype");
+}
+
+body { 
+  font-family: "Libertine"
+}
+
+h1,h2,h3,h4 { 
+  text-align: center; 
+  page-break-after: avoid 
+}
+
+.dict-entry {
+  text-align: left; 
+  margin-top: 0; 
+  margin-bottom: 0; 
+  margin-left: 1.5em;
+  text-indent: -1.5em;
+}   
+
+.dict-subentry {
+  text-align: left; 
+  margin-top: 0; 
+  margin-bottom: 0; 
+  margin-left: 3em;
+  text-indent: -1.5em;
+} 
+
+.titlePart {
+  text-align: center;
+}
+
+.titlePart_main {
+  font-size: large;
+  text-align: center;
+}
+
+.titlePart_number {
+  font-size: large;
+  text-align: center;
+}
+
+.smallTitle,.author {
+  text-align: center;
+  font-weight: bold;
+} 
+
+td { 
+  font-size: small;
+}
+
+strong.big { 
+  font-size: large;
+} 
+
+em.handwritten { 
+  font-family: cursive, "Libertine-oblikva";
+}
+
+.cell { 
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+table.center { 
+  width: 80%;
+  margin-left: 10%;
+}
+
+.uv_header { font-variant: small-caps; font-size: 90%; font-weight: bold; 
+         margin-bottom: 0; height: 2em; line-height: 120% }

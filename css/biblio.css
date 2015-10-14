@@ -1,0 +1,118 @@
+@import url("teixlite.css");
+
+.the_bible {
+	   color: darkgreen; 
+	   font-size: 48pt;
+	   font-variant: small-caps;
+	   border-bottom-width: 0.1cm;
+	   border-bottom-style: solid;
+	   border-bottom-color: dark-green;   
+           border-top-width: 0.1cm;
+	   border-top-style: solid;
+	   border-top-color: dark-green;   
+	   padding-bottom: 0.3cm;
+	   padding-top: 0.4cm;	   
+}
+
+.mainTitle {
+	   color: darkgreen; 
+	   font-size: 30pt;
+	   font-variant: small-caps;
+/*	   border-bottom-width: 0.05cm;
+	   border-bottom-style: solid;
+	   border-bottom-color: dark-green;   */
+}
+
+.chapternr {
+	    float: left;
+	    font-size: 2cm; 
+	    font-weight: bold; 
+	    color: dark-green;
+	    padding: 0.25cm;
+	    margin-top: 0;
+            margin-left: 0;	
+	    margin-right: 0.2cm;
+            margin-bottom: 0.1cm;
+	    border-bottom-width: 0.1cm;
+	    border-bottom-style: solid;
+	    border-bottom-color: dark-green;
+	    }   
+
+.versenr {
+	 font-size: medium; 
+	 font-weight: 300; 
+	 color: #663300;
+	 }   
+
+
+/* poemecaj versoj */
+
+.indent {
+       margin-left: 2.5em;
+       margin-bottom: 0.2em; 
+       margin-top: 0.2em; 
+       }	
+
+.verse_indent_first {
+       margin-left: 2.5em;
+       margin-bottom: 0; 
+       margin-top: 0; 
+}
+
+.verse_indent_cont {
+      margin-left: 0.5em;
+      margin-bottom: 0; 
+      margin-top: 0; 
+      position: relative;
+      left: 2.5em;
+}
+
+.verse_indent {
+      margin-left: 0.5em;
+      margin-bottom: 0; 
+      margin-top: 0; 
+      with: 30em;
+}
+
+.versenr_indent {
+	 display: block;
+	 font-size: 80%; 
+	 font-weight: 300;
+	 width: 2.5em;
+	 margin: 0 0 0 0;
+	 color: #663300;
+	 }   
+
+.versetext_indent {
+        display: block;
+	position: relative;
+        top: -1em;
+        left: 2.5em;
+	margin: 0 0 0 0; 
+}
+
+
+
+   
+.dist_chapter {
+	      height: 2.5em;
+}
+
+.stanza_head {
+	     color: black;
+	     margin-left: 6em;
+	     direction: ltr;
+}
+
+.sela {
+    display: block;
+    font-style: italic;
+    text-align: right;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,21 @@
+@import url("teixlite.css");
+
+BODY { font-size: large; margin: 1em }
+
+ul.senautoraj, ul.verkoj { list-style-type: square;
+   border-top-style: solid; border-top-width: thin; 
+   padding-top: 0.5em; padding-bottom: 1em
+}
+
+ul.autoroj { list-style-type: none; padding-left: 0em;  }
+
+ul.verkoj { border-top-style: solid; border-top-width: thin; 
+    padding-top: 0.5em; padding-bottom: 1em}
+
+ul.senautoraj li { font-size: medium; line-height: 100%; padding-bottom: 0.5em } 
+
+ul.verkoj li { font-size: medium; line-height: 100%; padding-bottom: 0.5em } 
+
+p.autoro { font-size: large; line-height: 100%; margin-bottom: 0.3em}
+
+.trad { font-size: small; color: gray; margin-left: 1em}

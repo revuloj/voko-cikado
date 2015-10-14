@@ -1,0 +1,10 @@
+@import url("teixlite.css");
+
+  
+
+BODY {  margin-top: 5% }
+
+img.titolbildo {padding-left: 10px; padding-right: 10px;
+                border-left-style: solid; border-left-width: thin;
+                border-right-style: solid; border-right-width: thin }
+

@@ -1,0 +1,21 @@
+/* HTML-elementoj */
+
+@font-face {
+  font-family: LiberationSerif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../ttf/LiberationSerif-Regular.ttf);
+}
+
+body {
+  font-family: "LiberationSerif";
+}
+
+h1,h2,h3,h4 {
+  font-size: huge; text-align: center;
+}
+
+.celmanko { 
+  font-size: small; color: gray;
+}
+

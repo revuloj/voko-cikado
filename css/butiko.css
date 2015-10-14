@@ -1,0 +1,10 @@
+@import url("teixlite.css");
+
+H3.head { text-align: left; margin-left: 20% }
+
+P.stanza { text-align: left; margin-left: 20% }
+P.lcenter { text-align: left; margin-left: 40% }
+
+.p {text-indent: 0mm; }
+blockquote.note {text-align: left; margin-left: 20% }
+blockquote.note p {text-align: left; margin-left: 20% }

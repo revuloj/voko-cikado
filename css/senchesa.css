@@ -1,0 +1,37 @@
+/* HTML-elementoj */
+BODY {font-size: large; margin: 2cm; color=#800000}
+H1 {color: #008080; font-size: 30pt}
+H2 {color: #008080; font-size: 24pt}
+H3 {color: #008080; font-size: 20pt}
+H4 {color: #008080; font-size: 16pt}
+
+.author {color: #800000; font-size: 24pt; margin: 2mm}
+.titlePart {color: #800000; font-size: 16pt; margin: 2mm}
+.mainTitle {color: #008080; margin: 10mm; font-variant: small-caps}
+.docImprint {color: #800000}
+.contentTitle {margin-left: 3cm}
+.content {margin-left: 2cm; width: 13cm}
+li.content {margin-bottom: 5mm}
+
+.head {font-variant: small-caps}
+.p {text-indent: 1em; margin-bottom: 0.5em; margin-top: 0em; text-align: justify}
+.first_p {margin-bottom: 0.5em; margin-top: 2em; text-align: justify}
+.big {font-variant: small-caps; font-size: 20pt}
+.lg_left {margin-top: 0.5mm; margin-bottom: 0.5em; margin-left: 10em}
+.lg_center {margin-top: 0.5mm; margin-bottom: 0.5em}
+
+.note {font-style: italic}
+
+.maroon {color: #800000}
+.teal {color: #008080}
+
+A:link {text-decoration: none; color: #006060}
+A:visited {text-decoration: none; color: #006060}
+A.active {color: #00a0a0}
+
+.header {font-variant: small-caps; font-size: 90%; font-weight: bold; 
+         margin-bottom: 0; height: 1em; }
+.header_left {display: block; float: left; text-align: left; margin: 0; }
+.header_center { display: block; float: right; text-align: right; margin: 0; }
+.footer {font-variant: small-caps; font-size: 90%; font-weight: bold;
+        margin-top: 0; text-align: right;}

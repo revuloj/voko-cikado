@@ -1,0 +1,1228 @@
+<?xml-stylesheet type="text/xml" href="merkato.xsl"?>
+ 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd"
+[
+ 
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+ 
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;">
+<!ENTITY elipse "...">
+ 
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+ 
+]>
+ 
+<!-- $Id: merkato.xml,v 1.6 2007/01/24 20:20:53 revo Exp $ -->
+<!--
+  $Log: merkato.xml,v $
+  Revision 1.6  2007/01/24 20:20:53  revo
+  prilaboretis verkoliston
+
+  Revision 1.5  2007/01/22 20:48:19  revo
+  aldonis la bildojn al arhhivo, butiko.xml, build.xml kaj verkolisto
+
+  Revision 1.4  2002/09/21 11:30:35  revo
+  enhavtabelo kreighas lau la atributoj type anstatau rend=inx, por subdokumentoj uzu nun rend=doc
+
+  Revision 1.3  2001/11/23 12:02:51  revo
+  adaptoj pro LateX-versio
+
+  Revision 1.2  2001/11/15 21:19:09  revo
+  polurado
+
+  Revision 1.1  2001/10/08 19:18:18  revo
+  aldonis Enkondukon en Social. Merkatekon.
+
+ 
+-->
+ 
+<TEI.2>
+<teiHeader>
+ 
+  <fileDesc>
+    <titleStmt>
+      <title>Enkonduko en la Socialan Merkatekonomion</title>
+<!--      <author>nekonata</author> -->
+      <respStmt>
+        <resp>tradukis la</resp> <name>Esperanto-Klubo de Lepsiko</name>
+        <resp>sub gvido de</resp> <name>Michael Behr</name>
+      </respStmt>
+      <respStmt>
+        <resp>enkomputiligita kaj adaptita al TEI de</resp>
+        <name>Wolfram Diestel</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: merkato.xml,v 1.6 2007/01/24 20:20:53 revo Exp $</edition>
+    </editionStmt>
+    <extent>44 kB</extent>
+    <publicationStmt>
+      <publisher>Wolfram Diestel</publisher>
+      <pubPlace>Lepsiko</pubPlace>
+      <date>1993</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+ <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto estis origine tradukita de E-klubo de Lepsiko
+      (vidu la anta&ubreve;parolon) kaj eldonita kiel bro&scirc;uro de mi
+      en 1993. Kiam la faritaj ekzempleroj &ccirc;iuj forvendi&gcirc;is
+      en 2001, mi decidis prepari reeldonon en XML-a formo, kaj poste
+      provi fari kaj HTML-an formon kaj LaTeX-formon per XSL.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La unuopaj &ccirc;apitroj estas apartigitaj per
+      &lt;div type="chapter" id="markilo"&gt; kaj la
+      sub&ccirc;apitroj &lt;div type="subchapter" id="markilo"&gt;.
+      Kelkaj &ccirc;apitroj komenci&gcirc;as per mallonga enkonduko,
+      kiun mi markis per &lt;div type="intro"&gt;
+      </p>
+ 
+      <p>Kiel emfazajn elementojn estas uzataj diversloke emph kaj
+      mentioned, foje estas kelkaj germanaj esprimoj, markitaj per
+      lang="de".</p>
+ 
+    </editorialDecl>
+  </encodingDesc>
+ 
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+      <language id="de">germane</language>
+      <language id="en">angle</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+
+<text lang="eo">   
+
+  <front rend="index">
+    <titlePage>
+      <docTitle>
+        <titlePart type="main">
+          Enkonduko en la Socialan Merkatekonomion
+        </titlePart>
+        <titlePart type="translator">
+          tradukis la <title>Esperanto-Klubo de Lepsiko</title><lb/>
+          sub gvido de <name>Michael Behr</name>
+        </titlePart>
+        <titlePart type="year">en <date>1993</date></titlePart>
+      </docTitle>
+      <docEdition>
+        dua eldono
+      </docEdition>
+      <docImprint>
+         <pubPlace>Lepsiko</pubPlace>
+         <publisher>Wolfram Diestel</publisher>
+         <date>2001</date>
+      </docImprint>
+    </titlePage>
+
+    <div type="preface">
+      <head>Anta&ubreve;parolo</head>
+
+<p>La homoj vivantaj en la orientaj regionoj de la nuna pli 
+granda Germanio travivis multajn &scirc;an&gcirc;ojn en sia vivo. La 
+<emph>turno</emph>, komenci&gcirc;inta a&ubreve;tune de 1989, okazis rapide la&ubreve; la 
+&scirc;tata transformigo. Sed &gcirc;i ankora&ubreve; da&ubreve;ras en la privata 
+sfero de la homoj. Ili devis kaj devas multon lerni, ekzemple 
+la novajn formojn de demokratio, la multe pli grandan 
+burokration, kaj la le&gcirc;ojn de la merkatekonomio. Tiuj germanaj 
+orientuloj spertas la problemojn de la transiro el diktaturece 
+socialisma planekonomio al anta&ubreve;e ne konita burokrateca 
+Sociala Merkat-Ekonomio.
+</p>
+
+<p>Nun evidenti&gcirc;as, ke la homoj en la pli orientaj &scirc;tatoj 
+devas pasi similan transiron, kaj ili ofte anka&ubreve; ne konas ties 
+celon.
+</p>
+
+<p>Kelkaj esperantistoj vivantaj en Lepsiko metis al si la 
+taskon simple esperantigi tekston pri la bazaj le&gcirc;oj de la 
+merkatekonomio. Tion ili taksas multflanke valora afero, &ccirc;ar
+
+<list type="simple">
+<item>la teksto povus helpi al homoj en similaj situacioj por 
+kompreni la kapitalisman sistemon, kaj</item>
+<item>la faka leksiko povas esti elprovita.</item>
+</list>
+</p>
+
+<p>Tamen, ni germanaj orientuloj neniel intencas altrudi tiun 
+ekonomian sistemon al aliaj. Temas nur pri perado de ekkonoj.
+</p>
+
+<p>La teksto &scirc;ajne pravigas la belecon kaj bonecon de la 
+merkatekonomio. Sed la tradukintoj mem akre spertis, kiom la 
+sistemo povas bati la unuopulon per senlaboreco, senmoneco kaj 
+senespereco. Tamen, tiu sistemo kapablas vivteni la socion, 
+kontra&ubreve;e al la planekonomio de la diktatureca socialismo.
+</p>
+
+<p>La tradukintoj estus feli&ccirc;aj, se ili konus ankora&ubreve; pli bonan 
+sistemon, sed tia beda&ubreve;rinde ne videblas &gcirc;is nun.
+</p>
+
+<signed>Lepsiko, en Majo de 1993</signed>
+</div>  
+
+  </front>
+ 
+  <body>
+
+<div type="chapter" rend="doc" id="chap_1">
+<head>Ofertado kaj Postulado</head>
+
+<div type="subchapter" id="chap_1.1">
+<head>La merkato</head>
+
+<p>La bazo de &ccirc;iu merkat-ekonomio estas la interefiko de 
+ofertado kaj postulado.
+</p>
+
+<p> Por pli facile kompreni la tutan reguladon, oni imagu 
+bazaron, en kiu renkonti&gcirc;as vendantoj (ofertantoj) kaj 
+a&ccirc;etantoj (postulantoj). 
+</p>
+
+<p>Anta&ubreve; ol vere a&ccirc;eti, kutime la a&ccirc;etontoj trairas la 
+tutan bazaron rigardante kaj informi&gcirc;ante pri la ofertoj kaj 
+la prezoj. Nur poste ili decidas pri la prefero respektive pri 
+tio, kion ili povas a&ubreve; volas a&ccirc;eti. Kompreneble anka&ubreve; aliaj 
+faktoroj ludas rolon en la decido pri a&ccirc;eto: kian kvaliton la 
+varo havas, &ccirc;u la vendanto estas afabla, &ccirc;u oni devas longe 
+vicatendi, &ccirc;u oni ricevas la varon bone enpakitan ktp. La 
+vendantoj deziras vendi la varojn mem produktitajn a&ubreve; 
+akiritajn el la grandkomerco. Ju pli multekoste ili vendas 
+ilin, despli bone por ili mem, &ccirc;ar despli alta estas la 
+profito restanta al ili pot la subtraho de la kostoj. 
+</p>
+
+<p>Sed tamen ekzistas limoj de ilia strebado al alta prezo: Se 
+ili ofertas la varon kontra&ubreve; tro alta prezo, la kliento ne 
+a&ccirc;etos ilin, &ccirc;ar li ne povas (pro manko de mon) a&ubreve; ne volas 
+(pro ne-komprenemo rilate al la prezo). Kaj tio validas des pli 
+multe, &ccirc;ar ja ekzistas aliaj budoj vendantaj la saman a&ubreve; 
+similan produkton kontra&ubreve; eble pli favora prezo. Alivorte, la 
+vendantoj inter si staras en konkurencado.
+</p>
+</div>
+  
+<div type="subchapter" id="chap_1.2">
+<head>La konkurencado</head>
+
+<p>&Ccirc;iu vendanto vivas en la devigo vere forvendi &ccirc;iujn produktojn. 
+Se ne, li ne nur ne havos profiton, sed havos efektivan 
+malprofiton, &ccirc;ar li ja anta&ubreve;e elspezis la kostojn por la 
+produktado a&ubreve; akirado de la varoj. Por finfine rezultigi 
+malgrandan profiton ol malprofiton, li fiksas siajn  prezojn, 
+la&ubreve;eble e&ccirc; &gcirc;is sub tiuj de la konkurencanto. Nun la klientoj 
+venos al li anstata&ubreve; aliloken. Tiel la konkurencado diktas la 
+evoluon de la prezoj.
+</p>
+</div>
+
+<div type="subchapter" id="chap_1.3">
+<head>Prezo</head>
+
+<p>Sed anka&ubreve; suben ekzistas limo por la prezevoluo: nome la 
+produktad-kostoj. &Gcirc;enerale la vendanto ne povas vendi la 
+produktojn por malpli da mono ol li mem bezonis por la 
+produktado, alikaze li balda&ubreve; bankrotus. 
+</p>
+
+<p>Tamen ni konas esceptojn el tiu regulo, parte, por tamen 
+vendi varojn alie ne vendeblajn 
+(<mentioned>nevendebla&jcirc;ojn</mentioned>), a&ubreve; por 
+enkonduki surmerkate novan produkton, kiu alportos profiton 
+post pli longa tempo. 
+</p>
+
+<p>Kompreneble la amplekso de la vendokvanto anka&ubreve; influas la 
+proprajn kostojn, kiuj &gcirc;enerale malalti&gcirc;as, se oni pli multe 
+vendas. Uzante la ekzemplon de la bazaro: la kotizoj por la 
+budo estas la samaj, tutegale, &ccirc;u oni vendas 20 kilogramojn da 
+bananoj a&ubreve; 200. Sed kalkulante po kilogramo, la budkotizoj 
+kaze de 200 kilogramoj estas malpli altaj.
+</p>
+
+<p>Aldone al tio, la vendanto akiras 200 kg-jn en la 
+grandkomerco kontra&ubreve; malpli da mono ol 20 kg-jn. La komercanto 
+vendanta multajn bananojn sub la kondi&ccirc;o de malpli alta 
+profito po banano, finfine povas esti pli sukcesa ol alia, kiu 
+postulas altan prezon, sed trovas nur malmultajn klientojn.</p>
+</div>
+
+<div type="subchapter" id="chap_1.4">
+<head>Servoj</head>
+
+<p>Se el&ccirc;erpi&gcirc;is la eblecoj de prez-malaltigo, la vendanto 
+devas pripensi, per kio li povus diferenci dis de la aliaj 
+vendantoj por allogi la klientojn. 
+</p>
+
+<p>Gravan rolon ludas la afableco. Kial la kliento travivu 
+malafablecon dum a&ccirc;etado, se aliloke oni traktas lin afable 
+surbaze de sama oferto? Ekzemple, bonaj fakvendejoj artlerte 
+enpakas venditan varon kvaza&ubreve; donacon, aliaj ofertas liveradan 
+a&ubreve; riparan servojn a&ubreve; favoran pagadon, ekzemple la&ubreve;partan 
+pagadon. Alivorte, &ccirc;iu ofertanto devas instigi la a&ccirc;etantojn, 
+por ke ili a&ccirc;etu en lia vendejo, &ccirc;u per la prezo, &ccirc;u per iu 
+servo, &ccirc;u per alloga prezentado de la varoj. (Nutra&jcirc;ojn vendi 
+rekte el la kartonskatolo nur eblas, se oni postulas malpli 
+altajn prezojn ol aliloke, kie ili estas pla&ccirc;e prezentitaj).
+</p>
+</div>  
+
+<div type="subchapter" id="chap_1.5">
+<head>Merkat-observado</head>
+
+<p>Vivgrava por la ofertanto estas la observado de la 
+klientbezonoj.  Li ja produktas kaj havigas la varojn surbaze 
+de la espero je forvendado. Se li mistaksas tion, li <mentioned>restas 
+sidante sur la varoj</mentioned>.
+</p>
+
+<p>La bezonoj de la a&ccirc;etantoj kompreneble ne estas konstantaj, 
+sed da&ubreve;re &scirc;an&gcirc;i&gcirc;as kaj povas esti influataj. Tio 
+da&ubreve;re donas al la produktantoj la eblecon eltrovi 
+merkatmankojn. Tiel la ekonomio rapide sekvas anka&ubreve; sociajn 
+valor&scirc;an&gcirc;ojn. Ekzemple la industrio en la Federacia 
+Respubliko Germanio tuj reagis je la kreskinta konscio pri 
+medio inter la homoj. 
+</p>
+
+<p>Nome, anta&ubreve; nelonga tempo, la plej multaj &scirc;prucskatoloj 
+estis plenigitaj per gaso, kiu enhavis la 
+fluorklorkarbohidrogenon (dama&gcirc;anta al la ozon-sfero), sed 
+hodia&ubreve; la produktantoj de &scirc;prucskatoloj varbas per etikedoj 
+kiel <mentioned>Sen FKKH</mentioned> (Fluorklorkarbohidrogena&jcirc;oj) 
+a&ubreve; <mentioned>Sen pelgaso</mentioned>.
+</p>
+
+<p>Se iu produktanto fabrikas ion novan nenie &gcirc;is tiam 
+ofertitan, li havas la &scirc;ancon postuli altan prezon, &ccirc;ar la 
+konsumantoj ne plu havas la liberecon a&ccirc;eti la&ubreve;vole &ccirc;i tie 
+a&ubreve; tie. Tiaj avanta&gcirc;oj sur la merkato certe ne estas 
+da&ubreve;remaj. Aliaj produktantoj, allogitaj de la bonaj 
+profit&scirc;ancoj, same ekpro-duktas tiujn varojn. Per tio la 
+rareco de la produktoj forfalas, kaj la prezoj malalti&gcirc;as.
+</p>
+
+<p>Se iu produkto ne sufi&ccirc;e amplekse estas ofertata, la prezoj 
+alti&gcirc;as. Se la prezoj estas fiksitaj, kaj se tamen la ofertado 
+ne povas kontentigi la postuladon (ekzemple la enirbiletoj por 
+certaj koncertoj a&ubreve; sportaran&gcirc;oj), la prezalti&gcirc;o tamen 
+okazas sur la tiel nomata nigra merkato.</p>
+</div>
+
+<div type="subchapter" id="chap_1.6">
+<head>Indiko de rareco</head>
+
+<p>En la merkatekonomio, principe, iu produkto neniam estas tute 
+elvendita. La rareco de iu varo ne montri&gcirc;as per malplenaj 
+eta&gcirc;eroj, sed per prezaltigo. Per &gcirc;i redukti&gcirc;as la 
+postulado, &ccirc;ar tiu varo nun tro multekostas por grandparto de 
+la eblaj a&ccirc;etontoj. Tiel la ofertado kaj postulado akordi&gcirc;as, 
+&gcirc;is la plivasti&gcirc;inta produktado denove &scirc;an&gcirc;as la rilatojn. 
+Alivorte, la prezo montras la rilaton inter ofertado kaj 
+postulado. Ju pli ofte iu varo disponi&gcirc;as, despli &gcirc;i 
+malmultekosti&gcirc;as. Inverse, ju pli rara la ofertado, des pli 
+alta la prezo.
+</p>
+
+<p>Ju pli iu artiklo a&ubreve; kruda&jcirc;o kostas, despli zorgeme la 
+prilaborantoj a&ubreve; konsumantoj foruzos &gcirc;in. Tio limigas la
+mal&scirc;paremon de la kruda&jcirc;oj. &Ccirc;iu konas tion el la privata sfero. 
+Se la elektro estas malmultekosta, oni malavare uzas &gcirc;in: la 
+lampoj estas en&scirc;altitaj, anka&ubreve; se neniu estas en la &ccirc;ambro, 
+la lavma&scirc;ino devas labori, e&ccirc; se nur duoplena, ktp. Nur kiam 
+alti&gcirc;as la prezo de elektra energio, oni komencas &scirc;pari. Per 
+tio, anka&ubreve; la ekonomia kaj ekologia(!) raciecoj venkas.
+</p><p>Altaj prezoj, tiamaniere, ne nepre estas malbona&jcirc;o, e&ccirc; se 
+ili &scirc;ar&gcirc;as la konsumanton, &dash; kondi&ccirc;e ke ili respegulas la 
+rarecon de la varoj, kaj ne la mankon de konkurencado.
+</p>
+
+<p>Nome la interludo inter ofertado kaj postulado nur povas 
+funkcii, se surflanke de la ofertantoj ekzistas diversaj 
+konkurencantaj produktantoj.
+</p>
+
+<p>Se iu entrepreno sukcesus domini regi sur certa merkato, la 
+mekanismo ne plu funkcius. Tiu entrepreno havus monopolan 
+pozicion ebligantan al &gcirc;i dikti la prezojn.
+</p>
+
+<p>Ekzemple, en GDR oni ofertis en la decembro 1989 japanajn 
+vidbendajn aparatojn je prezo de 7000 DM. La ministerio por 
+komercado komentis tiun prezon per la vortoj, &gcirc;i estus 
+pravigita tiom longe, kiom oni vendas ilin kvaza&ubreve; <mentioned>varmajn 
+panbulkojn</mentioned>. La ministro pretervidis, ke reala prezo sur la 
+merkato nur povas elformi&gcirc;i, se ekzistas diversaj ofertantoj. 
+Tiutempe la civitanoj en GDR ne havis la eblecon iri al iu 
+konkurencanto. Ili devis pagi la monopolan prezon, a&ubreve; rezigni 
+pri la vidbenda aparato.</p>
+</div>
+
+<div type="subchapter" id="chap_1.7">
+<head>Monopoloj</head>
+
+<p>Parolante pri monopoloj, oni ofte pensas pri kapitalismo. Sed 
+&gcirc;uste la merkatekonomio gardas pri tio, ke iu entrepreno ne 
+regu sole sur la merkato kaj per tio senvalidigu la konkurencadon.
+</p>
+
+<p>En FRG, tio estas la tasko de la tiel nomata Federacia 
+Kartel-Oficejo (germ.: <mentioned
+lang="de">Bundeskartellamt</mentioned>) 
+kun sidejo en okcidenta  Berlin. Tiu rajtas malpermesi la 
+fuzion de entreprenoj, a&ubreve; la 
+a&ccirc;etadon de firmao per alia, a&ubreve; kapitalajn interligojn de 
+entreprenoj el la sama bran&ccirc;o, se per tio ekestas dan&gcirc;ero por 
+la konkurencado. Dum 1989, la Kartel-Oficejo malpermesis 12 
+fuziojn kaj baris kelkajn aliajn jam anta&ubreve;e. Pli dan&gcirc;ere ol 
+la dominado de unu entrepreno estas la minaco, ke kelkaj grandaj 
+firmaegoj disdividas inter si la merkaton kaj 
+interkonsentas komunajn altajn prezojn. Anka&ubreve; tio ne estas 
+permesata. Pro tiaj nelegalaj interkonsentoj de prezoj, la 
+Kartel-Oficejo en 1989 diktis monpunojn de entute preska&ubreve; 300 
+milionoj da markoj, kaj el tio sole 100 milionojn al unuopa 
+produktanto partopreninta en merkat-manipulado.</p>
+</div>
+
+<div type="subchapter" id="chap_1.8">
+<head>Eksterlanda komerco</head>
+
+<p>En multaj bran&ccirc;oj ekzistas la ebleco elekti eksterlandajn 
+ofertantojn, se tion ne malhelpas altaj dogankotizoj a&ubreve; 
+import-malpermesoj. FRG estas membro de la E&ubreve;ropa Komunumo, 
+kaj pro tio &gcirc;i ne rajtas malpermesi la importon el la aliaj 
+membro&scirc;tatoj. Ili havas liberan aliron al la germana merkato, 
+sed por la ne-membroj validas import-le&gcirc;oj unuecaj en la 
+E&ubreve;ropa Komunumo. 
+</p>
+
+<p>En la bran&ccirc;o de a&ubreve;tomobil-produktado, internacie ekzistas 
+relative malmultaj diversaj entreprenoj, pro la konsiderinde 
+alta investado en tiu bran&ccirc;o.. Tamen ekzistas forta konkurencado 
+sur tiu merkato. Ne nur en E&ubreve;ropo la a&ubreve;tomobil-firmaoj 
+&ccirc;asas la klientojn, sed anka&ubreve; en Japanio esti&gcirc;is tia 
+industrio, kiu forte premas la germanan merkaton: En 1988, el 
+la 28,8 milionoj da koncesiitaj a&ubreve;toj jam 7,1 estis 
+eksterlandaj produktoj, kaj e&ccirc; 2,7 el ili el Japanio.
+</p>
+</div>
+
+<div type="subchapter" id="chap_1.9">
+<head>Produktad-decido</head>
+
+<p>En la elcentre gvidataj ekonomioj (plan-ekonomioj) ekzistas 
+la grava demando, kion kaj kiukvante oni produktu. Tio bazas 
+sin sur la pensoj de planad-oficejoj, &ccirc;u la varoj elektitaj 
+por la produktado estus <mentioned>bonaj</mentioned> a&ubreve; 
+<mentioned>utilaj</mentioned> por la homoj.
+</p>
+
+<p>En la merkatekonomioj ne ekzistas tia decidado per politika 
+organo a&ubreve; &scirc;tata oficejo. Tie decidas pri la produktado de iu 
+varo, &ccirc;u ekzistas a&ubreve; estas ekspektebla por &gcirc;i la a&ccirc;etpova 
+postulado. La produktado sekvas la klientojn, kaj ne inverse.
+</p>
+
+<p>Se &dash; esceptokaze &dash; la &scirc;tato ne deziras la produktadon a&ubreve; 
+debiton de iu varo, &gcirc;i devas enmiksi&gcirc;i en la merkaton per 
+le&gcirc;oj a&ubreve; preskriboj. Ekzemple, pro mediopolitikaj ka&ubreve;zoj, en 
+FRG la &scirc;tato malpermesis la produktadon de plumbo-hava normala 
+benzino. Krome, por redukti la debiton de plumbo-hava 
+<mentioned>Super</mentioned>-benzino, oni draste plialtigis la
+impostojn je tia speco 
+kompare al sen-plumba benzino. Sekve la senplumba benzino estas 
+malpli kosta. Tiamaniere oni stimulas la a&ubreve;to-posedantojn 
+konduti malpli dama&gcirc;e rilate al la medio. Intertempe, &ccirc;iuj 
+a&ubreve;toj povas uzi sen-plumban benzinon.
+</p>
+
+<p>Aliflanke, se la &scirc;tato volas subteni la evoluon a&ubreve; 
+fabrikadon de iu produkto, &gcirc;i mem devas esti la komisianto 
+(ekzemple en la spac-aviado) a&ubreve; plifortigi a&ubreve; ebligi la 
+postuladon per subvencioj. La &scirc;tate stimulita konstruado de la 
+tiel nomataj socialaj lo&gcirc;ejoj estas ekzemplo por tiu kazo.
+</p>
+</div>
+
+<div type="subchapter" id="chap_1.10">
+<head>La labormerkato</head>
+
+<p>La merkato ampleksas &ccirc;iujn sferojn de la ekonomia vivo, 
+anka&ubreve; la peradon de viva laboro. En FRG, sen&gcirc;ene oni parolas 
+pri la labormerkato. 
+</p>
+
+<p>Principe anka&ubreve; la homa laborforto estas metita sub la 
+kondi&ccirc;ojn de ofertado kaj postulado, kvankam tiu rilato estas 
+modifita per le&gcirc;oj kaj kolektivaj laborkontraktoj. Oni precipe 
+bone pagas profesiajn agadojn, por kiuj ekzistas nur malmultaj 
+labor-volontuloj, &ccirc;ar tiuj laboroj eble estas dan&gcirc;eraj, a&ubreve; 
+tre stre&ccirc;aj a&ubreve; ne multe &scirc;atataj. Sen tia pago, la laboruloj 
+formigras al aliaj bran&ccirc;oj.
+</p>
+
+<p>Se trovi&gcirc;as relative multaj laboruloj en iu bran&ccirc;o, tia 
+situacio subenpremas la laborpagon. Estas senefike, se ili 
+minacas foriri. Sufi&ccirc;e de aliuoj pretas transpreni la laboron, 
+kia &gcirc;i estas, &ccirc;ar ili tiutempe tute ne havas laboron.
+</p>
+
+<p>Por pluekzisti en la interrilato de ofertado kaj postulado, 
+amba&ubreve;, kaj la entreprenoj kaj la laboruloj, devas atente 
+konduti tiel, ke ili restas atrakciaj por la labormerkato. Tio 
+signifas, ke la labordonantoj ofertas laborpagojn kongruantajn 
+al la labormerkato kaj ekvivalentajn ceterajn laborkondi&ccirc;ojn, 
+kaj ke la dependaj laboruloj devas akiri, plibonigi kaj aktive 
+teni ilian kvalifikan rangon anka&ubreve; sub la kondi&ccirc;oj de 
+&scirc;an&gcirc;i&gcirc;antaj teknikaj kondi&ccirc;oj.
+</p>
+</div>
+
+<div type="subchapter" id="chap_1.11">
+<head>Komunikado</head>
+
+<p>Grava kondi&ccirc;o por la funkciado de la mekanismo inter ofertado 
+kaj postulado estas teni la superrigardon pri la merkata 
+agado. Tia problemo ne ekzistas sur la komence menciita bazaro, 
+&ccirc;ar tie facile eblas informi sin per mallonga promenado. Sed 
+la merkaton en la grando de tuta lando oni ne tuj povas 
+superrigardi. Pro tio, la varbado ludas gravan rolon.
+</p>
+
+<p>Kompreneble, &gcirc;i instigu la eblan akceptonton de la varo 
+vere a&ccirc;eti &gcirc;in. Sed krome &gcirc;i plenumas gravan funkcion, &ccirc;ar 
+&gcirc;i pliproksimigas la vendanton kaj la a&ccirc;etanton. Kiu sufi&ccirc;e 
+longe estas vivanta en merkatekonomio, tiu lernas krome, ke ne 
+&ccirc;iuj varbinformoj estas seriozaj.
+</p>
+
+<p>Sur &ccirc;iuj niveloj de la ekonomio validas la principoj, 
+kiujn ni montris je la ekzemplo de la bazaro. 
+</p>
+
+<p>Sed la funkcianta merkato kondi&ccirc;as modernajn komunikadrimedojn 
+(telefonojn, komputilajn retojn, telekomunikadajn 
+konferencojn ktp.), kiujn oni aplikas mondvaste. Nur tiel eblas 
+optimume vivi sur la merkato.</p>
+</div>
+
+<div type="subchapter" id="chap_1.12">
+<head>La renomo</head>
+
+<p>Gravan rolon por la debito de la varoj havas la renomo de 
+produktad-firmao en la publiko. Tion devas atenti &ccirc;iu entrepreno. 
+Anka&ubreve; el tiu vidpunkto, &gcirc;i da&ubreve;re devas kontroli la 
+decidojn, &ccirc;u ili estas akcepteblaj en la sociala senco.
+</p>
+
+<p>Ekde tiu tempo, kiam fari&gcirc;is videblaj la negativaj sekvoj 
+de la industria produktado por la medio, en FRG la firmaoj 
+multe elspezas por la protektado de la medio, kaj ili faras 
+tion sen la&ubreve;le&gcirc;a premo. Tio montras ne nur la respondecon por 
+la socio, sed anka&ubreve; la strebadon al alta renomo en la publiko. 
+La rezulto estas merkatekonomio, kiu relative konformas al la 
+postuloj de la medioprotektado kaj utilas por &ccirc;iuj.
+</p>
+</div>
+</div>
+
+
+<div type="chapter" rend="doc" id="chap_2">
+<head>Profito</head>
+
+<div type="intro">
+<p>La motoro de ekonomia agado estas la intereso celi profiton. 
+</p><p>Malprave oni kelkfoje parolas pri la profito kvaza&ubreve; &gcirc;i 
+estus superflua krompago por kapitalistoj. Ververe, la profito 
+kaj la espero je profito estas la motoroj de la tuta ekonomia 
+sistemo, &ccirc;ar ili aktivigas la homan prestokapablon 
+(plenumforton). Entrepreno produktas a&jcirc;ojn kun la ekskluziva 
+intenco celi profiton, kiun &gcirc;i nur povas realigi, se la varo 
+estas forvendata, tio signifas, se ekzistas bezono por &gcirc;i. La 
+produktado de ne forvendeblaj varoj fiaskigus la entreprenon, 
+kaj oni tuj finus ties produktadon. Do, la konsumanto nur 
+ofertadon orientitan je la postulado. La civitanoj en aliaj 
+ekonomiaj sistemoj &gcirc;uste tion ne povas trovi.
+</p>
+
+<p>Por vere akiri la esperatan profiton, la entrepreno devas 
+oferti siajn varojn je prezo akceptebla por la kliento. &Gcirc;uste 
+la strebo al profito rezultigas, ke la produktanto ne senlime 
+povas altigi la prezojn. 
+</p>
+
+<p>Por tamen ne malbone sukcesi, la entrepreno strebas produkti 
+la&ubreve;eble malkoste. Tio devigas al &ccirc;iamaj pripensoj, kie 
+raciigi, kion invensti kaj kiel altigi la produktivecon. 
+</p>
+
+<p>La sekvoj  estas klare videblaj, kaj por la tuta popolekonomio 
+kaj por la unuopa konsumanto.</p>
+</div>
+
+<div type="subchapter" id="chap_2.1">
+<head>Stimulo al povumo</head>
+
+<p>La intereso je profito ekzistas ne nur flanke de la entreprenistoj, 
+sed anka&ubreve; &ccirc;e la dependaj laboruloj. Anka&ubreve; ili 
+laboras por gajni eble plej multe da mono. 
+</p>
+
+<p>Kvankam multaj plenumas la laboron kun &gcirc;ojo, tamen  restas 
+fakto, ke la profitstrebado estas la bazo de ilia preteco al 
+povumo. Neniu ekspektus, ke ekzemple la homoj en la &scirc;uin-
+dustrio fervore laborus nur por ebligi al siaj kuncivitanoj 
+komforte piediri. Ili laboras tutsole por la propra utilo. Sed 
+tiu nur reali&gcirc;as, se ili produktas bonan kvaliton, &ccirc;ar 
+alikaze la &scirc;uoj estus nevendeblaj kaj la laboristoj perdus la 
+laborlokon. La avanta&gcirc;oj por la &scirc;ua&ccirc;etanto esti&gcirc;as kvaza&ubreve; 
+nerekte.</p>
+</div>
+  
+<div type="subchapter" id="chap_2.2">
+<head>Risko</head>
+
+<p>Ligata al la profito estas la risko. La entreprenisto ja 
+produktas cele al ebla profito. Ofertante la produktojn povas 
+okazi, ke li mistaksis la merkaton, &ccirc;ar la klientoj ne 
+akceptas lian oferton, &dash; &ccirc;u pro malpla&ccirc;o, &ccirc;u pro malpli 
+kosta a&ubreve; pli bona oferto de alia produktanto. Se li timus la 
+neeviteblan riskon, do, se li ne produktus, li anka&ubreve; ne 
+profitus. La preteco riski estas baza elemento de la 
+merkatekonomio. Se la produkto tre sukcesas, la entreprenisto 
+rikoltas altajn enspezojn el alta risko, la&ubreve; la proverbo <q>Kiu 
+ne riskas, tiu ne profitas</q>.
+</p>
+
+<p>En la praktiko, la entreprenisto la riskon ne portas sola. Se 
+la perdo estas tiom decida, ke li devas limigi a&ubreve; fini sian 
+produktadon (fermo de la entrepreno a&ubreve; bankroto), anka&ubreve; la 
+laboruloj devas suferi senlaborecon. Pro tio anka&ubreve; ili bone 
+observas, &ccirc;u la entrepreno prosperas kaj sukcesas akiri 
+profitojn.</p>
+</div>
+
+<div type="subchapter" id="chap_2.3">
+<head>Komunentrepreno</head>
+
+<p>Por teni la riskon sur plejeble malalta nivelo, la 
+entreprenistoj ofte intertraktas en tiel nomataj komunentreprenoj 
+kun komuna risko). 
+</p>
+
+<p>Kompreneble, la divido de la risko anka&ubreve; signifas partigon de 
+la profito. Pro tio oni praktikas tiajn komunajn entreprenojn 
+&ccirc;efe en la jenaj sferoj:
+
+<list type="simple">
+<item>se la investenda sumo por unuopa entrepreno estas tro 
+granda;</item>
+<item>se la partneroj kompletigas sin en la gamo de la produktoj 
+kaj/a&ubreve; en la specialaj konoj, kaj tiel povas ion komune 
+oferti, kion neniu el amba&ubreve; povus oferti sola;</item>
+<item>se ili per tio povas malfermi novan merkaton.</item>
+</list>
+</p>
+
+<p>Ofte eksterlanda entrepreno, strebanta al loko sur la nacia 
+merkato, ligas sin per <mentioned lang="en">joint venture</mentioned> 
+al konforma nacia firmao, kiu ne povas kontentigi &gcirc;in sola.</p>
+</div>
+
+<div type="subchapter" id="chap_2.4">
+<head>Planado</head>
+
+<p>Kompreneble, la planantoj en entreprenoj ne estas ludantoj, 
+kiuj kura&gcirc;as &ccirc;ian riskon. Ekzakte observante la merkaton, per 
+racia planado kaj bona marketingo (t.e. la kunordigitaj agadoj 
+por debito, vendado kaj varbado) ili provas teni sian riskon 
+la&ubreve;eble malalta &dash; sen tamen povi ekskludi &gcirc;in. La diferenco 
+inter planekonomio kaj merkatekonomio fakte ja ne konsistas 
+en tio, ke la unua planas, kaj la dua ne, sed la maniero de la 
+planado. En la merkatekonomioj oni planas surloke, t.e. en &ccirc;iu 
+unuopa entrepreno, en la planekonomio elcentre, el centra 
+&scirc;tata institucio.
+</p>
+
+<p>Multaj faktoroj de la ekonomiaj agadoj ne estas alireblaj al 
+la unuopa entrepreno (ekzemple la borsaj kurzoj, la 
+&scirc;anceli&gcirc;oj de la valutoj, la kreditinterezoj, la &scirc;an&gcirc;oj en 
+la modo). Pro tio anka&ubreve; en la merkatekonomio eblas misplanado. 
+Sed &gcirc;enerale la konsumanto ne konstatas &gcirc;in, &ccirc;ar aliaj 
+entreprenoj kalkulis alie kaj tuj povas fermi la eblan truon 
+sur la merkato.</p>
+</div>
+</div>
+
+<div type="chapter" rend="doc" id="chap_3">
+<head>La mono</head>
+
+<p>Komparante la merkatsistemon kun organismo, oni devas doni al 
+la mono la rolon de la sango pulsanta tra vejnoj kaj arterioj.
+</p>
+
+<div type="subchapter" id="chap_3.1">
+<head>La monvaloro</head>
+
+<p>La mono estas universala var-&ccirc;eko &scirc;an&gcirc;ebla kontra&ubreve; &ccirc;iuj 
+produktoj. En popolekonomio cirkulu nur tiom da mono, kiom 
+ekzistas varoj a&ccirc;eteblaj kontra&ubreve; &gcirc;i. Tio inkludas grundon, 
+nemovebla&jcirc;ojn kaj firmaojn vere a&ccirc;eteblajn.
+</p>
+
+<p>Se tia var-kovrado ne ekzistas, la nombroj sur la monbiletoj 
+ne respegulas la veran valoron de la mono.
+</p>
+
+<p>La valoro de iu varo reflekti&gcirc;as en la prezo. Per la prezo 
+esprimita per mono, la varoj anka&ubreve; ricevas rilatojn inter si. 
+Ili tiel montras diferencojn el la kostoj de la produktado kaj 
+je la amplekso de la disponebleco. 
+</p>
+
+<p>Tio kondi&ccirc;as, ke la prezoj vere esti&gcirc;as sur la merkato. 
+Se &scirc;tataj preskriboj malhelpas tion, la mono ne plu ludas la 
+rolon de valor-esprimilo de la varo.
+</p>
+
+<p>La &scirc;tataj subvencioj en la eksa GDR, pagitaj ne nur al 
+bezonintoj, sed senescepte al &ccirc;iuj, kondukis al pluso de la 
+a&ccirc;etforto. La homoj havis pli da mono ol da a&ccirc;etebleco. La 
+monsumoj estis rezervitaj sur &scirc;par-kontoj, kaj tio signifis, 
+ke la altaj sumoj sur la kontoj ne pruvis altan bonstaton. 
+</p>
+
+<p>La civitanoj inter si reagis al tiu pluso de a&ccirc;etpovo 
+transirante al praaj formoj de komerco, nome varon kontra&ubreve; 
+varo. La valoro de la produkto esti&gcirc;is en la rekta 
+inter&scirc;an&gcirc;o de la varoj sen perado de mono.
+</p>
+
+<p>Alie en funkcianta merkatekonomio, en kiu la stabileco de 
+prezoj kaj valoroj estas gravaj kondi&ccirc;oj por alta produktiveco 
+kaj efektiveco.
+</p>
+
+<p>La prezostabileco utilas al &ccirc;iuj: al la &scirc;tato, la 
+entreprenoj kaj la laborprenantoj.
+</p>
+
+<p>Kelkaj &scirc;tatoj, en la pasinteco pro la sociala paco pretaj 
+aprobi  duciferajn inflaciajn kvotojn, denove forlasis tian 
+politikon.
+</p>
+
+<p>Sed oni ne intermiksu prezo-stabilecon kaj &scirc;tatan fiksigon 
+de la prezoj, okazintan ekzemple en la eksa GDR. La prezoj por 
+unuopaj varoj devas &scirc;an&gcirc;i&gcirc;i la&ubreve; la kondi&ccirc;oj de ofertado 
+kaj proponado kaj la&ubreve; la disponebleco de varoj kaj krudmaterialoj. 
+Nur tiamaniere la prezo povas plenumi sian funkcion 
+kiel indikilo de la rareco. Pri inflacio oni nur parolas, kiam 
+la prezoj entute kreskas grandskale kaj la mono tial perdas 
+sian valoron. Ne temas pri inflacio, se sole unuopaj prezoj 
+kreskas.
+</p>
+
+<p>La historio de la merkatekonomio montras, ke ioma kreskado 
+de la prezoj okazas dum pli longaj tempospacoj. En FRG, havanta 
+la&ubreve; la e&ubreve;ropa skalo relative malaltan gradon de la 
+senvalorigo de la mono, oni lernis vivi kun tiu fakto kaj 
+rekompenci la okazintajn perdojn de a&ccirc;etpovo per altigoj de 
+salajroj kaj pensioj.</p>
+</div>
+
+<div type="subchapter" id="chap_3.2">
+<head>La monkvanto</head>
+
+<p>Normale la var-valoroj en la socio kreskas de jaro al jaro, 
+kaj paralele la monkvanto. Tion devas reguligi la &scirc;tato, ne la 
+registaro. 
+</p>
+
+<p>La ebleco de la plimultigo de la mono povus esti komforta 
+rimedo de la registaro por solvi financajn problemojn de la 
+&scirc;tata bu&gcirc;eto per plua presado de monbiletoj. 
+</p>
+
+<p>Pro tio, la registaroj en la merkatekonomie orientitaj 
+landoj ne rajtas difini la monkvanton, sed tion faras la 
+respektiva centra banko. Ekzemple en FRG, la centra banko 
+<mentioned lang="de">Bundesbank</mentioned> estas sendependa 
+kaj ne submetita al iuj ordonoj. 
+Per le&gcirc;oj, &gcirc;i devas sekurigi la valutojn kaj sole decidi pri 
+la monkvanto uzata en la lando.
+</p>
+</div>
+
+<div type="subchapter" id="chap_3.3">
+<head>Kreditoj</head>
+
+<p>Kreditoj ne estas negativa&jcirc;oj en moderna popolekonomio. 
+Anka&ubreve; ekonomie sanaj kaj fortaj entreprenoj laboras helpe de 
+kreditoj kaj havas bankajn obligaciojn (komprenu: &scirc;uldojn). 
+Ili prenas la valorojn kreitajn de aliaj kaj deponitajn &ccirc;e la 
+banko en formo de &scirc;parsumoj ktp., kaj per tio ili ebligas al 
+si modernigojn kaj disvastigadojn de la produktado. Se ili 
+investas sencoplene , ili kapablas repagi la krediton plus la 
+respektivajn interezojn kaj samtempe plibonigi la propran 
+situacion rilate al profito kaj havo. La mono uzita kiel 
+kredito <mentioned>laboris</mentioned>.
+</p>
+
+<p>Esti&gcirc;as problemoj, se entrepreno venas en la situacion de 
+tro altaj &scirc;uldoj pro tro altaj kreditoj, a&ubreve; se &gcirc;i la monon 
+investas ne sufi&ccirc;e celkonscie , sed uzas &gcirc;in por &scirc;topi 
+truojn en la monbilanco. Tiam povas minaci nesolventeco (t.e. 
+la malkapablo pagi) kaj bankroto. Tamen, la alteco de la 
+obligacioj sole ne diras ion pri la ekonomia situacio de iu 
+entrepreno. La samaj kriterioj validas anka&ubreve; por privataj kaj 
+&scirc;tataj bu&gcirc;etoj.</p>
+</div>
+
+<div type="subchapter" id="chap_3.4">
+<head>Konvertebleco</head>
+
+<p>Fine de la 20a jarcento, fermita nacia merkato estas iluzio, 
+&ccirc;ar neniu &scirc;tato de la tero disponas pri &ccirc;iuj varoj kaj 
+resursoj. Jam delonge la ekonomio estas kaj agas internacie. 
+&Gcirc;i sekvas la bazan ekonomian le&gcirc;on, ke oni tie produktu, kie 
+la tuteco de la produktadfaktoroj estas la plej favora. Unu 
+konsekvenco el tio estas la komuna merkato de la &scirc;tatoj de la 
+E&ubreve;ropa Komunumo. Se iu lando ne akceptus tiun rekonon kaj 
+sekvus la principon de la a&ubreve;tarcio (tio signifas la totalan 
+memproduktadon de &ccirc;iuj varoj), &gcirc;i senespere postrestus.
+</p>
+
+<p>Tio validas ne nur por la komerco kun varoj, sed anka&ubreve; por 
+la kapitalmovi&gcirc;o. En FRG, kapitalaj partoprenoj de 
+eksterlandaj societoj en &ccirc;iu alteco estas tute normalaj, same la 
+aktivecoj de germanaj firmaoj en eksterlando. Pro la 
+senproblemaj internaciaj movi&gcirc;oj de komerco kaj kapitalo 
+necesas la konvertebleco de la valutoj. Tio signifas, ke la 
+propra mono povas esti inter&scirc;an&gcirc;ata en nelimigita alteco 
+kontra&ubreve; aliaj valutoj. La kurzoj difinas sin same la&ubreve; 
+ofertado kaj proponado, kaj ili respegulas la forton de 
+popolekonomio kaj ties valuto.</p>
+</div>  
+
+<div type="subchapter" id="chap_3.5">
+<head>Akcioj</head>
+
+<p>Ebla formo partopreni en kapitalo estas posedi akciojn, t.e. 
+partopren-biletoj je entrepreno. Bazo por tio estas la akcia 
+kompanio. Jam delonge posedas grandan entreprenon ne plu solulo 
+a&ubreve; unuopa familio . Hodia&ubreve; la entreprenoj estas proprieto de 
+pli granda grupo el homoj posedantaj tiajn partopren-biletojn. 
+Ekzemple Daimler-Benz, la plej granda germana firmao, estas 
+proprieto de &ccirc;irka&ubreve; 480000 akciuloj, el kiuj 130000 laboras 
+en la firmao. 
+</p>
+
+<p>Se la entrepreno akiris profiton, parto el &gcirc;i estas pagata 
+al la akciuloj kiel tiel nomata dividendo. Se la entrepreno 
+venas en la sferon de malprofito, la valoro de la akcioj 
+mallevi&gcirc;as, sekve la kapitalo de la posedanto malkreskas, 
+krome ne plu eblas pagi la dividendon.
+</p>
+</div>
+</div>
+  
+
+<div type="chapter" rend="doc" id="chap_4">
+<head>Interesoj de homgrupoj</head>
+
+<p>La partoprenantoj de la ekonomiaj procesoj havas diversajn 
+interesojn. Tion klare mopntras la komence citita ekzemplo de 
+bazaro: la vendanto celas akiri plejeble altan prezon, la 
+kliento &scirc;atas a&ccirc;eti plejeble malmultekoste.</p>
+
+<div type="subchapter" id="chap_4.1">
+<head>Kontrastoj inter la interesoj</head>
+
+<p>Anka&ubreve; en la sfero de la produktado oni rimarkas kontrastojn 
+de la interesoj. La labordonanto volas teni la salajrojn tiom 
+malaltaj, ke la efikeco de la entrepreno ne estas 
+endan&gcirc;erigata; la laborprenanto celas perlabori plej eble 
+multe da mono, sed krome havas intereson je la efikeco de la 
+entrepreno, kiu donas stabilecon de la laborloko. Sed la 
+multeco de interesoj ne limi&gcirc;as je la kontrasto inter kapitalo 
+kaj laboro, kiu ofte kaj false estas rigardata kiel sola 
+kontrasto en la ekonomia sfero. 
+</p>
+
+<p>La merkatekonomio nek kontestas tiajn interesodiferencojn, 
+nek provas ka&scirc;i ilin per ideologia harmonio. Kontra&ubreve;e, &gcirc;i 
+eliras de la premiso, ke tiu interbatalado estas fruktodona por 
+la ekonomia kaj politika sistemoj. 
+</p>
+
+<p>Por esprimi siajn interesojn kaj venki se necese, la 
+diversaj sociaj grupoj devas havi la eblecon organizi&gcirc;i 
+sendepende.
+</p>
+</div>
+
+<div type="subchapter" id="chap_4.2">
+<head>Rajto pri sindikatani&gcirc;o</head>
+
+<p>Grava kaj baza rajto en merkatekonomiaj socioj estas la rajto 
+pri sindikatani&gcirc;o. Tiu ne havas rilatojn al parlamentaj 
+aferoj, sed estas la libereco fondi interesogrupojn a&ubreve; 
+partopreni en ili. Neniu devas havi malavanta&gcirc;ojn pro aparteno 
+al intereso-asocio. Same, &ccirc;iu havas la rajton ne ani&gcirc;i al 
+asocio sen suferi diskriminaciojn (la t.n. negativa rajto pri 
+sindikatani&gcirc;o).</p>
+</div>
+
+<div type="subchapter" id="chap_4.3">
+<head>Socia bonfarto</head>
+
+<p>Kvankam la asocioj ofte argumentas per la celo de tutsocia 
+bonfarto, neniu kredas tion serioze. Kontra&ubreve;e, oni servas al 
+la tutsocia bonfarto per intereso-ekvilibro (pli bone: kompromiso), 
+&ccirc;ar la intereso-grupoj komprenble ofte konfliktas inter 
+si. &Ccirc;u kaj kiom oni sukcesas realigi la diversajn interesojn, 
+tio dependas ne laste de la politikaj strategioj kaj 
+influeblecoj. Multaj asocioj instalis en la &ccirc;efurbo specialajn 
+buroojn kun reprezentanoj por transigi siajn starpunktojn kaj 
+intencojn al la membroj de registaro kaj parlamento. (Tiu agado 
+okazas &dash; la&ubreve; bildo &dash; kvaza&ubreve; en la anta&ubreve;halo de la 
+parlamento, nomata "lobio", kaj pro tio tiuj homoj nomi&gcirc;as 
+<mentioned>lobiistoj</mentioned>).</p>
+</div>
+
+<div type="subchapter" id="chap_4.4">
+<head>La tarifkontraktoj</head>
+
+<p>La plej gravaj acocioj estas  unuflanke la sindikatoj, 
+aliflanke la asocioj de la entreprenistoj. Ili reprezentas, 
+parte kiel tegmentaj asocioj, la interesojn de la plejmulto el 
+la partoprenantoj en la ekonomiaj procesoj. 
+</p>
+
+<p>La sindikatoj kaj la asocioj de la entreprenistoj havas 
+apartan taskon: la intertraktadon kaj finan decidon pri la 
+tarifkontraktoj. 
+</p>
+
+<p>Tie la tarifpartneroj fiksas la salajrojn, la labortempon 
+kaj la laborkondi&ccirc;ojn por la laboruloj en certa tarifregiono. 
+Tiujn detalojn ne diktas la &scirc;tato, kiu nur determinas la tute 
+&gcirc;eneralan kadron, en kiu la tarifpartneroj estas a&ubreve;tonomaj 
+(la t.n. tarifa&ubreve;tonomio). Tio bazi&gcirc;as sur la penso, ke la 
+tarifpartneroj mem plej bone scias, kio estas farebla kaj 
+sencoplena. La subskribitaj tarifkontraktoj validas por &ccirc;iuj 
+laboruloj de la respektiva bran&ccirc;o, sendepende de ilia aparteno 
+al iu sindikato.
+</p>
+
+<p>Anka&ubreve; la tempo de ilia valideco estas konsistoparto de la 
+traktadoj. &Gcirc;enerale la labordonantoj deziras longajn validectempojn, 
+&ccirc;ar tio anka&ubreve; influas la salajrokostojn, kiuj 
+estas grava bazo por la planado kaj kalkulado. 
+</p>
+
+<p>Kontra&ubreve;e, la sindikatoj hezitas konsenti al longaj validectempoj, 
+ne sciante, kiel evoluos la prezaltigoj. Se dum la 
+validectempo la prezoj kreskas pli rapide ol la salajroj 
+fiksitaj en la tarifkontraktoj, la a&ccirc;etpovo de la laboruloj 
+malplii&gcirc;as. 
+</p>
+
+<p>Dum la validectempo, amba&ubreve; flankoj de la kontrakto estas 
+ligitaj al la le&gcirc;oj pri laboro: ili ne rajtas retiri&gcirc;i de la 
+kontrakto a&ubreve; komenci laborbatalon. Alivorte, ili devas obei al 
+la pacodevo. Se esti&gcirc;as perdoj de la a&ccirc;etpovo, amba&ubreve; 
+partneroj devas denove intertrakti kaj plibonigi la kontrakton.
+</p>
+
+<p>Post la la validecfino de kontrakto, la partneroj havas la 
+rajton uzi la rimdeojn de tarifdisputoj. La plej gravaj estas 
+la striko flanke de la laborprenantoj kaj la loka&ubreve;to por &ccirc;iuj 
+a&ubreve; kelkaj laboruloj flanke de la labordonantoj (la lasta estas 
+politike disputata kaj signifas tutan a&ubreve; partan fermon de la 
+entrepreno). Se laborprenantoj strikas, ili ne ricevas 
+salajron, &ccirc;ar ili ja ne donas preston (laborrezulton), sed 
+anstata&ubreve;e strikmonon de la sindikato, kondi&ccirc;e ke ili membras 
+en &gcirc;i. En la tarifkonfliktoj ofte staras la demando, kiu pli 
+longe eltenos: &ccirc;u la sindikato, kies strikmona kaso &scirc;rumpas, 
+ai &ccirc;u la labordonanto, kiu spertas malprofiton, &ccirc;ar la 
+produktado haltas.</p>
+</div>
+
+<div type="subchapter" id="chap_4.5">
+<head>Sociala partnereco</head>
+
+<p>&Ccirc;iuj pledantoj por la merkatekonomio havas la konvinkon, ke 
+la rajto je strikoj de laboruloj estas sociala kaj baza rajto 
+ne rezignebla. Samtempe ekzistas preska&ubreve; &ccirc;iuflanka konsento 
+pri tio, ke &dash; la&ubreve; popolekonomia vidpunkto &dash; la strikoj 
+dama&gcirc;as al &ccirc;iuj kaj samtempe malfortigas la pozicion en la 
+internacia konkurencado. Sekve amba&ubreve;, kaj la labordonantoj kaj 
+la laborprenantoj, strebas intertrakti sen striki. 
+</p>
+<p>Malgra&ubreve; la ne kontesteblaj interesokonfliktoj inter 
+sindikatoj kaj entreprenistaj asocioj, ofte ekzistas certagrada 
+kunlaboro, priskribata per la vorto <mentioned>sociala 
+partnereco</mentioned>. &Gcirc;i 
+anta&ubreve;kondi&ccirc;as la samrajtecon de amba&ubreve; partneroj.</p>
+</div>
+
+<div type="subchapter" id="chap_4.6">
+<head>Rajto pri kundecido</head>
+
+<p>La signifo de reprezentado de laborulaj interesoj montras sin 
+anka&ubreve; en la le&gcirc;e fiksita rajto pri kundecido. 
+</p>
+
+<p>En FRG, la le&gcirc;o pri entreprena konstitucio preskribas, ke 
+en &ccirc;iu entrepreno kun minimume kvin laboruloj ekzistu
+entreprenkonsilio elektenda de la laboruloj. &Gcirc;i devas partopreni en 
+entreprenaj decidoj, ekzemple dum novdungado, maldungado, 
+fiksigo de la labortempo, decido pri laborkondi&ccirc;oj, planado de 
+feriaj tempoj kaj en multo alia. 
+</p>
+
+<p>En la kontrolkonsilioj de grandegaj entreprenoj sidas per 
+50% la reprezentantoj de la laboruoj kaj kundecidas sur tiu 
+gvidnivelo. 
+</p>
+
+<p>La estraranoj de la grandegaj entreprenoj estas vokitaj al 
+tiu posteno per vo&ccirc;donado en la kontrolkonsilio kaj bezonas 
+minimume du trionojn de la vo&ccirc;oj. Pro tio ne eblas neglekti la 
+interesojn de la laboruloj.</p>
+</div>
+</div>
+  
+<div type="chapter" rend="doc" id="chap_5">
+<head>Sociala Orienti&gcirc;o</head>
+
+<p>Multaj vizitantoj povis konvinki&gcirc;i, ke la socio kun merkatekonomio 
+(ekzmple en FRG) ne estas tia brutala
+<mentioned>kubut-socio</mentioned>, 
+en kiu &ccirc;iu estas la lupo de la alia. Kontra&ubreve;e, &gcirc;i disponigas 
+rigardendajn energion kaj finacajn rimedojn por certigi adekvatan 
+partoprenon en la socia vivo por tiuj, kiuj ne kapablas 
+al tio el propra iniciato, tutegale el kiuj ka&ubreve;zoj.
+</p>
+
+<div type="subchapter" id="chap_5.1">
+<head>La kvoto de socialaj servoj</head>
+
+<p>Tiu kvoto estas la procentoj de socialaj prestoj kompare al 
+&ccirc;iuj kreitaj varoj kaj servoj (do kompare al la brutta nacia 
+produkto), En FRG dum 1987 &gcirc;i havis la valoron de 31,4%, tio 
+signifas, ke &ccirc;iu tria perlaborita monero estas elspezita por 
+socialaj celoj.</p>
+</div>
+  
+<div type="subchapter" id="chap_5.2">
+<head>Senlaboreco</head>
+
+<p>Granda problemo en la industriaj &scirc;tatoj estas la 
+senlaboreco. Kiu pensis, ke la eksaj socialismaj landoj evitos 
+&gcirc;in, nun spertas la kontra&ubreve;on. La Senlaboreco esti&gcirc;as &ccirc;efe 
+el du ka&ubreve;zoj: unue pro raciigoj, kiuj &scirc;parigas laborlokojn, 
+due pro malpli granda postulado je la produktoj a&ubreve; pro 
+konkurencado pere de importitaj produktoj.
+</p>
+
+<p>La kvoto de senlaboreco en multaj landoj, ekzemple anka&ubreve; 
+en FRG, varias inter 8 kaj 10 procentoj de la laborkapabluloj. 
+El ili, unu triono estas senlabora malpli longe ol 3 monatoj, 
+alia triono inter 3 kaj 12 monatoj, kaj la lasta triono pli ol 
+unu jaron. Krome oni devas aldoni, ke parale kreskis la nombro 
+de la laborkapabluloj, tio signifas, ke anka&ubreve; esti&gcirc;is novaj 
+laborlokoj.
+</p>
+
+<p>Oni povus eviti la senlaborecon, se oni plulaborigus la
+liberigitojn fare de raciigo, kvankam iliaj prestoj ne necesas. 
+Sed tio kondukus al plialtigo de la produktprezoj, kiuj sekve 
+ne estus konurenckapablaj sur la internacia merkato. La sekvo 
+estus la bankroto de la entrepreno, pro kio la senlaboreco 
+despli kreskus. 
+</p>
+
+<p>El tiuj ka&ubreve;zoj, oni devas aliri la problemon alimaniere, 
+nome per sociala sekurigo de la senlaboruloj, por defendi ilin 
+kontra&ubreve; la socialaj sekvoj de la perdo de laborloko, kaj per 
+aktiva politiko sur la labormerkato.</p>
+</div>
+
+<div type="subchapter" id="chap_5.3">
+<head>Asekuro kontra&ubreve; senlaboreco</head>
+
+<p>En FRG ekzistas deviga asekuro kontra&ubreve; senlaboreco, al kiu 
+devas pagi &ccirc;iuj laboruloj kaj entreprenoj. 
+</p>
+
+<p>Se asekurito fari&gcirc;is senlabora, li ricevas dum unu jaro 
+senlaborulan monon, en alteco de 68% (sen infano: 63%) de la 
+lasta neta salajro. Tiu pago okazas sendepende de la bezono, do 
+anka&ubreve;, se li disponas pri aliaj enspezoj. La enspezoj de le 
+geedza partnero anka&ubreve; ne ludas rolon. Pri la bezono al helpo 
+oni demandas nur en la dua kaj tria jaro, dum kiuj li 
+anstata&ubreve;e ricevas la t.n. senlaborulan helpon en alteco de 58% 
+(sen infano: 56%) de la lasta neta salajro. Kalkulinte la 
+pagendan monon, la laboroficejo kontrolas, &ccirc;u la brutta 
+salajro ne superis la limon de 6300 DM. Tio estas la limo, &gcirc;is 
+kiom la laboruloj devas pagi kontribuojn al la asekuro kontra&ubreve; 
+senlaboreco. Por eviti misuzon, la laborulo devas atendi 12 
+semajnojn anta&ubreve; ol ricevi monon, se li mem kulpas je la &ccirc;eso 
+de sia laborkontrakto. Alikaze &gcirc;i tuj validas. 
+</p>
+
+<p>Por eviti, ke la entreprenoj maldungas laborulojn pro mallonga 
+krizo en la entrepreno, ekzistas la ebleco de la tiel 
+nomata mallongigita laboro, t.e. la mallongigo de la labortempo 
+kun samtempa malaltigo de la salajro. Tiukaze la laboroficejo 
+pagas specialan monon. Simile ekzistas speciala mono por 
+konstrulaboristoj, se ili ne povas labori pro longda&ubreve;ra 
+malbona vetero.
+</p>
+</div>
+
+<div type="subchapter" id="chap_5.4">
+<head>Aktiva politiko sur la labormerkato</head>
+
+<p>Krom la anta&ubreve;e menciitaj helpoj, la registaro(j) praktikas 
+politikon aktivan sur la labormerkato kun la celo, alproksimigi 
+laborulojn kaj produktadon tiom, ke idealka&ubreve;ze ekzistas nek 
+senlaboreco nek liberaj laborlokoj. Tion oni faras per konsilado pri 
+profesioj kaj la oferto de plu- kaj transkvalifikaj 
+kursoj. Ofte la laboroficejo finance subtenas la partoprenon en 
+tiaj kvalifikadoj, por ke la laboruloj povu plibonigi siajn 
+konojn kaj kapablojn la&ubreve; la bezonoj de la merkato.
+</p>
+
+<p>Specialan helpon oni anka&ubreve; ofertas al tiuj regionoj, kie la 
+labormerkata situacio estas malpli bona ol avera&gcirc;e, ekzemple 
+&ccirc;ar tie ekzistas malpli da industrio a&ubreve; entreprenoj de servado
+(t.n. la&ubreve;strukture malfortaj regionoj). Krome la &scirc;tato 
+subtenas la fondon de novaj entreprenoj plenigantaj iujn truojn 
+sur la merkato a&ubreve; ofertantaj metiistajn servojn
+</p>
+</div>
+
+<div type="subchapter" id="chap_5.5">
+<head>Memstaruloj</head>
+
+<p>En FRG ekzistas pli ol tri milionoj da memstaruloj inkluzive 
+de kunhelpantaj familianoj, alivorte, &ccirc;iu na&ubreve;a laborkapablulo 
+estas eta entreprenisto. (La aliaj ok perlaboras sian monon 
+kiel laboristoj, oficistoj kaj &scirc;tatoficistoj). La memstaruloj, 
+speciale endan&gcirc;erigitaj per la merkat&scirc;anceli&gcirc;oj, ricevas 
+specialajn subvenciojn sub la titolo "politiko por la 
+mezklasuloj"). Cetere, oni kvalifikas tri kvaronojn el &ccirc;iuj 
+profesilernantoj en tiaj malgrandaj kaj mezgrandaj entreprenoj.
+</p>
+</div>  
+
+<div type="subchapter" id="chap_5.6">
+<head>Sociala justeco</head>
+
+<p>La sociala merkatekonomio orienti&gcirc;as je la gvidmodelo de 
+sociala justeco, sed ne je modelo de sociala egaleco. 
+Kontra&ubreve;e, &gcirc;i eliras de la aserto, ke la sociala neegaleco 
+estas la impulso de la ekonomio proceso. Kiu pli multe prestas, 
+tiu plimulte ricevu kaj estu pli ri&ccirc;a la&ubreve; posedo kaj 
+konsumado. La sociala justeco tamen evitu, ke iuj membroj de la 
+socio ekonomie pere&ubreve;.
+</p>
+
+<p>La sociala justeco montri&gcirc;as resume en tio, ke &ccirc;iu havas 
+la eblecon adekvate partopreni en la socia vivo, ke neniu estu 
+ekster la limoj de la socio, kaj ke &ccirc;iu persono laboranta por 
+la socio (ekzemple anka&ubreve; per edukado de infanoj) estus 
+rekompencata fare de la socio.
+</p>
+
+<p>La &scirc;tato postulas de la civitanoj diversgradajn 
+kontribuojn por la financado de la komunumaj taskoj per 
+impostoj pli altaj el la monujoj de la pli bone salajratoj.
+</p>
+</div>
+ 
+<div type="subchapter" id="chap_5.7">
+<head>Redistribuado</head>
+
+<p>Krome la &scirc;tato celkonforme redistribuas la salajrojn kaj havojn. 
+Per tio &gcirc;i financas precipe programojn por plibonigi la 
+vivkondi&ccirc;ojn de la sociale malfortaj homoj. 
+</p>
+
+<p>Ekzemple, la &scirc;tato disponigas lo&gcirc;monon, t.e. regulan 
+subvencion, se la elspezoj por adekvata lo&gcirc;ejo estas tro altaj 
+relative al la familiaj enspezoj. Samcele la &scirc;tato disponigas 
+stipendion apud la senpaga studado.
+</p>
+</div>
+
+<div type="subchapter" id="chap_5.8">
+<head>Sociala helpo</head>
+
+<p>Malgra&ubreve; la bonstato, tamen ekzistas socialaj dilemoj. Sed 
+neniam iu senrimeda homo ne ricevas helpon. Se li ne disponas 
+pri enspezoj kaj ne havas iun subtenanton, la &scirc;tato ebligas 
+ricevon de sociala helpo, kiu anka&ubreve; inkluzivas la prizorgadon 
+kaze de malsano.
+</p>
+</div>
+
+<div type="subchapter" id="chap_5.9">
+<head>Maldungo</head>
+
+<p>En la entreprenoj, la normala etoso ne estas frosta, kiel 
+kelkaj asertas. Kvankam la laborprenantoj vivas kun la risko 
+esti maldungataj, la le&gcirc;oj malhelpas arbitrecon.
+</p>
+
+<p>Por maldungi laborprenanton, devas ekzisti objektiva ka&ubreve;zo 
+pruvebla anta&ubreve; la laborju&gcirc;ejo. La entreprena konsilio (kiel 
+reprezentanto de la laboruloj) anta&ubreve;e devas kontroli kaj 
+konsenti la maldungon. Certaj grupoj de personoj (handikapuloj, 
+maljunuloj, gravedulinoj, membroj de entreprena konsilio) estas 
+la&ubreve;le&gcirc;e protektataj kontra&ubreve; maldungo.
+</p>
+</div>
+</div>
+
+<div type="reference">
+<p>Konsultita fakvortaro: <name>F.Munniksma</name> (red.): 
+  <title>Internacia komerca-ekonomika vortaro en dekunu
+  lingvoj</title>, &Ccirc;ina Esperanto-eldonejo, Pekino 1990.
+</p>
+</div>
+
+</body>
+</text>
+</TEI.2>

@@ -1,0 +1,182 @@
+/* HTML-elementoj */
+
+@font-face {
+  font-family: LiberationSerif;
+  font-weight: normal;
+  font-style: normal;
+  src: url(../ttf/LiberationSerif-Regular.ttf);
+}
+
+body {
+  font-family: "LiberationSerif";
+  color=#800000;
+}
+
+h1,h2,h3,h4 {
+ /*  color: #008080;  */
+}
+
+.author {
+  color: #800000; 
+  font-size: 24pt; 
+  margin: 2mm
+}
+
+.titlePart {
+  color: #800000; 
+  font-size: 16pt; 
+  margin: 2mm
+}
+
+.mainTitle {
+  color: #008080; 
+  margin: 10mm; 
+  /* font-variant: small-caps */
+}
+
+.docImprint {
+  color: #800000
+}
+
+.contentTitle {
+  margin-left: 3cm
+}
+
+.content {
+  margin-left: 2cm; 
+  width: 13cm
+}
+
+li.content {
+  margin-bottom: 5mm
+}
+
+.head {
+  color: #008080; 
+  /* font-variant: small-caps;
+  font-family: fantasy;
+   */
+  margin-bottom: 2em;
+}
+
+.titolbildo { 
+  height: 100%;
+}
+
+.p {
+  text-indent: 1em; 
+  margin-bottom: 0.5em; 
+  margin-top: 0em; 
+  text-align: justify
+}
+
+.first_p {
+  margin-bottom: 0.5em; 
+  margin-top: 2em; 
+  text-align: justify
+}
+
+.big {
+  /* font-variant: small-caps;  */
+  font-size: 20pt
+}
+
+.lg_left {
+  margin-top: 0.5mm; 
+  margin-bottom: 0.5em; 
+  margin-left: 10em
+}
+
+.lg_center {
+  text-align: center;
+  margin-top: 0.5mm; 
+  margin-bottom: 0.5em
+}
+
+.note {
+  font-style: italic
+}
+
+.maroon {
+  font-family: "LiberationSerif";
+  color: #800000;
+}
+
+.teal {
+/*  color: #008080 */
+}
+
+.center { 
+  text-align: center;
+}
+
+.left { 
+  text-align: left;
+}
+
+.sxildo { 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 3em;
+  width: 70%;
+  max-width: 500px;
+}
+
+.initialo { 
+  float: left;
+  margin-bottom: 0;
+  width: 50%;
+  max-height: 400px;
+}
+
+.initialo_Cx { 
+  float: left;
+  margin-bottom: 0;
+  width: 40%;
+  margin-right: 10%;
+  max-height: 400px;
+  position: relative;
+  top: -0.3em;
+}
+
+.initialo_Gx { 
+  float: left;
+  margin-bottom: 0;
+  width: 40%;
+  margin-left: 5%;
+  margin-right: 5%;
+  max-height: 400px;
+  position: relative;
+  top: -1em;
+}
+
+
+.initialo_Jx { 
+  float: left;
+  margin-bottom: 0;
+  width: 40%;
+  max-height: 400px;
+  position: relative;
+  top: -0.8em;
+}
+
+
+.initialo_Sx { 
+  float: left;
+  margin-bottom: 0;
+  width: 40%;
+  max-height: 400px;
+  position: relative;
+  top: -0.6em;
+}
+
+
+.initialo_Z { 
+  float: left;
+  margin-bottom: 0;
+  width: 40%;
+  max-height: 400px;
+  position: relative;
+  top: -1em;
+}

@@ -1,0 +1,24 @@
+
+.note { font-style: italic }
+
+.header { font-variant: small-caps; font-size: 90%; font-weight: bold; 
+         margin-bottom: 0; height: 1em  }
+
+.header_left { display: block; float: left; text-align: left; margin: 0; }
+
+.header_center { display: block; float: right; text-align: right; margin: 0; }
+
+.footer { font-variant: small-caps; font-size: 90%; font-weight: bold;
+        margin-top: 0; text-align: right;}
+
+.signed { text-align: right }
+
+.center { text-align: center }
+
+
+
+
+
+
+
+
