@@ -1,0 +1,348 @@
+<project name="Esperanto-verkoj" default="" basedir=".">
+    <description>
+       Esperantaj verkoj, reguloj por transformi ilin al HTML kaj krei
+       enhavoliston.
+    </description>
+
+ 
+   <property name="xml" location="xml"/>
+   <property name="tmp" location="tmp"/>
+   <property name="bin" location="bin"/>
+   <property name="xsl" location="xsl/epub"/>
+   <property name="epub" location="epub"/>
+   <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
+
+   <target name="preparo">
+     <tstamp/>
+     <tstamp>
+        <format property="pub.date" pattern="yyyy-MM-dd"/>
+      </tstamp>
+      <tstamp>
+         <format property="pub.time" pattern="HH:mm:ss"/>
+      </tstamp>
+   </target>
+
+   <target name="biblio" description="kreas HTML-paghojn el biblio.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="biblio"/>
+      </exec>
+   </target>
+
+   <target name="merkato" description="kreas HTML-paghojn el merkato.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="merkato"/>
+      </exec>
+   </target>
+
+   <target name="fundamento-html" description="kreas HTML-paghojn el fundamento.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="fundamento"/>
+      </exec>
+   </target>
+
+
+   <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
+      <property name="dir" location="fundamento-epub"/>
+      <property name="fonto" location="${xml}/fundamento.xml"/>
+      <property name="destino" location="${epub}/fundamento.epub"/> 
+
+      <delete dir="${dir}" includes="*.*"/>
+      <echo message="application/epub+zip" file="${dir}/mimetype"/>
+     
+      <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
+        style="${xsl}/epub_container.xsl">
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.opf"
+        style="${xsl}/fundamento_epub_opf.xsl">
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.ncx"
+        style="${xsl}/teixlite_epub_ncx.xsl">
+      </xslt>
+  
+      <exec executable="${bin}/xml2epub.pl" logError="true">
+        <arg value="fundamento"/>
+      </exec>
+
+     <!-- <zip destfile="${epub}/fundamento.epub" basedir="fundamento_epub" 
+        update="false" includes="mimetype" compress="false" duplicate="fail"/ -->
+
+      <zip destfile="${destino}" 
+        update="false" compress="true" duplicate="fail">
+        <zipfileset dir="${dir}" includes="META-INF/*.xml *.xhtml *.opf *.ncx"/>
+      </zip>
+
+      <zip destfile="${destino}" basedir="." update="true" 
+        includes="
+          css/fundamento_epub.css 
+          css/teixlite_epub.css
+          otf/OFL.txt
+          otf/LinLibertine_Bd-4.1.5.otf  
+          otf/LinLibertine_Re-4.7.5.otf 
+          otf/LinLibertine_It-4.2.6.otf" 
+        keepcompression="true" compress="true" duplicate="fail"/>
+
+      <zip destfile="${destino}" basedir="${dir}" 
+        update="true" includes="mimetype" keepcompression="true" compress="false" duplicate="fail"/>
+
+      <java jar="${epub-kontrolo}" fork="true">
+         <arg value="${destino}"/>
+      </java>
+
+   </target>
+
+
+   <target name="senchesa-epub" description="kreas EPUB-libron el senchesa.xml">
+      <property name="dir" location="senchesa-epub"/>
+      <property name="fonto" location="${xml}/senchesa.xml"/>
+      <property name="destino" location="${epub}/senchesa.epub"/> 
+      
+      <delete dir="${dir}" includes="*.*"/>
+      <echo message="application/epub+zip" file="${dir}/mimetype"/>
+     
+      <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
+        style="${xsl}/epub_container.xsl">
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.opf"
+        style="${xsl}/senchesa_epub_opf.xsl">
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.ncx"
+        style="${xsl}/senchesa_epub_ncx.xsl">
+      </xslt>
+  
+      <exec executable="${bin}/xml2epub.pl" logError="true">
+        <arg value="senchesa"/>
+      </exec>
+
+     <!-- <zip destfile="${epub}/fundamento.epub" basedir="fundamento_epub" 
+        update="false" includes="mimetype" compress="false" duplicate="fail"/ -->
+
+      <zip destfile="${destino}" 
+        update="false" compress="true" duplicate="fail">
+        <zipfileset dir="${dir}" includes="META-INF/*.xml *.xhtml *.opf *.ncx"/>
+      </zip>
+
+      <zip destfile="${destino}" basedir="." 
+        update="true" 
+        includes="css/senchesa_epub.css css/teixlite_epub.css ttf/LiberationSerif-Regular.ttf" 
+        keepcompression="true" compress="true" duplicate="fail"/>
+
+      <zip destfile="${destino}" basedir="senchesa" 
+        update="true" includes="img/*.gif img/*.jpg" keepcompression="true" compress="true" duplicate="fail"/>
+
+      <zip destfile="${destino}" basedir="${dir}" 
+        update="true" includes="mimetype" keepcompression="true" compress="false" duplicate="fail"/>
+
+      <java jar="${epub-kontrolo}" fork="true">
+         <arg value="${destino}"/>
+      </java>
+
+   </target>
+
+
+<!--
+   <target name="rilatoj-fonto" description="kreas fontodosieron rilatoj.xml el Revo-indeksoj">
+     <property name="voko_dir" location="${user.dir}/../voko/cfg/"/>
+     <property name="revo_inx_dir" location="${user.dir}/../tests/tmp/inx_tmp"/>
+
+     <property name="fakoj" location="${voko_dir}/fakoj.xml"/>
+
+     <property name="revo_inx_ord" location="${revo_inx_dir}/inx_ord.xml"/>
+     <property name="revo_tez_ret" location="${revo_inx_dir}/tez_ret.xml"/>
+
+
+     <property name="rilatoj-trd" location="${tmp}/rilatoj-trd2.xml"/>
+     <property name="rilatoj-fak" location="${tmp}/rilatoj.fak"/>
+
+     <property name="celdosiero" location="${xml}/rilatoj.xml"/>
+
+     <xslt in="${revo_inx_ord}" out="${rilatoj-trd}"
+       style="${xsl}/rilatoj_trd.xsl">
+     </xslt>
+ 
+     <copy file="${fakoj}" tofile="${rilatoj-fak}">
+       <filterchain>
+         <linecontainsregexp>
+           <regexp pattern="&lt;/?fak"/>
+         </linecontainsregexp>
+       </filterchain>
+     </copy>
+
+
+     <concat destfile="${celdosiero}">
+      <header filtering="no" trimleading="yes">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+          &lt;rilatoj&gt;
+      </header>
+      <footer filtering="no" trimleading="yes">
+        &lt;/rilatoj&gt;
+      </footer>
+
+      <fileset file="${rilatoj-fak}" />
+      <fileset file="${revo_tez_ret}" />
+      <fileset file="${rilatoj-trd}" />
+
+      <filterchain>
+         <linecontains negate="yes">
+           <contains value="?xml"/>
+         </linecontains>
+      </filterchain>
+   </concat>
+
+ 
+   </target>
+
+-->
+
+  <target name="rilatoj-fonto" description="kreas fontodosieron rilatoj.xml el Revo-indeksoj">
+     <property name="voko_dir" location="${user.dir}/../voko/cfg/"/>
+     <!-- property name="revo_inx_dir" location="${user.dir}/../tests/tmp/inx_tmp"/ -->
+     <property name="revo_inx_dir" location="${user.dir}/../tmp/inx_tmp"/>
+
+     <property name="fakoj" location="${voko_dir}/fakoj.xml"/>
+
+     <property name="revo_indekso" location="${revo_inx_dir}/indekso.xml"/>
+     <property name="rilatoj-fak" location="${tmp}/rilatoj.fak"/>
+     <property name="rilatoj-tmp" location="${tmp}/rilatoj-tmp.xml"/>
+
+     <property name="celdosiero" location="${xml}/rilatoj.xml"/>
+
+     <xslt in="${revo_indekso}" out="${rilatoj-tmp}"
+       style="${xsl}/rilatoj_fonto.xsl">
+     </xslt>
+ 
+     <copy file="${fakoj}" tofile="${rilatoj-fak}">
+       <filterchain>
+         <linecontainsregexp>
+           <regexp pattern="&lt;/?fak"/>
+         </linecontainsregexp>
+       </filterchain>
+     </copy>
+
+
+     <concat destfile="${celdosiero}">
+      <header filtering="no" trimleading="yes">&lt;?xml version="1.0" encoding="utf-8"?&gt;
+          &lt;rilatoj&gt;
+      </header>
+      <footer filtering="no" trimleading="yes">
+        &lt;/rilatoj&gt;
+      </footer>
+
+      <fileset file="${rilatoj-fak}" />
+      <fileset file="${rilatoj-tmp}" />
+
+      <filterchain>
+         <linecontains negate="yes">
+           <contains value="?xml"/>
+         </linecontains>
+      </filterchain>
+   </concat>
+
+ 
+   </target>
+
+
+
+   <target name="rilatoj-test" description="kreas EPUB-dosierojn el rilatoj.xml, sed ne pakas ilin"
+              depends="preparo">
+
+      <property name="dir" location="rilatoj-epub"/>
+      <!-- tio estas kopio de tez_ret.xml el Revo -->
+      <property name="fonto" location="${xml}/rilatoj.xml"/>
+      <property name="destino" location="${epub}/rilatoj.epub"/> 
+
+      <mkdir dir="${dir}"/>   
+      <delete dir="${dir}" includes="*.*"/>
+
+      <exec executable="${bin}/xml2epub.pl" logError="true">
+        <arg value="rilatoj"/>
+      </exec>
+   </target>
+
+
+   <target name="rilatoj-epub" description="kreas EPUB-libron el rilatoj.xml"
+              depends="preparo">
+
+      <property name="dir" location="rilatoj-epub"/>
+      <!-- tio estas kopio de tez_ret.xml el Revo -->
+      <property name="fonto" location="${xml}/rilatoj.xml"/>
+      <property name="destino" location="${epub}/rilatoj.epub"/> 
+
+      <mkdir dir="${dir}"/>   
+      <delete dir="${dir}" includes="*.*"/>
+      <echo message="application/epub+zip" file="${dir}/mimetype"/>
+
+      <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
+        style="${xsl}/epub_container.xsl">
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.opf"
+        style="${xsl}/rilatoj_epub_opf.xsl">
+        <param name="datetime" expression="${pub.date} ${pub.time}"/>
+        <param name="date" expression="${pub.date}"/>
+      </xslt>
+
+      <xslt in="${fonto}" out="${dir}/content.ncx"
+        style="${xsl}/rilatoj_epub_ncx.xsl">
+      </xslt>
+
+      <exec executable="${bin}/xml2epub.pl" logError="true">
+        <arg value="rilatoj"/>
+      </exec>
+
+      <zip destfile="${destino}" 
+        update="false" compress="true" duplicate="fail">
+        <zipfileset dir="${dir}" includes="META-INF/*.xml *.xhtml *.opf *.ncx"/>
+      </zip>
+
+      <zip destfile="${destino}" basedir="." update="true" 
+        includes="
+          css/rilatoj_epub.css 
+          otf/OFL.txt
+          otf/LinLibertine_Bd-4.1.5.otf  
+          otf/LinLibertine_Re-4.7.5.otf 
+          otf/LinLibertine_It-4.2.6.otf" 
+        keepcompression="true" compress="true" duplicate="fail"/>
+
+      <zip destfile="${destino}" basedir="${dir}" 
+        update="true" includes="mimetype" keepcompression="true" compress="false" duplicate="fail"/>
+
+      <java jar="${epub-kontrolo}" fork="true">
+         <arg value="${destino}"/>
+      </java>
+
+
+   </target>
+
+
+   <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="butiko"/>
+      </exec>
+   </target>
+
+   <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
+     <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
+       logError="true">
+     </exec>
+
+     <xslt in="${tmp}/verkolisto.xml" out="verkoj.html"
+           style="${xsl}/verkolisto.xsl"/>
+   </target>
+
+
+</project>
+   
+
+
+
+
+
+
+
+
+
+
+
