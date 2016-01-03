@@ -222,7 +222,7 @@
      </copy>
 
 
-     <concat destfile="${celdosiero}">
+     <concat destfile="${celdosiero}" encoding="UTF-8">
       <header filtering="no" trimleading="yes">&lt;?xml version="1.0" encoding="utf-8"?&gt;
           &lt;rilatoj&gt;
       </header>
