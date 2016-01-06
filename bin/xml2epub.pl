@@ -1,5 +1,8 @@
 #!/usr/bin/perl
 
+#use Time::Piece;
+#use POSIX qw(strftime);
+
 $VOKO = "/home/revo/voko";
 $BASE_DIR = "/home/revo/verkoj";
 #$XSL = "$VOKO/bin/xslt.sh";
@@ -7,6 +10,14 @@ $XSL = "/home/revo/verkoj/bin/xslt.sh";
 $XSL2 = "/usr/local/bin/xsltproc";
 $XSL_DIR = "$BASE_DIR/xsl/epub";
 $XML_DIR = "$BASE_DIR/xml";
+
+#$tm=localtime;
+#my ($day,$month,$year)=($tm->mday,$tm->month,$tm->year);
+#my $date = localtime->strftime("%Y-%m-%d");
+
+($sec,$min,$hour,$mday,$mon,$year,$wday,$yday,$isdst) = localtime();
+my $date = sprintf("%04d-%02d-%02d", ($year+1900),($mon+1),$mday);
+print "...$date\n";
 
 if (not $ARGV[0] or $ARGV[0] eq '-h' or $ARGV[0] eq '--help') {
     help_screen();
@@ -66,6 +77,10 @@ open XML, "$XML_DIR/$verko.xml" or die "$!\n";
 #	    $text =~ s/(?:<hr>)?\s*<\/body>/<hr>$str<\/body>/is;
 	    
 $text =~ s/xmlns=""//g;
+$text =~ s/<!--\s*$hodiau$\s*-->/$date/g;
+	    use Time::localtime;
+	    $tm=localtime;
+	    my ($day,$month,$year)=($tm->mday,$tm->month,$tm->year);
 
 	    open HTML, ">index.xhtml" or die "$!\n";
 	    print HTML $text;

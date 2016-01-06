@@ -213,7 +213,7 @@
        style="${xsl}/rilatoj_fonto.xsl">
      </xslt>
  
-     <copy file="${fakoj}" tofile="${rilatoj-fak}">
+     <copy file="${fakoj}" tofile="${rilatoj-fak}" encoding="UTF-8">
        <filterchain>
          <linecontainsregexp>
            <regexp pattern="&lt;/?fak"/>
