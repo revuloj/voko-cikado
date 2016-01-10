@@ -18,7 +18,7 @@
 XSLT-stildifinoj por tez_ret.xml (tezauro de Reta Vortaro).
 Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
-(c) 2010-2012 che Wolfram DIESTEL
+(c) 2010-2016 ĉe Wolfram DIESTEL
     licenco GPL 2.0
 
     klarigoj de strukturiloj:
@@ -165,7 +165,7 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
 <!-- ________________________________________________________________ -->     
 
-<!-- tie ĉi komenciĝas transformado de rialtoj.xml                    -->
+<!-- tie ĉi komenciĝas transformado de rilatoj.xml                    -->
 <!-- ________________________________________________________________ -->   
 
 
@@ -319,7 +319,7 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
 <xsl:template match="super">
   <xsl:if test="r">
-    <xsl:text> &#x2197;</xsl:text>
+    <xsl:text> &#x2197;&#xFE0E;</xsl:text>
     <xsl:call-template name="refs"/>
   </xsl:if>
 </xsl:template>
@@ -327,7 +327,7 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
 <xsl:template match="sub">
   <xsl:if test="r">
-    <xsl:text> &#x2198;</xsl:text>
+    <xsl:text> &#x2198;&#xFE0E;</xsl:text>
     <xsl:call-template name="refs"/>
   </xsl:if>
 </xsl:template>
@@ -367,13 +367,15 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 <xsl:template name="refs">
   <xsl:text>&#160;</xsl:text>
   <xsl:for-each select="r">
-    <!-- evitu duoblajhojn; pli sekura estus kompari kapvortojn, ĉar mrk-oj foje diferencas, 
+    <!-- evitu duoblajhojn en referencoj; pli sekura estus kompari kapvortojn, ĉar mrk-oj foje diferencas, 
          sed kapvortoj samas; estas malfacile tio per xslt 1, eble uzu xslt 2 por tio kun grupiga elemento -->
     <xsl:if test="not(following-sibling::r[@c=current()/@c])"> 
     
       <xsl:variable name="nod" select="//tez/nod[@mrk=current()/@c or @mrk2=current()/@c]"/>
 
       <xsl:choose>
+  
+	<!-- la referenccelo troviĝas kiel nodo en la dosiero -->
         <xsl:when test="$nod">
           <xsl:variable name="file">
             <xsl:call-template name="file-name">
@@ -384,7 +386,12 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
             <xsl:apply-templates select="$nod/k"/>
           </a>
         </xsl:when>
-        <xsl:otherwise>
+	
+	<!-- artikolo estas referencita, sed ne senco / nodo de la dosiero, provu trovi la unuan nodon
+	de tiu artikolo anstataŭe do -->
+
+	<xsl:when test="not(contains(@c,'.'))">
+
           <xsl:if test="$warn-about-dead-refs='true'">
             <xsl:message> <!-- eble skribu tion en eraro-dosieron por prezenti al redaktantoj -->
               <xsl:text>nesolvita referenco de </xsl:text>
@@ -393,20 +400,51 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
               <xsl:value-of select="@c"/>
             </xsl:message>
           </xsl:if>
-          <span class="celmanko">
-            <xsl:text>[?</xsl:text>
-            <xsl:variable name="first" select="substring-before(@c,'.')"/>
-            <xsl:variable name="rest" select="substring-after(@c,'.')"/>
-            <xsl:choose>
-              <xsl:when test="contains($rest,'0')">
-                 <xsl:value-of select="concat(substring-before($rest,'0'),$first,substring-after($rest,'0'))"/>
-              </xsl:when>
-              <xsl:otherwise>
+
+	  <xsl:variable name="nod_1" select="//tez/nod[substring-before(@mrk,'.')=current()/@c][1]"/>
+	  <xsl:variable name="file">
+	    <xsl:call-template name="file-name">
+	      <xsl:with-param name="str" select="$nod_1/k"/>
+	    </xsl:call-template>
+	  </xsl:variable>
+	  <a class="tez" href="{$file}#{translate($nod_1/@mrk,'.','_')}">
+	    <xsl:apply-templates select="$nod_1/k"/>
+	  </a>
+
+	</xsl:when>
+
+	<!-- la referenco estas tute "morta" ... -->
+	<xsl:otherwise>
+	  <xsl:variable name="first" select="substring-before(@c,'.')"/>
+	  <xsl:variable name="rest" select="substring-after(@c,'.')"/>
+
+	  <xsl:if test="$warn-about-dead-refs='true'">
+            <xsl:message> <!-- eble skribu tion en eraro-dosieron por prezenti al redaktantoj -->
+              <xsl:text>nesolvita referenco de </xsl:text>
+              <xsl:value-of select="../../@mrk"/>
+              <xsl:text> al </xsl:text>
+              <xsl:value-of select="@c"/>
+            </xsl:message>
+	  </xsl:if>
+
+<!--
+	  <xsl:choose>
+	    <xsl:when test="contains($rest,'0')">
+	      <span class="celmanko">
+		<xsl:text>[?</xsl:text>
+		<xsl:value-of select="concat(substring-before($rest,'0'),$first,substring-after($rest,'0'))"/>
+		<xsl:text>?]</xsl:text>
+	      </span>
+	    </xsl:when>
+	    <xsl:otherwise>
+	      <span class="celmanko">
+                <xsl:text>[?</xsl:text>
                 <xsl:value-of select="@c"/>
-              </xsl:otherwise>
-            </xsl:choose>
-            <xsl:text>?]</xsl:text>
-          </span>
+		<xsl:text>?]</xsl:text>
+	      </span>
+	    </xsl:otherwise>
+	  </xsl:choose>
+-->
         </xsl:otherwise>
       </xsl:choose>
       
