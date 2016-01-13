@@ -30,7 +30,7 @@
 </xsl:template>
 
 
-<xsl:template match="drv[count(snc)=1]|subdrv[count(snc)=1]">
+<xsl:template match="drv[count(snc)=1]">
   <!-- kreu ununuran nodon por derivajhoj kun nur unu senco -->
   <xsl:if test=".//tezrad or .//ref or key('retro',@mrk) or key('retro',snc/@mrk)">
     <nod mrk="{@mrk}">
@@ -63,22 +63,12 @@
 </xsl:template>
 
 
-<xsl:template match="drv[count(snc)!=1]|subdrv[count(snc)!=1]|snc|subsnc">
+<xsl:template match="drv[count(snc)!=1]|snc|subsnc">
   <!--  <xsl:if test="tezrad or ref or key('retro',@mrk)"> -->
 
     <!-- kreu novan nodon -->
     <nod>
       <xsl:attribute name="mrk">
-        <!-- xsl:choose>
-          <xsl:when test="@mrk">
-            <xsl:value-of select="@mrk"/>
-          </xsl:when>
-
-          <xsl:otherwise>
-            <xsl:value-of select="ancestor::node()[@mrk][1]/@mrk"/><xsl:text>.</xsl:text>
-            <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/>
-          </xsl:otherwise>
-        </xsl:choose -->
         <xsl:call-template name="tez-mrk-n"/>
       </xsl:attribute>
       <k>
@@ -109,6 +99,15 @@
 </xsl:template>
 
 
+<xsl:template match="snc" mode="number-of-ref-snc">
+  <xsl:number from="drv|subart" level="any" count="snc"/>
+</xsl:template>
+
+<xsl:template match="subsnc" mode="number-of-ref-snc">
+  <xsl:number from="drv|subart" level="multiple" count="snc|subsnc"
+    format="1.a"/>
+</xsl:template>
+
 <xsl:template name="tez-mrk-n">
    <xsl:choose>
       <xsl:when test="@mrk">
@@ -117,7 +116,8 @@
 
       <xsl:otherwise>
          <xsl:value-of select="ancestor::node()[@mrk][1]/@mrk"/><xsl:text>.</xsl:text>
-         <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/>
+	 <xsl:apply-templates mode="number-of-ref-snc" select="."/> 
+         <!-- <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/> -->
       </xsl:otherwise>
    </xsl:choose>
 </xsl:template>

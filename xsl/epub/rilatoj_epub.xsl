@@ -207,6 +207,8 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
   <p class="ero">
 
     <!-- kapvorto kun uzo/fako -->
+<xsl:text>
+</xsl:text>
     <strong>
       <xsl:for-each select="k">
         <xsl:call-template name="kapvorto"/>
