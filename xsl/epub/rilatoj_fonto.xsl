@@ -74,7 +74,8 @@
       <k>
         <xsl:if test="count(../snc)+count(../subsnc) &gt; 1">
           <xsl:attribute name="n">
-            <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/>
+	    <xsl:call-template name="tez-snc-n"/>
+<!--            <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/> -->
           </xsl:attribute>
         </xsl:if>
         <xsl:apply-templates select="ancestor-or-self::node()[self::art or self::drv][kap][1]/kap"/>
@@ -121,6 +122,12 @@
       </xsl:otherwise>
    </xsl:choose>
 </xsl:template>
+
+<xsl:template name="tez-snc-n">
+  <xsl:apply-templates mode="number-of-ref-snc" select="."/>
+  <!-- <xsl:number from="drv|subart" level="multiple" count="snc|subsnc" format="1.a"/> -->
+</xsl:template>
+
 
 <!-- xsl:template match="snc|subsnc"/ --> <!-- ignoru sen @mrk -->
 

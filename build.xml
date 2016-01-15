@@ -274,6 +274,8 @@
       <delete dir="${dir}" includes="*.*"/>
       <echo message="application/epub+zip" file="${dir}/mimetype"/>
 
+      <!-- prepari la xhtml-dosierojn -->
+
       <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
         style="${xsl}/epub_container.xsl">
       </xslt>
@@ -291,9 +293,17 @@
       <exec executable="${bin}/xml2epub.pl" logError="true">
         <arg value="rilatoj"/>
       </exec>
+      
+      <!-- kunpaki chion lau metodo http://inasmuch.as/2010/12/10/ant-for-epub/ -->
 
-      <zip destfile="${destino}" 
-        update="false" compress="true" duplicate="fail">
+      <zip destfile="${destino}.mimetype"
+	   compress="false"
+	   encoding="UTF-8">
+	<fileset dir="${dir}" includes="mimetype" />
+      </zip>
+
+      <zip destfile="${destino}.zip" 
+        update="false" compress="true" level="9" encoding="UTF-8" duplicate="fail">
         <zipfileset dir="${dir}" includes="META-INF/*.xml *.xhtml *.opf *.ncx"/>
       </zip>
 
@@ -306,15 +316,34 @@
           otf/LinLibertine_It-4.2.6.otf" 
         keepcompression="true" compress="true" duplicate="fail"/>
 
-      <zip destfile="${destino}" basedir="${dir}" 
-        update="true" includes="mimetype" keepcompression="true" compress="false" duplicate="fail"/>
+
+      <zip destfile="${destino}" update="true" keepcompression="true" encoding="UTF-8">
+	<zipfileset src="${destino}.mimetype" />
+	<zipfileset src="${destino}.zip" />
+      </zip>
+
+      <delete file="${destino}.mimetype" />
+      <delete file="${destino}.zip" />
+
+      <!-- kontrolu chu en orod -->
 
       <java jar="${epub-kontrolo}" fork="true">
          <arg value="${destino}"/>
       </java>
-
-
    </target>
+
+
+   <target name="rilatoj-kontrolo" description="kontrolas korektecon de EPUB-libro el rilatoj.epub"
+              depends="preparo">
+
+      <property name="dir" location="rilatoj-epub"/>
+      <property name="destino" location="${epub}/rilatoj.epub"/>
+
+      <java jar="${epub-kontrolo}" fork="true">
+         <arg value="${destino}"/>
+      </java>
+   </target>
+
 
 
    <target name="butiko" description="kreas HTML-paghojn el butiko.xml">

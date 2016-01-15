@@ -46,20 +46,20 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
 <!-- xsl:variable name="fakoj">../cfg/fakoj.xml</xsl:variable -->
 
-<xsl:variable name="lower" select="'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz'"/>  
+<xsl:variable name="lower" select="'abcĉdefgĝhĥijĵklmnoprsŝtuŭvz-( '"/> <!-- ignoru "-", " ", "(" -->  
 <xsl:variable name="upper" select="'ABCĈDEFGĜHĤIJĴKLMNOPRSŜTUŬVZ'"/>
 <xsl:variable name="root" select="/"/>
 
 <!-- esperanta vortindekso -->
 
-<xsl:key name="eoletters" match="//nod" use="translate(substring(k,1,1),$lower,$upper)"/>
+<xsl:key name="eoletters" match="//nod" use="substring(translate(k,$lower,$upper),1,1)"/>
 <xsl:key name="eowords" match="//nod" use="k"/>
 
 
 <xsl:template name="file-name">
   <xsl:param name="str"/>
 
-  <xsl:variable name="letter" select="translate(substring($str,1,1),$lower,$upper)"/>
+  <xsl:variable name="letter" select="substring(translate($str,$lower,$upper),1,1)"/>
 
   <xsl:choose>
     <xsl:when test="$letter='Ĉ'">
@@ -90,6 +90,8 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
 <xsl:template name="wordindex">
   <xsl:param name="nletter"/>
+
+  <!-- trakurante ĉiujn majusklojn -->
   <xsl:variable name="letter" select="substring($upper,$nletter,1)"/>
 
   <xsl:if test="$letter">
@@ -97,6 +99,7 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
       <xsl:with-param name="firstletter" select="$letter"/>
     </xsl:call-template>
 
+    <!-- rikuro al mi mem por sekva litero -->
     <xsl:call-template name="wordindex">
       <xsl:with-param name="nletter" select="1+$nletter"/>
     </xsl:call-template>
@@ -208,6 +211,7 @@ Transformreguloj por krei XHTML-dokumenton por EPub libro.
 
     <!-- kapvorto kun uzo/fako -->
 <xsl:text>
+
 </xsl:text>
     <strong>
       <xsl:for-each select="k">

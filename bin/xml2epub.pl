@@ -40,58 +40,27 @@ unless (-f "$XML_DIR/$verko.xml") {
 mkdir($verko."-epub");
 chdir($verko."-epub");
 mkdir("META-INF");
-#if ($verko eq 'fundamento') {
-	print "${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.xhtml\n";
-	`${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.xhtml`; 
-#} else {
-#	# Biblio estas tro granda por "xt"
-#        print "${XSL2} $XSL_DIR/$stilo.xsl $XML_DIR/$verko.xml > index.xhtml\n";
-#        `${XSL2} $XSL_DIR/$stilo.xsl $XML_DIR/$verko.xml > index.xhtml`;
-#}
+
+print "${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.xhtml\n";
+`${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.xhtml`; 
 
 
-#### patch_html();
-
+patch_html();
 
 
 sub patch_html {
 
-open XML, "$XML_DIR/$verko.xml" or die "$!\n";
-    while (<XML>) {
-	if ($_ =~ m/\044Id:.*,v\s+([\d\.\s\/\:]+).*\044/) {
-	    $ver = $1;
-	    $ver =~ s/\s+$//;
-	    
-	    open HTML, "index.xhtml" or die "$!\n";
-	    $text = join('',<HTML>);
-	    close HTML;
+    open HTML, "index.xhtml" or die "$!\n";
+    $text = join('',<HTML>);
+    close HTML;
 	
-#	    $str = "<address><a href=\"../xml/$verko.xml\">$verko.xml</a> $ver; ".
-#	    "stilo: <a href=\"../xsl/teixlite.xsl\">teixlite.xsl</a>";
+    $text =~ s/xmlns=""//g;
+    $text =~ s/<!--\s*\$hodiau\$\s*-->/$date/g;
+    
+    open HTML, ">index.xhtml" or die "$!\n";
+    print HTML $text;
+    close HTML;
 	    
-#	    unless ($stilo eq "teixlite") {
-#		$str .=  ", <a href=\"../xsl/$stilo.xsl\">$stilo.xsl</a>";
-#	    }
-#	    $str .= "</address>\n";
-	    
-#	    $text =~ s/(?:<hr>)?\s*<\/body>/<hr>$str<\/body>/is;
-	    
-$text =~ s/xmlns=""//g;
-$text =~ s/<!--\s*$hodiau$\s*-->/$date/g;
-	    use Time::localtime;
-	    $tm=localtime;
-	    my ($day,$month,$year)=($tm->mday,$tm->month,$tm->year);
-
-	    open HTML, ">index.xhtml" or die "$!\n";
-	    print HTML $text;
-	    close HTML;
-	    
-	    close XML;
-
-	    last;
-	}
-    }
-
 }
 
 
