@@ -32,7 +32,7 @@
 
 <xsl:template match="drv[count(snc)=1]">
   <!-- kreu ununuran nodon por derivajhoj kun nur unu senco -->
-  <xsl:if test=".//tezrad or .//ref or key('retro',@mrk) or key('retro',snc/@mrk)">
+<!--  <xsl:if test=".//tezrad or .//ref or key('retro',@mrk) or key('retro',snc/@mrk)"> -->
     <nod mrk="{@mrk}">
       <xsl:if test="snc/@mrk">
         <xsl:attribute name="mrk2">
@@ -57,7 +57,7 @@
       <xsl:call-template name="ekz2"/>
       <xsl:call-template name="lst2"/>
     </nod>
-  </xsl:if>
+<!--  </xsl:if> -->
 
   <xsl:apply-templates select="snc/subsnc"/>
 </xsl:template>
