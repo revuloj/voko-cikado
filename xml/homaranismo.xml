@@ -1,0 +1,1665 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+<!ENTITY dro "D-ro">
+
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+
+]>
+
+<!-- $Id: homaranismo.xml,v 1.2 2016/10/25 17:37:59 revo Exp $ -->
+<!-- 
+  $Log: homaranismo.xml,v $
+  Revision 1.2  2016/10/25 17:37:59  revo
+  teixlite-igis peomojn de Zam
+
+  Revision 1.1  2016/10/25 16:21:24  revo
+  +homaranismo
+
+-->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>Paroladoj</title>
+      <author>L. L. Zamenhof</author>
+      <respStmt>
+        <resp>registritaj de</resp>
+        <name>HIROTAKA Masaaki</name>
+      </respStmt>
+      <respStmt>
+        <resp>adaptitaj al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: homaranismo.xml,v 1.2 2016/10/25 17:37:59 revo Exp $</edition>
+    </editionStmt>
+    <extent>104 kB</extent>
+    <publicationStmt>
+      <p>Preparita por TEI-formato de <name>Wolfram Diestel</name></p>
+    </publicationStmt>
+    <sourceDesc>
+     <p>La kruda tekstaro estis prenita el retejo de Edmund Grimley Evans,
+      kiu ricevis ilin surdiskete de
+      <name>HIROTAKA Masaaki</name>.
+      Estas inidikite kun ĉiu teksto, el kiu surpapera fonto la
+      teksto estis registrita elektronike inter 1992.
+     (Vidu anka&ubreve; la redaktan noton!)</p>
+    </sourceDesc>
+  </fileDesc>
+
+    <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kiel unu provteksto de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstojn <name>HIROTAKA Masaaki</name> prenis
+      el diversaj fontoj kiel gazetoj.</p> 
+      <p>Pro la mallongeco kaj egala karaktero de la
+      eseoj, mi decidis disponigi ilin en komuna dosiero.</p>
+      <p>La unuopaj tekstoj estas entenitaj en elementoj
+      &lt;text rend="doc" n="markilo"&gt;, kiuj siavice estas
+      grupigitaj per elemento &lt;group&gt;. Konvertante ilin
+      al HTML mi rekomendas meti &ccirc;iun artikolon en
+      propran dosieron. La enhavtabelo aperu kiel parto
+      de la &gcirc;enerala titolpa&gcirc;o. Por faciligi tion
+      la koncerna elemento &lt;front&gt; ricevis atributon 
+      rend="index".</p>
+      <p>Citilojn mi ankoraŭ ne konvertis, indas ilin signi per elemento &lt;q&gt;
+      aŭ per &lt;mentioned&gt; la&ubreve; la senco.</p>
+    </editorialDecl>    
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+
+   <front rend="index">
+    <titlePage>
+      <docTitle>
+        <titlePart type="main">Artikoloj pri hilelismo kaj homaranismo</titlePart>
+      </docTitle>
+      <byline>
+        de <docAuthor>L. L. Zamenhof</docAuthor>
+      </byline>
+      <docImprint>
+        registritaj de 
+        <name>HIROTAKA Masaaki</name>
+      </docImprint>
+    </titlePage>
+  </front>
+
+  <group>
+
+<!-- ##############  Dogmoj de Hilelismo  ############## -->
+
+    <text rend="doc" id="hilelismo_1">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Dogmoj de Hilelismo 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  el "ruslanda esperantisto", 1906, n-ro 1;
+	  la redakcio de "ruslanda esperantisto" ricevis ĉi
+	  artikolon en formo de letero de la "unua rondeto hilelista";
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+<div type="preface">	
+<p>La senĉesa reciproka batalado de la diversaj gentoj kaj religioj en la 
+vasta Rusuja regno, la kriantaj maljustaĵoj kaj perfortaĵoj, kiuj ĉiutage 
+kaj sur ĉiu paŝo estas farataj de la plimulto de loĝantaro kontraŭ la 
+malplimulto, malgraŭ ke tiu ĉi lasta havas tian saman moralan rajton pri 
+sia natura patrujo, kiel la unua, la englutema celado de unuj popoloj 
+kontraŭ aliaj, en ĉiuj anguloj de ilia komuna patrujo, &dash; ĉio tio ĉi jam 
+longe devigis multajn serĉi ian neŭtralan fundamenton, sur kiu homoj de 
+malsamaj gentoj kaj religioj &dash; almenaŭ ĉiuj filoj de sama patrujo &dash; 
+povus komunikiĝadi inter si pace kaj frate, sen reciprokaj kolizioj, malamo 
+kaj maljusteco.   Tiun ĉi neŭtralan fundamenton prezentas la malsupre 
+donitaj dogmoj de la "hilelismo".
+</p><p>La principa ideo de la hilelismo naskiĝis antaŭ dek iaroj, sed ĝi 
+havis iom alian karakteron kaj estis destinita tiam speciale por unu homa 
+grupo, por reguligi la rilatojn de tiu ĉi grupo al la ĉirkaŭanta mondo: 
+nur poste ĝi akceptis karakteron absolutan, sendependan de ĉiuj gentaj kaj 
+religiaj apartecoj, kiel sole justa reguligo de la reciprokaj rilatoj inter 
+ĉiuj gentoj kaj religioj.   Tamen longan tempon la iniciatoroj de tiu ideo 
+ne kuraĝis precize formuli siajn dogmojn, timante, ke tio, kio teorie 
+ŝajnis bona, en la praktiko eble montriĝos neplenumebla. 
+</p><p>Sed en la fino de la pasinta somero okazis io, kio neniigis ĉiujn 
+dubojn.   En Aŭgusto 1905 en la franca urbo Boulogne-sur-Mer havis lokon la 
+unua tutmonda kongreso de esperantistoj, kies sukceso superis ĉiujn 
+atendojn.   Pli ol mil homoj, kiuj alveturis el la plej diversaj landoj de la 
+tuta mondo kaj apartenis al 22 diversaj popoloj kaj al la plej diversaj 
+religioj kaj filozofiaj sistemoj, en la daŭro de tuta semajno vivis kune en 
+la plej sincera amikeco kaj frateco, parolis inter si ekskluzive nur en 
+neŭtrala internacia lingvo, konfesis religiajn principojn nur 
+neŭtralehomajn.   Kiu aŭdis la multenombrajn parolojn kaj diskutojn en la 
+vasta kaj plenigita konstruaĵo de la kongreso, kiu ĉeestis en la teatraj 
+prezentadoj, en kiuj la aŭskultantoj kaj plenumantoj prezentis per si 
+miksaĵon de ĉiuj gentoj kaj popoloj, kiu vidis tiun plenan senĝenecon kaj 
+tiun kortuŝantan fratecon, kiu regis inter ĉiuj partoprenantoj de la 
+kongreso, tiu al si mem ne kredis, ke ĉiuj tiuj homoj ankoraŭ hieraŭ estis 
+tute fremdaj unuj al la aliaj, ke ilin unuigis nur neŭtrala lingvo kaj ke 
+tiuj kelkaj semajnoj, kiujn ĉiu el ili dediĉis por la lernado de la fable 
+facila neŭtrala lingvo, faris miraklon kaj, deŝirante neniun de lia natura 
+patrujo, lingvo aŭ religio, donis al homoj de plej diversaj gentoj kaj 
+religioj la eblon vivi inter si en la plej paca kaj sincera frateco. 
+</p><p>La mirinda sukceso de la Bulonja kongreso konvinkis la iniciatorojn de 
+la hilelismo, ke absoluta justeco, egaleco kaj frateco inter la popoloj en la 
+praktiko estas plene ebla Tial ili decidis uzi la plej proksiman tutmondan 
+kongreson de la esperantistoj en Ĝenevo en Septembro 1906, por proponi al 
+ĉiuj amikoj de interpopola justeco, unuiĝi en apartan grupon, kiu inter la 
+amikoj de internacia lingvo prezentus apartan sekcion.
+<note type="footnote" rend="*1">Oni ne devas intermiksi la hilelismon
+kun la esperantismo!   Ambaŭ ideoj 
+estas tre parencaj inter si, sed tute ne identaj.   Oni povas esti bonega 
+esperantisto kaj tamen kontraŭulo de la hilelismo.</note>  
+</p><p>Sed la kurantaj fariĝoj en la patrujo de la unuaj hilelistoj devigas 
+ilin elpaŝi kun sia projekto multe pli frue, ol ili intencis.   Nun, kiam 
+ĉio ĉe ni vekiĝas al nova vivo, kiam la societa konscienco komencas doni 
+signojn de sia ekzistado, kiam aperas espero, ke anstataŭ premantoj kaj 
+prematoj ni eble baldaŭ havos nur "homojn" kaj "regnanojn", &dash; nun por ni 
+pli ol por ĉiu alia nacio estas necese fiksi difinitajn politike-religiajn 
+dogmojn, kiuj donus la eblon al ĉiu regnano de nia diversgenta patrujo, vivi 
+en plena paco kun ĉiuj aliaj regnanoj, ne altrudante al ili per rajto de 
+pugno siajn pure familiajn idealojn.   En la nuna kriza momento, kiam nia 
+patrujo bezonas ĉiujn siajn fortojn, estas necese enkonduki en la vivon 
+tiajn dogmojn, kiuj permesus al ĉiuj diversgentaj kaj diversreligiaj 
+regnanoj, ĉesigi siajn reciprokajn malpacon kaj kalkulojn kaj sincere 
+unuiĝi por la savo de nia komuna patrujo, kiu devas kompreneble fariĝi fine 
+propraĵo de ĉiuj siaj regnanoj kaj ne sole de unu gento aŭ religio. 
+Kvankam la grandega plimulto de niaj samregnanoj estas ankoraŭ tute ne 
+preparita por nia ideo kaj nia voĉo longan tempon ankoraŭ restos voĉo 
+krianta en dezerto, estas tamen grave, ke niaj principoj estu konataj al niaj 
+samregnanoj, por ke tiuj malmultaj, kiuj serĉas intergentan justecon, sciu, 
+en kio ĝi laŭ nia opinio konsistas.   Jen estas la kaŭzo, kial la 
+hilelistoj decidis publikigi siajn dogmojn jam nun kaj proponi al ĉiuj 
+amikoj de intergenta egaleco kaj frateco, kiel ajn malgrandnombraj ili estas, 
+aliĝi al ili.<note type="footnote" rend="*2">Ĝis la fondo de centra organo
+hilelista, la aprobantoj de la ideo de 
+hilelismo estas petataj, sendi sian adreson al la redakcio de tiu gazeto, kiu 
+afable publikigis nian nunan leteron. (Adreso: Redakcio de la gazeto 
+"Ruslanda Esperantisto", S.-Peterburgo, B. Podjaĉeskaja, d. No. 24, loĝ. 
+12.)</note>
+</p>
+   <signed>
+     <date>Januaro 1906.</date>
+   </signed>  
+ </div>
+ 
+<div type="declaration">   
+  <head>Antaŭa klarigo</head>
+<p>La malsupre donitaj dogmoj de la hilelismo havas signifon nur principan; 
+la definitiva teksto de tiuj ĉi dogmoj estos fiksita nur poste, en la unua 
+komuna kongreso de la hilelistoj.
+</p>
+</div>
+
+<div type="declaration">
+  <head>Esenco de la Hilelismo</head>
+<p>La hilelismo estas instruo, kiu, ne deŝirante la homon de lia natura 
+patrujo, nek de lia lingvo, nek de lia religio, donas al li la eblon eviti 
+ĉian malverecon kaj kontraŭparolojn en siaj naciareligiaj principoj kaj 
+komunikiĝadi kun homoj de ĉiuj lingvoj kaj religioj sur fundamento 
+neŭtrale-homa, sur principoj de reciproka frateco, egaleco kaj justeco. 
+</p>
+</div>
+
+<div type="declaration">
+  <head>Fina celo de la Hilelismo<note type="footenote" rend="*3">Rimarko: Sian nomon la hilelismo ricevis laŭ la nomo de la antikva 
+Palestina saĝulo Hillel, kies modifikita principo estas akceptita kiel bazo 
+por la religio de la hilelistoj.   Hillel estis samtempulo de Jesuo kaj 
+mortis, kiel prezidanto de la sinedrio, ĉirkaŭ 10 jarojn post li.)</note></head>
+
+<p>La hilelistoj esperas, ke per konstanta reciproka komunikiĝado sur la 
+bazo de neŭtrala lingvo kaj neŭtralaj religiaj principoj kaj moroj la homoj 
+iam kunfandiĝos en unu neŭtralehoman popolon, sed tio ĉi fariĝados iom 
+post iom, nerimarkate kaj sen ia rompado. 
+</p>
+</div>
+
+
+<div type="declaration">
+  <head>Deklaracio de Hilelisto</head> 
+<p>Kiam oni min demandas, kiu mi estas, kiaj estas miaj naciaj konvinkoj, 
+religiaj principoj, mia celado kaj idealoj, mi respondas: "Mi estas 
+hilelisto."   Tio ĉi signifas, ke mi estas homo, kiu sin gvidas per la 
+sekvantaj dogmoj: 
+</p>
+<p n="1" rend="1.">
+Mi estas homo, kaj por mi ekzistas nur idealoj pure homaj; ĉiajn 
+idealojn kaj celadon gente-naciajn mi rigardas nur kiel grupan egoismon kaj 
+hommalamon, kiuj pli aŭ malpli frue devas malaperi kaj kies malaperon mi 
+devas akceladi laŭ mia povo. 
+</p>
+<p n="2" rend="2.">Mi kredas, ke ĉiuj popoloj estas egalaj kaj mi taksas ĉiun homon nur 
+laŭ lia persona valoro kaj agoj, sed ne laŭ lia deveno.   Ĉian ofendadon 
+aŭ persekutadon de homo por tio, ke li naskiĝis de alia gento, kun alia 
+lingvo aŭ religio ol mi, mi rigardas kiel barbarecon. 
+</p>
+<p n="3" rend="3.">Mi kredas, ke ĉiu lando apartenas ne al tiu aŭ alia gento, sed plene 
+egalrajte al ĉiuj ĝiaj loĝantoj, kian ajn lingvon aŭ religion ili havas; 
+la intermiksadon de la interesoj de lando kun la interesoj de tiu aŭ alia 
+gento, lingvo aŭ religio mi rigardas kiel restaĵon de la tempoj barbaraj, 
+kiam ekzistis nur rajto de pugno kaj glavo. 
+</p>
+<p n="4" rend="4.">Mi kredas, ke en sia familia vivo ĉiu homo havas plenan, naturan kaj 
+nedisputeblan rajton, paroli kian lingvon aŭ dialekton li volas kaj konfesi 
+kian religion li volas, sed en komunikiĝado kun homoj de alia deveno li 
+devas, kiom ĝi estas ebla, uzadi lingvon neŭtrale-homan kaj vivi laŭ la 
+principoj de religio neŭtrale-homa.   Ĉiun celadon de unu homo, altrudi al 
+aliaj homoj sian lingvon aŭ religion, mi rigardas kiel barbarecon. 
+</p>
+<p n="5" rend="5.">Mia patrujo mi nomas tiun regnon, en kiu mi naskiĝis aŭ en kiu mi por 
+ĉiam enloĝiĝis.   Tiu parto de la regno, en kiu mi pasigis mian infanecon, 
+aŭ kiu estas loĝata precipe de mia gento, povas esti por mi pli kara, ol 
+ĉiuj aliaj partoj; sed nomi mia patrujo unu pecon de mia aŭ tiom pli de 
+fremda regno pro tio, ke tie pleje loĝas aŭ iam regis mia gento, mi neniam 
+devas, ĉar tio ĉi ne sole kondukas al konstantaj disputoj, sed ĝi estus 
+ankaŭ kontraŭa al la morala leĝo pri la sengenteco de la tero.   Se tiu 
+parto de la patrujo, en kiu mi loĝas, laŭ sia geografia karaktero aŭ laŭ 
+siaj moroj, tro multe diferencas de la aliaj partoj, tiam &dash; por eviti 
+malkompreniĝon &dash; mi povas al la demando pri mia patrujo nomi aparte tiun 
+parton de la regno, en kiu mi loĝas, sed mi devas tiam ĝin nomi mia patruja 
+lando, por ke estu klare, ke mi rigardas ĝin ne kiel mian ekskluzivan 
+patrujon, sed nur kiel parton de mia patrujo.   Sed nek mian tutan patrujon, 
+nek ĝiajn apartajn partojn mi devas nomi per la nomo de ia gento, sed mi 
+devas ilin nomi nur per nomo neŭtralegeografia, kiel estas farate en ĉiuj 
+plej novaj regnoj; sed se mia regno aŭ lando ne havas ankoraŭ neŭtralan 
+nomon, mi devas ĉiam &dash; almenaŭ en parolado kun hilelistoj &dash; nomi mian 
+regnon kaj landon per nomo hilelista, kiu konsistas el la nomo de ilia ĉefa 
+urbo kun la aldono de la finiĝo "regno" por la tuta patrujo kaj "lando" por 
+la nomo de ĝia parto. 
+</p><p>Ekzemploj: Svisujo, Belgujo, Aŭstrujo, Kanado, Meksiko, Peruo; 
+Peterburgregno, Parizregno; Algerio, Varsovilando. 
+</p>
+<p n="6" rend="6.">Patriotismo aŭ servado al la patrujo mi nomas nur la servadon al la 
+bono de ĉiuj miaj samregnanoj, de kia ajn deveno, lingvo aŭ religio ili 
+estas; la servadon speciale al la gentaj interesoj, lingvo aŭ religio de tiu 
+loĝantaro, kiu en la lando prezentas la plimulton, mi neniam devas nomi 
+patriotismo.   Konfomme al la principo, ke unuj regnanoj, eĉ se ili 
+prezentas en la lando grandegan plimulton, ne havas moralan rajton altrudi 
+sian lingvon aŭ religion al la aliaj regnanoj, mi devas penadi, ke en mia 
+lando ĉiu gento havu la rajton fondi por siaj membroj lernejojn kaj aliajn 
+institucioin kun sia lingvo kaj sia religio, se ili tion ĉi deziras, sed ke 
+en ĉiuj publikaj institucioj, ne destinitaj sole por unu gento, regu nur 
+lingvo neŭtrale-homa kaj festoj neŭtrale-homaj aŭ regnaj.   Tiel longe, 
+kiel la atingo de tio ĉi estos ne ebla, mi devas penadi, ke en mia lando 
+ekzistu lernejoj kaj aliaj institucioj kun lingvo neŭtrale-homa por tiuj 
+regnanoj, kiuj ne volas aŭ ne povas uzi instituciojn kun tiu aŭ alia genta 
+lingvo; kaj de ĉia reciproka batalado de lingvoj aŭ religioj pro regado mi 
+devas teni min flanke, ĉar ĝi estas nur batalado inter unu maljustaĵo kaj 
+alia. 
+</p>
+<p n="7" rend="7.">Mi konscias, ke en tiuj landoj, kie la loĝantaro estas plimalpli 
+unugenta, ĝi longan tempon ne komprenos la maljustecon de regado de unu 
+lingvo aŭ religio super la aliaj kaj ĝi per ĉiuj fortoj batalados kontraŭ 
+la egalrajtigo de ĉiuj lingvoj kaj religioj, kaj la defendantojn de tiu ĉi 
+egalrajtigo ĝi persekutados kaj superĵetados per koto.   Sed mi neniam 
+konfuziĝos per tiu ĉi persekutado, memorante, ke mi batalas pro absoluta 
+vero kaj justeco, ke nenia popolo povas scii, kio fariĝos kun ĝi morgaŭ, 
+ke la egalrajtigo de ĉiuj lingvoj kaj religioj forigos la kaŭzon de ĉiuj 
+militoj kaj malpacoj inter la popoloj, ke ĉia ago kontraŭ la devizo "la 
+regno por la regnanoj" kaj ĉia perfortaĵo de unuj regnanoj kontraŭ aliaj 
+restas ĉiam perfortaĵo, eĉ se ĝi estas farata de grandega plimulto 
+kontraŭ malgrandega malplimulto, kaj ke fortika feliĉo de la homaro estas 
+ebla nur tiam, kiam por ĉiuj popoloj kaj landoj ekzistos justeco egala kaj 
+absoluta, dependanta nek de loko, nek de tempo, nek de forto, kaj kiam en 
+ĉiu regno ekzistos nur homoj kaj regnanoj kaj ne gentoj. 
+</p>
+<p n="8" rend="8.">Mia nacio mi nomas la tutecon de ĉiuj homoj, kiuj loĝas mian patrujon, 
+de kia ajn deveno, lingvo aŭ religio ili estas; sed al mia nacia nomo mi 
+devas ĉiam aldoni la vorton "hilelisto", por montri, ke mi alkalkulas min al 
+mia nacio ne en senco ŝovinista.   La aron de ĉiuj homoj, kiuj havas saman 
+devenon kiel mi, mi nomas mia gento .   En parolado kun hilelistoj mi devas 
+eviti la konfuzajn vortojn "nacio" aŭ "popolo" kaj anstataŭ ili mi devas 
+ĉiam uzi la precizajn hilelistajn esprimojn "regnanaro" (= loĝantaro de unu 
+regno) aŭ "landanaro" (= loĝantaro de unu lando).   Sed nek mian 
+regnanaron, nek mian landanaron mi devas nomi per la nomo de ia gento, mi 
+devas ĉiam nomi ilin &dash; almenaŭ en parolado kun hilelistoj &dash; per la 
+neŭtrale-geografia nomo de mia regno aŭ lando.   Se mia interparolanto 
+deziras scii ne sole al kiu politike-geografia, sed ankaŭ al kiu etnografia 
+grupo mi apartenas, tiam mi aparte nomas al li mian genton, lingvon, religion 
+k.t.p. 
+</p><p>Ekzemploj: Sviso-hilelisto, Peterburgregna hilelisto, Varsovilanda 
+hilelisto. 
+</p>
+<p n="9" rend="9.">Mia lingvo mi nomas tiun lingvon, kiun mi persone plej bone scias kaj 
+plej volonte parolas, sed al la nomo de tiu ĉi lingvo mi devas ĉiam aldoni 
+la vorton "hilelista", por montri, ke mian lingvon mi ne rigardas kiel mian 
+idolon kaj ke mia idealo estas lingvo neŭtrale-homa.   En ĉiuj hilelistaj 
+kunvenoj kaj, kiom eble, ankaŭ en ĉiuj privataj komunikiĝoj kun hilelistoj 
+mi devas uzadi la lingvon hilelistan.   En mia familia vivo mi povas uzadi 
+kiun lingvon mi volas, sed mi devas ĝin nomi ne mia nacia, sed nur mia 
+lingvo familia.   Kiam oni demandas min pri mia lingvo nacia, mi devas 
+respondi: "la ekzistadon de lingvoj naciaj mi ne konfesas, ĉar ĉiu nacio 
+nuntempa parolas per multaj lingvoj; sed mia lingvo genta estas jena (nome 
+tiu lingvo aŭ dialekto, kiun en mia patrujo parolas la plimulto de mia 
+gento, se eĉ mi mem tute ne posedus tiun ĉi lingvon)." 
+</p><p>Rimarko: Ĉar en la nuna tempo ekzistas nur unu neŭtrala lingvo, nome 
+Esperanto, tial la hilelistoj akceptas ĝuste ĝin; tamen ili rezervas al si 
+la rajton anstataŭigi iam poste tiun ĉi lingvon per ia alia lingvo, se tio 
+ĉi montriĝos utila. 
+</p>
+<p n="10" rend="10.">Mia religio mi nomas tiun religion, en kiu mi naskiĝis, aŭ al kiu mi 
+estas oficiale alskribita; sed al ĝia nomo mi devas ĉiam aldoni la nomon 
+"hilelista", por montri, ke mi konfesas ĝin laŭ la religiaj principoj de la 
+hilelismo, kiuj konsistas en jeno: 
+</p>
+<p n="10a" rend="a)">Sub la nomo "Dio" mi komprenas tiun al mi nekompreneblan plej altan 
+Forton, kiu regas la mondon kaj kies esencon mi havas la rajton klarigi al mi 
+tiel, kiel diktas al mi mia saĝo kaj koro. 
+</p><p n="10b" rend="b)">Kiel fundamentan leĝon de mia religio mi rigardas la regulon "agu 
+kun aliaj tiel, kiel vi deziras ke aliaj agu kun vi, kaj aŭskultu ĉiam la 
+voĉon de via konscienco"; ĉion alian en mia religio mi rigardas nur kiel 
+legendojn aŭ kiel religiajn morojn, kiuj estas enkondukitaj de homoj, por 
+enporti en la vivon difinitan programon kaj spiritan varmon, kaj kies 
+plenumado aŭ neplenumado dependas de mia persona deziro. 
+</p><p n="10c" rend="c)">Mi konscias, ke ĉiu homo apartenas al tiu aŭ alia tradicia religio 
+ne tial, ke ĝi la plej multe respondas al liaj personaj konvinkoj, sed nur 
+tial, ke li en ĝi naskiĝis, kaj ke la esenco de ĉiuj religioj estas la 
+sama, kaj ili distingiĝas unu de alia nur per legendoj kaj moroj, kiuj ne 
+dependas de persona elekto de homo.   Tial mi konscias, ke oni neniun povas 
+laŭdi nek mallaŭdi por lia tradicia religio, kaj ke bonaj aŭ malbonaj agoj 
+de homo dependas ne de lia religio, sed nur de li mem kaj de la cirkonstancoj 
+de lia vivo.   Kaj ĉar la religiaj moroj, kiuj prezentas la solan diferencon 
+inter unu religio kaj alia kaj la solan kaŭzon de religia malamo inter la 
+homoj, estas donitaj ne de Dio, sed de homoj, tial mi devas kunhelpi al tio, 
+ke per konstanta reciproka komunikiĝado de la hilelistoj de diversaj 
+religioj la diversformaj religiaj moroj de ĉiuj hilelistoj iom post iom cedu 
+la lokon al moroj komunaj, neŭtrale-homaj. 
+</p>
+<p n="11" rend="11.">Kiam en mia urbo estos fondita templo hilelista, mi devas kiel eble pli 
+ofte vizitadi gin, por frate kunvenadi tie kun hilelistoj de aliaj religioj, 
+ellaboradi kune kun ili morojn kaj festojn neŭtrale-homajn kaj tiamaniere 
+kunhelpi al la iom-post-ioma ellaboriĝo de filozofie pura, sed samtempe 
+bela, poezia kaj varma vivo-reguliga religio komune-homa, kiun gepatroj povos 
+sen hipokriteco transdoni al siaj infanoj.   En la templo hilelista mi 
+aŭskultados la verkojn de la grandaj instruintoj de la homaro pri la vivo 
+kaj morto kaj pri la rilato de nia "mi" al la universo kaj al la eterneco, 
+filozofie-etikajn interparolojn, altigajn kaj nobligajn himnojn k.t.p.   Tiu 
+ĉi templo devas edukadi la junulojn kiel batalantojn por la vero, bono, 
+justeco kaj ĉiuhoma frateco, ellaboradi en ili amon al honesta laboro kaj 
+abomenon por frazisteco kaj por ĉiuj malnoblaj malvirtoj; tiu ĉi templo 
+devas donadi spiritan ripozon al la maljunuloj, konsolon al la suferantoj, 
+doni la eblon senŝarĝigi sian konsciencon al tiuj, ĉe kiuj ĝi estas 
+ŝarĝita per io k.t.p.   Tiel longe kiel en mia urbo ne ekzistas templo 
+hilelista, mi devas kiel eble plej ofte kunvenadi por komunaj interparoladoj 
+kun aliaj hilelistoj de mia urbo, kaj se tiaj ne ekzistas, mi devas 
+komunikiĝadi letere kun hilelistoj de aliaj urboj. 
+</p>
+<p n="12" rend="12.">Hilelisto mi nomas ĉiun homon, kiu subskribis la "Deklaracion de 
+Hilelisto" kaj alskribiĝis al iu el la ekzistantaj hilelistaj temploj aŭ 
+rondetoj. 
+</p>
+</div>
+</body>
+</text>
+
+
+<!-- ##############  Aldono al la "Dogmoj de Hilelismo"  ############## -->
+
+    <text rend="doc" id="hilelismo_2">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Aldono al al "Dogmoj de Hilelismo" 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  el "ruslanda esperantisto", 1906, n-ro 2, p. 27-28;
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+<p>Ni atentigas, ke la publikigitaj "Dogmoj" havas signifon nur principan, 
+kaj ilia definitiva redakcio estos fiksita nur en la unua kongreso de la 
+hilelistoj.   Ĉiun, kiu en principo aprobas la ideon de la hilelismo, sed ne 
+konsentas kun tiu aŭ alia dogmo, ni petas montri al ni, kiajn ŝanĝojn laŭ 
+lia opinio estus utile fari en la diritaj dogmoj. 
+</p><p>Pro evito de malkompreniĝoj ni trovas necesa doni la sekvantajn 
+klarigojn: 
+</p><p n="1" rend="1.">La nomo "Hilelismo" estas nur provizora; estas supozate 
+anstataŭigi ĝin per la nomo "Homaranismo", kiu pli precize esprimas la 
+tutan esencon de nia ideo ("homarano en la lingvo Esperanto signifas "membro 
+de la homa familio"). 
+</p><p n="2" rend="2.">Se la neŭtrale-geografiaj nomoj de regnoj kaj nacioj (vidu dogm. 5 
+kaj 8) montriĝus neoportunaj aŭ malagrablaj, oni povas en la unua tempo 
+uzadi la ekzistantajn nomojn gentajn, ĝis tiu tempo, kiam la demando pri tio 
+ĉi estos decidita en la kongreso de hilelistoj. 
+</p><p n="3" rend="3.">En la kunvenoj de hilelistoj la lingvo hilelista estas deviga nur 
+por tiuj, kiuj tiun ĉi lingvon bone posedas; sed tiuj, kiuj ĝin ankoraŭ ne 
+posedas sufiĉe, povas en la unua tempo uzadi kian lingvon ili volas, sed ili 
+ne havas la rajton altrudi sian lingvon al la aliaj ĉeestantoj. 
+</p><p n="4" rend="4.">Pri la dogmo 11, kiu krom karaktero societa havas ankoraŭ 
+karakteron teozofian, oni devas memori, ke ĝi parolas nur pri tiaj instruoj, 
+kiuj ne kontraŭparolas al la scienco, kaj ĝi rilatas nur al la templo de 
+hilelistoj, sed tute ne al privataj rondetoj hilelistaj.   Tiuj ĉi rondetoj 
+havas karakteron ne religian, sed pure societan kaj servas por liberaj amikaj 
+interparoladoj pri ĉiuj eblaj temoj, laŭ la deziro de la partoprenantoj, 
+kaj de aliaj rondetoj ili distingiĝas nur per tio, ke en ili partoprenas 
+homoj, havantaj neŭtrale-homajn naciajn kaj religiajn principojn, kaj ke la 
+interparolado en ili estas precipe en la lingvo neŭtrale-homa.
+</p>
+      </body>
+    </text>
+
+
+<!-- ##############  Homaranismo  ############## -->
+
+    <text rend="doc" id="homaranismo_1">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Homaranismo
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	   Aparta broŝuro aperinta (en rusa lingvo kaj en esperanto) 1906 en St. 
+	   Peterburgo (anonime) kiel "plibonigita kaj plikompletigita eldono de dogmoj 
+	   de hilelismo";
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+    
+
+
+<note>Homaranismo: De la vorto "Homarano", kiu signifas "membro de la ĉiuhoma familio".</note> 
+
+<p>La homaranismo estas celado al pura homeco kaj al absoluta intergenta 
+justeco kaj egaleco. 
+</p><p>La ideo de homaranismo naskiĝis de la antaŭe ekzistinta ideo de 
+"hilelismo", de kiu ĝi distingiĝas nur per tio, ke la hilelismo koncernis 
+nur unu homan grupon, dum la homaranismo koncernas ĉiujn popolojn kaj 
+religiojn. 
+</p><p>La homaranismo estas instruo, kiu, ne deŝirante la homon de lia natura 
+patrujo, nek de lia lingvo, nek de lia religianaro, donas al li la eblon 
+eviti ĉian malverecon kaj kontraŭparolojn en siaj nacia-religiaj principoj 
+kaj komunikiĝadi kun homoj de ĉiuj lingvoj kaj religioj sur fundamento 
+neŭtrale-homa, sur principoj de reciproka frateco, egaleco kaj justeco. 
+</p><p>La homaranoj esperas, ke per konstanta reciprOka komunikiĝado sur la 
+bazo de neŭtrala lingvo kaj neŭtralaj religiaj principoj kaj moroj la homoj 
+iam kunfandiĝos en unu neŭtrale-homan popolon, sed tio ĉi fariĝados 
+iom-postiom, nerimarkate kaj sen ia rompado. 
+</p><p>Longan tempon la iniciatoroj de la homaranismo ne kuraĝis precize 
+formuli siajn dogmojn, timante, ke tio, kio teorie ŝajnis bona, en la 
+praktiko eble montriĝos neplenumebla.   Sed en la jaro 1905 okazis io, kio 
+neniigis ĉiujn dubojn.   En Aŭgusto 1905 en la franca urbo Boulogne-surMer 
+havis lokon la unua tutmonda kongreso de esperantistoj, kies sukceso superis 
+ĉiujn atendojn.   Pli ol mil homoj, kiuj alveturis el la plej diversaj 
+landoj de la tuta mondo kaj apartenis al 22 diversaj popoloj kaj al la plej 
+diversaj religioj kaj filozofiaj sistemoj, en la daŭro de tuta semajno vivis 
+kune en la plej sincera amikeco kaj frateco, parolis inter si ekskluzive nur 
+en neŭtrala internacia lingvo, konfesis religiajn principojn nur 
+neŭtrale-homajn.   Kiu aŭdis la multenombrajn parolojn kaj diskutojn en la 
+vasta kaj plenigita konstruaĵo de la kongreso, kiu ĉeestis en la teatraj 
+prezentadoj, en kiuj la aŭskultantoj kaj plenumantoj prezentis per si 
+miksaĵon de ĉiuj gentoj kaj popoloj, kiu vidis tiun plenan senĝenecon kaj 
+tiun kortuŝantan fratecon, kiu regis inter ĉiuj partoprenantoj de la 
+kongreso, tiu al si mem ne kredis, ke ĉiuj tiuj homoj ankoraŭ hieraŭ estis 
+tute fremdaj unuj al la aliaj, ke ilin unuigis nur neŭtrala lingvo kaj ke 
+tiuj kelkaj semajnoj, kiujn ĉiu el ili dediĉis por la lernado de la fable 
+facila neŭtrala lingvo, faris miraklon kaj, deŝirante neniun de lia natura 
+patrujo, lingvo aŭ religianaro, donis al homoj de plej diversaj gentoj kaj 
+religioj la eblon vivi inter si en la plej paca kaj sincera frateco. 
+</p><p>La mirinda sukceso de la Bulonja kongreso konvinkis la iniciatorojn de 
+la homaranismo, ke absoluta justeco, egaleco kaj frateco inter la popoloj en 
+la praktiko estas plene ebla.   Tial ili decidis proponi al ĉiuj amikoj de 
+interpopola justeco unuiĝi en apartan grupon, kiu inter la amikoj de 
+internacia lingvo prezentus apartan sekcion<note type="footnote" rend="*">
+Oni ne devas intermiksi la homaranismon kun la esperantismo!   Ambaŭ ideoj 
+estas tre parencaj inter si, sed tute ne identaj.   Oni povas esti bonega 
+esperantisto kaj tamen kontraŭulo de la homaranismo.</note>.
+</p><p>La kurantaj fariĝoj en la patrujo de la unuaj homaranoj devigis ilin 
+elpaŝi kun sia programo pli frue, ol ili intencis.   En la celado al 
+libereco la popoloj komencis persekutadi unu alian aŭ serĉadi 
+pseŭdo-liberalajn kompromisojn inter la plimulto kaj la malplimulto, 
+forgesante, ke ĉiuj kompromisoj estas maljustaj kaj nefortikaj, kaj ke 
+honesta kaj fortika libereco povas esti atingita nur per absoluta justeco kaj 
+egaleco, sed ne per modifikado de kruda besta forto, por kiu ekzistas nur la 
+demando "kiu kie super kiu kaj en kia grado devas regi".   Ĉar ekzistas 
+homoj, kiuj meze de la aperinta intergrupa ĥaoso serĉas la veron kaj 
+dezirus scii unu pri la alia, tial la homaranoj decidis publikigi siajn 
+dogmojn jam nun kaj proponi al ĉiuj amikoj de intergenta egaleco kaj 
+frateco, kiel ajn malgrandnombraj ili estas, aliĝi al ili. 
+</p><p>La homaranoj faras al si neniajn iluziojn kaj tial ili timas nenian 
+disreviĝon.   Ili konscias tre bone, ke ilia voĉo longe restos voĉo 
+krianta en la dezerto, ke longan tempon ili estos tre malgrandnombraj kaj la 
+mondo ilin mokados kaj nomados ilin utopiistoj, kiuj batalas por afero, kiu 
+"ne havas eĉ la plej malgrandajn ŝancojn de sukceso".   Sed la homaranojn 
+tio ĉi tute ne malkuraĝigas.   Ĉar la homaranismo estas ne "entrepreno", 
+kies valoro dependas de ĝia atendata sukceso aŭ malsukceso, sed nur 
+"principaro", kaj ĉiu homo fortike konservas sian principaron tiel longe, 
+kiel ĝi estas konsenta kun liaj konvinkoj, sendepende de tio, ĉu ĝi havas 
+multe da partianoj aŭ malmulte. 
+</p><p>La homaranoj estas konvinkitaj, ke ili staras sur fundamento de absoluta 
+vero, kiu pli aŭ malpli frue devos venki, kiel ajn longe la mondo batalus 
+kontraŭ ĝi; ke ĉiu nacia aŭ religia ŝovinismo kaj ĉiu celado de unu 
+gento regi super aliaj gentoj, kiel bazita sur malvero kaj rajto de pugno, 
+pli aŭ malpli frue devos malaperi; ke la homaranismo, bazita ne sur tempaj 
+politikaj kondiĉoj de la vivo de tiu aŭ alia gento, ne sur elpensitaj 
+religiaj dogmoj, ne sur tempaj modaj doktrinoj kaj fluoj, sed sur vero 
+absoluta, ĉiuloka kaj ĉiutempa, estas la sola politika-religia idealo, kiun 
+povos havi la estonta homaro, la sola idealo, kiun ĉiu patro kun pura 
+konscienco povas transdoni al siaj infanoj sen timo, ke ŝanĝiĝintaj 
+kondiĉoj de la vivo elŝiros tiun idealon el ilia brusto kaj lasos ilin en 
+la mezo de la vojo de l'vivo sen ia programo kaj spirita apogo, kiel faris 
+kun ni diversaj malverfundamentaj idealoj transdonitaj al ni de niaj 
+prapatroj. 
+</p><p>Ni, homaranoj, al neniu altrudas niajn idealoin kaj esperojn, ni deziras 
+nur ke la mondo sciu pri ili, por ke tiuj aŭ aliaj niaj agoj aŭ opinioj ne 
+ŝajnu al la mondo strangaj Ekzistas momentoj en la vivo de ĉiu nacio, kiam 
+ĉiu regnano nepre devas stariĝi sub iun difinitan standardon.   Ni 
+publikigas niajn dogmojn por tio, ke ili povu servi al ni kiel malkaŝa 
+standardo kaj por ke, agante en tia maniero aŭ alia, ni ne devu sur ĉiu 
+paŝo donadi senfinajn klarigoin, sed ni povu simple montri nian standardon 
+kaj diri "mi agas tiel, ĉar mi estas homarano". 
+</p><p>Ligante sin ne per la litero de siaj dogmoj, sed nur per ilia komuna 
+spirito, la homaranoj rezervas al si la rajton per komuna reciproka 
+interkonsento ŝanĝi kaj perfektigi siajn dogmojn, se tiu aŭ alia el ili 
+montriĝos erara.   Tial la malsupre donitaj dogmoj de la homaranismo havas 
+signifon nur principan kaj ilia definitiva teksto estos fiksita nur poste, en 
+unu el la kongresoj de la homaranoj. 
+</p>
+
+<div type="declaration">
+  <head>Deklaracio de Homarano</head>
+
+  <p>Kiam oni min demandas, kiu mi estas, kiaj estas miaj naciaj konvinkoj, 
+religiaj principoj, mia celado kaj idealoj, mi respondas: "mi estas 
+homarano".   Tio ĉi signifas, ke mi estas homo, kiu sin gvidas per la 
+sekvantaj dogmoj: 
+</p><p n="1" rend="1.">Mi estas homo, kaj por mi ekzistas nur idealoj pure homaj; ĉiajn 
+idealojn kaj celadon gente-naciajn mi rigardas nur kiel grupan egoismon kaj 
+hommalamon, kiuj pli aŭ malpli frue devas malaperi kaj kies malaperon mi 
+devas akceladi laŭ mia povo. 
+</p><p n="2" rend="2.">Mi kredas, ke ĉiuj popoloj estas egalaj kaj mi taksas ĉiun homon nur 
+laŭ lia persona valoro kaj agoj, sed ne laŭ lia deveno.   Ĉian ofendadon 
+aŭ persekutadon de homo por tio, ke li naskiĝis de alia gento, kun alia 
+lingvo aŭ religio ol mi, mi rigardas kiel barbarecon. 
+</p><p n="3" rend="3.">Mi kredas, ke ĉiu lando apartenas ne al tiu aŭ alia gento, sed plene 
+egalrajte al ĉiuj ĝiaj loĝantoj, kian ajn lingvon aŭ religion ili havas; 
+la intermiksadon de la interesoj de lando kun la interesoj de tiu aŭ alia 
+gento, lingvo aŭ religio mi rigardas kiel restaĵon de la tempoj barbaraj, 
+kiam ekzistis nur rajto de pugno kaj glavo. 
+</p><p n="4" rend="4.">Mi kredas, ke en sia familia vivo ĉiu homo havas plenan, naturan kaj 
+nedisputeblan rajton, paroli kian lingvon aŭ dialekton li volas kaj konfesi 
+kian religion li volas, sed en komunikiĝado kun homoj de alia deveno li 
+devas, kiom ĝi estas ebla, uzadi lingvon neŭtrale-homan kaj vivi laŭ la 
+principoj de religio neŭtrale-homa.   Ĉiun celadon de unu homo, altrudi al 
+aliaj homoj sian lingvon aŭ religion, mi rigardas kiel barbarecon. 
+</p><p n="5" rend="5.">Mia patrujo mi nomas tiun regnon, en kiu mi naskiĝis aŭ en kiu mi por 
+ĉiam enloĝiĝis.   Tiu parto de la regno, en kiu mi pasigis mian infanecon, 
+aŭ kiu estas loĝata precipe de mia gento, povas esti por mi pli kara, ol 
+ĉiuj aliaj partoj; sed nomi mia patrujo unu pecon de mia aŭ tiom pli de 
+fremda regno pro tio, ke tie pleje loĝas aŭ iam regis mia gento, mi neniam 
+devas, ĉar tio ĉi ne sole kondukas al konstantaj disputoj, sed ĝi estus 
+ankaŭ kontraŭa al la morala leĝo pri la sengenteco de la tero.   Se tiu 
+parto de la patrujo, en kiu mi loĝas, laŭ sia geografia karaktero aŭ laŭ 
+siaj moroj, tro multe diferencas de la aliaj partoj, tiam &dash; por eviti 
+malkompreniĝon &dash; mi povas al la demando pri mia patrujo nomi aparte tiun 
+parton de la regno, en kiu mi loĝas, sed mi devas tiam ĝin nomi mia patruja 
+lando, por ke estu klare, ke mi rigardas ĝin ne kiel mian ekskluzivan 
+patrujon, sed nur kiel parton de mia patrujo.   Sed nek mian tutan patrujon, 
+nek ĝiajn apartajn partojn mi devas nomi per la nomo de ia gento, sed mi 
+devas ilin nomi nur per nomo neŭtrale-geografia, kiel estas farate en ĉiuj 
+plej novaj regnoj; sed se mia regno aŭ lando ne havas ankoraŭ neŭtralan 
+nomon, mi devas ĉiam &dash; almenaŭ en parolado kun homaranoj &dash; nomi mian 
+regnon kaj landon per nomo homarana, kiu konsistas el la nomo de ilia ĉefa 
+urbo kun la aldono de la finiĝo "io" por la tuta patrujo kaj "lando" por la 
+nomo de ĝia parto. 
+</p><p>Ekzemploj: Svisujo, Belgujo, Aŭstrujo, Kanado, Meksiko, Peruo, 
+Peterburgio, Parizio; Algerlando, Varsovilando. 
+</p><p n="6" rend="6.">Patriotismo aŭ servado al la patrujo mi nomas nur la servadon al la 
+bono de ĉiuj miaj samregnanoj, de kia ajn deveno, lingvo aŭ religio ili 
+estas; la servadon speciale al la gentaj interesoj, lingvo aŭ religio de tiu 
+loĝantaro, kiu en la lando prezentas la plimulton, mi neniam devas nomi 
+patriotismo.   Konforme al la principo, ke unuj regnanoj, eĉ se ili 
+prezentas en la lando grandegan plimulton, ne havas moralan rajton altrudi 
+sian lingvon aŭ religion al la aliaj regnanoj, mi devas penadi, ke en mia 
+lando ĉiu gento havu la rajton fondi por siaj membroj lernejojn kaj aliajn 
+institucioin kun sia lingvo kaj sia religio, se ili tion ĉi deziras, sed ke 
+en ĉiuj publikaj institucioj, ne destinitaj sole por unu gento, regu nur 
+lingvo neŭtrale-homa kaj festoj neŭtrale-homaj aŭ regnaj.   Tiel longe, 
+kiel la atingo de tio ĉi estos ne ebla, mi devas penadi, ke en mia lando 
+ekzistu lernejoj kaj aliaj institucioj kun lingvo neŭtrale-homa por tiuj 
+regnanoj, kiuj ne volas aŭ ne povas uzi instituciojn kun tiu aŭ alia genta 
+lingvo; kaj de ĉia reciproka batalado de lingvoj aŭ religioj pro regado mi 
+devas teni min flanke, ĉar ĝi estas nur batalado inter unu maljustaĵo kaj 
+alia. 
+</p><p n="7" rend="7.">Mi konscias, ke en tiuj landoj, kie la loĝantaro estas plimalpli 
+unugenta, ĝi longan tempon ne komprenos la maljustecon de regado de unu 
+lingvo aŭ religio super la aliaj kaj ĝi per ĉiuj fortoj batalados kontraŭ 
+la egalrajtigo de ĉiuj lingvoj kaj religioj, kaj la defendantojn de tiu ĉi 
+egalrajtigo ĝi persekutados kaj superĵetados per koto.   Sed mi neniam 
+konfuziĝos per tiu ĉi persekutado, memorante, ke mi batalas pro absoluta 
+vero kaj justeco, ke nenia popolo povas scii, kio fariĝos kun ĝi morgaŭ, 
+ke la egalrajtigo de ĉiuj lingvoj kaj religioj forigos la kaŭzon de ĉiuj 
+militoj kaj malpacoj inter la popoloj, ke ĉia ago kontraŭ la devizo "la 
+regno por la regnanoj" kaj ĉia perfortaĵo de unuj regnanoj kontraŭ aliaj 
+restas ĉiam perfortaĵo, eĉ se ĝi estas farata de grandega plimulto 
+kontraŭ malgrandega malplimulto, kaj ke fortika feliĉo de la homaro estas 
+ebla nur tiam, kiam por ĉiuj popoloj kaj landoj ekzistos justeco egala kaj 
+absoluta, dependanta nek de loko, nek de tempo, nek de forto, kaj kiam en 
+ĉiu regno ekzistos nur homoj kaj regnanoj kaj ne gentoj. 
+</p><p n="8" rend="8.">Mia nacio mi nomas la tutecon de ĉiuj homoj, kiuj loĝas mian patrujon, 
+de kia ajn deveno, lingvo aŭ religio ili estas; sed al mia nacia nomo mi 
+devas ĉiam aldoni la vorton "homarano", por montri, ke mi alkalkulas min al 
+mia nacio ne en senco ŝovinista.   La aron de ĉiuj homoj, kiu havas saman 
+devenon kiel mi, mi nomas mia gento.   Mian nacion mi ne devas nomi per la 
+nomo de ia gento, mi devas ĉiam nomi ĝin &dash; almenaŭ en parolado kun 
+homaranoj &dash; per la neŭtralegeografla nomo de mia regno aŭ lando.   Se mia 
+interparolanto deziras scii ne sole al kiu politike-geografia, sed ankaŭ al 
+kiu etnografia grupo mi apartenas, tiam mi aparte nomas al li mian genton, 
+lingvon, religion k.t.p. 
+</p><p>Ekzemploj: Sviso-homarano, Peterburgia homarano, Varsovilanda homarano. 
+</p><p n="9" rend="9.">Mia lingvo mi nomas tiun lingvon, kiun mi persone plej bone scias kaj 
+plej volonte parolas, sed al la nomo de tiu ĉi lingvo mi devas ĉiam aldoni 
+la vorton "homarana", por montri, ke mian lingvon mi ne rigardas kiel mian 
+idolon kaj ke mia idealo estas lingvo neŭtrale-homa.   En ĉiuj homaranaj 
+kunvenoj kaj, kiom eble, ankaŭ en ĉiuj privataj komunikiĝoj kun homaranoj 
+mi devas uzadi la lingvon homaranan.   En mia familia vivo mi povas uzadi 
+kiun lingvon mi volas, sed mi devas ĝin nomi ne mia nacia, sed nur mia 
+lingvo familia.   Kiam oni demandas min pri mia lingvo nacia, mi devas 
+respondi: "la ekzistadon de lingvoj naciaj mi ne konfesas, ĉar ĉiu nacio 
+nuntempa parolas per multaj lingvoj; sed mia lingvo genta estas jena (nome 
+tiu lingvo aŭ dialekto, kiun en mia patrujo parolas la plimulto de mia 
+gento, se eĉ mi mem tute ne posedas tiun ĉi lingvon). 
+</p><p>Rimarko: Novaj homaranoj, kiuj ne posedas ankoraŭ la lingvon homaranan, 
+povas en la unua tempo uzadi en la kunvenoj kian lingvon ili volas, sed ili 
+ne devas altrudi sian lingvon al la aliaj ĉeestantoj.   Ĉar en la nuna 
+tempo ekzistas nur unu neŭtrala lingvo, nome Esperanto, tial la homaranoj 
+akceptas ĝuste ĝin; tamen ili rezervas al si la rajton anstataŭigi iam 
+poste tiun ĉi lingvon per ia alia lingvo, se tio ĉi montriĝos utila. 
+</p><p n="10" rend="10.">Mia religio mi nomas tiun religion, en kiu mi naskiĝis, aŭ al kiu mi 
+estas oficiale alskribita; sed al ĝia nomo mi devas ĉiam aldoni la nomon 
+"homarana", por montri, ke mi konfesas ĝin laŭ la religiaj principoj de la 
+homaranismo, kiuj konsistas en jeno: 
+</p><p>a) Sub la nomo "Dio" mi komprenas tiun al mi nekompreneblan plej altan 
+Forton, kiu regas la mondon kaj kies esencon mi havas la rajton klarigi al mi 
+tiel, kiel diktas al mi mia saĝo kaj koro. 
+</p><p>b) Kiel fundamentan leĝon de mia religio mi rigardas la regulon "agu 
+kun aliaj tiel, kiel vi deziras ke aliaj agu kun vi, kaj aŭskultu ĉiam la 
+voĉon de via konscienco", ĉion alian en mia religio mi rigardas nur kiel 
+legendojn aŭ kiel religiajn morojn, kiuj estas enkondukitaj de homoj, por 
+enporti en la vivon difinitan programon kaj spiritan varmon, kaj kies 
+plenumado aŭ neplenumado dependas de mia persona deziro. 
+</p><p>c) Mi konscias, ke ĉiu homo apartenas al tiu aŭ alia tradicia religio 
+ne tial, ke ĝi la plej multe respondas al liaj personaj konvinkoj, sed nur 
+tial, ke li en ĝi naskiĝis, kaj ke la esenco de ĉiuj religioj estas la 
+sama, kaj ili distingiĝas unu de alia nur per legendoj kaj moroj, kiuj ne 
+dependas de persona elekto de homo.   Tial mi konscias, ke oni neniun povas 
+laŭdi nek mallaŭdi por lia tradicia religio, kaj ke bonaj aŭ malbonaj agoj 
+de homo dependas ne de lia religio, sed nur de li mem kaj de la cirkonstancoj 
+de lia vivo.   Kaj ĉar la religiaj moroj, kiuj prezentas la solan diferencon 
+inter unu religio kaj alia kaj la solan kaŭzon de religia malamo inter la 
+homoj, estas donitaj ne de Dio, sed de homoj, tial mi devas kunhelpi al tio, 
+ke per konstanta reciproka komunikiĝado de la homaranoj de diversaj religioj 
+la diversformaj religiaj moroj de ĉiuj homaranoj iom post iom cedu la lokon 
+al moroj komunaj, neŭtrale-homaj. 
+</p><p n="11" rend="11.">Kiam en mia urbo estos fondita templo homarana, mi devas kiel eble pli 
+ofte vizitadi ĝin, por frate kunvenadi tie kun homaranoj de aliaj religioj, 
+ellaboradi kune kun ili morojn kaj festojn neŭtrale-homajn kaj tiamaniere 
+kunhelpi al la iom-post-ioma ellaboriĝo de filozofie pura, sed samtempe 
+bela, poezia kaj varma vivo-reguliga religio komune-homa, kiun gepatroj povos 
+sen hipokriteco transdoni al siaj infanoj.   En la templo homarana mi 
+aŭskultados la verkojn de la grandaj instruintoj de la homaro pri la vivo 
+kaj morto kaj pri la rilato de nia "mi" al la universo kaj al la eterneco, 
+filozofie-etikajn interparolojn, altigajn kaj nobligajn himnojn k.t.p.   Tiu 
+ĉi templo devas edukadi la junulojn kiel batalantojn por la vero, bono, 
+justeco kaj ĉiuhoma frateco, ellaboradi en ili amon al honesta laboro kaj 
+abomenon por frazisteco kaj por ĉiuj malnoblaj malvirtoj; tiu ĉi templo 
+devas donadi spiritan ripozon al la maljunuloj, konsolon al la suferantoj, 
+doni la eblon senŝarĝigi sian konsciencon al tiuj, ĉe kiuj ĝi estas 
+ŝarĝita per io k.t.p.   Tiel longe kiel en mia urbo ne ekzistas templo 
+homarana, mi devas kiel eble plej ofte kunvenadi por komunaj interparoladoj 
+kun aliaj homaranoj de mia urbo, kaj se tiaj ne ekzistas, mi devas 
+komunikiĝadi letere kun homaranoj de aliaj urboj. 
+</p><p>Rimarko: Pri la dogmo 11, kiu krom la karaktero societa havas ankoraŭ 
+karakteron teozofian, oni devas memori, ke ĝi parolas nur pri tiaj instruoj, 
+kiuj ne kontraŭparolas al la scienco, kaj ke ĝi rilatas nur al la templo de 
+la homaranoj, sed tute ne al la privataj rondetoj de la homaranoj.   Tiuj ĉi 
+rondetoj havas karakteron ne religian, sed pure societan kaj servas por 
+liberaj amikaj interparoladoj pri ĉiuj eblaj temoj, laŭ la deziro de la 
+partoprenantoj, kaj de aliaj rondetoj ili distingiĝas nur per tio, ke en ili 
+partoprenas homoj, kiuj havas neŭtrale-homajn, religiajn kaj naciajn 
+principojn, kaj ke la interparolado en ili estas farata precipe en la lingvo 
+neŭtrale-homa. 
+</p><p n="12" rend="12.">Homarano mi nomas ĉiun homon, kiu subskribis la "Deklaracion de 
+Homarano" kaj alskribiĝis al iu el la ekzistantaj homaranaj temploj aŭ 
+rondetoj. 
+</p>
+</div>
+
+<div type="note">
+<p>Rimarko: Ĉiu nova rondeto de homaranoj devas publikigi sian adreson en 
+iu el la gazetoj, kiuj estas eldonata en la lingvo internacia</p>
+</div>
+</body>
+</text>
+
+<!-- ##############  El la mondo homarana (hilelista).   ############## -->
+
+    <text rend="doc" id="homaranismo_2">
+      <front>
+        <docTitle>
+          <titlePart>
+	    El la mondo homarana (hilelista). 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  "ruslanda esperantisto" 1906 n-ro 4, p.76
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+<p>En la komenco de Aprilo la Unua grupo Homarana dissendis al ĉiuj 
+homaranoj la sekvantan cirkuleran leteron: 
+</p>
+
+<div type="letter">
+<p>Ni ricevis Vian aprobon de la ideo homarana (hilelista) kaj Vian deziron 
+aliĝi al ni.   Sendante al Vi fratan kaj samideanan saluton, ni esprimas la 
+esperon, ke vi fervore laboros por nia ideo kaj altirados al ĝi konstante 
+ĉiam pli kaj pli da amikoj kaj ke vi baldaŭ sciigos nin pri la fondo de 
+Grupo Homarana en Via urbo. "Grupo" da homaranoj ni nomas rondeton, 
+konsistantan el ne malpli ol lO personoj. 
+</p><p>Por la altirado de novaj samideanoj Vi povas ricevi de ni la broŝuron 
+pri homaranismo (en lingvo rusa aŭ esperanto, poste ankaŭ en aliaj lingvoj) 
+por la prezo de unu rublo (fr. 2,50) por 20 ekzempleroj. 
+</p><p>Por disvolvadi la ideon de homaranismo kaj ligi inter si la homaranojn, 
+la Unua Grupo Homarana baldaŭ komencos la dissendadon de "Rondirantoj 
+Homaranaj", kiuj enhavos diversajn sciigojn pri la progresado de la afero 
+homarana kaj diversajn opiniojn kaj proponojn de fratoj-homaranoj.   Tiuj ĉi 
+Rondirantoj povos esti legataj en la homaranaj kunvenoj kaj servi kiel 
+reciproka konsiliĝado kaj helpado inter ĉiuj homaranoj. 
+</p><p>La Rondirantoj estos sendataj nur al la "Grupoj" homaranaj.   Ili estos 
+pretigataj kaj dissendataj en la sekvanta maniero: ĉiu homarano, kiu deziras 
+transigi al la aliaj homaranoj ian raporton, opinion, aŭ eĉ simple ian 
+artikolon, rakonton, demandon k.t.p., kiu povas havi intereson por la 
+homaranoj, estas petata skribi ĝin en la lingvo Esperanto, per klara kaj 
+bone legebla skribo, sur paperaj folioj, havanta la formaton de ordinara 
+letera papero (proksimume ctm. 20 X 13) kaj sendi ĝin al la sekretario de la 
+Unua Grupo Homarana.   La Unua Grupo legos la ricevitan materialon en siaj 
+kunvenoj kaj en la fino de ĉiu monato (poste, ĉe pli granda kvanto da 
+materialo, en la fino de ĉiu semajno) ĝi kunekudros la tutan materialon kaj 
+sendos ĝin en formo de Rondiranto al la grupo homarana, portanta la numeron 
+2.   Tiu ĉi lasta, traleginte la materialon en sia kunveno, forsendos la 
+Rondiranton (per rekomendita banderolo) al la grupo No 3, tiu ĉi lasta al No 
+4, k.t.p. &dash; kaj la lasta el la grupoj resendos ĝin, por konservi en la 
+arhivo, al la Unua Grupo.   Al ĉiu Rondiranto estos aldonita la adresaro de 
+ĉiuj grupoj homaranaj kun la orda numero de ĉiu el ili.   Al ĉiu 
+Rondiranto estos aldonitaj ankaŭ la nomoj kaj adresoj de ĉiuj apartaj 
+homaranoj, kiuj aliĝis de la tempo de elsendo de la lasta Rondiranto. 
+</p><p>En la Rondiranto No 1 estos publikigitaj informoj pri ĉiuj homaranoj, 
+kiuj aliĝis al nia afero de la komenco ĝis la 15 Majo 1906.   Tial ni 
+petas, ke ĉiu persono, kiu deziras alkalkuli sin al la anaro homarana, volu 
+sendi al ni kiel eble plej baldaŭ respondojn je la sekvantaj demandoj: 
+</p><p>Kia estas via nomo persona? ...   Nomo familia? ...   Detala adreso? ... 
+Nacio (en senco homarana)? ...   Gento? ...   Lingvo persona? ...   Lingvo 
+familia? ...   Lingvo genta? ...   Religo (en senco homarana)? ...   Aĝo? 
+...   Profesio? ...   Al kiu grupo homarana Vi estas enskribita?... 
+</p><p>Ĉiuj sciigoj devas esti sendataj al la sekretario de la Unua Grupo 
+Homarana, sub la sekvanta adreso: D-ro A. Waldenberg, str. Grzybowska No 15, 
+Varsovio.</p>
+</div>
+</body>
+</text>
+
+<!-- ##############   Pri la homaranismo   ############## -->
+
+    <text rend="doc" id="homaranismo_3">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Pri la homaranismo 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  "ruslanda esperantisto" 1906 n-ro 5, p.102-106;
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+<p>La artikolo de P-ro Dombrovski en la No 3 de "Ruslanda Esperantisto" min 
+iom mirigis.   Estas tamen facile rimarki, ke la tuta artikolo estas kaŭzita 
+de simpla malkompreniĝo. 
+</p><p>Mi ne volas nun multe paroli pri la esenco kaj celoj de la homaranismo, 
+ĉar tio ĉi postulus la skribadon de multaj kaj grandegaj volumoj, kiuj pli 
+aŭ malpli frue sendube estos verkitaj de diversaj homaranoj.   La temo estas 
+tiel ampleksa, ke kiom ajn multe mi parolus, mi ne klarigus eĉ la centonon 
+de tio, kio devas esti klarigata.   Tial mi lasas al aliaj personoj kaj aliaj 
+tempoj la iom-post-ioman plenan klarigadon de la homaranismo kaj mi diros nur 
+kelke da vortoj pri tiuj pure eksteraj malkompreniĝoj, kiuj kaŭzis la 
+artikolon de s-ro D. 
+</p><p n="1" rend="1)">Ŝajnas al mi, ke la ĉefa kaŭzo, kiu malamikigis s-ron D. kontraŭ 
+la homaranismo, estas la malfeliĉa esprimo "spirita mallumo", kiun li legis 
+en la dogmo 10.   S-ro D. trovis, ke laŭ la opinio de la homaranoj la 
+religiaj moroj enkondukas en la vivon "spiritan mallumon", kaj mi tute ne 
+miras, ke tiu ĉi esprimo faris malagrablan efikon sur s-ron D.   Sed se li 
+estus leginta la dogmojn pli atente, li facile rimarkus, ke tiu ĉi 
+malfeliĉa esprimo estas ... simpla preseraro!   La homaranoj ne sole ne 
+estas malamikoj de la religiaj moroj, sed kontraŭe, varmege ilin rekomendas 
+(kompreneble, ili deziras perfektigi la morojn kaj purigi ilin de ĉio 
+mensoga kaj hipokrita), ili trovas la ekzistadon de moroj tre grava kaj ili 
+diras en siaj dogmoj ke la religiaj moroj havas la celon enporti en la vivon 
+difinitan programon kaj spiritan varmon; sed en la rusa teksto de la dogmoj 
+per eraro anstataŭ la vorto "tjeplotu" (= varmon) estis presita "tjemnotu" 
+(= mallumon).   Kia domaĝo, ke s-ro D. legis nur la rusan tekston kaj, 
+rimarkante laŭ la senco, ke tie estas tre videble ia preseraro, ne 
+enrigardis en la apude starantan tekston Esperantan! 
+</p><p n="2" rend="2)">Al s-ro D. ŝajnis, ke la homaranoj metas Hillelon pli alte ol Jesuon 
+Kriston.   Ĉar s-ro D. estas ne sole sincera kaj profunde konvinkita 
+kristano, sed ankaŭ katolika pastro kaj profesoro de eklezia akademio, mi 
+tute ne miras, ke tiu ĉi supozata intenco de la homaranoj faris sur lin 
+malbonan impreson.   Sed ... ankaŭ tie ĉi estas ja simpla eraro, kiu certe 
+neniam povus veni en la kapon de s-ro D., se li legus la dogmojn pli atente. 
+La homaranoj ne havas eĉ la plej malgrandan intencon komparadi reciproke la 
+valoron de diversaj religioj kaj de iliaj fondintoj; la ideo detronigi Jesuon 
+Kriston por la kristanoj aŭ Mozeon por la hebreoj aŭ Mahometon por la 
+mahometanoj k.t.p. kaj surtronigi anstataŭ ili Hillelon neniam eĉ por unu 
+minuto venis en la kapon de iu homarano.   Sian ĉefan religian principon la 
+homaranoj nomis "hilelismo" ne por honori pli Hillelon ol Kriston aŭ Mozeon, 
+sed nur tial, ke la principo, kiu donis al la homaranoj la eblon krei ponton 
+inter ĉiuj religioj, estis esprimita (kvankam sen ia speciala propaganda 
+intenco) ĝuste de Hillel.   Se okaze tiu principo estus esprimita ne de 
+Hillel, sed de ia tute sensignifa kaj senvalora persono, ni devus nomi tiun 
+principon per la nomo de tiu persono, kaj tio ĉi tute ne signifus, ke ni 
+metas tiun personon pli alte ol ĉiujn grandajn instruistojn de la homaro. 
+Se ni devus fari tiun honoron al ĉiu eĉ plej senvalora homo, se li okaze 
+estus aŭtoro de la principo, tiom pli ni ja ne povas rifuzi tiun ĉi tute 
+naturan honoron al Hillel, pri kiu s-ro D. kiel pastro instruita scias ja tre 
+bone, ke li estis unu el la plej piaj kaj plej estimindaj religiaj saĝuloj. 
+</p><p>Se la homaranoj volus krei ian novan religion, ili sendube turnus sin ne 
+al Hillel, sed al la diversaj fondintoj de religioj; sed la homaranoj ne 
+havas eĉ la plej malgrandan intencon krei ian novan religion, ili volus nur 
+fari ponton, kiu povus pace ligi inter si ĉiujn religiojn ekzistantajn kaj 
+poste iom-post-iom kunfandi ilin reciproke.   Ke Kristo revis pri frateco de 
+la homaro, neniu el ni dubas; sed pri tio sama revis ankaŭ la fondintoj de 
+aliaj religioj.   Se Kristo kaj la aliaj grandaj instruintoj de la homaro nun 
+vivus kune, ili certe facile interkonsentus inter si, ili certe la 
+"efektivajn postulojn de Dio" metus pli alten ol ĉiujn diferencajn 
+formaĵojn, kaj ni havus nun ne multajn religiojn, sed unu ĉiuhoman 
+religion.   Sed la fondintoj ja nun ne vivas, restis nur la "religioj", kiuj 
+portas iliajn nomojn; kvankam ĉiuj ekzistantaj religioj parolas pri 
+kunfandiĝo de la homaro, ne sole neniu el ili donis ian rimedon, por tion 
+ĉi atingi, sed kontraŭe, ĉiu el ili rekte malhelpas tiun ĉi kunfandiĝon: 
+ĉiu el la religioj ja diras, ke ĝi estas donita tuta de Dio, sekve tute 
+konsekvence ĉiu religio devas rigardi ĉiujn alireligiulojn kiel pekantojn 
+kontraŭ la ordonoj de Dio, kaj la akcepton de iaj aliaj religiaj formoj krom 
+ĝiaj ĝi devas rigardi kiel krimon kontraŭ Dio.   Kiamaniere do fariĝos la 
+kunfandiĝo de la homaro?   S-ro D. respondos kredeble: "ĉiuj homoj akceptu 
+la religion katolikan, kaj tiam la homaro kunfandiĝos" ...   Sed tiel same 
+diras ja pri sia religio ankaŭ la kredantoj de ĉiuj aliaj religioj.   Kiel 
+do agi? 
+</p><p>La homaranoj havas nenian intencon esploradi la komparan valoron de 
+ĉiuj religioj, ĉar tio ĉi estus afero tute sencela.   Kiel ajn alte tiu 
+aŭ alia religio starus, la mondo neniam akceptos ĝin memvole (kaj por 
+propagando per glavo aŭ per regaj ordonoj pasis jam la tempo), ĉar ĉe 
+kredantoj tion ĉi malpermesas la blinda kredo kaj ĉe nekredantoj tion ĉi 
+malpermesas genta aŭ partia ambicio.   Por ke ĉiu homo povu rigardi homon 
+de alia religio ne kiel "malamikon de Dio" kaj por ke la homaro povu iam 
+kunfandiĝi, ekzistas nur unu rimedo, nome la sekvanta: ke la homoj, ne 
+rompante sian gentan religion kaj ne disputante pri la kompara valoro de la 
+religioj, akceptu la sekvantan dogmon, kiun ĉiu pensanta homo povas akcepti 
+kun pura konscienco: "ordonlo de Dio mem estas nur tio, kio estas enskribita 
+en la koro de ĉiu homo kaj kio tial estas komuna al ĉiuj religioj, &dash; ĉio 
+alia en la religioj estas nur ordonoj de homoj, sekve sen peko kontraŭ Dio 
+ĉiuj religiaj eksteraĵoj povas esti malsamaj ĉe diversaj gentoj kaj povas 
+ŝanĝiĝi kaj kunfandiĝi per reciproka interkonsento de la homoj".   Kiam 
+tiu ĉi dogmo estos akceptita, tiam la eternaj religiaj muroj inter la homoj 
+falos kaj la kunfandiĝo de la homaro fariĝos afero plenumebla. 
+</p><p>Sed la diritan dogmon, kiu prezentus la tutan religian fundamenton, la 
+tutan religian esencon de la homaranismo, ni trovas en formo konforme 
+esprimita nek ĉe Kristo, nek ĉe Mozeo, nek ĉe iu alia,&dash;ni trovas ĝin 
+nur ĉe Hillel.   Jen kial nia ideo ricevis la nomon "Hilelismo". 
+</p><p>(Hillel diris al unu idolano. "La tuta esenco de nia religio estas la 
+leĝo: "agu kun aliaj, kiel vi volas, ke oni agu kun vi; ĉio alia estas nur 
+komentarioj"). 
+</p><p>Mi parolis tiel multe pri Hillel nur por montri, ke la homaranoj estis 
+tute pravaj, kiam ili sian ideon komence nomis "Hilelismo", sed en efektiveco 
+la tuta argumentado estas superflua, ĉar grava estas ja ne la nomo, sed la 
+esenco de la afero, kaj cetere nun, por tuŝi nenies gentan aŭ eklezian 
+ambicion, la homaranoj jam mem, kiel oni scias, forigis la nomon "hilelismo" 
+kaj anstataŭigis ĝin per la absolute sengenta, seneklezia kaj senpersona 
+nomo "homaranismo". 
+</p><p n="3" rend="3)">S-ro D. diras, ke nia ideo ne estas nova!   Se li iam ekscios la 
+historion de la ideo homaranisma, li kun miro ekscios, ke en la daŭro de tre 
+multaj jaroj la iniciatoroj devis malfacile bataladi kun si mem, konstante 
+serĉadi, esploradi kaj ŝanĝadi, antaŭ ol tra la multegaj kaj plej 
+diversaj komplikitaj dogmoj, kiujn instruas la mondo kaj niaj kutimoj, ili 
+venis al tiuj dogmoj, kiujn instruas la absoluta justeco kaj logiko kaj kiuj 
+aperas nun al s-ro D. tiel malnovaj kaj ĉiukonataj! ..   Sed tiu ĉi 
+historio ja neniun povas interesi, kaj tial ni diras sole: jes, ni scias, ke 
+nia ideo ne estas nova; sed ĝuste tio ĉi estas ja nia forto; ĝuste tiu 
+fakto, ke pri nia ideo ĉiam revis kaj revas la plej bonaj homoj en ĉiuj 
+tempoj kaj en ĉiuj lokoj de la tero, tio ĉi ja devas montri la plej 
+konvinke, ke nia ideo ne estas arbitre elpensita de iaj apartaj utopiistoj, 
+ke ĝi estas perfekte bona, absolute necesa, ke la celado al ĝi estas la 
+devo de ĉiu homo.   Vi diras, ke pri tiu ĉi ideo jam antaŭ ni paroladis 
+ĉiam la veraj religiuloj, la humanistoj, la framasonoj k.t.p...   Jes, sed 
+la diferenco inter ili kaj ni estas tio, ke ili parolas kaj revas pri la 
+frateco de la homaro kaj ni celas ĝin praktike efektivigi; ĉiu vera 
+religiulo, humanisto aŭ framasono, kiu el la anaro de la parolantoj kaj 
+revantoj transiras al la anaro de la efektivigantoj, fariĝas per tio 
+"homarano". 
+</p><p n="4" rend="4)">"Ili ne malkuraĝis ankaŭ proponi eĉ tute nekompreneblajn barbarajn 
+terminojn de "Peterburgregno", de "Varsovilando" &dash; diras s-ro D.   Mi 
+konfesas, ke mi ne komprenas, per kio la diritaj terminoj estas tiel 
+nekompreneblaj kaj barbaraj, kaj ŝajnas al mi, ke se s-ro D. sin mem 
+demandos, li devos konfesi, ke la tuta kulpo de tiuj terminoj konsistas nur 
+en tio, ke ili estas "novaj" kaj niaj oreloj ankoraŭ ne alkutimiĝis al ili; 
+sed ĉu ĉio, kio ĝis nun ne estis uzata, estas nepre barbara?   Ni tamen 
+blinde kredu, ke la diritaj terminoj estas terure barbaraj kaj ilia proponado 
+estis "nemalkuraĝo" de la flanko de la homaranoj, &dash; kaj ni demandu: en kio 
+konsistas ilia barbareco?   Ĉu en la formo de la vortoj? tiam ni devas ja 
+memori, ke neniu malpermesas al la homaranoj anstataŭigi tiujn vortojn per 
+aliaj, pli agrablaj, se tiaj troviĝos.   Ĉu en la principo de la vortoj, 
+kiu konsistas en tio, ke lando ne devas porti la nomon de ia gento?   Sed 
+s-ro D. ja scias, ke la nomado de lando per la nomo de ia gento ĉiam 
+kondukas al tio ke la dirita gento rigardas sin kiel mastrojn de la lando kaj 
+ĉiujn, kiuj ne apartenas al tiu gento, ili rigardas kiel fremdulojn, kiuj 
+estas nur tolerataj, manĝas la panon de tiu gento kaj devas servi al la 
+interesoj de tiu gento.   Ĉu tio ĉi estas justa?   Se mi naskiĝis en tiu 
+ĉi lando, se tie ĉi vivis kaj laboris miaj gepatroj, se tie ĉi sin trovas 
+la tomboj de miaj avoj kaj praavoj, se ĉiuj atomoj de mia korpo konsistas el 
+produktaĵoj de tiu ĉi lando, &dash; ĉu estas juste, ke oni min nomu fremdulo 
+en mia patrujo, ke oni min nomu homo sen patrujo nur tial, ke mi konfesas 
+alian religion aŭ parolas alian lingvon ol la gento, kiu en mia lando 
+prezentas la plimulton?   Ĉu oni povas nei, ke laŭ la leĝoj de la vera 
+moralo ĉiuj homoj havas egalajn rajtojn pri la lando de ilia naskiĝo tiel 
+same, kiel ĉiuj infanoj havas egalajn rajtojn pri sia patrino, kaj ĉia alia 
+parolado estas barbaraĵo, kiu nin ne indignigas nur tial, ke ni ne pensas 
+pri tio ĉi? 
+</p><p>Se ekzemple iu franco aŭ hispano ne komprenus la principon de la 
+sengenteco de la tero, mi ne mirus: ili tiel kutimiĝis vidi ĉirkaŭ si 
+ĉiam nur samgentanojn, aŭdi nur unu lingvon, ke estus tute pardoneble, se 
+ili profunde kredus, ke lando kaj lingvo kaj religio estas identaj; sed kiu 
+loĝas en lando, en kiu kolizioj de gentoj estas renkontataj sur ĉiu paŝo, 
+tiu ne povas dubi pri la sole vera principo de la intergenta moralo. 
+</p><p>Kaj se ni eĉ ne volas jam pensi pri moralo kaj justeco absoluta, al kiu 
+ni ankoraŭ ne alkutimiĝis kaj kiu tial sonas en niaj oreloj nekompreneble 
+kaj barbare, se ni volas ĉion juĝi nur laŭ niaj kutimoj, tiam ni ja ankaŭ 
+devas ellabori en ni respondon al la sekvanta demando: se ĉiu loko de la 
+tero devas aparteni al unu gento, tiam al kiu gento ĝi devas aparteni?   Ĉu 
+al tiu gento, kiu antaŭe posedis la landon? en tia okazo cent milionoj da 
+kulturaj amerikanoj estas fremduloj en sia hejmo, homoj sen patrujo, ĉar 
+ankoraŭ antaŭ kelkaj jarcentoj iliaj prapatroj loĝis ne en Ameriko.   Ĉu 
+al tiu gento, kiu nun posedas la landon? en tia okazo 20 milionoj da poloj 
+kaj multaj milionoj da aliaj popoloj estas homoj sen patrujo ĉar ili havas 
+en sia posedo neniun landon.   Ĉu al tiu gento, kiu en la dirita loko 
+prezentas la plimulton? en tia okazo en ĉiuj gubernioj de la okcidenta 
+Rusujo ĉiuj urboj (krom Varsovio) devas aparteni al la hebreoj, kaj ĉiuj 
+nehebreoj devas esti rigardataj tie kiel fremduloj, kiel homoj sen patrujo. 
+Kiel do decidi tiun ĉi komplikitan demandon?   Ho ve, ĉiu decidas ĝin nur 
+tiel, kiel estas oportune por li.   Ekzemple, rusaj "patriotoj" diras, ke la 
+tuta "rusa" regno tute nature devas aparteni nur al la "rusoj"; pola patrioto 
+diras, ke en "Polujo" ĉiuj devas esti poloj, sed tiuj samaj poloj indignas, 
+kiam en alia lando oni postulas, ke ili estu ne-poloj; hebreaj patriotoj 
+diras, ke en siaj landoj de naskiĝo ili devas esti plenrajtaj regnanoj kaj 
+tamen en Palestino iam devas mastrumi nur la hebreoj ... k.t.p.   Ĉu ni ne 
+vidas, kiel sensencaj kaj senmoralaj estas tiuj barbartempaj kaj dumezurilaj 
+politikaj principoj?   Ĉu vi ne vidas, ke ili ne sole estas krimo kontraŭ 
+la pura moralo, sed ankaŭ konstanta kaŭzo de neniam finiĝontaj intergentaj 
+konfliktoj?   Ĉu vi ne vidas, ke la sola morale justa kaj praktike paciga 
+intergenta principo devas esti "plena sendependeco de ĉiu lando de la 
+religio kaj lingvo de ĝiaj loĝantoj?"   Ĉu vi ne komprenas, ke tiu ĉi 
+principo estas atingebla nur tiam, kiam malaperos la barbartempa kutimo nomi 
+landon per la nomo de unu el la gentoj, kiuj en ĝi loĝas? 
+</p><p n="5" rend="5)">Estas strange, ke la bonega esperantisto s-ro D., kiu sendube multajn 
+fojojn rebatadis la riproĉon, kiun la rutinuloj faras kontraŭ la ideo de 
+lingvo internacia, nun mem faras ĝuste tiun saman blinde rutinan riproĉon 
+kontraŭ la homaranismo! "La homaranismo estas kontraŭnacia kaj 
+kontraŭreligia!!"   Kia senatenta supraĵa prijuĝo!   La homaranismo, kies 
+unu el la plej ĉefaj dogmoj estas batalado por la plena rajto de ekzistado 
+de ĉiuj lingvoj kaj dialektoj, t.e. de ĉiuj nacioj kaj nacietoj, &dash; la 
+homaranismo, kiu ĉian englutemecon de nacioj kaj lingvoj fortaj kontraŭ 
+nacioj kaj lingvoj malfortaj nomas "barbareco", kontraŭ kiu la batalado 
+estas unu el la ĉefaj celoj de la kreiĝo de la homaranismo, &dash; tiu 
+homaranismo estas kontraŭnacia!   Per kio la homaranismo batalas kontraŭ la 
+ekzistantaj lingvoj?   Ĝi ja ne sole permesas al ĉiu uzi sian lingvon aŭ 
+dialekton, sed ĝi eĉ rekte, per speciala kaj klara dogmo postulas tiun ĉi 
+rajton por ĉiu homo.   La homaranismo ja nur postulas, ke sian lingvon ĉiu 
+uzu nur por si kaj ne altrudu ĝin al aliaj personoj kaj ke li ne faru el ĝi 
+"idolon", de kio povus suferi aliaj personoj.   Tiel same kiel regna justeco 
+neniam intencas tuŝi la sanktecon de la internaj familiaj rilatoj, sed nur 
+zorgas pri tio, ke la familiaj aferoj restu limigitaj en domo kaj unu familio 
+ne altrudu siajn dezirojn al aliaj familioj, tiel same la homaranismo 
+absolute ne intencas batali kontraŭ la interna vivo de la gentoj, sed ĝi 
+batalas nur kontraŭ la maljusta regado de unu patruja gento kontraŭ la 
+aliaj.   Kulpigi la homaranismon pri kontraŭnacieco estas ja ripeti la 
+vortojn de diversaj "vere rusaj" homoj, kiuj diras, ke konstitucio estas 
+malamiko de libereco, ĉar ... ĝi malpermesas al unuj regnanoj libere 
+premadi la aliajn regnanojn! 
+</p><p>La homaranismo laŭ la opinio de s-ro D. estas kontraŭreligia!   Kiun 
+la homaranismo detiras de la religio?   Ĉu la homojn blinde kredantajn? sed 
+tiuj ja ne akceptos la homaranismon.   Ĉu la homojn libere pensantajn? sed 
+tiuj ja de longe defalis de la religio, kaj la homaranismo, kontraŭe, celas 
+altiri ilin al la religio!   La homaranismo, kiu varbos siajn adeptojn ne per 
+blinda kredigado, sed per admonado, estas ja destinita sole nur por homoj 
+libere pensantaj.   La eklezio forigis ilin de la vera Dio, &dash; la 
+homaranismo ilin rekondukos al Li.   La eklezio rakontis al ili pri diversaj 
+elpensitaj "ordonoj de Dio", pri diversaj elpensitaj "sanktaj veroj", kaj 
+kiam ilia prudento kontraŭ tio ĉi ekprotestis, ili devis tute defali de 
+ĉia religio, kaj multaj el ili sentas sin tre malfeliĉaj.   Ili volas 
+iafoje turni sian koron al la nekonata mistera Forto de la mondo, sed ili ne 
+povas tion ĉi fari, ĉar la nomon de Dio abomenigis al ili la falsa eklezia 
+ideo pri Li; ili volus iri en preĝejon, sed ili ne povas tion ĉi fari, ĉar 
+ĝi estus hipokritaĵo de ilia flanko; ili volus legi la Biblion, Evangelion 
+kaj aliajn grandajn kaj kortrankviligantajn librojn, sed pro la karaktero de 
+tiuj libroj ili ne povas tion ĉi fari sen hipokriteco; ili volus partopreni 
+en iaj religiaj moroj, kiuj de la infanaj jaroj havas por ili multe da 
+ĉarmo, &dash; sed tio ĉi estus hipokritaĵo; per festoj kaj aliaj eksteraĵoj 
+ili volus enporti kelkan poezian ĉarmon en la vivon de siaj infanoj, sed tio 
+ĉi estus hipokritaĵo ...   La homaranismo redonas al ili almenaŭ parte, 
+tion, kion ili perdis.   Ĝi diras al ili: vi povas direkti viajn pensojn al 
+la Mistera Forto, se vi nur ne parolas pri ĝi en senco eklezia kaj kontraŭa 
+al via scio kaj konvinkoj; vi povas legi la grandajn librojn de la 
+instruintoj de la homaro, se vi nur memoros ĉiam, ke ili estas verkoj ne de 
+Dio, sed de homoj, kaj se vi memoros, ke paralele kun grandaj perloj de 
+filozofio kaj etiko tie troviĝas ankaŭ senvaloraj almiksaĵoj; vi povas 
+partopreni mem kaj partoprenigi viajn infanojn en diversaj religiaj festoj 
+kaj moroj, se vi evitos en ili ĉian mensogon kaj hipokritecon, ĉion, kio 
+estas kontraŭ viaj konvinkoj kaj kredo, kaj partoprenados en ili simple nur 
+kiel en tradiciaj moroj de via gento... 
+</p><p>Kaj tiu ĉi homaranismo, kiu ne detiras de la religio la blinde 
+kredantajn, sed kontraŭe, realproksimigas al la religio tiujn, kiuj perdis 
+ĉian religion, &dash; tiu ĉi homaranismo estas kontraŭreligia!   Ni volas ne 
+pereigi la religion, sed savi ĝin de la senduba pereo, al kiu alkondukis 
+ĝin la batalado inter la prudento kaj eklezio. 
+</p><p>Oni devas memori, ke la homaranismo tute ne volas anstataŭigi la 
+ekzistantajn religiojn kaj templojn per iaj aliaj, ĝi volas nur krom la 
+ekzistantaj kaj paralele kun ili fondi ankaŭ festojn, morojn kaj templojn 
+neŭtralehomajn.   Estas vero, ke iom post iom (eble post tre longa tempo) la 
+festoj kaj moroj neŭtrale-homaj paligados kaj elpuŝados la morojn gentajn, 
+kaj la malaperantaj, ĉiam malpli kaj malpli ŝatataj religioj cedos iom post 
+iom sian lokon al unu neŭtrale-homa kaj sincere kaj senhipokrite kredata 
+religio; sed ĉu de tio ĉi ion perdos la religia ideo? 
+</p><p>Vin, s-ro D, pri kiu mi scias, ke vi estas homo sincere kaj profunde 
+religia, efektive kaj kore sindona pastro de Dio, &dash; vin mi demandas: se vi 
+povus vin turni al tiu granda morala Forto, kiun ni nomas "Dio" kaj demandi 
+Lin, ĉu Li preferas, ke la homoj havu multajn religiojn kaj tial malamadu 
+sin reciproke kaj ĉiu diru, ke nur lia religio estas la vera, aŭ ke la 
+homoj aranĝu inter si ponton, per kiu ĉiuj religioj povos iom post iom 
+kunfandiĝi en unu religion, kaj ili konstruu templojn komunajn, en kiuj ili 
+povos frate ellaboradi al si idealojn kaj morojn komunajn, &dash; kion Dio 
+respondus?   Se vi estas certa, ke Li preferus la unuan, tiam batalu kontraŭ 
+la homaranismo; sed se vi pensas, ke Li elektus la duan, tiam ... ne batalu 
+por ni (ĉar mi komprenas, ke kiel pastro vi ne povas tion ĉi fari, almenaŭ 
+nun), sed almenaŭ ne batalu kontraŭ ni, ĉar, batalante kontraŭ ni, vi 
+batalos kontraŭ la volo de Tiu, al kiu vi ĉiam sincere kaj honeste servis. 
+</p>
+<signed>Homarano.</signed>
+</body>
+</text>
+
+<!-- ##############  Nefermita letero al s-ro de Beaufront.    ############## -->
+
+    <text rend="doc" id="homaranismo_4">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Nefermita letero al s-ro de Beaufront. 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  "ruslanda esperantisto" 1906 p.121-122
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+	<p>Estimata Sinjoro!   Ĉar Vi tre ofte atakas la homaranismon, tial ni 
+esperas, ke Vi ne rifuzos publikigi en Via estimata gazeto ankaŭ iom da 
+vortoj de ni, homaranoj. 
+</p><p>Ĉiujn kritikojn ni akceptas kun danko, ĉar ili, montrante al ni niajn 
+erarojn, helpas al nia perfektiĝo.   Sed kelkaj lokoj en Viaj artikoloj 
+prezentas nian aferon al la legantoj en malĝusta lumo, kaj tial ni estas 
+devigitaj doni kelkan klarigon.   Ni tute ne intencas propagandi nian ideon 
+per tiu ĉi nia letero, kaj tial ni tute ne parolos pri la esenco de la 
+homoranismo kaj ni tute ne defendos la diversajn detalojn de nia afero.   Ni 
+volas nur ĝustigi kelkajn punktojn ĝeneralajn. 
+</p><p n="1" rend="1)">Tute erare Vi diras, ke la homaranoj konstruis sian tutan aferon sur 
+la sukceso de la Bulonja kongreso.   La homaranismo estis preparata en la 
+daŭro de tre multaj jaroj, kaj la impresoj de la Bulonja kongreso nur 
+rapidigis nian decidon publikigi nian Deklaracion. 
+</p><p n="2" rend="2)">Vi diras, ke ni naive esperas, ke la homaranismo donos al la homaro 
+plenan pacon kaj feliĉon!   Tion ĉi saman oni antaŭ 18- 19 jaroj diris 
+ankaŭ pri la esperantistoj.   Sed kredu al ni, ke ni tute ne estas tiel 
+naivaj, kiaj Vi nin prezentas al la legantoj; ni scias tre bone, ke la 
+homaranismo ne faros el la homoj anĝelojn, tiel same kiel la esperantistoj 
+ĉiam sciis tion ĉi pri Esperanto.   Ni tute ne esperas ŝanĝi la korojn de 
+tiuj homoj, kiuj ne volas pacon, &dash; ni volas nur: a) ebligi intergentan 
+justecon kaj fratecon al tiuj tre multaj personoj, kiuj ĝin deziras kaj al 
+kiuj la neekzistado de neŭtrala lingvo, religia kaj morala fundamento ĝis 
+nun faris ĉian reciprokan fratiĝadon ne ebla; b) fiksi (kaj per komuna 
+komunikiĝado konstante perfektigadi) precize formulitajn principojn, per 
+kiuj povus sin gvidi tiuj personoj, kiuj en la koro sentas la necesecon de 
+intergenta egaleco kaj frateco, sed konstante pekas kontraŭ ĝi simple nur 
+pro nesufiĉa pripensado kaj pro nehavado de ia difinita programo. 
+</p><p n="3" rend="3)">Vi diras, ke inter la esperantismo kaj la homaranismo ekzistas nenia 
+parenceco!   Sed en tia okazo kial do Vi nin tiel atakas?   Kial Vi tiel 
+timas ke la mondo intermiksos la ambaŭ ideojn?   Tiu ĉi Via timo ja tute 
+klare devas pruvi al Vi, ke Vi senkonscie sentas, ke inter la ambaŭ ideoj 
+ekzistas parenceco tre granda.   Lingvo Intemacia havas la celon krei inter 
+la gentoj neŭtralan ponton en rilato lingva, la homaranismo volas krei tian 
+saman ponton en ĉiuj rilatoj.   La homaranismo estas nur plifortigita 
+esperantismo, kaj ĉiuj tion ĉi sentas kvankam ne ĉiuj volas tion ĉi 
+laŭte diri.   Sed ĉu la deziro krei neŭtralan ponton inter la gentoj estas 
+krimo?   Vi povas diri, ke la ponto, kiun ni proponas, havas en si diversajn 
+erarojn, &dash; tion ĉi ni tute ne neas, kaj ni kun danko akceptas ĉiujn 
+montrojn de la eraroj, por ke ni povu ilin forigi.   En la antaŭparolo al 
+nia broŝuro estas ja skribite tre klare kaj per grandaj kaj dikaj literoj, 
+ke la nuna teksto de nia Deklaracio estas nur provizora, por prezenti la 
+esencon de nia afero, kaj la teksto definitiva estos fiksita nur iam poste, 
+post matura komuna interkonsiliĝo.   Sed por kio ataki la tutan aferon en 
+principo? 
+</p><p>Se kontraŭ la homaranismo batalas tiaj esperantistoj, kiuj en Esperanto 
+vidas nur rimedon por interŝanĝi ilustritajn poŝtajn kartojn aŭ por fari 
+bonajn negocojn, aŭ eĉ por sukcese militi inter si &dash; ni ne mirus, sed se 
+kontraŭ la homaranismo batalas tiaj esperantistoj, kiuj en esperanto ĉiam 
+vidis ideon kaj kiuj por tiu ĉi ideo multe kaj ame laboris, &dash; tio ĉi 
+ŝajnas al ni stranga. 
+</p><p>Tiu ĉi strangeco tamen povas esti klarigata.   Unuj esperantistoj 
+aprobas en Esperanto la internan ideon, sed aprobas ĝin nur ĝis certa 
+grado, kaj ili timas, ke la homaranoj tiros ilin tro malproksimen; sed al 
+tiuj ĉi personoj ni povas respondi: la homaranismo estas ja nia idealo 
+privata, kiun ni al aliaj esperantistoj tute ne intencas altrudi.   Aliaj en 
+sia koro aprobas la ideon en la plej alta grado, sed ili timas, ke la tuteco 
+de la ideo ne estas atingebla, ke celado tro granda povas forŝiri de ni la 
+celon pli malgrandan kaj la homaranismo povas pereigi Esperanton.   Sed tiam 
+ili devas tion ĉi diri tute malkaŝe, kaj anstataŭ ataki aŭ moki nin per 
+"profetoj" aŭ "verdaj roboj surŝutitaj per oraj steloj", ili devus paroli 
+nur pri la danĝero.   Tiam ni respondus al ili: ni scias tre bone, ke se ni 
+ne estos sufiĉe singardaj, la homaranismo povos alporti malutilon al 
+Esperanto; sed kredu al ni, ke Esperanto estas por ni ne malpli kara ol por 
+vi, ĝi estas por ni eĉ duoble kara, ĉar ne sole ni estas varmegaj 
+esperantistoj, sed ni ankaŭ konscias, ke kun la pereo de la ideo de lingvo 
+internacia devus perei la homaranismo mem, kiu estas ja plene bazita sur ĝi. 
+Tial kredu al ni, ke ni agos sufiĉe singarde.   Nian broŝuron ni ĝis nun 
+ne dissendis al la eksteresperantaj gazetoj, ni sendis ĝin nur al kelkaj 
+gazetoj esperantistaj (al kelkaj ne-Esperantaj gazetoj ni faris sciigon pri 
+nia afero nur kiel "provan balonon").   Kun propagando pli granda kaj publika 
+ni elpaŝos nur tiam, kiam post matura interkonsiliĝo pri la detaloj de la 
+homaranismo kaj pri la manieroj de propagando ni havos plenan certecon, ke 
+tiu propagando ne estos danĝera por Esperanto. 
+</p><p>Se Vi tamen timas, ke ni estos ne sufiĉe saĝaj kaj faros facilanimajn 
+paŝojn, kiuj kompromitos Esperanton en la okuloj de "saĝaj" homoj, tiam en 
+Viaj manoj restas ja ĉiam tre grava defendilo &dash; la "Deklaracio pri la 
+Esperantismo" &dash; kaj kun tiu ĉi Deklaracio en la mano Vi povas tute klare 
+montri al la mondo, ke la homaranismo estas afero tute privata, kiu por la 
+tuta esperantistaro tute ne estas deviga, eĉ se la homaranismon publike 
+propagandus la aŭtoro de Esperanto mem.   Se oni riproĉos al Vi, ke inter 
+la esperantistoj troviĝas personoj, kiuj ne sole volas krei ponton inter la 
+gentoj, sed estas eĉ tiel arogantaj, ke ili revas, ke tiu ĉi ponto iom post 
+iom, post multaj jarcentoj, alkondukos eble al unuiĝo de la homaro, &dash; tiam 
+respondu trankvile: ĉiu esperantisto havas la rajton havi private ideojn kaj 
+idealojn, kiajn li volas, kaj por la frenezaj aŭ krimaj idealoj de unuj 
+esperantistoj la aliaj ne respondas, tiel same kiel ekzemple oni ne povas 
+kulpigi la fervojajn inĝenierojn, se troviĝas personoj, kiuj volas uzi la 
+fervojon por iaj celoj "utopiaj". 
+</p>
+
+<signed>
+    Kun respekto d-ro Aleksandro Naumann.<lb/>
+    sekretario de la Unua Grupo Homarana.<lb/>
+    Adreso: Varsovio, str. Kosikova, No 7.<lb/>
+</signed>
+</body>
+</text>
+
+
+<!-- ##############  Kion Zamenhof ne povis diri en Ĝenevo.     ############## -->
+
+    <text rend="doc" id="homaranismo_5">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Kion Zamenhof ne povis diri en Ĝenevo. 
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  "la nica literatura revuo" 1959 n-ro 24, p.201-208 
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+<p>Mi diris, ke, krom la oficiala esenco de la esperantismo, kiu estas 
+esprimita en la Bulonja Deklaracio, la esperantismo enhavas ankoraŭ ideon 
+internan, kiu ne estas deviga por ĉiuj, sed kiun memvole kulturas en si 
+ĉiuj esperantistojidealistoj.   Tiun ĉi ideon ĉiu povas klarigi kaj 
+formuli al si tiel, kiel diktas al li lia propra kapo kaj koro.   Permesu al 
+mi, ke mi raportu al vi, kiamaniere m i komprenas tiun ideon. 
+</p><p>Sed por eviti ĉiun malkompreniĝon, mi devas antaŭ ĉio atentigi vin, 
+ke tio, pri kio mi nun parolos, prezentas miajn principojn pure personajn kaj 
+privatajn.   Mi ne sole ne proponas al vi ilian akcepton, sed mi eĉ ne 
+demandos vian opinion pri ili.   Mi simple nur raportos. 
+</p><p>Mi parolos al vi pri tio, pri kio multaj el vi jam ion aŭdis &dash; nome 
+pri la "Homaranismo".   Ne ektimu, sinjoroj!   Mi scias, ke oni prezentis al 
+vi la aferon kiel ion teruran, kiel grandan danĝeron por Esperanto.   Estu 
+paciencaj, aŭskultu kaj juĝu. 
+</p><p>Mi neniam havis la intencon paroli en kongreso esperantista pri miaj 
+privataj principoj kaj kredoj, kiuj estas formulitaj en la homaranismo. 
+Antaŭ dek monatoj mi supozis, ke en la Ĝeneva kongreso mi eble en unu el la 
+kunvenoj pure privataj priparolos miajn principojn; sed baldaŭ mi eĉ tiun 
+ĉi mian intencon tute forĵetis.   Dezirante, ke la mondo vidu en mi nur la 
+aŭtoron de Esperanto, mi decidis kaŝi por ĉiam mian nomon kiel iniciatoron 
+de la homaranismo, mi transdonis mian principaron al kelkaj amikoj kaj mi 
+petis ilin, ke ili laboru. 
+</p><p>Sed la cirkonstancoj aranĝiĝis tiamaniere, ke mi estas nun devigata ne 
+sole forigi mian kaŝitecon, sed eĉ fari tion ĉi tute publike. 
+</p><p>En la komenco de tiu ĉi jaro, en la nomo de grupo da personoj, kiuj 
+akceptis por si la nomon "Unua Grupo Homarana", aperis la unua broŝuro pri 
+la homaranismo, kiu devis esti nur prova balono, por aŭskulti diversain 
+opiniojn.   Sed malgraŭ ke en la broŝuro estis klare dirite, ke ĝia teksto 
+estas nur provizora kaj poste perfektigota, kaj malgraŭ ke la broŝuro volis 
+prezenti nur principaron tute privatan, al neniu altrudatan, kelkaj 
+esperantistoj, anstataŭ trankvile kritiki la aferon, komencis akran atakadon 
+kontraŭ ĝi.   Tiuj ĉi atakoj devigis min forigi mian kaŝitecon, ĉar plua 
+kaŝiteco povus pensigi, ke mi kaŝas min kontraŭ la batoj, aŭ ke mi hontas 
+kaj timas konfesi publike miajn principojn; kaj ĉar oni baldaŭ komencis 
+rakontadi, ke la iniciatoro de la homaranismo estas la aŭtoro de Esperanto 
+kaj ke mi havas iajn kontraŭnaturajn principojn, kiuj baldaŭ pereigos la 
+tutan aferon Esperantan, tial &dash; por meti finon al ĉiuj suspektoj kaj 
+malĝustaj famoj &dash; mi en la lasta monato antaŭ la kongreso decidis 
+proklami miajn principojn tute publike en mia kongresa parolo. 
+</p><p>Tiujn ĉi principojn mi nun prezentos al vi en formo de Deklaracio, kiun 
+mi kaj miaj samprincipanoj akceptis por ni.   Sed mi ripetas, ke la 
+Deklaracio, kiun mi legos al vi, prezentas principojn pure privatajn de mi 
+kaj de la Unua Grupo Homarana; por la mondo esperantista ili havas nenion 
+devigan. 
+</p><p>La Homaranismo estas celado al pura homeco kaj al absoluta intergenta 
+justeco kaj egaleco.   En ĉiu lando tiu gento, kiu prezentas la plimulton 
+kaj kutimis regi super la aliaj gentoj, longe ne komprenos la homaranismon; 
+sed neniu gento povas scii, kio estos kun ĝi morgaŭ, kaj, pli aŭ malpli 
+frue, ĉiuj honestaj homoj konvinkiĝos, ke regado per fortoj konvenas al 
+bestoj, sed ne al homoj, kaj ke paca vivado sur la tero kaj ĉeso de militoj 
+estas ebla ne per malfortikaj kaj maljustaj kompromisoj, sed nur per justeco 
+absoluta, egala por ĉiuj gentoj, lokoj kaj tempoj.   Tian justecon penas 
+esprimi la Deklaracio de la Homaranoj. 
+</p><p>Ĉar pro tiu aŭ alia nelerta aŭ nepreciza esprimo en la Deklaracio la 
+malamikoj de la homaranismo atakas la tutan esencon de la afero, tial mi 
+ripetas la vortojn, kiuj per grandaj kaj grasaj literoj estis presitaj en la 
+unua broŝuro pri la homaranismo, nome: la nuna teksto de la Deklaracio estas 
+nur provizora; la definitiva teksto estos fiksita nur iam poste, post sufiĉe 
+matura interkonsiliĝo inter ĉiuj grupoj homaranaj. 
+</p>
+
+<div type="declaration">
+   <head>DEKLARACIO DE HOMARANO</head> 
+<p n="1" rend="1.">Mi estas homo, kaj por mi ekzistas nur idealoj pure homaj kaj idealoj 
+honeste patrolandaj; ĉiajn idealojn genteŝovinismajn, kiuj semas malamon 
+inter la gentoj kaj celas la regadon de unu gento super aliaj, mi rigardas 
+nur kiel grupan egoismon, kiu pli aŭ malpli frue devas malaperi kaj kies 
+malaperon mi devas akceladi laŭ mia povo. 
+</p><p n="2" rend="2.">Mi kredas, ke ĉiuj gentoj estas egalrajtaj partoj de la homaro, kaj mi 
+taksas ĉiun homon nur laŭ lia persona valoro kaj agoj, sed ne laŭ lia 
+deveno.   Ĉian ofendadon aŭ persekutadon de homo pro tio, ke li naskiĝis 
+de alia gento, kun alia lingvo aŭ religio ol mi, mi rigardas kiel 
+barbarecon. 
+</p><p n="3" rend="3.">Mi kredas, ke ĉiu lando apartenas ne al tiu aŭ alia gento, sed plene 
+egalrajte al ĉiuj ĝiaj konstantaj loĝantoj, kian ajn lingvon aŭ religion 
+ili havas; la intermiksadon de la interesoj de lando kun la interesoj de tiu 
+aŭ alia gento, lingvo aŭ religio mi rigardas kiel restaĵojn el la tempoj 
+barbaraj, kiam ekzistis nur rajto de pugno kaj glavo. 
+</p><p n="4" rend="4.">Mi kredas, ke en sia familia vivo ĉiu homo havas plenan naturan kaj 
+nedisputeblan rajton paroli, kian lingvon aŭ dialekton li volas, kaj 
+konfesi, kian religion li volas; sed en komunikiĝado kun homoj de alia 
+deveno li devas, kiom ĝi estas ebla, celadi al uzado de lingvo 
+neŭtrale-homa kaj al vivado laŭ religiaj principoj neŭtrale-homaj.   Ĉiun 
+celadon de unu homo altrudi al aliaj homoj sian lingvon aŭ religion, se tion 
+ĉi ne postulas absoluta neceseco, mi rigardas kiel barbarecon. 
+</p><p n="5" rend="5.">Mia patrujo mi nomas tiun regnon, aŭ en granda regno ankoraŭ speciale 
+tiun provincon, en kiu mi naskiĝis, aŭ en kiu mi por ĉiam enloĝiĝis, kaj 
+mi neniam devas nomi mia patrujo ian fremdan teritorion pro tio, ke tie pleje 
+loĝas aŭ iam regis mia gento.   Sed por ke en mia patrujo unuj filoj ne 
+estu rigardataj kiel mastroj, kaj aliaj tiel same naturaj filoj ne estu 
+rigardataj kiel fremduloj kaj ne bezonu revi pri alia patrujo, mi devas ĉiam 
+celadi al tio, ke nek mia regno, nek mia provinco portu la nomon de ia gento, 
+sed ĝi portu nomon neŭtrale-geografian. 
+</p><p n="6" rend="6.">Patriotismo aŭ servado al la patrujo mi nomas nur la servadon al la 
+bono de ĉiuj miaj sampatrujanoj, de kia ajn deveno, lingvo aŭ religio ili 
+estas, la servadon speciale al la gentaj interesoj, lingvo aŭ religio de tiu 
+loĝantaro, kiu en la lando prezentas la plimulton, mi neniam devas nomi 
+patriotismo. 
+</p><p n="7" rend="7.">Konforme al la principo, ke unuj regnanoj, eĉ se ili prezentas en la 
+lando grandegan plimulton, ne havas moralan rajton altrudi sian lingvon aŭ 
+religion al la aliaj regnanoj, mi devas penadi, ke en mia lando ĉiu gento 
+havu la rajton fondi por siaj membroj lernejojn kaj aliajn instituciojn kun 
+sia lingvo kaj sia religio, sed ke por ĉiuj regnanoj, kiuj ne deziras uzadi 
+tiun aŭ alian gentan lingvon aŭ religion, ekzistu lernejoj kaj institucioj 
+kun neŭtrale-homa lingvo internacia kaj kun moroj kaj festoj neŭtrale-homaj 
+aŭ neŭtrale-regnaj. 
+</p><p n="8" rend="8.">Mia nacio mi nomas la tutecon de ĉiuj homoj, kiuj loĝas mian patrujon, 
+de kia ajn deveno, lingvo aŭ religio ili estas; la aron de ĉiuj homoj, kiuj 
+havas saman devenon, kiel mi, mi nomas mia gento.   Mian nacion mi neniam 
+devas nomi per la nomo de ia gento, mi devas ĉiam nomi ĝin per la 
+neŭtrale-geografia nomo de mia patrujo; se mia patrujo ne havas ankoraŭ 
+alian nomon, krom nomo genta, mi devas anstataŭ la esprimo "tia nacio" uzadi 
+la esprimon "tialanda nacio". 
+</p><p n="9" rend="9.">Mia lingvo mi nomas tiun lingvon, kiun mi persone plej bone scias kaj 
+plej volonte uzas, kaj en la elekto de tiu ĉi lingvo mi havas plenan 
+liberecon.   La lingvon, kiun mi parolis en mia infaneco kun miaj gepatroj, 
+mi nomas mia lingvo gepatra; la lingvon, kiun mi uzas en mia familio, mi 
+nomas mia lingvo familia; la lingvon, kiu apartenas al mia gento, mi nomas 
+mia lingvo genta; sed nenian lingvon mi devas nomi mia lingvo nacia aŭ 
+landa, ĉar, kvankam estas tre aprobinde, se ĉiuj loĝantoj de unu lando 
+memvole uzas unu lingvon, tamen en principo nenia lando nek ĝia loĝantaro 
+devas esti ligita kun la lingvo de unu el ĝiaj gentoj.   Krom mia persona 
+lingvo mi devas posedi ankaŭ lingvon interna^cian, por ke mi sen genta 
+altrudemeco povu ĝin uzi en komunikiĝoj kun tiuj personoj, por kiuj mia 
+propra lingvo estas fremda. 
+</p><p>Rimarko.   Ĝis la tempo, kiam la demando pri lingvo internacia estos 
+decidita per aŭtoritata interkonsento de la rigistaroj, la demandon pri tio, 
+kiu lingvo devas esti rigardata kiel neŭtrala, ĉiu grupo homarana povas 
+decidi laŭ sia propra bontrovo. 
+</p><p n="10" rend="10.">Mia religio mi nomas tiun religion aŭ filozofian sistemon, en kiu mi 
+naskiĝis, aŭ kiun mi memvole akceptis; sed al ĝia nomo mi devas ĉiam 
+aldoni la nomon "homarana" por montri, ke mi konfesas ĝin laŭ la religiaj 
+principoj de la homaranismo, kiuj konsistas en jeno: 
+</p><p n="10a" rend="a)">Sub la nomo Dio, kiam mi uzas tiun ĉi vorton, mi komprenas tiun 
+misteran plej altan Forton, kiu regas la mondon kaj kies esencon ĉiu havas 
+rajton klarigi al si tiel, kiel diktas al li lia eklezio, se li estas homo 
+kredanta, aŭ lia ŝago kaj koro, se li estas liberpensulo.   Neniam mi devas 
+altrudi mian ideon pri Dio al aliaj personoj, kiuj havas pri Dio alian ideon 
+ol mi. 
+</p><p n="10b" rend="b)">Kiel fundamentan, por ĉiuj homoj devigan religian leĝon mi rigardas 
+la regulon: "agu kun aliaj tiel, kiel vi deziras, ke aliaj agu kun vi, kaj 
+aŭskultu ĉiam la voĉon de via konscienco".   La tutan ceteran parton de 
+ĉiu religio mi rigardas kiel parton eklezian, kiun ĉiu havas la rajton 
+plenumadi laŭ la montroj de lia propra eklezio, se li estas homo kredanta, 
+aŭ rigardadi kiel morojn de lia gento, se li estas liberpensulo.   Neniam mi 
+devas mallaŭdi iun pro lia religio, se li naskiĝis en ĝi kaj ne volas 
+perfidi sian genton, ĉar en ĉiu religio oni povas esti homo bona aŭ 
+malbona; neniam mi devas ofendi la religian senton de persono, havanta alian 
+religion aŭ kredon ol mi; neniam mi devas atribui al iu mian propran 
+religion aŭ kredon. 
+</p><p n="10c" rend="c)">Konsciante, ke neniu havas la rajton altrudi al alia la morojn kaj 
+festojn de sia religio, mi povas plenumadi la morojn de mia religio en mia 
+vivo persona kaj familia, sed en komunikiĝado kun homoj de aliaj religioj mi 
+devas &dash; kiom ĝi ne kontraŭas al miaj religiaj konvinkoj &dash; plenumadi 
+morojn kaj festojn neŭtrale-homajn, akceptitajn per reciproka interkonsento 
+de homaranoj de diversaj religioj. 
+</p><p n="11" rend="11.">Konsciante, ke la ĉefa celo de ĉiu honesta religio devas esti 
+fratigado de la homoj, kaj ke la malamo inter la homoj neniam ĉesos, ĝis la 
+homoj alkutimiĝos apartigadi la fundamentajn religiajn leĝojn, enskribitajn 
+egaltekste en la koro de ĉiu homo, de la leĝoj ekleziaj, prezentantaj 
+privatan apartenaĵon de ĉiu eklezio aparte &dash; mi devas helpi al tio, ke en 
+mia urbo, kiam la nombro de la homaranoj en ĝi estos sufiĉe granda, 
+paralele kun la temploj de la diversaj eklezioj ekzistu ankaŭ templo 
+neŭtrale-homa, en kiu diversaj religie etikaj demandoj estos priparolataj en 
+spirito neŭtrale-homa, sen iaj gente-ekleziaj almiksaĵoj, kaj kie sen ia 
+peko kontraŭ siaj religiaj konvinkoj povos frate kunvenadi homoj de ĉiuj 
+religioj kaj de ĉiuj filozofiaj sistemoj, kaj tie kune kaj reciproke 
+tolereme servi al tiu granda morala Forto, kiun ĉiu el ni sentas, kvankam 
+ĉiu malsame nomas kaj prezentas. 
+</p><p n="12" rend="12.">Konsciante, ke neniaj eĉ plej bonaj teoriaj principoj havas ian forton, 
+se ili ne estas konstante aplikataj praktike, mi devas aparteni al ia grupo 
+homarana kaj partopreni persone aŭ per korespondado en ĝiaj kunvenoj, kiuj 
+havas la karakteron de senĝenaj amikaj kunvenoj de samprincipanoj.   En tiuj 
+kunvenoj mi devas, kiom ĝi estas ebla, uzadi lingvon neŭtrale-homan kaj 
+morojn neŭtrale-homajn.
+</p>
+</div>
+
+<div type="final">
+<p>Sinjorinoj kaj Sinjoroj!   Mi klarigis al vi, kiamaniere mi persone 
+komprenas la internan ideon de la esperantismo, mi, kiu de la infaneco ĝis 
+nun ĉiam vidis antaŭ mi murojn interpopolajn, kaj kies tuta vivo estis 
+ĉiam ligita kun la ideo de Esperanto.   Sed mi esprimis al vi mian opinion 
+tute privatan, kiun ĉiu el vi povas akcepti aŭ malakcepti.   Tiuj el vi, 
+kiuj mian opinion pri la interna ideo de la esperantismo trovas neĝusta, 
+povas simple ne akcepti ĝin, kaj ili tute ne devas timi de la homaranismo 
+ian danĝeron por Esperanto, ili povas montri al la tuta mondo la Bulonjan 
+Deklaracion kaj diri al la mondo, ke la homaranismo prezentas ne la 
+principaron de la tuta esperantistaro, sed nur la tute privatan principaron 
+de tiu esperantista partio, kiu nomas sin homaranoj, kaj al kiu tute private 
+apartenas ankaŭ la aŭtoro de Esperanto, kiu, simile al ĉiu homo, havas ja 
+la rajton posedi siain privatajn principojn; sed tiuj el vi, kiuj trovas, ke 
+mia opinio pri la ideo de la esperantismo estas ĝusta, ne lasu vin konfuzi, 
+ne timu la atakontajn ŝovinistojn aŭ rutinulojn, kredu, ke de iliaj 
+senkaŭzaj atakoj Esperanto ne pereos, kiel ĝi ne pereis ĝis nun, malgraŭ 
+multaj miloj da atakantoj.   Ni respondadu al ili kuraĝe: "Tiun kulpon kaj 
+hontigon, kiun vi ĵetas sur nin, ni ĝin akceptas malkaŝe kaj fiere, ĉar 
+en nia celado, kiu tiel malplaĉas al vi, ni vidas nenion krom bela kaj 
+bona."   Amikoj, ne timu konstante pri tio, kion diros la sensence kritikanta 
+kaj grimacanta rutina mondo, sed agu ĉiam tiel, kiel diktas al vi via 
+konscienco kaj koro.   Kredu, ke ĉio, kio per si mem estas bona kaj justa, 
+malgraŭ ĉiuj insultoj pli aŭ malpli frue devas venki kaj nepre venkos. 
+En la daŭro de dek naŭ jaroj ni ĉiam kantadis pri la nova sento, kiu venis 
+en la mondon &dash; nun, ni ne fariĝu timuloj, kaj laŭ la vortoj de nia himno 
+ni ne ĉesu labori por nia idealo de intergenta frateco, "ĝis la bela sonĝo 
+de l' homaro por eterna ben' efektiviĝos!"
+</p>
+</div>
+</body>
+</text>
+
+<!-- ##############  Homaranismo     ############## -->
+
+    <text rend="doc" id="homaranismo_6">
+      <front>
+        <docTitle>
+          <titlePart>
+	    Homaranismo
+          </titlePart>
+        </docTitle>
+        <docImprint>
+	  verkita de L. L. Zamenhof en majo 1913
+          registrita far <name>VASTALTO</name> en <date>1991-07-05</date>
+	  registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-09-09</date>
+        </docImprint>
+      </front>
+      <body>
+
+<div type="foreword">
+  <head>Antaŭparolo</head> 
+<p>La ĉi tie donata Deklaracio prezentas mian politika-religian kredon. 
+</p><p>Ĉar oni konas min kiel aŭtoron de Esperanto, tial multaj personoj eble 
+identigos la homaranismon kun Esperanto aŭ kun la tiel nomata "interna ideo 
+de esperantismo" &dash; tio tamen estus eraro.   Dum la esenco de Esperanto 
+estas plena neŭtraleco kaj la esperantisma ideo prezentas nur ne difintan 
+fratecan senton kaj esperon, kiujn nature naskas la renkontiĝado sur 
+neŭtrala lingva fundamento kaj kiujn ĉiu esperantisto havas plenan rajton, 
+ne sole komentarii al si tiel, kiel li volas, sed eĉ ĝenerale akcepti aŭ 
+ne akcepti ilin &dash; la homaranismo estas speciala kaj tute difinita 
+politika-religia programo, kiu prezentas mian kredon pure privatan kaj la 
+aliajn esperantistojn tute ne koncernas. 
+</p><p>Mi antaŭvidas tre bone, ke la malamikoj de Esperanto uzos mian 
+deklaracion pri homaranismo kiel batalilon kontraŭ Esperanto, kaj mian pure 
+privatan principaron ili prezentos al la mondo kiel devigan principaron de 
+ĉiuj esperantistoj.   Tio estas la kaŭzo, pro kiu mi dum tre longa tempo 
+havis la intencon aŭ tute ne publikigi mian kredon, aŭ publikigi ĝin 
+anonime.   Sed mi forĵetis tiun intencon, ĉar mi trovis, ke tio estus 
+nepardoninda senkuraĝeco.   Tamen, por tute liberigi la esperantistojn de 
+ĉia suspektebla solidareco kun miaj privataj politikaj kaj religiaj 
+konvinkoj, mi dum la oka universala kongreso de Esperanto publike formetis de 
+mi ĉian oficialan rolon en la aferoj de Esperanto. 
+</p><p>Ne por la celo de propagando mi publikigas nun mian kredon; mi simple 
+deziras, ke miaj amikoj konu mian kredon, por ke ilin ne mirigu mia rilato al 
+tiu aŭ alia politika aŭ religia demando kaj por ke la personoj, kiuj havas 
+la samajn principojn kiel mi, sciu ke ni estas samprincipanoj. 
+</p>
+
+<signed>
+  Varsovio, <date>Majo 1913.</date> 
+  <name>L. L. Zamenhof </name>
+</signed>
+</div>
+
+  <div type="declaration">
+<head>Deklaracio pri Homaranismo</head> 
+<p>Mi estas homarano: tio signifas, ke mi gvidas min en la vivo per la 
+sekvantaj principoj: 
+</p>
+<p n="1" rend="I.">Mi estas homo, kaj la tutan homaron mi rigardas kiel unu familion; la 
+dividitecon de la homaro en diversajn reciproke malamikajn gentojn kaj 
+gentreligiajn komunumojn mi rigardas kiel unu el la plej grandaj malfeliĉoj, 
+kiu pli aŭ malpli frue devas malaperi kaj kies malaperon mi devas akceladi 
+laŭ mia povo. 
+</p><p n="2" rend="II.">Mi vidas en ĉiu homo nur homon, kaj mi taksas ĉiun homon nur laŭ lia 
+persona valoro kaj agoj.   Ĉian ofendadon aŭ premadon de homo pro tio, ke 
+li apartenas al alia gento, alia lingvo, alia religio aŭ alia socia klaso ol 
+mi, mi rigardas kiel barbarecon. 
+</p><p n="3" rend="III.">Mi konscias, ke ĉiu lando apartenas ne al tiu aŭ alia gento, sed plene 
+egalrajte al ĉiuj siaj loĝantoj, kian ajn supozatan devenon, lingvon, 
+religion aŭ socian rolon ili havas; la identigadon de la interesoj de lando 
+kun la interesoj de tiu aŭ alia gento aŭ religio kaj la pretekstadon de iaj 
+historiaj rajtoj, kiuj permesas al unu gento en la lando regi super la aliaj 
+gentoj kaj forrifuzi al ili la plej elementan kaj naturan rajton je la 
+patrujo, mi rigardas kiel restaĵon el la tempoj barbaraj, kiam ekzistis nur 
+rajto de pugno kaj glavo. 
+</p><p n="4" rend="IV.">Mi konscias, ke ĉiu regno kaj ĉiu provinco devas porti nomon 
+neŭtrale-geografian, sed ne la nomon de ia gento, lingvo aŭ religio, ĉar 
+la gentaj nomoj, kiujn portas ankoraŭ multaj landoj de la malnova lando, 
+estas la ĉefa kaŭzo, pro kiu la loĝantoj de unu supozata deveno rigardas 
+sin kiel mastrojn super la loĝantoj de alia deveno.   Ĝis la tempo, kiam 
+tiuj landoj ricevos nomojn neŭtralajn, mi devas almenaŭ en interparolado 
+kun miaj samprincipanoj nomi tiujn landojn laŭ iliaj ĉefurboj kun aldono de 
+la vortoj "regno", "provinco" k.t.p. 
+</p><p n="5" rend="V.">Mi konscias, ke en sia privata vivo ĉiu homo havas plenan kaj 
+nedisputeblan rajton paroli tiun lingvon aŭ dialekton, kiu estas al li plej 
+agrabla, kaj konfesi tiun religion, kiu plej multe lin kontentigas, sed en 
+komunikiĝado kun homoj de aliaj lingvoj aŭ religioj li devas peni uzi 
+lingvon neŭtralan kaj vivi laŭ etiko kaj moroj neŭtralaj.   Mi konscias, 
+ke por samregnanoj kaj samurbanoj la rolon de lingvo neŭtrala povas ludi la 
+lingvo regna aŭ tiu kultura lingvo, kiun parolas la plimulto de la lokaj 
+loĝantoj, sed ke tio devas esti rigardata nur kiel prooportuneca cedo de la 
+malplimulto al la plimulto, sed ne kiel ia humiliga tributo, kiun ŝuldas 
+gentoj mastrataj al gentoj mastrantaj.   Mi konscias, ke en tiaj lokoj, kie 
+batalas inter si diversaj gentoj, estas dezirinde, ke en la publikaj 
+institucioj estu uzata lingvo neŭtrale-homa, aŭ ke almenaŭ krom la 
+gentlingvaj kulturejoj tie ekzistu ankaŭ specialaj lernejoj kaj kulturaj 
+institucioj kun lingvo neŭtrale-homa, por ke ĉiuj dezirantoj povu ĉerpi 
+kulturon kaj eduki siajn infanojn en senŝovinisma spirito neŭtrale-homa. 
+</p><p n="6" rend="VI.">Ĉar mi konscias, ke la reciproka malpaco inter la homoj neniam ĉesos, 
+ĝis la homoj alkutimiĝos starigi la nomon "homo" pli alte, ol la nomon de 
+gento, kaj ĉar la tro nepreciza vorto "popolo" ofte donas kaŭzon al genta 
+ŝovinismo, disputoj kaj malbonuzoj kaj ofte malame dividas inter si la 
+filojn de la sama lando aŭ eĉ de la sama gento, tial je la demando, al kiu 
+popolo mi alkalkulas min, mi respondas: mi estas homarano; nur tiam, kiam oni 
+demandas min speciale pri mia regno, provinco, lingvo, deveno aŭ religio, mi 
+donas pri tio precizajn respondojn. 
+</p><p n="7" rend="VII.">Mia patrolando mi nomas tiun landon, en kiu mi naskiĝis; mia hejmlando 
+mi nomas tiun landon, en kiu mi estas konstanta, fikshejma loĝanto.   Sed 
+ĉar pro la nedifiniteco de la vorto "lando" la vortoj "patrolando" kaj 
+"hejmlando" estas neprecizaj kaj ofte kaŭzas disputojn kaj malpacon kaj 
+malamike disigas inter si la filojn de la sama terpeco, tial en ĉiuj dubaj 
+okazoj mi evitas tiujn neprecizajn vortojn kaj uzas anstataŭ ili la pli 
+precizajn vortojn "patruja regno", "patruja regiono", "patruja urbo", "hejma 
+regno", "hejma regiono", "hejma urbo". 
+</p><p n="8" rend="VIII.">Patriotismo mi nomas la servadon al la bono de ĉiuj miaj samhejmanoj, 
+kian ajn devenon, lingvon, religion aŭ socian rolon ili havas.   La servadon 
+speciale al la interesoj de unu gento aŭ la malamon kontraŭ alihejmuloj mi 
+neniam devas nomi patriotismo.   Mi konscias, ke profunda amo al sia patrujo 
+kaj al sia hejmo estas afero tute natura kaj komuna al ĉiuj homoj, kaj nur 
+nenormalaj eksteraj cirkonstancoj povas paralizi tiun tute naturan senton. 
+Tial se en mia hejmo ĉiuj laboroj estas ekspluatataj por la oportuneco aŭ 
+gloro de unu speciala gento kaj tio paralizas mian entuziasmon por socia 
+laborado aŭ eĉ devigas min revi pri alia hejmlando, mi ne devas malesperi, 
+sed mi devas min konsoli per la kredo, ke la nenormala stato en mia hejmo pli 
+aŭ malpli frue pasos kaj miaj filoj aŭ nepoj plene ĝuos tiun fortigan 
+entuziasmon, kiun en mi paralizis la maljusteco de miaj samhejmanoj. 
+</p><p n="9" rend="IX.">Konsciante, ke lingvo devas esti por la homo ne celo, sed nur rimedo, ne 
+disigilo, sed unuigilo, kaj ke la lingva ŝovinismo estas unu el la ĉefaj 
+kaŭzoj de malamo inter la homoj, mi neniam gentan lingvon aŭ dialekton 
+devas rigardi kiel mian sanktaĵon, kiel ajn mi ĝin amus, nek fari el ĝi 
+mian batalan standardon.   Kiam oni min demandas speciale pri mia lingvo 
+gepatra, mi nomas senŝovinisme tiun lingvon aŭ dialekton, en kiu mi en mia 
+infaneco parolis kun miaj gepatroj; kiam oni min demandas speciale pri mia 
+lingvo persona, mi &dash; gvidante min per neniaj ŝovinismaj konsideroj &dash; 
+nomas tiun lingvon, kiun mi persone plej bone posedas aŭ plej volonte uzas; 
+sed kia ajn estas mia lingvo gepatra aŭ persona, mi devas posedi ankaŭ tiun 
+neŭtrale-homan lingvon, kiun miaj samtempuloj uzas por rilatoj intergentaj, 
+por ke mi ne bezonu miakulpe altrudi al aliuloj mian lingvon kaj por ke mi 
+havu moralan rajton deziri, ke aliuloj ne altrudu al mi sian, kaj por ke mi 
+povu sur senŝovinisma bazo servi al la kulturo neŭtrale-homa. 
+</p><p n="10" rend="X.">Konsciante, ke religio devas esti nur afero de sincera kredo, sed ne 
+ludi la rolon de hereda genta disigilo, mi nomas mia religio nur tiun 
+religion aŭ religianstataŭantan sistemon, je kiu mi efektive kredas.   Sed 
+kia ajn estas mia religio, mi konfesas ĝin laŭ neŭtrale-homaj principoj 
+"homaranaj", kiuj konsistas en jeno: 
+</p><p n="10a" rend="a)">La plej altan por mi ne kompreneblan Forton, kiu estas la kaŭzo de 
+la kaŭzoj en la mondo materia kaj morala, mi povas nomi per la nomo "Dio" 
+aŭ per alia nomo, sed mi konscias, ke la esencon de tiu Forto ĉiu havas la 
+rajton prezenti al si tiel, kiel diktas al li lia prudento kaj koro aŭ la 
+instruoj de lia eklezio.   Neniam mi devas malami aŭ persekuti iun pro tio, 
+ke lia kredo pri Dio estas alia ol mia. 
+</p><p n="10b" rend="b)">Mi konscias, ke la esenco de la veraj religiaj ordonoj kuŝas en la 
+koro de ĉiu homo sub la formo de konscienco, kaj ke la ĉefa por ĉiuj homoj 
+deviga principo de tiuj ordonoj estas: agu kun aliuloj tiel, kiel vi dezirus, 
+ke aliuloj agu kun vi: ĉion alian en la religio mi rigardas kiel aldonojn, 
+kiujn miksite kun legendoj donis al ni diversgentaj grandaj instruintoj de la 
+homaro, kaj kiel morojn, kiuj estas starigitaj de homoj kaj kies plenumado 
+aŭ neplenumado dependas de nia volo. 
+</p><p n="10c" rend="c)">Se mi kredas je neniu el la ekzistantaj revelaciaj religioj, mi ne 
+devas resti en iu el ili sole pro motivoj gentaj kaj per mia restado erarigi 
+homojn pri miaj konvinkoj kaj herede nutri per senfinaj generacioj 
+intergentan disecon, sed mi devas &dash; se la leĝoj de mia lando permesas &dash; 
+malkaŝe kaj oficiale nomi min "liberkreda", ne identigante tamen la 
+liberkredon speciale kun ateismo, sed rezervante al mia kredado plenan 
+liberecon.   Kiam en mia loĝloko ekzistos komuninterkonsente aranĝita, 
+plenforme organizita samgenta kaj sendoktrina komunumo de liberkredantoj, al 
+kiu mi povas aliĝi kun plena kontenteco por mia konscienco kaj por la 
+bezonoj de mia koro, tiam &dash; por fiksi fortike kaj precize mian religian 
+neŭtralecon kaj savi mian posteularon kontraŭ senprogrameco kaj konsekvence 
+kontraŭ refalo en gente-religian ŝovinismon, mi devas aliĝi al tiu 
+liberkreda komunumo tute oficiale kaj heredigeble kaj akcepti por mi ĝian 
+neŭtralan nomon, ĝiajn komunumajn aranĝojn, ĝiajn nedevigajn 
+neŭtrale-homajn festojn kaj morojn, ĝian neŭtrale-homan kalendaron k.t.p.; 
+ĝis tiu tempo mi povas resti oficiale alskribita al tiu religio, en kiu mi 
+naskiĝis, sed mi devas ĉiam aldoni al ĝia nomo la vorton "liberkreda", por 
+montri, ke mi alkalkulas min al ĝi nur provizore, laŭmore kaj administre. 
+</p>
+</div>
+</body>
+</text>
+</group>
+</text>
+</TEI.2>

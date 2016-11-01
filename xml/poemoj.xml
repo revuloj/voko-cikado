@@ -1,0 +1,537 @@
+<?xml-stylesheet type="text/xml" href="poemoj.xsl"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+<!ENTITY dro "D-ro">
+
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+
+]>
+
+<!-- $Id: poemoj.xml,v 1.1 2016/10/25 17:37:59 revo Exp $ -->
+<!-- 
+  $Log: poemoj.xml,v $
+  Revision 1.1  2016/10/25 17:37:59  revo
+  teixlite-igis peomojn de Zam
+
+-->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>Poemoj</title>
+      <author>L. L. Zamenhof</author>
+      <respStmt>
+        <resp>adaptitaj al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: poemoj.xml,v 1.1 2016/10/25 17:37:59 revo Exp $</edition>
+    </editionStmt>
+    <extent>15 kB</extent>
+    <publicationStmt>
+      <p>Preparita por TEI-formato de <name>Wolfram Diestel</name></p>
+    </publicationStmt>
+    <sourceDesc>
+      <p>La kruda tekstaro estis prenita el retejo ne formo html.</p>
+    </sourceDesc>
+  </fileDesc>
+
+    <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is en kadro de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+    <editorialDecl>
+       <p>La kruda tekstaro estis prenita el retejo ne formo html.</p>
+    </editorialDecl>    
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+
+   <front rend="index">
+    <titlePage>
+      <docTitle>
+        <titlePart type="main">Poemoj</titlePart>
+      </docTitle>
+      <byline>
+        de <docAuthor>L. L. Zamenhof</docAuthor>
+      </byline>
+      <docImprint>
+	adaptitaj al TEIXLite de Wolfram Diestel
+      </docImprint> 
+    </titlePage>
+  </front>
+
+<body>
+
+<div type="poem">
+
+<head>
+Al la "Esperantisto"
+</head>
+
+<lg>
+<l>En bona hor'! Ni aŭdis la signalon
+</l><l>kaj bataleme saltas nia koro.
+</l><l>Konduku nin, komencu la batalon
+</l><l>sub bona stelo, en feliĉa horo!
+</l><l>
+</l><l>Amikoj de proksime, malproksime,
+</l><l>salutas vin, ho nia luma stelo!
+</l><l>Konduku nin, senhalte kaj sentime,
+</l><l>al nia granda, sankta, glora celo!
+</l><l>
+</l><l>Ne tre facila estas nia vojo
+</l><l>kaj ne malmulte ankaŭ ni suferos;
+</l><l>sed batalante, kun plej granda ĝojo
+</l><l>senhalte ni laboros kaj esperos.
+</l><l>
+</l><l>For estas jam la baroj de l' komenco,
+</l><l>l' unua muro estas trarompita,
+</l><l>kaj dolĉa estos nia rekompenco,
+</l><l>kiam la celo estos alvenita.
+</l></lg>
+</div>
+
+<div type="poem">
+
+<head>
+Al la Fratoj
+</head>
+
+<lg>
+<l>Forte ni staru, fratoj amataj,
+</l><l>por nia sankta afero!
+</l><l>Ni bataladu kune tenataj
+</l><l>per unu bela espero!
+</l><l>
+</l><l>Regas ankoraŭ nokto sen luno,
+</l><l>la mondo dormas obstine,
+</l><l>sed jam leviĝos baldaŭ la suno,
+</l><l>por lumi, brili senfine.
+</l><l>
+</l><l>Veku, ho veku, veku konstante,
+</l><l>ne timu ridon, insulton!
+</l><l>Voku, ho voku, ripetadante,
+</l><l>Ĝis vi atingos aŭskulton!
+</l><l>
+</l><l>Dekon da fojoj vane perdiĝos
+</l><l>la voko via ridata, -
+</l><l>la dekunua alradikiĝos,
+</l><l>kaj kreskos frukto benata.
+</l><l>
+</l><l>Tre malproksime ĉiuj ni staras
+</l><l>la unuj de la aliaj...
+</l><l>Kie vi estas, kion vi faras,
+</l><l>ho, karaj fratoj vi miaj?
+</l><l>
+</l><l>Vi en la urbo, vi en urbeto,
+</l><l>en la malgranda vilaĝo,
+</l><l>ĉu ne forflugis kiel bloveto
+</l><l>la tuta via kuraĝo?
+</l><l>
+</l><l>Ĉu vi sukcese en via loko
+</l><l>kondukas nian aferon,
+</l><l>aŭ eksilentis jam via voko,
+</l><l>vi lacaj perdis esperon?
+</l><l>
+</l><l>Iras senhalte via laboro
+</l><l>honeste kaj esperante?
+</l><l>Brulas la flamo en via koro
+</l><l>neniam malfortiĝante?
+</l><l>
+</l><l>Forte ni staru, brave laboru,
+</l><l>kuraĝe, ho nia rondo!
+</l><l>Nia afero kresku kaj floru
+</l><l>per ni en tuta la mondo!
+</l><l>
+</l><l>Ni ĝin kondukos ne ripozante,
+</l><l>kaj nin laciĝos nenio;
+</l><l>ni ĝin traportos, sankte ĵurante,
+</l><l>tra l' tuta mondo de Dio!
+</l><l>
+</l><l>Malfacileco, malrapideco
+</l><l>al ni la vojon ne baros.
+</l><l>Sen malhonora malkuraĝeco
+</l><l>ni kion povos, ni faros.
+</l><l>
+</l><l>Staras ankoraŭ en la komenco
+</l><l>la celo en malproksimo, -
+</l><l>ni ĝin atingos per la potenco
+</l><l>de nia forta animo!
+</l><l>
+</l><l>Ni ĝin atingos per la potenco
+</l><l>de nia sankta fervoro,
+</l><l>ni ĝin atingos per pacienco
+</l><l>kaj per sentima laboro.
+</l><l>
+</l><l>Glora la celo, sankta l' afero,
+</l><l>la venko - baldaŭ ĝi venos;
+</l><l>levos la kapon ni kun fiero,
+</l><l>la mondo ĝoje nin benos.
+</l><l>
+</l><l>Tiam atendas nin rekompenco
+</l><l>la plej majesta kaj riĉa:
+</l><l>nia laboro kaj pacienco
+</l></lg>
+</div>
+<div type="poem">
+
+<head>
+En nord' unu pino en solo..., el Heine
+</head>
+
+<lg>
+<l>En nord' unu pino en solo
+</l><l>dormetas sur nuda altaĵo;
+</l><l>glacia kaj neĝa tavolo
+</l><l>ĝin kovras per tomba tolaĵo.
+</l><l>
+</l><l>Ĝi sonĝas, ke palmo gracia,
+</l><l>en unu dezert' orienta,
+</l><l>eterne pri lando alia
+</l><l>malgaje sopiras silenta.
+</l>
+</lg>
+</div>
+<div type="poem">
+
+<head>
+En sonĝo princinon mi vidis..., el Heine
+</head>
+
+<lg>
+<l>En sonĝo princinon mi vidis
+</l><l>kun vangoj malsekaj de ploro, -
+</l><l>sub arbo, sub verda ni sidis,
+</l><l>tenante nin koro ĉe koro.
+</l><l>
+</l><l>"De l' patro de l' via la krono
+</l><l>por mi ĝi ne estas havinda!
+</l><l>For, for lia sceptro kaj trono -
+</l><l>vin mem mi deziras, aminda!"
+</l><l>
+</l><l>"Ne eble!" ŝi al mi rediras:
+</l><l>"En tombo mi estas tenata,
+</l><l>mi nur en la nokto eliras"
+</l>
+</lg>
+</div>
+<div type="poem">
+
+<head>
+Hamleto, el Hamleto
+</head>
+
+<lg>
+
+<l>Ĉu esti aŭ ne esti, - tiel staras
+</l><l>Nun la demando: ĉu pli noble estas
+</l><l>Elporti ĉiujn batojn, ĉiujn sagojn
+</l><l>De la kolera sorto, aŭ sin armi
+</l><l>Kontraŭ la tuta maro da mizeroj
+</l><l>Kaj per la kontraŭstaro ilin fini?
+</l><l>Formorti - dormi, kaj nenio plu!
+</l><l>Kaj scii, ke la dormo tute finis
+</l><l>Doloron de la koro, la mil batojn,
+</l><l>Heredon de la korpo, - tio estas
+</l><l>Tre dezirinda celo. Morti - dormi -
+</l><l>Trankvile dormi! Jes, sed ankaŭ sonĝi!
+</l><l>Jen estas la barilo! Kiaj sonĝoj
+</l><l>Viziti povas nian mortan dormon
+</l><l>Post la forĵeto de la teraj zorgoj, -
+</l><l>Jen tio nin haltigas; tio faras,
+</l><l>Ke la mizeroj teraj longe daŭras:
+</l><l>Alie kiu volus elportadi
+</l><l>La mokon kaj la batojn de la tempo,
+</l><l>La premon de l' potencaj, la ofendojn
+</l><l>De la fieraj, falson de la juĝoj,
+</l><l>Turmentojn de la amo rifuzita,
+</l><l>La malestimon, kiun seninduloj
+</l><l>Regalas al merito efektiva, -
+</l><l>Jes, kiu volus tion ĉi elporti,
+</l><l>Se mem, per unu puŝo de ponardo,
+</l><l>Li povus sin de ĉio liberigi?
+</l><l>Kaj kiu do en ŝvito kaj en ĝemoj
+</l><l>La ŝarĝon de la vivo volus porti,
+</l><l>Se ne la tim' de io post la morto,
+</l><l>De tiu nekonata land', el kiu
+</l><l>Neniu plu revenas. Kaj pro tio
+</l><l>Pli volas ni elporti ĉion teran,
+</l><l>Ol flugi al mizeroj nekonataj.
+</l><l>La konscienco faras nin timuloj;
+</l><l>Al la koloro hela de decido
+</l><l>Aliĝas la paleco de l' pensadoj;
+</l><l>Kaj plej kuraĝa, forta entrepreno
+</l><l>Per tiu kaŭzo haltas sendecide,
+</l><l>Kaj ĉio restas penso, sed ne faro...
+</l><l>Sed haltu!
+</l>
+</lg>
+</div>
+
+<div type="peom">
+<head>Ho, Mia Kor'</head>
+<lg>
+<l>Ho, mia kor', ne batu maltrankvile,</l><l> 
+El mia brusto nun ne saltu for!</l><l> 
+Jam teni min ne povas mi facile,</l><l> 
+Ho, mia kor'!</l></lg>
+<lg>
+<l>Ho, mia kor'! Post longa laborado</l><l> 
+Ĉu mi ne venkos en decida hor'!</l><l> 
+Sufiĉe! trankviliĝu de l' batado,</l><l> 
+Ho, mia kor' !</l>
+</lg>
+</div>
+
+<div type="poem">
+   <head>LA ESPERO</head>
+
+<lg>
+<l>En la mondon venis nova sento,
+</l><l>Tra la mondo iras forta voko;
+</l><l>Per flugiloj de facila vento
+</l><l>Nun de loko flugu ĝi al loko.
+</l>
+</lg><lg>
+<l>Ne al glavo sangon soifanta
+</l><l>Ĝi la homan tiras familion:
+</l><l>Al la mond' eterne militanta
+</l><l>Ĝi promesas sanktan harmonion.
+</l>
+</lg><lg>
+<l>Sub la sankta signo de l' espero,
+</l><l>Kolektiĝas pacaj batalantoj,
+</l><l>Kaj rapide kreskas la afero
+</l><l>Per laboro de la esperantoj.
+</l></lg><lg>
+<l>Forte staras muroj de miljaroj
+</l><l>Inter la popoloj dividitaj,
+</l><l>Sed dissaltos la obstinaj baroj,
+</l><l>Per la sankta amo disbatitaj.
+</l></lg>
+<lg><l>Sur neŭtrala lingva fundamento,
+</l><l>Komprenante unu la alian,
+</l><l>La popoloj faros en konsento
+</l><l>unu grandan rondon familian.
+</l></lg>
+<lg><l>Nia diligenta kolegaro
+</l><l>En laboro paca ne laciĝos,
+</l><l>Ĝis la bela sonĝo de l' homaro
+</l><l>Por eterna ben' efektiviĝos.
+</l>
+</lg>
+</div>
+<div type="poem">
+<head>LA VOJO</head>
+<lg>
+<l>Tra densa mallumo, briletas la celo
+</l><l>Al kiu kuraĝe ni iras.
+</l><l>Simile al stelo, en nokta ĉielo,
+</l><l>Al ni la direkton ĝi diras.
+</l><l>Kaj nin ne timigas la noktaj fantomoj,
+</l><l>Nek batoj de l' sorto, nek mokoj de l' homoj,
+</l><l>Ĉar klara kaj rekta, kaj tre difinita
+</l><l>Ĝi estas, la voj' elektita.
+</l></lg>
+<lg><l>Nur rekte, kuraĝe kaj ne flankiĝante
+</l><l>Ni iru la vojon celitan!
+</l><l>Eĉ guto malgranda, konstante frapante,
+</l><l>Traboras la monton granitan.
+</l><l>L' espero, l' obstino kaj la pacienco -
+</l><l>Jen estas la signoj, per kies potenco
+</l><l>Ni paŝo post paŝo, post longa laboro,
+</l><l>Atingos la celon en gloro.
+</l></lg>
+<lg><l>Ni semas kaj semas, neniam laciĝas,
+</l><l>Pri l' tempoj estontaj pensante.
+</l><l>Cent semoj perdiĝas, mil semoj perdiĝas, -
+</l><l>Ni semas kaj semas konstante.
+</l><l>``Ho ĉesu!'', mokante la homoj admonas, -
+</l><l>``Ne ĉesu, ne ĉesu!'' en kor' al ni sonas:
+</l><l>``Obstine antaŭen! La nepoj vin benos,
+</l><l>Se vi pacience eltenos''.
+</l></lg>
+<lg><l>Se longa sekeco, aŭ ventoj subitaj
+</l><l>Velkantajn foliojn deŝiras,
+</l><l>Ni dankas la venton, kaj, repurigitaj,
+</l><l>Ni forton pli freŝan akiras.
+</l><l>Ne mortos jam nia bravega anaro,
+</l><l>Ĝin jam ne timigos la vento, nek staro,
+</l><l>Obstine ĝi paŝas, provita, hardita
+</l><l>Al cel' unu fojon signita!
+</l></lg>
+<lg><l>Nur rekte, kuraĝe kaj ne flankiĝante
+</l><l>Ni iru la vojon celitan!
+</l><l>Eĉ guto malgranda, konstante frapante,
+</l><l>Traboras la monton granitan.
+</l><l>L' espero, l' obstino kaj la pacienco -
+</l><l>Jen estas la signoj per kies potenco
+</l><l>Ni paŝo post paŝo, post longa laboro,
+</l><l>Atingos la celon en gloro.
+</l></lg>
+</div>
+
+<div type="poem">
+
+<head>
+Lorelej, el Heine
+</head>
+
+<lg>
+<l>Ne scias mi, kial subita
+</l><l>malgaj' en la koro naskiĝis;
+</l><l>el tempo jam enterigita
+</l><l>legendo al mi reviviĝis.
+</l></lg>
+<lg><l>Jam malvarmetiĝas l' aero,
+</l><l>la Rejno mallaŭte babilas,
+</l><l>per oro de l'sun' en vespero
+</l><l>la supro de l' monto rebrilas.
+</l></lg>
+<lg><l>Plej belan knabinon mi vidas:
+</l><l>en ora ornamo brilante,
+</l><l>sur supro de l' monto ĝi sidas,
+</l><l>la harojn mistere kombante.
+</l></lg>
+<lg><l>La oran kombilon ĝi movas
+</l><l>kaj kantas tra l' pura aero,
+</l><l>kaj forto mirinda sin trovas
+</l><l>en tiu ĉi kant' de l'vespero.
+</l></lg>
+<lg><l>ŝipet' iras sur la rivero,
+</l><l>ŝipisto ektremis de l' kanto,
+</l><l>kaj blinda por ĉiu danĝero
+</l><l>rigardas li al la kantanto.
+</l></lg>
+<lg><l>Ha, baldaŭ ŝipisto la bela
+</l><l>perdiĝis sub l' akvoturnado;
+</l><l>ĝin Lorelej' faris kruela,
+</l><l>per sia mirinda kantado.
+</l>
+</lg>
+</div>
+
+<div type="poem">
+                        <head>                  Pluvo</head>
+                                             <lg>
+<l>                         Pluvas kaj pluvas kaj pluvas kaj pluvas
+</l><l>                               senĉese, senfine, senhalte,
+</l><l>                          el ĉiel' al la ter', el ĉiel' al la ter'
+</l><l>                                are gutoj frapiĝas resalte.
+</l><l>                           Tra la sonoj de l' pluvo al mia orelo
+</l><l>                                murmurado penetras mistera,
+</l><l>                          mi revante aŭskultas, mi volus kompreni,
+</l><l>                                  kion diras la voĉo aera.
+</l><l>                            Kvazaŭ ia sopir' en la voĉo kaŝiĝas
+</l><l>                               kaj aŭdiĝas en ĝi rememoro...
+</l><l>                       Kaj per sento plej stranga, malĝoja kaj ĝoja,
+</l><l>                                en mi batas konfuze la koro.
+</l><l>                          Ĉu la nuboj pasintaj, jam ofte viditaj,
+</l><l>                                 rememore en mi reviviĝis,
+</l><l>                         aŭ mi revas pri l' sun', kiu baldaŭ aperos
+</l><l>                              kvankam ĝi en la nuboj kaŝiĝis?
+</l><l>                          Mi ne volas esplori la senton misteran,
+</l><l>                             mi nur revas, mi ĝuas, mi spiras;
+</l><l>                         ion freŝan mi sentas, la freŝo min logas,
+</l><l>                               al la freŝo la koro min tiras.
+					     </l>   </lg>
+</div>
+
+<div type="poem">
+<head>PREĜO SUB LA VERDA STANDARDO</head>
+
+<lg>
+<l>Al Vi, ho potenca senkorpa mistero, 
+</l><l>   Fortego, la mondon reganta, 
+</l><l>   Al Vi, granda fonto de l' amo kaj vero 
+</l><l>   Kaj fonto de vivo konstanta, 
+</l><l>   Al Vi, kiun ĉiuj malsame prezentas, 
+</l><l>   Sed ĉiuj egale en koro Vin sentas, 
+</l><l>   Al Vi, kiu kreas, al Vi, kiu reĝas, 
+</l><l>   Hodiau ni preĝas.
+</l></lg><lg>
+<l>   Al Vi ni ne venas kun kredo nacia, 
+</l><l>   Kun dogmoj de blinda fervoro: 
+</l><l>   Silentas nun ĉiu disput' religia 
+</l><l>   Kaj regas nun kredo de _koro_. 
+</l><l>   Kun ĝi, kiu estas ĉe ĉiuj egala, 
+</l><l>   Kun ĝi, la plej vera, sen trudo batala, 
+</l><l>   Ni staras nun, filoj de l' tuta homaro 
+</l><l>   Ĉe Via altaro.
+</l></lg><lg>
+<l>   Homaron Vi kreis perfekte kaj bele, 
+</l><l>   Sed ĝi sin dividis batale; 
+</l><l>   Popolo popolon atakas kruele, 
+</l><l>   Frat' fraton atakas ŝakale. 
+</l><l>   Ho, kiu ajn estas Vi, forto mistera, 
+</l><l>   Aŭskultu la voĉon de l' preĝo sincera, 
+</l><l>   Redonu la pacon al la infanaro 
+</l><l>   De l' granda homaro!
+</l></lg><lg>
+<l>   Ni ĵuris labori, ni ĵuris batali, 
+</l><l>   Por reunuigi l' homaron. 
+</l><l>   Subtenu nin, Forto, ne lasu nin fali, 
+</l><l>   Sed lasu nin venki la baron;
+</l><l>   Donacu Vi benon al nia laboro, 
+</l><l>   Donacu Vi forton al nia fervoro, 
+</l><l>   Ke ĉiam ni kontraŭ atakoj sovagaj 
+</l><l>   Nin tenu kuraĝaj.
+</l></lg><lg>
+<l>   La verdan standardon tre alte ni tenos; 
+</l><l>   Ĝi signas la bonon kaj belon. 
+</l><l>   La Forto mistera de l' mondo nin benos, 
+</l><l>   Kaj nian atingos ni celon. 
+</l><l>   Ni inter popoloj la murojn detruos, 
+</l><l>   Kaj ili ekkrakos kaj ili ekbruos 
+</l><l>   Kaj falos por ĉiam, kaj amo kaj vero 
+</l><l>   Ekregos sur tero.
+</l></lg><lg>
+<l>   Kuniĝu la fratoj, plektiĝu la manoj, 
+</l><l>   Antaŭen kun pacaj armiloj! 
+</l><l>   Kristanoj, hebreoj aŭ mahometanoj 
+</l><l>   Ni ĉiuj de Di' estas fiioj. 
+</l><l>   Ni ĉiam memoru pri bon' de l' homaro, 
+</l><l>   Kaj malgraŭ malhelpoj, sen halto kaj staro 
+</l><l>   Al frata la celo ni iru obstine 
+</l><l>   Antaŭen, senfine !
+</l></lg>
+</div>
+</body>
+</text>
+</TEI.2>
+

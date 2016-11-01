@@ -1,4 +1,4 @@
-#!/usr/local/bin/perl -w
+#!/usr/bin/perl -w
 
 # eltiras autorojn kaj titolojn el la XML-fontoj de la verkoj 
 
@@ -39,8 +39,8 @@ while ($file = readdir DIR) {
 
 	warn "$file...\n" if ($verbose);
 	while (<FILE>) {
-	    if (/<title>(.*)<\/title>/) { $title = $1; }
-	    elsif (/<author>(.*)<\/author>/) { $author = $1; }
+	    if (/<title>(.*)<\/title>/) { $title = $1 unless $title; }
+	    elsif (/<author>(.*)<\/author>/) { $author = $1 unless $author; }
 	    elsif (/<resp>.*tradukis.*<\/resp>/) {
 		my $name=<FILE>;
 		if ($name=~/<name>(.*?)<\/name>/) {

@@ -8,7 +8,8 @@
    <property name="xml" location="xml"/>
    <property name="tmp" location="tmp"/>
    <property name="bin" location="bin"/>
-   <property name="xsl" location="xsl/epub"/>
+   <property name="xsl" location="xsl"/>
+   <property name="xsl-epub" location="xsl/epub"/>
    <property name="epub" location="epub"/>
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
 
@@ -50,15 +51,15 @@
       <echo message="application/epub+zip" file="${dir}/mimetype"/>
      
       <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
-        style="${xsl}/epub_container.xsl">
+        style="${xsl-epub}/epub_container.xsl">
       </xslt>
 
       <xslt in="${fonto}" out="${dir}/content.opf"
-        style="${xsl}/fundamento_epub_opf.xsl">
+        style="${xsl-epub}/fundamento_epub_opf.xsl">
       </xslt>
 
       <xslt in="${fonto}" out="${dir}/content.ncx"
-        style="${xsl}/teixlite_epub_ncx.xsl">
+        style="${xsl-epub}/teixlite_epub_ncx.xsl">
       </xslt>
   
       <exec executable="${bin}/xml2epub.pl" logError="true">
@@ -102,15 +103,15 @@
       <echo message="application/epub+zip" file="${dir}/mimetype"/>
      
       <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
-        style="${xsl}/epub_container.xsl">
+        style="${xsl-epub}/epub_container.xsl">
       </xslt>
 
       <xslt in="${fonto}" out="${dir}/content.opf"
-        style="${xsl}/senchesa_epub_opf.xsl">
+        style="${xsl-epub}/senchesa_epub_opf.xsl">
       </xslt>
 
       <xslt in="${fonto}" out="${dir}/content.ncx"
-        style="${xsl}/senchesa_epub_ncx.xsl">
+        style="${xsl-epub}/senchesa_epub_ncx.xsl">
       </xslt>
   
       <exec executable="${bin}/xml2epub.pl" logError="true">

@@ -27,9 +27,12 @@
  
 ]>
  
-<!-- $Id: fabeloj4.xml,v 1.6 2007/01/24 20:20:53 revo Exp $ -->
+<!-- $Id: fabeloj4.xml,v 1.7 2016/10/23 19:15:52 revo Exp $ -->
 <!-- 
   $Log: fabeloj4.xml,v $
+  Revision 1.7  2016/10/23 19:15:52  revo
+  aldonis mankintan trian viziton de turgardisto kaj korektis strukturon post tiu loko (div)
+
   Revision 1.6  2007/01/24 20:20:53  revo
   prilaboretis verkoliston
 
@@ -70,7 +73,7 @@
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id: fabeloj4.xml,v 1.6 2007/01/24 20:20:53 revo Exp $</edition>
+      <edition>$Id: fabeloj4.xml,v 1.7 2016/10/23 19:15:52 revo Exp $</edition>
     </editionStmt>
     <extent>475 kB</extent>
     <publicationStmt>
@@ -3516,6 +3519,26 @@ miksas amba&ubreve; en egalaj kvantoj!</q>
 devas fari pluajn vizitojn. </p>
 </div>
 
+<div type="chapter">
+<head>Tria vizito</head>
+
+<p>
+    Tiufoje mi elektis la ĝeneralan "translokiĝan tagon" por mia vizito kun Ole, ĉar tiutage tute ne estas agrable sur la stratoj de la urbo; ĉar ili estas plenplenaj de balaaĵoj, ĉifonoj, kaj ĉiaj restaĵoj, se ne paroli pri la forĵetitaj rubaĵoj tra kiu oni devas vadi. Sed tiufoje mi hazarde vidis du infanojn ludantajn en tiu sovaĝejo el balaaĵoj. Ili ludis "enlitiĝo", ĉar la okazo ŝajnis aparte favora por tiu sporto. Ili rampis sub la fojnon, kaj tiris peceton de ĉifona kurteno sur sin kiel kovraĵeton. "Ĝi estis belega!" ili diris; sed ĝi tro odoraĉis por mi, kaj cetere mi devis grimpi je mia vizito al Ole.
+</p><p>
+<q>Hodiaŭ estas la translokiĝa tago,</q> li diris; &leftquot;stratoj kaj domoj estas kvazaŭ rubujo &dash; granda rubujo; sed mi estas kontenta pri ĉaro da. Eble mi trovos ion bonan en tio, kaj unu fojon mi certe ricevis ion bonan el ĝi. Mallonge post la Kristnasko, mi iris laŭ la strato; la vetero estis aĉa, malseka kaj tempesta  &dash; gripa vetero. La rubaĵisto estis tie kun sia ĉaro, kiu jam plenis, kaj similis stratojn je transloiĝa tago. En la malantaŭo de la ĉaro staris abio, ankoraŭ tute verda, kaj kun metalstrioj sur la branĉetoj; oni uzis ĝin je la antaŭkristnaska vespero, kaj nun forĵetis ĝin sur la straton, kaj la rubaĵisto starigis ĝin en la malantaŭo de la ĉaro. Estis amuze rigardi ĝin, aŭ oni povus diri, funebre &dash; depende de tio, kiun vi pensas, vidante ĝin; kaj mi pripensis ĝin, kaj pripensis tion kaj tion pri multaj aĵoj en la ĉaro; nu, eble mi pripensis, ja temas pri la sama afero. Estis ankaŭ ganto de maljunulino: mi scivolas, kin ĝi pripensis? Ĉu mi diru al vi? La ganto kuŝis tie, etendante sian fingreton al la arbo. <q rend="'">Mi kompatas tiun arbon,</q> ĝi pensis; <q rend="'">kaj ankaŭ mi ĉeestis la festenon, kie la lustroj brilis. Mia vivo estis, tiel diri, bala nokto &dash; unu manpremo, kaj mi krevis! Mia memora daŭre restas ĉe tio, kaj mi vere havas nenion alian porvivindan!</q> Tiel pensis la ganto, nu, tiel ĝi povus pensi. <q rend="'">Jen stulta afero pri tiu abio,</q> diris la potpecoj. Sciu, potpecoj opinias ĉion stulta. <q rend="'">Kiam oni estas en la ruboĉaro,</q> ili diris, <q rend="'">oni ne devus orgojli kaj porti metalstriojn. Mi scias ke mi estis tre utila en la mondo &dash; multe pli utila ol tia verda ŝtipo.</q> Nu, tiel ili povus pensi, kaj mi ne opinias tian penson stranga; sed malgraŭ tio, la abio aspektis tre bonfarte: ĝi estis kvazaŭ iomete da poezio inter la rubaĵoj; kaj verdire, estas sufiĉe da polvo sur la stratoj je la translokiĝa tago. Tiam la vojo estas malfacile kaj ĝena, kaj mi sentas min devigita forfuĝi el la konfuzo; aŭ, se mi estas sur la turo, mi restas tie kaj rigardas malsupren, kaj tio estas sufiĉe amuza.
+</p><p>
+Malsupre estas bonaj homoj, kiuj ludas pri  <q rend="'">ŝanĝi domojn.</q> Ili laboregas kaj tiras siajn posedaĵojn kaj respondecaĵojn, kaj la doma koboldo sidas en malnova kuvo kaj translokiĝas kun ili. Ĉiuj doloretoj pri la loĝejo kaj la familio, kaj la veraj zorgoj kaj bedaŭroj, tiuj translokiĝas kun ili el la malnova loĝejo en la novan; kaj kion ili aŭ ni gajnas el la tuta afero? Jes, antaŭlonge estis skribite la bona aforismo: <q rend="'">Pripensu la grandan translokiĝan tagon de la morto!</q> Jen serioza pripenso. Mi esperas, ke ne malkontentigas vin, ke mi tuŝis ĝin? La Morto estas cetere la plej certa mesaĝisto, malgraŭ siaj diversaj okupoj. Jes, la Morto estas la omnibusa konduktoro, kaj li estas la pasportisto, kaj li subskribas nian servo-libreton, kaj li estas estro de la ŝparbanko de la vivo. Ĉu vi komprenas min? Ĉiujn farojn de nia vivo, same grandajn kaj malgrandajn, ni metas en tiun ŝparbankon; kaj kiam la Morto venos kun sia omnibuso, kaj ni devos enpaŝi, kaj veturi kun li al la lando de eterno, tiam ĉe la landlimo li donas al ni nian servo-libreton kiel pasporton. Kiel provianton por la vojaĝo, li elprenas tiun aŭ tiun bonan faron nian, kaj permesas, ke ĝi iru kun ni; kaj tio povos esti tre plaĉa aŭ tre trava. Neniu iam ajn evitis tiun omnibusan veturon. Certe oni foje parolas pri iu, kiun oni ne permesis iri &dash; oni nomis lin la Vagabonda Judo: li devas rajdi post la omnibuso. Se oni permesus al li eniri, li eskapus de la poetoj.
+</p><p>
+Nur pense rigardu en tiu granda omnibuso. La societo estas miksa, ĉar reĝo kaj almozulo, geniulo kaj kreteno, sidas apude. Ili devos iri sen havaĵoj kaj mono; ili havas ĉe si sole la servo-libreton kaj la donacon el la ŝparbanko. Sed kiun el niaj faroj oni elektos kaj donos al ni? Eble tre etan, forgesitan, tamen registritan &dash; pize malgrandan, sed la pizo povas eligi florantan sproson. La povra kamparano sidanta sur malalta tabureto en angulo, tiu priridata kaj malatentata, eble ricevos tiun eluzitan tabureton kiel provianton; kaj la tabureto eble fariĝos brankardo en la lando de eterno, kaj tiam leviĝos trone, brilanta ore kaj floranta laŭbe. Kiu ĉiam maldiligentis, kaj trinkis la spican elbarelaĵon de plezuro, ke li forgesu la fiaĵojn kiujn li ĉi tie faris, tiu ricevos sian barelon dum la veturo, kaj devos trinki el ĝi dum oni pluiras; kaj la trinkaĵo estas brila kaj klara, pro kio ĉiuj pensoj restos puraj, kaj ĉiuj bonaj kaj noblaj sentoj vekiĝos, kaj li vidos kaj sentos tion, kiun en la vido li ne povis aux ne volis vidi; kaj tiam li havos en si la punon, la ronĝantan vermon, kiu rifuzos morti tra nekalkulebla tempo. Se sur la glasoj oni skribis <q rend="'">forgeso,</q> sur la barelo estas gravurita <q rend="'">memoro</q>.
+</p><p>
+Kiam mi legas bonan libron, historiaĵon, mi ĉiam fine pensas pri la poezio en tiu, kiun mi legas, kaj pri la omnibuso de la Morto, kaj mi scivolas, kiun el la faroj de la heroo la Morto ĉerpis el la ŝparbanko por li, kaj kiun provianton li ricevis dum la veturo al eterno. Iam estis franca reĝo &dash; mi forgesis lian nomon, ĉar la nomoj de bonuloj foje forgesiĝas, eĉ ĉe mi, sed iam ĝi revenos; &dash; estis reĝo, kiu, dum malsatego, fariĝos bonfaranto al sia popolo; kaj la popolo levis je lia memoro monumenton le neĝo, kun la surskribo, <q rend="'">Pli rapide ol degelos ĉi tio, ci alportis helpon!</q> Mi supozas, ke la Morto, rerigardante tiun monumenton, donis al li unusolan neĝeron kiel provianton, neĝeron neniam degelontan, kaj tiu neĝero ŝvebis super lia reĝa kapo, kiel blanka papilio, en la landon de eterno. Ankaŭ estis Luizo XI. Mi memoras lian nomon, ĉar oni memoras ion malbonan &dash; iu eco lia ofte eniras miajn pensojn, kaj mi volus povi diri, ke la historio estas malvera. Li ekzekutigis sian ĉefpolicanon, kaj li rajtis ekzekutigi tiun, ĉu juste, ĉu maljuste; sed li ordonis lokigi la senkulpajn filojn de la ĉefpolicano, unu sep kaj la alia ok jarojn aĝaj, sub la eŝafodon tial ke la varma sango de la patro ŝpruciĝu sur ilin, kaj tiam li sendigis ilin al la Bastilo, kaj fermigis ilin en feraj kaĝoj, en kiuj estis eĉ ne kovraĵeto por protekti ilin kontraŭ la malvarmeco. Kaj Reĝo Luizo ĉiusemajne sendis la ekzekutiston al ili, kaj tirigis po denton el la ĉapoj de ambaŭ, ke ili ne estu tro komfortaj; kaj la pli aĝa knabo diris, <q rend="'">Mia patrino mortus pro kordoloro se ŝi scius, ke mia juna frato devus tiel kruele suferi; do eltiru du el miaj dentoj, kaj rezignu pri li.</q> Larmoj fluis el la okuloj de la pendigisto, sed pli forta ol la larmoj estis la volo de la reĝo; kaj ĉiun semajnon oni portis al li du dentetojn sur arĝenta telero; li postulis ilin, li ricevis ilin. Mi opinias, ke la Morto prenis tiujn du dentojn el la ŝparbanko de la vivo, kaj donis ilin al Luizo XI, por porti kun si dum la granda veturo en la landon de senmorteco; ili flugas antaŭ li kiel du fajraj flamoj; ili brilas kaj brulas, kaj ili mordas lin, tiuj dentoj de senkulpaj infanoj.
+</p><p>
+Jes, jen serioza veturo, la omnibusa veturo je la granda translokiĝa tago! Kaj kiam ni entreprenos ĝin? Jen la serioza parto de la afero. En kiu ajn tago, kiu ajn horo, kiu ajn minuto, la omnibuso povos aperi. Kiun el niaj faroj la Morto ĉerpos el la ŝparbanko, kaj donos al ni kiel provianton? Ni pripensu la translokiĝan tagon ne indikitan sur la kalendaro.&rightquot; 
+</p>
+</div>
+</div>
+
+
 <div type="story" rend="doc" id="anneto">
 <head>Anneto</head>
 <p>
@@ -3992,7 +4015,7 @@ mal&gcirc;ojiga.
      Tio estis en tiu vespero.</p> 
 
 <p rend="center">&TRISTELO;</p>
-</div>
+
 
 <div type="closer">
 <p>     Depost tiam pasis jaroj, kaj el la infanoj fari&gcirc;is homoj. 

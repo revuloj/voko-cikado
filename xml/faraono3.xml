@@ -26,9 +26,12 @@
  
 ]>
  
-<!-- $Id: faraono3.xml,v 1.4 2007/01/24 20:20:53 revo Exp $ -->
+<!-- $Id: faraono3.xml,v 1.5 2016/10/24 06:00:52 revo Exp $ -->
 <!--
   $Log: faraono3.xml,v $
+  Revision 1.5  2016/10/24 06:00:52  revo
+  sintaksaj korektetoj
+
   Revision 1.4  2007/01/24 20:20:53  revo
   prilaboretis verkoliston
 
@@ -61,7 +64,7 @@
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id: faraono3.xml,v 1.4 2007/01/24 20:20:53 revo Exp $</edition>
+      <edition>$Id: faraono3.xml,v 1.5 2016/10/24 06:00:52 revo Exp $</edition>
     </editionStmt>
     <extent>709 kB</extent>
     <publicationStmt>
@@ -1087,7 +1090,7 @@
 
          <p>La faraono ekridetis kaj ree komencis mediti:</p>
 
-         <p><q rned='""'>&Ccirc;iu deziras esti feli&ccirc;a; sed se vi volas fari, ke &ccirc;iuj estu feli&ccirc;aj, &ccirc;iu
+         <p><q rend='""'>&Ccirc;iu deziras esti feli&ccirc;a; sed se vi volas fari, ke &ccirc;iuj estu feli&ccirc;aj, &ccirc;iu
          kaptos vin je la manoj, kiel homo, al kiu oni volas el&scirc;iri malsanan
          denton&elipse; Kaj tial la monar&hcirc;o devas esti decidema&elipse; Kaj tial mia sankta 
          patro agis malbone, malzorgante la kamparanojn kaj senlime 
@@ -5081,7 +5084,7 @@
 
          <p>Ramzes pali&gcirc;is de kolero kaj pensis:</p>
 
-         <p><q rned='""'>Ne bezonu mi demeti de vi la ureuson kun la kapo!&elipse;</q></p>
+         <p><q rend='""'>Ne bezonu mi demeti de vi la ureuson kun la kapo!&elipse;</q></p>
 
          <p>Sed li silentis, sciante, ke en &ccirc;i tiu plej granda egipta templo Herhor
          estas sinjoro, egala al la dioj, kaj potenculo, eble pli granda ol la
@@ -5795,7 +5798,7 @@
          en la kapo sa&gcirc;on tiel vastan kaj ri&ccirc;an, kiel la vestiblo de l' templo,
          animon puran, kiel la &ccirc;ambroj de la <title>dia apero</title> kaj de la <title>oferoj</title>,
          kaj en la koro havu dion, ho Egiptano!&elipse;</q> La asiriaj konstrua&jcirc;oj
-         diras al sia popolo: <q rned='""'>Levi&gcirc;u super la homojn, Asiriano, portu la
+         diras al sia popolo: <q rend='""'>Levi&gcirc;u super la homojn, Asiriano, portu la
          kapon pli alte, ol la aliaj!&elipse; Vi faros nenion grandan en la mondo,
          sed almena&ubreve; vi lasos multe da ruinoj&elipse;</q> &Ccirc;u do vi havus kura&gcirc;on,
          sinjoro</q> konkludis la &ccirc;efpastro <q rend="- ">konstrui &ccirc;e ni asiriajn templojn,
@@ -9190,8 +9193,8 @@
          <p><q rend="--">Oziriso!&elipse;</q> ekkriis de la teraso Herhor <q rend="- ">ekkompatu la popolon
          kaj montru vian viza&gcirc;on al la malfeli&ccirc;uloj&elipse;</q></p>
 
-         <p><grase>-- Lastfoje mi plenumos la petojn de miaj pastroj, &ccirc;ar mi
-         estas kompatema&elipse;</grase> -- respondis la superhoma vo&ccirc;o de
+         <p><q rend="--"><hi rend="bold"> Lastfoje mi plenumos la petojn de miaj pastroj, &ccirc;ar mi
+         estas kompatema&elipse;</hi></q> respondis la superhoma vo&ccirc;o de
          la templo.</p>
 
          <p>En la sama momento la mallumo forkuris, kaj la suno reakiris sian
