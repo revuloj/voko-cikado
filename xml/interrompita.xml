@@ -1,0 +1,3338 @@
+<?xml-stylesheet type="text/xml" href="interrompita.xsl"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+<!ENTITY TRISTELO "* * *">
+
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+
+]>
+
+<!-- $Id: interrompita.xml,v 1.1 2017/11/26 15:45:53 revo Exp $ -->
+<!-- 
+  $Log: interrompita.xml,v $
+  Revision 1.1  2017/11/26 15:45:53  revo
+  La interrompita kanto
+
+-->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>La Interrompita Kanto</title>
+      <author>Eliza Orzeszko</author>
+      <respStmt>
+        <resp>kun la permeso de l'aŭtorino tradukis</resp>
+        <name>Kazimierz Bein (Kabe)</name>
+      </respStmt>
+      <respStmt>
+        <resp>enretigita de</resp>
+        <name>Jerzy Wałaszek</name>
+      </respStmt>
+      <respStmt>
+        <resp>iom korektita kaj adaptita al TEI de</resp>
+        <name>Wolfram Diestel</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: interrompita.xml,v 1.1 2017/11/26 15:45:53 revo Exp $</edition>
+    </editionStmt>
+    <extent>150 kB</extent>
+    <publicationStmt>
+      <publisher>Esperanta Centra Librejo</publisher>
+      <pubPlace>Paris</pubPlace>
+      <date>1928</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+
+    <encodingDesc>
+      <projectDesc>
+	 <p>Tiu ĉi teksto adaptiĝis kadre de projekto
+	 realigi redaktilon por Reta Vortaro subtenanta
+	 serĉadon je citaĵoj en klasikaj kaj aliaj esperantlingvaj verkoj.
+	 Kelkaj verkoj de Zamenhof kaj Kabe ĝis nun ne troviĝas kiel
+	 manipulebla kaj facile serĉebla teksto en Interreto.
+	 Do jen plia verko.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La unuopaj &ccirc;apitroj estas apartigitaj per
+      &lt;div type="chapter" id="markilo"&gt;.</p>
+
+      <p>En la originala romano la paroloj estas markitaj ne per
+      citiloj, sed per longaj strekoj. Sed paroloj en paroloj kaj
+      pensoj estas markitaj per citiloj. Por konservi la diversajn signojn mi
+      uzis en la atributo rend la sekvajn kombinojn: '- ', '--', ' -', '""', '""-',
+      '"-', '-"', '" ', ' "', '  '. Tiu kun la spacoj okazas, se pensado etendi&gcirc;as
+      tra pluraj alineoj.</p>
+
+      <p>Kiel emfazajn elementojn estas uzataj diversloke emph, mentioned, foreign.</p>
+
+      <p>En pluraj lokoj estas piednotoj, kiujn mi signis per &lt;note&gt;.</p>
+
+      <p>Kie mi vidis devion de la eldono kvara, kiu troviĝas en mia posedo mi korektis laŭ
+       tiu. Mi ankaŭ lasis la varian uzadon de punto kaj pinto kun sama signifo.</p>
+    </editorialDecl>    
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+ <front rend="index">
+    <titlePage>
+      <docAuthor>Eliza Orzeszko</docAuthor>
+      <docTitle>
+        <titlePart type="main">La Interromita Kanto</titlePart>
+        <titlePart type="translator">
+          kun la permeso de l'aŭtorino tradukis
+	  el la pola lingvo <name>Kabe</name>
+        </titlePart>
+      </docTitle>
+      <docEdition>
+        (laŭ) kvara eldono
+      </docEdition>
+      <docImprint>
+         <pubPlace>Paris</pubPlace>,
+         <publisher>Esperantista Centra Librejo</publisher>,
+         <date>1928</date>
+      </docImprint>
+    </titlePage>
+  </front>
+
+  <body>
+  
+<div type="chapter" rend="doc" id="i">
+
+  <head>Ĉapitro I</head>
+		
+		<p>Ĝi estis unu el tiuj dometoj, kiuj ŝajnas rideto de la kamparo, aŭ 
+		ĝia eĥo, falinta inter la urbajn stratojn kaj domojn. Malgranda, blanka, 
+		kun balkoneto sur du kolonoj, ĝi staris en nezorgata ĝardeno, kiu ĝuste 
+		pro la nezorgado ŝajnis verda kaj freŝa densejo. Ĝi tute ne posedis 
+		korton; de la strato apartigis ĝin parto de la ĝardeno kaj tabula 
+		ĉirkaŭbarilo tiel alta, ke oni povis vidi nek de la strato la dometon, 
+		nek de la fenestroj de la dometo la straton. De malproksime &dash; angulo 
+		kvieta kaj hela; de proksime &dash; preskaŭ ruino, kies muroj kurbaj de 
+		maljuneco, malzorge blankigitaj per kalko, duone kaŝiĝis en la verdaĵo 
+		de supren rampanta fazeolo. Krom la fazeolo iom da floroj kreskis antaŭ 
+		la balkoneto, sur kiu staris du mallarĝaj kaj malnovaj benkoj.</p>
+
+		<p>La ĉambroj de la dometo estis malgrandaj kaj malaltaj, la plankoj 
+		maldelikataj, la kamenoj malgraciaj, el verdaj kaheloj.</p>
+
+		<p>Tra la pordo de la kuirejo enkuris en unu el la ĉambroj Klaro Wygrycz 
+		kantante, ĉar ŝi kantis ĉiam, kiam ŝi estis kontenta.</p>
+
+		<p>Ŝi havis perkalan veston kun ruĝaj kaj grizaj strioj, tolan 
+		antaŭtukon; ŝiaj manikoj estis falditaj ĝis la kubutoj.</p>
+
+		<p>Per la manoj ĵus lavitaj, ankoraŭ ruĝaj de la malvarma akvo, ŝi 
+		rapide demetis la antaŭtukon, kunvolvis ĝin kaj metis en tirkeston de 
+		malnova komodo, pensante: <q rend='""'>Mi jam devas ĝin lavi, ĝi estas tre malpura</q> 
+		Poste ŝi malfaldis la manikojn kaj metis en sian korbon pecojn de 
+		tondita perkalo, tondilojn, fadenojn, fingringon. Ŝi ĉirkaŭrigardis la 
+		ĉambron kaj de la bretaro ŝi prenis libron, kiun ŝi ankaŭ metis en la 
+		korbon kune kun peceto da pano, alportita el la kuirejo. Tiam ŝi 
+		ekkantis valsan melodion: La, la, la! la, la, la! kaj kuris sur la 
+		balkonon. Tie ŝi haltis, rigardis la fazeolon kaj la florbedon. La 
+		fazeolo jam estis kovrita de ŝeloj, sed tie ĉi kaj tie restis ankoraŭ 
+		inter ĝiaj grandegaj folioj kelke da fajre ruĝaj floroj. Klaro deŝiris 
+		unu kaj enŝovis ĝin inter siajn nigrajn harojn, kiuj frizi ĝis sur la 
+		frunto kaj falis en liberaj bukloj sur la nukon kaj ŝultrojn. La ruĝa 
+		floro ŝajnis inter ili malgranda flameto.</p>
+
+		<p>La knabino ne estis perfekte bela, sed ŝi posedis la freŝecon de 
+		deknaŭ jaroj kaj la ĉarmon de siaj vivaj movoj, rigardoj kaj ridetoj. Ŝi 
+		ridetis ankaŭ nun rigardante la ĝardenon. Ŝi sentis sin gaja, ŝi jam 
+		plenumis ĉiujn devojn kaj estis tute libera dum du horoj. La patro estis 
+		en la oficejo, la frato en la lernejo, la fratino en la kudrejo; la 
+		tagmanĝo, jam tute preta, atendis ilian revenon en la forno.</p>
+
+		<p>Ordiginte la loĝejon kaj kuirinte la tagmanĝon, ŝi estis iom malsata. 
+		Tial ŝi prenis en la korbon peceton da pano.</p>
+
+		<p>Ŝi manĝos en la siringa laŭbo &dash; la plej amata loko, en la fino de la 
+		ĝardeno, ĉe la krado, kiu ĉirkaŭas la princan parkon.</p>
+
+		<p>Ĉiufoje, kiam ŝi pasigis tie unu horon aŭ du tute sola, nur kun sia 
+		laboro kaj kun siaj pensoj, ŝi fariĝis gaja.</p>
+
+		<p>La viva kiel fajrero knabino amis la solecon. La juna kapo havis 
+		siajn zorgojn. Kaj nenie ŝi sentis sin tiel sola, nenie ŝi povis pensi 
+		tiel senĝene, kiel en la siringa laŭbo. Tie, malantaŭ la malalta krado, 
+		estis ombra aleo de maljunaj arboj, kiuj disiĝis kontraŭ la laŭbo, 
+		montrante post vasta herbaro malgrandan, sed belan palacon, kun du turoj 
+		kaj kun tri vicoj de altaj, mallarĝaj fenestroj. Pro la silento, kiu 
+		ĉiam regis ĉirkaŭe, la griza, grandioza palaco ŝajnis io mistera. La 
+		fenestroj ĉiam estis fermitaj, la ĝardenon vizitis neniu, krom la 
+		ĝardenistoj, kiuj ordigis la vojojn kaj herbarojn. Proksime de la laŭbo 
+		estis malgranda pordego, ĉiam fermita. Parko bela kaj zorge konservata, 
+		sed sen promenantoj.</p>
+
+		<p>Klaro sciis, ke la posedanto, princo Oskaro, neniam loĝas tie. 
+		Cetere, tute ne interesis ŝin, ĉu la palaco havas, aŭ ne havas 
+		loĝantojn, sed pro instinkta komprenado de beleco, ŝi ĉiam plezure 
+		rigardis la luksan konstruaĵon.</p>
+
+		<p>Nun, sidante sur mallarĝa benko, inter du siringaj arbetoj, ŝi ne 
+		rigardis la palacon, ne admiris ĝian belecon. Ŝi diligente kudris. Antaŭ 
+		ŝi sur malgranda tablo unupieda staris la korbo kun pecetoj de perkalo 
+		kaj kun libro inter ili. Ne venis ankoraŭ la tempo legi kaj admiri. La 
+		laboro estis urĝa. Ŝi aĉetis antaŭ nelonge perkalon por ses ĉemizoj por 
+		la frateto, kaj la kvara ne estis ankoraŭ finita. Kiam la ses estos 
+		pretaj, ŝi komencos rebonigi la tolaĵon de la patro kaj poste ŝi devos 
+		kudri veston por si, ĉar la du, kiujn ŝi posedis, estis jam eluzitaj.
+		</p>
+
+		<p>Tiom da elspezoj! Eĉ plej malkara vesto kostas multe. La malgranda 
+		salajro de la patro devas sufiĉi por ĉio. Ĝis nun ŝi sukcese gardis la 
+		egalpezon de la budĝeto, sed la patro ne ĉiam havas ĉion, kion li 
+		bezonas pro sia aĝo kaj malsanemo: nutran manĝaĵon, fruktojn&elipse;</p>
+
+		<p>La penso pri la manĝo rememorigis al ŝi la peceton da pano, kiun ŝi 
+		havis en la korbo; ŝi demordis iom, metis la panon sur la tablon kaj 
+		daŭrigis la kudradon.</p>
+
+		<p>En la sama momento en la aleo, kiu ĉirkaŭis la parkon, iris de la 
+		palaco viro alta kaj tre gracia; en hejma sed eleganta vesto, en 
+		malgranda felta ĉapelo sur siaj malhele blondaj haroj. La ovalo de lia 
+		vizaĝo estis delikata kaj pala, la vangoj glate razitaj; la malgrandaj 
+		lipharoj ombris la maldikajn lipojn, iom ironiajn, iom enuajn. Li estis 
+		tridekkelkjara, liaj movoj estis junaj, lertaj, iom malzorgetaj.</p>
+
+		<p>Li iris en la komenco kun klinita kapo, sed poste li levis ĝin por 
+		rigardi kaj admiri la arbojn de la parko. Ili staris senmovaj, en la 
+		kvieta aero kaj en la oro de l'suno. La aŭtuno jam flavigis la foliojn. 
+		De l'tempo al tempo la sekaj folioj kun kraketo dispeciĝis sub la piedoj 
+		de la iranto, kiu, malrapidigante la paŝojn, direktis la rigardon al la 
+		du verdaj muroj de la aleo: de l'pintoj, oraj kaj ruĝaj de l'suno, ĝis 
+		la dikaj trunkoj, kovritaj de muskoj, kvazaŭ de verdaj ĉifitaj puntoj.</p>
+
+		<p>Ĉarma anguleto, li pensis, kvankam malgranda kaj en malgranda urbo. 
+		Sed eble ĝi estas ĉarma ĝuste tial, ke ĝin plenigas tia silento, kian ne 
+		eblas trovi en la grandaj urboj, eĉ en la plimulto da grandaj princaj 
+		kamparoj.</p>
+
+		<p>Longe vivi en tia loko povus nur monaĥo, sed mallonga gastado estus 
+		agrabla. Tia kvieto trankviligas kaj igas sonĝi. Inter ĉi tiuj arboj oni 
+		dezirus vidi idilion. Ĉu nur vidi? Eble ankaŭ ludi rolon en idilio same 
+		naiva kiel la fabeloj pri amo de la paŝtistoj, same sekreta kiel la 
+		nestoj, kaŝitaj en la verdaĵo.</p>
+
+		<p>Tiaj revoj ne estas tre saĝaj, la loko naskigas ilin, ili malaperos 
+		kiel vantaj sonĝoj, lasante malĝojon sur la fundo de la koro dum kelkaj 
+		horoj. Cetere, kio estas saĝa en la mondo?</p>
+
+		<p>En la brua vivo de l' homoj oni trovas tiom da saĝo kiom da malsaĝo; 
+		tia opinio estas eĉ tro optimista. La procento da saĝo estas tre 
+		malgranda; la vero same rilatas la malveron. Montru al mi en la mondo 
+		homon &dash; miraklon, kiu ne konas ŝajnigon, kaŝemon, koketecon, flatemon! 
+		La viroj estas flatemaj, la virinoj koketaj, oni eĉ povas iafoje trovi 
+		ambaŭ bonajn ecojn ĉe unu persono. Amikeco de la viroj, amo de la 
+		virinoj estas ŝerco de la naturo, montranta al la homoj idealojn, por ke 
+		ili restu dum la tuta vivo infanoj, persekutantaj papiliojn.</p>
+
+		<p>Sed oni ne povas ĉiun trompadi senfine. La sperto, eĉ ne tre longa, 
+		konvinkas, ke la kaptita papilio fariĝas baldaŭ abomena kadavreto. Tiam 
+		oni eksopiros al kvieta soleco, odoranta idilion &dash; la blagon de la 
+		poetoj. Ĉar en la realo la idilia paŝtistino havas grandajn ruĝajn 
+		manojn kaj magnetan inklinon al la monujo de sia paŝtisto.</p>
+
+		<p>Tie ĉi, malproksime de la mondo, bone estus legi <foreign lang="fr">Rochefoucauld</foreign>'on. 
+		Kia malhela kaj preciza pentro de la malhela vivo! Oni nepre devas veni 
+		ĉi tien kun <foreign lang="fr">Rochefoucauld</foreign>
+		kaj legi sub la arboj&elipse; Sed ĉu estas tie ĉi 
+		benkoj?</p>
+
+		<p>Por vidi, ĉu en la maljuna ombra aleo estas loko, kie li povus sidiĝi 
+		kun <foreign lang="fr">Rochefoucauld</foreign>, li levis la kapon kaj ekmiregis.</p>
+
+		<p>Kelke da paŝoj antaŭ li, tuj malantaŭ la krado, knabino en perkala 
+		vesto kun ruĝaj kaj grizaj strioj sidis sur mallarĝa benko sub siringa 
+		arbeto kaj diligente kudris. Ruĝa floro flamis en ŝiaj nigraj haroj, 
+		nigraj bukloj volviĝis sur la klinita nuko kaj sur la kolumo de la 
+		korsaĵo. De meza kresko, delikata kaj gracia, kun pala vizaĝo kaj ruĝega 
+		buŝo ŝi estis plena de freŝeco kaj ĉarmo.</p>
+
+		<p>La rapideco de ŝia kudrado ne malhelpis ŝin preni de tempo al tempo 
+		pecon da pano, kuŝanta sur tableto el du dikaj, fendiĝintaj tabuloj. Ŝi 
+		demordis peceton kaj maĉante ĝin reprenis la laboron. La pano estis 
+		bruna, la dentoj, kiuj profundiĝis en ĝin, egalaj kaj blankaj, kiel 
+		perloj. Du, tri minutojn ŝi kudras, kaj ree la mano kun brilanta 
+		fingringo etendiĝas al la peco, pli kaj pli malgranda, sed la laboro 
+		progresas. La kunkudrado de du pecoj de perkalo estos baldaŭ finita. 
+		Ankoraŭ unu mordo, ankoraŭ kelkaj steboj kaj fine la blankaj dentoj 
+		tratranĉas ne la panon, sed la fadenon: la knabino rektiĝas, rigardas la 
+		laboraĵon kaj sendube ŝi trovas, ke ĝi estas bona, ke la pano estis 
+		bongusta, ke la vetero estas bela, ĉar el ŝia buŝo elflugas gaja valsa 
+		melodio.</p>
+
+		<p><q rend="- ">La, la, la! la, la! la, la, la!</q></p>
+
+		<p>La junulo iris antaŭen kelkajn paŝojn de la arboj, tra kies branĉoj 
+		li observis la knabinon. La sekaj folioj ekkraketis sub liaj piedoj.</p>
+
+		<p>La knabino sin turnis al la sono, kaj timo larĝigis ŝiajn brilantajn 
+		pupilojn. Du, tri jarojn ŝi jam venas ĉi tien, sed neniam ŝi vidis 
+		promenanton en la parko. Sed la timo ne daŭris longe.</p>
+
+		<p>La eksteraĵo de la juna homo faris bonan impreson. Li estis ĝentila 
+		homo, ĉar kiam liaj okuloj renkontis la rigardon de la knabino, li levis 
+		la ĉapelon kaj malkovris belan frunton kun profunda sulko inter la 
+		brovoj. Ĉi tiu sulko sur juna frunto estis rimarkinda, same kiel la 
+		longforma blanka mano, levanta la ĉapelon.</p>
+
+		<p>Kelke da sekundoj li ŝajnis ŝanceliĝi aŭ konsideri, poste li rapide 
+		proksimiĝis al la krado kun la ĉapelo en la mano kaj demandis tre 
+		ĝentile:</p>
+
+		<p><q rend="- ">Permesu demandi vin, fraŭlino, kiu loĝas en ĉi tiu bela dometo?</q></p>
+
+		<p>Lia rigardo montris la duonruinon, dronantan en la fazeola verdaĵo.
+		</p>
+
+		<p>Klaro, iom konfuziĝinte, respondis:</p>
+
+		<p><q rend="- ">Ni loĝas tie&elipse;</q></p>
+
+		<p>Sed tuj ŝi korektis:</p>
+
+		<p><q rend="- ">Mia patro, Teofilo Wygrycz, mi, mia frato kaj fratino.</q></p>
+
+		<p>La maniero de ŝia parolado montris bone edukitan knabinon, al kiu ne 
+		mankas spiritĉeesto.</p>
+
+		<p><q rend="- ">Agrabla loko,</q> rimarkis la juna homo.</p>
+
+		<p><q rend="--">Oh, tre!</q> ŝi jesis kun la okuloj plenaj de ravo; <q rend="- ">tiom da verdaĵo 
+		kaj kvieto!</q></p>
+
+		<p><q rend="--">Nesto trankvila,</q> li diris kaj aldonis: <q rend="- ">Kiu plantis antaŭ la 
+		domo la belajn kreskaĵojn, kiuj tiel pentrinde ĝin ombras?</q></p>
+
+		<p>Kontenta de la laŭdo, ŝi respondis kun brilantaj okuloj:</p>
+
+		<p><q rend="- ">Ĉu ne belege kreskas en ĉi tiu jaro la fazeolo? Mi plantas ĝin kun 
+		mia fratino ĉiun printempon, sed neniam ankoraŭ ĝi estis tiel alta kaj 
+		densa&elipse;</q></p>
+
+		<p><q rend="- ">Vere, ĝi estas mirinde alta kaj densa. Sed mi vidas florbedon. Ĉu 
+		ankaŭ la florojn vi plantis aŭ semis?</q></p>
+
+		<p><q rend="- ">Iom da levkojo kaj rezedo&elipse; nur malmulte, mi kaj mia fratino ne 
+		havas tempon kulturi pli multe.</q></p>
+
+		<p><q rend="- ">La fratino estas pli maljuna?</q></p>
+
+		<p><q rend="- ">Kontraŭe, kvar jarojn pli juna&elipse;</q></p>
+
+		<p><q rend="- ">Ŝi do estas?&elipse;</q></p>
+
+		<p><q rend="- ">Dekkvinjara&elipse;</q></p>
+
+		<p>Ili eksilentis; ŝi ree konfuziĝis, mallevis la vizaĝon al la laboraĵo 
+		kaj komencis kudri; li apogis sin al la krado, rigardis ŝin kaj restis. 
+		Ŝia konfuzo devenis ĝuste de la maniero, per kiu li ŝin rigardis.</p>
+
+		<p>Li ĵus demetis la ĉapelon, kaj sub la frunto kun profunda sulko liaj 
+		bluaj okuloj ŝerce ridetis. La teniĝo, la maniero paroli iom malrapide 
+		kaj skandante la silabojn, la rideto de la okuloj de la nekonato tute ne 
+		estis neĝentilaj, sed lia memfido kaj aristokrata ŝajno konfuzis la 
+		knabinon. Krom tio ŝi sciis, ke juna fraŭlino ne rajtas longe paroli kun 
+		nekonataj viroj, sed bruligis ŝin la scivolo: kiu li estas? De kie kaj 
+		kiel li aperis en ĉi tiu loko, ordinare senhoma? Ŝi pensis: kiamaniere 
+		demandi? &dash; sed ŝi trovis nenian konvenan esprimon. Ŝi do kudris, kaj 
+		amaso da pensoj rapidis en ŝia cerbo unu post alia: Eble li foriros? 
+		Eble mi devas leviĝi kaj foriri? Ne, tio estus malĝentila; kial forkuri? 
+		Mi ja estas en mia propra laŭbo. Li reiru, de kie li venis! Kiu li 
+		estas? Li estas beleta&elipse; Lia voĉo estas tre agrabla&elipse;</p>
+
+		<p>Li, post kelkaj silentaj minutoj, reparolis per voĉo vere tre 
+		agrabla, mola kiel veluro:</p>
+
+		<p><q rend="- ">Kion vi faras?</q></p>
+
+		<p>Ne levante la kapon kaj okulojn, ŝi respondis:</p>
+
+		<p><q rend="- ">Ĉemizon por mia frato&elipse;</q></p>
+
+		<p>Ŝi ne vidis la rideton de la nekonato.</p>
+
+		<p><q rend="- ">Ĉu via frato estas plenaĝa?</q></p>
+
+		<p><q rend="- ">Oh ne, dek jarojn pli juna ol mi&elipse;</q></p>
+
+		<p><q rend="- ">Vi do estas la plej maljuna?</q></p>
+
+		<p><q rend="- ">Jes.</q></p>
+
+		<p><q rend="- ">Sed mi rimarkis en viaj respondoj mankon&elipse; Vi parolis pri via 
+		patro, pri viaj gefratoj&elipse; sed la panjo?</q></p>
+
+		<p>Ŝi silentis momenton kaj respondis mallaŭte:</p>
+
+		<p><q rend="- ">De kvar jaroj ni ne havas plu la patrinon&elipse; ŝi mortis&elipse;</q></p>
+
+		<p><q rend="- ">Kaj vi anstataŭas ŝin&elipse;</q></p>
+
+		<p>Ne levante la kapon, ŝi respondis:</p>
+
+		<p><q rend="- ">Mi penas tion fari&elipse; mi tre deziras&elipse; laŭ eblo&elipse;</q></p>
+
+		<p>La ŝerca rideto malaperis de la buŝo kaj okuloj de la nekonato. Li 
+		apogis pli forte la brakon al la krado kaj diris post momento:</p>
+
+		<p><q rend="- ">Mi vidas libron en via korbo&elipse; ĉu vi amas la legadon?</q></p>
+
+		<p><q rend="- ">Jes, mi tre amas legi.</q></p>
+
+		<p><q rend="- ">Kion vi legas?</q></p>
+
+		<p>Li etendis la manon super la krado; post momenta ŝanceliĝo ŝi donis 
+		al li la libron.</p>
+
+		<p><q rend="- ">Vere, stranga homo! Li staras kaj tute ne intencas foriri!</q></p>
+
+		<p>Li parolas kun mi kaj&elipse; li ne prezentas sin! Tio ne estas konvena, 
+		kvankam aliflanke&elipse; li estas tre ĝentila!</p>
+
+		<p>La libro havis dikan, eluzitan bindaĵon; ĝi kredeble estis legata 
+		multfoje kaj de multaj personoj. La nekonato malfermis ĝin, trarigardis 
+		la paĝojn kaj haltis ĉe la versoj, apud kiuj li trovis krajonan signon.
+		</p>
+
+		<p><q rend="- ">Ĉu vi faris la signon?</q></p>
+
+		<p><q rend="--">Jes,</q> ŝi respondis tute mallaŭte.</p>
+
+		<p><q rend="- ">Ĉu ili tiel plaĉas al vi?&elipse;</q></p>
+
+		<p>Duonlaŭte li komencis legi la versojn:</p>
+
+		<lg type="stanza">
+		<l>Tiel vi nin mirakle portos hejman limon! </l>
+		<l>Dume transportu mian sopiran animon </l>
+		<l>Al la arbar' &dash; montetoj, herbejoj verdantaj, </l>
+		<l>Larĝe apud lazura Njemen tiriĝantaj&elipse; </l>
+                </lg>
+	      	<note>El <q rend='""'>Sinjoro Tadeuŝ</q> de Mickiewicz, traduko de A. Grabowski</note>
+		
+		<p>Kvankam nur duonlaŭte, li legis tre bone. La knabino estis strange 
+		impresita: ŝi neniam aŭdis versojn, legatajn voĉe, kaj nun ili estis 
+		legataj per voĉo velura, plena de karesoj kaj iom malĝoja.</p>
+
+		<p>Li interrompis la legadon kaj ekpensis: <q rend="--">Jen mi estas tre 
+		malproksime de <foreign lang="fr">Rochefoucauld</foreign>&elipse; en tute alia regiono&elipse;</q> Kaj li daŭrigis:
+		</p>
+
+		<lg type="stanza">
+		<l>Kiujn la neĝeblanka poligon' ornamas, </l>
+		<l>Kie per virga ruĝo timiano flamas, </l>
+		<l>Kaj ĉion zonas, kvazaŭ per verda rubando, </l>
+		<l>La kampa, kun maldensaj pirarboj, limrando. </l>
+                </lg>
+	      
+		<p>La okuloj de Klaro, ŝi ne sciis kial, pleniĝis de larmoj. Tio okazis 
+		ĉiam, kiam ŝi aŭdis muzikon. Ŝi ekhontis kaj iom koleris: li ne nur 
+		parolas kun ŝi, sed eĉ legas ŝian libron, kvazaŭ ili jam de longe konus 
+		unu la alian! kaj li tute ne diris sian nomon.</p>
+
+		<p>Ŝi kuraĝiĝis kaj, metinte la laboraĵon sur la genuojn, demandis kun 
+		serioza, eĉ severa mieno:</p>
+
+		<p><q rend="- ">Ĉu vi loĝas malproksime de ĉi tie?</q></p>
+
+		<p>Ŝi mem rimarkis, ke ŝi demandis pli laŭte, ol ŝi volis, kaj ke ŝi tro 
+		sulkigis la brovojn. Sed tio ĉiam okazas tiamaniere: kiam oni devas 
+		montri grandan kuraĝon, oni ĉiam troas!</p>
+
+		<p>Li levis la okulojn de la libro kaj respondis:</p>
+
+		<p><q rend="- ">Tre proksime&elipse;</q></p>
+
+		<p>Li legis ankoraŭ du versojn:</p>
+
+		<lg type="stanza">
+		<l>Inter tiaj kampoj, apud rivereto </l>
+		<l>En betula arbaro, sur eta monteto&elipse; </l>
+               </lg>
+	      
+		<p>Kvazaŭ pripensinte dum la legado, li fermis la libron kaj diris kun 
+		saluto:</p>
+
+		<p><q rend="- ">Mi ankoraŭ ne prezentis min al vi. Mi ne supozis, ke nia 
+		interparolado daŭros tiel longe. Sed nun mi sentas, ke mi deziros ripeti 
+		ĝin&elipse;</q></p>
+
+		<p>Momenton li konsideris, mallevinte la okulojn, poste li diris:</p>
+
+		<p><q rend="- ">Mi estas Julio Przyjemski, mi loĝas en ĉi tiu granda domo.</q></p>
+
+		<p>Li montris la princan parkon. La knabino gajiĝis: la reguloj de la 
+		konveneco estis plenumitaj, sed la sciigo iom mirigis ŝin.</p>
+
+		<p><q rend="- ">Mi pensis, ke en la palaco neniu loĝas&elipse;</q></p>
+
+		<p><q rend="- ">Ĝis nun, ekster la servistoj, neniu loĝis en ĝi, sed hieraŭ venis 
+		ĝia posedanto por pasigi ĉi tie iom da tempo.</q></p>
+
+		<p><q rend="- ">La princo?</q> ŝi ekkriis.</p>
+
+		<p><q rend="- ">Jes; la princo, kiu pro monaj aferoj restos ĉi tie &dash;</q></p>
+
+		<p>Ŝi meditis momenton kaj demandis:</p>
+
+		<p><q rend="- ">Kaj vi venis kun la princo?</q></p>
+
+		<p><q rend="--">Jes,</q> li respondis <q rend="- ">mi venis kun princo Oskaro.</q></p>
+
+		<p><q rend="- ">Vi gastas, verŝajne, ĉe la princo?</q></p>
+
+		<p><q rend="- ">Tute ne, fraŭlino. Mi loĝas ĉe la princo, mia akompanas lin ĉie kaj 
+		ĉiam&elipse;</q></p>
+
+		<p>Post momenta medito li aldonis:</p>
+
+		<p><q rend="- ">Mi estas kunulo kaj plej intima amiko de la princo.</q></p>
+
+		<p>Ŝi ekpensis: kredeble li estas sekretario aŭ rajtigito de la princo! 
+		Ŝi sciis, ke grandaj sinjoroj havas sekretariojn kaj rajtigitojn. 
+		Cetere, kion ŝi povis scii pri la oficistoj de la princaj kortegoj! Ili 
+		sendube estas multaj kaj diversaj. Sed ŝi estis kontenta, ke la juna 
+		homo, kun kiu ŝi ĵus koniĝis, ne estis gasto de la princo. Ŝi ne sciis 
+		kial, sed ŝi estis tre kontenta, eksciinte pri tio.</p>
+
+		<p><q rend="--">Ĉu la princo estas juna?</q> ŝi demandis.</p>
+
+		<p>Przyjemski momenton ŝanceliĝis kaj poste respondis kun rideto, kiu 
+		ŝajnis stranga al ŝi:</p>
+
+		<p><q rend="- ">Jes kaj ne; li vivis ne longe, sed li travivis multon&elipse;</q></p>
+
+		<p>Ŝi jese balancis la kapon.</p>
+
+		<p><q rend="- ">Ho jes! Mi imagas, kiom da feliĉo kaj plezuro enhavis lia sorto!
+		</q></p>
+
+		<p><q rend="- ">Ĉu vi tiel opinias?</q></p>
+
+		<p><q rend="- ">Kompreneble. Mia Dio! Tiel riĉa, li povas ĉiam fari, kion li volas!
+		</q></p>
+
+		<p>Li turnis distrite per siaj maldikaj fingroj la paĝojn de la libro 
+		kaj respondis:</p>
+
+		<p><q rend="- ">Sed malfeliĉe por li&elipse; multaj aferoj ĉesis al li plaĉi.</q></p>
+
+		<p><q rend="--">Sendube,</q> ŝi respondis post momento&elipse; multaj aferoj, kiuj ŝajnis 
+		en la komenco aŭ de malproksime bonaj, estas efektive tute aliaj&elipse;</p>
+
+		<p><q rend="--">Vi jam tion komprenas?</q> li demandis iom mire.</p>
+
+		<p>Ŝi respondis kun gaja rideto:</p>
+
+		<p><q rend="- ">Mi vivis ne longe, sed mi travivis multon&elipse;</q></p>
+
+		<p><q rend="--">Ekzemple?</q> li demandis ŝerce.</p>
+
+		<p><q rend="- ">Pli ol unu fojon mi tre deziris ion, mi revis ĝin, kaj poste mi 
+		konvinkiĝis, ke ĝi ne indis revojn kaj dezirojn&elipse;</q></p>
+
+		<p><q rend="--">Ekzemple?</q> li ripetis.</p>
+
+		<p><q rend="- ">Ekzemple, mi deziris havi amikinon, sed intiman, koran, kun kiu mi 
+		povus vivi komunan vivon.</q></p>
+
+		<p><q rend="--">Kion signifas: vivi komunan vivon?</q></p>
+
+		<p><q rend="- ">Tio signifas: havi ĉion komunan. Havi komunajn pensojn pri ĉio, 
+		helpi unu la alian, havi la samajn ĝojojn kaj ĉagrenojn&elipse;</q></p>
+
+		<p><q rend="- ">Bela programo! Ĉu vi efektivigis ĝin?</q></p>
+
+		<p>Ŝi mallevis la okulojn.</p>
+
+		<p><q rend="- ">Mi neniam sukcesis. Jam du fojojn mi estis certa, ke mi havas tian 
+		amikinon kaj mi estis ekstreme feliĉa, kaj poste&elipse;</q></p>
+
+		<p><q rend="- ">Ĉu vi permesas al mi fini anstataŭ vi?&elipse; Poste vi konvinkiĝis, ke 
+		unue: la amikinoj estis multe malpli saĝaj ol vi, oni do ne povis havi 
+		komunajn pensojn; due: ke ili ne amis vin sincere&elipse; Ĉu jes?</q></p>
+
+		<p>Ne ĉesante kudri, ŝi jese balancis la kapon.</p>
+
+		<p><q rend="- ">Mi ne scias, ĉu la amikinoj estis malpli saĝaj ol mi, sed mi estas 
+		certa, ke ili ne amis min sincere.</q></p>
+
+		<p>Li daŭrigis malrapide:</p>
+
+		<p><q rend="- ">Ili kalumniis vin, insidis kontraŭ vi&elipse; pro bagatelo sentis sin 
+		ofenditaj, kaj ili mem senĉese vin ofendis&elipse;</q></p>
+
+		<p>Ŝi ekstreme ekmiris kaj levis la kapon:</p>
+
+		<p><q rend="- ">De kie vi tion scias?</q></p>
+
+		<p>Li ekridis.</p>
+
+		<p><q rend="- ">La princo travivis la samon, sed laŭ pli vasta skalo. En la komenco 
+		li estis ekstreme sentema kaj naiva, li kredis la amikecon, amon, 
+		feliĉon&elipse; <foreign lang="fr">un tas des choses</foreign> de tia speco; sed poste li rimarkis, ke unuj 
+		enuigas lin, ke li enuigas la aliajn; ke sur la fundo de ĉiu koro kuŝas 
+		egoismo, ke ĉiu amikeco kaŝas en si perfidon&elipse; Jen kial li estas 
+		samtempe juna kaj maljuna&elipse;</q></p>
+
+		<p>Ŝi aŭskultis lin atente kaj poste flustris kun kompato:</p>
+
+		<p><q rend="- ">Malfeliĉa! Tiel riĉa kaj tiel mizera!</q></p>
+
+		<p>Przyjemski ekmeditis. Apogante sin al la krado, li mallevis la 
+		rigardon; la sulko inter liaj brovoj profundiĝis, la vizaĝo ŝajnis laca 
+		kaj dolora. Ŝi momenton rigardis lin, kaj poste kun viva ekbrilo en la 
+		okuloj ekkriis:</p>
+
+		<p><q rend="- ">Tamen ekzistas aferoj ĉiam bonaj, belaj kaj agrablaj, kaj la 
+		princo, kvankam li tiom travivis, devas esti tre feliĉa&elipse;</q></p>
+
+		<p>Levante la palpebrojn, li demandis.</p>
+
+		<p><q rend="- ">Kiuj aferoj?</q></p>
+
+		<p>Per rapida gesto ŝi montris la ĝardenon malantaŭ la krado.</p>
+
+		<p><q rend="- ">Ekzemple, tia ĝardeno! Ho Dio, kiom da fojoj sidante ĉi tie mi 
+		pensis pri la feliĉo povi ĉiam, kiam oni tion deziras, promeni kaj sidi 
+		sub tiaj arboj, rigardi la belajn florojn, loĝi en domo de tiel bela 
+		arĥitekturo&elipse; Mi estas jam feliĉa, kiam mi sidas ĉi tie kaj nur rigardas 
+		la silueton de ĉi tiu palaco kun linioj tiel harmoniaj kaj elegantaj, la 
+		arbojn, la herbaron&elipse; En aprilo tiom da violoj ornamas la herbaron, ke 
+		la verdaĵo malaperas sub ili, ĉio estas violkolora, kaj la bonodoro 
+		atingas eĉ nian dometon&elipse;</q></p>
+
+		<p><q rend="- ">Vi estas tre sentema al beleco&elipse;</q></p>
+
+		<p>Kun vivaj gestoj ŝi komencis gaje rakonti:</p>
+
+		<p><q rend="- ">Kiel mi laboris kaj penis antaŭ ol ni povis ekloĝi en ĉi tiu 
+		dometo!&elipse; Mi ekvidis ĝin okaze. Mi iris sur la strato, la pordego de la 
+		ĉirkaŭbaro estis malfermita kaj apud ĝi oni vendis fruktojn. Mi eliris 
+		por aĉeti kelke da ili por mia patro kaj mi ekvidis la ĉarman dometon en 
+		la ĝardeneto, tuj apud alia, pli vasta kaj pli bela ĝardeno. Mi varmege 
+		ekdeziris posedi la dometon, por ke la patro kun la infanoj loĝu en la 
+		verdaĵo, en tiel agrabla kvieto&elipse; kaj mi kun ili&elipse; Malfacila estis la 
+		afero. Mi devis trovi la posedanton; persone paroli kun li; li estas 
+		riĉa homo, loĝas en la centro de la urbo, en grandega domo. Mi estis tie 
+		kelke da fojoj, antaŭ ol li konsentis trakti kun mi la aferon. La prezo 
+		estis tro alta por ni, ni devis prokrasti la aĉeton, la transloĝiĝo 
+		kostis multe&elipse; unuvorte, mil da malfacilaĵoj kaj malhelpoj. Mi venkis 
+		ĉion, kaj dank' al Dio ni loĝas ĉi tie&elipse; Jam de tri jaroj&elipse;</q></p>
+
+		<p><q rend="- ">Vi do estis deksesjara, kiam vi plenumis ĉi tiujn heroaĵojn?</q></p>
+
+		<p>Ŝi ekridis.</p>
+
+		<p><q rend="- ">Heroaĵo certe ĝi ne estas, sed forta decidemo estis necesa. Mi 
+		estas certa, ke la sanon de mia patro subtenos nur la ĉi tiea pura aero 
+		kaj kvieto. Se ni restus en nia antaŭa loĝejo, en malpura kaj brua 
+		kvartalo, kiu povas scii, kio okazus! Kaj ĉi tie la stato de mia patro 
+		almenaŭ ne plimalboniĝas kaj ni ĉiuj fartas bone.</q></p>
+
+		<p><q rend="--">Bone!</q> ripetis Przyjemski, <q rend='- '>vi do estas tute feliĉa, de kiam vi 
+		loĝas ĉi tie?</q></p>
+
+		<p>Daŭrigante la kudradon, ŝi malĝoje ekskuis la kapon.</p>
+
+		<p><q rend="- ">Tute? Ne, ĉar la farto de la patro kaj la estonteco de la infanoj 
+		maltrankviligas min&elipse;</q></p>
+
+		<p><q rend="- ">Kaj la via?</q></p>
+
+		<p>Ŝi levis al li siajn okulojn, plenajn de mirego:</p>
+
+		<p><q rend="- ">Mia estonteco? Kio povas okazi? Mi jam estas plenaĝa kaj sendependa&elipse;</q></p>
+
+		<p><q rend="- ">Vi estas pli feliĉa ol la princo&elipse;</q></p>
+
+		<p><q rend="- ">Kial?</q></p>
+
+		<p><q rend="- ">Ĉar seniluzia, multfoje vundita estas lia koro, sencelaj la horoj 
+		kaj tagoj&elipse;</q></p>
+
+		<p><q rend="--">Kompatinda!</q> ŝi flustris kaj post momento ekparolis vive:</p>
+
+		<p><q rend="- ">Tamen ŝajnas al mi, ke la princo povus esti feliĉa, se li nur 
+		volus, aŭ scius kion fari. Eble mi estas tro memfida, sed se mi estus 
+		li, mi scius direkti mian koron kaj vivon.</q></p>
+
+		<p><q rend="- ">Kion vi farus?</q></p>
+
+		<p><q rend="- ">Mi suprenirus en ĉi tiun turon&elipse; Kaj mi rigardus atente la tutan 
+		urbon. Mi vidus ĉiujn, kiuj suferas aŭ bezonas ion kaj&elipse;</q></p>
+
+		<p>Ŝi haltis kaj neatendate demandis:</p>
+
+		<p><q rend="- ">Ĉu vi iam vidis medaleton de Pariza Dipatrino?</q></p>
+
+		<p><q rend="- ">Ŝajnas al mi&elipse; eble&elipse; mi ne memoras bone&elipse;</q></p>
+
+		<p><q rend="- ">Sankta Virgulino staras, kaj el ambaŭ ŝiaj manoj fluas amase 
+		radioj, kiuj konsolas, lumigas kaj defendas kontraŭ la malbono&elipse; se mi 
+		estus princo, mi surirus la turon kaj etendinte la brakojn mi verŝus 
+		riverojn da radioj&elipse; Ho Dio, kiel feliĉa mi estus!&elipse;</q></p>
+
+		<p>La vortojn ŝi akompanis per gestoj: ŝi montris la pinton de la turo, 
+		poste ŝi mallevis la brakojn kaj skuis ilin, kvazaŭ ŝutante ion teren.
+		</p>
+
+		<p>Przyjemski aŭskultis; liaj okuloj sub la profunda sulko fariĝis 
+		dolĉaj kaj brilaj.</p>
+
+		<p><q rend="--">Bele, tre bele!</q> li flustris al si mem.</p>
+
+		<p>Sed tuj, kun ironia nuanco li ekparolis:</p>
+
+		<p><q rend="- ">Sankta kredo al la savanta efiko de la filantropio! Mi ĝin ne 
+		deprenos. Oni devas nenion aldoni al vi&elipse; nenion depreni&elipse; Mi ne scias&elipse; 
+		pri la princo, sed mi mem&elipse;</q></p>
+
+		<p>Iom levante la ĉapelon, kiun li ĵus remetis sur la kapon, li aldonis:
+		</p>
+
+		<p><q rend="- ">Mi estas feliĉa, ke la sorto permesis al mi koniĝi kun vi&elipse;</q></p>
+
+		<p>Karmina ruĝo kovris la vizaĝon de Klaro. Ŝi komencis rapide, rapide 
+		meti la laboraĵon en la korbon.</p>
+
+		<p><q rend="- ">Jam estas tempo reveni hejmen&elipse;</q></p>
+
+		<p><q rend="--">Jam?</q> li demandis bedaŭre.</p>
+
+		<p>Li ekrigardis ŝian libron:</p>
+
+		<p><q rend="- ">Ĉu vi afable konsentos prunti al mi ĉi tiun libron ĝis morgaŭ!</q></p>
+
+		<p><q rend="--">Tre volonte, kun plezuro,</q> ŝi respondis ĝentile.</p>
+
+		<p><q rend="- ">Mi redonos ĝin al vi morgaŭ&elipse; Kiam vi en la sama horo venos en la 
+		laŭbon. Ĉu vi konsentas?</q></p>
+
+		<p><q rend="--">Jes, sinjoro &dash; ŝi respondis senŝanceliĝe,</q> mi venas ĉi tien 
+		ĉiutage, se la vetero estas bela&elipse;</p>
+
+		<p><q rend="- ">Ĝi estu bela morgaŭ!&elipse;</q></p>
+
+		<p>Infana voĉo eksonis de la domo:</p>
+
+		<p><q rend="- ">Klaro, Klaro!</q></p>
+
+		<p>Sur la balkono aperis knabeto dekjara en gimnazia vesto kaj svingante 
+		la manojn al la laŭbo, vokis kaj kriis:</p>
+
+		<p><q rend="- ">Klaro, Klaro! Jen mi revenis! La patro ankaŭ venas, Franjo tuj 
+		alkuros el la kudrejo. Venu rapide kaj donu la tagmanĝon! Mi mortas de 
+		malsato!&elipse;</q></p>
+
+		<p><q rend="--">Mi venas, mi venas!</q> ekkriis Klaro kaj salutinte la novan konaton 
+		estis forkuronta, kiam li haltigis ŝin per la vortoj:</p>
+
+		<p><q rend="- ">Vian manon, mi petas, por adiaŭo&elipse;</q></p>
+
+		<p>Ne ŝanceliĝante, kun ĝentila saluto ŝi etendis la manon; nur kiam ĉi 
+		tiu mano gracia, sed iom malglata, troviĝis en la blanka mola mano, kiu 
+		delikate sed longe premis ĝin, karmina ruĝo kovris ŝian tutan vizaĝon, 
+		de la nigraj bukloj sur la frunto, ĝis la kolumo de la korsaĵo.</p>
+
+	      </div>
+  
+<div type="chapter" rend="doc" id="ii">
+
+  <head>Ĉapitro II</head>
+		
+
+		<p>Longe antaŭ la tagmezo, Julio Przyjemski, sidante sur benko en la parko 
+		kun la libro en la mano, rigardis ofte la dometon, staranta en la 
+		fazeola verdaĵo meze de la najbara ĝardeno. La malalta krado kaj la 
+		disiĝo de la arbaj branĉoj permesis vidi klare ĉion, kio okazas ĉirkaŭ 
+		la dometo.</p>
+
+		<p>Unue li ekvidis viron altan, maldikan, kun griziĝantaj haroj, kiu 
+		iris sur la balkonon, en eluzita palto, en ĉapo kun steleto, kun 
+		malgranda paperujo sub la brako. Post li kuris Klaro kaj, metinte ambaŭ 
+		manojn sur liajn ŝultrojn, parolis kun li, proksimigis sian frunton por 
+		kiso kaj revenis internen. La maldika, griza viro ekiris malrapide al la 
+		pordeto de la ĉirkaŭbaro. Li ankoraŭ ne trairis la duonon de la vojo, 
+		kiam haltigis lin laŭta vokado el la domo:</p>
+
+		<p><q rend="- ">Paĉjo, paĉjo!</q></p>
+
+		<p>Knabineto en mallonga vesto, en blua tuko sur la kapo, alkroĉiĝis al 
+		lia brako kaj kune ili eliris el la ĝardeno. Przyjemski ridetis.</p>
+
+		<p><q rend="- ">La paĉjo iras en la oficejon, la fratineto en la kudrejon&elipse; 
+		Benedikto estas lertulo!&elipse; Hieraŭ mi diris al li: <q rend='""'>Eksciu!</q> &dash; kaj hodiaŭ 
+		matene li jam sciis ĉion. Tridek rubloj monate&elipse; ĝi estas mizero. 
+		Kompreneble. La idilioj ja ekzistas por malsataj poemamantoj. Ŝi manĝas 
+		nigran panon kaj&elipse; portas poemojn en la korbo.</q></p>
+
+		<p>Li rigardis la libron, kiun li havis en la mano. Ĝi ne estis La 
+		<foreign lang="fr">Rochefoucauld</foreign>, sed la malnova libro en eluzita bindaĵo, kiun li pruntis 
+		hieraŭ de Klaro. Jen ree kelkaj versoj signitaj per krajono. Ni legu:
+		</p>
+
+		<lg type="stanza">
+		<l>Malmultaj nubetoj sur ĉielo grandioza, </l>
+		<l>Blua supre alte, okcidente roza&elipse; </l>
+                </lg>
+		
+		<p>Li medite levis la okulojn.</p>
+
+		<p><q rend="- ">Antaŭ multaj, multaj jaroj mi legis ĉi tion, mi estis tiam ankoraŭ 
+		infano. Bela poemo! Precipe ĉi tie, sub ĉi tiuj arboj ĝi estas tre 
+		konforma legaĵo&elipse; Mi ne redonos al ŝi la libron hodiaŭ kaj mi tralegos 
+		ĝin de la komenco ĝis la fino&elipse; Mi tre volus scii, kion ŝi faras en ĉi 
+		tiu momento, malantaŭ la fazeola verdaĵo?</q></p>
+
+		<p>Li tuj tion eksciis. Klaro aperis sur la balkoneto, portante ion 
+		pezan en la disetenditaj manoj. Przyjemski kliniĝis antaŭen por pli bone 
+		vidi kaj konstatis, ke la juna knabino, kun la manikoj falditaj ĝis la 
+		kubutoj, portis kuveton plenan de malpura akvo, kiun ŝi elverŝis 
+		malproksime de la domo, malantaŭ la branĉoriĉa pomarbo kaj ribaj 
+		arbetoj. Kiam ŝi reiris kun malplena kuveto, li rimarkis, ke ŝia vesto 
+		estis kovrita per tola antaŭtuko.</p>
+
+		<p><q rend="- ">Nedubeble ŝi lavas la tolaĵon, ŝi ja portas la kuveton. Ŝi, tiel 
+		delikata kaj inteligenta&elipse; Kiel ŝi parolis hieraŭ pri Sankta Virgulino&elipse; 
+		tre bele&elipse; tre bele!</q></p>
+
+		<p>Li legis, meditis, foriris, revenis, foriris por kelkaj horoj kaj 
+		post tagmezo li ree estis en la parko preskaŭ en la sama horo, en kiu li 
+		hieraŭ renkontis Klaron.</p>
+
+		<p>Li sidiĝis sur la benko kun la sama libro en la malnova bindaĵo kaj 
+		ĉiumomente levis la okulojn, rigardante la najbaran ĝardenon. Fine li 
+		kliniĝis rapide antaŭen por pli bone vidi tra la branĉoj.</p>
+
+		<p>Du personoj venis sur la balkonon. Unu estis maljunulino en nigra 
+		vesto, kun nigra tuko sur la tute grizaj haroj; la alia, Klaro, en vesto 
+		kiel por iri en la urbon, en malhela manteleto kaj pajla ĉapelo, 
+		ornamita per rubando. Ili malsupreniris de la balkono, rapide trairis la 
+		ĝardenon kaj malaperis malantaŭ la ĉirkaŭbaro.</p>
+
+		<p><q rend="--">Basta!</q> diris Przyjemski kun rideto, <q rend="- ">ŝi foriris kaj ne venos plu 
+		ĉi tien. Mi fortimigis la birdeton. Domaĝe estas, ĉar ŝi estas ĉarma!&elipse;</q></p>
+
+		<p>Li fermis nerve la libron kaj iris al la palaco; la sulko 
+		pliprofundiĝis sur lia frunto.</p>
+
+		<p>Klaro de la frua mateno meditis: ĉu iri, aŭ ne iri? Preparante la 
+		matenmanĝon por la patro kaj infanoj, reordigante la loĝejon, kuirante 
+		la tagmanĝon, lavante sian antaŭtukon, ĉiumomente ŝi demandis sin: ĉu 
+		iri, aŭ ne iri en la siringan laŭbon, kie sinjoro Przyjemski tuj aperos 
+		trans la krado. Ŝi ne povis labori kiel ordinare, ĉar ĉiumomente ŝi 
+		pensis pri la hieraŭa renkonto.</p>
+
+		<p>Stranga okazo! Renkonti homon fremdan, tiel longe paroli kun li, eĉ 
+		prunti al li libron! Mi neniam aŭdis iun tiel belege legantan. Kiel ĉarma 
+		li estas! Stranga estas la sulko sur lia frunto, tiel profunda, kaj sub 
+		ĝi la okuloj tiel bluaj, tiel bluaj, jen maltimaj kaj ridantaj, jen 
+		malĝojaj! Kiel ĉarma li estas! Unufoje li tiamaniere ekrigardis min, ke 
+		mi estis forkuronta&elipse; Mi sentis min kvazaŭ ofendita de li, sed poste li 
+		komencis rakonti pri la princo tiel interesajn aferojn&elipse; Kiel ĉarma li 
+		estas. Kiel li diris: <q rend='""'>Oni devas nenion aldoni al vi, nenion depreni!</q> 
+		Kiel ĉarma li estas.</p>
+
+		<p>La flamo de la fajrujo kovris ŝian vizaĝon per varmega purpuro; ŝi 
+		ofte stariĝis antaŭ la malfermita fenestro, tra kiu la vento karesis 
+		ŝiajn vangojn. Ju pli proksima estis la tempo, kiam ŝi ordinare iris en 
+		la laŭbon, des pli granda iĝis ŝia maltrankvileco. Fininte ĉion, ŝi 
+		demetis la antaŭtukon, prenis el la ŝranko la korbon kun la laboraĵo kaj 
+		demandis sin lastfoje: ĉu iri, aŭ ne iri?</p>
+
+		<p>Rigardinte la korbon, ŝi rememoris la pruntedonitan libron.</p>
+
+		<p>Ĉu ŝi ne devas iri por repreni la libron? Kompreneble; kion alie 
+		farus la nova najbaro? Li devus resendi ĝin, tio estus embarasa por li.</p>
+
+		<p>Ŝi do iros.</p>
+
+		<p>La laŭbo apartenas al ŝi, ŝi havas la rajton sidadi tie, kaj la 
+		sinjoro povas veni, aŭ ne veni, &dash; tio estas por ŝi indiferenta!</p>
+
+		<p>Kiel ĉarma li estas! Se ŝi ree parolus iom kun li, kial tio estus ne 
+		konvena?</p>
+
+		<p>La decido tiel ĝojigis ŝin; ke kurante al la pordo, ŝi kantis:</p>
+
+		<p><q rend="- ">La, la, la! la, la, la!</q></p>
+
+		<p>Sed antaŭ ol ŝi venis al la pordo, en ĝi aperis maljunulino, dikkorpa 
+		kaj peza, en nigra vesto. Ŝia vizaĝo estis rondforma kaj ankoraŭ freŝa, 
+		ŝiaj arĝentaj haroj estis kovritaj per nigra lana tuko.</p>
+
+		<p>Klaro ĝoje kisis ŝian manon en lana duonganto.</p>
+
+		<p><q rend="--">Sidiĝu, kara sinjorino&elipse;</q> ŝi invitis.</p>
+
+		<p><q rend="--">Mi ne havas tempon</q> respondis la maljunulino malfacile spiregante, 
+		dum ŝi pene tiris ion el sia poŝo. Fine aperis el ĝi du ruĝaj pomoj kaj 
+		manpleno da bombonoj.</p>
+
+		<p><q rend="--">La pomoj por la paĉjo, la bombonoj por la infanoj,</q> ŝi diris, 
+		metante sur la tablon la alportitajn donacojn.</p>
+
+		<p>Ŝiaj grandaj bluaj okuloj ridis sub la grizaj brovoj kaj bonkora 
+		rideto ornamis ŝiajn dikajn lipojn. Klaro ree kisis ŝian manon.</p>
+
+		<p><q rend="- ">Kial vi ne volas sidiĝi?</q></p>
+
+		<p><q rend="- ">Mi rapidas, mi venis peti, ke vi iru kun mi. Vi estas nun libera 
+		kaj povas akompani min en la butikojn. Mi devas aĉeti novajn ŝuojn; 
+		rigardu la miajn&elipse;</q></p>
+
+		<p>Ŝi iom levis la nigran jupon kaj montris al Klaro grandan, platan 
+		piedon, en blanka ŝtrumpo kaj eluzita ŝuo.</p>
+
+		<p><q rend="- ">Sen vi mi ne aĉetos. Oni trompos min, vendos Dio scias kian 
+		sentaŭgaĵon, mi vane elspezos mian monon. Mi bezonas ankaŭ garnaĵon por 
+		miaj kufoj, ili jam estas tute ĉifitaj. Sen vi mi nenion aĉetos. Vian 
+		mantelon, rapide, kaj ni iru!</q></p>
+
+		<p>Klaro aŭskultis ŝin, mallevinte la kapon. Ŝi tre malĝojiĝis, sed tuj 
+		ŝi levis la okulojn kaj diris:</p>
+
+		<p><q rend="- ">Bone, mi iras, mi prenos nur mian mantelon kaj ĉapelon.</q></p>
+
+		<p>Post momento ili forlasis la loĝejon. Klaro ŝlosis la pordon kaj 
+		metis la ŝlosilon en la poŝon de sia vesto. La patro havis ankaŭ 
+		ŝlosilon. Kiam ili iris tra la ĝardeno, la maljunulino diris:</p>
+
+		<p><q rend="- ">Ni ŝanĝos la monon en la magazenoj kaj mi donos al vi por la 
+		lernejpago de Staĉjo. Oni jam devas pagi?</q></p>
+
+		<p><q rend="--">Mi dankas vin, sinjorino</q> flustris Klaro. <q rend="- ">Sen via helpo, ĉu ni 
+		povus eduki Staĉjon en la gimnazio?&elipse;</q></p>
+
+		<p><q rend="- ">Ne parolu pri tio. Oni devas helpi unu la alian. Ĉu vi ornamos 
+		miajn kufojn per la nova garnaĵo, diru?</q></p>
+
+		<p><q rend="- ">Kun plej granda plezuro!</q></p>
+
+		<p>Ĉe la pordo de la ĉirkaŭbaro Klaro rigardis malantaŭen al la siringa 
+		laŭbo, apogita al la altaj branĉoriĉaj arboj.</p>
+
+		<p><q rend="--">Adiaŭ!</q> ŝi pensis kaj subite sentis sin tre malfeliĉa.</p>
+
+		<p>Aĉetinte ĉion necesan por la maljuna amikino kaj bonfarantino, Klaro 
+		rapidis hejmen. En la pordo de la ĝardeno ŝi renkontis unu el la 
+		amikinoj, pri kiuj ŝi hieraŭ rakontis al Przyjemski kaj kiuj 
+		seniluziigis ŝin.</p>
+
+		<p>Ŝi tiam ploris iom, sed ne koleris kontraŭ la knabino, kiu ŝajnigante 
+		amikecon, priridis ŝin kun siaj konatoj, nomante ŝin lavistino, 
+		malpurulino k. t. p.</p>
+
+		<p>La intimeco ĉesis, sed Klaro pardonis ŝin kaj de tempo al tempo ili 
+		kunvenis unu kun la alia.</p>
+
+		<p>La blondulino, freŝa kaj rozkolora kiel printempo, en eleganta vesto, 
+		en belega ĉapelo, ornamita per floroj, ĉirkaŭprenis ŝin kaj kisis.</p>
+
+		<p>La kisoj malagrable impresis Klaron, ĉar ŝi sciis, ke ili estas 
+		falsaj, sed ŝi afable akceptis ilin.</p>
+
+		<p>Paŭlino ĵus venis kaj, trovinte la pordon fermita, estis forironta.
+		</p>
+
+		<p>Invitite de Klaro resti, ŝi respondis, ke ŝi ne havas tempon, ke ŝi 
+		venis nur por unu momento, ĉar post unu horo ŝi faros eksterurban 
+		ekskurson kun multenombra societo. Ili iros arbaron, kunprenos manĝaĵon 
+		en korboj, amuziĝos tre bone.</p>
+
+		<p>Domaĝe estas, ke Klaro ne konas la societon, eble ŝi volus partopreni 
+		la ekskurson&elipse;</p>
+
+		<p><q rend="--">Ho ne!</q> interrompis ŝin Klaro, rigardante la helan kaj elegantan 
+		tualeton de sia samaĝulino, <q rend="- ">mi ne povas forlasi la domon por tiel 
+		longe.</q></p>
+
+		<p><q rend="- ">Kaj la patro?</q></p>
+
+		<p><q rend="- ">La patro dormas post la tagmanĝo kaj mi helpas Staĉjon en liaj 
+		lernekzercoj.</q></p>
+
+		<p>Klaro tre dezirus adiaŭi la amikinon, sed ne trovas pretekston. 
+		Paŭlino rakontas, ke ŝi pasigis la hieraŭan tagon en la najbaraĵo, ĉe la 
+		intendanto de la princa palaco. Ŝia panjo estas amikino de la edzino de 
+		la intendanto.</p>
+
+		<p><q rend="- ">Mi ĉiam konsilis al vi koniĝi kun familio Perkowski, ili loĝas tiel 
+		proksime&elipse; sed vi ne volis. Estis tre gaje hieraŭ, ni eĉ dancis iom, oni 
+		nur bedaŭris, ke sinjoro Przyjemski ne venis.</q></p>
+
+		<p>Klaro eksentis kvazaŭ baton en la brusto, sed ŝi tuj ekregis sian 
+		kortuŝiĝon. Paŭlino daŭrigis la babiladon:</p>
+
+		<p><q rend="- ">Princo Oskaro venis antaŭ kelkaj tagoj kun sia sekretario, Julio 
+		Przyjemski, granda favorato de la princo. Ĉe Perkowski sinjoro 
+		Przyjemski estis kelkaj fojoj pro negocaj aferoj; kompreneble li ja 
+		devis paroli kun la intendanto de la palaco. La geedzoj Perkowski 
+		invitis lin al la hieraŭa vespero kaj, ni diru la veron, ili eĉ aranĝis 
+		la vesperkunvenon por honori la sekretarion de la princo. Kaj li ne 
+		venis! Domaĝo estas, ĉar mi tre deziris vidi sinjoron Przyjemski! Oni 
+		diras, ke li estas juna nigraharulo, beleta kaj tre gaja&elipse;</q></p>
+
+		<p><q rend="--">Nigraharulo!</q> ripetis Klaro.</p>
+
+		<p>Sed Paŭlino devis rapidi kaj rakontinte ĉion plej gravan, adiaŭis 
+		Klaron per ĉirkaŭprenoj kaj kisoj.</p>
+
+		<p><q rend="- ">Vere, domaĝe estas, ke vi ĉiam restas hejme&elipse; Ĝis revido, ĝis 
+		revido! Mi devas tagmanĝi antaŭ la ekskurso!</q></p>
+
+		<p>Klaro, enirante hejmon, ripetis: <q rend='""'>Nigraharulo?</q> &dash; kaj ridis: Li tute 
+		ne estas nigrahara, sed malhele blonda. Gaja? Tute ne; kontraŭe, iom 
+		melankolia. Paŭlino, kiel ĉiam, babilas pri ĉio, eĉ se ŝi nenion scias. 
+		Iu diris al ŝi: gaja nigraharulo, kaj ŝi ripetas tion al ĉiuj&elipse;</p>
+
+		<p>Sendube gesinjoroj Perkowski invitis lin al la ekskurso, same kiel 
+		hieraŭ al la vesperkunveno, kaj li akompanos ilin. Kiu rifuzus?&elipse; Kiel 
+		gaje estos ekster la urbo, en arbaro! Mi dezirus esti kun ili.</p>
+
+		<p>Varmega estis, certe, la deziro, ĉar ŝi apogis ambaŭ kubutojn sur la 
+		malnova komodo kaj premis la manplatojn al la okuloj, plenaj de larmoj. 
+		Du minutoj pasis tiamaniere. Ekvidinte la patron, revenanta el la urbo, 
+		Klaro viŝis la okulojn kaj kuris renkonte al li.</p>
+
+		<p>Pasis la tago, finiĝis la vespero. En la dometo, kovrita de fazeoloj, 
+		la malgrandaj fenestroj estingiĝis; lumo brilis nur en la ĉambreto de 
+		Klaro.</p>
+
+		<p>Ŝi kudris ankoraŭ, sed post la deka horo ŝi lasis la laboraĵon sur la 
+		tablo, intencante baldaŭ reveni, kaj elkuris sur la balkoneton.</p>
+
+		<p>Allogis ŝin el la ĉambro la mallaŭtaj murmuretoj de la fazeolaj 
+		folioj, balancataj de la vento, kaj la steloj, kiuj briletis antaŭ ŝiaj 
+		fenestroj.</p>
+
+		<p>La balkono havis du ŝtupojn, truplenajn kaj ŝanceliĝantajn. Klaro 
+		eksidis sur unu el ili, apogis la mentonon sur la manplato kaj 
+		rigardadis la belan, kvietan vesperon. Regis plena silento. Neniu 
+		veturis en tiel malfrua horo sur la strato izola, preskaŭ eksterurba. De 
+		la centro de la urbo flugis malklara bruo, mutigata de la interspaco kaj 
+		unutona. La arboj grandeguloj en la princa parko jen skuiĝis, jen 
+		silentis senmovaj kaj staris, kvazaŭ nigra muro. La aŭgusta ĉielo estis 
+		plena de steloj, &dash; la nokta mallumo similis vesperan krepuskon, kaj oni 
+		povis distingi la konturojn eĉ de malproksimaj objektoj.</p>
+
+		<p>Klaro ekvidis la amatan laŭbon, la interrompon en la granda aleo de 
+		la parko kaj tra la interrompo, en la fundo de la perspektivo la murojn 
+		de la palaco same mallumajn, kiel la apudaj arboj. Sed sur la nigra fono 
+		brilis vico da lumoj, kiuj en la komenco ŝajnis al Klaro steloj, 
+		briletantaj malantaŭ la arboj, sed tuj ŝi rimarkis, ke tio estis 
+		lumigitaj fenestroj.</p>
+
+		<p>De kiam Klaro loĝis en la najbaraĵo de la palaco, lumo aperis la 
+		unuan fojon en la fenestroj. Tio estis tute natura, ĉar nun la posedanto 
+		estis tie.</p>
+
+		<p>Ĉu la princo estas tie sola malantaŭ la lumigitaj fenestroj, aŭ eble 
+		la sekretario estas kun li? Sendube li ofte, eble ĉiam akompanas la 
+		princon. Eble sinjoro Przyjemski ne revenis ankoraŭ de la ekskurso, kiun 
+		aranĝis gesinjoroj Perkowski. Eble la societo estas ankoraŭ en la 
+		arbaro. Ili ja ne bezonas rapidi. Belega estas la vetero kaj ĉiuj 
+		kredeble estas gajaj. Ili promenas en la arbaro, en kiu nun la filikoj 
+		estas tiel grandaj kaj la eriko floras&elipse;</p>
+
+		<p>Jam antaŭ kelkaj minutoj Klaro apogis la kubutojn sur la genuoj kaj 
+		kaŝis la vizaĝon en la manplatoj. Sidante tiamaniere, ŝi revis pri la 
+		apudurba arbaro, en kiu ŝi estis kelkfoje. Nun ŝi vidis ĝin tre klare 
+		kun ĉiuj detaloj: la verdan densejon, en kiu serpentas vojeto, ĉe ambaŭ 
+		flankoj maldikaj betuloj kun arĝenta ŝelo, lilikolora eriko, griza 
+		musko, folioriĉaj filikoj&elipse; Du personoj iras sur la vojeto: sinjoro 
+		Przyjemski kaj Paŭlinjo&elipse; Ili pasas flanko ĉe flanko kaj senĉese parolas 
+		unu kun la alia&elipse; Li rigardas ŝin per siaj bluaj okuloj sub la stranga 
+		sulko sur la frunto kaj diras: <q rend='""'>Oni devas nenion aldoni al vi&elipse; nenion 
+		depreni.</q></p>
+
+		<p>Ĉion tion, la arbaron kaj la paron, iranta en la arbaro, ŝi vidis sub 
+		la mallevitaj palpebroj klare, kvazaŭ en hela tago, sed nokto fariĝis en 
+		ŝia koro.</p>
+
+		<p>Subite ŝi ekaŭdis veluran voĉon, kiu tuj super ŝi skandis la 
+		silabojn:</p>
+
+		<p><q rend="- ">Bonan vesperon, fraŭlino!</q></p>
+
+		<p>Ne eble estas diri, kio en tiu momento estis pli forta en ŝi: la miro 
+		aŭ la ĝojo. Ĉion ŝi povis atendi, sed ne ekaŭdi ĉi tiun voĉon kaj ekvidi 
+		la homon, kiu staris nun antaŭ ŝi, la ĉapelo en la mallevita mano. 
+		Malgraŭ la krepusko ŝi rimarkis sur lia vizaĝo amikan kaj iom ŝerceman 
+		rideton.</p>
+
+		<p><q rend="- ">Mi promenis en la ĝardeno, mi ekvidis vin sur la balkono kaj mi ne 
+		povis kontraŭbatali la tenton diri al vi: <q rend='""'>Bonan vesperon</q> Bela 
+		vespero, ĉu ne vere? Precipe nun ĝi fariĝas tre bela. Pri kio vi tiel 
+		meditas?</q></p>
+
+		<p>En la komenco ŝi ne aŭdis, kion li diris, tiel forte batis ŝia koro. 
+		Post momento ŝi ankoraŭ ne sufiĉe rekonsciiĝis por respondi lian 
+		demandon.</p>
+
+		<p>Starante sur la ŝtupo de la balkono, ŝi montris al li per gesto la 
+		mallarĝan benkon.</p>
+
+		<p><q rend="- ">Sidiĝu, sinjoro, mi petas vin.</q></p>
+
+		<p><q rend="- ">Ĉu ne pli bone estos ĉi tie&elipse; sub la steloj.</q></p>
+
+		<p>Per la mano kun la ĉapelo li montris la ĉielon kaj eksidis sur la 
+		ŝtupo de la balkono, kiu ekŝanceliĝis sub lia pezo. Klaro ankaŭ sidiĝis 
+		iom pli malproksime. Baldaŭ ŝi retrovis sian maltimon kaj ĉeeston de 
+		spirito. La sento, kiu nun ekregis ŝin, estis grandega ĝojo, kiu sonis 
+		en ŝia voĉo, kiam ŝi demandis:</p>
+
+		<p><q rend="- ">Kiamaniere vi eniris en nian ĝardenon.</q></p>
+
+		<p><q rend="- ">Tra la pordeto de la ĉirkaŭbaro &dash; tute ordinara vojo.</q></p>
+
+		<p><q rend="- ">Mi neniam vidis ĝin malfermita: kaj mi tute forgesis pri ĝia 
+		ekzistado.</q></p>
+
+		<p><q rend="- ">La pordhokoj kaj la seruro estis rustiĝintaj kaj funkciis malbone, 
+		sed mi venkis la malfacilon&elipse; pri kio vi pensis?</q></p>
+
+		<p>Ŝia ordinara malkaŝemo kaj ŝia pli kaj pli granda ĝojo diktis al ŝi 
+		jenan respondon, kiun ŝi gaje diris:</p>
+
+		<p><q rend="- ">Mi demandis min, ĉu via societo jam revenis de la ekskurso aŭ estas 
+		revenanta&elipse;</q></p>
+
+		<p>Kun miro li levis la kapon.</p>
+
+		<p><q rend="- ">Kiu societo?.</q></p>
+
+		<p><q rend="- ">Gesinjoroj Perkowski kaj vi. Mia amikino rakontis al mi, ke ili 
+		invitis vin al bela eksterurba ekskurso&elipse; Sed kial vi ne ĉeestis ilian 
+		hieraŭan vesperkunvenon? Oni malpacience atendis vin.</q></p>
+
+		<p>Przyjemski longe nenion respondis, kaj kiam li komencis paroli, rido 
+		iom eksonis en lia voĉo.</p>
+
+		<p><q rend="- ">Mi estis nek en la vesperkunveno, nek en la ekskurso. Sed se vi 
+		permesos, ni parolos pri io alia kaj pli interesa, ol&elipse; gesinjoroj 
+		Perkowski. Mi tre dankas vin por la libro, kiun vi pruntis al mi, sed mi 
+		ankoraŭ ne redonas ĝin. Mi legos ĝin ankoraŭ kelke da tagoj. Belega 
+		poemo! Mi konis ĝin, sed nur supraĵe. Dank' al vi mi pli intime konatiĝos 
+		kun ĝi. Kaj nun, diru al mi, kiel vi pasigis la hodiaŭan tagon kaj ĉu ĝi 
+		ne ŝajnis al vi longa. Kion vi faris hodiaŭ?</q></p>
+
+		<p><q rend="- ">Kion mi faras ĉiutage; por kio rakonti pri tio!</q></p>
+
+		<p><q rend="- ">Tute kontraŭe; rakontu, mi tre, tre petas vin&elipse;</q></p>
+
+		<p>Ŝi gaje ekridis.</p>
+
+		<p><q rend="- ">Tre volonte, tre volonte mi ĝin rakontos. Mi reordigis la loĝejon, 
+		kuiris la tagmanĝon, lavis mian antaŭtukon, vizitis butikojn kun amikino&elipse;
+		Kion ankoraŭ? Mi helpis mian fraton en la lernado, verŝis teon, kudris&elipse;</q></p>
+
+		<p>Ŝi parolis senĝene, eĉ kun plezuro. Li demandis:</p>
+
+		<p><q rend="- ">Vi do nenion legis hodiaŭ?</q></p>
+
+		<p><q rend="- ">Mi legis iom, kiam la patro dormis ankoraŭ, kaj Staĉjo jam ellernis 
+		la lecionojn. Franjo okupiĝis pri la temaŝino, kaj mi iom legis. Mi 
+		ricevas librojn de sinjorino, kiu estis mia instruistino en la edukejo.</q></p>
+
+		<p><q rend="- ">Vi estis en edukejo?</q></p>
+
+		<p>Klaro rakontis, ke ŝia patrino, kiu estis instruistino, mem instruis 
+		ŝin ĝis la dekdujara aĝo. Poste ŝi sendis ŝin en edukejon, kie ŝi ne 
+		povis fini la kursojn, ĉar post la morto de sia patrino ŝi devis resti 
+		hejme pro la patro kaj la infanoj, ankoraŭ tute junaj tiam. Ŝi forlasis 
+		la edukejon tre ĉagrenita, sed nun ŝi tute, tute ne bedaŭras tion, ĉar 
+		ŝi konvinkiĝis, ke ŝi estas nepre necesa hejme, ke oni ne povas lasi la 
+		patron kaj la infanojn sen protektado.</p>
+
+		<p><q rend="--">Tiel serioza!</q> ekridetis Przyjemski.</p>
+
+		<p><q rend="--">Serioza!</q> ŝi ridis; <q rend="- ">tute ne! Mi scias mem,
+		kio mankas al mi&elipse; sed mi faras, kion mi povas&elipse;</q></p>
+
+		<p><q rend="--">Por esti anĝelo gardanto</q> finis li duonvoĉe.</p>
+
+		<p>Ĉi tiuj dolĉaj vortoj atingis ŝian koron; ŝi mallevis la kapon kaj 
+		eksilentis.</p>
+
+		<p>Sed lin la rekomenco de la interrompita interparolado tute ne 
+		embarasis. Iom kliniĝinte al ŝi, li demandis:</p>
+
+		<p><q rend="- ">Kiu estas la maljunulino, kun kiu vi hodiaŭ eliris?</q></p>
+
+		<p><q rend="- ">Kiel vi scias tion?</q></p>
+
+		<p><q rend="- ">Mi vidis vin de la aleo, kie mi sidis, tenante la libron en la mano 
+		kaj pensante pri vi.</q></p>
+
+		<p>La eta maljunulino estis sinjorino Dutkiewicz, vidvino de veterinaro 
+		kaj baptopatrino de la patrino de Klaro, ŝi estas tre estiminda persono, 
+		tre bona kaj komplezema, ilia vera amikino kaj bonfarantino, multfoje ŝi 
+		helpis ilin dum malfacilaj tempoj kaj nun ŝi pagas por la edukado de 
+		Staĉjo.</p>
+
+		<p><q rend="--">Ŝi do estas riĉa persono?</q> demandis Przyjemski.</p>
+
+		<p><q rend="--">Jes, riĉa!</q> fervore jesis Klaro; <q rend="- ">ŝi loĝas sola en tri ĉambroj, 
+		havas servantinon&elipse;</q></p>
+
+		<p><q rend="--">Luksa vivo</q> rimarkis li, kaj ŝi daŭrigis:</p>
+
+		<p><q rend="- ">Ŝia edzo havis grandajn enspezojn kaj lasis al ŝi grandan havon. Ŝi 
+		mem rakontis al mia patro, ke ŝi posedas kapitalon da dek kvin mil 
+		rubloj&elipse;</q></p>
+
+		<p><q rend="--">Granda riĉaĵo,</q> jesis Przyjemski.</p>
+
+		<p><q rend="--">Tre granda,</q> diris Klaro, <q rend='- '>sed ŝi bone uzas ĝin. Ŝi helpas nin, 
+		ŝi helpas multajn aliajn personojn&elipse;</q></p>
+
+		<p><q rend="- ">Kial ne?</q></p>
+
+		<p><q rend="- ">Jes; kaj tio estas granda feliĉo por ŝi; alie, sola, sen infanoj, 
+		ŝi havus nenian celon en la vivo.</q></p>
+
+		<p>Li interrompis Klaron:</p>
+
+		<p><q rend="- ">Sed ĉar ŝi posedas dek kvin milojn, grandan riĉaĵon, ŝi povas imiti 
+		Sanktan Virgulinon Parizan!</q></p>
+
+		<p>Li apogis la kubuton sur la supra ŝtupo, klinis la kapon kaj profunde 
+		ekmeditis. Klaro rimarkis kaj komprenis liajn sentojn. Ŝi eksilentis, ne 
+		kuraĝante plu paroli. Tio daŭris du, tri minutojn. Przyjemski rektiĝis 
+		kaj kun levita kapo rigardis la stelojn. En ilia lumo Klaro ekvidis, ke 
+		lia sulko inter la brovoj estis tre profunda. Post momento li diris 
+		mallaŭte:</p>
+
+		<p><q rend="- ">La steloj falas.</q></p>
+
+		<p>Klaro, ankaŭ mallaŭtigante senvole la voĉon, respondis:</p>
+
+		<p><q rend="- ">En aŭgusto ĉiam falas multe da steloj.</q></p>
+
+		<p>Kaj post momento ŝi aldonis:</p>
+
+		<p><q rend="- ">Oni diras, ke kiam stelo falas, oni devas antaŭ ĝia estingiĝo 
+		esprimi deziron kaj ĉi tiu deziro plenumiĝos&elipse; Jen sinjoro, ankoraŭ unu 
+		falis!&elipse; Kaj tie! Kaj tie! Ili falas, kvazaŭ pluvo.</q></p>
+
+		<p>Rigardante la ĉielon, de kiu tie ĉi kaj tie falis oraj fajreroj kaj 
+		tuj estingiĝis en la subĉiela krepusko, li diris malrapide:</p>
+
+		<p><q rend="- ">Esprimu do deziron&elipse; la steloj falas amase kaj vi sukcesos eldiri 
+		ĝin, antaŭ ol ĉiuj estingiĝos.</q></p>
+
+		<p>Klaro silentis; li turnis la kapon al ŝi. Ili sidis nun tiel proksime 
+		unu de la alia, ke ŝi vidis klare la brilon de liaj okuloj.</p>
+
+		<p><q rend="- ">Pri kio vi petus la falantan stelon?</q></p>
+
+		<p>Penante paroli libere, ŝi respondis:</p>
+
+		<p><q rend="- ">Mi estas terura egoistino. Se mi kredus, ke la falantaj steloj 
+		plenumas la homajn dezirojn, mi petus senĉese: resaniĝu la patro, lernu 
+		diligente la infanoj kaj estu bonaj!&elipse;</q></p>
+
+		<p><q rend="--">Kaj por vi?</q> li demandis.</p>
+
+		<p>Granda estis la miro de Klaro.</p>
+
+		<p><q rend="- ">Por mi? Mia peto esprimus ja ĝuste mian varmegan deziron&elipse; mi do 
+		petus tiamaniere por mi mem.</q></p>
+
+		<p><q rend="--">Abomena egoismo!</q> li diris <q rend="- ">sed ĉu efektive vi ne dezirus, ke la 
+		ora steleto sendu al vi iam&elipse; ian feliĉon grandan, senliman, kiu 
+		aliformigas la koron en flaman stelon, vivantan alte, alte super la 
+		tero?</q></p>
+
+		<p>Ŝi sentis, ke ŝia koro jam fariĝas flama stelo, kaj ĝuste tial ŝi 
+		respondis ŝerce:</p>
+
+		<p><q rend="- ">Se mi devus nepre peti pri io por mi mem, mi komunikus al la steloj 
+		mian deziron fari ekskurson kaj pasigi tutan duontagon en la arbaro. Mi 
+		adoras la arbaron.</q></p>
+
+		<p>Poste ŝi aldonis:</p>
+
+		<p><q rend="- ">Kaj pri kio vi petus la falantan stelon?</q></p>
+
+		<p><q rend="- ">Mi?</q></p>
+
+		<p>Li komencis paroli meditplena:</p>
+
+		<p><q rend="- ">Mi petus la oran stelon pri la kredo, ke ekzistas sur la tero koroj 
+		bonaj, puraj kaj fidelaj; mi petus la stelon, ke tia koro apartenu al mi&elipse;</q></p>
+
+		<p>Post mallonga silento li daŭrigis:</p>
+
+		<p><q rend="- ">Mi dirus: Hela stelo, helpu min forgesi la mallumajn sonĝojn, kiuj 
+		tiel ofte turmentis min&elipse;</q></p>
+
+		<p>Ŝi aŭskultis la voĉon, ŝi ensorbis la vortojn, plenajn de maldolĉa 
+		melankolio. Ĉarma estis la voĉo, malĝojaj la vortoj, nekompreneblaj sed 
+		timigaj&elipse;</p>
+
+		<p>Li ekstaris kaj diris, ŝanĝante la tonon:</p>
+
+		<p><q rend="- ">Ni promenu iom en la ĝardeno, mi petas vin.</q></p>
+
+		<p>Obeeme ŝi sekvis lin al la siringa laŭbo sur la herbo malseka de 
+		roso, inter du vicoj de ribaj arbustoj.</p>
+
+		<p><q rend="- ">Vi petus la falantan stelon pri sano por via patro&elipse; Ĉu li ne estas 
+		tute sana?</q></p>
+
+		<p><q rend="- ">Jes! jam delonge&elipse;</q></p>
+
+		<p><q rend="- ">Kiun malsanon li suferas?</q></p>
+
+		<p><q rend="- ">Brustan&elipse;</q></p>
+
+		<p><q rend="- ">Tio estas tre malĝoja; ĉu li kuracigas sin?&elipse;</q></p>
+
+		<p><q rend="- ">Antaŭ kelkaj jaroj li tion faris, sed nun li neniam venigas 
+		kuraciston. La kuracado kostas multe kaj malmulte efikas, kredeble pro 
+		lia malfacila kaj laciga ofica laboro. La plej grava afero estas 
+		konformiĝi al la higienaj postuloj: frue kuŝiĝi por la dormo, trinki 
+		lakton, manĝi multe da fruktoj.</q></p>
+
+		<p>Przyjemski diris:</p>
+
+		<p><q rend="- ">La lasta postulo estas facile plenumebla. Loĝante en sufiĉe granda 
+		ĝardeno apud alia ankoraŭ pli granda&elipse; En la princa ĝardeno estas 
+		bonegaj fruktoj&elipse;</q></p>
+
+		<p>Klaro ekridetis en la krepusko. Stranga homo! Ŝia patro bezonas 
+		fruktojn; la ĝardeno de la princo posedas multe da ili&elipse; sed kia estas 
+		la rilato de ĉi tiuj du faktoj?</p>
+
+		<p>Li silente rigardis ŝin, kvazaŭ atendante ion. Poste li komencis 
+		paroli per indiferenta tono:</p>
+
+		<p><q rend="- ">Hodiaŭ mi vizitis kun la princo la persikejon, ananasejon, 
+		varmigejon, kiuj estas plenaj de bonaj fruktoj, kaj la princo diris al 
+		mi, ke mi sendu la superfluon al gesinjoroj Perkowski kaj al ĉiuj miaj 
+		konatoj en la urbo&elipse;</q></p>
+
+		<p>Ree li ĉesis paroli kaj rigardis ŝin.</p>
+
+		<p>Ŝi diris:</p>
+
+		<p><q rend="- ">La princo estas tre afabla homo.</q></p>
+
+		<p>Kaj tuj ŝi montris la palacon.</p>
+
+		<p><q rend="- ">Kiel bela estas nun la palaco kun la lumigitaj fenestroj!</q></p>
+
+		<p>Hodiaŭ vespere, kiam mi turnis la unuan fojon la okulojn al la 
+		palaco, la fenestroj ŝajnis al mi steloj, brilantaj tra la foliaĵo.</p>
+
+		<p>Ili staris ĉe la krado, apud la laŭbo. En la kvieta aero delikate 
+		murmuris la arboj, kaj poste, kvazaŭ respondante la akordon de la 
+		naturo, muziko eksonis de la palaco, de la lumigitaj fenestroj. Iu 
+		ekludis kelke da akordoj sur la fortepiano kaj tuj interrompis.</p>
+
+		<p><q rend="--">Ĉu iu ludas en la palaco?</q> flustris Klaro.</p>
+
+		<p>Przyjemski respondis:</p>
+
+		<p><q rend="- ">La princo. Li tre amas muzikon kaj ni ofte ludas kune.</q></p>
+
+		<p><q rend="- ">Ĉu vi ankaŭ ludas?</q></p>
+
+		<p><q rend="- ">Violonĉelon; li akompanas fortepiane kaj reciproke. Ĉu vi amas la 
+		muzikon?</q></p>
+
+		<p>En la palaco ree eksonis la akordoj kaj ĉi foje daŭris pli longe, 
+		kuniĝante kun la murmuro de la arboj. Baldaŭ ĉesis la muziko de la 
+		naturo, sed la fortepiano daŭrigis la kanton.</p>
+
+		<p><q rend="--">Mi ne povas aŭskulti muzikon sen kortuŝiĝo,</q> diris Klaro.</p>
+
+		<p><q rend="- ">Ĉu vi ofte aŭskultis ĝin?</q></p>
+
+		<p><q rend="- ">Post la morto de mia patrino, kiu ofte ludis vespere por la patro, 
+		mi aŭdis la muzikon ĉe konatoj du, tri fojojn&elipse;</q></p>
+
+		<p>Przyjemski ekkriis kun miro:</p>
+
+		<p><q rend="- ">Ĉu tio estas ebla? Aŭdi muzikon du aŭ tri fojojn dum kvar jaroj! 
+		Kiel vi povas vivi sen muziko?&elipse;</q></p>
+
+		<p>Ŝi respondis kun rideto:</p>
+
+		<p><q rend="- ">Ĝi ne estas grava afero, ĝi estas nur plezuro&elipse;</q></p>
+
+		<p><q rend="--">Kompreneble,</q> li jesis <q rend="- ">negrava estas la afero vivi sen plezuroj&elipse; 
+		precipe en via aĝo&elipse;</q></p>
+
+		<p><q rend="--">Vi estas prava,</q> ŝi konsentis <q rend="- ">jam de longe mi ĉesis esti infano.</q></p>
+
+		<p>Li rigardis supren.</p>
+
+		<p><q rend="- ">Ĉu la steloj falas ankoraŭ?</q></p>
+
+		<p>Ŝi respondis, turninte la okulojn al la ĉielo:</p>
+
+		<p><q rend="- ">Oh jes! Ili falas ankoraŭ! Jen unu, super la granda arbo&elipse; jen nun 
+		alia, ĝuste super la palaco. Ĉu vi vidis ĝin?</q></p>
+
+		<p><q rend="- ">Mi vidis&elipse; Nun diru: mi deziras aŭdi belan muzikon.</q></p>
+
+		<p>Ŝi komencis ridi, sed li insistis.</p>
+
+		<p><q rend="- ">Diru, mi petas vin: <q rend='""'>Ora stelo, faru, ke via tera fratino aŭdu 
+		hodiaŭ belan muzikon!</q> Ripetu tion, se plaĉas al vi&elipse;</q></p>
+
+		<p>Nekapabla kontraŭbatali lian volon, kun rideto sur la tremantaj lipoj 
+		ŝi komencis ripeti:</p>
+
+		<p><q rend="- ">Ora stelo, faru, ke via fratino&elipse;</q></p>
+
+		<p>Sed ŝi haltis, ĉar en la aero ekflugis muziko. Tio ne estis plu 
+		apartaj akordoj, sed harmoniaj, seninterrompaj tonoj. Admiro aperis sur 
+		ŝia vizaĝo, turnita al la steloj. Rideto malfermetis ŝian buŝon, ora 
+		brilo plenigis ŝiajn okulojn, malgraŭ la krepusko. Ŝi staris kvazaŭ 
+		najlita al la tero, aŭdante ekstaze la muzikon. Lia parolado fariĝis 
+		flustro:</p>
+
+		<p><q rend="- ">Vi vidas, kiel rapide la steloj plenumas la dezirojn de siaj teraj 
+		fratinoj! Sed rilate al vi mia komparo ne estis bona. Oni ekstreme 
+		trouzis ĉi tiun komparon, kiu nun rememorigas ion tute alian&elipse; Jen nova 
+		penso!&elipse; Ĉu vi scias, kiu estis Heine?</q></p>
+
+		<p><q rend="--">Germana poeto,</q> ŝi flustris.</p>
+
+		<p><q rend="- ">Jes; mi rememoris nun versaĵon de Heine, per kiu mi adiaŭos vin&elipse;
+		</q></p>
+
+		<p>Li mallevis la kapon, kvazaŭ por ĝuste rememori la versaĵon. La 
+		muziko fariĝis pli kaj pli melodia kaj klara; la arboj mallaŭte 
+		ekmurmuris. Kun la muziko de la fortepiano kaj naturo kuniĝis velura, 
+		karesema voĉo:</p>
+
+		<lg type="stanza">
+		<l>Vi estas kiel la flor' </l>
+		<l>Tiel bela kaj pura kaj ĉarma!&elipse; </l>
+		<l>Mi rigardas vin&elipse; kaj mia kor' </l>
+		<l>Konsumiĝas per tremo malvarma&elipse; </l>
+		<l>Al ĉielo etendus mi for </l>
+		<l>Miajn manojn&elipse; petegus mi larma, </l>
+		<l>Ke Di' lasu vin por sia glor' </l>
+		<l>Tiel bela kaj pura kaj ĉarma!&elipse;</l>
+		</lg>
+		<note>Traduko de Leo Belmont</note>
+		
+		<p>Elparolante la lastajn vortojn, li prenis ŝian manon, kliniĝis kaj 
+		delikate kisis ĝin, apenaŭ tuŝetante per la lipoj. Post momento li diris:</p>
+
+		<p><q rend="- ">Atendu iom. Mi tuj ludos por vi kun mia amiko&elipse;</q></p>
+
+		<p>Li metis la ĉapelon kaj rapide foriris.</p>
+
+		<p>Tra la pordeto de la krado li eniris en la ombroplenan ĝardenon kaj 
+		malaperis inter la arboj. Ĉirkaŭ Klaro dum kelkaj minutoj regis plena 
+		silento, ĝis ree eksonis la muziko, ĉifoje de du instrumentoj. Malantaŭ 
+		la lumigitaj fenestroj de la palaco fortepiano kaj violonĉelo ludis 
+		harmonie grandan verkon, kies tonoj plenigis la ombrojn de la parko, 
+		miksiĝis kun la mallaŭta murmuro de la arboj, kaj ĉirkaŭis per 
+		ebriiganta ĉarmo la knabinon, apogita al la krado kaj kaŝanta la vizaĝon 
+		en la manoj.</p>
+
+	      </div>
+  
+<div type="chapter" rend="doc" id="iii">
+
+  <head>Ĉaptiro III</head>
+
+		<p>Klaro ekdormis tre malfrue kaj tre frue vekiĝis. Ordinare ŝi tuj 
+		saltis el la lito al la lavvazo kaj longe baraktis en la akvo, kvazaŭ 
+		birdo en la sablo. Hodiaŭ ŝi sidiĝis sur la lito kaj aŭskultis. Ŝia 
+		kapo, ŝia tuta estaĵo estis plena de melodiaj tonoj kaj de ritmaj vortoj, 
+		kiuj karesis ŝiajn orelojn kaj koron.</p>
+
+		<lg type="stanza">
+		<l>Vi estas kiel la flor' </l>
+		<l>Tiel bela kaj pura kaj ĉarma!&elipse; </l>
+		</lg>
+
+		
+		<p>La fortepiano kaj la violonĉelo daŭrigis:</p>
+
+		<lg type="stanza">
+		<l>Al ĉielo etendus mi for </l>
+		<l>Miajn manojn&elipse; petegus mi larma&elipse; </l>
+		</lg>
+		
+		<p>Ŝi venkis la revemon, saltis el la lito kaj post duonhoro ŝi jam 
+		estis vestita. Dum ŝi lavis sin, purigis la vestojn, la venko daŭris 
+		ankoraŭ, sed kiam butonumante la korsaĵon, ŝi ekstaris antaŭ la fenestro, 
+		ŝi ree aŭdis la kanton:</p>
+
+		<lg type="stanza">
+		<l>Ke Di' lasu vin por sia glor' </l>
+		<l>Tiel bela kaj pura kaj ĉarma!&elipse; </l>
+		</lg>
+		
+		<p>Dio, Dio! Kio okazis? Kiel feliĉa ŝi estas! Ŝia koro ensorbis dolĉan 
+		feliĉon, pri kiu ŝi eĉ ne imagis ĝis nun&elipse; <q rend='""'>Mi ludos por vi kun mia 
+		amiko&elipse;</q> Ili ludis ĝis malfrua vespero, ŝi aŭskultis. Kia nokto! Oni 
+		ludis por ŝi! Neniam ankoraŭ okazis io simila. Li ludis por ŝi&elipse; por ŝi!&elipse; 
+		Kiel bona li estas!</p>
+
+		<p>Ŝi forte kunpremis la manojn kaj diris decide:</p>
+
+		<p><q rend="- ">Sufiĉe!</q></p>
+
+		<p>Ŝi ĵetis sur siajn ŝultrojn manteleton, sur sian kapon lanan tukon, 
+		kaptis de la kuireja tablo korbon kun tenilo kaj kovrilo, pli grandan ol 
+		la korbo por la kudraĵo. Ŝi devis kuri bazaron por aĉeti kuirejan 
+		provizon. La patro kaj frato dormos ankoraŭ unu horon; Franjon ŝi vekos, 
+		por ke ŝi kuiru la lakton kaj gardu la fornon, sed antaŭe ŝi kuros en la 
+		ĝardenon kaj alportos la kruĉon, kiun ŝi forgese lasis ĉe la malgranda 
+		florbedo. Eble Franjo bezonos ĝin kaj ne povos ĝin trovi. Klaro kuris 
+		sur la balkonon kaj subite haltis. De kie ĝi venis? Korbo plena de 
+		belegaj fruktoj! Neniam ŝi vidis tiajn!</p>
+
+		<p>Sur la mallarĝa benko de la balkono staris korbo plena de freŝaj 
+		fruktoj, arte dismetitaj de lerta ĝardenista mano. En la mezo inter la 
+		folioj kronis la fruktan piramidon ananaso, tute ora sub la radioj de la 
+		leviĝanta suno; ĉirkaŭis ĝin rozaj persikoj, flavaj abrikotoj, verdaj 
+		renklodoj, sub kiuj ruĝaj pomoj kaj grandaj piroj sin apogis al melono, 
+		kovrita de delikataj vejnetoj.</p>
+
+		<p>La tuton pentrinde ornamis folioj, kovrantaj ankaŭ la korbon. Alloge 
+		odoris la ananaso kaj melono. Freŝa roso brilis sur la folioj.</p>
+
+		<p>Klaro staris kun mallevitaj kaj forte kunpremitaj manoj. En la unua 
+		momento de admiro ŝi demandis: <q rend='""'>De kie?</q> sed tuj ŝi respondis al si:
+		<q rend='""'>De li!</q> Antaŭ ŝia vekiĝo iu venis, laŭ lia ordono, en la ĝardenon kaj metis 
+		la korbon. Li ja diris, ke la princo permesis al li disdonadi la 
+		fruktojn de sia ĝardeno al siaj konatoj.</p>
+
+		<p>Fajra ruĝo kovris ŝian vizaĝon.</p>
+
+		<p><q rend="--">Li disdonu ilin&elipse; sed ne al ni! ne al mi</q> ŝi ripetis, <q rend='- '>ho ne! 
+		Neniam! Donaco de tute nekonata homo, &dash; neniam!</q></p>
+
+		<p>Ŝi klare eksentis nun, ke li estas fremda por ŝi, kaj samtempe 
+		doloriga sago trapikis ŝian koron. Sed ĉu ĝi doloras ŝin aŭ ne, tamen li 
+		estas fremda por ŝi. Li ne konas eĉ ŝian patron! Kiel la patro povos 
+		akcepti la fruktojn, donacitajn de nekonata homo. Oni devas redoni ilin 
+		al li, sed kiamaniere? Kiu reportos? Eble Staĉjo? Oh ne, ne! Ŝi ektremis 
+		pensante, ke Franjo aŭ Staĉjo povas vekiĝi kaj veni sur la balkonon. 
+		Kion ŝi dirus al ili?</p>
+
+		<p>Poste ŝi decidos, kion fari; nun ŝi kaŝos plej rapide la korbon, por 
+		ke neniu vidu ĝin. Ŝi tuj kaŝis ĝin en la kuireja ŝranko, kiun ŝi zorge 
+		ŝlosis. Feliĉe ĉiuj dormis ankoraŭ. Nun ŝi vekos Franjon kaj kuros 
+		bazaron.</p>
+
+		<p>Dum la sekvintaj horoj ŝi sentis sin jen trankvila kaj indiferenta, 
+		jen tiel kortuŝita, ke ŝi apenaŭ povis deteni la larmojn. Ŝi decidis 
+		porti la korbon en la laŭbon kaj peti sinjoron Przyjemski, se li venos, 
+		repreni ĝin&elipse; Jen ŝi estis certa, ke li venos; jen ŝi dubis&elipse; Se li ne 
+		venos, ŝi metos la korbon trans la krado. Li aŭ iu alia baldaŭ rimarkos 
+		ĝin, kaj ĉio estos finita. Verŝajne sinjoro Przyjemski ofendiĝos kaj ne 
+		volos plu vidi ŝin; ĉio finiĝos por ĉiam&elipse; Estis momentoj, kiam ŝi 
+		pensis pri tio sen bedaŭro; se li opinias, ke ŝi deziras liajn donacojn, 
+		li ne venu plu. Ĉio estos, kia ĝi estis antaŭ tri tagoj, kiam ŝi ankoraŭ 
+		ne konis lin.</p>
+
+		<p>Por la patro, Franjo kaj Staĉjo tio ja estas indiferenta, kial do 
+		ĉagreniĝi?</p>
+
+		<p>Sed post duonhoro ŝian decidemon anstataŭis tia malĝojo, ke ŝi ne 
+		sciis plu, kion ŝi faras. Ŝi forlasis la laboron, apogis la kubutojn sur 
+		la malnova komodo kaj premis la palpebrojn per la manoj por ne plori.
+		</p>
+
+		<p>Unu horon antaŭ la tagmanĝo ŝi sidiĝis en la siringa laŭbo kaj 
+		komencis kudri rapide, diligente, kun mallevita kapo. Apud ŝi staris sur 
+		la benko la fruktoplena korpo. Velkintaj folioj ekkrakis sub ies piedoj. 
+		Klaro klinis la kapon ankoraŭ pli malalte kaj komencis kudri ankoraŭ pli 
+		rapide. Brulis ŝia vizaĝo, ŝvelis la palpebroj, kaj ŝi tion sentis. Tra 
+		la densa nebulo, kiu kovris ŝiajn okulojn, ŝi ne vidis plu la kudraĵon. 
+		Bone konata voĉo diris malantaŭ la krado:</p>
+
+		<p><q rend="- ">Bonan tagon, fraŭlino!</q></p>
+
+		<p>Ŝi levis la kapon, sed ŝia rigardo ne renkontis la rigardon de 
+		Przyjemski, kiu estis fiksita sur la fruktoj, formantaj piramidon apud 
+		ŝia vesto kun rozaj kaj grizaj strioj. Tenante ankoraŭ la ĉapelon super 
+		la kapo, Przyjemski senmoviĝis. La sulko sur lia frunto pliprofundiĝis 
+		kaj la lipoj kolere kuntiriĝis. Sed ĉi tio daŭris nur kelke da sekundoj, 
+		post kiuj la bela vizaĝo ree fariĝis serena, eĉ ekradiis de plezuro. 
+		Klaro neniam vidis lin tia. Sur ŝia vizaĝo paleco forigis nun la 
+		purpuron. Ŝiaj fingroj, tenantaj fadenon, malseka de ŝiaj larmoj, iom 
+		tremis. Przyjemski etendis la manon super la krado kaj diris ridetante:</p>
+
+		<p><q rend="- ">Antaŭ ĉio, vian manon, mi, petas&elipse;</q></p>
+
+		<p>Ŝi etendis ĝin al li. Ŝia malgranda mano, malglata, iom ruĝa kaj iom 
+		tremanta, restis momenton en la blanka kaj mola mano, kiu premis ĝin.</p>
+
+		<p><q rend="- ">Nun klarigu al mi, kial la korbo venis ĉi tien?</q></p>
+
+		<p>Ŝi levis la kapon kaj kuraĝe rigardante lin, respondis:</p>
+
+		<p><q rend="- ">Mi alportis ĝin, esperante renkonti vin ĉi tie. Volu meti la korbon 
+		trans la krado kaj sendi iun, por ke li prenu ĝin.</q></p>
+
+		<p>Kaj ŝi pene etendis al li la pezan korbon.</p>
+
+		<p>Silente, kun perfekta malvarma sango, malrapide Przyjemski faris ĉion 
+		laŭ ŝia diro: li prenis la korbon, metis ĝin sur la herbon trans la 
+		krado kaj, rigardante ŝin per okuloj plenaj de stranga brilo, diris:</p>
+
+		<p><q rend="- ">Bone. Nun kiam la ekzekuto jam estas finita, mi dezirus ekkoni la 
+		motivojn de la dekreto.</q></p>
+
+		<p>Ŝi vidis, ke li ne sentas sin ofendita, ke kontraŭe, malgraŭ la ŝajna 
+		ŝercemo, lia voĉo sonis pli amika, ol ordinare. Ŝi do respondis sen 
+		embaraso.</p>
+
+		<p><q rend="- ">Vere, mi ne scias klarigi tion al vi&elipse; sed ne eble estas&elipse; ni 
+		neniam, nek mia patro nek mi&elipse; Oni povas ne esti riĉa, tamen&elipse;</q></p>
+
+		<p><q rend="--">Sufiĉi al si,</q> li finis.</p>
+
+		<p>Longe li staris meditante, sed sen kolero; kontraŭe, la sulko sur lia 
+		frunto estis multe malpli profunda, ol ordinare. Ĝi preskaŭ malaperis.</p>
+
+		<p><q rend="- ">Kial do vi akceptas diversajn aferojn de la sinjorino&elipse; de la 
+		vidvino de la bestkuracisto?</q></p>
+
+		<p><q rend="--">Tio estas tute alia afero!</q> diris vive Klaro. <q rend='- '>Sinjorino 
+		Dutkiewicz amas nin, kaj ni ŝin amas! De tiuj, kiuj nin amas kaj kiujn 
+		ni amas, oni povas akcepti ĉion&elipse;</q></p>
+
+		<p>Post sekunda konsidero ŝi aldonis kun serioza mieno:</p>
+
+		<p><q rend="- ">Oni eĉ devas, ĉar alie tio signifus, ke ni opinias ilin fremdaj&elipse;</q></p>
+
+		<p>Przyjemski rigardis ŝin admire, kiel ĉielarkon; poste li demandis:</p>
+
+		<p><q rend="- ">Kaj de la fremdaj oni akceptas nenion?</q></p>
+
+		<p><q rend="- ">Ne!</q> ŝi respondis, sentime lin rigardante.</p>
+
+		<p><q rend="- ">Kaj mi estas fremda por vi, diru?</q></p>
+
+		<p><q rend="--">Jes,</q> ŝi flustris.</p>
+
+		<p>Momenton ankoraŭ li staris, apoginte sin al la krado, rigardante jam 
+		ne ŝin, sed ien malproksimen. Poste li rektiĝis, posteniĝis unu paŝon 
+		kaj levante la ĉapelon diris:</p>
+
+		<p><q rend="- ">Mi havos la honoron fari hodiaŭ vespere viziton al via patro!</q></p>
+
+		<p>Pasante malrapide en la ombra aleo, li pensis:</p>
+
+		<p><q rend="- "><foreign lang="fr">Voilà, où la fierté va se nicher!</foreign>
+		<q rend='""'>De tiuj, kiujn ni amas kaj kiuj 
+		nin amas, oni devas ĉion akcepti, ĉar ne akceptante ni montrus, ke ni 
+		opinias ilin fremdaj&elipse;</q> Tre delikata sento, tre delikata! Kaj kia sankta 
+		kredo al la amo! Ni amas, ili amas! <foreign lang="fr">Voilà, où la foi se niche! Foi de 
+		bûcheron!</foreign> Sed kia feliĉo estas diri ne ridante: <q rend='""'>Ni amas, ili amas&elipse;</q> Se 
+		mi povus nur unu fojon ankoraŭ en mia vivo diri: <q rend='""'>mi amas, ŝi amas min</q> 
+		kaj ne ekridi, mi kisus, mia feino, viajn piedetojn&elipse; en truaj ŝuoj.</q></p>
+
+		<p>Tre bone estis, ke Klaro ankoraŭ en la ĉeesto de Przyjemski ne batis 
+		la manplatojn de ĝojo kaj ne eksaltis. Veninte en la domon, ŝi faris 
+		tion radianta, ruĝa, spireganta.</p>
+
+		<p>Li do ne ofendiĝis; kontraŭe, li promesis viziti ŝian patron hodiaŭ&elipse; 
+		hodiaŭ! Kiel bona li estas, kiel bona! Ŝi komprenis la motivon de lia 
+		neatendita promeso&elipse; Kiam li koniĝos kun ŝia familio kaj komencos viziti 
+		ilin, li ĉesos esti fremda por ŝi. Li fariĝos intima konato; eble amiko. 
+		Ŝia koro estis plena de dankemo. Ŝi rememoris ĉiun vorton, kiun li 
+		diris, ĉiun movon, kiun li faris. Ekstreme amuzis ŝin la silenta kaj 
+		serioza maniero, per kiu, plenumante ŝian deziron, li prenis la korbon 
+		el ŝiaj manoj kaj metis ĝin sur la herbon trans la krado.</p>
+
+		<p>Ĉi tio estis tre ridinda: liaj movoj kaj gestoj, kvazaŭ li estus 
+		farinta ion solenan, kaj samtempe preskaŭ nevidebla rideto, eraranta 
+		sur liaj maldikaj, iom ŝercemaj lipoj. Belega estas lia buŝo, la okuloj 
+		kaj la frunto&elipse; Vere, ŝi ne sciis, kio estis plej bela. Eble la delikata 
+		profilo kun malkavaj brovoj, apartigitaj de la sulko plena de melankolio 
+		kaj saĝo&elipse; Ne, nek la profilo, nek la buŝo, nek la okuloj! Lia animo, ĝi 
+		sendube estis lia plej granda belaĵo! Lia nobla, alta kaj tiel malĝoja 
+		animo&elipse; Ankaŭ lia koro, kiu ne ekkoleris, ke ŝi ne akceptis la donacon, 
+		kiu, kontraŭe, ekdeziris proksimiĝi pli multe al ŝi&elipse;</p>
+
+		<p>Pensante pri ĉi tio, ŝi alkudris al la rando de la korsaĵo kiel neĝo 
+		blankan punteton kaj prenis el la komodo ledan zonon kun ŝtala buko.</p>
+
+		<p>Oni estis finantaj la tagmanĝon en la malgranda salono, kiu estis 
+		samtempe manĝoĉambro.</p>
+
+		<p>La plej grandan parton de la ĉambro okupis kameno el verdaj kaheloj; 
+		kelkaj dikaj traboj subtenis malaltan plafonon; de la ruĝe kolorita 
+		planko en multaj lokoj malaperis la koloraĵo; blua papero ruĝe punktita 
+		tapetis la murojn.</p>
+
+		<p>Inter du fenestroj, rigardantaj la verdan fazeolan kurtenon, Teofilo 
+		Wygrycz sidis sur mallarĝa kanapo kun fraksenaj brakoj, ĉe tablo kovrita 
+		per vakstolo, anstataŭanta tukon. Kelkaj teleroj kun la restoj de la 
+		manĝaĵo, karafo da akvo, salujo, vitra krenujo okupis la tablon. Apud la 
+		kontraŭa muro, sur la malnova komodo, flanke de malgranda lampo staris 
+		granda rezeda tufo en glaso. La du infanoj sidis ĉe ambaŭ flankoj de la 
+		patro; Klaro alportis el la kuirejo kelke da piroj sur telero kaj 
+		starante komencis senŝeligi unu.</p>
+
+		<p><q rend="- ">Paĉjo, mi aĉetis por vi hodiaŭ bonegajn pirojn. Franjo kaj Staĉjo 
+		ankaŭ ricevos po unu.</q></p>
+
+		<p><q rend="--">Ĉu ili estas karaj?</q> demandis Wygrycz.</p>
+
+		<p>La vizaĝo de la maljuna oficisto estis longa kaj osta, ĝia koloro 
+		estis flava. La duone acida, duone apatia mieno montris homon ĥronike 
+		malsanan kaj plenumantan neamatan oficon. Nur la okuloj, same 
+		bierkoloraj kiel la okuloj de Klaro, kun longaj okulharoj, rigardis 
+		iafoje sub la sulkoplena frunto inteligente kaj malsevere.</p>
+
+		<p>La dekkvinjara knabineto, maldika, anemia blondulino, kies trajtoj 
+		similis la longan vizaĝon de la patro, ekkriis vive:</p>
+
+		<p><q rend="- ">Kial vi tiel elegante vestis vin, Klaro?</q></p>
+
+		<p>Klaro havis la ĉiutagan perkalan striitan veston; ŝi nur metis freŝan 
+		pinton ĉirkaŭ la kolo kaj la zonon kun ŝtala buko. Ŝi eĉ ne estis 
+		korekte kombita, ĉar ŝiaj malobeemaj haroj ne volis glate kuŝi kaj 
+		liberiĝis el la katenoj de la duoblaj pingloj. La nigraj bukloj flirtis 
+		senĝene sur la frunto kaj nuko. Roza levkojo ornamis la malobeulojn.</p>
+
+		<p>Aŭdinte la demandon de la fratino, Klaro kliniĝis por levi de la 
+		planko piran ŝelon, kaj rektiĝinte respondis trankvile:</p>
+
+		<p><q rend="- ">Elegante! Tute ne, mi nur metis freŝan pinton, ĉar la antaŭa estis 
+		jam malpura.</q></p>
+
+		<p><q rend="--">Vi metis ankaŭ vian novan zonon!</q> daŭrigis Franjo incitete.</p>
+
+		<p>Ne respondante al la malpacema fratino, Klaro metis antaŭ la patro la 
+		senŝeligitan piron kaj tranĉilon kun ligna tenilo.</p>
+
+		<p><q rend="--">Ni hodiaŭ havos gaston, paĉjo,</q> ŝi diris.</p>
+
+		<p><q rend="--">Gaston?</q> ekmiris la maljunulo, <q rend='- '>kiun? Eble sinjorino Dutkiewicz?&elipse; 
+		sed ŝi ne estas gasto.</q></p>
+
+		<p>Klaro, senŝeligante duan piron, daŭrigis kviete:</p>
+
+		<p><q rend="- ">Kelke da fojoj mi renkontis en la ĝardeno sinjoron Przyjemski, la 
+		sekretarion de princo Oskaro, kaj ni longe interparolis. Hodiaŭ li diris 
+		al mi, ke li vizitos vin.</q></p>
+
+		<p>Wygrycz faris grimacon.</p>
+
+		<p><q rend="- ">Tre bezonas mi la viziton! Li malhelpos min dormi post la tagmanĝo&elipse; 
+		mi estas laca, mi ne povas paroli&elipse;</q></p>
+
+		<p>Li parolis per malĝentila tono; efektive, li sentis sin ĉiam laca kaj 
+		malkutimis la fremdajn vizaĝojn.</p>
+
+		<p>Franjo, spirito atakema, ekparolis vive per akra voĉo:</p>
+
+		<p><q rend="- ">Vi do, Klaro, koniĝas en la ĝardeno kun junaj viroj? Kiamaniere?&elipse;</q></p>
+
+		<p><q rend="--">Silentu kaj ne ĉikanu la fratinon!</q> riproĉis Wygrycz Franjon, kiu 
+		tuj eksilentis.</p>
+
+		<p>Tiam la juna knabo en kiteleto kun leda zono komencis rapide babili.	</p>
+
+		<p><q rend="- ">Mi, mi scias, kiu estas sinjoro Przyjemski. Mia kolego, la filo de 
+		la ĝardenisto de la princo, rakontis al mi, ke kun la princo venis lia 
+		sekretario, kiun li tre amas, kun kiu li ludas fortepianon kaj ian alian 
+		instrumenton&elipse; La nomo de la sekretario estas Przyjemski, li estas tre 
+		gaja, ĉiufoje kiam li estis en la ĝardeno, li ludis kun la infanoj.</q></p>
+
+		<p><q rend="--">Silentu, Staĉjo!</q> diris Franjo, <q rend='- '>la kavaliro de Klaro venas.</q></p>
+
+		<p>Oni aŭdis malrapidajn, egalajn paŝojn malantaŭ la fazeolo; baldaŭ 
+		malfermiĝis la vestibla pordo, tiel malalta, ke la venanto devis klini 
+		la kapon. Przyjemski aperis kaj per unu rigardo ĉirkaŭprenis ĉion: la 
+		malaltan plafonon, la verdan kamenon, la ruĝajn punktojn sur la blue 
+		tapetitaj muroj, la restaĵojn de kaĉo sur la teleroj, la kvar personojn 
+		ĉe la tablo, kovrita per vakstolo, la siringan tufon sur la komodo.</p>
+
+		<p>Klaro kun roza nebulo sur la vangoj diris sufiĉe malestime al la 
+		patro:</p>
+
+		<p><q rend="- ">Paĉjo, sinjoro Julio Przyjemski, mia konato.</q></p>
+
+		<p>Kaj al la gasto:</p>
+
+		<p><q rend="- ">Mia patro.</q></p>
+
+		<p>Wygrycz leviĝis kaj, etendante al la vizitanto sian longan, ostan 
+		manon, diris:</p>
+
+		<p><q rend="- ">Tio estas honoro por mi&elipse; Sidiĝu, mi tre petas vin&elipse;</q></p>
+
+		<p>La ruĝo jam forlasis la vizaĝon de Klaro. Trankvile, kun delikata 
+		rideto, ŝi deprenis la telerojn de la tablo kaj portante la piramidon en 
+		la kuirejon faris al la fratino signon per la rigardo, por ke ŝi 
+		forprenu la karafon kaj la vakstolon.</p>
+
+		<p>Kiam la vakstolo estis forigita, oni vidis fraksenan tablon, kovritan 
+		per kotona retotuko. Staĉjo metis sur ĝin la glason kun rezedo.</p>
+
+		<p>Post kelkaj minutoj Klaro revenis el la kuirejo. Ĝoje ŝi rimarkis, ke 
+		ŝia patro vive parolas kun la gasto. Li estas vera sorĉisto, se li 
+		sukcesis tiel rapide forigi de la vizaĝo de la laca maljunulo maldolĉon 
+		kaj apation!</p>
+
+		<p>Przyjemski demandis lin pri la urbo, kie la maljuna oficisto pasigis 
+		la tutan vivon, kaj tiamaniere tuj trovis aferon bone al li konatan kaj 
+		ne indiferentan. Wygrycz parolis detale pri la loĝantaro de la urbo, pri 
+		ĝiaj klasoj, pri la materiala stato de ĉiu el ili. En la komenco li 
+		parolis malrapide kaj malfacile, kiel homo kiu malkutimis interparoli, 
+		sed post kelkaj minutoj la vortoj ekfluis pli libere; en liaj malhelaj 
+		okuloj ekbrilis inteligenteco kaj la ostaj manoj akompanis la frazojn 
+		per energiaj gestoj. Klariginte al la gasto la interrilatojn de la 
+		loĝantoj, li diris:</p>
+
+		<p><q rend="- ">Malfeliĉo supre, malfeliĉo malsupre, malfeliĉo en la mezo. Multo 
+		mankas ĉie kaj al ĉiu. Sed vi pardonu min, se mi diras al vi, ke iom 
+		kulpaj pri ĉi tio estas la homoj riĉaj kaj kredeble inteligentaj, kiel 
+		princo Oskaro&elipse;</q></p>
+
+		<p>Li interrompis, ekŝanceliĝis.</p>
+
+		<p><q rend="- ">Pardonu, sinjoro, eble mi ne devus diri tion al la sekretario kaj 
+		amiko de la princo&elipse;</q></p>
+
+		<p><q rend="--">Kontraŭe</q> interrompis lin vive Przyjemski, <q rend='- '>kontraŭe! Mi estas 
+		amiko de la princo kaj tial tre interesas min la ĝenerala opinio pri li. 
+		Volu do klarigi al mi, pri kio li estas kulpa?</q></p>
+
+		<p>Wygrycz vive moviĝis sur la mallarĝa kanapo.</p>
+
+		<p><q rend="--">Pri kio?</q> li ekkriis. <q rend='- '>Sinjoro, tio estas klara kiel la tago! La 
+		plej granda parto de la posedaĵoj de la princo estas ĉi tie; en la urbo 
+		li havas palacon, konstruitan de lia avo aŭ praavo&elipse; Li estas tiel 
+		multepova, li havas tian nomon, ke se li vivus inter ni, se li konus 
+		nin, se li studus la ĉi tieajn aferojn kaj &dash; homojn, ĉiu lia vorto estus 
+		helpo, lumo, ĉiu faro estus beno&elipse; Mi petas vian pardonon, sinjoro, sed 
+		vi mem postulis, ke mi parolu&elipse; La princo senĉese vojaĝas&elipse;</q></p>
+
+		<p>Przyjemski mallaŭte kontraŭparolis:</p>
+
+		<p><q rend="- ">Nur de kvin jaroj li ne estis ĉi tie. Antaŭe li loĝis sufiĉe longe 
+		en la ĉi tieaj bienoj, en la palaco&elipse;</q></p>
+
+		<p>Wygrycz, disetendante la manojn, ekkriis&elipse;</p>
+
+		<p><q rend="- ">Kvazaŭ li tute ne estus&elipse; nenia diferenco!&elipse;</q></p>
+
+		<p>Liaj okuloj brilis, sur la mallarĝaj lipoj ironio anstataŭis la 
+		maldolĉan grimacon. En liaj vortoj estis sentebla ia protesto kontraŭ 
+		ĉio suferita, eble longe kaŝata malamo kontraŭ la aristokrataro, kiu 
+		fine eksplodis, &dash; malamo bazita sur seriozaj konsideroj.</p>
+
+		<p>Przyjemski sidis sur fraksena seĝo, la kapo iom klinita, la ĉapelo en 
+		la mallevita mano. Lia eleganta kaj gracia silueto, lia profilo kun 
+		delikataj brovoj kaj kun maldikaj lipoj ombritaj de ore blondaj lipharoj 
+		mirinde kontrastis la bluan ĉambron kun la verda kameno. Mallevinte la 
+		okulojn li komencis malrapide paroli:</p>
+
+		<p><q rend="- ">Permesu al mi, sinjoro, iom defendi la princon&elipse; nur iom, ĉar ankaŭ 
+		mi apartenas al tiuj, kiuj tute ne kredas la perfektecon de iu ajn homo&elipse;
+		Mi nur volus diri, ke la princo ne estas escepto. Se li havas mankojn, 
+		se li ne plenumas iajn devojn, k. t. p. li ne estas escepto. Ĉiu homo 
+		estas kreaĵo malnobla, egoista, ŝanĝema, &dash; li flirtas sur diversaj 
+		specoj de malbono, kiel papilio sur la floroj.</q></p>
+
+		<p>Wygrycz malpacience moviĝis sur la kanapo</p>
+
+		<p><q rend="--">Mi petas vian pardonon,</q> eksplodis li fine, <q rend='- '>ne ĉiu! ne ĉiu! 
+		Ekzistas en la mondo honestaj homoj, kiuj ne flirtas sur la pekoj, kiel 
+		papilio sur la floroj. Ni ne bezonas, sinjoro, papiliojn! La tuta 
+		malbono sur la tero devenas de tiaj papilioj!&elipse; Multon oni postulas de 
+		personoj, kiuj ricevis multon! La princo multon ricevis de Dio, la homoj 
+		do kaj Dio havas rajton postuli multon de li&elipse; Pardonu, sinjoro, ke mi 
+		parolas tiamaniere pri via estro kaj amiko&elipse; Sed kiam homo longe 
+		silentis, li fine ne povas sin deteni kaj diras ĉion, kio amasiĝis en 
+		li. Mi ne volas kalumnii la princon&elipse; eble li estas la plej bona homo, 
+		sed mi demandas vin: kion li faras?</q></p>
+
+		<p>Li disetendis la ostajn, iom tremantajn manojn kaj kun brilantaj 
+		okuloj daŭrigis:</p>
+
+		<p><q rend="- ">Por kio la princo uzas sian riĉaĵon, saĝon, multepovon? Por kiu? 
+		Kiel? Kion li faras, kion?</q></p>
+
+		<p>Kaj li demande, insiste rigardis Przyjemski'n.</p>
+
+		<p>La lasta levis la okulojn kaj respondis malrapide:</p>
+
+		<p><q rend="- ">Nenion, tute nenion!</q></p>
+
+		<p>Aŭdinte la konfirmon de sia praveco, Wygrycz kvietiĝis. Li levis sian 
+		longan flavan fingron.</p>
+
+		<p><q rend="- ">Tamen la princo estas kristano, li naskiĝis en tiu ĉi lando kaj 
+		havas ĉi tie bienojn&elipse;</q></p>
+
+		<p>Klaro, kiu sidis ĉe la fenestro kaj ornamis blankan kufon per pinto, 
+		levis la kapon kaj duonvoĉe interrompis la patron:</p>
+
+		<p><q rend="- ">Kara patro, ŝajnas al mi, ke ni ne devas tiel severe juĝi homojn 
+		tiel diferencajn de ni, tute diferencajn&elipse;</q></p>
+
+		<p><q rend="- ">Diferencajn? Kial diferencajn? Ĉu vi perdis la saĝon? La sama Dio 
+		kreis ilin, la sama tero nin portas&elipse; ni ĉiuj pekas, suferas kaj mortas&elipse;
+		Jen estas granda, plena egaleco&elipse;</q></p>
+
+		<p><q rend="--">Vi estas prava, sinjoro&elipse;</q> konsentis Przyjemski <q rend='- '>vi diris 
+		profundan veron&elipse; Erari, suferi kaj morti ĉiuj devas kaj ĉi tio estas 
+		granda egaleco&elipse; sed mi estus tre danka al fraŭlino Klaro, se ŝi 
+		daŭrigus la defendon de mia amiko.</q></p>
+
+		<p>Li rigardis ŝin per tiel radiantaj okuloj, ke ŝi ridetante, tute 
+		libere finis:</p>
+
+		<p><q rend="- ">Ŝajnas al mi, ke la personoj tiel riĉaj, tiel multepovaj, kiel la 
+		princo, vivantaj tute alie ol ni, havas aliajn opiniojn, bezonojn kaj 
+		kutimojn; tio, kion ni scias bone, estas ne konata de ili; tio, kio 
+		estas por ni devo, al ili ŝajnas superflua, aŭ tro malfacila. Eble la 
+		princo estas tre bona, sed ne scias vivi, kiel li devus laŭ nia opinio&elipse; 
+		Eble la homoj seniluziigis lin aŭ malbonigis, flatante kaj ŝajnigante 
+		diversajn aferojn pro profitemo&elipse;</q></p>
+
+		<p>La vizaĝo de Przyjemski fariĝis pli kaj pli ravoplena; li rigardis la 
+		knabinon, kiel ĉielarkon. Wygrycz, kontraŭe, aŭskultis la filinon 
+		malpacience. Kiam ŝi finis, li levis la ŝultrojn:</p>
+
+		<p><q rend="- ">Virina rezonado, sinjoro! La virinoj ĉion scias klarigi: <q rend='""'>Ĉi tio 
+		kaj tio, tiel kaj alie!</q> Kutiminte dozi la kaĉon, ili ĉie vidas 
+		kaĉerojn. Mi komprenas nur unu leĝon kaj juĝon: aŭ reĝo aŭ vagulo! Aŭ la 
+		homo obeas la dian leĝon, servas al sia proksimulo kaj al ĉiu bona 
+		afero, aŭ li ne faras tion. En la unua okazo, eĉ se li estas pekulo, li 
+		ion valoras; en la dua li ne valoras eĉ la ŝnuron por lin pendigi&elipse; Mi 
+		finis.</q></p>
+
+		<p>Przyjemski respondis post momento:</p>
+
+		<p><q rend="- ">Via juĝo estas severa kaj absoluta, sed fraŭlino Klaro stariĝis 
+		inter ni, kiel anĝelo dolĉa kaj paciga, ĉar ŝi estas anĝelo.</q></p>
+
+		<p>Kaj tuj, lasinte al neniu tempon por respondo, li demandis 
+		Wygrycz'on.</p>
+
+		<p><q rend="- ">Ĉu vi ĉiam plenumis la nunan oficon, aŭ eble, kiel ŝajnas al mi, vi 
+		havis alian okupon?</q></p>
+
+		<p>Wygrycz faris maldolĉan grimacon.</p>
+
+		<p><q rend="- ">Ĉiam, sinjoro, ĉiam, de mia dekoka jaro mi laboras en oficejoj. Mi 
+		estas filo de metiisto, mia patro posedis ĉi tie dometon, kie li 
+		laboris. Li edukis min en lernejo, mi finis kvinklasan kurson kaj 
+		fariĝis oficisto. Sed kial vi demandas min pri ĉi tio?</q></p>
+
+		<p>Przyjemski pripensis momenton kaj diris kun delikata saluto:</p>
+
+		<p><q rend="- ">Mi malkaŝe konfesos al vi, ke mi trovis pensojn kaj parolmanieron&elipse; 
+		pli altajn&elipse;</q></p>
+
+		<p><q rend="--">Ol vi esperis!</q> finis Wygrycz kun ironia rideto. <q rend='- '>Supozeble en la 
+		domo de via estro kaj amiko vi ne ofte renkontis malriĉajn homojn. La 
+		malriĉeco, sinjoro, ne ĉiam estas sinonimo de malsaĝeco&elipse; Ha, ha, ha!&elipse;</q></p>
+
+		<p>Wygrycz ŝajnigis sarkasman ridon, sed oni povis rimarki, ke la opinio 
+		de la gasto flatis kaj ĝojigis lin.</p>
+
+		<p><q rend="--">Tamen,</q> li daŭrigis, <q rend='- '>koncerne min, en mia vivo ekzistis favoraj 
+		cirkonstancoj. Mi edziĝis kun virino instruita kaj plej bona, plej bona! 
+		Ŝi estis instruistino, kiam ni ekamis unu la alian. Ŝi elektis min, 
+		kvankam ŝi povis edziniĝi kun pli riĉa homo. Sed ŝi ne bedaŭris tion. Ni 
+		estis feliĉaj. Ŝi estis pli instruita ol mi, sed mi estis sufiĉe 
+		prudenta por profiti ŝian spiritan superecon. Post la ofica laboro, dum 
+		la liberaj horoj ni legis kune, aŭ ŝi ludis por mi fortepianon, ĉar ŝi 
+		havis muzikan talenton&elipse; Mi posedas, sinjoro, bonajn, sanktajn 
+		rememoraĵojn de mia vivo, kaj en la alia mondo min atendas mia 
+		sanktulino, kun kiu mi dezirus ree esti kiel eble plej baldaŭ, se ŝi ne 
+		estus lasinta al mi la infanojn. Nur por ili mi vivas. Mi ŝuldas multon, 
+		sinjoro, al ĉi tiu virino, kun kiu mi vivis kune dudek tri jarojn kiel 
+		dudek tri tagojn&elipse; Ankaŭ ŝi, sur sia morta lito, tute konscia, dankis 
+		min, antaŭ ol ŝi spiris la lastan spiron&elipse; Ni disiĝis en paco kaj amo, 
+		same ni renkontos unu la alian antaŭ Dio&elipse;</q></p>
+
+		<p>Per la fino de sia osta fingro li viŝis la malsekajn palpebrojn kaj 
+		eksilentis.</p>
+
+		<p>Przyjemski ankaŭ silentis, mallevinte la kapon. Post momento li diris 
+		medite:</p>
+
+		<p><q rend="- ">Ekzistas do sur la tero tiaj poemoj &dash; tiaj unuiĝoj kaj rememoraĵoj&elipse;</q></p>
+
+		<p>Wygrycz kuntiris ironie la lipojn.</p>
+
+		<p><q rend="- ">Se vi ne scias tion de via propra sperto, se vi eĉ ne vidis tiajn 
+		poemojn, tiam&elipse; pardonu mian malkaŝemon: vi estas tre kompatinda&elipse;</q></p>
+
+		<p>Przyjemski levis la kapon per subita movo kaj ekrigardis la oficiston 
+		kun mirego, kiu tuj malaperis.</p>
+
+		<p><q rend="--">Jes, jes&elipse;</q> li diris, <q rend='- '>malriĉeco kaj riĉeco havas tute malsaman 
+		signifon&elipse; tute malsaman&elipse;</q></p>
+
+		<p>Li turnis sin al Klaro, kliniĝinta al la muslino kuŝanta sur ŝiaj 
+		genuoj.</p>
+
+		<p><q rend="- ">Mi ankoraŭ ne redonas al vi la libron, kiun vi pruntis al mi, mi eĉ 
+		petas alian de la sama speco, se vi posedas ian&elipse;</q></p>
+
+		<p><q rend="--">Ĉu vi deziras poezion?</q> ŝi demandis, levante la kapon.</p>
+
+		<p><q rend="- ">Jes, ĉar mi konas ĝin malmulte kaj supraĵe&elipse;</q></p>
+
+		<p>Wygrycz intermetis:</p>
+
+		<p><q rend="- ">Mia edzino lasis al la filinoj malgrandan bibliotekon, kiu enhavas 
+		ankaŭ verkojn de poezio.</q></p>
+
+		<p>Kaj li aldonis afable:</p>
+
+		<p><q rend="- ">Klaro, montru al la sinjoro nian bibliotekon, eble li elektos ion&elipse;</q></p>
+
+		<p><q rend="--">Ĝi estas en mia ĉambro</q> diris Klaro leviĝante.</p>
+
+		<p>Dio! ĉu eblas nomi ĉambro ĉi tiun kaĝeton? Ree verda kameno, unu 
+		fenestro, du dikaj traboj super la kapo, lito, tablo, du seĝoj kaj ruĝa 
+		ŝranko vitrita! Kia ĉambro, tia biblioteko. Kelke da bretoj, ducent 
+		volumoj en grizaj, malnovaj bindaĵoj. Przyjemski staris tuj malantaŭ 
+		Klaro, kiu tuŝante ĉiun libron per la fingro, diris la nomon de la 
+		aŭtoro kaj titolon de la verko.</p>
+
+		<p><q rend="- "><q rend='""'>En Svisujo.</q> Ĉu vi deziras ĝin?</q></p>
+
+		<p><q rend="- ">Bone. Kiom da fojoj mi estis en tiu lando!&elipse; Mi konas la poemon; 
+		ŝajnas al mi, ke mi ĝin konas, sed eble ne&elipse;</q></p>
+
+		<p>Kiam ŝi etendis al li la libron en eluzita bindaĵo, kredeble legitan 
+		multe, multe da fojoj, li momenton tenis ŝian manon en sia kaj flustris:</p>
+
+		<p><q rend="- ">Dankon, ke vi defendis mian amikon&elipse; Dankon, ke vi ekzistas&elipse;</q></p>
+
+		<p>Ili revenis en la manĝoĉambron. Przyjemski ekstaris kun la ĉapelo en 
+		la mano antaŭ la oficisto. Ŝajnis, ke li volas diri ion, sed li 
+		ŝanceliĝas kaj pripensas.</p>
+
+		<p><q rend="--">Mi dezirus</q> li diris post momento, <q rend='- '>demandi kaj peti vin pri io 
+		kaj mi anticipe petas vian pardonon, se mi &dash; estas maldiskreta&elipse;</q></p>
+
+		<p><q rend="--">Mi petas vin</q> diris Wygrycz, <q rend='- '>parolu malkaŝe. Ni ja estas 
+		najbaroj, kaj se mi povas esti utila al vi&elipse;</q></p>
+
+		<p><q rend="--">Kontraŭe</q> interrompis Przyjemski, <q rend='- '>mi volis proponi al vi miajn 
+		servojn&elipse;</q></p>
+
+		<p>Li apogis pli forte la manon al la tablo kaj daŭrigis per pli mola, 
+		velura voĉo:</p>
+
+		<p><q rend="- ">Jena estas la afero: vi ne fartas bone, vi havas du junajn 
+		infanojn, kiuj bezonas ankoraŭ multon, multon, kaj viaj rimedoj por 
+		ekzistado estas iom&elipse; nesufiĉaj. Aliflanke mi havas influon, grandan 
+		influon al princo Oskaro, tre multepova, tre riĉa homo&elipse; Mi estas certa, 
+		ke kiam mi klarigos al li la aferon, la princo volonte, plezure faros 
+		por vi ĉion eblan&elipse; Li povos faciligi la edukadon de ĉi tiu juna knabo 
+		kaj zorgi pri lia estonteco&elipse; En siaj bienoj li facile trovos por vi 
+		oficon, malpli lacigan ol la via kaj pli profitan&elipse; Se vi permesus al mi 
+		paroli pri ĉi tio kun la princo&elipse;</q></p>
+
+		<p>Li klinis la kapon, li atendis. Wygrycz aŭskultis en la komenco 
+		scivole, poste li mallevis la kapon. Kiam Przyjemski ĉesis paroli, li 
+		levis la okulojn, ektusetis kaj respondis:</p>
+
+		<p><q rend="- ">Mi tre dankas vin por viaj bonaj intencoj, sed mi ne volas profiti 
+		la favoron de la princo&elipse; ne, mi ne volas&elipse;</q></p>
+
+		<p><q rend="--">Kial?</q> Przyjemski demandis.</p>
+
+		<p><q rend="- ">Ĉar oni devas kutimi akcepti favorojn de multepovuloj&elipse;</q></p>
+
+		<p>Mi ne kutimis. Ĉu mia ofico estis profita, ĉu ne profita, mi ĉiam 
+		estis mia servisto kaj mia estro.</p>
+
+		<p>Przyjemski levis la kapon. Kolera flamo ekbrilis en liaj bluaj 
+		okuloj. Li komencis paroli, pli forte ol ordinare skandante la vortojn:	</p>
+
+		<p><q rend="- ">Vi vidas!&elipse; Vi mem vidas!&elipse; Vi riproĉas al la princo, ke li estas 
+		senutila por la aliaj, kaj kiam aperas okazo esti utila, oni ne akceptas 
+		liajn servojn&elipse;</q></p>
+
+		<p><q rend="--">Certe, sinjoro, certe!</q> respondis Wygrycz, kies okuloj ankaŭ 
+		brilis. <q rend='- '>Se mi scius, ke la princo helpas min kiel frato fraton, kiel 
+		homo pli favorata de Dio alian malpli favoratan sed egalan al li, mi 
+		akceptus, sendube mi akceptus kaj estus danka&elipse; Sed la princo ĵetus al 
+		mi sian bonfaron kiel oston al hundo kaj mi, kvankam ne riĉa, mi ne 
+		levas la ostojn de la tero&elipse;</q></p>
+
+		<p>Delikata ruĝo aperis sur la vangoj de Przyjemski.</p>
+
+		<p><q rend="--">Tio estas antaŭjuĝo</q> li diris, <q rend='- '>fanatismo&elipse; la princo ne estas 
+		tia, kia vi lin opinias&elipse;</q></p>
+
+		<p>Wygrycz ree disetendis la manojn.</p>
+
+		<p><q rend="- ">Mi ne scias, sinjoro, mi ne scias! Neniu ĉi tie povas tion scii, 
+		ĉar neniu konas la princon!</q></p>
+
+		<p><q rend="--">Ĉi tio estas la kerno de nia disputo</q> konkludis Przyjemski kaj 
+		etendis al la maljunulo sian blankan, longan manon.</p>
+
+		<p><q rend="- ">Mi petas vian permeson iam reveni&elipse;</q></p>
+
+		<p><q rend="--">Mi petas, mi petas vin</q> konsentis tre afable Wygrycz.</p>
+
+		<p><q rend="- ">Ĉu vi intencas longe resti ĉi tie kun la princo?</q></p>
+
+		<p><q rend="- ">Ne longe. Ni baldaŭ forveturos en la bienojn de la princo, sed ni 
+		eble revenos kaj pasigos ĉi tie la tutan vintron&elipse;</q></p>
+
+		<p>Dirante la lastajn vortojn, li rigardis Klaron; ŝiaj okuloj estis 
+		turnitaj ne al li, sed al la patro. Tuj kiam la pordo fermiĝis post la 
+		gasto, ŝi ĵetis sin al la kolo de la maljunulo.</p>
+
+		<p><q rend="- ">Paĉjo mia amata, mia kara, mia ora, kiel bone vi faris!</q></p>
+
+		<p>Ŝi kisis liajn manojn kaj vangojn. Wygrycz turnis for la kapon, 
+		grimacante.</p>
+
+		<p><q rend="- ">Sufiĉe&elipse; donu al mi la noktan surtuton kaj la pantoflojn. Mi 
+		kuŝiĝos&elipse; la vizito lacigis min&elipse;</q></p>
+
+		<p>Klaro kuris por la postulitaj aferoj kaj en la pordo ŝi aŭdis la 
+		akran voĉon de la fratino:</p>
+
+		<p><q rend="- ">Vi scias paĉjo, ke sinjoro Przyjemski enamiĝis? Ĉu vi rimarkis, 
+		kiamaniere li diris: <q rend='""'>Ĉar fraŭlino Klaro estas anĝelo</q> Kaj kiel li ŝin 
+		rigardis!</q></p>
+
+		<p><q rend="--">En via aĝo oni ne konkludas pri tiaj aferoj&elipse;</q> diris severe la 
+		patro&elipse;</p>
+
+		<p><q rend="--">Mi ne estas plu infano</q> respondis fiere Franjo, <q rend='- '>kaj se Klaro 
+		amindumas junajn virojn, mi povas almenaŭ scii, ke ŝi faras tion&elipse;</q></p>
+
+		<p>Klaro donis al la patro la surtuton per tremantaj manoj.</p>
+
+		<p>Wygrycz sin turnis al Franjo:</p>
+
+		<p><q rend="- ">Haltigu vian langon kaj ĉesu turmenti vian fratinon. Petu Dion, ke 
+		vi ŝin similu. Prava estis la sinjoro, kiam li nomis ŝin anĝelo.</q></p>
+
+		<p>Li eliris, frapante per la pantofloj.</p>
+
+		<p>Franjo metis tukon sur la kapon kaj kuris en la kudrejon. Klaro 
+		alvokis la fraton.</p>
+
+		<p><q rend="- ">Alportu la kajeron, ni ripetos vian aritmetikan lecionon.</q></p>
+
+		<p>La knabo, bela kaj rondvanga, kun vivplenaj okuloj, ĉirkaŭprenis ŝin 
+		kaj komencis kolerete:</p>
+
+		<p><q rend="- ">Malbona estas Franjo! Ŝi ĉiam incitetas kaj ĉikanas vin!</q></p>
+
+		<p>Klaro, karesante la frunton kaj la harojn de la knabo, respondis:</p>
+
+		<p><q rend="- ">Ne diru tion, ŝi havas bonan koron kaj amas nin ĉiujn; ŝi nur estas 
+		tro viva, ni devas pardoni tion al ŝi&elipse;</q></p>
+
+		<p>Premante ŝin en siaj brakoj, la knabo daŭrigis:</p>
+
+		<p><q rend="- ">Vi estas pli bona, pli bona&elipse; vi estas patrinjo de mi, de Franjo, 
+		de paĉjo, de ni ĉiuj!&elipse;</q></p>
+
+		<p>Klaro ekridetis kaj dufoje kisis la ruĝvangan knabon.</p>
+
+	      </div>
+<div type="chapter" rend="doc" id="iv">
+
+     <head>Ĉaptiro IV</head>		
+
+		<p>En la sekvinta tago, kiam Wygrycz en nokta surtuto kaj pantofloj 
+		faris sian sieston, Franjo estis ĉe la kudrejo kaj Klaro kun la frato 
+		sidis ĉe libroj kaj kajeroj, iu frapis delikate la pordon. Staĉjo salte 
+		leviĝis de la seĝo kaj malfermis la pordon; Klaro, levante la okulojn de 
+		la kajero, ruĝiĝis purpure.</p>
+
+		<p><q rend="--">Eĉ se mi estus trudema, ĉi tiu rolo estas malagrabla kaj ridinda</q> 
+		komencis Przyjemski jam en la pordo, <q rend='- '>mi venas ion proponi al vi. Sed 
+		antaŭe, bonan tagon! aŭ pli ĝuste: bonan vesperon! kaj demando: kial vi 
+		ne estis hodiaŭ en via laŭbo?</q></p>
+
+		<p><q rend="- ">Mi ne havis tempon; mi estis ĉe sinjorino Dutkiewicz, prenis de ŝi 
+		kufojn kaj petis ŝian konsilon pri mastruma afero.</q></p>
+
+		<p><q rend="- ">Ah! ĉi tiu sinjorino Dutkiewicz!&elipse; Kiom da tempo ŝi al vi okupas, 
+		kiom da ĉagreno ŝi kaŭzas al mi!&elipse;</q></p>
+
+		<p><q rend="- ">Al vi? ĉagrenon?</q></p>
+
+		<p><q rend="- ">Jes, jam la duan fojon mi malesperis, ne trovinte vin en la laŭbo 
+		en la kutima horo.</q></p>
+
+		<p>Ili interŝanĝis vortojn kaj senĉese rigardis sin reciproke, kvazaŭ 
+		iliaj rigardoj ne povus forlasi unu la alian.</p>
+
+		<p><q rend="- ">Sidiĝu, sinjoro, mi petas vin.</q></p>
+
+		<p><q rend="- ">Mi tute ne intencas sidiĝi kaj mi venis, por ke vi ankaŭ ne sidu ĉi 
+		tie. Rigardu.</q></p>
+
+		<p>Li montris la libron pruntitan hieraŭ, kiun li ĵetis en la ĉapelon, 
+		kiam li venis en la ĉambron.</p>
+
+		<p><q rend="- ">Jen estas mia propono: Ni iru en la laŭbon kaj ni legu kune <q rend='""'>En 
+		Svisujo</q> Prenu vian laboraĵon, vi kudros kiam mi voĉe legos. Ĉu vi 
+		konsentas?</q></p>
+
+		<p><q rend="- ">Ah, tio estus rava!</q></p>
+
+		<p>Sed ŝi ekrigardis Staĉjon.</p>
+
+		<p><q rend="- ">Mi devas ripeti la lecionojn kun li&elipse;</q></p>
+
+		<p>La knabo, kiu scivole aŭskultis la interparoladon, ĉirkaŭprenis ŝin 
+		kaj komencis peti:</p>
+
+		<p><q rend="- ">Iru, Klaro, mia kara, mia ora, iru, se vi volas&elipse; Mi lernos ĉion. 
+		Granda afero la geografio! Mi lernos parkere kaj vespere mi ripetos al 
+		vi ĉion. Vi vidos, mi scios ĝin, kiel Patro nia&elipse;</q></p>
+
+		<p><q rend="- ">Certe, Staĉjo?</q></p>
+
+		<p><q rend="- ">Certe! Kiel mi amas paĉjon! Kiel mi amas vin!</q></p>
+
+		<p>Ĝojo ekbrilis sur ŝia vizaĝo, tamen ŝi flustris ŝanceliĝante:</p>
+
+		<p><q rend="- ">Sed la temaŝino?</q></p>
+
+		<p><q rend="--">Mi boligos! Granda afero la temaŝino!</q> kriis Staĉjo kun fervoro.
+		</p>
+
+		<p><q rend="- ">Kaj kiam la patro vekiĝos, vi alvokos min?</q></p>
+
+		<p><q rend="- ">Mi alvokos! Granda afero alvoki! Kaj kiam Franjo revenos, mi ankaŭ 
+		vokos, por ke ŝi ne vidu vin kun la sinjoro, ĉar se ŝi vidos, ŝi ree 
+		priridos vin.</q></p>
+
+		<p>Klaro fermis al li la buŝon per kiso. Post du minutoj ŝi iris kun 
+		Przyjemski tra la ĝardeno, tenante en la mano la korbon plena de muslino 
+		kaj pintoj.</p>
+
+		<p><q rend="--">Vi havas ĉarman fraton</q> diris Przyjemski. <q rend='- '>Mi volus kisi lin pro 
+		tio, ke li liberigis vin de la&elipse; servado. Ĉar vi estas servistino de via 
+		tuta familio&elipse; sed kion diris la kara infano? Se via fratino vidos vin 
+		kun mi, ŝi vin priridos?</q></p>
+
+		<p>Granda estis la konfuzo de Klaro. Feliĉe, en la sama momento ŝi 
+		rimarkis en la najbara parko tiel belan ludon de koloroj, ke ŝi ekkriis 
+		kun entuziasmo.</p>
+
+		<p><q rend="- ">Rigardu, sinjoro, tie en la angulo de la parko, kiel belege la suno 
+		sternas siajn radiojn en la malluma aleo&elipse; kvazaŭ tapiŝon el oraj 
+		moviĝantaj fadenoj&elipse;</q></p>
+
+		<p><q rend="- ">Ĉu vi estis iam en la parko?</q></p>
+
+		<p><q rend="- ">Ne, neniam, mi ja ne povis&elipse;</q></p>
+
+		<p><q rend="- ">Jen bona ideo&elipse; kial mi antaŭe ne pensis pri ĝi? Ni vizitu kune la 
+		parkon de la princo!</q></p>
+
+		<p>La propono timigis ŝin.</p>
+
+		<p><q rend="--">Oh, ne!</q> ŝi ekkriis, <q rend='- '>estas malpermesite&elipse;</q></p>
+
+		<p>Li ekridis preskaŭ laŭte.</p>
+
+		<p><q rend="- ">Se mi enkondukos vin&elipse;</q></p>
+
+		<p>Li estas prava; lia permeso egalvaloras la permeson de la princo mem.</p>
+
+		<p>Granda estis la tento. Kiom da fojoj, rigardante la majestajn aleojn, 
+		ŝi revis trairi ilian tutan longon, nur unu fojon en la vivo, sidi unu 
+		momenton en ĉi tiu maro de verdaĵo, kies supraĵon sulkigas ombroj kaj 
+		lumoj! Sed ŝia maltrankvilo daŭris. Ŝanceliĝante ŝi haltis antaŭ la 
+		laŭbo.</p>
+
+		<p><q rend="- ">Kaj se ni renkontos&elipse;</q></p>
+
+		<p><q rend="- ">Kiun?</q></p>
+
+		<p><q rend="- ">La princon!</q></p>
+
+		<p>Przyjemski ekridis ree tiel laŭte, kiel ŝi neniam aŭdis lin ridi.</p>
+
+		<p><q rend="--">Li ne estas hejme; li foriris samtempe kun mi&elipse;</q> li certigis.</p>
+
+		<p><q rend="- ">Eble pli bone estos en la laŭbo?&elipse;</q></p>
+
+		<p>Sed li diris:</p>
+
+		<p><q rend="- ">Mi petas vin: kredeble jam de longe vi deziras viziti la parkon, 
+		kaj plenumo de via deziro estos feliĉo por mi. Vi petis la falantan 
+		stelon pri ekskurso en ĉi tiu somero en la arbaron&elipse; Eble promeno en la 
+		parko anstataŭos la revatan&elipse; Ne rifuzu al mi&elipse;</q></p>
+
+		<p>Ŝi estus povinta kontraŭbatali la tenton viziti la parkon mistere 
+		allogan, sed ŝi cedis al lia peto.</p>
+
+		<p><q rend="--">Bone, ni iru,</q> ŝi diris obee.</p>
+
+		<p><q rend="--">Bravo!</q> ekkriis Przyjemski.</p>
+
+		<p>Ili ambaŭ havis mienojn de petolantaj infanoj, tiel ili estis gajaj 
+		kaj ridemaj.</p>
+
+		<p>Per rapidaj paŝoj, preskaŭ kurante, ili trairis la spacon, kiu 
+		disigis ilin de la parka pordo, kaj eniris la grandan aleon, sur kies 
+		ambaŭ flankoj staris jarcentaj arboj. La dikaj trunkoj kaj la sennombraj 
+		folioriĉaj branĉoj formis kvazaŭ du murojn. La sunaj radioj traboris la 
+		verdaĵon kaj oris la foliojn. Nigra strio de tero ĉe la malsuproj de la 
+		dikaj trunkoj estis kovrita de reto, kies maŝoj estis oraj, neegalaj kaj 
+		moviĝemaj.</p>
+
+		<p>Klaro eksilentis, malrapidigis la paŝojn. La rideto malaperis de ŝiaj 
+		lipoj. Przyjemski rigardis kun plezuro ŝian vizaĝon.</p>
+
+		<p><q rend="--">Kiel impresebla vi estas!&elipse;</q> li diris mallaŭte. Ŝi ne respondis, 
+		paŝante kvazaŭ en preĝejo, delikate, preskaŭ sur la fingroj, apenaŭ 
+		tuŝetante la teron.</p>
+
+		<p>Silente ili trairis la aleon paralela al la ĝardeno, kie staris la 
+		dometo kovrita de fazeolo. Sed kiam ili venis al alia aleo, same majesta 
+		kiel la ĉefa, nur malpli longa, Klaro kvazaŭ vekiĝis:</p>
+
+		<p><q rend="--">Ni ne iru pli malproksimen,</q> murmuretis ŝi.</p>
+
+		<p><q rend="--">Kontraŭe, ni iru!</q> li insistis. <q rend='- '>Se ĉi tiu aleo kondukus ĝis la 
+		fino de la mondo, mi irus kun vi kaj mi ne demandus, kiam ĝi finiĝos.</q></p>
+
+		<p><q rend="--">Sed ĉar ĝi ne kondukas al la fino de la mondo, sed rekte ĝis la 
+		palaco&elipse;</q> diris Klaro, provante ŝerci.</p>
+
+		<p><q rend="--">Tute ne &dash; interrompis Przyjemski,</q> de ĝia fino ĝis la palaco estas 
+		ankoraŭ kelkaj centoj da paŝoj, kiujn okupas florĝardeno. Ni iru al la 
+		floroj&elipse;</p>
+
+		<p>Klaro haltis. Ŝi ne komprenis la motivon de la maltrankvilo, kiun ŝi 
+		sentis, sed influata de ĝi, ŝi diris decideme:</p>
+
+		<p><q rend="- ">Mi eksidos ĉi tie&elipse; sur ĉi tiu herbaĵa benko&elipse; Bela benko, belega 
+		loko!</q></p>
+
+		<p>La herbaĵa benko estis tre malalta kaj tiel mallarĝa, ke apenaŭ du 
+		personoj povis sidi tie. Branĉoriĉa arbo ombris ĝin, kaj antaŭ ĝi kuŝis 
+		herba, velura tapiŝo.</p>
+
+		<p>Izolita estis la loko. Alta muro de verdaĵo kaŝis de la rigardoj la 
+		palacon kaj ĝardenon. Inter du trunkoj oni vidis herbaron, sur kiun la 
+		subiranta suno verŝis siajn oblikvajn radiojn. Malproksime, ĉe la fino 
+		de la aleo, la florĝardeno kontrastis la verdan fonon, kiel hela 
+		multkolora makulo. Silento regis ĉirkaŭe. Nur la birdetoj pepis inter la 
+		branĉoj kaj de tempo al tempo flava folio falis teren.</p>
+
+		<p>La silenton interrompis ekkrio de Klaro. Sidiĝante sur la benkon, ŝi 
+		ekvidis la florĝardenon; ŝi ekkriis, brubatante la manojn:</p>
+
+		<p><q rend="- ">Dio! kiom da floroj! kiel belegaj ili estas!</q></p>
+
+		<p>Przyjemski prenis el ŝia mano la korbon kaj metis ĝin apude sur la 
+		benkon. Ĝojo ekbrilis sur lia vizaĝo, kiam li petis:</p>
+
+		<p><q rend="- ">Restu momenton sola ĉi tie. Mi tuj revenos. Mi nur petas vin: timu 
+		nenion kaj ne foriru&elipse; Mi tuj revenos!</q></p>
+
+		<p>Li foriris al la palaco per rapidaj paŝoj.</p>
+
+		<p>Klaro sekvis lin per sia rigardo. Renkonte al li kuris juna knabo en 
+		livreo kun metalaj butonoj, supozeble ĝardenisto aŭ lakeeto. Przyjemski 
+		ion diris al li kun ordona gesto. Kiam la knabo rapide forkuris, 
+		Przyjemski ankoraŭ unu fojon sin turnis al li, kriante, tiel laŭte, ke 
+		ŝi klare aŭdis:</p>
+
+		<p><q rend="- ">Plej rapide!</q></p>
+
+		<p>Li revenis al ŝi kaj staris, tenante en la mano la ĉapelon kaj 
+		libron. Klaro sulkigis sur fadeno dikan pinton por ornami kufon, kiu 
+		kuŝis sur ŝiaj genuoj.</p>
+
+		<p><q rend="- ">Ĉu ĝi estas kufo de la sinjorino&elipse; vidvino de la veterinaro?</q></p>
+
+		<p><q rend="--">De sinjorino Dutkiewicz,</q> ŝi korektis, <q rend='- '> jes, de kelkaj jaroj nur 
+		mi liveras ilin al ŝi&elipse;</q></p>
+
+		<p><q rend="--">Ĉu vi nenion diros al mi pri la persekuto minacanta vin de via 
+		fratineto? Staĉjo ja promesis gardi vin&elipse;</q></p>
+
+		<p>Konfuziĝinte, ŝi ne levis la kapon.</p>
+
+		<p><q rend="--">Franjo ne estas tre laborema en la kudrejo</q> ŝi diris kvazaŭ 
+		devigite, <q rend='- '>oni tie ne estas kontentaj. En la urbo ŝi koniĝis kun 
+		personoj, kiuj malbone ŝin influas&elipse;</q></p>
+
+		<p><q rend="- ">Ŝiaj buŝo kaj rigardo montras personon kaprican kaj malpaceman&elipse; Ŝi 
+		kredeble kaŭzas al vi multajn suferojn&elipse;</q></p>
+
+		<p><q rend="--">Tute ne, mi certigas vin!</q> ekkriis vive Klaro, <q rend='- '>ŝi estas tre 
+		bona, ora koro. Nur unu afero ĉagrenas min, ke ŝi ne amas kudradon. 
+		Tamen ŝi nepre devas ellerni metion, por havi poste pecon da pano. Ni 
+		decidis, patro kaj mi, ke ŝi estu modistino. Kion ni povus plu? Sed kiel 
+		forigi la malbonajn influojn, jen estas demando, kiu nin tre ĉagrenas</q></p>
+
+		<p>Ŝi parolis, ne ĉesante kudri, ne levante la kapon. Li aŭskultis 
+		atente, sed ne sidiĝis kaj ĉiumomente rigardis al la florĝardeno, kvazaŭ 
+		ion atendante. Fine li ekvidis la knabon en livreo kuranta kun granda 
+		bukedo. Przyjemski rapidis al li.</p>
+
+		<p>Klaro levis la kapon kaj vidis, ke Przyjemski prenas el la manoj de 
+		la knabo la florojn. Metinte la manon kun la bukedo malantaŭ la dorson, 
+		li rapide revenis. Diveninte, ke la floroj estas por ŝi, Klaro faris 
+		vivan movon; la kufo kaj la pintoj falis de ŝiaj genuoj teren.</p>
+
+		<p>Przyjemski, kiu jam estis kelke da paŝoj de ŝi, rapide proksimiĝis, 
+		fleksis unu genuon kaj, levante per unu mano la falintajn objektojn, per 
+		la alia etendis al ŝi la bukedon.</p>
+
+		<p>Unu momento, unu movo, unu rigardo en ŝiajn okulojn, kaj ree li 
+		staris antaŭ la knabino, kiu kaŝis la purpuran vizaĝon en la bukedo.</p>
+
+		<p>La floroj, rapide deŝiritaj, senarte kunigitaj, belegaj, variaj kaj 
+		bonodoraj.</p>
+
+		<p>Ilia ebriiga odoro, iliaj brilaj koloroj konfuzis la imagon, koron 
+		kaj sentojn de Klaro en momento, kiam la bela viro genuis antaŭ ŝi kaj 
+		rigardis en la profundon de ŝiaj okuloj.</p>
+
+		<p>Li, ankaŭ tre kortuŝita, rapide trankviliĝis.</p>
+
+		<p><q rend="--">Kaj nun</q> li diris sidiĝante ĉe ŝia flanko, <q rend='- '>ni forgesu ĉiujn 
+		hejmajn zorgojn, ĉion malbonan, malgrandan, ĉion doloran kaj ni transiru 
+		en pli bonan mondon!&elipse;</q></p>
+
+		<p>Per tonoriĉa kaj lerta voĉo li komencis legi:</p>
+
+		<lg type="stanza">
+		<l>De kiam ŝi flugis per sonĝo la ora, </l>
+		<l>Mi svenas, sopire sekiĝas, dolora; </l>
+		<l>Ne scias mi, kial l'anim' al ĉieloj </l>
+		<l>Ne flugas el cindroj post ŝi, al anĝeloj? </l>
+		<l>Pro kio ne flugas al mondo alia, </l>
+		<l>Al tiu savita, amata la mia! </l>
+		</lg>
+		<note><q rend='""'>En Svisujo</q> de I. Slowacki, traduko de A. Grabowski.</note>
+		
+		<p>Flugis la momentoj. Flavaj kaj rozaj folioj falis de la arboj.</p>
+
+		<p>La oblikvaj sunaj radioj fariĝis pli kaj pli mallongaj, la malgrandaj 
+		oraj rondoj sur la nigra tero &dash; malpli larĝaj kaj malpli multenombraj. 
+		Klaro ĉesis kudri. Metinte la manojn sur la genuojn, ŝi aŭskultis, kaj 
+		ŝiaj pupiloj ore brilis.</p>
+
+		<p>Li legis:</p>
+
+		<lg type="stanza">
+		<l>Ŝi flamis kiele fumilo de mirho, &dash; </l>
+		<l>Ke mem ŝi ne scias pri flam', estis vida; </l>
+		<l>Profunda fariĝis l'okula safiro, </l>
+		<l>Kaj l'ond' de l'blankeco sur brust' pli rapida&elipse; </l>
+		</lg>
+		
+		<p>Pli rapida fariĝis ŝia spirado. Ĉu tio estas sonĝo? Ĉu ŝi jam mortis 
+		kaj estas en la paradizo? El ŝia bukedo flugas ebriiga odoro kaj 
+		proksime de ŝi la bela voĉo legas:</p>
+
+		<lg type="stanza">
+		<l>Moment' estas, antaŭ ol luno eliras: </l>
+		<l>La najtingalar' eksilentas la kanta, </l>
+		<l>Kaj pendas folioj sen mov' bruetanta, </l>
+		<l>Kaj fontoj herbejaj mallaŭte pli spiras&elipse; </l>
+		</lg>
+			
+		<p>Sen murmureto falis de la arboj la folioj, ĉie regis kvieto, la 
+		krepusko jam komencis sterni sian kovrilon. Li legis:</p>
+
+		<lg type="stanza">
+		<l>En tia momento ah! ploras du koroj! </l>
+		<l>Se ion pardoni nur havas &dash; pardonas, </l>
+		<l>Se ion forgesi &dash; forgesas memoroj! </l>
+	        </lg>
+	      
+  	        <p>Pasis la minutoj; proksimiĝis la fino de l'poemo.</p>
+
+		<p>La delogita 
+		amatino <q rend='""'>flugis per sonĝo la ora</q>, la amato, konvinkita ke ŝi <q rend='""'>venis el 
+		ĉielarko</q>, ploras ŝian perdon.</p>
+
+		<lg type="stanza">
+		<l>Kaj fluas fontan', najtingala ar' ĝemas, </l>
+		<l>Pri ŝi ili diras &dash; mi kore ektremas </l>
+		<l>Kaj preĝas pri morto en fru', malespere&elipse; </l>
+  	        </lg>
+		  
+		<p>Li levis la rigardon de la libro kaj direktis ĝin al la vizaĝo de la 
+		kunulino. Du grandaj larmoj brilis sur la okulharoj de Klaro.</p>
+
+		<p>La juna homo etendis delikate la brakon kaj kovris ŝian manon per 
+		sia. Klaro ne forigis sian manon; du grandaj larmoj fluis de la 
+		okulharoj sur la rozajn vangojn.</p>
+
+		<p><q rend="--">Ĉu ili estas larmoj de bedaŭro, aŭ de feliĉo?</q> li demandis tre 
+		mallaŭte.</p>
+
+		<p>Post momenta silento ŝi respondis apenaŭ aŭdeble:</p>
+
+		<p><q rend="- ">De feliĉo!</q></p>
+
+		<p>Ŝi estis plena de feliĉo kaj samtempe de stranga doloro. Subite ŝi 
+		eksentis, ke brako delikate ĉirkaŭprenas ŝian talion. Malaperis la 
+		sonĝo. Kun sento de feliĉo kaj doloro kuniĝis konfuzo. Timigite, Klaro 
+		ŝovis sin ĝis la fino de la benko kaj ne levante la palpebrojn, rapide, 
+		senorde ŝi ĵetis en la korbon la muslinon kaj la puntojn.</p>
+
+		<p><q rend="--">Mi jam iros hejmen,</q> ŝi flustris.</p>
+
+		<p>Li sidis kliniĝinta kun la kubuto sur la genuo kaj apogis sur la 
+		manplato la frunton, same ruĝiĝintan kiel ŝiaj vangoj. Liaj delikataj 
+		naztruoj jen larĝigis, jen kuntiriĝis, lia mano ĉifis nerve la muslinon.
+		</p>
+
+		<p>Tio ne daŭris longe. Li trankviliĝis, remetis sian manon sur ŝian kaj 
+		diris preskaŭ ordone:</p>
+
+		<p><q rend="- ">Vi ne iros ankoraŭ, ĉar ni ankoraŭ ne finis la poemon.</q></p>
+
+		<p>La unuan fojon, de la tempo kiam ŝi konis lin, despota tono eksonis 
+		en lia voĉo. Tenante ŝian manon en la sia, kaj rigardante teren, li 
+		ekmeditis kaj mordetis la malsupran lipon. Post momento li lasis ŝian 
+		manon kaj ekparolis pli delikate:</p>
+
+		<p><q rend="- ">Mi rememoris ion, kio post la belega poemo <q rend='""'>En Svisujo</q> sonos 
+		kvazaŭ grinco post anĝela kanto. Kion fari? Mi devas ĝin komuniki al vi. 
+		Ni kune aŭskultis la anĝelan kanton, ni kune aŭdos la grincon. Kial mi 
+		sola devus aŭdi ĝin?</q></p>
+
+		<p>Ironia fariĝis la esprimo de liaj lipoj, la sulko inter la brovoj pli 
+		profundiĝis. Post momenta silento li daŭrigis.</p>
+
+		<p><q rend="- ">Antaŭ kelkaj tagoj mi trovis en la ĉambro de mia amiko polan 
+		tradukon de ama poezio de Heine. Mi neniam antaŭe legis ĝin en traduko. 
+		Mi rigardis la libron, mi komencis legi. La traduko estas tre bela, tre 
+		bela, Mi havas tre bonan memoron; hieraŭ mi diris al vi parkere unu 
+		strofon, nun mi diros alian. Aŭskultu atente.</q></p>
+
+		<p>Kliniĝinta al ŝi, apogante la vizaĝon sur la manplato kaj rigardante 
+		en la profundon de ŝiaj okuloj, li deklamis malrapide kanton de Heine:	</p>
+
+		<lg type="stanza">
+		<l>Junul' junulinon ekamis, </l>
+		<l>Lin ŝia ekamis anim', </l>
+		<l>Sed la reciprokan konfeson, </l>
+		<l>Haltigis ilia estim',&elipse; </l>
+		</lg>
+
+		<lg type="stanza">
+		<l>Kaj kiam for ili disiris, </l>
+		<l>Funebro en ambaŭ la kor', </l>
+		<l>Ne sciis eĉ unu pri dua </l>
+		<l>En lasta de l'vivo la hor'&elipse; </l>
+		</lg>
+		
+		<p><q rend="- ">Rimarku bone&elipse; ili amis unu la alian, sed <q rend='""'>ne sciis eĉ unu pri dua 
+		en lasta de l'vivo la hor'</q> ĉar <q rend='""'>la reciprokan konfeson haltigis ilia 
+		estim'</q> Ĝi estas grinco kaj disonanco. Nobla amo estas bazita sur la 
+		estimo, sed la estimo estas haltigilo de la amo. Nenio en la mondo estas 
+		simpla kaj facila, ĉio estas komplikita kaj ĉirkaŭita de malhelpoj. Vi 
+		ne volas plu forkuri? Ĉu ni finos legi <q rend='""'>En Svisujo</q>? Mi estas danka al 
+		vi, ke vi konigis al mi la poemon! La pli grandan parton de mia vivo mi 
+		pasigis en eksterlando, mi legis nur fremdajn verkojn. Sed nia 
+		literaturo ankaŭ estas belega!&elipse; Mi multon lernis de vi&elipse; </q></p>
+
+		<p>Malgraŭ la kortuŝiĝo ŝi ekridis kore.</p>
+
+		<p><q rend="- ">Vi? de mi? Granda Dio! Kion mi povas instrui al iu ajn? Nur Staĉjon 
+		mi instruis legi kaj skribi&elipse;</q></p>
+
+		<p><q rend="- ">Mi eble klarigos al vi poste, kion vi instruis al mi&elipse; nun ni finu 
+		la poemon. Kaj ree li legis:</q></p>
+
+		<lg type="stanza">
+		<l>La pens', revenante pasinton sen fino, </l>
+		<l>Ne scias, en kia pentradi sin formo&elipse; </l>
+		</lg>
+		
+		<p>Flugis la momentoj; aŭskultante Klaro kudris, sed malrapide kaj 
+		malrekte.</p>
+
+		<p>La leganta voĉo eksilentis. Sur la herbaro malantaŭ la arboj ne estis 
+		plu la oraj strioj, la ora reto malaperis de la nigra tero. Nun la 
+		okcidentaj lumoj brilis sur la pintoj de la arboj kvazaŭ rozaj torĉoj 
+		kaj kandeloj. Malsupre jam noktiĝis; la bela florĝardeno ŝajnis nun 
+		griza; nur la blankaj floroj estis ankoraŭ klare videblaj.</p>
+
+		<p>Klaro rigardis la kufon jam ornamitan per puntoj.</p>
+
+		<p><q rend='--'>Mia Dio!</q> ŝi ekkriis, <q rend='- '>kion mi faris?</q></p>
+
+		<p><q rend="--">Ĝi estas malrekte kudrita!</q> diris Przyjemski ridetante.</p>
+
+		<p><q rend="- ">Tute malrekte! Ĉu vi vidas? Tie ĉi estas tre multe da faldoj kaj 
+		tie ili mankas; tie ĉi ili proksimiĝas al la rando, tie supreniras&elipse;</q></p>
+
+		<p><q rend="- ">Katastrofo! Ĉu vi ĝin malkudros?</q></p>
+
+		<p><q rend="- ">Kompreneble, sed la malfeliĉo ne estas granda. Post duonhoro ĉio 
+		estos en ordo.</q></p>
+
+		<p><q rend="- ">Ne eblas servi al du sinjoroj&elipse; Vi volis servi al la prozo kaj al 
+		la poezio; la prozo venĝis sin.</q></p>
+
+		<p>Ŝi levis al li la okulojn.</p>
+
+		<p><q rend="- ">Alia estas mia opinio. Ŝajnas al mi, ke ĉiu laboro, eĉ la plej 
+		proza, enhavas iom da poezio. Tio dependas de niaj intencoj.</q></p>
+
+		<p><q rend="--">De la motivoj</q> li korektis. <q rend='- '>Vi estas prava. Sed pro kia motivo 
+		vi ornamas la kufojn de sinjorino Dutkiewicz?</q></p>
+
+		<p><q rend="- ">Ĉar mi ŝin amas, mi estas danka al ŝi; krome, en tia kufo ŝi estas 
+		ĉarma, aminda maljunulino.</q></p>
+
+		<p><q rend="--">Granda feliĉo estas ami sinjorinon Dutkiewicz!</q> li diris kun ĝemo.</p>
+
+		<p><q rend="--">Kial?</q> ŝi demandis.</p>
+
+		<p><q rend="- ">Ĉar oni povas estimi sinjorinon Dutkiewicz kaj diri, ke oni ŝin 
+		amas, dum en aliaj okazoj oni devas estimi kaj silenti, aŭ paroli 
+		malŝatante la estimon&elipse; <q rend='""'>Sed la reciprokan konfeson haltigis ilia estim'&elipse;</q></q></p>
+
+		<p>Li ne finis, ĉar de malproksime, el la najbara ĝardeno eksonis la 
+		vokoj de Staĉjo:</p>
+
+		<p><q rend="- ">Klaro! Klaro!</q></p>
+
+		<p>Ne trovinte la fratinon en la laŭbo kaj ne sciante, kie ŝi estas, li 
+		kriis pli kaj pli laŭte. Klaro prenis la korbon kaj salte leviĝis de la 
+		benko.</p>
+
+		<p><q rend="--">Kaj miaj floroj?</q> rememorigis Przyjemski, <q rend='- '>vi ne prenos ilin?</q></p>
+
+		<p><q rend="--">Mi prenos, dankon</q> ŝi respondis, prenante la bukedon, kiun li 
+		momenton tenis kun ŝia mano en sia.</p>
+
+		<p>Fulmoj ekbrilis en liaj okuloj, la moviĝemaj naztruoj ree larĝiĝis 
+		post kelkaj sekundoj li mallevis la manon kaj iris en la aleo kelke da 
+		paŝoj malantaŭ la knabino. Sur la vojturniĝo li demandis:</p>
+
+		<p><q rend="- ">En kia horo vespere vi finas la hejman laboron?</q></p>
+
+		<p><q rend="--">En la deka</q> ŝi respondis; <q rend='- '>la patro kaj Staĉjo tiam jam dormas, 
+		ankaŭ Franjo preskaŭ ĉiam.</q></p>
+
+		<p><q rend="- ">Kiam ili ekdormos kaj vi estos libera de la&elipse; servado, venu en la 
+		ĝardenon aŭskulti muzikon. En la deka horo mi komencos kun mia amiko 
+		ludi por vi. Ĉu vi tion deziras?</q></p>
+
+		<p><q rend="--">Mi dankas vin!</q> ŝi respondis kaj ekstaris ĉe la pordeto de la 
+		krado, en la malluma ombro de la arboj.</p>
+
+		<p><q rend="- ">Bonan nokton al vi, sinjoro.</q></p>
+
+		<p>Li prenis ambaŭ ŝiajn manojn kaj momenton rigardis ŝin, mallevinte la 
+		kapon</p>
+
+		<p><q rend="--">Ludante,</q> li flustris, <q rend='- '>mi pensos pri vi, mi vidos en mia imago 
+		vin staranta ĉe la krado kaj aŭskultanta la muzikon. Tiamaniere niaj 
+		animoj estos kune&elipse;</q></p>
+
+		<p>Li rapide levis ambaŭ ŝiajn manojn kaj kisis unu post la alia.</p>
+
+		<p>Pasis unu horo. Wygrycz, sidante sur la mallarĝa kanapo kaj trinkante 
+		teon, admiris kun videbla plezuro la belajn florojn en argila vazo sur 
+		la retotuko. Li senĉese flaris kaj karesis ilin. Precipe plaĉis al li la 
+		verbenoj. <q rend='""'>Kvazaŭ steletoj!</q> &dash; li diris kun rideto, kiu nun perdis sian 
+		tutan maldolĉecon.</p>
+
+		<p>Klaro lumigis la lampon, preparis teon por la patro, verŝis lakton al 
+		Staĉjo, zorgis pri ĉio babilante, preskaŭ pepante.</p>
+
+		<p>Ŝi rakontis, ke ŝi estis en la princa parko, ke ŝi legis tie kun 
+		sinjoro Przyjemski <q rend='""'>En Svisujo</q>, ke li donis al ŝi la florojn, ke ŝi 
+		vidis de malproksime la florĝardenon antaŭ la palaco, sur la fono de la 
+		verdaĵo de la parko.</p>
+
+		<p>Ŝia tuta persono radiis de ĝojo; ŝiaj movoj fariĝis graciaj, nervaj. 
+		Ŝi ne povis resti sur sama loko, ŝi sentis bezonon iri, kuri, paroli, 
+		eligi la troon da vivo, kiu bolis en ŝi. Iafoje ŝi eksilentis en la mezo 
+		de la frazo kaj staris senmova, mutiĝinta; ŝiaj rigardo kaj animo estis 
+		aliloke.</p>
+
+		<p>Wygrycz ne rigardis ŝin atente, li jen aŭskultis ŝiajn vortojn, jen 
+		meditis; lia vizaĝo estis nek malgaja, nek maldolĉa: kontraŭe, petola 
+		rideto eraris sur liaj sensangaj lipoj.</p>
+
+		<p>Franjo, kiu ĵus revenis kaj aŭskultis la rakonton de la fratino, 
+		diris per sia akra voĉo:</p>
+
+		<p><q rend="- ">Atendu nenion, ĉar estos nenio! Sinjoro Przyjemski enamiĝis, jes, 
+		sed mi dubas, ĉu li edziĝos kun Klaro. Li estas por ŝi tro granda 
+		sinjoro&elipse; Tiaj sinjoroj nur delogas malriĉajn knabinojn kaj poste 
+		forlasas ilin.</q></p>
+
+		<p>Wygrycz tuta ektremis.</p>
+
+		<p><q rend="--">Silentu! malgranda vipuro!</q> li kriis; <q rend='- '>vi ĉiam pikas la fratinon! 
+		kiu parolis al vi pri amo aŭ edziĝo?</q></p>
+
+		<p>Li forte ektusis. Ambaŭ fratinoj rapidis al li, alportis akvon, teon, 
+		pastelojn, sed kvankam la atako ne longe daŭris kaj Franjo, riproĉata de 
+		sia konscienco, fariĝis tre karesema por la patro kaj fratino, la gajeco 
+		de Klaro malaperis, kiel flamo de kandelo sub blovo.</p>
+
+		<p>Certe, ŝi sciis; ke junaj knabinoj, se ili amas kaj estas amataj, 
+		edziniĝas. Sed ŝi pensis tre malofte pri tio kaj en la nuna okazo ŝi pri 
+		tio ne pensis eĉ unu momenton. Vidi sinjoron Przyjemski kaj paroli kun 
+		li estis la superlativo de ŝiaj deziroj. La fratino maldelikate deŝiris 
+		la virgan vualon, kovranta la revojn de ŝia koro. En ŝia cerbo, kiel 
+		muŝo en aranea reto, skuiĝis la vortoj de Franjo: <q rend='""'>Li estas tro granda 
+		sinjoro por ŝi.</q> Klaro ĉiam sentis lian superecon en la instruiteco kaj 
+		eleganteco. Krome, kvankam li estis nur la unua el la princaj servistoj, 
+		kompare kun ŝi li estis granda sinjoro. Li nomis la princon sia amiko, 
+		li mastrumis en la princa domo, kvazaŭ en sia. Kiu scias, eble li estas 
+		riĉa! La lasta supozo plej multe ĉagrenis ŝin.</p>
+
+		<p>Sur la fundo de sia koro ŝi sentis, ke kvankam kompare kun li ŝi 
+		estas malriĉa, modesta knabino, nenio nevenkebla apartigis ilin.</p>
+
+		<p><q rend="- ">Se li nur amas min&elipse;</q> ŝi pensis. En ŝia koro kantis la magia 
+		vorto: <q rend='""'>Li amas! li amas!</q> Kiam ŝia patro foriris en sian ĉambron legi 
+		ĵurnalon, pruntitan de oficeja kolego, kiam Staĉjo jam ekdormis kaj 
+		Franjo sin senvestigis. Klara kuris sur la balkonon.</p>
+
+		<p>La vespero estis varma, sed nuba. Neniu stelo brilis sur la ĉielo; 
+		des pli helaj ŝajnis la fenestroj de la palaco. La vento jen blovis de 
+		la nuboj, jen tute ĉesis. Subite ĝi ekblovis pli forte kaj disportis en 
+		la du ĝardenoj ondon de muzikaj tonoj.</p>
+
+		<p>Malantaŭ la altaj, mallarĝaj lumaj fenestroj la fortepiano kaj 
+		violonĉelo ludis muzikon solenan kaj seriozan.</p>
+
+		<p>Klaro trakuris la ĝardenon kaj haltis ĉe la krado apud la siringa 
+		laŭbo. Apogita al la krado ŝi aŭskultis kaj ĉesis pensi pri io ajn. 
+		Neesprimebla plezurego plenigis ŝian animon. La nuba nokto, la fenestroj 
+		brilantaj alte en la mallumo, la ĝemoj de la vento, la fluo de solenaj 
+		tonoj, formis unu estetikan tuton. Sed ĉiujn sentojn superregis en ŝi 
+		kortuŝiĝo, dankemo, pasia celado de ŝia animo al ĉi tiuj brilaj 
+		fenestroj, similaj al la pordoj de la paradizo, tra kiuj venis lumo kaj 
+		anĝela harmonio. Kun la okuloj levitaj al la helaj punktoj, ŝi rigardis 
+		kaj aŭskultis, rememorante la vortojn: <q rend='""'>Niaj animoj estos kune!</q> Kiel 
+		prava li estis! La muziko estis lia animo, kiu malleviĝis al ŝi kaj 
+		karesis ŝin per dolĉa, bruliga ĉirkaŭpreno.</p>
+
+		<p>Ŝi kovris la vizaĝon per la manoj kaj rapide spirante ensorbis la 
+		muzikajn tonojn, pensante, ke ŝi ensorbas lian animon. La kvaronhoroj 
+		pasis. Subite ĉio silentiĝis. En la palaco oni ĉesis ludi, sed post 
+		kelkaj minutoj eksonis muziko pli mallaŭta, kvazaŭ pli malproksima, ĉar 
+		la violonĉelo eksilentis, la fortepiano kantis sola. Ĝia kanto daŭris 
+		sufiĉe longe, la violonĉelo silentis. Subite en aleo ĉe la krado eksonis 
+		mallaŭta paŝado. Klaro rektiĝis, ektremis. Trans la krado, kontraŭ ŝi 
+		staris alta viro, eleganta kaj gracia eĉ en la mallumo. Li prenis ambaŭ 
+		ŝiajn manojn en siajn kaj flustris:</p>
+
+		<p><q rend="- ">Mi nepre devis vidi vin hodiaŭ ankoraŭ unu fojon. Ludante, mi 
+		pensis senĉese: <q rend='""'>Mi iros al ŝi!</q> Mi lasis la violonĉelon kaj diris al 
+		li: <q rend='""'>Ludu, ludu seninterrompe!</q> ĉar mi volis kun vi paroli, akompanata 
+		de muziko. Kia nuba nokto! kiel siblas la vento! La tonoj de la muziko 
+		kune kun la bruo de la vento formas iajn aerajn arabeskojn. Ni aŭskultu.</q></p>
+
+		<p>Li premis ŝiajn manojn pli kaj pli forte, li proksimigis sian kapon 
+		al ŝia. Momenton ili staris tiamaniere, aŭskultante. La melankolia kaj 
+		pasia kanto kuniĝis kun la bruo de la vento, kiu blovis de la nuboj kaj 
+		kune kun ĝi revenis al la nuboj. La muziko fluis en la silentan mallumon 
+		de la parko.</p>
+
+		<p><q rend="- ">Ĉu mi bone faris, ke mi venis? Mi devis vin vidi kaj adiaŭi por la 
+		tuta morgaŭa tago. Hodiaŭ, tuj, venos mia onklo kaj ni forveturos al li 
+		por tuta tago&elipse; Mi revidos vin nur postmorgaŭ. Ĉu mi bone faris, ke mi 
+		venis, hodiaŭ por unu momento? Ĉu mi bone faris?</q></p>
+
+		<p>Preskaŭ senkonscia, ŝi flustris:</p>
+
+		<p><q rend="- ">Oh, bone!</q></p>
+
+		<p>Li altiris ŝin, tiel, ke ŝi tuta kliniĝis al li, kaj flustris:</p>
+
+		<p><q rend="- ">Iru al la pordeto en la krado, mi ankaŭ iros tien, ni renkontos unu 
+		la alian, ni promenos en nia aleo, ni eksidos sur nia benko&elipse;</q></p>
+
+		<p>Ŝi nee skuis la kapon kaj flustris petege:</p>
+
+		<p><q rend="- ">Ne&elipse; Ne petu min&elipse; oh, ne petu min&elipse; ĉar&elipse; mi iros&elipse;</q></p>
+
+		<p>Per kolera movo li forpuŝis ŝin, sed post sekundo li ree altiris ŝin 
+		al sia brusto.</p>
+
+		<p><q rend="- ">Vi estas prava, ne iru! Mi dankas vin, ke vi ne iris! Apartigu nin 
+		la ĉirkaŭbaro&elipse; Sed ne fortiru la kapon&elipse; proksimigu ĝin&elipse; klinu ĝin&elipse; 
+		Jes, tiamaniere, mia kara!</q></p>
+
+		<p>Ŝia kapo kuŝis sur lia brusto. En mallumo jen silenta, jen brua de la 
+		venta siblado, la fortepiano kantis, sopiris, amis&elipse; La vizaĝo ĉe ŝia 
+		vizaĝo, la rigardo en ŝiaj okuloj, li demandis:</p>
+
+		<p><q rend="- ">Ĉu ci amas min?</q></p>
+
+		<p>Kelke da sekundoj ŝi silentis; poste, kvazaŭ plej mallaŭta blovo, el 
+		ŝia ekstaze malfermita buŝo eliĝis flustro:</p>
+
+		<p><q rend="- ">Mi amas!</q></p>
+
+		<p><q rend="- ">Oh, mia plej amata!</q></p>
+
+		<p>En la sama momento okazis io eksterordinara. Jam de kelkaj minutoj 
+		homa figuro aperis el la mallumo kaj kelkfoje jen proksimiĝis mallaŭte 
+		al la parolanta paro, jen time foriris. Ĝi estis homo en vesto kun 
+		metalaj butonoj, kiuj bruis sur lia brusto kaj manikoj ĉiufoje, kiam li 
+		estis en malpli densa ombro. Li ne povis aŭdi la flustron de la paro, 
+		eble li eĉ ne vidis la virinan silueton malantaŭ la vira figuro, sed la 
+		lastan li rekonis bone kaj kelke da minutoj li rondiris ĉirkaŭ ĝi, ne 
+		sciante, kion fari.</p>
+
+		<p>Ĉe la krado la viro kliniĝinta al la virina kapo kuŝanta sur lia 
+		brusto, flustris:</p>
+
+		<p><q rend="- ">Rigardu min! ne kaŝu vian buŝon&elipse; Vane, vane!&elipse; Mi ĝin trovos, mi 
+		havos ĝin&elipse;</q></p>
+
+		<p>En ĉi tiuj vortoj, kvankam ili estis diritaj tre mallaŭte, sonis 
+		paroksismo pasia de homo, kutiminta venkadi.</p>
+
+		<p>Kelke da paŝoj malantaŭ li voĉo timema kaj respektoplena, sed klara, 
+		diris:</p>
+
+		<p><q rend="- ">Via princa moŝto!&elipse;</q></p>
+
+		<p>La viro ektremis de la kapo ĝis la piedoj, mallevis la manojn kaj 
+		turninte sin al la voĉo, demandis:</p>
+
+		<p><q rend="- ">Kion?</q></p>
+
+		<p><q rend="- ">La onklo de via princa moŝto venis kaj ordonis serĉi ĉie vian 
+		princan moŝton&elipse;</q></p>
+
+		<p>Nur nun tiu, al kiu oni diris ĉi tiujn vortojn, komprenis ĉion. Kun 
+		kolera gesto kaj per voĉo tremanta de ekscito li ekkriis:</p>
+
+		<p><q rend="- ">For!</q></p>
+
+		<p>En la aleo ekkraketis rapide forkurantaj paŝoj. Li ree turnis sin al 
+		la knabino, kiu malantaŭ la krado staris rigida, ŝtoniĝinta.</p>
+
+		<p>Provante ekrideti, li komencis paroli.</p>
+
+		<p><q rend="- ">Ĉio malkovriĝis! Malbenita lakeo!&elipse; Ne koleru, mi agis tiamaniere 
+		por ne timigi vin&elipse;</q></p>
+
+		<p>Kun larĝe malfermitaj okuloj ŝi ekflustris:</p>
+
+		<p><q rend="- ">Vi&elipse; la princo?</q></p>
+
+		<p>En ŝia flustro estis io preskaŭ freneza.</p>
+
+		<p><q rend="- ">Jes, sed ĉu tial&elipse;</q></p>
+
+		<p>Li provis ree kapti ŝiajn manojn. Sed ŝi levis ilin al la kapo, 
+		dronigis en la haroj. Ŝia laŭta, malespera ekkrio plenigis la du 
+		ĝardenojn. Ŝi forkuris terurita kaj malaperis en la mallumo.</p>
+
+	      </div>
+
+ <div type="chapter" rend="doc" id="v">
+
+		<head>Ĉaptiro V</head>
+
+		<p>Post tri tagoj la princo revenis vespere de sia onklo. Unu horon post 
+		la reveno li iris en la aleo de la parko. Lia vizaĝo estis malgaja, 
+		malĝoja&elipse; Antaŭ la herbaĵa benko li haltis, rigardis ĝin kaj ĉion 
+		ĉirkaŭe. Estis la momento, kiu antaŭiras la krepuskon. Sur la herbo 
+		malantaŭ la dikaj trunkoj brilis la oraj strioj de la sunaj radioj; sur 
+		la tero, en la aleo tremis oraj rondoj kaj rondetoj. Inter la herboj de 
+		la benko velkis kelkaj forgesitaj floroj.</p>
+
+		<p>Ĉio restis sama, kia ĝi estis en la sama horo antaŭ tri tagoj.</p>
+
+		<p>Per rapida movo la princo sidiĝis sur la benkon, demetis la ĉapelon, 
+		apogis la frunton sur la manplaton kaj flustris:</p>
+
+		<p><q rend="- ">Malfeliĉo!</q></p>
+
+		<p>Antaŭ unu horo, tuj post la reveno, kiam li estis sola kun la 
+		ĉambristo Benedikto, li demandis mallonge:</p>
+
+		<p><q rend="- ">Kiaj novaĵoj?</q></p>
+
+		<p><q rend="- ">Malbonaj, via princa moŝto!&elipse; Ili transloĝiĝis&elipse;</q></p>
+
+		<p><q rend="- ">Kiu?</q> ekkriis la princo.</p>
+
+		<p><q rend="- ">La Wygrycz'oj.</q></p>
+
+		<p><q rend="- ">De kie ili transloĝigis?</q></p>
+
+		<p><q rend="- ">De sia dometo en la ĝardeno.</q></p>
+
+		<p><q rend="- ">Kiam?</q></p>
+
+		<p><q rend="- ">Hodiaŭ, frumatene.</q></p>
+
+		<p><q rend="- ">Kien?</q></p>
+
+		<p><q rend="- ">Mi ankoraŭ ne scias; sed se via princa moŝto ordonas&elipse;</q></p>
+
+		<p>Li volis diri: <q rend='""'>mi ekscios</q>, sed li preferis ne fini la frazon. Li 
+		atendis. La princo silentis. Li rigardis tra la fenestro kaj ne turnante 
+		sin demandis ankoraŭ:</p>
+
+		<p><q rend="- ">Vi ne vidis ŝin?</q></p>
+
+		<p>Kontraŭe, Benedikto ŝin vidis. Por observi la najbaran dometon, 
+		hieraŭ vespere post la deka horo li iris en la aleon ĉe la limo de la 
+		parko. Subite li ekaŭdis ploron. Li singarde proksimiĝis kaj kaŝinte sin 
+		malantaŭ arbo li vidis ŝin malantaŭ la krado. Ŝi genuis, apogante la 
+		manojn kaj frunton al la krado. Larmoj fluis de ŝiaj okuloj. Ŝi levis 
+		unu fojon la kapon kaj rigardis la palacon. Poste ŝi ree ekploris kaj 
+		tiel kliniĝis al la tero, ke ŝiaj manoj kaj frunto malaperis en la 
+		herbo. Sed kiam sinjoro Przyjemski komencis ludi en la palaco, ŝi salte 
+		leviĝis kaj kuris en la dometon. Tio ĉi estis hieraŭ inter la deka kaj 
+		dek unua horo. Hodiaŭ matene en la sepa horo Benedikto iris al sia 
+		konato, kiu loĝas kontraŭ la domo de Wygrycz, kaj li eksciis, ke la 
+		Wygrycz'oj transloĝiĝis tuj post la leviĝo de la suno kaj ke en ilia 
+		domo ekloĝis maljunulino kun servistino kaj kato.</p>
+
+		<p>Tion ĉi Benedikto diris unutone, kvazaŭ raporton. La princo, ne 
+		turnante sin de la fenestro, diris:</p>
+
+		<p><q rend="- ">Vi povas foriri.</q></p>
+
+		<p>Al la ĉambristo ŝajnis, ke la voĉo de la princo estis tute ŝanĝita.</p>
+
+		<p>Post momento la princo sidis sur la herbaĵa benko kaj malĝoje 
+		meditis.</p>
+
+		<p><q rend="- "><q rend='""'>De kiam ĝi flugis per sonĝo la ora&elipse;</q>
+		Ŝi forflugis. Sed tio estas 
+		bagatelo. Nenio estas pli facila, ol trovi ŝin. Li diros unu vorton al 
+		Benedikto, kaj morgaŭ aŭ post du tagoj li ekscios, kien ŝi transloĝiĝis.</q></p>
+
+		<p>Sed ĉu li devas serĉi? Ŝi forkuris. Ŝia virina instinkto puŝis ŝin al 
+		forkuro. Tia estas la natura leĝo. La ino forkuras, se ŝi ne volas meti 
+		neston kun la persekutanto. Klaro, tiel prudenta kaj tiel noble fiera, 
+		komprenis, ke ŝia feliĉo daŭrus ne longe, ke la malfeliĉo estus granda. 
+		Ŝi forkuris plorante, sed ŝi forkuris.</p>
+
+		<p>En ĉi tiu infano, kia forto de volo! Tamen por li ŝi estis cedema; 
+		ankaŭ li en similaj cirkonstancoj estas tre malforta; kiu scias, kio 
+		estus okazinta? Feliĉe tio ne okazis. Neniam li pardonus al si.</p>
+
+		<p>Ĉu do li devas serĉi kaj rekomenci?&elipse; ree meti ŝin en danĝeron? Ŝin, 
+		ĉar por li&elipse; ah, en ŝi li vidis sian savon, revivigitan kredon pri 
+		multaj aferoj, kies ekzistadon li neis. Dum ĉi tiuj kelkaj tagoj li 
+		sentis sin renaskita&elipse; Posedi ĉi tiun estaĵon tiel puran, tiel allogan, 
+		tian korpon kaj tian animon!&elipse; Nur vidi ŝin nun estus grandega feliĉo!&elipse; 
+		Se li revidus ŝin, li petus ŝian pardonon, ke li rompis ŝian 
+		trankvilecon, ke li forpelis ŝin el ŝia modesta loĝejo, ke li estis 
+		kaŭzo de ŝiaj larmoj! Jes, sed post la peto pri pardono kio okazus?
+		<q rend='""'>Di' lasu vin por sia glor' tiel bela kaj pura kaj ĉarma!</q>
+		Sed li ne lasus ŝin tia. Se ili ree renkontus unu la alian, certe Dio ne povus gardi 
+		ŝin! Domaĝe estus, se velkus tia floro, tamen&elipse;</p>
+
+		<p>Li leviĝis kaj daŭrigis la promenon. En la aleo, najbara al la 
+		ĝardeno de Wygrycz, li haltis. Li rigardis la dometon, precipe la 
+		balkonon, sur kiu iu estis. Sur la mallarĝa benko sidis maljunulino en 
+		nigra vesto kaj blanka kufo. Ŝi trikis ŝtrumpon, kaj la ŝtalaj trikiloj 
+		brilis en la radioj de la suno, kvazaŭ fajreroj.</p>
+
+		<p><q rend="- ">Sendube sinjorino Dut&elipse; kiewicz.</q></p>
+
+		<p>Li konsideris momenton, malfermis la pordeton en la krado kaj eniris 
+		en la najbaran ĝardenon. La maljunulino, ekvidinte la vizitanton, 
+		forlasis la seĝon kaj kiam li salutis ŝin per la ĉapelo, ŝi ekparolis 
+		kun bonkora rideto sur la larĝa buŝo.</p>
+
+		<p><q rend="- ">Se via princa moŝto volus sidiĝi sur mia malgranda balkono, tio 
+		estus por mi granda honoro&elipse; Mi petas vian princan moŝton!&elipse;</q></p>
+
+		<p>Ŝi akompanis la vortojn per multe da riverencoj, kiuj ne estis 
+		facilaj sur la malgranda balkono, kies parton okupis dika kato, kuŝanta 
+		sur granda kuseno. Malgraŭ manko de spaco la maljunulino faris 
+		profundajn riverencojn, balanciĝante kaj sidetiĝante. Ŝia jupo leviĝis 
+		kaj oni vidis blankajn ŝtrumpojn kaj tolajn ŝuojn.</p>
+
+		<p><q rend="- ">Via princa moŝto faru la honoron al mia malriĉa dometo kaj volu 
+		sidiĝi&elipse; Mi aŭskultos vian princan moŝton&elipse;</q></p>
+
+		<p>Ŝi ankoraŭ unufoje riverencis, montrante la blankajn ŝtrumpojn, kaj 
+		sidiĝis sur la antaŭa loko, metante sur la genuojn la trikilojn kaj la 
+		laboraĵon.</p>
+
+		<p>La princo ne sidiĝis, li suriris la balkonon, malkovris la kapon kaj 
+		demandis:</p>
+
+		<p><q rend="- ">Ĉu sinjoro Wygrycz kaj lia familio ne loĝas plu ĉi tie?</q></p>
+
+		<p><q rend="--">Ili ne loĝas plu, ne loĝas&elipse;</q> jesis la maljunulino, balancante la 
+		kapon, <q rend='- '>hodiaŭ matene ili transloĝiĝis, kaj nun mi estas najbarino de 
+		via princa moŝto&elipse; he, he, he!&elipse;</q></p>
+
+		<p>La princo demandis per velura voĉo:</p>
+
+		<p><q rend="- ">Ĉu mi havas la honoron paroli kun sinjorino Dutkiewicz&elipse;</q></p>
+
+		<p><q rend="- ">Jes, via princa moŝto, Dutkiewicz, preta servi vian princan moŝton.</q>	</p>
+
+		<p><q rend="- ">Ĉu oni povus ekscii, kien transloĝiĝis la Wygrycz'oj?</q></p>
+
+		<p>La afabla kaj bonkora rideto malaperis de la vizaĝo de la 
+		maljunulino; ŝia mieno fariĝis malĝoja kaj serioza. Ŝi levis la bluajn 
+		okulojn kaj diris, skuante la kapon:</p>
+
+		<p><q rend="- ">Ne, tio estas sekreto.</q></p>
+
+		<p>Ŝi levis sian sulkiĝintan fingron al la buŝo kaj ripetis:</p>
+
+		<p><q rend="- ">Ne, tio estas sekreto.</q></p>
+
+		<p>Sed la gesto faligis la volvaĵon, kiu ruliĝis de la genuoj sur la 
+		truplenan plankon. Ŝi provis altiri ĝin per la fadeno, sed vane.</p>
+
+		<p>La princo levis ĝin kaj donis al ŝi. La maljunulino salte leviĝis de 
+		la benko kaj refaris profundan riverencon.</p>
+
+		<p><q rend="- ">Mi dankas vian princan moŝton&elipse; Via princa moŝto penis por mi&elipse; mi 
+		dankas&elipse;</q></p>
+
+		<p>La princo staris apogita al la balkona kolono. La sulko sur lia 
+		frunto pli profundiĝis, la vangoj ruĝiĝis. Li demandis:</p>
+
+		<p><q rend="- ">Ĉu vi opinias, ke estos malfacile al mi trovi la novan loĝejon de 
+		Wygrycz&elipse; se mi serĉus?</q></p>
+
+		<p>Ŝi kunmetis siajn mallongajn, dikajn fingrojn kaj diris:</p>
+
+		<p><q rend="- ">Al via princa moŝto ĉio estas facila&elipse; Kiam oni posedas tiajn 
+		rimedojn kaj povon! Via princa moŝto tuj trovus la loĝejon, sed&elipse;</q></p>
+
+		<p>Ŝi malice ridetis.</p>
+
+		<p><q rend="- ">Sed via princa moŝto ne serĉos.</q></p>
+
+		<p>La princo sendube estis observema homo, ĉar eĉ la maljunulinon li 
+		rigardis atente. Krome, ŝia kufo ornamita per puntoj rememorigis al li 
+		multon. Dufoje li vidis ĝin en la manoj de Klaro.</p>
+
+		<p>Li krucigis la manojn sur la brusto kaj demandis:</p>
+
+		<p><q rend="- ">Kio donas al vi la certecon, ke mi ne serĉos?</q></p>
+
+		<p>La maljunulino ekpalpebrumis por siaj senharaj palpebroj kaj 
+		respondis:</p>
+
+		<p><q rend="- ">Ĉar via princa moŝto estas bona&elipse; mi tion vidas. Eh, eh, mi manĝis 
+		panon ne el unu forno, mi vidis multajn princojn kaj grafojn dum mia 
+		juneco, kiam mi estis ĉambristino en riĉaj domoj. Mi ĉion divenas per 
+		plej malgranda bagatelo. Ekzistas diversaj princoj, kiel ekzistas 
+		diversaj simplaj homoj. Sed via princa moŝto estas bona. Bagatelo 
+		montris tion al mi: via princa moŝto levis de la tero mian volvaĵon, via 
+		princa moŝto estimas maljunecon. Ekzistas multaj princoj kaj simplaj 
+		homoj, nur imagantaj, ke ili estas princoj, kiuj neniam farus tion por 
+		simpla maljunulino. Via princa moŝto havas bonan koron kaj scias 
+		respekti, kion ordonis respekti Dio kaj la homoj. Tion montras al mi via 
+		nobla vizaĝo, via agrabla parolado kaj&elipse; la volvaĵo.</q></p>
+
+		<p>Ŝi amike, bonkore ekridis.</p>
+
+		<p>La princo staris kun mallevita kapo:</p>
+
+		<p><q rend="- ">Via opinio tre flatas min&elipse; sed mi tre dezirus scii, kiamaniere 
+		fariĝis la <foreign lang="fr">chassé-croisé</foreign>? kio estis la kaŭzo? Kiu postulis?</q></p>
+
+		<p>La maljunulino rapide skuis la kapon.</p>
+
+		<p><q rend="- ">Mi komprenas, mi komprenas! Ŝi postulis tion, ŝi mem&elipse; Ŝi alkuris 
+		al mi hieraŭ el la preĝejo, kie ŝi preĝis la tutan matenon, kaj sin 
+		ĵetinte al miaj piedoj, rakontis al mi ĉion&elipse; Al kiu ŝi povus konfesi 
+		tion krom mi? Mi lulis ŝian patrinon kaj ŝin mem sur miaj brakoj. 
+		Ĉirkaŭprenante miajn genuojn, ŝi petis: <q rend='""'>Ekloĝu tie, avinjo, kaj ni 
+		transloĝiĝos en vian loĝejon&elipse; ĝis&elipse;</q> Via princa moŝto komprenas? <q rend='" '>Sed,</q> 
+		&dash; aldonis ŝi &dash; <q rend=' "'>mi ne parolos pri ĉi tio kun la patro, ĉar oni devas 
+		paroli kun li malvarmasange, kaj mi ne povus fari tion&elipse;</q> Mi do iris mem 
+		kaj mi ĉion rakontis al sinjoro Teofilo, klarigis, proponis: Li estas 
+		prudenta homo. Li komprenis kaj konsentis, li eĉ dankis min. Kiam Klaro 
+		revenis hejmen, li kisis ŝin kaj iom riproĉis&elipse; nur iom&elipse; Nokte li multe 
+		tusis, sed la tuso pasos, pasos. Hodiaŭ frumatene mi transportigis ĉiujn 
+		miajn vestaĵojn kaj meblojn ĉi tien kaj iliajn en mian loĝejon. Kaj jen 
+		mi estas. Mi diris ĉion al via princa moŝto, ĉar mi devis tion fari. Oni 
+		ne ĉiam estas estro de la propra koro, ĉu oni estas princo, ĉu vilaĝano. 
+		Kiam la koro doloras, ĝi doloras, kruele do estus lasi doloron en 
+		malcerteco. Mi ĉion diris al via princa moŝto.</q></p>
+
+		<p>La princo longe silentis. Lia vizaĝo estis nun severa, pala. Fine, 
+		levinte la kapon, li demandis:</p>
+
+		<p><q rend="- ">Ĉu vi konsentus, ke mi vidu ĉi tie lastfoje fraŭlinon Klaron en via 
+		ĉeesto?</q></p>
+
+		<p>Larmoj aperis en la bluaj okuloj de la maljunulino. Levante al li 
+		sian sulkiĝintan, rozan vizaĝon, ŝi flustris:</p>
+
+		<p><q rend="- ">Via princa moŝto, mi estas orfino kaj zorgas pri orfoj&elipse; kvankam 
+		tre malriĉa&elipse;</q></p>
+
+		<p>Subite, la kato en sia blanka kaj flava vesto, kiu ĵus vekiĝis kaj 
+		oscedis post la dolĉa dormo, saltis sur la genuojn de sia sinjorino. Ĝia 
+		petolo faligis teren la volvaĵon kaj la kato mem implikiĝis en la 
+		fadenoj.</p>
+
+		<p><q rend="--">For!</q> ekkriis sinjorino Dutkiewicz, <q rend='- '>for! sur la kusenon! Sur la 
+		kusenon!</q></p>
+
+		<p>Per la naztuko, per kiu ŝi estis viŝonta la okulojn, ŝi ekbatis la 
+		katon, kiu desaltis de ŝiaj genuoj kaj tiris post si la ŝtrumpon, 
+		trikilon kaj fadenojn. Sed neniu interesiĝis pri la sorto de la ŝtrumpo 
+		kaj de la piedoj de la kompatinda kato. La princo staris nun tute 
+		proksime de la maljunulino, kiu volis fini la interrompitan frazon:</p>
+
+		<p><q rend="- ">Kvankam tre malriĉa&elipse;</q></p>
+
+		<p><q rend="- ">Ne finu, sinjorino! Ĉion, kion vi povus diri pri fraŭlino Klaro, mi 
+		scias, kaj eble eĉ pli multe, ol vi. Ĉu vi konsentos diri kelke da 
+		vortoj de mi al fraŭlino Klaro?</q></p>
+
+		<p>Sinjorino Dutkiewicz momenton rigardis lin per siaj palpebrumantaj 
+		okuloj.</p>
+
+		<p><q rend="- ">Ĉu via princa moŝto serĉos ŝin?</q></p>
+
+		<p>Li silentis, mallevinte la kapon. Post momento li diris:</p>
+
+		<p><q rend="- ">Mi ne serĉos ŝin.</q></p>
+
+		<p><q rend="--">Honora vorto princa?</q> ŝi demandis.</p>
+
+		<p>Li tre paliĝis. Li terure suferis, li ja bruligis post si la pontojn. 
+		Post mallonga silento, li respondis:</p>
+
+		<p><q rend="- ">Honora vorto de honesta homo.</q></p>
+
+		<p>La vizaĝo de la maljunulino ekbrilis de ĝojo.</p>
+
+		<p><q rend="- ">Nun mi aŭskultas vian princan moŝton. Oni ne ĉiam estas estro de la 
+		propra koro, kaj kiam ĝi doloras, ĝi doloras&elipse; Se oni povas verŝi sur 
+		ĝin guton da balzamo, kial ne fari tion? Kion via princa moŝto ordonos 
+		diri al ŝi?</q></p>
+
+		<p><q rend="- ">Diru al fraŭlino Klaro, ke miaj agoj estis nek ŝerco, nek kaprico&elipse; 
+		En la komenco tio estis simpatio, kaj poste amo kaj respekto, &dash; respekto 
+		al ŝia senmakula pureco kaj nobla animo&elipse; Diru al ŝi, ke pro ĉi tiu 
+		respekto mi rezignas mian amon, ke neniu disiĝo, &dash; kaj nur Dio scias, 
+		kiom da ili mi travivis! &dash; tiel malfeliĉigis min, ke mi deziras, ke la 
+		memoro pri mi&elipse;</q></p>
+
+		<p>La voĉo mankis al li, en liaj okuloj ekbrilis larmoj.</p>
+
+		<p><q rend="--">Mi havas la honoron saluti vin,</q> li diris kaj rapide foriris.</p>
+
+		<p>La maljunulino rapide leviĝis kaj faris du riverencojn, ree montrante 
+		la blankajn ŝtrumpojn. Poste ŝi eksidis sur la benko, almetis tukon al 
+		la okuloj kaj ekploris. La kato en la blanka kaj flava vesto, ne povante 
+		liberigi la piedojn el la fadenoj, sidis kune kun la ŝtrumpo, trikiloj 
+		kaj volvaĵo sur la alia fino de la balkono kaj petege rigardante sian 
+		sinjorinon, miaŭis.</p>
+
+		<p>En la palaco la vicon de salonoj jam lumigis lampoj kaj kandelaroj.</p>
+
+		<p>Princo Oskaro, enirante en sian luksan kabineton, sin turnis al 
+		Benedikto, kiu sekvis lin.</p>
+
+		<p><q rend="- ">Ĉu Jozefo, la ĉambristo, jam estas eksigita?</q></p>
+
+		<p>Benedikto konfuziĝis;</p>
+
+		<p><q rend="- ">Ankoraŭ ne, via princa moŝto&elipse; La knabo ploras kaj petegas&elipse;</q></p>
+
+		<p><q rend="- ">Li restu.</q></p>
+
+		<p>Li pensis: <q rend='""'>Ĉu tio estis lia kulpo?</q></p>
+
+		<p><q rend="- ">Petu sinjoron Przyjemski, ke li venu.</q></p>
+
+		<p>Per rapidaj paŝoj li promenis en la granda ĉambro, en, kiun post 
+		kelkaj minutoj enkuris viro tridekjara, nigrahara, malalta, kun saĝaj 
+		okuloj, vivaj movoj, kun maltima, gaja mieno.</p>
+
+		<p><q rend="- ">Vi alvokis min. Ĉu ni ludos aŭ skribos?</q></p>
+
+		<p>La princo haltis antaŭ li.</p>
+
+		<p><q rend="- ">Bona ideo, mia kara! Freneziga doloro turmentas min de la piedoj 
+		ĝis la kapo, kaj vi proponas al mi ludadon aŭ skribadon!&elipse; Jen kial mi 
+		alvokis vin&elipse; morgaŭ ni veturos en la kamparon&elipse; volu hodiaŭ aranĝi 
+		ĉiujn aferojn kun intendantoj, advokatoj k. t. p. Se ili volos paroli 
+		kun mi, ili venu tien. Ĉi tie mi ne povas resti, mi ne povas! Mi bezonas 
+		aeron, ŝanĝon, forgeson. Mi volas ankaŭ, ke ŝi povu reveni en la lokon, 
+		kiun ŝi amas&elipse; Faru do por mi oferon, lasu la fraŭlinojn Perkowski kaj 
+		veturu kun mi&elipse; Sed se vi ne volas forlasi la urbon, restu, sed tute 
+		sola tie mi freneziĝus de malespero&elipse;</q></p>
+
+		<p>Przyjemski eksidis sur apogseĝo kaj iom ŝerce diris:</p>
+
+		<p><q rend="- ">Ĉu efektive via malespero estas tiel granda?</q></p>
+
+		<p>La princo ree haltis antaŭ li kaj respondis:</p>
+
+		<p><q rend="- ">Ne ŝercu, Julio. Mi estas trafita pli profunde, ol mi mem pensis. 
+		Mi suferas, kiel kondamnito. </q></p>
+
+		<p>Przyjemski fariĝis serioza.</p>
+
+		<p><q rend="- ">En tia okazo, tio tre ĉagrenas min. La fraŭlinoj Perkowski estas 
+		malsaĝaj kaj afektemaj kreaĵoj, kiujn mi forlasos kun plezuro, kaj mi 
+		estas preta veturi morgaŭ kun vi. Sed mi neniam supozus, ke la momentoj, 
+		kiujn vi pasigis sub mia nomo, tiel tragedie finiĝos. </q></p>
+
+		<p>La princo eksplodis.</p>
+
+		<p><q rend="- ">Mia Julio, sola vi scias, kion mi pensas pri la homoj. Ili estas aŭ 
+		flatuloj, aŭ ventoflagoj, aŭ sendankaj&elipse;</q></p>
+
+		<p><q rend="--">Mi multfoje aŭdis tion,</q> interrompis Przyjemski.</p>
+
+		<p><q rend="- ">Ankaŭ la virinoj: ili estas aŭ malsaĝaj kaj enuigaj, aŭ amuzaj kaj 
+		malĉastaj: aŭ en ilia korpo loĝas samtempe du spiritoj: ĉiela kaj infera.</q></p>
+
+		<p><q rend="- ">Ankaŭ ĉi tion mi aŭdis. </q></p>
+
+		<p><q rend="- ">La vivo estas unu granda sensencaĵo. Dum la homo kredas, li estas 
+		feliĉa, sed li estas infano. Ekzistas homoj kiuj restas infanoj la tutan 
+		vivon. Sed tiuj, kiuj perdis iluziojn?&elipse; Se ĉio estas mensogo, erariga 
+		ombro, efemero&elipse; </q></p>
+
+		<p><q rend="- ">Mi aŭdas pri tio tre ofte. </q></p>
+
+		<p><q rend="- ">Sed ĉi tie mi trovis, kion mi ĉesis kredi. Mi trovis tion en ŝi kaj 
+		en la ŝiaj&elipse; Eĉ en la vidvino de la veterinaro estas io, io tia&elipse;!</q></p>
+
+		<p><q rend="--">Kia vidvino? de kiu veterinaro?</q> ekmiris Przyjemski.</p>
+
+		<p><q rend='- '>Vi ne konas 
+		ŝin, tio estas indiferenta! Sed en ili estas io tia!&elipse; Kaj ŝi, ŝi&elipse;</q></p>
+
+		<p>Kun nova eksplodo li ekkriis:</p>
+
+		<p><q rend="- ">Julio, ŝi ŝutis perlojn en mian animon! Kaj kiel ĉarma ŝi estas!&elipse; 
+		Ŝi ne estas perfekte bela, sed mi ne donus cent belulinojn por ŝia 
+		simpla, modesta ĉarmo&elipse; por ŝiaj oraj okuloj!&elipse; por ŝia dolĉa rideto!&elipse;</q></p>
+
+		<p>Li mallevis la brakojn kaj sin ĵetis sur apogseĝon.</p>
+
+		<p><q rend="- ">Sed, sed <q rend='""'>ŝi flugis per sonĝo la ora!</q></q></p>
+
+		<p>Li kovris la okulojn per la manoj kaj eksilentis. Przyjemski, la gaja 
+		Przyjemski, serioze ekmeditis.</p>
+
+		<p><q rend="--">Serioza do estas la afero!</q> li diris mallaŭte kaj fariĝis pli kaj 
+		pli malgaja.</p>
+
+		<p>Post momenta konsidero li leviĝis, proksimiĝis al sia nobla amiko kaj 
+		komencis paroli per konsola voĉo:</p>
+
+		<p><q rend="- ">Retrovu ŝin! La afero estas facila&elipse; en tiel malgranda urbo.</q></p>
+
+		<p>La princo levis la kapon kaj fikse lin rigardis.</p>
+
+		<p><q rend="--">Por kio?</q> li diris, <q rend='- '>ŝin eĉ por miliono vi ne aĉetos, eĉ miliono 
+		ne konsolos ŝin&elipse;</q></p>
+
+		<p><q rend="- ">Pardonu min, princo: Mia konsilo estis malbona. Ĝi estis diktita de 
+		mia kompato al vi pro viaj suferoj.</q></p>
+
+		<p>Nun Przyjemski komencis kuri en la ĉambro; li tiris siajn nigrajn 
+		lipharojn, pensis, fine haltis antaŭ la amiko.</p>
+
+		<p><q rend="--">Kio do?</q> komencis li ŝanceliĝante. <q rend='- '>Kion fari? Vi vane serĉis ĝis 
+		nun veran amon, feliĉon, celon k. t. p. Vi kredas, ke vi trovis ĉion ĉi 
+		en la knabino, kiun ni serĉos unu, du tagojn&elipse; Mi tion prenas sur min. 
+		Mi trovos ŝian novan loĝejon, kaj edziĝu kun ŝi?</q></p>
+
+		<p>Princo Oskaro levis la kapon kaj rigardis lin kvazaŭ ne kredante al 
+		la propraj oreloj.</p>
+
+		<p><q rend="- ">Kion vi diris?</q></p>
+
+		<p><q rend="--">Vi edziĝu kun ŝi!</q> ripetis sentime Przyjemski.</p>
+
+		<p>La vizaĝo de la princo komencis rapide ŝanĝiĝi, ĝis subite rido 
+		eksplodis en la luksa ĉambro.</p>
+
+		<p><q rend="--">Ha, ha, ha, ha! Ha, ha, ha, ha! </q></p>
+
+		<p>Per voĉo, interrompata de la rido, la princo diris:</p>
+
+		<p><q rend="--">Bonega vi estas, kara Julio, bonega! Mi pensis, ke mi mortos de 
+		ĉagreno, sed vi, ha, ha, ha! vi ridigus mortinton, ha, ha, ha! </q></p>
+
+		<p>Li eltiris naztukon el la poŝo, levis ĝin al la okuloj kaj ridis tiel 
+		forte, ke la rido similis ploregon.</p>
+
+		<p><q rend="--">Ha, ha, ha! Ha, ha!</q></p>
+
+      </div>
+    </body>
+  </text>
+	  
+</TEI.2>
