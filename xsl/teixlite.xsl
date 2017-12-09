@@ -1,7 +1,8 @@
 <!DOCTYPE xsl:stylesheet 
 [
-<!ENTITY leftquot '"'>
-<!ENTITY rightquot '"'>
+<!ENTITY leftquot '&#x201e;'>
+<!ENTITY rightquot '&#x201c;'>
+
 <!ENTITY dash  "&#x2015;">
 <!ENTITY nbsp "&#x00a0;">
 
@@ -93,7 +94,7 @@ konvenciojn:
      <link title="stilo" type="text/css" rel="stylesheet"
      href="../css/{$stylesheet}" />
      <title>
-     <xsl:call-template name="table-of-content-head"/>
+     <xsl:call-template name="subdoc-title"/>
      </title>
    </head>
    <body background="../bld/papero.jpg">
@@ -227,6 +228,10 @@ konvenciojn:
     </li>
   </xsl:for-each>
   </ul>
+</xsl:template>
+
+<xsl:template name="subdoc-title">
+   <xsl:value-of select="(.//head)[1]"/>
 </xsl:template>
 
 <xsl:template name="table-of-content-head">

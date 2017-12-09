@@ -27,9 +27,12 @@
 
 ]>
 
-<!-- $Id: esenco.xml,v 1.2 2007/01/24 20:20:53 revo Exp $ -->
+<!-- $Id: esenco.xml,v 1.3 2017/04/07 06:08:18 revo Exp $ -->
 <!-- 
   $Log: esenco.xml,v $
+  Revision 1.3  2017/04/07 06:08:18  revo
+  korekto en jugxistoj 8:32
+
   Revision 1.2  2007/01/24 20:20:53  revo
   prilaboretis verkoliston
 
@@ -56,7 +59,7 @@
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id: esenco.xml,v 1.2 2007/01/24 20:20:53 revo Exp $</edition>
+      <edition>$Id: esenco.xml,v 1.3 2017/04/07 06:08:18 revo Exp $</edition>
     </editionStmt>
     <extent>112 kB</extent>
     <publicationStmt>

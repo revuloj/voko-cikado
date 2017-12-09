@@ -25,9 +25,12 @@
 
 ]>
 
-<!-- $Id: homaranismo.xml,v 1.2 2016/10/25 17:37:59 revo Exp $ -->
+<!-- $Id: homaranismo.xml,v 1.3 2017/11/21 20:59:23 revo Exp $ -->
 <!-- 
   $Log: homaranismo.xml,v $
+  Revision 1.3  2017/11/21 20:59:23  revo
+  korektis XSL pri homaranismo kaj poemoj
+
   Revision 1.2  2016/10/25 17:37:59  revo
   teixlite-igis peomojn de Zam
 
@@ -41,19 +44,15 @@
 
   <fileDesc>
     <titleStmt>
-      <title>Paroladoj</title>
+      <title>Pri Homaranismo</title>
       <author>L. L. Zamenhof</author>
-      <respStmt>
-        <resp>registritaj de</resp>
-        <name>HIROTAKA Masaaki</name>
-      </respStmt>
       <respStmt>
         <resp>adaptitaj al TEI de</resp>
         <name>Wolfram DIESTEL</name>
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id: homaranismo.xml,v 1.2 2016/10/25 17:37:59 revo Exp $</edition>
+      <edition>$Id: homaranismo.xml,v 1.3 2017/11/21 20:59:23 revo Exp $</edition>
     </editionStmt>
     <extent>104 kB</extent>
     <publicationStmt>
@@ -434,7 +433,7 @@ rondetoj.
 
 <!-- ##############  Aldono al la "Dogmoj de Hilelismo"  ############## -->
 
-    <text rend="doc" id="hilelismo_2">
+    <text type="article" rend="doc" id="hilelismo_2">
       <front>
         <docTitle>
           <titlePart>
@@ -484,7 +483,7 @@ interparolado en ili estas precipe en la lingvo neŭtrale-homa.
 
 <!-- ##############  Homaranismo  ############## -->
 
-    <text rend="doc" id="homaranismo_1">
+    <text  type="article" rend="doc" id="homaranismo_1">
       <front>
         <docTitle>
           <titlePart>
@@ -779,7 +778,7 @@ iu el la gazetoj, kiuj estas eldonata en la lingvo internacia</p>
 
 <!-- ##############  El la mondo homarana (hilelista).   ############## -->
 
-    <text rend="doc" id="homaranismo_2">
+    <text  type="article" rend="doc" id="homaranismo_2">
       <front>
         <docTitle>
           <titlePart>
@@ -848,7 +847,7 @@ Varsovio.</p>
 
 <!-- ##############   Pri la homaranismo   ############## -->
 
-    <text rend="doc" id="homaranismo_3">
+    <text type="article" rend="doc" id="homaranismo_3">
       <front>
         <docTitle>
           <titlePart>
@@ -1137,7 +1136,7 @@ batalos kontraŭ la volo de Tiu, al kiu vi ĉiam sincere kaj honeste servis.
 
 <!-- ##############  Nefermita letero al s-ro de Beaufront.    ############## -->
 
-    <text rend="doc" id="homaranismo_4">
+    <text type="article" rend="doc" id="homaranismo_4">
       <front>
         <docTitle>
           <titlePart>
@@ -1254,7 +1253,7 @@ fervojon por iaj celoj "utopiaj".
 
 <!-- ##############  Kion Zamenhof ne povis diri en Ĝenevo.     ############## -->
 
-    <text rend="doc" id="homaranismo_5">
+    <text  type="article" rend="doc" id="homaranismo_5">
       <front>
         <docTitle>
           <titlePart>
@@ -1482,7 +1481,7 @@ de l' homaro por eterna ben' efektiviĝos!"
 
 <!-- ##############  Homaranismo     ############## -->
 
-    <text rend="doc" id="homaranismo_6">
+    <text type="article" rend="doc" id="homaranismo_6">
       <front>
         <docTitle>
           <titlePart>

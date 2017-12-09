@@ -1,19 +1,20 @@
-<!DOCTYPE xsl:stylesheet 
+<!DOCTYPE xsl:transform
 [
 <!ENTITY nbsp "&#x00a0;">
 ]>
 
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:xt="http://www.jclark.com/xt"
-                version="1.0"
-                extension-element-prefixes="xt">
+<xsl:transform
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:saxon="http://saxon.sf.net/"
+  version="2.0"
+  extension-element-prefixes="saxon" >
 
 <!--
 
 XSLT-stildifinoj por krei liston de la verkoj.
 
-(c) 2007 che Wolfram DIESTEL
+(c) 2007-2017 che Wolfram DIESTEL
     permesilo GPL 2.0
 
 -->
@@ -24,7 +25,6 @@ XSLT-stildifinoj por krei liston de la verkoj.
 <xsl:output method="html" version="4.0"/>
 
 <xsl:key name="verkoj" match="//verko[autoro]" use="autoro"/>
-
 
 
 <xsl:template match="/">
@@ -80,7 +80,7 @@ XSLT-stildifinoj por krei liston de la verkoj.
        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
        <link title="dokumento-stilo" type="text/css" rel="stylesheet"
           href="css/{$verkostilo}" />
-       <title>Elekto de originalaj kaj tradukitaj esperantlingvoj verkojVerkolisto</title>
+       <title>Elekto de originalaj kaj tradukitaj esperantlingvoj verkoj</title>
      </head>
      <body background="bld/papero.jpg">
        <h1>Elekto de originalaj kaj 
@@ -109,19 +109,25 @@ XSLT-stildifinoj por krei liston de la verkoj.
     </xsl:for-each>
   </ul>
   <ul class="autoroj">
-    <xsl:for-each select="//verko[autoro and count(.|key('verkoj',autoro)[1])=1]">
+    <xsl:for-each-group select="verko" group-by="autoro">
        <xsl:sort select="autoro"/>
-       <li><p class="autoro"><xsl:value-of select="autoro"/>
-
-         <xsl:if test="key('verkoj',autoro)/tradukinto">
+       <li><p class="autoro"><!-- xsl:value-of select="autoro"/-->
+ 
+	 <xsl:variable name="aut">
+	   <xsl:value-of select="current-grouping-key()"/>
+	 </xsl:variable>
+         <xsl:value-of select="$aut"/>
+	   
+         <xsl:if test="tradukinto">
            <span class="trad"><xsl:text> (trad. </xsl:text>
-             <!-- xsl:for-each select="key('verkoj',autoro)" -->
-             <xsl:for-each select="(key('verkoj',autoro)/tradukinto)[1]">
+
+             <!-- xsl:for-each select="(key('verkoj',autoro)/tradukinto)" -->
+             <xsl:for-each select="distinct-values(//verko[autoro=$aut]/tradukinto)">
                <xsl:value-of select="."/>
-               <!-- xsl:value-of select="tradukinto"/>
-               <xsl:if test="position != last()">
+               <!-- xsl:value-of select="tradukinto"/ -->
+               <xsl:if test="position() != last()">
                  <xsl:text>, </xsl:text>
-               </xsl:if -->
+               </xsl:if> 
              </xsl:for-each>
            
              <xsl:text>)</xsl:text>
@@ -136,7 +142,7 @@ XSLT-stildifinoj por krei liston de la verkoj.
          </xsl:for-each>
          </ul>
        </li>
-    </xsl:for-each>
+    </xsl:for-each-group>
   </ul>
 </xsl:template>
 
@@ -147,4 +153,4 @@ XSLT-stildifinoj por krei liston de la verkoj.
 
 
 
-</xsl:stylesheet>
+</xsl:transform>

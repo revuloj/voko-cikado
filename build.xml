@@ -13,6 +13,15 @@
    <property name="epub" location="epub"/>
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
 
+   <property name="saxon" location="${ENV.SAXONJAR}"/>
+   <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
+      tial difinu mediovariablon CLASSPATH aldonante la Saxon-arkivon antau voki Formikon -->
+   <path id="saxon.classpath">
+     <pathelement location="${saxon}"/>
+     <pathelement location="${v.voko.ant}/respiro.jar"/>
+     <pathelement path="${java.class.path}"/>
+   </path>
+   
    <target name="preparo">
      <tstamp/>
      <tstamp>
@@ -345,6 +354,17 @@
       </java>
    </target>
 
+   <target name="fumejo" description="kreas HTML-paghojn el fumejo.xml">
+     <exec executable="${bin}/xml2html.pl" logError="true">
+       <arg value="fumejo"/>
+     </exec>
+   </target>
+
+   <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
+     <exec executable="${bin}/xml2html.pl" logError="true">
+       <arg value="interrompita"/>
+     </exec>
+   </target>
 
 
    <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
@@ -353,13 +373,34 @@
       </exec>
    </target>
 
+  <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="poemoj"/>
+	 <arg value="teixlite"/>
+      </exec>
+   </target>
+
+   <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
+      <exec executable="${bin}/xml2html.pl" logError="true">
+        <arg value="homaranismo"/>
+      </exec>
+   </target>
+
+
+   
+
    <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
      <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
        logError="true">
      </exec>
 
      <xslt in="${tmp}/verkolisto.xml" out="verkoj.html"
-           style="${xsl}/verkolisto.xsl"/>
+           style="${xsl}/verkolisto.xsl"
+           classpathref="saxon.classpath">
+
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     
    </target>
 
 

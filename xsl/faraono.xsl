@@ -13,9 +13,9 @@
 
 <!--
 
-XSLT-stildifinoj por fabeloj*.tei (Fabeloj de H.C. Andersen). 
-Ghi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
-specialajn regulojn ne au alie difinitajn tie.
+XSLT-stildifinoj por faraono*.xml (La Faraono). 
+Ĝi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
+specialajn regulojn ne aŭ alie difinitajn tie.
 
 (c) 2001 che Wolfram DIESTEL
     licenco GPL 2.0

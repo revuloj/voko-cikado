@@ -45,6 +45,7 @@ while ($file = readdir DIR) {
 		my $name=<FILE>;
 		if ($name=~/<name>(.*?)<\/name>/) {
 		    $translator = $1;
+		    $translator =~ s/\(.*?\)//;
 		}
 	    }
 
