@@ -12,7 +12,8 @@
    <property name="xsl-epub" location="xsl/epub"/>
    <property name="epub" location="epub"/>
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
-
+   <property name="html-celo" location="steloj.de"/>
+   
    <property name="saxon" location="${ENV.SAXONJAR}"/>
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
       tial difinu mediovariablon CLASSPATH aldonante la Saxon-arkivon antau voki Formikon -->
@@ -30,6 +31,8 @@
       <tstamp>
          <format property="pub.time" pattern="HH:mm:ss"/>
       </tstamp>
+      <mkdir dir="${html-celo}" />
+      <mkdir dir="${tmp}" />
    </target>
 
    <target name="biblio" description="kreas HTML-paghojn el biblio.xml">

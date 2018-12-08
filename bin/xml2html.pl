@@ -7,6 +7,7 @@ $XSL = "/home/revo/verkoj/bin/xslt.sh";
 $XSL2 = "/usr/local/bin/xsltproc";
 $XSL_DIR = "$BASE_DIR/xsl";
 $XML_DIR = "$BASE_DIR/xml";
+$HTML_DIR = "steloj.de";
 
 if (not $ARGV[0] or $ARGV[0] eq '-h' or $ARGV[0] eq '--help') {
     help_screen();
@@ -17,7 +18,6 @@ $stilo = shift @ARGV;
 
 $stilo = $verko unless ($stilo);
 
-
 unless (-f "$XSL_DIR/$stilo.xsl") {
     die "Ne ekzistas stildosiero \"$XSL_DIR/$stilo.xsl\"\n";
 }
@@ -26,8 +26,8 @@ unless (-f "$XML_DIR/$verko.xml") {
     die "Ne ekzistas verkodosiero \"$XML_DIR/$verko.xml\"\n";
 }
 
-mkdir($verko);
-chdir($verko);
+mkdir("$HTML_DIR/$verko");
+chdir("$HTML_DIR/$verko");
 #if ($verko eq 'fundamento') {
 	print "${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.html\n";
 	`${XSL} $XML_DIR/$verko.xml $XSL_DIR/$stilo.xsl > index.html`; 
