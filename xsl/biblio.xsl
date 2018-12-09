@@ -26,6 +26,9 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:import href="teixlite.xsl"/>
 
+<xsl:variable name="content_level1" select="'chapter'"/>
+<xsl:variable name="content_level2" select="'subchapter'"/>
+
 <xsl:variable name="stylesheet">biblio.css</xsl:variable>
 <xsl:variable name="titolbildo">../bld/biblio/lumo.jpg</xsl:variable>
 

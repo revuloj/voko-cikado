@@ -24,6 +24,8 @@ enhavas mem nur la dokument-specifajn regulojn.
 <xsl:import href="teixlite.xsl"/>
 <xsl:variable name="content_level1" select="'article'"/>
 
+<xsl:variable name="content_level2" select="'subchapter'"/>
+
 
 
 </xsl:stylesheet>

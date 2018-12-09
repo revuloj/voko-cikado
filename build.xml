@@ -112,7 +112,7 @@
 
   <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
      <xslt in="${xml}/poemoj.xml" out="${celo}/poemoj/index.html"
-       style="${xsl}/teixlite.xsl"/>
+       style="${xsl}/teixlite_default.xsl"/>
    </target>
 
    <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">

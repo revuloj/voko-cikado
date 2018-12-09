@@ -161,8 +161,7 @@ specialajn regulojn ne au alie difinitajn tie.
  
     <xsl:when test="self::text">
       <div class="header">
-      <xsl:for-each select="(preceding-sibling::text[@rend='doc']
-      | div[@id='antparol'])[last()]"> 
+      <xsl:for-each select="(preceding-sibling::text[@rend='doc'] | ./div[@id='antparol']) [last()]"> 
         <span class="header_left">
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
@@ -298,7 +297,7 @@ specialajn regulojn ne au alie difinitajn tie.
   </center>
   <hr/>
   <ul>
-    <xsl:for-each select="div[@type='chapter']">
+    <xsl:for-each select="./div[@type='chapter']">
       <li class="content"><a href="{@id}.html">
         <xsl:value-of select="head"/>
       </a></li>
@@ -315,7 +314,7 @@ specialajn regulojn ne au alie difinitajn tie.
   </center>
   <hr/>
   <p align="center">
-    <xsl:for-each select="div[@type='section']">
+    <xsl:for-each select="./div[@type='section']">
       <a href="ekz_{@n}.html">&para; <xsl:value-of select="@n"/></a>
       <xsl:text>, </xsl:text>
     </xsl:for-each>
@@ -350,7 +349,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="text[@id='univort']/body">
   <p align="center">
-    <xsl:for-each select="div[@type='letter']">
+    <xsl:for-each select="./div[@type='letter']">
       <a href="uv_{@n}.html"><xsl:value-of select="head"/></a>
       <xsl:if test="not(@n='Z')">
         <xsl:text>, </xsl:text>
@@ -358,8 +357,8 @@ specialajn regulojn ne au alie difinitajn tie.
     </xsl:for-each>
   </p>
   <hr/>
-  <xsl:apply-templates select="div[@type='section']"/>
-  <xsl:apply-templates select="div[@type='letter']"/>	
+  <xsl:apply-templates select="./div[@type='section']"/>
+  <xsl:apply-templates select="./div[@type='letter']"/>	
 </xsl:template>
 
 <xsl:template match="text[@id='univort']/body/div[@type='section']/p">

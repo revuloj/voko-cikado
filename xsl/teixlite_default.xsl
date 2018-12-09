@@ -2,8 +2,8 @@
 [
   <!ENTITY Ccirc  "&#x0108;">
   <!ENTITY dash "&#x2015;">
-  <!ENTITY leftquot '&#x201e;'>
-  <!ENTITY rightquot '&#x201c;'>
+  <!ENTITY leftquot '"'>
+  <!ENTITY rightquot '"'>
 ]>
 
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
@@ -13,35 +13,19 @@
 
 <!--
 
-XSLT-stildifinoj por interrompitax.ml (La interrompita kanto). 
+XSLT-stildifinoj por fumejo.xml (La fumejo de l'opio). 
 Ĝi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
 specialajn regulojn ne aŭ alie difinitajn tie.
 
-(c) 2017 che Wolfram DIESTEL
+(c) 2017-2018 ĉe Wolfram DIESTEL
     licenco GPL 2.0
 
 -->
 
+
 <xsl:import href="teixlite.xsl"/>
 
-<xsl:variable name="content_level1" select="'chapter'"/>
+<xsl:variable name="content_level1" select="'part'"/>
 <xsl:variable name="content_level2" select="'subchapter'"/>
 
-
-<xsl:template match="note">
-  [<i><xsl:apply-templates/></i>]
-</xsl:template>
-
-
 </xsl:stylesheet>
-
-
-
-
-
-
-
-
-
-
-

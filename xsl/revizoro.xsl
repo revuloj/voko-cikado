@@ -16,6 +16,8 @@ specialajn regulojn ne au alie difinitajn tie.
  
 <xsl:import href="teixlite.xsl"/>
 <xsl:variable name="content_level1" select="'act'"/>
+<xsl:variable name="content_level2" select="'xxx'"/>
+
 
 </xsl:stylesheet> 
 

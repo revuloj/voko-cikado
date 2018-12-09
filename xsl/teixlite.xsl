@@ -509,7 +509,7 @@ konvenciojn:
   <p class="sp"><xsl:apply-templates/></p>
 </xsl:template>
 
-<xsl:template match="sp/p[position()=1]">
+<xsl:template match="sp/p[position()=1]" priority="1">
 <xsl:apply-templates/>
 </xsl:template>
 

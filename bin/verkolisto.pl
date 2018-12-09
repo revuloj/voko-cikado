@@ -41,12 +41,12 @@ while ($file = readdir DIR) {
 	while (<FILE>) {
 	    if (/<title>(.*)<\/title>/) { $title = $1 unless $title; }
 	    elsif (/<author>(.*)<\/author>/) { $author = $1 unless $author; }
-	    elsif (/<resp>.*tradukis.*<\/resp>/) {
-		my $name=<FILE>;
-		if ($name=~/<name>(.*?)<\/name>/) {
-		    $translator = $1;
-		    $translator =~ s/\(.*?\)//;
-		}
+			elsif (/<resp>.*tradukis.*<\/resp>/) {
+			my $name=<FILE>;
+			if ($name=~/<name>(.*?)<\/name>/) {
+				$translator = $1;
+				$translator =~ s/\(.*?\)//;
+			}
 	    }
 
 
