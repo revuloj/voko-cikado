@@ -12,7 +12,7 @@
    <property name="xsl-epub" location="xsl/epub"/>
    <property name="epub" location="epub"/>
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
-   <property name="html-celo" location="steloj.de"/>
+   <property name="celo" location="steloj.de"/>
    
    <property name="saxon" location="${ENV.SAXONJAR}"/>
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
@@ -23,6 +23,7 @@
      <pathelement path="${java.class.path}"/>
    </path>
    
+
    <target name="preparo">
      <tstamp/>
      <tstamp>
@@ -31,28 +32,87 @@
       <tstamp>
          <format property="pub.time" pattern="HH:mm:ss"/>
       </tstamp>
-      <mkdir dir="${html-celo}" />
+
+      <mkdir dir="${celo}" />
       <mkdir dir="${tmp}" />
+
+      <copy todir="${celo}/css">
+        <fileset dir="css" includes="*.css"/>
+      </copy>
+
+      <copy todir="${celo}/bld">
+        <fileset dir="bld" includes="*.jpg"/>
+      </copy>
    </target>
 
+
+   <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
+     <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
+       logError="true">
+     </exec>
+
+     <xslt in="${tmp}/verkolisto.xml" out="verkoj.html"
+           style="${xsl}/verkolisto.xsl"
+           classpathref="saxon.classpath">
+
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+     </xslt>
+     
+   </target>
+
+
    <target name="biblio" description="kreas HTML-paghojn el biblio.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="biblio"/>
-      </exec>
+    <copy todir="${celo}/bld/biblio">
+        <fileset dir="bld/biblio" includes="*.jpg"/>
+    </copy>
+    <xslt in="${xml}/biblio.xml" out="${celo}/biblio/index.html"
+       style="${xsl}/biblio.xsl"/>
    </target>
 
    <target name="merkato" description="kreas HTML-paghojn el merkato.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="merkato"/>
-      </exec>
+    <xslt in="${xml}/merkato.xml" out="${celo}/merkato/index.html"
+       style="${xsl}/merkato.xsl"/>
    </target>
 
-   <target name="fundamento-html" description="kreas HTML-paghojn el fundamento.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="fundamento"/>
-      </exec>
+   <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
+     <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/index.html"
+       style="${xsl}/fundamento.xsl"/>
    </target>
 
+
+   <target name="fumejo" description="kreas HTML-paĝojn el fumejo.xml">
+    <mkdir dir="${celo}/fumejo"/>
+    <copy todir="${celo}/bld/fumejo">
+        <fileset dir="bld/fumejo" includes="*.jpg"/>
+    </copy>
+    <xslt in="${xml}/fumejo.xml" out="${celo}/fumejo/index.html"
+       style="${xsl}/fumejo.xsl"/>
+   </target>
+
+   <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
+     <mkdir dir="${celo}/interrompita"/>
+     <xslt in="${xml}/interrompita.xml" out="${celo}/interrompita/index.html"
+       style="${xsl}/interrompita.xsl"/>
+   </target>
+
+   <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
+     <mkdir dir="${celo}/butiko"/>
+     <copy todir="${celo}/bld/butiko">
+        <fileset dir="bld/butiko" includes="*.*"/>
+     </copy>
+     <xslt in="${xml}/butiko.xml" out="${celo}/butiko/index.html"
+       style="${xsl}/butiko.xsl"/>
+   </target>
+
+  <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
+     <xslt in="${xml}/poemoj.xml" out="${celo}/poemoj/index.html"
+       style="${xsl}/teixlite.xsl"/>
+   </target>
+
+   <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
+     <xslt in="${xml}/homaranismo.xml" out="${celo}/homaranismo/index.html"
+       style="${xsl}/homaranismo.xsl"/>
+   </target>
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
       <property name="dir" location="fundamento-epub"/>
@@ -312,7 +372,7 @@
       <zip destfile="${destino}.mimetype"
 	   compress="false"
 	   encoding="UTF-8">
-	<fileset dir="${dir}" includes="mimetype" />
+      	<fileset dir="${dir}" includes="mimetype" />
       </zip>
 
       <zip destfile="${destino}.zip" 
@@ -331,8 +391,8 @@
 
 
       <zip destfile="${destino}" update="true" keepcompression="true" encoding="UTF-8">
-	<zipfileset src="${destino}.mimetype" />
-	<zipfileset src="${destino}.zip" />
+        <zipfileset src="${destino}.mimetype" />
+        <zipfileset src="${destino}.zip" />
       </zip>
 
       <delete file="${destino}.mimetype" />
@@ -357,54 +417,7 @@
       </java>
    </target>
 
-   <target name="fumejo" description="kreas HTML-paghojn el fumejo.xml">
-     <exec executable="${bin}/xml2html.pl" logError="true">
-       <arg value="fumejo"/>
-     </exec>
-   </target>
 
-   <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
-     <exec executable="${bin}/xml2html.pl" logError="true">
-       <arg value="interrompita"/>
-     </exec>
-   </target>
-
-
-   <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="butiko"/>
-      </exec>
-   </target>
-
-  <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="poemoj"/>
-	 <arg value="teixlite"/>
-      </exec>
-   </target>
-
-   <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
-      <exec executable="${bin}/xml2html.pl" logError="true">
-        <arg value="homaranismo"/>
-      </exec>
-   </target>
-
-
-   
-
-   <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
-     <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
-       logError="true">
-     </exec>
-
-     <xslt in="${tmp}/verkolisto.xml" out="verkoj.html"
-           style="${xsl}/verkolisto.xsl"
-           classpathref="saxon.classpath">
-
-       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-     </xslt>
-     
-   </target>
 
 
 </project>

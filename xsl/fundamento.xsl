@@ -63,7 +63,9 @@ specialajn regulojn ne au alie difinitajn tie.
   <ul class="content">
     <li class="content">esperanta indekso &dash; &gcirc;i ne apartenas
       al la Fundamento, sed faciligas trovi ion en &gcirc;i:<br/>
-      <xsl:call-template name="wordindex" select="/"/>
+      <xsl:for-each select="/">
+        <xsl:call-template name="wordindex"/>
+      </xsl:for-each>
     </li>
   </ul>
   <hr/>
@@ -76,7 +78,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <h3 class="contentTitle">Enhavo</h3>
   <ul class="content">
-  <xsl:for-each select=".//div[@type=$level1]|.//text[@type=$level1]">
+  <xsl:for-each select=".//div[@type=$level1]|.//text[@rend='doc']">
 
     <xsl:variable name="ref">
       <xsl:choose>
@@ -322,7 +324,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="text[@id='ekz']//div[@type='section']">
-  <xt:document method="html" href="ekz_{@n}.html">	
+  <xsl:result-document method="html" href="ekz_{@n}.html">	
   <html>
    <head>
      <link title="stilo" type="text/css" rel="stylesheet"
@@ -340,7 +342,7 @@ specialajn regulojn ne au alie difinitajn tie.
      <xsl:call-template name="footer"/>
    </body>
   </html>
-  </xt:document>
+  </xsl:result-document>
 </xsl:template>
 
 
@@ -368,7 +370,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="text[@id='univort']//div[@type='letter']">
-  <xt:document method="html" href="uv_{@n}.html">	
+  <xsl:result-document method="html" href="uv_{@n}.html">	
   <html>
    <head>
      <link title="stilo" type="text/css" rel="stylesheet"
@@ -381,7 +383,7 @@ specialajn regulojn ne au alie difinitajn tie.
      <xsl:call-template name="footer"/>
    </body>
   </html>
-  </xt:document>
+  </xsl:result-document>
 </xsl:template>
 
 
@@ -454,7 +456,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:apply-templates/>
 </xsl:template>
 
-<xsl:template match="div[@id='antparol']/list[@rend='1.']/item[@n]">
+<xsl:template match="div[@id='antparol']/list[@rend='1.']/item[@n]" priority="1">
   <p class="p">
   <xsl:value-of select="@n"/>. 
   <xsl:apply-templates/>
@@ -482,6 +484,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <strong>
   <a name="{generate-id()}"/>
   <xsl:apply-templates/>
+  <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
 
@@ -496,6 +499,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <strong>
   <a name="{generate-id()}"/>
   <xsl:apply-templates/>
+  <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
 
@@ -514,6 +518,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template match="list[@type='deriv']/label">
   <strong>
   <xsl:apply-templates/>
+  <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
 
@@ -561,16 +566,16 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <!-- elektu por chiu litero unu reprezentanton -->
   <xsl:for-each select=
-        "(//list[@type='dict']/label |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo'])
+    "(//list[@type='dict']/label |
+	    //emph[@lang='eo'] | 
+	    //hi[@lang='eo'])
 	    [count(.|key('eoletters',
 	    translate(substring(.,1,1),
     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU'))[1])=1]">
 
        <!-- ordigu ilin -->
-       <xsl:sort lang="eo"/>
+       <xsl:sort lang="eo" case-order="upper-first" />
       
        <xsl:call-template name="letter"/>
  
@@ -606,7 +611,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>U, &Ubreve;</xsl:text>
       </xsl:when>
       <xsl:when test="$firstletter='X'">
-        aliaj
+        <xsl:text>specialaj</xsl:text>
       </xsl:when>
       <xsl:otherwise>
         <xsl:value-of select="$firstletter"/>
@@ -622,7 +627,7 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:text>, </xsl:text>
   </xsl:if>
 
- <xt:document method="html" href="vortinx_{$firstletter}.html"> 
+ <xsl:result-document method="html" href="vortinx_{$firstletter}.html"> 
    <html>
      <head>
        <title>ea vortindekso, litero <xsl:value-of
@@ -643,11 +648,11 @@ specialajn regulojn ne au alie difinitajn tie.
          <!-- ordigu ilin -->
          <xsl:sort lang="eo"/> 
          <!-- kaj listigu nun -->
-         <xsl:call-template name="entry" mode="inx"/>
+         <xsl:call-template name="entry"/>
     </xsl:for-each> 
   </body>
   </html>
-  </xt:document>
+  </xsl:result-document>
 </xsl:template>
 
 <xsl:template name="indexheader">
@@ -661,16 +666,16 @@ specialajn regulojn ne au alie difinitajn tie.
   </div>
 </xsl:template>
 
-<xsl:template name="entry" mode="inx">
+<xsl:template name="entry">
   <strong>
     <xsl:apply-templates/>:
   </strong>
   <xsl:for-each select="key('eowords',.)">
-     <xsl:call-template name="ref" mode="inx"/>
+     <xsl:call-template name="ref"/>
   </xsl:for-each><br/>
 </xsl:template>
 
-<xsl:template name="ref" mode="inx">
+<xsl:template name="ref">
   <a>
 
   <xsl:choose>

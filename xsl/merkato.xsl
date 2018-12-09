@@ -13,20 +13,28 @@ specialajn regulojn ne au alie difinitajn tie.
     licenco GPL 2.0
  
 -->
- 
-<xsl:import href="teixlite.xsl"/>
+
 
 <!-- metu subchapitrojn en la indekson, sed ne faru apartan
      dosieron por ili -->
 
+
+<xsl:import href="teixlite.xsl"/>
+
 <xsl:variable name="content_level1" select="'chapter'"/>
 <xsl:variable name="content_level2" select="'subchapter'"/>
+
 
 <!-- aspekto de la subchapitroj -->
 
 <xsl:template match="div[@type='subchapter']/head">
   <h4 class="subhead"><xsl:apply-templates/></h4>
 </xsl:template>
+
+<xsl:template match="div[@type='subchapter']/head" mode="index">
+  <span class="toc-subhead"><xsl:apply-templates/></span>
+</xsl:template>
+
 
 <xsl:template match="docImprint"/>
 

@@ -44,7 +44,7 @@ match="/TEI.2/text//titlePart[@type='main']">
 
 <xsl:template match="div[@type='chapter' or @type='psalm']">
   <div class='dist_chapter'></div>
-  <h3 class='chapternr'><xsl:value-of select="@n"/></h3>
+  <h3 class='chapternr'> <xsl:value-of select="@n"/></h3>
   <xsl:apply-templates/>
 </xsl:template>
 
@@ -64,14 +64,14 @@ match="/TEI.2/text//titlePart[@type='main']">
 <!-- normalaj alineoj unua kaj pluaj -->
 
 <xsl:template match="lg[(@type='para') and not (@rend='indent') and 
-	      (position()=1)]">
+	      (position()=1)]" priority="1">
   <p class='first_p'>
   <xsl:apply-templates/>
   </p>
 </xsl:template>
 
 <xsl:template match="lg[(@type='para') and not (@rend='indent') and 
-	      (position()>1)]">
+	      (position()>1)]" priority="1">
   <p class='p'>
   <xsl:apply-templates/>
   </p>
@@ -83,7 +83,7 @@ match="/TEI.2/text//titlePart[@type='main']">
 
 <xsl:template match="l">
   <xsl:if test="not (@rend='cont')">
-    <em class='versenr'><xsl:value-of select="@n"/></em>
+    <em class='versenr'><xsl:text> </xsl:text><xsl:value-of select="@n"/></em>
     <xsl:text> </xsl:text>
   </xsl:if>
   <xsl:apply-templates/>
@@ -91,7 +91,7 @@ match="/TEI.2/text//titlePart[@type='main']">
 
 <!-- poemecaj alineoj -->
 
-<xsl:template match="lg[(@rend='indent') and (position()=1)]/l[position()=1]">
+<xsl:template match="lg[(@rend='indent') and (position()=1)]/l[position()=1]" priority="1">
   <p class='indent_first'>
   <xsl:apply-templates/>
   </p>
@@ -128,12 +128,6 @@ match="/TEI.2/text//titlePart[@type='main']">
 </xsl:template>
 
 <xsl:template match="lg[@rend='indent']/l/lb[position()=last()]"/>
-
-<xsl:template match="lg/head">
-  <h4 class='stanza_head'>
-  <xsl:apply-templates/>
-  </h4>
-</xsl:template>
 
 <xsl:template match="hi[@rend='sela']">
   <span class="sela"><xsl:apply-templates/></span>

@@ -17,7 +17,7 @@ XSLT-stildifinoj por fumejo.xml (La fumejo de l'opio).
 Ĝi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
 specialajn regulojn ne aŭ alie difinitajn tie.
 
-(c) 2017 che Wolfram DIESTEL
+(c) 2017-2018 ĉe Wolfram DIESTEL
     licenco GPL 2.0
 
 -->
@@ -51,6 +51,7 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:template match="note">
   [<i><xsl:apply-templates/></i>]
 </xsl:template>
+
 
 
 </xsl:stylesheet>

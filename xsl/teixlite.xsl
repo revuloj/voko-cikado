@@ -41,8 +41,27 @@ konvenciojn:
 <!-- kelkaj variabloj -->
 
 <xsl:variable name="stylesheet">teixlite.css</xsl:variable>
-<xsl:variable name="content_level1" select="'chapter'"/>
-<xsl:variable name="content_level2" select="'subchapter'"/>
+<xsl:variable name="_content_level1">
+  <xsl:choose>
+    <xsl:when test="$content_level1">
+      <xsl:value-of select="$content_level1"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="'chapter'"/>
+      </xsl:otherwise>
+    </xsl:choose>
+</xsl:variable>
+
+<xsl:variable name="_content_level2">
+  <xsl:choose>
+    <xsl:when test="$content_level2">
+      <xsl:value-of select="$content_level2"/>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:value-of select="'subchapter'"/>
+      </xsl:otherwise>
+    </xsl:choose>
+</xsl:variable>
 
 <!-- dokumento -->
 
@@ -60,15 +79,34 @@ konvenciojn:
   </html>
 </xsl:template>
 
+<xsl:template match="TEI.2">
+    <xsl:apply-templates select="*[not(self::teiHeader)]"/>
+    <xsl:apply-templates select="teiHeader"/>
+</xsl:template>
+
 <!-- teiHeader -->
+<xsl:template match="teiHeader">
+  <xsl:for-each select="//edition">
+     <xsl:variable name="file">
+        <xsl:value-of select="substring-before(substring-after(.,'$Id: '),',v')"/>
+     </xsl:variable>
+     <hr/>
+     <address>
+       fonto: <a href="https://github.com/revuloj/verkoj/tree/master/xml/{$file}">
+         <xsl:value-of select="$file"/>
+       </a>
+       <!-- xsl:value-of select="substring-before(substring-after(.,',v'),' revo')"/ -->
+     </address>
+  </xsl:for-each>
+</xsl:template>
 
 
 <!-- subtekstoj kaj subdividoj -->
 
 <xsl:template match="text[@rend='doc']|div[@rend='doc']">
-  <xt:document method="html" version="4.0" encoding="utf-8" href="{@id}.html">
+  <xsl:result-document method="html" encoding="utf-8" href="{@id}.html">
     <xsl:call-template name="subdoc"/>
-  </xt:document>
+  </xsl:result-document>
 </xsl:template>
 
 <xsl:template match="text|div">
@@ -104,8 +142,6 @@ konvenciojn:
    </body>
   </html>
 </xsl:template>
-
-<xsl:template match="teiHeader"/>
 
 <!-- kap- kaj piedlinioj -->
 
@@ -157,8 +193,8 @@ konvenciojn:
   <xsl:if test="@rend='index'">
     <xsl:for-each select="..">
       <xsl:call-template name="table-of-content">
-        <xsl:with-param name="level1" select="$content_level1"/>
-        <xsl:with-param name="level2" select="$content_level2"/>
+        <xsl:with-param name="level1" select="$_content_level1"/>
+        <xsl:with-param name="level2" select="$_content_level2"/>
       </xsl:call-template>
     </xsl:for-each>
     <hr/>
@@ -235,7 +271,7 @@ konvenciojn:
 </xsl:template>
 
 <xsl:template name="table-of-content-head">
-   <xsl:apply-templates select="(.//head)[1]"/>
+   <xsl:apply-templates select="(.//head)[1]" mode="index"/>
 </xsl:template>
 
 <xsl:template match="titlePage">
@@ -374,7 +410,7 @@ konvenciojn:
   </strong>
 </xsl:template>
 
-<xsl:template match="hi[@rend='italic']|title[@rend='italic']">
+<xsl:template match="hi[@rend='italic']|title[@rend='italic']" priority="1">
   <i>
   <xsl:apply-templates/>
   </i>
