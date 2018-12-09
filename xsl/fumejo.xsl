@@ -25,6 +25,9 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 
 <xsl:import href="teixlite.xsl"/>
 
+<xsl:variable name="content_level1" select="'part'"/>
+<xsl:variable name="content_level2" select="'subchapter'"/>
+
 <xsl:variable name="titolbildo">../bld/fumejo/fumejo_ant.jpg</xsl:variable>
 <xsl:variable name="fonbildo">../bld/fumejo/fumejo_fon.jpg</xsl:variable>
 

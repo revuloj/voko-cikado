@@ -45,18 +45,28 @@
       </copy>
    </target>
 
+   <target name="klasikaj-verkoj"
+    depends="preparo,biblio,fundamento,fumejo,interrompita,butiko,poemoj,homaranismo,revizoro,kadro">
+   </target>
 
    <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
+   <!--
      <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
        logError="true">
-     </exec>
+     </exec>-->
 
-     <xslt in="${tmp}/verkolisto.xml" out="verkoj.html"
+    <xslt out="${tmp}/verkolisto.xml" in="${xml}/fumejo.xml"
+           style="${xsl}/verkolisto_prep.xsl"
+           classpathref="saxon.classpath">
+       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+    </xslt>
+
+    <xslt in="${tmp}/verkolisto.xml" out="${celo}/index.html"
            style="${xsl}/verkolisto.xsl"
            classpathref="saxon.classpath">
 
        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
-     </xslt>
+    </xslt>
      
    </target>
 
@@ -69,10 +79,6 @@
        style="${xsl}/biblio.xsl"/>
    </target>
 
-   <target name="merkato" description="kreas HTML-paghojn el merkato.xml">
-    <xslt in="${xml}/merkato.xml" out="${celo}/merkato/index.html"
-       style="${xsl}/merkato.xsl"/>
-   </target>
 
    <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
      <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/index.html"
@@ -112,6 +118,11 @@
    <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
      <xslt in="${xml}/homaranismo.xml" out="${celo}/homaranismo/index.html"
        style="${xsl}/homaranismo.xsl"/>
+   </target>
+
+   <target name="revizoro" description="kreas HTML-paghojn el revizoro.xml">
+     <xslt in="${xml}/revizoro.xml" out="${celo}/revizoro/index.html"
+       style="${xsl}/revizoro.xsl"/>
    </target>
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
@@ -163,6 +174,11 @@
          <arg value="${destino}"/>
       </java>
 
+   </target>
+
+   <target name="merkato" description="kreas HTML-paghojn el merkato.xml">
+    <xslt in="${xml}/merkato.xml" out="${celo}/merkato/index.html"
+       style="${xsl}/merkato.xsl"/>
    </target>
 
 
