@@ -27,7 +27,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level2" select="'xxxx'"/>
 
 <xsl:template match="body">
-  <xsl:apply-templates select="div[@type='foreword']"/>
+  <xsl:apply-templates select="./div[@type='foreword']"/>
 
   <hr/>
   <xsl:call-template name="table-of-content">
@@ -36,8 +36,8 @@ specialajn regulojn ne au alie difinitajn tie.
   </xsl:call-template>
   <hr/>
 
-  <xsl:apply-templates select="div[@type='poem']"/>
-  <xsl:apply-templates select="div[@type='epilog']"/>
+  <xsl:apply-templates select="./div[@type='poem']"/>
+  <xsl:apply-templates select="./div[@type='epilog']"/>
 </xsl:template>
 
 

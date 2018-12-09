@@ -40,9 +40,11 @@ ADD . /home/cikado
 
 CMD ["swipl",\
     "-s","/home/cikado/pro/cikado-servo.pl",\
-    "-g","daemon","-t","halt",\
-    "-p","agordo=/home/cikado/etc","--",\
-    "--workers=10","--user=revo","--port=8081","--no-fork"]
+    "-g","cikado:daemon","-t","halt","--",\
+    "--workers=10","--port=8081","--no-fork"]
 
-# kosntruo:
+# konstruo:
 # docker build -t cikado .
+#
+# kuro
+# docker run cikado
