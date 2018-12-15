@@ -17,6 +17,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:import href="teixlite.xsl"/>
 
 <xsl:variable name="content_level1" select="'story'"/>
+<xsl:variable name="content_level2" select="'xxx'"/>
 
 <xsl:template match="title[@type='head']">
   <h4><xsl:apply-templates/></h4>

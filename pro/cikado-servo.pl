@@ -2,6 +2,7 @@
 :- module(cikado,
 	  [ server/1			% +Port
 	  ]).
+
 :- use_module(library(http/thread_httpd)).
 :- use_module(library(http/http_dispatch)).
 :- use_module(library(http/http_server_files)).
@@ -38,9 +39,8 @@
 :- use_module(ekzfnt).
 
 :- debug(http(request)).
-:- debug(sercho(what)).
-:- debug(sercho(stats)).
-%:- debug(openid(_)).
+:- debug(cikado(what)).
+:- debug(cikado(stats)).
 
 :- initialization(init).
 :- initialization(help,main).
@@ -53,6 +53,7 @@ http_cit_host('cikado').
 http_cit_port(8000).
 http_cit_scheme(http).
 http_session_timeout(3600).
+
 
 init :-
     set_prolog_flag(encoding,utf8),
@@ -73,22 +74,24 @@ init :-
 	cookie(redaktilo_seanco),
 	timeout(Timeout),
 	path(AppRoot)
-	])
-    .
+    ]),
+    
+    assert(user:file_search_path('html','../steloj.de'))
+    . 
     % la lokaj dosierujoj el kiuj servi dosierojn
 %    assert(user:file_search_path(web,WebDir)),
 %    assert(user:file_search_path(static,web(static)))
 %    assert(user:file_search_path(voko,VokoDir)),
 
 	  
-%%http:location(cit,root(cit),[]).
+http:location(verkoj,root(verkoj),[]).
+:- http_handler(verkoj(.), reply_static_files, [prefix]).
 
-% redirect from / to /citajhoj/, when behind a proxy, this is a task for the proxy
-:- http_handler('/', http_redirect(moved,root(.)),[]).
+% redirect from / to /verkoj/, when behind a proxy, this is a task for the proxy
+:- http_handler('/', http_redirect(moved,root(html)),[]).
+
 %%:- http_handler(root(.), http_redirect(moved,root('cit/')),[]).
 %:- http_handler(cit(.), reply_files, [prefix,authentication(openid)]).
-%:- http_handler(static(.), reply_static_files, [prefix]).
-
 %:- http_handler(red(revo_bibliogr), revo_bibliogr, []).
 :- http_handler(root(cikado), citajho_sercho, []). %[authentication(ajaxid)]).
 
@@ -133,43 +136,26 @@ reply_files(Request) :-
     
     debug(redaktilo(request),'handler reply_files',[]),
     http_reply_from_files(web(.), [indexes(['redaktilo.html'])], Request).
+**/
 
 reply_static_files(Request) :-
     % ne protektitaj publikaj dosieroj
-    debug(redaktilo(request),'handler reply_static_files',[]),
-    http_reply_from_files(static(.), [indexes(['notoj-pri-versio.html'])], Request).
-***/
+    debug(cikado(request),'handler reply_static_files',[]),
+    http_reply_from_files(html(.), [indexes(['index.html'])], Request).
 
 citajho_sercho(Request) :-
 %%    ajax_auth(Request),
-    debug(redaktilo(auth),'permesite',[]),
+    %debug(cikado(auth),'permesite',[]),
     http_parameters(Request,
 	    [
 	    sercho(Sercho, [length>1,length<500]),
-	    kie(Kie, [oneof([vikipedio,anaso,klasikaj,postaj])]) 
+	    kie(Kie, [oneof([klasikaj,postaj])]) 
 	    ]),
     sercho(Kie,Sercho).
 
 
-% API doc: https://en.wikipedia.org/w/api.php?action=help&modules=query%2Bsearch
-% &gsrprop=snippet - ne funkcias aŭ sama kiel extract?
-% PRIPENSU: ekskludu riskajn signojn el serĉo: &, ?, / (?)
-
-sercho(vikipedio,Sercho) :-    
-    debug(sercho(what),'>>> VIKIPEDIO: ~w',[Sercho]),
-    uri_encoded(query_value,Sercho,SerchoEnc),
-    UrlBase = 'https://eo.wikipedia.org/w/api.php?format=json&action=query&generator=search&gsrnamespace=0&gsrlimit=50&prop=extracts&exintro&explaintext&exsentences=1&exlimit=max',
-    format(atom(Url),'~w&gsrsearch=~w',[UrlBase,SerchoEnc]),
-    % Url= 'http://eo.wikipedia.org/w/api.php?action=query&list=search&format=json&indexpageids=true&prop=info&inprop=url&srsearch=homo&srnamespace=0&srprop=snippet&srlimit=16',
-    time(http_open(Url,Stream,[])),
-    format('Content-type: application/json~n~n'),
-    copy_stream_data(Stream,current_output),
-    close(Stream),
-    debug(sercho(what),'<<< VIKIPEDIO: ~w',[Sercho]) .
-
-
 sercho(klasikaj,Sercho) :-
-    debug(sercho(what),'>>> KLASIKAJ: ~w',[Sercho]),
+    debug(cikado(what),'>>> KLASIKAJ: ~w',[Sercho]),
     (sub_atom(Sercho,_,1,_,' '), sub_atom(Sercho,3,1,_,_)
       ->
 %	  show_stats,
@@ -179,10 +165,11 @@ sercho(klasikaj,Sercho) :-
       ;
       findfast(50,klasikaj,Sercho,Json)),
     reply_json(Json),
-    debug(sercho(what),'<<< KLASIKAJ: ~w',[Sercho]) .
+    debug(cikado(what),'<<< KLASIKAJ: ~w',[Sercho]) .
+
 
 sercho(postaj,Sercho) :-
-    debug(sercho(what),'>>> POSTAJ: ~w',[Sercho]),
+    debug(cikado(what),'>>> POSTAJ: ~w',[Sercho]),
     (sub_atom(Sercho,_,1,_,' '), sub_atom(Sercho,3,1,_,_)
       ->
 %	  show_stats,
@@ -192,20 +179,4 @@ sercho(postaj,Sercho) :-
       ;
       findfast(50,postaj,Sercho,Json)),
     reply_json(Json),
-    debug(sercho(what),'<<< POSTAJ: ~w',[Sercho]).
-
-sercho(anaso,Sercho) :-
-    debug(sercho(what),'>>> ANASO: ~w',[Sercho]),
-    uri_encoded(query_value,Sercho,SerchoEnc),
-    UrlBase = 'https://duckduckgo.com/lite?ia=web&dl=eo',
-    format(atom(Url),'~w&q=~w+kaj+la',[UrlBase,SerchoEnc]),
-    time(http_open(Url,Stream,[])),
-    format('Content-type: text/html~n~n'),
-    set_stream(Stream,encoding(utf8)),
-    set_stream(current_output,encoding(utf8)),
-    copy_stream_data(Stream,current_output),
-    close(Stream),
-    debug(sercho(what),'<<< ANASO: ~w',[Sercho]).
-
-
-
+    debug(cikado(what),'<<< POSTAJ: ~w',[Sercho]).

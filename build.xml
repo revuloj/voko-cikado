@@ -45,8 +45,19 @@
       </copy>
    </target>
 
+<!--
+voku ekz-e:
+
+  CLASSPATH=/usr/share/java/Saxon-HE.jar ant klasikaj-verkoj
+
+-->
+
    <target name="klasikaj-verkoj"
-    depends="preparo,biblio,fundamento,fumejo,interrompita,butiko,poemoj,homaranismo,revizoro,kadro">
+    depends="preparo,
+      biblio,fundamento,faraono,gfabeloj,fabeloj,
+      fumejo,interrompita,butiko,revizoro,marta,
+      paroloj,poemoj,homaranismo,esenco,proverb,
+      kadro">
    </target>
 
    <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
@@ -80,11 +91,40 @@
    </target>
 
 
+   <target name="esenco" description="kreas HTML-paghojn el esenco.xml">
+     <xslt in="${xml}/esenco.xml" out="${celo}/esenco/index.html"
+       style="${xsl}/esenco.xsl"/>
+   </target>
+
    <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
      <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/index.html"
        style="${xsl}/fundamento.xsl"/>
    </target>
 
+   <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
+     <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
+       style="${xsl}/faraono.xsl"/>
+     <xslt in="${xml}/faraono2.xml" out="${celo}/faraono2/index.html"
+       style="${xsl}/faraono.xsl"/>
+     <xslt in="${xml}/faraono3.xml" out="${celo}/faraono3/index.html"
+       style="${xsl}/faraono.xsl"/>
+   </target>
+
+  <target name="fabeloj" description="kreas HTML-paghojn el fabeloj?.xml">
+     <xslt in="${xml}/fabeloj1.xml" out="${celo}/fabeloj1/index.html"
+       style="${xsl}/fabeloj.xsl"/>
+     <xslt in="${xml}/fabeloj2.xml" out="${celo}/fabeloj2/index.html"
+       style="${xsl}/fabeloj.xsl"/>
+     <xslt in="${xml}/fabeloj3.xml" out="${celo}/fabeloj3/index.html"
+       style="${xsl}/fabeloj.xsl"/>
+     <xslt in="${xml}/fabeloj4.xml" out="${celo}/fabeloj4/index.html"
+       style="${xsl}/fabeloj.xsl"/>
+   </target>
+
+  <target name="gfabeloj" description="kreas HTML-paghojn el gfabeloj.xml">
+     <xslt in="${xml}/gfabeloj.xml" out="${celo}/gfabeloj/index.html"
+       style="${xsl}/gfabeloj.xsl"/>
+   </target>
 
    <target name="fumejo" description="kreas HTML-paĝojn el fumejo.xml">
     <mkdir dir="${celo}/fumejo"/>
@@ -96,9 +136,13 @@
    </target>
 
    <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
-     <mkdir dir="${celo}/interrompita"/>
      <xslt in="${xml}/interrompita.xml" out="${celo}/interrompita/index.html"
        style="${xsl}/interrompita.xsl"/>
+   </target>
+
+  <target name="marta" description="kreas HTML-paghojn el marta.xml">
+     <xslt in="${xml}/marta.xml" out="${celo}/marta/index.html"
+       style="${xsl}/marta.xsl"/>
    </target>
 
    <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
@@ -108,6 +152,16 @@
      </copy>
      <xslt in="${xml}/butiko.xml" out="${celo}/butiko/index.html"
        style="${xsl}/butiko.xsl"/>
+   </target>
+
+  <target name="paroloj" description="kreas HTML-paghojn el paroloj.xml">
+     <xslt in="${xml}/paroloj.xml" out="${celo}/paroloj/index.html"
+       style="${xsl}/paroloj.xsl"/>
+   </target>
+
+  <target name="proverb" description="kreas HTML-paghojn el proverb.xml">
+     <xslt in="${xml}/proverb.xml" out="${celo}/proverb/index.html"
+       style="${xsl}/proverb.xsl"/>
    </target>
 
   <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">

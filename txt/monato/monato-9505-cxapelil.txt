@@ -1,0 +1,170 @@
+Pro peto de diversaj retanoj, la magazino MONATO cxiumonate afisxas
+kelkajn tekstojn el sia nova numero. Jen prikomputila artikolo el la
+maja numero.
+Por akliri informojn pri MONATO aux por ricevi senpagan
+provnumeron,  skribu al fel@eunet.be aux al CompuServe 100272,1601. 
+======================================================================
+
+
+
+=MONATO-teksto 004560 / Rubr.: komputado
+
+
+WINDOWS
+
+
+Ni levu la cxapelon!
+
+Dum pluraj monatoj aperis en la Esperanto-gazetaro anoncoj pri 
+Cxapelilo 1.0, komerce pretigita tekstoprilaborilo por Esperanto 
+por IBM-kongruaj komputiloj kun mastrumilo Windows 3.0. Jen gxi 
+trovigxas nun sur la testotablo de MONATO, bele enpakita en tri 
+altdensaj diskedoj.
+
+Instali la programon montrigxis esti facilege. Oni simple alklakas 
+la programon INSTALL.EXE, kaj ek gxi iras. La instalado dauxras 
+preskaux duonan horon, sed okazas preskaux komplete auxtomate. Necesas nur 
+enmeti diskedojn 2 kaj 3 en la momento, kiam via komputilo 
+(esperantlingve) petas tion al vi. Fine oni devas permane instali 
+la jam disken auxtomate kopiitajn tiparojn.
+
+Iom da spaco sur via disko ja necesas. La elpakita programo 
+bezonas preskaux 6 megabitokojn.
+
+Post kiam la instalado finigxis, la uzanto havas antaux si tre 
+profesie aspektantan ekranon, kun pluraj pendomenuoj kaj amaseto da 
+butonoj, iom similan al la ekrano de Microsoft Word. Kompreneble 
+la programo estas kaj klavare kaj muse direktebla.
+
+Ampleksa helpsistemo
+
+La unua rimarko de la testantoj estis, ke entute mankas 
+manlibro. Tiu rimarko montrigxis tamen sensenca, cxar Cxapelilo 
+estas provizita per tre ampleksa helpsistemo. En iu ajn momenteto 
+de senespero, oni povas klavi je F1 aux per la muso alklaki la 
+pendomenuon "Helpo". Aperas sur la ekrano ampleksa teksto, en kiu 
+eblas denove alklaki la substrekitajn terminojn por ekhavi ecx pli 
+da informoj, laux la tiel nomata hiperteksta sistemo. La uzantoj de 
+TTT sentos sin hejme en tia medio.
+
+Komputilantoj ankoraux ne tute spertaj pri Esperanto trovos la 
+tekstojn eble iom pezaj. La stilo de auxtoro Pejno Simono, kun 
+multaj kunmetitaj vortoj kaj verboformoj, ja foje povas timigi 
+komencanton. Aliflanke tre pozitive estas, ke ankaux ne-angloj ne 
+havos problemon uzante la helpilojn. Komplete mankas terminoj 
+kiel "fajlo", "drajvo" kaj aliaj esperanglajxoj.
+
+Se tamen la helpiloj ial ne suficxas, eblas cxiam voki la varmegan 
+lineon de Professional Consulting aux sendi elektronikan leteron. 
+Tie oni afable, kaj esperantlingve, vin helpos.
+La helpmenuon la testantoj bezonis por ekscii, kiel klavi la 
+supersignitajn literojn. Post eble unu minuto ili jam lerte 
+tajpis <REG> + c por akiri la literon cx, <REG> + U por atingi Ux, 
+ktp. Al Cxapelilo tamen aldonigxis ankaux senpaga programeto Compose 
+de DEC, per kiu eblas krei aliajn klavokombinojn, kaj per kiu oni 
+povas programi siajn preferatajn klavokombinojn por super- kaj 
+sub-signitaj literoj de aliaj lingvoj. Per Cxapelilo 1.0 ja eblas 
+tajpi plurlingve: La liveritaj esperantaj tiparoj subtenas aldone 
+al Esperanto mem la lingvojn francan, germanan, nederlandan, 
+afrikansan, frisan, italan, hispanan, portugalan kaj kompreneble 
+anglan. Ene de cxapelila dokumento oni povas memkompreneble ankaux 
+uzi aliajn naciajn lingvojn, simple elektante alian ne-esperantan 
+tiparon.
+
+Kun la programo estas provizita amaseto da diversaj litertipoj, 
+ekzemple la senserifaj Svisujo, Metroo kaj Kuriero, la serifaj 
+Tempo kaj Sudo, kaj pluraj frivolaj litertipoj, kiujn eblus uzi 
+por titoloj aux afisxoj, kiel Akrido, Teatro kaj Foiro.
+Cxapelilo estas provizita per potenca literumkontrolilo. Por povi testi 
+gxin, la kunlaborantoj de MONATO unue provis ensxovi jam 
+ekzistantan tekston, faritan per alia "antaux-cxapelila" 
+tekstoprilaborilo. Temis pri teksto, en kiu aperis la kombinoj c 
+kun x anstataux cx, U kun x anstataux Ux kaj simile. Nu, tute ne 
+necesas konverti tian tekston unue. Se via teksto nomigxas 
+HELPU.DOK, simple alinomigu gxin al HELPU.CX kaj importu gxin en 
+Cxapelilon. Auxtomate vi vidos la gxustajn signojn sur la ekrano, kaj 
+vi povos printi ilin same gxuste. Aldone al la .CX-konvertilo 
+Cxapelilo havas kvar aliajn: .CH por la fundamenta tajpmaniero (Chu 
+shi shatas shaumvinon?), .C^ por la grupo c^ kaj ^c, .LT3 por 
+tekstoj laux la ISO-normo Latin-3, kaj .RTF por la 
+dokument-intersxangxformo RTF. Estas provizitaj memkompreneble 
+ankaux similaj eksportaj funkcioj.
+
+Sen sxtoninoj nek malmuroj
+
+La literumkontrolilo funkcias fulmrapide, kiel oni povas atendi 
+de profesia programo. Jen kaj jen mankas vorto en gxi, sed tiun 
+eblas tute facile aldoni al la vortaro. Feministoj eble kun 
+plezuro konstatos, ke ja enestas la vorto "tajpistino", sed ke 
+mankas "tajpisto". Tio tuj klarigas la internan sistemon de la 
+kontrolilo. Gxi ne metas senpripense la sufikson -in post iu ajn 
+radiko, nek la prefikson mal- antaux cxiu substantivo kaj 
+adjektivo. La vortoj "malmuro" kaj "sxtonino", kiujn la testantoj 
+intence enmetis en la tekston, ja estis brave indikitaj kiel 
+malgxustaj de Cxapelilo. La testantoj tamen estis profunde sxokitaj 
+de la fakto, ke la programo rekonis la vortojn "Pejno Simono" 
+kiel pure esperantajn, dum iliajn nomojn gxi ne volis rekoni ... 
+;-)
+Sed ankaux en aliaj, seriozaj okazoj, la kontrolilo portas la 
+stampon de Pejno Simono, la estro de Professional Consulting. La 
+kontrolilo prave akceptas la vorton Belgujo, sed obstinas, ke 
+Belgio estas malgxusta. Cxiujn -io-landojn la uzanto do devos mem 
+aldoni, se tio estas dezirata.
+
+Kiam la literumkontrolilo renkontas malgxustan vorton, ekzistas 
+du procedmanieroj. Oni povas simple tuj korekti gxin, aux oni povas 
+peti al la programo mem sercxi la gxustan formon. En tiu dua okazo 
+gxi prezentas tutan liston da ebloj. Tiu cxi procedmaniero 
+estas tre temporaba kaj supozeble ne estos ofte uzata. Krome 
+ekzistas modalo "kontrolu tajpade", en kiu la tajpanto estas tuj 
+avertita, dum la tajpado, pri malgxusta vorto per komputila 
+blekado.
+
+Por aliaj lingvoj oni povas acxeti kontrolvortaron cxe Professional 
+Consulting, aux oni povas iom post iom mem krei gxin.
+
+Vidate-vidote
+
+Kompreneble ankaux la bazaj funkcioj de tekstoprilaborilo estas 
+troveblaj en Cxapelilo: sercxo kaj anstatauxigo, diversmaniera 
+rektigo, tabeliloj, dikigo, kursivigo, altigo kaj malaltigo, ktp. 
+Kaj cxion, kion vi vidas sur la ekrano, vi vidos poste ankaux sur 
+la papero, laux la konata principo vidate-vidote.
+Trovigxas en Cxapelilo ankaux disadresada sistemo kaj la eblo ensxovi 
+grafikajxojn. La testantoj provis importi fotojn, kaj tio 
+senprobleme kaj tre rapide sukcesis. Cxapelilo povas ensxovi 
+Windows-bitbildojn (.BMP) sed same facile la bildojn kun finajxo 
+.GIF, .PCX, .TIF, .TGA kaj .WMF.
+
+Cxiun programon eblas kompreneble ankoraux plibonigi. Tio validas 
+ankaux por la nuna versio de Cxapelilo. Ekzemple ne eblas nun 
+malfermi per gxi du dosierojn samtempe. Cxu tiu kaj aliaj 
+kapabloj aperos en venontaj versioj, simple dependas de la acxetemo 
+de la esperantistoj. Plibonigo de programo ja kostas investon de 
+tempo kaj mono. Professional Consulting unue devos per 
+vendoj reakiri la investojn por la unua versio, antaux ol gxi povos 
+prezenti ecx pli kompletan varianton. Eventualajn cimojn gxi tamen 
+forigos, kaj la acxetintoj ricevos tiuokaze senpage adaptitan 
+version.
+
+En Esperantujo la vorto "nepra" estas tre ofte uzata. "Nepre 
+kotizu tuj. Nepre abonu nun ..." Nu, nepre unu plian nepron ni uzu 
+cxi-foje. Se vi posedas IBM-komputilon kun la mastrumilo Windows, kaj 
+se vi tajpas Esperanton de tempo al tempo, Cxapelilo estas por vi
+neprajxo. Nepra gxi estas por via propra plezuro. Nepra gxi estas 
+ankaux por la firmeto Professional Consulting, kiu fidis je la 
+esperantistaro kreante tiun produkton. La programo kostas 
+provizore nur 200 markojn (vidu la anoncon aliloke en MONATO), 
+kio vere ne estas multe por tia multfaceta tekstoprilaborilo. Kaj 
+se vi ne jam posedas je Windows, eble nun estas la momento por 
+pripensi ankaux tiun acxeton ...
+
+Ni levu la cxapelon por Cxapelilo ..., nepre!
+
+Paul PEERAERTS
+Bart DEMEYERE 
+
+
+
+
+

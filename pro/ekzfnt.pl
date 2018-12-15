@@ -13,7 +13,7 @@
 :- use_module(library(dcg/basics)).
 %:- use_module(library(readutil)).
 :- use_module(library(isub)).
-:- use_module(tekstaro).
+:- use_module(tekstanalizo).
 
 :- debug(ekzfnt(_)).
 :- debug(sercho(what)).

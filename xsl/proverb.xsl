@@ -17,6 +17,8 @@ specialajn regulojn ne au alie difinitajn tie.
 -->
 
 <xsl:import href="teixlite.xsl"/>
+<xsl:variable name="content_level1" select="'chapter'"/>
+<xsl:variable name="content_level2" select="'subchapter'"/>
 
 <xsl:variable name="stylesheet">proverb.css</xsl:variable>
 

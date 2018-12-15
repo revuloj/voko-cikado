@@ -1,0 +1,93 @@
+STEREOGRAMOJ
+
+La modo de fiksokuloj
+
+Se vi enirus librejon aux superbazaron kaj trovus personon, kiu
+malatentante, fiksokule rigardas buntan sensencan bildon... nu
+bone, ne surprizigxu. Temas pri nova "ludilo" kvazaux amashipnoto,
+al kiu volonte submetas sin junuloj kaj plenkreskuloj, grandagxaj
+sinjoroj kaj plenokupaj dommastrinoj, seriozaj profesiuloj kaj
+senpripensaj adoleskantoj. Tio estas la "manio pri stereogramoj",
+bildoj plenkoloraj kaj sxajne abstraktaj, gxis oni malkovras kiel
+ilin rigardi. Jes ja, cxar el la "sensenca" bildo, misfokusa antaux
+la okuloj, subite eksxprucas scenoj puraj kaj plurkoloraj: floroj,
+vizagxoj, atletoj, bestoj, pejzagxoj, mondmapoj... reliefaj el la
+fundo kaj klare elstarantaj.
+
+Eksplodinte en Japanio en 1992, la pasio pri stereogramoj rapide
+disvastigxis al aliaj landoj. La "fundamento" entenas tri librojn
+kun la titolo Magic Eye (Magia Okulo), dauxre inter la plej
+venditaj libroj en Usono, Auxstralio, Brazilio, Britio, Germanio,
+...
+
+Samkiel multaj aliaj ludiloj kaj kuriozajxoj, ankaux la
+stereogramoj posedas "noblan" historion. Desegnoj kaj fotoj,
+fakte, ne vere "kaptas" la realon, sed "tradukas" scenon
+tridimensian en dudimensian surfacon. Malgraux cxiaj rimedoj de
+perspektivo, la bildo neniam igxas tute "plena". La problemo, jen,
+estas, ke niaj okuloj duas. La nervofibroj elretinaj, fakte,
+interplektigxas tiel, ke la dekstra cerba hemisfero ricevas la
+maldekstran duonon de la bildo, kaj la maldekstra hemisfero la
+duonon dekstran (fig. 1a). La cerbaj hemisferoj, poste, mistere
+"kunfandas" la bildduonojn kaj nin kapabligas vidi ununuran
+solidan mondon cxirkauxe.
+
+En 1833 la angla fizikisto Charles Wheatstone realigis la unuan
+aparaton por imiti la duokulan vidmanieron (fig. 2a). Per la du
+speguloj je rekta angulo en lia "stereoskopo", cxiu okulo ricevas
+unu el la du bildoj, iomete diferencaj, cxe la kontrauxaj flankoj
+de la aparato; la cerbo ilin kunfandas kaj rezultigas unusolan
+tridimensian bildon.
+
+Cent kvindek jarojn poste, la hispana pentristo Salvador Dal<i'> sin
+dedicxis krei kelke da stereoskopaj pentrajxoj; en 1978 la
+vizitantoj de Guggenheim-Muzeo en Nov-Jorko povis proksimigxi al
+paro da grandaj speguloj je 60o, kiuj reflektas du preskaux
+identajn pentrajxojn kun longa titolo: "Dal<i'> eklevas la hauxton de
+Mediteraneo por montri al Gala la naskigxon de Venera"; la
+reflektitaj bildoj kunfandigxas gxis formi ununuran pentrajxon
+imprese tridimensian.
+
+Aliaj postaj eksperimentoj pri vidprocezo kreis "dispecigitajn
+figurojn", en kiuj foje malfacilas identigi la bildotemon (fig.
+3a, 4a, 5a), aux en kiuj vidigxas figuro (ekzemple la blanka
+triangulo en la fig 6a.), kiu desegne reale ne ekzistas.
+Tiaj lastaj eksperimentoj tamen ne multe rilatis al procezo de
+vidado tridimensia. Estis en la 50aj jaroj, ke Bela Julesz,
+esploristo cxe Bell-Laboratorioj en Nov-Jxerzejo, Usono, utiligis
+parojn da perkomputilaj bildoj kaj specialajn okulvitrojn por
+decidi cxu vidiluzioj estigxas en okuloj aux en cerbo. (La rezulto
+sxajnis pruvi la duan hipotezon.) Ekde tiam okulvitroj kun unu
+lenso rugxa kaj la alia verda kelkfoje aperas kiel donacoj en
+revuoj aux kiel kuriozajxoj, tra kiuj eblas admiri apartajn bildojn
+tauxge presitajn por aspekti reliefe.
+
+Grava jaro estis tamen 1979: Iuj Julesz-kolegoj elpensis manieron
+por videbligi nudokule scenojn kasxitajn en bildoj lauxsxajne tute
+abstraktaj kaj "senkulpaj". Naskigxis tiele la stereogramoj,
+realigitaj per preskaux identaj paralelaj strioj de figuroj aux
+punktoj. La grava vorto cxi-koncerne estas kompreneble tiu
+"preskaux": Fakte, en la etaj diferencoj inter sinsekvaj strioj
+"mergigxas" bildo. Por gxin vidi necesas, ke la dekstra okulo fiksu
+unu strion, dum la maldekstra fiksu tiun apudan; iumomente la
+cerbo kombinas la striojn, naskante elstaran bildon.
+Atendante la ebon krei tridimensiajn figurojn per komputilo
+(tauxga programo estas ekzemple la germana "Salitsky Dot"), provu
+vin amuzi per la bildoj cxi-pagxaj (fig. 7a, 8a, 9a). Metu la pagxon
+tusxi vian nazon, tiel ke la stereogramo aspektu plene konfuza;
+iom malstrecxigxu; malfokusigu viajn okulojn kvazaux vi rigardus
+trapapere malapudan objekton, kaj malrapide retroportu la pagxon;
+iumomente al vi sxajnos, ke vi "eniras" la bildon, el kies fundo
+klare elstaros plurebena figuro. Se male nenio okazos, aux vi
+eklarmos, iom ripozu kaj reprovu.
+
+Gianfranco CAZZARO
+
+Fig. 1a. La interplektigxo de nervaj fibroj el retinoj al cerbaj
+hemisferoj.
+Fig. 2a. La "stereoskopo" de Wheatstone.
+Fig. 3a. 4a. 5a. Ekzemploj de "dispecigitaj figuroj" kies temo
+estas foje malfacile identigebla.
+Fig. 6a. La "triangulo de Kanizsa", kie aperas blanka
+neekzistanta triangulo. 
+

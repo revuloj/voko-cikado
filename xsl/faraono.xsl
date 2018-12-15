@@ -24,6 +24,9 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 
 <xsl:import href="teixlite.xsl"/>
 
+<xsl:variable name="content_level1" select="'chapter'"/>
+<xsl:variable name="content_level2" select="'subchapter'"/>
+
 <xsl:template match="q[@who]">
   <i><xsl:value-of select="@who"/>. </i>
   <xsl:text>&dash; </xsl:text>
