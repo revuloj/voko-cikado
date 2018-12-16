@@ -100,7 +100,8 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="figure">
   <p align='center'>
-  <img src="{unparsed-entity-uri(@entity)}" alt="{@entity}" vspace="20"/>
+  <img src="../bld/{substring-after(unparsed-entity-uri(@entity),'/bld/')}" 
+    alt="{@entity}" vspace="20"/>
   </p>
 </xsl:template>
 
