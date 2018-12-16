@@ -48,3 +48,6 @@ CMD ["swipl",\
 #
 # kuro
 # docker run cikado
+#
+# verkoj: http://localhost:8081/ -> /cikado/verkoj/ 
+# serĉo: http://localhost:8081/cikado/cikado?sercho=homoj&kie=klasikaj

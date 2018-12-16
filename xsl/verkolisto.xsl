@@ -103,6 +103,9 @@ XSLT-stildifinoj por krei liston de la verkoj.
 
 <xsl:template match="verkolisto">
   <h1>verkoj</h1>
+  <p>
+    &#x25BA; <a href="sercho.html" target="verko">Serĉo</a> &#x25BA; &#x25BA; &#x25BA; 
+  </p>
   <ul class="senautoraj">
     <xsl:for-each select="verko[not(autoro)]">
         <li><xsl:apply-templates select="titolo"/></li>

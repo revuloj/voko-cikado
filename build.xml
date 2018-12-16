@@ -60,7 +60,7 @@ voku ekz-e:
       kadro">
    </target>
 
-   <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
+  <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
    <!--
      <exec executable="${bin}/verkolisto.pl" output="${tmp}/verkolisto.xml"
        logError="true">
@@ -78,7 +78,10 @@ voku ekz-e:
 
        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
-     
+
+    <copy todir="${celo}">
+      <fileset dir="web" includes="*.*"/>
+    </copy>
    </target>
 
 

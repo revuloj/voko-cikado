@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="eo">
+    
+<!--
+// (c) 2016 - 2018 - Wolfram Diestel
+// laŭ GPL 2.0
+-->
+      
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+    <link rel="stylesheet" href="css/verkotitolo.css"/>
+    <!-- link rel="SHORTCUT ICON" href="../static/revo.ico"-->
+      
+<!-- see https://code.jquery.com/ -->
+
+  <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+     
+  <script
+    src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"
+    integrity="sha256-VazP97ZCwtekAsvgPBSUwPFKdrwD3unUfSGVYrahUqU="
+    crossorigin="anonymous"></script>
+
+
+  <script src="sercho.js"></script>
+
+  <title>Citaĵoserĉo</title>
+  
+</head>
+
+<body background="bld/papero.jpg">
+
+  <h1>Citaĵoserĉo</h1>
+
+  <div id="sercho">
+    <div id="sercho_fono">
+        <form id="sercho_form">
+            <p id="sercho_error" class="ui-state-error ui-corner-all"></p>
+            <p style="margin-top: 0">
+              <input type="text" id="sercho_sercho"
+                 name="sercho" size="60" placeholder="Vorto aŭ frazo serĉenda" />
+              <!-- span id ="sercho_butonoj" class="butonoj"
+                 style="vertical-align: top; font-size: 74%">[blank]</span --> 
+            </p>
+            <p>
+                <input id="s_klasikaj" type="submit" class="ui-button ui-corner-all"
+                    name="sercho_klasikaj_submit" value="Klasikaj tekstoj"/>
+                <input id="s_postaj" type="submit" class="ui-button ui-corner-all"
+                    name="sercho_postaj_submit" value="Postaj tekst
+oj"/>
+            </p>
+        </form>
+        <dl id="sercho_trovoj"></dl>
+    </div>
+  </div>
+
+</body>
+</html>
+

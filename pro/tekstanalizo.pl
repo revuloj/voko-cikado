@@ -1,5 +1,5 @@
 /* -*- Mode: Prolog -*- */
-:- module(tekstanalizo,[
+:- module(tekstaro,[
 	      verkaro/2,
 	      read_all_vrk/0,
 	      read_vrk/1,
