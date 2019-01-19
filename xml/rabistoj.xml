@@ -1,55 +1,116 @@
+<?xml-stylesheet type="text/xml" href="revizoro.xsl"?>
+ 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd"
+[
+ 
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
 
+<!ENTITY uuml "&#x00fc;">
+<!ENTITY Uuml "&#x00dc;">
 
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;">
+]>
+ 
+<!-- $Id -->
+<!--
+  $Log
+-->
+
+<TEI.2>
+<teiHeader>
+
+<!--
 ESPERANTO
 Verkaro de
 D-ro ZAMENHOF
 
 SCHILLER
-
-LA
-RABISTOJ
-
+LA RABISTOJ
 Dramo en kvin aktoj
 
 EL GERMANA LINGVO TRADUKIS
-
 Dro L. L. ZAMENHOF
 
 DUA ELDONO
 
-
 PARIS
-
 ESPERANTISTA CENTRA LIBREJO
-
 51, Rue de Clichy 9e
+-->
   
-------------------
+  <fileDesc>
+    <titleStmt>
+      <title>La rabistoj</title>
+      <subtitle>Dramo en kvin aktoj</subtitle>
+      <author>Friedrich Schiller</author>
+      <respStmt>
+        <resp>el la germana lingvo tradukis</resp> 
+        <name>D-ro L. L. Zamenhof</name>
+      </respStmt>
+      <respStmt>
+        <resp>enkomputiligita de</resp> 
+        <name>Sergio Pokrovskij</name>
+      </respStmt>
+      <respStmt>
+        <resp>adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id$</edition>
+    </editionStmt>
+    <extent>295 kB</extent>
+    <publicationStmt>
+      <publisher>Wolfram DIESTEL</publisher>
 
+      <date>2019</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
 
+  <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto estas publikigita interrete de Wolfram Diestel,
+      adaptita al la TEI-Lite-DTD por enmeti &gcirc;in en bazan tekstaron.
+      </p>
+    </projectDesc>
+  </encodingDesc>
+ 
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<!--  
 LA RABISTOJ
 
---------------------
-
-
-
 COULOMMIERS
-
 Imprimie Paul BROUDARD.
 
----------------
 
 
 FREDERIKO SCHILLER 
-
 LA RABISTOJ
-
 Dramo en kvin aktoj
 
 EL GERMANA LINGVO TRADUKIS
-
- 
-
 Dro L. L. ZAMENHOF
 
 DUA ELDONO
@@ -63,30 +124,56 @@ ESPERANTISTA CENTRA LIBREJO
 
 Tous droits réservés == Represo malpermesata.
 
+-->
 
-PERSONOJ
+<text lang="eo">   
 
-MAKSIMILIANO, grafo de Moor.
-KAROLO ATMANO  |
-FRANCISKO      | liaj filoj.
-AMALIO VON EDELREICH (= fon Edelrajĥ).
-SPIEGELBERG (= Ŝpigelberg)  |libervivuloj, poste rabistoj.
-SCHWEIZER (= Ŝvajcer)       |
-GRIMM                       |
-RAZMANN (= Racman)          |
-SCHUFTERLE (= Ŝufterle)     |
-ROLLER                      |
-KOSINSKY (= Kosinski)       |
-SCHWARZ (= Ŝvarc)           |
-HERMANO, bastardo de nobelo.
-DANIELO, servisto de la grafo de Moor.
-MOSER (= Mozer), pastro.
-Patro-monaĥo.
-Bando da rabistoj.
-Flankaj personoj.
+  <front rend="index">
+    <titlePage>
+      <docAuthor>Frederiko Schiller</docAuthor>
+      <docTitle>
+        <titlePart type="main">
+          La rabistoj
+        </titlePart>
+      </docTitle>
+      <titlePart type="translator">
+         el germana lingvo tradukis <name>D-ro L. L. Zamenhof</name>
+      </titlePart>
+    </titlePage>
 
-La loko de agado estas Germanujo. La tempo — proksimume du jaroj.
+  </front>
 
+  <body>
+
+
+<div type="explainations">
+<stage type="actors">
+
+<table rend="rows">
+  <head>Personoj</head>
+
+  <row><cell>Maksimiliano</cell><cell>grafo de Moor</cell></row>
+  <row><cell>Karolo, Francisko</cell><cell>liaj filoj</cell></row>
+  <row><cell>Amalio von Edelreich (= fon Edelrajĥ)</cell></row>
+  <row><cell>Spiegelberg (= Ŝpigelberg), 
+    Schweizer (= Ŝvajcer) ,
+    Grimm,
+    Razmann (= Racman),
+    Schufterle (= Ŝufterle),
+    Roller,
+    Kosinsky (= Kosinski),
+    Schwarz (= Ŝvarc)</cell><cell>libervivuloj, poste rabistoj</cell></row>
+  <row><cell>Hermano</cell><cell>bastardo de nobelo</cell></row>
+  <row><cell>Danielo</cell><cell>servisto de la grafo de Moor</cell></row>
+  <row><cell>Moser (= Mozer)</cell><cell>pastro</cell></row>
+  <row><cell>Patro-monaĥo</cell></row>
+  <row><cell>Bando da rabistoj</cell></row>
+  <row><cell>Flankaj personoj</cell></row>
+</table>
+
+  <p>La loko de agado estas Germanujo. La tempo — proksimume du jaroj.</p>
+</stage>
+</div>
 
 <!-- p. 5 -->
  
@@ -534,7 +621,7 @@ atingu per forto tion, por kio mankas al mi amindeco!
 tempo, kiam mi en mia Plutarĥo legas pri grandaj homoj.</p></sp>
 
 <sp><speaker>Spiegelberg</speaker><stage>metas glason antaŭ lin kaj trinkas</stage><p>Jozefon vi
-devas legi. </p></sp>
+devas legi.</p></sp>
 
 <sp><speaker>Moor</speaker><p>La hela fajro de Prometeo elbrulis, anstataŭ ĝi oni
 prenas nun la flamon de likopodio, — teatra fajro, kiu ne ekbruligas
@@ -819,7 +906,7 @@ versojn.</p></sp>
 
 <sp><speaker>Razmann</speaker><p>Spiegelberg! He, Spiegelberg! La kanajlo ne aŭdas.</p></sp>
 
-<sp><speaker>Grimm</speaker><stage>skuas lin</stage><p>Homo! ĉu vi sonĝas, aŭ....?
+<sp><speaker>Grimm</speaker><stage>skuas lin</stage><p>Homo! ĉu vi sonĝas, aŭ....?</p></sp>
 
 <sp><speaker>Spiegelberg</speaker><stage>kiu la tutan tempon en la angulo de la ĉambro faradis
 pantomimojn de projektofaranto, suprensaltas sovaĝe</stage><p><q lang="fr">La bourse
@@ -892,7 +979,7 @@ pendingo kun la diablo mem pro mizera pekulo.</p></sp>
 
 <sp><speaker>Spiegelberg</speaker><p>Tio ĉi al mi plaĉas! Se vi havas kuraĝon, tiam
 
- 
+
  <!-- p. 24 -->
 
 iu el vi elpaŝu kaj diru, ke li havas ankoraŭ ion por perdi kaj ne
@@ -1080,7 +1167,7 @@ eble li tamen tion ĉi faros.</p></sp>
 <sp><speaker>Roller</speaker><p>Kaj rompita estas ĉio, se li tion ĉi ne faros. Sen Moor
 ni estas korpo sen animo.</p></sp>
 
-<sp><speaker>Spiegelberg</speaker><stage>kolere deturniĝas de li</stage><p>Azeno!
+<sp><speaker>Spiegelberg</speaker><stage>kolere deturniĝas de li</stage><p>Azeno!</p></sp>
 
 <sp><speaker>Moor</speaker><stage>eniras en sovaĝa ekscito kaj malkviete kuradas en la ĉambro
 tien kaj reen, al si mem</stage><p>Homoj! homoj! Malicaj, hipokritaj
@@ -1180,7 +1267,7 @@ Stariĝu ĉirkaŭ mi, ĉiu el vi, kaj ĵuru al mi fidelecon kaj obeadon
 fidele kaj kuraĝe mi restos via hetmano la morto! Tiu ĉi brako
 tuj kadavrigos tiun, kiu iam ŝanceliĝos aŭ dubos aŭ retiriĝos! Tion
 saman faru al mi ĉiu el vi, se mi rompos mian ĵuron! Ĉu vi estas
-kontentaj? <stage>Spiegelberg kuras furioze tien kaj reen.</stage>
+kontentaj? <stage>Spiegelberg kuras furioze tien kaj reen.</stage></p></sp>
 
 <sp><speaker>Ĉiuj</speaker><stage>suprenĵetante la ĉapelojn</stage><p>Ni estas kontentaj.</p></sp>
 
@@ -1316,7 +1403,7 @@ belan, anĝelan, dian Karolon! Iru, enkaptu lian balzaman spiron
 kaj lasu vin mortigi per la ambroziaj odoroj, kiuj vaporas el lia
 faŭko! La sola ekspiro de lia buŝo metos vin en tiun nigran mortosimilan
 kapturniĝon, kiun donas la odoro de fendiĝanta kadavraĵo
-kaj la vido de kadavroplena loko de batalo.
+kaj la vido de kadavroplena loko de batalo.</p></sp>
 
 <sp><speaker>Amalio</speaker><stage>deturnas sian vizaĝon.</stage></sp>
 
@@ -1648,7 +1735,7 @@ kiel honesta amiko, zorgas pri via sorto, — iru, surmetu aliajn
 vestojn, faru vin tute nerekonebla, lasu raporti pri vi al la maljunulo,
 diru, ke vi venas rekte el Bohemujo, ke vi partoprenis kun
 mia frato en la batalo apud Prago, ke vi vidis lian morton sur la
-loko de batalo...
+loko de batalo...</p></sp>
 
 <sp><speaker>Hermano</speaker><p>Ĉu oni kredos al mi?</p></sp>
 
@@ -1761,7 +1848,7 @@ tiel homa! Mi estis fuŝistino.</p></sp>
 
 <sp><speaker>Maljuna Moor</speaker><p>Tiu ĉi bonkora, varmiga rigardo, — se li
 starus antaŭ mia lito, tiam mi vivus en la morto mem! Neniam,
-neniam mi mortus!
+neniam mi mortus!</p></sp>
 
 <sp><speaker>Amalio</speaker><p>Neniam, neniam vi mortus? Ĝi estus salto, kiel oni
 saltas de unu penso al alia pli bela, — tiu ĉi rigardo lumus al vi
@@ -1777,7 +1864,7 @@ la dormon de la morto per kanto de amato, — eble oni ankaŭ en
 la tombo daŭrigas ankoraŭ sonĝi, — longa, eterna, senfina sonĝo
 pri Karolo, ĝis oni eksonigas la sonorilon de reviviĝo... <stage>Rektiĝante,
 ravite.</stage> kaj de nun en liaj brakoj por eterne. <stage>Paŭzo. Ŝi iras al la
-fortepiano kaj ludas.</stage></p></sp>
+fortepiano kaj ludas.</stage></p>
 
  
 <lg>
@@ -1788,7 +1875,7 @@ fortepiano kaj ludas.</stage></p></sp>
 <l>Timi diojn, uzi batalilon,</l>
 <l>Se por ĉiam kovros vin la Ksanto?</l>
 </lg>
-
+</sp>
 
 <sp><speaker>Maljuna Moor</speaker><p>Bela kanlo, mia filino. Vi devos ĝin ludi al
 mi, antaŭ ol mi mortos.</p></sp>
@@ -1798,7 +1885,7 @@ mi, antaŭ ol mi mortos.</p></sp>
 <!-- p. 45 -->
      
 Karolo kaj mi ofte kantadis ĝin kun akompano de liuto. <stage>Ŝi ludas
-plue.</stage></p></sp>
+plue.</stage></p>
 
 <lg>
 <l>Karulin', haltigu vian ploron!</l>
@@ -1808,6 +1895,7 @@ plue.</stage></p></sp>
 <l>Sed post glora mort', en Elizeo</l>
 <l>Por vi ĉiam daŭros mia amo.</l>
 </lg>
+</sp>
   
 <stage>Danielo eniras.</stage>
 
@@ -1824,7 +1912,7 @@ helpon? Li ne foriru de ĉi tie kun ĝemado.</p></sp>
 
 <sp><speaker>Maljuna Moor</speaker><p>Amalio, Amalio, indulgu min!</p></sp>
 
-<sp><speaker>Amalio</speaker><stage>ludas plue</stage><p>
+<sp><speaker>Amalio</speaker><stage>ludas plue</stage>
 
 <lg>
 <l>Jam ne sonas via batalilo,</l>
@@ -1842,12 +1930,12 @@ helpon? Li ne foriru de ĉi tie kun ĝemado.</p></sp>
 <l>Aŭdu! Jam li vokas min sovaĝe. —</l>
 <l>Ĉesu plori, tenu vin kuraĝe!</l>
 <l>Ne, ne dronos amo de Hektoro!</l>
-</lg>
+</lg></sp>
  
 
 <!-- p. 46 -->
 
-   <stage>Francisko, Hermano maskita, Danielo.</stage></p></sp>
+   <stage>Francisko, Hermano maskita, Danielo.</stage>
 
 <sp><speaker>Francisko</speaker><p>Jen estas la homo. Li diras, ke teruraj sciigoj vin
 atendas. Ĉu vi povas ilin aŭskulti? </p></sp>
@@ -1862,7 +1950,7 @@ patro de Karolo de Moor.</p></sp>
 
 <sp><speaker>Maljuna Moor</speaker><p>De kie vi tion ĉi scias?</p></sp>
 
-<sp><speaker>Hermano</speaker><p>Mi konis vian filon.
+<sp><speaker>Hermano</speaker><p>Mi konis vian filon.</p></sp>
 
 <sp><speaker>Amalio</speaker><stage>vivece</stage><p>Li vivas? li vivas? Vi lin konas? kie li estas?
 kie, kie? <stage>Volas forkuri.</stage></p></sp>
@@ -2043,7 +2131,7 @@ homoj... neniu volas?... Sola... forlasita... Ho ve, ho ve! Malesperi
 kaj tamen ne morti!</p></sp>
 
    <stage>Amalio, kun postploraj okuloj.</stage>
-
+ 
 <sp><speaker>Maljuna Moor</speaker><p>Amalio! sendito de la ĉielo! Ĉu vi venas, por
 forliberigi mian animon?</p></sp>
 
@@ -2872,7 +2960,7 @@ kriegado de forlasitaj patrinoj bruas post viaj piedoj, sangon vi
 drinkas kiel akvon, homaj vivoj ne havas sur via mortigista ponardo
 eĉ la pezon de aera veziko....</p></sp>
 
-<sp><speaker>Moor</speaker><p>Tute vere, tute vere! Nu, pluen!
+<sp><speaker>Moor</speaker><p>Tute vere, tute vere! Nu, pluen!</p></sp>
 
 <sp><speaker>Patro-monaĥo</speaker><p>Kio? Tute vere, tute vere? ĉu tio ĉi ankaŭ
 estas respondo?</p></sp>
@@ -2987,7 +3075,7 @@ la eminentulojn, se oni flatas al ili, ke ili malamas la flatistojn. Vi
 fanfaronas pri honesteco kaj modela konduto, sed la Dio, kiu travidas
 viajn korojn, ekfuriozus kontraŭ la Kreinto, se li ne estus
 ĝuste tiu, kiu kreis la monstron en la Nilo. — Forigu lin de miaj
-okuloj!
+okuloj!</p></sp>
 
 <sp><speaker>Patro-monaĥo</speaker><p>Kaj malvirtulo povas ankoraŭ esti tiel fiera!</p></sp>
 
@@ -2998,7 +3086,7 @@ noktomezo kaj fanfaronas grandecon kaj potencon sur la ŝnura
 ŝtupetaro! Kion mi faris, tion mi sendube iam legos en la ŝuldolibro de
 la ĉielo; sed kun ĝiaj mizeraj administrantoj mi volas perdi plu
 neniun vorton. Diru al ili, ke mia profesio estas repagado, —
-venĝado estas mia metio. <stage>Li turnas al li sian dorson.</stage>
+venĝado estas mia metio. <stage>Li turnas al li sian dorson.</stage></p></sp>
 
 <sp><speaker>Patro-monaĥo</speaker><p>Vi ne volas do indulgon kaj favoron? Bone,
 kun vi mi finis. <stage>Turnas sin al la bando.</stage> Aŭdu do vi, kion la justeco
@@ -3025,7 +3113,7 @@ malhonoro, malbeno kaj persekuto? Ĝi promesas al vi paciĝon kun la
 ĉielo, kaj vi ja estas efektive kondamnitaj. Sur neniu el vi troviĝas
 eĉ unu haro, kiu ne iros en la inferon. Vi ankoraŭ pripensas? vi
 ankoraŭ ŝanceliĝas? Ĉu estas tiel malfacile elekti inter la ĉielo kaj
-le infero? Helpu do, sinjoro patro! 
+le infero? Helpu do, sinjoro patro!</p></sp>
 
 <sp><speaker>Patro-monaĥo</speaker><stage>al si mem</stage><p>Ĉu tiu homo freneziĝis? <stage>Laŭte.</stage> Ĉu
 vi eble suspektas, ke tio ĉi estas kaptilo, por kapti vin vivaj? Legu
@@ -3043,7 +3131,7 @@ povus ĵuri al vi, ke ili estas sinceraj. Ili scias, ke ĝi estas mi, kiu
 vin ribeligis kaj incitis; vin ili rigardas kiel senkulpajn. Viajn krimojn
 ili klarigas al si kiel erarojn de juneco, kiel mankon de pripenso.
 Min solan ili volas havi, mi sola meritas repagon. Ĉu ne
-estas tiel, sinjoro patro? 
+estas tiel, sinjoro patro?</p></sp>
 
 <sp><speaker>Patro-monaĥo</speaker><stage>al si mem</stage><p>Kiel estas nomata la diablo, kiu
 parolas el li? <stage>Laŭte.</stage> Jes, certe, certe tiel estas. (Al si mem, Li
@@ -3682,16 +3770,16 @@ diras al vi, plenigos vian tutan animon. Ŝi estis naskita burĝulino
 germanino, — sed ŝia rigardo forfandadis la antaŭjuĝojn de la
 nobelaro. Kun la plej timema modesteco ŝi prenis la edzigan
 ringon el mia mano, kaj postmorgaŭ mi devis konduki mian
-Amalion al la altaro.
+Amalion al la altaro.</p></sp>
 
-<stage>Moor rapide leviĝas.</stage></p></sp>
+<stage>Moor rapide leviĝas.</stage>
 
 <sp><speaker>Kosinsky</speaker><p>Meze en la ebrieco de la min atendanta feliĉego,
 inter la prepariĝoj al la edziĝo — oni vokas min per ekspreso al la
 kortego. Mi venas, oni montras al mi leterojn, kiuj estas kvazaŭ
 skribitaj de mi kaj kiuj estas plenaj de plej perfida enhavo.
 Mi ruĝiĝis pri la senkonscienca kulpigo. Oni forprenis de mi
-la spadon, oni ĵetis min en malliberejon, mi preskaŭ freneziĝis.
+la spadon, oni ĵetis min en malliberejon, mi preskaŭ freneziĝis.</p></sp>
 
 <sp><speaker>Schweizer</speaker><p>Kaj dume, — nu pluen! mi flaras jam la rostaĵon.</p></sp>
 
@@ -4082,7 +4170,7 @@ ia Dio kaj konscienco ekzistas.</p></sp>
 bone la vorton? en la nomo de via obeemeco mi ordonas al vi, ke
 morgaŭ la grafo ne estu plu inter la vivantoj.</p></sp>
 
-<sp><speaker>Danielo</speaker><p>Helpu min, sankta Dio! Kial?
+<sp><speaker>Danielo</speaker><p>Helpu min, sankta Dio! Kial?</p></sp>
 
  
 
@@ -4111,7 +4199,7 @@ kaj esti mortiginto?</p></sp>
 
 <sp><speaker>Francisko</speaker><p>Jes aŭ ne!</p></sp>
 
-<sp><speaker>Danielo</speaker><p>Ne! — Dio kompatu min!
+<sp><speaker>Danielo</speaker><p>Ne! — Dio kompatu min!</p></sp>
 
 <sp><speaker>Francisko</speaker><stage>intencante eliri</stage><p>Bone, vi ĝin bezonos <stage>Danielo
 retenas lin kaj ĵetas sin antaŭ li genue.</stage></p></sp>
@@ -4364,7 +4452,7 @@ la maljuna moŝto sinjoro pensis, ke vi mortis.</p></sp>
 
 <!-- p. 103 -->
 
-<sp><speaker>Moor</speaker><p>Hm! kion vi tie murmuras?
+<sp><speaker>Moor</speaker><p>Hm! kion vi tie murmuras?</p></sp>
 
 <sp><speaker>Danielo</speaker><stage>pli mallaŭte</stage><p>Kompreneble, se oni tiel nepetite reviviĝas...
 Via frato estis la sola heredanto de la formortinta sinjoro.</p></sp>
@@ -4570,12 +4658,11 @@ al vi unu mortigon? Ve al mia Amalio! ŝi estas malfeliĉa knabino.</p></sp>
 amata estas rebrilo de la Dieco, kaj la Dieco estas amo kaj kompato!
 Eĉ muŝon li ne povis vidi suferi! Lia animo estas tiel malproksima
 de ia sanga penso, kiel malproksima estas la sudo de la
-nordo.
+nordo.</p></sp>
 
 <stage>Moor rapide sin deturnas al arbetaĵo kaj rigardas rigide la ĉirkaŭaĵon.</stage>
 
-<sp><speaker>Amalio</speaker><stage>kantas kaj ludas sur liuto.</stage><sp>
-
+<sp><speaker>Amalio</speaker><stage>kantas kaj ludas sur liuto.</stage>
 <lg>
 <l>Ĉu Hektoro volas senrevene</l>
 <l>Iri tien, kie kolerplene</l>
@@ -4583,14 +4670,14 @@ nordo.
 <l>Kiu do instruos vian filon</l>
 <l>Timi diojn, uzi batalilon,</l>
 <l>Se por ĉiam, kovros vin la Ksanto?</l>
-</lg>
+</lg></sp>
 
-<sp><speaker>Moor</speaker><stage>silente prenas la liuton kaj ludas.</stage></sp>
 
+<sp><speaker>Moor</speaker><stage>silente prenas la liuton kaj ludas.</stage>
 <lg>
 <l>Karulin', haltigu vian ploron!</l>
 <l>Al batalo lasu for Hektoron...</l>
-</lg>
+</lg></sp>
 
 <stage>Li forĵetas la liuton kaj forkuras.</stage>
 </div>
@@ -4647,6 +4734,7 @@ nordo.
 <l>Patrinoj helpon vokas</l>
 <l>Kaj falas fianĉin' en sven' —</l>
 <l>Ni ĝuas kaj ni mokas.</l>
+</lg>
 
 <lg>
 <l>Ha, kiam ili sub tranĉil!</l>
@@ -4847,7 +4935,7 @@ ekdormas.</stage></p></sp>
 <lg>
 <l>Kiu tie vagas, fierulo,</l>
 <l>Kvazaŭ hom' neniam kliniĝinta?</l>
-<l>HE, se min ne trompas la okulo,</l>
+<l>He, se min ne trompas la okulo,</l>
 <l>Estas ĝi Romano ĵus mortinta! </l>
 <l>Tiberan', de kie vi nun venas?</l>
 <l>Ĉu la granda urb' ankoraŭ staras?</l>
@@ -4865,9 +4953,9 @@ ekdormas.</stage></p></sp>
 <l>Paŝu for al Orko la profunda,</l>
 <l>Ne triumfu nune kun fiero!</l>
 <!-- p. 113 -->  
-<l>Lastan sangon de libera homo
-<l>Ĉe Philippi sorbis nun la tero;
-<l>Super mia ĉerk' pereas Romo,
+<l>Lastan sangon de libera homo</l>
+<l>Ĉe Philippi sorbis nun la tero;</l>
+<l>Super mia ĉerk' pereas Romo,</l>
 <l>Min Minoso prenos — vin rivero.</l>
 </lg>
 
@@ -4897,11 +4985,13 @@ ekdormas.</stage></p></sp>
 <l>Vi maldekstren — mi min dekstren ŝovas.</l>
 </lg>
 
-</dif>
+</div>
+
 
 <stage>Li formetas la liuton kaj marŝas tien kaj reen, profunde meditante.</stage>
 
-<p><p>Kiu povus al mi garantii? Ĉio estas tiel malluma... konfuzaj
+
+<sp><p>Kiu povus al mi garantii? Ĉio estas tiel malluma... konfuzaj
 labirintoj... nenia eliro, nenia gvida stelo... se ĉio finiĝas kune kun
 la lasta ekspiro, finiĝas, kiel sengusta ludo de marionetoj?... Sed
 por kio tiu senmezura celado al feliĉo? Por kio la idealo de neatingita
@@ -5195,7 +5285,7 @@ sovaĝegan beston, se mi rompos tiun ĉi ĵuron, — mi ĵuras, ke mi
 ne salutos la lumon de la tago, ĝis la sango de la patromortiginto,
 elverŝite antaŭ tiu ĉi ŝtono, vapore flugos al la suno. <stage>Li leviĝas.</stage></p></sp>
 
-<sp><speaker>LA RABISTOJ</speaker><p>Ĝi estas ago de Belialo! Nun iu diru, ke ni estas
+<sp><speaker>La rabistoj</speaker><p>Ĝi estas ago de Belialo! Nun iu diru, ke ni estas
 kanajloj! Ne, per ĉiuj drakoj! ion similan ni neniam ankoraŭ faris!</p></sp>
 
 <sp><speaker>Moor</speaker><p>Jes! Kaj per ĉiuj teruraj ĝemoj de tiuj, kiuj mortis de
@@ -5512,7 +5602,7 @@ Kial ili suferis, kial vi triumfis super ili?</p></sp>
 
 <sp><speaker>Moser</speaker><p>Vi lasis min voki, moŝto sinjoro? Mi miregas. La
 unuan fojon en mia vivo! Ĉu vi intencas moki la religion, aŭ vi
-komencas tremi antaŭ ĝi?
+komencas tremi antaŭ ĝi?</p></sp>
 
 <sp><speaker>Francisko</speaker><p>Moki aŭ tremi, depende de tio, kiel vi al mi respondos.
 Aŭskultu, Moser, mi volas montri al vi, ke vi estas malsaĝulo,
@@ -5710,7 +5800,7 @@ strigo! kiu ordonis al vi veni ĉi tien? Iru, mi diras, aŭ mi trapikos
 vin trae!</p></sp>
 
 <sp><speaker>Moser</speaker><p>Ĉu la pastraĉa babilaĵo povas kolerigi tian filozofon?
-forblovu do ĝin per la bloveto de via buŝo! <stage>Li foriras.</stage>
+forblovu do ĝin per la bloveto de via buŝo! <stage>Li foriras.</stage></p></sp>
 
 <sp><speaker>Francisko</speaker><stage>ĵetadas sin sur sia seĝo tien kaj reen en terura moviĝado.
 Longa silento.</stage></sp>
@@ -6194,7 +6284,7 @@ ja afero tiel facila, tiel facila, vi estas ja majstro en mortigado,
 eltiru vian glavon, kaj mi estos feliĉa!</p></sp>
 
 <sp><speaker>Rabisto Moor</speaker><p>Ĉu vi sola volas esti feliĉa? For, mi ne mortigas
-virinon!
+virinon!</p></sp>
 
 <sp><speaker>Amalio</speaker><p>Ha, sufokisto! vi taŭgas nur por mortigi feliĉulojn,
 — tiujn, kiuj estas lacigitaj de la vivo, vi preterpasas! <stage>Ŝi rampas
@@ -6295,7 +6385,7 @@ Mi rememoras, ke venante ĉi tien mi parolis kun iu malriĉa
 mizerulo, kiu laboras por taga pago kaj havas dekunu vivajn
 infanojn... Oni anoncis, ke oni donos mil luidorojn al tiu, kiu
 liveros vivan la grandan rabiston. Tiu malriĉulo povas ricevi
-helpon. <stage>Li foriras.</stage>
+helpon. <stage>Li foriras.</stage></p></sp>
 </div>
 
 </div>
@@ -6306,39 +6396,9 @@ helpon. <stage>Li foriras.</stage>
  
 </div>
  
-</div>
+</body>
+
+</text>
 
 </TEI.2>
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
-    
-  
-   
-
