@@ -55,7 +55,7 @@ voku ekz-e:
    <target name="klasikaj-verkoj"
     depends="preparo,
       biblio,fundamento,faraono,gfabeloj,fabeloj,
-      fumejo,interrompita,butiko,revizoro,marta,
+      fumejo,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
    </target>
@@ -76,7 +76,6 @@ voku ekz-e:
            style="${xsl}/verkolisto.xsl"
            classpathref="saxon.classpath">
 
-       <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
 
     <copy todir="${celo}">
@@ -180,6 +179,11 @@ voku ekz-e:
    <target name="revizoro" description="kreas HTML-paghojn el revizoro.xml">
      <xslt in="${xml}/revizoro.xml" out="${celo}/revizoro/index.html"
        style="${xsl}/revizoro.xsl"/>
+   </target>
+
+   <target name="rabistoj" description="kreas HTML-paghojn el rabistoj.xml">
+     <xslt in="${xml}/rabistoj.xml" out="${celo}/rabistoj/index.html"
+       style="${xsl}/rabistoj.xsl"/>
    </target>
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">

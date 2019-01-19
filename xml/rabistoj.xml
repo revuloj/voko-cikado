@@ -61,11 +61,7 @@ ESPERANTISTA CENTRA LIBREJO
         <name>D-ro L. L. Zamenhof</name>
       </respStmt>
       <respStmt>
-        <resp>enkomputiligita de</resp> 
-        <name>Sergio Pokrovskij</name>
-      </respStmt>
-      <respStmt>
-        <resp>adaptita al TEI de</resp>
+        <resp>enkomputiligita kaj adaptita al TEI de</resp>
         <name>Wolfram DIESTEL</name>
       </respStmt>
     </titleStmt>
@@ -74,9 +70,9 @@ ESPERANTISTA CENTRA LIBREJO
     </editionStmt>
     <extent>295 kB</extent>
     <publicationStmt>
-      <publisher>Wolfram DIESTEL</publisher>
-
-      <date>2019</date>
+      <publisher>Esperanta Centra Librejo</publisher>
+      <pubPlace>Paris</pubPlace>
+      <date>1928</date>
     </publicationStmt>
     <sourceDesc>
       <p>Vidu la redaktan noton.</p>
@@ -86,7 +82,8 @@ ESPERANTISTA CENTRA LIBREJO
   <encodingDesc>
     <projectDesc>
       <p>Tiu teksto estas publikigita interrete de Wolfram Diestel,
-      adaptita al la TEI-Lite-DTD por enmeti &gcirc;in en bazan tekstaron.
+      adaptita al la TEI-Lite-DTD por enmeti &gcirc;in en bazan tekstaron,
+      uzata i.a. por citado en Reta Vortaro.
       </p>
     </projectDesc>
   </encodingDesc>
@@ -132,13 +129,19 @@ Tous droits réservés == Represo malpermesata.
     <titlePage>
       <docAuthor>Frederiko Schiller</docAuthor>
       <docTitle>
-        <titlePart type="main">
-          La rabistoj
-        </titlePart>
+	<titlePart type="series">Esperanto — Verkaro de D-ro Zamenhof</titlePart>
+        <titlePart type="main">La rabistoj</titlePart>
+	<titlePart type="category">Dramo en kvin aktoj</titlePart>
+        <titlePart type="translator">el germana lingvo tradukis <name>D-ro L. L. Zamenhof</name></titlePart>
       </docTitle>
-      <titlePart type="translator">
-         el germana lingvo tradukis <name>D-ro L. L. Zamenhof</name>
-      </titlePart>
+      <docEdition>
+        dua eldono
+      </docEdition>
+      <docImprint>
+         <pubPlace>Paris</pubPlace>
+         <publisher>Esperantista Centra Librejo</publisher>
+         <date>1928</date>
+      </docImprint>
     </titlePage>
 
   </front>
@@ -154,7 +157,7 @@ Tous droits réservés == Represo malpermesata.
 
   <row><cell>Maksimiliano</cell><cell>grafo de Moor</cell></row>
   <row><cell>Karolo, Francisko</cell><cell>liaj filoj</cell></row>
-  <row><cell>Amalio von Edelreich (= fon Edelrajĥ)</cell></row>
+  <row><cell>Amalio von Edelreich (= fon Edelrajĥ)</cell><cell>&#xa0;</cell></row>
   <row><cell>Spiegelberg (= Ŝpigelberg), 
     Schweizer (= Ŝvajcer) ,
     Grimm,
@@ -166,9 +169,9 @@ Tous droits réservés == Represo malpermesata.
   <row><cell>Hermano</cell><cell>bastardo de nobelo</cell></row>
   <row><cell>Danielo</cell><cell>servisto de la grafo de Moor</cell></row>
   <row><cell>Moser (= Mozer)</cell><cell>pastro</cell></row>
-  <row><cell>Patro-monaĥo</cell></row>
-  <row><cell>Bando da rabistoj</cell></row>
-  <row><cell>Flankaj personoj</cell></row>
+  <row><cell>Patro-monaĥo</cell><cell>&#xa0;</cell></row>
+  <row><cell>Bando da rabistoj</cell><cell>&#xa0;</cell></row>
+  <row><cell>Flankaj personoj</cell><cell>&#xa0;</cell></row>
 </table>
 
   <p>La loko de agado estas Germanujo. La tempo — proksimume du jaroj.</p>
@@ -180,7 +183,7 @@ Tous droits réservés == Represo malpermesata.
 <div type="play">
 <head>La Rabistoj</head>
 
-<div type="act">
+<div type="act" rend="doc" id="a1">
 <head>Akto Unua</head>
 
 <div type="scene">
@@ -1525,7 +1528,7 @@ molaj kusenoj de volupto! Karolo! Karolo! Tiele mi vin valoras...
 
 <!-- p. 37 -->
 
-<div type="act">
+<div type="act" rend="doc" id="a2">
 <head>Akto Dua</head>
 
 <div type="scene">
@@ -3195,7 +3198,7 @@ nudigitaj glavoj.</stage>
 
 <!-- p. 75 -->
 
-<div type="act">
+<div type="act" rend="doc" id="a3">
 <head>Akto Tria</head>
 
 <div type="scene">
@@ -3860,7 +3863,7 @@ Frankujo! Post ok tagoj ni devas tie esti. <stage>Ili foriras.</stage></p></sp>
                        
 <!-- p. 90 -->
  
-<div type="act">
+<div type="act" rend="doc" id="a4">
 <head>Akto Kvara</head>
 
 <div type="scene">
@@ -5353,7 +5356,7 @@ mi! <stage>Li foriras kun taĉmento.</stage></p></sp>
 
 <!-- p. 122 --> 
 
-<div type="act">
+<div type="act" rend="doc" id="a5">
 <head>Akto Kvina</head>
 
 <div type="scene">
@@ -6391,7 +6394,7 @@ helpon. <stage>Li foriras.</stage></p></sp>
 </div>
 
 
-<imprint>10136. — Coulommiers. — Imp. PAUL BRODARD. — 1-28.</imprint>
+<imprint>10136. — Coulommiers. — Imp. Paul Brodard. — 1-28.</imprint>
 
  
 </div>
