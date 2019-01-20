@@ -92,7 +92,7 @@ konvenciojn:
      </xsl:variable>
      <hr/>
      <address>
-       fonto: <a href="https://github.com/revuloj/verkoj/tree/master/xml/{$file}">
+       fonto: <a target="_new" href="https://github.com/revuloj/verkoj/tree/master/xml/{$file}">
          <xsl:value-of select="$file"/>
        </a>
        <!-- xsl:value-of select="substring-before(substring-after(.,',v'),' revo')"/ -->
@@ -510,7 +510,7 @@ konvenciojn:
 </xsl:template>
 
 <xsl:template match="sp/p[position()=1]" priority="1">
-<xsl:apply-templates/>
+  <xsl:apply-templates/>
 </xsl:template>
 
 <!-- tabeloj -->
