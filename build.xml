@@ -182,6 +182,10 @@ voku ekz-e:
    </target>
 
    <target name="rabistoj" description="kreas HTML-paghojn el rabistoj.xml">
+     <copy todir="${celo}/bld/rabistoj">
+        <fileset dir="bld/rabistoj" includes="*.png"/>
+     </copy>
+
      <xslt in="${xml}/rabistoj.xml" out="${celo}/rabistoj/index.html"
        style="${xsl}/rabistoj.xsl"/>
    </target>

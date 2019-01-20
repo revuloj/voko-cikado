@@ -1,4 +1,4 @@
-<?xml-stylesheet type="text/xml" href="revizoro.xsl"?>
+<?xml-stylesheet type="text/xml" href="rabistoj.xsl"?>
  
 <!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd"
 [
@@ -66,7 +66,7 @@ ESPERANTISTA CENTRA LIBREJO
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id$</edition>
+      <edition>$Id: rabistoj.xml,v 1.1 2019/01/20 13:00:00 revo Exp $</edition>
     </editionStmt>
     <extent>295 kB</extent>
     <publicationStmt>
@@ -180,9 +180,6 @@ Tous droits réservés == Represo malpermesata.
 
 <!-- p. 5 -->
  
-<div type="play">
-<head>La Rabistoj</head>
-
 <div type="act" rend="doc" id="a1">
 <head>Akto Unua</head>
 
@@ -6392,11 +6389,13 @@ helpon. <stage>Li foriras.</stage></p></sp>
 
 </div>
 
-
+<p rend="fonbildo"></p>
+<!--
+    tio referencas al la presita libro, eble netaŭge montri tion en la reta eldono!?
+    
 <imprint>10136. — Coulommiers. — Imp. Paul Brodard. — 1-28.</imprint>
-
+-->
  
-</div>
  
 </body>
 

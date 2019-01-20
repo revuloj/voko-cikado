@@ -29,7 +29,19 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="stylesheet">rabistoj.css</xsl:variable>
 <xsl:variable name="content_level1" select="'act'"/>
 <xsl:variable name="content_level2" select="'xxx'"/>
+<xsl:variable name="fonbildo">../bld/rabistoj/kolofono.png</xsl:variable>
 
+<xsl:template match="p[@rend='fonbildo']">
+  <xsl:call-template name="fonbildo"/>
+</xsl:template>
+
+<xsl:template name="fonbildo">
+  <xsl:if test="not(ancestor::group)">
+    <p class="center">
+    <img class="center" src="{$fonbildo}"/>
+    </p>
+  </xsl:if>
+</xsl:template>
 
 <xsl:template match="div[@type='scene']/head">
   <h4 class="head"><xsl:apply-templates/></h4>
@@ -58,7 +70,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<xsl:template match="div/stage[not(@rend)]">
+<xsl:template match="div/stage[not(@rend) and not(@type)]">
   <p class="stage">(<i><xsl:apply-templates/></i>)</p>
 </xsl:template>
 
