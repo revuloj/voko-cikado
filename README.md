@@ -8,7 +8,7 @@ ebligas tolereman serĉon per n-gramoj (do trovas ankaŭ citaĵojn, kiam
 vortoj estas iom torditaj en la serĉ-frazo).
 
 Cele al restrukturado de la Revo-redaktilo en servetojn (angle Microservices)
-ni kreas jen retservon enpakeblan en "keston" (anlge: Docker container) kaj
+ni kreas jen retservon enpakeblan en "keston" (angle: Docker container) kaj
 realiganta la serĉ-funkcion por verkoj klasikaj (kaj estonte ankaŭ pli novaj
 kiel Monato-artikoloj k.a.)
 
