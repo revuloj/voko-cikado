@@ -39,8 +39,8 @@
 :- use_module(ekzfnt).
 
 :- debug(http(request)).
-:- debug(cikado(what)).
-:- debug(cikado(stats)).
+:- debug(cikado(_)).
+%:- debug(cikado(stats)).
 
 :- initialization(init).
 :- initialization(help,main).
@@ -74,21 +74,27 @@ init :-
 	cookie(redaktilo_seanco),
 	timeout(Timeout),
 	path(AppRoot)
-    ]),
+    ]) 
     
-    assert(user:file_search_path('html','../steloj.de'))
+    % ,debug(http(request))
+    % ,debug(cikado(_))
+    %assert(user:file_search_path('verkoj','../steloj.de'))
     . 
     % la lokaj dosierujoj el kiuj servi dosierojn
 %    assert(user:file_search_path(web,WebDir)),
 %    assert(user:file_search_path(static,web(static)))
 %    assert(user:file_search_path(voko,VokoDir)),
 
-	  
+%%% http://<host:port>/cikado/verkoj -> ../steloj.de
+
+user:file_search_path('steloj','../steloj.de'). % uzata en reply_static_files
 http:location(verkoj,root(verkoj),[]).
 :- http_handler(verkoj(.), reply_static_files, [prefix]).
+% redirect from / to /cikado/verkoj/, when behind a proxy, this is a task for the proxy
+:- http_handler('/', http_redirect(moved,root(verkoj)),[]).
 
-% redirect from / to /verkoj/, when behind a proxy, this is a task for the proxy
-:- http_handler('/', http_redirect(moved,root(html)),[]).
+
+%%% http://<host:port>/cikado/cikado -> serĉo
 
 %%:- http_handler(root(.), http_redirect(moved,root('cit/')),[]).
 %:- http_handler(cit(.), reply_files, [prefix,authentication(openid)]).
@@ -141,7 +147,7 @@ reply_files(Request) :-
 reply_static_files(Request) :-
     % ne protektitaj publikaj dosieroj
     debug(cikado(request),'handler reply_static_files',[]),
-    http_reply_from_files(html(.), [indexes(['index.html'])], Request).
+    http_reply_from_files(steloj(.), [indexes(['index.html'])], Request).
 
 citajho_sercho(Request) :-
 %%    ajax_auth(Request),

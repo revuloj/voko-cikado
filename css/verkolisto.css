@@ -19,3 +19,7 @@ ul.verkoj li { font-size: medium; line-height: 100%; padding-bottom: 0.5em }
 p.autoro { font-size: large; line-height: 100%; margin-bottom: 0.3em}
 
 .trad { font-size: small; color: gray; margin-left: 1em}
+
+.montrilo {
+    color: #327e04;
+}

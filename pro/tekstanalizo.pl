@@ -639,6 +639,7 @@ fnt_json(lr:_,Lok,json([bib='LR',lok=Lok])).
 
 fnt_json(po:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
 
+fnt_json(ra:_,Lok,json([bib='Rabistoj',lok=Lok])).
 fnt_json(rv:_,Lok,json([bib='Revizoro',lok=Lok])).
 
 fnt_json(sr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
@@ -665,12 +666,13 @@ fnt_json(m3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
     tekstaro:txt(m3:No,_,File),
     atomic_list_concat(Parts,'/',File),
     reverse(Parts,[Dos,Jaro|_]),
-    once((
-	memberchk(Jaro,['2003','2004']),
-	format(atom(Url),'http://www.esperanto.be/fel/~w/~w',[Jaro,Dos])
-	;
-	format(atom(Url),'http://www.monato.net/~w/~w',[Jaro,Dos])
-	)).
+    %once((
+	%memberchk(Jaro,['2003','2004']),
+	%format(atom(Url),'http://www.esperanto.be/fel/~w/~w',[Jaro,Dos])
+	%;
+	format(atom(Url),'https://www.monato.net/~w/~w',[Jaro,Dos])
+	%))
+    .
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % helpo-predikatoj / DCG por analizado

@@ -52,10 +52,10 @@ vrk(pa,paroloj,
     struct_paroloj,
     verkoj('paroloj.xml')).
 vrk(po,poemoj,
-    teix_teksto(poem),
+    struct_teix(poem),
     verkoj('poemoj.xml')).
 vrk(bu,butiko,
-    teix_teksto(foreword,poem),
+    struct_teix(foreword,poem),
     verkoj('butiko.xml')).
 vrk(ma,marta,
     struct_marta,
@@ -63,6 +63,9 @@ vrk(ma,marta,
 vrk(rv,revizoro,
     struct_teix(act),
     verkoj('revizoro.xml')).
+vrk(ra,rabistoj,
+    struct_teix(act),
+    verkoj('rabistoj.xml')).
 
 vrk(ba,batalo,
     struct_gutenberg,
@@ -80,7 +83,7 @@ vrk(if,ifigenio,
     struct_gutenberg,
     tekstoj('gutenberg/Ifigenio.html')).
 vrk(lr,lingvaj_respondoj,
-        struct_teix_nevalida(parto),
+    struct_teix_nevalida(parto),
     tekstoj('tekstaro/LingvajRespondoj.xml')).
 vrk(vz,vivozamenhof,
     struct_gutenberg,
@@ -101,6 +104,6 @@ vrk(sr,senchesa,
     struct_teix(chapter),
     verkoj('senchesa*.xml')). % per la * ignoriĝas, se mankas!
 
-verkaro(klasikaj,[pv,mt,nt,fb,gf,fr,fe,ee,ik,hm,pa,po,bu,ma,ha,ba,op,rv,vz,if,lr,fk,dl]).
+verkaro(klasikaj,[pv,mt,nt,fb,gf,fr,fe,ee,ik,hm,pa,po,bu,ma,ha,ba,op,rv,ra,vz,if,lr,fk,dl]).
 verkaro(postaj,[m1,m2,m3,sr]).
 verkaro(chiuj,Verkoj) :- findall(V,vrk(V,_,_,_),Verkoj).
