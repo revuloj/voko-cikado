@@ -53,8 +53,8 @@ ESPERANTISTA CENTRA LIBREJO
   
   <fileDesc>
     <titleStmt>
-      <title>La rabistoj</title>
-      <subtitle>Dramo en kvin aktoj</subtitle>
+      <title type="main">La rabistoj</title>
+      <title type="sub">Dramo en kvin aktoj</title>
       <author>Frederiko Schiller</author>
       <respStmt>
         <resp>el la germana lingvo tradukis</resp> 
@@ -91,6 +91,8 @@ ESPERANTISTA CENTRA LIBREJO
   <profileDesc>
     <langUsage>
       <language id="eo">Esperanto</language>
+      <language id="la">Latino</language>
+      <language id="fr">Franca</language>
     </langUsage>
   </profileDesc>
 </teiHeader>
@@ -2530,7 +2532,7 @@ komprenas.</p></sp>
 
 <sp><speaker>Razmann</speaker><p>Mi komprenas, mi komprenas.</p></sp>
 
-<stage>Schwarz, rapide enkuras</stage>.
+<stage>Schwarz, rapide enkuras.</stage>
 
 <sp><speaker>Razmann</speaker><p>Kiu estas? Kio fariĝis? Pasaĝeroj en la arbaro?</p></sp>
 
@@ -2593,8 +2595,9 @@ kanteton.</stage></p></sp>
 
 <lg>
   <l>Nurenberganoj pendigas neniun</l>
-  <l>Antaŭ ol ili lin havas.</l> <stage>Bis.</stage>
+  <l>Antaŭ ol ili lin havas.</l> 
 </lg>
+<stage>Bis.</stage>
 
 <sp><speaker>Schweizer, Roller</speaker><stage>malantaŭ la scenejo</stage><p>He vi, ho! He vi, ho!</p></sp>
 
@@ -4584,7 +4587,7 @@ meritas? </p></sp>
 
 <sp><speaker>Amalio</speaker><p>Ho, vi lin tiel amus! estis tiom multe, tiom, multe
 en lia vizaĝo, en liaj okuloj, en la tono de lia voĉo — io, kio similas
-vin, kion mi tiel amas...
+vin, kion mi tiel amas...</p></sp>
 
 <sp><speaker>Moor</speaker><stage>rigardas al la tero.</stage></sp>
 
@@ -4592,7 +4595,7 @@ vin, kion mi tiel amas...
 <sp><speaker>Amalio</speaker><p>Ĉi tie, kie vi staras, li staris mil fojojn, kaj apud li
 staris tiu, kiu ĉe li forgesadis ĉielon kaj teron. Ĉi tie lia okulo
 vagadis super la bela ĉirkaŭaĵo, — kaj tiu ĉi lasta kvazaŭ sentis la
-grandan rekompencantan rigardon kaj plibeliĝadis sub la </p></sp>
+grandan rekompencantan rigardon kaj plibeliĝadis sub la 
 
 
  
@@ -4912,11 +4915,10 @@ ekdormas.</stage></p></sp>
 <stage>Profunda silento. Moor prenas la liuton kaj ludas.</stage>
 
 
-<div type="poem">
+<lg type="poem">
 
+<lg type="stanza">
 <head>Bruto</head>
-
-<lg>
 <l>Mi salutas vin, ho paca tero!</l>
 <l>Nun akceptu lastan la Romanon!</l>
 <l>De Philippi de l' batalinfero</l>
@@ -4926,12 +4928,9 @@ ekdormas.</stage></p></sp>
 <l>Mi nun frapas al la pord' de l' morto,</l>
 <l>Mi jam ĉion perdis sur la tero!</l>
 </lg>
-
  
+<lg type="stanza">
 <head>Cezaro</head>
- 
-
-<lg>
 <l>Kiu tie vagas, fierulo,</l>
 <l>Kvazaŭ hom' neniam kliniĝinta?</l>
 <l>He, se min ne trompas la okulo,</l>
@@ -4941,12 +4940,9 @@ ekdormas.</stage></p></sp>
 <l>Ĉu ĝi bone sin ankoraŭ tenas,</l>
 <l>Dum en ĝi neniu nun cezaras?</l>
 </lg>
-
   
-
+<lg type="stanza">
 <head>Bruto</head>
-
-<lg>
 <l>Ha, vi kun dudektriobla vundo!</l>
 <l>Kiu vin elvokis el sub tero?</l>
 <l>Paŝu for al Orko la profunda,</l>
@@ -4958,9 +4954,8 @@ ekdormas.</stage></p></sp>
 <l>Min Minoso prenos — vin rivero.</l>
 </lg>
 
+<lg type="stanza">
 <head>Cezaro</head>
-
-<lg>
 <l>Morta bato de la glav' de Bruto!</l>
 <l>Ankaŭ vi, ho Bruto, filo mia!</l>
 <l>Vi mortigis patron! Tero tuta</l>
@@ -4971,9 +4966,8 @@ ekdormas.</stage></p></sp>
 <l>Mi returne iros kaj silentos.</l>
 </lg>
 
+<lg type="stanza">
 <head>Bruto</head>
-
-<lg>
 <l>Patro, haltu! Sur la tuta tero</l>
 <l>Mi nur unu solan homon konis</l>
 <l>Kun al vi simila karaktero —</l>
@@ -4983,8 +4977,7 @@ ekdormas.</stage></p></sp>
 <l>Ambaŭ kune vivi ni ne povas!</l>
 <l>Vi maldekstren — mi min dekstren ŝovas.</l>
 </lg>
-
-</div>
+</lg>
 
 
 <stage>Li formetas la liuton kaj marŝas tien kaj reen, profunde meditante.</stage>
@@ -6389,12 +6382,14 @@ helpon. <stage>Li foriras.</stage></p></sp>
 
 </div>
 
+<div rend="fonobildo">
 <p rend="fonbildo"></p>
 <!--
     tio referencas al la presita libro, eble netaŭge montri tion en la reta eldono!?
     
 <imprint>10136. — Coulommiers. — Imp. Paul Brodard. — 1-28.</imprint>
 -->
+</div>
  
  
 </body>
