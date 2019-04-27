@@ -1,4 +1,5 @@
 FROM openjdk:jre-slim as builder
+MAINTAINER <diestel@steloj.de>
 
 # Tiu Javo-kesto servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
 # Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune
@@ -46,7 +47,7 @@ WORKDIR /home/cikado/pro
 CMD ["swipl",\
     "-s","/home/cikado/pro/cikado-servo.pl",\
     "-g","cikado:daemon","-t","halt","--",\
-    "--workers=10","--port=8081","--no-fork"]
+    "--workers=10","--port=8082","--no-fork"]
 
 #CMD ["swipl",\
 #    "-s","/home/cikado/pro/cikado-servo.pl",\
@@ -57,8 +58,8 @@ CMD ["swipl",\
 # docker build -t cikado .
 #
 # kuro
-# docker run cikado
+# docker run -p 8081:8081 cikado
 # docker run -it cikado /bin/bash
 #
-# verkoj: http://localhost:8081/ -> /cikado/verkoj/ 
-# serĉo: http://localhost:8081/cikado/cikado?sercho=homoj&kie=klasikaj
+# verkoj: http://localhost:8082/ -> /cikado/verkoj/ 
+# serĉo: http://localhost:8082/cikado/cikado?sercho=homoj&kie=klasikaj

@@ -50,7 +50,7 @@
 % agordo de citaĵo-servo
 http_cit_root('/cikado').
 http_cit_host('cikado').
-http_cit_port(8000).
+http_cit_port(8082).
 http_cit_scheme(http).
 http_session_timeout(3600).
 
