@@ -670,7 +670,7 @@ fnt_json(m3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	%memberchk(Jaro,['2003','2004']),
 	%format(atom(Url),'http://www.esperanto.be/fel/~w/~w',[Jaro,Dos])
 	%;
-	format(atom(Url),'https://www.monato.net/~w/~w',[Jaro,Dos])
+	format(atom(Url),'https://www.monato.be/~w/~w',[Jaro,Dos])
 	%))
     .
 
