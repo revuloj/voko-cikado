@@ -13,7 +13,7 @@
 				<respStmt>
 
 					<resp>La tekston origine enkomputiligis kiel skanitajn bildojn ĉe <idno type="URI" xml:lang="zxx">https://www.onb.ac.at/eo/bibliothek/sammlungen/kolekto-por-planlingvoj/digitaj-dokumentoj/ludwik-l-zamenhof/</idno></resp>
-
+<!-- aŭ vd. ĉe http://kovro.heliohost.org/books/Georgo_Dandin.pdf -->
 					<name>la Aŭstra Nacia Biblioteko (<foreign xml:lang="de">Österreichische Nationalbibliothek</foreign>)</name>
 
 				</respStmt>
@@ -676,7 +676,7 @@
 
 							<speaker xml:id="bu150"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
 
-							<p xml:id="bu151">– Al la diablo! Pardonu, pri tio oni ne povas fari al mi lecionojn, kaj en la daŭro de mia vivo, mi per dudek bravaj agoj montris, ke mi ne estas homo, kiu lasus defali eĉ unu colon de miaj pretendoj; sed nun suffiĉas, ke ni donis al li negrandan averton. Nun ni iom aŭdu, mia bofilo, kion vi havas en via kapo.</p>
+							<p xml:id="bu151">– Al la diablo! Pardonu, pri tio oni ne povas fari al mi lecionojn, kaj en la daŭro de mia vivo, mi per dudek bravaj agoj montris, ke mi ne estas homo, kiu lasus defali eĉ unu colon de miaj pretendoj; sed nun sufiĉas, ke ni donis al li negrandan averton. Nun ni iom aŭdu, mia bofilo, kion vi havas en via kapo.</p>
 
 						</sp>
 
@@ -1966,7 +1966,7 @@
 
 							<speaker xml:id="bu475"><name>Klaŭdino</name>.</speaker>
 
-							<p xml:id="bu476">– De mia fianko, mi malamas la suspektemajn edzojn: kaj mi volas tian edzon, kiu ne timas ĉion, kiu estus tiom plena de konfido al mi kaj tiel certa pri mia ĉasteco, ke li sen maltrankvileco povus min vidi en la mezo de tridek viroj.</p>
+							<p xml:id="bu476">– De mia flanko, mi malamas la suspektemajn edzojn: kaj mi volas tian edzon, kiu ne timas ĉion, kiu estus tiom plena de konfido al mi kaj tiel certa pri mia ĉasteco, ke li sen maltrankvileco povus min vidi en la mezo de tridek viroj.</p>
 
 						</sp>
 
@@ -2022,7 +2022,7 @@
 
 							<speaker xml:id="bu489"><name xml:lang="fr">Lubin</name>.</speaker>
 
-							<p xml:id="bu490">– Venu do ĉi tien, KIaŭdino.</p>
+							<p xml:id="bu490">– Venu do ĉi tien, Klaŭdino.</p>
 
 						</sp>
 
@@ -2812,7 +2812,7 @@
 
 							<speaker xml:id="bu688"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
 
-							<p xml:id="bu689">– Kiel, mia bofilo! vi ĉiam ankotaŭ ripetas tion saman?</p>
+							<p xml:id="bu689">– Kiel, mia bofilo! vi ĉiam ankoraŭ ripetas tion saman?</p>
 
 						</sp>
 
@@ -3348,7 +3348,7 @@
 
 							<speaker xml:id="bu822"><name xml:lang="fr">Lubin</name>.</speaker>
 
-							<p xml:id="bu823">– Jes. Se mi estus lerninta, mi esplorus aferojn, kjujn oni neniam esploris.</p>
+							<p xml:id="bu823">– Jes. Se mi estus lerninta, mi esplorus aferojn, kiujn oni neniam esploris.</p>
 
 						</sp>
 
@@ -4192,7 +4192,7 @@
 
 							<speaker xml:id="bu1034"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
 
-							<p xml:id="bu1035">– Jen estas frapo, sendube, kiun vi ne atendis. Nun mi triumfas; kaj mi havas, per kio malaltigi vian flerecon kaj detrui viajn artifikojn. Ĝis nun vi mokis miajn akuzojn, blindigis viajn gepatrojn kaj beligis viajn trompojn. Vane mi vidis, vane mi parolis, via lerteco ĉiam venkis mian rajtecon, kaj ĉiam vi trovis rimedon por esti prava; sed ĉi tiun fojon, dank’al Dio, la aferoj klariĝos kaj via senhonteco estos plene elmontrita.</p>
+							<p xml:id="bu1035">– Jen estas frapo, sendube, kiun vi ne atendis. Nun mi triumfas; kaj mi havas, per kio malaltigi vian fierecon kaj detrui viajn artifikojn. Ĝis nun vi mokis miajn akuzojn, blindigis viajn gepatrojn kaj beligis viajn trompojn. Vane mi vidis, vane mi parolis, via lerteco ĉiam venkis mian rajtecon, kaj ĉiam vi trovis rimedon por esti prava; sed ĉi tiun fojon, dank’al Dio, la aferoj klariĝos kaj via senhonteco estos plene elmontrita.</p>
 
 						</sp>
 
@@ -4224,7 +4224,8 @@
 
 							<speaker xml:id="bu1042"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
 
-							<p xml:id="bu1043">– Ĉar vi bone vidas, ke ĉiuj rimedoj estas fermitaj por vi, kaj ke en ĉi tiu afero vi ne povus elpensi tiajn senkulpigojn, kies malverecon mi ne povus elmontri.</p>
+							<p xml:id="bu1043">– Ĉar vi bone vidas, ke ĉiuj rimedoj estas fermitaj por vi, kaj ke en 
+							ĉi tiu afero vi ne povus elpensi tiajn senkulpigojn, kies malverecon mi ne povus elmontri.</p>
 
 						</sp>
 
@@ -4232,7 +4233,9 @@
 
 							<speaker xml:id="bu1044"><name>Angeliko</name>.</speaker>
 
-							<p xml:id="bu1045">– Jes, mi konfesas, ke mi estas malprava, kaj ke vi havas kaŭzon, por plendi. Sed mi vin petas, faru al mi la favoron, ne elmetu min nun al la kolero de miaj gepatroj, kaj lasu rapide malfemi al mi.</p>
+							<p xml:id="bu1045">– Jes, mi konfesas, ke mi estas malprava, kaj ke vi havas kaŭzon, por plendi. 
+							Sed mi vin petas, faru al mi la favoron, 
+							ne elmetu min nun al la kolero de miaj gepatroj, kaj lasu rapide malfermi al mi.</p>
 
 						</sp>
 
@@ -4256,7 +4259,8 @@
 
 							<speaker xml:id="bu1050"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
 
-							<p xml:id="bu1051">– Ho, ma bona, edzeto! Mi estas nun via bona edzeto, ĉar vi sentas, ke vi estas kaptita. Mi tre ĝojas pri tio; neniam antaŭe venis al vi en la kapon diri al mi tiajn dolĉajn vortojn.</p>
+							<p xml:id="bu1051">– Ho, ma bona, edzeto! Mi estas nun via bona edzeto, ĉar vi sentas, ke vi estas kaptita. 
+							Mi tre ĝojas pri tio; neniam antaŭe venis al vi en la kapon diri al mi tiajn dolĉajn vortojn.</p>
 
 						</sp>
 
@@ -4272,7 +4276,8 @@
 
 							<speaker xml:id="bu1054"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
 
-							<p xml:id="bu1055">– Nenio helpos. Mi ne volas ellasi el la manoj ĉi tiun aventuron, kaj estas grave por mi, ke oni unu fojon ricevu fundan klarigon pri via konduto.</p>
+							<p xml:id="bu1055">– Nenio helpos. Mi ne volas ellasi el la manoj ĉi tiun aventuron, kaj estas grave por mi, 
+							ke oni unu fojon ricevu fundan klarigon pri via konduto.</p>
 
 						</sp>
 
