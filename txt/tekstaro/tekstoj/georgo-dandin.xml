@@ -1,0 +1,5088 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI SYSTEM "../dtd/tei-tekstaro.dtd">
+<TEI xml:id="georgo-dandin" xml:lang="eo" xmlns="http://www.tei-c.org/ns/1.0">
+
+	<teiHeader>
+
+		<fileDesc>
+
+			<titleStmt>
+
+				<title>Georgo Dandin: elektronika versio</title>
+
+				<respStmt>
+
+					<resp>La tekston origine enkomputiligis kiel skanitajn bildojn ĉe <idno type="URI" xml:lang="zxx">https://www.onb.ac.at/eo/bibliothek/sammlungen/kolekto-por-planlingvoj/digitaj-dokumentoj/ludwik-l-zamenhof/</idno></resp>
+
+					<name>la Aŭstra Nacia Biblioteko (<foreign xml:lang="de">Österreichische Nationalbibliothek</foreign>)</name>
+
+				</respStmt>
+
+			</titleStmt>
+
+			<extent>11.932 vortoj</extent>
+
+			<publicationStmt>
+
+				<publisher><name xml:lang="en">Esperantic Studies Foundation</name></publisher>
+
+			</publicationStmt>
+
+			<sourceDesc>
+
+				<biblStruct>
+
+					<monogr>
+
+						<author><name xml:lang="fr">Molière</name></author>
+
+						<title type="main"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></title>
+
+						<title type="subordinate">Komedio en tri aktoj</title>
+
+						<respStmt>
+
+							<resp>El la Franca lingvo tradukis</resp>
+
+							<name>D-ro L. L. Zamenhof</name>
+
+						</respStmt>
+
+						<imprint>
+
+							<publisher><name xml:lang="fr">Librairie Hachette et Cie</name></publisher>
+
+							<pubPlace><name xml:lang="fr">Paris</name></pubPlace>
+
+							<date>1908</date>
+
+						</imprint>
+
+						<extent>48 p.</extent>
+
+					</monogr>
+
+					<note>Proksimuma tradukojaro: 1908</note>
+
+					<note>Kreis la Esperantan tekston: <name>Zamenhof</name></note>
+
+					<note>La skanitajn tekstobildojn transformis en tekston <name>Bertilo <foreign xml:lang="sv">Wennergren</foreign></name> kun helpo de versio jam enretigita ĉe <idno type="URI" xml:lang="zxx">https://github.com/LaPingvino/esperantolibroj/blob/master/Georgo%20Dandin%20-%20Moliere.md</idno> fare de <name xml:lang="nl">Joop Kiefte</name> surbaze de PDF-versio ĉe <idno type="URI" xml:lang="zxx">http://i-espero.info/files/elibroj/eo%20-%20moliere%20-%20georgo%20dandin.pdf</idno>, kiun kreis <name xml:lang="sl">Franko Luin</name>.</note>
+
+					<note type="nemontri">Ĉefdivido: personoj titolo akto</note>
+
+				</biblStruct>
+
+			</sourceDesc>
+
+		</fileDesc>
+
+	</teiHeader>
+
+	<text>
+
+		<front>
+
+			<div xml:id="georgo-dandin-Personoj" type="personoj">
+
+				<castList>
+
+					<head xml:id="bu2">PERSONOJ</head>
+
+					<castItem xml:id="bu3"><role><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> (<foreign xml:lang="fr">Dandèn</foreign>)</role>, <roleDesc>riĉa kampulo, edzo de <name>Angeliko</name>.</roleDesc></castItem>
+
+					<castItem xml:id="bu4"><role><name>Angeliko</name></role>, <roleDesc>edzino de <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> kaj filino de <name xml:lang="fr"><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> de Sotenville</name></roleDesc>.</castItem>
+
+					<castItem xml:id="bu5"><role><name xml:lang="fr"><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> de Sotenville</name> (<foreign xml:lang="fr">Sotanvil</foreign>)</role> <roleDesc>kampara nobelo, patro de <name>Angeliko</name></roleDesc>.</castItem>
+
+					<castItem xml:id="bu6"><role><name xml:lang="fr"><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> de Sotenville</name></role>.</castItem>
+
+					<castItem xml:id="bu7"><role><name>Klitandro</name></role>, <roleDesc>amanto de <name>Angeliko</name></roleDesc>.</castItem>
+
+					<castItem xml:id="bu8"><role><name>Klaŭdino</name></role>, <roleDesc>servantino de <name>Angeliko</name></roleDesc>.</castItem>
+
+					<castItem xml:id="bu9"><role><name xml:lang="fr">Lubin (Lübèn)</name></role>, <roleDesc>kampulo, servanto de <name>Klitandro</name></roleDesc>.</castItem>
+
+					<castItem xml:id="bu10"><role><name xml:lang="fr">Colin (Kolèn)</name></role>, <roleDesc>servisto de <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></roleDesc>.</castItem>
+
+					<stage xml:id="bu11" type="setting">La loko de agado estas antaŭ la domo de <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> en la kamparo.</stage>
+
+				</castList>
+
+			</div>
+
+		</front>
+
+		<body>
+
+			<div type="teatrajho">
+
+				<div type="titolo" xml:id="georgo-dandin-titolo">
+
+					<head xml:id="bu12" type="cheftitolo"><name>GEORGO <foreign xml:lang="fr">DANDIN</foreign></name></head>
+
+				</div>
+
+				<div type="akto" xml:id="georgo-dandin-akto-1">
+
+					<head xml:id="bu13">AKTO <num type="ordinal" value="1">UNUA</num></head>
+
+					<div type="sceno">
+
+						<head xml:id="bu14">SCENO <num type="ordinal" value="1">UNUA</num></head>
+
+						<stage xml:id="bu15" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi>.</stage>
+
+						<sp>
+
+							<p xml:id="bu16">Ha, nobela edzino estas malbona afero! kaj mia edziĝo estas instrua leciono por ĉiuj kampuloj, kiuj volas leviĝi super sian staton kaj edzoligiĝi kun domo de nobelo, kiel mi faris! La nobeleco per si mem estas bona; ĝi estas io valora, tute certe; sed ĝi estas ligita kun tiom da malbonaj cirkonstancoj, ke estas tre bone lasi ĝin flanke. Pri tio mi fariĝis saĝa per mia propra kostopago, kaj mi scias, kiel nin traktas la nobeloj, kiam ili nin ne-nobelojn akceptas en sian familion. La ligiĝo, kiun ili faras, estas tre malgranda rilate nian personon; sole kun nia havo ili edziĝas; kaj kiel ajn riĉa mi estas, mi farus pli bone, se mi edziĝus kun senartifika kaj bona kampulino, anstataŭ preni edzinon, kiu tenas sin pli alte ol mi, vidas ofendon por si en tio, ke ŝi portas mian nomon, kaj pensas, ke per mia tuta riĉeco mi ne sufiĉe pagis por la honoro esti ŝia edzo. <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>! vi faris malsaĝaĵon la plej grandan en la mondo. Mia domo estas nun por mi io terura, kaj ĉiufoje, kiam mi eniras en ĝin, mi nepre trovas tie ian ĉagrenon.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu17">SCENO <num type="ordinal" value="2">DUA</num></head>
+
+						<stage xml:id="bu18" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu19"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu20"><stage>al si mem, vidante, ke <name xml:lang="fr">Lubin</name> eliras el la domo</stage> – Kion, al la diablo, tiu sentaŭgulo faris ĉe mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu21"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu22"><stage>al si mem, rimarkante <name>Georgon <foreign xml:lang="fr">Dandin</foreign></name>.</stage> – Jen ia homo min observas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu23"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu24"><stage>al si mem</stage> – Li min ne konas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu25"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu26"><stage>al si mem</stage> – Li ion suspektas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu27"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu28"><stage>al si mem</stage> – Ha, li forte sin ĝenas saluti.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu29"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu30"><stage>al si mem</stage> – Mi timas, ke li ne rakontu al iu, ke li vidis min elirantan el tie.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu31"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu32">Bonan tagon!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu33"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu34">– Via servanto!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu35"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu36">– Vi ne estas de ĉi tie, al mi ŝajnas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu37"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu38">– Ne, mi venis ĉi tien nur por vidi la morgaŭan feston.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu39"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu40">– Efektive? diru, mi petas, vi venas de tie el la domo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu41"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu42">– Ts!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu43"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu44">– Kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu45"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu46">– Silentu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu47"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu48">– Kio do estas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu49"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu50">– Ho, nu! Vi ne devas diri, ke vi vidis min elirantan el tie.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu51"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu52">– Kial?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu53"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu54">– Mia Dio! ĉar....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu55"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu56">– Kial do?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu57"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu58">– Mallaŭte! mi timas, ke oni nin aŭskultas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu59"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu60">– Tute ne, tute ne!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu61"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu62">– Mi jus parolis kun la mastrino de la loĝejo, en komisio de unu sinjoro, kiu faras al ŝi amajn okuletojn; kaj estas necese, ke oni tion ne sciu. Vi komprenas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu63"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu64">– Jes.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu65"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu66">– Tio estas la kaŭzo. Oni severe ordonis al mi, ke mi min gardu, ke neniu min vidu; tial mi petas vin, ne diru, ke vi min vidis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu67"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu68">– Mi min gardos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu69"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu70">– Mi tre volas fari la aferojn sekrete, kiel oni rekomendis al mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu71"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu72">– Tre prave.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu73"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu74">– La edzo, kiel oni diras, estas ĵaluzulo, kiu ne volas, ke oni ludu amon kun lia edzino, kaj li diable furiozus, se io simila venus al liaj oreloj. Vi komprenas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu75"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu76">– Tre bone.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu77"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu78">– Estas necese, ke li nenion sciu pri tio.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu79"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu80">– Sendube.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu81"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu82">– Oni volas trompi lin tute silente. Vi komprenas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu83"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu84">– Plej perfekte.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu85"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu86">– Se vi dirus, ke vi vidis min elirantan el lia domo, vi malbonigus la tutan aferon. Vi komprenas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu87"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu88">– Certe! Kaj kia estas la nomo de tiu, kiu vin sendis tien?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu89"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu90">– Ĝi estas la sinjoro de nia loko, sinjoro vicgrafo de.... Pesto! mi neniam memoras, kiel al la diablo, oni elparolaĉas tiun nomon; sinjoro <name>Kli...</name> <name>Klitandro</name>.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu91"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu92">– Ĉu ĝi estas tiu juna kortegano, kiu loĝas....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu93"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu94">– Jes, apud tiuj arboj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu95"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu96"><stage>al si mem</stage> – Ha, tio estas la kaŭzo, ke antaŭ nelonge tiu sinjoreto prenis loĝejon kontraŭe de mi! Videble mi havis bonan nazon, kaj lia najbareco tuj estis por mi suspekta.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu97"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu98">– Vorton de honoro! li estas la plej honesta homo, kiun oni iam vidis. Li donis al mi tri orajn monerojn, por ke mi nur iru diri al la virino, ke li ŝin amas, kaj ke li tre dezirus havi la honoron paroli kun ŝi. Nu, diru, ĉu ĝi estas granda laboro, por ke li devu pagi al mi tiel bone? kaj kio estas, en komparo kun tio, tuta tago da laborado, kiu donas al mi ne pli ol dek soldojn!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu99"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu100">– Nu, ĉu vi plenumis vian komision?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu101"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu102">– Jes; mi trovis tie iun <name>Klaŭdinon</name>, kiu tuj en la unua momento komprenis, kion mi volas, kaj enkondukis min al sia mastrino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu103"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu104"><stage>al si mem</stage> – Ha, fripona servantino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu105"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu106">– Al la diablo! Tiu <name>Klaŭdino</name> estas tute bela; ŝi akiris mian amon, kaj ĝi nur dependos de ŝi, ke ni fariĝu geedzoj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu107"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu108">– Sed kian respondon donis la mastrino al tiu sinjoro kortegulo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu109"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu110">– Ŝi ordonis, ke mi diru al li.... Atendu, mi ne scias, ĉu mi bone memoras ĉion ĉi tion.... ŝi diris, ke ŝi estas al li tre danka por la amo, kiun li havas por ŝi; sed pro ŝia edzo, kiu estas stranga homo, li sin gardu, ke oni tion ne rimarku; kaj ke oni devos peni trovi ian rimedon, ke ili povu ambaŭ paroli inter si.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu111"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu112"><stage>al si mem</stage> – Ha, pendiginda virino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu113"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu114">– Al la diablo! Estos tre amuze, ĉar la edzo eĉ ne suspektos la sekretaĵojn; tio estas la plej bona; kaj li havos longan nazon kun sia ĵaluzeco. Ne vere?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu115"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu116">– Certe vere.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu117"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu118">– Adiaŭ! Tenu la buŝon fermita. Konservu bone la sekreton, ke la edzo nenion sciu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu119"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu120">– Jes, jes.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu121"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu122">– Kio min koncernas, mi, ŝajnigos, ke mi nenion scias. Mi estas granda ruzulo, kaj neniu povos diri, ke mi havas ian rilaton al la afero.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu123">SCENO <num type="ordinal" value="3">TRIA</num></head>
+
+						<stage xml:id="bu124"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi></stage>
+
+						<sp>
+
+							<p xml:id="bu125">Nu, Georgo, Dandin, vi vidas, en kia maniero via edzino kun vi agas! Jen kio venas, se oni volis edziĝi kun fraŭlino! Oni ĉirkaŭbatas vin de ĉiuj flankoj, kaj vi eĉ ne povas venĝi, kaj la nobeleco ligas al vi la manojn. Egaleco de la statoj lasas almenaŭ al la honoro de edzo la liberecon montri siajn sentojn; kaj se ĝi estus kampulino, vi estus nun tute libera fari al vi justecon per bona porcio da bastonbatoj. Sed vi volis gustumi nobelecon, kaj tedis vin esti mastro en via domo. Ha, mi furiozas el mia tuta koro, kaj mi volonte donus al mi vangofrapojn. Kiel senhonte aŭskulti la amesprimon de sinjoreto kaj al tio promesi ankoraŭ interkomunikiĝon! La diablo ĝin prenu! Tiaspecan okazon mi ne volas preterlasi. Kiel mi nun staras, mi devas tuj iri plendi al la patro kaj al la patrino kaj fari ilin atestantoj de la ĉagrenoj kaj malhonoro, kiun ilia filino al mi kaŭzas. Sed, jen, ili ambaŭ venas, tre ĝustatempe.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu126">SCENO <num type="ordinal" value="4">KVARA</num></head>
+
+						<stage xml:id="bu127" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu128"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu129">– Kio estas, mia bofilo? ŝajnas al mi, ke vi estas tre ekscitita.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu130"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu131">– Kaj mi havas kaŭzon por tio, kaj....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu132"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu133">– Mia Dio! Kiel malmulte da ĝentileco vi havas, ke vi ne salutas la homojn, kiam vi aliras al ili!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu134"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu135">– Kredu al mi, mia bopatrino, mi havas aliajn aferojn en la kapo; kaj....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu136"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu137">– Denove! ĉu estas eble, nia bofilo, ke vi tiel malmulte konas la mondajn postulojn, kaj oni ne povas lernigi al vi la manieron, en kiu oni devas vivi inter personoj de bona deveno?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu138"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu139">– Kial?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu140"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu141">– Ĉu vi neniam en rilato al mi formetos la familiarecon de tiu vorto ”bopatrino”? kaj ĉu vi ne povus alkutimiĝi diri al mi ”sinjorino”?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu142"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu143">– Al ĉiuj patronoj! Se vi min nomas via bofilo, ŝajnas al mi, ke mi povas vin nomi mia bopatrino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu144"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu145">– Oni forte povus ion diri kontraŭ tio, kaj la aferoj ne estas egalaj. Sciu do, mi petas, ke ne por vi ĝi estas konvena uzi tiun vorton kun persono de mia situacio; ke, kvankam vi estas nia bofilo, estas granda diferenco inter vi kaj ni, kaj vi devas koni vin mem.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu146"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu147">– Sufiĉe pri tio, mia amata; ni lasu ĝin.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu148"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu149">– Mia Dio! sinjoro <name xml:lang="fr">de Sotenville</name>, vi havas ian apartan malseverecon, kaj vi ne scias devigi la homojn doni al vi tion, kio al vi decas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu150"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu151">– Al la diablo! Pardonu, pri tio oni ne povas fari al mi lecionojn, kaj en la daŭro de mia vivo, mi per dudek bravaj agoj montris, ke mi ne estas homo, kiu lasus defali eĉ unu colon de miaj pretendoj; sed nun suffiĉas, ke ni donis al li negrandan averton. Nun ni iom aŭdu, mia bofilo, kion vi havas en via kapo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu152"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu153">– Ĉar mi devas paroli kategorie, mi diros al vi, sinjoro <name xml:lang="fr">de Sotenville</name>, ke mi havas kaŭzon....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu154"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu155">– Kviete, mia bofilo! Sciu, ke ne estas respekte, paroli al homoj per ilia nomo, kaj ke al tiuj, kiuj staras pli alte ol ni, oni devas diri simple ”sinjoro”.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu156"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu157">– Nu, bone, simple sinjoro, kaj ne plu sinjoro <name xml:lang="fr">de Sotenville</name>, mi devas diri al vi, ke mia edzino....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu158"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu159">– Haltu; sciu ankaŭ, ke vi ne devas diri ”mia edzino”, kiam vi parolas pri nia filino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu160"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu161">– Mi povas fariĝi furioza! Kiel! Mia edzino ne estas mia edzino?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu162"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu163">– Jes, nia bofilo, ŝi estas via edzino; sed vi ne devas permesi al vi nomi ŝin tiel; vi povus tion fari, se vi estus edzigita kun persono de via klaso.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu164"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu165"><stage>al si mem</stage> – Ha, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> kien vi enŝoviĝis! <stage>(Laŭte.)</stage> He, mi vin petas, lasu por momento flanke vian nobelecon kaj permesu, ke mi parolu al vi, kiel mi povas. <stage>(Al si mem.)</stage> La diablo prenu ĉiujn ĉi malbenitajn ceremoniojn! <stage>(Al <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.)</stage> Mi diras do al vi, ke mi estas malkontenta pri mia edziĝo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu166"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu167">– Kaj la kaŭzo, mia bofilo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu168"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu169">– Kio! Paroli tiamaniere pri afero, el kiu vi eltiris tiajn grandajn profitojn!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu170"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu171">– Kaj kiajn profitojn, sinjorino, se sinjorino nepre volas sin enmiksi? La historio estis ne malbona por vi, ĉar sen mi viaj aferoj – volu min pardoni – estis tre kadukaj, kaj mia mono servis por ŝtopi tre rimarkeblajn truojn; sed mi, kion mi profitis, mi vin petas? nur plilongigon de mia nomo, ĉar anstataŭ ”<name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>” mi ricevis de vi la titolon ”sinjoro de la <name xml:lang="fr">Dandinière</name>”.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu172"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu173">– Ĉu vi kalkulas kiel nenion, mia bofilo, la honoron, ke vi parenciĝis kun la domo <name xml:lang="fr">de Sotenville</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu174"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu175">– Kaj kun la domo de la Prudoterie, el kiu mi havas la honoron deveni; domo, en kiu ankaŭ la virina linio nobeligas, kaj kiu, dank’al la bela privilegio, faros viajn infanojn nobeloj?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu176"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu177">– Jes, tre bone, miaj infanoj estos nobeloj, sed mi estos trompita koko, se oni ne faros ordon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu178"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu179">– Kion vi volas diri, mia bofilo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu180"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu181">– Mi volas diri, ke, via filino ne kondutas tiel, kiel edzino devas konduti, kaj ke ŝi faras aferojn, kiuj estas kontraŭaj al la honoro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu182"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu183">– Haltu; gardu vin pri tio, kion vi parolas. Mia filino devenas de gento, kiu estas tro plena de virto, por fari iam ian aferon, de kiu la honesteco povus esti difektita; kaj, koncerne la domon de la Prudoterie, oni dank’al Dio de tricent jaroj tie ne vidis virinon, kiu donus kaŭzon, ke oni parolu pri ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu184"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu185">– Al la diablo! En la domo <name xml:lang="fr">de Sotenville</name> oni neniam vidis koketulinon; kaj la ĉasteco de la virinoj tie estas ne malpli hereda, ol la kuraĝeco de la viroj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu186"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu187">– Ni havis iun <name>Jakelinon <foreign xml:lang="fr">de la Prudoterie</foreign></name>, kiu ne volis esti amdonantino de duko kaj regna konsilisto, reganto de nia provinco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu188"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu189">– Ekzistis iu Maturino <name xml:lang="fr">de Sotenville</name>, kiu rifuzis akcepti dudek mil talerojn de reĝa favorato, kiu volis nur havi la privilegion libere paroli kun ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu190"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu191">– Nu, via filino ne estas tiel obstina, kaj ŝi fariĝis malpli sovaĝa de la tempo, kiam ŝi estas ĉe mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu192"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu193">– Parolu pli klare, mia bofilo. Ni ne estas tiaj homoj, kiuj protektus ŝin en malbonaj faroj, kaj ni ja unuaj, ŝia patrino kaj mi, estas pretaj doni al vi justecon pri tio.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu194"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu195">– Ni komprenas neniajn ŝercojn en aferoj, kiuj koncernas honoron, kaj ni edukis ŝin en la plej granda severeco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu196"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu197">– Ĉio, kion mi povas diri, estas, ke troviĝas ĉi tie iu kortegulo, kiun vi vidis, kiu montras al ŝi amon antaŭ mia nazo, kaj kiu faris al ŝi pri sia amo certigan klarigon, kiun ŝi aŭskultis tre homame.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu198"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu199">– Granda Dio! Mi ŝin sufokus per miaj propraj manoj, se montriĝus, ke ŝi dekliniĝis de la honesteco de sia patrino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu200"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu201">– Al la diablo! Mi trapikus per mia spado ŝin kaj ŝian amanton, se ŝi pekus kontraŭ sia honoro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu202"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu203">– Mi rakontis al vi la fakton, por prezenti al vi miajn plendojn; kaj mi postulas de vi kontentigon pri tiu afero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu204"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu205">– Estu tute trankvila, mi donos al vi kontentigon de la flanko de ili ambaŭ; al kiu ajn oni devas meti la pugnon al la brusto, mi taŭgas por tio. Sed, ĉu vi estas tute certa pri tio, kion vi diras al mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu206"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu207">– Tute certa.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu208"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu209">– Gardu vin bone; ĉar inter nobeloj tio ĉi estas tiklaj aferoj, kaj estas danĝere, se oni faras en tio ian maltrafon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu210"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu211">– Mi diris al vi nenion, kio estus malvera.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu212"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu213">– Mia koro, iru paroli kun via filino, dum mi kun mia bofilo iros paroli kun la viro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu214"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu215">– Ĉu ĝi estas ebla, mia filo, ke ŝi sin tiom forgesus, post la virta ekzemplo, kiun, kiel vi mem scias, mi donis al ŝi!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu216"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu217">– Ni klarigos la aferon. Sekvu min, mia bofilo, kaj zorgu pri nenio. Vi vidos, per kia ligno ni nin hejtas, kiam oni faras atencon pri tiuj, kiuj apartenas al ni.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu218"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu219">– Jen li mem venas al ni renkonte.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu220">SCENO <num type="ordinal" value="5">KVINA</num></head>
+
+						<stage xml:id="bu221" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Klitandro</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu222"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu223">– Sinjoro, ĉu vi min konas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu224"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu225">– Kiom mi scias, .... ne.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu226"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu227">– Mia nomo estas barono <name xml:lang="fr">de Sotenville</name>.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu228"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu229">– Mi tre ĝojas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu230"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu231">– Mia nomo estas konata de la kortego; kaj en mia juneco mi havis la honoron esti el la unuaj, kiuj distingiĝis ĉe la nobelara armiĝo en <name xml:lang="">Nancy</name>.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu232"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu233">– Mi gratulas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu234"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu235">– Sinjoro mia patro, Jean-Gilles <name xml:lang="fr">de Sotenville</name>, havis la gloron partopreni persone en la granda sieĝo de Montauban.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu236"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu237">– Mi estas ravita.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu238"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu239">– Mi havis praavon, <name>Bertrandon <foreign xml:lang="fr">de Sotenville</foreign></name>, kiu estis tiel eminenta en sia tempo, ke li ricevis la permeson vendi sian tutan bienon, por veturi trans la maron.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu240"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu241">– Mi volonte kredas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu242"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu243">– Oni raportis al mi, sinjoro, ke vi amas kaj persekutas iun junan personon, kiu estas mia filino, kaj pri kiu mi interesiĝas tiel same, kiel pri la homo, kiun vi vidas (montrante <name>Georgon <foreign xml:lang="fr">Dandin</foreign></name>), kaj kiu havas la honoron esti mia bofilo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu244"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu245">– Kiu? mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu246"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu247">– Jes; kaj estas al mi tre agrable paroli kun vi, por ricevi de vi, mi petas, klarigon pri tiu afero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu248"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu249">– Ĝi estas stranga kalumnio! Kiu tion diris al vi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu250"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu251">– Iu, kiu pensas, ke li bone tion scias.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu252"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu253">– Tiu iu mensogis. Mi estas honesta homo. ĉu vi opinias min kapabla, sinjoro, por tia malnobla agado? Mi amindumus junan kaj belan personon, kiu havas la honoron esti la filino de sinjoro barono <name xml:lang="fr">de Sotenville</name>! Mi tro multe vin respektas kaj tro multe estas preta vin servi, por ke mi faru ion similan. Kiu ajn tion diris al vi, estas malsaĝulo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu254"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu255">– Nu, mia bofilo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu256"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu257">– Kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu258"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu259">– Estas fripono kaj sentaŭgulo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu260"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu261"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Respondu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu262"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu263">– Respondu vi mem!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu264"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu265">– Se mi scius, kiu li povas esti, mi enpuŝus al li, en via alesto, la spadon en la ventron.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu266"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu267"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Pruvu do la aferon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu268"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu269">– Ĝi estas tute pruvita. Ĝi estas vero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu270"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu271">– Ĉu ĝi estas via bofilo, sinjoro, kiu....?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu272"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu273">– Jes, li estas ĝuste tiu, kiu plendis al mi pri tio.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu274"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu275">– Certe, ĝi estas lia feliĉo, ke li havas la honoron aparteni al vi; alie mi bone instruus lin fari tiajn parolojn pri persono kiel mi.</p>
+
+						</sp>
+
+						</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu276">SCENO <num type="ordinal" value="6">SESA</num></head>
+
+						<stage xml:id="bu277" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Angeliko</name>, <name>Klitandro</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu278"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu279">– Koncerne tion mi devas diri, ke la ĵaluzo estas efektive stranga afero. Mi alkondukas ĉi tien mian filinon, por klarigi la aferon en ĉies alesto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu280"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu281"><stage>al <name>Angeliko</name></stage> – ĉu ĝi estas vi, sinjorino, kiu diris al via edzo, ke mi vin amas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu282"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu283">– Mi? Kiel mi povus tion diri al li? ĉu ĝi estas vero? Mi volus efektive vidi, ke vi provus min ami! Provu ĝin, mi vin petas; vi vidus, kun kiu vi parolas! Mi konsilas al vi tion fari. Uzu ĉiujn artifikojn de amantoj; provu iom, por plezuro, sendi al mi sendatojn, skribi al mi sekrete amajn leteretojn, serĉi la momenton, kiam mia edzo ne estas hejme, aŭ kiam mi eliras, kaj parolu al mi pri via amo: vi bezonas nur veni, mi promesas al vi, ke vi estos dece akceptita.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu284"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu285">– Nu, nu, sinjorino, kviete! Ne estas necese fari al mi tiom da lecionoj kaj tiom skandaliĝi. Kiu diris al vi, ke mi havas la ideon vin ami?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu286"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu287">– Kiel mi povas scii, kion oni ĉi tie rakontis?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu288"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu289">– Oni rakontu, kion oni volas; sed vi ja scias, ĉu mi parolis kun vi pri amo, kiam mi vin renkontis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu290"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu291">– Vi devus nur tion fari, vi havus bonan akcepton!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu292"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu293">– Mi certigas vin, ke kun mi vi devas nenion timi: mi ne estas tia homo, kiu faras ĉagrenon al belulinoj; kaj mi vin tro respektas, vin kaj viajn estimatajn gepatrojn, por ke mi havu la penson enamiĝi en vin.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu294"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu295"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Nu, vi vidas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu296"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu297">– Jen vi estas kontentigita, mia bofilo. Kion vi diros al tio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu298"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu299">– Mi diros, ke tio estas fabeloj por enluliĝi; ke mi bone scias, kion mi scias, kaj ke, ĉar mi jam devas paroli klare, ŝi ĵus akceptis komisiulon de li.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu300"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu301">– Mi? mi akceptis komisiulon?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu302"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu303">– Mi sendis komisiulon?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu304"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu305">– <name>Klaŭdino</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu306"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu307"><stage>al <name>Klaŭdino</name></stage> – ĉu estas vere?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu308"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu309">– Mian vorton de honoro, ĝi estas stranga malveraĵo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu310"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu311">– Silentu, vi malĉastulino. Mi bone vin konas. Ĝi estas vi, kiu ĵus enkondukis la komisiulon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu312"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu313">– Kiu? mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu314"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu315">– Jes, vi. Ne ludu rolon de purulino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu316"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu317">– Ho ve, kiel la mondo nun estas plena de malboneco! tiele min suspekti, min, kiu estas la senkulpeco mem!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu318"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu319">– Silentu, virinaĉo! vi ludas la rolon de modestulino, sed mi konas vin jam de longe, vi estas ruza kanajlo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu320"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu321"><stage>al <name>Angeliko</name></stage> – Sinjorino, ĉu....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu322"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu323">– Silentu, mi diras al vi! alie vi povus tre kare pagi por ĉiuj, ĉar vi ja ne havas patron nobelon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu324"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu325">– Ĝi estas kalumnio tiel granda, kaj kiu tiel forte vundas mian koron, ke mi ne povas eĉ havi la forton por respondi. Ĝi estas ja io terura, esti akuzata de edzo, kiam oni faris al li nenion, kio estas ne farinda! Ho ve, se mi meritas ian riproĉon, ĝi estas nur tio, ke mi agis kun li tro bone.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu326"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu327">– Certe.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu328"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu329">– Mia tuta malfeliĉo estas tio, ke mi tro zorgas pri li; la ĉielo volu, ke mi estu kapabla toleri, kiel li diras, ies amindumaĵojn! mi ne estus tiam tiel plendinda. Adiaŭ, mi foriras; mi ne povas plu toleri, ke oni min tiamaniere ofendu.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu330">SCENO <num type="ordinal" value="7">SEPA</num></head>
+
+						<stage xml:id="bu331" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Klitandro</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu332"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu333"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Iru, vi ne meritas la honestan edzinon, kiun oni donis al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu334"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu335">– Vorton de honoro, li meritus, ke ŝi verigu tion, kion li diris; kaj, se mi estus sur ŝia loko, mi ne longe marĉandus.</p>
+
+							<stage xml:id="bu336">al <name>Klitandro</name>.</stage>
+
+							<p xml:id="bu337">Jes, sinjoro, vi devus nun, por lin puni, amindumi mian mastrinon. Komencu kuraĝe, mi tion diras al vi, ĝi estos tre ĝustatempa kaj mi proponas al vi, ke mi vin helpos, ĉar li ja tiamaniere min jam taksas.</p>
+
+							<stage xml:id="bu338">(<name>Klaŭdino</name> foriras).</stage>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu339"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu340">– Vi meritas, mia bofilo, ke oni diru al vi tiajn aferojn: via agado indignigas ĉiujn kontraŭ vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu341"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu342">– Iru, penu agi pli bone kun fraŭlino altedevena; kaj gardu vin de nun, ke vi plu ne faru tiajn eraregojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu343"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu344"><stage>al si mem</stage> – Mi estas tute furioza, ke mi staras kiel malpravulo, dum mi estas prava.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu345">SCENO <num type="ordinal" value="8">OKA</num></head>
+
+						<stage xml:id="bu346" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Klitandro</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu347"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu348"><stage>al <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></stage> – Sinjoro, vi vidas, kiel false mi estis akuzita: vi estas homo, kiu scias la principojn de honoro, kaj mi postulas de vi kontentigon por la honto, kiu estas farita al mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu349"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu350">– Tio estas tute justa kaj tute laŭ la ordo. Nu, mia bofilo donu kontentigon al la sinjoro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu351"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu352">– Kio? kontentigon?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu353"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu354">– Jes, la ordo tion postulas, ĉar vi malprave lin akuzis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu355"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu356">– Sed tio ja estas la afero, ke mi tute ne konsentas, ke mi lin malprave akuzis; kaj mi bone scias, kion mi pri tio pensas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu357"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu358">– Tio ne estas grava. Kia ajn penso povus resti ĉe vi, li neis, kaj tio devas sufiĉi; kaj oni ne havas rajton plendi pri iu, se li neas kulpecon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu359"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu360">– Sekve, se mi lin trovus kuŝanta kun mia edzino, li devus nur nei, kaj tio lin jam senkulpigus?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu361"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu362">– Ne rezonadu. Petu lin pri pardono, kiel mi diras al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu363"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu364">– Mi! Mi devas ankoraŭ peti lin pri pardono, post tio, ke....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu365"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu366">– Rapide, mi diras al vi, vi havas nenion por pripensi; kaj vi ne devas timi, ke vi faras tro multe, ĉar mi mem ja tion konsilas al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu367"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu368">– Mi ne povas....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu369"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu370">– Al la diablo! mia bofilo, ne incitu al mi la galon, ĉar mi kuniĝus kun li kontraŭ vi. Nu, lasu, ke mi vin gvidu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu371"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu372"><stage>al si mem</stage> – Ha, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu373"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu374">– Antaŭ ĉio prenu vian ĉapon en la manon: la sinjoro estas nobelo, kaj vi ne estas tia.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu375"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu376"><stage>al si mem, tenante la ĉapon en la mano</stage> – Mi krevas de furiozo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu377"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu378">– Ripetu post mi: Sinjoro....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu379"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu380">– Sinjoro....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu381"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu382">– Mi petas vian pardonon....</p>
+
+							<stage xml:id="bu383">vidante, ke <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> penas ne obei lin Ha!</stage>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu384"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu385">– Mi petas vian pardonon....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu386"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu387">– Pri la malbonaj pensoj, kiujn mi havis rilate vin....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu388"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu389">– Pri la malbonaj pensoj, kiujn mi havis rilate vin....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu390"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu391">– Ĝi estis kaŭzita de tio, ke mi ne havis la honoron vin koni....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu392"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu393">– Ĝi estis kaŭzita de tio, ke mi ne havis la honoron vin koni....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu394"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu395">– Kaj mi petas vin kredi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu396"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu397">– Kaj mi petas vin kredi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu398"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu399">– Ke mi estas via servanto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu400"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu401">– Vi volas, ke mi estu servanto de homo, kiu volas fari min trompita koko?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu402"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu403"><stage>farante al li signon de minaco</stage> – Ha!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu404"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu405">– Sufiĉas, sinjoro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu406"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu407">– Ne, mi volas, ke li finu, kaj ke ĉio estu farata laŭforme.... Ke mi estas via servanto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu408"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu409">– Ke mi estas via servanto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu410"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu411"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Sinjoro, mi estas tutkore via, kaj mi plu ne pensas pri tio, kio okazis.</p>
+
+							<stage xml:id="bu412">al <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></stage>
+
+							<p xml:id="bu413">Al vi, sinjoro, mi diras adiaŭ, kaj mi bedaŭras la malgrandan ĉagrenon, kiun vi havis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu414"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu415">– Ni kisas al vi la manojn; kaj se ĝi plaĉos, al vi, mi liveros al vi la amuziĝon ĉasi kun mi leporon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu416"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu417">– Vi estas tro bona kontraŭ mi.</p>
+
+							<stage xml:id="bu418">(<name>Klitandro</name> foriras)</stage>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu419"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu420">– Jen, mia bofilo, kiel oni devas konduki la aferojn! Adiaŭ. Sciu, ke vi eniris en familion, kiu donos al vi apogon kaj neniam toleros, ke oni faru al vi ian honton.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu421">SCENO <num type="ordinal" value="9">NAŬA</num></head>
+
+						<stage xml:id="bu422"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi>.</stage>
+
+						<sp>
+
+							<p xml:id="bu423">Ha, kiel mi.... Vi ĝin volis, vi ĝin volis, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> vi ĝin volis! Ĝi konvenas al vi bone, kaj vi estas ĝuste aranĝita: vi havas juste tion, kion vi meritis. Nu, oni devas nur malfermi la okulojn al la patro kaj al la patrino; eble mi trovos ian rimedon, por tion atingi.</p>
+
+						</sp>
+
+					</div>
+
+				</div>
+
+				<div type="akto" xml:id="georgo-dandin-akto-2">
+
+					<head xml:id="bu424">AKTO <num type="ordinal" value="2">DUA</num></head>
+
+					<div type="sceno">
+
+						<head xml:id="bu425">SCENO <num type="ordinal" value="1">UNUA</num></head>
+
+						<stage xml:id="bu426" type="setting"><name>Klaŭdino</name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu427"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu428">– Jes, mi tuj divenis ke ĝi certe venas de vi, kaj ke vi ĝin diris al iu, kiu ĉion rakontis al nia mastro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu429"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu430">– Mi ĵuras al vi, mi nur pasante diris pri ĝi unu vorton al iu homo, por ke li ne diru, ke li vidis, ke mi eliris el la domo; videble la homoj en tiu ĉi lando estas grandaj babiluloj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu431"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu432">– Efektive, sinjoro la vicgrafo faris bonan elekton, prenante vin kiel sian sendaton! li uzas la servon de homo tre dube fidinda!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu433"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu434">– Nu, alian fojon mi estos pli ruza kaj mi pli min gardos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu435"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu436">– Jes, jes, estos la ĝusta tempo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu437"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu438">– Ni ne parolu plu pri tio. Aŭskultu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu439"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu440">– Kion vi volas, ke mi aŭskultu?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu441"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu442">– Turnu iom vian vizaĝon al mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu443"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu444">– Nu, kion do vi volas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu445"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu446">– <name>Klaŭdino</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu447"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu448">– Kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu449"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu450">– He, he, ĉu vi ne scias tre bone, kion mi volas diri?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu451"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu452">– Ne.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu453"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu454">– Al la diablo! mi vin amas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu455"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu456">– Efektive?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu457"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu458">– Jes, la diablo min prenu! Vi povas kredi al mi, ĉar mi ĝin ĵuras.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu459"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu460">– Nu, bone.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu461"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu462">– Mi sentas, ke mia tuta koro tremas, kiam mi vin rigardas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu463"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu464">– Mi tre ĝojas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu465"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu466">– Kiamaniere vi tion faras, ke vi estas tiel bela?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu467"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu468">– Tiel same, kiel faras la aliaj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu469"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu470">– Vidu, oni ne bezonas tiom da ceremonioj: se vi volas, vi estos mia edzino kaj mi estos via edzo; kaj ni ambaŭ estos geedzoj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu471"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu472">– Vi eble estus tiel ĵaluza, kiel nia mastro?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu473"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu474">– Tute ne!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu475"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu476">– De mia fianko, mi malamas la suspektemajn edzojn: kaj mi volas tian edzon, kiu ne timas ĉion, kiu estus tiom plena de konfido al mi kaj tiel certa pri mia ĉasteco, ke li sen maltrankvileco povus min vidi en la mezo de tridek viroj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu477"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu478">– Bone! mi estos tute tia.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu479"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu480">– Ĝi estas la plej malsaĝa afero en la mondo, kiam oni ne konfidas al edzino, kaj oni ŝin turmentas. Kaj en efektiveco oni ĉe tio nenion gajnas: ĝuste tio devigas nin pensi pri malbono; kaj ofte la edzoj mem, per sia bruego, faras el si tion, kio ili estas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu481"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu482">– Nu, mi donos al vi la liberecon fari ĉion, kio al vi plaĉos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu483"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu484">– Jen tiel oni devas agi, se oni ne volas esti trompata. Kiam edzo fidas nian honestecon, ni prenas el la libereco nur tiom, kiom ni bezonas; ĝi estas tiel same, kiel kun tiuj, kiuj, malfermas al ni sian monujon kaj diras al ni: ”prenu!” Ni faras el ĝi uzon honeste, kaj ni kontentiĝas per tio, kio estas justa. Sed se iu nin ĉikanas, ni penas lin tondi, kaj ni tute lin ne indulgas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu485"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu486">– Bone, mi estos el tiuj, kiuj malfermas sian monujon, kaj vi bezonas nur edziniĝi kun mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu487"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu488">– Bone, bone, ni vidos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu489"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu490">– Venu do ĉi tien, KIaŭdino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu491"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu492">– Kion vi volas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu493"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu494">– Venu, mi diras al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu495"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu496">– Ha, kviete! Mi ne amas la palpistojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu497"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu498">– He, iomete, pro amikeco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu499"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu500">– Lasu min, mi diras al vi: mi ne komprenas ŝercojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu501"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu502">– <name>Klaŭdino</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu503"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu504"><stage>repuŝante lin</stage> – He, for!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu505"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu506">– Ha, kiel kruda vi estas kun homoj! Fi! kiel neĝentila ĝi estas tiel forpuŝi personojn! ĉu vi tute ne hontas esti bela kaj ne voli, ke oni vin karesu? He, lasu do!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu507"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu508">– Mi donos al vi sur la nazon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu509"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu510">– Ho, kia malcedema, kia sovaĝa! Fi! Estas malbele esti tiel kruela!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu511"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu512">– Vi fariĝas tro libera.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu513"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu514">– Kion do ĝi kostos al vi, se vi lasos min iom petoli kun vi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu515"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu516">– Vi devas havi paciencon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu517"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu518">– Nur unu kiseton, partopage de nia edziĝo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu519"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu520">– Mi dankas por tio.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu521"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu522">– <name>Klaŭdino</name>, mi vin petas, vi ĝin deprenos de la kalkulo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu523"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu524">– He, certe ne! Mi jam unu fojon enfalis. Adiaŭ! Iru for, kaj diru al sinjoro la vicgrafo, ke mi akurate transdonos lian bileton.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu525"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu526">– Adiaŭ, sovaĝa belulino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu527"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu528">– La vorto montras enamiĝon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu529"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu530">– Adiaŭ, roko, ŝtono, marmoro, ĉio plej malmola en la mondo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu531"><name>Klaŭdino</name></speaker>
+
+							<stage xml:id="bu532" type="setting">sola</stage>
+
+							<p xml:id="bu533">Mi tuj transdonos en la manojn de mia mastrino.... Sed jen ŝi venas kun sia edzo; mi foriĝu kaj atendu, ĝis ŝi estos sola.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu534">SCENO <num type="ordinal" value="2">DUA</num></head>
+
+						<stage xml:id="bu535" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Angeliko</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu536"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu537">– Ne, ne, oni ne trompas min tiel facile; kaj mi nur estas tro certa, ke tio, kion oni diris al mi, estas vera. Mi havas pli bonajn okulojn, ol kiel oni pensas, kaj via galimatio tute min ne blindigis.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu538">SCENO <num type="ordinal" value="3">TRIA</num></head>
+
+						<stage xml:id="bu539" type="setting"><name>Klitandro</name>, <name>Angeliko</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu540"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu541"><stage type="setting">aparte, en la profundo de la scenejo</stage> – Ha, jen ŝi estas; sed ŝia edzo estas kune kun ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu542"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu543"><stage>ne vidante <name>Klitandron</name></stage> – Trae de ĉiuj viaj grimacoj mi vidis la verecon de tio, kion oni diris al mi, kaj kiom da respekto vi havas por la ligo, kiu nin unuigas. <stage>(<name>Klitandro</name> kaj <name>Angeliko</name> reciproke sin salutas.)</stage> Mia Dio, lasu vian riverencon; ne pri tia speco de respekto mi parolas al vi, kaj vi ne devas ankoraŭ moki.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu544"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu545">– Mi? mi mokas? neniel!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu546"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu547">– Mi scias, kion vi pensas, kaj mi konas... <stage>(<name>Klitandro</name> kaj <name>Angeliko</name> sin denove reciproke salutas.)</stage> – Denove! Ha, ĉesu do fari ŝercojn! Mi scias tre bone, ke pro via nobeleco vi rigardas min, kiel starantan tre malsupre de vi; sed la respekto, pri kiu mi parolas al vi, tute ne koncernas mian personon. Mi parolas pri tiu respekto, kiun vi ŝuldas al ligo tiel estimeginda, kiel estas la ligo de edzeco.... <stage>(<name>Angeliko</name> faras signon al <name>Klitandro</name>.)</stage> Ne, levu la ŝultrojn, mi tute ne parolas malsaĝaĵojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu548"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu549">– Sed kiu levas la ŝultrojn?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu550"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu551">– Mia Dio! Mi vidas tre klare. Mi diras al vi ankoraŭ unu fojon, ke la edzeco estas ĉeno, al kiu oni devas rilati kun la plej granda respekto, kaj estas tre malbone, fari el ĝi tian uzon, kian vi faras. <stage>(<name>Angeliko</name> faras al <name>Klitandro</name> signon per la kapo.)</stage> Jes, jes, tre malbone de via flanko; kaj vi tute ne bezonas balanci la kapon kaj fari al mi grimacojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu552"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu553">– Mi? mi ne scias, kion vi volas diri.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu554"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu555">– Sed, mi tion scias tre bone; kaj vian malestimon mi konas. Se mi ne naskiĝis nobelo, almenaŭ mi estas el familio, al kiu oni povas fari neniun riproĉon; kaj la familio de la Dandinoj....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu556"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu557"><stage>malantaŭ <name>Angeliko</name>, nerimarkate de <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Nur unu vorton!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu558"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu559"><stage>ne vidante <name>Klitandron</name></stage> – Kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu560"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu561">– Kio? mi nenion diris. <stage>(<name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> turnas sin ĉirkaŭ sian edzinon, kaj <name>Klitandro</name> foriĝas, farante grandan riverencon al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.)</stage></p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu562">SCENO <num type="ordinal" value="4">KVARA</num></head>
+
+						<stage xml:id="bu563" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Angeliko</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu564"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu565">– Jen li vagis ĉirkaŭ vi!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu566"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu567">– Nu, ĉu ĝi estas mia kulpo? Kion vi volas, ke mi faru kontraŭ tio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu568"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu569">– Mi volas, ke vi faru kontraŭ tio tion, kion faras virino, kiu volas plaĉi nur al sia edzo. Kion ajn oni dirus, la amistoj altrudas sin nur tiam, kiam oni tion akceptas. Ekestas certa dolĉa mieno, kiu ilin altiras, tiel same, kiel la mielo la muŝojn; sed la honestaj virinoj havas rimedojn, kiuj forpelas ilin tuj en la komenco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu570"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu571">– Mi ilin forpeli! Sed pro kia kaŭzo? Mi tute ne vidas en ĝi ian skandalon, se oni min trovas bela kaj tio faras al mi plezuron.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu572"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu573">– Jes! Sed kiun rolon la edzo povas ludi ĉe tiu ĉi amindumado?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu574"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu575">– La rolon de honesta homo, kiu ĝojas, se lia edzino estas ŝatata.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu576"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu577">– Mi vin tre dankas por tio. Ĝi tute ne estas laŭ mia gusto; kaj la Dandinoj tute ne alkutimiĝis al tiu modo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu578"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu579">– Ho, la Dandinoj alkutimiĝos, se ili volos; ĉar miaflanke mi deklaras al vi, ke mi ne havas la intencon forrifuzi la mondon kaj vivante enterigi min en edzon. Kio! ĉar viro ekpensas edziĝi kun ni, tial estas necese, ke ĉio finiĝu por ni kaj ke ni rompu ĉiujn interrilatojn kun la vivantoj! Ĝi estas mirinda afero, tiu tiraneco de sinjoroj la edzoj; kaj tio al mi plaĉas, ke ili volas, ke oni mortu por ĉiuj amuzoj kaj oni vivu nur por ili! Mi mokas tion, kaj mi tute ne volas morti tiel juna.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu580"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu581">– Tiele do vi plenumas la ŝuldiĝon de la ĵuro, kiun vi faris al mi publike?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu582"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu583">– Mi? mi ne faris ĝin al vi propravole, vi ĝin elŝiris de mi. ĉu antaŭ la edziĝo vi demandis pri mia konsento kaj ĉu mi vin volas? Vi demandis pri tio nur mian patron kaj mian patrinon; en efektiveco ja nur ili edziĝis kun vi; tial estos bone, se vi ĉiam al ili plendos, se oni agas kun vi maljuste. Kio koncernas min, kiu ne petis vin, ke vi edziĝu kun mi, kaj kiun vi prenis, ne demandinte miajn sentojn, mi pretendas, ke mi ne havas la devon sklave submeti min al viaj deziroj; kaj mi volas ĝui, mia sinjoro, la kelkan nombron da belaj tagoj, kiun donas al mi mia juneco, preni al mi la dolĉan liberecon, kiun la aĝo al mi permesas, vidi iom la belan societon, kaj gustumi la plezuron aŭdi dolĉajn vortojn, kiujn oni diras al mi. Prepariĝu at tio, ke ĝi estu via puno, kaj danku la ĉielon, ke mi ne estas kapabla por io pli malbona.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu584"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu585">– Jes, tiel vi prenas la aferon! Sed mi estas via edzo kaj mi diras al vi, ke mi tion ne volas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu586"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu587">– Kaj mi, mi estas via edzino, kaj mi diras al vi, ke mi tiel volas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu588"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu589"><stage>al si mem</stage> – Mi havas grandan deziron fari kompoton el ŝia tuta vizaĝo kaj meti ŝin en tian staton, ke ŝi plu neniam en sia vivo plaĉu al la dirantoj de flataĵoj. Iru, Georgo, Dandin; mi ne povus min deteni, kaj estas pli bone forlasi la lokon.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu590">SCENO <num type="ordinal" value="5">KVINA</num></head>
+
+						<stage xml:id="bu591" type="setting"><name>Angeliko</name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu592"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu593">– Kun malpacienco mi atendis, sinjorino, ke li foriru, por ke mi transdonu al vi ĉi tiujn liniojn de tiu, pri kiu vi scias.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu594"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu595">– Ni vidu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu596"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu597"><stage>al si mem</stage> – Kiom mi povas rimarki, tio, kion oni skribas al ŝi, ne tre malplaĉas al ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu598"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu599">– Ha, <name>Klaŭdino</name>, kiel ĝentile ĉio estas esprimita en tiu ĉi bileto! Kian agrablan manieron la korteguloj havas en ĉiuj siaj paroloj kaj en ĉiuj siaj agoj! Kaj kio estas, en komparo kun ili, niaj provinculoj?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu600"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu601">– Mi pensas, ke, post kiam vi vidis tiujn, la Dandinoj ne povas plaĉi al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu602"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu603">– Restu ĉi tie, mi iros skribi la respondon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu604"><name>Klaŭdino</name></speaker>
+
+							<stage xml:id="bu605" type="setting">sola</stage>
+
+							<p xml:id="bu606">Ŝajnas al mi, ke mi ne bezonas rekomendi al ŝi, ke ŝi faru la respondon agrabla. Sed jen....</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu607">SCENO <num type="ordinal" value="6">SESA</num></head>
+
+						<stage xml:id="bu608" type="setting"><name>Klitandro</name>, <name xml:lang="fr">Lubin</name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu609"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu610">– Vere, sinjoro, vi tie prenis al vi lertan komisiulon!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu611"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu612">– Mi ne kuraĝis sendi iun el miaj homoj. Sed, mia bona <name>Klaŭdino</name>, mi devas ja rekompenci vin por la bonaj servoj, kiujn, kiel mi scias, vi faris al mi. <stage>(Li serĉfosas en sia poŝo.)</stage></p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu613"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu614">– Ho, sinjoro, ne estas necese. Vi tute ne bezonas fari al vi tiun klopodon; mi faras al vi servojn, ĉar vi ĝin meritas, kaj mi sentas en mia koro inklinon por vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu615"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu616"><stage>donante monon al <name>Klaŭdino</name></stage> – Mi vin tre dankas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu617"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu618"><stage>al <name>Klaŭdino</name></stage> – Ĉar ni edziĝos, tial donu tion al mi, por ke mi ĝin konservu kune kun mia mono.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu619"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu620">– Mi ĝin konservos por vi tiel same, kiel la kison.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu621"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu622"><stage>al <name>Klaŭdino</name></stage> – Diru al mi, ĉu vi transdonis mian bileton al via bela mastrino?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu623"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu624">– Jes; ŝi jam skribas respondon al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu625"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu626">– Sed, <name>Klaŭdino</name>, ĉu ne estas eble, ke mi povu persone paroli kun ŝi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu627"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu628">– Jes; venu kun mi, mi donos al vi la eblon paroli kun ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu629"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu630">– Sed ĉu ŝi tion aprobos? kaj ĉu estas nenia risko?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu631"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu632">– Ne, ne! ŝia edzo ne estas en la loĝejo; kaj krom tio ne pri li ŝi devas plej multe zorgi: nur antaŭ siaj gepatroj ŝi devas sin gardi; kaj se nur pri ili estas zorgite, ĉion ceteran oni ne bezonas timi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu633"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu634">– Mi lasas min al via gvidado.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu635"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu636"><stage type="setting">sola</stage> – Al la diablo! Jen saĝan edzinon mi havos! Ŝi havas spriton kiel kvar.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu637">SCENO <num type="ordinal" value="7">SEPA</num></head>
+
+						<stage xml:id="bu638" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu639"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu640"><stage>al si mem</stage> – Jen, estas mia homo de antaŭe. Ho, se mi povus ĝin atingi, ke li atestu al la gepatroj tion, kion ili ne volas kredi!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu641"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu642">– Ha, jen vi estas, sinjoro babilulo, al kiu mi tiel forte rekomendis nenion paroli, kaj kiu ĝin tiel forte promesis al mi! Vi estas do babilisto, kaj vi tuj ĉion transdiras, kion oni diras al vi sekrete?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu643"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu644">– Mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu645"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu646">– Jes, vi ĉion raportis al la edzo, kaj vi estas la kaŭzo de tio, ke li faris bruegon. Mi ĝojas, ke mi nun scias, ke vi havas tian langon kaj tio min instruos, ke mi nenion plu diru al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu647"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu648">– Aŭskultu, mia amiko....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu649"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu650">– Se vi ne estus babilinta, mi rakontus al vi, kio fariĝas en la nuna momento; sed pro puno vi nenion scios.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu651"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu652">– Kio? kio do fariĝas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu653"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu654">– Nenio, nenio. Jen kio estas, se oni babilis; vi ne sciiĝos eĉ unu vorton, kaj pri la plej interesa parto mi silentos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu655"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu656">– Haltu do iom.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu657"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu658">– Neniel.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu659"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu660">– Mi volas diri al vi nur unu vorton.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu661"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu662">– Ho ne, ho ne! Vi volas eltiri de mi la sekreton.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu663"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu664">– Ne, ne tion.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu665"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu666">– He, Vi pensas, ke mi estas malsaĝa! Mi vidas, kion vi celas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu667"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu668">– Estas io tute alia. Aŭskultu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu669"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu670">– Vi nenion atingos. Vi, volus ke mi diru al vi, ke sinjoro la vicgrafo donis monon al <name>Klaŭdino</name>, kaj ke ŝi kondukis lin al sia mastrino. Sed mi ne estas tiel malsaĝa.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu671"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu672">– Mi vin petas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu673"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu674">– Ne!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu675"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu676">– Mi donos al vi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu677"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu678">– Mendu-atendu!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu679">SCENO <num type="ordinal" value="8">OKA</num></head>
+
+						<stage xml:id="bu680" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi>.</stage>
+
+						<sp>
+
+							<p xml:id="bu681">Kun ĉi tiu malsaĝulo mi ne povis plenumi la penson, kiun mi havis. Sed la nova sciigo, kiu elglitis el lia buŝo, povas fari al mi tian saman servon; kaj, se la amisto estas en mia domo, tio donos al mi la eblon montriĝi prava en la okuloj de la gepatroj kaj plene ilin konvinki pri la senhonteco de ilia filino. La malbono en la afero estas nur tio, ke mi ne scias kiel min aranĝi, ke mi tiru profiton el tiu sciigo. Se mi eniros en mian domon, mi forkurigos la sentaŭgulon; kaj kion ajn malhonorigan por mi mi povus vidi per miaj propraj okuloj, oni tute ne kredos miajn vortojn, kaj oni diros al mi, ke mi fantazias. Aliflanke, se mi venigos la bogepatrojn, ne havante la certecon, ke ni trovos en mia domo la amiston, estos tiel same, kaj mi refalos, en la malbonan staton de antaŭe. Eble mi povus senbrue esplori, ĉu li tie estas ankoraŭ?</p>
+
+							<stage xml:id="bu682">rigardinte tra la truo de la seruro</stage>
+
+							<p xml:id="bu683">Ha! ĉielo! Oni plu ne povas dubi, mi vidis lin tra la truo de la seruro. La sorto donas al mi la eblon konfuzi miajn homojn; kaj, por kroni la tutan aventuron, ĝi alvenigas en la ĝusta momento la juĝantojn, kiujn mi bezonis.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu684">SCENO <num type="ordinal" value="9">NAŬA</num></head>
+
+						<stage xml:id="bu685" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu686"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu687">– Nu, vi ne volis kredi al mi antaŭ, kaj via filino venkis; nun mi havas en la mano la eblecon vidigi al vi, kiel ŝi min aranĝas; kaj, dank’al Dio, mia malhonoro estas nun tiel klara, ke vi ne povos plu dubi pri ĝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu688"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu689">– Kiel, mia bofilo! vi ĉiam ankotaŭ ripetas tion saman?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu690"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu691">– Jes, ĉiam ankoraŭ; kaj neniam mi havis por tio tiom da kaŭzo, kiel nun.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu692"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu693">– Vi denove volas turni al ni la kapon!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu694"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu695">– Jes, sinjorino; kaj kun mia kapo oni agas pli malbone.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu696"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu697">– Ĉu vi neniam laciĝos tedi nin?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu698"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu699">– Ne, sed mi forte laciĝas esti moke trompata.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu700"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu701">– Ĉu vi neniam volas liberigi vin de viaj strangaj pensoj?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu702"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu703">– Ne, sinjorino sed mi tre dezirus liberigi min de edzino, kiu min malhonoras.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu704"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu705">– Granda Dio! nia bofilo, lernu paroli konvene.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu706"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu707">– Al la diablo! serĉu esprimojn malpli ofendajn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu708"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu709">– Kiu perdas, tiu ne ridas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu710"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu711">– Memoru, ke vi edziĝis kun nobela fraŭlino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu712"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu713">– Mi tion memoras sufiĉe, kaj mi ĉiam nur tro multe memoros tion.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu714"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu715">– Se vi tion memoras, tiam penu paroli pri ŝi kun pli da respekto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu716"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu717">– Sed kial ŝi pli ĝuste ne penas agi kun mi pli honeste? Kio! ĉar ŝi estas nobelino, ŝi devas havi la liberecon fari al mi, kion ŝi volas, kaj mi ne devas kuraĝi eĉ diri vorteton?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu718"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu719">– Kio do fariĝis al vi, kaj kion vi povas diri? Ĉu vi ne vidis hodiaŭ matene, ke ŝi eĉ ne konis tiun, pri kiu vi parolis al mi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu720"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu721">– Jes; sed kion vi diros, se mi nun vidigos al vi, ke la amisto estas kun ŝi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu722"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu723">– Kun ŝi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu724"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu725">– Jes, kun ŝi, kaj en mia domo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu726"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu727">– En via domo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu728"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu729">– Jes, en mia propra domo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu730"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu731">– Se ĝi estos tiel, ni estos por vi kontraŭ ŝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu732"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu733">– Jes, la honoro de nia familio estas por ni pli kara ol ĉio en la mondo; kaj se vi diras la veron, ni malkonfesos en ŝi nian sangon kaj ni forlasos ŝin al via kolero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu734"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu735">– Vi bezonas nur sekvi min.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu736"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu737">– Gardu vin kontraŭ trompiĝo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu738"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu739">– Ne faru kiel antaŭe.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu740"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu741">– Mia Dio! Vi tuj vidos.</p>
+
+							<stage xml:id="bu742">li montras en direkto al <name>Klitandro</name>, kiu elvenas kun <name>Angeliko</name></stage>
+
+							<p xml:id="bu743">Nu, rigardu, ĉu mi mensogis?</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu744">SCENO <num type="ordinal" value="10">DEKA</num></head>
+
+						<stage xml:id="bu745" type="setting"><name>Angeliko</name>, <name>Klitandro</name>, <name>Klaŭdino</name>; <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name> kaj <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> en la profundo de la scenejo.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu746"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu747"><stage>al <name>Klitandro</name></stage> – Adiaŭ! mi timas, ke oni povos vin ĉi tie surprizi, kaj mi devas min gardi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu748"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu749">– Promesu do al mi, sinjorino, ke mi povos paroli kun vi ĉi tiun nokton.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu750"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu751">– Mi penos pri tio.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu752"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu753"><stage>al gesinjoroj <name xml:lang="fr">de Sotenville</name></stage> – Ni alproksimiĝu kviete de malantaŭe, kaj ni zorgu, ke oni nin ne vidu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu754"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu755">– Ha, sinjorino! ĉio estas perdita! Jen estas viaj gepatroj en akompano de via edzo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu756"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu757">– Ho, ĉielo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu758"><name>Angeliko</name>,</speaker>
+
+							<p xml:id="bu759"><stage>mallaŭte al <name>Klitandro</name> kaj <name>Klaŭdino</name></stage> – Tenu vin tute trankvile kaj lasu min agi. <stage>(Laŭte al <name>Klitandro</name>.)</stage> Kio! Vi kuraĝas ankoraŭ agi tiamaniere post la historio de antaŭe! kaj, tiamaniere vi kaŝas viajn sentojn! Oni diras al mi, ke vi enamiĝis en min, kaj ke vi havas la intencon admonakiri min; mi atestas al vi mian indignon, kaj mi klare esprimas al vi miajn pensojn en atesto de ĉiuj; vi laŭte neas la aferon kaj donas al mi la vorton, ke vi havas nenian penson ofendi min; kaj tamen en tiu sama tago vi havas la arogantecon veni al mi vizite, diri al mi, ke vi min amas, rakonti al mi centon da malsaĝaj historioj, por konvinki min respondi al viaj malkonvenaĵoj, kvazaŭ mi estus tia virino, kiu povas rompi la ĵuron de fideleco, kiun mi donis al edzo, kaj iam forkliniĝi de la virteco, kiun instruis al mi miaj gepatroj. Se mia patro tion scius, li bone instruus al vi provi tiajn entreprenojn! Sed honesta virino ne amas skandalon, tial mi gardas min ion diri al li, (farinte signon al <name>Klaŭdino</name>, ke ŝi alportu bastonon) kaj mi montros al vi, ke kvankam mi estas virino, mi havas sufiĉe da kuraĝo, por venĝi min mem por la ofendoj, kiujn oni faras al mi. Tio, kion vi faris, ne estas ago de nobelo, kaj tial mi traktos vin ankaŭ ne kiel nobelon. <stage>(<name>Angeliko</name> prenas la bastonon kaj levas ĝin kontraŭ <name>Klitandron</name>, kiu forkliniĝas tiamaniere, ke la batoj falas kur <name>Georgon <foreign xml:lang="fr">Dandin</foreign></name>.)</stage></p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu760"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu761"><stage>kriante, kvazaŭ li estus frapita</stage> – Aj! aj! aj! Kviete!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu762">SCENO <num type="ordinal" value="11">DEK-UNUA</num></head>
+
+						<stage xml:id="bu763" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Angeliko</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Klaŭdino</name></stage>
+
+						<sp>
+
+							<speaker xml:id="bu764"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu765">– Forte, sinjorino, batu bone!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu766"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu767">– ŝajnigante, ke ŝi parolas al <name>Klitandro</name> Se vi ankoraŭ ion havas sur la koro, mi estas ĉi tie, por respondi al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu768"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu769">– Rimarku ĝin bone, kun kiu vi ludas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu770"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu771"><stage>ŝajnigante sin mirigita</stage> – Ha, mia patro, vi estas ĉi tie!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu772"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu773">– Jes, mia filino; kaj mi vidas, ke koncerne la saĝon kaj kuraĝon vi montras vin inda ido de la domo <name xml:lang="fr">de Sotenville</name>. Venu ĉi tien, alproksimiĝu, ke mi vin ĉirkaŭprenu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu774"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu775">– Ankaŭ min ĉirkaŭprenu, mia filino. Ha, mi ploras de ĝojo, kaj mi rekonas mian sangon en la agoj, kiujn vi ĵus faris.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu776"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu777">– Mia bofilo, kiel ravita vi devas esti! kaj kiel plena de dolĉeco certe estas por vi ĉi tiu okazaĵo! Vi havis justan kaŭzon por maltrankviliĝi; sed viaj suspektoj montriĝas forpelitaj en la plej brilanta maniero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu778"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu779">– Sendube, nia bofilo, kaj vi devus nun esti la plej feliĉa el ĉiuj viroj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu780"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu781">– Certe. Kia virino, kia virino! Vi estas tro feliĉa, ke vi ŝin posedas, kaj vi devus kisi la teron, kie ŝi paŝis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu782"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu783"><stage>al si mem</stage> – Ha, perfidulino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu784"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu785">– Kio ĝi estas, mia bofilo? Kial vi ne dankas iomete vian edzinon por la amo, kiun, kiel vi vidas, ŝi montras rilate vin?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu786"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu787">– Ne, ne mia patro, ne estas necese; li nenion ŝuldas al mi por tio, kion li ĵus vidis; kaj ĉio, kion mi faras en tiu rilato, estas nur pro amo al mi mem.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu788"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu789">– Kien vi iras, mia filino?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu790"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu791">– Mi foriras, mia patro, por ke mi ne estu devigata akcepti liajn komplimentojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu792"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu793"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – ŝi estas prava, ke ŝi koleras. ŝi estas virino, kiu meritas esti adorata, kaj vi ŝin ne traktas, kiel vi devus.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu794"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu795"><stage>al si mem</stage> – Kanajlo!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu796">SCENO <num type="ordinal" value="12">DEK-DUA</num></head>
+
+						<stage xml:id="bu797" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> Sotenville, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu798"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu799">– Ĝi estas malgranda resento de la historio de antaŭe, kaj ĝi pasos post iom da karesado, kiun vi faros al ŝi. Adiaŭ, mia bofilo; nun vi jam ne bezonas plu maltrankviliĝi. Iru, faru pacon inter vi kaj penu kvietigi ŝin per petado de pardono pro via flamiĝo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu800"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu801">– Vi devas konsideri, ke ŝi estas junulino, edukita en virteco, kaj ŝi ne kutimis, ke oni ŝin suspektu pri ia malkonvena ago. Adiaŭ. Ĝi faras al mi tre grandan ĝojon, ke mi nun vidas, ke viaj malkomprenoj estas finitaj, kaj ke ŝia konduto devas esti por vi tiel agrablega.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu802">SCENO <num type="ordinal" value="13">DEK-TRIA</num></head>
+
+						<stage xml:id="bu803" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi>.</stage>
+
+						<sp>
+
+							<p xml:id="bu804">Mi ne diras eĉ unu vorton, ĉar per parolado mi nenion gajnos. Neniam oni vidis tian malfeliĉan sorton, kiel mia. Jes, mi admiras mian malfeliĉon kaj la subtilan lertecon de mia kanajla edzino, kiu scias ĉiam montri sin prava kaj min malprava. Ĉu estas eble, ke mi ĉiam estos venkita de ŝi kaj la ŝajno ĉiam estos kontraŭ mi kaj mi neniam sukcesos elmontri la kulpecon de mia senhontulino? Ho, ĉielo, helpu miajn intencojn kaj donu al mi la favoron, ke mi povu vidigi al la homoj, ke oni min senhonorigas!</p>
+
+						</sp>
+
+					</div>
+
+				</div>
+
+				<div type="akto" xml:id="georgo-dandin-akto-3">
+
+					<head xml:id="bu805">AKTO <num type="ordinal" value="3">TRIA</num></head>
+
+					<div type="sceno">
+
+						<head xml:id="bu806">SCENO <num type="ordinal" value="1">UNUA</num></head>
+
+						<stage xml:id="bu807" type="setting"><name>Klitandro</name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu808"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu809">– Estas jam profunda nokto, kaj mi timas, ke eble estos jam tro malfrue. Mi tute ne povas min orienti. <name xml:lang="fr">Lubin</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu810"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu811">– Sinjoro?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu812"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu813">– Ĉu per ĉi tie?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu814"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu815">– Mi pensas, ke jes. Al la diablo! Kia malsaĝa nokto, ke ĝi estas tiel malluma!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu816"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu817">– Certe ĝi estas malprava; sed, se de unu flanko ĝi malhelpas nin vidi, de la dua flanko ĝi malhelpas nin esti vidataj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu818"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu819">– Vi estas prava; la nokto ne estas tiel malprava. Mi volus scii, vi, sinjoro, estas ja tiel instruita, kial en la nokto neniam estas tago?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu820"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu821">– Ĝi estas granda demando, kaj tre malfacila. Vi estas scivola, <name xml:lang="fr">Lubin</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu822"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu823">– Jes. Se mi estus lerninta, mi esplorus aferojn, kjujn oni neniam esploris.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu824"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu825">– Mi kredas. Vi havas la mienon de homo, kiu havas spiriton subtilan kaj penetrantan.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu826"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu827">– Tute vere. Ekzemple, mi komprenas la lingvon latinan, kvankam mi neniam ĝin lernis. Kiam mi antaŭ nelonge vidis sur iu granda pordo la surskribon ”Collegium”, mi tuj divenis, ke, tio signifas kolegion.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu828"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu829">– Mireginde! Vi scias do legi, <name xml:lang="fr">Lubin</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu830"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu831">– Jes, mi scias legi presitajn literojn; sed neniam mi sukcesis lernatingi legi skribitaĵon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu832"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu833">– Jen ni estas apud la domo.</p>
+
+							<stage xml:id="bu834">frapinte la manplatojn</stage>
+
+							<p xml:id="bu835">Tio estas la signalo, pri kiu mi interkonsentis kun <name>Klaŭdino</name>.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu836"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu837">– Vorton de honoro, ŝi estas knabino, kiu valoras monon, kaj mi ŝin amas per mia tuta koro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu838"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu839">– Ĝuste tial mi vin alkondukis kun mi, por ke vi pasigu kun ŝi la tempon babilante.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu840"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu841">– Sinjoro, mi estas al vi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu842"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu843">– Ts! mi aŭdas ian brueton.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu844">SCENO <num type="ordinal" value="2">DUA</num></head>
+
+						<stage xml:id="bu845" type="setting"><name>Angeliko</name>, <name>Klaŭdino</name>, <name>Klitandro</name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu846"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu847">– <name>Klaŭdino</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu848"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu849">– Nu?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu850"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu851">– Lasu la pordon iom malfermita.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu852"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu853">– Mi tion faris. <stage>(Nokta sceno. La aktoroj serĉas sin reciproke en la mallumo.)</stage></p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu854"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu855"><stage>al <name xml:lang="fr">Lubin</name></stage> – Ĝi estas ili. Ts!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu856"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu857">– Ts!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu858"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu859">– Ts!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu860"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu861">– Ts!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu862"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu863"><stage>al <name>Klaŭdino</name>, kiun li prenas por <name>Angeliko</name></stage> – Sinjorino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu864"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu865"><stage>al <name xml:lang="fr">Lubin</name>, kiun ŝi prenas por <name>Klitandro</name></stage> – Kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu866"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu867"><stage>al <name>Angeliko</name>, kiun li prenas por <name>Klaŭdino</name></stage> – <name>Klaŭdino</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu868"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu869"><stage>al <name>Klitandro</name>, kiun ŝi prenas por <name xml:lang="fr">Lubin</name></stage> – Kio estas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu870"><name>Klitandro</name></speaker>
+
+							<p xml:id="bu871"><stage>al <name>Klaŭdino</name>, pensante, ke li parolas al <name>Angeliko</name>.</stage> – Ha, sinjorino, kiom mi ĝojas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu872"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu873"><stage>al <name>Angeliko</name>, pensante, ke li parolas al <name>Klaŭdino</name></stage> – <name>Klaŭdino</name>, mia bona <name>Klaŭdino</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu874"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu875"><stage>al <name>Klitandro</name></stage> – Kviete, sinjoro!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu876"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu877"><stage>al <name xml:lang="fr">Lubin</name></stage> – Trankvile, <name xml:lang="fr">Lubin</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu878"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu879">– Ĉu ĝi estas vi, <name>Klaŭdino</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu880"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu881">– Jes.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu882"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu883">– Ĉu ĝi estas vi, sinjorino?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu884"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu885">– Jes.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu886"><name>Klaŭdino</name></speaker>
+
+							<p xml:id="bu887"><stage>al <name>Klitandro</name></stage> – Vi prenis unu por alia.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu888"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu889"><stage>al <name>Angeliko</name></stage> – Honestan vorton, en la nokto oni nenion vidas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu890"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu891">– Ĉu ĝi ne estas vi, <name>Klitandro</name>?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu892"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu893">– Jes, sinjorino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu894"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu895">– Mia edzo ronkas tute dece; kaj mi uzas tiun ĉi tempon, por esti kun vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu896"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu897">– Ni serĉu ian lokon, por sidiĝi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu898"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu899">– Tre bona konsilo. <stage>(<name>Angeliko</name>, <name>Klitandro</name> kaj <name>Klaŭdino</name> sidiĝas en la profunda parto de la scenejo.)</stage></p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu900"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu901"><stage>serĉante <name>Klaŭdinon</name></stage> – <name>Klaŭdino</name>, kie vi estas?</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu902">SCENO <num type="ordinal" value="3">TRIA</num></head>
+
+						<stage xml:id="bu903" type="setting"><name>Angeliko</name>, <name>Klitandro</name>, kaj <name>Klaŭdino</name>, sidante en la profundo de la scenejo; <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> duone senvestigita, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu904"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu905"><stage>al si mem</stage> – Mi aŭdis, ke mia edzino iras malsupren, tial mi rapide min vestis, por sekvi ŝin. Kien ŝi povis iri? ĉu eble ŝi eliris?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu906"><name xml:lang="fr">Lubin</name></speaker>
+
+							<p xml:id="bu907"><stage>serĉante <name>Klaŭdinon</name></stage> – Kie do vi estas, Klaŭdino? <stage>(Prenante <name>Georgon <foreign xml:lang="fr">Dandin</foreign></name> por <name>Klaŭdino</name>)</stage> Ha, jen vi estas! Vorton de honoro, via mastro estas bele aranĝita, kaj mi trovas tion tiel same gajiga, kiel la bastonbatoj de antaŭe, pri kiuj oni al mi rakontis. Via mastrino diras, ke li ronkas nun kiel mil diabloj; kaj li ne scias, ke sinjoro la vicgrafo kaj ŝi estas nun kune, dum li dormas. Mi volus scii, kion li nun sonĝas. Ĝi estas treege ridinda. Sed kial do venis al li en la kapon esti ĵaluza pri sia edzino kaj voli, ke ŝi apartenu sole nur al li? Li estas arogantulo, kaj sinjoro la vicgrafo faras al li tro da honoro. Vi nenion diras, <name>Klaŭdino</name>! Venu, ni ilin sekvu, kaj donu al mi vian maneteton, ke mi ĝin kisu. Ha, kiel dolĉa ĝi estas! ŝajnas al mi, kvazaŭ mi manĝas konfitaĵon. <stage>(Al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> kiun li ĉiam ankoraŭ prenas por <name>Klaŭdino</name>, kaj kiu lin krude repuŝas.)</stage> Al la diablo! kiel vi batas! Ĝi estas ja maneteto iom tre kruda!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu908"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu909">– Kiu iras?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu910"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu911">– Neniu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu912"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu913">– Li forkuras, informinte min pri la nova perfidaĵo de mia sentaŭgulino. Nu, estas necese, ke, ne perdante tempon, mi sendu alvoki ŝiajn gepatrojn, kaj ke ĉi tiu aventuro servu al mi por liberiĝi de ŝi. Hola! <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu914">SCENO <num type="ordinal" value="4">KVARA</num></head>
+
+						<stage xml:id="bu915" type="setting"><name>Angeliko</name>, <name>Klitandro</name>, <name>Klaŭdino</name> kaj <name xml:lang="fr">Lubin</name>, sidante en la profundo de la scenejo; <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name xml:lang="fr">Colin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu916"><name xml:lang="fr">Colin</name></speaker>
+
+							<p xml:id="bu917"><stage>tra la fenestro</stage> – Sinjoro?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu918"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu919">– Nu, rapide ĉi tien!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu920"><name xml:lang="fr">Colin</name></speaker>
+
+							<p xml:id="bu921"><stage>elsaltante tra la fenestro</stage> – Jen mi estas. Pli rapide oni ne povas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu922"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu923">– Vi estas ĉi tie?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu924"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu925">– Jes, sinjoro. <stage>(Dum <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> iras serĉi <name>Colin</name>’on sur la flanko, kie li aŭdis lian voĉon, <name xml:lang="fr">Colin</name> transiras sur la duan flankon kaj tie endormiĝas.)</stage></p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu926"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu927"><stage>turnante sin al la flanko, kie li supozas la ĉeestadon de <name xml:lang="fr">Colin</name></stage> – Mallaŭte, parolu mallaŭte. Aŭskultu. Iru al miaj gebopatroj kaj diru al ili, ke mi ilin petas tre insiste veni tuj ĉi tien. ĉu vi aŭdas? He! <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu928"><name xml:lang="fr">Colin</name></speaker>
+
+							<p xml:id="bu929"><stage>sur la dua flanko, revigliĝante</stage> – Sinjoro?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu930"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu931">– Kie, al la diablo, vi estas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu932"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu933">– Ĉi tie.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu934"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu935">– Malbenita sentaŭgulo, kien li foriĝis! <stage>(Dum <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> returniĝas al la flanko, kie li supozas, ke <name xml:lang="fr">Colin</name> restis, <name xml:lang="fr">Colin</name>, duone dormante, transiras al la dua flanko kaj tie endormiĝas.)</stage> Mi diras al vi, ke vi iru tuj al miaj gebopatroj kaj diru, al ili, ke mi ilin petegas veni ĉi tien tuje. ĉu vi min komprenas? Respondu! <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu936"><name xml:lang="fr">Colin</name></speaker>
+
+							<p xml:id="bu937"><stage>sur la dua flanko, revigliĝante</stage> – Sinjoro?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu938"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu939">– Tiu ĉi pendindulo min frenezigos! Venu al mi. <stage>(Ili renkontiĝas kaj ambaŭ falas.)</stage> Ha, la kanajlo! Li min kripligis! Kie do vi estas? Alproksimiĝu, ke mi donu al vi bonan porcion da batoj. ŝajnas al mi, ke li forkuras de mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu940"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu941">– Kompreneble.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu942"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu943">– Ĉu vi venos</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu944"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu945">– Tute ne.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu946"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu947">– Venu, mi diris al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu948"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu949">– Ne. Vi volas min bati.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu950"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu951">– Nu, bone, mi nenion faros al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu952"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu953">– Certe?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu954"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu955">– Jes. Venu. Bone! <stage>(Tirante <name>Colin</name>’on je la brako.)</stage> Ĝi estas via feliĉo, ke mi vin bezonas. Iru rapide peti en mia nomo miajn bogepatrojn, ke ili venu ĉi tien plej baldaŭ kiel ili nur povas, kaj diru al ili, ke ĝi estas por afero ekstreme grava kaj, se ili farus ian malfacilaĵon kaŭze de la malfrua horo, ne ĉesu ilin urĝi kaj bone komprenigi al ili, ke estas tre grave, ke ili venu, en kia ajn stato ili troviĝas. Nun vi min bone komprenas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu956"><name xml:lang="fr">Colin</name>.</speaker>
+
+							<p xml:id="bu957">– Jes, sinjoro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu958"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu959">– Iru rapide kaj tuj revenu. <stage>(Pensante, ke li estas sola.)</stage> Kaj mi reeniros en mian domon kaj atendos, ĝis.... Sed mi aŭdas iun. ĉu ĝi ne estas mia edzino? Mi aŭskultu kaj mi profitu de la mallumo. <stage>(<name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> stariĝas apud la pordo de sia domo.)</stage></p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu960">SCENO <num type="ordinal" value="5">KVINA</num></head>
+
+						<stage xml:id="bu961" type="setting"><name>Angeliko</name>, <name>Klitandro</name>, <name>Klaŭdino</name>, <name xml:lang="fr">Lubin</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu962"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu963"><stage>al <name>Klitandro</name></stage> – Adiaŭ! Estas tempo disiri.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu964"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu965">– Kio? tiel frue?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu966"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu967">– Ni sufiĉe longe parolis kune.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu968"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu969">– Ha, sinjorino! ĉu mi povas paroli sufiĉe kun vi kaj trovi en tiom malmulte da tempo ĉiujn vortojn, kiujn mi bezonas? Mi bezonus tutajn tagojn, por bone esprimi al vi ĉion, kion mi sentas; kaj mi ne diris al vi ankoraŭ eĉ la plej malgrandan parton de tio, kion mi havas por diri al vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu970"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu971">– Ni aŭdos plue alian fojon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu972"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu973">– Ho ve! Per kia bato vi traboras al mi la animon, kiam vi parolas pri via foriro kaj en kiom da malĝojo vi nun min lasas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu974"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu975">– Ni trovos la eblon, por nin revidi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu976"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu977">– Jes; sed mi pensas pri tio, ke forlasante min, vi iras al edzo. Tiu ĉi penso min mortigas; kaj la privilegioj, kiujn havas la edzoj, estas teruraj por amanto, kiu vere amas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu978"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu979">– Ĉu vi estas tiel malforta, ke vi havas tian maltrankvilecon? kaj ĉu vi pensas, ke oni estas kapabla ami certajn edzojn? Oni ilin prenas, ĉar oni nenion povas fari kontraŭ tio, kaj ĉar oni dependas de siaj gepatroj, kiuj rigardas nur la havon; sed oni scias ankaŭ agi kun ili juste, kaj oni tute ne havas la intencon ŝati ilin pli alte, ol kiom ili meritas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu980"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu981"><stage>al si mem</stage> – Jen niaj kanajlaj edzinoj!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu982"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu983">– Ha, oni devas konfesi, ke tiu, kiun oni donis al vi, tre malmulte meritas la honoron, kiun li ricevis! kaj ĝi estas tre stranga afero, tiu kunigo, kiun oni faris inter tia persono, kiel vi, kaj tia viro, kiel li!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu984"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu985"><stage>al si mem</stage> – Malfeliĉaj edzoj! jen kiel oni vin traktas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu986"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu987">– Vi meritas tre certe tute alian destinon, kaj la ĉielo tute vin ne kreis, por esti edzino de kampulo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu988"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu989">– Se la ĉielo volus, ke ĝi estu via! vi baldaŭ parolus alie. Mi eniru; mi havas sufiĉe da tio. <stage>(<name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> enirinte, fermas la pordon de interne.)</stage></p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu990">SCENO <num type="ordinal" value="6">SESA</num></head>
+
+						<stage xml:id="bu991" type="setting"><name>Angeliko</name>, <name>Klitandro</name>, <name>Klaŭdino</name>, <name xml:lang="fr">Lubin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu992"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu993">– Sinjorino, se vi havas ankoraŭ ion malbonan por diri pri via edzo, vi rapidu, ĉar estas jam malfrue.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu994"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu995">– Ha! <name>Klaŭdino</name>, vi estas kruela!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu996"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu997"><stage>al <name>Klitandro</name></stage> – Ŝi estas prava. Ni disiĝu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu998"><name>Klitandro</name>.</speaker>
+
+							<p xml:id="bu999">– Mi devas do decidigi, ĉar vi tiel volas. Sed almenaŭ mi vin petegas, bedaŭru min iom pri la malbonaj horoj, kiujn mi nun pasigos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1000"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1001">– Adiaŭ!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1002"><name xml:lang="fr">Lubin</name>.</speaker>
+
+							<p xml:id="bu1003">– Kie vi estas, <name>Klaŭdino</name>? mi volas diri al vi bonan nokton.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1004"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1005">– Iru, iru, mi akceptas ĝin de malproksime, kaj mi resendas al vi tion saman.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1006">SCENO <num type="ordinal" value="7">SEPA</num></head>
+
+						<stage xml:id="bu1007" type="setting"><name>Angeliko</name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1008"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1009">– Ni eniru senbrue.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1010"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1011">– La pordo fermiĝis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1012"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1013">– Mi havas la ĉefan ŝlosilon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1014"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1015">– Malfermu do mallaŭte.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1016"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1017">– Oni ŝlosis de interne; kaj mi ne scias, kion ni faros.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1018"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1019">– Veku la serviston, kiu kuŝas ĉi tie.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1020"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1021">– <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1022">SCENO <num type="ordinal" value="8">OKA</num></head>
+
+						<stage xml:id="bu1023" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Angeliko</name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1024"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1025"><stage>ĉe la fenestro</stage> – <name xml:lang="fr">Colin</name>! <name xml:lang="fr">Colin</name>! Ha, mi vin kaptas ĉi tie, sinjorino mia edzino! kaj vi faras ekskursojn, dum mi dormas! Mi tre ĝojas pri tio, kaj estas al mi agrable vidi vin ekstere en tia malfrua horo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1026"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1027">– Nu, kia granda malbono ĝi do estas, se oni prenas en la nokto iom da freŝa aero?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1028"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1029">– Jes, jes; bona horo, por preni freŝan aeron! ĝi estis pli ĝuste varmo, sinjorino friponino; kaj, ni scias la tutan intrigon de la rendevuo kaj de la sinjoreto. Ni aŭdis vian delikatan interparoladon kaj la belajn laŭdajn vortojn, kiujn vi diris pri mi unu al la alia. Sed mi konsoliĝas per tio, ke mi tuj estos venĝita, kaj ke viaj gepatroj konvinkiĝos nun pri la justeco de miaj plendoj kaj pri la malmoraleco de via konduto. Mi sendis peti ilin ĉi tien kaj baldaŭ ili estos ĉi tie.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1030"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu1031"><stage>al si mem</stage> – Ha, ĉielo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1032"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1033">– Sinjorino!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1034"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1035">– Jen estas frapo, sendube, kiun vi ne atendis. Nun mi triumfas; kaj mi havas, per kio malaltigi vian flerecon kaj detrui viajn artifikojn. Ĝis nun vi mokis miajn akuzojn, blindigis viajn gepatrojn kaj beligis viajn trompojn. Vane mi vidis, vane mi parolis, via lerteco ĉiam venkis mian rajtecon, kaj ĉiam vi trovis rimedon por esti prava; sed ĉi tiun fojon, dank’al Dio, la aferoj klariĝos kaj via senhonteco estos plene elmontrita.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1036"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1037">– He, mi vin petas, lasu malfermi al mi la pordon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1038"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1039">– Ne, ne! Vi devas atendi la venon de tiuj, kiujn mi invitis, kaj mi volas, ke ili vin trovu ekstere en la nuna bela horo. Atendante ilian venon, penu, se vi volas, serĉi en via kapo ian novan artifikon, por eltiriĝi el ĉi tiu afero! penu elpensi ian rimedon, por prezenti en bela lumo, vian vagadon; trovi ian belan ruzaĵon, por elturniĝi kaj aperi senkulpa; ian verŝajnigan pretekston por via nokta migrado, ekzemple, ke vi iris helpi ian amikinon en akuŝo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1040"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1041">– Ne; mi ne intencas ion kaŝi antaŭ vi. Mi ne volas min defendi nek malkonfesi antaŭ vi la aferojn, ĉar vi ja ĉion scias.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1042"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1043">– Ĉar vi bone vidas, ke ĉiuj rimedoj estas fermitaj por vi, kaj ke en ĉi tiu afero vi ne povus elpensi tiajn senkulpigojn, kies malverecon mi ne povus elmontri.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1044"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1045">– Jes, mi konfesas, ke mi estas malprava, kaj ke vi havas kaŭzon, por plendi. Sed mi vin petas, faru al mi la favoron, ne elmetu min nun al la kolero de miaj gepatroj, kaj lasu rapide malfemi al mi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1046"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1047">– Mi tuj obeos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1048"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1049">– Ho, mia bona edzeto, mi vin petegas!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1050"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1051">– Ho, ma bona, edzeto! Mi estas nun via bona edzeto, ĉar vi sentas, ke vi estas kaptita. Mi tre ĝojas pri tio; neniam antaŭe venis al vi en la kapon diri al mi tiajn dolĉajn vortojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1052"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1053">– Aŭdu, mi promesas al vi, ke mi neniam plu donos al vi kaŭzon por plendi, kaj ke mi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1054"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1055">– Nenio helpos. Mi ne volas ellasi el la manoj ĉi tiun aventuron, kaj estas grave por mi, ke oni unu fojon ricevu fundan klarigon pri via konduto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1056"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1057">– Mi petegas, lasu min paroli kun vi. Mi petas de vi unu minuton da aŭskultado.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1058"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1059">– Nu, kio?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1060"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1061">– Estas vero, ke mi pekis, mi ĝin konfesas al vi ankoraŭ unu fojon, kaj via kolero estas justa; la tempon, kiam vi dormis, mi uzis, por eliri, kaj tiu ĉi eliro estis rendevuo, kiun mi donis al la persono, pri kiu vi parolis. Tamen ĝi estas ja agoj, kiujn vi devas pardoni al mia aĝo, forlogiĝoj de juna persono, kiu ankoraŭ nenion vidis kaj nur ĵus eniras en la mondon; libereco, al kiu oni sin fordonas, pensante ĉe tio nenion malbonan, kaj kiu sendube en la fundo havas nenion....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1062"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1063">– Jes, vi tion diras, kaj ĝi apartenas al tiuj aferoj, kiuj bezonas, ke oni ilin pie kredu.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1064"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1065">– Mi tute ne volas diri per tio, ke mi estas senkulpa antaŭ vi, kaj mi vin nur petas, ke vi forgesu ofendon, pri kiu mi el mia tuta koro petas vian pardonon, kaj ke vi antaŭliberigu min de tiu renkontiĝo kaj de la ĉagreno, kiun povus kaŭzi al mi la malagrablaj riproĉoj de miaj gepatroj. Se vi grandanime donos al mi la favoron, pri kiu mi vin petas, tiam tiu ĉi ŝuldiga faro, tiu ĉi boneco, kiun vi montros al mi, akiros min por vi plene; ĝi tuŝos profunde mian koron kaj naskos tie por vi tion, kion la tuta potenco de miaj gepatroj kaj la ligiloj de la edzeco ne povis tie atingi. Per unu vorto, ĝi estos la kaŭzo, ke mi rifuzos ĉiun amindumadon, kaj mi havos sindonecon nur por vi. Jes, mi donas al vi mian vorton, ke vi havos en mi de nun la plej bonan edzinon en la mondo, kiu montros al vi tiom da amo, tiom da amo, ke vi estos tute kontenta.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1066"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1067">– Ha, krokodilo, kiu flatas la homojn, por ilin sufoki!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1068"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1069">– Donu al mi tiun favoron.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1070"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1071">– Nenio estos. Mi estas nepetegebla.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1072"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1073">– Montru vin grandanima.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1074"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1075">– Ne.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1076"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1077">– Kompatu min!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1078"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1079">– Tute ne.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1080"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1081">– Mi vin petegas per mia tuta koro.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1082"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1083">– Ne, ne, ne! Mi volas, ke oni ĉesu erari pri vi kaj via konfuzo estu videbla por ĉiuj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1084"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1085">– Nu, bone! Se vi elmetas min al la malespero, mi vin avertas, ke virino en tia stato estas kapabla je ĉio, kaj mi faros ion, pri kio vi pentos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1086"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1087">– Kaj kion vi faros, mia sinjorino?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1088"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1089">– Mia koro min pelos al la plej ekstremaj decidoj; kaj per ĉi tiu tranĉilo, kiun vi vidas, mi tuj min mortigos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1090"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1091">– Ha, ha! Perfekte!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1092"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1093">– Por vi ĝi ne estos tiel perfekta, kiel vi pensas. ĉiuj scias pri nia malpaco kaj la konstantajn ĉagrenojn, kiujn vi faras al mi. Kiam oni trovos min mortigita, neniu dubos pri tio, ke min mortigis ĝuste vi; kaj miaj gepatroj certe ne lasos tiun morton nepunita, kaj ili venigos sur vian personon ĉian punon, kiun povos liveri al ili la decidoj de la juĝo kaj la ardeco de iliaj sentoj. Tiamaniere mi trovos rimedon, por venĝi min kontraŭ vi; kaj mi ne estas la unua, kiu uzas tiamanieran venĝon kaj kiu ne timas eĉ sin mortigi, por pereigi tiujn, kiuj estas tiel kruelaj, ke ili nin puŝas al la ekstremeco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1094"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1095">– Mi estas via obeema servanto. Oni nun jam ne pensas plu pri mortigado de si mem; la modo pri tio pasis jam de longe.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1096"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1097">– Ĝi estas afero, pri kiu vi povas esti tute certa; kaj se vi persistos en via rifuzo, se vi ne lasos malfermi al mi, mi ĵuras al vi, ke tuj mi vidigos al vi, ĝis kie povas iri la decidemeco de persono, kiun oni elmetas al malespero.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1098"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1099">– Vantaĵo, vantaĵo! Tio tute ne faras al mi ian timon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1100"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1101">– Nu, bone! ĉar ĝi estas necesa, jen kio kontentigos nin ambaŭ kaj montros, ĉu mi ŝercas. <stage>(Farinte kvazaŭ ŝi sin mortigas.)</stage> Ha, ĝi fariĝis! La ĉielo donu, ke mia morto estu venĝita tiel, kiel mi deziras, kaj ke tiu, kiu estas la kaŭzo de tio, ricevu justan punon por lia krueleco kontraŭ mi!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1102"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1103">– Oho! ĉu ŝi efektive estus tiel malbona kaj mortigus sin, por ke oni min pendigu? Ni prenu peceton da kandelo, por rigardi.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1104">SCENO <num type="ordinal" value="9">NAŬA</num></head>
+
+						<stage xml:id="bu1105" type="setting"><name>Angeliko</name>, <name>Klaŭdino</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1106"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu1107"><stage>al <name>Klaŭdino</name></stage> – Ts! silente! Ni tuj stariĝu ĉe la ambaŭ flankoj de la pordo.</p>
+
+						</sp>
+
+						</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1108">SCENO <num type="ordinal" value="10">DEKA</num></head>
+
+						<stage xml:id="bu1109" type="setting"><name>Angeliko</name> kaj <name>Klaŭdino</name> enirante en la domon en la momento, kiam <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> el ĝi eliras, kaj ŝlosante la pordon de interne; <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> tenante kandelon en la mano.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1110"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1111">– Ĉu la malboneco de virino efektive povas atingi tian gradon? <stage>(Sola, rigardinte ĉien ĉirkaŭe.)</stage> Neniu estas! Ha, mi tion suspektis; la pendindulino foriris vidante ke ŝi nenion atingos de mi, nek per petoj, nek per minacoj. Des pli bone! tio faros ŝiajn aferojn ankoraŭ pli malbonaj; kaj la gepatroj, kiuj baldaŭ venos, vidos per tio ŝian krimon ankoraŭ pli bone. <stage>(Tuŝinte la pordon de sia domo por eniri.)</stage> Ha, ha! la pordo ŝlosiĝis! Hola! tie! Iu venu! Oni tuj malfermu al mi!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1112">SCENO <num type="ordinal" value="11">DEKUNUA</num></head>
+
+						<stage xml:id="bu1113" type="setting"><name>Angeliko</name> kaj <name>Klaŭdino</name> ĉe la fenestro; <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1114"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1115">– Kio! ĝi estas vi! De kie vi venas, sentaŭgulo? ĉu nun estas tempo, por reveni hejmen, kiam preskaŭ jam tagiĝas? Tia estas la konduto de honesta edzo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1116"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1117">– Ĉu estas bele drinki la tutan nokton kaj lasi tiamaniere en la daŭro de tuta nokto malfeliĉan junan edzinon en la domo?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1118"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1119">– Kio! vi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1120"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1121">– Iru, iru, perfidulo, mi estas laca de via malĉasteco, kaj mi plendos, ne atendante plu, al miaj gepatroj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1122"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1123">– Kio! Vi ankoraŭ kuraĝas.....</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1124">SCENO <num type="ordinal" value="12">DEKDUA</num></head>
+
+						<stage xml:id="bu1125" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name> kaj <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name> en noktaj vestoj; <name xml:lang="fr">Colin</name>, portante lanternon; <name>Angeliko</name> kaj <name>Klaŭdino</name> ĉe la fenestro; <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1126"><name>Angeliko</name></speaker>
+
+							<p xml:id="bu1127"><stage>al gesinjoroj <name xml:lang="fr">de Sotenville</name></stage> – Ho, venu, mi vin petegas, venu doni al mi venĝon por la plej granda aroganteco de la flanko de edzo, al kiu la vino kaj ĵaluzeco, en tia grado konfuzis la cerbon, ke li plu scias nek kion li diras, nek kion li faras, kaj kiu mem sendis inviti vin, ke vi estu atestantoj de la plej granda sensencaĵo, pri kiu oni iam aŭdis. Jen li revenas, kiel vi vidas, lasinte atendi sin la tutan nokton; kaj se vi volos lin aŭskulti, li diros al vi, ke li havas kontraŭ mi la plej grandajn plendojn; ke dum li dormis, mi forŝteligis de li, por iri vagi, kaj cent aliajn samspecajn historiojn, kiujn li sonĝis.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1128"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1129"><stage>al si mem</stage> – Ha, kia malica kanajlo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1130"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1131">– Jes, li volis kredigi al ni, ke li estis en la domo kaj ni estis ekstere; kaj ĉi tiun frenezaĵon oni ne povas elpeli al li el la kapo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1132"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1133">– Kio! Kion tio signifas?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1134"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1135">– Kia furioza senhonteco, sendi voki nin!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1136"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1137">– Neniam....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1138"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1139">– Ne, mia patro, mi ne povas plu toleri tiaspecan edzon; mia pacienco estas tute elĉerpita; kaj ĵus li diris al mi centon da plej ofendaj vortoj.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1140"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu1141"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Al la diablo! vi estas malnobla homo!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1142"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1143">– Estas terure, kiam oni vidas, ke malfeliĉan junan virinon oni traktas en tia maniero, kaj tio krias pri venĝo al la ĉielo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1144"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1145">– Ĉu oni povas....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1146"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1147">– Iru, vi devus morti de honto.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1148"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1149">– Lasu min diri al vi du vortojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1150"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1151">– Vi nur aŭskultu, li rakontos al vi belajn historiojn.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1152"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1153"><stage>al si mem</stage> – Mi enfalas en malesperon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1154"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1155">– Li tiom multe drinkis, ke oni ne povas longe stari apud li; la vina odoro, kiun li elspiras, atingas ĝis ni.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1156"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1157">– Sinjoro bopatro, mi vin petegas....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1158"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1159">– Forŝoviĝu; vi malbonodoras vinon per via tuta buŝo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1160"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1161">– Sinjorino, mi vin petas....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1162"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1163">– Fi, ne alproksimiĝu al mi, via spirado estas pesta.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1164"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1165"><stage>al <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></stage> – Toleru, ke mi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1166"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1167">– Foriĝu, mi diras al vi; oni ne povas toleri vin.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1168"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1169"><stage>al <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></stage> – Mi petegas vin, permesu, ke....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1170"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1171">– Hu, vi min svenigas. Parolu de malproksime, se vi volas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1172"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1173">– Nu, bone! Jes, mi parolos de malproksime. Mi ĵuras al vi, ke mi eĉ ne moviĝis el mia domo, sed nur ŝi eliris.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1174"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1175">– Ĉu ne estas tiel, kiel mi diris al vi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1176"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1177">– Vi vidas, kian verŝajnecon ĝi havas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1178"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu1179"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Iru, vi mokas la homojn. Venu ĉi tien malsupren, mia filino.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1180">SCENO <num type="ordinal" value="13">DEKTRIA</num></head>
+
+						<stage xml:id="bu1181" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name xml:lang="fr">Colin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1182"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1183">– Mi atestigas la ĉielon ke mi estis en la domo kaj....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1184"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1185">– Silentu! ĝi estas netolerebla sensencaĵo.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1186"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1187">– La tondro min tuj mortigu, se....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1188"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1189">– Ne turnu al ni plu la kapon, sed penu peti pardonon de via edzino.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1190"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1191">– Mi! peti pardonon?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1192"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1193">– Jes, pardonon, kaj tuj!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1194"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1195">– Kio! mi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1196"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1197">– Al la diablo! Se vi kontraŭparolos al mi, mi vin instruos, kio estas moki nin.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1198"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1199">– Ha, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>!</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<head xml:id="bu1200">SCENO <num type="ordinal" value="14">DEKKVARA</num></head>
+
+						<stage xml:id="bu1201" type="setting"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>, <name>Angeliko</name>, <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>, <name>Klaŭdino</name>, <name xml:lang="fr">Colin</name>.</stage>
+
+						<sp>
+
+							<speaker xml:id="bu1202"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1203">– Venu ĉi tien, mia filino, por ke via edzo petu de vi pardonon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1204"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1205">– Mi! pardoni al li ĉion, kion li diris al mi? Ne, mia patro, mi neniel povas decidiĝi al tio; kaj mi petas vin disigi min de edzo, kun kiu mi plu ne povus vivi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1206"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1207">– Kiel oni povus ĉion elporti!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1208"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1209">– Mia filino, tiaj disiĝoj ne povas esti farataj sen granda skandalo; kaj vi devas montri vin pli saĝa ol li kaj pacienci ankoraŭ ĉi tiun fojon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1210"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1211">– Kiel! pacienci post tiaj indignindaĵoj! Ne, mia patro, tian aferon mi ne povas konsenti.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1212"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1213">– Estas necese, mia filino, kaj mi tion al vi ordonas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1214"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1215">– Ĉi tiu vorto fermas al mi la buŝon, kaj vi havas super mi senliman potencon.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1216"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1217">– Kia bonkoreco!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1218"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1219">– Estas ĉagrene, se oni estas devigata forgesi tiajn ofendojn; sed kian ajn perforton mi devas fari al mi, mi devas vin obei.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1220"><name>Klaŭdino</name>.</speaker>
+
+							<p xml:id="bu1221">– Malfeliĉa ŝafeto!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1222"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu1223"><stage>al <name>Angeliko</name></stage> – Alproksimiĝu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1224"><name>Angeliko</name>.</speaker>
+
+							<p xml:id="bu1225">– Ĉio, kion vi devigas min fari, servos al nenio; kaj vi vidos, ke morgaŭ ĉio denove rekomenciĝos.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1226"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1227">– Ni faros ordon. <stage>(Al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.)</stage> Venu, genuiĝu!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1228"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1229">– Genuiĝi?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1230"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1231">– Jes, genuiĝu, kaj tuj!</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1232"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></speaker>
+
+							<p xml:id="bu1233"><stage>genue, kun kandelo en la mano; al si mem</stage> – Ho, ĉielo! <stage>(Al <name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.)</stage> Kion mi devas diri?</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1234"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1235">– Sinjorino, mi petas vin pardoni al mi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1236"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1237">– Sinjorino, mi petas vin pardoni al mi....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1238"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1239">– La sensencaĵon, kiun mi faris....</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1240"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1241">– La sensencaĵon, kiun mi faris.... <stage>(Al si mem.)</stage> edziĝante kun vi.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1242"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1243">– Kaj mi promesas al vi pli bone konduti en la estonteco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1244"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.</speaker>
+
+							<p xml:id="bu1245">– Kaj mi promesas al vi pli bone konduti en la estonteco.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1246"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name></speaker>
+
+							<p xml:id="bu1247"><stage>al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name></stage> – Gardu vin, kaj sciu, ke ĝi estas la lasta el la arogantaĵoj, kiun mi toleras.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1248"><name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1249">– Per Dio! se vi ankoraŭ unu fojon permesos al vi, oni instruos al vi la respekton, kiun vi ŝuldas al via edzino kaj al tiuj, de kiuj ŝi devenas.</p>
+
+						</sp>
+
+						<sp>
+
+							<speaker xml:id="bu1250"><name><abbr type="title">S<hi rend="supreskribita">ro</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.</speaker>
+
+							<p xml:id="bu1251">– Jen jam tagiĝas. Adiaŭ! <stage>(Al <name>Georgo <foreign xml:lang="fr">Dandin</foreign></name>.)</stage> Iru en vian domon kaj penu esti bonkonduta. <stage>(Al <name><abbr type="title">S<hi rend="supreskribita">ino</hi></abbr> <foreign xml:lang="fr">de Sotenville</foreign></name>.)</stage> Kaj ni, mia koro, ni iru enlitiĝi.</p>
+
+						</sp>
+
+					</div>
+
+					<div type="sceno">
+
+						<!-- Akto 3 -->
+						<head xml:id="bu1252">SCENO <num type="ordinal" value="15">DEKKVINA</num></head>
+
+						<stage xml:id="bu1253" type="setting"><name>Georgo <foreign xml:lang="fr">Dandin</foreign></name> <hi>sola</hi>.</stage>
+
+						<sp>
+
+							<p xml:id="bu1254">Ha, mi nun rezignacias, ĉar mi vidas plu nenian rimedon. Kiam oni, simile al mi, edziĝis kun malbona virino, tiam la plej bona, kion oni povas fari, estas iri ĵeti sin en la akvon, la kapon antaŭen.</p>
+
+						</sp>
+
+					</div>
+
+				</div>
+
+			</div>
+
+		</body>
+
+	</text>
+
+</TEI>
