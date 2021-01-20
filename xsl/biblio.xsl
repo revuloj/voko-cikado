@@ -1,4 +1,4 @@
-<!DOCTYPE xsl:stylesheet 
+<!DOCTYPE xsl:transform 
 [
 <!ENTITY leftquot '"'>
 <!ENTITY rightquot '"'>
@@ -7,14 +7,14 @@
 
 ]>
 
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:xt="http://www.jclark.com/xt"
-		version="1.0"
-                extension-element-prefixes="xt">
+<xsl:transform
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:saxon="http://saxon.sf.net/"
+  version="2.0"
+  extension-element-prefixes="saxon" 
+>
 
 <!--
-
 XSLT-stildifinoj por biblio.xml (La Sankta Biblio). 
 Ghi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
 specialajn regulojn ne au alie difinitajn tie.
@@ -195,7 +195,7 @@ match="/TEI.2/text//titlePart[@type='main']">
 </xsl:template>
 
 
-</xsl:stylesheet>
+</xsl:transform>
 
 
 

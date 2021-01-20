@@ -1,13 +1,14 @@
-<!DOCTYPE xsl:stylesheet 
+<!DOCTYPE xsl:transform 
 [
 <!ENTITY nbsp "&#x00a0;">
 ]>
 
-
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:xt="http://www.jclark.com/xt"
-                version="1.0"
-                extension-element-prefixes="xt">
+<xsl:transform
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:saxon="http://saxon.sf.net/"
+  version="2.0"
+  extension-element-prefixes="saxon" 
+>
 
 <!--
 
@@ -25,4 +26,4 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level1" select="'story'"/>
 <xsl:variable name="content_level2" select="'xxx'"/>
 
-</xsl:stylesheet>
+</xsl:transform>

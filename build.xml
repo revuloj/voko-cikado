@@ -14,7 +14,7 @@
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
    <property name="celo" location="steloj.de"/>
    
-   <property name="saxon" location="${ENV.SAXONJAR}"/>
+   <property name="saxon" location="/usr/share/java/Saxon-HE.jar"/> <!--${ENV.SAXONJAR}"/-->
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
       tial difinu mediovariablon CLASSPATH aldonante la Saxon-arkivon antau voki Formikon -->
    <path id="saxon.classpath">
@@ -89,7 +89,7 @@ voku ekz-e:
         <fileset dir="bld/biblio" includes="*.jpg"/>
     </copy>
     <xslt in="${xml}/biblio.xml" out="${celo}/biblio/index.html"
-       style="${xsl}/biblio.xsl"/>
+       style="${xsl}/biblio.xsl" classpathref="saxon.classpath"/>
    </target>
 
 
@@ -100,32 +100,32 @@ voku ekz-e:
 
    <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
      <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/index.html"
-       style="${xsl}/fundamento.xsl"/>
+       style="${xsl}/fundamento.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
      <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
-       style="${xsl}/faraono.xsl"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
      <xslt in="${xml}/faraono2.xml" out="${celo}/faraono2/index.html"
-       style="${xsl}/faraono.xsl"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
      <xslt in="${xml}/faraono3.xml" out="${celo}/faraono3/index.html"
-       style="${xsl}/faraono.xsl"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="fabeloj" description="kreas HTML-paghojn el fabeloj?.xml">
      <xslt in="${xml}/fabeloj1.xml" out="${celo}/fabeloj1/index.html"
-       style="${xsl}/fabeloj.xsl"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
      <xslt in="${xml}/fabeloj2.xml" out="${celo}/fabeloj2/index.html"
-       style="${xsl}/fabeloj.xsl"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
      <xslt in="${xml}/fabeloj3.xml" out="${celo}/fabeloj3/index.html"
-       style="${xsl}/fabeloj.xsl"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
      <xslt in="${xml}/fabeloj4.xml" out="${celo}/fabeloj4/index.html"
-       style="${xsl}/fabeloj.xsl"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="gfabeloj" description="kreas HTML-paghojn el gfabeloj.xml">
      <xslt in="${xml}/gfabeloj.xml" out="${celo}/gfabeloj/index.html"
-       style="${xsl}/gfabeloj.xsl"/>
+       style="${xsl}/gfabeloj.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="fumejo" description="kreas HTML-paĝojn el fumejo.xml">
@@ -134,17 +134,17 @@ voku ekz-e:
         <fileset dir="bld/fumejo" includes="*.jpg"/>
     </copy>
     <xslt in="${xml}/fumejo.xml" out="${celo}/fumejo/index.html"
-       style="${xsl}/fumejo.xsl"/>
+       style="${xsl}/fumejo.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
      <xslt in="${xml}/interrompita.xml" out="${celo}/interrompita/index.html"
-       style="${xsl}/interrompita.xsl"/>
+       style="${xsl}/interrompita.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="marta" description="kreas HTML-paghojn el marta.xml">
      <xslt in="${xml}/marta.xml" out="${celo}/marta/index.html"
-       style="${xsl}/marta.xsl"/>
+       style="${xsl}/marta.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="butiko" description="kreas HTML-paghojn el butiko.xml">
@@ -153,32 +153,32 @@ voku ekz-e:
         <fileset dir="bld/butiko" includes="*.*"/>
      </copy>
      <xslt in="${xml}/butiko.xml" out="${celo}/butiko/index.html"
-       style="${xsl}/butiko.xsl"/>
+       style="${xsl}/butiko.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="paroloj" description="kreas HTML-paghojn el paroloj.xml">
      <xslt in="${xml}/paroloj.xml" out="${celo}/paroloj/index.html"
-       style="${xsl}/paroloj.xsl"/>
+       style="${xsl}/paroloj.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="proverb" description="kreas HTML-paghojn el proverb.xml">
      <xslt in="${xml}/proverb.xml" out="${celo}/proverb/index.html"
-       style="${xsl}/proverb.xsl"/>
+       style="${xsl}/proverb.xsl" classpathref="saxon.classpath"/>
    </target>
 
   <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
      <xslt in="${xml}/poemoj.xml" out="${celo}/poemoj/index.html"
-       style="${xsl}/teixlite_default.xsl"/>
+       style="${xsl}/teixlite_default.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
      <xslt in="${xml}/homaranismo.xml" out="${celo}/homaranismo/index.html"
-       style="${xsl}/homaranismo.xsl"/>
+       style="${xsl}/homaranismo.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="revizoro" description="kreas HTML-paghojn el revizoro.xml">
      <xslt in="${xml}/revizoro.xml" out="${celo}/revizoro/index.html"
-       style="${xsl}/revizoro.xsl"/>
+       style="${xsl}/revizoro.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="rabistoj" description="kreas HTML-paghojn el rabistoj.xml">
@@ -187,7 +187,7 @@ voku ekz-e:
      </copy>
 
      <xslt in="${xml}/rabistoj.xml" out="${celo}/rabistoj/index.html"
-       style="${xsl}/rabistoj.xsl"/>
+       style="${xsl}/rabistoj.xsl" classpathref="saxon.classpath"/>
    </target>
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
@@ -199,16 +199,13 @@ voku ekz-e:
       <echo message="application/epub+zip" file="${dir}/mimetype"/>
      
       <xslt in="${fonto}" out="${dir}/META-INF/container.xml"
-        style="${xsl-epub}/epub_container.xsl">
-      </xslt>
+        style="${xsl-epub}/epub_container.xsl" classpathref="saxon.classpath"/>
 
       <xslt in="${fonto}" out="${dir}/content.opf"
-        style="${xsl-epub}/fundamento_epub_opf.xsl">
-      </xslt>
+        style="${xsl-epub}/fundamento_epub_opf.xsl" classpathref="saxon.classpath"/>
 
       <xslt in="${fonto}" out="${dir}/content.ncx"
-        style="${xsl-epub}/teixlite_epub_ncx.xsl">
-      </xslt>
+        style="${xsl-epub}/teixlite_epub_ncx.xsl" classpathref="saxon.classpath"/>
   
       <exec executable="${bin}/xml2epub.pl" logError="true">
         <arg value="fundamento"/>

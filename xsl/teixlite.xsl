@@ -1,4 +1,4 @@
-<!DOCTYPE xsl:stylesheet 
+<!DOCTYPE xsl:transform 
 [
 <!ENTITY leftquot '&#x201e;'>
 <!ENTITY rightquot '&#x201c;'>
@@ -8,12 +8,12 @@
 
 ]>
 
-<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
-                xmlns:xt="http://www.jclark.com/xt"
-		version="1.0"
-                extension-element-prefixes="xt">
-
-
+<xsl:transform
+  xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:saxon="http://saxon.sf.net/"
+  version="2.0"
+  extension-element-prefixes="saxon" 
+>
 
 <xsl:output method="html" version="4.0" encoding="utf-8"/>
 <xsl:strip-space elements="text"/>
@@ -555,8 +555,7 @@ konvenciojn:
   <xsl:value-of select="."/>
 </xsl:template>
 
-
-</xsl:stylesheet>
+</xsl:transform>
 
 
 
