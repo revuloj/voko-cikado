@@ -77,6 +77,12 @@ vrk(dl,dualibro,
 vrk(fk,krestomatio,
     struct_gutenberg,
     tekstoj('gutenberg/Krestomatio.html')).
+%vrk(dl,dualibro,
+%    struct_tei,
+%    esf('dua-libro.xml')).
+%vrk(fk,krestomatio,
+%    struct_tei(parto),
+%    esf('fundamenta-krestomatio.xml')).
 vrk(ha,hamleto,
     struct_gutenberg,
     tekstoj('gutenberg/Hamleto.html')).
@@ -89,6 +95,9 @@ vrk(lr,lingvaj_respondoj,
 vrk(vz,vivozamenhof,
     struct_gutenberg,
     tekstoj('gutenberg/Vivo_de_Zamenhof.html')).
+vrk(vc,vivo_chukchoj,
+    struct_tei(chapitro),
+    esf('el-vivo-de-chukchoj.xml')).
 
 % postaj tekstoj
 vrk(to,al_torento,
@@ -118,6 +127,19 @@ vrk(cm,chu_kmortu,
 vrk(cc,chu_chine,
     struct_tei(chapitro),
     esf('chu-vi-kuiras-chine.xml')).
+
+vrk(ep,perspektivo,
+    struct_tei(parto),
+    esf('esperanto-en-perspektivo.xml')).
+
+vrk(fi,fajron_sentas,
+    struct_tei(chapitro),
+    esf('fajron-sentas-mi-interne.xml')).
+
+vrk(fs,federala_sperto,
+    struct_tei(parto),
+    esf('federala-sperto.xml')).
+
 
 vrk(m1,monato_1,
     struct_monato_txt,
