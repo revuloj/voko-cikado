@@ -1,5 +1,5 @@
 FROM openjdk:jre-slim as builder
-MAINTAINER <diestel@steloj.de>
+LABEL MAINTAINER=<diestel@steloj.de>
 
 # Tiu Javo-kesto servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
 # Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune

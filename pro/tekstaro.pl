@@ -1,6 +1,6 @@
 user:file_search_path(tekstoj,'../txt').
-user:file_search_path(esf,'../txt/tekstaro/tekstoj').
-user:file_search_path(verkoj,'../xml').
+user:file_search_path(esf,'../txt/tei_esf/tekstoj').
+user:file_search_path(verkoj,'../txt/tei2').
 
 bib(pv,'PrV').
 bib(ee,'EE').
@@ -84,8 +84,8 @@ vrk(if,ifigenio,
     struct_gutenberg,
     tekstoj('gutenberg/Ifigenio.html')).
 vrk(lr,lingvaj_respondoj,
-    struct_teix_nevalida(parto),
-    tekstoj('tekstaro/LingvajRespondoj.xml')).
+    struct_tei(parto),
+    esf('lingvaj-respondoj.xml')).
 vrk(vz,vivozamenhof,
     struct_gutenberg,
     tekstoj('gutenberg/Vivo_de_Zamenhof.html')).
