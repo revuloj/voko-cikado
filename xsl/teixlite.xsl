@@ -18,6 +18,9 @@
 <xsl:output method="html" version="4.0" encoding="utf-8"/>
 <xsl:strip-space elements="text"/>
 
+<xsl:variable name="xml_src" select="'https://github.com/revuloj/verkoj/tree/master/txt/tei2'"/>
+
+
 <!--
 
 XSLT-stildifinoj por TEI-Lite-dokumentoj. 
@@ -92,7 +95,7 @@ konvenciojn:
      </xsl:variable>
      <hr/>
      <address>
-       fonto: <a target="_new" href="https://github.com/revuloj/verkoj/tree/master/xml/{$file}">
+       fonto: <a target="_new" href="{$xml_src}/{$file}">
          <xsl:value-of select="$file"/>
        </a>
        <!-- xsl:value-of select="substring-before(substring-after(.,',v'),' revo')"/ -->

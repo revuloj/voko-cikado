@@ -6,6 +6,7 @@
   version="2.0"
   extension-element-prefixes="saxon" >
 
+    <xsl:variable name="xml" select="'txt/tei2/'"/>
     <xsl:variable name="collection" select="'file:///home/revo/verkoj/txt/tei2?select=*.xml'"/>
   
     <xsl:template match="/">
@@ -26,7 +27,7 @@
 
     <xsl:template match="fileDesc">
         <!-- xsl:variable name="dosiero" select="substring-before(substring-after(.,'$Id: '),'.xml')"/-->
-        <xsl:variable name="dosiero" select="substring-before(substring-after(base-uri(),'xml/'),'.xml')"/>
+        <xsl:variable name="dosiero" select="substring-before(substring-after(base-uri(),$xml),'.xml')"/>
         <xsl:if test="not($dosiero='senchesa') and not($dosiero='merkato')">
             <verko  dosiero="{$dosiero}/index.html">
                 <xsl:for-each select="titleStmt/title[1]">
