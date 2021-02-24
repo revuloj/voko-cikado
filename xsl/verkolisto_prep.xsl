@@ -5,10 +5,12 @@
   xmlns:saxon="http://saxon.sf.net/"
   version="2.0"
   extension-element-prefixes="saxon" >
+
+    <xsl:variable name="collection" select="'file:///home/revo/verkoj/txt/tei2?select=*.xml'"/>
   
     <xsl:template match="/">
         <verkolisto>
-            <xsl:apply-templates select="collection('file:///home/revo/verkoj/xml?select=*.xml')//teiHeader/fileDesc"/>
+            <xsl:apply-templates select="collection($collection)//teiHeader/fileDesc"/>
         </verkolisto>
     </xsl:template>
 
@@ -33,7 +35,7 @@
                 <xsl:for-each select="titleStmt/author[1]">
                     <autoro><xsl:value-of select="."/></autoro>
                 </xsl:for-each>
-                <xsl:for-each select="titleStmt/respStmt[contains(resp,'tradukis')]/name">
+                <xsl:for-each select="titleStmt/respStmt[contains(resp[1],'tradukis')]/name">
                     <tradukinto>
                     <xsl:choose>
                         <xsl:when test="contains(.,'(')">

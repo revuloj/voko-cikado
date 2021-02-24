@@ -37,7 +37,7 @@ RUN useradd -ms /bin/bash -u 1003 cikado
 USER cikado:users
 
 #RUN ls /home/ && mkdir /home/cikado/xml && mkdir /home/revo/txt
-COPY ./xml /home/cikado/xml
+#COPY ./xml /home/cikado/xml (nun en /txt/tei2)
 COPY ./txt /home/cikado/txt
 COPY ./pro /home/cikado/pro
 COPY --from=builder /home/revo/verkoj/steloj.de /home/cikado/steloj.de
