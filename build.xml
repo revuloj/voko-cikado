@@ -5,7 +5,7 @@
     </description>
 
  
-   <property name="xml" location="xml"/>
+   <property name="xml" location="txt/tei2"/>
    <property name="tmp" location="tmp"/>
    <property name="bin" location="bin"/>
    <property name="xsl" location="xsl"/>

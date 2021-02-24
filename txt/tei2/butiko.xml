@@ -1,0 +1,3759 @@
+<?xml-stylesheet type="text/xml" href="butiko.xsl"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY eacute "&#x00e9;">
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+<!ENTITY dro "D-ro">
+
+<!ENTITY TRISTELO "* * *">
+
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+
+<!-- bildoj -->
+<!ENTITY titolo SYSTEM "../bld/butiko/titolo.jpg" NDATA jpeg>
+<!ENTITY lastranga SYSTEM "../bld/butiko/lastranga.gif" NDATA gif>
+<!ENTITY angxeluso SYSTEM "../bld/butiko/angxeluso.gif" NDATA gif>
+<!ENTITY antausignoj3 SYSTEM "../bld/butiko/antausignoj3.gif" NDATA gif>
+<!ENTITY kino2 SYSTEM "../bld/butiko/kino2.gif" NDATA gif>
+<!ENTITY majo SYSTEM "../bld/butiko/majo.gif" NDATA gif>      
+<!ENTITY neghomo SYSTEM "../bld/butiko/neghomo.gif" NDATA gif>    
+<!ENTITY printempavarianto SYSTEM "../bld/butiko/printempavarianto.gif" NDATA gif>  
+<!ENTITY vagono2 SYSTEM "../bld/butiko/vagono2.gif" NDATA gif>
+<!ENTITY antausignoj1 SYSTEM "../bld/butiko/antausignoj1.gif" NDATA gif>  
+<!ENTITY heliko SYSTEM "../bld/butiko/heliko.gif" NDATA gif>        
+<!ENTITY kremkaful SYSTEM "../bld/butiko/kremkaful.gif" NDATA gif>  
+<!ENTITY malfermo SYSTEM "../bld/butiko/malfermo.gif" NDATA gif>  
+<!ENTITY pipenbek1 SYSTEM "../bld/butiko/pipenbek1.gif" NDATA gif>  
+<!ENTITY propagando SYSTEM "../bld/butiko/propagando.gif" NDATA gif>         
+<!ENTITY vagono3 SYSTEM "../bld/butiko/vagono3.gif" NDATA gif>
+<!ENTITY antausignoj2 SYSTEM "../bld/butiko/antausignoj2.gif" NDATA gif>  
+<!ENTITY kino1 SYSTEM "../bld/butiko/kino1.gif" NDATA gif>         
+<!ENTITY marbordo SYSTEM "../bld/butiko/marbordo.gif" NDATA gif>  
+<!ENTITY pipenbek2 SYSTEM "../bld/butiko/pipenbek2.gif" NDATA gif>  
+<!ENTITY vagono1 SYSTEM "../bld/butiko/vagono1.gif" NDATA gif>            
+<!ENTITY verlaine SYSTEM "../bld/butiko/verlaine.gif" NDATA gif>
+
+
+]>
+
+<!-- $Id: butiko.xml,v 1.3 2007/01/24 20:20:53 revo Exp $ -->
+<!-- 
+  $Log: butiko.xml,v $
+  Revision 1.3  2007/01/24 20:20:53  revo
+  prilaboretis verkoliston
+
+  Revision 1.2  2007/01/23 21:46:06  revo
+  formatigo, sencimigo de butiko
+
+  Revision 1.1  2007/01/22 20:48:19  revo
+  aldonis la bildojn al arhhivo, butiko.xml, build.xml kaj verkolisto
+
+
+-->
+   
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>La Stranga Butiko</title>
+      <author>Raymond Schwartz</author>
+      <respStmt>
+        <resp>enkomputiligita de</resp>
+        <name>Wolfram Diestel</name>
+      </respStmt>
+      <respStmt>
+        <resp>adaptita al TEI de</resp>
+        <name>Wolfram Diestel</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: butiko.xml,v 1.3 2007/01/24 20:20:53 revo Exp $</edition>
+    </editionStmt>
+    <extent>120 kB</extent>
+    <publicationStmt>
+      <publisher>Wolfram Diestel</publisher>
+      <pubPlace>Lepsiko</pubPlace>
+      <date>2007</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>
+      La kruda teksto estas registrita je <date>1999</date> 
+      de <name>Wolfram Diestel</name> el la originala libro de <date>1931</date>.
+      &Gcirc;i estis origine strukturita per SGML kaj transformita al
+      HTML per DSSSL en <date>2000</date>.
+      </p>
+    </sourceDesc>
+  </fileDesc>
+
+ <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kadre de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en unueca XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+<text lang="eo">
+
+ <front>
+    <titlePage>
+      <titlePart type="dedication">Sub signo de Gaja Muzo.</titlePart>
+      <docAuthor>Raymond Schwartz</docAuthor>
+
+      <titlePart><figure entity="titolo"></figure></titlePart>
+
+      <docTitle>
+        <titlePart type="main">La Stranga Butiko</titlePart>
+	<titlePart type="illustrator">
+          kun multaj ilustra&jcirc;oj de <name>Raymond Laval</name>
+        </titlePart>
+      </docTitle>
+      <docImprint>
+         <pubPlace>Paris</pubPlace>
+         <publisher>Esperantista Presejo</publisher>,
+         <pubPlace>9, Rue Hall&eacute;, 9</pubPlace>
+         <date>1931</date>
+      </docImprint>
+    </titlePage>
+
+
+    <div type="second_page">
+    
+      <!-- head>La Stranga Butiko</head -->
+
+      <lg rend="quote"><l><q>Kiu alportas multon, alportas iom al &ccirc;iu</q></l>
+        <signed><name>Goethe</name></signed>
+      </lg>
+
+      <lg rend="quote"><l><q>Iom da &ccirc;io, &dash; resume: nenio!</q></l>
+        <signed>Alia a&ubreve;toro</signed>
+      </lg>
+
+      <p><figure entity="lastranga"></figure></p>
+
+   </div>
+  </front>
+
+  <body>
+
+    <div type="foreword" id="antparol">
+
+      <head>La Stranga Butiko</head>
+      <head type="subtitolo">Senkapitala Entrepreno</head>
+
+      <p>
+         Telegramadreso: Strabu
+      </p>
+      <p>
+         Parizo, dum Decembro<lb/>
+         de l' krizjaro 1931.
+      </p>
+
+      <div type="cirkulero">
+        <head>Cirkulero</head>
+
+        <p>
+          <hi rend="bold">Al mia tre &scirc;atata klientaro!</hi>
+        </p>
+        <p>
+         Mi havas la honoron informi vin, ke &jcirc;us mi
+         malfermis butikon &ccirc;e angulo de la stratoj Optimismo 
+	 kaj Bonhumoro, kontra&ubreve; la konata statuo
+         de la Granda Krizo.
+        </p>
+        <p>
+         Tie mi pacience atendas vian viziton.
+        </p>
+        <p>
+         Tie vi havos la okazon konvinki&gcirc;i pri la
+         alta kvalito de fre&scirc;aj varoj kaj pri la modereco
+         de l' prezoj. Tie vi povos admiri la pla&ccirc;ajn
+         bildojn, desegnitajn speciale por vi sur 
+         pakpapero, de mia bona amiko, la jama artisto
+         <name>Raymond Laval</name>.
+        </p>
+        <p>
+         La firmo liveros rapide &ccirc;iujn deziratajn  
+         artiklojn krom sentimentala butero, flatpomado,
+         ricin- a&ubreve; gad-oleo, kies provizo jam anta&ubreve;
+         longe el&ccirc;erpi&gcirc;is.
+        </p>
+        <signed>
+         Esperante viajn balda&ubreve;ajn mendojn, mi restas
+		            serveme-verseme
+
+		<name>  Raymond Schwartz,
+		            Butikisto. </name>
+       </signed>
+    </div>
+  </div>
+
+  <div type="poem" rend="doc" id="malfermo">
+
+    <head>ONI MALFERMAS LA BUTIKON <figure entity="malfermo"/></head>
+
+    <lg rend="poem">
+<lg type='stanza'>
+     <l>         Ho sankta Muz', mistermaskita io,
+</l> <l>         Legendfigur' por pia fantazio,
+</l> <l>         Ne kredas mi, ke ie vi ekzistas<note type="footnote" rend='(*)'>
+	    Ke Muzoj nuntage ne plu ekzistas, plej bone pruvas la
+	    fakto, ke oni renkontas la lastajn ekzemplerojn nur en...
+	    Muzejoj. 
+</note>,
+</l> <l>         Sed al la tent' mi tamen ne rezistas
+</l> <l>         Alvoki vin la&ubreve; famaj pramodeloj. &dash;
+</l> <l>         Kun a&ubreve;reol' de mistifik-mistiko
+</l> <l>         Alflugu do, estrino de l' pedeloj,
+</l> <l>         Por levi nun kurtenon de l' Butiko!
+</l>
+</lg>  <lg type='stanza'>
+<l>         <q rend='begin'/>Hi hi! Ha ha! &dash; Vi tro facile mokas,
+</l> <l>    Sed vane min oni neniam vokas.
+</l> <l>         Mi venis, jen! &dash; ho ne por vin inspiri,
+</l> <l>         Mallonge nur al vi mi volas diri,
+</l> <l>         Ke via rim-malkara <emph rend='"'>poezio</emph>
+</l> <l>         Ne estas art' kreita dum ekstazo,
+</l> <l>         &Ccirc;ar via task' konsistis nur el tio:
+</l> <l>         Kolekti la ... sterkpomojn de Pegazo!
+</l></lg>  <lg type='stanza'>
+<l>         Kaj &dash; inter ni &dash; &ccirc;u iam simpla floro
+</l> <l>         A&ubreve; birdokant' vin tu&scirc;is en la koro?
+</l> <l>         La noktospir' sub la &ccirc;ielkupolo
+</l> <l>         Ne &ccirc;armas vin; &dash; vin logas nur petolo, 
+</l> <l>         Banala &scirc;erc' kaj dubesana sprito.
+</l> <l>         Kaj tion &ccirc;i ... indulgas la kritiko!
+</l> <l>         Disi&gcirc;u ni kaj restu, la&ubreve; merito,
+</l> <l>         Mi sur Parnas', vi ... en spicistbutiko!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+<l>         Severa Muz', &dash; vi &scirc;utis malavare
+</l> <l>         Benvortojn sur hometon; kiu &scirc;pare
+</l> <l>         Misuzis vin &gcirc;is nun sub sia plumo,
+</l> <l>         (Estonte li vin lasos en mallumo.)
+</l> <l>         Sed tamen mi kun tre respektaj sentoj
+</l> <l>         Koncedas, ke ... ekzistas ka&ubreve;z' por miri,
+</l> <l>         Kaj por edif' de miaj geklientoj
+</l> <l>         Necesis tion diri.
+</l></lg>
+</lg>
+
+</div>
+
+
+<div type="poem" rend="doc" id="optimismo">
+<head>
+         OPTIMISMO
+</head>
+<lg rend="poem">
+<lg type='stanza'><l>         &Ccirc;ar pluvetis dum la tago
+</l> <l>         Kaj defalis florpetal',
+</l> <l>         A&ubreve; &ccirc;ar dronis mu&scirc;' en lago
+</l> <l>         Kaj ektimis najtingal':
+</l> <l>	          Tra senkora universo
+</l> <l>		  Larme vibras via verso.
+
+</l></lg>  <lg type='stanza'>
+<l>         Se mi devus kun poetoj
+</l> <l>         Pale plori sen esper'
+</l> <l>         Pri la etaj mizeretoj
+</l> <l>         &Ccirc;iutagaj sur la ter':
+</l> <l>		  Nu, &dash; mi estus krokodilo
+</l> <l>		  Ie ajn &ccirc;e l' granda Nilo.
+
+</l></lg>  <lg type='stanza'>
+ <l>         Sed mi estas hominfano,
+</l> <l>         Kvankam stranga specimen',
+</l> <l>         Tial mi kun bona sano
+</l> <l>         Vivas kvaza&ubreve; en Eden':
+</l> <l>	          Kontra&ubreve; pluvo &dash; sub ombrelo,
+</l> <l>		  Kontra&ubreve; zorgoj &dash; &ccirc;e barelo!
+</l></lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="tentado">
+<head>
+         TENTADO
+</head>
+<lg rend="quote">	         
+<l>	          Por liberi&gcirc;i de tento plej bone</l>
+<l>		  estas cedi al &gcirc;i.</l>
+
+					<signed>Oscar Wilde</signed>
+</lg>
+
+<lg rend="poem">
+<lg type='stanza'>
+ <l>         Sur viaj lipoj nestas
+</l> <l>         De l' kisoj arda gento
+</l> <l>         Kaj plej frivole festas
+</l> <l>         La feston de la Tento.
+</l> <l>	    Mi sentas jukajn brulojn
+</l> <l>	    Kaj ... fermas la okulojn.
+
+</l></lg>  <lg type='stanza'>
+ <l>         Hel-tinte trile glitas
+</l> <l>         De l' rido gaja gamo
+</l> <l>         Kaj sor&ccirc;e &gcirc;i invitas
+</l> <l>         Al dol&ccirc;a lud' de l' amo.
+</l> <l>	    Mi timas kor&scirc;ancelojn
+</l> <l>	    Kaj ... &scirc;topas la orelojn.
+
+</l></lg>  <lg type='stanza'>
+ <l>         Pri &ccirc;arma &gcirc;en' mensogas
+</l> <l>         Plej &ccirc;aste ru&gcirc;a vango
+</l> <l>         Kaj kareseme logas
+</l> <l>         De l' brak' ebura blanko.
+</l> <l>	    Mi mokas la principojn
+</l> <l>	    Kaj ... kisas viajn lipojn!
+</l></lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="neintence">
+<head>
+         NE INTENCE
+</head>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         Akcidente, &dash; ne intence, &dash;
+</l> <l>         Mi sur vian &scirc;uon pa&scirc;is;
+</l> <l>         Beda&ubreve;rinde en la &scirc;uo
+</l> <l>         &Ccirc;arma piedkal' sin ka&scirc;is. 
+</l></lg>  <lg type='stanza'>
+ <l>         Tuj instinkte, &dash; ne intence, &dash;
+</l> <l>         Vi frakasis mian &ccirc;apon;
+</l> <l>         Beda&ubreve;rinde sub la &ccirc;apo
+</l> <l>         Mi ja anka&ubreve; havis kapon.
+</l></lg>  <lg type='stanza'>
+ <l>         Konsekvence, &dash; ne intence, &dash;
+</l> <l>         Vi tre elegante lamis,
+</l> <l>         Mia kapo doloregis
+</l> <l>         Kaj mi vin duoble amis.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj lamante, &dash; ne intence, &dash;
+</l> <l>         Vi faletis, &dash; mi vin tenis,
+</l> <l>         Tiam ... tiam ... &ccirc;u intence?
+</l> <l>         Vi en miaj brakoj svenis .....
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="amocxiama">
+<head>
+         AMO &Ccirc;IAMA
+</head>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         Nia amo estis dol&ccirc;velura
+</l> <l>         Kiel suka karno de persiko
+</l> <l>         Dum ni june nestis en matura
+</l> <l>	          Kampo de tritiko.
+</l></lg>  <lg type='stanza'>
+ <l>         Kun zefir' babila de l' vespero
+</l> <l>         Vete mi karesis viajn harojn
+</l> <l>         Dum spegule portis la rivero
+</l> <l>	          Viajn dudek jarojn.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed la tempo per &jcirc;aluza dento
+</l> <l>         &Ccirc;armojn &scirc;iris post rikolt' somera;
+</l> <l>         De l' virin' plej forta argumento
+</l> <l>	    Estas efemera!
+</l></lg>  <lg type='stanza'>
+ <l>         Nun vi time, sorton-anta&ubreve;sente
+</l> <l>         Min observas kaj demandas &scirc;tele:
+</l> <l>         <q rend='begin'/>&Ccirc;u dum vintro anka&ubreve;, vi konsente
+</l> <l>	      Amos min fidele?<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Certe, jes! &dash; Ni restos geamatoj!
+</l> <l>         &Ccirc;ar vi tiel senkompare fritas
+</l> <l>         Kolbasetan far&ccirc;on en tomatoj,
+</l> <l>	         Ke ... mi ne hezitas!<q rend='end'/>
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="profitulo">
+<head>
+         PROFITULO
+</head>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         Dum grizaj tagoj de l' mizero
+</l> <l>         Vi froste ka&ubreve;ris en mansardo,
+</l> <l>         Vi nutris vin per ranca lardo
+</l> <l>         Kaj banis vin en suptelero;
+</l></lg>  <lg type='stanza'>
+ <l>         Vi tiam portis lanfulardon
+</l> <l>         Sur kruda bluzo, sen &ccirc;emizo,
+</l> <l>         Dum en butik', spicistkomizo,
+</l> <l>         Vi vendis pipron kaj mustardon.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;u miri nun pri sortkaprico,
+</l> <l>         &Ccirc;ar en palaco vi ripozas?
+</l> <l>         Se vi ri&ccirc;i&gcirc;is, ni supozas,
+</l> <l>         Ke juste estis via vico.
+</l></lg>  <lg type='stanza'>
+ <l>         Vi havis bonan vivdevizon,
+</l> <l>         Krom tio, anka&ubreve;, dum milito
+</l> <l>         Vi povis vendi kun profito
+</l> <l>         Al &ccirc;iuj &scirc;tatoj ... &scirc;iman rizon ...
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="almozulo">
+<head>
+         L' ALMOZULO
+</head>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         &Ccirc;iutage kun vespero
+</l> <l>         Venas almozulo,
+</l> <l>         Kaj li staras longajn horojn
+</l> <l>         &Ccirc;e la stratangulo.
+</l></lg>  <lg type='stanza'>
+ <l>         Viro eble kvindekjara
+</l> <l>         Kun mizera masko,
+</l> <l>         Tial, ke kompaton veki
+</l> <l>         Estas lia tasko.
+</l></lg>  <lg type='stanza'>
+ <l>         Ftiza tuso temp-al-tempe
+</l> <l>         Skuas lian kapon, &dash;
+</l> <l>         Pli insiste li etendas
+</l> <l>         Grasmakulan &ccirc;apon.
+</l></lg>  <lg type='stanza'>
+ <l>         Li al bonaj virinetoj
+</l> <l>         Bruan dankon ma&ccirc;as, &dash;
+</l> <l>         Post avaraj senkoruloj
+</l> <l>         Li indigne kra&ccirc;as,
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj senbrue, malrapide,
+</l> <l>         Kiel li alvenas,
+</l> <l>         Li, parenc' de noktaj ombroj,
+</l> <l>         Lame sin fortrenas ...
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;iutage dum noktmezo
+</l> <l>         Brute sen kompato
+</l> <l>         &Scirc;iras min el sana dormo
+</l> <l>         Bruo sur la strato:
+</l></lg>  <lg type='stanza'>
+ <l>         L' almozulo kun kolegoj
+</l> <l>         Dancas farandolon
+</l> <l>         Kaj ebriaj ili grakas
+</l> <l>         Ven&gcirc;an karmanjolon<note type='footnote' rend='(*)'>Karmanjolo: revolucia kanto.</note>
+</l></lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="liriko">
+<head>
+         LIRIKO KAJ PRAKTIKO
+</head>
+<note>
+	          (Liriko la&ubreve; la germana poeto Heinrich Heine)
+</note>
+<lg rend="poem">
+<lg type='stanza'>
+ <l>         <q rend='begin'/>El miaj larmoj kreskas
+</l> <l>         Violoj kaj lekantoj
+</l> <l>          Kaj tra sopiroj miaj
+</l> <l>          Tremetas birdokantoj ...<q rend='end'/>
+</l></lg>
+</lg>
+<note>
+		   (Praktika respondo de la holanda komercisto Van
+		   Dal)
+</note>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         <q rend='begin'/>Nu bone, &dash; viajn florojn
+</l> <l>         Disvendu kun profito
+</l> <l>         Kaj viajn birdojn man&gcirc;u
+</l> <l>         Kun bona apetito!<q rend='end'/>
+</l></lg>
+</lg></div>         
+
+
+<div type="poem" rend="doc" id="vilagxanino">
+<head>
+         VILA&Gcirc;ANINO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En vila&gcirc;o de montaroj, 
+</l> <l>         For de l' bruo de l' kulturo, 
+</l> <l>         Vivas &gcirc;is en niaj jaroj 
+</l> <l>         Prototip' de pranaturo.
+</l></lg>  <lg type='stanza'>
+ <l>         Tie mi knabinon konas,
+</l> <l>         &dash; Pura koro, &scirc;talmuskoloj, &dash;
+</l> <l>         Kies brusto ne bezonas
+</l> <l>         La sekreton de piloloj!
+</l></lg>  <lg type='stanza'>
+ <l>         Kiam &scirc;ia bu&scirc;' &dash; por brili &dash;
+</l> <l>         Sorbas majmatenan roson, 
+</l> <l>         Estus peke alkonsili,
+</l> <l>         Ke &scirc;i uzu dentobroson. 
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar okuloj, vangoj, bu&scirc;o 
+</l> <l>         Estas fruktoj a&ubreve;tentikaj 
+</l> <l>         Sen bezono de retu&scirc;o 
+</l> <l>         Per arta&jcirc;oj kosmetikaj!
+</l></lg>  <lg type='stanza'>
+ <l>         &Scirc;i ne dancas, &dash; &scirc;i ne fumas, 
+</l> <l>         (Tio &scirc;ajnas jam legendo!)
+</l> <l>         Kaj nur ete &scirc;i parfumas 
+</l> <l>         Tol&ccirc;emizojn per lavendo;
+</l></lg>  <lg type='stanza'>
+ <l>         &Scirc;i ne revas pri teatro, 
+</l> <l>         Tualeton &scirc;i ne faras, 
+</l> <l>         Kaj &scirc;i tiel al la patro 
+</l> <l>         &Ccirc;iujare sumojn &scirc;paras. 
+</l></lg>  <lg type='stanza'>
+ <l>         Mi admiras vin, knabino, 
+</l> <l>         Kaj glorkante mi proklamas 
+</l> <l>         Virton de l' vila&gcirc;anino,
+</l> <l>         Sed &dash; mi urbaninon amas ...
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="bonakonsilo">
+<head>
+         BONA KONSILO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         La vino brilu en pokalo 
+</l> <l>         A&ubreve; en malkara glas', 
+</l> <l>         Sen&scirc;an&gcirc;e tekstas la moralo: 
+</l> <l>         <q>In vino veritas</q>.
+</l></lg>  <lg type='stanza'> 
+ <l>         Fabeltrezoroj de l' rivero 
+</l> <l>         Ripozas en profund',
+</l> <l>         Kaj same la eterna Vero 
+</l> <l>         Sin ka&scirc;as sur la fund'.
+</l></lg>  <lg type='stanza'>
+ <l>         Do trinku &ccirc;iam, se vi povas, 
+</l> <l>         &Gcirc;is fundo de la tut', 
+</l> <l>         &Ccirc;ar eblas, ke la Ver' sin trovas 
+</l> <l>         Nur en la lasta gut'.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="libertempo">
+<head>
+         LIBERTEMPO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Mara bordo kun hoteloj, 
+</l> <l>         Pavilonoj kun terasoj, 
+</l> <l>         Kie sur salikfoteloj 
+</l> <l>         Lacertumas &ccirc;iuj rasoj ...
+</l></lg>  <lg type='stanza'> 
+ <l>         &Scirc;ajno, &scirc;ajno, pantomimoj, 
+</l> <l>         Nek senzorgo, nek ripozo! 
+</l> <l>         Amelitaj modviktimoj,
+</l> <l>         Via paco estas ... pozo!
+</l></lg>  <lg type='stanza'> 
+ <l>         &Ccirc;ar monduma stulta kodo 
+</l> <l>         Anka&ubreve; tie &ccirc;i rigoras,
+</l> <l>         Kaj la sklavoj de la modo 
+</l> <l>         Libertempe nur ... de&jcirc;oras 
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj kompatas min, barbaron, 
+</l> <l>         Kiu &scirc;atas nur kamparon 
+</l> <l>         Sen deviga kostum&scirc;an&gcirc;o 
+</l> <l>         Post kaj anta&ubreve; &ccirc;iu man&gcirc;o!
+</l></lg>  <lg type='stanza'>
+ <l>         Ho benata nest' vila&gcirc;a, 
+</l> <l>         Nelekata de l' kulturo, 
+</l> <l>         Virga &ccirc;armo, &gcirc;oj' sova&gcirc;a 
+</l> <l>         Hejmas meze de l' naturo;
+</l></lg>  <lg type='stanza'> 
+ <l>         Kaj neniu a&ubreve;tomato
+</l> <l>         Negre bruas en <q>dancingo</q>, 
+</l> <l>         Nek radio-aparato
+</l> <l>         Kurzojn krias de l' sterlingo!
+</l></lg>  <lg type='stanza'> 
+ <l>         Pura estas &ccirc;iu herbo,
+</l> <l>         Sanon portas &ccirc;iu colo, 
+</l> <l>         Korpo tie &ccirc;i kaj cerbo
+</l> <l>         &Gcirc;uas pacon de l' izolo ...
+</l></lg>  <lg type='stanza'> 
+ <l>         Mi sopiras nostalgie
+</l> <l>         Al &ccirc;i tiu nesto, kie 
+</l> <l>         Kampa vivo kaj ferioj
+</l> <l>         Ne jam estas <q>industrioj</q>!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="mizantropoj">
+<head>
+         AL MIZANTROPOJ
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Kelkaj kun &hcirc;imeroj sidas 
+</l> <l>         Hejme apud sia forn'
+</l> <l>         Kaj la mondon ili vidas 
+</l> <l>         Nur tra lens' de sia lorn'; 
+</l></lg>  <lg type='stanza'>
+ <l>         La&ubreve; ilia perspektivo
+</l> <l>         &Ccirc;ion kovras &ccirc;asta gaz', 
+</l> <l>         Ili neas, ke la vivo 
+</l> <l>         Pulsas sub ilia naz';
+</l></lg>  <lg type='stanza'>
+ <l>         Ili kun sopir' fabelas 
+</l> <l>         Pri modele dol&ccirc;a mond'
+</l> <l>         Kaj de l' homoj for sin &scirc;telas 
+</l> <l>         Kvaza&ubreve; vivi estus hont'!
+</l></lg>  <lg type='stanza'>
+ <l>         Jes, ni scias, &dash; post prapatro 
+</l> <l>         Anka&ubreve; ni, se tentas log',
+</l> <l>         Ofte vagas trans la kadro 
+</l> <l>         De malvasta dekalog',
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj sen nigraj okulvitroj
+</l> <l>         Ni konstatas, &dash; kial ne? &dash;
+</l> <l>         Ke grandparte la &ccirc;apitroj 
+</l> <l>         De l' Homara Epope'
+</l></lg>  <lg type='stanza'>
+ <l>         Ne tre glore sin prezentas, 
+</l> <l>         (E&ccirc; dum tempoj de l' kultur'), 
+</l> <l>         Sed ni des pli bone sentas, 
+</l> <l>         Ke ni estas homoj nur .....
+</l></lg>  <lg type='stanza'> 
+ <l>         Ke el polvo re- en polvon
+</l> <l>         Tiras nin la homnatur', &dash;
+</l> <l>         Kial do ni ser&ccirc;us solvon 
+</l> <l>         De la cirkla kvadratur'?
+</l></lg>  <lg type='stanza'>
+ <l>         For do la grumblantan maskon, 
+</l> <l>         La grimacon de l' cenzur',
+</l> <l>         Kaj plenumu vian taskon: 
+</l> <l>         Esti homoj! &dash; Homoj nur!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="konsolado">
+<head>
+         KONSOLADO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Forvi&scirc;u viajn larmojn, &dash; jen mia nazotuk', &dash;
+</l> <l>         En tiuj ondoj dronus e&ccirc; virto de e&ubreve;nuk';
+</l> <l>         Mi cedas kavalire, do estu vi an&gcirc;elo,
+</l> <l>         Kaj ne plu ni disputu pri stulta bagatelo!
+</l></lg>  <lg type='stanza'> 
+ <l>         Mi amis vin hiera&ubreve; kaj morga&ubreve; amos vin, 
+</l> <l>         Mi kisis vin infano kaj kisos vin avin', 
+</l> <l>         Mi &scirc;atis plenajn formojn de via juna a&gcirc;o 
+</l> <l>         Kaj vian maljunecon mi portos kun k&ubreve;ra&gcirc;o. 
+</l></lg>  <lg type='stanza'>
+ <l>         Ne estas mia koro frivola papili',
+</l> <l>         &Ccirc;ar oni amas firme en mia famili',
+</l> <l>         Kaj jen: praavo mia, la gentopatro Pa&ubreve;lo, 
+</l> <l>         Pro am&ccirc;agreno frua eterne restis fra&ubreve;lo!
+</l></lg>  <lg type='stanza'> 
+ <l>         Do fidu miajn vortojn, &dash; mi estas inda fil' 
+</l> <l>         De gento fami&gcirc;inta sen sabro, sen pafil', 
+</l> <l>         Kaj en blazono mia ni legas la devizon:
+</l> <l>         <q>Prefere ol vin perdi mi perdus la &ccirc;emizon!</q>
+</l></lg>  <lg type='stanza'> 
+ <l>         Forvi&scirc;u do la larmojn, la honton de l' jarcent', 
+</l> <l>         Kaj kredu nun sincere je mia nobla sent';
+</l> <l>         Mi pagis vian robon, mi pagos la mantelon ... 
+</l> <l>         &Ccirc;u bone? &dash; Jes, ni anka&ubreve; a&ccirc;etos la &ccirc;apelon!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="respekte">
+<head>
+         TRE RESPEKTE
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Se ie ajn en la &gcirc;ardeno 
+</l> <l>         De l' vivo estas suna loko, 
+</l> <l>         Memkompreneble vi sen peno 
+</l> <l>         Okupas &gcirc;in de praepoko. 
+</l></lg>  <lg type='stanza'>         
+ <l>         Jam via patro, via avo
+</l> <l>         Beate tie &ccirc;i kvietis,
+</l> <l>         Dum bona fil' de bona sklavo 
+</l> <l>         Modeste en angul' vegetis.
+</l></lg>  <lg type='stanza'>
+ <l>         Mi ne ripro&ccirc;as, akvokapo, 
+</l> <l>         Ke vi misuzas tro da loko,  
+</l> <l>         Sed ke tro brue post agapo 
+</l> <l>         Al ni vi ruktas kun provoko,
+</l></lg>  <lg type='stanza'> 
+ <l>         Ke kiel verbon en aktivo
+</l> <l>         Vi funde konas nur <q>oscedi</q>, 
+</l> <l>         Ke vi nenion dum la vivo 
+</l> <l>         Persone faris, krom... heredi!
+</l></lg>
+	         <l rend='center'>&TRISTELO;</l>
+ 
+  <lg type='stanza'>
+ <l>         Kaj nun, la&ubreve; la Evangelio, 
+</l> <l>         Mi tre respekte, sen minacoj, 
+</l> <l>         Salutas vin, ho familio
+</l> <l>         De l' kukurbacoj!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="diversajagxoj">
+<head>
+         LA DIVERSAJ A&Gcirc;OJ DE L' HOMO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En supra &ccirc;ambro, lulo ... lulo ...
+</l> <l>         An&gcirc;ele dormas la etulo:
+</l> <l>	       Eta&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed balda&ubreve; li el dorm' sin &scirc;iras
+</l> <l>         Kaj pri la bela mondo miras:
+</l> <l>              Mira&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Jam ne plu side li tamburas,
+</l> <l>         Sed tra la dom' esplore kuras:
+</l> <l>	      Kura&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Kun vundoj li (kaj sen rubandoj)
+</l> <l>         Revenas el stratbubaj bandoj:
+</l> <l>	 	 Banda&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj balda&ubreve; sekvas li kun &gcirc;ojo
+</l> <l>         Knabinon &ccirc;ien sur la vojo:
+</l> <l>	          Voja&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Al &scirc;i li donas sian nomon:
+</l> <l>         Por fondi kune novan domon:
+</l> <l>	          Doma&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Li tiam estas tre utila
+</l> <l>         Fortika viro, kvankam vila:
+</l> <l>	          Vila&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj post rapida tempopaso
+</l> <l>         Postrestas nur senviva maso:
+</l> <l>	          Masa&gcirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         P. S.
+</l> <l>         Ni ne apliku al Virino
+</l> <l>         &Ccirc;i tiun viv- kaj rimo-sa&gcirc;on,
+</l> <l>         &Ccirc;ar de l' komenco &gcirc;is la fino
+</l> <l>         &Scirc;i &ccirc;iam havas saman a&gcirc;on:
+</l> <l>	          Avanta&gcirc;o:
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="printempavarianto">
+<head>
+         PRINTEMPA VARIANTO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+      <l>         <q rend='begin'/>Salte-dance, hop kaj hop!
+    </l> <l>      Jen alvenas en galop'
+    </l> <l>         Rajdoside sur skarabo
+    </l> <l>         La Printempo, &ccirc;arma knabo.
+    </l> <l>         Junaj herboj, florbur&gcirc;onoj
+    </l> <l>         Jam borderas lian vojon
+    </l> <l>         Kaj &ccirc;ielaj violonoj
+    </l> <l>         Sor&ccirc;e zumas novan &gcirc;ojon!<q rend='end'/>
+    </l> 
+  </lg>  
+  <lg type='stanza'>
+     <l>         Tiel do, a&ubreve; proksimume,
+    </l> <l>         Poezio ekspluatas
+    </l> <l>         La Printempon; &dash; interdume
+    </l> <l>         Pli praktike mi konstatas,
+    </l> <l>         Ke venteto-petolulo
+    </l> <l>         Helpas miajn priokupojn:
+    </l> <l>         Li &ccirc;e &ccirc;iu stratangulo 
+    </l> <l>         Blovas sub knabinajn jupojn ...
+    </l>
+  </lg>
+
+  <l><figure entity="printempavarianto"/></l>
+
+  <lg type='stanza'>
+     <l>         Jen printempsezona &gcirc;uo!
+    </l> <l>         Mi admiras la naturon,
+    </l> <l>         Se &gcirc;is super la genuo
+    </l> <l>         &Gcirc;i malkovras belan kruron.
+    </l>
+  </lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="printempajxoj">
+<head>
+         PRINTEMPA&Jcirc;OJ
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+     <l>         Mia kara, knara liro,
+    </l> <l>         Ni agordu viajn kordojn
+    </l> <l>         Kaj malfermu &ccirc;iujn pordojn,
+    </l> <l>         Ke envenu ... la Inspiro!
+    </l>
+  </lg>  
+  <lg type='stanza'>
+     <l>         &Ccirc;ar por kanto kaj versfaro
+    </l> <l>         Estas temo, estas tempo:
+    </l> <l>         La&ubreve; kalkul' de l' kalendaro
+    </l> <l>         &Jcirc;us alvenis la printempo.
+    </l>
+  </lg>  
+  <lg type='stanza'>
+     <l>         Vigle, vigle! Fine &ccirc;esas
+    </l> <l>         Plumba son&gcirc;' de vintra dormo;
+    </l> <l>         Por poeto nun necesas
+    </l> <l>         Ion diri en versformo...
+
+		  </l>
+  </lg>  
+  <l rend='center'>&TRISTELO; 
+    </l>
+
+  <lg type='stanza'>
+     <l>         <q rend='begin'/>Kio estas kruda lumo
+    </l> <l>         De elektraj arkolampoj
+    </l> <l>         En komparo kun la suno
+    </l> <l>         Super verdi&gcirc;antaj kampoj!
+    </l>
+  </lg>  <lg type='stanza'>
+     <l>         Lasu do l' asfaltpavimon
+    </l> <l>         Kaj forgesu modajn dandojn!
+    </l> <l>         Mia kor' ne konas limon,
+    </l> <l>         Se mi havas bonajn plandojn.
+    </l>
+  </lg>  <lg type='stanza'>
+     <l>         Plej &gcirc;entile min invitis
+    </l> <l>         Nudaj nimfoj de l' river'
+    </l> <l>         Kaj plezure mi vizitis
+    </l> <l>         Ilin dum printempvesper'.
+    </l>
+  </lg>  <lg type='stanza'>
+     <l>         Ho miraklo de l' natur'!
+    </l> <l>         Ne vidi&gcirc;is nimfa kufo
+    </l> <l>         Kaj &ccirc;e l' akvo kvakis nur
+    </l> <l>         Gardostare blinda bufo ...
+    </l>
+  </lg>  <lg type='stanza'>
+     <l>         Sed poeta verv' decidas
+    </l> <l>         (Kaj kredeble ne eraras):
+    </l> <l>         Se la nimfon ni ne vidas,
+    </l> <l>         &Scirc;in ni des pli bone ... flaras!<q rend='end'/>
+      </l>
+  </lg> 
+      <l rend='center'>&TRISTELO; </l>  
+  <lg type='stanza'>
+     <l>         Poezi', &dash; ho Poezio,
+    </l> <l>         Vi plenigas niajn korojn,
+    </l> <l>         Kaj alsor&ccirc;as ravajn horojn
+    </l> <l>         La Printempa Iluzio.
+    </l>
+</lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="majo">
+<head>
+         MAJO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Man-en-mane ili iras
+</l> <l>         Tra l' diman&ccirc;o plu kaj plu,
+</l> <l>         Ili miras kaj admiras
+</l> <l>         ... Kion? ... Kiun?... nur sin du!
+</l> <l>         Majo, majo, majmonato,
+</l> <l>         Amatino kun amato...
+</l></lg>  <lg type='stanza'>
+ <l>         Kial feste sin ornamas
+</l> <l>         La natur' kaj vokas nin?
+</l> <l>         Homoj, kiuj &jcirc;us ekamas,
+</l> <l>         Tute ne rimarkas &gcirc;in.
+</l> <l>         Mond' pereu, &dash; estu venko!
+</l> <l>         ... Ili sidas sur la benko ...</l>
+</lg>
+<l><figure entity="majo"/></l>
+
+ <lg type='stanza'>
+ <l>         Ili flustras kaj susuras
+</l> <l>         Kvaza&ubreve; temus pri mister',
+</l> <l>         Ili &jcirc;uras kiel &jcirc;uras
+</l> <l>         Nur herooj dum dan&gcirc;er':
+</l> <l>         <q rend='begin'/>Tie &ccirc;i, &dash; a&ubreve; aliloke, &dash;
+</l> <l>         Ni nin amos reciproke!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Frua amo estas trompa,
+</l> <l>         Trompa estis la knabin',
+</l> <l>         Post pa&ubreve;zeto interrompa
+</l> <l>         Li tutsola trovas sin
+</l> <l>         Kaj konkludas: <q rend='begin'/>For malgajo!
+</l> <l>         Tru-la-la! &dash; Nun estas majo!<q rend='end'/>
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="prisomero">
+<head>
+         PRI SOMERO
+</head>
+<note>
+<p>
+         Kun la sekvantaj rimoj, hazarde kolektitaj,
+         limak- cel- atak- sitel-
+         ofer- somer- voj- &gcirc;oj-
+         pri la &gcirc;enerala temo <q>Somero</q> ni
+         kantos unue kun komencanto, kiu
+         nepre dedi&ccirc;as &ccirc;i tiun majstroverkon
+	      <q>Al la kara gesamideanaro!</q>
+</p>
+</note>
+
+<lg rend="poem">
+<head>
+         SOMERA VARBOKANTO
+</head>         
+  <lg type='stanza'>
+ <l>         Kiel &ccirc;evalo, ne kiel limako,
+</l> <l>         Kuru jen tuj al plej sankta la celo!
+</l> <l>         Vin ne timigu la moka atako,
+</l> <l>         Estingu mokfajron per nobla sitelo!
+</l> <l>         Vana ne estos la via ofero!
+</l> <l>         Varbu dum vintro kaj pli dum somero,
+</l> <l>         Kaj la homaro, post longa la vojo,
+</l> <l>         Jen ja vin benos kaj dankos kun &gcirc;ojo!
+</l></lg>
+</lg>
+<note>
+	          Vere kortu&scirc;e, &ccirc;u ne? &dash; Nun kun 
+		  dis&ccirc;iplo de l' trubaduroj:
+</note>
+
+<lg rend="poem">
+<head>
+         SOMERO DE L' AMO
+</head>
+  <lg type='stanza'>
+ <l>         Mi estas, kruela, &ccirc;e vi nur limako
+</l> <l>         Rampanta al koro por tu&scirc;i la celon,
+</l> <l>         Sed se mi venki&gcirc;us dum tiu atako,
+</l> <l>         Larmfluo amara plenigus sitelon!
+</l> <l>         Pli ardas la, am' ol altara ofero,
+</l> <l>         Pli ardas la am' ol afrika somero ...
+</l> <l>         Somero de l' amo min premas sur vojo,
+</l> <l>         Sen via ombrumo mi mortus sen &gcirc;ojo ...
+</l></lg>
+</lg>
+<note>         
+	         Profunda lirikisto &dash; kial ne Julio
+		 Baghy? &dash; potence nin kuntirus al:
+</note>
+
+<lg rend="poem">
+<head>
+         SOMERA SUFERO
+</head>
+  <lg type='stanza'>
+ <l>         Tra mizer' de l' vivomar&ccirc;', limak',
+</l> <l>         Vade vagas vagabond' al cel';
+</l> <l>         Grince e&hcirc;as vipo de l' atak', &dash;
+</l> <l>         Estas Viv' nur Sisifus-sitel'!
+</l> <l>         Ve! post lukto vanas larmofer',
+</l> <l>         Torde mordas, brogas min somer' ...
+</l> <l>         Por viktim', por mi, limak' &ccirc;e l' voj',
+</l> <l>         Suna ardo estas pen', mal&gcirc;oj'.
+</l></lg>
+</lg>
+<note>
+	          Jen kian verkis dube-sana spritulo:
+</note>
+
+<lg rend="poem">
+<head>
+         SOMERA IDILIO
+</head>
+  <lg type='stanza'>
+ <l>         Mi envias la limakon,
+</l> <l>         Kiu trotas al... parcel',
+</l> <l>         Kie limakin' atakon
+</l> <l>         Sopiregas sub sitel'!
+</l> <l>         Sub sitelo am-ofero
+</l> <l>         Estas ebla dum somero,
+</l> <l>         Ne tedus min senombra voj',
+</l> <l>         Se sub sitelo logus &gcirc;oj'!
+</l></lg>
+</lg>
+<note>
+	          Kaj nun, por fini plej dece, ni pre&gcirc;u
+		  kun pia poeto:
+</note>
+<lg rend="poem">
+<head>
+         PRE&Gcirc;O DUM SOMERO
+</head>
+  <lg type='stanza'>
+ <l>         Ho Di'! &dash; Mi estas nur limak'
+</l> <l>         Rampanta pene al la celo;
+</l> <l>         Ne venku min inferatak'
+</l> <l>         Sub tenta form' de trinksitelo!
+</l> <l>         Akceptu signon de ofero:
+</l> <l>         La pezan penon dum somero, &dash;
+</l> <l>         Subtenu min sur mia voj'
+</l> <l>         Espero pri eterna &gcirc;oj',
+</l> <l rend='right'>	                         Amen!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="muziko">
+<head>
+         MUZIKO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Mi ne pretendas, ke nur sonsubstancoj
+</l> <l>         La kvintesencon donas de l' amuz',
+</l> <l>         Sed tamen mi dum certaj cirkonstancoj
+</l> <l>         Muzikon &scirc;atas por persona uz',
+</l></lg>  <lg type='stanza'>
+ <l>         Ne kiel dando, kiu civilizon
+</l> <l>         Inventi kredas, &ccirc;ar li &dash; la&ubreve; la mod' &dash;
+</l> <l>         Dumtage portas fonografvalizon
+</l> <l>         Kaj nokte dormas en radi-komod',
+</l></lg>  <lg type='stanza'>
+ <l>         Sed kiel hom' normala la&ubreve; konstruo
+</l> <l>         Preferas mi en kiu ajn medi'
+</l> <l>         Ritmitan movon de obtuza bruo
+</l> <l>         Al fu&scirc;a scen' de l' Homa Komedi'!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="autunovesper">
+<head>
+         A&Ubreve;TUNOVESPER'
+</head>
+<note>
+	          Al mia samurbano Paul Verlaine.
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Surprize-perfide
+</l> <l>         Enrampas avide
+</l> <l>         A&ubreve;tunovesper'
+</l> <l>         &Gcirc;is koro de l' urbo
+</l> <l>         Samkiel la&ubreve; kurbo
+</l> <l>         Mistera klister'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kun seka folio
+</l> <l>         Nur melankolio
+</l> <l>         Defalas de l' arb';
+</l> <l>         Nudbran&ccirc;oj groteskas,
+</l> <l>         Nenio plu kreskas
+</l> <l>         Krom &dash; eble &dash; la barb'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj kvaza&ubreve; el tombo
+</l> <l>         De prakatakombo
+</l> <l>         Plorventas kantik';
+</l> <l>         Mi tremas ekfebre
+</l> <l>         Kaj migras funebre
+</l> <l>         Al trinkobutik' .....
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="horodelprogreso">
+<head>
+         LA HORO DE L' PROGRESO
+</head>
+<note>
+<p>
+	          <q>Kiel oni povas konstati, la nomoj de
+		  multaj horlo&gcirc;markoj estas Esperantaj.
+		  Ni citu nur la plej konatajn en Francujo:
+		  Movado, Eterna, Cyma, Lip...</q>
+</p>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Nun silentu, vantaj venkokantoj,
+</l> <l>         Nun parolu faktoj kaj praktiko!
+</l> <l>         Dank' al vi, horlo&gcirc;ofabrikantoj,
+</l> <l>         Plivigli&gcirc;as varba ... tiktaktiko.
+</l></lg>  <lg type='stanza'>
+ <l>         Jam sonadas Esperantaj vortoj
+</l> <l>         Serioze, ne plu kiel &scirc;erco,
+</l> <l>         Ili havas forton de pasportoj
+</l> <l>         Kaj konkeras mondon de l' komerco.
+</l></lg>  <lg type='stanza'>
+ <l>         La MOVADO, &dash; marko elokventa &dash;
+</l> <l>         Estas pli ol signo de reklamo,
+</l> <l>         Por horlo&gcirc;o (ora a&ubreve; ar&gcirc;enta)
+</l> <l>         Ideala estas &gcirc;i programo.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj ETERNA! &dash; Bone, sed pli vere
+</l> <l>         Utopi' de brava optimisto,
+</l> <l>         &Ccirc;ar alie, balda&ubreve; plej mizere
+</l> <l>         Mortus &ccirc;iu horlo&gcirc;riparisto!
+</l></lg>  <lg type='stanza'>
+ <l>         Kial CYMA? &dash; Epitet' neklara,
+</l> <l>         Stranga vorto eble sen animo?
+</l> <l>         Vi nomi&gcirc;as CYMA, mia kara,
+</l> <l>         &Ccirc;ar vi estas plata kiel cimo.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed nun LIP! &dash; Invento de barbaroj,
+</l> <l>         Tiu vort' konsternas niajn morojn:
+</l> <l>         Dank' al &gcirc;i junuloj sen barbharoj
+</l> <l>         Evidente havos nun ... Liphorojn!
+
+	       </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Horlo&gcirc;etoj, stre&ccirc;u la risortojn
+</l> <l>         Por anonci horon de l' progreso, &dash;
+</l> <l>         Se ni same stre&ccirc;us niajn fortojn,
+</l> <l>         Balda&ubreve; sonus horo de l' sukceso ...
+
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="orangxo">
+<head>
+         ORAN&Gcirc;O
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Oran&gcirc;o!
+</l> <l>         Bela frukto mild-aroma
+</l> <l>         Kun miele dol&ccirc;a gust',
+</l></lg>  <lg type='stanza'>
+ <l>         Suka frat' de paro poma
+</l> <l>         Sur la amatina brust',
+</l></lg>  <lg type='stanza'>
+ <l>         Vi vin ka&scirc;as time &ccirc;aste
+</l> <l>         Sub &ccirc;emiz' el silkpaper';
+</l></lg>  <lg type='stanza'>
+ <l>         Senvesti&gcirc;u senprokraste
+</l> <l>         Kaj preti&gcirc;u al ofer'!
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar la&ubreve; vortoj de la fablo 
+        <note type="footnote" rend='(*)'>Eble iu el la afablaj klientoj konas la aluditan fablon.
+		 La a&ubreve;toro tre dankeme ricevus tiurilatajn sciigojn, &ccirc;ar anka&ubreve;
+		 li tre dezirus koni tiun &ccirc;i fablon.
+        </note>,
+</l> <l>         Silk&ccirc;emizoj (e&ccirc; paperaj)
+</l> <l>         Por la lito a&ubreve; la tablo
+</l> <l>         Estas &ccirc;iam efemeraj ...
+</l></lg>
+</lg>
+
+</div>
+
+<div type="poem" rend="doc" id="diferenco">
+<head>
+         NE ESTAS DIFERENCO
+</head>
+<note>
+	          (Nova serio)
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         La servistino metas
+</l> <l>         Paka&jcirc;ojn en la reton
+</l> <l>         Dum nobla pra-praavo
+</l> <l>         Ornamas la tapeton.
+</l> <l>	          Kaj malgra&ubreve; diverssenco
+</l> <l>		  Ne estas diferenco !
+</l></lg>
+</lg>
+<note>
+         (En amba&ubreve; okazoj estas
+         ... portreto.)
+</note>
+
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Insigne la &ccirc;apelo
+</l> <l>         Surportas bantornamon
+</l> <l>         Dum juna koko pruvas
+</l> <l>         Fervore sian amon.
+</l> <l rend='indent'>	          Kaj malgra&ubreve; diverssenco
+</l> <l rend='indent'>		  Ne estas diferenco!
+</l></lg>
+</lg>
+<note><l>         (En amba&ubreve; okazoj estas</l>
+<l>         ... kokardo.)</l>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Tro la&ubreve;te stulta mulo
+</l> <l>         La tutan nokton blekas
+</l> <l>         Dum lerta malbonulo
+</l> <l>         El dormo nin ne vekas.
+
+</l> <l rend='indent'>	          Kaj malgra&ubreve; diverssenco
+</l> <l rend='indent'>		  Ne estas diferenco!
+</l></lg>
+</lg>
+<note>
+<l>         (En amba&ubreve; okazoj estas</l>
+<l>         ... krimulo.)</l>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+
+ <l>         La kuracist' detran&ccirc;as
+</l> <l>         Kaj kruron kaj genuon
+</l> <l>         Dum &ccirc;e ka&scirc;ita puto
+</l> <l>         &Scirc;i havas rendevuon.
+
+</l> <l rend='indent'>	          Kaj malgra&ubreve; diverssenco
+</l> <l rend='indent'>		  Ne estas diferenco!
+</l></lg>
+</lg>
+<note>
+      <l>   (En amba&ubreve; okazoj estas</l>
+<l>         ... amputo.)</l>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Plezuravida salmo
+</l> <l>         L' edzinon lerte flatas
+</l> <l>         Dum pene sub la tero
+</l> <l>         Ministoj salon gratas.
+
+</l> <l rend='indent'>	          Kaj malgra&ubreve; diverssenco
+</l> <l rend='indent'>		  Ne estas diferenco!
+</l></lg></lg>
+<note>
+     <l>    (En amba&ubreve; okazoj estas</l>
+<l>         ... salmino.)</l>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En multaj kastoj oni
+</l> <l>         Observas etiketon
+</l> <l>         Dum certa vir' soprane
+</l> <l>         (Sed vane) diras peton.
+
+</l> <l rend='indent'>	          Kaj malgra&ubreve; diverssenco
+</l> <l rend='indent'>		  Ne estas diferenco!
+</l></lg></lg>
+<note>
+     <l>    (En amba&ubreve; okazoj estas
+</l> <l>         ... kastrito.)</l>
+</note>         
+</div>
+         
+<div type="poem" rend="doc" id="balado">
+<head>
+         BAL... ADO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Ho jarcento de l' sensenco,
+</l> <l>         Fina fino de romanco!
+</l> <l>         &Ccirc;irka&ubreve; ni nur dekadenco
+</l> <l>         A&ubreve; almena&ubreve; ... peka danco!
+</l></lg>  <lg type='stanza'>
+ <l>         Certe anka&ubreve; praepoke
+</l> <l>         Jen kaj jen okazis baloj,
+</l> <l>         Sed hodia&ubreve; &ccirc;iuloke
+</l> <l>         Baloj estas ... kanibaloj!
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar kapablas nur la negroj
+</l> <l>         Torde &dash; kvaza&ubreve; pro koliko &dash;
+</l> <l>         Moki dum deliraj febroj
+</l> <l>         Le&gcirc;ojn de la ... balistiko!
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 	 
+</l>  <lg type='stanza'>
+ <l>         Senkomprene sa&gcirc;a homo
+</l> <l>         Miras pri la <q>&ccirc;arlestonoj</q>,
+</l> <l>         Kvankam li (a&ubreve; lia domo)
+</l> <l>         Hava&scirc; multe da bal-konoj!
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Nun la&ubreve; takt' a&ubreve; kontra&ubreve;takto
+</l> <l>         Komenci&gcirc;as la fokstroto,
+</l> <l>         Kaj sen <q>takto</q> (pro l' kontakto)
+</l> <l>         &Gcirc;i fini&gcirc;as per ... koksfroto!
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Pli ol la fabel-cikado
+</l> <l>         Junulin' la&ubreve; nuna stilo
+</l> <l>         Zorgas pri la mastrumado:
+</l> <l>         &Scirc;i ja estas ... bala ilo!
+
+	   </l></lg>  <l rend='center'>&TRISTELO; 
+</l>       <lg type='stanza'>
+ <l>         Kaj vi mem, amiko, &gcirc;uis
+</l> <l>         La dancarton de l' progreso,
+</l> <l>         Se vi anka&ubreve; rendevuis
+</l> <l>         &Ccirc;e ... l' Danc-iga Mondkongreso!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="dancrekordo">
+<head>
+         DANC-REKORDO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En la moda balsalon'
+</l> <l>         Ili dancis da&ubreve;ro-dancon;
+</l> <l>         Pro titol' de &ccirc;ampion'
+</l> <l>         &Ccirc;iu provis sian &scirc;ancon.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj simile al fakir'
+</l> <l>         Ili dormi jam forgesis; &dash;
+</l> <l>         Dum semajnoj la turnir'
+</l> <l>         Da&ubreve;re da&ubreve;ris kaj ne &ccirc;esis ...
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam, dank' al &scirc;ercemul',
+</l> <l>         Super pord' de l' enirejo
+</l> <l>         Oni legis sur tabul'
+</l> <l>         La konkludon:  <q>Ne&ccirc;esejo</q>.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="orakolo">
+<head>
+         SIBILLA ORAKOLAS
+</head>
+<note>
+	          (Tiuepoke mi scivolis, kion la
+		  jaro 1930 estis alportonta.)
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         &Scirc;i lo&gcirc;as en &ccirc;ambreto de subtegment-eta&gcirc;o,
+</l> <l>         &Scirc;i estas sor&ccirc;istino kaj puto de mondsa&gcirc;o;
+</l> <l>         Por &scirc;i l' Estonta Tempo ne ka&scirc;as plu sekreton
+</l> <l>         Kaj anta&ubreve; ol mi diris, &scirc;i konis mian peton.
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Vi volas scii, kion la alvenanta jaro
+</l> <l>         Alportos interesan por l' Esperantistaro?
+</l> <l>         Pri tio tuj mi donos klarigon kaj informon,
+</l> <l>         Sed mi anta&ubreve;e falu en plej profundan dormon.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         &Scirc;i tiam prenis libron (&ccirc;ar libron &scirc;i posedis),
+</l> <l>         Eklegis dek liniojn kaj lace jam oscedis,
+</l> <l>         &Scirc;i dormis ... kaj ekdormis e&ccirc; dika araneo
+</l> <l>         Falinta sur la libron: la <q>Idoj de Morfeo</q> ...
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Orakolo,
+</l> <l>         Karambolo,
+</l> <l>         Hum-kaj-bug'
+</l> <l>         De l' centrifug'!
+</l> <l>         Rajdoside
+</l> <l>         Surakride
+</l> <l>         Super val', river' kaj mont'
+</l> <l>         Nun senbride
+</l> <l>         Akravide
+</l> <l>         Saltu, saltu al Estont'!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Mi vidas ... vidas urbon ... Kolonjon &ccirc;e 'rivero
+</l> <l>         Prepari la kongreson kun &gcirc;ojo kaj espero,
+</l> <l>         La Rejno &scirc;a&ubreve;me saltas &gcirc;is super sia bordo,
+</l> <l>         Kaj tamen la kongreso ... okazos en Oksfordo!
+</l></lg>  <lg type='stanza'>
+ <l>         Mi vidas nun tri virojn, &dash; a&ubreve; eble estas kvaro &dash;
+</l> <l>         Jungitajn &dash; (sed sen Teo) &dash; al &ccirc;aro de l' Vortaro;
+</l> <l>         Venkitaj de la SAT'o jen ili tiras, pu&scirc;as ...
+</l> <l>         Ho sankta Kabe; helpu ! &dash; &Ccirc;i tiuj kvar aku&scirc;as!
+</l></lg>  <lg type='stanza'>
+ <l>         Mi vidas nun ezokon kun grasi&gcirc;anta koro ...
+</l> <l>         &Ccirc;u tio parabolus pri C.K. kaj pri K.R.?
+</l> <l>         Jes, sane pumpas K.R. kaj pompe sanus C.K.,
+</l> <l>         Se &gcirc;in ne juke &gcirc;enus kelkfoje G.N.K.K. 
+         <note type="footnote" rend='(*)'>
+               Supozeble G. N. K. K. signifas: Gratulaj Notoj de
+		 l' Konstanta Kritiko.
+          </note>
+</l></lg>  <lg type='stanza'>
+ <l>         Mi vidas ... Dek mil homoj samkiel al spektaklo
+</l> <l>         Sin pu&scirc;as en lernejon avidaj pri l' miraklo,
+</l> <l>         Entuziasmo kreskas, triumfa &gcirc;ojo bruas,
+</l> <l>         &Ccirc;i tie &dash; tute simple &dash; sinjoro &Ccirc;e instruas ...
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Orakolo,
+</l> <l>         Karambolo,
+</l> <l>         Hum-kaj-bug'
+</l> <l>         De l' centrifug'!
+</l> <l>         Rajdoside
+</l> <l>         Surakride
+</l> <l>         Super val', river' kaj mont'
+</l> <l>         Nun senbride
+</l> <l>         Viv-avide
+</l> <l>         Ni revenu al la Mond'!<q rend='end'/>
+
+</l></lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="epigramo">
+<head>
+         EPIGRAMO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         A&ubreve;toro a&ubreve;tentika,
+</l> <l>         Ne nur versfare lerta
+</l> <l>         Sed anka&ubreve; gramatike
+</l> <l>         Samkiel majstro certa,
+</l></lg>  <lg type='stanza'>
+ <l>         Publikis tiun frazon:
+</l> <l>         <q rend='begin'/>Min &ccirc;iuj tre estimas, 
+</l> <l>         &Ccirc;ar mi en &ccirc;iuj kazoj
+</l> <l>         Perfekte min esprimas.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Sed kelkajn &jcirc;aluzulojn
+</l> <l>         &Ccirc;i tiu fraz' surprizis
+</l> <l>         Kaj ili &gcirc;in skrupule
+</l> <l>         &Gcirc;is fundo analizis.
+</l></lg>  <lg type='stanza'>
+ <l>         &Gcirc;i &dash; sub ilia knedo &dash;
+</l> <l>         Fandi&gcirc;is kiel vakso,
+</l> <l>         Kaj sekvis la dekreto:
+</l> <l>         <q>Eraro de ... sin-takso!</q>
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="aliaepigramo">
+<head>
+         ALIA EPIGRAMO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Tre konata recenzisto
+</l> <l>         Skribis foje en recenzon
+</l> <l>         Sa&gcirc;an frazon, kies sencon
+</l> <l>         Fu&scirc;kripligis la presisto.
+</l></lg>  <lg type='stanza'>
+ <l>         Tiu fraz' aperis jene:
+</l> <l>         &dash; (A&ubreve; almena&ubreve; proksimume,
+</l> <l>         &Ccirc;ar mi citas nur resume
+</l> <l>         Ne povante citi plene) &dash;
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Nun ankora&ubreve; tre modestas
+</l> <l>         Niaj libroj kaj gazetoj,
+</l> <l>         &Ccirc;ar l' original-poetoj
+</l> <l>         Certe tro ... <emph>malmutaj</emph> estas.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj legant' ne kompreninte,
+</l> <l>         Ke en tiu &ccirc;i deklaro
+</l> <l>         Ku&scirc;as dika preseraro,
+</l> <l>         Diris grave: <q>Beda&ubreve;rinde!</q>
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="telegramo">
+<head>
+         TELEGRAMO
+</head>
+<note>
+<p>	          La gazeto Heroldo de Esperanto
+		  ricevis telegramon:
+		  <q>Scherer suprengrimpis Merapi-
+		  vulkanon erupci-regiono 
+		  efikpropagande radioparolis stacio
+		  Semarang &dash; Esperantocentro.</q>
+</p>
+<p>
+	          Imagu, karaj, kio estus okazinta,
+		  se la mondo estus eksciinta tion
+		  anstata&ubreve; per telegramo nur per 
+		  normale afrankita letero! Brrr, &dash; mi
+		  preferas ne pensi pri tia katastrofo.
+</p>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Hej, amiko, ne plu plendu
+</l> <l>         Pri impostoj! &dash; Estu gaja!
+</l> <l>         &Ccirc;iujn vivozorgojn sendu
+</l> <l>         Furze al la Himalaja!
+</l> <l>         Vivu am', reklam', tamtamo,
+</l> <l>         &Ccirc;ar alvenis telegramo!
+</l></lg>  <lg type='stanza'>
+ <l>         Kiun ajn mi nun renkontas,
+</l> <l>         &Gcirc;oje svingas la &ccirc;apelon
+</l> <l>         Kaj &gcirc;istede rerakontas
+</l> <l>         Al mi tiun mirfabelon:
+</l> <l>         <q rend='begin'/>&Ccirc;u vi a&ubreve;dis? &dash; Kia dramo!
+</l> <l>         &Jcirc;us alvenis telegramo!<q rend='end'/>
+
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;iuj, &ccirc;iuj, &dash; jen surstrate,
+</l> <l>         Jen endome ovacias
+</l> <l>         Kaj radioaparate
+</l> <l>         La nova&jcirc;on tuj diskrias,
+</l> <l>         E&ccirc; infan' &ccirc;e l' nutra mamo
+</l> <l>         Miras: <q>Te-te-teledramo??</q>
+</l></lg>  <lg type='stanza'>
+ <l>         Nun ni spiras, dank' al Dio!
+</l> <l>         Jam ni preska&ubreve; ne plu dormis
+</l> <l>         Pro premanta emocio,
+</l> <l>         Sed depe&scirc;o &jcirc;us informis:
+</l> <l>         &dash; (Kaj vi rajtas mire gapi) &dash;
+</l> <l>         <q>Scherer grimpis sur Merapi!</q>
+</l></lg>  <lg type='stanza'>
+ <l>         Scherer? ... Eble ... Sed Merapi???
+</l> <l>         Kaj vi povos pro l' demando
+</l> <l>         Vian kapon longe skrapi:
+</l> <l>         Kie a&ubreve; en kiu lando?
+</l> <l>         Nu, sed kial plu nin frapi?
+</l> <l>         <q>Scherer grimpis sur Merapi!</q>
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj mi vetas, ke koboldo
+</l> <l>         Pri l' enigmo lumon portos
+</l> <l>         Kaj detale la Heroldo
+</l> <l>         Dekkolone priraportos ...
+</l> <l>         Ni ne povos plu eskapi
+</l> <l>         L' erupcion de l' Merapi!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="ppp">
+<head>
+         P. P. P.<lb/>
+         a&ubreve;<lb/>
+         POR PLENIGI PA&Gcirc;OJN
+</head>
+<note>
+<p>
+	          (Verkita la&ubreve; metodo, pri kiu mi
+		  konfidence atentigas mian amikon
+		  Grenkamp) <note type="footnote" rend="(*)">
+	 	 Nia &ccirc;ie kaj fame konata Univer... Salo Grenkamp
+		 publikigis libron, kiun li verkis mem: <q>5.000.000</q>
+		 &Gcirc;i estas rimarkinda la&ubreve; pluraj vidpunktoj. Unue, 
+		 la a&ubreve;toro sukcesis jam en la nuran titolon en&scirc;ovi 
+		 6 nulojn ! &dash; Due, &gcirc;i estas la sola verko eldonita en 
+		 Esperanto speciale por miopuloj, t. e.
+		 por miopuloj, kiuj ne posedas okulvitrojn. Tial la 
+		 pa&gcirc;oj entenas nur malmultajn liniojn, sed, kompense, 
+		 tiuj malmultaj linioj konsistas el tre grandaj 
+		 literoj.</note>. 
+</p>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Kial mi pene tramigrus
+</l> <l>         Rimoser&ccirc;ante la kompletan kolekton
+</l> <l>         De l' Esperantaj rimoj,
+</l> <l>         Se
+</l> <l>         Entute mi havas
+</l> <l>         Nenion por diri?
+</l></lg>  <lg type='stanza'>
+ <l>         Estas pli bone, pli malkare
+</l> <l>         Kaj samtempe tempo&scirc;pare
+</l> <l>         &dash;-- (Pardonu &ccirc;i tiun
+</l> <l>         Rimon neintencitan) &dash;
+</l> <l>         Sentencojn eternajn
+</l> <l>         Ligi bukede
+</l> <l>         Per versoj liberaj.
+</l></lg>  <lg type='stanza'>
+ <l>         La supro de l'
+</l> <l>         Blanka Monto 
+</l> <l>         Estas blanka, &ccirc;ar
+</l> <l>         &Gcirc;in kovras ne&gcirc;o &ccirc;iama.
+</l> <l>         Pro tio, cetere,
+</l> <l>         La Monto nomi&gcirc;as tre &gcirc;uste
+</l> <l>         <q>La Blanka</q>.<note type="inline">
+         (Miaj versoj anka&ubreve;
+         Nomi&gcirc;as <q>blankaj</q>,
+         Sed
+         Pro aliaj ka&ubreve;zoj.)
+</note>
+</l></lg>  <lg type='stanza'>
+
+ <l>         De l' monto malsupren,
+</l> <l>         Malsupren al valoj
+</l> <l>         Fluadas sen halt' riveretoj,
+</l> <l>         &Ccirc;ar ... flui supren
+</l> <l>         Kontra&ubreve;us la le&gcirc;ojn
+</l> <l>         Fizikajn.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;i tie ni haltu,
+</l> <l>         &Ccirc;ar pli ol du pa&gcirc;ojn
+</l> <l>         Oferi al tia versarto
+</l> <l>         Signifus de l' kompostisto
+</l> <l>         Misuzi la tempon
+</l> <l>         Kaj de l' afabla leganto
+</l> <l>         Ver&scirc;ajne
+</l> <l>         Trouzi bonvolon.
+</l></lg>  <lg type='stanza'>
+ <l>         Krom tio, mi jam
+</l> <l>         Per tiu ruz-uzo
+</l> <l>         Atingis la celon:
+</l> <l>         La finon de l' pa&gcirc;o.
+</l> <l>         Mi rajtas do
+</l> <l>         Kiel vi
+</l> <l>         Nun ripozi.
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="vidvohomo">
+
+
+<head>
+<note>
+
+	          Imite rimite
+		  la&ubreve; Julio Baghy.
+</note>
+
+         LA VIDVOHOMO MEDITAS
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Multfoje, se la vidvo ardas,
+</l> <l>         En fremda lito li petardas
+</l> <l>         Kaj plantas en dezerto rozon,
+</l> <l>         Forgesas fotografan pozon
+</l> <l>         Kaj kiel dando volas sceni,
+</l> <l>         &Ccirc;evale ami, beste heni,
+</l> <l>         Saturas tiam lin kompren':
+</l> <l>         Naski&gcirc;is li por... am-ge-hen'!
+</l></lg>  <lg type='stanza'>
+ <l>         Multfoje, se la vidvo dignas,
+</l> <l>         Senmone &gcirc;ojon li rezignas,
+</l> <l>         Palpfosas sube, flagas ru&gcirc;e,
+</l> <l>         En robon velas sin rifu&gcirc;e,
+</l> <l>         Agrafas, ruktas, gratas, krias
+</l> <l>         Kaj kiel luno rotacias,
+</l> <l>         Saturas tiam lin kompren':
+</l> <l>         Li ku&scirc;as febra sur kusen'.
+</l></lg>  <lg type='stanza'>
+ <l>         Multfoje, se la vidvo larmas,
+</l> <l>         Per sobraj pentoj bilde svarmas,
+</l> <l>         Por taksi teran amabsorbon
+</l> <l>         Rigardas sian nudan korpon
+</l> <l>         Kaj trotas, tremas, tran&ccirc;as, trikas
+</l> <l>         Kaj flik&scirc;uiste sin reflikas,
+</l> <l>         Saturas tiam lin kompren':
+</l> <l>         &Gcirc;i estas la &ccirc;iea pen'.
+</l></lg>  <lg type='stanza'>
+ <l>         Multfoje, se la vidvo bojas,
+</l> <l>         Perfide pri bankroto &gcirc;ojas,
+</l> <l>         En grunto kotas, mute stultas,
+</l> <l>         Sen&gcirc;oje hontas, katapultas,
+</l> <l>         Akcias &ccirc;ekojn, re&gcirc;ojn mordas,
+</l> <l>         Sin banas, trempas, frotas, tordas,
+</l> <l>         Saturas tiam lin kompren':
+</l> <l>         Ne pafas lia karaben'.
+</l></lg>  <lg type='stanza'>
+ <l>         La vidvo tiam krie krizas,
+</l> <l>         Valorajn bubojn ronde &ccirc;izas,
+</l> <l>         Kaj la dungita prototipo
+</l> <l>         Fari&gcirc;as pupo, a&ubreve; nur... pipo!
+</l> <l>         Li tiam volus ma&scirc;ojn ligi
+</l> <l>         Kaj la poetojn tuj pendigi,
+</l> <l>         &Ccirc;ar ili vere mokas lin
+</l> <l>         Kun sia brua rimma&scirc;in'!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="postoperacio">
+<head>
+<note type="quote">
+<p>
+	          <q>En tiu tempo K. R. C. Sturmer
+		  sentis la bezonon intervjui min.</q>
+</p>
+<p>
+		  Amike al K. R. C. Sturmer.
+</p>
+</note>
+
+         POST LA OPERACIO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Entute l' intervjuo ne estis tro dolora,
+</l> <l>         Sed pli ol silentado... parolo estis ora!
+</l> <l>         La turmentisto notis kun nobla interes',
+</l> <l>         &Ccirc;u mi responde tusis hazardan <q>ne</q> a&ubreve; <q>jes</q>.
+</l></lg>  <lg type='stanza'>
+ <l>         Li estis plej &gcirc;entila, &dash; li ne minacis pafi,
+</l> <l>         Mi havis nur impreson, min lasi fotografi,
+</l> <l>         Dum &dash; kiel mu&scirc;' en reto de ruza arane' &dash;
+</l> <l>         Mi sensuspekte zumis hazardan <q>jes</q> a&ubreve; <q>ne</q>.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed fakto estas fakto, &dash; kaj efektiva stato
+</l> <l>         Atestas pli ol ombro de nepalpebla dato
+</l> <l>         Kaj tio fakto restos dum sekvo de cent jaroj:
+</l> <l>         En mia cigarkesto nun mankas du cigaroj!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="rimportreto">
+<head>
+<note>
+<p>
+	          En la recenzo pri la verko 
+		  <q>Rimportretoj</q> de K. Kalocsay, 
+		  aperinta en Heroldo de Esperanto,
+		  la veterana recenzisto M. Butin,
+		  L. K., diris pri si mem:
+</p>
+<p>
+		  <q>Feli&ccirc;e mi ne estas tia "stelo"
+		  kaj evitis la kaptan manon de
+		  la lum&jcirc;etanto.</q>
+</p>
+</note>
+
+         LA FORGESITA RIMPORTRETO
+</head>
+<note>
+	          (Iom ripro&ccirc;e al K. Kolocsay.)
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         ... Kaj Butin, L. K., vi forgesis
+</l> <l>         En via rimportret-arkiv',
+</l> <l>         &Ccirc;u tial, ke la detektiv'
+</l> <l>         Malkovri... <q>stelon</q> ne sukcesis?
+</l></lg>  <lg type='stanza'>
+ <l>         A&ubreve; &ccirc;u lin nomi ne permesis
+</l> <l>         Sever-rigora ekskluziv'?
+</l> <l>         ... Kaj Butin, L. K., vi forgesis
+</l> <l>         En via rimportret-arkiv'!
+</l></lg>  <lg type='stanza'>
+ <l>         Li legis tion, kion presis
+</l> <l>         Esperantistoj dum homviv',
+</l> <l>         &Ccirc;u &dash; krome de l' L. K.-motiv' &dash;
+</l> <l>         Lin tial citi ne necesis?
+</l></lg>  <lg type='stanza'>
+ <l>         ... Kaj Butin, L. K., vi forgesis...
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="propagando">
+<head>
+         LA PROPAGANDA TA&Ccirc;MENTO
+</head>
+<note>
+<p>
+	          <q>Dum tiu &ccirc;i kunveno nia konata 
+		  propagandisto Delanoue faris tre interesan
+		  eksperimenton: Li prezentis samideanojn
+		  el diversaj nacioj kaj la publiko
+		  tiel povis konstati, ke la elparolado de
+		  Esperanto estas &ccirc;e &ccirc;iuj absolute la
+		  sama.</q>
+</p>
+<note>
+		  (El gazetraportoj.)
+</note>
+</note>
+
+<lg rend="poem">
+<l><figure entity="propagando"/></l>
+  <lg type='stanza'>	 
+ <l>         Kio blovas kiel vento
+</l> <l>         Tra la stratoj de l' kvartal'?
+</l> <l>         Estas propagandta&ccirc;mento,
+</l> <l>         Kiu kuras al batal'.
+</l> <l>         En bonordo, rapidkrure
+</l> <l>         Sin direktas al Sorbon'
+</l> <l>         Sampson, Major, Ni&scirc;imura,
+</l> <l>         Kornfeld, Ajsberg kaj Solson'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kial tie la publiko
+</l> <l>         Premas sin al rendevu'?
+</l> <l>         Tion faris kun taktiko
+</l> <l>         Generalo Delanu':
+</l> <l>         Kaj kun li, la varbterura,
+</l> <l>         Nun alvenas en Sorbon'
+</l> <l>         Sampfeld, Majson kaj Solsura,
+</l> <l>         Kornberg, Ajsor, Ni&scirc;ison'.
+</l></lg>  <lg type='stanza'>         
+ <l>         &Ccirc;ie, kie homoj sidas .
+</l> <l>         Pace kun scivola sent',
+</l> <l>         Tuj la general' prezidas
+</l> <l>         La paradon de l' ta&ccirc;ment'.
+</l> <l>         Li prezentas la soldatojn;
+</l> <l>         &Ccirc;iu estas fenomen',
+</l> <l>         Kaj li citas naski&gcirc;datojn
+</l> <l>         Kun detaloj de l' deven':
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Jen &ccirc;i tiu juna viro
+</l> <l>         &Jcirc;us alvenis el Jugland'
+</l> <l>         Kaj fari&gcirc;is jam martiro
+</l> <l>         De l' moderna propagand'.
+</l> <l>         Nun li pruvos tuj perfakte,
+</l> <l>         Ke li, kiel vi kaj mi,
+</l> <l>         Elparolas plej ekzakte...<q rend='end'/>
+</l> <l>         ... Kaj la viro diris <q>i</q>!
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Kaj &ccirc;i tiu dika tipo
+</l> <l>         Kun kolumo el karton'
+</l> <l>         Estas ido de l' polipo
+</l> <l>         Kaj de ina saksofon';
+</l> <l>         Li parolas generale
+</l> <l>         Per konvena bu&scirc;otru'...<q rend='end'/>
+</l> <l>         ... Kaj la tipo la&ubreve;signale
+</l> <l>         Tute klare diris <q>u</q>!
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>Nun &ccirc;i tiu, kiu tenas
+</l> <l>         Unu fingron en la naz',
+</l> <l>         Estas &dash; kiel vi divenas &dash;
+</l> <l>         Negro de l' plej nigra ras',
+</l> <l>         Li e&ccirc; estas delegito
+</l> <l>         En Afrik' de l' U. E. A...<q rend='end'/>
+</l> <l>         ... Kaj la negro la&ubreve; invito
+</l> <l>         Tre a&ubreve;deble ruktis <q>a</q>!
+</l></lg>  <lg type='stanza'>
+ <l>         La publik' apla&ubreve;de gestis
+</l> <l>         Kun konvinko, kun kompren',
+</l> <l>         Kaj plej brue manifestis
+</l> <l>         Sian &gcirc;ojon pri la scen';
+</l> <l>         Kaj mi a&ubreve;dis e&ccirc; deklari
+</l> <l>         Grizan patron de l' scienc':
+</l> <l>         <q rend='begin'/>Kion oni povas fari
+</l> <l>         Per dresad', kun pacienc'!<q rend='end'/>
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="matene">
+<head>
+         MORGA&Ubreve; MATENE!
+</head>
+<note>
+<p>
+	          (Kanzono)
+</p>
+<p>
+		  (Teksto, kiu povas esti preteksto
+		  al kakofonia saksofonio.)
+</p>
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Kiam dum vespera hor'
+</l> <l>         Sur kanapo vi digestas, 
+</l> <l>         Talpe venas kreditor'
+</l> <l>         Kaj frakase ekprotestas,
+</l> <l>         &Ccirc;ar pro spito a&ubreve; malord'
+</l> <l>         Kvitancigi vi forgesas,
+</l> <l>         Tiam vi lin &gcirc;is la pord'
+</l> <l>         Komplimentas kaj promesas:
+</l></lg>  <lg type='stanza'>
+<l>         Morga&ubreve; matene, certe, jes,
+</l> <l>         Estas &jcirc;uro kaj promes', &dash;
+</l> <l>         Morga&ubreve; matene, sed ne nun,
+</l> <l>         Kiam &ccirc;aste palas lun'
+</l> <l>         Kun radio brila, &dash;
+</l> <l>         Morga&ubreve; matene, jes, &dash; sed nun
+</l> <l>         Lasu min trankvila!
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj se via bopatrin'
+</l> <l>         Vin invitas, jam sen &gcirc;eno,
+</l> <l>         Ke vi akompanu &gcirc;in
+</l> <l>         Al balfesto &gcirc;is mateno,
+</l> <l>         Vi, &dash; &gcirc;entila kavalir', &dash;
+</l> <l>         Lace dorme nur oscedas
+</l> <l>         Kaj afekte kun sopir'
+</l> <l>         &Jcirc;uras, kion vi ne kredas:
+</l></lg>  <lg type='stanza'>
+ <l>         Morga&ubreve; matene, certe, jes,
+</l> <l>         Estas &jcirc;uro kaj promes', &dash;
+</l> <l>         Morga&ubreve; matene, sed ne nun,
+</l> <l>         Kiam &ccirc;aste palas lun'
+</l> <l>         Kun radio brila, &dash;
+</l> <l>         Morga&ubreve; matene, jes, &dash; sed nun
+</l> <l>         Lasu min trankvila!
+</l></lg>  <lg type='stanza'>
+<l>         &Ccirc;u ne foje rememor'
+</l> <l>         Jam en vian kapon venis
+</l> <l>         Pri l' edzi&gcirc;onokta hor',
+</l> <l>         Kiam varme vi &scirc;in tenis?
+</l> <l>         Kiel viro (ne ... hero'), 
+</l> <l>         Vi sincere &scirc;in karesis,
+</l> <l>         Eble &scirc;i postulis tro
+</l> <l>         Kaj afable vi promesis:
+</l></lg>  <lg type='stanza'>
+ <l>         Morga&ubreve; matene, certe, jes,
+</l> <l>         Estas &jcirc;uro kaj promes', &dash;
+</l> <l>         Morga&ubreve; matene, sed ne nun,
+</l> <l>         Kiam &ccirc;aste palas lun'
+</l> <l>         Kun radio brila, &dash;
+</l> <l>         Morga&ubreve; matene, jes, &dash; sed nun
+</l> <l>         Lasu min trankvila!
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj ni &ccirc;iuj, sen escept',
+</l> <l>         &Ccirc;iam bonon nur intencas,
+</l> <l>         Ni admiras en koncept',
+</l> <l>         Kion ni ne tuj komencas:
+</l> <l>         &Scirc;pari monon, fumi nur
+</l> <l>         Tre modere, ne plu trinki ...
+</l> <l>         Kaj ni tion &jcirc;uras sur
+</l> <l>         La kontrakto de Helsinki:
+</l></lg>  <lg type='stanza'>
+<l>         Morga&ubreve; matene, certe, jes,
+</l> <l>         Estas &jcirc;uro kaj promes', &dash;
+</l> <l>         Morga&ubreve; matene, sed ne nun,
+</l> <l>         Kiam &ccirc;aste palas lun'
+</l> <l>         Kun radio brila, &dash;
+</l> <l>         Morga&ubreve; matene, jes, &dash; sed nun
+</l> <l>         Lasu min tranlcvila!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="miskompreno">
+<head>
+         MISKOMPRENO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Sinjoro Dik por maskofest'
+</l> <l>         Sin &scirc;erce kiel kok' kostumis
+</l> <l>         Kaj &dash; (eble dank' al sia krest') &dash;
+</l> <l>         Kun Kolombino amindumis.
+</l></lg>  <lg type='stanza'>
+ <l>         Tre pla&ccirc;a estis la vesper'
+</l> <l>         Kaj amba&ubreve; tute ne enuis;
+</l> <l>         E&ccirc; Dik, feli&ccirc;a pri l' konker',
+</l> <l>         Kun &scirc;i por morga&ubreve; rendevuis.
+</l></lg>  <lg type='stanza'>
+ <l>         <q>Vizitu min en mia nest'</q>,
+</l> <l>         &Scirc;i petis lin kokete,
+</l> <l>         <q rend='begin'/>Sed ne kun via kokovest'!
+</l> <l>         Vi venu pli diskrete ...<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj Dik kun &jcirc;urlevita brak' 
+</l> <l>         Promesis am-sopire:
+</l> <l>         <q rend='begin'/>Elektu mem, kun jak' a&ubreve; frak',
+</l> <l>         Mi venos la&ubreve;dezire.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Jen la decid' de l' tribunal':
+</l> <l>         &Scirc;i diris nur <q>Nu, dece!</q>
+</l> <l>         Kaj granda estis la skandal',
+</l> <l>         &Ccirc;ar iris li ... nudece.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="radio">
+<head>
+         RADIO, ...ADIA&Ubreve;
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Pli insiste ol gekatoj
+</l> <l>         Dum printempa nokto logas
+</l> <l>         La radioaparatoj
+</l> <l>         De l' najbaroj monologas .....
+</l></lg>  <lg type='stanza'>
+ <l>         Certe anka&ubreve; mi humile
+</l> <l>         Benas bonon de l' progreso,
+</l> <l>         Sed, se nun, la&ubreve;tparolile
+</l> <l>         Rendevuis al kongreso
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj en mia paca domo
+</l> <l>         &Ccirc;iuj ondoj manifestas,
+</l> <l>         Mi, en mia propra nomo,
+</l> <l>         Rajte plendas kaj protestas.
+</l></lg>  <lg type='stanza'>
+ <l>         Krome, &ccirc;io &dash; &ccirc;u muziko,
+</l> <l>         Konferenco, bankbilanco,
+</l> <l>         Episkopa fastprediko, &dash;
+</l> <l>         Tie &ccirc;i fari&gcirc;as ... danco!
+
+	  </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Tereta&gcirc;e unu kaptas
+</l> <l>         Ondojn el polusaj limoj
+</l> <l>         Kaj la&ubreve; ili tuj adaptas
+</l> <l>         Blakbotomon de l' Eskimoj.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;e l' tajloro same bruas,
+</l> <l>         &Ccirc;ar la tuta familio
+</l> <l>         Fokstrotante sin instruas
+</l> <l>         Pri l' Einstein'a Teorio!
+</l></lg>  <lg type='stanza'>
+ <l>         Super mi studento prenas
+</l> <l>         Jurprelegon el Berlino
+</l> <l>         Kaj &dash; &ccirc;ar &gcirc;in li ne komprenas &dash;
+</l> <l>         Li &gcirc;in dancas kun fra&ubreve;lino!
+</l></lg>  <lg type='stanza'>
+ <l>         Sube, flanke, supre, &dash; &ccirc;ie
+</l> <l>         &Ccirc;irka&ubreve; mi radifuneloj
+</l> <l>         Komplotadas grake-krie
+</l> <l>         Kontra&ubreve; paco de l' oreloj ...
+</l></lg>  <lg type='stanza'>
+ <l>	          Helpokrio:
+</l> <l>		  (per radio)
+</l></lg>  <lg type='stanza'>
+ <l>         Ho, mondfora insulano,
+</l> <l>         Diru, skribu tuj al mi,
+</l> <l>         &Ccirc;u luebla nur kabano
+</l> <l>         Estas ie ajn &ccirc;e vi,
+</l></lg>  <lg type='stanza'>
+ <l>         Kie homo kun a&ubreve;dsento,
+</l> <l>         For de l' mod-epidemi',
+</l> <l>         Vivi povus sub tegmento
+</l> <l>         SEN RADIO!
+</l> <l rend='indent'>	          Mi kun mi .....
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="kinematografejo">
+<head>
+         EN KINEMATOGRAFEJO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Veturante en vagono
+</l> <l>         Sur kanapo lamrisorta
+</l> <l>         Vi elspezas pli da mono
+</l> <l>         Por voja&gcirc;' pli malkomforta,
+</l> <l>         Kaj vi &gcirc;uas malpli &gcirc;ue
+</l> <l>         La pejza&gcirc;on sub tunel'
+</l> <l>         Ol sidante senenue
+</l> <l>         En la kino sur fotel'!
+</l></lg>  <lg type='stanza'>
+ <l>         Tie &ccirc;i amuzaj scenoj
+</l> <l>         Vigle pasas sur l' ekran':
+</l> <l>	     <q rend='begin'/>Baptofest' &ccirc;e indi&gcirc;enoj
+</l> <l>	     Meze de Balu&ccirc;istan' ...<q rend='end'/>
+</l>
+</lg>
+<lg type='stanza'><l>
+         Kun pianoakompan' .....
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Pli ol &ccirc;armo de l' pejza&gcirc;o
+</l> <l>         Densa nokto de la kino
+</l> <l>         vin invitas al voja&gcirc;o
+</l> <l>         &ccirc;irka&ubreve; via ... najbarino.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed jen aktuala sceno
+</l> <l>         Vigle pasas sur l' ekran':
+</l> <l>              <q rend='begin'/>La kaptado de baleno
+</l> <l>	      En la Norda Ocean'... <q rend='end'/>
+</l>
+</lg>
+<lg type='stanza'> <l>         Kun pianoakompan' .....
+
+	     </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Kvankam peze vi oscedas
+</l> <l>         Amalvoke tra l' silent',
+</l> <l>         Pruda najbarin' ne cedas
+</l> <l>         Al facila tent'!
+</l></lg>  <lg type='stanza'>
+ <l>         Nun la lasta aventuro
+</l> <l>         Dum a&ubreve;tomobilveturo
+</l> <l>         De la fama komikul'
+</l> <l>         Harry Bull!
+</l></lg>  <lg type='stanza'>
+ <l>         Li kondukas propramane,
+</l> <l>         Zigzagante kaj senplane
+</l> <l>         Grimpas sur la trotuaron
+</l> <l>         Kaj renversas &scirc;tupetaron,
+</l> <l>         Kiu falas kun pentristo
+</l> <l>         En butikon de spicisto,
+</l> <l>         Kie tima klientino
+</l> <l>         Svenas sur la margarino
+</l> <l>         Dum alia. &dash; ho hazardo! &dash;
+</l> <l>         Krie dronas en mustardo .....
+</l></lg>
+<l><figure entity="kino1"/>
+</l>  <lg type='stanza'>
+ <l>         La spicisto ekkoleras,
+</l> <l>         Tiajn &scirc;ercojn ne toleras,
+</l> <l>         Tuj li kaptas energie
+</l> <l>         La pentriston, kiu ie
+</l> <l>         Ku&scirc;is mute kaj sen movoj
+</l> <l>         En la kesto por la ovoj,
+</l> <l>         Kaj per lerta piedbat'
+</l> <l>         Lin resendas al la strat' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Intertempe Harry Bull
+</l> <l>         &Ccirc;e proksima stratangul'
+</l> <l>         Evitante lanternfoston
+</l> <l>         Pasas sur vaganta hundo,
+</l> <l>         Kies li detran&ccirc;as voston
+</l> <l>         En la da&ubreve;ro de sekundo!
+</l></lg>
+<l><figure entity="kino2"/>
+</l>  <lg type='stanza'>
+ <l>         Sed la hund' &dash; el pura ras', &dash;
+</l> <l>         Opinias &gcirc;in kolbas'
+</l> <l>         Kaj senplue, sen hezit'
+</l> <l>         Man&gcirc;as &gcirc;in kun apetit'.....
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam tremas tra la kino
+</l> <l>         Ventroskua ridgargar', &dash;
+</l> <l>         Sed ... la &ccirc;arma najbarino
+</l> <l>         Havas vo&ccirc;on de barbar'!
+</l></lg>  <lg type='stanza'>
+ <l>         Sammomente, &dash; ne sen ka&ubreve;zo, &dash;
+</l> <l>         Eklumi&gcirc;as; estas pa&ubreve;zo.
+</l> <l>         Lampoj lumas sunobrile
+</l> <l>         Kaj vi spertas nun facile,
+</l> <l>         Ke anstata&ubreve; najbarino
+</l> <l>         Kun gracio kaj kun &ccirc;armo
+</l> <l>         Apud vi en tiu kino
+</l> <l>         Sidis nur... &gcirc;endarmo!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="cxastemulino">
+<head>
+         &Ccirc;ASTEMULINO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Estu pluv- a&ubreve; sun-vetero,
+</l> <l>         Pro la korpa estetik'
+</l> <l>         Faru kun a&ubreve; sen haltero
+</l> <l>         Iom pli da gimnastik'.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;iutage kvaronhoron
+</l> <l>         Vi dedi&ccirc;u al la san'
+</l> <l>         Ekzercante &ccirc;iun poron,
+</l> <l>         &Ccirc;iun parton de organ'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj por ke bacil' ne &gcirc;ermu
+</l> <l>         Pro malsa&gcirc;a higien',
+</l> <l>         La fenestrojn vi malfermu
+</l> <l>         Post forigo de l' kurten'.
+</l></lg>  <lg type='stanza'>
+ <l>         Jako, ve&scirc;to, e&ccirc; kalsono
+</l> <l>         &Gcirc;enus viajn movojn, dum
+</l> <l>         &dash; Sendepende de l' sezono &dash;
+</l> <l>         Ta&ubreve;gas nur l' Adam-kostum'!
+
+	  </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Jen la bur&gcirc;o Dikapot,
+</l> <l>         Kiu vole kaj konscie
+</l> <l>         &Ccirc;iutage sen trikot'
+</l> <l>         Gimnastikas energie.
+</l></lg>  <lg type='stanza'>
+ <l>         Unu, du ... la dekstra krur'
+</l> <l>         Levas sin dum la maldekstra
+</l> <l>         Sin apogas kontra&ubreve; mur',
+</l> <l>         Kio estas &gcirc;uo ekstra,
+</l></lg>  <lg type='stanza'>
+ <l>         Unu, du ... nun trunkoklin'
+</l> <l>         Kun posta&jcirc;-alti&gcirc;' kontrasta,
+</l> <l>         Tiel, ke la rusta spin'
+</l> <l>         Refari&gcirc;u jun-elasta.
+</l></lg>  <lg type='stanza'>
+ <l>         Unu, du ... jen sur la kap'
+</l> <l>         Dikapot sin tenas bone;
+</l> <l>         Unu, du ... &jcirc;us forta frap'
+</l> <l>         Bruis &ccirc;e la pord' ordone!
+</l></lg>  <lg type='stanza'>
+ <l>         Pliinsistas jam la bru',
+</l> <l>         Kvaza&ubreve; dum koler' arpe&gcirc;oj,
+</l> <l>         Kun minaco de detru'
+</l> <l>         En la nomo de la le&gcirc;oj.
+</l></lg>  <lg type='stanza'>
+ <l>         <q>Nun malfermu, civitan'</q>,
+</l> <l>         De ekstere sonas peto,
+</l> <l>         <q rend='begin'/>La policokapitan'
+</l> <l>         Al vi venas por enketo!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Dikapot &ccirc;e l' pordo-ans'
+</l> <l>         Sur sin metas tablotukon,
+</l> <l>         &Ccirc;ar en &ccirc;iu cirkonstanc'
+</l> <l>         Oni montru bonedukon.
+</l></lg>  <lg type='stanza'>
+ <l>         Li malfermas sen protest' ...
+</l> <l>         Jen &ccirc;e l' pordo vir' postenas
+</l> <l>         Dum, pro lia stranga vest',
+</l> <l>         Sinjorino preska&ubreve; svenas.
+</l></lg>  <lg type='stanza'>
+ <l>         Tuj la viro diras: <q rend='begin'/>Nu,
+</l> <l>         &Scirc;ajnas, ke ni trafis &gcirc;uste:
+</l> <l>         Nuda sube de l' genu'
+</l> <l>         Nuda anka&ubreve; &ccirc;irka&ubreve;bruste.
+</l></lg>  <lg type='stanza'>
+ <l>         Danku Dion, sinjorin',
+</l> <l>         Ke &dash; (la mezon inkluzive) &dash;
+</l> <l>         Li almena&ubreve; parte sin
+</l> <l>         Kovras, kvankam primitive.
+</l></lg>  <lg type='stanza'>
+ <l>         Tiel statas la afer'<q rend='end'/>,
+</l> <l>         &dash; Li al Dikapot pretendas:
+</l> <l>         <q rend='begin'/>Kontra&ubreve; via nud-aper'
+</l> <l>         Tiu sinjorino plendas,
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar vi trude dum maten'
+</l> <l>         Strange vin metamorfozas;
+</l> <l>         &Ccirc;e l' fenestro, sen kurten'
+</l> <l>         Vi tutnuda vin ekspozas!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q>Jes, sinjoro, tiu scen' &dash; </q>
+</l> <l>         Nun la sinjorin' impone
+</l> <l>         Diras &dash; <q rend='begin'/>estas abomen',
+</l> <l>         Kiu &gcirc;enas min persone.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q>Sed permesu</q>, &dash; Dikapot
+</l> <l>         Vigle provas sin defendi,
+</l> <l>         <q rend='begin'/>Ja ne temas pri komplot'
+</l> <l>         Por vin iel ajn ofendi, &dash;
+</l></lg>  <lg type='stanza'>
+ <l>         Nur honeste, kun fervor',
+</l> <l>         Kiel Higien' indikas,
+</l> <l>         Mi dum frumatena hor'
+</l> <l>         Pro la sano gimnastikas.
+</l></lg>  <lg type='stanza'>
+ <l>         Krome, vi konstatu, ke l'
+</l> <l>         Plej proksima dom-najbaro
+</l> <l>         Lo&gcirc;as je duona mejl'
+</l> <l>         De &ccirc;i tiu trotuaro!<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q>Fakte, ja ne estas &scirc;an&ccirc;'</q>,
+</l> <l>         &dash; Nun la policist' komprenas,
+</l> <l>         <q rend='begin'/>Ke je tiu &ccirc;i distanc'
+</l> <l>         La sinjoro iun &gcirc;enas.<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam la &ccirc;astemulin'
+</l> <l>         &Jcirc;uras pure kaj lojale:
+</l> <l>         <q rend='begin'/>Kredu, ke mi vidas lin
+</l> <l>         Per ... binoklo tre detale.<q rend='end'/>
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="nigratago">
+<head>
+         NIGRA TAGO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Okazi povas, ke kelkfoje
+</l> <l>         &dash; Kvaza&ubreve; vi portus sarkofagon &dash;
+</l> <l>         Vi rampas tra la viv' sen&gcirc;oje
+</l> <l>         Kaj fakte havas <q>nigran tagon</q>.
+
+	  </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         &Gcirc;i komenci&gcirc;is jam matene
+</l> <l>         Kun pe&ccirc;-a&ubreve;gura malfavor',
+</l> <l>         &Ccirc;ar via vekhorlo&gcirc;' kretene
+</l> <l>         Ne bruis je la &gcirc;usta hor',
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj tial sekvis ordinare,
+</l> <l>         Ke dum rapida raz-klopod'
+</l> <l>         Vi vundis vin, &dash; kaj temp-mal&scirc;pare
+</l> <l>         Nun lavi devis vin per jod' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Jen la kolum-buton' obstine
+</l> <l>         Incitis vin pro stulta spit',
+</l> <l>         &Gcirc;is kiam &gcirc;in vi fine ... fine ...
+</l> <l>         Retrovis ie sub la lit'!
+</l></lg>  <lg type='stanza'>
+ <l>         Vi trinkos iom nun da kafo,
+</l> <l>         Sed &dash; kuirita en infer' &dash;
+</l> <l>         &Gcirc;i estis brula kiel lafo
+</l> <l>         Kaj vi forkuris en koler';
+</l></lg>  <lg type='stanza'>
+ <l>         Por trafi tramon &ccirc;e l' stacio
+</l> <l>         Vi havis premon de ciklon',
+</l> <l>         Sed al hunda&ccirc;' ne pla&ccirc;is tia,
+</l> <l>         &Gcirc;i kaptis vin je l' pantalon', 
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj &gcirc;iaj dentoj la detruon
+</l> <l>         Pli <q>funde</q> faris ol skalpel':
+</l> <l>         Sur la posta&jcirc;o lar&gcirc;an truon
+</l> <l>         Vi honte maskis per &ccirc;apel'!
+</l></lg>  <lg type='stanza'>
+ <l>         En l' oficejon tre malfrue
+</l> <l>         Vi venis je la deka hor',
+</l> <l>         Dum la kolegoj pli ol brue
+</l> <l>         Akceptis vin per moka &hcirc;or';
+</l></lg>  <lg type='stanza'>
+ <l>         La &ccirc;efo anka&ubreve; ne gratulis
+</l> <l>         Vin, malgra&ubreve; lerta &scirc;ajn-ekskuz',
+</l> <l>         Kaj grumblopreta vi makulis
+</l> <l>         La kontolibrojn pro konfuz' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Post taglabor' vi volis spiri
+</l> <l>         En paca hejmo sen &ccirc;agren',
+</l> <l>         Sed vanis tion &ccirc;i esperi,
+</l> <l>         &Ccirc;ar vin atendis nova pen':
+</l></lg>  <lg type='stanza'>
+ <l>         L' edzin' kria&ccirc;is kun la bubo,
+</l> <l>         Kaj bruligita estis riz'!
+</l> <l>         Vi kuris for, &dash; sed en la klubo
+</l> <l>         Kasisto petis pri l' kotiz'!
+</l></lg>  <lg type='stanza'>
+ <l>         Vi tiam en gazetoj provis
+</l> <l>         La &gcirc;ojon trovi de l' vesper',
+</l> <l>         Sed en gazetoj, ve! ... vi trovis
+</l> <l>         Nur artikolojn pri Scherer' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Vi hejmeniris &dash; (por protesti) &dash;
+</l> <l>         Pli frue do ol la&ubreve; kutim'
+</l> <l>         Kaj vidis tial... sin revesti
+</l> <l>         L' edzin-amikon en intim'!
+</l></lg>  <lg type='stanza'>
+ <l>         Vi &gcirc;emis nun, &ccirc;ar &ccirc;i eksceso
+</l> <l>         Transpasis forton kaj imagon,
+</l> <l>         Kaj nete restis la impreso,
+</l> <l>         Ke vi travivis ... <q>nigran tagon</q>.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="konsentite">
+<head>
+         KONSENTITE
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Bone, &dash; vi volas dorloti min
+</l> <l>         Kvaza&ubreve; mi estus ankora&ubreve; infano,
+</l> <l>         Eta infano sur via sin',
+</l> <l>         Kiun vi tenus je l' mano.
+</l></lg>  <lg type='stanza'>
+ <l>         Bone, &dash; do lulu kaj vartu min
+</l> <l>         &Gcirc;oje pro mia balbuta babilo,
+</l> <l>         Kaj &dash; anta&ubreve; &ccirc;io &dash; savgardu min
+</l> <l>         De malagrabla morbilo!
+</l></lg>  <lg type='stanza'>
+ <l>         Estu kompleta la komedi':
+</l> <l>         Kiel pupeton vi povas min &scirc;minki,
+</l> <l>         Sed &dash; mi petegas, pro l' bona Di':
+</l> <l>         Donu nun anka&ubreve; por trinki!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="heliko">
+<head>
+         LA&Ubreve; VIDPUNKTO DE HELIKO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Printempo pulsis tra l' &gcirc;arden',
+</l> <l>         Petolo tiklis la naturon;
+</l> <l>         En fre&scirc;a roso de l' maten'
+</l> <l>         Heliko flaris aventuron...
+</l></lg>  <lg type='stanza'>
+ <l>         Precize... &ccirc;arma helikin'
+</l> <l>         Veki&gcirc;is meze de legomo
+</l> <l>         Kaj scivoleme tiris sin
+</l> <l>         Kokete el la konka domo.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;u estas io sur la ter'
+</l> <l>         Pli bela, nobla, eleganta
+</l> <l>         Ol tiu helikin-aper'?
+</l> <l>         (Almena&ubreve; por helik' amanta?)
+</l></lg>  <lg type='stanza'>
+ <l>         Pli ol poeto la helik'
+</l> <l>         Reteni povas siajn sentojn,
+</l> <l>         Li ne deklame per lirik'
+</l> <l>         Diskrias ilin sur tegmentojn,
+</l></lg>  <lg type='stanza'>
+ <l>         Sed tamen kreskis pli kaj pli
+</l> <l>         Nun lia kor' ka&ubreve;&ccirc;uk-elasta
+</l> <l>         &Gcirc;is kiam lia dom' al li
+</l> <l>         Subite &scirc;ajnis tro malvasta.
+</l></lg>  <lg type='stanza'>
+ <l>         Neeble nun akcepti &scirc;in
+</l> <l>         &Ccirc;e li kun ama reciproko,
+</l> <l>         &Ccirc;ar por helik' kaj helikin'
+</l> <l>         En unu dom' ne estas loko!
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj vi mensogis, ho poet',
+</l> <l>         Per tiu verso kaj deklaro,
+</l> <l>         Ke... <q rend='begin'/>plej malgranda kabanet'
+</l> <l>         Sufi&ccirc;as al amanta paro ...<q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Kruela moko de l' destin',
+</l> <l>         Ke malgra&ubreve; propra konkkastelo
+</l> <l>         Heliko nun kaj helikin
+</l> <l>         Sin treni devis al ... hotelo!
+</l></lg>
+<l><figure entity="heliko"/></l>
+</lg></div>
+
+<div type="poem" rend="doc" id="nokthoro">
+<head>
+         MI SON&Gcirc;IS DUM NOKTHORO
+</head>
+<note>
+	          (Lirika poemo kun komentario)
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Mi son&gcirc;is dum nokthoro...
+</l> <l>         (Pardonu, Heinrich Heine,
+</l> <l>         &Gcirc;i estas monopolo
+</l> <l>         De multaj homoj &scirc;ajne.)
+</l></lg>  <lg type='stanza'>
+ <l>         Mi son&gcirc;is dum nokthoro ...
+</l> <l>         (Pro man&gcirc;o tro abunda,
+</l> <l>         La&ubreve; diro de l' doktoro
+</l> <l>         Mi estas son&gcirc;fekunda.)
+</l></lg>  <lg type='stanza'>
+ <l>         Mi son&gcirc;is dum nokthoro...
+</l> <l>         (... kaj fakte son&gcirc;inkubo
+</l> <l>         Formi&gcirc;as per vaporo
+</l> <l>         El plena stomaktubo.)
+         
+</l></lg>  <lg type='stanza'>
+ <l>         Mi son&gcirc;is dum nokthoro...
+</l> <l>         (&dash; Se mi pri kio dirus,
+</l> <l>         De &scirc;tata prokuroro
+</l> <l>         Atenton mi altirus!)
+</l></lg>  <lg type='stanza'>
+ <l>         Mi son&gcirc;is dum nokthoro ...
+</l> <l>         (Sed &ccirc;u vi nun ne kredas,
+</l> <l>         Ke &ccirc;iu son&gcirc;a&ubreve;toro
+</l> <l>         Normalajn homojn tedas?)
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="averto">
+<head>
+         AVERTO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Vi estas vendistino en urba magazeno
+</l> <l>         Kaj de &scirc;minka&jcirc;oj pruntas la sanon de l' viza&gcirc;o,
+</l> <l>         &Ccirc;u tial vi forgesis pri hejmo kaj deveno
+</l> <l>         Dum via patro tondas la hundojn de l' vila&gcirc;o?
+</l></lg>  <lg type='stanza'>
+ <l>         Se foje &dash; tre malofte &dash; parade vi revenas
+</l> <l>         Al hejma kabaneto tagmezon dum diman&ccirc;o,
+</l> <l>         Afekte &gcirc;ian lingvon jam ne plu vi komprenas
+</l> <l>         Kaj honte vi ignoras e&ccirc; trajtojn de l' fian&ccirc;o.
+</l></lg>  <lg type='stanza'>
+ <l>         Mi amas vin, Salika, &dash; mi rajtas do ripro&ccirc;i,
+</l> <l>         Ke vi la nazon portas tro super la nivelo;
+</l> <l>         Ke vi aspektas kvaza&ubreve; vi celus tuj dekro&ccirc;i 
+</l> <l>         Per aroganta movo la stelojn de l' &ccirc;ielo.
+</l></lg>  <lg type='stanza'>
+ <l>         Fiera vendistino, vin kaptis iluzio
+</l> <l>         Kaj vane vi esperas plenumon de l' miraklo,
+</l> <l>         &Ccirc;ar &ccirc;e l' altara pompo de via falsa dio
+</l> <l>         Vi genufleksas anta&ubreve; malplena tabernaklo.
+</l></lg>  <lg type='stanza'>
+ <l>         Revenu sur la vojon signitan de l' destino,
+</l> <l>         Forgesu kavajn vortojn de danda kavaliro,
+</l> <l>         &Ccirc;ar kiam rozoj velkos, &dash; la dornojn, vendistino,
+</l> <l>         La kavaliro lasos al simpla... kala viro.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="negxhomo">
+<head>
+         TRO HOMA SORTO DE IU NE&Gcirc;HOMO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         <q rend='begin'/>Inter la homoj li estis nur homo
+</l> <l>         Nerimarkita en fluo de l' viv' ...<q rend='end'/>
+
+	     </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Estis modesta nur ne&gcirc;a atomo
+</l> <l>         Treme sidanta sur montodekliv';
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam okazis, ke vento kaprice
+</l> <l>         Blovis sur &gcirc;in kun afabla obstin'; &dash;
+</l> <l>         Tiel la vento kelkfoje ofice
+</l> <l>         Vojon elektas de nia destin'.
+</l></lg>  <lg type='stanza'>
+ <l>         Nia atomo fari&gcirc;is ne&gcirc;ero,
+</l> <l>         Kiun la vento tenadis en rul';
+</l> <l>         Vigle malsupren! &dash; kaj anta&ubreve; vespero
+</l> <l>         Nia ne&gcirc;ero jam estis ne&gcirc;bul'.
+</l></lg>  <lg type='stanza'>
+ <l>         Knaboj &gcirc;in trovis sekvantan matenon
+</l> <l>         &Ccirc;e la piedo de l' monto kaj plu
+</l> <l>         Rule &gcirc;in pu&scirc;is sur ludoterenon,
+</l> <l>         Kie da&ubreve;ri&gcirc;is de l' bul' evolu'.
+</l></lg>  <lg type='stanza'>
+ <l>         Mire la knaboj pri &gcirc;ia konturo
+</l> <l>         &Gcirc;ojis, &dash; kaj lerte el tiu ne&gcirc;kvant'
+</l> <l>         Balda&ubreve; levi&gcirc;is en ombro de muro
+</l> <l>         Homomajeste la ne&gcirc;ogigant'.
+</l></lg>  <lg type='stanza'>
+ <l>         Baskojn de l' frako vivige agitis
+</l> <l>         Vento petola tra vintra pejza&gcirc;';
+</l> <l>         Du karbopecoj perfekte imitis
+</l> <l>         Homan rigardon en lia viza&gcirc;'.
+</l></lg>
+<l><figure entity="neghomo"/></l>
+  <lg type='stanza'>
+ <l>         Brave minace, kun pluvoombrelo,
+</l> <l>         Firme li staris sur piedestal';
+</l> <l>         Jam rekompence pro longa fidelo
+</l> <l>         Sur lia brusto orbrilis medal'...
+</l></lg>  <lg type='stanza'>
+ <l>         Nun fanfarone li levis la nazon,
+</l> <l>         Nazon imponan en form' de kukurb',
+</l> <l>         &Ccirc;ar por fieri li havis okazon:
+</l> <l>         Venis aklami lin tuta la urb'.
+</l></lg>  <lg type='stanza'>         
+ <l>         &Ccirc;iuj admiris la belan statuon, 
+</l> <l>         Rime prikantis lin moda poet', 
+</l> <l>         Kelkaj e&ccirc; havis kun li intervjuon, 
+</l> <l>         Kiun (kun bildoj) publikis gazet'. 
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam li estis la plej populara 
+</l> <l>         Homo de l' urbo, &dash; li estis idol', 
+</l> <l>         Tiel, ke bur&gcirc;o e&ccirc; la&ubreve;doavara
+</l> <l>         Diris: <q>Al tiu nur mankas parol'!</q>
+</l></lg>  <lg type='stanza'> 
+ <l>         Iun matenon &dash; (klarigu la&ubreve;vole
+</l> <l>         Tian miraklon, &dash; &gcirc;i estas ja fakt') &dash;
+</l> <l>         Nia ne&gcirc;homo diskutis parole
+</l> <l>         Kun admirantoj pri nova kontrakt':
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/>&Ccirc;ar disvasti&gcirc;is tra l' mond' mia gloro, 
+</l> <l>         Kial modesti en ombro de mur'? 
+</l> <l>         Kadro pli brila el suno kaj oro
+</l> <l>         Bone konvenus al mia statur'.<q rend='end'/>
+</l></lg>  <lg type='stanza'> 
+ <l>         Certe, li pravis, &dash; kun mil priatentoj 
+</l> <l>         Oni lin &scirc;ovis &gcirc;is suna teras'...
+         
+	       </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Kaj post tri tagoj nur kotaj fragmentoj; 
+</l> <l>         Restis memore pri pompa ne&gcirc;mas'.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="vagonrestoracio">
+<head>
+         VAGONRESTORACIO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En vagonar' ... Tra l' koridor' 
+</l> <l>         La subkelner' rapidas
+</l> <l>         Kaj sonorilon kun fervor' 
+</l> <l>         Faklerte li agitas;
+</l> <l>         Per majstra sving': 
+</l> <l>         Glingling'... glingling'...
+</l> <l>         &Gcirc;i estas la signalo.
+</l></lg> <l><figure entity="vagono1"/>
+</l>  <lg type='stanza'> 
+ <l>         Samkiel tigroj, al regalo 
+</l> <l>         La malsatantoj el la ka&gcirc;o
+</l> <l>         Sin premas, pu&scirc;as, vin kontuzas 
+</l> <l>         Kaj iom honte sin ekskuzas:
+</l> <l>         <q>Necesas man&gcirc;i dum voja&gcirc;o!</q>
+</l></lg>  <lg type='stanza'>
+ <l>         Tagman&gcirc;o-hor', &dash; stomako-hor'...
+</l> <l>         La man&gcirc;avida procesi'
+</l> <l>         Pilgrimas tra la koridor'
+</l> <l>         Al la vagonrestoraci'.
+</l></lg>  <lg type='stanza'>
+ <l>         Tangante a&ubreve; Vit-dance,
+</l> <l>         Skuate kaj balance
+</l> <l>         Sed tamen kun obstino
+</l> <l>         Vi trapenetras lerte
+</l> <l>         &Gcirc;is... &ccirc;arma solulino. &dash;
+</l> <l>         &dash; (&Ccirc;e &scirc;ia tablo, certe,
+</l> <l>         En la vagonrestoraci'
+</l> <l>         Naski&gcirc;os am-konversaci'.) &dash;
+</l></lg>  <lg type='stanza'>
+ <l>         Sed tie en la man&gcirc;vagon'
+</l> <l>         La &ccirc;efkelner' ordonas;
+</l> <l>         Arbitre, jes, &dash; ne la&ubreve; bezon',
+</l> <l>         Sidlokojn li disdonas.
+</l></lg>  <lg type='stanza'>
+ <l>         Li &scirc;in sidigas sen demand'
+</l> <l>         &Ccirc;e tablo nur duloka
+</l> <l>         Izole apud juna dand'
+</l> <l>         Afekte tro provoka,
+</l> <l>         Dum vin li &scirc;ovas, ve-ho-ve!
+</l> <l>         Kun trio de la Sav-Arme'...
+</l></lg>  <lg type='stanza'>
+ <l>         Nun komenci&gcirc;as la &jcirc;onglad'
+</l> <l>         Per fork', tran&ccirc;ilo kaj kuler',
+</l> <l>         Kaj nur perfekta akrobat'
+</l> <l>         Sin nutri povas sen sufer',
+</l> <l>         &Ccirc;ar pro la sku' de l' vagonar'
+</l> <l>         Movi&gcirc;as via man&gcirc;ilar'.
+</l> <l>         La supteler' kun vermi&ccirc;el'
+</l> <l>         Turni&gcirc;as kiel karusel', &dash;
+</l></lg>  <lg type='stanza'>         
+ <l>         Se fine vi &gcirc;in paralizas,
+</l> <l>         Jen la botelo mobilizas
+</l> <l>         Kaj via glaso improvizas
+</l> <l>         Vetkuron al najbara glas'
+</l> <l>         Dum la kelnero en ekstaz'
+</l> <l>         Germane diras: <q>Was ist das? </q>  <note type="footnote" rend='(1)'><q> Kio estas tio? </q></note>
+	         
+
+          </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Kaj malfaci1e estas plu
+</l> <l>         Atingi al la bu&scirc;otru'.
+</l> <l>         Nu, vere, perkulere
+</l> <l>         Ne &scirc;ajnas tro dan&gcirc;ere,
+</l> <l>         Sed per la fork' kun dentoj pikaj
+</l> <l>         La provoj estas pli komplikaj
+</l> <l>         Kaj celmaltrafe
+</l> <l>         Preterpafe
+</l> <l>         Vi tu&scirc;as meze de la vang',
+</l> <l>         El kiu fluas varma sang'
+</l> <l>         Dum la kelner' kun interes'
+</l> <l>         Hispane krias: <q> !Eso es! </q> <note type="footnote" rend='(2)'> <q> Tiel estas! </q></note>
+	      
+</l></lg>  <lg type='stanza'>
+ <l>         Por trinki sekvas nun ekzerc'
+</l> <l>         Simila al malbona &scirc;erc',
+</l> <l>         &Gcirc;is fine, je la kvina prov',
+</l> <l>         La glason vi sukcese levas
+</l> <l>         Kaj &gcirc;ojas pri la bu&scirc;otrov'
+</l> <l>         Kaj jam pri bona trinko revas,
+</l> <l>         Sed &ccirc;ar tunelo vin englutas,
+</l> <l>         Vi nun baraktas en mallum'
+</l> <l>         Kaj vian plenan glason &scirc;utas
+</l> <l>         En aperta&jcirc;on de l' kolum'
+</l> <l>         Dum la kelner' &dash; (a&ubreve; kiu ajn) &dash;
+</l> <l>         Demandas angle: <q>Does it rain?</q>  <note type="footnote" rend='(3)'><q> &Ccirc;u pluvas? </q></note>
+</l></lg> <l><figure entity="vagono2"/>          
+</l>  <lg type='stanza'>
+ <l>         La glason vi formetas honte
+</l> <l>         Kaj &jcirc;uras, ke de nun, estonte
+</l> <l>         Vi ne plu trinkos sub tunel',
+</l> <l>         E&ccirc; ne el su&ccirc;botel'...
+</l></lg>  <lg type='stanza'>
+ <l>         Nu, fine, oni nun eliras
+</l> <l>         El la tunelo kaj ... vi miras,
+</l> <l>         &Ccirc;ar dum mallum' vi metis glason
+</l> <l>         En la teleron de najbar'
+</l> <l>         Kaj pardonpete pri l' fu&scirc;far'
+</l> <l>         Vi nun... renversas lian tason
+</l> <l>         Dum la kelner', post inventar',
+</l> <l>         Konstatas france: <q> Quel bazar! </q> <note type="footnote" rend='(4)'> <q> Kia bazaro! </q></note>
+	      
+</l></lg>  <lg type='stanza'>
+ <l>         La vagonaro malrapidas,
+</l> <l>         E&ccirc; haltas tempon &ccirc;e staci';
+</l> <l>         &Ccirc;i tiun tempon vi profitas
+</l> <l>         Por nutri vin sen rotaci'.
+</l> <l>         Entute estas tre agrable
+</l> <l>         Sidadi firme apudtable ...
+</l></lg>  <lg type='stanza'>
+ <l>         Bruanta skuego!
+</l> <l>         Skuanta bruego!
+</l> <l>         Alarmparol':
+</l> <l>         <q>&Ccirc;u karambol'?</q>
+</l></lg>  <lg type='stanza'>
+ <l>         Konfuz',
+</l> <l>         Kontuz', &dash;
+</l> <l>         &Ccirc;ar sen averto, sen signal',
+</l> <l>         La&ubreve; manier' de kanibal'
+</l> <l>         Kaj la&ubreve; sistemo de barbar'
+</l> <l>         Kun la dormema vagonar'
+</l> <l>         Kontaktis &jcirc;us lokomotiv'!
+</l> <l>         Sufi&ccirc;as tiu &ccirc;i motiv',
+</l> <l>         Por ke nazumo via tuj
+</l> <l>         Fordronu en la kompotuj' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Silente nun kaj kun metod'
+</l> <l>         Vi fi&scirc;kaptadas en kompot'
+</l> <l>         Por savi &gcirc;in de la pere'
+</l> <l>         Sur fundo kompotuja,
+</l> <l>         Dum tiuj de la Sav-Arme'
+</l> <l>         Hebree kantas: <q> Haleluja! </q>
+</l></lg> <l><figure entity="vagono3"/>
+</l>  <lg type='stanza'>
+ <l>         Refoje jam vi povas miri,
+</l> <l>         &Ccirc;ar vi konstatas &jcirc;us, ke vi
+</l> <l>         Forgesis ja malsupreniri
+</l> <l>         Dum lasta halto &ccirc;e l' staci'!
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj la kelnero provas blagi
+</l> <l>         En Esperanto: <q> Volu pagi! </q>
+
+           </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Digesta hor', siesta hor',
+</l> <l>         La &scirc;veloventra procesi'
+</l> <l>         Formigras tra la koridor'
+</l> <l>         El la vagonrestoraci'...
+</l></lg>
+</lg>
+</div>
+
+<div type="poem" rend="doc" id="dusxaradoj">
+<head>
+         DU &Scirc;ARADOJ
+</head>
+<note>
+         por komencantoj
+</note>
+<lg rend="poem">
+<head>
+	          I.
+</head>
+  <lg type='stanza'>
+ <l>         L' unua estas forta lim'
+</l> <l>         De poseda&jcirc;'. &dash; La dua same.
+</l> <l>         L' unuan ofte lo&gcirc;as cim',
+</l> <l>         La duan anka&ubreve; ... same.
+</l> <l>         L' unua ofte &gcirc;emas,
+</l> <l>         Se traboj tro &gcirc;in premas.
+</l> <l>         La dua same.
+</l></lg>  <lg type='stanza'>
+ <l>         La tuto, kvaza&ubreve; vo&ccirc;' de l' vent',
+</l> <l>         Avertas nin pri malkontent'.
+</l></lg>
+</lg>
+
+<lg rend="poem">
+<head>
+	          II.
+</head>
+  <lg type='stanza'>
+ <l>         L' unua estas forta lim'
+</l> <l>         De poseda&jcirc;'. &dash; La dua same.
+</l> <l>         L' unua ofte el kutim'
+</l> <l>         Naski&gcirc;as. Kaj la dua... same.
+</l> <l>         Vi &ccirc;e l' unua haltas,
+</l> <l>         Se ne, vi supersaltas.
+</l> <l>         &Ccirc;e l' dua same.
+</l></lg>  <lg type='stanza'>
+ <l>         La tuto tiujn siluetas,
+</l> <l>         Kiuj verslibrojn ne a&ccirc;etas.
+</l></lg>
+</lg>
+
+<note type="endnote" rend="(Solvoj &ccirc;e la fino)">
+<title>
+        Solvoj de la &Scirc;aradoj.
+</title>
+<p>
+	Por komencantoj: a) mumuro.
+	                 b) barbaro.
+</p>
+<p>
+	Por progresintoj: il-um-in'.
+</p>
+</note>
+</div>
+
+
+<div type="poem" rend="doc" id="sxarado">
+<head>
+         &Scirc;ARADO
+</head>
+<note>
+         por progresintoj
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Tri partojn havas mia tut',
+</l> <l>         Kaj &ccirc;iu part' memvive staras ;
+</l> <l>         La tuto, kvaza&ubreve; festsalut',
+</l> <l>         El nigra nokto tagon faras.
+</l></lg>  <lg type='stanza'>
+ <l>         L' unua parto tre utilas
+</l> <l>         En multa senc', kaj la&ubreve; profil'-
+</l> <l>         A&ubreve; fronto-vido &gcirc;i similas
+</l> <l>         Al instrument': &gcirc;i estas il'.
+</l></lg>  <lg type='stanza'>
+ <l>         La dua vastan sencon havas,
+</l> <l>         &Gcirc;in ne limigas neta lum',
+</l> <l>         Sed tio &ccirc;i neniel gravas,
+</l> <l>         Ni diru nur: &gcirc;i estas um'.
+</l></lg>  <lg type='stanza'>
+ <l>         La tria estas pli preciza:
+</l> <l>         &Gcirc;i kulpas pri la homdestin',
+</l> <l>         Pri perd' de l' lando paradiza
+</l> <l>         Kaj tiel plu ... &Gcirc;i estas in'.
+</l></lg>  <lg type='stanza'>
+ <l>         Do tiel staras la problem':
+</l> <l>         Tri partojn mia tut' entenas;
+</l> <l>         Vi ilin konas, &dash; nun vi mem
+</l> <l>         La nomon de la tut' divenas.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="antausignoj">
+<head>
+         ANTA&Ubreve;SIGNOJ
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         En tiu temp' ni estis bando
+</l> <l>         Ne el paper', ne el kartono,
+</l> <l>         Ne kiel kotiljongirlando,
+</l> <l>         Sed brava band' el fajro&scirc;tono.
+</l></lg>  <lg type='stanza'>
+ <l>         Hej, kiel &scirc;prucis la fajreroj,
+</l> <l>         Se kun filistroj ni petolis!
+</l> <l>         Knabinoj virtaj en kameroj
+</l> <l>         Sin riglis dum ni preterbolis.
+</l></lg>  <lg type='stanza'>
+ <l>         Kokritaj edzoj nin rigardis
+</l> <l>         Okulminace kaj detrue
+</l> <l>         Kaj siajn edzinetojn gardis
+</l> <l>         Pli bone nun, sed tro malfrue!
+</l></lg>  <lg type='stanza'>         
+ <l>         La mastroj de dibo&ccirc;butikoj
+</l> <l>         Nin timis kiel nigran peston,
+</l> <l>         &Ccirc;ar ni porpage per urtikoj
+</l> <l>         Al ili tiklis la post... keston.
+</l></lg>  <lg type='stanza'>
+ <l>         La hundoj de l' kvartalo same
+</l> <l>         Evitis niajn noktpatrolojn,
+</l> <l>         Se ne, &gcirc;is la mateno lame
+</l> <l>         Ili posttiris kaserolojn.
+</l></lg> <l><figure entity="antausignoj1"/>
+</l>  <lg type='stanza'>
+ <l>         Fini&gcirc;is fars', &dash; la tempo pasis,
+</l> <l>         Ni bur&gcirc;e portas nun titolojn,
+</l> <l>         La Viv' de longe jam frakasis
+</l> <l>         Tiamajn revojn kaj idolojn ...
+
+          </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Anta&ubreve; nelonge ni retrovis
+</l> <l>         Nin &ccirc;iujn &ccirc;e amik' komuna
+</l> <l>         Kaj vane komplimenti provis
+</l> <l>         Reciprokante: <q> &Ccirc;iam juna! </q>
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar la tempiojn &dash; sen riparo &dash;
+</l> <l>         Anserpiede stampas faldoj,
+</l> <l>         Kaj la &ccirc;apitro de l' hararo
+</l> <l>         Prezentas sin kun debetsaldoj.
+</l></lg>  <lg type='stanza'>
+ <l>         Jen kiu per avida &scirc;maco
+</l> <l>         Fumadis dum studentaj jaroj
+</l> <l>         La remburherbojn de l' matraco,
+</l> <l>         Nun pompas kun baroncigaroj;
+</l></lg>  <lg type='stanza'>
+ <l>         Alia, kiu tro a&ubreve;dace
+</l> <l>         Konstruis sur epikurismo,
+</l> <l>         Nun mar&scirc;as peze, kaj grimace
+</l> <l>         Li plendas jam pri re&ubreve;matismo;
+</l></lg>  <lg type='stanza'>
+ <l>         La tria, kiu cikoniojn
+</l> <l>         Asistis dum noktvivo peka,
+</l> <l>         Nun pie flustras litaniojn
+</l> <l>         Kaj hejmeniras je la deka;
+</l></lg> <l><figure entity="antausignoj2"/>
+</l>  <lg type='stanza'>
+ <l>         La kvara vivis per pruntpreno
+</l> <l>         A&ubreve; dank' al senprovizaj &ccirc;ekoj;
+</l> <l>         Nun estas lia entrepreno:
+</l> <l>         Pruntdoni kontra&ubreve; hipotekoj! 
+</l></lg>  <lg type='stanza'>
+ <l>         Ve! kamaradoj, jam a&ubreve;tune
+</l> <l>         Pri l' vintro nin avertas signoj;
+</l> <l>         Ni balda&ubreve; kantos &ccirc;iuj kune
+</l> <l>         La faman kanton de la cignoj.
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Ni maljuni&gcirc;is, evidente,
+</l> <l>         Sed pleje maljuni&gcirc;is tiu,
+</l> <l>         Kiu admonis nun lamente,
+</l> <l>         Ke ni ne tiel la&ubreve;te kriu,
+</l></lg>  <lg type='stanza'>
+ <l>         <q> &Ccirc;ar, </q> diris li al ni konfide,
+</l> <l>         <q rend='begin'/> Filino mia min &ccirc;agrenas,
+</l> <l>         &Scirc;i ... plidiki&gcirc;as tro perfide,
+</l> <l>         Kaj tion mi ne plu komprenas... <q rend='end'/>
+</l></lg> <l><figure entity="antausignoj3"/>
+</l>  <lg type='stanza'>
+ <l>         <q> Ho, kara nia, </q> tuj ni &hcirc;oris,
+</l> <l>         <q rend='begin'/> Vi kaduki&gcirc;is efektive:
+</l> <l>         Bruligi, kion vi adoris,
+</l> <l>         Signifas morti jam dumvive! <q rend='end'/>
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="monismo">
+<head>
+         "MONISMO"
+</head>
+<note>
+ 	 a&ubreve; meditoj pri senmonaj tempoj
+</note>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         Jam delonge &ccirc;iu rozo
+</l> <l>         Velkis for...
+</l> <l>         Estas nun l' apoteozo
+</l> <l>         De funebra flor'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kiu semis tian semon,
+</l> <l>         Mi ne scias, sed malka&scirc;e
+</l> <l>         Mi renkontas <q> <emph>krizan temon</emph> </q>
+</l> <l>         Sur la vojo &ccirc;iupa&scirc;e.
+
+           </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Belaj estis en Borshaloj
+</l> <l>         Tiuj baloj kurzofortaj;
+</l> <l>         Ili estas nun <emph>falbaloj</emph>
+</l> <l>         Pro la kurzoj senrisortaj.
+</l></lg>  <lg type='stanza'>
+ <l>         E&ccirc; la firma ora Pundo
+</l> <l>         Falis dum freneza danc'
+</l> <l>         Kaj &gcirc;emante pro la vundo 
+</l> <l>         Ku&scirc;as nun en ambulanc'.
+</l></lg>  <lg type='stanza'>
+ <l>         Forte staras nur l' idolo
+</l> <l>         De l' or-bova Di-Dolar'
+</l> <l>         Kaj jam lamas farandolo
+</l> <l>         De l' alia idolar'.
+</l></lg>  <lg type='stanza'>
+ <l>         <emph>Mona &hcirc;ino</emph> estas mito
+</l> <l>         El pratempo al ni kara;
+</l> <l>         <emph>Or-Dinaro</emph> &dash; (jes, sen sprito) &dash;
+</l> <l>         Estas nun <emph>neordinara!</emph>
+</l></lg>  <lg type='stanza'>
+ <l>         La <emph>Peseto</emph> ne pezegas
+</l> <l>         Multe dum financturnir',
+</l> <l>         Kaj post falo oni flegas
+</l> <l>         Vundojn de la <emph>kava Lir'</emph>.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;u validas plu simbolo,
+</l> <l>         Se &gcirc;i estas sen valor'?
+</l> <l>         Tial nun ... sen <emph>mono polo</emph>
+</l> <l>         Frostas en la Koridor'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kiu havas la or-keston
+</l> <l>         Brue ridas tra l' fenestro,
+</l> <l>         &Ccirc;ar koncerton kaj fastfeston
+</l> <l>         Gvidas li, la <emph>or-kest-estro</emph>.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar li havas or-provizon,
+</l> <l>         Li nun estas bonhumora,
+</l> <l>         Sed li spertos la surprizon:
+</l> <l>         Or-provizo ... <emph>proviz-ora!</emph>
+
+	  </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Iam konto en la banko
+</l> <l>         Estis certa, fera konto,
+</l> <l>         Sed vidi&gcirc;is la dorsflanko:
+</l> <l>         Nun &gcirc;i estas <emph>fe-rakonto</emph>.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj akcioj! &dash; Ili havis
+</l> <l>         Longajn dentojn kaj kun rentoj
+</l> <l>         Man&gcirc;is, kion ni ne savis.
+</l> <l>         ... Tiaj estas <emph>akci-dentoj!</emph>
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;iuj belaj tempoj pasis,
+</l> <l>         Al ni restas nur paper',
+</l> <l>         En la kasoj sin amasis
+</l> <l>         Lastatempe nur aer'.
+</l></lg>  <lg type='stanza'>
+ <l>         Per aero, ne per &ccirc;ekoj,
+</l> <l>         Nun ni pagas &ccirc;iun tagon;
+</l> <l>         Ne nova&jcirc;o! &Ccirc;ar la grekoj
+</l> <l>         Konis jam... l' <emph>aeropagon!</emph>
+</l></lg>  <lg type='stanza'>
+ <l>         Kun la sa&gcirc;a Salomono
+</l> <l>         Ti-al ni konkludas nun,
+</l> <l>         Ke neniu zorg' pri mono
+</l> <l>         <q>Estas nova sub la sun'.</q>
+
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="lamentado">
+<head>
+         LAMENTADO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Ho triste povra, dura sort'
+</l> <l>         De la moroz-obskura vort' !
+</l></lg>  <lg type='stanza'>
+ <l>         Tenere a&ubreve; lascive
+</l> <l>         Mi strebas volitive
+</l> <l>         Ascendi al sublima sfer',
+</l> <l>         Eskapi el obscena strat',
+</l> <l>         Tra virga spac' de l' stratosfer
+</l> <l>         Fordrivi fluse kun beat'!
+</l></lg>  <lg type='stanza'>
+ <l>         A&hcirc;, a&hcirc; ! &dash; Anstata&ubreve; pimpe
+</l> <l>         Ala&ubreve;djubili al la lum'
+</l> <l>         Ja licas nur sengrimpe
+</l> <l>         Langvori en mucida hum'. 
+</l></lg>  <lg type='stanza'>
+ <l>         Perversa fato sur mi pezas:
+</l> <l>         La tradici' min ne aprezas,
+</l> <l>         Agnoskas min nur kun fobio
+</l> <l>         Obtuz-a&ubreve;dace la prolet';
+</l> <l>         Mi vivas nur per stipendio
+</l> <l>         Parcimonia de poet' .....
+</l></lg>  <lg type='stanza'>
+ <l>         Prononci min ja &scirc;ajnas tiklo
+</l> <l>         Provoka kontra&ubreve; l' idiom',
+</l> <l>         Mi tial &scirc;imas en ventriklo
+</l> <l>         De sinekzalta histrion';
+</l> <l>         Filistroj min en blinda hast'
+</l> <l>         Damnante sakras nur bombast',
+</l> <l>         Mi sekve restas la mizera
+</l> <l>         Enigmo esotera.
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj se vi darfus, per pafil',
+</l> <l>         Lugubra ido de la Vermo,
+</l> <l>         Vi min ekspedus al ekzil',
+</l> <l>         A&ubreve; al geheno, al ekstermo,
+</l> <l>         Kaj tamen: Estas mi la Fil'
+</l> <l>         De generanta lumo-pil', &dash;
+</l> <l>         La pil' de l' nova termo!
+</l></lg>  <lg type='stanza'>
+ <l>         Ho filoj
+</l> <l>         De piloj,
+</l> <l>         Preparu vin al skerm'
+</l> <l>         Pro &ccirc;iu nova term',
+</l> <l>         &Ccirc;ar a&ubreve;tentikaj filoj
+</l> <l>         De l' Fundament' la vojon baras
+</l> <l>         Kaj &ccirc;e la novaj termo-piloj
+</l> <l>         Nun taciturne gardostaras .....
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;u hurli do? &dash; Ne estus fajne!
+</l> <l>         Anstata&ubreve; tio ni sen halt'
+</l> <l>         Preparu nin al &scirc;tormosalt',
+</l> <l>         &Ccirc;ar tre probable plej ver&scirc;ajne
+</l> <l>         Aperos balda&ubreve; Efialt'!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="japanabalado">
+<head>
+         JAPANA BALADO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l> <l>         La gej&scirc;oj kantas a&ubreve; babilas
+</l> <l>         En eta dom' el silkpaper'; 
+</l> <l>         La &ccirc;erizujoj jam similas
+</l> <l>         Al florpejza&gcirc;' dum son&gcirc;-aper';
+</l> <l>         Pri paco revas, pac' intima,
+</l> <l>         La nobelulo Piro&scirc;ima ...
+</l></lg>  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l> <l>         Sed pac' intima ne ekzistas
+</l> <l>         Por hom' signita de la mort',
+</l> <l>         Kaj peze Piro&scirc;ima pistas
+</l> <l>         Amarajn pensojn pri la sort':
+</l> <l>         Pro polvo sur reputacio
+</l> <l>         Mortdevon diktas tradicio!
+</l></lg>  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l> <l>         Kaj Piro&scirc;ima la fatalon
+</l> <l>         Akcepti volas sen rifuz',
+</l> <l>         Sed li ne &scirc;atas glavo&scirc;talon,
+</l> <l>         Almena&ubreve; ne por propra uz';
+</l> <l>         Utile &scirc;ajnas do pripensi
+</l> <l>         Kiametode sin atenci.
+</l></lg>  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l> <l>         Ho kiel do forvi&scirc;i polvon
+</l> <l>         De la honoro, bona Bonz'?
+</l> <l>         Sed Piro&scirc;ima trovis solvon
+</l> <l>         Bon&scirc;ance en gazetanonc';
+</l> <l>         Kaj tuj li sendas sian filon
+</l> <l>         A&ccirc;eti la harkreskigilon.
+</l></lg>  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l> <l>         La filo jam revene trotas
+</l> <l>         Kun la mirakla haro-sap',
+</l> <l>         Kaj Piro&scirc;ima tuj ekfrotas
+</l> <l>         La tutan supron de la kap'.
+</l> <l>         &dash; &Ccirc;u nun necesas plue diri,
+</l> <l>         Ke li sukcesis ... <q> har-akiri </q>?
+</l></lg>  <lg type='stanza'>
+ <l>         Sur ondoj de la &Scirc;in-ko-pan'
+</l> <l>         Facile glitas la sampan' ...
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="marbordo">
+<head>
+         HOMOJ &Ccirc;E L' MARBORDO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Mi vidis ilin &ccirc;e l' marbordo
+</l> <l>         En bankostumo, sen rembur',
+</l> <l>         Reveni al natura ordo,
+</l> <l>         Al pralinioj de l' figur' ;
+</l></lg>  <lg type='stanza'>         
+ <l>         Mi vidis ilin sen glazuro,
+</l> <l>         Sen &scirc;minko&scirc;el' de l' civiliz'
+</l> <l>         Kaj kiaj ilin la naturo
+</l> <l>         Prezentis iam: ... sen &ccirc;emiz' ...
+
+	   </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Vestita nur per inkognito
+</l> <l>         La baronin' ne pensas plu
+</l> <l>         Pri teda devo de vizito
+</l> <l>         En la salonoj de l' enu';
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj se mi fidas al lorneto,
+</l> <l>         &Scirc;i liberigis de banda&gcirc;',
+</l> <l>         De brusto&scirc;nuroj kaj korseto
+</l> <l>         La &ccirc;armojn de matura a&gcirc;'.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed tiuj &ccirc;armoj sen hezito
+</l> <l>         Aplikas sekvon de l' instru'
+</l> <l>         Kaj siavice, por vizito,
+</l> <l>         La mamoj kuras al genu' ...
+</l></lg>  <lg type='stanza'>
+ <l>         El kio ni konkludas prave
+</l> <l>         Eternan veron de l' maksim' :
+</l> <l>         <q rend='begin'/> Se la natur' nin tenas sklave,
+</l> <l>         Pli sklave tenas nin kutim'! <q rend='end'/>
+
+	    </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         &Ccirc;e l' mara bordo e&ccirc; ministro
+</l> <l>         Sin kredas en la paradiz',
+</l> <l>         Kaj li dum ripoziga distro
+</l> <l>         Forgesas grincon de la Kriz';
+</l></lg>  <lg type='stanza'>
+ <l>         Li ludas nun kun sia filo
+</l> <l>         Kaj donas pruvojn de kapabl'
+</l> <l>         Farante per lud&scirc;ovelilo
+</l> <l>         Profundajn truojn en la sabl' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Ne diru, ke mi moke &scirc;ercas
+</l> <l>         Per senpripensa rimo-&jcirc;et'!
+</l> <l>         Li tre ver&scirc;ajne sin ekzercas
+</l> <l>         Por ... fari truojn en bud&gcirc;et'.
+</l></lg>  <lg type='stanza'>
+ <l>         El kio ni konkludas prave
+</l> <l>         Eternan veron de l' maksim':
+</l> <l>         <q rend='begin'/> Se la natur' nin tenas sklave,
+</l> <l>         Pli sklave tenas nin kutim'! <q rend='end'/>
+</l></lg> <l><figure entity="marbordo"/>
+</l>  <lg type='stanza'>
+ <l>         Sinjoro Hak. &dash; Ni lin suspektas
+</l> <l>         Pri novri&ccirc;ula pozici'.
+</l> <l>         &Ccirc;ar sinjorino Hak aspektas
+</l> <l>         Kiel juvelekspozici';
+</l></lg>  <lg type='stanza'>
+ <l>         Li tre ri&ccirc;i&gcirc;is, &dash; jes ni scias,
+</l> <l>         Sed kie do? En kiu fak'?
+</l> <l>         A&ubreve;skultu, &dash; nun konversacias
+</l> <l>         Kun la edzin' sinjoro Hak:
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/> Se tiuj nudaj hom-amasoj
+</l> <l>         Nun sekvus min kun karn' kaj ost',
+</l> <l>         Cent kilometrojn da kolbasoj
+</l> <l>         Mi farus je malalta kost'! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         El kio ni konkludas prave
+</l> <l>         Eternan veron de l' maksim':
+</l> <l>         <q rend='begin'/> Se la natur' nin tenas sklave,
+</l> <l>         Pli sklave tenas nin kutim'! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj bankieron ni invitis:
+</l> <l>         <q rend='begin'/> Nin akompanu al la grot',
+</l> <l>         &Ccirc;ar vi neniam &gcirc;in vizitis,
+</l> <l>         Alkuru do kun ban-trikot';
+</l></lg>  <lg type='stanza'>
+ <l>         Ni tie banos nin libere
+</l> <l>         Sen ia timo de delfen',
+</l> <l>         &Ccirc;ar tiu groto ta&ubreve;gas vere
+</l> <l>         Mirinde kiel ban-basen'! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Li tiam pre&gcirc;is al &ccirc;ielo 
+</l> <l>         Tremante kvaza&ubreve; pro komplot':
+</l> <l>         <q rend='begin'/> Ho bona Di' de Izraelo,
+</l> <l>         Protektu min de la ... bangrot'! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         El kio ni konkludas prave
+</l> <l>         Eternan veron de l' maksim':
+</l> <l>         <q rend='begin'/> Se la natur' nin tenas sklave,
+</l> <l>         Pli sklave tenas nin kutim'! <q rend='end'/>
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="brummkajpipenek">
+<head>
+         BRUMM KAJ PIPENBEK
+</head>
+<lg rend="poem">
+<head>
+         I-a Eta&gcirc;o<lb/>
+
+         DU AMIKOJ
+</head>
+ <l><figure entity="pipenbek1"/></l>
+  <lg type='stanza'>
+ <l>         Du amikoj tre intimaj
+</l> <l>         Jam de jaroj pli ol dek
+</l> <l>         &dash; (Kvankam mense ne proksimaj) &dash;
+</l> <l>         Estas Brumm kaj Pipenbek.
+</l></lg>  <lg type='stanza'>
+ <l>         Brumm severmiene partas
+</l> <l>         La sekecon de skelet'
+</l> <l>         Kaj pofunte li eksportas
+</l> <l>         Piajn pensojn de asket'.
+</l></lg>  <lg type='stanza'>
+ <l>         Pipenbek dikega estas
+</l> <l>         Pekemulo kun cinik';
+</l> <l>         Nur barakte li digestas
+</l> <l>         La predikojn de l' amik'.
+</l></lg>  <lg type='stanza'>
+ <l>         Tial amba&ubreve; sin renkontas
+</l> <l>         Kiel fajro kaj glaci',
+</l> <l>         Kaj porpruve mi rakontas
+</l> <l>         Pecojn de l' konversaci' ...
+
+        </l></lg>  <l rend='center'>&TRISTELO; 
+</l></lg>
+
+<lg rend="poem">
+<head>
+         II-a Eta&gcirc;o
+<lb/>
+         LA MALBONAJ ARGUMENTOJ DE PIPENBEK
+</head>
+  <lg type='stanza'>
+ <l>         Iun tagon, senavize
+</l> <l>         &Ccirc;e l' amiko venis Brumm,
+</l> <l>         Kaj li trovis lin surprize
+</l> <l>         Dum senhonta amindum':
+</l></lg>  <lg type='stanza'>
+ <l>         Tie Pipenbek prezidis
+</l> <l>         Al intima idili',
+</l> <l>         Tie virineto sidis 
+</l> <l>         Sur la sofo apud li.
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam Brumm pri l' katastrofo
+</l> <l>         Blekis per tremanta vo&ccirc;':
+</l> <l>         <q rend='begin'/> Ve ! &dash; Sur sia propra sofo
+</l> <l>         Li sin donas al dibo&ccirc;'! <q rend='end'/>
+</l></lg>  <lg type='stanza'> 
+ <l>         <q> He pardonu </q>, furioze
+</l> <l>         Pipenbek nun grakis pli,
+</l> <l>         <q rend='begin'/> Ni &jcirc;us studis serioze
+</l> <l>         Iom da filozofi'.
+</l></lg>  <lg type='stanza'>
+ <l>         Se vi estus filozofo
+</l> <l>         El la skol' de l' realism',
+</l> <l>         Vi komprenus, ke la sofo
+</l> <l>         Estas bazo de l' ... Sofism'! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Brumm &ccirc;ikane reparolas:
+</l> <l>         <q rend='begin'/> Tio &scirc;ajnas stranga stud',
+</l> <l>         Vi kaj &scirc;i ekscite bolas
+</l> <l>         Kiel par' dum am-prelud' ... <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         Pipenbek responde bruas,
+</l> <l>         Ke per seka teori'
+</l> <l>         Ni ne tiom nin instruas,
+</l> <l>         Kiom per alegori'.
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/> Nun komprenu, apostolo,
+</l> <l>         Ke ni bolis tie &ccirc;i,
+</l> <l>         Nur &ccirc;ar &ccirc;iu ... para bolo
+</l> <l>         Estas mem alegori'! <q rend='end'/>
+
+                     </l></lg>  <l rend='center'>&TRISTELO; 
+</l></lg>
+
+<lg rend="poem">
+<head>
+         III-a Etago
+<lb/>
+         BRUMM SIAFLANKE PROVAS SPRITI
+</head>
+  <lg type='stanza'>
+ <l>         Iun tagon Brumm promenis
+</l> <l>         Tute sola tra l' arbar',
+</l> <l>         Kiam jen renkonte venis
+</l> <l>         Sur la vojo iu par' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj indigne Brumm rekonis
+</l> <l>         La amikon Pipenbek,
+</l> <l>         Kiu kun virin' friponis
+</l> <l>         Sur la lim' de l' Sesa Pek'.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed tuj Pipenbek frivola
+</l> <l>         &Scirc;iris sin el la brakum',
+</l> <l>         Lasis la virinon sola
+</l> <l>         Kaj alkuris nun al Brumm:
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/> Ho karega, &gcirc;is &ccirc;i tie
+</l> <l>         Vin kondukis bona vent'! <q rend='end'/>
+</l> <l>         Brumm respondis ironie:
+</l> <l>         <q rend='begin'/> Dankon pro la kompliment'.
+</l></lg>  <lg type='stanza'>
+ <l>         Sed mi vidas ke mi &gcirc;enis
+</l> <l>         Vin dum &ccirc;arma rendevu',
+</l> <l>         &Ccirc;ar jam anta&ubreve; ol mi venis,
+</l> <l>         &Scirc;ajnas, ke vi estis du! <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q> Tro severe vi mezuras </q>,
+</l> <l>         Pipenbek ekskuzis sin,
+</l> <l>         <q rend='begin'/> Mi sincere al vi &jcirc;uras,
+</l> <l>         Ke mi e&ccirc; ne konas &scirc;in.
+</l></lg>  <lg type='stanza'>
+ <l>         Estu certa, ke resume
+</l> <l>         Mi ne estas tia brut',
+</l> <l>         Nur ... apena&ubreve; palpebrume
+</l> <l>         Mi respondis al salut'. <q rend='end'/>
+</l></lg>  <lg type='stanza'>
+ <l>         <q> Jes, sendube, &dash; palpebrume </q>,
+</l> <l>         Brumm konkludis, &dash; <q rend='begin'/> bone, sed
+</l> <l>         ... <emph>Palpe</emph> multe pli ol... <emph>Brumm'e</emph>,
+</l> <l>         Tio estas mia kred'! <q rend='end'/>
+        </l></lg>  <l rend='center'>&TRISTELO; 
+</l></lg>
+<lg rend="poem">
+<head>
+         IV-a Eta&gcirc;o
+<lb/>
+         BRUMM KAJ PIPENBEK PAROLAS PRI LA VETERO
+</head>
+  <lg type='stanza'>
+ <l>         Iun tagon, frumatene
+</l> <l>         Amba&ubreve; mar&scirc;is tra la land',
+</l> <l>         Kiam sinjorin' sen&gcirc;ene
+</l> <l>         ... <q> Strange sidis </q> &ccirc;e l' vojrand' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Pipenbek &ccirc;i tiun bildon
+</l> <l>         Tuj absorbis kun avid';
+</l> <l>         Brumm permane faris &scirc;ildon
+</l> <l>         Por protekti sin de l' vid',
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj por kapti bonintence
+</l> <l>         La atenton de l' amik'
+</l> <l>         Brumm parolis nun sentence
+</l> <l>         Pri l' vetero kun taktik':
+</l></lg>  <lg type='stanza'>
+ <l>         <q rend='begin'/> Bela tago, mia kara,
+</l> <l>         Vere dol&ccirc;a majmaten',
+</l> <l>         Majmateno senkompara
+</l> <l>         Por ekskurso kaj promen' ... <q rend='end'/>
+</l></lg> <l><figure entity="pipenbek2"/>
+</l>  <lg type='stanza'>
+ <l>         Pipenbek konsentis plene
+</l> <l>         Kaj respondis kun komplez':
+</l> <l>         <q rend='begin'/> Jes, hodia&ubreve; frumatene
+</l> <l>         Estas ... bela posta&jcirc;mez'! <q rend='end'/>
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="resanigxis">
+<head>
+<note>
+
+	          Al mia bona amiko,
+		  Jan Kostecki.
+</note>
+         VI RESANI&Gcirc;IS!
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Mi &jcirc;us konstatis, kara Jan,
+</l> <l>         Ke reprosperas via san'
+</l> <l>         Samkiel kverko;
+</l> <l>         Sen febro nun kaj sen kolik'
+</l> <l>         Vi floras kiel florbrasik'
+</l> <l>         En grasa sterko!
+</l></lg>  <lg type='stanza'>
+ <l>         Sed kio resanigis vin?
+</l> <l>         &Ccirc;u talisman', &ccirc;u medicin'?
+</l> <l>         &Ccirc;u pentofaro?
+</l> <l>         Ha, kia &scirc;erc', &dash; mi scias, ke
+</l> <l>         E&ccirc; ne sukcesis helpo de
+</l> <l>         ... Veterinaro!
+</l></lg>  <lg type='stanza'>
+ <l>         Mi longe pensis pri la ka&ubreve;z'
+</l> <l>         De via kontra&ubreve;vivo-na&ubreve;z'
+</l> <l>         Kaj min konvinkis
+</l> <l>         La fakto, ke vi febris nur,
+</l> <l>         &Ccirc;ar peke kontra&ubreve; la natur'
+</l> <l>         Vi ... akvon trinkis!
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;u vi memoras? &dash; Jes, &ccirc;e mi
+</l> <l>         Vi tiel tede petis pri
+</l> <l>         Fre&scirc;-akva guto,
+</l> <l>         Ke mi konsentis pro la pac',
+</l> <l>         Kaj vi ... &gcirc;in trinkis sen grimac'
+</l> <l>         Samkiel bruto!
+</l></lg>  <lg type='stanza'>
+ <l>         Kunkulpa en la krima far'
+</l> <l>         Mi pente pensis pri ripar'
+</l> <l>         De &ccirc;i blasfemo.
+</l> <l>         Mi lavis &gcirc;in per ru&gcirc;a vin',
+</l> <l>         Kaj tio &scirc;ajne savis vin
+</l> <l>         De l' anatemo,
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;ar mi trinkadis, kara Jan,
+</l> <l>         &Gcirc;is tia grad' je via san'
+</l> <l>         Kaj malpereo,
+</l> <l>         Ke sufi&ccirc;egus &gcirc;i por re-
+</l> <l>         ...laksigi regimenton de
+</l> <l>         La Sav-Armeo!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="biblioteko">
+<head>
+         MIA BIBLIOTEKO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Kiel bravaj grenadiroj,
+</l> <l>         Vicigitaj flank'-&ccirc;e-flanko,
+</l> <l>         Sur bretar' de l' libro&scirc;ranko
+</l> <l>         Ili staras en spaliroj.
+</l></lg>  <lg type='stanza'>
+ <l>         Admirinda kern-falango,
+</l> <l>         &Ccirc;iam preta, kun rapiroj
+</l> <l>         De l' spirit', al militiroj
+</l> <l>         Kontra&ubreve; la tirana Manko.
+</l></lg>  <lg type='stanza'>
+ <l>         Botelvic' da eliksiroj
+</l> <l>         El la plej nobela sango
+</l> <l>         Donas spriton al la lango
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj inspiron al la liroj
+</l> <l>         Pli ol lernolibrodiroj!
+</l> <l>         Al Botel' do estu danko!
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="pastrodevilagxo">
+<head>
+         LA PASTRO DE MIA VILA&Gcirc;O
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         La pastro de mia vila&gcirc;o komprenas,
+</l> <l>         Ke lumas pli hele ol pala kandelo
+</l> <l>         Sur vojoj de l' vivo afabla botelo,
+</l> <l>         Kaj tial li ofte &ccirc;e glaso vin tenas.
+</l></lg>  <lg type='stanza'>
+ <l>         Dum brava provtrinko en ombro de l' kelo
+</l> <l>         De gasto cedema konfeson li prenas,
+</l> <l>         Li patre admonas, pardonas kaj ... benas
+</l> <l>         La brandoprodukton de la mirabelo.
+</l></lg>  <lg type='stanza'>
+ <l>         La pastro de mia vila&gcirc;o praktikas,
+</l> <l>         La le&gcirc;on de Kristo kaj sa&gcirc;e predikas,
+</l> <l>         Ke pufaj promesoj ne &scirc;topas malplenon;
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj pli ol kantikoj la fakto edifas,
+</l> <l>         Ke e&ccirc; herezulo &ccirc;e li ne soifas,
+</l> <l>         Sed trovas &ccirc;e l' pastro &ccirc;ielspecimenon.
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="kremkaful">
+<head>
+         KREMKAFUL'!
+</head>
+<note>
+	          Ekzistas homoj, kiuj povas sidi tutajn
+		  horojn en kafejo trinkante nur... kafon.
+</note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Vivanta vaz' de nostalgi'
+</l> <l>         Kaj sklav' de l' etimologi',
+</l> <l>         Vi en kafejo mendas ... kafon.
+</l> <l>         Vin hezitigas nur dilem':
+</l> <l>         <q> &Ccirc;u kremokaf'? &dash; &Ccirc;u kafokrem'? </q>
+</l> <l>         Prefere mendu vinkarafon,
+</l><l rend='indent'>	         Kremkaful'!</l>
+</lg> <l><figure entity="kremkaful"/>
+</l>  <lg type='stanza'>
+ <l>         Vi, kremviza&gcirc;', kafkarakter',
+</l> <l>         Pri &ccirc;io grumblas: Pri l' veter',
+</l> <l>         Pri politik' kaj mia pipo,
+</l> <l>         Vi grumblas e&ccirc;, &ccirc;ar hundo ur...
+</l> <l>         ...inetis kontra&ubreve; tablokrur',
+</l> <l>         A&ubreve; grumblas simple... pro principo!
+</l> <l rend='indent'>	         Kremkaful'!
+</l></lg>  <lg type='stanza'>
+ <l>         Neniam suka farspetol'
+</l> <l>         Nek improviza farandol'
+</l> <l>         En siaj sulkoj vin kuntrenas;
+</l> <l>         Per pruda <q> sed </q>, &dash; per ruza <q> se </q>
+</l> <l>         Vi ka&scirc;as vin de &scirc;ercide',
+</l> <l>         &Ccirc;ar tio... <q> dece ne konvenas! </q>
+</l> <l rend='indent'>           Kremkaful'!</l>
+</lg>  <lg type='stanza'>
+
+ <l>         Vi tiel do en trinkbutik'
+</l> <l>         La rolon ludas kun cinik'
+</l> <l>         De farizeo en la templo,
+</l> <l>         Kaj des pli mi malamas vin,
+</l> <l>         Ke pala abstinad-doktrin'
+</l> <l>         Al mi proponas vin ekzemplo!
+</l> <l rend='indent'>                 Kremkaful'!</l>
+</lg>  <lg type='stanza'>
+ <l>         En oficej' a&ubreve; en salon'
+</l> <l>         Vi eble estas &ccirc;efperson'
+</l> <l>         Kaj mi respekte vin salutas,
+</l> <l>         Sed en trinkej', kafarda gast',
+</l> <l>         Vi kreas &gcirc;enon de kontrast'
+</l> <l>         Kaj lastinstance mi atutas:
+</l> <l rend='indent'>               <q> Kremkaful'! </q>
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="angxeluso">
+<head>
+         MODERNA AN&Gcirc;ELUSO
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Meze de l' polvo kaj bruo de l' vivo
+</l> <l>         Haltu medite, pasanto, &ccirc;ar &jcirc;us
+</l> <l>         Venis la horo de l' aperitivo ...
+</l> <l>         A&ubreve;du! Sonoras por vi l' an&gcirc;elus' ...
+</l></lg>  <lg type='stanza'>
+ <l>         Tintas kristale invito de l' glasoj,
+</l> <l>         Loge aromas parfum' de l' aniz';
+</l> <l>         Vidu, sur &ccirc;iuj trinkejaj terasoj
+</l> <l>         Ku&scirc;as peceto de ter-paradiz'.
+</l></lg>  <lg type='stanza'>
+ <l>         Frato, sidi&gcirc;u kaj mendu serene
+</l> <l>         Noblan trinka&jcirc;on la&ubreve; sa&gcirc;a prefer',
+</l> <l>         &Gcirc;uu la tagon, &dash; kaj danke-komprene
+</l> <l>         Havu rideton por via kelner'!
+</l></lg>  <lg type='stanza'>
+ <l>         &Scirc;vebu tra spacoj al monda ekstremo
+</l> <l>         Sur la velura flugil' de l' forges', &dash;
+</l> <l>         Lasu aliajn &ccirc;e kafo kun kremo
+</l> <l>         &Scirc;imi en ombro de nigra cipres'.
+</l></lg>  <lg type='stanza'>
+ <l>         Meze de lumo reala a&ubreve; reva
+</l> <l>         Inter bonhomoj vi estu bonhom'
+</l> <l>         Kaj vi facile pardonos al Eva,
+</l> <l>         Ke &dash; beda&ubreve;rinde &dash; &scirc;i man&gcirc;is de l' pom'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kion signifos nun bur&gcirc;aj mizeroj?
+</l> <l>         Kion fakturo de via tajlor'?
+</l> <l>         Velkas la rozoj ... pali&gcirc;os ciferoj ...
+</l> <l>         Oron valoras nur ora humor' !
+</l></lg>  <lg type='stanza'>
+ <l>         Tiam pli alten komprena kompato
+</l> <l>         Portos la koron &gcirc;is &Gcirc;ojo de l' Viv':
+</l> <l>         <q rend='begin'/> Pacon sur tero al &ccirc;iu homfrato!
+</l> <l>         ... Venis la horo de l' aperitiv' ... <q rend='end'/>
+</l></lg>
+ <l><figure entity="angxeluso"/>
+</l></lg></div>
+
+<div type="poem" rend="doc" id="verlaine">
+<head>
+         AL PAUL VERLAINE
+</head>
+<note>
+<p>
+	          (*) Prononcu Verlen'.
+</p><p>
+		  <q> Kiam la poeto Paul Verlaine estis
+		  senmona kaj tamen soifa, la kelneroj
+		  en la latina kvartalo akceptis
+		  porpage &jcirc;us verkitan versa&jcirc;on, kiun
+		  ili facile povis vendi al inteligentaj
+		  eldonistoj. </q>
+</p></note>
+<lg rend="poem">
+ <lg type='stanza'>
+ <l>         La vivo, &ccirc;i giganta, enigma karusel',
+</l> <l>         Sencelan bardon portis la&ubreve; centrifuga rondo,
+</l> <l>         Sed &ccirc;ie, en Parizo, Londono a&ubreve; Brusel'
+</l> <l>         Vi &ccirc;iam vin retrovis mizera vagabondo
+</l></lg>  <lg type='stanza'>
+ <l>         Kaj tamen simpatia. &dash; Perversa, e&ccirc; vulgara,
+</l> <l>         A&ubreve; foje tro plorema sub ni&ccirc;o de madon',
+</l> <l>         Vi restos al mi kara, kaj via verko kara,
+</l> <l>         Des pli, ke &gcirc;i ekzistas ja nur en luks-eldon'.
+</l></lg>  <lg type='stanza'>
+ <l>         &Ccirc;e bordo de l' Mozelo, en &scirc;irmo de arbust'
+</l> <l>         El lunpejza&gcirc;o, kian vi sor&ccirc;e melodiis,
+</l> <l>         Levi&gcirc;as kiel fa&ubreve;no observe via bust',
+</l> <l>         Kaj tie, samurbano, mi ofte vin enviis...
+
+           </l></lg>  <l rend='center'>&TRISTELO; 
+</l>  <lg type='stanza'>
+ <l>         Se krom la naski&gcirc;urbo mi ion ajn komune
+</l> <l>         Kun vi posedas, certe, ne estas la talent',
+</l> <l>         Sed la&ubreve; vidpunkto de la ... soifo, eble kune
+</l> <l>         Ni estus bela paro en nia element'!
+</l></lg> <l><figure entity="verlaine"/>
+</l>  <lg type='stanza'>
+ <l>         Kaj tial mi envias vin, ho poet-drinkant',
+</l> <l>         &Ccirc;ar dum vivtempo via kelneroj poezion
+</l> <l>         Ankora&ubreve; alte taksis, kaj kelklinia kant'
+</l> <l>         Sufi&ccirc;is por kvitanci plej pezan adicion.
+</l></lg>  <lg type='stanza'>
+ <l>         Nu, provu do hodia&ubreve; porpage lasi odon
+</l> <l>         Dirante al kelnero: <q> Sistemo de Verlaine! </q>
+</l> <l>         Rikane li pretendos ne koni la metodon 
+</l> <l>         Kaj diros banala&jcirc;on kun rido de balen'...
+</l></lg>
+</lg></div>
+
+<div type="poem" rend="doc" id="angkoraux">
+<head>
+         ANGKOR'A&Ubreve;!
+</head>	         
+<note>		
+<p>	 <q> La &ccirc;efa vidinda&jcirc;o de la Kolonia
+		 Ekspozicio en Parizo estis la fama
+		 Templo de Angkor, perfekta kopio
+		 de l' originalo. &Gcirc;i havis grandiozan
+		 sukceson. </q>
+</p></note>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Super &ccirc;iuj pajlkabanoj, gipspalacoj,
+</l> <l>         Brilis turoj kun sennombraj bonz-grimacoj
+</l> <l>         De la fama Templo de Angkor'.
+</l> <l>         &Ccirc;efjuvel' de l' Koloni-Ekspozicio,
+</l> <l>         &Gcirc;'i pro sia mondreputacio
+</l> <l>         Monopolon havis de l' favor'.
+</l></lg>  <lg type='stanza'>
+ <l>         Sur po&scirc;tkartoj, en gazetoj, sur l' ekrano 
+</l> <l>         Tricentfoje &ccirc;iutage la tirano
+</l> <l>         Sin altrudis kvaza&ubreve; son&gcirc;-obsed',
+</l> <l>         Kaj la homoj snobe pretaj al adoro
+</l> <l>         Himnoblekis nur pri l' Templo de Angkoro
+</l> <l>         Tiom, ke... ne &ccirc;esis plu osced'.
+</l></lg>  <lg type='stanza'>
+ <l>         Kiam &gcirc;in mi volis vidi proprokule,
+</l> <l>         Ke mi povu kompetente kaj skrupule
+</l> <l>         Ju&gcirc;i mem pri l' grandioza tem',
+</l> <l>         Per okuloj &gcirc;in mi ne sukcesis trafi:
+</l> <l>         Tie sin tro multaj lasis fotografi
+</l> <l>         ... Kvaza&ubreve; ili estus Scherer mem!
+</l></lg>
+</lg></div>
+
+
+<div type="poem" rend="doc" id="fermo">
+<head>
+         ONI FERMAS LA BUTIKON
+</head>
+<lg rend="poem">
+  <lg type='stanza'>
+ <l>         Kaj nun <q> &gcirc;is revido! </q>, afabla klient',
+</l> <l>         Kun danko pro via &gcirc;entila vizito. 
+</l> <l>         Vi venis al mi la&ubreve; libera konsent'
+</l> <l>         Kaj nun vi foriras kun ebla profito.
+</l></lg>  <lg type='stanza'>
+ <l>         Se iam provizon da sal' a&ubreve; papriko
+</l> <l>         Vi ree bezonos, mi firme esperas,
+</l> <l>         Ke ree vi venos. &dash; LA STRANGA BUTIKO &dash;
+</l> <l>         La&ubreve; sia devizo rapide liveras.
+</l></lg>  <lg type='stanza'>
+ <l>         Al vi nun <q> Adia&ubreve;! </q>, grumblema klient',
+</l> <l>         Vi venis &ccirc;i tien kun nigra humoro,
+</l> <l>         Kun jama intenco, pri l' eksperiment'
+</l> <l>         Kondamne raporti la&ubreve; seka rigoro.
+</l></lg>  <lg type='stanza'>
+ <l>         Mi tial kompate, funebra amiko,
+</l> <l>         Perfidas al vi la plej trafan resumon
+</l> <l>         Pri tiu &ccirc;i verko: ... <q> LAST-RANGA BUTIKO! </q>
+</l> <l>         Kaj fermu nun klake &ccirc;i tiun volumon.
+</l></lg>
+</lg></div>
+
+
+
+<div type="epilog">
+
+<head>
+         Al Mia Anonima Kritikanto
+</head>
+<p>
+         Post apero de &ccirc;iu verko mia, mi ricevas
+         senmanke kritikan leteron, subskribitan <name>X</name>.
+         Tiu letero, &ccirc;iam sincera, nepedanta, venas
+         &dash; se mi povas fidi al la po&scirc;tstampo &dash; el
+         Annecy (Francujo).
+         &Gcirc;i entenas multajn utilajn rimarkojn kaj
+         sa&gcirc;ajn konsilojn, kaj &gcirc;in mi &ccirc;iam legas kun
+         granda intereso. 
+         Tial mi deziras esprimi &ccirc;i tie, ne povante
+         fari tion alimaniere, mian koran dankon al la
+         anonima kritikanto, al mia fidela nekonata
+         kliento.
+</p>
+
+<signed>R. S.</signed>     
+
+
+
+</div>
+
+  </body>
+</text>
+</TEI.2>

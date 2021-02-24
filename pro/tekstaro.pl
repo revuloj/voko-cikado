@@ -1,5 +1,6 @@
 user:file_search_path(tekstoj,'../txt').
-user:file_search_path(verkoj,'../xml').
+user:file_search_path(esf,'../txt/tei_esf/tekstoj').
+user:file_search_path(verkoj,'../txt/tei2').
 
 bib(pv,'PrV').
 bib(ee,'EE').
@@ -76,6 +77,12 @@ vrk(dl,dualibro,
 vrk(fk,krestomatio,
     struct_gutenberg,
     tekstoj('gutenberg/Krestomatio.html')).
+%vrk(dl,dualibro,
+%    struct_tei,
+%    esf('dua-libro.xml')).
+%vrk(fk,krestomatio,
+%    struct_tei(parto),
+%    esf('fundamenta-krestomatio.xml')).
 vrk(ha,hamleto,
     struct_gutenberg,
     tekstoj('gutenberg/Hamleto.html')).
@@ -83,21 +90,65 @@ vrk(if,ifigenio,
     struct_gutenberg,
     tekstoj('gutenberg/Ifigenio.html')).
 vrk(lr,lingvaj_respondoj,
-    struct_teix_nevalida(parto),
-    tekstoj('tekstaro/LingvajRespondoj.xml')).
+    struct_tei(parto),
+    esf('lingvaj-respondoj.xml')).
 vrk(vz,vivozamenhof,
     struct_gutenberg,
     tekstoj('gutenberg/Vivo_de_Zamenhof.html')).
+vrk(vc,vivo_chukchoj,
+    struct_tei(chapitro),
+    esf('el-vivo-de-chukchoj.xml')).
 
 % postaj tekstoj
+vrk(to,al_torento,
+    struct_tei(chapitro),
+    esf('al-torento.xml')).
+
+vrk(cb,chu_bremsis,
+    struct_tei(chapitro),
+    esf('chu-li-bremsis-sufiche.xml')).
+vrk(cv,chu_venis,
+    struct_tei(chapitro),
+    esf('chu-li-venis-trakosme.xml')).
+vrk(cl,chu_li,
+    struct_tei(chapitro),
+    esf('chu-li.xml')).
+vrk(ck,chu_kunvenis,
+    struct_tei(chapitro),
+    esf('chu-ni-kunvenis-vane.xml')).
+
+vrk(cr,chu_rakonto,
+    struct_tei(novelo),
+    esf('chu-rakonti-novele.xml')).
+
+vrk(cm,chu_kmortu,
+    struct_tei(chapitro),
+    esf('chu-shi-mortu-trafike.xml')).
+vrk(cc,chu_chine,
+    struct_tei(chapitro),
+    esf('chu-vi-kuiras-chine.xml')).
+
+vrk(ep,perspektivo,
+    struct_tei(parto),
+    esf('esperanto-en-perspektivo.xml')).
+
+vrk(fi,fajron_sentas,
+    struct_tei(chapitro),
+    esf('fajron-sentas-mi-interne.xml')).
+
+vrk(fs,federala_sperto,
+    struct_tei(parto),
+    esf('federala-sperto.xml')).
+
+
 vrk(m1,monato_1,
     struct_monato_txt,
     tekstoj('monato/*.txt')).
 vrk(m2,monato_2,
-    struct_monato_html,
+    struct_monato2_html,
     tekstoj('monato2/html/*.html')).
 vrk(m3,monato_3,
-    struct_monato_html,
+    struct_monato3_html,
     tekstoj('monato3/*/0*.*')).
 
 vrk(sr,senchesa,

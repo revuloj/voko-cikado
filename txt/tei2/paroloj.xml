@@ -1,0 +1,2235 @@
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY egrave "&#x00e8;">  
+<!ENTITY uuml "&#x00fc;">  
+
+<!-- trovloko de la originaj tekstoj -->
+<!ENTITY paroloj "ftp://ftp.esperanto.org/publika/tekstoj/parol.zip">
+
+]>
+
+<!-- $Id: paroloj.xml,v 1.4 2002/09/21 11:30:35 revo Exp $ -->
+<!-- 
+  $Log: paroloj.xml,v $
+  Revision 1.4  2002/09/21 11:30:35  revo
+  enhavtabelo kreighas lau la atributoj type anstatau rend=inx, por subdokumentoj uzu nun rend=doc
+
+  Revision 1.3  2001/05/04 15:40:58  revo
+  nova: La Faraono 2
+
+  Revision 1.2  2001/04/06 11:49:40  revo
+  korekteto
+
+  Revision 1.1  2001/03/18 21:19:19  revo
+  unuaj XMLigitaj verkoj: paroloj de Z, fabeloj
+-->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>Paroladoj</title>
+      <author>L. L. Zamenhof</author>
+      <respStmt>
+        <resp>registritaj de</resp>
+        <name>HIROTAKA Masaaki</name>
+      </respStmt>
+      <respStmt>
+        <resp>adaptitaj al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: paroloj.xml,v 1.4 2002/09/21 11:30:35 revo Exp $</edition>
+    </editionStmt>
+    <extent>145 kB</extent>
+    <publicationStmt>
+      <p>Mi ne detale scias, el kiuj fontoj
+      <name>HIROTAKA Masaaki</name> registris la tekstojn.
+      (Vidu anka&ubreve; la redaktan noton!)</p>
+    </publicationStmt>
+    <sourceDesc>
+      <p><xref>&paroloj;</xref></p>
+    </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kiel unua provteksto de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstojn <name>HIROTAKA Masaaki</name> supozeble prenis
+      el diversaj fontoj kiel gazetoj k.s. Fontindiko nur estas
+      &ccirc;e <title>la ferma parolo de la Sesa Kongreso</title>. 
+      Ke tiu ekzistas en du versioj de montras, ke la ekzakta
+      vortumo de la paroloj estas iom dubinda.</p>
+
+      <p>Pro la mallongeco kaj egala karaktero de la
+      paroloj, mi decidis disponigi ilin en komuna dosiero.</p>
+      <p>La unuopaj paroloj estas entenitaj en elementoj
+      &lt;text type="speech" rend="doc" n="markilo"&gt;, kiuj siavice estas
+      grupigitaj per elemento &lt;group&gt;. Konvertante ilin
+      al HTML mi rekomendas meti &ccirc;iun parolon en
+      propran dosieron. La enhavtabelo aperu kiel parto
+      de la &gcirc;enerala titolpa&gcirc;o. Por faciligi tion
+      la koncerna elemento &lt;front&gt; ricevis atributon 
+      rend="index".</p>
+      <p>Citilojn mi signis foje per elemento &lt;q&gt;
+      foje per &lt;mentioned&gt; la&ubreve; la senco.</p>
+    </editorialDecl>	
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+ <front rend="index">
+    <titlePage>
+      <docTitle>
+        <titlePart type="main">Paroladoj</titlePart>
+      </docTitle>
+      <byline>
+        de <docAuthor>L. L. Zamenhof</docAuthor>
+      </byline>
+      <docImprint>
+        registritaj de 
+        <name>HIROTAKA Masaaki</name>
+      </docImprint>
+    </titlePage>
+  </front>
+
+  <group>
+
+<!-- ##############  Parolado antau unua kongreso en 1905  ############## -->
+
+    <text type="speech" rend="doc" id="kongr1a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado 
+          anta&ubreve; la Unua Kongreso Esperantista en Boulogne sur Mer
+          en la <date>5a de a&ubreve;gusto 1905</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1991-07-05</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Estimataj sinjorinoj kaj sinjoroj!   Mi salutas vin, karaj samideanoj, 
+fratoj kaj fratinoj el la granda tutmonda homa familio, kiuj kunvenis el 
+landoj proksimaj kaj malproksimaj, el la plej diversaj regnoj de la mondo, 
+por frate premi al si reciproke la manojn pro la nomo de granda ideo, kiu 
+&ccirc;iujn nin ligas.   Mi salutas vin anka&ubreve;, glora lando Francujo kaj bela urbo 
+<q>Bulonjo-sur-Maro</q>, kiuj bonvole oferis gastamon al nia kongreso.   Mi 
+esprimas anka&ubreve; koran dankon al tiuj personoj kaj institucioj en Parizo, kiuj 
+&ccirc;e mia trapaso tra tiu &ccirc;i glora urbo esprimis sub mia adreso sian favoron 
+por la afero Esperanto, nome al s-ro la ministro de la Publika Instruado, al 
+la Urbestraro de Parizo, al la Franca Ligo de Instruado kaj al multaj 
+diversaj sciencaj eminentuloj.</p>
+
+<p>Sankta estas por ni la hodia&ubreve;a tago.   Modesta estas nia kunveno; la 
+mondo ekstera ne multe scias pri &gcirc;i, kaj la vortoj, kiuj estas parolataj en 
+nia kunveno, ne flugos telegrafe al &ccirc;iuj urboj kaj urbetoj de la mondo; ne 
+kunvenis regnestroj, nek ministroj, por &scirc;an&gcirc;i la politikan karton de la 
+mondo, ne brilas luksaj vestoj kaj multego da imponantaj ordenoj en nia 
+salono, ne bruas pafilegoj &ccirc;irka&ubreve; la modesta domo, en kiu ni trovi&gcirc;as; sed 
+tra la aero de nia salono flugas misteraj sonoj, sonoj tre malla&ubreve;taj, ne 
+a&ubreve;deblaj por la orelo, sed senteblaj por &ccirc;iu animo sentema: &gcirc;i estas la 
+sono de io granda, kio nun naski&gcirc;as.   Tra la aero flugas misteraj fantomoj; 
+la okuloj ilin ne vidas, sed la animo ilin sentas; ili estas imagoj de tempo 
+estonta, de tempo tute nova.   La fantomoj flugos en la mondon, korpi&gcirc;os kaj 
+potenci&gcirc;os, kaj niaj filoj kaj nepoj ilin vidos, ilin sentos kaj &gcirc;uos.</p>
+
+<p>En la plej malproksima antikveco, kiu jam de longe elvi&scirc;i&gcirc;is el la 
+memoro de la homaro, kaj pri kiu nenia historio konservis al ni e&ccirc; la plej 
+malgrandan dokumenton, la homa familio disi&gcirc;is kaj &gcirc;iaj membroj &ccirc;esis 
+kompreni unu la alian.   Fratoj kreitaj &ccirc;iuj la&ubreve; unu modelo, fratoj, kiuj 
+havis &ccirc;iuj egalan korpon, egalan spiriton, egalajn kapablojn, egalajn 
+idealojn, egalan Dion en siaj koroj, fratoj, kiuj devis helpi unu la alian 
+kaj labori kune por la feli&ccirc;o kaj la gloro de sia familio, &dash; tiuj fratoj 
+fari&gcirc;is tute fremdaj unuj al aliaj, disi&gcirc;is &scirc;ajne por &ccirc;iam en malamikajn 
+grupetojn, kaj inter ili komenci&gcirc;is eterna milito.   En la da&ubreve;ro de multaj 
+miljaroj, en la da&ubreve;ro de la tuta tempo, kiun la homa historio memoras, tiuj 
+fratoj nur eterne bataladis inter si, kaj &ccirc;ia interkompreni&gcirc;ado inter ili 
+estis absolute ne ebla.   Profetoj kaj poetoj revadis pri ia tre malproksima 
+nebula tempo, en kiu la homoj denove komencos komprenadi unu la alian kaj 
+denove kuni&gcirc;os en unu familion: sed tio &ccirc;i estis nur revo.   Oni parolis 
+pri tio, kiel pri ia dol&ccirc;a fantazio, sed neniu penis &gcirc;in serioze, neniu 
+kredis pri &gcirc;i.</p>
+
+<p>Kaj nun la unuan fojon la revo de miljaroj komencas reali&gcirc;i.   En la 
+malgrandan urbon de la franca marbordo kunvenis homoj el la plej diversaj 
+landoj kaj nacioj, kaj ili renkontas sin reciproke ne mute kaj surde, sed ili 
+komprenas unu la alian, ili parolas unu kun la alia kiel fratoj, kiel membroj 
+de unu nacio.   Ofte kunvenas personoj de malsamaj nacioj kaj komprenas unu 
+la alian; sed kia grandega diferenco estas inter ilia reciproka kompreni&gcirc;ado 
+kaj la nia!   Tie komprenas sin reciproke nur tre malgranda parto da 
+kunvenintoj, kiuj havis la eblon dedi&ccirc;i multegon da tempo kaj multegon da 
+mono, por lerni fremdajn lingvojn &dash;, &ccirc;iuj aliaj partoprenas en la kunveno 
+nur per sia korpo, ne per sia kapo; sed en nia kunveno reciproke sin 
+komprenas &ccirc;iu, kiu nur deziras nin kompreni, kaj nek malri&ccirc;eco, nek 
+nehavado de tempo fermas al iu la orelojn por niaj paroloj.   Tie la 
+reciproka kompreni&gcirc;ado estas atingebla per vojo nenatura, ofenda kaj 
+maljusta, &ccirc;ar tie la membro de unu nacio humili&gcirc;as anta&ubreve; membro de alia 
+nacio, parolas lian lingvon, hontigante la sian, balbutas kaj ru&gcirc;i&gcirc;as kaj 
+sentas sin &gcirc;enata anta&ubreve; sia kunparolanto, dum tiu &ccirc;i lasta sentas sin 
+forta kaj fiera; en nia kunveno ne ekzistas nacioj fortaj kaj malfortaj, 
+privilegiitaj kaj senprivilegiitaj, neniu humili&gcirc;as, neniu sin &gcirc;enas; ni 
+&ccirc;iuj sentas nin kiel membroj de unu nacio, kiel membroj de unu familio, kaj 
+la unuan fojon en la homa historio ni, membroj de la plej malsamaj popoloj 
+staras unu apud alia ne kiel fremduloj, ne kiel konkurantoj, sed kiel fratoj, 
+kiuj ne altrudante unu la alia sian lingvon, komprenas sin reciproke, ne 
+suspektas unu la alian pro mallumo ilin dividanta, amas sin reciproke kaj 
+premas al si reciproke la manojn ne hipokrite, kiel alinaciano al alinaciano, 
+sed sincere, kiel homo al homo.   Ni konsciu bone la tutan gravecon de la 
+hodia&ubreve;a tago, &ccirc;ar hodia&ubreve; inter la gastamaj muroj de Bulonjo-sur-Maro 
+kunvenis ne Francoj kun Angloj, ne Rusoj kun Poloj, sed homoj kun homoj. 
+Benata estu la tago, kaj grandaj kaj gloraj estu &gcirc;iaj sekvoj!</p>
+
+<p>Ni kunvenis hodia&ubreve;, por montri al la mondo, per faktoj nerefuteblaj, 
+tion, kion la mondo &gcirc;is nun ne volis kredi.   Ni montros al la mondo, ke 
+reciproka kompreni&gcirc;ado inter personoj de malsamaj nacioj estas tute bone 
+atingebla, ke por &ccirc;i tio tute ne estas necese, ke unu popolo humiligu a&ubreve; 
+englutu alian, ke la muroj inter la popoloj tute ne estas io necesega kaj 
+eterna, ke reciproka kompreni&gcirc;ado inter kreita&jcirc;oj de tiu sama speco estas 
+ne ia fantazia revo, sed apero tute natura, kiu pro tre beda&ubreve;rindaj kaj 
+hontindaj cirkonstancoj estis nur tre longe prokrastita, sed kiu pli a&ubreve; 
+malpli frue nepre devis veni kaj kiu fine nun venis, kiu nun elpa&scirc;as 
+ankora&ubreve; tre malkura&gcirc;e, sed, unu fojon ekirinte, jam ne haltos kaj balda&ubreve; 
+tiel potencege ekregos en la mondo, ke niaj nepoj e&ccirc; ne volos kredi, ke 
+estis iam alie, ke la homoj, la re&gcirc;oj de la mondo, longan tempon ne 
+komprenis unu la alian!   &Ccirc;iu, kiu diras, ke ne&ubreve;trala arta lingvo estas ne 
+ebla, venu al ni, kaj li konverti&gcirc;os.   &Ccirc;iu, kiu diras, ke la parolaj 
+organoj de &ccirc;iuj popoloj estas malsamaj, ke &ccirc;iu elparolas artan lingvon alie 
+kaj la uzantoj de tia lingvo ne povas unu la alian, venu al ni, kaj, se li 
+estas homo honesta kaj ne volas konscie mensogi, li konfesos, ke li eraris. 
+Li promenadu en la venontaj tagoj en la stratoj de Bulonjo-sur-Maro, li 
+observadu, kiel bonege sin komprenas reciproke la reprezentantoj de la plej 
+diversaj nacioj, li demandu la renkontatajn Esperantistojn, kiom multe da 
+tempo a&ubreve; mono &ccirc;iu el ili dedi&ccirc;is por ellerni la artan lingvon, li komparu 
+tion &ccirc;i kun la grandegaj oferoj, kiujn postulas la lernado de &ccirc;iu lingvo 
+natura, &dash; kaj, se li estas homo honesta, li iru en la mondon kaj ripetadu 
+la&ubreve;te: <q>Jes, lingvo arta estas tute ebla, kaj la reciproka kompreni&gcirc;ado de 
+homoj per ne&ubreve;trala arta lingvo estas ne sole tute ebla, sed e&ccirc; tre kaj tre 
+facila.</q>   Estas vero, ke multaj el ni posedas nian lingvon ankora&ubreve; tre 
+malbone kaj malfacile balbutas, anstata&ubreve; paroli frue; sed, komprenante ilian 
+balbutadon kun la perfekte flua parolado de aliaj personoj, &ccirc;iu konscienca 
+observanto facile rimarkos, ke la ka&ubreve;zo de la balbutado ku&scirc;as ne en la 
+lingvo, sed nur en la nesufi&ccirc;a ekzerciteco de la diritaj personoj.</p>
+
+<p>Post multaj miljaroj da reciproka surda-muteco kaj batalado, nun en 
+Bulonjo-sur-Maro fakte komenci&gcirc;as en pli granda mezuro la reciproka 
+kompreni&gcirc;ado kaj frati&gcirc;ado de la diverspopolaj membroj de la homaro; kaj 
+unu fojon komenci&gcirc;inte, &gcirc;i jam ne haltos, sed iradas anta&ubreve;en &ccirc;iam pli kaj 
+pli potence, &gcirc;is la lastaj ombroj de la eterna mallumo malaperas por &ccirc;iam. 
+Gravegaj estas la nunaj tagoj en Bulonjo-sur-Maro, kaj ili estu benataj!</p>
+
+<p>En la unua kongreso de la Esperantistoj estas necese diri kelkajn 
+vortojn pri la &gcirc;isnunaj batalantoj de nia afero.   Sed anta&ubreve; ol mi parolos 
+pri la batalantoj speciale Esperantaj, mi sentas la devon diri &ccirc;i tie 
+kelkajn vortojn pri unu homo, kiu havas tre grandajn meritojn en nia afero 
+kaj al kiu beda&ubreve;rinde la Esperantistoj ofte rilatas maljuste nur tial, &ccirc;ar 
+li, multe farinte por la ideo de lingvo internacia &gcirc;enerale, ne apartenas 
+tamen al la amikoj de tiu speciala lingva formo, por kiu ni batalas.   Mi 
+parolas pri la tre estiminda sinjoro Johann Martin Schleyer, la a&ubreve;toro de 
+Volapuk.   La lingva formo, por kiu laboris tiu respektata maljunulo, 
+montri&gcirc;is ne bona, kaj la afero, por kiu li batalis, balda&ubreve; falis, kaj per 
+sia falo &gcirc;i alportis grandan malutilon al nia ideo entute kaj precipe al tiu 
+speciala formo de la ideo, por kiu ni batalas.   Sed ni devas esti justaj, ni 
+devas taksi &ccirc;iun homon ne la&ubreve; lia venko a&ubreve; malvenko, sed la&ubreve; liaj 
+laboroj.   Kaj la laboroj kaj meritoj de sinjoro Schleyer estis tre grandaj. 
+Kun granda fervoro li laboris por la ideo de lingvo internacia en la da&ubreve;ro 
+de multaj jaroj; dum multaj personoj donadis nur nudajn projektojn, li estis 
+unua, kiu havis sufi&ccirc;e da pacienco, por ellabori plenan lingvon de la 
+komenco &gcirc;is la fino (kvankam Esperanto tiam estis jam preta, &gcirc;i ne estis 
+ankora&ubreve; publikigita), kaj ne estas lia kulpo, se la lingvo montri&gcirc;is ne 
+praktika.   Li estis la unua, kiu per senlaca laborado vekis la intereson de 
+la mondo por la ideo de lingvo ne&ubreve;trala, kaj ne estas lia kulpo, se lia 
+falinta afero por longa tempo malvarmigis la mondon por &ccirc;ia arta lingvo. 
+Li volis fari grandan bonon, kaj por la atingo de tiu bono li laboris tre 
+multe kaj fervore, kaj ni devas lin taksi ne la&ubreve; lia sukceso, sed la&ubreve; lia 
+volo kaj laboro.   Se la ideo de lingvo internacia iam la venkos la mondon 
+&dash; tute egale, &ccirc;u &gcirc;i estos sub la formo de Esperanto a&ubreve; de ia alia lingvo 
+&dash; la nomo de Schleyer okupos &ccirc;iam la plej honoran lokon en la historio de 
+nia ideo, kaj tiun &ccirc;i nomon la mondo neniam forgesos.   Mi esperas, ke mi 
+esprimos la opinion de &ccirc;iuj partoprenantoj en nia kongreso, se mi diros: <q>Ni 
+esprimas nian koran dankon al sinjoro Schleyer, la unua kaj plej energia 
+pioniro de la ideo de ne&ubreve;trala lingvo internacia!</q></p>
+
+<p>Nun mi transiros al la laborantoj speciale Esperantistaj.   Ne venis 
+ankora&ubreve; la tempo skribi oficialan historion de nia afero, kaj mi timas, ke 
+mi povus fari ian publikan maljusta&jcirc;on al tiu a&ubreve; alia persono &ccirc;e la 
+kompara taksado de la meritoj de la diversaj batalantoj.   Tial mi ne nomos 
+&ccirc;iun el ili aparte, sed al &ccirc;iuj kune mi esprimas koran dankon pri ilia 
+laborado en la nomo de &ccirc;iuj amikoj de Esperanto.   Dek ok jaroj pasis de la 
+tago, kiam Esperanto aperis en la mondo.   Ne facilaj estis &ccirc;i tiuj dek ok 
+jaroj.   Nun mi vidas anta&ubreve; mi grandegan nombron da varmegaj amikoj de 
+Esperanto, kiuj reprezentas per si preska&ubreve; &ccirc;iujn landojn de la tera globo, 
+preska&ubreve; &ccirc;iujn naciojn de la mondo, &ccirc;iujn rangojn, statojn kaj klasojn de 
+la homoj.   Tre granda kaj vasta estas jam nia literaturo, tre multaj estas 
+niaj gazetoj, en la tuta mondo ni havas nun grupojn kaj klubojn 
+Esperantistajn, kaj al neniu klera homo en la mondo la nomo de nia afero nun 
+estas jam nekonata.   Kiam mi rigardas la nunan brilantan staton de nia 
+afero, mi rememoras kortu&scirc;ite pri la unuaj pioniroj, kiuj laboris por nia 
+afero en tiu mal&gcirc;oja tempo, kiam ni &ccirc;ie renkontadis ankora&ubreve; nur mokon kaj 
+persekuton.   Multaj el ili vivas ankora&ubreve; kaj ili rigardas nun kun &gcirc;ojo la 
+fruktojn de sia laborado.   Sed ho ve, multaj el niaj pioniroj jam ne vivas. 
+Dek ok jaroj estas granda peco da tempo.   En tiu &ccirc;i granda spaco da tempo 
+la morto rabis al ni tre multe el niaj fervoraj kunbatalantoj.   Citi &ccirc;iujn 
+nomojn estus nun afero ne ebla; mi nomos nur kelkajn el ili.   La plej frue 
+forlasis nin Leopoldo Einstein, la unua energia propagandisto de nia afero; 
+lia morto estis granda bato por nia afero entute, kaj speciale por &gcirc;ia 
+disvasti&gcirc;ado en Germanujo.   Poste la morto rabis al ni Jozefon Wasniewski, 
+la simpatian kaj de &ccirc;iuj amatan apostolon de nia afero en Polujo.   Kaj 
+anta&ubreve; kelke da jaroj mortis tiu persono, al kiu Esperanto &scirc;uldas multe, tre 
+multe kaj sen kiu nia afero nun eble tute ne ekzistus: mi parolas pri la 
+neforgesebla W.H.Trompeter.   Neniam parolante pri si, postulante por nenian 
+dankon, li prenis sur siajn &scirc;ultrojn nian tutan aferon, kiam &gcirc;i trovi&gcirc;is 
+en la plej malfacilaj cirkonstancoj; li sola subtenadis &gcirc;in tiel longe, &gcirc;is 
+la nombro de la Esperantistoj fari&gcirc;is sufi&ccirc;e granda, por subtenadi la 
+aferon per fortoj komunaj.   Kiel li &gcirc;ojus nun, se li vidus la nunan staton 
+de nia afero!</p>
+ 
+<p>Krom la nomitaj tri personoj estas ankora&ubreve; granda, ho ve, tre granda 
+nombro da personoj, kiuj multe laboris por nia afero kaj ne povas vidi la 
+fruktojn de siaj laboroj.   Ili mortis korpe, sed ili ne mortis en nia 
+memoro.   Mi proponas, estimataj sinjorinoj kaj sinjoroj, ke ni honoru ilian 
+memoron per levi&gcirc;o de niaj se&gcirc;oj.   Al la ombroj de &ccirc;iuj mortintaj 
+batalantoj Esperantistaj la unua kongreso Esperantista esprimas sian 
+respekton kaj pian saluton.</p>
+
+<p>Balda&ubreve; komenci&gcirc;os la laboroj de nia kongreso, dedi&ccirc;ita al vera 
+frati&gcirc;o de la homaro.   En tiu &ccirc;i solena momento mia koro estas plena de io 
+nedifinebla kaj mistera, kaj mi sentas la deziron faciligi la koron per ia 
+pre&gcirc;o, turni min al iu plej alta forto kaj alvoki &gcirc;ian helpon kaj benon. 
+Sed tiel same kiel mi en la nuna momento ne estas ia naciano, sed simpla 
+homo, tiel same mi anka&ubreve; sentas, ke en tiu &ccirc;i momento mi ne apartenas al ia 
+nacia a&ubreve; partia religio, sed mi estas nur homo.   Kaj en la nuna momento 
+staras inter miaj animaj okuloj nur tiu alta morala Forto, kiun sentas en sia 
+koro &ccirc;iu homo, kaj al tiu &ccirc;i nekonata Forto mi turnas min kun mia pre&gcirc;o: 
+</p>
+
+<lg>
+        <l>Al Vi, ho potenca senkorpa mistero,</l> 
+        <l>Fortego, la mondon reganta,</l>
+        <l>Al Vi, granda fonto de l' amo kaj vero</l> 
+        <l>Kaj fonto de vivo konstanta,</l> 
+        <l>Al Vi, kiun &ccirc;iuj malsame prezentas,</l> 
+        <l>Sed &ccirc;iuj egale en koro Vin sentas,</l> 
+        <l>Al Vi, kiu kreas, al Vi kiu re&gcirc;as,</l> 
+        <l>Hodia&ubreve; mi pre&gcirc;as.</l>
+        <l>Al Vi ni ne venas kun kredo nacia,</l> 
+        <l>Kun dogmoj de blinda fervoro:</l> 
+        <l>Silentas nun &ccirc;iu disput' religia</l> 
+        <l>Kaj regas nur kredo de koro.</l> 
+        <l>Kun &gcirc;i, kiu estas &ccirc;e &ccirc;iuj egala,</l> 
+        <l>Kun &gcirc;i, la plej vera, sen trudo batala,</l> 
+        <l>Ni staras nun, filoj de l' tuta homaro</l> 
+        <l>&Ccirc;e via altaro.</l> 
+        <l>Homaron Vi kreis perfekte kaj bele,</l> 
+        <l>Sed &gcirc;i sin dividis batale;</l> 
+        <l>Popolo popolon atakas kruele,</l> 
+        <l>Frat' fraton atakas &scirc;akale,</l> 
+        <l>Ho, kiu ajn estas Vi, forto mistera,</l> 
+        <l>A&ubreve;skultu la vo&ccirc;on de l' pre&gcirc;o sincera,</l> 
+        <l>Redonu la pacon al la infanaro</l> 
+        <l>De l' granda homaro!</l> 
+        <l>Ni &jcirc;uris labori, ni &jcirc;uris batali,</l> 
+        <l>Por reunuigi l' homaron.</l> 
+        <l>Subtenu nin, Forto, ne lasu nin fali,</l> 
+        <l>Sed lasu nin venki la baron;</l> 
+        <l>Donacu Vi benon al nia laboro,</l> 
+        <l>Donacu Vi forton al nia fervoro,</l> 
+        <l>Ke &ccirc;iam ni kontra&ubreve; atakoj sova&gcirc;aj</l> 
+        <l>Nin tenu kura&gcirc;aj.</l> 
+        <l>La verdan standardon tre alte ni tenos:</l> 
+        <l>&Gcirc;i signas la bonon kaj belon.</l> 
+        <l>La Forto mistera de l' mondo nin benos,</l> 
+        <l>Kaj nian atingos ni celon.</l> 
+        <l>Ni inter popoloj la murojn detruos,</l> 
+        <l>Kaj ili ekkrakos kaj ili ekbruos,</l> 
+        <l>Kaj falos por &ccirc;iam, kaj amo kaj vero</l> 
+        <l>Ekregos sur tero.</l>
+</lg> 
+      </body>
+    </text>
+
+<!-- ############## Parolado antau la dua kongreso 1906 ############## -->
+
+    <text type="speech" rend="doc" id="kongr2a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Dua Kongreso Esperantista en Gen&egrave;ve
+          en la <date>28a de a&ubreve;gusto 1906</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1991-08-25</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Estimataj sinjorinoj kaj sinjoroj!   Mi esperas, ke mi plenumos la 
+deziron de &ccirc;iuj alestantoj, se en la momento de la malfermo de nia dua 
+kongreso mi esprimos en la nomo de vi &ccirc;iuj mian koran dankon al la brava 
+Svisa lando por la gastameco, kiun &gcirc;i montris al nia kongreso, kaj al lia 
+Mo&scirc;to la Prezidanto de la Svisa Konfederacio, kiu afable akceptis anta&ubreve; du 
+monatoj nian delegitaron.   Apartan saluton al la urbo &Gcirc;enevo, kiu jam 
+multajn fojojn glore enskribis sian nomon en la historion de diversaj gravaj 
+internaciaj aferoj.</p>
+
+<p>Permesu al mi anka&ubreve; esprimi en la nomo de vi &ccirc;iuj koran dankon al la 
+organizintoj de la nuna kongreso, al la sindonaj Svisaj Esperantistoj, kiuj 
+tiel multe kaj senlace laboris en la da&ubreve;ro de la pasinta jaro, fondis 
+preska&ubreve; en &ccirc;iuj urboj de la Svisa landogrupojn Esperantistajn kaj diligente 
+faris &ccirc;ion, kion ili povis, por sukcesa pretigo de nia kongreso; al la 
+Provizora Centra Organiza Komitato, kiu precipe en la persono de sia 
+prezidanto tiel energie laboris kaj tiel diligente zorgis pri &ccirc;iuj preparoj; 
+fine &dash; sed certe ne malplej grave &dash; al tiuj ka&scirc;itaj amikoj, kiuj per 
+malavara fondo de la Centra Oficejo donis fortikan fundamenton por &ccirc;iuj plej 
+gravaj laboroj.</p>
+ 
+<p>Sinjorinoj kaj sinjoroj!   &Ccirc;e la malfermo de nia kongreso vi atendas de 
+mi ian parolon; eble vi atendas de mi ion oficialan, ion indiferentan, palan 
+kaj senenhavan, kiel estas ordinare la oficialaj paroloj.   Tian parolon mi 
+tamen ne povas doni al vi.   Mi &gcirc;enerale ne amas tiajn parolojn, sed precipe 
+nun, en la nuna jaro, tia senkolora oficiala parolo estus granda peko de mia 
+flanko.   Mi venas el lando, kie nun multaj milionoj da homoj malfacile 
+batalas por libereco, por la plej elementa homa libereco, por la rajtoj de 
+homo.   Pri tio &ccirc;i mi tamen ne parolus al vi; &ccirc;ar se kiel privata homo &ccirc;iu 
+el vi eble sekvas kun intereso la malfacilan bataladon en la granda 
+multemiliona lando, tamen kiel Esperantistojn tiu &ccirc;i batalado ne povus vin 
+tu&scirc;i, kaj nia kongreso havas nenion komunan kun aferoj politikaj.   Sed krom 
+la batalado pure politika, en la dirita lando estas nun farata io, kio nin 
+kiel Esperantistojn ne povas ne tu&scirc;i: ni vidas en tiu lando kruelan 
+bataladon inter la gentoj.   Tie ne homo de unu lando pro politikaj 
+patrolandaj interesoj atakas homojn de alia lando &dash; tie la naturaj filoj de 
+sama lando &jcirc;etas sin kiel kruelaj bestoj kontra&ubreve; la tiel same naturaj filoj 
+de tiu sama lando nur tial, &ccirc;ar ili apartenas al alia gento.</p>
+ 
+<p>&Ccirc;iutage estingi&gcirc;is tie multe da homaj vivoj per batalado politika, sed 
+multe pli da homaj vivoj estingi&gcirc;as tie &ccirc;iutage per batalado intergenta. 
+Terura estas la stato de aferoj en la multelingva Ka&ubreve;kazo, terura estas la 
+stato en la Okcidenta Rusujo.   Malbenita, milfoje malbenita estu la 
+intergenta malamo!   Kiam mi estis ankora&ubreve; infano, mi, en la urbo Bielostok, 
+rigardadis kun doloro la reciprokan fremdecon, kiu dividas inter si la 
+naturajn filojn de sama lando kaj sama urbo.   Kaj mi revis tiam, ke pasos 
+certa nombro da jaroj, kaj &ccirc;io &scirc;an&gcirc;i&gcirc;os kaj boni&gcirc;os.   
+Kaj pasis efektive certa nombro da jaroj, kaj anstata&ubreve; miaj belaj son&gcirc;oj mi ekvidis 
+teruran efektiva&jcirc;on: en la stratoj de mia malfeli&ccirc;a urbo de naski&gcirc;o 
+sova&gcirc;aj homoj kun hakiloj kaj feraj stangoj sin &jcirc;etis kiel plej kruelaj 
+bestoj kontra&ubreve; trankvilaj lo&gcirc;antoj, kies tuta kulpo konsistis nur en tio, 
+ke ili parolis alian lingvon kaj havis alian gentan religion, ol tiuj &ccirc;i 
+sova&gcirc;uloj.   Pro tio oni frakasis la kraniojn, kaj elpikis la okulojn al 
+viroj kaj virinoj, kadukaj maljunuloj kaj senhelpaj infanoj!   Mi ne volas 
+rakonti al vi la terurajn detalojn de la bestega Bielostoka bu&ccirc;ado; al vi 
+kiel al Esperantistoj mi volas nur diri, ke terure altaj kaj dikaj estas 
+ankora&ubreve; la interpopolaj muroj, kontra&ubreve; kiuj ni batalas.</p>
+ 
+<p>Oni scias, ke ne la Rusa gento estas kulpa en la besta bu&ccirc;ado en 
+Bielostok kaj multaj aliaj urboj, &ccirc;ar la Rusa gento neniam estias kruela kaj 
+sangavida; oni scias, ke ne la Tataroj kaj Armenoj estas kulpaj en la 
+konstanta bu&ccirc;ado, &ccirc;ar amba&ubreve; gentoj estas gentoj trankvilaj, ne deziras 
+altrudi al iu sian regadon, kaj la sola, kion ili deziras, estas nur, ke oni 
+lasu ilin trankvile vivi.   Oni scias nun tute klare, ke kulpa estas aro da 
+abomenindaj krimuloj, kiuj per diversaj kaj plej malnoblaj rimedoj, per amase 
+dismetataj mensogoj kaj kalumnioj arte kreas teruran malamon inter unuj 
+gentoj kaj aliaj.   Sed &ccirc;u la plej grandaj mensogoj kaj kalumnioj povus doni 
+tiajn terurajn fruktojn, se la gentoj sin reciproke bone konus, se inter ili 
+ne starus altaj kaj dikaj muroj, kiuj malpermesas al ili libere komuniki&gcirc;adi 
+inter si kaj vidi, ke la membroj de aliaj gentoj estas tute tiaj samaj homoj, 
+kiel la membroj de nia gento, ke ilia literaturo ne predikas iajn terurajn 
+krimojn, sed havas tiun saman etikon kaj tiujn samajn idealojn kiel nia? 
+Rompu, rompu la murojn inter la popoloj, doni al ili la eblon, libere 
+konati&gcirc;i kaj komuniki&gcirc;i sur ne&ubreve;trala fundamento, kaj nur tiam povos 
+malaperi tiaj besta&jcirc;oj, kiujn ni nun vidas en diversaj lokoj!</p>
+ 
+<p>Ni ne estas tiel naivaj, kiel pensas pri ni kelkaj personoj; ni ne 
+kredas, ke ne&ubreve;trala fundamento faros el la homoj an&gcirc;elojn; ni scias tre 
+bone, ke la homoj malbonaj anka&ubreve; poste restos malbonaj; sed ni kredas, ke 
+komuniki&gcirc;ado kaj konati&gcirc;ado sur ne&ubreve;trala fundamento forigos almena&ubreve; la 
+grandan amason de tiuj besta&jcirc;oj kaj krimoj, kiuj estas ka&ubreve;zataj ne de 
+malbona volo, sed simple de sinnekonado kaj de devigata sinaltrudado.</p>
+
+<p>Nun, kiam en diversaj lokoj de la mondo la batalado inter la gentoj 
+fari&gcirc;is tiel kruela, ni, Esperantistoj, devas labori pli energie ol iam. 
+Sed por ke nia laborado estu fruktoporta, ni devas anta&ubreve; &ccirc;io bone klarigi 
+al ni la internan ideon de la Esperantismo.   Ni &ccirc;iuj senkonscie ofte 
+aludadis tiun &ccirc;i ideon en niaj paroloj kaj verkoj, sed neniam parolis pri 
+&gcirc;i pli klare.   Estas jam tempo, ke ni parolu pli klare kaj precize.</p>
+
+<p>El la deklaracio unuanime akceptita en la Boulogne'a kongreso, ni &ccirc;iuj 
+scias, kio estas la Esperantismo en rilato praktika; el tiu &ccirc;i deklaracio ni 
+anka&ubreve; scias, ke <q>Esperantisto estas nomata &ccirc;iu persono, kiu uzas la lingvon 
+Esperanto tute egale, por kiaj celoj li &gcirc;in uzas</q>.   Esperantisto sekve 
+estas ne sole tiu persono, kiu uzas Esperanton sole kaj ekskluzive por celoj 
+praktikaj; Esperantisto anka&ubreve; estas persono, kiu uzas Esperanton, por gajni 
+per &gcirc;i monon; Esperantisto estas persono, kiu uzas Esperanton nur por 
+amuzi&gcirc;adi; Esperantisto fine estas e&ccirc; tiu persono, kiu uzas Esperanton por 
+celoj plej malbonaj kaj malamaj.   Sed krom la flanko praktika, deviga por 
+&ccirc;iuj kaj montrita en la deklaracio, la Esperantismo havas ankora&ubreve; alian 
+flankon, ne devigan, sed multe pli gravan, flankon idean.   Tiun &ccirc;i flankon 
+diversaj Esperantistoj povas klarigi al si en la plej diversa maniero kaj en 
+la plej diversaj gradoj.   Tial, por eviti &ccirc;iun malpacon, la Esperantistoj 
+decidis, lasi al &ccirc;iu plenan liberecon akcepti la internan ideon de la 
+Esperantismo en tiu formo kaj grado, kiel li mem deziras, a&ubreve; &dash; se li volas 
+&dash; e&ccirc; tute ne akcepti por la Esperantismo ian ideon.   Por demeti de unuj 
+Esperantistoj &ccirc;ian respondecon por la agoj kaj idealoj de aliaj 
+Esperantistoj, la Bulonja deklaracio precizigis la oficialan, de &ccirc;iuj 
+sendispute akceptitan esencon de la Esperantismo kaj aldonis la sekvantajn 
+vortojn: <q>&Ccirc;iu alia espero a&ubreve; revo, kiun tiu a&ubreve; alia persono ligas kun la 
+Esperantismo, estas lia afero pure privata, por kiu la Esperantismo ne 
+respondas</q>.   Sed beda&ubreve;rinde la vorton <mentioned>privata</mentioned> 
+kelkaj amikoj-Esperantistoj 
+klarigis al si en la senco de <mentioned>malpermesata</mentioned>, 
+kaj tiamaniere, anstata&ubreve; 
+konservi por la interna ideo de la Esperantismo la eblon tute libere 
+disvolvi&gcirc;i, ili volis tiun ideon tute mortigi.</p>
+
+<p>Se ni, batalantoj por Esperanto, propravole donis al la vasta mondo 
+plenan rajton rigardi Esperanton nur de &gcirc;ia flanko praktika kaj uzadi &gcirc;in 
+nur por nia utilo, tio &ccirc;i kompreneble al neniu donas la rajton postuli, ke 
+ni &ccirc;iuj vidu en Esperanto nur aferon praktikan.   Beda&ubreve;rinde en la lasta 
+tempo inter la Esperantistoj aperis tiaj vo&ccirc;oj, kiuj diras: <q>Esperanto estas 
+nur lingvo; evitu ligi e&ccirc; tute private la Esperantismon kun ia ideo, &ccirc;ar 
+alie oni pensos ke ni &ccirc;iuj havas tiun ideon, kaj ni malpla&ccirc;os al diversaj 
+personoj, kiuj ne amas tiun ideon!</q>   Ho kiaj vortoj!   El la timo, ke ni 
+eble ne pla&ccirc;os al tiuj personoj, kiuj mem volas uzi Esperanton nur por 
+aferoj praktikaj por ili, ni devas &ccirc;iuj el&scirc;iri el nia koro tiun parton de 
+la Esperantismo, kiu estas la plej grava, la plej sankta, tiun ideon, kiu 
+estis la &ccirc;efa celo de la afero de Esperanto, kiu estis la stelo, kiu &ccirc;iam 
+gvidadis &ccirc;iujn batalantojn por Esperanto!   Ho, ne, ne, neniam!   Kun 
+energia protesto ni for&jcirc;etas tiun &ccirc;i postulon.   Se nin, la unuajn 
+batalantojn por Esperanto, oni devigos, ke ni evitu en nia agado &ccirc;ion idean, 
+ni indigne dis&scirc;iros kaj bruligos &ccirc;ion, kion ni skribis por Esperanto, ni 
+neniigos kun doloro la laborojn kaj oferojn de nia tuta vivo, ni for&jcirc;etos 
+malproksimen la verdan stelon, kiu sidas sur nia brusto, kaj ni ekkrios kun 
+abomeno: <q>Kun tia Esperanto, kiu devas servi ekskluzive nur al celoj de 
+komerco kaj praktika utileco, ni volas havi nenion komunan!</q>   Venos iam la 
+tempo, kiam Esperanto, fari&gcirc;inte poseda&jcirc;o de la tuta homaro, perdos sian 
+karakteron idean; tiam &gcirc;i fari&gcirc;os jam nur lingvo, oni jam ne batalados por 
+&gcirc;i, oni nur tirados el &gcirc;i profiton.   Sed nun, kiam preska&ubreve; &ccirc;iuj 
+Esperantistoj estas ankora&ubreve; ne profitantoj, sed nur batalantoj, ni &ccirc;iuj 
+konscias tre bone, ke al laborado por Esperanto instigas nin ne la penso pri 
+praktika utileco, sed nur la penso pri la sankta, granda kaj grava ideo, kiun 
+lingvo internacia en si enhavas.   Tiu &ccirc;i ideo &dash; vi &ccirc;iuj sentas &gcirc;in tre 
+bone &dash; estas frateco kaj justeco inter &ccirc;iuj popoloj.   Tiu &ccirc;i ideo 
+akompanadis Esperantismon de la unua momento de &gcirc;ia naski&gcirc;o &gcirc;is la nuna 
+tempo.   &Gcirc;i instigis la a&ubreve;toron de Esperanto, kiam li estis ankora&ubreve; 
+malgranda infano; kiam anta&ubreve; dudek ok jaroj rondeto de junaj diversgentaj 
+gimnazianoj festis la unuan signon de vivo de la estonta Esperanto, ili 
+kantis kanton, en kiu post &ccirc;iu strofo estis ripetataj la vortoj: <q>malamikeco 
+de la nacioj, falu, falu, jam estas tempo</q>.</p>
+
+<p>Nia himno kantas pri la <q>nova sento, kiu venis en la mondon</q>, &ccirc;iuj 
+verkoj, vortoj kaj agoj de la iniciatoro kaj de la nunaj Esperantistoj &ccirc;iam 
+spiras tute klare tiun saman ideon.   Neniam ni ka&scirc;is nian ideon, neniam 
+povis esti e&ccirc; la plej malgranda dubo pri &gcirc;i, &ccirc;ar &ccirc;iu parolis pri &gcirc;i, kaj 
+sindone laboris.   Kial do ali&gcirc;is al ni la personoj, kiuj vidas en Esperanto 
+<q>nur lingvon</q>?   Kial ili ne timis, ke la mondo kulpigos ilin pri granda 
+krimo, nome pri la deziro, helpi al iom-post-ioma unui&gcirc;o de la homaro?   &Ccirc;u 
+ili ne vidas, ke iliaj paroloj estas kontra&ubreve;aj al iliaj propraj sentoj kaj 
+ke ili senkonscie revas pri tio sama, pri kio ni revas, kvankam pro ne&gcirc;usta 
+timo anta&ubreve; sensencaj atakantoj ili penas tion &ccirc;i nei?</p>
+
+<p>Se mi, la tutan pli bonan parton de mia vivo memvole pasigis en grandaj 
+suferoj kaj oferoj kaj ne rezervis por mi e&ccirc; ian rajton de a&ubreve;toreco &dash; &ccirc;u 
+mi faris tion &ccirc;i pro ia praktika utileco?   Se la unuaj Esperantistoj 
+pacience elmetadis sin ne sole al konstanta mokado, sed e&ccirc; al grandaj 
+oferoj, kaj ekzemple unu malri&ccirc;a instruistino longan tempon suferis 
+malsaton, nur por ke &scirc;i povu &scirc;pari iom da mono per la propagando de 
+Esperanto &dash; &ccirc;u ili &ccirc;iuj faris tion &ccirc;i pro ia praktika utileco?</p>
+
+<p>Se ofte personoj alfor&gcirc;itaj al la lito de morto skribadis al mi, ke 
+Esperanto estas la sola konsolo de ilia fini&gcirc;anta vivo, &ccirc;u ili pensis tiam 
+pri ia praktika utileco?   Ho, ne, ne, ne!   &Ccirc;iuj memoris nur pri la interna 
+ideo entenata en la Esperantismo; &ccirc;iuj &scirc;atis Esperanton ne tial, ke &gcirc;i 
+alproksimigas reciproke la korpojn de la homoj, e&ccirc; ne tial, ke &gcirc;i 
+alproksimigas la cerbojn de la homoj, sed nur tial, ke &gcirc;i alproksimigas 
+iliajn korojn.</p>
+
+<p>Vi memoras, kiel forte ni &ccirc;iuj estis entuziasmigitaj en Bulonjo &ccirc;e l' 
+Maro.   &Ccirc;iuj personoj, kiuj partoprenis en la tiea kongreso, konservis pri 
+&gcirc;i la plej agrablan kaj plej entuziasman memoron por la tuta vivo, &ccirc;iuj 
+&gcirc;in nomas <q>la neforgesebla kongreso</q>.   Kio do tiel entuziasmigis la 
+membrojn de la kongreso?   &Ccirc;u la amuzoj per si mem?   Ne, &ccirc;iu ja povas havi 
+sur &ccirc;iu pa&scirc;o multe pli grandajn amuzojn, a&ubreve;skulti teatra&jcirc;ojn kaj kantojn 
+multe pli bonajn kaj plenumatajn ne de nespertaj diletantoj, sed de plej 
+perfektaj specialistoj!   &Ccirc;u nin entuziasmigis la granda talento de la 
+parolantoj?   Ne; ni tiajn ne havis en Bulonjo.   &Ccirc;u la fakto, ke ni 
+komprenis nin reciproke?   Sed en &ccirc;iu kongreso de samnacianoj ni ja 
+komprenas nin ne malpli bone, kaj tamen nenio nin entuziasmigis.   Ne, vi 
+&ccirc;iuj sentas tre bone, ke nin entuziasmigis ne la amuzoj per si mem, ne la 
+reciproka sinkomprenado per si mem, ne la praktika utileco, kiun Esperanto 
+montris, sed la interna ideo de la Esperantismo, kiun ni &ccirc;iuj sentis en nia 
+koro.   Ni sentis, ke komenci&gcirc;as la falado de la muroj inter la popoloj, ni 
+sentis la spiriton de &ccirc;iuhoma frateco.   Ni konsciis tre bone, ke, &gcirc;is la 
+fina malapero de la muroj, estas ankora&ubreve; tre kaj tre malproksime; sed ni 
+sentis, ke ni estas atestantoj de la unua forta ekbato kontra&ubreve; tiuj muroj; 
+ni sentis, ke anta&ubreve; niaj okuloj flugas ia fantomo de pli bona estonteco, 
+fantomo ankora&ubreve; tre nebula, kiu tamen de nun &ccirc;iam pli kaj pli korpi&gcirc;ados 
+kaj potenci&gcirc;ados.</p>
+
+<p>Jes, miaj karaj kunlaborantoj!   Por la indiferenta mondo Esperanto 
+povas esti nur afero de praktika utileco.   &Ccirc;iu, kiu uzas Esperanton a&ubreve; 
+laboras por &gcirc;i, estas Esperantisto, kaj &ccirc;iu Esperantisto havas plenan 
+rajton vidi en Esperanto nur lingvon simplan, malvarman internacian 
+kompreni&gcirc;ilon, similan al la mara signaro, kvankam pli perfektan.   Tiaj 
+Esperantistoj kredeble ne venas al niaj kongresoj a&ubreve; venos al ili nur por 
+celoj esploraj, praktikaj a&ubreve; por malvarma diskutado pri demandoj pure 
+lingvaj, pure akademiaj, kaj ili ne partoprenos en nia &gcirc;ojo kaj entuziasmo, 
+kiu eble &scirc;ajnos al ili naiva kaj infana.   Sed tiuj Esperantistoj, kiuj 
+apartenas al nia afero ne per sia kapo, sed per sia koro, tiuj &ccirc;iam sentos 
+kaj &scirc;atos en Esperanto anta&ubreve; &ccirc;io &gcirc;ian internan ideon; ili ne timos, ke la 
+mondo moke nomas ilin utopiistoj, kaj la naciaj &scirc;ovinistoj e&ccirc; atakos ilian 
+idealon kvaza&ubreve; krimon; ili estos fieraj pri tiu nomo de utopiistoj.   &Ccirc;iu 
+nia nova kongreso fortikigos en ili la amon al la interna ideo de la 
+Esperantismo, kaj iom post iom niaj &ccirc;iujaraj kongresoj fari&gcirc;os konstanta 
+festo de la homaro kaj de homa frateco.</p>
+      </body>
+    </text>
+
+<!-- ############## Parolado antau la tria kongreso 1907 ############## -->
+
+    <text type="speech" rend="doc" id="kongr3a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Tria Kongreso Esperantista en Cambridge
+          en la <date>12a de a&ubreve;gusto 1907</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1991-08-31</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Karaj samideanoj!   Konforme al la &gcirc;isnuna moro, mi komencas mian 
+parolon per tio, ke mi permesas al mi en la nomo de &ccirc;iuj kongresanoj esprimi 
+nian saluton kaj dankon al la lando, kiu gastame nin akceptis, kaj precipe al 
+niaj Britaj samideanoj, kiuj per multaj laboroj kaj granda zorgemo pretigis 
+por ni tiun feston, en kiu ni nun &ccirc;iuj partoprenas.   De la momento, kiam 
+niaj Britaj amikoj invitis nin al si, ni &ccirc;iuj estis konvinkitaj, ke nia 
+kongreso en ilia lando havos apartan signifon kaj estos epokofaranta.   Kaj 
+ne estas malfacile anta&ubreve;vidi, ke nia espero nin ne trompos, &ccirc;ar tion &ccirc;i 
+garantias al ni ne sole la konata energio kaj sindoneco de niaj Britaj 
+amikoj, sed anka&ubreve; la karaktero mem de ilia lando.</p>
+
+<p>La fakto, ke ni kongresas nun en glora universitata urbo de Granda 
+Britujo, havas grandan signifon.   La kontra&ubreve;uloj de nia ideo konstante 
+ripetadis al ni, ke la Angle parolantaj popoloj neniam al ni ali&gcirc;os, &ccirc;ar ne 
+sole ili malpli ol &ccirc;iuj aliaj popoloj sentas la bezonon de lingvo 
+internacia, sed por ili la fortiki&gcirc;ado de lingvo internacia estas rekte 
+malutila, &ccirc;ar tia lingvo konkurados en la mondo anta&ubreve; &ccirc;io kun la lingvo 
+Angla, kiu celas fari&gcirc;i internacia.   Kaj tamen rigardu, kiel forte eraris 
+niaj kontra&ubreve;uloj!   Rigardu, kiel multope jam ali&gcirc;is al ni la Britoj, kiuj 
+tiel nevolonte lernas aliajn lingvojn krom sia nacia; rigardu, kun kia amo 
+ili preparis nian kongreson kaj en kia granda nombro ili aperis, por deziri 
+al ni bonvenon!   Tio &ccirc;i montras anta&ubreve; &ccirc;io, ke la homoj komencis jam 
+kompreni, ke lingvo internacia estas utila ne solo por popoloj malfortaj, sed 
+anka&ubreve; por popoloj fortaj; sed tio &ccirc;i montras ankora&ubreve; alian aferon, multe 
+pli gravan: ke la homoj vidas en la Esperantismo ne sole aferon de egoisma 
+oportuneco, sed gravan ideon de intergenta justeco kaj frateco, kaj al tiu 
+&ccirc;i ideo volas servi la noblaj homoj de &ccirc;iuj popoloj, tute egale, &ccirc;u iliaj 
+popoloj estas fortaj a&ubreve; malfortaj, kaj &ccirc;u la intergenta justeco estas por 
+ili profita a&ubreve; malprofita.   Ni scias, ke la plimulton de niaj Britaj 
+samideanoj alkondukis al ni la interna ideo de la Esperantismo, kaj ni tiom 
+pli &gcirc;oje esprimas al niaj Britaj amikoj nian koran dankon.   La Kembri&gcirc;anoj 
+akceptas nin hodia&ubreve; ne kiel komercistojn, kiuj alportas al ili profiton, sed 
+kiel apostolojn de ideo homara, kiun ili komprenas kaj &scirc;atas; koran dankon 
+al la Kembri&gcirc;anoj, koran dankon al la glora Kembri&gcirc;a universitato, kiu 
+pruntis al ni siajn &ccirc;ambrojn, koran dankon al la Kembri&gcirc;a urbestraro, kiu 
+gastame zorgis pri nia bono.   Ni kore salutas vin, granda Brita popolo, ni 
+plej respekte salutas vian altan reprezentanton, Lian Re&gcirc;an Mo&scirc;ton.   Vivu 
+la Re&gcirc;' al vi, tre longe vivu Li, gardu Lin Di'!</p>
+ 
+<p>Samideanoj!   En la momento de la malfermo de nia tria kongreso ni ne 
+povas silenti pri la tro multaj amikoj, kiujn la morto kaptis dum la pasinta 
+jaro; vi &ccirc;iuj memoras, ke tuj post la &Gcirc;eneva kongreso, ni scii&gcirc;is pri la 
+malfeli&ccirc;a morto de D-ro Lloyd, prezidanto de Liverpoola Grupo.   Ni perdis 
+anka&ubreve; du eminentajn amikojn de nia afero, la gloran scienculon Berthelot kaj 
+Prof-on Michael Foster, kiu esperis nin akcepti en Kembri&gcirc;o.   Fine, mortis 
+nia plej kara samideano kaj amiko, kiu estis la animo de niaj &gcirc;isnunaj 
+kongresoj, la &ccirc;efa motoro de nia lasta kongreso en &Gcirc;enevo, la fondinto, 
+subteninto kaj inspirinto de nia Konstanta Kongresa Komitato.   Vi &ccirc;iuj 
+scias, pri kiu mi parolas.   Nia neforgesebla amiko Javal plu ne ekzistas. 
+Al vi, amikoj-Esperantistoj de &ccirc;iuj landoj, kaj al vi, niaj estimataj 
+gastoj, kiuj simpatias nian aferon, mi proponas, ke ni honoru la memoron de 
+nia multemerita samideano kaj de &ccirc;iuj mortintaj Esperantistoj per levi&gcirc;o de 
+niaj se&gcirc;oj.</p>
+
+<p>Samideanoj!   Anta&ubreve; tri semajnoj fini&gcirc;is &gcirc;uste dudek jaroj de la 
+tago, kiam aperis publike la unua libro pri la lingvo Esperanto.   En &ccirc;iuj 
+partoj de la mondo la Esperantistoj festis tiun tagon.   Kiel fondinto de 
+Esperanto, mi ricevis en tiu tago multajn gratulajn telegramojn kaj leterojn. 
+&Ccirc;ar mi ne havas kancelarion, sed mi devas mem &ccirc;ion plenumi en miaj liberaj 
+horoj, tiel oni facile komprenos, ke respondi &ccirc;iujn ricevitajn esprimojn de 
+amikeco estis por mi afero absolute ne ebla, kaj oni min facile pardonos. 
+Mi uzas nun la bonan okazon, por esprimi mian plej sinceran dankon al &ccirc;iuj, 
+kiuj sendis al mi amikajn bondezirojn.   La gratuloj apartenas kompreneble ne 
+al mi persone, sed al la tuta batalantaro Esperantista, kaj mi estas nur la 
+centra punkto, en kiu kolekti&gcirc;is &ccirc;iuj gratuloj, por resalti de tie al &ccirc;iuj 
+flankoj de la mondo, al &ccirc;iuj lokoj, kie lo&gcirc;as kaj laboras niaj senlacaj 
+samideanoj.   Kvaza&ubreve; silente komisiita de la tuta Esperantistaro, mi vokas 
+al &ccirc;iuj Esperantistaj batalantoj: Mi vin gratulas!   Mi kore vin gratulas, 
+ke vi pacience eltenis en la da&ubreve;ro de dudek jaroj, malgra&ubreve; la multaj atakoj 
+kaj malagrabla&jcirc;oj, kiuj al neniu el vi mankis.   Mi kore vin gratulas pro 
+tiuj rezultatoj, kiujn donis via energia kaj sindona dudek-jara laborado. 
+Dudek jaroj da laborado por la Esperantismo!   Kion tio signifas, &dash; oni 
+komprenos nur iam poste, kiam oni legos la detalan historion de la 
+Esperantismo.   Kian grandegan gravecon havas niaj &gcirc;isnunaj akiroj, tion oni 
+anka&ubreve; &gcirc;uste komprenos nur iam poste, kiam oni ekscios detale la historion 
+de niaj unuaj jaroj, kiam la akiro de &ccirc;iu nova Esperantisto estis ligita kun 
+senfina laborado kaj oferado.</p>
+
+<p>Multaj el vi konas la historion de la lastaj dek jaroj de la 
+Esperantismo, kiam la longe dormintaj semoj komencis doni la unuajn 
+trunketojn; sed tre malmultaj el vi konas la historion de la unuaj dek jaroj, 
+kiuj konsistis el senfina, &scirc;ajne tute sensukcesa semado.   La historio de la 
+Esperantismo iam rakontos al vi pri &ccirc;iuj tiamaj semantoj.</p>
+
+<p>Nun nia afero staras forte.   La glacia tavolo da anta&ubreve;ju&gcirc;oj de la 
+mondo estas rompita, kaj nia afero kreskas regule kaj senhalte.   &Ccirc;iu jaro 
+potence pligrandigas niajn fortojn, kaj ni iras al nia celo jam kun plena 
+trankvileco.   Centoj da miloj da radikoj kaj radiketoj subtenas nian arbon, 
+kiu jam ne timas la venton.   La naturo, kiu longan tempon batalis kontra&ubreve; 
+ni, batalas nun por ni, &ccirc;ar tiu sama forto de inercio, kiu longan tempon 
+terure malhelpis &ccirc;iun nian pa&scirc;on, &gcirc;i mem &scirc;ovas nin anta&ubreve;en.   E&ccirc; se ni 
+volus halti, ni jam ne povus.</p>
+
+<p>Mi transiras al la vera temo de mia hodia&ubreve;a parolado.   Mi volas paroli 
+al vi hodia&ubreve; pri la esenco kaj celo de niaj kongresoj.   Sed por eviti &ccirc;ian 
+malkompreni&gcirc;on, mi tuj en la komenco atentigas vin, ke mia parolo ne estas 
+io oficiala, &gcirc;i prezentas simple mian personan opinion, kiun &ccirc;iu el vi 
+povas aprobi a&ubreve; ne aprobi.</p>
+
+<p>&Ccirc;ar ni decidis kunvenadi &ccirc;iujare el &ccirc;iuj landoj de la mondo kaj 
+multaj el ni faras e&ccirc; tre grandajn oferojn, por povi partopreni en niaj 
+kongresoj, tial ni devas klarigi al ni, por kio ni kunvenas.   Se ni konscios 
+bone la esencon kaj celon de niaj kongresoj, tiam ni venados al ili kun &ccirc;iam 
+fre&scirc;a kaj neniam malforti&gcirc;anta entuziasmo, kiel homoj, kiuj klare vidas 
+anta&ubreve; si la belan celon, al kiu ili iras; sed se ni ne konscios la celon de 
+niaj kongresoj tiam ni balda&ubreve; tute malvarmi&gcirc;os por ili, kiel homoj, kiuj 
+vagas sencele kaj kiujn tiu vagado balda&ubreve; lacigas kaj enuigas.   Por kio do 
+ni kunvenas?   &Ccirc;u ni kunvenas por paroli pri Esperantaj lingvaj demandoj? 
+Ne! tiuj &ccirc;i demandoj apartenas ne al la kongreso, sed ekskluzive al la 
+Lingva Komitato, kaj por ili sufi&ccirc;us kongreso de komitatanoj.   &Ccirc;u ni 
+kunvenas por ekzerci&gcirc;i en Esperanta parolado?   Por tio sola ni ne bezonas 
+veturi al kongreso, &ccirc;ar en niaj hejmaj grupoj ni povas en la da&ubreve;ro de la 
+tuta jaro multe pli ekzerci&gcirc;i, ol en la kelkaj tagoj de la kongreso, kaj por 
+la sola kelkataga ekzerci&gcirc;o en parolado neniu entreprenus voja&gcirc;ojn.   &Ccirc;u 
+ni kunvenas por fari manifestacion kaj sekve propagandon?   Jes, certe!   Sed 
+&ccirc;ar el cent kongresanoj almena&ubreve; na&ubreve;dek-na&ubreve; havas de Esperanto nur moralan 
+profiton, por kio do ni &gcirc;in propagandas?   Mi ne dubas, ke plimulto el vi 
+donos al ni nur unu respondon: Ni faras manifestacion kaj propagandon por la 
+Esperantismo ne pro ia utilo, kiun &ccirc;iu el ni persone povas havi de &gcirc;i, sed 
+pro tiu gravega signifo, kiun la Esperantismo havas por la tuta homaro, pro 
+tiu komunehoma celo, kiu nin, aktivajn Esperantistojn, altiris al Esperanto; 
+ni kunvenas &ccirc;iujare el &ccirc;iuj partoj de la mondo, por havi la &gcirc;ojon vidi 
+samideanojn, por premi al ili la manon, por varmigi en ni per reciproka 
+renkonti&gcirc;o kaj kunvivo la amon kaj entuziasmon por la ideo, kiun la 
+Esperantismo en si enhavas.   Kiel la antikvaj Hebreoj tri fojojn &ccirc;iujare 
+kunvenadis en Jeruzalemo, por vigligadi en si la amon al la ideo monoteisma, 
+tiel ni &ccirc;iujare kunvenas en la &ccirc;efurbo de Esperantujo, por vigligi en ni la 
+amon al la ideo Esperantisma.   Kaj tio &ccirc;i estas la &ccirc;efa esenco kaj la 
+&ccirc;efa celo de niaj kongresoj.</p>
+
+<p>&Ccirc;ar la mondo &ccirc;iam komprenis, ke la Esperantismo estas forte ligita kun 
+certa interna ideo, kaj tre multaj personoj ne volis lerni kaj uzi Esperanton 
+nur tial, &ccirc;ar ili ne volis esti rigardataj kiel partianoj de ia ideo, tial 
+&dash; por ne fortimigi de ni grandajn amasojn, &dash; ni estis devigitaj klarigi 
+per la Bulonja deklaracio, ke la simpla Esperantisteco, t.e. la uzado de la 
+lingvo Esperanto, neniun devigas esti partiano de tiu a&ubreve; alia ideo, ke &ccirc;iu 
+Esperantisto restas homo tute libera kaj unuj Esperantistoj ne respondas por 
+la ideoj de aliaj Esperantistoj.   Sed se la simpla praktika Esperantisteco, 
+t.e. la simpla lernado kaj uzado de Esperanto, neniun devigas ali&gcirc;i al ia 
+ideo, tamen neniu povas dubi, ke &ccirc;iujn, a&ubreve; almena&ubreve; la grandegan plimulton 
+de la personoj, kiuj batalas por Esperanto, ligas unu komuna ideo, kiu estas 
+la tuta stimulo de ilia laborado.</p>
+
+<p>&Ccirc;iu privata Esperantisto povas havi tiajn konvinkojn a&ubreve; fari tiajn 
+agojn, kiajn li volas, kaj ni ne respondas por liaj konvinkoj, nek agoj, kiel 
+li ne respondas por niaj.   Li povas esti la plej granda egoisto, genta 
+&scirc;ovinisto, malamantoj de homoj a&ubreve; e&ccirc; la plej malnobla krimulo, kaj se li 
+nur uzas la lingvon Esperanto, ni ne povas malpermesi al li, nomi sin 
+Esperantisto.   Sed se li volas veni al Esperantista kongreso, a&ubreve; se li 
+volas ali&gcirc;i al alia institucio, kiu portas la verdan standardon, tiam la 
+afero &scirc;an&gcirc;i&gcirc;as.   Tiam li venas en landon, kiu havas siajn apartajn 
+le&gcirc;ojn, siajn apartajn morojn kaj principojn.</p>
+
+<p>En Esperantujo regas ne sole la lingvo Esperanto, sed anka&ubreve; la interna 
+ideo de la Esperantismo; en Esperantujo regas ne sole la oficiala &gcirc;enerala 
+Esperantismo, &dash; tie regas anka&ubreve; io alia, io &gcirc;is nun ankora&ubreve; ne precize 
+formulita, sed tre bone sentata de &ccirc;iuj Esperantujanoj &dash; tie regas la 
+verda standardo!</p>
+
+<p>Kio estas la verda standardo?   Se por iu komercisto, kiu uzas 
+Esperanton nur por vendi siajn komerca&jcirc;ojn, a&ubreve; por iu sportisto, kiu uzas 
+Esperanton nur por amuzi&gcirc;i, nia standardo estas simpla signo de nia lingvo, 
+simpla interkonsentita dekoracio por niaj kongresoj kaj institucioj &dash; ni, 
+Esperantistoj-batalantoj certe vidas en nia standardo ion alian: &Gcirc;i estas 
+por ni io sankata, &gcirc;i estas la signo, sub kiu ni mar&scirc;as al nia paca 
+batalado, &gcirc;i estas la vo&ccirc;o, kiu konstante memorigas al ni, ke ni laboras 
+por Esperanto nur tial, &ccirc;ar ni esperas, ke pli a&ubreve; malpli frue, eble post 
+multaj jarcentoj,</p>
+<lg>
+        <l>Sur ne&ubreve;trala lingva fundamento,</l> 
+        <l>Komprenante unu la alian,</l> 
+        <l>La popoloj faros en konsento</l> 
+        <l>Unu grandan rondon familian.</l>
+</lg> 
+<p>Ni konstante ripetadis, ke ni tute ne deziras nin enmiksi en la internan 
+vivon de la gentoj, sed ni deziras nur krei ligantan ponton inter la gentoj. 
+La devizo de la ideaj Esperantistoj, neniam &gcirc;is nun precize formulita, sed 
+&ccirc;iam klare sentata, estas: <q>Ni deziras krei ne&ubreve;tralan fundamenton, sur kiu 
+la diversaj homaj gentoj povus pace kaj frate interkomuniki&gcirc;adi, ne 
+altrudante al si reciproke siajn gentajn aparta&jcirc;ojn</q>.</p>
+ 
+<p>Tia, la&ubreve; mia opinio, estas la devizo de la verda standardo, de tiu bela 
+kaj majesta standardo, kiu kunvokas nin &ccirc;iujare el &ccirc;iuj partoj de la mondo 
+en la nomo de la plej bela revo de la homaro.</p>
+
+<p>Por formuli precize &ccirc;iujn detalojn de la dirita devizo, ne venis 
+ankora&ubreve; la tempo; ili formuli&gcirc;os per si mem, iom post iom, per nia &ccirc;iujara 
+kunvenado kaj kunvivado.   Mi volis nur atentigi vin, ke niaj kongresoj, 
+farataj sub la signo de la verda standardo, estas ne sole kongresoj de la 
+lingvo Esperanto, sed anka&ubreve; de la interna ideo de la esperantismo.   Sekve 
+&ccirc;iu temo, en kiu ni sentas la spiriton de la verda standardo, &ccirc;io kio 
+kondukas al rompado de la muroj inter la gentoj, apartenas al nia kongreso.</p>
+ 
+<p>Vi ofte a&ubreve;dis pri la ne&ubreve;traleco de niaj kongresoj.   Jes, ne&ubreve;traleco 
+estas la &ccirc;efa principo de niaj kongresoj; sed oni devas &gcirc;uste kompreni la 
+sencon de tiu &ccirc;i ne&ubreve;traleco.   Ne&ubreve;traleco ekzistas en &ccirc;iuj internaciaj 
+kongresoj; sed dum tie la ne&ubreve;traleco estas simple afero de takto, &ccirc;e ni 
+&gcirc;i estas la &ccirc;efa principo, &ccirc;e ni la ne&ubreve;traleco, a&ubreve; pli &gcirc;uste la 
+ne&ubreve;traligo de la intergentai rilatoj estas la tuta enhavo, la tuta celo de 
+niaj laboroj.   Tial ni neniam devas paroli en niaj kongresoj pri aferoj 
+speciale politikaj, kiuj apartenas al la diplomatoj, a&ubreve; pri aferoj speciale 
+religiaj, kiuj apartenas al la ekleziuloj kaj filozofoj, &dash; &ccirc;ar la verda 
+standardo malpermesas al ni fari ion, kio povus ofendi tiun a&ubreve; alian genton 
+a&ubreve; religian grupon; sed &ccirc;io, kio neniun ofendante, povas krei pacan ponton 
+inter la popoloj, tio ne sole ne devas esti timeme evitata en niaj kongresoj, 
+sed kontra&ubreve;e, &gcirc;i devas esti &gcirc;uste la esenco de niaj kongresoj, &ccirc;ar &gcirc;i 
+apartenasal la verda standardo.</p>
+
+<p>Se ni memoros pri la postuloj de la verda standardo, tiam ni ne timos 
+plu paroli kaj agi, tiam ni irados al nia celo konscie kaj kura&gcirc;e, kaj niaj 
+kongresoj fari&gcirc;os kun &ccirc;iu jaro pli interesaj kaj pli gravaj por la mondo. 
+La verda stelo &ccirc;esos esti malkura&gcirc;a signo de silento, &gcirc;i fari&gcirc;os signo de 
+laboro.</p>
+
+<p>&Ccirc;io, kio kondukas al rompado de la muroj inter la gentoj, apartenas al 
+nia kongreso.   Vastaj kaj grandaj estas la rilatoj inter la gentoj kaj 
+nacioj, kaj vastaj kaj multenombrai estas la temoj, kiujn ni devos 
+pridiskutadi.   Tiel ekzemple, havante nenian intencon enmiksi sin en ian 
+specialan sistemon pri tiu a&ubreve; alia temo, oni povas proponi al niaj kongresoj 
+internaciajn sistemojn por la oportuneco kaj ne&ubreve;traleco de la rilatoj 
+internaciaj, kiel ekzemple internacian monsistemon, horsistemon, kalendaron 
+k.t.p., kaj tiam ni povos esplori, &ccirc;u la propono estas bona a&ubreve; ne, sed ni 
+ne devas diri, ke la diskutado pri tiuj projektoj estas kontra&ubreve;a al nia 
+programo.   Oni eble anka&ubreve; proponos al ni la aran&gcirc;on de kelkaj festoj 
+intergentaj, kiuj ekzistus paralele kun la specialaj festoj de &ccirc;ia gento kaj 
+eklezio kaj servus por frate ligi inter si la popolojn; oni proponos anka&ubreve; 
+aliajn similajn aferojn.   Ne venis ankora&ubreve; la tempo, por paroli pri &ccirc;io 
+detale, tial pardonu min, ke mi nur aludas per kelkaj vartetoj tion, pri kio 
+mi volus multe, tre multe paroli kun vi; sed &ccirc;iam pli kaj pli, komencante de 
+aferoj bagatelaj kaj transirante al aferoj plej gravaj, komencante de aferoj 
+pure materialaj kaj transirante al &ccirc;iuj flankoj de la homa spirito kaj 
+moralo, oni proponados al ni diversajn rimedojn, kiuj servas al la fratigado 
+de la homoj kaj al la rompado de la muroj inter la gentoj &dash; kaj &ccirc;ion tion 
+&ccirc;i ni povos priju&gcirc;i, akcepti a&ubreve; ne akcepti, sed ni neniam devos &gcirc;in 
+blinde for&jcirc;eti anta&ubreve;e.   &Ccirc;ar &ccirc;io, kio servas al la fratigado de la gentoj 
+kaj al la rompado de la malamikaj muroj inter la popoloj &dash; se &gcirc;i nur ne 
+enmiksas sin en la internan vivon de la gentoj &dash; apartenas al la verda 
+standardo.</p>
+
+<p>Karaj amikoj! &dash; Mi klarigis al vi, kio &dash; la&ubreve; mia opinio &dash; devas 
+esti la celado de niaj kongresoj.   Dum &ccirc;iu privata esperantisto povas 
+kontenti&gcirc;i per tio, ke li uzas la lingvon Esperanto, niaj kongresoj &dash; la&ubreve; 
+mia opinio &dash; devas labori ne sole por la lingvo, sed anka&ubreve; por la interna 
+ideo de la esperantismo.   Mi ripetas, ke tio &ccirc;i estas mia privata opinio, 
+kiun mi tute ne volas proponi al vi kiel ian oficialan programon por niaj 
+kongresoj.   Nia kongreso devas esti simple kongreso de esperantistoj, kaj, 
+kondi&ccirc;e ke &gcirc;ia programo estu preparita la&ubreve; la kongresa regularo, &gcirc;i devas 
+resti tute libera kaj konformi&gcirc;i &ccirc;iufoje al la opinioj kaj deziroj de la 
+plimulto de la kongresanoj.   Sed &ccirc;u vi aprobos mian opinion a&ubreve; ne, &ccirc;u vi 
+volos labori la&ubreve; la postuloj de la verda standardo a&ubreve; ne &dash; mi ne dubas, 
+ke en la profundeco de viaj koroj vi &ccirc;iuj sentas la verdan standardon, vi 
+&ccirc;iuj sentas, ke gi estas io pli, ol simpla signo de lingvo.   Kaj ju pli ni 
+partoprenados en niaj &ccirc;iujaraj kongresoj, des pli ni interfrati&gcirc;os kaj des 
+pli la principoj de la verda standardo penetros en nian animon.   Multaj 
+personoj ali&gcirc;as al la esperantismo pro simpla scivoleco, pro sporto, a&ubreve; 
+eble e&ccirc; pro atendata profito; sed de la momento, kiam ili faras la unuan 
+viziton en Esperantujo, ili malgra&ubreve; sia propra volo &ccirc;iam pli kaj pli 
+entiri&gcirc;as kaj submeti&gcirc;as al la le&gcirc;oj de tiu lando.   Iom post iom 
+Esperantujo fari&gcirc;os edukejo de la estonta interfratigita homaro, kaj en tio 
+&ccirc;i konsistos la plej gravaj meritoj de niaj kongresoj.</p>
+
+<p>Vivu Esperanto, sed anta&ubreve; &ccirc;io vivu la celo kaj la interna ideo de la 
+esperantismo, vivu la frateco de la popoloj, vivu &ccirc;io, kio rompas la murojn 
+inter la gentoj, vivu, kresku kaj floru la verda standardo!</p>
+      </body>
+    </text>
+
+<!-- ############## Parolado en la Guildhall (Londono) 1907 ############## -->
+
+    <text type="speech" rend="doc" id="guildhall">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado 
+          en la Guildhall (Londono) 
+          en la <date>21a de a&ubreve;gusto 1907</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Estimata reprezentanto de la urbo Londono, karaj samideanoj! &dash; Estas 
+al mi tre agrable, ke mi havas nun la okazon saluti la britan popolon en &gcirc;ia 
+granda &ccirc;efurbo.   Ni venis el Kembri&gcirc;o, kie niaj britaj samideanoj kun la 
+plej granda laboremeco kaj gastameco preparis por ni belegan feston; ne sole 
+niaj samideanoj, sed anka&ubreve; la ankora&ubreve; ne esperantigita urbo faris &ccirc;ion, 
+kion ili povis, por ke ni, esperantistoj, elportu el la urbo la plej bonan 
+rememoron.   Tial nun miaj unuaj vortoj estas sincera danko por la gastameco, 
+kiun ni &gcirc;uis.   Jam la duan fojon ni &gcirc;uas la britan gastamecon, &ccirc;ar certe 
+ja neniu el ni forgesis, kiel amike ni estis akceptitaj en la britaj urboj 
+Folkestone kaj Dover anta&ubreve; du jaroj, en la tempo de la Bulonja kongreso.</p>
+
+<p>La &ccirc;ambrego, en kiu ni nun trovi&gcirc;as, havis jam multe da tre gravaj 
+kunvenoj, kaj tie &ccirc;i estis akceptitaj jam multe da tre gravaj gastoj.   Nun 
+tiu &ccirc;i sama &ccirc;ambrego akceptas la &ccirc;iulandajn reprezentantojn de la mondo 
+esperantista.   Kiuj estas tiuj novaj gastoj?   Kio estas la afero, kiun ili 
+reprezentas?   La esperantismo celas la reciprokan sinkomprenadon kaj 
+konsekvence anka&ubreve; estimon kaj amon inter &ccirc;iuj gentoj kaj nacioj.   Sed tiu 
+celado estas ofte malbone komentariata, kaj sub la influo de agitado de 
+diversaj niaj malamikoj oni ofte kulpigas nin pri celoj, kiujn ni neniam 
+havis.   Mi parolos &ccirc;i tie pri du kulpigoj, kiujn ni ofte a&ubreve;das.   De 
+diversaj malkontentuloj ni ofte a&ubreve;das, ke la demando de lingvo internacia 
+devas esti solvata en alia, pli bona maniero, sed ke ni estas obstinuloj, 
+kiuj volas nur Esperanton.</p>
+
+<p>Multajn fojojn mi ripetis, kaj en Bulonjo mi tion &ccirc;i proklamis per 
+oficiala deklaracio, ke la esperantismo celas nur al tio, ke ia ta&ubreve;ga kaj 
+vivipova komprenilo inter la popoloj ekzistu, sed ke la formo de tiu 
+komprenilo estas por ni &dash; a&ubreve; almena&ubreve; por mi persone &dash; tute indiferenta; 
+ke se, anstata&ubreve; fari konstantajn kaj senfinajn eksperimentojn kaj teorian 
+rezonadon, ni decidis elekti la pretan kaj elprovitan lingvon Esperanto kaj 
+labori speciale kaj ekskluzive por &gcirc;i, kaj fiksi por &gcirc;i netu&scirc;eblan 
+fundamenton &dash; ni faris tion &ccirc;i ne &ccirc;ar al ni pla&ccirc;as speciale Zamenhof kaj 
+lia verko, kaj ne tial, ke li volas esti ia papo, kiel mensoge kredigas 
+diversaj niaj kontra&ubreve;uloj &dash; sed nur tial, ke la esploro kaj sperto montris 
+al ni, ke tia maniero de agado estas la sola, kiu plej certe alkondukos nin 
+al nia celo.   Ekzistas personoj, kiuj, penante deklini nin de nia vojo, 
+havas la plej bonan kaj plej honestan intencon; ili estas tre sindonaj al nia 
+afero, sed ili pensas, ke se ni faros tiujn plibonigojn, kiujn &ccirc;iu el ili 
+proponas, nia afero iros multe pli bone.   Pri tiuj personoj ni estas 
+konvinkitaj, ke pli a&ubreve; malpli frue ili komprenos sian eraron; ili komprenos, 
+kiel dan&gcirc;eraj estas iliaj proponoj en la nuna tempo, kiam ni anta&ubreve; &ccirc;io 
+bezonas plej severan unuecon, kaj ili pacience laboros kun ni la&ubreve; la voj' 
+elektita &gcirc;is tiu tempo, kiam la estonteco de nia afero estos absolute ekster 
+dan&gcirc;ero.   Sed ekzistas aliaj personoj, kiuj laboras simple por detrui; al 
+tiuj sinjoroj, kiujn nia bele elkreskinta arbo ne lasas dormi kaj kiuj per 
+&ccirc;iuj fortoj penas &gcirc;in subfosi, ni vokas: se vi havas alian vojon, kiu povas 
+nin konduki al nia celo pli bone kaj pli certe, montru &gcirc;in al ni, kaj ni 
+&gcirc;in sekvos.   Sed vi scias, ke vi proponas ne ion pretan kaj certan, sed nur 
+supozojn kaj teoriajn opiniojn; vi scias, ke la akcepto de via tre duba kaj 
+balda&ubreve; siavice kritikota plibona&jcirc;o ruinigus la laboron de dudekjara 
+disciplina kaj sukcesa laborado de miloj da personoj kaj nenion kreus 
+anstata&ubreve; &gcirc;i; vi scias, ke se ni deklini&gcirc;us de nia disciplina vojo kaj 
+lasus fali Esperanton, tiam la konfido de la mondo por la ideo mondolingva, 
+konfido fine akirita post centoj kaj miloj da faroj de nekredado, pereus por 
+&ccirc;iam kaj jam neniam povus esti reakirita; vi tion scias, kaj tamen vi per 
+&ccirc;iuj fortoj penas senkreditigi nin en la okuloj de la mondo ...   Bone, 
+da&ubreve;rigu do vian Herostratan laboradon, kaj ni iros trankvile nian vojon.</p> 
+
+<p>La dua kulpigo, kiun ni ofte devas a&ubreve;di, estas tio, ke ni esperantistoj 
+estas malbonaj partriotoj.   &Ccirc;ar tiuj esperantistoj, kiuj traktas la 
+esperantismon kiel ideon, predikas reciprokan justecon kaj fratecon inter la 
+popoloj, kaj &ccirc;ar la&ubreve; la opinio de la gentaj &scirc;ovinistoj patriotismo 
+konsistas en malamo kontra&ubreve; &ccirc;io, kio ne estas nia, tial ni la&ubreve; ilia opinio 
+estas malbonaj patriotoj, kaj ili diras, ke la esperantistoj ne amas sian 
+patrujon.   Kontra&ubreve; tiu &ccirc;i mensoga, malnobla kaj kalumnia kulpigo ni 
+protestas plej energie, ni protestas per &ccirc;iuj fibroj de nia koro!   Dum la 
+pse&ubreve;do-patriotismo, t.e. la genta &scirc;ovinismo, estas parto de tiu komuna 
+malamo, kiu &ccirc;ion en la mondo detruas, la vera patriotismo estas parto de tiu 
+granda tutmonda amo, kiu &ccirc;ion konstruas, konservas kaj feli&ccirc;igas.   La 
+esperantismo, kiu predikas amon, kaj la patriotismo, kiu anka&ubreve; predikas 
+amon, neniam povas esti malamikaj inter si.   &Ccirc;iu povas paroli al ni pri 
+&ccirc;iuspeca amo, kaj ni kun danko lin a&ubreve;skultos; sed kiam pri amo al la 
+patrujo parolas al ni &scirc;ovinistoj, tiuj reprezentantoj de abomeninda malamo, 
+tiuj mallumaj demonoj, kiuj ne sole inter la landoj, sed anka&ubreve; en sia propra 
+patrujo konstante instigas homon kontra&ubreve; homo &dash; tiam ni kun la plej granda 
+indigno nin deturnas.   Vi, nigraj semantoj de malpaco, parolu nur pri malamo 
+al &ccirc;io, kio ne estas via, parolu pri egoismo, sed neniam uzu la vorton 
+<mentioned>amo</mentioned>, &ccirc;ar en via bu&scirc;o la sankta vorto <mentioned>amo</mentioned> malpuri&gcirc;as.</p>
+
+<p>Vi staras nun anta&ubreve; miaj okuloj, mia kara Litovujo, mia malfeli&ccirc;a 
+patruio, kiun mi neniam povas forgesi, kvankam mi forlasis vin kiel juna 
+knabo.   Vi, kiun mi ofte vidas en miaj son&gcirc;oj, vi, kiun nenia alia parto de 
+la tero iam povos anstata&ubreve;i en mia koro, vi atestu, kiu vin pli multe, pli 
+kore kaj pli sincere amas: &ccirc;u mi, idea esperantisto, kiu revis pri frateco 
+inter &ccirc;iuj viaj lo&gcirc;antoj, kvankam mi devis beda&ubreve;rinde forlasi vin, simile 
+al multaj centoj da miloj da aliaj viaj filoj - a&ubreve; &ccirc;u tiuj personoj, kiuj 
+deziras, ke vi apartenu nur al ili, kaj &ccirc;iuj aliaj viaj filoj estu 
+rigardataj kiel fremduloj a&ubreve; sklavoj!   Ho patriotismo, patriotismo, kiam 
+fine la homoj lernos kompreni &gcirc;uste vian sencon!   Kiam via sankta nomo 
+&ccirc;esos esti armilo en la manoj de diversaj malhonestuloj!   Kiam fine &ccirc;iu 
+homo ricevos la rajton kaj la eblon alglui&gcirc;i per sia tuta koro al tiu peco 
+da tero, kiu lin naskis!</p>
+
+<p>Longe da&ubreve;ros ankora&ubreve; malluma nokto sur la tero, sed ne eterne &gcirc;i 
+da&ubreve;ros.   Venos iam la tempo, kiam la homoj &ccirc;esos esti lupoj unuj kontra&ubreve; 
+aliaj.   Anstata&ubreve; konstante batali inter si, el&scirc;iri la patrujon unuj al la 
+aliaj, perforte altrudi al si reciproke siajn lingvojn kaj morojn, ili vivos 
+inter si pace kaj frate, en plena interkonsento ili laboros sur la tero, sur 
+kiu ili vivas, kaj kontra&ubreve; tiuj krudaj fortoj de la naturo, kiuj ilin &ccirc;iujn 
+egale atakas.   Kaj kune kaj interkonsente ili celados &ccirc;iuj al unu vero, al 
+unu feli&ccirc;o.   Kaj se iam venos tiu feli&ccirc;a tempo, &gcirc;i estos la frukto de 
+konstanta kaj senlaca laborado de tiuj homoj, kiujn ni vidas nun en &ccirc;i tiu 
+&ccirc;ambrego kaj kies nomo, ankora&ubreve; tre malmulte konata kaj tre malmulte 
+&scirc;atata, estas <q>esperantistoj</q>.</p>
+      </body>
+    </text>
+
+<!-- ############## Parolado antau la kvara kongreso 1908 ############## -->
+
+    <text type="speech" rend="doc" id="kongr4a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Kvara Kongreso Esperantista en Dresden
+          en la <date>17a de a&ubreve;gusto 1908</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Sinjorinoj kaj sinjoroj! &dash; Aperante anta&ubreve; vi kiel tradicia 
+malfermanto de la esperantistaj kongresoj, mi permesas al mi anta&ubreve; &ccirc;io 
+esprimi la plej respektan dankon de nia kongreso al Lia Regnestra Mo&scirc;to la 
+Re&gcirc;o Frederiko A&ubreve;gusto de Saksujo por la granda honoro, kiun li faris al 
+ni, prenante sur sin la altan protektadon de nia kvara kongreso.   Mi 
+esprimas anka&ubreve; profundan dankon de nia kongreso al sinjoroj la Ministroj kaj 
+aliaj eminentaj personoj, kiuj bonvolis eniri en la honoran prezidantaron kaj 
+honoran komitaton de nia kongreso.   Mi esprimas anka&ubreve; nian dankon al tiuj 
+landoj, kiuj sendis al nia kongreso oficialajn delegitojn, kaj al la 
+alilandaj konsuloj, kiuj honoris nin per la reprezentado de iliaj landoj &ccirc;e 
+nia malferma kunveno.   Nun la unuan fojon nia kongreso aperas sub la 
+oficiala sankcio de regnestro kaj registaro; mi estas certa, ke la 
+esperantistoj alte taksos la gravecon de tiu &ccirc;i fakto; mi esperas, ke &gcirc;i 
+estos komenco de tiu nova tempo, kiam nia ideo &ccirc;esos esti penado de nur 
+privataj personoj, sed &gcirc;i fari&gcirc;os grava tasko por la registaroj de la 
+mondo.</p>
+ 
+<p>En la nomo de la kvara tutmonda esperantista kongreso mi salutas la 
+landon germanan, kies gastoj ni &ccirc;iuj estas en la nuna momento; precipe mi 
+salutas la saksan re&gcirc;landon, kiu al ni, filoj de la plej diversaj landoj kaj 
+gentoj, aran&gcirc;is belan akcepton en sia centro mem, en sia fama kultura 
+&ccirc;efurbo.   Mi esprimas nian koran dankon al la saksa registaro kaj precipe 
+al la Dresdena urbestraro por la tuta helpo, kiun ili donis al nia kongreso, 
+kaj por la saluto, kiun ili a&ubreve;digis al ni per siaj estimataj reprezentantoj.</p>
+
+<p>Fine mi esprimas, certe en la nomo de &ccirc;iuj esperantistoj, nian koran 
+kamaradan dankon al niaj germanaj samideanoj kaj anta&ubreve; &ccirc;io al nia Kvaro por 
+la Kvara, kiu prenis sur sin la malfacilan taskon, aran&gcirc;i nian kongreson 
+&gcirc;uste en &ccirc;i tiu jaro, kiam ekzistis tiom da malhelpoj, kaj kiu, dank' al 
+sia granda sindoneco, aran&gcirc;is &ccirc;ion en la plej bona maniero kaj enskribis 
+per tio tre gravan pa&gcirc;on en la historion de nia afero.</p>
+ 
+<p>Germanujo, la lando de la filozofoj kaj poetoj, kiu estis iam la centro 
+de la humanistoj, havas por nia ideo specialan signifon per tio, ke en &ccirc;i 
+tiu lando, dank' al la neforgesebla granda merito de la pastro Johann Martin 
+Schleyer, nia ideo ricevis sian unuan disvolvi&gcirc;on kaj la unuan potencan 
+pu&scirc;on anta&ubreve;en.   Germanujo sekvei estas la lulilo de la ideo de lingvo 
+internacia.   Ni, speciale esperantistoj, havis anka&ubreve; en Germanujo niajn 
+unuajn plej gravajn batalantojn, Einstein kaj Trompeter.   Estas vero, ke 
+poste en la da&ubreve;ro de tre longa tempo nia ideo en &ccirc;i tiu lando &scirc;ajnis tute 
+mortinta; sed en la lastaj jaroj &gcirc;i tie &ccirc;i denove vigle revivi&gcirc;is, kaj ni 
+havas plenan esperon, ke post nia nuna kongreso, kiam la germanoj ekkonos nin 
+pli proksime kaj konvinki&gcirc;os per siaj propraj okuloj kaj oreloj, ke ni ne 
+estas iaj teoriaj fantaziuloj, nia afero &ccirc;i tie ekfloros ne malpli potence, 
+ol en la aliaj grandaj landoj, kaj en la komuna &ccirc;iuhoma afero Germanujo 
+balda&ubreve; okupos unu el la plej honoraj lokoj.</p>
+
+<p>Karaj samideanoj! &dash; En la da&ubreve;ro de la lasta jaro en nia afero okazis 
+faktoj, kiuj maltrankviligis por iom da tempo la mondon esperantistan.   Nun 
+&ccirc;io jam denove trankvili&gcirc;is.   Nia arbo, pri kiu mi parolis en Kembri&gcirc;o, 
+en la pasinta jaro plej konvinke montris sian tutan fortecon kaj sanecon, 
+&ccirc;ar malgra&ubreve; la tute ne atenditaj atakoj, kiuj en la da&ubreve;ro de kelka tempo 
+ka&ubreve;zis grandan krakadon, la arbo konservis sian tutan potencon kaj perdis 
+nur tre malmultajn fdliojn.   Malgra&ubreve; la ka&scirc;ite preparitaj kaj rapide 
+plenumitaj atakoj, kiuj ne donis al niaj soldatoj la povon dece orienti&gcirc;i 
+kaj interkomuniki&gcirc;i, &ccirc;iu el ili sur sia aparta loko staris forte kontra&ubreve; 
+&ccirc;iuj forlogoj, kaj nur tre malmultaj lasis sin kapti per lertaj vortoj. 
+Super la okazintaj faktoj ni povus sekve silente transiri al la tagordo. 
+Tamen, por gardi niajn venontajn batalontojn kontra&ubreve; similaj surprizoj, mi 
+permesos al mi diri kelke da vortoj pri tiu temo.   El la tempo pasinta ni 
+&ccirc;erpu instruon por la tempo venonta.</p>
+ 
+<p>Pasis jam &gcirc;uste tridek jaroj de la momento, kiam Esperanto unue aperis 
+anta&ubreve; malgranda rondo da amikoj; pasis jam dudek unu jaroj de la momento, 
+kiam Esperanto unue aperis publike anta&ubreve; la mondo.   Tre malforta &gcirc;i estis 
+en la unua tempo; &ccirc;iu plej malgranda bloveto povis &gcirc;in renversi kaj 
+mortigi.   &Ccirc;iu bona vorto de la plej sensignifa homo a&ubreve; de la plej 
+senvalora gazeto donis al niaj pioniroj esperon kaj kura&gcirc;on; &ccirc;iu atakanta 
+vorto ka&ubreve;zis al ili doloron.   Kiam anta&ubreve; dudek jaroj la Amerika Filozofia 
+Societo volis preni la aferon de lingvo internacia en siajn manojn, tio estis 
+por la a&ubreve;toro de Esperanto tiel altega kaj neatingebla a&ubreve;toritato, ke li, 
+kiu tiam havis ankora&ubreve; la rajton disponi pri Esperanto, tuj decidis fordoni 
+&ccirc;ion al la manoj de tiu societo, &ccirc;ar, estante tute sensperta, li tiam 
+ankora&ubreve; ne sciis, kia grandega diferenco estas inter teorio kaj praktiko.</p>
+ 
+<p>Feli&ccirc;e la entrepreno de la Amerika Societo ne sukcesis.   Mi uzas la 
+vorton <mentioned>feli&ccirc;e</mentioned>, &ccirc;ar efektive nun, kiam mi estas pli sperta, por mi estas 
+afero tute senduba, ke, se la entrepreno de tiuj teoriistoj da&ubreve;rus iom pli 
+longe, la tuta ideo de lingvo internacia jam delonge estus tute 
+senkreditigita kaj enterigita por &ccirc;iam, a&ubreve; almena&ubreve; por tre longa, longa 
+tempo.</p>
+ 
+<p>Niaj pioniroj laboris, kaj la afero kreskis.   Balda&ubreve; ni &ccirc;iam pli kaj 
+pli akiradis la konvinkon, ke de teoriistoj ni devas atendi tre malmulte da 
+bono por nia afero; ke &ccirc;iuj la&ubreve;doj kaj malla&ubreve;doj de flankaj personoj havas 
+por ni nur tre malgrandan signifon; ke ni devas fidi nur niajn proprajn 
+fortojn, nian propran paciencon kaj konstantecon; ke la mondo venos al ni nur 
+tiam, kiam &gcirc;i vidos en ni potencon, kiam &gcirc;i vidos, ke ni ne palpas en 
+mallumo, ke ni ne perdas hodia&ubreve;, kion ni akiris hiera&ubreve;, ke nia vojo estas 
+klara kaj rekta kaj ni de &gcirc;i neniam deflanki&gcirc;as.</p>
+ 
+<p>Sed ne per unu fojo ni venis al tiu fortika konvinko.   En la unua 
+tempo, vidante, ke nia afero progresas tre malrapide kaj malfacile, multaj 
+esperantistoj pensis, ke la ka&ubreve;zo de tio ku&scirc;as en nia lingvo mem, ke, se ni 
+nur san&gcirc;os tiun a&ubreve; alian detalon, la mondo tuj venos al ni en granda amaso. 
+Tiam venis la periodo de la granda postulado de reformoj.   Feli&ccirc;e tiu 
+periodo da&ubreve;ris ne longe.   La esperantistoj balda&ubreve; konvinki&gcirc;is, ke veni al 
+ia komuna, &ccirc;iujn kontentiganta kaj silentiganta interkonsento pri la esenco 
+de la reformoj estas tute ne eble, kaj la ekstera mondo, kiun la reformemuloj 
+celis, restis absolute indiferenta koncerne tion, &ccirc;u tiu a&ubreve; alia detalo 
+havas en nia lingvo tian formon a&ubreve; alian; oni balda&ubreve; konvinki&gcirc;is, ke per 
+reformado ni nur perdos &ccirc;ion &gcirc;is nun akiritan kaj gajnos absolute nenion. 
+Tiam la esperantistoj firme decidis ne paroli plu pri iaj reformoj.   Kelkaj 
+tre malmultaj malkontentuloj forlasis Esperanton kaj kune kun kelkaj 
+neesperantistoj, kiuj rigardis sin kiel plej kompetentajn en la afero de 
+lingvo internacia, komencis inter si &gcirc;is nun ankora&ubreve; ne fini&gcirc;intan kaj 
+neniam fini&gcirc;ontan diskutadon pri diversaj lingvaj detaloj, kaj ili staras 
+nun sur tiu sama punkto, sur kiu ili staris anta&ubreve; dekkvar jaroj.   La tuta 
+cetera esperantistaro en plena harmonio forte grupi&gcirc;is &ccirc;irka&ubreve; sia 
+konstanta standardo kaj faris de tiu tempo grandan, grandegan mar&scirc;on 
+anta&ubreve;en.</p>
+ 
+<p>De la tempo, kiam la esperantistoj &ccirc;esis paroli pri reformoj, 
+komenci&gcirc;is por Esperanto periodo &ccirc;iam pli kaj pli brilanta.   En la 
+komenco, sub la premo de tre grandaj malhelpoj eksteraj, ni progresadis tre 
+malrapide kaj malfacile.   Sed sub la influo de nia plena interna harmonio 
+kaj nia nedeklini&gcirc;a irado rekte anta&ubreve;en, niaj fortoj &ccirc;iam pli kaj pli 
+kreskis.   Nun ni atingis tian potencon, pri kiu multaj el ni anta&ubreve; dek 
+jaroj ne kura&gcirc;is e&ccirc; revi, kaj se ni mar&scirc;os en tia sama harmonio kiel &gcirc;is 
+nun, nenia forto en la mondo povos haltigi nian iradon, kaj ni plene atingos 
+nian celon.   &Ccirc;iuhore kreskas la nombro de niaj partianoj, &ccirc;iutage 
+pligrandi&gcirc;as la nombro de niaj grupoj.   Nia literaturo kreskas tiel 
+senhalte kaj rapide, ke multaj malgrandai nacioj jam nun povas nin envii. 
+La praktika uzado de nia lingvo fari&gcirc;as &ccirc;iam pli kaj pli granda.   Dum 
+ankora&ubreve; anta&ubreve; ne longe oni tute silentis pri ni kaj poste oni nin mokis, 
+nun oni jam &ccirc;ie nin respektas, kiel grandan potencon.   E&ccirc; tiuj niaj 
+principaj kontra&ubreve;uloj, kiuj anta&ubreve; ne longe mal&scirc;ate rigardis nin de alte, 
+nun jam krias alarmon.</p>
+ 
+<p>Nia lingvo mem konstante pli ri&ccirc;i&gcirc;as kaj elasti&gcirc;as.   Iom post iom 
+konstante aperas novaj vortoj kaj formoj, unuj fortiki&gcirc;as, aliaj &ccirc;esas esti 
+uzataj.   &Ccirc;io fari&gcirc;as kviete, senskue kaj e&ccirc; nerimarkeble.   Nenie 
+montri&gcirc;as ia diferenci&gcirc;ado de nia lingvo la&ubreve; la diversaj landoj, kaj ju 
+pli spertaj fari&gcirc;as la a&ubreve;toroj, des pli simili&gcirc;as reciproke ilia uzado de 
+nia lingvo, malgra&ubreve; la granda malproksimeco de iliaj lokoj de lo&gcirc;ado. 
+Nenie rompi&gcirc;as a&ubreve; difekti&gcirc;as la kontinueco inter la lingvo malnova kaj 
+nova, kaj malgra&ubreve; la fakto, ke nia lingvo forte disvolvi&gcirc;as, &ccirc;iu nova 
+esperantisto legas la verkojn de anta&ubreve; dudek jaroj kun tia sama perfekta 
+facileco, kiel esperantisto tiutempa, kaj li e&ccirc; ne rimarkas, ke tiuj verkoj 
+estas skribitaj ne nun, sed en la unua, su&ccirc;infana periodo de nia lingvo.</p>
+ 
+<p>Nia afero regule kaj trankvile iras anta&ubreve;en.   La tempo de la teoriaj 
+ju&gcirc;oj kaj de klini&gcirc;ado anta&ubreve; &scirc;ajnaj a&ubreve;toritatoj jam de longe pasis.   Se 
+iu nun esprimas sian opinion a&ubreve; konsilon pri Esperanto, oni jam ne demandas, 
+&ccirc;u li estas homo grandfama a&ubreve; ne, &dash; oni nur demandas, &ccirc;u liaj konsiloj 
+estas konformaj al la naturaj bezonoj kaj la natura irado de nia lingvo a&ubreve; 
+ne.   Se iu glornoma persono en plena nesciado de nia afero esprimas iun el 
+tiuj sensenca&jcirc;oj, kiujn ni jam tiel ofte a&ubreve;dis, ekzemple, ke arta lingvo 
+estas utopio, ke la esperantistoj sin reciproke ne komprenas k.t.p., a&ubreve; se 
+li, forgesante la nunan staton de Esperanto kaj la teruran ekzemplon de la 
+volapuka akademio, postulas, ke ni rebaku la tutan lingvon la&ubreve; lia teoria 
+recepto, &dash; tiam ni, esperantistoj, indiferente &ccirc;ion a&ubreve;skultas kaj 
+trankvile iras nian vojon.</p>
+ 
+<p>Ne por fieri pri nia forteco mi diras &ccirc;ion &ccirc;i tion: neniu el ni havas 
+la rajton esti fiera, &ccirc;ar nia forteco ne estas la merito de iu el ni aparte, 
+sed &gcirc;i estas nur la rezultato de multejara pacienca laborado de multo da 
+personoj.   Mi volis nur atentigi vin pri tio, ke en nia afero &ccirc;io povas 
+esti atingita nur per harmonio kaj konstanteco.   Se nin ne gvidus fera 
+konstanteco, nia lingvo jam de longe ne ekzistus, kaj la vortoj <mentioned>lingvo 
+internacia</mentioned> estus nun la plej granda mokata&jcirc;o por la mondo.</p>
+ 
+<p>La longa kaj malfacila batalado nin hardis, kaj ne sole la vo&ccirc;oj de 
+apartaj personoj, sed e&ccirc; la premo de ia granda potenco nun jam ne povus 
+deklini la esperantistaron de &gcirc;ia klara kaj rekta vojo.   Kia do estas la 
+ka&ubreve;zo, ke en la pasinta jaro en nia tendaro subite naski&gcirc;is tia granda 
+vento, kiu en la da&ubreve;ro de momento minacis alporti al ni tiom da malbono? 
+Kiu estis tiu &scirc;ajne grandega forto, kiu por momento enportis tian 
+neatenditan konfuzon en nian mezon?   Nun, kiam &ccirc;io jam klari&gcirc;is, ni povas 
+konfesi, ke &gcirc;i ne estis ia eksterordinare granda potenco, &gcirc;i estis simple 
+kelkaj malmultaj personoj; sed la dan&gcirc;ereco de ilia atako konsistis en tio, 
+ke tiu atako ne venis malka&scirc;e el ekstere, sed &gcirc;i estis ka&scirc;ite preparita 
+kaj tute neatendite aran&gcirc;ita interne de nia tendaro.</p>
+
+<p>&Gcirc;i estas historio, pri kiu mi ne volas paroli.   Nun mi volas nur diri 
+jenon: ni &ccirc;iuj estas reprezentantoj de la ideo de lingvo internacia, ni faru 
+kun &gcirc;i, kion ni volas, sed ni agu honeste kaj ni memoru, ke pri niaj agoj la 
+estonteco severe nin ju&gcirc;os.   Memoru, ke Esperanto estas nenies propra&jcirc;o, 
+ke la esperantistoj havas plenan rajton fari kun &gcirc;i &ccirc;ion, kion ili volas, 
+se ili nur faros &gcirc;in singarde, lojale kaj interkonsente.   Nur por gardi 
+nian lingvon kontra&ubreve; anar&hcirc;io de la flanko de apartaj personoj, nia lingvo 
+havas sian plej senpartie elektitan kaj el plej kompetentaj personoj 
+konsistantan kaj konsistontan Lingvan Komitaton, kiu, dependante de neniu 
+mastro, havas plenan rajton kaj plenan povon esplori kaj prezenti al la 
+sankcio de la esperantistaro &ccirc;ion, kion &gcirc;i volos.   La Bulonja Deklaracio 
+malpermesas nur, ke apartaj personoj rompu la lingvon arbitre, &gcirc;i estas 
+kreita nur por gardi la ekstreme necesan kontinuecon en nia lingvo.   Se iu 
+el vi trovas, ke ni devas fari tion a&ubreve; alian, prezentu vian deziron al la 
+Lingva Komitato.   Se tiu Komitato &scirc;ajnos al vi tro konservativa, tiam 
+memoru, ke &gcirc;i ekzistas ne por la plenumado de diversaj personaj kapricoj, 
+sed por la gardado de la interesoj de la tuta esperantistaro; ke pli bone 
+estas, ke la Komitato faru tro malmulte, ol ke &gcirc;i facilanime faru ian pason, 
+kiu povus malutili al nia tuta afero.   &Ccirc;ar vi &ccirc;iuj konfesas, ke la esenco 
+de nia lingvo estas &gcirc;usta kaj oni povas disputi nur pri detaloj, tial &ccirc;io 
+bona kaj &ccirc;io efektive necesa povas facile esti farata en &gcirc;i per vojo 
+lojala, en harmonio kaj paco.</p>
+ 
+<p>La personoj, kiuj volas altrudi al la tuta esperantistaro siajn 
+dezirojn, diras ordinare, ke ili havas la plej bonajn ideojn, kiujn la 
+plimulto da esperantistoj certe aprobus, sed iaj &ccirc;efoj ne volas ilin 
+a&ubreve;skulti kaj ne permesas al ili prezenti siajn ideojn por esplorado.   Tio 
+estas ne vera.   Vi scias, ke la&ubreve; la nova ordo, kiun per komuna vo&ccirc;donado 
+akceptis por si nia Lingva Komitato, &ccirc;iu homo ne sole havas la rajton 
+prezenti al la Komitato siajn proponojn, sed se la propono havas e&ccirc; nur plej 
+malgrandan &scirc;ajnon de seriozeco, se inter la cent membroj de la Komitato la 
+propono akiris por si e&ccirc; nur la aprobon de kvin personoj, tio jam sufi&ccirc;as, 
+ke la Lingva Komitato estu devigata esplori tiun proponon.   Vi vidas sekve, 
+ke neniu povas plendi, ke oni lin ne a&ubreve;skultas a&ubreve; ke iaj &ccirc;efoj prezentas 
+al vo&ccirc;donado nur tion, kion ili deziras.</p>
+ 
+<p>Se iu diras al vi, ke oni devas &ccirc;ion krude rompi, se oni per &ccirc;iuj 
+fortoj kaj per &ccirc;iuj eblaj rimedoj penas malkontentigi vin; se de la vojo de 
+severa unueco, de tiu sola vojo, kiu povas konduki nin al nia celo, oni penas 
+forlogi vin, &dash; tiam gardu vin! tiam sciu, ke tio kondukas al malordigo de 
+&ccirc;io, kion multaj miloj da personoj atingis por la granda &ccirc;iuhoma ideo per 
+multejara pacienca laborado.</p>
+ 
+<p>Mi finis.   Pardonu al mi la malagrablan temon, kiun mi elektis.   &Gcirc;i 
+estas la unua kaj espereble anka&ubreve; la lasta fojo en la historio de niaj 
+kongresoj.   Kaj nun ni &ccirc;ion forgesu; ni komencu la grandan feston, por kiu 
+ni &ccirc;iuj kunvenis el la diversaj landoj de la mondo; ni &gcirc;oje pasigu nian 
+grandan &ccirc;iujaran semajnon de la pure homara festo.   Ni memoru pri tio, ke 
+niaj kongresoj estas ekzercanta kaj edukanta anta&ubreve;parolo por la historio de 
+la estonta interfratigita homaro.   Por ni estas gravaj ne iaj bagatelaj 
+eksteraj detalajoj de nia lingvo, sed &gcirc;ia esenco, &gcirc;ia ideo kaj celo, tial 
+ni anta&ubreve; &ccirc;io devas zorgi pri &gcirc;ia seninterrompa vivado, pri &gcirc;ia senhalta 
+kreskado.   Granda estas la diferenco inter homo-infano kaj homo-viro; granda 
+eble estos la diferenco inter la nuna Esperanto kaj la evoluciinta Esperanto 
+de post multaj jarcentoj; sed dank' al nia diligenta gardado, la lingvo 
+fortike vivos, malgra&ubreve; &ccirc;iuj atencoj, &gcirc;ia spirito forti&gcirc;os, &gcirc;ia celo 
+estos atingita, kaj niaj nepoj benos nian paciencon.</p> 
+      </body>
+    </text>
+
+<!-- ############## Parolado antau la kvina kongreso 1909 ############## -->
+
+    <text type="speech" rend="doc" id="kongr5a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Kvina Kongreso Esperantista en Barcelona
+          en la <date>6a de septembro 1909</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Karaj samideanoj kaj amikoj! &dash; &Ccirc;iufoje kiam komenci&gcirc;as nova 
+interkongresa jaro, &ccirc;iu esperantisto, kiu anta&ubreve;vidas por si iom da libera 
+tempo kaj povas &scirc;pari iom da mono, komencas preparigadi al la estonta 
+kongreso esperantista, al la plej proksima granda komuna festo de la popolo 
+esperantista.   Amikoj, kiujn ligas la sama ideo, la samaj aspiroj kaj 
+esperoj, kortu&scirc;ite diris al si reciproke <q>&gcirc;is la revido</q>, kaj kun &gcirc;ojo ili 
+atendas tiun revidon.   Kiel reciproke sin amantaj gefratoj, kiuj nur de 
+tempo al tempo povas kuni&gcirc;i en la domo de siaj gepatroj, tiel la 
+esperantistoj sopire atendas tiun momenton, kiam ili povos renkonti&gcirc;i en la 
+centro de Esperantujo, ame saluti sin reciproke, varme premi al si la manojn 
+kaj diri al si: <q>ni vivas, ni honeste laboris en la da&ubreve;ro de la jaro, ni 
+gardis honeste la honoron de nia domo, ni povas kun pura konscienco 
+partopreni en la komuna festo de nia familio.</q></p>
+ 
+<p>Sed dum &ccirc;iu el vi prepari&gcirc;as al nia komuna festo kun koro tute &gcirc;oja, 
+mi faras tion saman &ccirc;iam kun koro iom peza, &ccirc;ar en niaj kongresoj la sorto 
+donis al mi rolon kvankam tre flatan, tamen samtempe anka&ubreve; tre &scirc;ar&gcirc;an: mi 
+estas devigata akceptadi honorojn, kiuj apartenas ne al mi.   Prave a&ubreve; 
+malprave la mondo vidas en mi &ccirc;iam la naturan reprezentanton de la anaro 
+esperantista, la simbolon de la esperantismo, de la esperantista lojaleco kaj 
+unueco; kaj &ccirc;ar la homoj ne povas esprimi siajn sentojn al io abstrakta, 
+tial &ccirc;iuj esprimoj de simpatio kaj entuziasmo por la esperantismo 
+direkti&gcirc;as sub mia adreso.</p>
+ 
+<p>Ekzistas tamen personoj, kiuj tion ne komprenas a&ubreve; ne volas kompreni; 
+ili envias la flagon pro la honoroj, kiuj estas farataj al &gcirc;i; ili vidas en 
+mi personon, kiu kvaza&ubreve; ludas la rolon de ia re&gcirc;o.   Jen estas la ka&ubreve;zo, 
+pro kiu mi &ccirc;iam kun peza koro veturas al niaj kongresoj.   Forte, tre forte 
+mi dezirus forrifuzi mian por mi tro turmentan rolon, kaj stari ne anta&ubreve; vi, 
+sed inter vi; sed la afero ne dependas de mia volo, &gcirc;i dependas de diversaj 
+cirkonstancoj, anta&ubreve; kiuj mi devas min klini, se mi ne volas malutili al nia 
+movado.   Tial anka&ubreve; hodia&ubreve; mi staras anta&ubreve; vi kiel simbolo de via afero 
+kaj de via unueco, kiel via konkreta reprezentanto; mi akceptas &ccirc;ion, kio 
+estas destinata por vi, kaj mi &ccirc;ion fidele transdonas al vi, popolo 
+esperantista.</p>
+ 
+<p>En &ccirc;i tiu mia rolo de via reprezentanto, mi anta&ubreve; &ccirc;io atentigas vin 
+pri la granda honoro, kiun faris al ni Lia Re&gcirc;a Mo&scirc;to la Re&gcirc;o Alfonso 
+XIIIa, afable akceptinte la honoran prezidantecon de nia kongreso.   Mi 
+esprimas en via nomo nian plej respektan dankon al Lia Re&gcirc;a Mo&scirc;to.   La 
+Re&gcirc;o Alfonso XIIIa longe vivu!</p>
+ 
+<p>Mi atentigas vin pri la granda simpatio, kiun montris al nia afero la 
+registoj de tiu lando, en kiu ni nun trovi&gcirc;as; ne sole &ccirc;iuj ministroj 
+prenis sur sin la patronecon de nia kongreso, sed la registaro de la lando en 
+sia propra nomo per siaj ambasadoroj oficiale invitis la registaroin de aliaj 
+landoj, ke ili sendu delegitojn al nia kongreso.   Por &ccirc;i tiu granda kaj tre 
+grava servo mi esprimas en via nomo plej varman dankon al la registaro de la 
+hispana regno.</p>
+ 
+<p>Vi scias, kiel energie kaj zorge la loka organiza komitato laboris por 
+belega kaj plej fruktoporta preparado de nia nuna kongreso.   Vi scias, ke 
+ili ne perdis la kura&gcirc;on, e&ccirc; malgra&ubreve; la malfeli&ccirc;aj Barcelonaj 
+okazinta&jcirc;oj, kiuj &ccirc;iun el ni devigis pensi, ke la kongreso en Barcelono 
+estas jam absolute nefarebla.   Parton de tio, kion la komitato faris, vi jam 
+vidis, la ceteran parton vi vidos dum la kongreso mem kaj en la postkongresaj 
+tagoj.   Al &ccirc;i tiu multe laborinta komitato, kaj precipe al &gcirc;ia kara 
+prezidanto, mi esprimas en la nomo de ni &ccirc;iuj nian plej koran dankon.</p>
+ 
+<p>Vi vidis, kian eksterordinare honoran kaj simpatiplenan akcepton 
+preparis por ni la urbo Barcelono.   Vi scias, ke nur apartaj, 
+neanta&ubreve;viditaj cirkonstancoj malhelpis la urbon, montri kun plena entuziasmo 
+kaj en sia plena amplekso sian grandan estimon, sian plej vivan simpation al 
+vi, popolo esperantista, al via penado kaj laborado, al via celo kaj esperoj. 
+En via nomo mi esprimas al la urbo nian plej profundan kaj sinceran dankon.</p>
+ 
+<p>En la &gcirc;isnunaj kongresoj mi havis ion por diri al vi, tial &ccirc;e la 
+malfermo de la kongreso mi parolis longe; hodia&ubreve; mi havas nenion gravan por 
+diri, tial mi parolos mallonge.   Vi scias, kia estas nia celo; vi scias, kia 
+estas la sola vojo, per kiu ni povas atingi tiun celon; ni mar&scirc;u do anta&ubreve;en 
+diligente kaj harmonie.   Se ni demandos nin, kion ni faris en la &jcirc;us 
+fini&gcirc;inta interkongresa jaro, ni povos respondi: <q>Ni sane vivis, ni kreskis, 
+ni forti&gcirc;is en &ccirc;iuj rilatoj</q>.   Kian grandan signifon tio havas, tion povas 
+kompreni nur tiuj, kiuj komprenas la tutan gravecon kaj malfacilecon de nia 
+afero, kaj kiuj mem laboris por &gcirc;i.   Kiel en la jaroj pasintaj, tiel anka&ubreve; 
+en la jaro &jcirc;us fini&gcirc;inta, multaj el vi laboris por nia komuna afero kun 
+granda fervoro kaj sindoneco; al ili la esperantistaro esprimas sian koran 
+dankon.   Sed dum la Kongreso ni ne sole rakontos al ni reciproke pri la 
+laboroj faritaj, ni devos plenumi anka&ubreve; kelkajn laborojn komunajn, kiuj 
+postulas komunan interkonsili&gcirc;on kaj interkonsenton.</p>
+ 
+<p>Ni komencu en feli&ccirc;a horo niajn kongresajn laborojn kaj festojn, al la 
+unuaj ni penu doni la plej bonan sukceson, en la duaj ni &ccirc;erpu kura&gcirc;on kaj 
+forton por la laboroj de la jaro venonta.</p> 
+      </body>
+    </text>
+
+<!-- ########## Parolado antau malferma kunveno de UEA 1909 ######### -->
+
+    <text type="speech" rend="doc" id="uea">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la malferma kunveno de UEA
+          &ccirc;e la Kvina Kongreso Esperantista en Barcelona
+          en la <date>7a de septembro 1909</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Estimataj membroj de U.E.A.! &dash; S-ro Mudie, via prezidanto, petis, ke 
+mi diru &ccirc;e via kunveno kelkajn vortojn de la&ubreve;do a&ubreve; malla&ubreve;do pri la agado 
+de via Asocio.   &Ccirc;u mi esprimos la&ubreve;don a&ubreve; malla&ubreve;don, la respondo ne povas 
+esti duba: post la tiel bonaj kaj gravaj raportoj, kiuj estis legitaj, post 
+la agado, kiu en la da&ubreve;ro de la lasta jaro estis plenumita de U.E.A., ne 
+povas resti e&ccirc; la plej malgranda dubo pri tio, ke, lasante flanke la 
+instituciojn oficialajn, U.E.A. fari&gcirc;is la plej grava institucio de nia 
+movado kaj &gcirc;i al nia afero alportos pli kaj pli da utileco.</p>
+ 
+<p>Anta&ubreve; kvin jaroj, &ccirc;e la Bulonja Kongreso, estis prezentita projekto de 
+&gcirc;enerala organiza&jcirc;o por la tuta esperantistaro.   La Kongreso tiam ne volis 
+tiun projekton kaj per deklaro difinis, ke estas nomata esperantisto &ccirc;iu 
+persono, kiu scias kaj uzas Esperanton tute egale por kiaj celoj, kaj ke nia 
+movado ne estas oficiale ligita kun ia speciala idealo, kvankam la plej 
+multaj el la esperantistoj ja sentis tiun idealon kaj estis konstante 
+gvidataj de &gcirc;i.   Sed kelkaj esperantistoj havis la bonan ideon fari per 
+vojo privata tion, kion oficiale fari ni ne povis.   Ili kunigis ne ciujn 
+esperantistojn, sed nur tiujn personojn, kiuj, akceptinte la internan ideon 
+de esperantismo, deziras esti unuigitaj en internacia organiza&jcirc;o, por 
+reciproka sinservado kaj alproksimi&gcirc;ado, &ccirc;ar ili pensas, ke ili tiamaniere 
+pli kaj pli multi&gcirc;os inter si ligilojn de solidareco kaj sian celon atingos 
+pli rapide, ol per izola agado.</p>
+ 
+<p>U.E.A. unuigas do ne &ccirc;iujn esperantistojn, sed &ccirc;iujn esperantismanojn, 
+t.e. &ccirc;iujn tiujn homojn, kiuj konsideras ne nur Esperanton en &gcirc;ia ekstera 
+lingva formo, sed anka&ubreve; &gcirc;ian internan ideon.   Ke la pli granda parto de la 
+esperantistaro konsentas kun tiu &ccirc;i ideo pruvas la fakto, ke en malmulte da 
+tempo via Asocio ricevis la plej favoran akcepton en nia movado.   Oni &ccirc;ie 
+komprenas, ke U.E.A. liveras ta&ubreve;gan ne&ubreve;tralan fundamenton por &ccirc;iuj 
+interhomaj rilatoj kaj servoj, kaj el tiu &ccirc;i reciproka sinhelpado rezultos 
+pli da amikeco kaj estimo inter la gentoj, kaj fori&gcirc;os la baroj, kiuj 
+malhelpas ilian pacan interkomuniki&gcirc;on.   En tiu &ccirc;i principo ku&scirc;as la 
+&ccirc;efa graveco de via Asocio.</p>
+ 
+<p>Dum la oficiala esperantistaro, la&ubreve; la deklaro de Boulogne, estas 
+devigata al plena ne&ubreve;traleco rilate al tio kaj devas sin limigi nur al pure 
+esperantaj demandoj, U.E.A., &ccirc;ar &gcirc;i reprezentas nur personojn, kiuj deziras 
+esti organizataj pro difinita celo aprobita de ili, povas fari gravan 
+laboron, kiu havos grandan signifon rilate al la interna ideo de esperantismo.</p>
+ 
+<p>Mi do estas plene konvinkita pri la utileco de via Asocio kaj la 
+esperantisma karaktero de la laboro, kiun &gcirc;i jam plenumis kaj anka&ubreve; 
+plenumos.   Mi fine sentas la devon gratuli kaj danki la sindonajn fondintojn 
+de U.E.A., kiuj per sia obstina laboro kaj penado povis alkonduki tiun 
+institucion sur la bonan vojon, kie &gcirc;i nun staras.   Mi de via Asocio 
+atendas multe da bono por nia afero, kaj mi tutkore esperas, ke U.E.A. faros 
+&ccirc;iam pli gravajn progresojn kaj per sia rapida plifortiki&gcirc;o nin &scirc;ovos 
+anta&ubreve;en al la balda&ubreve;a realigo de esperantismo.</p> 
+      </body>
+    </text>
+
+
+<!-- ########## Parolado antau la sesa kongreso 1910 ######### -->
+
+    <text type="speech" rend="doc" id="kongr6a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Sesa Kongreso Esperantista en Washington
+          en la <date>15a de a&ubreve;gusto 1910</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Lando de libereco, lando de estonteco, mi vin salutas!   Lando, pri kiu 
+revis kaj nun ankora&ubreve; revas multaj suferantoj kaj senkulpaj persekutatoj, mi 
+vin salutas!   Regno de homoj, kiu apartenas ne al tiu a&ubreve; alia gento a&ubreve; 
+eklezio, sed al &ccirc;iuj siaj honestaj filoj, mi klinas min anta&ubreve; vi, kaj mi 
+estas feli&ccirc;a, ke la sorto permesis al mi vin vidi kaj spiri almena&ubreve; dum 
+kelka tempo vian liberan, de neniu monopoligitan aeron.</p> 
+
+<p>Saluton al vi, Usono, plej potenca reprezentanto de la nova mondo.   Ni, 
+filoj de la malnova kaj maljuna kontinento, venis al vi kiel gastoj; sed ne 
+vidama turismo en&scirc;ipigis nin, ne la espero de ia komerca akiro pelis nin al 
+via bordo; ni venis al vi, por alporti al vi novan senton kaj novan ideon, ni 
+venis, por alporti novan kura&gcirc;on al tiuj niaj samideanoj kaj samidealanoj, 
+kiuj &gcirc;is nun laboris inter vi kaj kies vortoj pri ia nova popolo eble 
+&scirc;ajnis al vi tro fabelaj.   Peco de tiu miksdevena kaj tamen lingve kaj kore 
+unuigita popolo nun staras anta&ubreve; vi reale kaj vivante.   Rigardu nin, 
+a&ubreve;skultu nin, kaj konvinki&gcirc;u, ke ni ne estas fabelo.   Ni estas 
+diversgentanoj, kaj tamen ni sentas nin kiel samgentanoj, &ccirc;ar ni komprenas 
+nin kiel samgentanoj, havante nenian bezonon humiligi a&ubreve; fremdlingve 
+balbutigi unu la alian.   Ni esperas, ke dank' al nia laborado pli a&ubreve; malpli 
+frue la tuta mondo simili&gcirc;os al ni kaj fari&gcirc;os unu granda homa gento, 
+konsistanta el diversaj familioj, interne apartlingvaj kaj apartmoraj, sed 
+ekstere samlingvaj kaj sammoraj.   Al tiu nia laborado, kiu celas krei iom 
+post iom unuigitan, sekve fortigitan kaj spirite altigitan homaron, ni nun 
+invitas vin, filoj de Usono.   Kaj ni esperas, ke nia voko ne restos vana, 
+sed &gcirc;i balda&ubreve; e&hcirc;e resonos en &ccirc;iuj anguloj de via lando kaj tra tuta via 
+kontinento.</p>
+ 
+<p>Nur tre malmultaj el ni povis veni en vian landon, &ccirc;ar ni, 
+esperantistoj, ne estas homoj ri&ccirc;aj; de nia nuna kongreso ni sekve ne povas 
+atendi gravajn decidojn, kiuj havus signifon por la tuta esperantistaro.   Ni 
+venis al vi, Usonanoj, precipe por pasigi en via mezo kaj anta&ubreve; viaj okuloj 
+unu semajnon de nia esperantista vivo, por montri al vi almena&ubreve; malgrandan 
+pecon de tiu vivo, por alporti al vi semon; kaj ni esperas, ke post nia 
+foriro tiu semo potence &gcirc;ermos kaj kreskos, kaj en via lando nia afero 
+balda&ubreve; havos siajn plej fervorajn kaj plej gravajn apostolojn.</p> 
+
+<p>En via lando, Usonaj samideanoj, nia afero estas ankora&ubreve; tro juna, kaj 
+multaj el vi ne ellaboris al si ankora&ubreve; tute klaran ju&gcirc;on pri &gcirc;i; tial 
+permesu, ke mi almena&ubreve; iom esploru anta&ubreve; vi la vojon, kiun ni iras.</p>
+ 
+<p>Kion celas la esperantista movado?   &Gcirc;i celas atingi reciprokan 
+komprenadon inter &ccirc;iuj homoj kaj popoloj.   Por kio ni bezonas tian 
+reciprokan komprenadon?   Kiaj estas la sekvoj, kiujn ni atendas de &gcirc;i? 
+Kial ni deziras, ke &gcirc;i estu nepre sur fundamento ne&ubreve;trala?   Kial ni tiel 
+persiste laboras por &gcirc;i?   Kia estas la spirito, kiu nin &ccirc;iujn ligas inter 
+ni?   Pri &ccirc;io &ccirc;i tio mi jam multe parolis, kaj mi ne volas nun ripeti miajn 
+vortojn, des pli, ke &ccirc;iu el vi post kelka meditado facile mem trovos la 
+respondojn.   Anta&ubreve; vi, praktikaj amerikanoj, mi volas analizi alian 
+demandon, nome: &ccirc;u ni kun nia laborado staras sur vojo tute certa, a&ubreve; &ccirc;u 
+ni povas timi, ke iam nia tuta laborado montri&gcirc;os vana?   Nur plena konscio 
+pri la irota vojo donas al la mar&scirc;antoj sufi&ccirc;e da energio, por 
+kontra&ubreve;batali &ccirc;iujn malfacila&jcirc;ojn, kiuj trovi&gcirc;as sur la vojo.</p>
+ 
+<p>La celo, por kiu ni laboras, povas esti atingita per du vojoj: a&ubreve; per 
+laborado de homoj privataj, t.e. de la popolaj amasoj, a&ubreve; per dekreto de la 
+registaroj.   Plej kredeble nia afero estos atingita per la vojo unua, &ccirc;ar 
+al tia afero, kiel nia, la registaroj venas kun sia sankcio kaj helpo 
+ordinare nur tiam, kiam &ccirc;io estas jam tute preta.   Kia devas esti la 
+karaktero de la unua vojo, pri tio neniu povas dubi; pri afero, kies tuta 
+esenco kaj vivo estas bazita sur interkonsento, &ccirc;iu komprenas tre bone, ke 
+laborado de amasoj povas &gcirc;in konduki al celo nur tiam, se &ccirc;iuj laboras 
+unuanime.   En tia afero, se &gcirc;i per si mem montri&gcirc;is vivipova, konkordo 
+estas la plej certa garantio de senduba sukceso, malkonkordo signifas la 
+morton.   Tion komprenas tre bone niaj samideanoj, kaj tial ili kun indigno 
+forpu&scirc;as &ccirc;iun, kiu volas delogi ilin de la komuna vojo.   Sed iufoje en la 
+kapo de tiu a&ubreve; alia samideano aperas la sekvanta demando: kio estos la 
+sekvo, se la solvon de la internacilingva problemo volos iam preni sur sin ia 
+granda forto, kontra&ubreve; kiu ni &ccirc;iuj estas tro senfortaj, ekzemple la 
+registaroj de la mondo?   &Ccirc;u ni devas timi, ke ili eble elektos alian 
+solvon, ol ni elektis, kaj tiamaniere nia tuta laborado fari&gcirc;os vana?</p>
+ 
+<p>Por trovi klaran respondon al tiu demando, ni prezentu al ni, ke la 
+registaroj de la mondo a&ubreve; iaj aliaj grandaj kaj influaj potencoj starigis 
+a&ubreve;toritatan komitaton, kiu devas decidi, kia lingvo devas fari&gcirc;i 
+internacia.   En la artikolo <title>Esenco kaj Estonteco</title>, kiun multaj el vi legis 
+en la <title>Fundamenta Krestomatio</title>
+vivipova, bonege funkcias, bonege sin tenas jam multe da jaroj, kreis grandan 
+literaturon, ellaboris sian spiriton kaj vivon k.t.p.; sekve, anstata&ubreve; fari 
+tute senbezone kaj sencele riskajn novajn eksperimentojn, ni simple akceptu 
+tion, kio jam ekzistas; ni donu al &gcirc;i la a&ubreve;toritatan apogon de la 
+registaroj, kiujn ni reprezentas, kaj tiam la tuta eterna problemo estos tuj 
+plene solvita, kaj de morga&ubreve; la tuta civilizita homaro reciproke sin 
+komprenos.</p>
+ 
+<p>Tia, mi ripetas, estas la plej natura decido, kiun ni povas atendi de la 
+registare elektota komitato.   Sed ni supozu, ke la komitato trovos, ke 
+diversaj &scirc;an&gcirc;oj en Esperanto estas efektive tre necesaj.   Kiel do &gcirc;i 
+agos?</p>
+ 
+<p>Anta&ubreve; &ccirc;io &gcirc;i sin demandos, &ccirc;u &gcirc;i estas sufi&ccirc;e forta, por altrudi 
+sian teorian volon al tiuj multaj miloj da homoj, kiuj &gcirc;is nun estis la 
+solaj laborantoj en la afero.   La esperantistoj laboris dum longa vico da 
+jaroj, multe laboris, multe oferis kaj kun tre granda malfacileco fine akiris 
+tion, kio dum multaj miljaroj &scirc;ajnis neakirebla kaj kio, unu fojon perdita, 
+neniam plu reakiri&gcirc;us, &ccirc;ar la mondo perdus la tutan konfidon al la 
+internacilingva ideo.   Sekve &ccirc;iu prudenta komitato dirus al si: <q>Ni devas 
+esti tre singardaj, por ke, anstata&ubreve; akceli la aferon, ni &gcirc;in ne pereigu 
+por &ccirc;iam.</q>   Se la komitato scius, ke &gcirc;in elektis ekzemple nur ia unu tre 
+malgranda kaj malgrava landeto, ke la elekto estis nur tute senvalora 
+formala&jcirc;o, ke la elektintoj tute sin ne interesas pri la afero kaj ne havas 
+e&ccirc; la plej malgrandan intencon &gcirc;in subteni, nek la forton por tio, tiam 
+prudentaj komitatanoj nur simple esprimus sian opinion kaj dezirojn pri 
+diversaj farindaj &scirc;an&gcirc;oj en Esperanto kaj lasus la akceptadon a&ubreve; 
+neakceptadon al la decido de la esperantistoj mem, sed neniam komencus 
+konkuradon kontra&ubreve; la esperantistaro; &ccirc;ar ili komprenus, ke morale tio 
+estus nur peko kontra&ubreve; la internacilingva ideo kaj praktike &gcirc;i pli a&ubreve; 
+malpli frue kondukus nur al fiasko.</p>
+ 
+<p>Nun ni supozu, ke por la decido de la demando pri lingvo internacia 
+estas kreita komitato, kiu havas forton ne fikcian sed efektivan kaj grandan. 
+Anta&ubreve;e mi jam montris, ke se tia komitato ne volos, ke &gcirc;ia decido restu 
+praktike absolute senvalora, &gcirc;i povos preni nur a&ubreve; Esperanton, a&ubreve; ion tre 
+similan al Esperanto.   Mi diris jam, ke plej kredeble &gcirc;i akceptos simple 
+Esperanton en &gcirc;ia nuna formo.   Sed ni supozu, ke &gcirc;i tion ne volos fari; 
+kiel do &gcirc;i agos: &Ccirc;ar &gcirc;i komprenos tre bone, ke, por krei vivipovan 
+lingvon, tute ne sufi&ccirc;as esti instruita homo kaj diri al si <q>mi kreos</q>; ke 
+oni ne povas tion fari la&ubreve; mendo en la da&ubreve;ro de kelke da semajnoj; ke tio 
+postulas tre longan, fervoran, sindoneman, amoplenan laboradon, elprovadon, 
+trasentadon k.t.p.; kaj &ccirc;ar &gcirc;i scios, ke ekzistas jam lingvo, super kiu 
+multe da homoj tre longe laboris, kiu havas multejaran historion kaj tutan 
+vivon, ke tiu lingvo bonege funkcias, kaj nur malmultaj punktoj povas en &gcirc;i 
+esti disputeblaj: tial estas tute kompreneble, ke, se la komitato traktos 
+sian taskon serioze, &gcirc;i ne riskos preni sur sin mem la kreadon de tute nova 
+lingvo, nek prenos alian lingvan projekton, kiun la vivo ankora&ubreve; ne sufi&ccirc;e 
+elprovis, nek komencos tute senbezone, sekve neprudente bataladon kontra&ubreve; 
+tiuj, kiuj &gcirc;is nun laboris en la afero, sed &gcirc;i prenos Esperanton kaj faros 
+en &gcirc;i tiujn &scirc;an&gcirc;ojn, kiujn &gcirc;i trovos necesaj.</p>
+ 
+<p>Al kiu la komitato komisius la faradon de la &scirc;an&gcirc;oj?   En la tempo 
+prepara, kiam estus necese esplori principe la demandon, kian lingvon oni 
+devas elekti, la komitato povus komisii la laboron al kiu ajn, zorgante nur, 
+ke la elektitoj estu homoj prudentaj kaj senpartiaj kaj komprenu la tutan 
+respondecon, kiun ili prenas sur sin.   Sed kiam la lingvo estus jam elektita 
+kaj oni decidus fari en &gcirc;i &scirc;an&gcirc;ojn, kun kiu oni konsili&gcirc;us pri tiu 
+laboro?   La plej simpla prudento kaj la plej simpla komprenado de sciencaj 
+metodoj diras, ke pri tia laboro oni devus konsili&gcirc;i ne kun personoj, kiuj 
+konas la lingvon de ekstere, sed anta&ubreve; &ccirc;io kun personoj, kiuj plej bone 
+konas la lingvon interne, kiuj plej multe laboris por &gcirc;i, plej multe 
+praktike &gcirc;in uzis kaj sekve havas en &gcirc;i plej grandan sperton kaj plej bone 
+konas &gcirc;iajn mankojn efektivajn.   &Ccirc;iu komprenas tre bone, ke fari &scirc;an&gcirc;ojn 
+en iu lingvo, gvidante sin nur per ekstera &scirc;ajno kaj ne konsili&gcirc;inte kun 
+personoj, kiuj plej bone konas tiun lingvon, estus tia infana&jcirc;o, kiun certe 
+nenia komitato povus fari, se &gcirc;i traktus sian taskon serioze kaj ne estus 
+sugestiata de personoj, kiuj havas ian ka&scirc;itan celon.</p>
+ 
+<p>Kaj se la komitatanoj decidos fari &scirc;an&gcirc;ojn en Esperanto, kion ili 
+povos &scirc;an&gcirc;i?   Se ili ekzemple volos diri: <q>tiu vorto estas prenita el 
+lingvo, kiun parolas cent milionoj, tial ni el&jcirc;etu &gcirc;in kaj prenu vorton el 
+lingvo, kiun parolas cent dudek milionoj</q>, a&ubreve; se ili dirus: <q>al ni ne 
+pla&ccirc;as la praktike tute bona vorto <mentioned>estas</mentioned>, ni preferas 
+<mentioned>esas</mentioned>
+ ...</q>, k.t.p., 
+tio estus ja simpla infana&jcirc;o, kiun seriozaj homoj certe ne permesus al si, 
+&ccirc;ar ili komprenus, ke en lingvo, kiu havas jam multejaran vivon, &scirc;an&gcirc;i 
+grandan amason da vortoj, pro simpla kaprico, pro ia pure teoria kaj praktike 
+absolute senvalora motivo, estus sensenca&jcirc;o.   Memorante, ke oni atendas de 
+ili ne ian teorian filologian amuzi&gcirc;on, sed laboron praktikan, ili 
+kompreneble &scirc;an&gcirc;us nur tiajn vortojn a&ubreve; formojn, kiuj montri&gcirc;is kiel 
+malbonaj per si mem, malbonaj absolute, grave maloportunaj por la uzantoj de 
+la lingvo.   Sed se vi trarigardos &ccirc;iujn kritikojn, kiuj estis faritaj 
+kontra&ubreve; Esperanto en la da&ubreve;ro de dudek tri jaroj &dash; kaj Esperanton ja 
+kritikis jam multaj miloj da homoj, kaj certe neniu e&ccirc; plej malgranda el 
+&gcirc;iaj mankoj restis ka&scirc;ita &dash; vi trovos, ke la grandega plimulto el tiuj 
+kritikoj estas simple personaj kapricoj.   La nombro de tiuj &scirc;an&gcirc;aj 
+proponoj, kiuj efektive povus havi ian praktikan valoron, estas tiel 
+malgranda, ke ili &ccirc;iuj kune okupus ne pli ol unu malgrandan folieton, kiun 
+&ccirc;iu povus ellerni en duonhoro; sed e&ccirc; inter tiuj tre malmultaj supozeblaj 
+&scirc;an&gcirc;oj la plej gravaj estas nur plibonigo &scirc;ajna, sed en efektiveco ili 
+post pli matura pripenso montri&gcirc;us eble nur kiel malplibonigo.   Tiel 
+ekzemple la forigo de la supersignoj kaj de la akuzativo, kion mi anta&ubreve; 
+dekses jaroj proponis, por liberigi de la turmentantoj kaj faciligi la 
+propagandon, kaj kion postulas la plimulto de la reformistoj, tiu &scirc;an&gcirc;o en 
+la nuna tempo, kaj tiom pli anta&ubreve; la okuloj de registare starigota kaj sekve 
+forton havanta komitato, devas aperi kiel tute ne akceptebla, &ccirc;ar &gcirc;i 
+prezentus kripligon de la interna valoro de la lingvo, por pla&ccirc;i al &gcirc;iaj 
+eksteraj rigardantoj, forigon de necesaj gravaj sonoj el la lingvo kaj de 
+libera vortordo kaj klareco por ... ke la presistoj ne bezonu elspezi kelke 
+da spesmiloj kaj la komencantoj ne havu kelkan malfacila&jcirc;on.</p>
+ 
+<p>Se vi prenos ian artikolon esperantan, prezentitan de niaj kontra&ubreve;uloj 
+por senkreditigi Esperanton, vi preska&ubreve; &ccirc;iam trovos nur unu aferon: grandan 
+amasigon de la plurala fini&gcirc;o <mentioned>j</mentioned>; tiu malfeli&ccirc;a 
+<mentioned>j</mentioned>, kiun neniu tamen 
+kura&gcirc;as kritiki en la bela greka lingvo, estas la kvintesenco de &ccirc;iuj 
+terura&jcirc;oj, kiujn niaj kontra&ubreve;uloj montras en Esperanto!</p>
+ 
+<p>Unuvorte, &ccirc;iu el vi povas facile konvinki&gcirc;i, ke se iam registare 
+starigota komitato decidos fari &scirc;an&gcirc;ojn en Esperanto kaj se tiu komitato 
+traktos sian taskon serioze, &gcirc;i povos &scirc;an&gcirc;i en Esperanto nur tre, tre 
+malmulte; la postkomitata Esperanto restos tute la sama lingvo, kiel la 
+Esperanto anta&ubreve;komitata, nur eble kelkaj nunaj formoj fari&gcirc;os ar&hcirc;aismoj 
+kaj cedos sian lokon al pli oportunaj formoj, neniel rompante la kontinuecon 
+de la lingvo kaj neniel ruinigante la valoron de tio, kion ni &gcirc;is nun 
+akiris.   Tio estas ne nia pia deziro, sed tion plene certigas al ni simpla 
+logiko kaj prudento, kontra&ubreve; kiu certe nenia serioza komitato volos peki, se 
+&gcirc;i ne volos, ke &gcirc;iaj laboroj restu absolute sen ia praktika rezultato.</p> 
+
+<p>Nun mi resumos &ccirc;ion, kion mi diris.   Logika esploro de la afero 
+montras al ni, ke:</p>
+<list type="ordered"> 
+<item n="1">Lingvo internacia ne povas esti alia ol Esperanto.</item> 
+<item n="2">La evoluado de la lingvo fari&gcirc;os plej kredeble nur per tiu sama 
+natura vojo, per kiu &gcirc;i fari&gcirc;is en &ccirc;iu alia lingvo, t.e. per la senrompa 
+vojo de neologismoj kaj ar&hcirc;aismoj.</item> 
+<item n="3">Se iam aperos la neceso fari en Esperanto ian &scirc;an&gcirc;on, tion povas 
+fari nur a&ubreve; la esperantistoj mem, per komuna interkonsento, a&ubreve; ia grandega 
+forto, sed nepre en plena interkonsento kun la tuta esperantistaro.</item> 
+<item n="4">Se iam la esperantistoj mem a&ubreve; ia granda ekstera forto decidos 
+fari en Esperanto iajn &scirc;an&gcirc;ojn, tiuj &scirc;an&gcirc;oj povos esti nur ekstreme 
+malgrandaj, neniam rompos la kontinuecon kun tio, kion ni &gcirc;is nun havis, kaj 
+neniam senvalorigos tion, kion ni &gcirc;is nun faris, faras, a&ubreve; poste faros.</item> 
+</list>
+
+<p>Tio estas la sole ebla natura irado de la aferoj.   &Ccirc;iu, kiu volos 
+kontra&ubreve;batali tiun naturan iradon, nur perdos senbezone siajn fortojn.   La 
+esperantaj radikoj de la arbo internacilingva jam tiel profunde penetris en 
+la teron de la vivo, ke ne povas jam &ccirc;iu deziranto &scirc;an&gcirc;i la radikojn a&ubreve; 
+&scirc;ovi la arbon la&ubreve; sia bontrovo.</p> 
+
+<p>Karaj kongresanoj!   &Ccirc;io, kion mi diris, ne estas ia a&ubreve;tora memfido, 
+&ccirc;ar mi plene konsentas kaj konfesas malka&scirc;e, ke, por &scirc;an&gcirc;i ion en la 
+natura irado de la internacilingva afero, mi estas tiel same senpova, kiel 
+&ccirc;iu alia persono.   Mi defendas fervore nian nunan vojon nur tial, ke la 
+nerefuteblaj le&gcirc;oj de la logiko diras al mi, ke tio estas la sola vojo, kiu 
+kun plena certeco alkondukos nin al nia celo.   Kiu ajn volus &scirc;an&gcirc;i la 
+naturan iradon de la internacilingva afero &dash; tute egale, &ccirc;u li estas 
+malamiko de Esperanto a&ubreve; &gcirc;ia plej flama amiko, &ccirc;u li estas senfamulo a&ubreve; 
+eminentulo, c&ubreve; li agas per vortoj a&ubreve; per mono kaj ruza&jcirc;oj, &ccirc;u li estas 
+plej fanatika konservemulo a&ubreve; plej facilanima eksperimentisto de nova&jcirc;oj, 
+&ccirc;u li estas plej pura idealisto a&ubreve; plej profitama egoisto, &ccirc;u li bruas kaj 
+malbenas a&ubreve; ka&scirc;ite laboras sub la tero &dash; li neniam sukcesos; li povos nur 
+krei kelktempan skismon kaj akiri la mal&gcirc;ojan gloron de malhelpanto kaj 
+subfosanto, sed neniam li povos devigi &ccirc;iujn amikojn de la internacilingva 
+ideo pro iaj sensignifaj bagateloj for&jcirc;eti tion, kion ili posedas, kio 
+montri&gcirc;is plene vivipova, en kion estas jam enmetita tia multego da laboroj 
+kaj da vivo kaj kio per natura vojo devas iom post iom konstante ensorbi 
+novajn sukojn.   Tion devas bone memori &ccirc;iuj, kiuj laboras sur la kampo de 
+lingvo internacia, kaj se ili tion ne memoros, la vivo mem donos al ili la 
+necesan instruon.</p>
+ 
+<p>Ni povas sekve labori trankvile; ni ne devas mal&gcirc;oji, se nia laborado 
+estas iafoje tre malfacila kaj sendanka; sur nia flanko estas ne sole la 
+fajro de niaj sentoj, sur nia flanko estas anka&ubreve; la nerefuteblaj le&gcirc;oj de 
+la logiko kaj prudento.   Pacience ni semu kaj semu, por ke niaj nepoj iam 
+havu benitan rikolton.</p>
+ 
+<p>Al la Sesa Esperantista Kongreso, kiu sendube en&jcirc;etos multe da semoj en 
+la teron amerikan, mi eldiras mian koran saluton.</p> 
+      </body>
+    </text>
+
+
+<!-- ########## Parolado post la sesa kongreso 1910 (a) ######### -->
+
+    <text type="speech" rend="doc" id="ferm6a_1">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la ferma ceremonio
+          de la Sesa Kongreso Esperantista en Washington
+          en la <date>20a de a&ubreve;gusto 1910</date> (a)
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+          la&ubreve; <title>la Originala Verkaro</title>, IV-12
+        </docImprint>
+      </front>
+      <body>
+<p>La&ubreve; la tradicio de niaj &gcirc;isnunaj Kongresoj, mi permesas al mi diri 
+kelkajn vortojn de adia&ubreve;a saluto.   Mi volas diri kelkajn vortojn pri la 
+semajno, kiun ni &jcirc;us travivis.   Kiam mi decidis veni al Ameriko, mi 
+konfesas, ke mi komencis mian voja&gcirc;on kun iom da dubo.   &Scirc;ajnis al mi, ke 
+Usono estas ankora&ubreve; tro juna en nia movado por fari Kongreson.   Oni devis 
+tamen subteni niajn usonajn amikojn, kaj kiam mi venis, mi vidis kun &gcirc;ojo, 
+ke miaj duboj estis vanaj.   La Sesa estis sama kiel la aliaj Kongresoj, kaj 
+restos en nia memoro same.   Mi devas esprimi mian dankon al &ccirc;iuj helpintoj, 
+speciale al gesinjoroj Reed &dash; &ccirc;ion vi vidis, mi do ne ripetas &dash; anka&ubreve; 
+al &ccirc;iuj, kiuj helpis.   Krom tio, ni &scirc;uldas dankon al la lando mem por la 
+invito, kiun faris la Usona Registaro al aliaj landoj.   Estas tre grava 
+fakto, ke 13 Registaroj estis oficiale reprezentitaj.   La lokaj a&ubreve;toritatoj 
+anka&ubreve; montris al ni grandan helpon, kaj en via nomo mi ilin kore dankas.</p>
+ 
+<p>Nun ni rigardu, &ccirc;u la Kongreso donis iajn rezultatojn.   Pri tio neniu 
+dubas.   La rezultatoj estas tre gravaj.   &Gcirc;i forte levos la presti&gcirc;on de 
+nia afero en la okuloj de la mondo.   Kaj anka&ubreve; al multaj el niaj usonaj 
+amikoj, kiuj ankora&ubreve; ne havis la okazon a&ubreve;skulti Esperanton parolatan de 
+alilanduloj, la Kongreso sendube multe helpos pri la elparolado de nia 
+lingvo.   Mi estas certa, ke kiam ni ilin revidos, ni ne plu rekonos ilin, 
+sed demandos pri ili, el kiu nacio ili venas?   Kaj nun, &ccirc;ar ni devas disiri 
+al niaj hejmoj, al &ccirc;iu mi diras: Feli&ccirc;an vojon!   Feli&ccirc;an voja&gcirc;on! kaj 
+esperas, ke mi vidos grandan parton el vi en Antverpeno.</p> 
+
+<p>La Sesa Kongreso estas fermita.</p>
+      </body>
+    </text>
+
+
+<!-- ########## Parolado post la sesa kongreso 1910 (b) ######### -->
+
+    <text type="speech" rend="doc" id="ferm6a_2">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la ferma ceremonio
+          de la Sesa Kongreso Esperantista en Washington
+          en la <date>20a de a&ubreve;gusto 1910</date> (b)
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+          la&ubreve; <title>lingvo internacia</title> n-ro 9, 
+          1910, p. 428 - 429
+        </docImprint>
+      </front>
+      <body>
+<p>La&ubreve; la tradicio de niaj anta&ubreve;aj Kongresoj, permesu al mi, anta&ubreve; ol ni 
+disi&gcirc;os, diri al vi kelkajn vortojn de adia&ubreve;aj salutoj.   Kiam mi decidis 
+voja&gcirc;i al la Washingtona Kongreso, mi komencis mian pretigon &dash; mi devas 
+&gcirc;in konfesi &dash; kun iom a&ubreve; e&ccirc; kun sufi&ccirc;e da dubo.   &Scirc;ajnis tiam al mi, 
+ke Usono estas tro juna en nia movado, por ke &gcirc;i povu prepari Kongreson. 
+Tamen, mi diris al mi: ni devas nepre subteni la klopodojn de la Amerikanoj. 
+Kiam mi alvenis &ccirc;i tien, mi vidis, kun granda plezuro kaj &gcirc;ojo, ke miaj 
+duboj estis vanaj.   La Kongreso estis, same kiel anta&ubreve;aj kongresoj, bona 
+sukceso.   Antau &ccirc;io, ni devas esprimi dankon al tiuj niaj amikoj, kiuj 
+laboregis por tio, kaj precipe al niaj geamikoi gesinjoroj Reed.   Krom tio, 
+ni &scirc;uldas dankon al la lando mem, al la registaro de la lando, kiu tiel 
+afable kaj kompleze faris servon al ni; kaj tre dankemaj ni estas al la 
+registaro pro &gcirc;ia invito al reprezentantoj de aliaj landoj.</p>
+ 
+<p>Nun ni rigardu, &ccirc;u la tuj finonta Kongreso donis ian rezultaton.   Pri 
+tio, neniu el ni povas dubi.   La rezultato estas tre grava.   Per &gcirc;ia 
+kvaza&ubreve; oficiala karaktero, &gcirc;i anta&ubreve;enpu&scirc;os la presti&gcirc;on de nia afero en 
+la okuloj de la mondo, kio estas por ni tre grava.   Anka&ubreve; al la Usonanoj 
+mem la Kongreso faras profiton; &ccirc;ar nun, por la unua fojo, ili a&ubreve;skultis 
+Esperanton parolatan de E&ubreve;ropanoj, kaj sendube tio helpis al la &gcirc;usta 
+elparolado.</p>
+ 
+<p>Nun, samideanoj, mi deziras por vi &ccirc;iuj feli&ccirc;an voja&gcirc;on al viaj 
+hejmoj, kaj mi esperas, ke ni &ccirc;iuj, a&ubreve; almena&ubreve; granda parto de ni, revidos 
+unu la alian en Antverpeno.   &Gcirc;is la revido en Antverpeno!</p>
+ 
+<p>La Sesa Internacia Kongreso estas fermita!</p> 
+      </body>
+    </text>
+
+
+
+<!-- ########## Parolado antau la 7a kongreso 1911 ######### -->
+
+    <text type="speech" rend="doc" id="kongr7a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Sepa Kongreso Esperantista en Antwerpen
+          en la <date>21a de a&ubreve;gusto 1911</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>Kiel tradicia malfermanto de la kongresoj esperantistaj, mi permesas al 
+mi esprimi en la nomo de &ccirc;iuj kongresanoj nian respektan kaj sinceran dankon 
+al lia Re&gcirc;a Mo&scirc;to la Re&gcirc;o Alberto por la granda honoro, kiun li faris al 
+nia afero, prenante sur sin la protektantecon super nia kongreso.   Mi 
+esperas, ke mi esprimos la deziron de &ccirc;iuj kongresanoj, se mi proponos, ke 
+ni sendu telegrafe nian diversgentan saluton al la regnestro de la lando, 
+kies gastoj ni estas, kaj nian dankon al nia alta protektanto.   Mi esprimas 
+anka&ubreve; en la nomo de la kongresanoj nian koran dankon al la urbestraro de 
+Antverpeno, kiu afable donis al ni sian helpon kaj moralan apogon.   Fine mi 
+esprimas nian koran fratan dankon al tiuj niaj belgaj samideanoj, kiuj tiel 
+laboreme kaj zorge pretigis nian grandan feston.</p>
+
+<p>Mi uzas anka&ubreve; la okazon de nia festo, por revoki en vian memoron la 
+nomon de unu viro, kiu havas grandegan meriton en nia afero.   La prelato 
+Johann Martin Schleyer, kies nomon &ccirc;iu el vi konas tre bone, la a&ubreve;toro de 
+Volapuk, anta&ubreve; nelonge festis la okdekjaran datrevenon de sia naski&gcirc;o, kaj 
+estus nepardoninde, se ni ne uzus la okazon de nia nuna &gcirc;enerala kunestado, 
+por esprimi al li tiujn sentojn, kiujn ni &ccirc;iuj havas por li.   Li estas la 
+vera patro de la tuta internacilingva movado.   Anta&ubreve; li oni anka&ubreve; revis 
+pri lingvo internacia, oni provis labari por &gcirc;i; sed tio estis nur teoriaj 
+skizoj, palaj senkorpaj fantomoj en la regiono de revoj.   Li estis la unua, 
+kiu diris al si: por lingvo internacia mi volas ne revi, sed labori; dum &ccirc;io 
+&ccirc;irka&ubreve;e dormis, li estis la unua, kiu praktike kreis la internacilingvan 
+movadon.   Volapuk ne estis venkita de Esperanto, kiel multaj personoj pensas 
+tute erare; &gcirc;i pereis per si mem en tiu tempo, kiam la trankvile kaj 
+senartifike laboranta Esperanto estis ankora&ubreve; tro malforta, por iun venki; 
+&gcirc;i pereis ne pro sia stranga sonado a&ubreve; pro aliaj similaj ka&ubreve;zoj, &ccirc;ar al 
+&ccirc;io oni povas alkutimi&gcirc;i, kaj kio hiera&ubreve; &scirc;ajnis sova&gcirc;a, tio morga&ubreve; 
+aperas kiel io tute natura kaj bela; per longa kaj multespeca uzado e&ccirc; la 
+plej sova&gcirc;a idiomo de la plej barbara gento iom post iom fari&gcirc;as ri&ccirc;a, 
+eleganta kaj oportuna lingvo.</p>
+ 
+<p>Volap&uuml;k pereis &ccirc;efe pro unu grava eraro, kiun &gcirc;i beda&ubreve;rinde enhavis: 
+absoluta manko de natura evoluipovo; kun &ccirc;iu nova vorto a&ubreve; formo la lingvo 
+devis konstante dependi de la decidoj de unu persono a&ubreve; de facile inter si 
+malpaconta personaro.   Kiel sur bastono plantita en teron, novaj bran&ccirc;oj 
+kaj folioj ne povis nature kreski sur &gcirc;i, sed devis esti konstante 
+skulptataj kaj algluataj.   Se ne ekzistus tiu eraro, kiun korekti oni 
+beda&ubreve;rinde ne povis, Volapuk neniam pereus kaj ni &ccirc;iuj nun ver&scirc;ajne 
+parolus volapuke.   Sed tiu beda&ubreve;rinda eraro, kiun ka&ubreve;zis ne manko de 
+talento kaj de laboremeco, sed nur tro rapida publikigo de la lingvo, sen 
+sufi&ccirc;e matura elprovado, &dash; tiu eraro, kiu pereigis Volapukon, neniel 
+malgrandigas la meritojn de &gcirc;ia a&ubreve;toro, kiu la unua potence skuis la mondon 
+por nia ideo; la grandaj meritoj de Schlieyer en la internacilingva historio 
+neniam malaperos.</p>
+ 
+<p>Mi proponas al vi, ke okaze de la festo de Schleyer ni telegrafe sendu 
+al li en la nomo de la tuta esperantistaro nian koran gratulon, nian dankon 
+por lia granda laboro kaj nian deziron, ke li vivu ankora&ubreve; longe kaj havu la 
+konscion, ke la fruktoj de lia laboro neniam pereos.</p> 
+
+<p>Karaj amikoj!   Mi staras hodia&ubreve; anta&ubreve; vi ne esperinte.   &Ccirc;ar dum la 
+lasta tempo la stato de mia sano estis tro malbona, mi decidis ne veturi al 
+la kongreso en &ccirc;i tiu jaro.   Tamen en la lasta momento mi devis &scirc;an&gcirc;i 
+mian decidon, &ccirc;ar mi rimarkis, ke la projekto, kiun mi prezentis por 
+diskutado dum la Sepa Kongreso, ne de &ccirc;iuj estas &gcirc;uste komprenita kaj eble 
+bezonos klarigojn de mia flanko.   Tial ne miru, ke mi ne prepari&gcirc;is paroli 
+anta&ubreve; vi pri ia speciala temo, sed mi tu&scirc;os nur per nemultaj vortoj tiun 
+demandon, kies pridiskutadon dum la kongreso mi proponis al vi.   Mi ne 
+anta&ubreve;venos vian decidon por a&ubreve; kontra&ubreve; la diskutota projekto, mi volas nur 
+diri kelkajn &gcirc;eneralajn vortojn, por instigi vin, bone kaj senpartie 
+prepari&gcirc;i por la venontaj diskutoj.</p> 
+
+<p>Ekzistas en nia afero demandoj, kiuj povas esti solvataj ne de iu aparta 
+persono, ne de iu aparta nacia asocio, ne de iu aparta institucio, sed nur de 
+la tuta esperantistaro: ekzemple la demandoj pri nia Lingva Komitato, 
+Konstanta Kongresa Komitato k.t.p.   Se iu volas fari simple konsilajn 
+proponojn pri la interna agado de tiuj institucioj, li povas prezenti siajn 
+proponojn al la estroj de la diritaj institucioj; sed se oni faras plendojn, 
+se oni postulas reorganizon, anstata&ubreve;igon a&ubreve; e&ccirc; forigon de tiuj 
+institucioj, &dash; tiam al kiu oni devas sin turni?   A&ubreve; se aperas iaj 
+demandoj, kiuj koncernas la tutan esperantistaron, sed apartenas nek al la 
+Lingva Komitato, nek al la Komitato de la Kongresoj, &dash; tiam kiu havas la 
+rajton ilin solvi?   En sia privata esperantista vivo &ccirc;iu persono a&ubreve; grupo 
+a&ubreve; asocio estas kompreneble tute liberaj kaj povas agi, kiel ili volas kaj 
+povoscias; sed pri &ccirc;iuj demandoj, duboj a&ubreve; entreprenoj, kiuj koncernas la 
+tutan esperantan aferon, estas nepre necese, ke ni havu la eblon &ccirc;iam scii 
+la veran opinion a&ubreve; deziron de la tuta esperantistaro.   Esperanto ne estas 
+ankora&ubreve; en tia feli&ccirc;a stato, ke &ccirc;iu povu nur tiri el &gcirc;i profiton, ne 
+zorgante pri la bonstato de la afero mem: ni devas kaj dum longa tempo 
+ankora&ubreve; devos propagandi &gcirc;in, kreskigi &gcirc;in, defendi &gcirc;in kontra&ubreve; 
+malamikoj; sed se ni ne havas la eblon regule interkonsili&gcirc;adi, a&ubreve; se niaj 
+interkonsili&gcirc;oj, farataj ne en orda parlamenta maniero, ne havos moralan 
+valoron por la esperantistoj, ni similos organismon sen kapo kaj sen manoj, 
+ni nenion povos entrepreni, ni staros senmove kaj malpacos inter ni mem.</p>
+ 
+<p>Mi ne volas en la nuna momento defendi la projekton, pri kiu vi en la 
+plej proksimaj tagoj diskutos; tre povas esti, ke la projekto havas gravajn 
+erarojn, kiujn via pridiskutado forigos; tre povas esti, ke la tuta projekto 
+montri&gcirc;os neakceptinda, kaj tiam &dash; vi scias tion tre bone &dash; mi ne penos 
+altrudi &gcirc;in al vi, kiel mi neniam ion al vi altrudis.   Nur pri unu afero mi 
+kore vin petas: kion ajn vi decidos, &dash; ni ne fermu nian kongreson, anta&ubreve; 
+ol ni en tia a&ubreve; alia formo faros ian aran&gcirc;on, kiu donos al ni la eblon, 
+almena&ubreve; unu fojon en jaro solvi &ccirc;iujn kolekti&gcirc;intajn disputojn a&ubreve; dubojn 
+en lojala interkonsento kaj konforme al la vera deziro de la tuta 
+esperantistaro.</p>
+ 
+<p>La aran&gcirc;o de regula kaj rajtigita kongresa vo&ccirc;donado, kiun mi proponis 
+al vi, a&ubreve; ia alia simila aran&gcirc;o, kiu eble rezultos el via diskutado, ne 
+estos ia nova institucio kaj per si mem ne &scirc;an&gcirc;os la iradon de nia afero; 
+sed &gcirc;i donos al ni la forton de ordo kaj de solidareco.   La institucioj, 
+kiujn ni kreis, a&ubreve; eble ankora&ubreve; kreos, &ccirc;esos havi la karakteron de ia 
+privata&jcirc;o, kiun neniu subtenas kaj multaj atakas.   Ili havos rajton diri al 
+la esperantistaro: se ni estas bonaj, respektu nin kaj subtenu nin; se ni 
+estas malbonaj reorganizu nin a&ubreve; forigu nin.   &Ccirc;iu esperantisto scios, al 
+kiu plej alta instanco li devas sin turni, se tio a&ubreve; alia en la 
+komunesperantistaj aferoj ne pla&ccirc;as al li, kaj oni &ccirc;esos konstante sin 
+turnadi al mi, kiu hodia&ubreve; vivas kaj morga&ubreve; povas ne vivi, kaj kiu cetere 
+havas nek rajton nek deziron solvi &ccirc;iujn disputojn propradecide.</p> 
+
+<p>Ni komencu nian feston kaj anka&ubreve; niajn laborojn, al kiuj ni dedi&ccirc;u 
+nian plenan atenton kaj senpartiecon.   Se el niaj laboroj rezultos la 
+enkonduko de preciza ordo en nian aferon, tiam la kongreso Antverpena estos 
+unu el la plej gravaj inter niaj kongresoj.   Tion ni esperu.   &Ccirc;iu el ni 
+havu la firman decidon, helpi per &ccirc;iuj fortoj al la enkonduko de ordo kaj 
+forigo de &ccirc;iu malpaco en nia afero.   Kun tiu firma kaj solena decido en la 
+koro ni kriu: vivu, kresku kaj floru nia afero!</p> 
+      </body>
+    </text>
+
+<!-- ########## Parolado antau la 8a kongreso 1912 ######### -->
+
+    <text type="speech" rend="doc" id="kongr8a">
+      <front>
+        <docTitle>
+          <titlePart>
+          Parolado
+          anta&ubreve; la Oka Kongreso Esperantista en Krakow
+          en la <date>11a de a&ubreve;gusto 1912</date>
+          </titlePart>
+        </docTitle>
+        <docImprint>
+          registrita de <name>HIROTAKA Masaaki</name>
+          je <date>1992-08-12</date>
+        </docImprint>
+      </front>
+      <body>
+<p>La unuaj vortoj, kiujn mi volas hodia&ubreve; eldiri al vi, karaj samideanoj, 
+estas vortoj de kora gratulo, &ccirc;ar ni havas hodia&ubreve; grandan feston.   &Jcirc;us 
+fini&gcirc;is dudek kvin jaroj de la tempo, kiam &dash; post longa naska preparado 
+&dash; aperis publike la lingvo, kiu nin &ccirc;iujn unuigas, por kiu ni &ccirc;iuj 
+laboras kaj kiu enkorpigas en si tiun homofratigan ideon, kiun la plimulto el 
+ni havas en sia koro kaj kiu dum dudek kvin jaroj flame instigadis nin 
+labori, malgra&ubreve; &ccirc;ia malfacileco kaj &ccirc;iuj malhelpoj.</p>
+ 
+<p>Dudek kvin jaroj da laborado por Esperanto kaj por &gcirc;ia ideo!   Tion 
+povas plene kompreni nur tiuj personoj, kiuj partoprenis en tiu laborado de 
+la komenco &gcirc;is nun. Beda&ubreve;rinde tre nemultaj estas tiuj personoj.   El la 
+laborantoj de la unua tempo tre multaj jam delonge plu ne vivas, aliajn 
+lacigis la malfacila, grandan paciencon kaj persistecon postulanta vojo, kaj 
+ili malaperis el nia anaro.   El tiuj personoj, kiuj trovi&gcirc;as nun en &ccirc;i tiu 
+&ccirc;ambrego, la grandega plimulto en la unuaj jaroj de Esperanto nenion sciis 
+pri &gcirc;i a&ubreve; neklare a&ubreve;dis pri &gcirc;i nur kiel pri ia freneza, mokinda 
+kurioza&jcirc;o; tre multaj el vi en la momento de la apero de Esperanto estis 
+ankora&ubreve; infanoj; multaj, kaj certe ne la malplej fervoraj el vi, en tiu 
+tempo e&ccirc; tute ne ekzistis ankora&ubreve; en la mondo.   La grandega plimulto el vi 
+ali&gcirc;is al nia afero nur tiam, kiam &gcirc;i estis jam sufi&ccirc;e forta kaj 
+elprovita.   Tre kaj tre malgranda, facile kalkulebla per la fingroj, estas 
+la nombro de tiuj personoj, kiuj iris kun Esperanto de la momento de &gcirc;ia 
+naski&gcirc;o &gcirc;is la nuna tempo.   Kortu&scirc;ite ili povas nun rememori, kiel terure 
+malfacila estis &ccirc;iu pa&scirc;o en la komenco, kiam &ccirc;iu aludo pri Esperanto 
+postulis specialan kura&gcirc;on, kiam el &ccirc;iu milo da semoj, kiujn ni en plej 
+primitiva maniero, sen helpo kaj sen rimedoj, pacience &jcirc;etadis en la teron, 
+apena&ubreve; unu ricevis radikojn.</p>
+ 
+<p>Dudek kvin jaroj!   Grandegan gravecon havas tia peco da tempo en la 
+historio de lingvo artefarita.   Lingvoj naturaj kreskas tute trankvile, &ccirc;ar 
+kun tia lingvo neniu kura&gcirc;as fari iajn eksperimentojn a&ubreve; fleksi &gcirc;in la&ubreve; 
+sia gusto; sed pri lingvo artefarita &ccirc;iu opinias, ke li havas rajton de 
+vo&ccirc;o, ke li povas a&ubreve; e&ccirc; devas direkti la sorton de la lingvo la&ubreve; sia 
+kompreno.   En lingvo natura &ccirc;iu e&ccirc; plej granda efektiva malbona&jcirc;o neniun 
+incitas, e&ccirc; neniun meditigas, kaj estas akceptata kun plena kontenteco a&ubreve; 
+rezignacio; en lingvo artefarita &ccirc;io &scirc;ajnas al ni kritikinda, &ccirc;iu 
+bagatelo, kiu ne estas konforma al nia gusto, pikas al ni la okulojn kaj 
+vekas deziron de refarado.   Lingvo artefarita dum longa tempo estas elmetata 
+al sen&ccirc;esaj ventoj, al sen&ccirc;esa tirado kaj pu&scirc;ado.   Kiom da ventoj, kiom 
+da sen&ccirc;esa tirado nia lingvo devis suferi dum sia dudekkvinjara vivo!   Se 
+&gcirc;i tamen &ccirc;ion sane eltenis, se malgra&ubreve; &ccirc;iuj ventoj kaj pu&scirc;oj &gcirc;i dum 
+dudek kvin jaroj vivis kaj kreskis regule kaj rekte, &ccirc;iam pli forti&gcirc;ante 
+kaj ri&ccirc;i&gcirc;ante, neniam fleksi&gcirc;ante a&ubreve; kripli&gcirc;ante, neniam minacante 
+disfali en dialektojn, sed &ccirc;iam pli kaj pli fortikigante sian tute 
+difinitan, &ccirc;ie egalan spiriton, neniam perdante hodia&ubreve;, kion &gcirc;i akiris 
+hiera&ubreve;, &dash; ni povas pri tio sincere nin gratuli.</p>
+ 
+<p>Anta&ubreve; dudek kvin jaroj mi timeme demandis min, &ccirc;u post dudek kvin 
+jaroj iu en la mondo scios ankora&ubreve;, ke ekzistis iam Esperanto, kaj &dash; se 
+Esperanto vivos &dash; &ccirc;u oni tiam povos ankora&ubreve; kompreni ion, kio estis 
+skribita en Esperanto en &gcirc;ia unua jaro, kaj &ccirc;u angla esperantisto povos 
+kompreni esperantiston hispanan.   Nun pri &ccirc;i tio la historio donis jam 
+plenan kaj perfekte trankviligan respondon.   &Ccirc;iu el vi scias, ke verko, 
+skribita en bona Esperanto anta&ubreve; dudek kvin jaroj, en plena mezuro konservas 
+sian bonecon anka&ubreve; nun, kaj la legantoj e&ccirc; ne povas diri, ke &gcirc;i estas 
+skribita en la unua jaro de ekzistado de nia lingvo; &ccirc;iu el vi scias, ke 
+inter la stilo de bona angla esperantisto kaj la stilo de bona hispana 
+esperantisto en la nuna tempo ekzistas absolute nenia diferenco.   Nia lingvo 
+konstante progresas kaj ri&ccirc;i&gcirc;as, kaj tamen, dank' al la reguleco de sia 
+progresado, &gcirc;i neniam &scirc;an&gcirc;i&gcirc;as, neniam perdas la kontinuecon kun la 
+lingvo de tempo pli frua.   Kiel la lingvo de homo matura estas multe pli 
+ri&ccirc;a kaj pli elasta, ol la lingvo de infano, kaj tamen la lingvo de &gcirc;uste 
+parolanta infano neniom diferencas de la lingvo de homo matura, tiel verko, 
+skribita en Esperanto anta&ubreve; dudek kvin jaroj ne estas tiel vortori&ccirc;a, kiel 
+verko skribita en la nuna tempo, kaj tamen la lingvo de tiu tempo perdis 
+absolute nenion el sia valoro anka&ubreve; en la nuna tempo.</p>
+ 
+<p>Lingvo, kiu eltenis la provon dum dudek kvin jaroj, kiu en plej bona kaj 
+&ccirc;iam pli floranta stato travivis jam tutan homan generacion kaj estas jam 
+pli maljuna, ol multaj el &gcirc;iaj uzantoj, kiu kreis jam grandan, potence 
+kreskantan literaturon, kiu havas sian historion kaj siajn tradiciojn, sian 
+tute precizan spiriton kaj siajn tute klarajn idealojn, &dash; tia lingvo ne 
+bezonas jam timi, ke io pereige depu&scirc;os &gcirc;in de tiu natura kaj rekta vojo, 
+la&ubreve; kiu &gcirc;i evoluas.   La vivo kaj la tempo garantiis al nia lingvo naturan 
+forton, kiun neniu el ni povas senpune malrespekti.   La hodia&ubreve;a jubileo 
+estas festo de tiu vivo kaj tempo.</p> 
+
+<p>Por ke ni, vivantoj, povu festi la hodia&ubreve;an jubileon, fervore kaj 
+sindone laboris multaj personoj, kiuj nun jam ne vivas.   Nia morala devo 
+estus rememori ilin en la nuna solena momento.   Sed ho ve! ilia nombro estas 
+tro granda, por ke ni povu ilin &ccirc;iujn citi, kaj krom tio la pli granda parto 
+el ili laboris tiel modeste, ke ni e&ccirc; ne scias iliajn nomojn.   Tial, por ne 
+fari maljustan apartigon inter eminentuloj kaj ne-eminentuloj, mi citos 
+neniun apartan nomon.   Mi devas fari escepton nur por nia kamarado Van der 
+Biest, kies nomo estas ankora&ubreve; tro fre&scirc;a en la memoro de ni &ccirc;iuj, kiu en 
+la pasinta jaro aran&gcirc;is kaj prezidis nian grandan &ccirc;iujaran feston, kaj kies 
+morto estas sendube ligita kun tiuj grandaj laboroj kaj malagrabla&jcirc;oj, kiujn 
+li prenis sur sin por ni &ccirc;iuj.   En via nomo mi esprimas funebran saluton al 
+la ombroj de &ccirc;iuj niaj karaj kamaradoj, kiujn dum la pasintaj dudek kvin 
+jaroj for&scirc;iris de ni la morto.   Iliaj ombroj staru nun anta&ubreve; niaj okuloj, 
+kvaza&ubreve; partoprenante en tiu granda festo, kiun ili preparis, sed ne 
+&gcirc;isvivis.   Mi proponas al vi, ke ni honoru ilian memoron per levi&gcirc;o de 
+niaj se&gcirc;oj.</p>
+ 
+<p>Nun, kiam la matureco de nia afero estas jam tute eksterduba, mi turnas 
+min al vi, karaj samideanoj, kun peto, kiun mi jam anta&ubreve; longe volis direkti 
+al vi, sed kiun mi &gcirc;is nun prokrastis, &ccirc;ar mi timis fari &gcirc;in tro frue. 
+Mi petas, ke vi liberigu min de tiu rolo, kiun mi, pro ka&ubreve;zoj naturaj, 
+okupis en nia afero dum dudek kvin jaroj.   Mi petas vin, ke de la nuna 
+momento vi &ccirc;esu vidi en mi <q>majstron</q>, ke vi &ccirc;esu honori min per tiu 
+titolo.</p>
+ 
+<p>Vi scias, ke tuj en la komenco de nia movado mi deklaris, ke mi ne volas 
+esti mastro de Esperanto, sed ke la tutan mastrecon pri Esperanto mi en tuta 
+pleneco transdonis al la esperantistoj mem.   Vi scias anka&ubreve;, ke de tiu 
+tempo mi &ccirc;iam lojale agadis a&ubreve; almena&ubreve; penis agadi konforme al tiu 
+deklaro.   Mi donadis al vi konsilojn, kiel mi povis, sed neniam vi a&ubreve;dis de 
+mi la vortojn <q>tion mi postulas</q> a&ubreve; <q>tion mi deziras</q>.   Neniam mi provis 
+altrudi al vi mian volon.   Tamen, konsciante, ke &gcirc;is sia plena fortiki&gcirc;o 
+nia afero bezonas ian enkorpigitan standardon, mi &dash; lau via deziro &dash; dum 
+dudek kvin jaroj plenumadis tiun rolon, kiel mi povis, kaj mi permesadis, 
+kvankam tre nevolonte, ke vi vidu en mi &ccirc;efon kaj majstron.   Kun &gcirc;ojo kaj 
+fiereco mi konstatas, ke vi &ccirc;iam montris al mi sinceran konfidon kaj amon, 
+kaj pro tio mi eldiras al vi mian plej koran dankon.</p>
+ 
+<p>Sed nun permesu al mi, ke mi fine formetu de mi mian rolon.   La nuna 
+kongreso estas la lasta, en kiu vi vidas min anta&ubreve; vi; poste, se mi povos 
+veni al vi, vi &ccirc;iam vidos min nur inter vi.</p>
+ 
+<p>Jen estas la ka&ubreve;zo, kiu devigis min fari la nunan decidon:</p> 
+
+<p>La ekzistado de ia natura konstanta &ccirc;efo, e&ccirc; se tiu &ccirc;efo havas nur la 
+karakteron de unuiganta standardo, prezentas gravan maloportuna&jcirc;on por nia 
+afero, &ccirc;ar &gcirc;i donas al la afero kvaza&ubreve; personan karakteron.   Se al iu ne 
+pla&ccirc;as mia persono a&ubreve; miaj politike-religiaj principoj, li fari&gcirc;as 
+malamiko de Esperanto.   &Ccirc;ion, kion mi persone diras a&ubreve; faras, oni ligas 
+kun Esperanto.   La tro honora titolo de majstro, kiun vi donas al mi, 
+kvankam &gcirc;i en efektiveco koncernas nur la aferon de la lingvo, fortenas de 
+Esperanto multajn personojn, al kiuj mi pro ia ka&ubreve;zo ne estas simpatia kaj 
+kiuj timas, ke, fari&gcirc;ante esperantistoj, ili devus rigardi min kiel sian 
+moralan &ccirc;efon.   &Ccirc;iu, kies opinio pri aferoj esperantistaj estas alia ol 
+mia, ofte sin &gcirc;enas eldiri libere sian opinion, por ne kontra&ubreve;batali 
+publike tiun, kiun la esperantistoj nomas sia majstro.   Se ies opinion la 
+esperantistoj ne volas akcepti, li vidas en tio nur la &ccirc;iopovan influon de 
+la majstro.   Nun, kiam nia afero estas jam sufi&ccirc;e forta, estas necese, ke 
+&gcirc;i fine fari&gcirc;u absolute libera, ne sole libera de &ccirc;iuj personaj dekretoj, 
+kia &gcirc;i fari&gcirc;is jam anta&ubreve; dudek kvin jaroj, sed anka&ubreve; de &ccirc;ia efektiva a&ubreve; 
+&scirc;ajna persona influo.   Estas necese, ke la mondo scii&gcirc;u tute klare, ke 
+Esperanto povas havi a&ubreve; ne havi siajn libere elektitajn gvidantojn, sed ke 
+&gcirc;i posedas nenian konstantan majstron.   Nomu min per mia nomo, nomu min 
+fondinto de la lingvo, a&ubreve; kiel vi volas, sed mi petas vin, ne nomu min plu 
+<q>majstro</q>, &ccirc;ar per tiu morale tro liganta nomo vi malliberigas nian aferon.</p>
+ 
+<p>Multaj el vi portas en sia koro la samajn idealojn, kiel mi, kvankam ne 
+&ccirc;iuj en tute egala formo; sed la mondo devas scii, ke tiu spirita parenceco 
+inter mi kaj vi estas la&ubreve;vola, ke la esperantismo kaj la esperantistoj ne 
+povas esti respondaj pri miaj personaj ideoj kaj aspiroj, kiuj por neniu el 
+vi estas devigaj.   Se mi ion diras a&ubreve; faras, kio ne estas konforma al la 
+gusto a&ubreve; konvinkoj de tiu a&ubreve; alia el vi, mi deziras, ke tio neniun el vi 
+&gcirc;enu kaj &ccirc;iu el vi havu la rajton diri: tio estas tute privata ideo a&ubreve; 
+freneza&jcirc;o de Zamenhof, kaj &gcirc;i havas nenion komunan kun la esperanta movado, 
+en kiu li estas nun persono tute privata.   La interna ideo de Esperanto, kiu 
+havas absolute nenian devigon por &ccirc;iu esperantisto aparta, sed kiu, kiel vi 
+scias, plene regas kaj &ccirc;iam devas regi en la esperantaj kongresoj, estas: 
+sur ne&ubreve;trala lingva fundamento forigi la murojn inter la gentoj kaj 
+alkutimigadi la homojn, ke &ccirc;iu el ili vidu en sia proksimulo nur homon kaj 
+fraton.   &Ccirc;io, kio estas super tiu interna ideo de Esperanto, estas nur 
+privata&jcirc;o, kiu povas eble esti bazita sur tiu ideo, sed neniam devas esti 
+rigardata kiel identa kun &gcirc;i.</p> 
+
+<p>Anta&ubreve; ol mi formetas de mi &ccirc;ian oficialan rolon en nia afero, mi 
+ankora&ubreve; la lastan fojon admonas vin: laboru &ccirc;iam en plena unueco, en ordo 
+kaj konkordo.   &Ccirc;iujn dubajn demandojn, kiuj koncernas la tutan esperantan 
+aferon, kaj kiuj ne tu&scirc;as la personan liberecon de &ccirc;iu aparta esperantisto, 
+solvu &ccirc;iam pace, per regula interkonsili&gcirc;o de viaj egalrajte elektitaj 
+delegitoj kaj per disciplina cedo de la malplimulto al la plimulto.   Neniam 
+permesu, ke en nia afero regu la principo: <q>kiu pli la&ubreve;te krias, tiu estas 
+prava</q>.   Per unueco ni pli a&ubreve; malpli frue certe venkos, e&ccirc; se la tuta 
+mondo batalus kontra&ubreve; ni; per interna malpaco ni ruinigus nian aferon pli 
+rapide, ol tion povus fari &ccirc;iuj niaj malamikoj kune.   Ne forgesu, ke 
+Esperanto estas ne sole simpla lingvo, kiun &ccirc;iu el ni uzas nur por siaj 
+propraj bezonoj, sed ke &gcirc;i estas grava socia problemo, ke, por atingi nian 
+celon, ni devas konstante propagandi nian aferon kaj zorgi pri tio, ke la 
+mondo havu estimon kaj konfidon por &gcirc;i.   Se en nia afero aperas io, kio 
+&scirc;ajnas al ni malbona, ni povas trankvile &gcirc;in forigi per komune 
+interkonsentita decido; sed ni neniam semu en nia tendaro reciprokan malamon 
+kaj malpacon, kiu nur &gcirc;ojigas kaj triumfigas niajn malamikojn.   En la unuaj 
+jaroj de nia laborado sur nia standardo estis skribitaj la vortoj <mentioned>espero, 
+obstino kaj pacienco</mentioned>; tio tute sufi&ccirc;is, &ccirc;ar ke ni, samideanoj, devas 
+reciproke nin estimi kaj helpi, tio por &ccirc;iu estis komprenebla per si mem. 
+En la lastaj jaroj ni beda&ubreve;rinde ofte forgesis tiun devon; tial nun, 
+transirante en la duan gravan periodon de nia historio, en la duan 
+kvaronjarcenton, ni skribu sur nia standardo novan vorton, kaj &ccirc;i tiun 
+vorton ni &ccirc;iam respektu kiel sanktan ordonon; tiu vorto estas: 
+<mentioned>konkordo</mentioned>.</p> 
+
+<p>Mi finis tion, kion mi intencis diri al vi, karaj amikoj.   Mi scias tre 
+bone, ke multajn el vi mia nuna parolo malagrable seniluziigos.   Kun 
+maldol&ccirc;a sento de neplenumita espero vi eble demandos: &ccirc;u en sia lasta 
+kongresa parolo, en sia <q>kanto de cigno</q>, li nenion pli havis por diri al ni? 
+&ccirc;u en la grava tago de la jubileo de la esperantismo, de tiu jubileo, kiun 
+ni atingis post tiom multe da laboroj kaj suferoi, li nenion pli havis por 
+diri al ni? &ccirc;u en la unua kaj eble anka&ubreve; la lasta fojo, en kiu ni el &ccirc;iuj 
+partoj de la mondo alproksimi&gcirc;is, kiom ni povis, al tiu loko, kie Esperanto 
+naski&gcirc;is kaj kie la atmosfero, saturita de intergenta malpaco, per 
+neevitebla natura reago naskis la esperantisman movadon, &dash; &ccirc;u en &ccirc;i tiu 
+grava kaj solena momento li nenion pli havis por diri al ni?   Ho ne, miaj 
+karaj amikoj, miaj karaj samideanoj kaj kunlaborantoj!   Multe, multe, tre 
+multe mi volus hodia&ubreve; diri al vi, &ccirc;ar mia koro estas plena; en la jubilea 
+momento de la esperantismo mi volus paroli al vi pri tio, kio naskis la 
+esperantismon, pri &gcirc;ia esenco kaj espereblaj sekvoj; sed hodia&ubreve; mi staras 
+anta&ubreve; vi ankora&ubreve; en rolo oficiala, kaj mi ne deziras, ke mia privata kredo 
+estu rigardata kiel deviga kredo de &ccirc;iuj esperantistoj.   Tial pardonu min, 
+ke mi pli ne parolas.</p> 
+
+<p>Kio estas la esenco de la esperantisma ideo kaj al kia estonteco 
+alkondukos iam la homaron la interkompreni&gcirc;ado sur ne&ubreve;trale-homa, sengenta 
+lingva fundamento, &dash; tion ni &ccirc;iuj sentas tre bone, kvankam ne &ccirc;iuj en 
+tute egala formo kaj grado.   Ni donu do hodia&ubreve; plenan regadon al tiu 
+silenta, sed solena kaj profunda sento kaj ni ne profanu &gcirc;in per teoriaj 
+klarigoj.</p> 
+
+<p>Samideanoj!   La antikva pola &ccirc;efurbo, en kiu ni kunvenis, pretigis por 
+ni gastaman akcepton, faris multe, por honori nian aferon kaj por agrabligi 
+al ni nian restadon dum la kongreso.   Mi esperas, ke, revenante en sian 
+hejmon, &ccirc;iu el vi kunportos kun si plej bonan rememoron pri tiu lando kaj 
+urbo, kiujn la plimulto el vi &gcirc;is nun ver&scirc;ajne tre malmulte konis.   Al la 
+regno kaj lando, kiuj montris al ni sian amikecon, sed precipe al la estraro 
+de la gastama Krakovo kaj al &ccirc;iuj institucioj kaj personoj, kiuj donis al 
+nia kongreso sian moralan kaj materialan subtenon, mi esprimas en via nomo 
+plej koran dankon.   Plej koran kamaradan dankon mi esprimas kompreneble 
+anta&ubreve; &ccirc;io al la senlaca loka organiza komitato, kiu ne &scirc;paris laboron por 
+la plej bona aran&gcirc;o de nia kongreso.   Kaj nun mi deziras al vi &ccirc;iuj gajan 
+feston kaj sukcesan laboron.</p> 
+      </body>
+    </text>
+
+  </group>
+</text>
+</TEI.2>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

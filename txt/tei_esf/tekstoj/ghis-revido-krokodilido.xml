@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI SYSTEM "../dtd/tei-tekstaro.dtd">
+<TEI xml:id="ghis-revido-krokodilido" xml:lang="eo" xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+
+<fileDesc>
+
+<titleStmt>
+
+<title>Ĝis revido, krokodilido!: elektronika versio</title>
+
+<respStmt>
+
+<resp>La bazan tekston origine enkomputiligis</resp>
+
+<name xml:lang="sv">Sten Johansson.</name>
+
+</respStmt>
+
+</titleStmt>
+
+<extent>806 vortoj</extent>
+
+<publicationStmt>
+
+<publisher xml:lang="en">Esperantic Studies Foundation</publisher>
+
+</publicationStmt>
+
+<sourceDesc>
+
+<biblStruct>
+
+<analytic>
+
+<author><name xml:lang="sv">Sten Johansson</name></author>
+
+<title type="main">Ĝis revido, krokodilido!</title>
+
+<title type="subordinate">Enkonduko en la krokodilologion</title>
+
+</analytic>
+
+<monogr>
+
+<title type="main">Ĝis revido krokodilido!</title>
+
+<title type="subordinate">Dek kvin noveloj originalaj</title>
+
+<imprint>
+
+<publisher>Al-fa-bet-o</publisher>
+
+<pubPlace><name xml:lang="sv">Skövde</name></pubPlace>
+
+<date>1996</date>
+
+</imprint>
+
+<extent>69 p.</extent>
+
+</monogr>
+
+<note>Proksimuma verkojaro: 1996</note>
+
+<note>Kreis la Esperantan tekston: <name xml:lang="sv">Johansson</name></note>
+
+</biblStruct>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+<text>
+
+<body>
+
+<p xml:id="v2">La krokodiloj, kiel vi sendube scias, estas pra-pra-nevoj de la dinosaŭroj. Sed ĉu vi konas la originon de <hi>la krokodilado?</hi> Tiu grava demando estas unu el la prioritataj fakoj ĉe la <hi>Akademio de Verda Etnologio</hi>, fondita antaŭ nelonge en la sveda urbeto <hi><name xml:lang="">Grönköping</name>.</hi> La verdaj etnologoj okupiĝas pri ĉiuj branĉoj de esperanta folkloro, ekde distingado kaj mapado de la diversaj variaĵoj de la kanto <hi>Ĉiu ĉiu ĉiu ĉiu</hi> – ĝis serĉado kaj arkivado de la plej antikvaj, aŭtentaj kaj arkaikaj inkunabloj, palimpsestoj kaj prototipoj de la internacia lingvo. La plej grava esplorkampo de la Akademio de Verda Etnologio tamen estas la historia kaj aplikata krokodilologio, kiun gvidas la estimata docento pri amfibiologio doktoro <name xml:lang="">Kajmán Faŭkonyi</name>.</p>
+
+<p xml:id="v3">Jam delonge la scienculoj dividiĝas en du skolojn koncerne la originon de la krokodilado. Ambaŭ skoloj <hi>tempe</hi> lokas la originon en la 1930-ajn jarojn, tamen akre malkonsentas pri la <hi>loka</hi> origino.</p>
+
+<p xml:id="v4">La <hi>Pariza skolo</hi> atribuas al juna itala kelnero en Pariza kafejo la honoron esti iniciatinto de la esprimo “krokodili”. Vidante en la kafejo kelkajn maljunulojn, kiuj sin nomis esperantistoj, kvankam ili babilis nur france, li trovis tiun konduton malinda kaj malnobla, kaj volis insulti ilin per la konata franca mokvorto “reptiles”. La kelnero, portanta la nomon <hi>Ferrari</hi>, tamen ne precize memoris ĉu tiu vorto en esperanto estas <hi>reptilo, reptilio</hi> aŭ eble <hi>rampulo</hi>, kaj tial li kaptis la pli sekuran <hi>krokodilo</hi>, kaj jen estiĝis nova esprimo. Oni povus atendi, ke la humuro de tia ŝerco rapide paliĝus kaj post du semajnoj jam estus forgesita, sed iel ĝi ŝajne ŝtopis vakan lokon en la esperanta kulturo, kaj do pluvivis kaj disrampis en la mondon; ne per flugiloj de facila vento, sed eble per babiloj de stabila ventro.</p>
+
+<p xml:id="v5">Kontraŭ tiu historia analizo protestas la <hi>Ĉea skolo.</hi> Laŭ tiu, la krokodilado naskiĝis en vere internacia, preskaŭ mita medio, nome la esperantokursoj de <hi>Andreo Cseh.</hi> Lia metodo de lingvoinstruado staris sur du piedoj – la ekskluziva uzado de esperanto, sen klarigoj aŭ tradukoj en alia lingvo, kaj la aplikado de aro da pli-malpli amuzaj objektoj kiujn la instruisto montradis por ke la kursanoj nomu ilin en esperanto. Unu el la objektoj, kiujn Andreo <name xml:lang="">Cseh</name> trenadis kun si tra la mondo, estis verda krokodilo. Kiam iuj kursanoj malrespektis la regulon paroli nur esperante, <name xml:lang="">Cseh</name> levis la krokodilon, montris al ĝia malbela faŭko kaj al la moviĝantaj makzeloj de la pekantoj, kaj demandis: “Kio estas tio?” La hontantaj kursanoj do devis ĥore reciti: “Tio estas verda krokodilo” dum laŭta rikanado de la samkursanoj. Per tiu pedagogia manio de Cseh, la nocio “verda krokodilo” estis cementita al la homoj parolantaj nacilingve en esperantista medio.</p>
+
+<p xml:id="v6">Sed kial do ĝuste krokodilo? Neniu el la skoloj donas kontentigan motivon por tiu aparta elekto. Kial ne simio? Simioj ja estas konataj (inter ne-simioj) pro sia senĉesa nekomprenebla (al ne-simioj) babilado. Aŭ kial ne korniko? Aŭ meleagro? Aŭ, se necesas iu besto <hi>verda</hi>, ĉar tiu estas la koloro de esperantistoj, kial ne <hi>rano?</hi> La kvakantaj ranoj, kiuj tiel konvene rimas kun <hi>gesamideanoj</hi>, jam estas konataj el la <hi>Ran-kvarteto</hi> de <name xml:lang="">Baghy</name>.</p>
+
+<p xml:id="v7">Por respondi al tiu demandaro necesas turni sin al la sub-disciplino <hi>psikokrokodilologio</hi>, kaj penetri la spiritan vivon de tiu ĉi malestimata besto.</p>
+
+<p xml:id="v8">Laŭ la popola saĝo, krokodilojn karakterizas du esprimmanieroj: Plej konataj estas la <hi>krokodilaj larmoj</hi>, per kiuj la krokodilo logas al si senkulpajn infanojn, kiujn ĝi poste manĝas. Due temas pri la ŝajnigita <hi>rideto</hi> de ĝia fermita buŝo, kiu en malpli ol sekundo transformiĝas al la plej timiga dentriĉa faŭkego. Pro tio oni atribuas al la krokodilo antaŭ ĉio la spiritajn kvalitojn <hi>hipokrito</hi> kaj <hi>falseco.</hi> Tial, kiam oni pensis renkonti falsajn, hipokritajn pseŭdo-esperantistojn, ŝajnis nature nomi ilin laŭ tiu fia besto. <hi>Rano</hi> tute ne prezentis atentindan alternativon; aŭ ĉu vi iam aŭdis pri hipokrita rano? La sola ebla konkuranto estus la <hi>vulpo</hi>, kiu ja estas konata pro sia sagaco kaj falseco. Sed kontraŭ la vulpo argumentas ĝia koloro; la ruĝa felo povus eventuale doni al ĝi lokon inter la SAT-anoj, sed cetere la verda krokodilo sin trudis en la rolon.</p>
+
+<p xml:id="v9">Tamen, ĉu nia moderna scienco devas kapitulaci al tia superstiĉo kaj ezopa malsaĝo? Ni ja scias, ke la krokodilaj larmoj tute ne esprimas hipokriton, sed estas la sola maniero de tiuj estimataj miskonatoj por eligi superfluon de salo. Provu mem foje ŝviti tra tia kiraso! (Tio eble klarigas la fenomenon, ke eĉ inter homoj la ŝvitantoj neniam portas krokodilan ledon!?) Kaj la sardona rideto tute ne estas kaŭzata de falseco, sed de la bedaŭrinda fakto, ke la nombro de dentistoj kiuj akceptas krokodilojn kiel klientojn ial daŭre malkreskas!</p>
+
+<p xml:id="v10">Do, en la Akademio de Verda Etnologio en <name xml:lang="">Grönköping</name> lanĉiĝis plano por rehabiliti kaj rehonorigi la krokodilojn kaj redoni al ilia verda koloro ĝian meritan brilon. Ni memoru, ke antaŭ 1887 ni ĉiuj estis krokodiloj, kaj eĉ hodiaŭ ni devus agnoski nian originon kiel fieraj krokodilidoj. Do, vivu la krokodiloj, kaj ĝis revido, krokodilido!</p>
+
+</body>
+
+</text>
+
+</TEI>

@@ -1,0 +1,2955 @@
+<?xml-stylesheet type="text/xml" href="proverb.xsl"?>
+ 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd"
+[
+ 
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!ENTITY uuml "&#x00fc;">
+<!ENTITY Uuml "&#x00dc;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;">
+]>
+ 
+<!-- $Id: proverb.xml,v 1.4 2007/01/24 20:20:53 revo Exp $ -->
+<!--
+  $Log: proverb.xml,v $
+  Revision 1.4  2007/01/24 20:20:53  revo
+  prilaboretis verkoliston
+
+  Revision 1.3  2002/09/21 11:30:36  revo
+  enhavtabelo kreighas lau la atributoj type anstatau rend=inx, por subdokumentoj uzu nun rend=doc
+
+  Revision 1.2  2001/12/20 13:38:45  revo
+  nova: revizoro
+
+  Revision 1.1  2001/12/18 20:09:34  revo
+  nova: Proverbaro
+
+ 
+-->
+
+ 
+<TEI.2>
+<teiHeader>
+ 
+  <fileDesc>
+    <titleStmt>
+      <title>Proverbaro Esperanta</title>
+      <author>L. L. Zamenhof</author>
+      <respStmt>
+        <resp>enkomputiligis</resp> 
+        <name>Holger D&Uuml;RER</name>
+      </respStmt>
+      <respStmt>
+        <resp>adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: proverb.xml,v 1.4 2007/01/24 20:20:53 revo Exp $</edition>
+    </editionStmt>
+    <extent>132 kB</extent>
+    <publicationStmt>
+      <publisher>Wolfram DIESTEL</publisher>
+      <pubPlace>Lepsiko</pubPlace>
+      <date>2002</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+ <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto estis publikigita interrete de Holger D&uuml;rer
+      en HTML-a formo. Wolfram Diestel adaptis &gcirc;in al la
+      TEI-Lite-DTD por enmeti &gcirc;in en bazan tekstaron.
+      </p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La unuopaj literoj estas la&ubreve; &ccirc;apitroj apartigitaj per
+      &lt;div type="chapter" id="markilo"&gt;. Ne posedante surpaperan
+      fonton, kaj do ne sciante la originan aran&gcirc;on de la
+      tekstoj, mi povis aran&gcirc;i nur la elektronikan materialon
+      la&ubreve; propra bontrovo.
+      </p>
+    </editorialDecl>
+  </encodingDesc>
+ 
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">   
+
+  <front rend="index">
+    <titlePage>
+      <docAuthor>Lazaro Ludoviko Zamenhof</docAuthor>
+      <docTitle>
+        <titlePart type="main">
+          Proverbaro Esperanta
+        </titlePart>
+      </docTitle>
+    </titlePage>
+
+    <div type="something">
+<lg>
+<l>Peko kaj eraro estas ecoj de l' homaro.</l>
+<l>Nur tiu ne eraras, kiu neniam ion faras.</l>
+<l>Kiu &ccirc;e l' vojo konstruas, tiun &ccirc;iu instruas.</l>
+<l>Ankora&ubreve; neniu pla&ccirc;is al &ccirc;iu.</l>
+</lg>
+    </div>
+
+    <div type="preface">
+      <head>Anta&ubreve;parolo</head>
+<note>
+(El <title>La Revuo</title>, IV [1909-1910], p. 241, kie la teksto estas
+        titolita <title>Anta&ubreve;klarigo</title>, kaj aperas
+        komence de la lasta parto de <title>Proverbaro esperanta</title>.)
+</note>
+<p>
+   En la jaro 1905 mia karmemora patro komencis la publikigadon de
+kvarlingva frazeologio-proverbaro, super kiu li laboris kun amo en la
+da&ubreve;ro de longa tempo. &Ccirc;ar li esprimis la deziron, ke lia
+verko, krom la partoj rusa, pola, franca kaj germana, enhavu
+anka&ubreve; parton Esperantan, tial mi prenis sur min pretigi tiun
+&ccirc;i parton, kiu estis eldonota poste kune kun la partoj en la
+aliaj kvar lingvoj kaj provizore komencis eliradi per apartaj kajeroj
+(paralele al la kajeroj kvarlingvaj) sub la titolo <title>Proverbaro
+Esperanta</title>.
+</p><p>
+   Beda&ubreve;rinde mia patro mortis, kiam nur duono de lia verko estis
+eldonita (la elirintaj kajeroj estas riceveblaj &ccirc;e la firmo 
+M&uuml;ller kaj Borel en Berlino). La manuskripto de lia tuta verko
+estas finita, sed eldoni &ccirc;iujn kvin partojn de la verko en la
+nuna tempo estas malfacile; tial mi decidis, anta&ubreve; ol la tuta
+verko povos esti eldonita, eldoni almena&ubreve; aparte la parton
+Esperantan. La &gcirc;is nun ankora&ubreve; ne publikigitan lastan
+parton de la <title>Proverbaro Esperanta</title> mi publikigas
+nun en <title>La Revuo</title>, kaj poste la tuta verko eliros en
+formo de aparta libro.
+</p><p>
+   Pretigita kiel parto de verko kvinlingva, la <title>Proverbaro
+Esperanta</title> estas aran&gcirc;ita la&ubreve; la alfabeta ordo de
+tiu parto, kiu en la dirita verko estas prenita kiel bazo (la parto
+rusa). Sed por ke oni povu facile trovi la proverbojn, traktantajn pri
+&ccirc;ia dezirata temo, la la&ubreve;enhave dividitaj grupoj da
+proverboj estos numeritaj, kaj en la fino de la verko estos presita
+alfabeta registro de temoj, kun montro de la
+numeroj, sub kiuj oni povas trovi &ccirc;iun apartan temon.
+</p>
+
+<signed>L. L. Zamenhof</signed>
+
+   </div>
+  </front>
+
+  <body>
+
+<div type="chapter" id="A" rend="doc">
+<head>A</head>
+<lg rend="left">
+<l>Abelujon ne incitu, amason ne spitu.</l><l>
+Afabla vorto pli atingas ol forto.</l><l>
+Agrabla estas gasto, se ne longe li restas.</l><l>
+A&gcirc;o maljuna ne estas oportuna.</l><l>
+A&gcirc;o tro matura ne estas plezura.</l><l>
+Akiro kaj perdo rajdas duope.</l><l>
+Akvo bolas, murmuras, sed fine &gcirc;i kuras.</l><l>
+Akvo kaj pano servas al sano.</l><l>
+Akvo kura &dash; akvo pura.</l><l>
+Akvo silenta subfosas la bordon.</l><l>
+Akvo trankvila estas akvo dan&gcirc;era.</l><l>
+Akvon senmovan kovras putra&jcirc;o.</l><l>
+Al amiko nova ne fidu sen provo.</l><l>
+Al bona &ccirc;asisto iras mem la besto.</l><l>
+Al &ccirc;evalo donacita oni bu&scirc;on ne esploras.</l><l>
+Al &ccirc;iu besto pla&ccirc;as &gcirc;ia nesto.</l><l>
+Al &ccirc;iu frato lian parton.</l><l>
+Al &ccirc;iu konvenas, kio al li apartenas.</l><l>
+Al &ccirc;iu sanktulo apartan kandelon.</l><l>
+Al &ccirc;iu sia propra estas &ccirc;arma kaj kara.</l><l>
+Al &ccirc;iu sinjoro estu lia honoro.</l><l>
+Al Dio pla&ccirc;u, sed sur diablon ne kra&ccirc;u.</l><l>
+Al Dio servu, diablon rezervu.</l><l>
+Al du sinjoroj samtempe oni servi ne povas.</l><l>
+Al farun' malbonspeca ne helpos la spico.</l><l>
+Al feli&ccirc;ulo e&ccirc; koko donas ovojn.</l><l>
+Al fi&scirc;' kuirita jam akvo ne helpos.</l><l>
+Al glacio printempa kaj al amiko tro nova ne fidu.</l><l>
+Al grandaj sinjoroj grandaj honoroj.</l><l>
+Al hundo bastono &dash; al hom' leciono.</l><l>
+Al kavo senfunda &scirc;topado ne helpas.</l><l>
+Al kokino la ovo lecionojn ne donu.</l><l>
+Al koro penetro per okula fenestro.</l><l>
+Al kuko kaj kaso &ccirc;iam venas amaso.</l><l>
+Al la afero.</l><l>
+Al la bu&scirc;o de <emph>oni</emph> neniu povas ordoni.</l><l>
+Al la fi&scirc;o ne instruu na&gcirc;arton.</l><l>
+Al la malamik' en kuro faru ponton kun plezuro.</l><l>
+Al la papero ne mankas tolero.</l><l>
+Al li ne mankas defendo kontra&ubreve; ofendo.</l><l>
+Al loko dolora ni manon etendas &dash; al loko &ccirc;arma okulojn ni sendas.</l><l>
+Al malri&ccirc;ulo infanoj ne mankas.</l><l>
+Al malri&ccirc;ulo ovo kiel al ri&ccirc;ulo bovo.</l><l>
+Al malsa&gcirc;ulo ne helpas admono, nur bastono.</l><l>
+Al mono kaj forto humili&gcirc;as la sorto.</l><l>
+Al pec' pecon algluas, kiu neston konstruas.</l><l>
+Al porko Dio kornojn ne donas.</l><l>
+Al posedanto de metio mankas nenio.</l><l>
+Al promeso oni ne kredas &dash; kredu, kiu posedas.</l><l>
+Al protekto kaj forto helpas la sorto.</l><l>
+Al sklavo mon' ne estas savo &dash; li &ccirc;iam restas sklavo.</l><l>
+Al tiu &ccirc;io cedas, kiu monon posedas.</l><l>
+Al venko rajto venas, se &gcirc;in forto subtenas.</l><l>
+Al vi ne pla&ccirc;is sitelo, laboru per martelo.</l><l>
+Al vi oni predikas, kaj nin oni pikas.</l><l>
+Alia tempo, aliaj moroj.</l><l>
+Alia urbo, alia moro.</l><l>
+Aliaj domoj, aliaj homoj.</l><l>
+Aliaj tempoj, aliaj moroj.</l><l>
+Aliajn gvidas, kaj mem ne vidas.</l><l>
+Alian ne malla&ubreve;du, vin mem ne apla&ubreve;du.</l><l>
+Aliloka &ccirc;ielo estas sama &ccirc;ielo.</l><l>
+Almozoj ne malri&ccirc;igas.</l><l>
+Almozpetanto sin&gcirc;ena restas kun sako malplena.</l><l>
+Alpremi iun al muro.</l><l>
+Altan arbon batas la fulmo.</l><l>
+Amaso da fian&ccirc;oj, sed la &gcirc;usta ne venas.</l><l>
+Amaso da mono kaj titolo de barono.</l><l>
+Amba&ubreve; floroj de samaj valoroj.</l><l>
+Ameno diablon ne forpelas.</l><l>
+Amikeco aparte, afero aparte.</l><l>
+Amikeco aparte, ofico aparte.</l><l>
+Amiko &dash; intimulo.</l><l>
+Amiko de amiko estas anka&ubreve; amiko.</l><l>
+Amiko en &gcirc;ojo kaj mal&gcirc;ojo.</l><l>
+Amiko en &gcirc;ojo kaj ploro.</l><l>
+Amiko estas kara, sed mi mem estas pli kara.</l><l>
+Amiko estas kara, sed vero pli kara.</l><l>
+Amiko fidela estas trezoro plej bela.</l><l>
+Amikon karesu, sed kalkuli ne forgesu.</l><l>
+Amikon montras malfeli&ccirc;o.</l><l>
+Amikon &scirc;atu, malamikon ne batu.</l><l>
+Amo estas forta, sed mono pli forta.</l><l>
+Amo faras ion, mono &ccirc;ion.</l><l>
+Amo kaj &jcirc;aluzo estas gefratoj.</l><l>
+Amo kaj puno lo&gcirc;as komune.</l><l>
+Amo pli kora, disi&gcirc;o pli dolora.</l><l>
+Amo supermezura ne estas plezura.</l><l>
+Amu Antonon, sed gardu vian monon.</l><l>
+Amu domon novan kaj amikon malnovan.</l><l>
+Amu edzinon plej kore, sed tenu &scirc;in bonmore.</l><l>
+Animo al paradizo deziras, sed pekoj retiras.</l><l>
+Anka&ubreve; al ni la suno eklumos.</l><l>
+Anka&ubreve; al nia nesto venos iam la festo.</l><l>
+Anka&ubreve; diablo tondron suferos.</l><l>
+Anka&ubreve; la lupon atingos la sorto.</l><l>
+Anka&ubreve; por diablo tondro ekzistas.</l><l>
+Ankora&ubreve; Dio ne dormas.</l><l>
+Ankora&ubreve; la ezoko ne estas sur la hoko.</l><l>
+Ankora&ubreve; la gajno ne estas en la mano.</l><l>
+Ankora&ubreve; multe vi kuros, &gcirc;is vi alkuros.</l><l>
+Ankora&ubreve; neniu evitis la sorton.</l><l>
+Ankora&ubreve; neniu pla&ccirc;is al &ccirc;iu.</l><l>
+Anta&ubreve; &ccirc;io zorgu oficon &dash; plezuro atendos sian vicon.</l><l>
+Anta&ubreve; la lango laboru la cerbo.</l><l>
+Anta&ubreve; mortigo de urso ne vendu &gcirc;ian felon.</l><l>
+Anta&ubreve; okuloj ne staras, doloron ne faras.</l><l>
+Anta&ubreve; tima okulo potenci&gcirc;as e&ccirc; kulo.</l><l>
+Anta&ubreve; vespero ne estu fiera.</l><l>
+Anta&ubreve;e intencu kaj poste komencu.</l><l>
+Anta&ubreve;e kion vi devas, poste kion vi volas.</l><l>
+Anta&ubreve;parolo liberigas de postparolo.</l><l>
+Aperas prudento, kiam pasis la momento.</l><l>
+Aprila vetero &dash; trompa aero.</l><l>
+Apud plena man&gcirc;otablo &ccirc;iu estas tre afabla.</l><l>
+Apud propra domo &scirc;telisto ne &scirc;telas.</l><l>
+Aran&gcirc;ite, ordigite.</l><l>
+Arbaro a&ubreve;das, kampo vidas.</l><l>
+Arbo krakanta venton ne timas.</l><l>
+Atakis lin horo malsa&gcirc;a.</l><l>
+Atakis teruro, ektremis la kruro.</l><l>
+Atendi bonan veteron kaj laman kurieron.</l><l>
+Atendi sur tero, &gcirc;is seki&gcirc;os la rivero.</l><l>
+Atendis, atendis, &gcirc;is lin &ccirc;erko etendis.</l><l>
+Atendis, meditis, &gcirc;is en tombon englitis.</l><l>
+Atendu min anta&ubreve; la domo de mia pranepo.</l><l>
+Atentu.</l><l>
+Atesto de matureco.</l><l>
+Atingi la vesperon de sia vivo.</l><l>
+A&ubreve; &ccirc;io, a&ubreve; nenio.</l><l>
+A&ubreve; festene, a&ubreve; malplene.</l><l>
+A&ubreve; festo, a&ubreve; fasto.</l><l>
+A&ubreve; kuseno sub ripo, a&ubreve; bato per vipo.</l><l>
+A&ubreve; ministran postenon, a&ubreve; pundoman katenon.</l><l>
+A&ubreve; plej ri&ccirc;a stato, a&ubreve; plena malsato.</l><l>
+A&ubreve;skultas prudente, kiu a&ubreve;skultas atente.</l><l>
+A&ubreve;skulti kiel &hcirc;inan predikon.</l><l>
+Avarulo avaras, heredantoj mal&scirc;paras.</l><l>
+Avarulo kaj porko estas bonaj post la morto. .</l><l>
+Avarulo pagas duoble.</l><l>
+Azen' al azeno ripro&ccirc;as malsa&gcirc;on.</l><l>
+Azenon komunan oni batas plej multe</l>
+</lg>
+</div>
+
+<div type="chapter" id="B" rend="doc">
+<head>B</head>
+<lg rend="left"><l>
+Babilas, muelas, kion lango elpelas.</l><l>
+Balaa&jcirc;on el korto eksteren ne elportu.</l><l>
+Barakti kiel fi&scirc;o ekster la akvo.</l><l>
+Barbo elkreskis, sed sa&gcirc;on ne naskis.</l><l>
+Barbo potenca, sed kapo sensenca.</l><l>
+Barelo malplena sonas plej la&ubreve;te.</l><l>
+Bastono batas, bastono resaltas.</l><l>
+Batadi kiel fi&scirc;o kontra&ubreve; glacio.</l><l>
+Batadi la venton.</l><l>
+Bataladi kontra&ubreve; la sorto.</l><l>
+Batanto povas argumenti, batato devas silenti.</l><l>
+Batita komprenas aludon.</l><l>
+Bato de frato estas sen kompato.</l><l>
+Bato de patrino ne longe doloras.</l><l>
+Batu malbonulon, li vin flatos &dash; kisu, li vin batos.</l><l>
+Beda&ubreve;rinde.</l><l>
+Beda&ubreve;ro kaj &ccirc;agreno &scirc;uldon ne kovras.</l><l>
+Bela birdo.</l><l>
+Bela celo por fabelo.</l><l>
+Bela paro por altaro.</l><l>
+Bela per viza&gcirc;o, sed ne bela per sa&gcirc;o.</l><l>
+Bela viza&gcirc;o estas duono da doto.</l><l>
+Bela viza&gcirc;o, sed ne bela la sa&gcirc;o.</l><l>
+Belaj rakontoj el trans la montoj.</l><l>
+Beleco hodia&ubreve; estas, morga&ubreve; ne restas.</l><l>
+Beleco logas, virto apogas.</l><l>
+Belecon taksas ne okulo sed koro.</l><l>
+Bezono estas plej forta ordono.</l><l>
+Birdo kantas la&ubreve; sia beko.</l><l>
+Birdo petolas, kiom &gcirc;i volas.</l><l>
+Blindulo kartojn ludi ne devas.</l><l>
+Bojas hundido, &ccirc;ar tiel faras la hundo.</l><l>
+Bojas hundido, kiel &gcirc;i a&ubreve;das de hundoj.</l><l>
+Bojas hundo sen puno e&ccirc; kontra&ubreve; la suno.</l><l>
+Bona estas domo nova kaj amiko malnova.</l><l>
+Bona estas fremdlando, sed aliaj tie lo&gcirc;u.</l><l>
+Bona estas Romo, sed tro malproksima de nia domo.</l><l>
+Bona famo sin trenas testude, malbona kuras rapide.</l><l>
+Bona gloro pli valoras ol oro.</l><l>
+Bona ideo venas post la pereo.</l><l>
+Bona kaporalo revas esti generalo.</l><l>
+Bona puno por malbona peno.</l><l>
+Bona stato sa&gcirc;igas, malbona malsa&gcirc;igas.</l><l>
+Bona vino al la fino.</l><l>
+Bonaj infanoj gepatrojn feli&ccirc;igas, malbonaj ilin entombigas.</l><l>
+Bonaj kalkuloj, bonaj kunuloj.</l><l>
+Bone kreskas la herbo, sed &ccirc;evalo jam mortis.</l><l>
+Bone sukcesu, sed anka&ubreve; nin ne forgesu.</l><l>
+Bone tiu sidas, al kiu la sorto ridas.</l><l>
+Bonfaron oni facile forgesas.</l><l>
+Bongusta peco longe ne atendas.</l><l>
+Bono farita ne estas perdita.</l><l>
+Bono posedata ne estas &scirc;atata.</l><l>
+Bovidon mi atendis, infanon Dio sendis.</l><l>
+Bovo prenita, koko donita kaj &dash; kvita.</l><l>
+Brava batalanto kontra&ubreve; plado bolanta.</l><l>
+Brava homo en sia domo.</l><l>
+Bravulo kontra&ubreve; mu&scirc;o, sed mu&scirc;o kontra&ubreve; bravulo.</l><l>
+Brogita e&ccirc; sur akvon blovas.</l><l>
+Bruligi al si la lipharojn.</l><l>
+Bruo potenca, nula esenco.</l><l>
+Bu&ccirc;as la lupo, oni anka&ubreve; &gcirc;in bu&ccirc;os.</l><l>
+Butonumi iun malvaste</l>
+</lg>
+</div>
+
+<div type="chapter" id="C" rend="doc">
+<head>C</head>
+<lg rend="left"><l>
+Celi anseron, trafi aeron.</l><l>
+Celis paseron, trafis anseron.</l><l>
+Cent jarojn silentis kaj subite sin prezentis.</l><l>
+Certa&jcirc;o kaj le&gcirc;o, kiel amen en pre&gcirc;o.</l><l>
+Certe, kiel duoble du kvar.</l><l>
+Cindrulino</l>
+</lg>
+</div>
+
+<div type="chapter" id="Cx" rend="doc">
+<head>&Ccirc;</head>
+<lg rend="left"><l>
+&Ccirc;asa&jcirc;o &ccirc;asanton ne atendas.</l><l>
+&Ccirc;e botisto la &scirc;uo estas &ccirc;iam kun truo.</l><l>
+&Ccirc;e l' fre&scirc;a faro.</l><l>
+&Ccirc;e la tagi&gcirc;o.</l><l>
+&Ccirc;e mastro &scirc;telisto la servantoj ne &scirc;telas.</l><l>
+&Ccirc;e plej granda fido memoru pri perfido.</l><l>
+&Ccirc;e stomako malsata ne kapricas palato.</l><l>
+&Ccirc;e tablo malplena babilo ne fluas.</l><l>
+&Ccirc;e tro &gcirc;entila ekstero mankas sincero.</l><l>
+&Ccirc;e vesto velura suferas stomako.</l><l>
+&Ccirc;e vulpoj &ccirc;iam naski&gcirc;as nur vulpoj.</l><l>
+&Ccirc;erpi akvon per kribrilo.</l><l>
+&Ccirc;esis esti vino, sed vinagro ne fari&gcirc;is.</l><l>
+&Ccirc;ia dono estas bono.</l><l>
+&Ccirc;ie estas varme, sed hejme plej &ccirc;arme.</l><l>
+&Ccirc;io dependas de <emph>se</emph> kaj <emph>kiam</emph>.</l><l>
+&Ccirc;io estas por li kiel polvero sur la tero.</l><l>
+&Ccirc;io havas finon.</l><l>
+&Ccirc;io havas sian <emph>sed</emph> kaj <emph>se</emph>.</l><l>
+&Ccirc;io sia estas plej &ccirc;arma.</l><l>
+&Ccirc;io supermezura estas terura.</l><l>
+&Ccirc;io ta&ubreve;gas, kio venas.</l><l>
+&Ccirc;io transmara estas &ccirc;arma kaj kara.</l><l>
+&Ccirc;ion novan oni &scirc;atas, malnovan oni forbatas.</l><l>
+&Ccirc;ion rigardi tra sia persona vitro.</l><l>
+&Ccirc;irka&ubreve; sanktuloj diabloj vagas.</l><l>
+&Ccirc;irka&ubreve;flatadi kaj &ccirc;irka&ubreve;flirtadi iun.</l><l>
+&Ccirc;iu <emph>li</emph> havas sian <emph>&scirc;i</emph>.</l><l>
+&Ccirc;iu <emph>tial</emph> havas sian <emph>kial</emph>.</l><l>
+&Ccirc;iu abomena&jcirc;o trovas sian adoranton.</l><l>
+&Ccirc;iu angulo kun sia sanktulo.</l><l>
+&Ccirc;iu barono havas sian kapricon.</l><l>
+&Ccirc;iu besto zorgas pri sia nesto.</l><l>
+&Ccirc;iu eraro estas kulpo.</l><l>
+&Ccirc;iu estis junulo, &ccirc;iu estis pekulo.</l><l>
+&Ccirc;iu familio havas sian kriplulon.</l><l>
+&Ccirc;iu havas sian guston.</l><l>
+&Ccirc;iu havas sian ka&scirc;itan mizeron.</l><l>
+&Ccirc;iu havas sian propran guston.</l><l>
+&Ccirc;iu havas sian &scirc;ar&gcirc;on.</l><l>
+&Ccirc;iu havas sian vermon.</l><l>
+&Ccirc;iu iras, kiel sa&gcirc;' al li diras.</l><l>
+&Ccirc;iu klopodu nur en sia metio, tiam al la urbo mankos nenio.</l><l>
+&Ccirc;iu komenco estas malfacila.</l><l>
+&Ccirc;iu kreas sian forton, &ccirc;iu for&gcirc;as sian sorton.</l><l>
+&Ccirc;iu man&gcirc;as, kiel li aran&gcirc;as.</l><l>
+&Ccirc;iu mano al si altiras.</l><l>
+&Ccirc;iu medalo du flankojn posedas.</l><l>
+&Ccirc;iu mezuras aliajn la&ubreve; sia mezurilo.</l><l>
+&Ccirc;iu morga&ubreve; havas sian zorgon.</l><l>
+&Ccirc;iu persono kun sia bezono.</l><l>
+&Ccirc;iu por si &dash; por &ccirc;iuj Di'.</l><l>
+&Ccirc;iu por si mem estas la plej kara.</l><l>
+&Ccirc;iu propran sa&gcirc;on posedas.</l><l>
+&Ccirc;iu provas, kion li povas.</l><l>
+&Ccirc;iu sezono kun sia bono.</l><l>
+&Ccirc;iu sin direktas, kiel la kap' al li diktas.</l><l>
+&Ccirc;iu sin gvidas, kiel li vidas.</l><l>
+&Ccirc;iu tajloro havas sian tran&ccirc;manieron.</l><l>
+&Ccirc;iu vivas la&ubreve; sia prudento kaj sento.</l><l>
+&Ccirc;iu vulpo sian voston la&ubreve;das.</l><l>
+&Ccirc;iuj enterigitoj estas plenaj de meritoj.</l><l>
+&Ccirc;iuj milionoj konsistas el milonoj.</l><l>
+&Ccirc;iun demandu, sed mem al vi komandu</l>
+</lg>
+</div>
+
+<div type="chapter" id="D" rend="doc">
+<head>D</head>
+<lg rend="left"><l>
+Danci anta&ubreve; iu sur piedoj kaj manoj.</l><l>
+Danci kiel kato &ccirc;irka&ubreve; poto.</l><l>
+Danci la&ubreve; ies fajfilo.</l><l>
+Dancu diabloj, sed ne en mia arbaro.</l><l>
+Dando el re&gcirc;a hundejo.</l><l>
+Dan&gcirc;era estas bovo anta&ubreve;e, &ccirc;evalo malanta&ubreve;e, kaj malsa&gcirc;ulo de
+&ccirc;iuj flankoj.</l><l>
+Dan&gcirc;ero sie&gcirc;as, al Dio ni pre&gcirc;as &dash; dan&gcirc;ero &ccirc;esas, ni Dion
+forgesas.</l><l>
+De atendo kaj espero pereis multaj sur la tero.</l><l>
+De bona vorto lango ne doloras.</l><l>
+De edzi&gcirc;o tro malfrua orfoj naski&gcirc;as.</l><l>
+De elekto tro multa plej malbona rezulto.</l><l>
+De fremda dento ni doloron ne sentas.</l><l>
+De fremda gro&scirc;o &scirc;iri&gcirc;as la po&scirc;o.</l><l>
+De guto post guto disfalas granito.</l><l>
+De kantado senpaga doloras la gor&gcirc;o.</l><l>
+De kiu la kulpo, por tiu la puno.</l><l>
+De l' koro spegulo estas la okulo.</l><l>
+De la bu&scirc;o &gcirc;is la manoj estas granda interspaco.</l><l>
+De la manoj &gcirc;is lipoj la sup' elver&scirc;i&gcirc;is.</l><l>
+De la volo la ordono pli efikas ol bastono.</l><l>
+De legado sen atento ne ri&ccirc;i&gcirc;as la prudento.</l><l>
+De lia vivo aran&gcirc;o estas trinko kaj man&gcirc;o.</l><l>
+De majesta &gcirc;is ridinda estas nur unu pa&scirc;o.</l><l>
+De malbona &scirc;afo estas bona e&ccirc; tufo.</l><l>
+De malgranda kandelo forbrulis granda kastelo.</l><l>
+De malri&ccirc;ula man&gcirc;o ni guston ne scias.</l><l>
+De man&gcirc;o malri&ccirc;ula ni guston ne scias.</l><l>
+De nehavanto e&ccirc; re&gcirc;o nenion ricevos.</l><l>
+De parolo &gcirc;is faro estas tre malproksime.</l><l>
+De peko kaj mizero estas plena la tero.</l><l>
+De plendo kaj ploro ne fori&gcirc;as doloro.</l><l>
+De pli da suko ne malboni&gcirc;as la kuko.</l><l>
+De rigardo tro alta malsani&gcirc;as okulo.</l><l>
+De sama koloro, de sama valoro.</l><l>
+De semo putra venas frukto ne nutra.</l><l>
+De senpripensa rekomendo venas ploro kaj plendo.</l><l>
+De superfluo malboni&gcirc;as la &gcirc;uo.</l><l>
+De &scirc;afo senlana e&ccirc; lanero ta&ubreve;gas.</l><l>
+De tro da pano venas malsano.</l><l>
+De tro multa scio krevas la kranio.</l><l>
+De unu bovo oni du felojn ne de&scirc;iras.</l><l>
+De unu bovo oni du felojn ne &scirc;iras.</l><l>
+De vorto &gcirc;entila ne doloras la lango.</l><l>
+De zorgoj, ne de jaroj, blanki&gcirc;as la haroj.</l><l>
+Dek fojojn mezuru, unu fojon detran&ccirc;u.</l><l>
+Deko da pekoj &dash; unu la puno.</l><l>
+Demando ne kostas, demando ne devigas.</l><l>
+Demeti de si la antikvan Adamon.</l><l>
+Dentoj mordas la langon, tamen amba&ubreve; sin amas.</l><l>
+Depost tempo nememorebla.</l><l>
+Detruita &gcirc;is la fundo de l' fundamento.</l><l>
+Deziri al iu amason da mono kaj titolon de barono.</l><l>
+Deziri al iu &ccirc;ion bonan.</l><l>
+Deziro kaj inklino ordonon ne
+obeas.</l><l>
+Deziro tre granda, sed mankas la forto.</l><l>
+Deziru sincere, vi atingos libere.</l><l>
+Deziru, ne deziru &dash; ordon' estas, iru.</l><l>
+Diablo ne &ccirc;iam unu pordon sie&gcirc;as.</l><l>
+Diablo &scirc;ercon ne komprenas, vokite li venas.</l><l>
+Difekton de naturo ne kovros veluro.</l><l>
+Dio al vi donis, por ke vi povu doni.</l><l>
+Dio batas, Dio kompatas.</l><l>
+Dio donis bu&scirc;on, Dio donos man&gcirc;on.</l><l>
+Dio donis infanon, Dio donos por &gcirc;i panon.</l><l>
+Dio donis kaj benis, sed diablo forprenis.</l><l>
+Dio donis oficon, Dio donas kapablon.</l><l>
+Dio donis oficon, Dio donas prudenton.</l><l>
+Dio donis tagon, Dio donos man&gcirc;on.</l><l>
+Dio donis, Dio prenis.</l><l>
+Dio &gcirc;uste faras, neniam eraras.</l><l>
+Dio kompatu.</l><l>
+Dio longe paciencas, sed severe rekompencas.</l><l>
+Dio man&gcirc;on donacis, sed la dentoj agacas.</l><l>
+Dio ne perfidas, se homo Lin fidas.</l><l>
+Dio ne ricevis, diablo forlevis.</l><l>
+Dio orfojn ne forgesas.</l><l>
+Dio punas la&ubreve; la fortoj.</l><l>
+Dio puni deziras, li la sa&gcirc;on fortiras.</l><l>
+Dio scias bone pri niaj bezonoj.</l><l>
+Dion fidu, sed senfare ne sidu.</l><l>
+Dion kolerigis, homojn ridigis.</l><l>
+Dion la&ubreve;du kaj diablon apla&ubreve;du.</l><l>
+Diri al iu nudan veron.</l><l>
+Diri la puran veron.</l><l>
+Diris kaj foriris.</l><l>
+Dirite, farite.</l><l>
+Diron oni neas, skribo ne pereas.</l><l>
+Disputo kredigas, sed ne certigas.</l><l>
+Disputoj kondukas al malpaco.</l><l>
+Disputu komence &dash; vi ne malpacos en fino.</l><l>
+Disputu pri &ccirc;io, sed sen garantio.</l><l>
+Dol&ccirc;e &scirc;miri al iu la lipojn.</l><l>
+Donacetoj subtenas amikecon.</l><l>
+Donaco nesincera estas donaco infera.</l><l>
+Donacon reprenu kaj mian vivon ne venenu.</l><l>
+Donado de almozoj neniam malri&ccirc;igas.</l><l>
+Doni al iu la baton de morto.</l><l>
+Doni la finofaran baton.</l><l>
+Doni la tonon.</l><l>
+Doni lecionon de moroj.</l><l>
+Doni ovon, por ricevi bovon.</l><l>
+Donu al krudulo plezuron, li ne scios mezuron.</l><l>
+Donu fingron al avidulo, li tutan manon postulas.</l><l>
+Dorloti serpenton sur sia brusto.</l><l>
+Dormus leporo, se &gcirc;i &ccirc;ason ne timus.</l><l>
+Doto koron ne varmigas.</l><l>Dra&scirc;i fojnon.</l><l>
+Drinku tutajn tagojn, sed kontrolu viajn agojn.</l><l>
+Dronanto domon proponas, savito e&ccirc; brikon ne donas.</l><l>
+Dronanto e&ccirc; herbeton kaptas avide.</l><l>
+Droni en detaloj.</l><l>Du botoj faras paron.</l><l>
+Du kontra&ubreve; unu prezentas armeon.</l><l>
+Du manoj faras &ccirc;ion, sed unu nenion.</l><l>
+Du militas &dash; tria profitas.</l><l>
+Du mortojn vi ne havos, de unu vi vin ne savos.</l><l>
+Du sinjoroj en unu bieno, du mastrinoj &ccirc;e unu kameno &dash; neniam vivas sen reciproka malbeno.</l><l>
+Dubo gardas kontra&ubreve; risko.</l><l>
+Dum la man&gcirc;ado venas apetito</l>
+</lg></div>
+
+<div type="chapter" id="E" rend="doc">
+<head>E</head>
+<lg rend="left"><l>
+Ebrieco pasas post dormo, malsa&gcirc;eco neniam.</l><l>
+Ebriulon kaj malsa&gcirc;ulon oni ne ju&gcirc;as.</l><l>
+E&ccirc; bagatelo povas servi al celo.</l><l>
+E&ccirc; blinda kokino povas trovi grajnon.</l><l>
+E&ccirc; &ccirc;e kokino trovi&gcirc;as propra inklino.</l><l>
+E&ccirc; el sub la tero aperas la vero.</l><l>
+E&ccirc; en Parizo herbo ne fari&gcirc;as cerbo.</l><l>
+E&ccirc; guto malgranda, konstante frapante, traboras la monton granitan.</l><l>
+E&ccirc; inter piuloj ne mankas pekuloj.</l><l>
+E&ccirc; kaprino pla&ccirc;as, se la doto sufi&ccirc;as.</l><l>
+E&ccirc; kiu plej bone pafas, tamen iam maltrafas.</l><l>
+E&ccirc; kontra&ubreve; pastra prediko trovi&gcirc;as kritiko.</l><l>
+E&ccirc; kvar piedoj de &ccirc;evalo &gcirc;in ne savas de falo.</l><l>
+E&ccirc; malgranda mu&scirc;o ne estas sen bu&scirc;o.</l><l>
+E&ccirc; malsa&gcirc;ulon sperto instruos.</l><l>
+E&ccirc; monstron admiras, kiu ame deliras.</l><l>
+E&ccirc; mu&scirc;o sentas, kiam vi &gcirc;in turmentas.</l><l>
+E&ccirc; najtingalo ne estas sen galo.</l><l>
+E&ccirc; per dol&ccirc;a kuko vi min ne allogos.</l><l>
+E&ccirc; pinglo povas koron trapiki.</l><l>
+E&ccirc; plej bonan &scirc;ipon malbonigas la ventoj.</l><l>
+E&ccirc; plej granda malbono al bono kondukas.</l><l>
+E&ccirc; plej nigra bovino donas lakton nur blankan.</l><l>
+E&ccirc; plej ruza vulpo en kaptilon falas.</l><l>
+E&ccirc; por plej terura tago venas vespero.</l><l>
+E&ccirc; por pomo putranta trovi&gcirc;as amanto.</l><l>
+E&ccirc; signo ne restis, kie urbo estis.</l><l>
+E&ccirc; sur la suno trovi&gcirc;as makuloj.</l><l>
+E&ccirc; &scirc;tipo estos bela, se vi &gcirc;in ornamos.</l><l>
+E&ccirc; &scirc;tono verdi&gcirc;as, se &gcirc;i longe ne movi&gcirc;as.</l><l>
+E&ccirc; vulpo plej ruza fine estas kaptata.</l><l>
+Edzigu filon, kiam vi volas &dash; edzinigu filinon, kiam vi povas.</l><l>
+Edzi&gcirc;o la&ubreve; koro, la&ubreve; la kvanto da oro.</l><l>
+Edzi&gcirc;o najbara garantias de eraro.</l><l>
+Edzi&gcirc;o pro amo flamanta al la sako sonanta.</l><l>
+Edzi&gcirc;o tro momenta estas longapenta.</l><l>
+Edzin' admirata &dash; edzo malsata.</l><l>
+Edzino pli elver&scirc;as per funelo, ol edzo enver&scirc;as per sitelo.</l><l>
+Edzo edzinon la&ubreve;das, edzino edzon apla&ubreve;das.</l><l>
+Edzo kaj edzino &dash; &ccirc;iela difino.</l><l>
+Edzo kaj edzino estas nur unu.</l><l>
+Eksalte senhalte.</l><l>Eksplodema kiel pulvo.</l><l>
+Eksplodis kiel pulvo.</l><l>
+Ekster via ofico estas ekster via vico.</l><l>
+Ekstere honoro, interne doloro.</l><l>
+Ekzameni ne devigas preni.</l><l>
+Ekzemplo proponas, sed ne ordonas.</l><l>
+Ekzistas ezoko, ke fi&scirc;etoj ne dormu.</l><l>
+Ekzistas ezoko, por ke fi&scirc;etoj ne dormu.</l><l>
+El aero al tero.</l><l>
+El du malbonoj pli malgrandan elektu.</l><l>
+El flamo sin eltiris, en fajron eniris.</l><l>
+El fremda ledo oni tran&ccirc;as lar&gcirc;e.</l><l>
+El fremda po&scirc;o oni pagas facile.</l><l>
+El kanto oni vortojn ne el&jcirc;etas.</l><l>
+El klara &ccirc;ielo tondro ekbatis.</l><l>
+El la bu&scirc;' multaj vortoj eliras, sed ne &ccirc;iuj ion diras.</l><l>
+El la fara&ccirc;o fari&gcirc;is ka&ccirc;o.</l><l>
+El la mizero oni devas fari virton.</l><l>
+El la neceseco oni devas fari virton.</l><l>
+El la po&scirc;o al la bu&scirc;o.</l><l>
+El la sama bu&scirc;o li blovas varmon kaj malvarmon.</l><l>
+El lia mano &ccirc;iu monero elglitas.</l><l>
+El malgrandaj akveroj fari&gcirc;as grandaj riveroj.</l><l>
+El malplena telero vane &ccirc;erpas kulero.</l><l>
+El multaj milonoj fari&gcirc;as milionoj.</l><l>
+El post la arbo li estas bravulo.</l><l>
+El sama tero devenas, saman sukon entenas.</l><l>
+Elbatadi ies sojlon.</l><l>
+Elektadis sen fino, edzi&gcirc;is kun porkino.</l><l>
+Elektu edzinon la&ubreve; deveno kaj ne la&ubreve; mieno.</l><l>
+Eliri sen frakaso el granda embaraso.</l><l>
+Elmeti la okulon kaj vidi nulon.</l><l>
+Elmetu mielon, mu&scirc;oj alflugos.</l><l>
+Elpeli iun el la mondo de la vivuloj.</l><l>
+Eltrinki per unu tiro.</l><l>
+Elver&scirc;i sur iun sian koleron.</l><l>
+Eminenta &scirc;uldanto &dash; malbona paganto.</l><l>
+En abelujon ne blovu.</l><l>
+En akvo malklara oni fi&scirc;kaptas facile.</l><l>
+En amaso e&ccirc; morto estas pli gaja.</l><l>
+En arbaro sidas kaj arbojn ne vidas.</l><l>
+En arbaro sidis kaj arbojn ne vidis.</l><l>
+En bona horo.</l><l>En bona ordo tra la pordo.</l><l>
+En bu&scirc;o Biblio, en koro malpio.</l><l>
+En &ccirc;eesto amata, en forest' insultata.</l><l>
+En &ccirc;iu a&gcirc;o devas kreski la sa&gcirc;o.</l><l>
+En &ccirc;iu angulo alia postulo.</l><l>
+En &ccirc;iu brusto estas sia gusto.</l><l>
+En &ccirc;iu kranio estas sia opinio.</l><l>
+En &ccirc;iu kranio regas aparta opinio.</l><l>
+En &ccirc;iu malbono estas iom da bono.</l><l>
+En &ccirc;iu objekto trovi&gcirc;as difekto.</l><l>
+En &ccirc;iu translo&gcirc;i&gcirc;o estas parto de ruini&gcirc;o.</l><l>
+En dom' de pendigito pri &scirc;nuro ne parolu.</l><l>
+En feli&ccirc;o ne fieru, en malfeli&ccirc;o esperu.</l><l>
+En fremda okulo ni vidas ligneron, en nia ni trabon ne vidas.</l><l>
+En fremda tegmento li flikas truon kaj en propra ne vidas la
+fluon.</l><l>
+En fremdan vazon ne &scirc;ovu la nazon.</l><l>
+En infano vidi&gcirc;as, kia homo fari&gcirc;os.</l><l>
+En infero lo&gcirc;ante, kun diabloj ne disputu.</l><l>
+En juneco logas, en maljuneco tedas.</l><l>
+En juneco ni petas, en maljuneco for&jcirc;etas.</l><l>
+En kompanio e&ccirc; morto facili&gcirc;as.</l><l>
+En la bona malnova tempo.</l><l>
+En la propra sia domo &ccirc;iu estas granda homo.</l><l>
+En la tago de la sankta Neniamo.</l><l>
+En la tri&jcirc;a&ubreve;da semajno.</l><l>
+En landoj transmaraj estas oraj arbaroj.</l><l>
+En luma tago.</l><l>
+En malfacila horo e&ccirc; gro&scirc;' estas valoro.</l><l>
+En malsata familio mankas harmonio.</l><l>
+En mizero e&ccirc; sa&gcirc;ulo estas malsa&gcirc;a.</l><l>
+En nomo de l' &ccirc;ielo, sed pro bono de l' felo.</l><l>
+En plej alta mizero al Dio esperu.</l><l>
+En propra angulo &ccirc;iu estas fortulo.</l><l>
+En puton ne kra&ccirc;u, &ccirc;ar vi trinki bezonos.</l><l>
+En sia afero &ccirc;iu ju&gcirc;u libere.</l><l>
+En sia angulo li estas bravulo.</l><l>
+En sia dometo li estas atleto.</l><l>
+En sia korto &ccirc;iu kok' estas forta.</l><l>
+En &scirc;erco kaj ludo ofte sidas aludo.</l><l>
+En trankvila vetero &ccirc;iu remas sen dan&gcirc;ero.</l><l>
+En unu sako du katoj, &ccirc;iam mordoj kaj gratoj.</l><l>
+En via malica regalo vin atendas anka&ubreve; pokalo.</l><l>
+Enbati al si en la kapon.</l><l>
+Enbati&gcirc;i.</l><l>
+Enpaki&gcirc;u kaj fori&gcirc;u.</l><l>
+Enpremi en la teron.</l><l>
+Enpremi iun en funelon.</l><l>
+Enskribu en vian memoron.</l><l>
+Enspezo postulas elspezon.</l><l>
+Envia moko sukceson ne detruas.</l><l>
+Esperis flaton &dash; ricevis baton.</l><l>
+Espero kaj pacienco kondukas al potenco.</l><l>
+Espero logas, espero mensogas.</l><l>
+Espero panon ne donas.</l><l>
+Espero postulas oferon.</l><l>
+Estas &scirc;afoj, estos lano.</l><l>
+Estas tubero en la afero.</l><l>
+Esti an&gcirc;elo inter homoj, sed satano en la domo.</l><l>
+Esti bone enskribita &ccirc;e iu.</l><l>
+Esti en granda embaraso.</l><l>
+Esti en Romo kaj ne vidi la Papon.</l><l>
+Esti en sia elemento.</l><l>
+Esti en situacio sen eliro.</l><l>
+Esti inter martelo kaj amboso.</l><l>
+Esti sub la &scirc;uo (de sia edzino).</l><l>
+Estinta amiko estas plej dan&gcirc;era malamiko.</l><l>
+Estintaj amikoj plej kruele malpacas.</l><l>
+Estis la tempo, ni ne komprenis &dash; pasis la tempo, la sa&gcirc;' al ni
+venis.</l><l>
+Estro ne malsatas.</l><l>
+Estu &ccirc;apo la&ubreve; la kapo.</l><l>
+Estu sa&gcirc;a homo en via propra domo.</l><l>
+Estu sinjoro de via vorto</l>
+</lg>
+</div>
+
+<div type="chapter" id="F" rend="doc">
+<head>F</head>
+<lg rend="left"><l>
+Fabeloj por infanoj.</l><l>
+Facile estas danci, se la feli&ccirc;o kantas.</l><l>
+Fadeno iras, kien kudrilo &gcirc;in tiras.</l><l>
+Fajro provas la oron, mizero la koron.</l><l>
+Fajron estingas akvo, pekon pardono.</l><l>
+Falinton &ccirc;iu atakas.</l><l>
+Falis el mano &dash; prenu satano.</l><l>
+Famo kredon allogas, sed tre ofte mensogas.</l><l>
+Famo la&ubreve;te krias, &ccirc;iuj ekscias.</l><l>
+Famo ne flugas, se ka&ubreve;zo ne estas.</l><l>
+Faras rabon kaj &scirc;telon, por oferi al Dio kandelon.</l><l>
+Fari al iu bonan lavon.</l><l>
+Fari al iu predikon pri moroj.</l><l>
+Fari al iu ursan kareson.</l><l>
+Fari apla&ubreve;don sur la vangon.</l><l>
+Fari el iu arkon.</l><l>Fari el mu&scirc;o elefanton.</l><l>
+Farita &dash; elstrekita.</l><l>Farita ne refari&gcirc;os.</l><l>
+Farita via faro, nun adia&ubreve;, mia kara.</l><l>
+Faro farinton rekomendas.</l><l>
+Faru hodia&ubreve;, kion vi povas &dash; morga&ubreve; vi eble okazon ne trovos.</l><l>
+Faru vian aferon, Dio zorgos ceteron.</l><l>
+Fasto kaj pre&gcirc;o ri&ccirc;econ ne donas.</l><l>
+Feli&ccirc;o fierigas, malfeli&ccirc;o sa&gcirc;igas.</l><l>
+Feli&ccirc;o hodia&ubreve; karesas, morga&ubreve; forgesas.</l><l>
+Feli&ccirc;o kaj ri&ccirc;o envion elvokas.</l><l>
+Feli&ccirc;o le&gcirc;on ne konas.</l><l>
+Feli&ccirc;o le&gcirc;on ne obeas, subite naski&gcirc;as, subite pereas.</l><l>
+Feli&ccirc;o venas gute, malfeli&ccirc;o venas flue.</l><l>
+Feli&ccirc;o vezike sin levas, sed balda&ubreve; falas kaj krevas.</l><l>
+Feli&ccirc;on oni ne heredas nek cedas.</l><l>
+Fendita ligno facile ekbrulas.</l><l>
+Festeno kaj &ccirc;aso kaj da &scirc;uldoj amaso.</l><l>
+Festotaga laboro estas sen valoro.</l><l>
+Fian&ccirc;i&gcirc;is &dash; por &ccirc;iam ligi&gcirc;is.</l><l>
+Fian&ccirc;i&gcirc;o ne estas edzi&gcirc;o.</l><l>
+Fian&ccirc;on de l' sorto difinitan forpelos nenia malhelpo.</l><l>
+Fidanta al vorto atendas &gcirc;is morto.</l><l>
+Fiera mieno &dash; kapo malplena.</l><l>
+Fiereco venas anta&ubreve; la falo.</l><l>
+Filo konfesis &dash; patro forgesis.</l><l>
+Finita kaj glatigita.</l><l>
+Fino bona, &ccirc;io bona.</l><l>
+Fi&scirc;o granda na&gcirc;as profunde.</l><l>
+Fi&scirc;o ne iras, sed hoko &gcirc;in tiras.</l><l>
+Fi&scirc;o pli granda malgrandan englutas.</l><l>
+Fi&scirc;o scias pri na&gcirc;o anka&ubreve; sen via sa&gcirc;o.</l><l>
+Fi&scirc;o sen vino estas veneno.</l><l>
+Fi&scirc;o ser&ccirc;as dronon, homo ser&ccirc;as bonon.</l><l>
+Fi&scirc;o ser&ccirc;as profundon, homo ser&ccirc;as abundon.</l><l>
+Fi&scirc;o volas na&gcirc;i.</l><l>
+Flami&gcirc;ema kiel ligno rezina.</l><l>
+Fleksu arbon dum &gcirc;ia juneco.</l><l>
+Flugema kiel vento.</l><l>
+Fluida&jcirc;o sen difino, nek vinagro nek vino.</l><l>
+Fluis sur lipoj, sed en bu&scirc;on ne trafis.</l><l>
+For de l' okuloj, for de la koro.</l><l>
+For el la manoj &dash; for el kalkulo.</l><l>
+For konscienco, venos potenco.</l><l>
+For! Forigu lin.</l><l>
+Fordoni anseron, por ricevi paseron.</l><l>
+Fordormi la okazon.</l><l>
+Foresto de ofendo estas plej bona defendo.</l><l>
+Forfluu infano kune kun la bano.</l><l>
+For&gcirc;u feron dum &gcirc;i estas varmega.</l><l>
+Foriris bovido, revenis bovo.</l><l>
+Forman&gcirc;is en merkredo, ne ser&ccirc;u en vendredo.</l><l>
+Formeti en ar&hcirc;ivon.</l><l>
+Formeti &gcirc;is la grekaj kalendoj.</l><l>
+Formeti la aferon en la keston de forgeso.</l><l>
+Forportu vian paka&jcirc;on kaj hava&jcirc;on.</l><l>
+Forsavis sian korpon kaj animon.</l><l>
+Forte sidas, kiu Dion fidas.</l><l>
+Fortoj leporaj, kaj kapricoj sinjoraj.</l><l>
+Forveturis azenido kaj revenis azeno.</l><l>
+Forveturis malsa&gcirc;a, revenis nur pli a&gcirc;a.</l><l>
+France sa&gcirc;a, angle sova&gcirc;a.</l><l>
+Fremda animo estas abismo sen limo.</l><l>
+Fremda doloro ne kondukas al ploro.</l><l>
+Fremda korpo ne doloras.</l><l>
+Fremda malfeli&ccirc;o instruas.</l><l>
+Fremda man&gcirc;o havas bonan guston.</l><l>
+Fremda medito estas ka&scirc;ita.</l><l>
+Fremda mizero &dash; ridinda afero.</l><l>
+Fremda mizero ne estas sufero.</l><l>
+Fremda spesmilo estas sen utilo.</l><l>
+Fremdan dorson bastoni &dash; anka&ubreve; sian doni.</l><l>
+Fremdan vundon ka&scirc;as vesto.</l><l>
+Fremdlando objekton por speso donas, sed por &gcirc;in venigi, oni
+spesmilon bezonas.</l><l>
+Frosto lin atakis.</l><l>
+Frue levi&gcirc;u kaj frue edzi&gcirc;u.</l><l>
+Frukto malpermesita estas plej bongusta.</l><l>
+Fungon englutis</l>
+</lg></div>
+
+<div type="chapter" id="G" rend="doc">
+<head>G</head>
+<lg rend="left"><l>
+Gardatan &scirc;afon e&ccirc; lupo timas.</l><l>
+Gardu kandelon por la nokto.</l><l>
+Gardu min Dio kontra&ubreve; amikoj, kontra&ubreve; malamikoj mi gardos min
+mem.</l><l>
+Gardu vin du baroj: lipoj kaj dentaroj.</l><l>
+Gast' en tempo mal&gcirc;usta estas &scirc;tono sur brusto.</l><l>
+Gasto havas akrajn okulojn.</l><l>
+Gasto kiel fi&scirc;o balda&ubreve; fari&gcirc;as malfre&scirc;a.</l><l>
+Gasto sen avizo estas agrabla surprizo.</l><l>
+Gasto tro petata foriras malsata.</l><l>
+Geamantoj sin pikas.</l><l>
+Geedzoj en paco vivas en re&gcirc;a palaco.</l><l>
+Granda doto kaj oro, sed mankas la koro.</l><l>
+Granda estas la mondo, sed rifu&gcirc;on ne donas.</l><l>
+Granda frakaso en malgranda glaso.</l><l>
+Granda kranio, sed interne nenio.</l><l>
+Granda nubo, eta pluvo.</l><l>
+Granda nubo, malgranda pluvo.</l><l>
+Granda ofico &dash; grandaj zorgoj.</l><l>
+Granda parolisto estas duba faristo.</l><l>
+Granda parolisto, malgranda faristo.</l><l>
+Granda parolo, sed malgranda volo.</l><l>
+Granda &scirc;ipo bezonas profundon.</l><l>
+Granda telero, malplena kulero.</l><l>
+Grandaj malbonoj &dash; grandaj rimedoj.</l><l>
+Griza barbo sa&gcirc;on ne atestas.</l><l>
+Gro&scirc;o &scirc;parita neniam perdi&gcirc;as.</l><l>
+Gro&scirc;on &scirc;telis &dash; ho &scirc;telisto! milojn &scirc;telis &dash; financisto.</l><l>
+Guto malgranda, sed &scirc;tonon &gcirc;i boras</l>
+</lg>
+</div>
+
+<div type="chapter" id="Gx" rend="doc">
+<head>&Gcirc;</head>
+<lg rend="left"><l>
+&Gcirc;emu kaj ploru, sed &gcirc;is fino laboru.</l><l>
+&Gcirc;entila kaj trankvila, kun koro el oro.</l><l>
+&Gcirc;i e&ccirc; ne tu&scirc;as lian orelon.</l><l>
+&Gcirc;i estas akvo al lia muelilo.</l><l>
+&Gcirc;i estas al li tre bonvena.</l><l>
+&Gcirc;i estas ankora&ubreve; birdo sur la tegmento.</l><l>
+&Gcirc;i estas ankora&ubreve; malproksime en la kampo.</l><l>
+&Gcirc;i estas ankora&ubreve; pasero en aero.</l><l>
+&Gcirc;i estas ankora&ubreve; vortoj de orakolo.</l><l>
+&Gcirc;i estas kiel mustardo post la man&gcirc;o.</l><l>
+&Gcirc;i estas malpaco pri la re&gcirc;a palaco.</l><l>
+&Gcirc;i estas mustardo post la man&gcirc;o.</l><l>
+&Gcirc;i estas nek lakto, nek selakto.</l><l>
+&Gcirc;i estas nek viando, nek fi&scirc;o.</l><l>
+&Gcirc;i estas por mi &hcirc;ina scienco.</l><l>
+&Gcirc;i estas por mi makulo en la okulo.</l><l>
+&Gcirc;i estas por mi volapuka&jcirc;o.</l><l>
+&Gcirc;i estu por vi al sano.</l><l>
+&Gcirc;i fari&gcirc;is por mi osto en la gor&gcirc;o.</l><l>
+&Gcirc;i glitas de li kiel pizo de muro.</l><l>
+&Gcirc;i havas ankora&ubreve; signon de demando.</l><l>
+&Gcirc;i helpos kiel hirud' al mortinto.</l><l>
+&Gcirc;i iris al li preter la bu&scirc;on.</l><l>
+&Gcirc;i jam staras al mi en la gor&gcirc;o.</l><l>
+&Gcirc;i ne eliris ankora&ubreve; el malproksima nebulo.</l><l>
+&Gcirc;i ne estas tiel facila, kiel laboro argila.</l><l>
+&Gcirc;i staras ankora&ubreve; malproksime en la kampo.</l><l>
+&Gcirc;i tu&scirc;as lin, kiel akvo anseron.</l><l>
+&Gcirc;ibulo &gcirc;is morto restos &gcirc;ibulo.</l><l>
+&Gcirc;is la edzi&gcirc;o &gcirc;i resani&gcirc;os.</l><l>
+&Gcirc;is la edzi&gcirc;o venos resani&gcirc;o.</l><l>
+&Gcirc;oju kaj festenu, sed malri&ccirc;ulojn subtenu.</l><l>
+&Gcirc;ustatempa vorto estas granda forto</l>
+</lg>
+</div>
+
+<div type="chapter" id="H" rend="doc">
+<head>H</head>
+<lg rend="left"><l>
+Hakado de ligno donas lignerojn.</l><l>
+Hakilo estas tran&ccirc;a, sed ne cedas la bran&ccirc;o.</l><l>
+Hako post hako estas la plej efika atako.</l><l>
+Havi &ccirc;e iu krediton kaj meriton.</l><l>
+Havi iom da vaporo en la kapo.</l><l>
+Havi la &ccirc;efan vo&ccirc;on.</l><l>
+Havi la orelojn sur &gcirc;usta loko.</l><l>
+Havi lar&gcirc;an konsciencon.</l><l>
+Havi malprofiton.</l><l>
+Havi orelojn sur &gcirc;usta loko.</l><l>
+Havi varman lokon.</l><l>
+Havi vinagron en la mieno.</l><l>
+Havu poton malgrandan, sed mem estu granda.</l><l>
+Hazardo estas malbona gardo.</l><l>
+Hejma dometo estas kiel patrineto.</l><l>
+Helpas krako kontra&ubreve; atako.</l><l>
+Ho ve.</l><l>
+Hodia&ubreve; al mi, morga&ubreve; al vi.</l><l>
+Hodia&ubreve; festene, morga&ubreve; malplene.</l><l>
+Hodia&ubreve; forto, morga&ubreve; morto.</l><l>
+Hodia&ubreve; pagi vi devas, morga&ubreve; kredite ricevos.</l><l>
+Hodia&ubreve; supre, morga&ubreve; malsupre.</l><l>
+Hoko eksaltis, afero haltis.</l><l>
+Hom' malesperas, Dio aperas.</l><l>
+Homo bagatelema.</l><l>
+Homo esperas, morto aperas.</l><l>
+Homo fidas, feli&ccirc;o decidas.</l><l>
+Homo lernas la tutan vivon.</l><l>
+Homo pafas, Dio trafas.</l><l>
+Homo proponas, Dio disponas.</l><l>
+Homo senpeka neniam ekzistis.</l><l>
+Honoro ne donas, kion stomako bezonas.</l><l>
+Horo matena estas horo bena.</l><l>
+Hunda vivo.</l><l>
+Hundo bojas la vojon, vento portas la bojon.</l><l>
+Hundo bojas, homo vojas.</l><l>
+Hundo bojas, pasanto vojas.</l><l>
+Hundo bonrasa estas bona por &ccirc;aso.</l><l>
+Hundo povas boji e&ccirc; kontra&ubreve; la re&gcirc;o</l>
+</lg></div>
+
+<div type="chapter" id="I" rend="doc">
+<head>I</head>
+<lg rend="left"><l>
+Iafoje oni devas okulon fermeti.</l><l>
+Iele, iome, duone malbone.</l><l>
+Ili estas en akordo, kiel peto kaj mordo.</l><l>
+Ili vivas per unu animo en du korpoj.</l><l>
+Ilo el oro ta&ubreve;gas por &ccirc;iu laboro.</l><l>
+Imiti grandsinjoron &dash; perdi balda&ubreve; la oron.</l><l>
+Infana inklino restas &gcirc;is la fino.</l><l>
+Infano ne krias, patrino ne scias.</l><l>
+Infano &scirc;telas ovon, granda&gcirc;ulo &scirc;telas bovon.</l><l>
+Infanoj kaj fi&scirc;oj vo&ccirc;on ne havas.</l><l>
+Infanon malbonigas ne petolado, sed malbona kamarado.</l>
+<l>
+Instruas mizero man&gcirc;i panon sen butero.</l>
+<l>Insulto ne alglui&gcirc;as.</l>
+<l>Inter faro kaj rakonto staras meze granda monto.</l>
+<l>Inter fremdaj &scirc;i estas edzino&dash;an&gcirc;elo, kun la edzo &scirc;i estas demono kruela.</l>
+<l>Inter generaloj parolu pri bataloj.</l>
+<l>Inter kornikoj ne konvenas predikoj.</l>
+<l>Inter la blinduloj re&gcirc;as la strabuloj.</l>
+<l>Inter la mano &gcirc;is la bu&scirc;o ofte disver&scirc;i&gcirc;as la supo.</l>
+<l>Inter lupoj kriu lupe.</l>
+<l>Inter miaj muroj estu miaj plezuroj.</l>
+<l>Inter pokalo kaj lipoj povas multe okazi.</l>
+<l>Interkonsento estas pli bona ol mono.</l>
+<l>Iom da malvero ne estas dan&gcirc;ero.</l>
+<l>Iras &ccirc;iu kruro la&ubreve; sia plezuro.</l>
+<l>Iri for en bona hor'</l>
+</lg></div>
+
+<div type="chapter" id="J" rend="doc">
+<head>J</head>
+<lg rend="left">
+<l>Jen havu.</l>
+<l>Jen kiaj ni estas.</l>
+<l>Jen staras la bovoj anta&ubreve; la monto.</l>
+<l>Ju cerbo pli prudenta, des lango pli silenta.</l>
+<l>Ju disputo pli forta, des pli multaj la vortoj.</l>
+<l>Ju homo pli fiera, des puno pli severa.</l>
+<l>Ju laboro pli publika, des pli granda la kritiko.</l>
+<l>Ju pli da a&ccirc;etantoj, des pli alta la prezo.</l><l>
+Ju pli da babilado, des pli da pekado.</l><l>
+Ju pli da bruo, des malpli da &gcirc;uo.</l><l>
+Ju pli da donoj, des pli da amikoj.</l><l>
+Ju pli da havo, des pli da pravo.</l><l>
+Ju pli da honoro, des pli da laboro.</l><l>
+Ju pli da &jcirc;uroj, des pli da suspekto.</l><l>
+Ju pli frue, des pli certe &dash; ju pli volonte, des pli lerte.</l><l>
+Ju pli granda bezono, des pli granda la prezo.</l><l>
+Ju pli granda la deziro, des pli kara la akiro.</l><l>
+Ju pli la infanoj bezonas, des pli Dio al vi donas.</l><l>
+Ju pli malproksimen la vojo, des pli da larmoj.</l><l>
+Ju pli oni babilas, des pli oni al si malutilas.</l><l>
+Ju pli oni posedas, des pli oni avidas.</l><l>
+Ju pli precizaj la kalkuloj, des pli fortika la amikeco.</l><l>
+Jugo propravola ne estas malmola.</l><l>
+Ju&gcirc;anto decidas, kiel li vidas.</l><l>
+Ju&gcirc;anto devas havi du orelojn.</l><l>
+Ju&gcirc;o komencita paci&gcirc;on ne malhelpas.</l><l>
+Juku la ha&ubreve;to, sed ne sur mia korpo.</l><l>
+Juneco ne scias, maljuneco ne povas.</l><l>
+Juneco petolis, maljuneco malsatos</l>
+</lg>
+</div>
+
+<div type="chapter" id="Jx" rend="doc">
+<head>&Jcirc;</head>
+<lg rend="left">
+<l>&Jcirc;eti bastonon en la radon.</l>
+<l>&Jcirc;eti perlojn anta&ubreve; la porkojn.</l>
+<l>&Jcirc;eti polvon en la okulojn.</l>
+<l>&Jcirc;uri kaj re&jcirc;uri.</l>
+<l>&Jcirc;uri per la barbo de l' profeto</l>
+</lg>
+</div>
+
+<div type="chapter" id="K" rend="doc">
+<head>K</head>
+<lg rend="left">
+<l>Kaldrono ridas pri poto kaj mem estas kota.</l>
+<l>Kalkuli mu&scirc;ojn.</l>
+<l>Kalumniante konstante, oni e&ccirc; an&gcirc;elon nigrigas.</l>
+<l>Kapo estas por tio, ke &gcirc;i zorgu pri &ccirc;io.</l>
+<l>Kapo kun herbo, sen guto da cerbo.</l>
+<l>Kapo majesta, sed cerbo modesta.</l>
+<l>Kapo malsa&gcirc;a ne grizi&gcirc;as nek kalvi&gcirc;as.</l>
+<l>Kapo pekas, piedoj suferas.</l>
+<l>Kapoj diferencas, kranioj egalas.</l>
+<l>Kaprica fian&ccirc;ino restos eterne fra&ubreve;lino.</l>
+<l>Kapricoj de grandsinjoroj kaj multego da kreditoroj.</l>
+<l>Kaptu lin kiel forflugintan venton.</l>
+<l>Kapu&ccirc;o mona&hcirc;on ne faras.</l>
+<l>Kara estas dono en minuto de bezono.</l>
+<l>Kara estas ovo, kiam venas la Pasko.</l>
+<l>Karaktero olea.</l>
+<l>Karakteron al kanto donas la tono.</l>
+<l>Karesi al iu la barbon.</l>
+<l>Karesi kontra&ubreve; la haroj.</l>
+<l>Kastel' en aero &dash; malsato sur tero.</l>
+<l>Ka&scirc;u kiom vi povos, mensogo sin el&scirc;ovos.</l>
+<l>Ka&scirc;u malbenon kaj faru bonan mienon.</l>
+<l>Ke la lup' estu sata, kaj la &scirc;af' ne tu&scirc;ata.</l>
+<l>Kelktempa &ccirc;eso ne estas forgeso.</l>
+<l>Kia ago, tia pago.</l>
+<l>Kia demando, tia respondo.</l>
+<l>Kia doma&gcirc;o.</l>
+<l>Kia drapo, tia vesto.</l>
+<l>Kia estas la homo, tia estas lia nomo.</l>
+<l>Kia estas via laboro, tia estas via valoro.</l>
+<l>Kia fripono, tia bastono.</l>
+<l>Kia greno, tia pano.</l>
+<l>Kia la birdo, tia la ka&gcirc;o.</l>
+<l>Kia la homo, tia lia nomo.</l>
+<l>Kia la kapo, tia la &ccirc;apo.</l>
+<l>Kia la poto, tia la kovrilo.</l>
+<l>Kia la semo, tia la rikolto.</l>
+<l>Kia naski&gcirc;is, tia grandi&gcirc;is.</l>
+<l>Kia naskinto, tiaj naskitoj.</l>
+<l>Kia oni vin vidas, tia oni vin taksas.</l>
+<l>Kia pago, tia ago.</l>
+<l>Kia paro&hcirc;estro, tia paro&hcirc;o.</l>
+<l>Kia patrino, tia filino.</l>
+<l>Kia regalato, tia regalado.</l>
+<l>Kia reganto, tia servanto.</l>
+<l>Kia sono, tia resono.</l>
+<l>Kia sufloro, tia aktoro.</l>
+<l>Kia vivo, tia morto.</l>
+<l>Kiaj kolegoj, tiaj kutimoj.</l>
+<l>Kiam filino edzini&gcirc;is, multaj fian&ccirc;oj trovi&gcirc;as.</l>
+<l>Kiam filino edzini&gcirc;is, multaj fian&ccirc;oj trovi&gcirc;is.</l>
+<l>Kiam forto ordonas, le&gcirc;o pardonas.</l>
+<l>Kiam fratoj batalas, fremdulo ne eni&gcirc;u.</l>
+<l>Kiam havo malaperis, sa&gcirc;o aperis.</l>
+<l>Kiam kato jam forman&gcirc;is, forpelado ne helpos.</l>
+<l>Kiam kato promenas, la musoj festenas.</l>
+<l>Kiam kreskas honoro, kreskas humoro.</l>
+<l>Kiam nokto vualas, &ccirc;iuj koloroj egalas.</l>
+<l>Kiam pasanto jam trinkis, li la puton insultas.</l>
+<l>Kiam pasis la a&gcirc;o, aperas la sa&gcirc;o.</l>
+<l>Kiam sako mizeras, amo malaperas.</l>
+<l>Kiam vorto eliris, vi &gcirc;in jam ne retiros.</l>
+<l>Kie ajn rano iras, &gcirc;i &ccirc;iam mar&ccirc;on sopiras.</l>
+<l>Kie dento doloras, tien iras la lango.</l>
+<l>Kie diablo ne povas, tien virinon li &scirc;ovas.</l>
+<l>Kie estas harmonio, estas beno de Dio.</l>
+<l>Kie estas mielo, tie mu&scirc;oj ne mankas.</l>
+<l>Kie estas pano, ne mankas panpecetoj.</l>
+<l>Kie estas sufero, estas anka&ubreve; espero.</l>
+<l>Kie fumo levi&gcirc;as, tie fajro trovi&gcirc;as.</l>
+<l>Kie jukas, tie ni gratas.</l>
+<l>Kie &jcirc;uron vi a&ubreve;das, malbonon suspektu.</l>
+<l>Kie lumo ekzistas, anka&ubreve; ombro trovi&gcirc;as.</l>
+<l>Kie maldike, tie rompi&gcirc;as.</l>
+<l>Kie mi disponas, tie mi ordonas.</l>
+<l>Kie minaco, tie malpaco.</l>
+<l>Kie ne estas konsileble, tie ne estas helpeble.</l>
+<l>Kie pano estas, tie musoj ne mankas.</l>
+<l>Kie regas konkordo, regas ordo.</l>
+<l>Kie regas la forto, tie rajto silentas.</l>
+<l>Kie regas virino, malbona estas la fino.</l>
+<l>Kie sklav' regadon havas, tie mastro balda&ubreve; sklavas.</l>
+<l>Kie timo, tie honto.</l>
+<l>Kiel akirite, tiel perdite.</l>
+<l>Kiel li meritis, tiel li profitis.</l>
+<l>Kiel oni sternas, tiel oni dormas.</l>
+<l>Kiel oni vin taksas, tiel oni vin regalas.</l>
+<l>Kiel oni vin vidas, tiel oni vin taksas.</l>
+<l>Kiel oni, tiel &ccirc;e ni.</l>
+<l>Kien ajn mi pafas, &ccirc;io maltrafas.</l>
+<l>Kien kudrilo iras, tien fadenon &gcirc;i tiras.</l>
+<l>Kien vi vin turnos, &ccirc;ie malbone.</l>
+<l>Kies gasto mi estas, ties feston mi festas.</l>
+<l>Kio akorde ne sonas, tio rimon ne donas.</l>
+<l>Kio al mi sonis, tion mi resonas.</l>
+<l>Kio al unu donas forton, al alia donas morton.</l>
+<l>Kio aliloke promenos, al ni anka&ubreve; &gcirc;i venos.</l>
+<l>Kio bone aspektas, tion &ccirc;iu elektas.</l>
+<l>Kio doloras, pri tio ni ploras.</l>
+<l>Kio el la dentoj elsaltas, en la lipoj ne haltas.</l>
+<l>Kio en koro sidas, la viza&gcirc;o perfidas.</l>
+<l>Kio en la kapo, tio sur la lango.</l>
+<l>Kio estas bona por vi, estas bona por mi.</l>
+<l>Kio estas farita, estas sankciita.</l>
+<l>Kio estas lernita, ne estas perdita.</l>
+<l>Kio estis kaj pasis, tion tempo frakasis.</l>
+<l>Kio fari&gcirc;is, jam ne refari&gcirc;os.</l>
+<l>Kio iras el koro, venas al koro.</l>
+<l>Kio komenci&gcirc;is, tio anka&ubreve; fini&gcirc;os.</l>
+<l>Kio konvenas al sciuro, ne konvenas al vulturo.</l>
+<l>Kio kostas malmulte, kostas plej kare.</l>
+<l>Kio mem ne venas, li per la dentoj &gcirc;in prenas.</l>
+<l>Kio mia, tio bona.</l>
+<l>Kio min ne tu&scirc;as, ku&scirc;u kiel ku&scirc;as.</l>
+<l>Kio multe kostas, multe valoras.</l>
+<l>Kio pasis, ne revenos.</l>
+<l>Kio pasis, nin forlasis.</l>
+<l>Kio post la montoj ku&scirc;as, tio nin neniom tu&scirc;as.</l>
+<l>Kio servas por &ccirc;io, ta&ubreve;gas por nenio.</l>
+<l>Kio ta&ubreve;gas por somero, ne ta&ubreve;gas por vintro.</l>
+<l>Kio tra l' dentoj travenis, tion la lipoj ne retenos.</l>
+<l>Kio tro ripozas, balda&ubreve; almozas.</l>
+<l>Kio vendi&gcirc;as ka&scirc;ite, vendi&gcirc;as plej profite.</l>
+<l>Kiom ajn oni penas, per forto pla&ccirc;o ne venas.</l>
+<l>Kiom ajn vi penos, nenio elvenos.</l>
+<l>Kiom da homoj, tiom da gustoj.</l>
+<l>Kiom da ju&gcirc;antoj, tiom da ju&gcirc;oj.</l>
+<l>Kiom da kapoj, tiom da opinioj.</l>
+<l>Kiom da koroj, tiom da voloj.</l>
+<l>Kiom la koro deziras.</l>
+<l>Kion Dio ne donis, perforte ne postulu.</l>
+<l>Kion Dio ne donis, tion perforte ne ser&ccirc;u.</l>
+<l>Kion fari?
+Kion jaroj ne donis, ofte minuto alportas.</l>
+<l>Kion koro portas, viza&gcirc;o raportas.</l>
+<l>Kion koro sentas, lango prezentas.</l>
+<l>Kion le&gcirc;o malpermesas, tio pla&ccirc;i ne &ccirc;esas.</l>
+<l>Kion mem mi faras, tion &ccirc;ie mi flaras.</l>
+<l>Kion mi ne scias, tion mi ne envias.</l>
+<l>Kion mi ne sentas, pri tio mi silentas.</l>
+<l>Kion mi povas, tion mi el&scirc;ovas.</l>
+<l>Kion ni havas, por ni ne valoras &dash; kiam ni &gcirc;in perdis, ni ploras.</l>
+<l>Kion ni vere bezonas, Dio &gcirc;in donas.</l>
+<l>Kion oni volas, tion oni povas.</l>
+<l>Kion Parizo apla&ubreve;das, Berlino malla&ubreve;das.</l>
+<l>Kion rajtas leono, ne rajtas azeno.</l>
+<l>Kion sa&gcirc;ulo ne komprenas, ofte malsa&gcirc;a divenas.</l>
+<l>Kion sobreco deziras, ebrieco &gcirc;in diras.</l>
+<l>Kion vi ne perdis, tion ne ser&ccirc;u.</l>
+<l>Kion vi pripenas, tio al vi venas.</l>
+<l>Kion vi semas, tion vi rikoltos.</l>
+<l>Kiso anta&ubreve; amaso estas kiso de Judaso.</l>
+<l>Kiso malsincera estas dan&gcirc;era.</l>
+<l>Kiso publika estas kiso malamika.</l>
+<l>Kiu agas afable, vivas agrable.</l>
+<l>Kiu akceptas donacon, perdas la pacon.</l>
+<l>Kiu akvon evitas, droni ne timas.</l>
+<l>Kiu amas &gcirc;uon, amu anka&ubreve; enuon.</l>
+<l>Kiu amas honoron, amu laboron.</l>
+<l>Kiu amas la liton, ne akiros profiton.</l>
+<l>Kiu amas okula&ccirc;i, ne havas kion ma&ccirc;i.</l>
+<l>Kiu a&ubreve;dis unuan, anka&ubreve; a&ubreve;du la duan.</l>
+<l>Kiu a&ubreve;skultas, kie li ne devas, tiu a&ubreve;das, kion li ne revas.</l>
+<l>Kiu avidas pli bonan, perdas plej bezonan.</l>
+<l>Kiu batas edzinon, tiu vundas sin mem.</l>
+<l>Kiu bati deziras, trovas bastonon.</l>
+<l>Kiu bojas, ne mordas.</l>
+<l>Kiu bone agas, timi ne bezonas.</l>
+<l>Kiu bone sidas, tiu lokon ne &scirc;an&gcirc;u.</l>
+<l>Kiu bone &scirc;miras, bone veturas.</l>
+<l>Kiu cedas al sia infano, &gcirc;in pereigas per propra mano.</l>
+<l>Kiu &ccirc;asas du leporojn, kaptas neniun.</l>
+<l>Kiu &ccirc;e l' vojo konstruas, tiun &ccirc;iu instruas.</l>
+<l>Kiu &ccirc;ion forman&gcirc;is en tago, malsatos vespere.</l>
+<l>Kiu &ccirc;ion senpripense parolas, a&ubreve;dos tion, kion li ne volas.</l>
+<l>Kiu demandas, tiu ne eraras.</l>
+<l>Kiu devas, tiu elekti ne povas.</l>
+<l>Kiu devas, tiu povas.</l>
+<l>Kiu diras la veron, havas suferon.</l>
+<l>Kiu doma&gcirc;as gro&scirc;on, perdas la tutan po&scirc;on.</l>
+<l>Kiu donacon prenas, tiu sin katenas.</l>
+<l>Kiu donas rapide, donas duoble.</l>
+<l>Kiu donis garantion, tiu pagu la &scirc;uldon.</l>
+<l>Kiu dormas longe, vivas mallonge.</l>
+<l>Kiu edzi&gcirc;as, tiu &scirc;an&gcirc;i&gcirc;as.</l>
+<l>Kiu elektas tro multe, ricevas nenion.</l>
+<l>Kiu entreprenis, tiu sin tenu.</l>
+<l>Kiu flatas al &ccirc;iu, pla&ccirc;as al neniu.</l>
+<l>Kiu forton ne havas, &ccirc;iam malpravas.</l>
+<l>Kiu fosas sub alia, falos mem en la foson.</l>
+<l>Kiu frapas, al tiu oni malfermas.</l>
+<l>Kiu fremdan avidas, propran forperdas.</l>
+<l>Kiu frue levi&gcirc;as, facile ri&ccirc;i&gcirc;as.</l>
+<l>Kiu garantias, trankvilon ne scias.</l>
+<l>Kiu glutis tro multe, tiu agas tro stulte.</l>
+<l>Kiu gro&scirc;on ne honoras, e&ccirc; duongro&scirc;on ne valoras.</l>
+<l>Kiu gro&scirc;on ne respektas, ri&ccirc;econ ne kolektas.</l>
+<l>Kiu havas abelojn, havas mielon.</l>
+<l>Kiu havas bonan najbaron, havas bonan tagon.</l>
+<l>Kiu havas forton, havas rajton.</l>
+<l>Kiu havas la forton, havas la rajton.</l>
+<l>Kiu havas malican celon, ofte perdas sian propran felon.</l>
+<l>Kiu havas nenion, estas nenio.</l>
+<l>Kiu havas oron, havas honoron.</l>
+<l>Kiu hontas nenion, ne timas Dion.</l>
+<l>Kiu hundon mian batas, min mem ne tre &scirc;atas.</l>
+<l>Kiu iras sperte, iras certe.</l>
+<l>Kiu iras trankvile, iras facile.</l>
+<l>Kiu jam havas, tiu pravas.</l>
+<l>Kiu ka&ccirc;on aran&gcirc;as, tiu &gcirc;in man&gcirc;as.</l>
+<l>Kiu ka&ccirc;on kuiris, tiu &gcirc;in man&gcirc;u.</l>
+<l>Kiu kapon posedas, kombilon jam trovos.</l>
+<l>Kiu kaptas tro vaste, konservas malmulte.</l>
+<l>Kiu koleras, tiu ne prosperas.</l>
+<l>Kiu koleras, tiu perdas.</l>
+<l>Kiu komencas ju&gcirc;on, iras sub jugon.</l>
+<l>Kiu komencas tro frue, finas malfrue.</l>
+<l>Kiu komencis kuiri, ne forkuru de l' fajro.</l>
+<l>Kiu konsilas kaj rezonas, tiu helpon ne donas.</l>
+<l>Kiu konstante lokon &scirc;an&gcirc;as, neniam sin aran&gcirc;as.</l>
+<l>Kiu kritikas kura&gcirc;e, mem agas malsa&gcirc;e.</l>
+<l>Kiu kura&gcirc;e aliras, facile akiras.</l>
+<l>Kiu kutimis &ccirc;ion ju&gcirc;i, nenie povas rifu&gcirc;i.</l>
+<l>Kiu laboras kaj deziras, tiu akiras &dash; kiu mem ne penas, nenio al li venas.</l>
+<l>Kiu laboron evitas, bonon ne vidas.</l>
+<l>Kiu langon ne tenas, mem sin malbenas.</l>
+<l>Kiu levi&gcirc;is fiere, balda&ubreve; falos al tero.</l>
+<l>Kiu levis la piedon, devas ekpa&scirc;i.</l>
+<l>Kiu lin tu&scirc;as, tiu lin sentas.</l>
+<l>Kiu ludas kun koto, malpurigas la manojn.</l>
+<l>Kiu lupo naski&gcirc;is, vulpo ne fari&gcirc;os.</l>
+<l>Kiu malmulte deziras, feli&ccirc;on akiras.</l>
+<l>Kiu malmulton ne &scirc;atas, multon ne meritas.</l>
+<l>Kiu man&gcirc;on al mi donas, tiu al mi ordonas.</l>
+<l>Kiu mem sin adoras, nenion valoras.</l>
+<l>Kiu mem sin gloras, malbone odoras.</l>
+<l>Kiu mem sin la&ubreve;das, tiun neniu apla&ubreve;das.</l>
+<l>Kiu mensogas kutime, mensogas sentime.</l>
+<l>Kiu mensogis per unu vorto, ne trovos kredon &gcirc;is la morto.</l>
+<l>Kiu metion disponas, mizeron ne konas.</l>
+<l>Kiu minacas, tiu avertas.</l>
+<l>Kiu mizeron ne havis, mizeron ne konas.</l>
+<l>Kiu mordi ne povas, kisi ekprovas.</l>
+<l>Kiu multe babilas, al si mem malutilas.</l>
+<l>Kiu multe babilas, pensas malmulte.</l>
+<l>Kiu multe minacas, ne estas dan&gcirc;era.</l>
+<l>Kiu multe parolas, malamikon konsolas.</l>
+<l>Kiu multe parolas, ne multe faras.</l>
+<l>Kiu multe profitas, anka&ubreve; perdon ne evitas.</l>
+<l>Kiu multon deziras, nenion akiras.</l>
+<l>Kiu naski&gcirc;is sciuro, ne fari&gcirc;os vulturo.</l>
+<l>Kiu ne akiras, kiam li povas, tiu poste deziras, sed jam ne retrovas.</l>
+<l>Kiu ne atentas la <emph>se</emph>, tiu sentas la <emph>ve</emph>.</l>
+<l>Kiu ne estis kaporalo, ne estos generalo.</l>
+<l>Kiu ne konfidas, tiu ne beda&ubreve;ras.</l>
+<l>Kiu ne krimas, tiu ne timas.</l>
+<l>Kiu ne mensogas, tiu ne vendas.</l>
+<l>Kiu ne pekis, kiu ne eraris?
+Kiu ne petas, tiu ne ricevas.</l>
+<l>Kiu ne riskas, tiu ne gajnas.</l>
+<l>Kiu ne riskas, tiu ne havas.</l>
+<l>Kiu nenion valoras, plej multe sin gloras.</l>
+<l>Kiu neniun savis, malamikojn ne havas.</l>
+<l>Kiu neniun savis, malamikon ne havas.</l>
+<l>Kiu okazon for&scirc;ovas, &gcirc;in jam ne retrovas.</l>
+<l>Kiu panon donas, malsaton ne konas.</l>
+<l>Kiu pekis, tiu pagas.</l>
+<l>Kiu perdis la kapon, ne bezonas jam &ccirc;apon.</l>
+<l>Kiu pli frue venas, pli bonan lokon prenas.</l>
+<l>Kiu pli frue venas, pli frue muelas.</l>
+<l>Kiu por &ccirc;iuj laboras, pri si mem ne memoras.</l>
+<l>Kiu povas anta&ubreve;vidi.</l>
+<l>Kiu pri &scirc;telo silentas, tiu &scirc;telon konsentas.</l>
+<l>Kiu promesojn faras, tiu ne avaras.</l>
+<l>Kiu prudenton ne havas, tiun sa&gcirc;o ne savas.</l>
+<l>Kiu rabi eliras, ofte nuda revenas.</l>
+<l>Kiu regalas per &scirc;tonoj, tiun oni dankas per bastonoj.</l>
+<l>Kiu resonis, tiu sin donis.</l>
+<l>Kiu ri&ccirc;i&gcirc;as, tiu fieri&gcirc;as.</l>
+<l>Kiu rigardas &ccirc;ielon, maltrafas sian celon.</l>
+<l>Kiu ripetas abunde, lernas plej funde.</l>
+<l>Kiu rompis la glason, ordigu la kason.</l>
+<l>Kiu rompis, tiu pagu.</l>
+<l>Kiu sa&gcirc;on ne havas, Dio lin savas.</l>
+<l>Kiu semas venton, rikoltos fulmotondron.</l>
+<l>Kiu sentas &dash; ploras, kiu vidas &dash; nur ridas.</l>
+<l>Kiu ser&ccirc;as marcipanon, perdas sian panon.</l>
+<l>Kiu servas al &ccirc;iu, al si mem malutilas.</l>
+<l>Kiu sian langon katenas, Dio lin benas.</l>
+<l>Kiu sin enjungis, devas tiri.</l>
+<l>Kiu sin gardas, tiu sin savas.</l>
+<l>Kiu speson ne tenas, tiu al spesmilo ne venas.</l>
+<l>Kiu supren kra&ccirc;on &jcirc;etas, sian barbon al &gcirc;i submetas.</l>
+<l>Kiu &scirc;teliston regalas, mem &scirc;teliston egalas.</l>
+<l>Kiu &scirc;uldojn estingas, ri&ccirc;econ atingas.</l>
+<l>Kiu &scirc;vitas, tiu profitas.</l>
+<l>Kiu timas bestaron, ne iru arbaron.</l>
+<l>Kiu trans muro a&ubreve;skultas, tiun la muro insultas.</l>
+<l>Kiu tro alte svingas, nenion atingas.</l>
+<l>Kiu tro alten rigardon direktas, tiu tre balda&ubreve; okulojn difektas.</l>
+<l>Kiu tro bezonas, tiu le&gcirc;on ne konas.</l>
+<l>Kiu tro forte la manon svingas, nenion atingas.</l>
+<l>Kiu tro multe deziras, nenion akiras.</l>
+<l>Kiu tro pelas, nur malakcelas.</l>
+<l>Kiu tro rapide saltas, tiu balda&ubreve; haltas.</l>
+<l>Kiu tro sin pravigas, tiu mem sin kulpigas.</l>
+<l>Kiu venas plej frue, sidas plej &gcirc;ue.</l>
+<l>Kiu venis post la man&gcirc;o, restas sen man&gcirc;o.</l>
+<l>Kiu venis unue, muelas pli frue.</l>
+<l>Kiu vivas sen kalkulo, balda&ubreve; estos almozulo.</l>
+<l>Kiu vivas trankvile, vivas facile.</l>
+<l>Kiu vivos, tiu vidos.</l>
+<l>Kiu volas komerci, tiu sa&gcirc;on bezonas.</l>
+<l>Kiu volas mensogi, devas bone memori.</l>
+<l>Kiu volas panon, ne dorlotu la manon.</l>
+<l>Kiun favoras la sorto, por tiu e&ccirc; koko estas ovoporta.</l>
+<l>Kiun feli&ccirc;o subtenas, al tiu mem &ccirc;io venas.</l>
+<l>Kiun la sorto karesas, al tiu &ccirc;io sukcesas.</l>
+<l>Kiun la sorto karesos, tiu sukcesos.</l>
+<l>Kiun mal&gcirc;ojo ne turmentis, tiu &gcirc;ojon ne sentas.</l>
+<l>Kiun re&gcirc;o protektas, tiun ministro elektas.</l>
+<l>Kiun vesto ornamas, tiun homoj ekamas.</l>
+<l>Klopodi pri &ccirc;ies favoro estas pleje malsa&gcirc;a laboro.</l>
+<l>Klopodi sen limo per korpo kaj animo.</l>
+<l>Klopodo estas kun mono, sed sen &gcirc;i pli malbone.</l>
+<l>Knaba gusto kun forto da&ubreve;ras &gcirc;is la morto.</l>
+<l>Knabon senfortan &ccirc;iuj batoj atingas.</l>
+<l>Koko krias fiere, sed ne dan&gcirc;ere.</l>
+<l>Kolera kiel cento da diabloj.</l>
+<l>Kolera kiel rabia hundo.</l>
+<l>Kolero montras malsa&gcirc;ulon.</l>
+<l>Kolero pravecon ne donas.</l>
+<l>Komenca inklino da&ubreve;ras &gcirc;is la fino.</l>
+<l>Komenci de Adamo.</l>
+<l>Komenci per Dio kaj fini per diablo.</l>
+<l>Komenci per flato kaj fini per bato.</l>
+<l>Komenci&gcirc;is mizero, &gcirc;i venas per pordo kaj fenestroj.</l>
+<l>Komenci&gcirc;is proceso, mono fluas sen &ccirc;eso.</l>
+<l>Komenco Aprila &dash; trompo facila.</l>
+<l>Komenco bona &dash; laboro duona.</l>
+<l>Komercisto estas &ccirc;asisto, li rigardas, kiu sin ne gardas.</l>
+<l>Komparo ne estas pruvo.</l>
+<l>Komplezema malsa&gcirc;ulo estas pli dan&gcirc;era ol malamiko.</l>
+<l>Konateco ne estas hereda.</l>
+<l>Konduki la dancojn.</l>
+<l>Konfido naskas konfidon.</l>
+<l>Konfidu, sed vidu.</l>
+<l>Koni&gcirc;as birdo la&ubreve; flugo kaj homo la&ubreve; ago.</l>
+<l>Koni&gcirc;as majstro la&ubreve; sia verko.</l>
+<l>Konkordo malgranda&jcirc;on kreskigas, malkonkordo granda&jcirc;on ruinigas.</l>
+<l>Konscienco senmakula estas kuseno plej mola.</l>
+<l>Konscienco trankvila estas bona dormilo.</l>
+<l>Konsento konstruas, malpaco detruas.</l>
+<l>Konservas e&ccirc; karbo la strukturon de l' arbo.</l>
+<l>Konsilojn &ccirc;iu donas, sed ne kiam oni bezonas.</l>
+<l>Konsilu kiu povas.</l>
+<l>Konsoli&gcirc;as mizerulo, se li estas ne sola.</l>
+<l>Konstrui kastelojn en aero.</l>
+<l>Konstrui kastelon sur glacio.</l>
+<l>Konsumi sian anta&ubreve;an grason.</l>
+<l>Konsumi sian grenon anta&ubreve; &gcirc;ia maturi&gcirc;o.</l>
+<l>Kontenteco estas pli bona ol ri&ccirc;eco.</l>
+<l>Kontentigi &ccirc;iujn e&ccirc; an&gcirc;elo ne povas.</l>
+<l>Kontentigi la katon kaj kune la raton.</l>
+<l>Kontentulo estas pli feli&ccirc;a, ol homo plej ri&ccirc;a.</l>
+<l>Kontra&ubreve; bato senatenda ekzistas nenia defendo.</l>
+<l>Kontra&ubreve; &ccirc;iu malfacilo ekzistas konsilo.</l>
+<l>Kontra&ubreve; &ccirc;iu rimedo ekzistas rimedo.</l>
+<l>Kontra&ubreve; &ccirc;iu tedo ekzistas rimedo.</l>
+<l>Kontra&ubreve; doloro helpas bona humoro.</l>
+<l>Kontra&ubreve; faro farita ne helpas medito.</l>
+<l>Kontra&ubreve; forta mano la le&gcirc;o estas vana.</l>
+<l>Kontra&ubreve; homo fiera Dio estas severa.</l>
+<l>Kontra&ubreve; kalumnio helpas nenio.</l>
+<l>Kontra&ubreve; kalumnio ne povas batali e&ccirc; dio.</l>
+<l>Kontra&ubreve; lupo ne helpas kalkulo.</l>
+<l>Kontra&ubreve; malfeli&ccirc;o ne defendas e&ccirc; ri&ccirc;o.</l>
+<l>Kontra&ubreve; malfeli&ccirc;oj baro ne ekzistas.</l>
+<l>Kontra&ubreve; mu&scirc;oj bravulo, kontra&ubreve; homoj timulo.</l>
+<l>Kontra&ubreve; neesto ne helpas protesto.</l>
+<l>Kontra&ubreve; nehavo e&ccirc; ju&gcirc;o silentas.</l>
+<l>Kontra&ubreve; peko batalu, sed pekanton ne tu&scirc;u.</l>
+<l>Kontra&ubreve; peko prediku, sed pekinton pardonu.</l>
+<l>Kontra&ubreve; tuta kohorto e&ccirc; Herkulo estas malforta.</l>
+<l>Kontra&ubreve; vesto malbona konspiras &ccirc;iu &scirc;tono.</l>
+<l>Kontra&ubreve; volo de Dio helpos nenio.</l>
+<l>Kontra&ubreve;stari per &ccirc;iuj fortoj.</l>
+<l>Konu nin, &scirc;atu nin.</l>
+<l>Korniko vundita propran voston timas.</l>
+<l>Koro pleni&gcirc;as &dash; lango movi&gcirc;as.</l>
+<l>Koro tro plena &dash; bu&scirc;o parolas.</l>
+<l>Korvo al korvo okulon ne pikas.</l>
+<l>Kovri la bu&scirc;on de sia konscienco.</l>
+<l>Kresko mamuta, sed sa&gcirc;o liliputa.</l>
+<l>Krevis la vazo anta&ubreve; la nazo.</l>
+<l>Krii el la tuta gor&gcirc;o.</l>
+<l>Kritiki estas facile, fari malfacile.</l>
+<l>Kriu e&ccirc; ra&ubreve;ke, sed kanti ne &ccirc;esu.</l>
+<l>Kudri per fluganta kudrilo.</l>
+<l>Kuiriston vaporo satigas.</l>
+<l>Kulo nenion valoras, sed &gcirc;ia piko doloras.</l>
+<l>Kun Dio vi iros &ccirc;ien, sen Dio nenien.</l>
+<l>Kun edzo plej malmola estas pli bone ol sola.</l>
+<l>Kun kiu vi festas, tia vi estas.</l>
+<l>Kun kiu vi kuni&gcirc;as, tia vi fari&gcirc;as.</l>
+<l>Kun konfido neniam rapidu.</l>
+<l>Kun la peko en mano.</l>
+<l>Kun sia tuta domo kaj havo.</l>
+<l>Kun sia tuta posedo kaj heredo.</l>
+<l>Kun urso promenu, sed pafilon prete tenu.</l>
+<l>Kun vero severa komerca&jcirc;o forvelkos.</l>
+<l>Kune kaptite, kune punite.</l>
+<l>Kuradi kiel venenita muso.</l>
+<l>Kura&gcirc;a homo en sia domo.</l>
+<l>Kura&gcirc;a mieno anta&ubreve; propra kameno.</l>
+<l>Kura&gcirc;e li staras, kiam muro lin baras.</l>
+<l>Kura&gcirc;o &ccirc;ion atingas.</l>
+<l>Kurba estas la ligno, sed rekte &gcirc;i brulas.</l>
+<l>Kurbi&gcirc;adi kiel diablo en akvo benita.</l>
+<l>Kurbi&gcirc;u hoko la&ubreve; postuloj de l' loko.</l>
+<l>Kuri de sia propra korpo.</l>
+<l>Kutimo estas dua naturo.</l>
+<l>Kvalito bona ne bezonas admonon.</l>
+<l>Kvina rado &ccirc;e veturado.</l>
+<l>Kviti&gcirc;as servo per reservo</l>
+</lg></div>
+
+
+<div type="chapter" id="L" rend="doc">
+<head>L</head>
+<lg rend="left">
+<l>La <emph>por</emph> kaj la <emph>kontra&ubreve;</emph>.</l>
+<l>La <emph>tuj</emph> de sinjoroj estas multe da horoj.</l>
+<l>La afero estas plenumita.</l>
+<l>La afero havas tempon.</l>
+<l>La afero malsukcesis.</l>
+<l>La afero ne brulas.</l>
+<l>La afero ne iras glate.</l>
+<l>La afero ne staras sur pinto de ponto.</l>
+<l>La afero ne ur&gcirc;as.</l>
+<l>La dorm' estas bona, se mankas la mono.</l>
+<l>La enigmo simple solvi&gcirc;as.</l>
+<l>La felo tanadon ne valoras.</l>
+<l>La fino kronas la verkon.</l>
+<l>La forestanto &ccirc;iam estas malprava.</l>
+<l>La haroj disstari&gcirc;as.</l>
+<l>La haroj stre&ccirc;i&gcirc;as.</l>
+<l>La &jcirc;eto estas farita.</l>
+<l>La konscienco lin ne turmentas.</l>
+<l>La lango de virino estas &scirc;ia glavo.</l>
+<l>La lastan el amaso atakas la hundo.</l>
+<l>La lipoj ne montru, kion man&gcirc;is la bu&scirc;o.</l>
+<l>La loto estas tirita.</l>
+<l>La ludo kandelon ne valoras.</l>
+<l>La lumo por vero ofte estas dan&gcirc;ero.</l>
+<l>La luno ne a&ubreve;skultas, kiam hundo &gcirc;in insultas.</l>
+<l>La man&gcirc;ota fi&scirc;o estas ankora&ubreve; en la rivero.</l>
+<l>La mano lin jukas.</l>
+<l>La morto ne distingas, &ccirc;iujn egale atingas.</l>
+<l>La morto &scirc;ercon ne komprenas: oni &gcirc;in vokas, &gcirc;i venas.</l>
+<l>La muro havas orelojn.</l>
+<l>La parto plej vasta venos la lasta.</l>
+<l>La plej dan&gcirc;era homo &dash; malbona in' en domo.</l>
+<l>La sama afero, sed kun la kapo al tero.</l>
+<l>La sigelo ankora&ubreve; ne estas metita.</l>
+<l>La tempo &ccirc;iam malka&scirc;as la veron.</l>
+<l>La tempo venos, ni &ccirc;ion komprenos.</l>
+<l>La tuta ludo ne valoras kandelon.</l>
+<l>La unua trovita.</l>
+<l>La vivo staras sur la karto.</l>
+<l>Laboro donas bonstaton, mallaboro malsaton.</l>
+<l>Laboro finita &dash; ripozo merita.</l>
+<l>Laboro fortigas, ripozo putrigas.</l>
+<l>Laboro homon nutras, sen laboro li putras.</l>
+<l>Laboro kaj pacienco kondukas al potenco.</l>
+<l>Laboro kondukos al honoro kaj oro.</l>
+<l>Laboro lacigas, sed akiro &gcirc;ojigas.</l>
+<l>Laboro ne estas leporo &dash; &gcirc;i haltos, ne forsaltos.</l>
+<l>Lang' estas mola kaj la&ubreve;vole petola.</l>
+<l>Langa vundo plej profunda.</l>
+<l>Lango miela, sed koro kruela.</l>
+<l>Lango nenion atingas, se &gcirc;in sa&gcirc;o ne svingas.</l>
+<l>Larmo virina balda&ubreve; seki&gcirc;as.</l>
+<l>Larmoj pravecon ne pruvas.</l>
+<l>Larmoj &scirc;uldon ne pagas.</l>
+<l>Lasi fali la manojn.</l>
+<l>La&ubreve; &ccirc;iuj le&gcirc;oj de la arto.</l>
+<l>La&ubreve; la agoj de l' homo estas lia nomo.</l>
+<l>La&ubreve; la frukto oni arbon ekkonas.</l>
+<l>La&ubreve;du belecon de l' maro, sed &ccirc;e rando de arbaro.</l>
+<l>La&ubreve;du la maron, sed restu sur tero.</l>
+<l>La&ubreve;du tagon nur vespere.</l>
+<l>Lavu tutan jaron, negro ne blanki&gcirc;os.</l>
+<l>Lecionoj al profesoro estas vana laboro.</l>
+<l>Le&gcirc;e kaj rajte.</l>
+<l>Le&gcirc;o estas bona, se advokato &gcirc;in helpas.</l>
+<l>Le&gcirc;o estas cedema: kien vi deziras, &gcirc;i iras.</l>
+<l>Le&gcirc;o malaperas, moro da&ubreve;ras.</l>
+<l>Le&gcirc;o mallertulon ligas, lertulon fortigas.</l>
+<l>Le&gcirc;o pasinta&jcirc;on ne tu&scirc;as.</l>
+<l>Le&gcirc;o valoras por poste, sed ne por anta&ubreve;e.</l>
+<l>Lernado havas maldol&ccirc;an radikon, sed bonan efikon.</l>
+<l>Lernado sen fruktoj ne restas.</l>
+<l>Lerneja sekreto ne iru al gazeto.</l>
+<l>Lernu juna &dash; vi scios maljuna.</l>
+<l>Lernu juna, por esti sa&gcirc;a maljuna.</l>
+<l>Lerteco sor&ccirc;on ne bezonas.</l>
+<l>Levi&gcirc;u kun la suno, edzi&gcirc;u dum juna.</l>
+<l>Li atendas kaj plendas kaj denove atendas.</l>
+<l>Li atendas, ke la okazo venu al lia nazo.</l>
+<l>Li bruligis al si la lipharojn.</l>
+<l>Li dentojn prunti ne bezonas.</l>
+<l>Li diris adia&ubreve; al la mondo surtera.</l>
+<l>Li donas peceton da pano kaj bategon per mano.</l>
+<l>Li e&ccirc; el sablo vipojn tordas.</l>
+<l>Li eksciti&gcirc;as kiel bolanta lakto.</l>
+<l>Li esploris iom la fundon de la glaso.</l>
+<l>Li estas bravulo en sia angulo.</l>
+<l>Li estas en acida humoro.</l>
+<l>Li estas en klopodoj de l' kapo &gcirc;is piedoj.</l>
+<l>Li estas flami&gcirc;ema kiel rezina ligno.</l>
+<l>Li estas frotita kaj polurita.</l>
+<l>Li estas homo sperta kaj lerta.</l>
+<l>Li estas kompetenta, kiel besto pri ar&gcirc;ento.</l>
+<l>Li estas la portreto de sia patro.</l>
+<l>Li estas portreto de sia patro.</l>
+<l>Li estas preska&ubreve; mia frato: nepo de kuzo de onklo de konato.</l>
+<l>Li estas sia propra mastrino.</l>
+<l>Li estas vera hidrargo.</l>
+<l>Li faras princan promeson, sed ne havas e&ccirc; speson.</l>
+<l>Li faris sian lastan transloki&gcirc;on.</l>
+<l>Li foriris kun longa nazo.</l>
+<l>Li forpelis siajn piedojn.</l>
+<l>Li havas ankora&ubreve; la lakton sur la lipoj.</l>
+<l>Li havas ankora&ubreve; printempon en kapo.</l>
+<l>Li havas cerbon ne tro potencan.</l>
+<l>Li havas &ccirc;iun horon alian moron.</l>
+<l>Li havas dentojn ne por parado.</l>
+<l>Li havas en la cerbo tro multe da herbo.</l>
+<l>Li havas la kapon fortike sur la kolo.</l>
+<l>Li havas la kapon sur &gcirc;usta loko.</l>
+<l>Li havas la kapon sur la &gcirc;usta loko.</l>
+<l>Li havas mu&scirc;on en la kapo.</l>
+<l>Li havas nek &ccirc;elon, nek kelon.</l>
+<l>Li havas pli da mono ol da bezono.</l>
+<l>Li havas pli da mono, ol li povas kalkuli.</l>
+<l>Li havas pli da &scirc;uldoj en la urbo, ol da haroj en la barbo.</l>
+<l>Li havas siajn kapricojn.</l>
+<l>Li havas truon en la manplato.</l>
+<l>Li havis viandon, mi havis nur oston &dash; li havis la &gcirc;uon, mi pagis la koston.</l>
+<l>Li jam estas trans montoj kaj maro.</l>
+<l>Li jam faras la lastan spiron.</l>
+<l>Li &jcirc;us elrampis el la ova &scirc;elo.</l>
+<l>Li komprenas predikon, kiel bovo muzikon.</l>
+<l>Li kura&gcirc;on kolekti ne bezonas.</l>
+<l>Li lo&gcirc;as tie, kien e&ccirc; birdo ne flugas.</l>
+<l>Li mem estas patrono por sia persono.</l>
+<l>Li mensogas ma&scirc;ine.</l>
+<l>Li mensogas tiel, ke la muroj krakas.</l>
+<l>Li minacas per fingro en la po&scirc;o.</l>
+<l>Li ne elpensis la filozofian &scirc;tonon.</l>
+<l>Li ne elrampis ankora&ubreve; el la vindoj.</l>
+<l>Li ne enlasas pu&scirc;on en sian bu&scirc;on.</l>
+<l>Li ne estas el la grandaj sa&gcirc;uloj.</l>
+<l>Li ne estas el la regimento de timuloj.</l>
+<l>Li ne frapis al si ankora&ubreve; la kornojn.</l>
+<l>Li ne havas kapon de ministro.</l>
+<l>Li ne toleras e&ccirc; mu&scirc;on sur la muro.</l>
+<l>Li neniam venkis la alfabeton.</l>
+<l>Li pafis sin for.</l>
+<l>Li parolas sen senco kaj sen interligo.</l>
+<l>Li pasis akvon kaj fajron kaj mar&ccirc;ojn kaj marojn.</l>
+<l>Li prenos kaj benos.</l>
+<l>Li pulvon ne elpensis.</l>
+<l>Li ripozu trankvile.</l>
+<l>Li saltas gracie, kiel urso ebria.</l>
+<l>Li salutas profunde kaj mordas hunde.</l>
+<l>Li scias, kie la kankroj pasigas la vintron.</l>
+<l>Li ser&ccirc;as la venton sur la kampo.</l>
+<l>Li sidas en &scirc;uldoj &gcirc;is super la &scirc;ultroj.</l>
+<l>Li &scirc;telas de najbaro, por doni al altaro.</l>
+<l>Li &scirc;vitas ankora&ubreve; super la alfabeto.</l>
+<l>Li ta&ubreve;gas nek por studo, nek por ludo.</l>
+<l>Li tenas la nazon supren.</l>
+<l>Li trafis el sub pluvo en riveron.</l>
+<l>Li tremas, kiel a&ubreve;tuna folio.</l>
+<l>Li vidas nur &gcirc;is la pinto de sia nazo.</l>
+<l>Li vivas en &gcirc;uo kaj bruo.</l>
+<l>Li vivas sur la tero kiel en infero.</l>
+<l>Li vorton en la po&scirc;o ne ser&ccirc;as.</l>
+<l>Li zorgas pri &gcirc;i kiel pri ne&gcirc;o pasintjara.</l>
+<l>Lia animo forkuris en la pinton de la piedo.</l>
+<l>Lia cerbo iris promeni.</l>
+<l>Liaj dentoj povas festi sabaton.</l>
+<l>Liaj dentoj povas forgesi sian metion.</l>
+<l>Liaj flugiloj paralizi&gcirc;is.</l>
+<l>Liberulo iras, kien li deziras.</l>
+<l>Ligno fendita facile flami&gcirc;as.</l>
+<l>Lin tu&scirc;as nek admono, nek ordono.</l>
+<l>Lipharo de grandsinjoro, sed koro de leporo.</l>
+<l>Liveru nur panon, man&gcirc;ontoj sin trovos.</l>
+<l>Lo&gcirc;i en la fino de la mondo.</l>
+<l>Longa dormado &scirc;uldojn kreskigas.</l>
+<l>Longa konsidero savas de sufero.</l>
+<l>Longe &ccirc;erpas la kru&ccirc;o, &gcirc;is &gcirc;i fine rompi&gcirc;as.</l>
+<l>Longe &scirc;telas &scirc;telisto, tamen fine li pendos.</l>
+<l>Ludi kun iu ludon de pugnoj.</l>
+<l>Ludi ventobatadon.</l>
+<l>Ludo aparte, kaj afero aparte.</l>
+<l>Luksa la vesto, sed malplena la po&scirc;o.</l>
+<l>Lumo fari&gcirc;os, kulpulo trovi&gcirc;os.</l>
+<l>Lupo dormanta &scirc;afon ne kaptas.</l>
+<l>Lupo kaptas, sed li anka&ubreve; enfalas.</l>
+<l>Lupo lupon ne man&gcirc;as.</l>
+<l>Lupo sopiras, al arbaro sin tiras.</l>
+<l>Lupo &scirc;an&gcirc;as la harojn, sed ne la farojn</l>
+</lg></div>
+
+<div type="chapter" id="M" rend="doc">
+<head>M</head>
+<lg rend="left">
+<l>Ma&ccirc;i kaj rema&ccirc;i.</l>
+<l>Magia rondo.</l>
+<l>Malamanto de faro estas amanto de kalendaro.</l>
+<l>Malanta&ubreve; barilo kura&gcirc;o estas facila.</l>
+<l>Malanta&ubreve;e mizero, anta&ubreve;e malespero.</l>
+<l>Malaperis kiel &scirc;tono en maron.</l>
+<l>Malaperis, kiel vaporo.</l>
+<l>Malavarulo kaj porko estas bonaj post la morto. .</l>
+<l>Malbona herbo froston ne timas.</l>
+<l>Malbona virino diablon superas.</l>
+<l>Malbone ka&scirc;ita &scirc;teliston incitas.</l>
+<l>Malbonon oni memori ne &ccirc;esas, bonon oni balda&ubreve; forgesas.</l>
+<l>Malbonulon diablo ne prenas.</l>
+<l>Maldol&ccirc;a por la lango, sed saniga por la sango.</l>
+<l>Malfeli&ccirc;o inviton ne atendas.</l>
+<l>Malfeli&ccirc;o kaj peko levi&gcirc;as sen veko.</l>
+<l>Malfeli&ccirc;o komuna estas malpli premanta.</l>
+<l>Malfeli&ccirc;o malofte venas sole.</l>
+<l>Malfeli&ccirc;o sin ne &gcirc;enas, faru geston &dash; &gcirc;i tuj venas.</l>
+<l>Malfeli&ccirc;o venas rajde, foriras piede.</l>
+<l>Malfeli&ccirc;o venas sen alvoko.</l>
+<l>Malfeli&ccirc;o venas, malfeli&ccirc;on kuntrenas.</l>
+<l>Malfeli&ccirc;oj kaj batoj venas &ccirc;iam kun fratoj.</l>
+<l>Malfermita kelo tentas al &scirc;telo.</l>
+<l>Malgranda aspekte, sed granda intelekte.</l>
+<l>Malgranda birdeto, sed akra ungeto.</l>
+<l>Malgranda estas la flamo, tamen ne mankas la fumo.</l>
+<l>Malgranda pezo, sed granda prezo.</l>
+<l>Malgrandaj infanoj ka&ubreve;zas laboron, grandaj &dash; doloron.</l>
+<l>Malhumileco estas kara plezuro.</l>
+<l>Maljunaj jaroj, sed ne sa&gcirc;aj faroj.</l>
+<l>Malkovri anta&ubreve; iu sian koron.</l>
+<l>Malnova afero en nova livero.</l>
+<l>Malpaco pro limo fari&gcirc;as kutimo, malpaco pro kredo fari&gcirc;as heredo.</l>
+<l>Malpaculo.</l>
+<l>Malpaculon &ccirc;iu batas.</l>
+<l>Malpla&ccirc;as nenio, se taksas pasio.</l>
+<l>Malplena sako pu&scirc;as al peko.</l>
+<l>Malplena sako tentas al peko.</l>
+<l>Malpli da havo, malpli da zorgoj.</l>
+<l>Malpli da posedo, malpli da tedo.</l>
+<l>Malpli esperu, pli konsideru.</l>
+<l>Malproksime vidas, anta&ubreve; la nazo ne vidas.</l>
+<l>Malpurulo.</l>
+<l>Malri&ccirc;a kiel muso pre&gcirc;eja.</l>
+<l>Malri&ccirc;eco ne estas krimo, tamen kondukas al malestimo.</l>
+<l>Malri&ccirc;eco ne estas malvirto.</l>
+<l>Malri&ccirc;igas ne nehavado, sed tro granda dezirado.</l>
+<l>Malri&ccirc;ulo parencojn ne havas.</l>
+<l>Malri&ccirc;ulo rabiston ne timas.</l>
+<l>Malsa&gcirc;a kiel &scirc;tipo.</l>
+<l>Malsa&gcirc;o estas najbaro de mizero.</l>
+<l>Malsa&gcirc;ulo &ccirc;ie sian nomon skribas.</l>
+<l>Malsa&gcirc;ulo de &ccirc;iuj flankoj.</l>
+<l>Malsa&gcirc;ulo diris vorteron, sa&gcirc;ulo komprenas la tutan aferon.</l>
+<l>Malsa&gcirc;ulo en foiro estas bona akiro.</l>
+<l>Malsa&gcirc;ulo kaj infano parolas la veron.</l>
+<l>Malsa&gcirc;ulo malpacigis kaj dek sa&gcirc;uloj repacigi ne povas.</l>
+<l>Malsa&gcirc;ulo ne grizi&gcirc;as nek senhari&gcirc;as.</l>
+<l>Malsa&gcirc;ulo ofte estas profeto.</l>
+<l>Malsa&gcirc;ulo &scirc;tonon &jcirc;etis, dek sa&gcirc;uloj &gcirc;in ne atingos.</l>
+<l>Malsa&gcirc;ulo venas, komercisto festenas.</l>
+<l>Malsa&gcirc;ulo, kiel tamburo &dash; kiu pasas, lin batas.</l>
+<l>Malsa&gcirc;uloj kreskas mem, sen plugo kaj sem'.</l>
+<l>Malsa&gcirc;ulon favoras feli&ccirc;o.</l>
+<l>Malsa&gcirc;ulon oni batas e&ccirc; en la pre&gcirc;ejo.</l>
+<l>Malsanan demandu, al sana donu.</l>
+<l>Malsano venas rapide, foriras rigide.</l>
+<l>Malsata stomako orelon ne havas.</l>
+<l>Malsato donas spriton.</l>
+<l>Malsato malfortigas, &scirc;uldo suferigas.</l>
+<l>Malsato ne estas frato.</l>
+<l>Malsato plej bone gustigas la man&gcirc;on.</l>
+<l>Malsatulon la fabloj ne nutros.</l>
+<l>Mal&scirc;parulo &gcirc;uas nelonge, avarulo neniam.</l>
+<l>Mankas klapo en lia kapo.</l>
+<l>Mankis al Petro klopodoj, li a&ccirc;etis al si domon.</l>
+<l>Manko de oro ne estas malhonoro.</l>
+<l>Mano dekstra ne sciu, kion faras la maldekstra.</l>
+<l>Mano manon lavas.</l>
+<l>Mano pekis, dorso pagas.</l>
+<l>Manon malkvietan &ccirc;iu muro atakas.</l>
+<l>Mar&ccirc;andado a&ccirc;eti ne devigas.</l>
+<l>Mar&ccirc;ando a&ccirc;eti ne devigas.</l>
+<l>Maro &ccirc;iujn riverojn ricevas kaj tamen ne krevas.</l>
+<l>Maro da mizeroj.</l>
+<l>Mastro elbabilis, gastoj ne silentos.</l>
+<l>Mastro en vojo &dash; servantoj en &gcirc;ojo.</l>
+<l>Matena horo estas plena de oro.</l>
+<l>Matenas, vesperas &dash; kaj tago malaperas.</l>
+<l>Matura a&gcirc;o.</l>
+<l>Melki kaproviron.</l>
+<l>Melku bovon senfine, li lakton ne donos.</l>
+<l>Memori pri mezuro en laboro kaj plezuro.</l>
+<l>Mensoganto devas havi bonan memoron.</l>
+<l>Mensogas kiel kalendaro; kiel gazeto; kiel funebra parolo.</l>
+<l>Mensogo kaj &scirc;telo estas du fratoj.</l>
+<l>Mensogo malproksimen ne kondukas.</l>
+<l>Mensogu kiom vi volas, sed memoru kion vi parolas.</l>
+<l>Meti trabojn sur la vojon.</l>
+<l>Metio lacigas, metio vivigas.</l>
+<l>Metio man&gcirc;on ne bezonas kaj man&gcirc;on tamen donas.</l>
+<l>Mezuri la&ubreve; sia metro.</l>
+<l>Mi anka&ubreve; lokon sur la tero okupas.</l>
+<l>Mi blinde pafos, eble trafos.</l>
+<l>Mi flanke sidis, mi ne a&ubreve;dis nek vidis.</l>
+<l>Mi havas pri tio nek scion nek supozon.</l>
+<l>Mi hejme sidis, nenion vidis.</l>
+<l>Mi konas miajn homojn.</l>
+<l>Mi lavas al mi la manojn.</l>
+<l>Mi lin liberigis, li min sa&gcirc;igis.</l>
+<l>Mi ne povas kapti en &gcirc;i la sencon.</l>
+<l>Mi ne volas baton, mi ne volas kompaton.</l>
+<l>Mi ne volas tion &ccirc;i scii.</l>
+<l>Mi panon ne esperis, subite kuko aperis.</l>
+<l>Mia lango &dash; mia malamiko.</l>
+<l>Mia lo&gcirc;ejo &dash; mia re&gcirc;ejo.</l>
+<l>Mia lo&gcirc;ejo estas mia re&gcirc;ejo.</l>
+<l>Mielo sur lango, kaj glacio en koro.</l>
+<l>Mieno fiera al ludo mizera.</l>
+<l>Miljaroj ne povis &dash; minuto el&scirc;ovis.</l>
+<l>Min ne tu&scirc;as la afero, mi staras ekstere.</l>
+<l>Minacas dento al la vento.</l>
+<l>Minaci per pugno en la po&scirc;o.</l>
+<l>Minacoj ne mortigas.</l>
+<l>Miraklo inter mirakloj.</l>
+<l>Mizero faras lerta, mizero faras sperta.</l>
+<l>Mizero faras viziton, ne atendante inviton.</l>
+<l>Mizero havas talentan kapon.</l>
+<l>Mizero instruas.</l>
+<l>Mizero piedojn sanigas, kolon elastigas.</l>
+<l>Mizero plej ekstreme, Dio plej proksime.</l>
+<l>Mizero saltas, mizero haltas.</l>
+<l>Mizero sur mizero.</l>
+<l>Mola kiel vakso.</l>
+<l>Mono amas kalkulon.</l>
+<l>Mono estas re&gcirc;o, mono estas le&gcirc;o.</l>
+<l>Mono fluas al ri&ccirc;ulo, batoj al malri&ccirc;ulo.</l>
+<l>Mono kuras al mono.</l>
+<l>Mono mondon regas.</l>
+<l>Mono monon naskas.</l>
+<l>Mono odoron ne havas, sian devenon ne diras.</l>
+<l>Mono perdita, nenio perdita &dash; honoro perdita, &ccirc;io perdita.</l>
+<l>Mono plenumas &ccirc;iujn oficojn.</l>
+<l>Mono publika estu fortika.</l>
+<l>Monto gravedi&gcirc;is, muso naski&gcirc;is.</l>
+<l>Montradi al si reciproke la dentojn.</l>
+<l>Montras parolo, kion cerbo valoras.</l>
+<l>Montroj kaj konsiloj estas facilaj.</l>
+<l>Montru moneron, &ccirc;io fari&gcirc;os.</l>
+<l>Mordantaj hundoj kuras &ccirc;iam kun vundoj.</l>
+<l>Morga&ubreve; estas la amata tago de mallaboruloj.</l>
+<l>Morga&ubreve; frue venos plue.</l>
+<l>Mortinta ser&ccirc;u &ccirc;ielon, vivanta ian celon.</l>
+<l>Muele sencele.</l>
+<l>Muelilo haltas, muelisto eksaltas.</l>
+<l>Multaj kompatantoj, sed neniu helpanto.</l>
+<l>Multaj svati&gcirc;as, feli&ccirc;ulo edzi&gcirc;as.</l>
+<l>Multaj vokitoj, sed ne multaj elektitoj.</l>
+<l>Multe da fian&ccirc;oj, sed la &gcirc;usta ne venas.</l>
+<l>Multe da peno, neniom da pano.</l>
+<l>Multe da sprito, sed neniom da profito.</l>
+<l>Multe en kapo, sed nenio en po&scirc;o.</l>
+<l>Multe entreprenis, sed ne multe eltenis.</l>
+<l>Multe komencite, malmulte plenumite.</l>
+<l>Murmuregas la urso, sed danci &gcirc;i devas.</l>
+<l>Murmuri tra la dentoj.</l>
+<l>Muso la katon &ccirc;iam ofendis.</l>
+<l>Muso sati&gcirc;is, faruno malboni&gcirc;is</l>
+</lg></div>
+
+<div type="chapter" id="N" rend="doc">
+<head>N</head>
+<lg rend="left">
+<l>Naivuloj jam ne ekzistas.</l>
+<l>Najbaro ne &gcirc;emas, kiam boto nin premas.</l>
+<l>Naski&gcirc;as fian&ccirc;ino por sia fian&ccirc;o.</l>
+<l>Naski&gcirc;u, edzi&gcirc;u kaj mortu &dash; &ccirc;iam monon alportu.</l>
+<l>Nazo supren, vento anta&ubreve;en.</l>
+<l>Ne atendis, ne esperis &dash; malfeli&ccirc;o aperis.</l>
+<l>Ne atendita, ne esperita ofte venas subite.</l>
+<l>Ne atingos krio &gcirc;is la trono de Dio.</l>
+<l>Ne a&ubreve;skultinte, ne kondamnu.</l>
+<l>Ne batalu pot' el tero kontra&ubreve; kaldrono el fero.</l>
+<l>Ne batas bastono sen persono.</l>
+<l>Ne beda&ubreve;ru hiera&ubreve;an, ne atendu morga&ubreve;an, ne forlasu hodia&ubreve;an.</l>
+<l>Ne bela estas amata, sed amata estas bela.</l>
+<l>Ne bela estas kara, sed kara estas bela.</l>
+<l>Ne beligas loko homon, sed homo la lokon.</l>
+<l>Ne bezonas la kapo konsilon de kruroj.</l>
+<l>Ne &ccirc;iam da&ubreve;ras malbona vetero, ne &ccirc;iam da&ubreve;ras homa sufero.</l>
+<l>Ne &ccirc;iam estas festo, venos anka&ubreve; fasto.</l>
+<l>Ne &ccirc;iam estas sankta Johano.</l>
+<l>Ne &ccirc;iam per a&gcirc;o mezuri&gcirc;as la sa&gcirc;o.</l>
+<l>Ne &ccirc;io batas, kio tondras.</l>
+<l>Ne &ccirc;io brilanta estas diamanto.</l>
+<l>Ne &ccirc;io griza estas lupo.</l>
+<l>Ne &ccirc;io utilas, kio brilas.</l>
+<l>Ne &ccirc;ion oni devas severe ekzameni.</l>
+<l>Ne &ccirc;iu aspiranto devas esti prenanto.</l>
+<l>Ne &ccirc;iu bojato estas &scirc;telisto.</l>
+<l>Ne &ccirc;iu fian&ccirc;i&gcirc;as, kiu svati&gcirc;as.</l>
+<l>Ne &ccirc;iu &gcirc;ibulo estas sanktulo.</l>
+<l>Ne &ccirc;iu havas egalan feli&ccirc;on.</l>
+<l>Ne &ccirc;iu hundo bojanta estas hundo mordanta.</l>
+<l>Ne &ccirc;iu papereto estas banka bileto.</l>
+<l>Ne &ccirc;iu raporto estas vera vorto.</l>
+<l>Ne &ccirc;iuj havas egalan feli&ccirc;on.</l>
+<l>Ne defendas oro kontra&ubreve; doloro.</l>
+<l>Ne demandu scienculon, demandu spertulon.</l>
+<l>Ne diru <emph>hop</emph> anta&ubreve; la salto.</l>
+<l>Ne doloras frapo sur fremda kapo.</l>
+<l>Ne donu kaj ne boju.</l>
+<l>Ne ekpepi.</l>
+<l>Ne ekzistas en komerco amikeco nek &scirc;erco.</l>
+<l>Ne ekzistas forto kontra&ubreve; la morto.</l>
+<l>Ne ekzistas fumo sen brulo.</l>
+<l>Ne ekzistas fumo sen fajro.</l>
+<l>Ne ekzistas honoro sen laboro.</l>
+<l>Ne ekzistas juneco sen kapricoj, nek maljuneco sen malicoj.</l>
+<l>Ne ekzistas kareso sen intereso.</l>
+<l>Ne ekzistas mono, ne ekzistas dono.</l>
+<l>Ne ekzistas naiva vulpo, ne ekzistas homo sen kulpo.</l>
+<l>Ne ekzistas ofico sen benefico.</l>
+<l>Ne ekzistas regulo sen escepto.</l>
+<l>Ne ekzistas savo kontra&ubreve; malbona virino.</l>
+<l>Ne ekzistas terno sen nazo nek fakto sen bazo.</l>
+<l>Ne el &ccirc;iu ligno oni faras violonon.</l>
+<l>Ne el unu forno li man&gcirc;is jam panon.</l>
+<l>Ne elver&scirc;u la malpuran, anta&ubreve; ol vi havas la puran.</l>
+<l>Ne elvoku lupon el la arbaro.</l>
+<l>Ne en &ccirc;iu afero estu severa.</l>
+<l>Ne en unu tago elkreskis Kartago.</l>
+<l>Ne esperite, ne son&gcirc;ite.</l>
+<l>Ne estas piediranto kolego al rajdanto.</l>
+<l>Ne estingu la fajron, kiu vin ne bruligas.</l>
+<l>Ne falas frukto malproksime de l' arbo.</l>
+<l>Ne fanfaronu irante, fanfaronu revenante.</l>
+<l>Ne faru kalkulon sen la mastro.</l>
+<l>Ne fidu amikon, kiu havas jam flikon.</l>
+<l>Ne fidu fidelulon, fidu propran okulon.</l>
+<l>Ne fidu heredon, fidu posedon.</l>
+<l>Ne gutas mielo el la &ccirc;ielo.</l>
+<l>Ne havante, oni petas; ricevinte, for&jcirc;etas.</l>
+<l>Ne helpas glorkrono al malplena kaldrono.</l>
+<l>Ne helpas plendo nek ploro kontra&ubreve; kreditoro.</l>
+<l>Ne helpas ploro al doloro.</l>
+<l>Ne helpas spegulo al malbelulo.</l>
+<l>Ne hontu penti pri faro, hontu persisti en eraro.</l>
+<l>Ne insultu mizeran, ne moku malliberan.</l>
+<l>Ne iras hakilo al kolo humila.</l>
+<l>Ne iru al fremda anaro kun via regularo.</l>
+<l>Ne iru fadeno anta&ubreve; kudrilo.</l>
+<l>Ne iru okuloj super la frunton.</l>
+<l>Ne ju&gcirc;o kondamnas, sed ju&gcirc;anto.</l>
+<l>Ne ju&gcirc;u pri afero la&ubreve; &gcirc;ia ekstero.</l>
+<l>Ne kaptita &dash; ne punita.</l>
+<l>Ne karesu per mano, sed karesu per pano.</l>
+<l>Ne ka&scirc;i&gcirc;as lia lango malanta&ubreve; la vango.</l>
+<l>Ne konante la profundecon, ne iru en la riveron.</l>
+<l>Ne kondamnu alian, oni vin ne kondamnos.</l>
+<l>Ne kotas besto en sia nesto.</l>
+<l>Ne kra&ccirc;u en puton, &ccirc;ar vi trinki bezonos.</l>
+<l>Ne kredas &scirc;telisto, ke honestaj ekzistas.</l>
+<l>Ne kredu al orelo, kredu al okulo.</l>
+<l>Ne kredu al parolo sen propra kontrolo.</l>
+<l>Ne kvanto, sed kvalito decidas pri merito.</l>
+<l>Ne laci&gcirc;os mano, ne fari&gcirc;os pano.</l>
+<l>Ne laci&gcirc;u viaj manoj pri fremdaj infanoj.</l>
+<l>Ne la&ubreve;du la tagon anta&ubreve; vespero.</l>
+<l>Ne longe sinjora da&ubreve;ras favoro.</l>
+<l>Ne mankas tombo por mortinto nek pano por vivanto.</l>
+<l>Ne maro dronigas &scirc;ipon, sed la ventoj.</l>
+<l>Ne mia estas la &ccirc;evalo, min ne tu&scirc;as &gcirc;ia falo.</l>
+<l>Ne moku mizeron de alia, &ccirc;ar balda&ubreve; venos via.</l>
+<l>Ne moku riveron, ne atinginte la teron.</l>
+<l>Ne movi la bu&scirc;on.</l>
+<l>Ne naskas porko leonidon, nek korniko aglidon.</l>
+<l>Ne naski&gcirc;u ri&ccirc;a, naski&gcirc;u feli&ccirc;a.</l>
+<l>Ne pekas drinkulo, pekas ebriulo.</l>
+<l>Ne pelu tiun, kiu mem forkuras.</l>
+<l>Ne pentru diablon sur la muro.</l>
+<l>Ne por lupo estas supo.</l>
+<l>Ne povas &ccirc;iu homo esti pap' en Romo.</l>
+<l>Ne prediku knabino al via patrino.</l>
+<l>Ne prenis pastro la donon &dash; reka&scirc;u sako la monon.</l>
+<l>Ne prokrastu &gcirc;is morga&ubreve;, kion vi povas fari hodia&ubreve;.</l>
+<l>Ne punu edzinon anta&ubreve; infanaj okuloj, ne punu infanojn anta&ubreve; fremduloj.</l>
+<l>Ne pu&scirc;u vian regularon en fremdan anaron.</l>
+<l>Ne rapidu insulti, volu a&ubreve;skulti.</l>
+<l>Ne rapidu kun fido anta&ubreve; longa kunesido.</l>
+<l>Ne rapidu kun vortoj, rapidu kun faroj.</l>
+<l>Ne rapidu, trankvile decidu.</l>
+<l>Ne rezonu pri tio, kio estas ekster via metio.</l>
+<l>Ne sama la vento blovas konstante.</l>
+<l>Ne sanktuloj potojn faras.</l>
+<l>Ne ser&ccirc;u bonan arbaron, ser&ccirc;u bonan najbaron.</l>
+<l>Ne servas larmo anstata&ubreve; armo.</l>
+<l>Ne spici&gcirc;as man&gcirc;o de mastrina beleco.</l>
+<l>Ne sufi&ccirc;as ploro al kreditoro.</l>
+<l>Ne &scirc;ovu la nazon en fremdan vazon.</l>
+<l>Ne &scirc;ovu nazon en fremdan vazon.</l>
+<l>Ne &scirc;pari monon nek penon.</l>
+<l>Ne &scirc;telus &scirc;telistoj, se ne ekzistus ka&scirc;istoj.</l>
+<l>Ne ta&ubreve;gas du ursoj por unu nesto.</l>
+<l>Ne ta&ubreve;gas la vero por komerca afero.</l>
+<l>Ne timu hundon bojantan, timu hundon silentan.</l>
+<l>Ne timu tran&ccirc;ilon, timu babilon.</l>
+<l>Ne trovante bovinon, oni &scirc;telas kokinon.</l>
+<l>Ne unu fajron li pasis, ne unu hundo lin &ccirc;asis.</l>
+<l>Ne unu hundo lin mordis, ne unu vento lin tordis.</l>
+<l>Ne valoranto pla&ccirc;as, sed pla&ccirc;anto valoras.</l>
+<l>Ne valoras bofilo, kiam mortis filino.</l>
+<l>Ne valoras la akiro e&ccirc; la penon de l' deziro.</l>
+<l>Ne valoras la faro la koston de l' preparo.</l>
+<l>Ne veku malfeli&ccirc;on, kiam &gcirc;i dormas.</l>
+<l>Ne venas honoro sen laboro.</l>
+<l>Ne venas mont' al monto, sed homo homon renkontas.</l>
+<l>Ne venas rato mem al kato.</l>
+<l>Ne venos rato mem al kato.</l>
+<l>Ne venos rato mem al la kato.</l>
+<l>Ne vivu kiel vi volas, vivu kiel vi povas.</l>
+<l>Ne voku diablon, &ccirc;ar li povas aperi.</l>
+<l>Ne volas kokin' al festeno, sed oni &gcirc;in trenas perforte.</l>
+<l>Ne volis rajdi sur &ccirc;evalo, ekrajdis sur azeno.</l>
+<l>Ne zorgu pri tio, kio estas ekster via scio.</l>
+<l>Nebuligi al iu la okulojn.</l>
+<l>Nebuligi la okulojn.</l>
+<l>Neceseco kontra&ubreve;vola estas le&gcirc;o malmola.</l>
+<l>Neceso ne estas kareso.</l>
+<l>Neevitebla malbono.</l>
+<l>Negocaj aferoj estas severaj.</l>
+<l>Ne&gcirc;o ka&scirc;as nur &gcirc;is printempo.</l>
+<l>Nek al teksto, nek al preteksto.</l>
+<l>Nek al temo, nek al celo.</l>
+<l>Nek eniro, nek eliro.</l>
+<l>Nek &gcirc;ojo, nek mal&gcirc;ojo da&ubreve;ras eterne.</l>
+<l>Nek helpeble, nek konsileble.</l>
+<l>Nek io, nek alio.</l>
+<l>Nek pikite, nek hakite.</l>
+<l>Nek pio por Dio, nek kapablo por diablo.</l>
+<l>Nek por baki, nek por haki.</l>
+<l>Nek transna&gcirc;eble, nek transireble.</l>
+<l>Nele&gcirc;e akirita ne estas profita.</l>
+<l>Nenia ago fari&gcirc;as sen pago.</l>
+<l>Nenia konstruo povas esti sen bruo.</l>
+<l>Nenia peketo restas longe sekreto.</l>
+<l>Nenia peno nek provo donos lakton de bovo.</l>
+<l>Neniam atendita ofte venas subite.</l>
+<l>Nenie semata, &ccirc;ie trovata.</l>
+<l>Nenio pli grandan mizeron prezentas, ol se sano mankas kaj &scirc;uldoj turmentas.</l>
+<l>Neniom da oro, sed bona gloro.</l>
+<l>Neniu estas profeto en sia urbeto.</l>
+<l>Neniu sanktulo estas sen makulo.</l>
+<l>Neniu scias, kio morga&ubreve; lin trafos.</l>
+<l>Neniu vidas, kio lin insidas.</l>
+<l>Nesciado de le&gcirc;o neniun pravigas.</l>
+<l>Nevo de papo facile fari&gcirc;as kardinalo.</l>
+<l>Ni amu nin frate, sed ni kalkulu akurate.</l>
+<l>Ni facile forgesas, kio nin ne interesas.</l>
+<l>Ni forgesas averton, ni memoras la sperton.</l>
+<l>Ni laboru kaj esperu.</l>
+<l>Ni reciproke nin konas, klarigon ne bezonas.</l>
+<l>Ni vidas, kiu ridas &dash; kiu ploras, ni ne vidas.</l>
+<l>Nigran kornikon sapo ne blankigos.</l>
+<l>Nigro sur blanko pruvas sen manko.</l>
+<l>Nin &ccirc;iam ravas, kion ni ne havas.</l>
+<l>Nin instruas eraro, kiun faras najbaro.</l>
+<l>Nobelo promesojn disdonas, kampulo promesojn plenumas.</l>
+<l>Nokte e&ccirc; monstro estas belulo.</l>
+<l>Nomo egala, sed esenco mala.</l>
+<l>Notu en la kamentubo.</l>
+<l>Nova balailo bone balaas.</l>
+<l>Nova stato &dash; nova vivo.</l>
+<l>Novaj sinjoroj &dash; novaj moroj.</l>
+<l>Nuda kaj kruda, sen gro&scirc;o en po&scirc;o.</l>
+<l>Nuksoj venis, kiam dentoj elfalis.</l>
+<l>Nun fini&gcirc;as mia klereco.</l>
+<l>Nur pano kun froma&gcirc;o, sed afabla viza&gcirc;o.</l>
+<l>Nur suferinto &scirc;atas feli&ccirc;on.</l>
+<l>Nur tiu ne eraras, kiu neniam ion faras.</l>
+<l>Nutri per promesoj.</l>
+<l>Nutru lupon plej sate, li &ccirc;iam ser&ccirc;as arbaron</l>
+</lg>
+</div>
+
+<div type="chapter" id="O" rend="doc">
+<head>O</head>
+<lg rend="left">
+<l>Obstina kiel kapro.</l>
+<l>Ofta festo &dash; malplena kesto.</l>
+<l>Ofte &ccirc;apo de kampulo kovras kapon de sa&gcirc;ulo.</l>
+<l>Ofte de ka&ubreve;zo senenhava venas efiko plej grava.</l>
+<l>Ofte kantas la bu&scirc;o, kiam ploras la koro.</l>
+<l>Ofte ligis malsa&gcirc;ulo kaj dek sa&gcirc;uloj malligi ne povas.</l>
+<l>Ofte ligis malsa&gcirc;ulo, kaj sa&gcirc;uloj malligi ne povas.</l>
+<l>Ofte mano forgesas, kion bu&scirc;o promesas.</l>
+<l>Ofte sa&gcirc;ulo vivas malri&ccirc;e kaj malsa&gcirc;ulo feli&ccirc;e.</l>
+<l>Okaza komplimento ne iras al testamento.</l>
+<l>Okazo faras &scirc;teliston.</l>
+<l>Okazo kreas &scirc;teliston.</l>
+<l>Okazon kaptu &ccirc;e l' kapo, &ccirc;ar la vosto estas glita.</l>
+<l>Okulo avidas &ccirc;ion kion vidas.</l>
+<l>Okulo de mastro pli ol beno de pastro.</l>
+<l>Okulo ne atentas, dorso eksentas.</l>
+<l>Okulo ne vidis &dash; pagu la sako.</l>
+<l>Okuloj estas pli grandaj ol la ventro.</l>
+<l>Okupi sen celo lokon sub &ccirc;ielo.</l>
+<l>Oni akceptas la&ubreve; viza&gcirc;o, oni forlasas la&ubreve; sa&gcirc;o.</l>
+<l>Oni batas la oron, por provi &gcirc;ian valoron.</l>
+<l>Oni batas ne la a&gcirc;on, sed la viza&gcirc;on.</l>
+<l>Oni batas per vipo, por ke sentu la ripo.</l>
+<l>Oni batas, malkaresas, kaj e&ccirc; plori ne permesas.</l>
+<l>Oni bonon forgesos, malbonon memoras.</l>
+<l>Oni donacas por speso kaj laborigas por spesmilo.</l>
+<l>Oni ekkonas bovon per la vido kaj malsa&gcirc;ulon per lia rido.</l>
+<l>Oni elbatas kojnon per kojno.</l>
+<l>Oni estas ri&ccirc;a neniam sufi&ccirc;e.</l>
+<l>Oni faris, oni &ccirc;esis, kaj ni &ccirc;ion forgesis.</l>
+<l>Oni invitas &dash; venu, oni donacas &dash; prenu.</l>
+<l>Oni komencas per &scirc;teletoj kaj finas per &scirc;telegoj.</l>
+<l>Oni konsilas kaj konsolas, sed helpi ne volas.</l>
+<l>Oni lekas la manon, sed celas la panon.</l>
+<l>Oni lin konas, kiel blankan lupon; kiel makulharan hundon; kiel malbonan moneron.</l>
+<l>Oni maron admiras, se oni maron ne iras.</l>
+<l>Oni metis makulon en mian kalkulon.</l>
+<l>Oni ne pagas per gloro al sia tajloro.</l>
+<l>Oni ne povas sin movi la&ubreve; &ccirc;iu vento aparte.</l>
+<l>Oni perfidon prenas, sed perfidulon abomenas.</l>
+<l>Oni prenas avide, oni redonas malrapide.</l>
+<l>Oni prenas per manoj, redonas per piedoj.</l>
+<l>Oni pri&scirc;telas ne ri&ccirc;ulon, sed sengardulon.</l>
+<l>Oni tondas &scirc;afinojn, tremas la &scirc;afoj.</l>
+<l>Oni vivas ne kun mono, sed kun persono.</l>
+<l>Oni vokas la bovon ne festeni, sed treni.</l>
+<l>Ora &scirc;losilo &ccirc;ion malfermas.</l>
+<l>Ora &scirc;losilo &ccirc;iun pordon malfermas.</l>
+<l>Ordigi al iu la kapon.</l>
+<l>Ordo estas beno por &ccirc;iu entrepreno.</l>
+<l>Ordonita kiso havas guston maldol&ccirc;an.</l>
+<l>Oro estas pli peza ol fero, pli malpeza ol aero.</l>
+<l>Oro nur fingron eksvingas kaj &ccirc;ion atingas.</l>
+<l>Ovo kokinon ne instruas</l>
+</lg></div>
+
+<div type="chapter" id="P" rend="doc">
+<head>P</head>
+<lg rend="left">
+<l>Paca silento, ke ne blovas e&ccirc; vento.</l>
+<l>Paco al lia cindro.</l>
+<l>Pafi &dash; maltrafi.</l>
+<l>Pagas maljunaj jaroj por junaj eraroj.</l>
+<l>Pagas ne ri&ccirc;ulo, pagas kulpulo.</l>
+<l>Pagi por fremda festeno.</l>
+<l>Pagi sen partopreno por fremda festeno.</l>
+<l>Pago de &scirc;uldanto estas bona en &ccirc;iu kvanto.</l>
+<l>Pagos lupo por la &scirc;afo.</l>
+<l>Palpi al iu la pulson.</l>
+<l>Pano bu&scirc;on ne ser&ccirc;as.</l>
+<l>Pano estas alportita, korbo estu for&jcirc;etita.</l>
+<l>Pardonemeco superas justecon.</l>
+<l>Parenc' al parenco ne malhelpas intence.</l>
+<l>Parenco per Adamo.</l>
+<l>Parolanto semas, a&ubreve;danto rikoltas.</l>
+<l>Paroli dol&ccirc;e en la orelon.</l>
+<l>Paroli per vortoj kovritaj.</l>
+<l>Paroli sensenca&jcirc;on.</l>
+<l>Parolo an&gcirc;ela, sed penso pri &scirc;telo.</l>
+<l>Parolo estas ar&gcirc;ento, oron similas silento.</l>
+<l>Paroloj kaj faroj estas malsamaj aferoj.</l>
+<l>Pasero sperta estas lerta.</l>
+<l>Pasero sperta ne bezonas averton.</l>
+<l>Pasinta doloro for el memoro.</l>
+<l>Pastro &scirc;afon ne prenas, &gcirc;i hejmen revenas.</l>
+<l>Pastro vivas de pre&gcirc;oj, advokato de le&gcirc;oj.</l>
+<l>Pastron nutras pre&gcirc;ejo.</l>
+<l>Patroj avaras, infanoj mal&scirc;paras.</l>
+<l>Pecon detran&ccirc;itan al la pano ne regluu.</l>
+<l>Pekas junuloj kaj pekas maljunuloj.</l>
+<l>Peke akirita ne estas profita.</l>
+<l>Pekinto pentas, kolero silentas.</l>
+<l>Peko kaj eraro estas ecoj de l' homaro.</l>
+<l>Peko malnova perdas pekecon.</l>
+<l>Pekon ser&ccirc;i oni ne bezonas.</l>
+<l>Peli tagojn sen afero de mateno al vespero.</l>
+<l>Pelis pavon, falis kavon.</l>
+<l>Pelu mizeron tra l' pordo, &gcirc;i revenos tra l' fenestro.</l>
+<l>Pendonto ne dronos.</l>
+<l>Pensoj iras trans limo sen pago kaj timo.</l>
+<l>Per bezono venas mono.</l>
+<l>Per eraro ne pravi&gcirc;as la faro.</l>
+<l>Per insulto kaj kolero ne klari&gcirc;as afero.</l>
+<l>Per kio la veto?
+Per la kapo malsupren.</l>
+<l>Per lango flatas, per mano batas.</l>
+<l>Per lerta admono alfluas la mono.</l>
+<l>Per mezuro kaj peso akiri&gcirc;as sukceso.</l>
+<l>Per mono e&ccirc; silento fari&gcirc;as elokvento.</l>
+<l>Per mono, ne per mano punu vila&gcirc;anon.</l>
+<l>Per oreloj, ne per okuloj, edzinon elektu.</l>
+<l>Per pacienco kaj fervoro sukcesas &ccirc;iu laboro.</l>
+<l>Per pacienco venas scienco.</l>
+<l>Per paroloj li bruas, tutan urbon detruas.</l>
+<l>Per promesoj estas pavimita la infero.</l>
+<l>Per tro multa varto malboni&gcirc;as la farto.</l>
+<l>Per unu &scirc;tono oni du &jcirc;etojn ne faras.</l>
+<l>Per vorto &gcirc;entila &ccirc;io estas facila.</l>
+<l>Perdi la kandelon el la kapo.</l>
+<l>Perdi la kura&gcirc;on.</l>
+<l>Perdi la sa&gcirc;on.</l>
+<l>Perdi&gcirc;as per pruntedono amiko kaj mono.</l>
+<l>Perdinta la kapon pri haroj ne ploras.</l>
+<l>Pereis &scirc;afino, pereu anka&ubreve; la &scirc;afido.</l>
+<l>Perforta amo estas plej forta malamo.</l>
+<l>Peto de barono estas ordono.</l>
+<l>Peto kaj demando kondukas tra l' tuta lando.</l>
+<l>Petolado sen mezuro ne kondukas al plezuro.</l>
+<l>Petolu, dibo&ccirc;u, sed poste sorton ne ripro&ccirc;u.</l>
+<l>Petro kornojn tenas, Pa&ubreve;lo lakton prenas.</l>
+<l>Petro parolas sen direkto, sed Pa&ubreve;lo konjektu.</l>
+<l>Petro rifuzas, Pa&ubreve;lo ekuzas.</l>
+<l>Petron kruro doloras, Karolo ne lamas.</l>
+<l>Piaj deziroj.</l>
+<l>Piedo ne atentis, kapo eksentis.</l>
+<l>Piki al iu la vundan lokon.</l>
+<l>Plej bona gvidilo estas la lango.</l>
+<l>Plej bona kuracisto estas la tempo.</l>
+<l>Plej bona sprito estas silento.</l>
+<l>Plej bone ridas, kiu laste ridas.</l>
+<l>Plej certa laboro &dash; laboro per oro.</l>
+<l>Plej dan&gcirc;era malsano estas manko de sa&gcirc;o.</l>
+<l>Plej facile promeso rimi&gcirc;as kun forgeso.</l>
+<l>Plej granda potenco ku&scirc;as en la komenco.</l>
+<l>Plej juna katido musojn jam pelas.</l>
+<l>Plej kruela estas redono por farita bono.</l>
+<l>Plej kuirita kampulo &ccirc;iam restos krudulo.</l>
+<l>Plej sa&gcirc;a maljunulo ne estas tro sa&gcirc;a.</l>
+<l>Plena estas la infero de promesitaj aferoj.</l>
+<l>Plena glaso da vino, sed kun guto da veneno.</l>
+<l>Plena kaso &scirc;teliston altiras.</l>
+<l>Plena sako &ccirc;iun mastron al vi klinos.</l>
+<l>Plena stomako la&ubreve;das la faston.</l>
+<l>Plenblovi la lipojn.</l>
+<l>Plendoj stomakon ne plenigas.</l>
+<l>Plenumi&gcirc;is la tasko per granda fiasko.</l>
+<l>Plenumita via ofico, nun pasis via vico.</l>
+<l>Pli allogas kulero da mielo, ol da vinagro barelo.</l>
+<l>Pli bona &dash; estas malamiko de bona.</l>
+<l>Pli bona amiko intima, ol parenco malproksima.</l>
+<l>Pli bona apude najbaro, ol frato post arbaro.</l>
+<l>Pli bona bran&ccirc;o sennuksa, ol ka&gcirc;o plej luksa.</l>
+<l>Pli bona &ccirc;ifona vesto, ol ri&ccirc;eco en malhonesto.</l>
+<l>Pli bona estas gajno malgranda, ol granda malgajno.</l>
+<l>Pli bona estas io, ol nenio.</l>
+<l>Pli bona estas malgranda <emph>jen prenu</emph> ol granda <emph>morga&ubreve; venu</emph>.</l>
+<l>Pli bona estas paco feli&ccirc;a, ol havo plej ri&ccirc;a.</l>
+<l>Pli bona estas sa&gcirc;a malamiko, ol malsa&gcirc;a amiko.</l>
+<l>Pli bona estas virto sen oro, ol oro sen honoro.</l>
+<l>Pli bona estas vorto afabla, ol kuko agrabla.</l>
+<l>Pli bona homo sen mono, ol mono sen homo.</l>
+<l>Pli bona io ol nenio.</l>
+<l>Pli bona pano sen butero, ol dol&ccirc;a kuko sen libero.</l>
+<l>Pli bona pano sen butero, ol kuko sen libero.</l>
+<l>Pli bona pura konscienco, ol malpura potenco.</l>
+<l>Pli bona virto sen oro, ol oro sen honoro.</l>
+<l>Pli bone estas enviigi, ol kompatigi.</l>
+<l>Pli bone estas havon fordoni, ol kun homoj malpaci.</l>
+<l>Pli bone estas reiri, ol perdi la vojon.</l>
+<l>Pli bone estas sensale, ol tro sale.</l>
+<l>Pli bone estas &scirc;viti ol tremi.</l>
+<l>Pli bone fleksi&gcirc;i, ol rompi&gcirc;i.</l>
+<l>Pli bone malfrue, ol neniam.</l>
+<l>Pli bone malmulte gajni, ol multe perdi.</l>
+<l>Pli bone ne fari, ol erari.</l>
+<l>Pli bone ne sali, ol sali tro multe.</l>
+<l>Pli da bruo, ol da faro.</l>
+<l>Pli da havo, pli da klopodoj.</l>
+<l>Pli da infanoj, pli da beno.</l>
+<l>Pli da infanoj, pli da manoj.</l>
+<l>Pli da mono, pli da zorgo.</l>
+<l>Pli da okuloj, pli da certeco.</l>
+<l>Pli efike ol bato pelas malsato.</l>
+<l>Pli facile estas eviti ol spiti.</l>
+<l>Pli facile estas malbonon eviti, ol korekti.</l>
+<l>Pli facile estas multe elspezi, ol malmulte enspezi.</l>
+<l>Pli facile estas multon elspezi, ol malmulton enspezi.</l>
+<l>Pli facile estas ne iri, ol tro malfrue reiri.</l>
+<l>Pli facile estas perdi vila&gcirc;on, ol akiri domon.</l>
+<l>Pli facile estas regi ol agi.</l>
+<l>Pli facile estas vila&gcirc;on perdi, ol domon akiri.</l>
+<l>Pli feli&ccirc;a estas donanto ol prenanto.</l>
+<l>Pli feli&ccirc;a estas martelo insultata, ol amboso kompatata.</l>
+<l>Pli feli&ccirc;a sinjoro sen havo, ol ri&ccirc;ulo sed sklavo.</l>
+<l>Pli helpas guto da feli&ccirc;o, ol barelo da sa&gcirc;o.</l>
+<l>Pli kara estas kap' ol &ccirc;apo.</l>
+<l>Pli kara estas kapo ol &ccirc;apo.</l>
+<l>Pli kara kapo ol &ccirc;apo.</l>
+<l>Pli kostas la sako, ol la tuta pako.</l>
+<l>Pli tiras virina haro, ol &ccirc;evala paro.</l>
+<l>Pli valoras faro nenia, ol faro malbona.</l>
+<l>Pli valoras interkonsento, ol ju&gcirc;a dokumento.</l>
+<l>Pli valoras konkorda ovo, ol malkonkorda bovo.</l>
+<l>Pli valoras kontenta spirito, ol granda profito.</l>
+<l>Pli valoras malgranda reganto, ol granda servanto.</l>
+<l>Pli valoras paco malbona, ol malpaco plej bona.</l>
+<l>Pli valoras propra &ccirc;emizo, ol fremda plena valizo.</l>
+<l>Pli valoras senlaboreco, ol sensenca laboremeco.</l>
+<l>Pli valoras tuj ovo, ol poste bovo.</l>
+<l>Pli valoras vinagro donacita, ol vino a&ccirc;etita.</l>
+<l>Pli zorgas unu patrino pri dek infanoj, ol dek infanoj pri unu patrino.</l>
+<l>Plibono estas malamiko de bono.</l>
+<l>Ploranton ni evitas, ridanton ni imitas.</l>
+<l>Plumo ne sentas, papero silentas.</l>
+<l>Pluvo en Aprilo &dash; por la tero utilo.</l>
+<l>Popola kutimo havas valoron de le&gcirc;o.</l>
+<l>Popolo diras, Dio diras.</l>
+<l>Por amiko intima ne ekzistas vojo malproksima.</l>
+<l>Por amiko komplezo neniam estas tro peza.</l>
+<l>Por &ccirc;iu ago venas la tempo de pago.</l>
+<l>Por &ccirc;iu ago venos tempo de pago.</l>
+<l>Por &ccirc;iu faro estas horo.</l>
+<l>Por &ccirc;iu plezuro devas esti mezuro.</l>
+<l>Por ebriulo ne ekzistas dan&gcirc;ero.</l>
+<l>Por fremda koro ne ekzistas esploro.</l>
+<l>Por gasto ne petita mankas kulero.</l>
+<l>Por glate mensogi, oni spriton bezonas.</l>
+<l>Por honoro ni dankas, se man&gcirc;' al ni mankas.</l>
+<l>Por hundon dronigi, oni nomas &gcirc;in rabia.</l>
+<l>Por kapti ezokon, bongustigu la hokon.</l>
+<l>Por la mono pastra pre&gcirc;o, por la mono romp' de le&gcirc;o.</l>
+<l>Por li e&ccirc; la muso ne estas sen felo.</l>
+<l>Por longa malsano kurac' estas vana.</l>
+<l>Por malfrua gasto restas nur osto.</l>
+<l>Por malsa&gcirc;ulo bastono &dash; por sa&gcirc;ulo leciono.</l>
+<l>Por malsanulo forto, por kokido la morto.</l>
+<l>Por mia mono mi anka&ubreve; estas barono.</l>
+<l>Por mu&scirc;on mortigi, oni pafilegon ne uzas.</l>
+<l>Por nenio oni faras nenion.</l>
+<l>Por paro amanta &ccirc;iu loketo sufi&ccirc;as.</l>
+<l>Por parolo delira ne ekzistas rediro.</l>
+<l>Por patrino ne ekzistas infano malbela.</l>
+<l>Por Pa&ubreve;lo sperto &dash; por Petro averto.</l>
+<l>Por peko senkonscia puno nenia.</l>
+<l>Por pendigi &scirc;teliston, anta&ubreve;e lin kaptu.</l>
+<l>Por pot' argila poto fera estas najbaro dan&gcirc;era.</l>
+<l>Por regna speso ne ekzistas forgeso.</l>
+<l>Por ri&ccirc;ulo fasto &dash; por malri&ccirc;ulo festo.</l>
+<l>Por sa&gcirc;ulo sufi&ccirc;as aludo.</l>
+<l>Por sia oro &ccirc;iu estas sinjoro.</l>
+<l>Por sperto kaj lerno ne sufi&ccirc;as eterno.</l>
+<l>Por &scirc;afo tondita Dio venton moderigas.</l>
+<l>Por &scirc;afon forman&gcirc;i, lupo trovos pretekston.</l>
+<l>Por unu &dash; festeno, por alia &dash; &ccirc;agreno.</l>
+<l>Por vendisto mensogo estas necesa apogo.</l>
+<l>Por via bono vin regalas bastono.</l>
+<l>Por virta orelo ne dan&gcirc;eras vorto malbela.</l>
+<l>Post alkutimi&gcirc;o doloras disi&gcirc;o.</l>
+<l>Post brua vento subita silento.</l>
+<l>Post dol&ccirc;a vino restas acida vinagro.</l>
+<l>Post doma&gcirc;o venas sa&gcirc;o.</l>
+<l>Post dorma trankvilo venas bona konsilo.</l>
+<l>Post kolero venas favoro.</l>
+<l>Post konfeso venas forgeso.</l>
+<l>Post la batalo pre&gcirc;o ne helpas.</l>
+<l>Post la falo oni fari&gcirc;as singarda.</l>
+<l>Post la fasto venas festo.</l>
+<l>Post la fino de l' batalo estas multe da kura&gcirc;uloj.</l>
+<l>Post mia malapero renversi&gcirc;u la tero.</l>
+<l>Post morto kuracilo jam estas sen utilo.</l>
+<l>Post nokta ripozo helpas la muzo.</l>
+<l>Post sufero venas prospero.</l>
+<l>Post vetero malbela lumas suno plej hela.</l>
+<l>Postulo ne pretendas, rifuzo ne ofendas.</l>
+<l>Poton taksu la&ubreve; sono, sinjoron la&ubreve; tono.</l>
+<l>Prave li ricevas.</l>
+<l>Prave punite la&ubreve;merite.</l>
+<l>Prediki al surduloj.</l>
+<l>Pre&gcirc;ejo proksima, sed Dio malproksima.</l>
+<l>Pre&gcirc;on faru, sed farunon preparu.</l>
+<l>Pre&gcirc;u al la Eternulo, ne al Lia sanktulo.</l>
+<l>Pre&gcirc;u kore kaj laboru fervore.</l>
+<l>Preni iun sur la dentojn.</l>
+<l>Prenu kiel vi volas, la poto &ccirc;iam bolas.</l>
+<l>Pri dol&ccirc;a vorto ne fieru, maldol&ccirc;an ne koleru.</l>
+<l>Pri gustoj oni disputi ne devas.</l>
+<l>Pri havo najbara oni estas malavara.</l>
+<l>Pri kio amikoj sekretas, ili vian ju&gcirc;on ne petas.</l>
+<l>Pri kio estas la afero?</l>
+<l>Pri la lupo rakonto, kaj la lupo renkonte.</l>
+<l>Pri la &scirc;trumpa truo scias nur la &scirc;uo.</l>
+<l>Pri laboroj maldiligenta, pri festoj plej kompetenta.</l>
+<l>Pri lando malproksima estas bone mensogi.</l>
+<l>Pri nenio oni povas &jcirc;uri.</l>
+<l>Pri propra afero neniu ju&gcirc;as libere.</l>
+<l>Pri tio jam &ccirc;iuj paseroj babilas.</l>
+<l>Printempo semas, a&ubreve;tuno rikoltas.</l>
+<l>Pripensu malrapide kaj agu decide.</l>
+<l>Pro amo al la kandelo kato lekas la kandelingon.</l>
+<l>Pro eraro ne pravi&gcirc;as la faro.</l>
+<l>Pro homo fiera &gcirc;ojas infero.</l>
+<l>Pro kapo malsa&gcirc;a suferas la kruroj.</l>
+<l>Pro karta preno perdi&gcirc;is bieno.</l>
+<l>Pro limoj kaj baroj malpacas najbaroj.</l>
+<l>Pro multo da arboj li arbaron ne vidas.</l>
+<l>Pro najleto bagatela pereis &ccirc;evalo plej bela.</l>
+<l>Pro vorta ludo li e&ccirc; patron ne doma&gcirc;as.</l>
+<l>Pro vorta piko ofte perdi&gcirc;as amiko.</l>
+<l>Profiton celu, sed aliajn ne pelu.</l>
+<l>Prokrastita ne estas perdita.</l>
+<l>Proksima kubuto, sed ne por la bu&scirc;o.</l>
+<l>Promesi orajn montojn.</l>
+<l>Promesita trezoro estas sen valoro.</l>
+<l>Promeso estas lar&gcirc;a, plenumo estas &scirc;ar&gcirc;a.</l>
+<l>Promeso ne satigas.</l>
+<l>Pronomoj <emph>mia</emph>, <emph>min</emph> kaj <emph>mi</emph> en mondo regas &ccirc;iam tri.</l>
+<l>Propeka kapro.</l>
+<l>Propra opinio ne estas le&gcirc;o por alia.</l>
+<l>Propra sufero &dash; plej granda sur tero.</l>
+<l>Propra supo brogas, fremda allogas.</l>
+<l>Propra volo ordonon superas.</l>
+<l>Propran &gcirc;ibon neniu vidas.</l>
+<l>Propran vangon neniu batas.</l>
+<l>Proverbo estas sperto, proverbo estas averto.</l>
+<l>Prunto amikon forpelas.</l>
+<l>Puno pekon svingas, favorkoreco &gcirc;in estingas.</l>
+<l>Pura &ccirc;ielo fulmon ne timas.</l>
+<l>Pura konscienco estas plej granda potenco.</l>
+<l>Putrado de fi&scirc;o komenci&gcirc;as de l' kapo</l>
+</lg>
+</div>
+
+<div type="chapter" id="R" rend="doc">
+<head>R</head>
+<lg rend="left">
+<l>Rado malbona knaras plej multe.</l>
+<l>Rajdi sur &ccirc;evalo oni ne lernas sen falo.</l>
+<l>Rakonti &ccirc;ion faritan kaj ka&scirc;itan.</l>
+<l>Rangeto rangon respektu, modestan lokon elektu.</l>
+<l>Rano e&ccirc; en palaco sopiras pri mar&ccirc;o.</l>
+<l>Rapide &dash; senvide.</l>
+<l>Rapide iras la vortoj, sed ne rapide la faroj.</l>
+<l>Rapidu malrapide.</l>
+<l>Raporti pri &ccirc;iuj cirkonstancoj kaj nuancoj.</l>
+<l>Razisto raziston razas.</l>
+<l>Regna kaso &dash; bona &ccirc;aso.</l>
+<l>Re&gcirc;o donacis, sed polico minacas.</l>
+<l>Rekomendo kondukas al plendo.</l>
+<l>Renkonti&gcirc;is la kato kun sentima rato.</l>
+<l>Respektu Dion kaj re&gcirc;on kaj obeu la le&gcirc;on.</l>
+<l>Restas nek konsilo, nek konsolo.</l>
+<l>Resti maljuna knabino.</l>
+<l>Restis nenio absolute, nek por mordi, nek por gluti.</l>
+<l>Restu tajloro &ccirc;e via laboro.</l>
+<l>Rezonado kaj filozofado panon ne donas.</l>
+<l>Ricevi grizan haron, ne vidinte altaron.</l>
+<l>Ricevi mu&scirc;on en la cerbon.</l>
+<l>Ricevis bandito la&ubreve; sia merito.</l>
+<l>Ricevos vulpo por sia kulpo.</l>
+<l>Ri&ccirc;a estas tiu, kiu &scirc;uldas al neniu.</l>
+<l>Ri&ccirc;a preparo, sed povo avara.</l>
+<l>Ri&ccirc;a zorgas pri &ccirc;ampano, malri&ccirc;a pri pano.</l>
+<l>Ri&ccirc;eco estas frato de fiereco.</l>
+<l>Ri&ccirc;eco sen gvido kiel &ccirc;evalo sen brido.</l>
+<l>Ri&ccirc;igas ne enspezo, sed prudenta elspezo.</l>
+<l>Ri&ccirc;ulo havas grandan parencaron.</l>
+<l>Ri&ccirc;ulo havas kornojn, malri&ccirc;ulo dornojn.</l>
+<l>Ri&ccirc;ulo kiel fajro proksime bruligas, malproksime ne varmigas.</l>
+<l>Ri&ccirc;ulo veturas, malri&ccirc;ulo kuras.</l>
+<l>Ridas blindulo pri lamulo.</l>
+<l>Rido matene &dash; ploro vespere.</l>
+<l>Rigarda&ccirc;i kiel bovido.</l>
+<l>Rigardi kaj aspiri ne devigas akiri.</l>
+<l>Rigardi malafable.</l>
+<l>Rigardi per amba&ubreve; okuloj.</l>
+<l>Rigardu per amba&ubreve; okuloj.</l>
+<l>Ripetado estas plej bona lernado.</l>
+<l>Ripetata parolo pri la sama titolo.</l>
+<l>Riveretoj fluas al riveroj.</l>
+<l>Rol' de virino &dash; bona mastrino.</l>
+<l>Romo estas tie, kie estas la papo.</l>
+<l>Rostita kolombeto ne flugas al bu&scirc;eto.</l>
+<l>Rusto man&gcirc;as feron, &ccirc;agreno la koron.</l>
+<l>Rusto man&gcirc;as la feron, kaj zorgo la homon</l>
+</lg></div>
+
+<div type="chapter" id="S" rend="doc">
+<head>S</head>
+<lg rend="left">
+<l>Sa&gcirc;a estas la frato post ricevo de l' bato.</l>
+<l>Sa&gcirc;a estas la hundo post ricevo de l' vundo.</l>
+<l>Sa&gcirc;a hundo post la vundo.</l>
+<l>Sa&gcirc;a kapo duonvorton komprenas.</l>
+<l>Sa&gcirc;a scias, kion li diras &dash; malsa&gcirc;a diras, kion li scias.</l>
+<l>Sa&gcirc;a tenas aferon, malsa&gcirc;a esperon.</l>
+<l>Sa&gcirc;o abunda, sed ne profunda.</l>
+<l>Sa&gcirc;o barbon ne atendas.</l>
+<l>Sa&gcirc;ulo scias ion, sed neniu scias &ccirc;ion.</l>
+<l>Sako alenon ne tenas, &gcirc;i balda&ubreve; elvenas.</l>
+<l>Sako malplena sin rekte ne tenas.</l>
+<l>Sako ne sonas &dash; amiko ne konas.</l>
+<l>Sakon kun truo vi neniam plenigos.</l>
+<l>Saltadi &ccirc;irka&ubreve; afero, kiel blovata ne&gcirc;ero.</l>
+<l>Saltadi el unua al deka.</l>
+<l>Sama bu&scirc;o blovas varmon kaj malvarmon.</l>
+<l>Sama gento, sama sento.</l>
+<l>Samaj kondi&ccirc;oj, samaj supersti&ccirc;oj.</l>
+<l>Sango bolas, juneco petolas.</l>
+<l>Sango komuna reciproke sin altiras.</l>
+<l>Sango ne silentas, sian sangon &gcirc;i sentas.</l>
+<l>Saniga&jcirc;o malbongusta, sed efiko plej &gcirc;usta.</l>
+<l>Sanktfigurojn ornamas, kaj homojn malamas.</l>
+<l>Sapo blankecon ne havas, tamen blanke &gcirc;i lavas.</l>
+<l>Sapumi la okulojn.</l>
+<l>Sata malsatan ne povas kompreni.</l>
+<l>Sata stomako ne lernas volonte.</l>
+<l>Scias la kato, kies lardon &gcirc;i man&gcirc;is.</l>
+<l>Scienco havas semon enuan, sed frukton bon&gcirc;uan.</l>
+<l>Sciencon oni ne mendas, klerecon oni ne vendas.</l>
+<l>Scion akiru, sed ne &ccirc;ion eldiru.</l>
+<l>Sciu elokventi, sciu anka&ubreve; silenti.</l>
+<l>Sciu funde, sed tenu profunde.</l>
+<l>Se al hundo mankas nenio, &gcirc;in atakas rabio.</l>
+<l>Se amas Dio, prosperas &ccirc;io.</l>
+<l>Se amiko petas, li neniam ripetas.</l>
+<l>Se birdo tro bekas, la katon &gcirc;i vekas.</l>
+<l>Se brulas nenio, fumo ne iras.</l>
+<l>Se &ccirc;iu balaos anta&ubreve; sia pordo, tiam en la tuta urbo estos ordo.</l>
+<l>Se &ccirc;iu speson donos, malri&ccirc;ulo malsaton ne konos.</l>
+<l>Se decidos la sorto, helpos nenia forto.</l>
+<l>Se devigas neceso, faru kun kareso.</l>
+<l>Se Dio ne aran&gcirc;os, lupo vin ne man&gcirc;os.</l>
+<l>Se Dio ne volas, sanktulo ne helpos.</l>
+<l>Se Dio ordonos, e&ccirc; &scirc;ton' lakton donos.</l>
+<l>Se edzino ordonas, domo ordon ne konas.</l>
+<l>Se elsaltas la okazo, &gcirc;i rompi&gcirc;as kiel vazo.</l>
+<l>Se en kor' io sidas, viza&gcirc;o perfidas.</l>
+<l>Se ezoko pii&gcirc;is, gobio ne dormu.</l>
+<l>Se forestas la suno, sufi&ccirc;as la luno.</l>
+<l>Se geedzoj sin batas, fremdulo restu flanke.</l>
+<l>Se gut' al guto ali&gcirc;as, maro fari&gcirc;as.</l>
+<l>Se haroj ne mankus, oni kalvon ne havus.</l>
+<l>Se homoj mankas, infano anka&ubreve; estas homo.</l>
+<l>Se io venas al bu&scirc;o, bu&scirc;on ne fermu.</l>
+<l>Se juneco estus sperta, se maljuneco estus lerta.</l>
+<l>Se junulo ne lernis, maljunulo ne scias.</l>
+<l>Se kalumnio e&ccirc; pasas, &gcirc;i &ccirc;iam ion lasas.</l>
+<l>Se kalumnio ne brulas, &gcirc;i almena&ubreve; makulas.</l>
+<l>Se la arbo falis, &ccirc;iu bran&ccirc;on derompas.</l>
+<l>Se la &ccirc;ielo falus al tero, birdokaptado estus facila afero.</l>
+<l>Se la gasto estas amata, e&ccirc; lia servanto ne restas malsata.</l>
+<l>Se la gasto meritas, e&ccirc; lia hundo profitas.</l>
+<l>Se la kaliko tro pleni&gcirc;as, la vino elver&scirc;i&gcirc;as.</l>
+<l>Se la sorto vin batas, mokantoj ne mankas.</l>
+<l>Se la tempo forblovis, ni jam helpi ne povas; kio post ni aperos, ni de &gcirc;i ne suferos.</l>
+<l>Se lipo diki&gcirc;as, ventro maldiki&gcirc;as.</l>
+<l>Se lupo ekpentis, &scirc;afo atentu.</l>
+<l>Se malri&ccirc;ulo sukcesas, li &ccirc;iujn forgesas.</l>
+<l>Se malsato turmentas, lupo timon ne sentas.</l>
+<l>Se mi faru riverencon, mi elektas potencon.</l>
+<l>Se mi scius, kie mi falos, mi tien metus tapi&scirc;on.</l>
+<l>Se mi scius, kion mi ne scias, &ccirc;iuj sa&gcirc;uloj min envius.</l>
+<l>Se muso nur unu truon disponas, &gcirc;i balda&ubreve; la vivon fordonas.</l>
+<l>Se ne estus <emph>se</emph> kaj <emph>tamen</emph>, mi al &ccirc;io dirus amen.</l>
+<l>Se ne la <emph>se</emph> malfeli&ccirc;a, mi estus nun homo plej ri&ccirc;a.</l>
+<l>Se ne pla&ccirc;as la najbaro, ne pla&ccirc;as lia faro.</l>
+<l>Se ne venas per bona vorto, oni prenas per forto.</l>
+<l>Se ne&gcirc;as sur la monto, estas malvarme en la valo.</l>
+<l>Se neniu plendas, neniu defendas.</l>
+<l>Se okulo ne atentas, dorso eksentas.</l>
+<l>Se okulo ne vidas, koro ne avidas.</l>
+<l>Se okulo ne vidis, pagas la po&scirc;o.</l>
+<l>Se oni amas la gaston, oni zorgas la paston.</l>
+<l>Se Pe&ccirc;jo ne semos, Petro ne rikoltos.</l>
+<l>Se peko trafas, e&ccirc; bastono ekpafas.</l>
+<l>Se sako tro pleni&gcirc;as, &gcirc;i balda&ubreve; dis&scirc;iri&gcirc;as.</l>
+<l>Se silentas dra&scirc;ejo, malpacas lo&gcirc;ejo.</l>
+<l>Se stomako doloras, kapo laboras.</l>
+<l>Se unu ne venis, dek ne atendas.</l>
+<l>Se vendisto ne mensogas, li a&ccirc;etanton ne allogas.</l>
+<l>Se vi donas mielon, donu anka&ubreve; kuleron.</l>
+<l>Se vi faros vin &scirc;afo, la lupoj vin man&gcirc;os.</l>
+<l>Se vi krudulon iom karesos, li al si &ccirc;ion permesos.</l>
+<l>Se vi krudulon salutos, li vin tutan englutos.</l>
+<l>Se vi povas, profitu, sed aliajn ne incitu.</l>
+<l>Se vi prenis la violonon, prenu anka&ubreve; la ar&ccirc;on.</l>
+<l>Se vi pri &ccirc;io informi&gcirc;os, vi balda&ubreve; maljuni&gcirc;os.</l>
+<l>Se vi sendis malsa&gcirc;ulon, sendu kontrolon.</l>
+<l>Se vi senfine parolos, de &gcirc;i la poto ne bolos.</l>
+<l>Se vi sidos en branoj, vin man&gcirc;os la porkoj.</l>
+<l>Se vi &scirc;afo fari&gcirc;os, lupoj ne mankos.</l>
+<l>Se vi volas filinon, flatu la patrinon.</l>
+<l>Se vulpo pentofaras, gardu la kokidojn.</l>
+<l>Seka panpeco, sed en libereco.</l>
+<l>Selante &ccirc;evalon, oni &gcirc;in karesas.</l>
+<l>Sen atendo, sen espero venis mizero.</l>
+<l>Sen fajro ne brulas e&ccirc; pajlo.</l>
+<l>Sen gutoj malgrandaj maro ne ekzistus.</l>
+<l>Sen laboro ne venas oro.</l>
+<l>Sen mensoga rekomendo ne iros la vendo.</l>
+<l>Sen mono en urbon ne iru.</l>
+<l>Sen mono oni estas nulo, kun mono &dash; sa&gcirc;ulo.</l>
+<l>Sen ordo en afero ne ekzistas prospero.</l>
+<l>Sen povo kolero estas ridinda afero.</l>
+<l>Sen regalo ne estas balo.</l>
+<l>Sen rigardo, sen gardo.</l>
+<l>Sen speso unua ne ekzistas la dua.</l>
+<l>Sen&ccirc;esa guto e&ccirc; &scirc;tonon traboras.</l>
+<l>Sendemanda ekprotesto estas ofte kulpatesto.</l>
+<l>Sendito nur portas; kion oni ordonis, li raportas.</l>
+<l>Senditon oni a&ubreve;skultas a&ubreve; ne a&ubreve;skultas, sed ne punas nek insultas.</l>
+<l>Senfara plendo ne estas defendo.</l>
+<l>Senfortuloj longe vivas.</l>
+<l>Senkonscie vi agis, konscie vi pagos.</l>
+<l>Senlaboreco dormon alportas.</l>
+<l>Senlaboreco estas patrino de &ccirc;iuj malvirtoj.</l>
+<l>Senlanigu, sed ne senfeligu.</l>
+<l>Senlanigu, sed ne senha&ubreve;tigu.</l>
+<l>Senpaga estas nur la morto, sed &gcirc;i kostas la vivon.</l>
+<l>Senplumigi kokinon, ne vekante mastrinon.</l>
+<l>Ser&ccirc;i la tagon pasintan.</l>
+<l>Serpenton oni povas eviti, sed kalumnion neniam.</l>
+<l>Servo al Dio vana ne restas.</l>
+<l>Servo ne petita ne estas merita.</l>
+<l>Servo postulas reservon.</l>
+<l>Sia estas kara pli ol la najbara.</l>
+<l>Sia estas kara pli ol najbara.</l>
+<l>Sian sorton neniu evitos.</l>
+<l>Sidas gasto minuton, sed vidas la tuton.</l>
+<l>Sidi en amaso da embaraso.</l>
+<l>Sidi en laboroj &gcirc;is super la oreloj.</l>
+<l>Sidi kiel muso sub balailo.</l>
+<l>Sidi kiel sur pingloj.</l>
+<l>Sidi sur pingloj.</l>
+<l>Sidu lango malanta&ubreve; la vango.</l>
+<l>Sie&gcirc;i ies pordon.</l>
+<l>Silente.</l>
+<l>Silento estas konsento.</l>
+<l>Silentu donante, parolu ricevante.</l>
+<l>Simio al simio pla&ccirc;as pli ol &ccirc;io.</l>
+<l>Sin turni al la po&scirc;o.</l>
+<l>Singardeman Dio gardas.</l>
+<l>Sinjorino kaj sinjoro, unu alian valoras.</l>
+<l>Sinjoro karesas, sed balda&ubreve; &ccirc;esas.</l>
+<l>Sinjoro petas, kvaza&ubreve; dekretas.</l>
+<l>Sinjoroj sin batas, servantoj vundojn ricevas.</l>
+<l>Situacio sen eliro.</l>
+<l>Sklavo kun forta mano estas plej granda tirano.</l>
+<l>Sola vojo libera al la fundo rivera.</l>
+<l>Son&gcirc;o teruras, son&gcirc;o forkuras.</l>
+<l>Sonorado al li venas, sed de kie &dash; li ne komprenas.</l>
+<l>Sonorilo vokas al pre&gcirc;ejo kaj mem neniam eniras.</l>
+<l>Sorto donas favoron, sorto donas doloron.</l>
+<l>Sorto ofte alsendas, kion oni ne atendas.</l>
+<l>Sperta mano ne restas sen pano.</l>
+<l>Sperto sa&gcirc;on akrigas.</l>
+<l>Spesmilo superflua po&scirc;on ne &scirc;iras.</l>
+<l>Spesmilo vojon trabatas.</l>
+<l>Spiko malplena plej alte sin tenas.</l>
+<l>Sprit' en tempo ne &gcirc;usta estas tre malbongusta.</l>
+<l>Sprita vorto tentas, nenion atentas.</l>
+<l>Staras la morto jam en la korto.</l>
+<l>Stari per unu piedo en la tombo.</l>
+<l>Stari por iu kiel muro kaj turo.</l>
+<l>Stari&gcirc;i obstine.</l>
+<l>Staris, ekfaris.</l>
+<l>Stomako malsata nur pri pano meditas.</l>
+<l>Stomako ne estas spegulo: kion &gcirc;i man&gcirc;is, ne vidas okulo.</l>
+<l>Stre&ccirc;i la orelojn.</l>
+<l>Stre&ccirc;i&gcirc;i el la ha&ubreve;to.</l>
+<l>Stre&ccirc;u la okulojn.</l>
+<l>Sub seruro promesojn tenu, sed doninte ne reprenu.</l>
+<l>Sub tero sklavo kaj sinjoro ne diferencas per valoro.</l>
+<l>Suferinto pli valoras, ol lerninto.</l>
+<l>Suferoj sufokas kaj homoj mokas.</l>
+<l>Sukcesa venkanto de pordoj malfermitaj.</l>
+<l>Superpinte &dash; nur tu&scirc;inte.</l>
+<l>Sur arbon klini&gcirc;intan saltas la kaproj.</l>
+<l>Sur &ccirc;eval' de najbaro la &scirc;ar&gcirc;o ne pezas.</l>
+<l>Sur &ccirc;iu flanko nur manko kaj manko.</l>
+<l>Sur la &scirc;telisto brulas la &ccirc;apo.</l>
+<l>Sur la ventro veluro, en la ventro murmuro.</l>
+<l>Sur le&gcirc;a bazo.</l>
+<l>Sur lia nuko sidas pli ol peruko.</l>
+<l>Surmeto rompas, komparo trompas.</l>
+<l>Suspekto pruvon ne egalas</l>
+</lg></div>
+
+<div type="chapter" id="Sx" rend="doc">
+<head>&Scirc;</head>
+<lg rend="left">
+<l>&Scirc;afaro harmonia lupon ne timas.</l>
+<l>&Scirc;afo donas sian lanon, por ke mastro havu panon.</l>
+<l>&Scirc;afo kalkulita ne estas savita.</l>
+<l>&Scirc;ajno trompas.</l>
+<l>&Scirc;ajnon ne fidu, ju&gcirc;i ne rapidu.</l>
+<l>&Scirc;atu amikon la&ubreve; la dato de akiro.</l>
+<l>&Scirc;erce dirite, cele pensite.</l>
+<l>&Scirc;ipon rompitan &ccirc;iuj ventoj atakas.</l>
+<l>&Scirc;iri&gcirc;is fadeno sur la bobeno.</l>
+<l>&Scirc;iru rozojn en somero, &ccirc;ar en vintro ili ne estas.</l>
+<l>&Scirc;iru rozojn en somero, &ccirc;ar en vintro ili ne estos.</l>
+<l>&Scirc;iru vin en du partojn, la mondo trian postulos.</l>
+<l>&Scirc;losilo uzata ruston ne konas.</l>
+<l>&Scirc;paru gro&scirc;on &dash; vi havos plenan po&scirc;on.</l>
+<l>&Scirc;paru kiam bone, vi havos kiam bezone.</l>
+<l>&Scirc;tela&jcirc;oka&scirc;isto mem estas &scirc;telisto.</l>
+<l>&Scirc;teletiston oni batas, &scirc;telegiston oni &scirc;atas.</l>
+<l>&Scirc;teli &ccirc;e &scirc;telisto estas malfacile.</l>
+<l>&Scirc;telisto &scirc;teliston evitas, &ccirc;ar li tie ne profitas.</l>
+<l>&Scirc;telisto &scirc;teliston ne perfidas.</l>
+<l>&Scirc;telu malproksime, edzi&gcirc;u proksime.</l>
+<l>&Scirc;tono de falpu&scirc;i&gcirc;o.</l>
+<l>&Scirc;uldo estas unua heredanto.</l>
+<l>&Scirc;uldo havas longan vivon.</l>
+<l>&Scirc;uldo kaj mizero estas najbaroj.</l>
+<l>&Scirc;uldo ne bruas, tamen dormon detruas.</l>
+<l>&Scirc;uldo ne makulas, sed pagon postulas.</l>
+<l>&Scirc;uldo ne rusti&gcirc;as, &scirc;uldo ne morti&gcirc;as.</l>
+<l>&Scirc;uldoj kaj mizero estas najbaroj.</l>
+<l>&Scirc;uldon tempo ne kuracas.</l>
+<l>&Scirc;uti polvon en la okulojn</l>
+</lg></div>
+
+<div type="chapter" id="T" rend="doc">
+<head>T</head>
+<lg rend="left">
+<l>Tablo festena, sed telero malplena.</l>
+<l>Tablo kovrita faras amikojn.</l>
+<l>Tablon frapas tajloro, tuj tondilo eksonas.</l>
+<l>Tablon ornamas ne tuko, sed kuko.</l>
+<l>Tago aran&gcirc;as, tago &scirc;an&gcirc;as.</l>
+<l>Tago festa &dash; for aferoj.</l>
+<l>Tago tagon sekvas, sed ne similas.</l>
+<l>Tajloro krimis, botisto pendas.</l>
+<l>Taksi la sanon ni lernas en malsano.</l>
+<l>Tani al iu la ha&ubreve;ton.</l>
+<l>Tapi&scirc;on ne deziris, maton akiris.</l>
+<l>Temp' estas mono.</l>
+<l>Temp' estas valoro simile al oro.</l>
+<l>Tempo flatas, tempo batas.</l>
+<l>Tempo kaj cirkonstancoj sa&gcirc;on alportas.</l>
+<l>Tempo prenas, tempo pagas.</l>
+<l>Tempo toleras, sed vero aperas.</l>
+<l>Tempo venos, zorgon prenos.</l>
+<l>Teni iun per fera mano.</l>
+<l>Teni la okulojn en stre&ccirc;o.</l>
+<l>Teni sian langon en la bu&scirc;o.</l>
+<l>Tie &ccirc;i malbone, tie nebone.</l>
+<l>Tie iras fumo per densaj nuboj.</l>
+<l>Tie vi petos, vi tiros, vi nenion akiros.</l>
+<l>Tiel estas, tiel restas.</l>
+<l>Tien okuloj iras, kien la koro deziras.</l>
+<l>Timi sian propran ombron.</l>
+<l>Timo havas grandajn okulojn.</l>
+<l>Timu lupon edukitan kaj malamikon repacigitan.</l>
+<l>Tio &ccirc;i estas la&ubreve; lia gusto.</l>
+<l>Tio estas lia amata &ccirc;evaleto.</l>
+<l>Titolo sen mono &dash; sensignifa sono.</l>
+<l>Tola&jcirc;on malpuran lavu en la domo.</l>
+<l>Tondro kampulon memorigas pri Dio.</l>
+<l>Tordi &scirc;nurojn el sablo.</l>
+<l>Tra unu orelo eniras, tra la dua eliras.</l>
+<l>Tra vitro de teruro pligrandi&gcirc;as la mezuro.</l>
+<l>Trafe a&ubreve; maltrafe.</l>
+<l>Trafi de Scilo al &Hcirc;aribdo.</l>
+<l>Trafi du celojn per unu &scirc;tono.</l>
+<l>Trafi per la parolo rekte en la viza&gcirc;on.</l>
+<l>Trafi per la viza&gcirc;o en koton.</l>
+<l>Trafis fal&ccirc;ilo sur &scirc;tonon.</l>
+<l>Trafis hakilo al ligno malmola.</l>
+<l>Trafis pugno pugnon.</l>
+<l>Traflugis an&gcirc;elo preter orelo.</l>
+<l>Trafos hakilo al ligno malmola.</l>
+<l>Tralavi la gor&gcirc;on.</l>
+<l>Tran&ccirc;i rekte en la karnon.</l>
+<l>Transsalte &dash; senhalte.</l>
+<l>Trapafadi la aeron.</l>
+<l>Tremo atakas.</l>
+<l>Treni sian vivon de mizero al mizero.</l>
+<l>Trinki pro ies sano.</l>
+<l>Trio pla&ccirc;as al Dio.</l>
+<l>Tro akra fajro estas sen da&ubreve;ro.</l>
+<l>Tro alta postulo a&ccirc;etanton ne &scirc;ar&gcirc;as.</l>
+<l>Tro da bono ne turmentas.</l>
+<l>Tro da enspezo ne estas tro da pezo.</l>
+<l>Tro da konfido kondukas al perfido.</l>
+<l>Tro da kuiristoj ka&ccirc;on difektas.</l>
+<l>Tro da libero kondukas al mizero.</l>
+<l>Tro da metioj &dash; profitoj neniaj.</l>
+<l>Tro elektema ricevas nenion.</l>
+<l>Tro forta &jcirc;uro &dash; la afero ne pura.</l>
+<l>Tro grandaj kalkuloj kondukas al nuloj.</l>
+<l>Tro kara aran&gcirc;o por malkara tagman&gcirc;o.</l>
+<l>Tro longa atendo &gcirc;is fino de l' vendo.</l>
+<l>Tro longa sufero &dash; malgranda espero.</l>
+<l>Tro multe da salo malbonigas la man&gcirc;on.</l>
+<l>Tro nutrata kapro fari&gcirc;as kiel apro.</l>
+<l>Tro rapida akcelo ne kondukas al celo.</l>
+<l>Tro rapida edzi&gcirc;o &dash; por&ccirc;iama kateni&gcirc;o.</l>
+<l>Tro rapida faro estas nur baro.</l>
+<l>Tro rapida laboro, tro malgranda valoro.</l>
+<l>Tro rapida ri&ccirc;i&gcirc;o diablon &gcirc;ojigas.</l>
+<l>Tro saltas la rato &dash; &gcirc;in kaptas la kato.</l>
+<l>Tro sata, tro bata.</l>
+<l>Troa festeno estas veneno.</l>
+<l>Troa petolo dan&gcirc;era al kolo.</l>
+<l>Troa petolo estas dan&gcirc;era por la kolo.</l>
+<l>Trovi&gcirc;as bonaj homoj en la mondo.</l>
+<l>Trovis malbonulo malbonulon pli grandan.</l>
+<l>Truon de l' honoro flikos neniu tajloro.</l>
+<l>Turni&gcirc;adi kiel serpento.</l>
+<l>Tuso kaj amo ne estas ka&scirc;eblaj.</l>
+<l>Tuta jam sata, sed okulo malsatas.</l>
+<l>Tute &gcirc;uste la&ubreve; lia gusto.</l>
+<l>Tute libera, kiel birdo aera</l>
+</lg></div>
+
+<div type="chapter" id="U" rend="doc">
+<head>U</head>
+<lg rend="left">
+<l>Unu amiko malnova pli valoras ol du novaj.</l>
+<l>Unu fava &scirc;afo tutan &scirc;afaron infektas.</l>
+<l>Unu floras, alia ploras.</l>
+<l>Unu floro ne estas krono, unu monero ne estas mono.</l>
+<l>Unu fojon oni donas kaj tutan vivon fanfaronas.</l>
+<l>Unu fojon &scirc;telis pomon kaj perdis por &ccirc;iam honestan nomon.</l>
+<l>Unu guto plenigas la glason.</l>
+<l>Unu hako kverkon ne faligas.</l>
+<l>Unu hirundo printempon ne alportas.</l>
+<l>Unu kapo facile trovas apogon.</l>
+<l>Unu malamiko pli difektas, ol cent amikoj protektas.</l>
+<l>Unu orienten, alia okcidenten.</l>
+<l>Unu ovo malbona tutan man&gcirc;on difektas.</l>
+<l>Unu pasero alian valoras.</l>
+<l>Unu sa&gcirc;o estas bona, du estas pli bonaj.</l>
+<l>Unu similas nulon, ne prezentas kalkulon.</l>
+<l>Unu sola guto la glason plenigas.</l>
+<l>Unu soldato militon ne faras.</l>
+<l>Unu vido ta&ubreve;gas pli ol dek a&ubreve;doj.</l>
+<l>Unu vundo alian kuracas.</l>
+<l>Unu, du, tri, kvar, kaj finita la far'.</l>
+<l>Unua atesto estas la vesto.</l>
+<l>Unua pa&scirc;o iron direktas.</l>
+<l>Unua venis, unua prenis.</l>
+<l>Unueco donas fortecon.</l>
+<l>Unufoje &scirc;telinta restas &ccirc;iam &scirc;telisto.</l>
+<l>Urson al mielo oni ne tiras per orelo.</l>
+<l>Urson evitu, duonpatrinon ne incitu.</l>
+<l>Urtikon frosto ne difektas.</l>
+<l>Uzi monon kaj admonon kaj flaton kaj baton.</l>
+<l>Uzu tempon estantan, anta&ubreve;vidu estontan, memoru estintan</l>
+</lg></div>
+
+<div type="chapter" id="V" rend="doc">
+<head>V</head>
+<lg rend="left">
+<l>Valoras ne la vesto, valoras la enesto.</l>
+<l>Valoron de objekto ni ekkonas post difekto.</l>
+<l>Vane vi tentas, mi ne konsentos.</l>
+<l>Vazo rompita longe sin tenas.</l>
+<l>Venas &ccirc;agreno sen granda peno.</l>
+<l>Venas kvaza&ubreve; vokita kaj petita.</l>
+<l>Venas profito &dash; venas merito.</l>
+<l>Venas proverbo el popola la cerbo.</l>
+<l>Venas prudento post la &gcirc;usta momento.</l>
+<l>Venas rido post minaco, kaj paci&gcirc;o post malpaco.</l>
+<l>Venis fino al mia latino.</l>
+<l>Venis mizero &dash; helpu min, frato; pasis mizero &dash; for, malamato.</l>
+<l>Venis tran&ccirc;ilo al la gor&gcirc;o.</l>
+<l>Venkas ne forto, venkas la sorto.</l>
+<l>Venkiton oni ne batas.</l>
+<l>Venos knabeto anka&ubreve; kun peto.</l>
+<l>Venos &scirc;telisto al la ju&gcirc;isto.</l>
+<l>Venos tempo, venos konsilo.</l>
+<l>Vento al li ekflugis sub la ha&ubreve;to.</l>
+<l>Vento sendita tondron reportos.</l>
+<l>Ventro malsata orelon ne havas.</l>
+<l>Vera kiel vorto de profeto.</l>
+<l>Vera opinio montri&gcirc;as en ebrio.</l>
+<l>Vergo doloras, sed sa&gcirc;on ellaboras.</l>
+<l>Vero ne bezonas mediti nek spriti.</l>
+<l>Ver&scirc;i aeron al aero.</l>
+<l>Vespere &gcirc;uu lunon, sed ne ser&ccirc;u la sunon.</l>
+<l>Vespero lacigas, mateno fre&scirc;igas.</l>
+<l>Vesto eluzita, sed pureco spirita.</l>
+<l>Vesto homon prezentas.</l>
+<l>Veturi sur sia paro da kruroj.</l>
+<l>Vi amas preni, amu redoni.</l>
+<l>Vi min man&gcirc;igos, mi vin trinkigos.</l>
+<l>Vi ne kredas, ne a&ubreve;skultu, sed min ne insultu.</l>
+<l>Vi povas e&ccirc; haki lignon sur lia kapo.</l>
+<l>Vi sekrete vorton diros, &gcirc;i tra l' tuta mondo iros.</l>
+<l>Vi sekretos al edzino, &scirc;i sekretos al fratino, kaj tiel la sekreto promenados sen fino.</l>
+<l>Vi varmigos serpenton, &gcirc;i al vi enpikos la denton.</l>
+<l>Via dekstra mano ne sciu, kion faras la maldekstra.</l>
+<l>Vian vivon &gcirc;uu, sed fremdan ne detruu.</l>
+<l>Vidas okulo, sed mano ne trafas.</l>
+<l>Vila&gcirc;ano kreditas, vila&gcirc;estro pruntas.</l>
+<l>Vila&gcirc;ano kreditas, vila&gcirc;estro prunteprenas.</l>
+<l>Vin ne tu&scirc;u la eraroj en fremdaj faroj.</l>
+<l>Virina lango bu&ccirc;as sen sango.</l>
+<l>Virina ploro sen valoro.</l>
+<l>Virina rideto pli kaptas ol reto.</l>
+<l>Virino batas per lango &dash; aperas vundo plej sanga.</l>
+<l>Virino bonorda estas muta kaj surda.</l>
+<l>Virino eli&gcirc;is, kale&scirc;o senpezi&gcirc;is.</l>
+<l>Virino havas haron longan kaj sa&gcirc;on mallongan.</l>
+<l>Virino kolera pli ol hundo dan&gcirc;era.</l>
+<l>Virino scias &dash; tuta mondo scias.</l>
+<l>Virta virino straton ne konas.</l>
+<l>Vitro kaj feli&ccirc;o ne estas fortikaj.</l>
+<l>Vivanton ni malhonoras, mortinton ni adoras.</l>
+<l>Vivi de estontaj enspezoj.</l>
+<l>Vivi de &scirc;parita kaso.</l>
+<l>Vivi emerite.</l>
+<l>Vivi en silko kaj veluro, en &gcirc;ojo kaj plezuro.</l>
+<l>Vivi iele &dash; trapele.</l>
+<l>Vivi inter forno hejtita kaj tablo kovrita.</l>
+<l>Vivi kiel &ccirc;e la brusto de Dio.</l>
+<l>Vivi kiel kuko en butero.</l>
+<l>Vivi kun iu en fido kaj konfido.</l>
+<l>Vivi kun iu en intima amikeco.</l>
+<l>Vivi kun iu kiel hundo kun kato.</l>
+<l>Vivi lar&gcirc;e kaj lukse.</l>
+<l>Vivi la&ubreve; postuloj de la &gcirc;ustaj kalkuloj.</l>
+<l>Vivi modere, ne tro interne nek tro ekstere.</l>
+<l>Vivi per sistemo de <emph>el mano al bu&scirc;o</emph>.</l>
+<l>Vivi sate kaj glate.</l>
+<l>Vivis puninde, mortis ridinde.</l>
+<l>Vivo glate ne fluas, &ccirc;iam batas kaj skuas.</l>
+<l>Vivo modera estas vivo sendan&gcirc;era.</l>
+<l>Vivo sen modero kondukas al mizero.</l>
+<l>Vivon privatan ka&scirc;u la muroj.</l>
+<l>Vivon travivi estas art' malfacila.</l>
+<l>Vivu mizere, sed vivu libere.</l>
+<l>Vivu stomako la&ubreve; stato de l' sako.</l>
+<l>Vivu, progresu, sed lerni ne &ccirc;esu.</l>
+<l>Viza&gcirc;o agrabla kaj ungo diabla.</l>
+<l>Viza&gcirc;o de Katono, sed virto de fripono.</l>
+<l>Viza&gcirc;o sen kulpo, sed koro de vulpo.</l>
+<l>Vojon batitan herbo ne kovras.</l>
+<l>Volanta kruro ne laci&gcirc;as de kuro.</l>
+<l>Vole&dash;nevole.</l>
+<l>Voli a&ubreve; ne voli neniu malpermesas.</l>
+<l>Volo kaj deziro le&gcirc;ojn ne konas.</l>
+<l>Volo kaj sento faras pli ol prudento.</l>
+<l>Volu&dash;ne&dash;volu &dash; elekto ne ekzistas.</l>
+<l>Volus kato fi&scirc;ojn, sed la akvon &gcirc;i timas.</l>
+<l>Vort' en &gcirc;usta momento faras pli ol ar&gcirc;ento.</l>
+<l>Vorto dirita al la mondo apartenas kaj neniam revenas.</l>
+<l>Vorto donita estas kiel le&gcirc;o.</l>
+<l>Vorto sona estas plej admona.</l>
+<l>Vortoj sakon ne plenigas.</l>
+<l>Vortojn &scirc;paru, agojn faru.</l>
+<l>Vulpo faras oferon &dash; atendu dan&gcirc;eron.</l>
+<l>Vulpo mienon &scirc;an&gcirc;as, sed plue kokidojn man&gcirc;as.</l>
+<l>Vundan lokon protektis, alian difektis.</l>
+<l>Vundo pasas, vorto restas.</l>
+<l>Vundo sekreta doloras plej multe</l>
+</lg>
+</div>
+
+<div type="chapter" id="Z" rend="doc">
+<head>Z</head>
+<lg rend="left">
+<l>Zorgu pri vi, kaj nenion pli.</l>
+<l>Zorgu vian metion kaj ne miksu vin en alian.</l>
+<l>Zorgu vivon vian kaj lasu vivi alian.</l>
+</lg>
+</div>
+
+</body>
+
+<back>
+
+<div type="something">
+  <lg>
+  <l>Fino bona &dash; &ccirc;io bona;</l>
+  <l>fini&gcirc;is malbona &dash; des pli bone.</l>
+  </lg>
+</div>
+</back>
+</text>
+</TEI.2>

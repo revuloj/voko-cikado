@@ -1,0 +1,694 @@
+<?xml-stylesheet type="text/xml" href="teixlite.xsl"?>
+
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
+
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+<!ENTITY TRISTELO "* * *">
+
+<!ENTITY leftquot "&#x201e;">
+<!ENTITY rightquot "&#x201c;">
+
+]>
+
+<!-- $Id: fumejo.xml,v 1.3 2017/11/21 20:38:57 revo Exp $ -->
+<!--
+     $Log: fumejo.xml,v $
+     Revision 1.3  2017/11/21 20:38:57  revo
+     pretigis stilfolion kaj transformadon de Fumejo
+
+     Revision 1.2  2017/11/21 20:07:14  revo
+     aranghis lau TEI
+
+-->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>En fumejo de l' opio</title>
+      <author>Władyław Reymont</author>
+      <respStmt>
+        <resp>tradukis</resp>
+        <name>Kazimierz Bein</name>
+      </respStmt>
+      <respStmt>
+        <resp>enkomputiligita kaj adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: fumejo.xml,v 1.3 2017/11/21 20:38:57 revo Exp $</edition>
+    </editionStmt>
+    <extent>20 kB</extent>
+    <publicationStmt>
+      <publisher>BLIŃSKI KAJ W. MAŠLANKIEWICZ</publisher>
+      <pubPlace>VARSOVIO, NOWOGRODZKA 17</pubPlace>
+      <date>1908</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kadre de projekto
+      realigi redaktilon por Reta Vortaro subtenanta
+      serĉadon je citaĵoj en klasikaj kaj aliaj esperantlingvaj verkoj.
+      Kelkaj verkoj de Zamenhof kaj KAbe ĝis nun ne troviĝas kiel
+      manipulebla kaj facile serĉebla teksto en Interreto.
+      Do jen plia verko.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstoj registri&gcirc;is per signorekona programo 
+      kaj posta mana prilaboro.</p>
+
+      <p>En la originala romano la paroloj estas markitaj ne per
+      citiloj, sed per longaj strekoj. Foje aperas encitila vorto.
+      Por konservi la informon mi
+      uzis en la atributo rend la sekvajn kombinojn: '- ', '--', ' -', '""'
+      signante enkondukan kaj/aŭ finan strekon.</p>
+
+      <p>Kiel emfazaj aŭ markaj elementoj estas uzataj diversloke emph, mentioned, foreign.</p>
+
+      <p>En iuj lokoj estas piednotoj, kiujn mi signis per &lt;note&gt;. Kaj
+      ie estas apartigiloj, kiujn mi skribis per &lt;p rend='center'&gt;&amp;TRISTELO;&lt;p&gt;.</p>
+    </editorialDecl>    
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+
+<front>
+    <titlePage>
+      <docAuthor>Władyław Reymont</docAuthor>
+      <docTitle>
+        <titlePart type="main">En fumejo de l' opio</titlePart>
+        <titlePart type="category">Novelo</titlePart>
+        <titlePart type="translator">
+          el la pola lingvo tradukis <name>D-ro Kazimierz Bein (Kabe)</name>
+        </titlePart>
+	<titlePart type="series">ALDONO LITERATURA AL "POLA ESPERANTISTO“</titlePart>
+      </docTitle>
+<!--      <docEdition>
+      </docEdition> -->
+     <docImprint>
+         <publisher>PRESEJO: BLIŃSKI KAJ W. MAŜLANKIEWICZ</publisher>,
+         <pubPlace>VARSOVIO, NOWOGRODZKA 17</pubPlace>,
+         <date>1908</date>
+      </docImprint>
+    </titlePage>
+  </front>
+
+  <body>
+  
+<div type="novel" id="O">
+
+<p>La ŝipo ree saltis tiel vivege, kiel ĉevalo
+neatendite frapita per sprono; kelkaj pasaĝeroj
+de la supera ferdeko de la 1—a klaso falis
+de la kanaj apogseĝoj sur la najbarojn, mi
+batis per la kapo iun helharan grandegulon,
+kaŝitan en flavan <foreign lang="en">waterproof</foreign>'on.
+</p>
+<p><q rend="--">Al la diablo!</q> malbenis li pole.
+</p>
+<p>Mi respondis same energie, ĉar en la sama
+momento mi frapis per la mano je la brako
+de l' apogseĝo.
+</p>
+<p><q rend="--">Ah, samlandano!</q> ekkriis li, helpante
+min reveni al la egalpezo.
+</p>
+<p><q rend="- ">Jes!</q>
+</p>
+<p>Ni de proksime ekrigardis la okulojn unu
+de la alia, ĉar la sola lanterno, kroĉita al la
+masto, malforte lumigis la ferdekon.
+</p>
+<p><q rend="- ">Mi vidis vin, civito, en Parizo, sur
+Triumfa Arko.</q>
+</p>
+<p><q rend="--">Vere, mi estis&elipse;</q> sed mi ne povis
+rememori lian vizaĝon. <q rend="--">Vi estas de Reĝolando<note rend="*)">Ruslanda Polujo.</note></q>
+demandis mi, por ion diri.
+</p>
+<p><q rend="--">De la mondo!</q> respondis li malvarme.
+</p>
+<p>Mi ne demandis plu kaj ni sidis silente.
+</p>
+<p>La maro ŝaŭmis kaj ŝaŭmis de la senforta
+kolero. La fajfo de la vento kaj la ritma bruo de la
+maŝinoj de l' ŝipo unuiĝis kun la sovaĝa krio de la
+maro, kiu de ĉiuj flankoj puŝis siajn kunmiksitajn
+ondojn kun brilantaj ŝaŭmaj puntoj, iris antaŭen,
+saltis, batis senĉese la ferajn flankojn de la
+ŝipo kaj falis frakasita en la senfundaĵon, kun
+bruo simila al la senforta kolero.
+</p>
+<p>Nokto sen nuboj kaj sen steloj kovris la
+spacojn per verdeta nigro, kunfluis silente kun
+la maro kaj kvazaŭ ĉirkaŭprenis ĝin per sia
+malgaja potenco. Oni sentis ĝian malvarman
+kaj malsekan tuŝon. La konscio, ke oni estas
+pendigita inter du senfundaĵoj, la akvo kaj la
+spaco, ke oni dependas de la kaprica de elemento,
+kiu senĉese sin ĵetas en paroksismo
+de frenezo kaj ŝtelatendas, por engluti ĉion,
+kio kontraŭstaras al ĝi &dash; plenigas per stranga
+kerno de volupta maltrankvilo. Oni sidas sorĉita,
+kaj estas tiam vera ĝuo la vento kaj la
+batoj de la elemento &dash; oni vivas la vivon de
+la maro.
+</p>
+<p>Oni naĝas sur la dorsoj de la ondoj, kies
+stranga blankeco brilas, kvazaŭ konturoj de
+blankaj fantomoj, kaj oni aŭskultas la voĉojn
+de la maro.
+</p>
+<p>Oni sentas tiam nek timon, nek la vivon,
+oni sentas nur, ke bone estas scii kaj pensi
+pri nenio, pasive cedi al la ondoj kaj naĝi en
+ĉi tiu nokto, ĉe la kanto de la uragano.
+La animo kvazaŭ unuiĝas kun la mallumo
+kaj disfluas en la spacoj. La lumturoj de
+la malproksima ankoraŭ Newhaven komencis
+brileti kaj poste ekflamis iliaj oraj steloj,
+kvazaŭ aŭroro sur la nigra horizonto.
+</p>
+<p>La voĉoj de la ondoj potenciĝis, la ŝipo
+saltis pli kaj pli forte kaj kvazaŭ kuris for de
+ĉi tiuj malvarmaj kaj malbonaj ĉirkaŭprenoj
+de la maro. Ni malsupreniris en la kajutojn,
+ĉar la ŝipo komencis trumpeti sian potencan
+signalon kaj la ĉenoj de la havenaj lumoj tra
+batis la nokton.
+</p>
+<p>La samlandano prezentis min al iu Ĥino,
+kiun li nomis sia amiko; ni sidigis, por trinki
+teon kaj babili.
+</p>
+<p><q rend="- ">Ĉu vi veturas Londonon?</q>
+</p>
+<p><q rend="- ">Jes, ni veturas tien ĉiumonate.</q>
+</p>
+<p>La Ĥino kun subtilaj trajtoj, kvazaŭ li
+estus unu el la malgrandaj figuroj, skulptataj
+tiel majstre de liaj samlandanoj, silentis.
+</p>
+<p><q rend="- ">Mia amiko komprenas nek pole, nek
+angle, sed li estas brava knabo. Ni koniĝis
+en Formozo. Mi estis en la Legio, li prezentis,
+oni diras, la Nigrajn standardojn; en la
+komenco oni proponis al li la pendigilon, sed
+poste oni ekkompatis lin kaj permesis al li
+vivi. Ni koniĝis en Pambo, ekvivis amike,
+adaptis sin unu al la alia kaj estas kontentaj.</q>
+</p>
+<p><q rend="--">Ĉu vi bone konas Londonon?</q>
+demandis mi, ĉar ekbrilis al mi ideo, ke eble li
+konas la adreson de la fumejo de l'opio, kiu,
+kiel mi sciis, ekzistas en Londono, sed kies
+adreson mi ne povis ricevi, malgraŭ persista
+serĉado.
+</p>
+<p><q rend="- ">Mi konas ĝin sufiĉe bone.</q>
+</p>
+<p><q rend="- ">Eble okaze vi scias ion pri la fumejo
+de l' opio?</q>
+</p>
+<p>La Polo iom reiris, fikse ekrigardis min,
+diris kelke da vortoj al la Ĥino, kun kiu li
+interŝanĝis rigardon de interkonsento, ĉar iu
+mistera kaj malforta rideto trakuris iliajn vizaĝojn,
+kaj sin turnis al mi.
+</p>
+<p><q rend="- ">Ĉu vi jam fumis iam?</q>
+</p>
+<p><q rend="- ">Ne, neniam, sed mi dezirus. Mi volus
+konvinkiĝi, kiom la efektivaj impresoj de fumanto
+de l' opio estas similaj al tio, kion oni
+rakontas.</q>
+</p>
+<p><q rend="- ">Inter la priskriboj kaj la realeco la
+simileco estas tre malgranda. Absolute ne
+eble estas priskribi aŭ rakonti la impresojn.</q>
+</p>
+<p>Mi ekrigardis lin mirigita. ĉar kiam li
+finis sian frazon, liaj okuloj kvazaŭ vualiĝis,
+la vizaĝo rigidiĝis kaj sur la lipoj vagis stranga
+rideto de svenado.
+</p>
+<p><q rend="- ">Mi konas tion tre bone. Mi estis
+sufiĉe longe en Ĥinujo, cetere ankaŭ en Londono
+efektive ekzistas loko, kie oni povas fumi pipon
+de opio.</q>
+</p>
+<p><q rend="--">Vi do konas la adreson?</q> ekkriis mi
+kun ĝojo.</p>
+<p><q rend="--">Ĉu ni konas? Ni estas konstantaj
+abonantoj</q> respondis li mallaŭte.
+</p>
+<p>Mi komencis insiste peti lin pri la enkonduko.
+Li interŝanĝis kelke da vortoj kun la
+Ĥino kaj ni baldaŭ aranĝis la aferon. Oni
+postulis nur: sterlingon por la eniro kaj solenan
+parolon, ke oni ne perfidos la sekreton.
+</p>
+<p>En <foreign lang="en">Newhaven</foreign>
+ni eniris en la londonan
+vagonaron kaj post kelke da horoj mi jam
+atingis la stacidomon de Victoria.
+</p>
+<p>Ni interŝanĝis la vizitkartojn kaj
+interkonsentis kunveni je la oka horo vespere.
+</p>
+<p>Kun granda malpacienco mi atendis ĉi
+tiun vesperon. Mi apenaŭ sukcesis konvinki
+mian kunulon, ke li partoprenu en la ekskurso,
+ĉar sola mi iom timis riski promenadon kun
+fremdaj homoj en nekonatajn kvartalojn de
+Londono.
+</p>
+<p>Je la oka horo miaj konatoj jam estis en
+la loko de nia kunveno. En
+<foreign lang="en">Charing Cross</foreign>
+ni eniris en vagonaron kaj ekveturis al la
+Dokoj kaj <foreign lang="en">Bridge Tower</foreign>.
+</p>
+<p>Post pli ol unuhora veturado ni forlasis
+la vagonaron en unu el la ekstremaj stacioj,
+tie ni prenis <foreign lang="en">cab</foreign>'on
+kaj post duonhoro ni
+jam staris antaŭ longa domo el ruĝaj brikoj.
+</p>
+<p>Tio estis la fumejo.
+</p>
+
+<p rend="center">&TRISTELO;</p>
+
+<p>Mia samlandano plenumis ĉiujn formal-
+aĵojn, kaj mi kun la doktoro eniris en altan
+kaj longan salonon
+</p>
+<p>Estis tie jam dekkelko da personoj kaj
+senĉese venis novaj. Mi sidigis sur unu el la
+sofo], kiuj staris apud la muroj, en densejo
+de grandegaj palmoj. Elektra lumo el verde-oraj
+tulipoj, balanciĝantaj ĉe la plafono kaj
+inter la branĉoj de la arbetoj, verŝis koloran
+brilon. Blankaj, molaj tapiŝoj mutigis la paŝojn.
+Estis silente. Tiuj, kiuj parolis, parolis
+mallaŭte murmuretante, aliaj sin etendis silente
+sur la flavaj silkaj sofoj.
+</p>
+<p>Fontano en la mezo de la salono verŝis
+grandegan kaskadon de pulvorigita akvo kaj
+brilis diverskolore.
+</p>
+<p>La akvo, kolorigita per la reflektoroj,
+similis ĉielarkon, ŝprucantan en mirakla luma
+kolono de la fundo de marmora cisterno, kaj   
+ sonorigis melodion, nepriskribeble dolĉan.
+</p>
+<p>El arĝentaj incensujoj en la niĉoj fluis
+malpezaj, kvazaŭ sunaj rubandoj de fumo kaj
+distrenis en la salono nebulojn de ekscitanta
+odoro.
+</p>
+<p>Ventumiloj el grandegaj blankaj strutaj
+plumoj, en bronzaj ingoj, ŝirmis kelkajn sofojn.
+</p>
+<p>Estis tiom da artista beleco en la aranĝo
+de la salono, ke kun ĝuo oni enspiris ĉi tiun
+harmonion de brilaj koloroj, kvankam duonkovritaj,
+de duonlumo, de delikataj konturoj de
+molaj silkaj, de silento interrompata de la
+murmuretoj de la fontano kaj de la plaŭdoj
+de verdaj serpentoj kun plataj kapoj en la
+cisterno.
+</p>
+<p>Eĉ sen la opio oni povis revi dolĉan
+sonĝon.
+</p>
+<p>La lumoj tute estingiĝis, nur la akva kolono
+brilis kiel oro, rubeno, kalcedono kaj
+smeraldo.
+</p>
+<p>El la niĉoj iris iaj malgrandaj estaĵoj kun
+flametoj en la manoj, disiĝis en la salono kaj
+malaperis en la ombro de l' palmoj.
+</p>
+<p>Stranga tremo trapenetris min kaj senmovigis.
+Mi fermetis la okulojn kun timo
+miksita kun ĝuo. Io tuŝis min delikate kaj mi
+ekaŭdis ekstreme melodian voĉon, Mi levis
+la palpebrojn; antaŭ mi, kiom mi povis distingi
+en tia krepusko, staris juna knabino, unu el
+tiuj filigranaj Japaninoj, personigantaj la ĉarmon
+kaj dolĉecon. Ŝi estis tiel bela, ke ŝi ŝajnis
+al mi pli iluzio, ol virino; mi ne povis deturni
+de ŝi miajn okulojn. Ŝi donis al mi
+piptubon kun grandega sukceno ĉe la ekstremo.
+Mi prenis ĝin en la buŝon, ŝi ekgenuis kaj per
+siaj ridinde malgrandaj manetoj formis konuson
+el opio, metis ĝin en la truon de la pipo,
+proksimigis flameton kaj mallaŭte en plej pura
+angla lingvo murmuretis:
+</p>
+<p><q rend="- ">Enspiru en vin la tutan fumon.</q>
+</p>
+<p>Mi obeis.
+</p>
+<p>Mi eksentis la abomenan odoron de la
+bruligita opio. Stranga pezeco komencis disflui 
+en miaj vejnoj, malleviĝis miaj palpebroj, la
+pipo elglitis el miaj manoj, sed mi ne havis
+sufiĉe da forto por ĝin reteni. Mi sentis, ke
+mi defalas, mi volis salte leviĝi, per la resto
+de la konscio mi ĵetis min antaŭen, sed stranga
+kaj forta doloro trapenetris min kaj mi memoras,
+ke mi estis falanta en la miraklan cisternon.
+</p>
+
+<p rend="center">&TRISTELO;</p>
+
+
+<p>Mi rekonsciiĝis. Mi memoris, ke mi fumis 
+opion. Mi memoris multajn antaŭajn aferojn.
+Mi pensis, ke ĉio jam estas finita, mi do
+ĉirkaŭrigardis la ĉambron. Nenio restis. Blua
+senfina spaco ĉirkaŭis min, Blanketa lumo
+penetris de ekstere. Mi sentis, ke ekregas
+min tiu speco de forta mirego, kiu kondukas
+al manio. La timo de izoleco kaj frenezo
+ekregis min, sed tio daŭris nelonge.
+</p>
+<p><q rend="--">Mi sonĝas!</q> pensis mi. Mi ekrigardis
+min mem. Mi vidis nenion. Jes, kiam per
+movo mi volis levi la manon, mi ne trovis ĝin.
+Mi tute ne okupis spacon. 
+</p>
+<p>Mi eksentis, ke mi estas sole la konscio
+</p>
+<p>Mi rimarkis, ke mi ne vidas, ne sentas,
+ne aŭdas, ke mi nur scias. Blanketa nubo de
+nebulo &dash; tio estis mi. Kiom da fojoj mi
+rememoris ion, tiom da fojoj flamoj bluaj kaj
+purpuraj, kvazaŭ fulmoj, elflugis el tiu mia
+<q rend='""'>mi</q>.
+</p>
+<p>Mi sentis en mi la trankvilon de la senlima
+feliĉo. Mi trakuradis iajn sorĉlandojn.
+Mi naĝis en verda torento de lumo. Mi estis
+en la universo. Miliardoj da sunaj balanciĝis
+ĉirkaŭe, kvazaŭ floroj blankaj, flavaj kaj purpuraj.
+Sennombraj turniĝantaj flamoj trakuris la spacojn.
+Mi vidis ridetojn de la steloj.
+Mi sentis nenion, nur nepriskribeblan feliĉon.
+Mi estis ĉie, kaj mi ne povis voli; mi estis
+kvazaŭ disfluinta, trapenetranta, ĉie ĉeestanta.
+Tiam mi eksentis teruran doloron, kvazaŭ iu
+prenus mian animon per feraj brulruĝaj manoj
+kaj ekpremus tutforte. Mi perdis la konscion.
+</p>
+
+<p rend="center">&TRISTELO;</p>
+
+
+<p><q rend="--">Enspiru ĉion</q> murmuretis la japanino,
+ekbruligante ankoraŭ pli grandan konuson de
+opio.
+</p>
+<p>Mi enspiris.
+</p>
+<p>Rea aliaj mondoj!
+</p>
+<p>La miraklaj fabeloj de Ŝeĥerazada, la
+ĝardenoj de <foreign lang="de">Loreley</foreign>,
+la palacoj de !' hirundoj
+en la profundo de la lagoj &dash; ne estis tiel belaj,
+kiel tio, kion mi vidis. Tio estis nek tero, nek
+ĉielo, nek sonĝo, nek realaĵo, tio estis io, por
+kio la homa lingvo ne posedas vortojn, la
+cerbo &dash; ideojn.
+</p>
+<p>Ĉirkaŭis min arboj, homoj, tero &dash; el
+flamoj. Ĉio estis nur konturo. Blindiganta
+brilo, plena de ridetoj, vortoj, ekrigardoj ĉirkaŭis
+min de ĉiuj flankoj. La konturoj moviĝis,
+iris, disiĝis kaj ree kuniĝis. Kolonoj de kolon
+lumo, fajraj pluvoj, {lamaj kugloj rondiris senĉese
+ĉirkaŭ mi.
+</p>
+<p>Poste ĉi tiuj briloj kvazaŭ diskuris, mi
+ekvidis malhelan bluon de ĉielo,plenade helaj
+steloj kaj iajn ruĝajn tapiŝojn sub mi. Senfinaj
+vicoj de oraj kolonoj elkreskadis kvazaŭ
+arbaro, Grandegaj filikaj folioj kun longaj vizaĝoj,
+signitaj de verdaj vejnoj, balanciĝis kun
+dorma rideto, Mi ne vidis la okulojn, buŝojn,
+trajtojn, mi vidis nur la ridetojn. Poste io,
+kvazaŭ muziko de harpoj, fluis de la spaco,
+kaj el ĉi tiuj brilaj sonoj elnaĝis virinaj figuroj.
+Ili sin klinis al mi, ĉirkaŭprenis min kaj dancis.
+Mi vidis, kiel iliaj diverskolore brilantaj vestoj
+flagris antaŭ mi, kvazaŭ blanka rubando sur
+ora kaj purpura fono, kvazaŭ grenkampo
+aŭtune, implikita de araneaĵo.
+</p>
+<p>Ili preterpasis, revenis, ĉirkaŭis min tiel,
+ke mi sentis tuŝon de la oraj brakoj, la fajron
+de la pupiloj, brilantaj kiel granatŝtonoj; mi
+vidis, kiel iliajn jaspisajn korpojn ruĝigis la
+sango, kvazaŭ la aŭroro la vitran supraĵon de
+lagetoj. Ili ridetis. La rideto ne havis buŝon,
+lipojn, signifon, ĝi estis ĉie kaj ne eble estis
+kontraŭstari al ĝia altiro. Mi kvazaŭ flugis
+sur ĝia ondo, iaj longaj haroj kovris min, kaj
+mi sentis buŝon sur mia buŝo, dolĉajn murmuretojn,
+kaj lumaj tuŝoj penetris min kun stranga
+dolĉeco.
+</p>
+<p>Poste ia profundo de grandega arbaro.
+Kolosaj kverkoj, pinioj kun homaj vizaĝoj, kun
+longaj brakoj anstataŭ branĉoj. Profunda potenca
+kanto en ritmoj vastaj, kiel la universo,
+fluis de ĉiuj flankoj, kuniĝis kaj disiĝis en la
+mallumaj spacoj en pluvon de briloj pli kaj
+pli malfortaj. Grandegaj akvaj torentoj flugis
+de ĉie, pasis preter mi kaj dronis en kaskado
+de kantoj. Mi sonĝis, tamen kun plena konscio
+mi pensis:
+</p>
+<p><q rend="- ">Ĉu mi dormas, vivas aŭ mortis?</q>
+</p>
+<p>Subite ĉio malaperis. Mi ekvidis la saman
+ĉambron. Mi iris de niĉo al niĉo, deklinis la
+ventumilojn kaj rigardis ĉion &dash; estis nenio,
+estis neniu. Estis kvazaŭ emanacio de ĉio;
+sole kosmaj korpoj de arboj, homoj, mebloj
+malklare aperis kvazaŭ ombroj. Mi iris antaŭen.
+</p>
+<p>Mi ekvidis min mem.
+</p>
+<p>Ne, eĉ la impreson mi ne scios resumi.
+</p>
+<p>Mi rigardis min, kuŝantan sur la sofo. Se
+mi tiam havus cerbon, kiel ordinare, mi
+freneziĝus.
+</p>
+<p>Mi volis voki ĉi tiun samulon, mi ne povis,
+ĉar mi ne estis formo, mi estis etero, koncepto.
+Uragano de terura premego bolis en mi.
+</p>
+<p><q rend="--">Mi mortis&elipse; mortis&elipse;</q>
+pensis mi kun mordanta malespero, terura malvarmo spiris
+sur min.
+</p>
+<p><q rend="--">Kie mi estas? Kio okazis kun mi?</q>
+jen pli malpli tiel formuliĝis miaj pensoj. Mi
+vagis en la ĉambro, revenis al la sofo,sur kiu
+mi vidis min kuŝantan, ĝis fine mi venis al
+granda spegulo. Mi ekvidis la glatan supraĵon,
+kvazaŭ tra nebulo reflektantan la konturojn de
+l' objektoj &dash; sed min mi ne vidis en ĝi.
+</p>
+<p><q rend="- ">Helpon! Veku min!&elipse;</q>
+</p>
+<p>Ŝajnis al mi, ke mi krias, sufokita per
+spasmo de senlima timo.
+</p>
+
+<p rend="center">&TRISTELO;</p>
+
+
+<p><q rend="--">Ĉu vi deziras ankoraŭ?</q> demandis
+mallaŭte la Japanino. 
+</p>
+<p>La ventumilo delikate murmuretis kaj
+faris refreŝigan blovon. Mi sentis tion, mi
+aŭdis la voĉon, sed mi ne kuraĝis malfermi
+la okulojn, ĉar mi ne sciis bone, kie mi estas.
+Nur eksentinte la reordigon de la kuseno sub
+mia kapo, mi malfermis la okulojn, senkonscie
+prenis la pipon en la buŝon kaj ankoraŭ unu
+fojon avide enspiris la fumon.
+</p>
+<p>La sama sento de falado kaj de vekiĝo.
+</p>
+<p>Mi estis sur la maro. Mi sentis, ke mi
+naĝas kun disetenditaj brakoj, mi havis la
+ordinarajn formojn.
+</p>
+<p>Ŝajnis al mi tiam, same kiel hodiaŭ, kiam
+mi skribas tion ĉi, ke mi posedas plenan
+konscion.
+</p>
+<p>Mi naĝis, ne komprenante, de kie mi
+venis. Mi vidis la helan lazuron super mi, la
+sunon kaj la verdan akvon de la oceano, mi
+sentis la karesan tuŝeton de la vento, mi aŭdis
+malproksiman bruon de ondoj, batantaj ŝtonegojn.
+Mevoj kun longa krio sin levis super
+mi, poste ĉirkaŭis min granda silento, kvazaŭ
+ĉio estas mortinta kaj mutiĝinta. La mana
+disiĝis sub mi kaj mi falis en la profundon
+sur akvan kahelon, kaj de ĝi mi glitis pli kaj
+pli malsupren. Verda krepusko kovris al mi
+ĉion, mi vidis tra la akvo, ke la ĉielo estas
+ruĝa, la suno &dash; oranĝa, kaj mi falis, falis senhalte.
+Nek timo, nek doloro, nek miro moviĝis en mi.
+Poste mi naĝis tra ia interna
+rivero de la oceano, mi preternaĝis valojn
+plenajn de ŝtonegoj, de strangaj vegetaĵoj, de
+niĉoj, kaj mi atingis ian spacon, kie ĉio estis
+blanka.
+</p>
+<p>Mi ektremis kaj kvazaŭ rekonsciiĝis el
+mia rigideco, ekvidinte subite ĉirkaŭ mi homajn
+figurojn, kun flugpendantaj haroj kaj kun larĝe
+malfermitaj okuloj. Ili naĝis rekte al mi,
+mi sentis ilian tuŝon, la glacian malsekecon
+de iliaj korpoj, abomenan molecon de iliaj haroj.
+Ili kuniĝis kvazaŭ en kronon, kaj ĉirkaŭis min
+de pli kaj pli proksime. Kien ajn mi rigardis,
+&dash; ĉie verdetaj kapoj, disŝiritaj manoj, piedoj,
+korpoj, buŝoj malfermitaj kvazaŭ por krio,
+kunpremitaj pugnoj, &dash; vera balo de kadavroj
+duone putrintaj sur la fundo de la oceano.
+</p>
+<p>Estis senlima silento; mi kvazaŭ ŝvelis de
+abomeno kaj timo, sed mi ne povis krii, nek
+moviĝi.
+</p>
+<p>La kadavroj falis sur min, baris al mi la
+vojon, puŝegis min, kaj mi, kiel unu el ili,
+kuŝis senviva, sen movo, en la profundo de
+nekonataj senfundaĵoj, kun pli kaj pli granda
+krio de l' malespero en la animo.
+</p>
+<p>Poste ĉiuj ĉi korpoj kvazaŭ kuniĝis kaj kunkreskis
+unu kun alia; tio estis kvazaŭ grandega
+polipo kun miloj da kapo] kaj brakoj, kiu persekutis
+min. Mi vidis, ke ĝia blua buŝo malfermiĝas,
+ke ĝiaj longaj akraj dentoj terure minacas
+kaj en la okuloj komencas brili sangaj flamoj.
+</p>
+<p>Iom post iom mi reakiris la volon kaj
+ian grandegan forton, mi ĵetis min antaŭen
+kun la malespero de l' frenezo, mi forkuris en
+la profundon, elnaĝis sur la supraĵon, platiĝis
+kiel ondo, disfluis en la krestoj de la ŝaŭmo,
+sed la monstro kuris post mi, persekutis min
+sur ĉiuj vojoj, kaptis kaj ĉirkaŭis de ĉiuj flankoj;
+mi sentis la akrecon de ĝiaj ungegoj,
+blovis sur min ĝia varmega spiro.
+</p>
+<p>Kiam mi ne vidis plu eĉ unu colon da
+libera spaco, ĉie nur la volvaĵojn de la monstro,
+mi eksentis potencan forton en mi. Mi
+estis en ilia povo, mi vidis, ke la monstro sin
+ĵetis sur min.
+</p>
+<p>Ne, ne eble estas priskribi la batalon, la
+ĉirkaŭprenon, kiam ĉirkaŭvolvis min la korpoj
+kiam mi eksentis miliardojn da dentoj en mi,
+nek la forton, kiu naskiĝis en mi.
+</p>
+<p>Mi memoras nur, ke mi luktis kontraŭ la
+monstro, batis per la pugno, ŝiris per la dentoj,
+frakasis per la kapo kaj sentis varman fluon
+de la sango, kovranta min.
+</p>
+<p>Poste nek doloro, nek io ajn&elipse; ekregis
+min frenezo de la batalo kaj venko.
+</p>
+<p>La maro balancis, ĵetis pli kaj pli alten
+siajn ondojn; kvazaŭ forŝiritaj suproj de montoj,
+tondroj batis la maron per bluaj rubandoj de
+l' fulmoj; la uragano kriegis, kvazaŭ aro de
+satanoj. Rabiaj akvoturnoj batis la ĉielon, kaj
+la ventego balais la fundon. Mi eksentis min
+tiel forta, ke mi vidis, ke tra mi fluas la tuta
+potenco de la universo. Mi kuŝis sur la dorso
+de la ondoj kaj naĝis.
+</p>
+<p>Tia senlima sento de feliĉo kaj trankvilo
+estis en mi, ke mi sentis, ke en mia cerbo
+estas ĉio: la vivo kaj la morto, la pereo kaj
+la kreo &dash; la tuta universo.
+</p>
+
+<p rend="center">&TRISTELO;</p>
+
+
+<p>Kiam mi vekiĝis, mia kunulo sidis apud
+mi. Mi volis ankoraŭ fumi, sed li preskaŭ perforte
+elkondukis min. La tutan tempon li ne
+fumis, li nur gardis min.
+</p>
+<p>Kiam mi skribas tion, aŭtuna vento bruas
+ekstere, subtila pluvo fluas sur la fenestraj vitroj
+kaj estas tiel malvarme kaj malgaje en la
+griza mondo, sur la sengrenaj kampoj, en la
+blua aero, ke kun vera ĝuo mi rememoras
+tiun ne sonĝon, sed sorĉan realaĵon. La priskribo
+ne estas preciza, sed la homa lingvo
+estas hakilo, per kiu oni devas skulpti la kristalojn
+de la sentoj: ne estas do mirinde, ke
+oni ricevas senformajn kaj malbelajn bulojn,
+anstataŭ statuoj.
+</p>
+
+<p rend="fonbildo"></p>
+
+</div>
+</body>
+</text>
+</TEI.2>

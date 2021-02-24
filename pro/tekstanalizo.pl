@@ -32,6 +32,7 @@
 :- initialization(read_all_vrk).
 
 teixdtd(verkoj('teixlite.dtd')).
+tei_dtd(esf('../dtd/tei-tekstaro.dtd')).
 
 %user:file_search_path(tekstoj,'/home/revo/citajhoj/tekstoj').
 %user:file_search_path(verkoj,'/home/revo/verkoj/xml').
@@ -55,6 +56,8 @@ read_vrk(Vrk) :-
     debug(tekstaro(vrk),'[~q] (~q) ~q',[Vrk,Desc,Pattern]),
     expand_file_name(Pattern,Files),
     read_vrk_files(Vrk,Struct,Files,1),
+    aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), Count),
+    debug(tekstaro(vrk),'[~q] ----> ~d citaĵoj',[Vrk,Count]),
     !.
 
 read_vrk_files(Vrk,Struct,[File|More],No) :-
@@ -100,6 +103,8 @@ struct_teix(Vrk:No,Titolo,File,Dividoj) :-
 struct_teix_nevalida(Vrk:No,Titolo,File,Dividoj) :- !,
    teix1_teksto(Vrk:No,Titolo,File,Dividoj).
 
+struct_tei(Vrk:No,Titolo,File,Dividoj) :-
+    esf_teksto(Vrk:No,Titolo,File,Dividoj).
 
 % La Fundamento de Eo - limigu al Antaŭparolo kaj Ekzercaro
 struct_fundamento(Vrk:No,Titolo,File,_) :- !,
@@ -126,8 +131,11 @@ struct_monato_txt(Vrk:No,Titolo,File,_) :- !,
     debug(tekstaro(txt),'~q',[Titolo]).
 
 % Monato 2, 3
-struct_monato_html(Vrk:No,Titolo,File,_) :- !,
+struct_monato2_html(Vrk:No,Titolo,File,_) :- !,
     monato2_html(Vrk:No,Titolo,File).
+
+struct_monato3_html(Vrk:No,Titolo,File,_) :- !,
+    monato3_html(Vrk:No,Titolo,File).
 
 %verko_teksto(_,'','').
 
@@ -155,6 +163,14 @@ teix1_teksto(Vrk:No,Titolo,File,DivTypes) :-
     tei1lite_teksto(Vrk:No,DOM,DivTypes,Titolo),
     assert(txt(Vrk:No,Titolo,File)).
 
+esf_teksto(Vrk:No,Titolo,File,DivTypes) :-
+    tei_dtd(DTDPathSpec),
+    expand_file_search_path(DTDPathSpec,DTDFile),
+    new_dtd('TEI',DTD),
+    load_dtd(DTD,DTDFile,[dialect(xml)]),
+    load_xml(File,DOM,[dtd(DTD)]),
+    tei_teksto(Vrk:No,DOM,DivTypes,Titolo),
+    assert(txt(Vrk:No,Titolo,File)).
 
 /**
 % ignoru pi(..)  en [pi(...),element(TEI.2..)]
@@ -333,6 +349,25 @@ teixlite_div(Dos,SekcioTitolo,Div) :-
 	    ))
 	).
 
+
+tei_teksto(Dos,[DOM],SectionTypes,Titolo) :-
+    xpath(DOM,/'TEI',Root),
+    xpath(Root,teiHeader/fileDesc/titleStmt/title(normalize_space),Titolo),!,
+    \+ (
+	xpath(Root,//(div(@type=Type)),Div),
+	memberchk(Type,SectionTypes),
+    once((
+        xpath(Div,/(div)/head(content),Cnt),
+        text_content(Cnt,SekcioTitolo)
+        ; SekcioTitolo=''
+    )),
+	debug(tekstaro(chap),'~q',[SekcioTitolo]),
+%%	format('~n~q:~n',[SekcioTitolo]),
+	teixlite_div(Dos,SekcioTitolo,Div),
+	fail
+    ).
+
+
 % return atomic content only ignoring element content
 text_content(Cnt,Atom) :-
     text_content_(Cnt,List),
@@ -354,11 +389,11 @@ monato2_html(Dos,Titolo,File) :-
     lat3_utf8(T,Titolo),
     assert(txt(Dos,Titolo,File)),
     once((
-	xpath(Root,head/meta(@name=author,@content),A), A\= ''
-	;
-	xpath(Root,head/meta(@name=editor,@content),A)
-	;
-	A=''
+        xpath(Root,head/meta(@name=author,@content),A), A\= ''
+        ;
+        xpath(Root,head/meta(@name=editor,@content),A)
+        ;
+        A=''
 	)),
     lat3_utf8(A,Autoro),
     assert(aut(Dos,Titolo,Autoro)),

@@ -1,0 +1,117 @@
+<?xml version="1.0"?>
+<!DOCTYPE TEI SYSTEM "../dtd/tei-tekstaro.dtd">
+<TEI xml:id="aldono-al-la-dogmoj-de-hilelismo" xml:lang="eo" xmlns="http://www.tei-c.org/ns/1.0">
+
+<teiHeader>
+
+<fileDesc>
+
+<titleStmt>
+
+<title>Aldono al la “Dogmoj de Hilelismo”: elektronika versio</title>
+
+<respStmt>
+
+<resp>La bazan tekston origine enkomputiligis</resp>
+
+<name xml:lang="ja">Hirotaka Masaaki</name>
+
+</respStmt>
+
+</titleStmt>
+
+<extent>313 vortoj</extent>
+
+<publicationStmt>
+
+<publisher xml:lang="en">Esperantic Studies Foundation</publisher>
+
+</publicationStmt>
+
+<sourceDesc>
+
+<biblStruct>
+
+<analytic>
+
+<author>L. L. Zamenhof</author>
+
+<title>Aldono al la “Dogmoj de Hilelismo”</title>
+
+</analytic>
+
+<monogr>
+
+<author>L. L. Zamenhof</author>
+
+<title level="m" type="main">Originala Verkaro</title>
+
+<title level="m" type="subordinate">Antaŭparoloj – Gazetartikoloj – Traktaĵoj – Paroladoj – Leteroj – Poemoj</title>
+
+<respStmt>
+
+<resp>Kolektitaj kaj ordigitaj de</resp>
+
+<name>D-ro <foreign xml:lang="de">Joh. Dietterle</foreign></name>
+
+</respStmt>
+
+<imprint>
+
+<publisher xml:lang="de">Ferdinand Hirt &amp; Sohn</publisher>
+
+<pubPlace><name xml:lang="de">Leipzig</name></pubPlace>
+
+<date>1929</date>
+
+</imprint>
+
+<extent>607 p.</extent>
+
+<biblScope unit="pages">321 – 322</biblScope>
+
+</monogr>
+
+<note>Aperis unue en “Ruslanda Esperantisto” <num type="ordinal" value="2">II</num>. 1906, n-ro 2 (Februaro). Samtempe la teksto estis depresita kiel aparta folio.</note>
+
+<note>Proksimuma verkojaro: 1906</note>
+
+<note>Kreis la Esperantan tekston: <name>Zamenhof</name></note>
+
+<note type="ordigo">2</note>
+
+</biblStruct>
+
+</sourceDesc>
+
+</fileDesc>
+
+</teiHeader>
+
+<text>
+
+<body>
+
+<div type="artikolo">
+
+<head xml:id="a2">Aldono al la “Dogmoj de Hilelismo”</head>
+
+<p xml:id="a3">Ni atentigas, ke la publikigitaj “Dogmoj” havas signifon nur principan, kaj ilia definitiva redakcio estos fiksita nur en la unua kongreso de la hilelistoj. <hi rend="interspace">Ĉiun, kiu en principo aprobas la ideon de la hilelismo, sed ne konsentas kun tiu aŭ alia dogmo, ni petas montri al ni, kiajn ŝanĝojn laŭ lia opinio estus utile fari en la diritaj dogmoj.</hi></p>
+
+<p xml:id="a4">Pro evito de malkompreniĝoj ni trovas necesa doni la sekvantajn klarigojn:</p>
+
+<p xml:id="a5">1. La nomo “Hilelismo” estas nur provizora; estas supozate anstataŭigi ĝin per la nomo “Homaranismo”, kiu pli precize esprimas la tutan esencon de nia ideo (“homarano en la lingvo Esperanto signifas “membro de la homa familio”).</p>
+
+<p xml:id="a6">2. Se la neŭtrale-geografiaj nomoj de regnoj kaj nacioj (vidu <abbr>dogm.</abbr> 5 kaj 8) montriĝus neoportunaj aŭ malagrablaj, oni povas en la unua tempo uzadi la ekzistantajn nomojn gentajn, ĝis tiu tempo, kiam la demando pri tio ĉi estos decidita en la kongreso de hilelistoj.</p>
+
+<p xml:id="a7">3. En la kunvenoj de hilelistoj la lingvo hilelista estas deviga nur por tiuj, kiuj tiun ĉi lingvon bone posedas; sed tiuj, kiuj ĝin ankoraŭ ne posedas sufiĉe, povas en la unua tempo uzadi kian lingvon ili volas, sed ili ne havas la rajton altrudi sian lingvon al la aliaj ĉeestantoj.</p>
+
+<p xml:id="a8">4. Pri la dogmo 11, kiu krom karaktero societa havas ankoraŭ karakteron teozofian, oni devas memori, ke ĝi parolas nur pri tiaj instruoj, kiuj ne kontraŭparolas al la <hi rend="interspace">scienco</hi>, kaj ĝi rilatas nur al la <hi rend="interspace">templo</hi> de hilelistoj, sed tute ne al privataj <hi rend="interspace">rondetoj</hi> hilelistaj. Tiuj ĉi rondetoj havas karakteron ne religian, sed pure <hi rend="interspace">societan</hi> kaj servas por liberaj amikaj interparoladoj pri <hi rend="interspace">ĉiuj eblaj</hi> temoj, laŭ la deziro de la partoprenantoj, kaj de aliaj rondetoj ili distingiĝas nur per tio, ke en ili partoprenas homoj, havantaj neŭtrale-homajn naciajn kaj religiajn principojn, kaj ke la interparolado en ili estas precipe en la lingvo neŭtrale-homa.</p>
+
+</div>
+
+</body>
+
+</text>
+
+</TEI>
