@@ -688,11 +688,13 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.stageLike_sequenceOptional "stage?, move?, view?, camera?, sound?, caption?, tech?"> 
 <!ENTITY % model.stageLike_sequenceOptionalRepeatable "stage*, move*, view*, camera*, sound*, caption*, tech*"> 
 <!ENTITY % model.stageLike_sequenceRepeatable "stage+, move+, view+, camera+, sound+, caption+, tech+"> 
+<!-- jam difinita supre! 
 <!ENTITY % model.entryPart ""> 
 <!ENTITY % model.entryPart_sequence ""> 
 <!ENTITY % model.entryPart_sequenceOptional ""> 
 <!ENTITY % model.entryPart_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.entryPart_sequenceRepeatable ""> 
+-->
 <!ENTITY % model.global.edit "gap"> 
 <!ENTITY % model.global.edit_sequence "gap"> 
 <!ENTITY % model.global.edit_sequenceOptional "gap?"> 
@@ -723,6 +725,8 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.personPart_sequenceOptional "%model.biblLike;?, %model.persStateLike;?, %model.persEventLike;?, idno?"> 
 <!ENTITY % model.personPart_sequenceOptionalRepeatable "%model.biblLike;*, %model.persStateLike;*, %model.persEventLike;*, idno*"> 
 <!ENTITY % model.personPart_sequenceRepeatable "%model.biblLike;+, %model.persStateLike;+, %model.persEventLike;+, idno+"> 
+
+<!-- jam difinita supre!
 <!ENTITY % model.placeNamePart "placeName |bloc |country |region |district |settlement |geogName"> 
 <!ENTITY % model.placeNamePart_sequence "placeName, bloc, country, region, district, settlement, geogName"> 
 <!ENTITY % model.placeNamePart_sequenceOptional "placeName?, bloc?, country?, region?, district?, settlement?, geogName?"> 
@@ -733,6 +737,7 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.placeStateLike_sequenceOptional "%model.placeNamePart;?, climate?, location?, population?, state?, terrain?, trait?"> 
 <!ENTITY % model.placeStateLike_sequenceOptionalRepeatable "%model.placeNamePart;*, climate*, location*, population*, state*, terrain*, trait*"> 
 <!ENTITY % model.placeStateLike_sequenceRepeatable "%model.placeNamePart;+, climate+, location+, population+, state+, terrain+, trait+"> 
+
 <!ENTITY % model.placeEventLike "event"> 
 <!ENTITY % model.placeEventLike_sequence "event"> 
 <!ENTITY % model.placeEventLike_sequenceOptional "event?"> 
@@ -743,6 +748,7 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.orgPart_sequenceOptional "listOrg?, listPerson?, listPlace?"> 
 <!ENTITY % model.orgPart_sequenceOptionalRepeatable "listOrg*, listPerson*, listPlace*"> 
 <!ENTITY % model.orgPart_sequenceRepeatable "listOrg+, listPerson+, listPlace+"> 
+-->
 <!ENTITY % model.publicationStmtPart.agency "publisher |distributor |authority"> 
 <!ENTITY % model.publicationStmtPart.agency_sequence "publisher, distributor, authority"> 
 <!ENTITY % model.publicationStmtPart.agency_sequenceOptional "publisher?, distributor?, authority?"> 
@@ -1003,6 +1009,7 @@ to %data.word;  #IMPLIED'>
 <!ENTITY % model.correspDescPart_sequenceOptional "note?, correspAction?, correspContext?"> 
 <!ENTITY % model.correspDescPart_sequenceOptionalRepeatable "note*, correspAction*, correspContext*"> 
 <!ENTITY % model.correspDescPart_sequenceRepeatable "note+, correspAction+, correspContext+"> 
+<!-- jam difinita supre
 <!ENTITY % tei_att.source.attribute.source '
 source CDATA  #IMPLIED'>
 <!ENTITY % tei_att.source.attributes '
@@ -1012,6 +1019,8 @@ source CDATA  #IMPLIED'>
 <!ENTITY % model.resourceLike_sequenceOptional ""> 
 <!ENTITY % model.resourceLike_sequenceOptionalRepeatable ""> 
 <!ENTITY % model.resourceLike_sequenceRepeatable ""> 
+-->
+
 <!ENTITY % tei_att.personal.attribute.full '
 full (yes|abb|init) "yes" '>
 
@@ -1037,10 +1046,12 @@ replacementPattern %data.replacement;  #REQUIRED'>
 <!ENTITY % tei_att.patternReplacement.attributes '
  %tei_att.patternReplacement.attribute.matchPattern;
  %tei_att.patternReplacement.attribute.replacementPattern;'> 
+ <!-- jam difinita supre
 <!ENTITY % tei_att.global.analytic.attribute.ana '
 ana CDATA  #IMPLIED'>
 <!ENTITY % tei_att.global.analytic.attributes '
  %tei_att.global.analytic.attribute.ana;'> 
+
 <!ENTITY % tei_att.datable.custom.attribute.when-custom '
 when-custom CDATA  #IMPLIED'>
 
@@ -1049,6 +1060,7 @@ notBefore-custom CDATA  #IMPLIED'>
 
 <!ENTITY % tei_att.datable.custom.attribute.notAfter-custom '
 notAfter-custom CDATA  #IMPLIED'>
+
 
 <!ENTITY % tei_att.datable.custom.attribute.from-custom '
 from-custom CDATA  #IMPLIED'>
@@ -1069,6 +1081,7 @@ datingMethod %data.pointer;  #IMPLIED'>
  %tei_att.datable.custom.attribute.to-custom;
  %tei_att.datable.custom.attribute.datingPoint;
  %tei_att.datable.custom.attribute.datingMethod;'> 
+
 <!ENTITY % model.persNamePart "surname |forename |genName |nameLink |addName |roleName"> 
 <!ENTITY % model.persNamePart_sequence "surname, forename, genName, nameLink, addName, roleName"> 
 <!ENTITY % model.persNamePart_sequenceOptional "surname?, forename?, genName?, nameLink?, addName?, roleName?"> 
@@ -1094,6 +1107,7 @@ to-iso %data.temporal.iso;  #IMPLIED'>
  %tei_att.datable.iso.attribute.notAfter-iso;
  %tei_att.datable.iso.attribute.from-iso;
  %tei_att.datable.iso.attribute.to-iso;'> 
+
 <!ENTITY % tei_att.global.linking.attribute.corresp '
 corresp CDATA  #IMPLIED'>
 
@@ -1126,6 +1140,7 @@ select CDATA  #IMPLIED'>
  %tei_att.global.linking.attribute.prev;
  %tei_att.global.linking.attribute.exclude;
  %tei_att.global.linking.attribute.select;'> 
+ -->
 <!-- start rest of patterns -->
 
 <!ENTITY % macro.paraContent '(#PCDATA|_DUMMY_model.gLike|%model.phrase;|%model.inter;|%model.global;|lg|l)*' >
