@@ -13,19 +13,23 @@
   xmlns:saxon="http://saxon.sf.net/"
   version="2.0"
   extension-element-prefixes="saxon" 
+  xpath-default-namespace="http://www.tei-c.org/ns/1.0"
 >
+
+<xsl:param name="content_level1"/>
+<xsl:param name="content_level2"/>
 
 <xsl:output method="html" version="4.0" encoding="utf-8"/>
 <xsl:strip-space elements="text"/>
 
-<xsl:variable name="xml_src" select="'https://github.com/revuloj/verkoj/tree/master/txt/tei2'"/>
+<xsl:variable name="xml_src" select="'https://github.com/revuloj/verkoj/tree/master/txt/tei_esf/tekstoj'"/>
 
 
 <!--
 
 XSLT-stildifinoj por TEI-Lite-dokumentoj. 
 
-(c) 2001-2002 che Wolfram DIESTEL
+(c) 2001-2021 che Wolfram DIESTEL
     lau GPL 2.0
 
 Ghi entenas nur la bazajn regulojn kaj estu importata de dokument-specifa
@@ -82,25 +86,31 @@ konvenciojn:
   </html>
 </xsl:template>
 
-<xsl:template match="TEI.2">
+<xsl:template match="TEI">
+    <xsl:apply-templates select="teiHeader" mode="header"/>
     <xsl:apply-templates select="*[not(self::teiHeader)]"/>
-    <xsl:apply-templates select="teiHeader"/>
+    <xsl:apply-templates select="teiHeader" mode="footer"/>
 </xsl:template>
 
 <!-- teiHeader -->
-<xsl:template match="teiHeader">
-  <xsl:for-each select="//edition">
-     <xsl:variable name="file">
-        <xsl:value-of select="substring-before(substring-after(.,'$Id: '),',v')"/>
-     </xsl:variable>
-     <hr/>
-     <address>
-       fonto: <a target="_new" href="{$xml_src}/{$file}">
-         <xsl:value-of select="$file"/>
-       </a>
-       <!-- xsl:value-of select="substring-before(substring-after(.,',v'),' revo')"/ -->
-     </address>
-  </xsl:for-each>
+
+<xsl:template match="teiHeader" mode="header">
+  <xsl:apply-templates select=".//biblStruct"/>
+</xsl:template>
+
+<xsl:template match="biblStruct">
+  <xsl:apply-templates select=".//title|.//author"/>
+</xsl:template>
+
+<xsl:template match="teiHeader" mode="footer">
+  <xsl:variable name="file" select="substring-after(base-uri(),'tekstoj/')"/>
+  <hr/>
+  <address>
+    fonto: <a target="_new" href="{$xml_src}/{$file}">
+      <xsl:value-of select="$file"/>
+    </a>
+    <!-- xsl:value-of select="substring-before(substring-after(.,',v'),' revo')"/ -->
+  </address>
 </xsl:template>
 
 
@@ -281,7 +291,7 @@ konvenciojn:
   <center><xsl:apply-templates/></center>
 </xsl:template>
 
-<xsl:template match="docTitle">
+<xsl:template match="title">
   <xsl:choose>
     <xsl:when test="titlePart">
       <xsl:apply-templates/>
@@ -293,13 +303,18 @@ konvenciojn:
   <xsl:call-template name="titolbildo"/>
 </xsl:template>
 
+
+<xsl:template match="title[@type='subordinate']">
+  <h2><xsl:apply-templates/></h2>
+</xsl:template>
+
 <xsl:template name="titolbildo"/>
 
 <xsl:template match="titlePage/byline">
   <xsl:apply-templates/><br/>
 </xsl:template>
 
-<xsl:template match="docAuthor">
+<xsl:template match="docAuthor|author">
   <b class="author"><xsl:apply-templates/></b><br/>
 </xsl:template>
 

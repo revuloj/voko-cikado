@@ -6,6 +6,7 @@
 
  
    <property name="xml" location="txt/tei2"/>
+   <property name="esf" location="txt/tei_esf/tekstoj"/>
    <property name="tmp" location="tmp"/>
    <property name="bin" location="bin"/>
    <property name="xsl" location="xsl"/>
@@ -57,6 +58,16 @@ voku ekz-e:
       biblio,fundamento,faraono,gfabeloj,fabeloj,
       fumejo,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
+      kadro">
+   </target>
+
+   <target name="cikado-verkoj"
+    depends="preparo,
+      biblio,fundamento,faraono,gfabeloj,fabeloj,
+      fumejo,interrompita,butiko,revizoro,rabistoj,marta,
+      paroloj,poemoj,homaranismo,esenco,proverb,
+      al-torento,azia-strategio,chu-li-bremsis-sufiche,chu-li-venis-trakosme,
+      chu-li,chu-ni-kunvenis-vane,chu-rakonti-novele,chu-shi-mortu-trafike,chu-vi-kuiras-chine,
       kadro">
    </target>
 
@@ -189,6 +200,88 @@ voku ekz-e:
      <xslt in="${xml}/rabistoj.xml" out="${celo}/rabistoj/index.html"
        style="${xsl}/rabistoj.xsl" classpathref="saxon.classpath"/>
    </target>
+
+   <target name="al-torento" description="kreas HTML-paghojn el al-torento.xml">
+     <xslt in="${esf}/al-torento.xml" out="${celo}/al-torento/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+   <target name="azia-strategio" description="kreas HTML-paghojn el azia-strategio.xml">
+     <xslt in="${esf}/azia-strategio.xml" out="${celo}/azia-strategio/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+    <target name="chu-li" description="kreas HTML-paghojn el chu-li.xml">
+     <xslt in="${esf}/chu-li.xml" out="${celo}/chu-li/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+   <target name="chu-li-bremsis-sufiche" description="kreas HTML-paghojn el chu-li-bremsis-sufiche.xml">
+     <xslt in="${esf}/chu-li-bremsis-sufiche.xml" out="${celo}/chu-li-bremsis-sufiche/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+  <target name="chu-li-venis-trakosme" description="kreas HTML-paghojn el chu-li-venis-trakosme.xml">
+     <xslt in="${esf}/chu-li-venis-trakosme.xml" out="${celo}/chu-li-venis-trakosme/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+  <target name="chu-shi-mortu-trafike" description="kreas HTML-paghojn el chu-shi-mortu-trafike.xml">
+     <xslt in="${esf}/chu-shi-mortu-trafike.xml" out="${celo}/chu-shi-mortu-trafike/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+  <target name="chu-ni-kunvenis-vane" description="kreas HTML-paghojn el chu-ni-kunvenis-vane.xml">
+     <xslt in="${esf}/chu-ni-kunvenis-vane.xml" out="${celo}/chu-ni-kunvenis-vane/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+
+  <target name="chu-rakonti-novele" description="kreas HTML-paghojn el chu-rakonti-novele.xml">
+     <xslt in="${esf}/chu-rakonti-novele.xml" out="${celo}/chu-rakonti-novele/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'novelo'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+  <target name="chu-vi-kuiras-chine" description="kreas HTML-paghojn el chu-vi-kuiras-chine.xml">
+     <xslt in="${esf}/chu-vi-kuiras-chine.xml" out="${celo}/chu-vi-kuiras-chine/index.html"
+       style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
+
+
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
       <property name="dir" location="fundamento-epub"/>

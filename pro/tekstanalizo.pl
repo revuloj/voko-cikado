@@ -42,22 +42,23 @@ read_all_vrk :-
     retractall(txt(_,_,_)),
     retractall(aut(_,_,_)),
     \+ (
-	vrk(Vrk,_,_,_),
+	vrk(Vrk,_,_,_,_),
 	read_vrk(Vrk),
 	fail
     ).
 
 read_vrk(Vrk) :-
     (atom(Vrk) -> forget(Vrk); true),
-    vrk(Vrk,Desc,Struct,PathSpec),
+    vrk(Vrk,Desc,Jar,Struct,PathSpec),
     % debug(tekstaro(vrk),'[~q] ~q',[Vrk,Desc]),
     expand_file_search_path(PathSpec,Pattern),
     %  atomic_list_concat([Rad,'/',Path,'/*.',Fin],'',Pattern),
-    debug(tekstaro(vrk),'[~q] (~q) ~q',[Vrk,Desc,Pattern]),
+    debug(tekstaro(vrk),'[~q] (~q/~d) ~q',[Vrk,Desc,Jar,Pattern]),
     expand_file_name(Pattern,Files),
     read_vrk_files(Vrk,Struct,Files,1),
-    aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), Count),
-    debug(tekstaro(vrk),'[~q] ----> ~d citaĵoj',[Vrk,Count]),
+    aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), CitCount),
+    aggregate(count, U^V^W^txt(Vrk:U,V,W), TxtCount),
+    debug(tekstaro(vrk),'-----> ~d frazoj en ~d teksto(j)',[CitCount,TxtCount]),
     !.
 
 read_vrk_files(Vrk,Struct,[File|More],No) :-
