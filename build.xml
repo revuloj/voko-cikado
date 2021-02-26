@@ -56,7 +56,7 @@ voku ekz-e:
    <target name="klasikaj-verkoj"
     depends="preparo,
       biblio,fundamento,faraono,gfabeloj,fabeloj,
-      fumejo,interrompita,butiko,revizoro,rabistoj,marta,
+      fumejo,lasta,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
    </target>
@@ -160,6 +160,15 @@ voku ekz-e:
     <xslt in="${xml}/fumejo.xml" out="${celo}/fumejo/index.html"
        style="${xsl}/fumejo.xsl" classpathref="saxon.classpath"/>
    </target>
+
+   <target name="lasta" description="kreas HTML-paĝojn el lasta.xml">
+    <mkdir dir="${celo}/lasta"/>
+    <copy todir="${celo}/bld/lasta">
+        <fileset dir="bld/lasta" includes="*.jpg"/>
+    </copy>
+    <xslt in="${xml}/lasta.xml" out="${celo}/lasta/index.html"
+       style="${xsl}/lasta.xsl" classpathref="saxon.classpath"/>
+   </target>   
 
    <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
      <xslt in="${xml}/interrompita.xml" out="${celo}/interrompita/index.html"
