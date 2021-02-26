@@ -12,7 +12,7 @@
 :- use_module(library(xpath)).
 %:- use_module(agordo).
 
-:- dynamic txt/3, cit/3, aut/3, vrk/4, bib/2.
+:- dynamic txt/3, cit/3, aut/3, vrk/4, bib/2, bib/4.
 
 :- consult(tekstaro).
 
@@ -29,10 +29,13 @@
 % aut(m2:1,'Funebro sen dio','Anna Loewenstein').
 
 %:- initialization(agordo).
-:- initialization(read_all_vrk).
+%%%% Remetu post reverko de la kodo!
+%%%%:- initialization(read_all_vrk).
 
 teixdtd(verkoj('teixlite.dtd')).
 tei_dtd(esf('../dtd/tei-tekstaro.dtd')).
+bibliogr(cfg('bibliogr.xml')).
+
 
 %user:file_search_path(tekstoj,'/home/revo/citajhoj/tekstoj').
 %user:file_search_path(verkoj,'/home/revo/verkoj/xml').
@@ -421,12 +424,12 @@ monato3_html(Dos,Titolo,File) :-
     xpath(Root,head/title(normalize_space),Titolo),!,
     assert(txt(Dos,Titolo,File)),
     once((
-	xpath(Root,head/meta(@name=author,@content),Autoro), Autoro \= ''
-	;
-	xpath(Root,body/div(span(@class=mm)),Div),
-	xpath(Div,/div(normalize_space),Autoro)
-	;
-	Autoro=''
+        xpath(Root,head/meta(@name=author,@content),Autoro), Autoro \= ''
+        ;
+        xpath(Root,body/div(span(@class=mm)),Div),
+        xpath(Div,/div(normalize_space),Autoro)
+        ;
+        Autoro=''
 	)),
     assert(aut(Dos,Titolo,Autoro)),
     \+ (
@@ -448,7 +451,7 @@ monato3_html(Dos,Titolo,File) :-
 monato3_html(_,_,_) :- true. % ignoru nevalidajn dosierojn ,ekz. nevalidan HTML
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% predikatoj / DCG por analizi bibliotekstojn al txt- kaj cit-faktoj
+% predikatoj / DCG por analizi biblio-tekstojn al txt- kaj cit-faktoj
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 biblio_teksto(VrkTxt,Titolo) -->
@@ -625,6 +628,29 @@ monato_teksto_linio(Linio) -->
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% predikatoj por legi la bibliografion
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+read_bib :-
+    retractall(bib(_,_,_,_)),
+    bibliogr(BibFile),
+    load_xml(BibFile,[DOM],[]), %entity('ubreve','ŭ')]),
+    xpath(DOM,/bibliografio,Root),
+    forall(bib_vrk(Root),true).
+
+bib_vrk(Root) :-
+    xpath(Root,vrk(@mll=Bib),Vrk),
+    bib_tit(Vrk,Tit),
+    bib_url(Vrk,Url),
+    bib_aut(Vrk,Aut),    
+    assert(bib(Bib,Tit,Aut,Url)).
+
+bib_tit(Vrk,Tit) :- once((xpath(Vrk,tit(normalize_space),Tit); Tit='')).
+bib_aut(Vrk,Aut) :- once((xpath(Vrk,aut(normalize_space),Aut); Aut='')).
+bib_url(Vrk,Url) :- once((xpath(Vrk,url(normalize_space),Url); Url='')).
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % predikatoj por redoni ekzemploj kun fontindiko kiel Json
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -639,10 +665,14 @@ cit_to_ekzj(Citoj,Texts) :-
 	    Texts).
 
 cit_to_json(cit(Vrk,Lok,Text),json([ekz=Text,fnt=FntJson])) :-
-	fnt_json(Vrk,Lok,FntJson).
+	fnt_json(Vrk,Lok,FntJson),!.
 
 
-fnt_json(Vrk:_,_,json([bib=Bib])) :- bib(Vrk,Bib).
+bib_(Vrk,Bib) :- bib(Vrk,Bib),!.
+bib_(Vrk,Bib) :- bib(Bib,_,_,_), downcase_atom(Bib,Vrk).
+
+
+fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
 
 fnt_json(bu:_,Lok,json([vrk='La Stranga Butiko',aut='Raymond Schwartz',lok=Lok,url='http://steloj.de/esperanto/butiko'])).
 
@@ -706,9 +736,12 @@ fnt_json(m3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	%memberchk(Jaro,['2003','2004']),
 	%format(atom(Url),'http://www.esperanto.be/fel/~w/~w',[Jaro,Dos])
 	%;
-	format(atom(Url),'https://www.monato.be/~w/~w',[Jaro,Dos])
+	format(atom(Url),'https://www.monato.be/~w/~w',[Jaro,Dos]).
 	%))
-    .
+    
+% se neniu funkcias donu la sekvan por ne gluti la trovojn!
+fnt_json(Vrk:_No,Tit, json([vrk=Verko,lok=Tit])) :- vrk(Vrk,Verko,_,_,_).
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % helpo-predikatoj / DCG por analizado

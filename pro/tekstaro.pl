@@ -1,19 +1,40 @@
 user:file_search_path(tekstoj,'../txt').
 user:file_search_path(esf,'../txt/tei_esf/tekstoj').
 user:file_search_path(verkoj,'../txt/tei2').
+user:file_search_path(cfg,'../cfg').
 
-bib(prv,'PrV').
+:- dynamic bib/4.
+
+% referencoj de verko-identigiloj al la bibliografio de ReVo...
+% Se la Verko-Id estas samlitera kiel la biblografia @mll, ne necesas
+% aparta referenco tie ĉi, ekz-e: bib(prv,'PrV').
+bib(bmt,'MT').
+bib(bnt,'NT').
+bib(d_l,'DL').
 bib(e_e,'EE').
 bib(mar,'Marta').
-bib(bdv,'BdV').
 bib(d_l,'DL').
+bib(f_e,'F').
 bib(f_k,'FK').
-bib(fdo,'FdO').
 bib(hml,'Hamlet').
 bib(ifi,'Ifigenio').
 bib(ika,'IK').
+bib(ito,'InfanTorent2').
+bib(kis,'Kiso').
+bib(lbl,'BonaLingvo').
+bib(msh,'MortulŜip').
+bib(mtp,'Metrop').
+bib(par,'Paroloj').
+bib(p_i,'Iŝtar').
+bib(pkp,'PatrojFiloj').
+bib(rab,'Rabistoj').
+bib(rvz,'Revizoro').
+bib(spj,'SkandalJozef').
+bib(sra,'SatirRak').
+
 %bib(lr,'LR').
 bib(vzm,'VivZam').
+
    
 % klasikaj tekstoj de Zamnenhof, Kabe, Ŝvarc
 vrk(prv,proverbaro,1910,
