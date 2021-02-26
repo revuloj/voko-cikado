@@ -23,7 +23,7 @@ COPY  . /home/revo/verkoj
 #COPY --chown=revo:users /css /home/revo/verkoj/css
 #COPY --chown=revo:users /build.xml /home/revo/verkoj/build.xml
 ENV CLASSPATH=/usr/share/java/Saxon-HE.jar
-RUN cd /home/revo/verkoj && ant cikado-verkoj
+RUN cd /home/revo/verkoj && ant klasikaj-verkoj
 
 # Nun ni kreos la propran keston por servi la verkojn...
 

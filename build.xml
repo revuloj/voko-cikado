@@ -61,15 +61,27 @@ voku ekz-e:
       kadro">
    </target>
 
-   <target name="cikado-verkoj"
-    depends="preparo,
-      biblio,fundamento,faraono,gfabeloj,fabeloj,
-      fumejo,interrompita,butiko,revizoro,rabistoj,marta,
-      paroloj,poemoj,homaranismo,esenco,proverb,
-      al-torento,azia-strategio,chu-li-bremsis-sufiche,chu-li-venis-trakosme,
-      chu-li,chu-ni-kunvenis-vane,chu-rakonti-novele,chu-shi-mortu-trafike,chu-vi-kuiras-chine,
-      kadro">
+   <target name="esf-verkoj"
+    depends="preparo" description="kreas HTML-paghojn el ESF-TEI-tekstoj">
+
+    <copy todir="${celo}/esf/bildoj">
+        <fileset dir="${esf}/bildoj" includes="*.jpg"/>
+    </copy>
+
+     <xslt basedir="${esf}" includes="*.xml" destdir="${celo}/esf" extension=".html"
+      style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
+
+        <!-- ne ĉiuj dokumentoj estas partigitaj laŭ "chapitro",
+          aliaj laŭ "parto", "artikolo", "novelo"...
+          Momente ne tro gravas, ĉar ni ne dismetas ilin en plurajn dosierojn
+          En teixlite nie faras tion per @rend='doc' - aŭ ni devus
+          aldoni tion al la tekstoj aŭ krei apartan logikon por ESF-TEI.
+        -->
+        <param name="content_level1" expression="'chapitro'"/>
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
    </target>
+
 
   <target name="kadro" description="kreas HTML-enhavoliston de la verkoj">
    <!--
@@ -80,6 +92,7 @@ voku ekz-e:
     <xslt out="${tmp}/verkolisto.xml" in="${xml}/fumejo.xml"
            style="${xsl}/verkolisto_prep.xsl"
            classpathref="saxon.classpath">
+       <param name="xml_base_url" expression="file://${user.dir}"/>  <!--'file:///home/revo/verkoj'/-->
        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
     </xslt>
 
@@ -201,6 +214,7 @@ voku ekz-e:
        style="${xsl}/rabistoj.xsl" classpathref="saxon.classpath"/>
    </target>
 
+<!--
    <target name="al-torento" description="kreas HTML-paghojn el al-torento.xml">
      <xslt in="${esf}/al-torento.xml" out="${celo}/al-torento/index.html"
        style="${xsl}/tei_esf.xsl" classpathref="saxon.classpath">
@@ -280,7 +294,7 @@ voku ekz-e:
         <factory name="net.sf.saxon.TransformerFactoryImpl"/>
       </xslt>
    </target>
-
+-->
 
 
    <target name="fundamento-epub" description="kreas EPUB-libron el fundamento.xml">
