@@ -35,8 +35,11 @@ bib(sra,'SatirRak').
 %bib(lr,'LR').
 bib(vzm,'VivZam').
 
-   
-% klasikaj tekstoj de Zamnenhof, Kabe, Ŝvarc
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% klasikaj tekstoj de Zamnenhof, Kabe, Ŝvarc kc - ĝis 1939
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 vrk(prv,proverbaro,1910,
     struct_teix(preface,chapter),
     verkoj('proverb.xml')).
@@ -58,6 +61,9 @@ vrk(f_e,fundamento,1905,
 vrk(grf,gfabeloj,1906,
     struct_teix(foreword,story),
     verkoj('gfabeloj.xml')).
+vrk(lst,lasta,1910,
+    struct_teix(story),
+    verkoj('lasta.xml')).
 vrk(ika,interompita,1928,
     struct_teix(chapter),
     verkoj('interrompita.xml')).
@@ -213,6 +219,10 @@ vrk(rob,robinsono,1908,
     struct_tei(enkonduko,parto),
     esf('robinsono-kruso.xml')).
 
+vrk(tor,al_torento,1930,
+    struct_tei(chapitro),
+    esf('al-torento.xml')).
+
 vrk(taa,tri_angloj,1936,
     struct_tei(chapitro),
     esf('tri-angloj-alilande.xml')).
@@ -234,12 +244,10 @@ vrk(zam,zamenhof,1929,
     struct_tei(chapitro),
     esf('zamenhof.xml')).
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% postaj tekstoj
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-vrk(tor,al_torento,1930,
-    struct_tei(chapitro),
-    esf('al-torento.xml')).
+% postaj tekstoj (ekde 1940)
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 vrk(chb,chu_bremsis,1978,
     struct_tei(chapitro),

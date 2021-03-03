@@ -29,8 +29,9 @@
 % aut(m2:1,'Funebro sen dio','Anna Loewenstein').
 
 %:- initialization(agordo).
-%%%% Remetu post reverko de la kodo!
-%%%%:- initialization(read_all_vrk).
+%%%% Vi povas tie ĉi malŝalti portempe la aŭtomatan tekstŝargon, sed
+%%%% remetu poste!
+:- initialization(read_all_vrk).
 
 teixdtd(verkoj('teixlite.dtd')).
 tei_dtd(esf('../dtd/tei-tekstaro.dtd')).
