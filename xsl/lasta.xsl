@@ -1,6 +1,5 @@
 <!DOCTYPE xsl:stylesheet 
 [
-  <!ENTITY Ccirc  "&#x0108;">
   <!ENTITY dash "&#x2015;">
   <!ENTITY leftquot '"'>
   <!ENTITY rightquot '"'>
