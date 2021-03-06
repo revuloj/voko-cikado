@@ -103,7 +103,7 @@ XSLT-stildifinoj por krei liston de la verkoj.
 
 <xsl:template match="verkolisto">
   <h1>verkoj</h1>
-  <p>
+  <p class="al_sercho">
     <a href="sercho.html" target="verko">
       <span class="montrilo">&#x25BA; </span>
       Serĉo
