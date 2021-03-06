@@ -29,6 +29,7 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:variable name="content_level2" select="''"/>
 
 <xsl:variable name="titolbildo">../bld/kandid/titolo.jpg</xsl:variable>
+<xsl:variable name="ilustro">../bld/kandid/ilustro.png</xsl:variable>
 
 
 <xsl:template match="titlePart[@type='main']">
@@ -42,6 +43,12 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:template match="titlePart[@type='subtitle']">
   <h2 class="head"><xsl:apply-templates/></h2>
 </xsl:template>
+
+<xsl:template match="docImprint">
+  <img align="center" src="{$ilustro}"/>
+  <p class="docImprint"><cite><xsl:apply-templates/></cite></p>
+</xsl:template>
+<xsl:template match="docImprint/date"/> <!-- jam en la ilustro -->
 
 <!--
 <xsl:template match="dif[@type='title']/epigraph">
@@ -107,7 +114,7 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:template match="div[@type='title']">
   <div class="title">
     <p class="titolbildo">
-      <img width="50%" align="center" src="{$titolbildo}"/>
+      <img width="600" align="center" src="{$titolbildo}"/>
     </p>
     <xsl:apply-templates/>
   </div>

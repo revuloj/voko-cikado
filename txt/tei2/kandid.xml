@@ -27,9 +27,12 @@
 <!-- bildoj -->
 <!NOTATION png PUBLIC "PNG 1.0">
 <!ENTITY voltaire SYSTEM "../bld/kandid/voltaire.png" NDATA png>
-<!ENTITY kunegold SYSTEM "../bld/kandid/kunegold.png" NDATA png>
+<!ENTITY kandid SYSTEM "../bld/kandid/kandid.png" NDATA png>
+<!ENTITY kunegond SYSTEM "../bld/kandid/kunegond.png" NDATA png>
 <!ENTITY panglos SYSTEM "../bld/kandid/panglos.png" NDATA png>
 <!ENTITY maljunulino SYSTEM "../bld/kandid/maljunulino.png" NDATA png>
+<!ENTITY kakambo SYSTEM "../bld/kandid/kakambo.png" NDATA png>
+<!ENTITY marten SYSTEM "../bld/kandid/marten.png" NDATA png>
 
 ]>
 
@@ -122,10 +125,9 @@
         </titlePart>
       </docTitle>
       <docImprint>
-         <date>1929</date><lb/>
+         <date>1929</date>
          <publisher>Sennacieca Asocio Tutmonda</publisher><lb/>
-         <publisher>Eldona fako kooperativa</publisher> /
-         <pubPlace>Leipzig</pubPlace>
+         <publisher>Eldona fako kooperativa</publisher> / <pubPlace>Leipzig</pubPlace>
       </docImprint>
     </titlePage>
 
@@ -455,6 +457,10 @@ estas bona, tiuj
 diris sensencaĵon;
 necesis diri, ke ĉio
 estas la plej bona.</q></p>
+
+<p>
+<figure entity="kandid"><figDesc><name>Kandid</name></figDesc></figure>
+</p>
 
 <p>Kandid atente
 aŭskultis, kaj naive
@@ -1313,7 +1319,7 @@ estis amata.</q></p>
 
 
 <p>
-<figure entity="kunegold"><figDesc><name>Kundegold</name></figDesc></figure>
+<figure entity="kunegond"><figDesc><name>Kundegond</name></figDesc></figure>
 </p>
 
 
@@ -1870,7 +1876,7 @@ nin, ĝis kiam
 
 
 <p>
-<figure entity="maljunulino"><figDesc><name>Panglos</name></figDesc></figure>
+<figure entity="maljunulino"><figDesc><name>La Maljunulino</name></figDesc></figure>
 </p>
 
 
@@ -2152,7 +2158,7 @@ al Frederiko:
 <q rend="«»">
 <lg>
 <l>Ho malŝatinda Vestfalio!</l>
-<l>.........................</l>
+<l>. . . . . . . . . . . . </l>
 <l>Kiu volas vivi sen ia bono,</l>
 <l>Sen trinko, dormo kaj sen manĝo,</l>
 <l>Trafa por li vojaĝ-aranĝo</l>
@@ -2721,6 +2727,11 @@ kiu ĉiam divenis la dubojn de Kandid.</q></p>
 ekzistas du, nek tri, nek kvar. Mi konfesas al vi,
 ke la homoj el via mondo faras tre strangajn
 demandojn.</q></p>
+
+
+<p>
+<figure entity="kakambo"><figDesc><name>Kakambo</name></figDesc></figure>
+</p>
 
 <p>Kandid nelaciĝis
 demandadi la bonan
@@ -3953,6 +3964,11 @@ Marten.</q></p>
 Anglion; ĉu oni
 estas tie same freneza 
 kiel en Francio?</q></p>
+
+
+<p>
+<figure entity="marten"><figDesc><name>Marten</name></figDesc></figure>
+</p>
 
 <p><q rend="- ">Estas alia
 speco de frenezo,
