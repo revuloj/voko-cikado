@@ -47,9 +47,16 @@ specialajn regulojn ne aŭ alie difinitajn tie.
       <xsl:text>#</xsl:text>
       <xsl:call-template name="footnote-id"/>
     </xsl:attribute>
-    <sup>&#x2193;<xsl:number from="div[@rend='doc']" level="any"/></sup>
+    <sup>&#x2193;<xsl:number from="div" level="any"/></sup>
   </a>
   <xsl:text>)</xsl:text>
+</xsl:template>
+
+<xsl:template match="div[@type='title']">
+  <div class="footnotes">
+    <xsl:apply-templates/>
+    <xsl:call-template name="footnotes"/>
+  </div>
 </xsl:template>
 
 <xsl:template name="footnotes">
@@ -64,7 +71,7 @@ specialajn regulojn ne aŭ alie difinitajn tie.
         <xsl:text>#fn_</xsl:text>
         <xsl:call-template name="footnote-id"/>
       </xsl:attribute>
-      <sup>&#x2191;<xsl:number from="div[@rend='doc']"  level="any"/></sup>
+      <sup>&#x2191;<xsl:number from="div"  level="any"/></sup>
     </a>
     <xsl:text>) </xsl:text>
     <xsl:apply-templates/>
@@ -73,9 +80,9 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 </xsl:template>
 
 <xsl:template name="footnote-id">
-  <xsl:value-of select="ancestor::div[@rend='doc']/@id"/>
+  <xsl:value-of select="ancestor::div/@id"/>
   <xsl:text>_</xsl:text>
-  <xsl:number from="div[@rend='doc']"  level="any"/>
+  <xsl:number from="div"  level="any"/>
 </xsl:template>
 
 <xsl:template match="note[@type='footnote']/label">

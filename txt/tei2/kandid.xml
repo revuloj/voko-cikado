@@ -121,26 +121,13 @@
          <pubPlace>Leipzig</pubPlace>
       </docImprint>
     </titlePage>
+
   </front>
+
 
   <body>
 
-<epigraph>  
-<cit>
-<q>
-Unu el la plej egalrajtaj
-malfeliĉoj en la vivo
-estas la lingvodiverseco.
-<name>Volter.</name>
-</q>
-</cit>
-</epigraph>  
-
-<!-- #### bildo ###
-#######################################################
--->
-
-<div type="foreword" id="A">
+<div type="chapter" rend="doc" id="A">
 
 <head>Antaŭparolo</head>
 
@@ -343,27 +330,57 @@ Marte 1929.
 </signed>
 </div>
 
-    
+<!-- ĉar ni ne uzas rend='doc' ĉi-tie, tio aperas ankoraŭ en la 
+    precipa paĝo sub la enhavotabelo. En la libro ĝi aperas supre de
+    la unua ĉapitro post la antaŭparolo -->
+<div type="title">
 
-<div>
-<head>Kandid
-  <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
-  senmalica, naiva.</emph></note>
-</head>
-<head type="subtitle">aŭ la optimismo</head>
+  <head>Kandid
+    <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
+    senmalica, naiva.</emph></note>
+  </head>
+  <head type="subtitle">aŭ la optimismo</head>
 
-<p rend="italic">
-Tradukita francen el la germana lingvo de sinjoro doktoro
-Ralf
-<note type="footnote" rend="(2)">Germane: Ralph.</note>, 
-kun la aldonoj, kiujn oni trovis en la poŝo
-de l' doktoro post lia morto, okazinta dum la
-favora jaro 1759.
-</p>
-</div>
+  <epigraph rend="italic"><p>
+    Tradukita francen el la germana lingvo de sinjoro doktoro
+    Ralf
+    <note type="footnote" rend="(2)">Germane: Ralph.</note>, 
+    kun la aldonoj, kiujn oni trovis en la poŝo
+    de l' doktoro post lia morto, okazinta dum la
+    favora jaro 1759.
+  </p></epigraph>
 
+
+  <epigraph>  
+    <cit>
+      <q rend="  ">
+      Unu el la plej egaj<lb/>
+      malfeliĉoj en la vivo<lb/>
+      estas la lingvodiverseco.<lb/>
+      <name>Volter.</name>
+      </q>
+    </cit>
+  </epigraph> 
+
+  <p>
+    <figure>
+      <!-- #### bildo ###
+    #######################################################
+    -->
+      <figDesc>
+      <name>
+        Francois-Marie AROUET<lb/>
+        (Pseŭdonime: Voltaire)</name>
+      <date>
+        1694-1778
+      </date>
+      </figDesc>
+    </figure>
+  </p>
+</div>    
 
 <div type="chapter" rend="doc" id="I">
+
 <head>Ĉapitro I</head>
 
 <epigraph><p>Kiel Kandid estis edukata en bela kastelo,
