@@ -161,6 +161,15 @@ voku ekz-e:
        style="${xsl}/fumejo.xsl" classpathref="saxon.classpath"/>
    </target>
 
+   <target name="kandid" description="kreas HTML-paĝojn el kandid.xml">
+    <mkdir dir="${celo}/kandid"/>
+    <copy todir="${celo}/bld/kandid">
+        <fileset dir="bld/kandid" includes="*.jpg"/>
+    </copy>
+    <xslt in="${xml}/kandid.xml" out="${celo}/kandid/index.html"
+       style="${xsl}/teixlite_default.xsl" classpathref="saxon.classpath"/>
+   </target>   
+
    <target name="lasta" description="kreas HTML-paĝojn el lasta.xml">
     <mkdir dir="${celo}/lasta"/>
     <copy todir="${celo}/bld/lasta">

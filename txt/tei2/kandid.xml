@@ -137,7 +137,7 @@ estas la lingvodiverseco.
 #######################################################
 -->
 
-<div type="foreword">
+<div type="foreword" id="A">
 
 <head>Antaŭparolo</head>
 
@@ -340,7 +340,7 @@ Marte 1929.
 </signed>
 </div>
     
-<div type="title">
+<div type="title" id="O">
 <head>Kandid
   <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
   senmalica, naiva.</emph></note>
@@ -358,7 +358,7 @@ favora jaro 1759.
 </div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="I">
 <head>Ĉapitro I</head>
 
 <epigraph><p>Kiel Kandid estis edukata en bela kastelo,
@@ -479,7 +479,7 @@ estis konsternita en la plejeble bela kaj agrabla el
 la kasteloj.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="II">
 <head>Ĉapitro II</head>
 
 <epigraph><p>Kio fariĝis Kandid inter la Bulgaroj 
@@ -604,7 +604,7 @@ haŭto kaj povis marŝi, kiam la reĝo de la Bulgaroj
 ekbatalis kontraŭ la reĝo de la Abaroj.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="III">
 <head>Ĉapitro III</head>
 
 <epigraph><p>Kiel Kandid forkuris el inter la Bulgaroj
@@ -720,7 +720,7 @@ nigraj dentoj kaj gorĝa voĉo, turmentata de fortega
 tuso kaj kraĉanta denton ĉe ĉiu peno.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="IV">
 <head>Ĉapitro IV</head>
 
 <epigraph><p>Kiel Kandid renkontis sian malnovan majstron,
@@ -879,7 +879,7 @@ la ventoj el la kvar anguloj de l' mondo, kaj la
 estis videbla la haveno de Lisbono.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="V">
 <head>Ĉapitro V</head>
 
 <epigraph><p>Uragano, ŝiprompo, tertremo, kaj kio okazis kun
@@ -1033,7 +1033,7 @@ intimulo kapsignis al sia armita servistaĉo, kiu
 donis al li por trinki vinon el Porto aŭ el Oporto.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="VI">
 <head>Ĉapitro VI</head>
 
 <epigraph><p>Kiel oni faris belegan bruligon <note type="footnote" rend="(1)">Tiu 
@@ -1102,7 +1102,7 @@ kiam maljunulino aliris al li kaj diris:
 <q rend="«»">Mia filo, havu kuraĝon; iru kun mi.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="VII">
 <head>Ĉapitro VII</head>
 
 <epigraph><p>Kiel maljunulino flegis Kandid, kaj kiel li retrovis.
@@ -1201,7 +1201,7 @@ kaj de Panglos, post tio ŝi parolis jene al
 Kandid, kiu aŭskultegis kaj avidege ŝin rigardis.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="VIII">
 <head>Ĉapitro VIII</head>
 
 <epigraph><p>Historio de Kunegond.</p></epigraph>
@@ -1344,7 +1344,7 @@ Li venis por ĝui siajn rajtojn, kaj klarigi sian
 delikatan amon.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="IX">
 <head>Ĉapitro IX</head>
 
 <epigraph><p>Kio okazis kun Kunegond, kun Kandid,
@@ -1420,7 +1420,7 @@ en la malgranda urbo Avacena, meze en la montoj
 de Siera-Morena; kaj ili jene parolis en gastejo.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="X">
 <head>Ĉapitro X</head>
 
 <epigraph><p>En kia mizerego Kandid, Kunegond kaj la maljunulino
@@ -1522,7 +1522,7 @@ spirito de Kunegond kaj de Kandid. La maljunulino
 parolis al ili jene.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XI">
 <head>Ĉapitro XI</head>
 
 <epigraph><p>Historio de la maljunulino.</p></epigraph>
@@ -1668,7 +1668,7 @@ vidis blankulon kun bona mieno, kiu ĝemetis kaj
 murmuris: O che sciagura d'essere senza c&elipse;&elipse;!</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XII">
 <head>Ĉapitro XII</head>
 
 <epigraph><p>Daŭrigo pri la malfeliĉoj de la maljunulino.</p></epigraph>
@@ -1858,7 +1858,7 @@ ke li estas la plej malfeliĉa inter la homoj, ĵetu
 min en la maron kun la kapo antaŭen.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XIII">
 <head>Ĉapitro XIII</head>
 
 <epigraph><p>Kiel Kandid estis devigata disiĝi de la bela Kunegond
@@ -1964,7 +1964,7 @@ vi estos bruligata</q>. Ne estis perdota momento;
 sed kiel disiĝi de Kunegond, kaj kien rifuĝi?</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XIV">
 <head>Ĉapitro XIV</head>
 
 <epigraph><p>Kiel Kandid kaj Kakambo estis akceptataj ĉe la jezuitoj
@@ -2162,7 +2162,7 @@ provincan patron; kaj la komandanto parolis
 jene al sia kara Kandid.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XV">
 <head>Ĉapitro XV</head>
 
 <epigraph><p>Kiel Kandid mortigis la fraton de sia kara Kunegond.</p></epigraph>
@@ -2259,7 +2259,7 @@ eldirante tiujn vortojn kaj hispanlingve kriante:</p>
 <p><q rend="«»">Lokon, lokon por la respektinda patro kolonelo.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XVI">
 <head>Ĉapitro XVI</head>
 
 <epigraph><p>Kio okazis al la du vojaĝantoj kun du junulinoj, du simioj,
@@ -2433,7 +2433,7 @@ tiuj homoj, anstataŭ min manĝi, faris al mi mil ĝentilojn,
 tuj kiam ili eksciis, ke mi ne estas jezuito.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XVII">
 <head>Ĉapitro XVII</head>
 
 <epigraph><p>Pri alveno de Kandid kaj de lia servisto en la landon
@@ -2601,7 +2601,7 @@ diris majstro Panglos, mi ofte ekvidis, ke ĉio sufiĉe
 malbonstatas en Vestfalio.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XVIII">
 <head>Ĉapitro XVIII</head>
 
 <epigraph><p>Kion ili vidis en la lando Eldorado.</p></epigraph>
@@ -2854,7 +2854,7 @@ vendotaksigota. Ni iru al Kajeno, ne enŝipiĝu, kaj
 poste ni vidos, kiun reĝlandon ni povos aĉeti.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XIX">
 <head>Ĉapitro XIX</head>
 
 <epigraph><p>Kio okazis al ili en Surinam, kaj kiel Kandid
@@ -3094,7 +3094,7 @@ maljuste kontraŭ ilin; sed li kvietigis ilin donacante
 al ĉiu cent piastrojn.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XX">
 <head>Ĉapitro XX</head>
 
 <epigraph><p>Kio okazis surmare al Kandid kaj al Marten.</p></epigraph>
@@ -3223,7 +3223,7 @@ Kandid karesis sian ŝafon. <q rend="«»">Ĉar mi retrovis cin,
 li diris, mi povos ankaŭ retrovi Kunegond.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXI">
 <head>Ĉapitro XXI</head>
 
 <epigraph><p>Kandid kaj Marten proksimiĝas al la bordoj de Francio
@@ -3325,7 +3325,7 @@ homoj ŝanĝis la sian?</q></p>
 <p>Tiel rezonante, ili alvenis ĉe Bordo.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXII">
 <head>Ĉapitro XXII</head>
 
 <epigraph><p>Kio okazis en Francio al Kandid kaj al Marten.</p></epigraph>
@@ -3888,7 +3888,7 @@ liberigita el la infero, kaj li nepre esperis ĉe la
 unua okazo sin denove direkti al Venezio.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXIII">
 <head>Ĉapitro XXIII</head>
 
 <epigraph><p>Kandid kaj Marten iras al la bordoj de Anglio;
@@ -3979,7 +3979,7 @@ Mi fidas al Kakambo, kiel al mi mem. Ĉio estas
 bona, ĉio iras bone, ĉio iras kiel eble plej bone.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXIV">
 <head>Ĉapitro XXIV</head>
 
 <epigraph><p>Pri Paket kaj frato Levkojo.</p></epigraph>
@@ -4222,7 +4222,7 @@ Oni asertas, ke ĝi estas homo, kiu neniam havis
 pri permeso viziti lin la morgaŭon.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXV">
 <head>Ĉapitro XXV</head>
 
 <epigraph><p>Vizito ĉe la sinjorego Pokokurant, nobela Veneziano.</p></epigraph>
@@ -4485,7 +4485,7 @@ sian doloron, ke li ne rimarkis, ke Paket kaj frato
 Levkojo eĉ ne venis por lin danki.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXVI">
 <head>Ĉapitro XXVI</head>
 
 <epigraph><p>Pri vespermanĝo, kiun ĉeestis Kandid kaj Marten
@@ -4880,7 +4880,7 @@ kaj ili denove veturis per alia
 galero por iri liberigi Kunegond.</p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXVIII">
 <head>Ĉapitro XXVIII</head>
 
 <epigraph><p>Kio okazis al Kandid, al Panglos, al Marten, ktp.</p></epigraph>
@@ -5004,7 +5004,7 @@ kiel en nia traduko. Sendube tia neklaro estas intenca ĉe
 Volter. <label>Trad.</label></note>.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXIX">
 <head>Ĉapitro XXIX</head>
 
 <epigraph><p>Kiel Kandid retrovis Kunegond kaj la maljunulinon.</p></epigraph>
@@ -5062,7 +5062,7 @@ se mi obeus mian koleron.</q></p>
 sed dum mi vivos, ci ne edziĝos kun mia fratino.</q></p></div>
 
 
-<div type="chapter" rend="doc">
+<div type="chapter" rend="doc" id="XXX">
 <head>Ĉapitro XXX</head>
 
 <epigraph><p>Konkludo.</p></epigraph>
