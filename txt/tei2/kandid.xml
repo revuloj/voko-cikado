@@ -1,7 +1,140 @@
+<?xml-stylesheet type="text/xml" href="kandid.xsl"?>
 
-# Antaŭparolo</p>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
 
-<!-- https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_lite.doc.html -->
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
+
+<!-- aliaj literoj -->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
+
+]>
+
+<!-- $Id: kandid.xml,v 1.0 2021/03/06 12:00:00 revo Exp $ -->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>Kandid aŭ la optimismo</title>
+      <author>Volter</author>
+      <respStmt>
+        <resp>tradukis</resp>
+        <name>E. Lanti</name>
+      </respStmt>
+      <respStmt>
+        <resp>ilustris</resp>
+        <name>E. Bartelmes</name>
+      </respStmt>
+      <respStmt>
+        <resp>enkomputiligita kaj adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: kandid.xml,v 1.0 2021/03/06 12:00:00 revo Exp $</edition>
+    </editionStmt>
+    <extent>225 kB</extent>
+    <publicationStmt>
+      <publisher>Sennacieca Asocio Tutmonda</publisher>
+      <pubPlace>Leipzig</pubPlace>
+      <date>1929</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+    <!-- https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_lite.doc.html -->
+
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kadre de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstoj registri&gcirc;is per signorekona programo
+      kaj posta mana prilaboro.</p>
+
+      <p>La unuopaj &ccirc;apitroj estas apartigitaj per
+      &lt;div type="chapter" id="/markilo/"&gt;.</p>
+
+      <p>En la originala romano la paroloj kaj aliaj citilaj tekstoj estas diveres markitaj
+      per '«', '»' kaj longaj strekoj. Por konservi la diversajn signojn mi
+      uzis en la atributo rend la sekvajn kombinojn: '- ', '-«', '« ', '«»', '  '. 
+      Tiu kun la spacoj okazas, se pensado etendi&gcirc;as
+      tra pluraj alineoj.</p>
+
+      <p>Kiel emfazajn elementojn estas uzataj diversloke name, emph, mentioned, foreign.</p>
+
+      <p>La multajn piednotojn mi signis per &lt;note&gt;.</p>
+    </editorialDecl>	
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+ <front rend="index">
+    <titlePage>
+      <docAuthor>Volter</docAuthor>
+      <docTitle>
+        <titlePart type="main">Kandid</titlePart>
+        <titlePart type="small">aŭ</titlePart>
+        <titlePart type="subtitle">la optimismo</titlePart>
+        <titlePart type="translator">
+          Esperanta traduko de <name>E. Lanti</name>
+        </titlePart>
+        <titlePart type="part">antaŭparolo de la tradukinto</titlePart>
+        <titlePart type="illustrator">
+          ilustroj de <name>R. Bartelmes</name>
+        </titlePart>
+      </docTitle>
+      <docImprint>
+         <date>1929</date>
+         <publisher>Sennacieca Asocio Tutmonda</publisher>
+         <publisher>Eldona fako kooperativa</publisher>
+         <pubPlace>Leipzig</pubPlace>
+      </docImprint>
+    </titlePage>
+  </front>
+
+  <body>
+
+<epigraph>  
+Unu el la plej egalrajtaj
+malfeliĉoj en la vivo
+estas la lingvodiverseco.
+<signed>Volter.</signed>
+</epigraph>  
+
+#### bildo ###
+
+<div type="foreword">
+
+<head>Antaŭparolo</head>
+
 
 <p>
 Jam forpasis cent sep dek jaroj, de kiam aperis
@@ -5177,6 +5310,8 @@ bona lando Eldorado, vi ne manĝus ĉi tie konfititajn
 cedratojn kaj pistakojn.</q></p>
 
 <p><q rend="- ">Tio estas bele dirita, respondis Kandid, sed
-ni devas kulturi nian ĝardenon.</q></p>
+ni devas kulturi nian ĝardenon.</q></p></div>
 
-<p>
+</body>
+</text>
+</TEI.2>
