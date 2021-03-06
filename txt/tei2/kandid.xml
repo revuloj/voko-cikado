@@ -216,10 +216,11 @@ de l' doktoro post lia morto, okazinta dum la
 favora jaro 1759.
 #################################################
 
-<p>Ĉapitro I</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro I</head>
 
-<p>  Kiel Kandid estis edukata en bela kastelo,
-  kaj kiel li estis el ĝi forpelata.</p>
+<epigraph>Kiel Kandid estis edukata en bela kastelo,
+  kaj kiel li estis el ĝi forpelata.</epigraph>
 
 <p>En Vestfalio, en la kastelo de lia barona moŝto
 Thunder-ten-tronckh, estis junulo al kiu la naturo
@@ -333,15 +334,15 @@ forpelis Kandid el la kastelo per piedbatoj sur la
 postaĵon; Kunegond svenis; tuj rekonsciiĝinte, ŝi
 estis vangofrapata de la barona sinjorino; kaj ĉio
 estis konsternita en la plejeble bela kaj agrabla el
-la kasteloj.</p>
+la kasteloj.</p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro II</head>
 
-<p>ĈAPITRO II</p>
-
-<p> Kio fariĝis Kandid inter la Bulgaroj 
+<epigraph>Kio fariĝis Kandid inter la Bulgaroj 
 <note type="footnote" rend="(1)">En ĉi tiu ĉapitro Volter nomas la Prusojn Bulgaroj;
-kaj la Francojn Abaroj.</note>.</p>
+kaj la Francojn Abaroj.</note>.</epigraph>
 
 <p>
 Kandid, forpelite el la tera paradizo, marŝadis
@@ -458,16 +459,14 @@ moligaj kuraciloj, rekomenditaj de Dioskoridos
 <note type="footnote" rend="(4)">Greka kuracisto. 
 <label>Trad.</label></note>. Li jam havis iom da 
 haŭto kaj povis marŝi, kiam la reĝo de la Bulgaroj 
-ekbatalis kontraŭ la reĝo de la Abaroj.</p>
+ekbatalis kontraŭ la reĝo de la Abaroj.</p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro III</head>
 
-
-<p>
-ĈAPITRO III</p>
-
-<p>  Kiel Kandid forkuris el inter la Bulgaroj
-  kaj kio li fariĝis.</p>
+<epigraph>Kiel Kandid forkuris el inter la Bulgaroj
+  kaj kio li fariĝis.</epigraph>
 
 <p>Nenio estis tiom bela, tiom facilmova, tiom
 brila, tiom bonorda kiel la du armeoj. La trumpetoj,
@@ -576,13 +575,14 @@ mantelo kaj de lia edzino.</q></p>
 tute kovritan per pustuloj, kun malvivaj okuloj,
 kun nazo ĉirkaŭmanĝita, kun malrekta buŝo, kun
 nigraj dentoj kaj gorĝa voĉo, turmentata de fortega
-tuso kaj kraĉanta denton ĉe ĉiu peno.</p>
+tuso kaj kraĉanta denton ĉe ĉiu peno.</p></div>
 
-<p>
-ĈAPITRO IV</p>
 
-<p>  Kiel Kandid renkontis sian malnovan majstron,
-  doktoron Panglos, kaj kio rezultis el tio.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro IV</head>
+
+<epigraph>Kiel Kandid renkontis sian malnovan majstron,
+  doktoron Panglos, kaj kio rezultis el tio.</epigraph>
 
 <p>Kortuŝate de kompato pli ol de abomeno ĉe la
 vido de tiu terura mizerulaĉo, Kandid donis al li
@@ -734,14 +734,14 @@ des pli ĉio statas bone.</q></p>
 <p>Dum li rezonadis, la vetero malheliĝis, blovis
 la ventoj el la kvar anguloj de l' mondo, kaj la
 ŝipo estis atakata de plej terura uragano, kiam
-estis videbla la haveno de Lisbono.</p>
+estis videbla la haveno de Lisbono.</p></div>
 
-<p></p>
 
-<p>ĈAPITRO V</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro V</head>
 
-<p> Uragano, ŝiprompo, tertremo, kaj kio okazis kun
- doktoro Panglos, kun Kandid kaj la anabaptisto Jakobo.</p>
+<epigraph>Uragano, ŝiprompo, tertremo, kaj kio okazis kun
+ doktoro Panglos, kun Kandid kaj la anabaptisto Jakobo.</epigraph>
 
 <p>La duono el la pasaĝeroj estis tiom malfortiĝintaj,
 mortiĝantaj pro tiuj nekompreneblaj premdoloroj,
@@ -888,16 +888,15 @@ determinita volo&ellipsis;</q></p>
 
 <p>Panglos estis ĉe la mezo de sia frazo, kiam la
 intimulo kapsignis al sia armita servistaĉo, kiu
-donis al li por trinki vinon el Porto aŭ el Oporto.</p>
+donis al li por trinki vinon el Porto aŭ el Oporto.</p></div>
 
-<p></p>
 
-<p>ĈAPITRO VI</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro VI</head>
 
-<p>
-  Kiel oni faris belegan bruligon <note type="footnote" rend="(1)">Tiu 
+<epigraph>Kiel oni faris belegan bruligon <note type="footnote" rend="(1)">Tiu 
   bruligo reale okazis la 26. junio 1756.</note> por malhelpi la
-  tertremojn, kaj kiel Kandid estis sidvange punfrapata.</p>
+  tertremojn, kaj kiel Kandid estis sidvange punfrapata.</epigraph>
 
 <p>
 Post la tertremo, kiu detruis la tri kvaronojn
@@ -958,14 +957,14 @@ oni trafendis al vi la ventron!</q></p>
 <p>Aŭdinte predikon, ricevinte batojn sur la postaĵon,
 absolvon kaj benon, li revenis apenaŭ povante stari,
 kiam maljunulino aliris al li kaj diris:
-<q rend="«»">Mia filo, havu kuraĝon; iru kun mi.</q></p>
+<q rend="«»">Mia filo, havu kuraĝon; iru kun mi.</q></p></div>
 
 
-<p> 
-ĈAPITRO VII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro VII</head>
 
-<p>  Kiel maljunulino flegis Kandid, kaj kiel li retrovis.
-  la amatinon.</p>
+<epigraph>Kiel maljunulino flegis Kandid, kaj kiel li retrovis.
+  la amatinon.</epigraph>
 
 <p>Kandid ne perdis kuraĝon, kaj sekvis la maljunulinon
 en domaĉon; ŝi donis al li poton da
@@ -1057,13 +1056,13 @@ rakontis ĉion, kion li spertis depost la momento
 de ilia disiĝo. Kunegond ĉielen levis la okulojn;
 ŝi larmis, eksciante pri la morto de la bona anabaptisto
 kaj de Panglos, post tio ŝi parolis jene al
-Kandid, kiu aŭskultegis kaj avidege ŝin rigardis.</p>
+Kandid, kiu aŭskultegis kaj avidege ŝin rigardis.</p></div>
 
-<p></p>
 
-<p>ĈAPITRO VIII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro VIII</head>
 
-<p>  Historio de Kunegond.</p>
+<epigraph>Historio de Kunegond.</epigraph>
 
 <p><q rend="«»">Mi estis en lito kaj dormegis, kiam plaĉis al la
 Ĉielo sendi Bulgarojn en nian belan kastelon de
@@ -1200,13 +1199,14 @@ ili reokupas la belan kanapon, pri kiu ni
 jam parolis; ili estis tie, kiam sinjoro don Isaĥar,
 unu el la mastroj de la domo, alvenis. Estis sabate.
 Li venis por ĝui siajn rajtojn, kaj klarigi sian
-delikatan amon.</p>
+delikatan amon.</p></div>
 
-<p>
-ĈAPITRO IX</p>
 
-<p>  Kio okazis kun Kunegond, kun Kandid,
-  kun la ĉefinkvizitoro kaj kun judo.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro IX</head>
+
+<epigraph>Kio okazis kun Kunegond, kun Kandid,
+  kun la ĉefinkvizitoro kaj kun judo.</epigraph>
 
 <p>Tiu Isaĥar estis la plej kolerema hebreo, kiun
 oni vidis en Izraelio, depost la kaptiteco en Babilono.
@@ -1275,13 +1275,14 @@ preĝejo kaj oni ĵetas Isaĥar en la rubejon.</p>
 
 <p>Kandid, Kunegond kaj la maljunulino estis jam
 en la malgranda urbo Avacena, meze en la montoj
-de Siera-Morena; kaj ili jene parolis en gastejo.</p>
+de Siera-Morena; kaj ili jene parolis en gastejo.</p></div>
 
-<p>
-ĈAPITRO X</p>
 
-<p>  En kia mizerego Kandid, Kunegond kaj la maljunulino
-  alvenas en Kadiz, kaj pri ilia enŝipiĝo.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro X</head>
+
+<epigraph>En kia mizerego Kandid, Kunegond kaj la maljunulino
+  alvenas en Kadiz, kaj pri ilia enŝipiĝo.</epigraph>
 
 <p><q rend="- ">Kiu do sukcesis ŝteli miajn monerojn kaj miajn
 diamantojn? diris plorante Kunegond. Per kio ni
@@ -1376,12 +1377,13 @@ kaj vi hezitus en via juĝo.</q></p>
 
 <p>Tia parolado naskis tre grandan scivolon en la
 spirito de Kunegond kaj de Kandid. La maljunulino
-parolis al ili jene.</p>
+parolis al ili jene.</p></div>
 
-<p>
-ĈAPITRO XI</p>
 
-<p>  Historio de la maljunulino.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XI</head>
+
+<epigraph>Historio de la maljunulino.</epigraph>
 
 <p><q rend="« ">Mi ne ĉiam havis la okulojn kun returnitaj
 palpebraj randoj kaj skarlate borderitaj; mia nazo
@@ -1521,13 +1523,13 @@ malforto kaj sensenteco, inter la morto kaj la
 vivo, kiam mi sentis min premata de io, kio
 moviĝis sur mia korpo; mi malfermis la okulojn, mi
 vidis blankulon kun bona mieno, kiu ĝemetis kaj
-murmuris: O che sciagura d'essere senza c&ellipsis;&ellipsis;!</q></p>
+murmuris: O che sciagura d'essere senza c&ellipsis;&ellipsis;!</q></p></div>
 
-<p></p>
 
-<p>ĈAPITRO XII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XII</head>
 
-<p>   Daŭrigo pri la malfeliĉoj de la maljunulino.</p>
+<epigraph>Daŭrigo pri la malfeliĉoj de la maljunulino.</epigraph>
 
 <p><q rend="« ">Mirigite kaj ravite ĉe la aŭdo de mia gepatra
 lingvo kaj ne malpli surprizite de la paroloj, kiujn
@@ -1714,15 +1716,14 @@ distron, instigu ĉiun pasaĝeron, ke li rakontu pri
 sia vivo; kaj se troviĝos unu sola, kiu ne ofte
 malbenis sian ekziston, kaj kiu ne ofte diris al si,
 ke li estas la plej malfeliĉa inter la homoj, ĵetu
-min en la maron kun la kapo antaŭen.</q></p>
+min en la maron kun la kapo antaŭen.</q></p></div>
 
-<p></p>
 
-<p> 
-ĈAPITRO XIII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XIII</head>
 
-<p>  Kiel Kandid estis devigata disiĝi de la bela Kunegond
-  kaj de la maljunulino.</p>
+<epigraph>Kiel Kandid estis devigata disiĝi de la bela Kunegond
+  kaj de la maljunulino.</epigraph>
 
 <p>Aŭdinte la rakonton de la maljunulino, la bela
 Kunegond faris al ŝi ĉiujn ĝentilaĵojn, kiujn oni
@@ -1821,14 +1822,14 @@ cetere la guberniestro, kiu vin amas, ne permesos,
 ke oni malbone traktu vin; restu.</q> Tuj ŝi kuras
 al Kandid: <q rend="«»">Forkuru, ŝi diris, aŭ post unu horo
 vi estos bruligata</q>. Ne estis perdota momento;
-sed kiel disiĝi de Kunegond, kaj kien rifuĝi?</p>
+sed kiel disiĝi de Kunegond, kaj kien rifuĝi?</p></div>
 
-<p></p>
 
-<p>ĈAPITRO XIV</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XIV</head>
 
-<p>  Kiel Kandid kaj Kakambo estis akceptataj ĉe la jezuitoj
-  de Paragvajo.</p>
+<epigraph>Kiel Kandid kaj Kakambo estis akceptataj ĉe la jezuitoj
+  de Paragvajo.</epigraph>
 
 <p>Kandid estis kondukinta kun si serviston tiaspecan,
 kian oni multe trovas ĉe la hispanaj marbordoj
@@ -2019,12 +2020,13 @@ lango, estis atentema en iliaj oreloj kaj brilegis en
 iliaj okuloj. Tial, ke ili estis Germanoj, ili restis
 ĉetable dum longa tempo, atendante la respektindan
 provincan patron; kaj la komandanto parolis
-jene al sia kara Kandid.</p>
+jene al sia kara Kandid.</p></div>
 
-<p>
-ĈAPITRO XV</p>
 
-<p>  Kiel Kandid mortigis la fraton de sia kara Kunegond.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XV</head>
+
+<epigraph>Kiel Kandid mortigis la fraton de sia kara Kunegond.</epigraph>
 
 <p><q rend="«»">Dum mia tuta vivo mi memoros pri la terurega
 tago, en kiu mi vidis mortigataj mian patron kaj
@@ -2115,13 +2117,14 @@ kaj ni jam estos transpasintaj la landlimojn, antaŭ
 ol oni povos persekuti nin.</q> Li jam rapidegis,
 eldirante tiujn vortojn kaj hispanlingve kriante:</p>
 
-<p><q rend="«»">Lokon, lokon por la respektinda patro kolonelo.</q></p>
+<p><q rend="«»">Lokon, lokon por la respektinda patro kolonelo.</q></p></div>
 
-<p>
-ĈAPITRO XVI</p>
 
-<p>  Kio okazis al la du vojaĝantoj kun du junulinoj, du simioj,
-  kaj kun la sovaĝuloj nomataj Grandoreluloj.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XVI</head>
+
+<epigraph>Kio okazis al la du vojaĝantoj kun du junulinoj, du simioj,
+  kaj kun la sovaĝuloj nomataj Grandoreluloj.</epigraph>
 
 <p>Kandid kaj lia servisto jam estis trans la bariloj,
 kaj neniu ankoraŭ sciis en la tendaro pri la
@@ -2288,18 +2291,18 @@ spado trapikinta la korpon de la frato de F-ino
 Kunegond, mi estus senpardone manĝita. Sed,
 ĉion konsiderante, la pura naturo estas bona, ĉar ĉi
 tiuj homoj, anstataŭ min manĝi, faris al mi mil ĝentilojn,
-tuj kiam ili eksciis, ke mi ne estas jezuito.</q></p>
+tuj kiam ili eksciis, ke mi ne estas jezuito.</q></p></div>
 
-<p>
- 
-ĈAPITRO XVII</p>
 
-<p>  Pri alveno de Kandid kaj de lia servisto en la landon
+<div type="chapter" rend="doc">
+<head>Ĉapitro XVII</head>
+
+<epigraph>Pri alveno de Kandid kaj de lia servisto en la landon
 Eldorado <note type="footnote" rend="(1)"> Nomo, kiun la
 Eŭropanoj en la XVI-a jarcento donis
 al iu fantazia lando, kiun oni lokis ĉe la bordoj de iu 
 supozita lago Parimo, en la nuna Venezuelo. <label>Trad.</label></note> 
-kaj pri tio, kion ili tie vidis.</p>
+kaj pri tio, kion ili tie vidis.</epigraph>
 
 <p>Kiam ili estis ĉe la limoj de la lando de la
 Grandoreluloj, Kakambo diris al Kandid:</p>
@@ -2456,14 +2459,13 @@ tiom malsimilas la nian? Konjekteble ĝi estas la
 lando, kie ĉio bonstatas: ĉar nepre necesas, ke
 ekzistu unu el tia speco. Kaj, malgraŭ tio, kion
 diris majstro Panglos, mi ofte ekvidis, ke ĉio sufiĉe
-malbonstatas en Vestfalio.</q></p>
+malbonstatas en Vestfalio.</q></p></div>
 
-<p></p>
 
-<p>
-ĈAPITRO XVIII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XVIII</head>
 
-<p>  Kion ili vidis en la lando Eldorado.</p>
+<epigraph>Kion ili vidis en la lando Eldorado.</epigraph>
 
 <p>Kakambo konfesis al sia gastiganto sian tutan
 scivolemon; la gastiganto diris al li: <q rend="«»">Mi estas
@@ -2710,13 +2712,14 @@ siajn ŝafojn al F-ino Kunegond.</p>
 <p><q rend="«»">Ni havas, li diris, sufiĉon por pagi al la guberniestro 
 de Bonaero, se F-ino Kunegond estas
 vendotaksigota. Ni iru al Kajeno, ne enŝipiĝu, kaj
-poste ni vidos, kiun reĝlandon ni povos aĉeti.</q></p>
+poste ni vidos, kiun reĝlandon ni povos aĉeti.</q></p></div>
 
-<p>
-ĈAPITRO XIX</p>
 
-<p>  Kio okazis al ili en Surinam, kaj kiel Kandid
-  konatiĝis kun Marten.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XIX</head>
+
+<epigraph>Kio okazis al ili en Surinam, kaj kiel Kandid
+  konatiĝis kun Marten.</epigraph>
 
 <p>La unua tago de niaj du vojaĝantoj estis sufiĉe
 agrabla. Ili estis kuraĝigataj per la ideo, ke ili
@@ -2949,14 +2952,13 @@ estis same malfeliĉaj kiel li; sed Kandid esperis,
 ke la scienculo distros lin dum la vojaĝo. Ĉiuj aliaj
 konkurantoj opiniis, ke Kandid kondutis treege
 maljuste kontraŭ ilin; sed li kvietigis ilin donacante 
-al ĉiu cent piastrojn.</p>
+al ĉiu cent piastrojn.</p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro XX</head>
 
-
-<p>ĈAPITRO XX</p>
-
-<p>  Kio okazis surmare al Kandid kaj al Marten.</p>
+<epigraph>Kio okazis surmare al Kandid kaj al Marten.</epigraph>
 
 <p>Do la maljuna scienculo, kiu nomiĝis Marten,
 enŝipiĝis por veturi al Bordo kun Kandid. Ambaŭ
@@ -3079,13 +3081,14 @@ tiu tempo la solvo estis same netrovebla kiel ĉe la
 unua tago. Sed almenaŭ ili parolis, ili komunikis
 ideojn unu al la alia, ili reciproke sin konsolis.
 Kandid karesis sian ŝafon. <q rend="«»">Ĉar mi retrovis cin,
-li diris, mi povos ankaŭ retrovi Kunegond.</q></p>
+li diris, mi povos ankaŭ retrovi Kunegond.</q></p></div>
 
-<p>
-ĈAPITRO XXI</p>
 
-<p>  Kandid kaj Marten proksimiĝas al la bordoj de Francio
-  kaj rezonadas.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXI</head>
+
+<epigraph>Kandid kaj Marten proksimiĝas al la bordoj de Francio
+  kaj rezonadas.</epigraph>
 
 <p>Fine oni ekvidis la bordojn de Francio.</p>
 
@@ -3180,11 +3183,13 @@ homoj ŝanĝis la sian?</q></p>
 <p><q rend="- ">Ho! diris Kandid, estas granda diferenco,
 ĉar la libera volo&ellipsis;</q></p>
 
-<p>Tiel rezonante, ili alvenis ĉe Bordo.</p>
+<p>Tiel rezonante, ili alvenis ĉe Bordo.</p></div>
 
-<p>ĈAPITRO XXII</p>
 
-<p>  Kio okazis en Francio al Kandid kaj al Marten.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXII</head>
+
+<epigraph>Kio okazis en Francio al Kandid kaj al Marten.</epigraph>
 
 <p>Kandid haltis en Bordo nur dum la tempo necesa
 por vendi kelke da ŝtonoj el Eldorado kaj por prizorgi 
@@ -3741,15 +3746,14 @@ la ŝipo alnaĝas al Portsmt
 en Anglio. Ĝi ne
 estis la vojo al Venezio; sed Kandid kredis esti
 liberigita el la infero, kaj li nepre esperis ĉe la
-unua okazo sin denove direkti al Venezio.</p>
+unua okazo sin denove direkti al Venezio.</p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXIII</head>
 
-<p>
-ĈAPITRO XXIII</p>
-
-<p>  Kandid kaj Marten iras al la bordoj de Anglio;
-  kion ili vidas tie.</p>
+<epigraph>Kandid kaj Marten iras al la bordoj de Anglio;
+  kion ili vidas tie.</epigraph>
 
 <p><q rend="- ">Ha Panglos! Panglos! Ha! Marten! Marten!
 Ha! mia kara Kunegond! kio do estas ĉi tiu
@@ -3833,13 +3837,13 @@ Mediteraneon; fine oni albordiĝis ĉe Venezio. <q rend="«»">Dio
 estu laŭdata! diris Kandid ĉirkaŭbrakante Marten;
 estas ĉi tie, kie mi revidos la belan Kunegond.
 Mi fidas al Kakambo, kiel al mi mem. Ĉio estas
-bona, ĉio iras bone, ĉio iras kiel eble plej bone.</q></p>
+bona, ĉio iras bone, ĉio iras kiel eble plej bone.</q></p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXIV</head>
 
-<p>ĈAPITRO XXIV</p>
-
-<p>  Pri Paket kaj frato Levkojo.</p>
+<epigraph>Pri Paket kaj frato Levkojo.</epigraph>
 
 <p>Tuj kiam li estis en Venezio, li serĉigis Kakambo 
 en ĉiuj kafejoj, ĉe ĉiuj voluptovendistinoj,
@@ -4076,13 +4080,13 @@ Oni asertas, ke ĝi estas homo, kiu neniam havis
 <p><q rend="- ">Mi volus vidi tian maloftaĵon, diris Marten.</q></p>
 
 <p>Kandid tuj demandigis al sinjorego Pokokurant,
-pri permeso viziti lin la morgaŭon.</p>
+pri permeso viziti lin la morgaŭon.</p></div>
 
 
-<p> 
-ĈAPITRO XXV</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXV</head>
 
-<p>  Vizito ĉe la sinjorego Pokokurant, nobela Veneziano.</p>
+<epigraph>Vizito ĉe la sinjorego Pokokurant, nobela Veneziano.</epigraph>
 
 <p>Kandid kaj Marten gondole veturis sur la Brenta
 kaj alvenis ĉe la palaco de la nobela Pokokurant.
@@ -4339,15 +4343,14 @@ kiam mi revidos F-inon Kunegond.</q></p>
 <p>Tamen la tagoj, la semajnoj forpasis; Kakambo
 ne revenis, kaj Kandid estis tiom profundiĝinta en
 sian doloron, ke li ne rimarkis, ke Paket kaj frato
-Levkojo eĉ ne venis por lin danki.</p>
+Levkojo eĉ ne venis por lin danki.</p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXVI</head>
 
-<p>
-ĈAPITRO XXVI</p>
-
-<p>  Pri vespermanĝo, kiun ĉeestis Kandid kaj Marten
-  kun ses fremduloj, kaj kiaj ili estis.</p>
+<epigraph>Pri vespermanĝo, kiun ĉeestis Kandid kaj Marten
+  kun ses fremduloj, kaj kiaj ili estis.</epigraph>
 
 <p>Iun vesperon, kiam Kandid, akompanate de
 Marten, estis altabliĝonta kun la fremduloj, kiuj
@@ -4736,13 +4739,13 @@ frotpurigas la teleraron ĉe iu princo de Transilvanio.</q></p>
 
 <p>Oni tuj venigis du judojn; Kandid vendis ankoraŭ diamantojn; 
 kaj ili denove veturis per alia
-galero por iri liberigi Kunegond.</p>
+galero por iri liberigi Kunegond.</p></div>
 
-<p></p>
 
-<p>CAPITRO XXVIII</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXVIII</head>
 
-<p>  Kio okazis al Kandid, al Panglos, al Marten, ktp.</p>
+<epigraph>Kio okazis al Kandid, al Panglos, al Marten, ktp.</epigraph>
 
 <p><q rend="- ">Pardonon, mi denove petas, diris Kandid al
 la barono; pardonon, mia respektinda patro, pro
@@ -4863,15 +4866,13 @@ kiel la pleno kaj la subtila materio
 <note type="footnote" rend="(1)"> Ĉi tiu lasta parto de l' frazo aludas la opiniojn de la
 filozofo Dekart (France: Descartes) kaj estas same neklara
 kiel en nia traduko. Sendube tia neklaro estas intenca ĉe
-Volter. <label>Trad.</label></note>.</q></p>
+Volter. <label>Trad.</label></note>.</q></p></div>
 
 
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXIX</head>
 
-<p></p>
-
-<p>ĈAPITRO XXIX</p>
-
-<p>  Kiel Kandid retrovis Kunegond kaj la maljunulinon.</p>
+<epigraph>Kiel Kandid retrovis Kunegond kaj la maljunulinon.</epigraph>
 
 <p>Dum Kandid, la barono, Panglos, Marten kaj
 Kakambo rakontis siajn aventurojn, dum ili rezonadis 
@@ -4923,12 +4924,13 @@ pretendas kontraŭstari al tio! Mi denove cin mortigus,
 se mi obeus mian koleron.</q></p>
 
 <p><q rend="- ">Ci povas denove mortigi min, diris la barono,
-sed dum mi vivos, ci ne edziĝos kun mia fratino.</q></p>
+sed dum mi vivos, ci ne edziĝos kun mia fratino.</q></p></div>
 
-<p>
-ĈAPITRO XXX</p>
 
-<p>   Konkludo.</p>
+<div type="chapter" rend="doc">
+<head>Ĉapitro XXX</head>
+
+<epigraph>Konkludo.</epigraph>
 
 <p>Kandid, en la fundo de sia koro, tute ne deziris
 edziĝi kun Kunegond. Sed la ekstrema aroganto
