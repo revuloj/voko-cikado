@@ -123,13 +123,19 @@
   <body>
 
 <epigraph>  
+<cit>
+<q>
 Unu el la plej egalrajtaj
 malfeliĉoj en la vivo
 estas la lingvodiverseco.
-<signed>Volter.</signed>
+<name>Volter.</name>
+</q>
+</cit>
 </epigraph>  
 
-#### bildo ###
+<!-- #### bildo ###
+#######################################################
+-->
 
 <div type="foreword">
 
@@ -193,7 +199,7 @@ malsaĝo ja eniras la konsiston de tiu plejeble bona
 mondo. Se la naturo povas fari bonon nur el malbono,
 la homo ne rajtas kontraŭstari ian ajn malbonon,
 ĉar li eble per tio malhelpus venon de
-estonta pli granda bono&ellipsis;</p>
+estonta pli granda bono&elipse;</p>
 
 <p>Oni senpene ekvidas, ke tia filozofio povas havi
 malbonajn efikojn sur la pens- kaj agadmanierojn
@@ -261,7 +267,7 @@ aŭ pro la liberigo de subpremata klaso. Sed ni
 ne rajtas postuli, ke homo estu ĉiel perfekta,
 bona, imitinda. Tia homo estus dio kaj sekve nur
 fantazia elpenso. La aŭtoro de <hi>Kandid</hi> estis nur
-homo&ellipsis;</p>
+homo&elipse;</p>
 
 <p>Volter mortis maljuna, riĉa kaj superŝutata per
 honoroj. Tamen ĉiuj konsentas, ke el inter la t. n.
@@ -332,28 +338,31 @@ ke ĉe la fino ili opinios, ke ĝi estas trafa,
 <name>E. L.</name><lb/>
 Marte 1929.
 </signed>
-
+</div>
     
+<div type="title">
+<head>Kandid
+  <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
+  senmalica, naiva.</emph></note>
+</head>
+<head type="subtitle">aŭ la optimismo</head>
 
-#################################################
-         Kandid  
-         <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
-senmalica, naiva.</emph></note> aŭ la optimismo
-#################################################
-
+<p rend="italic">
 Tradukita francen el la germana lingvo de sinjoro doktoro
 Ralf
 <note type="footnote" rend="(2)">Germane: Ralph.</note>, 
 kun la aldonoj, kiujn oni trovis en la poŝo
 de l' doktoro post lia morto, okazinta dum la
 favora jaro 1759.
-#################################################
+</p>
+</div>
+
 
 <div type="chapter" rend="doc">
 <head>Ĉapitro I</head>
 
-<epigraph>Kiel Kandid estis edukata en bela kastelo,
-  kaj kiel li estis el ĝi forpelata.</epigraph>
+<epigraph><p>Kiel Kandid estis edukata en bela kastelo,
+  kaj kiel li estis el ĝi forpelata.</p></epigraph>
 
 <p>En Vestfalio, en la kastelo de lia barona moŝto
 Thunder-ten-tronckh, estis junulo al kiu la naturo
@@ -473,9 +482,9 @@ la kasteloj.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro II</head>
 
-<epigraph>Kio fariĝis Kandid inter la Bulgaroj 
+<epigraph><p>Kio fariĝis Kandid inter la Bulgaroj 
 <note type="footnote" rend="(1)">En ĉi tiu ĉapitro Volter nomas la Prusojn Bulgaroj;
-kaj la Francojn Abaroj.</note>.</epigraph>
+kaj la Francojn Abaroj.</note>.</p></epigraph>
 
 <p>
 Kandid, forpelite el la tera paradizo, marŝadis
@@ -492,7 +501,7 @@ al la prusaj rekrutistoj, kiuj havis bluan uniformon.</note>,
 rimarkis lin.</p>
 
 <p><q rend="- ">Kamarado, diris unu, jen estas junulo kun
-bela staturo kaj kiu havas la postulitan alton.</q></q></p>
+bela staturo kaj kiu havas la postulitan alton.</q></p>
 
 <p>Ili iris al Kandid kaj tre ĝentile invitis lin por
 tagmanĝi.</p>
@@ -500,12 +509,12 @@ tagmanĝi.</p>
 
 <p><q rend="- ">Sinjoroj, diris al ili Kandid kun ĉarma modesto,
 vi tre honoras min, sed monon mi ne havas
-por pagi mian parton.</q></q></p>
+por pagi mian parton.</q></p>
 
 <p><q rend="- ">Ha! sinjoro, diris al li unu el la bluuloj, la
 personoj kun vizaĝo kaj indo similaj al la viaj
 neniam pagas: ĉu vi ne estas alta je kvin futoj
-kaj kvin coloj?</q></q></p>
+kaj kvin coloj?</q></p>
 
 <p><q rend="- ">Jes, sinjoroj, tioma estas mia alto, li diris,
 riverencante.</q></p>
@@ -523,7 +532,7 @@ plej bona.</q></p>
 prenas ilin kaj volas skribi repagpromeson; oni
 rifuzas ĝin kaj altabliĝas.</p>
 
-<p><q rend="- ">Ĉu vi ne havas fortan korinklinon?&ellipsis;</q></p>
+<p><q rend="- ">Ĉu vi ne havas fortan korinklinon?&elipse;</q></p>
 
 <p><q rend="- ">Ho! jes, li respondas, mi tre forte amas
 F-inon Kunegond.</q></p>
@@ -598,8 +607,8 @@ ekbatalis kontraŭ la reĝo de la Abaroj.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro III</head>
 
-<epigraph>Kiel Kandid forkuris el inter la Bulgaroj
-  kaj kio li fariĝis.</epigraph>
+<epigraph><p>Kiel Kandid forkuris el inter la Bulgaroj
+  kaj kio li fariĝis.</p></epigraph>
 
 <p>Nenio estis tiom bela, tiom facilmova, tiom
 brila, tiom bonorda kiel la du armeoj. La trumpetoj,
@@ -680,7 +689,7 @@ fripono, for, malŝatindulo, neniam proksimiĝu al mi.</q></p>
 <p>La edzino de la oratoro, rigardinte tra la fenestron,
 kaj vidinte homon, kiu dubas ĉu la papo
 estas aŭ ne la Antikristo, elverŝis sur lian kapon
-plenan&ellipsis; Ho ĉielo! ĝis kia grado atingas ĉe virinoj
+plenan&elipse; Ho ĉielo! ĝis kia grado atingas ĉe virinoj
 la fervoro al religio!</p>
 
 <p>Iu viro, kiu ne estis baptita, iu bona anabaptisto,
@@ -714,8 +723,8 @@ tuso kaj kraĉanta denton ĉe ĉiu peno.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro IV</head>
 
-<epigraph>Kiel Kandid renkontis sian malnovan majstron,
-  doktoron Panglos, kaj kio rezultis el tio.</epigraph>
+<epigraph><p>Kiel Kandid renkontis sian malnovan majstron,
+  doktoron Panglos, kaj kio rezultis el tio.</p></epigraph>
 
 <p>Kortuŝate de kompato pli ol de abomeno ĉe la
 vido de tiu terura mizerulaĉo, Kandid donis al li
@@ -873,8 +882,8 @@ estis videbla la haveno de Lisbono.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro V</head>
 
-<epigraph>Uragano, ŝiprompo, tertremo, kaj kio okazis kun
- doktoro Panglos, kun Kandid kaj la anabaptisto Jakobo.</epigraph>
+<epigraph><p>Uragano, ŝiprompo, tertremo, kaj kio okazis kun
+ doktoro Panglos, kun Kandid kaj la anabaptisto Jakobo.</p></epigraph>
 
 <p>La duono el la pasaĝeroj estis tiom malfortiĝintaj,
 mortiĝantaj pro tiuj nekompreneblaj premdoloroj,
@@ -1017,7 +1026,7 @@ la intimulo.</q></p>
 <p><q rend="- ">Via Moŝto pardonos al mi, diris Panglos;
 la libero povas ekzisti kun la nepra neceso: tial
 ke estis necese, ke ni estu liberaj; tial ke fine la
-determinita volo&ellipsis;</q></p>
+determinita volo&elipse;</q></p>
 
 <p>Panglos estis ĉe la mezo de sia frazo, kiam la
 intimulo kapsignis al sia armita servistaĉo, kiu
@@ -1027,9 +1036,9 @@ donis al li por trinki vinon el Porto aŭ el Oporto.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro VI</head>
 
-<epigraph>Kiel oni faris belegan bruligon <note type="footnote" rend="(1)">Tiu 
+<epigraph><p>Kiel oni faris belegan bruligon <note type="footnote" rend="(1)">Tiu 
   bruligo reale okazis la 26. junio 1756.</note> por malhelpi la
-  tertremojn, kaj kiel Kandid estis sidvange punfrapata.</epigraph>
+  tertremojn, kaj kiel Kandid estis sidvange punfrapata.</p></epigraph>
 
 <p>
 Post la tertremo, kiu detruis la tri kvaronojn
@@ -1096,8 +1105,8 @@ kiam maljunulino aliris al li kaj diris:
 <div type="chapter" rend="doc">
 <head>Ĉapitro VII</head>
 
-<epigraph>Kiel maljunulino flegis Kandid, kaj kiel li retrovis.
-  la amatinon.</epigraph>
+<epigraph><p>Kiel maljunulino flegis Kandid, kaj kiel li retrovis.
+  la amatinon.</p></epigraph>
 
 <p>Kandid ne perdis kuraĝon, kaj sekvis la maljunulinon
 en domaĉon; ŝi donis al li poton da
@@ -1195,7 +1204,7 @@ Kandid, kiu aŭskultegis kaj avidege ŝin rigardis.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro VIII</head>
 
-<epigraph>Historio de Kunegond.</epigraph>
+<epigraph><p>Historio de Kunegond.</p></epigraph>
 
 <p><q rend="«»">Mi estis en lito kaj dormegis, kiam plaĉis al la
 Ĉielo sendi Bulgarojn en nian belan kastelon de
@@ -1208,7 +1217,7 @@ baraktis, mordis, ungovundetis, mi volis elŝiri la
 okulojn de tiu granda Bulgaro, ne sciante, ke tio,
 kio okazis en la kastelo de mia patro, estis kutima
 afero: la perfortulo trabatis mian flankon per
-tranĉilo kaj faris vundon, kies postsignon mi ankoraŭ portas.</p>
+tranĉilo kaj faris vundon, kies postsignon mi ankoraŭ portas.</q></p>
 
 <p><q rend="- ">Ho ve! tiun postsignon mi esperas Vidi,
 diris la naiva Kandid.</q></p>
@@ -1241,7 +1250,7 @@ sed ĝia virto pro tio plifirmiĝas. La judo, por akiri
 mian favoron, kondukis min en ĉi tiun kamparan
 domon. Ĝis nun mi kredis, ke ne ekzistas sur la
 tero io pli bela ol la kastelo de Thunder-ten-tronckh;
-mi seniluziiĝis.</p>
+mi seniluziiĝis.</q></p>
 
 <p><q rend="« ">Iun tagon la granda inkvizitoro ekvidis min
 ĉe diservo; li multe rigardis min oblikve kaj avide,
@@ -1250,7 +1259,7 @@ aferoj. Oni kondukis min en lian palacon; mi
 sciigis al li mian devenon; li klarigis, ke estas ne
 inda je mia rango aparteni al izraelido. Je lia
 nomo oni proponis al don Isaĥar, ke li transcedu
-min al la sinjorego.</p>
+min al la sinjorego.</q></p>
 
 <p><q rend="« ">Don Isaĥar, kiu estas la bankiero de la kortego
 kaj influhava persono, ne konsentis tian proponon.
@@ -1268,7 +1277,7 @@ nun mi rezistis
 al ambaŭ; kaj
 mi kredas, ke
 pro tio mi ĉiam
-estis amata.</p>
+estis amata.</q></p>
 
 <p><q rend="« ">Fine, por
 forigi la malfeliĉegon,
@@ -1296,7 +1305,7 @@ de mia kapitano de Bulgaroj. Tia vido duobligis
 ĉiujn sentojn, kiuj min premŝarĝis, kiuj min forkonsumis.
 Mi ekkriis, mi volis diri: <q rend="«»">Haltu, barbaroj!</q>
 sed la voĉo mankis al mi, kaj miaj krioj
-estus senutilaj.</p>
+estus senutilaj.</q></p>
 
 <p>Kiam vi estis forte batata sur la sidvangojn:
 <q rend="«»">Kiel povas okazi, mi diris, ke la aminda Kandid
@@ -1338,8 +1347,8 @@ delikatan amon.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro IX</head>
 
-<epigraph>Kio okazis kun Kunegond, kun Kandid,
-  kun la ĉefinkvizitoro kaj kun judo.</epigraph>
+<epigraph><p>Kio okazis kun Kunegond, kun Kandid,
+  kun la ĉefinkvizitoro kaj kun judo.</p></epigraph>
 
 <p>Tiu Isaĥar estis la plej kolerema hebreo, kiun
 oni vidis en Izraelio, depost la kaptiteco en Babilono.
@@ -1414,8 +1423,8 @@ de Siera-Morena; kaj ili jene parolis en gastejo.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro X</head>
 
-<epigraph>En kia mizerego Kandid, Kunegond kaj la maljunulino
-  alvenas en Kadiz, kaj pri ilia enŝipiĝo.</epigraph>
+<epigraph><p>En kia mizerego Kandid, Kunegond kaj la maljunulino
+  alvenas en Kadiz, kaj pri ilia enŝipiĝo.</p></epigraph>
 
 <p><q rend="- ">Kiu do sukcesis ŝteli miajn monerojn kaj miajn
 diamantojn? diris plorante Kunegond. Per kio ni
@@ -1516,7 +1525,7 @@ parolis al ili jene.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XI</head>
 
-<epigraph>Historio de la maljunulino.</epigraph>
+<epigraph><p>Historio de la maljunulino.</p></epigraph>
 
 <p><q rend="« ">Mi ne ĉiam havis la okulojn kun returnitaj
 palpebraj randoj kaj skarlate borderitaj; mia nazo
@@ -1536,7 +1545,7 @@ en miaj du pupiloj, kaj forigis la movbriladon de
 la steloj, kiel diris al mi la najbaraj poetoj. La
 virinoj, kiuj vestis kaj senvestigis min, ekstazis
 rigardante min de antaŭe kaj de malantaŭe; kaj
-ĉiuj viroj deziris esti ĉe ilia loko.</p>
+ĉiuj viroj deziris esti ĉe ilia loko.</q></p>
 
 <p><q rend="« ">Mi fianĉiniĝis kun princo, suvereno de Masa-Karara:
 kia princo! tiel bela, kiel mi, knedita el
@@ -1562,7 +1571,7 @@ alkuras kaj nin atingas; niaj soldatoj sin
 defendas kiel la soldatoj de l' papo: ili ĉiuj surgenuiĝis,
 forĵetante siajn armilojn kaj petante al
 la korsaro absolvon <foreign>in articulo mortis</foreign>
-<note type="footnote" rend="(2)">En la horo de la morto. <label>Trad.</label></note>.</p>
+<note type="footnote" rend="(2)">En la horo de la morto. <label>Trad.</label></note>.</q></p>
 
 
 
@@ -1582,7 +1591,7 @@ trakuras la marojn. Mi eksciis, ke sinjoroj la
 religiuloj kavaliroj de Malta neniam malatentas
 tiun kutimon, kiam ili kaptas Turkojn kaj Turkinojn;
 ĝi estas leĝo de la internacia juro, kiun oni
-neniam malobeis.</p>
+neniam malobeis.</q></p>
 
 <p><q rend="« ">Mi ne diros al vi, kiom estis peniga por
 princino esti kondukata kiel sklavo al Maroko kun
@@ -1599,7 +1608,7 @@ ke li faris al mi grandan honoron. Certe necesis,
 ke sinjorino la princino de Palestrina kaj mi estu
 tre fortaj por elteni ĉion, kion ni spertis ĝis nia
 alveno en Maroko! Sed sufiĉas pri tio; tiuj aferoj
-estas tiom ordinaraj, ke ili ne estas priparolindaj.</p>
+estas tiom ordinaraj, ke ili ne estas priparolindaj.</q></p>
 
 <p><q rend="« ">Maroko naĝis en sango, kiam ni alvenis.
 Kvindek filoj de la imperiestro Mulej-Ismael 
@@ -1611,7 +1620,7 @@ havis ĉiu unu partion; kio fakte okazigis kvindek
 civilajn militojn, de negroj kontraŭ negrojn, de
 nigruloj kontraŭ brunulojn, de brunuloj kontraŭ
 brunulojn, de duonnegroj kontraŭ duonnegrojn.
-Estis konstanta hombuĉado tra la tuta imperio.</p>
+Estis konstanta hombuĉado tra la tuta imperio.</q></p>
 
 
 <p><q rend="« ">Ni apenaŭ estis elŝipiĝintaj, kiam negroj de
@@ -1643,7 +1652,7 @@ fine mia kapitano, ĉio estis mortigita, kaj mi restis
 mortiĝanta sur amaso da mortigitoj. Similaj scenoj
 okazis, kiel estas konate, sur la spaco de pli ol
 tri cent mejloj, kvankam oni ĉiutage ne forgesis
-la kvin preĝojn, ordonitajn de Mahometo.</p>
+la kvin preĝojn, ordonitajn de Mahometo.</q></p>
 
 <p><q rend="«»">Kun granda peno mi eltiris min el inter tiom
 da sangantaj kadavroj amasigitaj, kaj trenis min
@@ -1656,13 +1665,13 @@ malforto kaj sensenteco, inter la morto kaj la
 vivo, kiam mi sentis min premata de io, kio
 moviĝis sur mia korpo; mi malfermis la okulojn, mi
 vidis blankulon kun bona mieno, kiu ĝemetis kaj
-murmuris: O che sciagura d'essere senza c&ellipsis;&ellipsis;!</q></p></div>
+murmuris: O che sciagura d'essere senza c&elipse;&elipse;!</q></p></div>
 
 
 <div type="chapter" rend="doc">
 <head>Ĉapitro XII</head>
 
-<epigraph>Daŭrigo pri la malfeliĉoj de la maljunulino.</epigraph>
+<epigraph><p>Daŭrigo pri la malfeliĉoj de la maljunulino.</p></epigraph>
 
 <p><q rend="« ">Mirigite kaj ravite ĉe la aŭdo de mia gepatra
 lingvo kaj ne malpli surprizite de la paroloj, kiujn
@@ -1674,9 +1683,9 @@ en najbaran domon, ordonis, ke oni metu min en
 liton, ke oni donu al mi por manĝi, servis al mi,
 konsolis min, flatis min, kaj diris al mi, ke neniam
 li vidis ion pli belan ol min, kaj ke neniam li
-tiom bedaŭris tion, kion neniu povas al li redoni.</p>
+tiom bedaŭris tion, kion neniu povas al li redoni.</q></p>
 
-<p><q rend="- "><q rend="« ">Mi naskiĝis en Napoli, li diris al mi; ĉiujare
+<p><q rend="-«">Mi naskiĝis en Napoli, li diris al mi; ĉiujare
 oni kastras du-tri mil infanojn; unuj pro tio
 mortas, aliaj akiras voĉon pli belan ol tiun de
 virinoj, aliaj foriras por regadi Ŝtatojn 
@@ -1690,16 +1699,16 @@ politikan rolon. <label>Trad.</label></note>. Oni
 operaciis min tre sukcese, kaj mi estis muzikisto
 en la kapelo de S-ino la princino de Palestrina.</q></p>
 
-<p><q rend="-«">De mia patrino, mi ekkriis.</p>
+<p><q rend="-«">De mia patrino, mi ekkriis.</q></p>
 
 <p><q rend="-«">De via patrino! li ekkriis plorante; kio!
 ĉu vi estus tiu juna princino, kiun mi edukis ĝis
 ŝia sesjara aĝo, kaj kiu jam esperigis, ke ŝi estos
-tiom bela, kiom vi estas?</p>
+tiom bela, kiom vi estas?</q></p>
 
 <p><q rend="-«">Ĝi estas mi mem; mia patrino estas je
 kvarcent paŝoj de ĉi tie, distranĉita en pecojn kaj
-kuŝanta sub amaso da mortintoj&ellipsis;</p>
+kuŝanta sub amaso da mortintoj&elipse;</q></p>
 
 <p><q rend="« ">Mi rakontis al li ĉion, kio okazis al mi; li
 ankaŭ rakontis siajn aventurojn, kaj sciigis min,
@@ -1713,7 +1722,7 @@ li helpu ekstermi la komercon de aliaj kristanoj.
 <q rend="«»">Mia misio estas plenumita, diris tiu honesta
 eŭnuko; mi estas enŝipiĝonta por Ceŭta, kaj mi
 revenigos vin en Italion. <foreign>Ma che sciagura d'essere 
-senza c&ellipsis;&ellipsis;!</forein></q></p>
+senza c&elipse;&elipse;!</foreign></q></q></p>
 
 <p><q rend="« ">Kortuŝite kaj larmokule mi dankis al li; kaj, 
 anstataŭ veturigi min en Italion, li kondukis min
@@ -1721,7 +1730,7 @@ al Alĝero, kaj vendis min al la guberniestro de
 tiu provinco. Apenaŭ mi estis vendita, ke tiu pesto,
 kiu rondiris Afrikon, Azion kaj Eŭropon, ekfuriozis
 en Alĝero. Vi vidis tertremojn; sed, fraŭlino, ĉu
-vi jam spertis peston?</p>
+vi jam spertis peston?</q></p>
 
 <p><q rend="- ">Neniam, respondis la baronino.</q></p>
 
@@ -1745,7 +1754,7 @@ Aleksandrio, el Aleksandrio denove mi estis vendata
 en Smirno, de Smirno al Konstantinoplo. Fine
 mi apartenis al iu estro de janiĉaroj al kiu oni
 baldaŭ ordonis, ke li iru defendi Azov sieĝatan de
-la Rusoj.</p>
+la Rusoj.</q></p>
 
 <p><q rend="« ">La janiĉarestro, kiu estis tre amaĉema viro,
 kondukis kun si ĉiujn siajn virinojn, kaj loĝigis
@@ -1763,25 +1772,22 @@ nin per malsato. La dudek janiĉaroj estis ĵurintaj,
 ke ili ne cedos. La malsatego, kiun ili spertis,
 instigis ilin manĝi la du eŭnukojn, pro timo ne
 rompi sian ĵuron. Post kelkaj tagoj, ili decidis
-manĝi la virinojn.
+manĝi la virinojn.</q></p>
  
-
-
-<p>
-<q rend="« ">Ni havis tre pian kaj kompateman pastron, kiu
+<p><q rend="« ">Ni havis tre pian kaj kompateman pastron, kiu
 faris al ili tre belan predikon, per kiu li persvadis
 ilin, ke ili ne tute mortigu nin. <q rend="«»">Tranĉu, li diris,
 nur unu sidvangon al ĉiu el ĉi tiuj sinjorinoj, kaj vi
 havos tre delikatan manĝon; se vi estas devigataj
 denove fari la samon, restos al vi la sama provizo
 post kelkaj tagoj; la Ĉielo dankos al vi pro tio,
-kaj vi ricevos helpon.</q></p>
+kaj vi ricevos helpon.</q></q></p>
 
 <p><q rend="« ">Li estis tre elokventa; li persvadis ilin. Oni
 faris al ni tiun teruran operacion; la pastro aplikis
 al ni la saman balzamon, per kiu oni ŝmiras infanojn,
 kiujn oni ĵus cirkumcidis: ni ĉiuj estis
-mortiĝantaj.</p>
+mortiĝantaj.</q></p>
 
 <p><q rend="« ">Apenaŭ la janiĉaroj estis glutintaj la manĝon,
 kiun ni estis al ili liverintaj, jen alvenas la Rusoj
@@ -1793,7 +1799,7 @@ tuta vivo mi memoros, ke, kiam miaj vundoj estis
 bone fermiĝintaj, li faris al mi amproponojn. Cetere,
 al ĉiuj li diris, ke ni devas konsoliĝi; li certigis,
 ke dum pluraj sieĝoj okazis sama afero, kaj ke tio
-estas leĝo de l' milito.</p>
+estas leĝo de l' milito.</q></p>
 
 <p><q rend="« ">Tuj kiam miaj kunulinoj povis marŝi, oni
 irigis ilin al Moskvo. Kiel lotaĵo mi trafis en la
@@ -1822,7 +1828,7 @@ kaj voli ĝin konservi;
 resume karesi
 la serpenton, kiu formanĝas
 nin, ĝis kiam 
-ĝi estas formanĝinta al ni la koron?</p>
+ĝi estas formanĝinta al ni la koron?</q></p>
 
 <p><q rend="« ">En la landoj, kiujn la sorto igis min travojaĝi,
 kaj en la drinkejoj, kie mi estis servistino, mi vidis
@@ -1833,7 +1839,7 @@ negroj, kvar Angloj, kvar Ĝenevanoj kaj unu germana
 profesoro nomita Robek <note type="footnote" rend="(1)">Germane: 
 <name>Robeck</name>; li verkis latine libron per kiu li
 faris apologion pri memmortigo, kaj sin dronigis en la rivero
-Veser ĉe Bremen dum la jaro 1735.</note>.</p>
+Veser ĉe Bremen dum la jaro 1735.</note>.</q></p>
 
 
 <p>
@@ -1855,8 +1861,8 @@ min en la maron kun la kapo antaŭen.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XIII</head>
 
-<epigraph>Kiel Kandid estis devigata disiĝi de la bela Kunegond
-  kaj de la maljunulino.</epigraph>
+<epigraph><p>Kiel Kandid estis devigata disiĝi de la bela Kunegond
+  kaj de la maljunulino.</p></epigraph>
 
 <p>Aŭdinte la rakonton de la maljunulino, la bela
 Kunegond faris al ŝi ĉiujn ĝentilaĵojn, kiujn oni
@@ -1961,8 +1967,8 @@ sed kiel disiĝi de Kunegond, kaj kien rifuĝi?</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XIV</head>
 
-<epigraph>Kiel Kandid kaj Kakambo estis akceptataj ĉe la jezuitoj
-  de Paragvajo.</epigraph>
+<epigraph><p>Kiel Kandid kaj Kakambo estis akceptataj ĉe la jezuitoj
+  de Paragvajo.</p></epigraph>
 
 <p>Kandid estis kondukinta kun si serviston tiaspecan,
 kian oni multe trovas ĉe la hispanaj marbordoj
@@ -1977,7 +1983,7 @@ de la maljunulino; ni foriru, ni kuru, ne rigardante
 malantaŭen.</q> Kandid larmis. <q rend="« ">Ho mia kara Kunegond!
 estas korŝire forlasi vin en la tempo, kiam
 sinjoro la guberniestro estas nin edzigonta! Kunegond,
-el tiom malproksime kondukita, kio okazos kun vi?</p>
+el tiom malproksime kondukita, kio okazos kun vi?</q></p>
 
 <p><q rend="- ">Okazos al ŝi laŭŝance, diris Kakambo; la
 virinoj neniam embarasiĝas je si; Dio prizorgas
@@ -2018,7 +2024,7 @@ Madrid sendas ilin en la ĉielon: tio ravas min;
 ni antaŭeniru: vi estos la plej feliĉa homo el ĉiuj.
 Kian plezuron havos <name>los padres</name>, kiam ili ekscios,
 ke venas al ili kapitano, kiu konas la bulgaran
-ekzercadon!</q></q></p>
+ekzercadon!</q></p>
 
 
 
@@ -2159,7 +2165,7 @@ jene al sia kara Kandid.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XV</head>
 
-<epigraph>Kiel Kandid mortigis la fraton de sia kara Kunegond.</epigraph>
+<epigraph><p>Kiel Kandid mortigis la fraton de sia kara Kunegond.</p></epigraph>
 
 <p><q rend="«»">Dum mia tuta vivo mi memoros pri la terurega
 tago, en kiu mi vidis mortigataj mian patron kaj
@@ -2256,8 +2262,8 @@ eldirante tiujn vortojn kaj hispanlingve kriante:</p>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XVI</head>
 
-<epigraph>Kio okazis al la du vojaĝantoj kun du junulinoj, du simioj,
-  kaj kun la sovaĝuloj nomataj Grandoreluloj.</epigraph>
+<epigraph><p>Kio okazis al la du vojaĝantoj kun du junulinoj, du simioj,
+  kaj kun la sovaĝuloj nomataj Grandoreluloj.</p></epigraph>
 
 <p>Kandid kaj lia servisto jam estis trans la bariloj,
 kaj neniu ankoraŭ sciis en la tendaro pri la
@@ -2430,12 +2436,12 @@ tuj kiam ili eksciis, ke mi ne estas jezuito.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XVII</head>
 
-<epigraph>Pri alveno de Kandid kaj de lia servisto en la landon
+<epigraph><p>Pri alveno de Kandid kaj de lia servisto en la landon
 Eldorado <note type="footnote" rend="(1)"> Nomo, kiun la
 Eŭropanoj en la XVI-a jarcento donis
 al iu fantazia lando, kiun oni lokis ĉe la bordoj de iu 
 supozita lago Parimo, en la nuna Venezuelo. <label>Trad.</label></note> 
-kaj pri tio, kion ili tie vidis.</epigraph>
+kaj pri tio, kion ili tie vidis.</p></epigraph>
 
 <p>Kiam ili estis ĉe la limoj de la lando de la
 Grandoreluloj, Kakambo diris al Kandid:</p>
@@ -2598,7 +2604,7 @@ malbonstatas en Vestfalio.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XVIII</head>
 
-<epigraph>Kion ili vidis en la lando Eldorado.</epigraph>
+<epigraph><p>Kion ili vidis en la lando Eldorado.</p></epigraph>
 
 <p>Kakambo konfesis al sia gastiganto sian tutan
 scivolemon; la gastiganto diris al li: <q rend="«»">Mi estas
@@ -2632,7 +2638,7 @@ kiu reĝis en Peruvio antaŭ la hispana konkiro. La lasta
 reĝo de la familio de la Inkasoj, Atahualpa, estis mortigata 
 de Pizaro, en 1533</note>, kiuj eliris el ĝi tre malsingarde 
 por iri milite submeti unu mondparton, kaj kiuj fine estis 
-formortigataj de la Hispanoj.</p>
+formortigataj de la Hispanoj.</q></p>
 
 <p><q rend="«»">La princoj de ilia familio, kiuj restis en sia
 naskiĝlando, estis pli saĝaj; ili ordonis, laŭ la
@@ -2660,9 +2666,9 @@ en la lando ekzistas religio.</p>
 kiel vi povas pri tio dubi? Ĉu vi rigardas nin kiel
 maldankemulojn?</q> Kakambo humile demandis, kiu
 religio estas en Eldorado. La maljunulo denove
-ruĝiĝis. <q rend="« ">Ĉu povas ekzisti du religioj? li diris;</p>
+ruĝiĝis. <q rend="« ">Ĉu povas ekzisti du religioj? li diris;
 ni havas, mi kredas, la ĉies religion; ni adoras
-Dion de la vespero ĝis la mateno.</p>
+Dion de la vespero ĝis la mateno.</q></p>
 
 <p><q rend="- ">Ĉu vi adoras nur unu Dion? diris Kakambo,
 kiu ĉiam divenis la dubojn de Kandid.</q></p>
@@ -2670,7 +2676,7 @@ kiu ĉiam divenis la dubojn de Kandid.</q></p>
 <p><q rend="- ">Memkompreneble, diris la maljunulo, ne
 ekzistas du, nek tri, nek kvar. Mi konfesas al vi,
 ke la homoj el via mondo faras tre strangajn
-demandojn.</q></q></p>
+demandojn.</q></p>
 
 <p>Kandid nelaciĝis
 demandadi la bonan
@@ -2851,8 +2857,8 @@ poste ni vidos, kiun reĝlandon ni povos aĉeti.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XIX</head>
 
-<epigraph>Kio okazis al ili en Surinam, kaj kiel Kandid
-  konatiĝis kun Marten.</epigraph>
+<epigraph><p>Kio okazis al ili en Surinam, kaj kiel Kandid
+  konatiĝis kun Marten.</p></epigraph>
 
 <p>La unua tago de niaj du vojaĝantoj estis sufiĉe
 agrabla. Ili estis kuraĝigataj per la ideo, ke ili
@@ -3091,7 +3097,7 @@ al ĉiu cent piastrojn.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XX</head>
 
-<epigraph>Kio okazis surmare al Kandid kaj al Marten.</epigraph>
+<epigraph><p>Kio okazis surmare al Kandid kaj al Marten.</p></epigraph>
 
 <p>Do la maljuna scienculo, kiu nomiĝis Marten,
 enŝipiĝis por veturi al Bordo kun Kandid. Ambaŭ
@@ -3220,8 +3226,8 @@ li diris, mi povos ankaŭ retrovi Kunegond.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXI</head>
 
-<epigraph>Kandid kaj Marten proksimiĝas al la bordoj de Francio
-  kaj rezonadas.</epigraph>
+<epigraph><p>Kandid kaj Marten proksimiĝas al la bordoj de Francio
+  kaj rezonadas.</p></epigraph>
 
 <p>Fine oni ekvidis la bordojn de Francio.</p>
 
@@ -3314,7 +3320,7 @@ havis la saman karakteron, kiel povus esti, ke la
 homoj ŝanĝis la sian?</q></p>
 
 <p><q rend="- ">Ho! diris Kandid, estas granda diferenco,
-ĉar la libera volo&ellipsis;</q></p>
+ĉar la libera volo&elipse;</q></p>
 
 <p>Tiel rezonante, ili alvenis ĉe Bordo.</p></div>
 
@@ -3322,7 +3328,7 @@ homoj ŝanĝis la sian?</q></p>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXII</head>
 
-<epigraph>Kio okazis en Francio al Kandid kaj al Marten.</epigraph>
+<epigraph><p>Kio okazis en Francio al Kandid kaj al Marten.</p></epigraph>
 
 <p>Kandid haltis en Bordo nur dum la tempo necesa
 por vendi kelke da ŝtonoj el Eldorado kaj por prizorgi 
@@ -3483,7 +3489,7 @@ iu gazetistaĉo.</q></p>
 <p><q rend="- ">Kion vi nomas gazetistaĉo? diris Kandid.</q></p>
 
 <p><q rend="- ">Ĝi estas, diris la abato, verkanto de malicaj,
-senvaloraj artikoloj, iu F&ellipsis;</q></p>
+senvaloraj artikoloj, iu F&elipse;</q></p>
 
 <p>Tiel rezonadis Kandid, Marten kaj la Perigordo
 sur la ŝtuparo, vidante preterpasi la homojn ĉe la
@@ -3567,7 +3573,7 @@ da malŝatindaj libroj, kiuj superŝutas min, ke mi
 preferas faraonludi.</q></p>
 
 <p><q rend="- ">Kaj kion vi opinias pri la <emph>Miksaĵoj</emph> de la
-ĉefdiakono T&ellipsis;? diris la abato.</q></p>
+ĉefdiakono T&elipse;? diris la abato.</q></p>
 
 <p><q rend="- ">Ha! diris S-ino de Polinjak, kia teda mortemulo! 
 kiel strange li diras ĉion, kion jam ĉiuj
@@ -3885,8 +3891,8 @@ unua okazo sin denove direkti al Venezio.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXIII</head>
 
-<epigraph>Kandid kaj Marten iras al la bordoj de Anglio;
-  kion ili vidas tie.</epigraph>
+<epigraph><p>Kandid kaj Marten iras al la bordoj de Anglio;
+  kion ili vidas tie.</p></epigraph>
 
 <p><q rend="- ">Ha Panglos! Panglos! Ha! Marten! Marten!
 Ha! mia kara Kunegond! kio do estas ĉi tiu
@@ -3976,7 +3982,7 @@ bona, ĉio iras bone, ĉio iras kiel eble plej bone.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXIV</head>
 
-<epigraph>Pri Paket kaj frato Levkojo.</epigraph>
+<epigraph><p>Pri Paket kaj frato Levkojo.</p></epigraph>
 
 <p>Tuj kiam li estis en Venezio, li serĉigis Kakambo 
 en ĉiuj kafejoj, ĉe ĉiuj voluptovendistinoj,
@@ -4219,7 +4225,7 @@ pri permeso viziti lin la morgaŭon.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXV</head>
 
-<epigraph>Vizito ĉe la sinjorego Pokokurant, nobela Veneziano.</epigraph>
+<epigraph><p>Vizito ĉe la sinjorego Pokokurant, nobela Veneziano.</p></epigraph>
 
 <p>Kandid kaj Marten gondole veturis sur la Brenta
 kaj alvenis ĉe la palaco de la nobela Pokokurant.
@@ -4482,8 +4488,8 @@ Levkojo eĉ ne venis por lin danki.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXVI</head>
 
-<epigraph>Pri vespermanĝo, kiun ĉeestis Kandid kaj Marten
-  kun ses fremduloj, kaj kiaj ili estis.</epigraph>
+<epigraph><p>Pri vespermanĝo, kiun ĉeestis Kandid kaj Marten
+  kun ses fremduloj, kaj kiaj ili estis.</p></epigraph>
 
 <p>Iun vesperon, kiam Kandid, akompanate de
 Marten, estis altabliĝonta kun la fremduloj, kiuj
@@ -4586,7 +4592,7 @@ Meklenburg-Ŝverin (germane: Elisabeth-Katherine-Christine
 von Mecklenburg-Schwerin).</note> estis malliberigitaj; oni edukis min en
 malliberejo; mi kelkfoje havas la permeson vojaĝi
 akompanate de gardantoj, kaj mi venis al Venezio
-por pasigi la karnavalon.</q>
+por pasigi la karnavalon.</q></p>
  
 
 <p>La tria diris: <q rend="«»">Mi estas Karl-Edvard 
@@ -4730,7 +4736,6 @@ estas honesta homo, kaj mia devo estas ŝin ami
 ĉiam. Sed kiel estas eble, ke ŝi povis fali en tian
 mizeregan staton malgraŭ la kvin aŭ ses milionoj,
 kiujn ci kunportis?</q></p>
-
 
 
 <p><q rend="- ">Nu, diris Kakambo, ĉu do mi ne devis doni
@@ -4878,7 +4883,7 @@ galero por iri liberigi Kunegond.</p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXVIII</head>
 
-<epigraph>Kio okazis al Kandid, al Panglos, al Marten, ktp.</epigraph>
+<epigraph><p>Kio okazis al Kandid, al Panglos, al Marten, ktp.</p></epigraph>
 
 <p><q rend="- ">Pardonon, mi denove petas, diris Kandid al
 la barono; pardonon, mia respektinda patro, pro
@@ -4980,11 +4985,8 @@ virino ol esti tute nuda kun ikoglano. Ni senĉese
 disputis, kaj ni ricevis dudek batojn per bovtendeno
 ĉiutage, kiam la interligo de la okazoj el ĉi tiu
 universo kondukis vin en nian galeron, kaj kiam
-vi reaĉetis nin.</q>
+vi reaĉetis nin.</q></p>
  
-
-
-
 <p><q rend="- ">Nu! mia kara Panglos, diris al li Kandid,
 kiam vi estis pendigata, sekcata, trabategata kaj
 remadis en galero, ĉu vi pensis, ke ĉio iris plej
@@ -5005,7 +5007,7 @@ Volter. <label>Trad.</label></note>.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXIX</head>
 
-<epigraph>Kiel Kandid retrovis Kunegond kaj la maljunulinon.</epigraph>
+<epigraph><p>Kiel Kandid retrovis Kunegond kaj la maljunulinon.</p></epigraph>
 
 <p>Dum Kandid, la barono, Panglos, Marten kaj
 Kakambo rakontis siajn aventurojn, dum ili rezonadis 
@@ -5063,7 +5065,7 @@ sed dum mi vivos, ci ne edziĝos kun mia fratino.</q></p></div>
 <div type="chapter" rend="doc">
 <head>Ĉapitro XXX</head>
 
-<epigraph>Konkludo.</epigraph>
+<epigraph><p>Konkludo.</p></epigraph>
 
 <p>Kandid, en la fundo de sia koro, tute ne deziris
 edziĝi kun Kunegond. Sed la ekstrema aroganto
@@ -5276,7 +5278,7 @@ Pirhos, Perseis, Hanibalo, Jugurta, Ariovistus,
 Cezaro, Pompejo, Nerono, Oton, Viteljo, Domitius,
 Riĉardo la II de Anglio, Mario Stjuat, Karlo la I,
 la tri Henrikoj de Francio, la imperiestro Henriko
-la IV? Vi scias&ellipsis;</q></p>
+la IV? Vi scias&elipse;</q></p>
 
 <p><q rend="- ">Mi ankaŭ scias, diris Kandid, ke ni devas
 kulturi nian ĝardenon.</q></p>
