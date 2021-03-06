@@ -115,9 +115,9 @@
         </titlePart>
       </docTitle>
       <docImprint>
-         <date>1929</date>
-         <publisher>Sennacieca Asocio Tutmonda</publisher>
-         <publisher>Eldona fako kooperativa</publisher>
+         <date>1929</date><lb/>
+         <publisher>Sennacieca Asocio Tutmonda</publisher><lb/>
+         <publisher>Eldona fako kooperativa</publisher> /
          <pubPlace>Leipzig</pubPlace>
       </docImprint>
     </titlePage>
@@ -371,6 +371,7 @@ Marte 1929.
       <name>
         Francois-Marie AROUET<lb/>
         (Pseŭdonime: Voltaire)</name>
+      <lb/>
       <date>
         1694-1778
       </date>

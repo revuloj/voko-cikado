@@ -328,6 +328,12 @@ konvenciojn:
   <h3 class="head"><xsl:apply-templates/></h3>
 </xsl:template>
 
+<xsl:template match="epigraph">
+  <div class="epigraph">
+  <xsl:apply-templates/>
+  </div>
+</xsl:template>
+
 <xsl:template match="p">
   <p class="p"><xsl:apply-templates/></p>
 </xsl:template>

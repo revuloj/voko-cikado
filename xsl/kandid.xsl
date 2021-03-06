@@ -1,9 +1,8 @@
 <!DOCTYPE xsl:transform 
 [
-  <!ENTITY Ccirc  "&#x0108;">
   <!ENTITY dash "&#x2015;">
-  <!ENTITY leftquot '"'>
-  <!ENTITY rightquot '"'>
+  <!ENTITY leftquot '«'>
+  <!ENTITY rightquot '»'>
 ]>
 
 <xsl:transform
@@ -29,11 +28,55 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:variable name="content_level1" select="'chapter'"/>
 <xsl:variable name="content_level2" select="''"/>
 
+<xsl:template match="titlePart[@type='main']">
+  <h1 class="head mainTitle"><xsl:apply-templates/></h1>
+</xsl:template>
+
+<xsl:template match="titlePart[@type='small']">
+  <h2 class="head"><xsl:apply-templates/></h2>
+</xsl:template>
+
+<xsl:template match="titlePart[@type='subtitle']">
+  <h2 class="head"><xsl:apply-templates/></h2>
+</xsl:template>
+
 <!--
-<xsl:template match="note">
-  [<i><xsl:apply-templates/></i>]
+<xsl:template match="dif[@type='title']/epigraph">
+  <div class="title epigraph">
+  <xsl:apply-templates/>
+  </div>
 </xsl:template>
 -->
+
+<xsl:template match="div[@id='A']//hi">
+  <em><xsl:apply-templates/></em>
+</xsl:template>
+
+<xsl:template match="p//name">
+  <em><xsl:apply-templates/></em>
+</xsl:template>
+
+<xsl:template match="q[@rend='letter']">
+  <em class="letter"><xsl:apply-templates/></em>
+</xsl:template>
+
+<xsl:template match="q[@rend='«»']">
+    <xsl:text>&leftquot;</xsl:text>
+    <xsl:apply-templates/>
+    <xsl:text>&rightquot;</xsl:text>
+</xsl:template>
+
+<xsl:template match="q[@rend='« ']">
+    <xsl:text>&leftquot;</xsl:text>
+    <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="q[@rend='-«']">
+    <xsl:text>&dash; &leftquot;</xsl:text>
+    <xsl:apply-templates/>
+</xsl:template>
+
+
 
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[@type='footnote']">
@@ -53,8 +96,10 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="div[@type='title']">
-  <div class="footnotes">
+  <div class="title">
     <xsl:apply-templates/>
+  </div>
+  <div class="footnotes">
     <xsl:call-template name="footnotes"/>
   </div>
 </xsl:template>

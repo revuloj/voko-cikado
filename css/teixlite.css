@@ -19,6 +19,8 @@ li.content {margin-bottom: 5mm}
 li.subcontent {margin-bottom: 1mm; margin-top: 1mm;}
 
 .head {font-variant: small-caps}
+.epigraph {font-weight: bold; margin: 1em}
+.title .epigraph {font-style: italic; font-weight: normal; margin: 1em}
 .p {text-indent: 5mm; margin-bottom: 1mm; margin-top: 1mm; text-align:justify; max-width: 50em}
 .first_p {margin-bottom: 1mm; margin-top: 1mm; text-align: justify; max-width: 50em}
 .lg {margin: 10mm}
