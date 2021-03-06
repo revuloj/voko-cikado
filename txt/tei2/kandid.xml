@@ -24,6 +24,13 @@
 <!ENTITY dash "&#x2015;"> 
 <!ENTITY elipse "...">
 
+<!-- bildoj -->
+<!NOTATION png PUBLIC "PNG 1.0">
+<!ENTITY voltaire SYSTEM "../bld/kandid/voltaire.png" NDATA png>
+<!ENTITY kunegold SYSTEM "../bld/kandid/kunegold.png" NDATA png>
+<!ENTITY panglos SYSTEM "../bld/kandid/panglos.png" NDATA png>
+<!ENTITY maljunulino SYSTEM "../bld/kandid/maljunulino.png" NDATA png>
+
 ]>
 
 <!-- $Id: kandid.xml,v 1.0 2021/03/06 12:00:00 revo Exp $ -->
@@ -363,10 +370,7 @@ Marte 1929.
   </epigraph> 
 
   <p>
-    <figure>
-      <!-- #### bildo ###
-    #######################################################
-    -->
+    <figure entity="voltaire">
       <figDesc>
       <name>
         Francois-Marie AROUET<lb/>
@@ -837,6 +841,11 @@ transdoni ĝin al
 neniu, ĉar mi
 mortiĝas.</q></p>
 
+
+<p>
+<figure entity="panglos"><figDesc><name>Panglos</name></figDesc></figure>
+</p>
+
 <p><q rend="- ">Ho Panglos, ekkriis
 Kandid, jen stanga genealogio! ĉu la diablo ne
 troviĝas ĉe la komenco?</q></p>
@@ -1301,6 +1310,12 @@ al ambaŭ; kaj
 mi kredas, ke
 pro tio mi ĉiam
 estis amata.</q></p>
+
+
+<p>
+<figure entity="kunegold"><figDesc><name>Kundegold</name></figDesc></figure>
+</p>
+
 
 <p><q rend="« ">Fine, por
 forigi la malfeliĉegon,
@@ -1852,6 +1867,12 @@ resume karesi
 la serpenton, kiu formanĝas
 nin, ĝis kiam 
 ĝi estas formanĝinta al ni la koron?</q></p>
+
+
+<p>
+<figure entity="maljunulino"><figDesc><name>Panglos</name></figDesc></figure>
+</p>
+
 
 <p><q rend="« ">En la landoj, kiujn la sorto igis min travojaĝi,
 kaj en la drinkejoj, kie mi estis servistino, mi vidis

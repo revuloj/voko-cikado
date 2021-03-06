@@ -28,6 +28,9 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:variable name="content_level1" select="'chapter'"/>
 <xsl:variable name="content_level2" select="''"/>
 
+<xsl:variable name="titolbildo">../bld/kandid/titolo.jpg</xsl:variable>
+
+
 <xsl:template match="titlePart[@type='main']">
   <h1 class="head mainTitle"><xsl:apply-templates/></h1>
 </xsl:template>
@@ -76,7 +79,13 @@ specialajn regulojn ne aŭ alie difinitajn tie.
     <xsl:apply-templates/>
 </xsl:template>
 
-
+<xsl:template match="figure">
+  <p align='center'>
+  <img src="../bld/{substring-after(unparsed-entity-uri(@entity),'/bld/')}" 
+    alt="{@entity}" width="600" vspace="20"/><br/>
+  <xsl:apply-templates select="figDesc/*"/>
+  </p>
+</xsl:template>
 
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[@type='footnote']">
@@ -97,6 +106,9 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 
 <xsl:template match="div[@type='title']">
   <div class="title">
+    <p class="titolbildo">
+      <img width="50%" align="center" src="{$titolbildo}"/>
+    </p>
     <xsl:apply-templates/>
   </div>
   <div class="footnotes">

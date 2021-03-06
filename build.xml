@@ -56,7 +56,7 @@ voku ekz-e:
    <target name="klasikaj-verkoj"
     depends="preparo,
       biblio,fundamento,faraono,gfabeloj,fabeloj,
-      fumejo,lasta,interrompita,butiko,revizoro,rabistoj,marta,
+      fumejo,kandid,lasta,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
    </target>
@@ -164,7 +164,7 @@ voku ekz-e:
    <target name="kandid" description="kreas HTML-paĝojn el kandid.xml">
     <mkdir dir="${celo}/kandid"/>
     <copy todir="${celo}/bld/kandid">
-        <fileset dir="bld/kandid" includes="*.jpg"/>
+        <fileset dir="bld/kandid" includes="*.jpg *.png"/>
     </copy>
     <xslt in="${xml}/kandid.xml" out="${celo}/kandid/index.html"
        style="${xsl}/kandid.xsl" classpathref="saxon.classpath"/>
