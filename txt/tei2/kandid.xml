@@ -18,6 +18,9 @@
 <!ENTITY ubreve "&#x016d;">
 
 <!-- aliaj literoj -->
+<!ENTITY leftquot "«">
+<!ENTITY rightquot "»">
+
 <!ENTITY dash "&#x2015;"> 
 <!ENTITY elipse "...">
 
@@ -339,8 +342,10 @@ ke ĉe la fino ili opinios, ke ĝi estas trafa,
 Marte 1929.
 </signed>
 </div>
+
     
-<div type="title" id="O">
+
+<div>
 <head>Kandid
   <note type="footnote" rend="(1)">France: Candide; tiu vorto signifas: <emph>malruza,
   senmalica, naiva.</emph></note>

@@ -25,8 +25,8 @@
 
 XSLT-stildifinoj por TEI-Lite-dokumentoj. 
 
-(c) 2001-2002 che Wolfram DIESTEL
-    lau GPL 2.0
+(c) 2001-2021 ĉe Wolfram DIESTEL
+    laŭ GPL 2.0
 
 Ghi entenas nur la bazajn regulojn kaj estu importata de dokument-specifa
 stil-dosiero. Eblas ankau meti la apartajn regulojn en
@@ -36,8 +36,9 @@ TEI-dokumentoj uzataj kun tiuj chi stildifinoj sekvu kelkajn
 konvenciojn:
 
 1) La elemento <front>, en kiu aperu la enhavtabelo havu atributon rend="index"
-   La eroj <text> au <div>, kiuj aperu en la enhavtabelo havu atributon rend="inx"
-   kaj atributon "id" servanta kiel referenc-marko.
+   La eroj <text> au <div>, kiuj aperu en la enhavtabelo sur la supra nivelo 
+   povas havi atributon rend="doc" por aperi en aparta paĝo
+   kaj atributon "id" servanta kiel dosiernomo/referenc-marko.
 
 -->
 
@@ -176,6 +177,9 @@ konvenciojn:
 
 <xsl:template name="footer">
   <hr/>
+  <div class="footnotes">
+    <xsl:call-template name="footnotes"/>
+  </div>
   <div class="footer">
   <xsl:for-each select="following-sibling::node()[@rend='doc'][1]">
     <a href="{@id}.html">
@@ -185,6 +189,9 @@ konvenciojn:
   </xsl:for-each>
   </div>
 </xsl:template>
+
+<!-- plenigu tion ĉi en la specifaj verko-XSL... -->
+<xsl:template name="footnotes"/>
 
 <!-- titolpagh(j) kaj enhavtabelo -->
 

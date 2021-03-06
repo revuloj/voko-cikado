@@ -167,7 +167,7 @@ voku ekz-e:
         <fileset dir="bld/kandid" includes="*.jpg"/>
     </copy>
     <xslt in="${xml}/kandid.xml" out="${celo}/kandid/index.html"
-       style="${xsl}/teixlite_default.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/kandid.xsl" classpathref="saxon.classpath"/>
    </target>   
 
    <target name="lasta" description="kreas HTML-paĝojn el lasta.xml">
