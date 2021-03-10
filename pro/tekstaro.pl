@@ -21,6 +21,8 @@ bib(ifi,'Ifigenio').
 bib(ika,'IK').
 bib(ito,'InfanTorent2').
 bib(kis,'Kiso').
+bib(knd,'Kandid').
+bib(lst,'Lasta').
 bib(lbl,'BonaLingvo').
 bib(msh,'MortulŜip').
 bib(mtp,'Metrop').
@@ -61,6 +63,9 @@ vrk(f_e,fundamento,1905,
 vrk(grf,gfabeloj,1906,
     struct_teix(foreword,story),
     verkoj('gfabeloj.xml')).
+vrk(knd,kandid,1929,
+    struct_teix(chapter),
+    verkoj('kandid.xml')).
 vrk(lst,lasta,1910,
     struct_teix(story),
     verkoj('lasta.xml')).
