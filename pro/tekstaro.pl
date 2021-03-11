@@ -8,14 +8,15 @@ user:file_search_path(cfg,'../cfg').
 % referencoj de verko-identigiloj al la bibliografio de ReVo...
 % Se la Verko-Id estas samlitera kiel la biblografia @mll, ne necesas
 % aparta referenco tie ĉi, ekz-e: bib(prv,'PrV').
-bib(bmt,'MT').
-bib(bnt,'NT').
+bib(m_t,'MT').
+bib(n_t,'NT').
 bib(d_l,'DL').
 bib(e_e,'EE').
-bib(mar,'Marta').
+bib(mrt,'Marta').
 bib(d_l,'DL').
 bib(f_e,'F').
 bib(f_k,'FK').
+bib(fbg,'ElektFab').
 bib(hml,'Hamlet').
 bib(ifi,'Ifigenio').
 bib(ika,'IK').
@@ -24,6 +25,7 @@ bib(kis,'Kiso').
 bib(knd,'Kandid').
 bib(lst,'Lasta').
 bib(lbl,'BonaLingvo').
+bib(lrz,'LR').
 bib(msh,'MortulŜip').
 bib(mtp,'Metrop').
 bib(par,'Paroloj').
@@ -45,10 +47,10 @@ bib(vzm,'VivZam').
 vrk(prv,proverbaro,1910,
     struct_teix(preface,chapter),
     verkoj('proverb.xml')).
-vrk(bmt,biblio_malnova,1916,
+vrk(m_t,biblio_malnova,1916,
     struct_biblio,
     tekstoj('biblio/malnova/*.utf')).
-vrk(bnt,biblio_nova,1916,
+vrk(n_t,biblio_nova,1916,
     struct_biblio,
     tekstoj('biblio/nova/*.utf')).
 vrk(fba,fabeloj,1926, %+/26/32/63
@@ -60,7 +62,7 @@ vrk(far,faraono,1926,
 vrk(f_e,fundamento,1905,
     struct_fundamento,
     verkoj('fundamento.xml')).
-vrk(grf,gfabeloj,1906,
+vrk(fbg,gfabeloj,1906,
     struct_teix(foreword,story),
     verkoj('gfabeloj.xml')).
 vrk(knd,kandid,1929,
@@ -84,13 +86,13 @@ vrk(fdo,opiofumejo,1908,
 vrk(par,paroloj,1904, %..-1913
     struct_paroloj,
     verkoj('paroloj.xml')).
-vrk(poz,poemoj,1904,
+vrk(poe,poemoj,1904,
     struct_teix(poem),
     verkoj('poemoj.xml')).
 vrk(lsb,butiko,1931,
     struct_teix(foreword,poem),
     verkoj('butiko.xml')).
-vrk(mar,marta,1910,
+vrk(mrt,marta,1910,
     struct_marta,
     verkoj('marta.xml')).
 vrk(rvz,revizoro,1907,
