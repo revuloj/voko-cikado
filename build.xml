@@ -1,3 +1,8 @@
+<!DOCTYPE project
+[
+<!ENTITY url_wd "http://www.steloj.de/esperanto">
+]>
+
 <project name="Esperanto-verkoj" default="" basedir=".">
     <description>
        Esperantaj verkoj, reguloj por transformi ilin al HTML kaj krei
@@ -107,6 +112,16 @@ voku ekz-e:
     </copy>
    </target>
 
+   <target name="bib_tmpl" description="kreas ŝablonojn por subteni aldono al Revo-bibliografio">
+      <xslt out="${tmp}/bibliogr.tmpl.xml" in="${xml}/fumejo.xml"
+            style="${xsl}/verkolisto_bib.xsl"
+            classpathref="saxon.classpath">
+        <param name="xml_base_url" expression="file://${user.dir}"/>  <!--'file:///home/revo/verkoj'/-->
+        <param name="steloj_base_url" expression="&url_wd;/"/> 
+        <param name="tekstaro_base_url" expression="https://tekstaro.com/t?nomo="/> 
+        <factory name="net.sf.saxon.TransformerFactoryImpl"/>
+      </xslt>
+   </target>
 
    <target name="biblio" description="kreas HTML-paghojn el biblio.xml">
     <copy todir="${celo}/bld/biblio">
