@@ -1,13 +1,19 @@
 FROM openjdk:jre-slim as builder
 LABEL MAINTAINER=<diestel@steloj.de>
 
+ARG BIBLIOGR=https://raw.githubusercontent.com/revuloj/revo-fonto/master/cfg/bibliogr.xml
+ARG GRUNDO=https://github.com/revuloj/voko-grundo/archive/master.zip
+
 # Tiu Javo-kesto servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
 # Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune
 # citaĵoserĉo.
 
 RUN apt-get update && apt-get install -y --no-install-recommends \
-    ant libsaxonhe-java \
-    && rm -rf /var/lib/apt/lists/*
+    ant libsaxonhe-java unzip curl \
+    && rm -rf /var/lib/apt/lists/* \
+    && cd /tmp && echo "<- ${BIBLIOGR}" && curl -LO ${BIBLIOGR} \
+    && echo "<- ${GRUNDO}" && curl -LO ${GRUNDO} && unzip -q master.zip voko-grundo-master/dtd/* \
+    && ls /tmp/*
 
 # libxalan2-java
 # se uzi xalan anst. saxon necesas uzi fallback redirect anst. result-document,
@@ -33,7 +39,7 @@ FROM swipl:stable
 # servu kaj la verkojn kaj la citaĵoservon, tiel oni povas ankaŭ eliri el la
 # serĉo en la tekstojn rekte....
 
-RUN useradd -ms /bin/bash -u 1003 cikado
+RUN useradd -ms /bin/bash -u 1003 cikado 
 USER cikado:users
 
 #RUN ls /home/ && mkdir /home/cikado/xml && mkdir /home/revo/txt
@@ -41,6 +47,8 @@ USER cikado:users
 COPY ./txt /home/cikado/txt
 COPY ./pro /home/cikado/pro
 COPY --from=builder /home/revo/verkoj/steloj.de /home/cikado/steloj.de
+COPY --from=builder /tmp/voko-grundo-master/dtd /home/cikado/dtd/
+COPY --from=builder /tmp/bibliogr.xml /home/cikado/cfg/
 
 WORKDIR /home/cikado/pro
 

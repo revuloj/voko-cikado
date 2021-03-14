@@ -9,6 +9,7 @@
     
 :- use_module(library(dcg/basics)).
 :- use_module(library(sgml)).
+:- use_module(library(http/json)).
 :- use_module(library(xpath)).
 %:- use_module(agordo).
 
@@ -31,7 +32,7 @@
 %:- initialization(agordo).
 %%%% Vi povas tie ĉi malŝalti portempe la aŭtomatan tekstŝargon, sed
 %%%% remetu poste!
-:- initialization(read_all_vrk).
+:- initialization((read_bib,read_all_vrk)).
 
 teixdtd(verkoj('teixlite.dtd')).
 tei_dtd(esf('../dtd/tei-tekstaro.dtd')).
@@ -665,6 +666,22 @@ cit_to_ekzj(Citoj,Texts) :-
 	    ),
 	    Texts).
 
+% kontrolu ĉu ĉiuj verkoj estas efektive citeblaj
+check_cit_to_json :-
+    %findall(V,vrk(V,_,_,_,_),Verkoj),
+    %forall(member(Vrk,Verkoj),preflightcheck(Vrk)).
+    forall(distinct(vrk(Vrk,_,_,_,_)),check_cit_to_json(Vrk)).
+
+check_cit_to_json(Vrk) :-
+    once((
+        aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), CitCount), CitCount>10,
+        N is div(CitCount,2), call_nth(cit(Vrk:Dos,Lok,Fraz),N),
+        cit_to_json(cit(Vrk:Dos,Lok,Fraz),Json),
+        format('~w:',[Vrk]), json_write(current_output,Json),nl
+        ;
+        format("NE CITEBLA: ~w~n",[Vrk])
+    )).
+
 cit_to_json(cit(Vrk,Lok,Text),json([ekz=Text,fnt=FntJson])) :-
 	fnt_json(Vrk,Lok,FntJson),!.
 
@@ -673,25 +690,23 @@ bib_(Vrk,Bib) :- bib(Vrk,Bib),!.
 bib_(Vrk,Bib) :- bib(Bib,_,_,_), downcase_atom(Bib,Vrk).
 
 
-fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
-
-fnt_json(bu:_,Lok,json([vrk='La Stranga Butiko',aut='Raymond Schwartz',lok=Lok,url='http://steloj.de/esperanto/butiko'])).
+fnt_json(lsb:_,Lok,json([vrk='La Stranga Butiko',aut='Raymond Schwartz',lok=Lok,url='http://steloj.de/esperanto/butiko'])).
 
 fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
-	     (Vrk = mt ; Vrk = nt),
+	     (Vrk = m_t ; Vrk = n_t),
 	     % TODO: aldonu titolon de la teksto
 	     tekstaro:txt(Vrk:No,Titolo,_),
 	     format(atom(FntLok),'~w ~w',[Titolo,Lok]),
-	     upcase_atom(Vrk,Bib).	     
+	     bib_(Vrk,Bib).	     
 
-fnt_json(fb:No,Lok,json([bib=Bib,lok=Lok])) :-
+fnt_json(fba:No,Lok,json([bib=Bib,lok=Lok])) :-
       format(atom(Bib),'Fab~d',[No]).
 
-fnt_json(fe:_,Lok,json([bib='F',lok=Lok])).
+fnt_json(f_e:_,Lok,json([bib='F',lok=Lok])).
 
-fnt_json(gf:_,Lok,json([bib='ElektFab',lok=Lok])).
+fnt_json(fbg:_,Lok,json([bib='ElektFab',lok=Lok])).
 
-fnt_json(fr:No,Lok,json([bib=Bib,lok=FntLok])) :-
+fnt_json(far:No,Lok,json([bib=Bib,lok=FntLok])) :-
     format(atom(Bib),'Far~d',[No]),
     atomic_list_concat([Vorto|Vortoj],' ',Lok),
     sub_atom(Vorto,0,1,_,L1),
@@ -700,19 +715,19 @@ fnt_json(fr:No,Lok,json([bib=Bib,lok=FntLok])) :-
     atom_concat(L1,Literoj_,Vorto1),
     atomic_list_concat([Vorto1|Vortoj],' ',FntLok).
 
-fnt_json(pa:_,Tit,json([bib='Paroloj',vrk=Tit])).
-fnt_json(hm:_,Tit,json([bib='Homaranismo',vrk=Tit])).
-fnt_json(lr:_,Lok,json([bib='LR',lok=Lok])).
+fnt_json(par:_,Tit,json([bib='Paroloj',vrk=Tit])).
+fnt_json(hom:_,Tit,json([bib='Homaranismo',vrk=Tit])).
+fnt_json(lrz:_,Lok,json([bib='LR',lok=Lok])).
 
-fnt_json(po:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
+fnt_json(poe:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
 
-fnt_json(ra:_,Lok,json([bib='Rabistoj',lok=Lok])).
-fnt_json(rv:_,Lok,json([bib='Revizoro',lok=Lok])).
+fnt_json(rab:_,Lok,json([bib='Rabistoj',lok=Lok])).
+fnt_json(rvz:_,Lok,json([bib='Revizoro',lok=Lok])).
 
-fnt_json(sr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
+fnt_json(scr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
 
-fnt_json(m1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
-    tekstaro:txt(m1:No,_,File),
+fnt_json(mo1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
+    tekstaro:txt(mo1:No,_,File),
     atomic_list_concat([_,N|_],'-',File),
     atom_codes(N,[J1,J2,N1,N2]),
     atom_codes(Nro,[J1,J2,0'/,N1,N2]),
@@ -720,17 +735,17 @@ fnt_json(m1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
     reverse(Parts,[Dos|_]),
     format(atom(Url),'http://steloj.de/esperanto/monato1/~w',[Dos]).
 
-fnt_json(m2:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url])) :-
-    tekstaro:aut(m2:No,_,Aut),
-    tekstaro:txt(m2:No,_,File),
+fnt_json(mo2:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url])) :-
+    tekstaro:aut(mo2:No,_,Aut),
+    tekstaro:txt(mo2:No,_,File),
     %sub_atom(File,_,6,5,Nro),
     atomic_list_concat(Parts,'/',File),
     reverse(Parts,[Dos|_]),
     format(atom(Url),'http://steloj.de/esperanto/monato2/~w',[Dos]).
 
-fnt_json(m3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
-    tekstaro:aut(m3:No,_,Aut),
-    tekstaro:txt(m3:No,_,File),
+fnt_json(mo3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
+    tekstaro:aut(mo3:No,_,Aut),
+    tekstaro:txt(mo3:No,_,File),
     atomic_list_concat(Parts,'/',File),
     reverse(Parts,[Dos,Jaro|_]),
     %once((
@@ -739,8 +754,11 @@ fnt_json(m3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	%;
 	format(atom(Url),'https://www.monato.be/~w/~w',[Jaro,Dos]).
 	%))
+
+% se ni scias almenaŭ bbibliografian mallongigon, uzu tiun
+fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
     
-% se neniu funkcias donu la sekvan por ne gluti la trovojn!
+% se neniu antaŭa funkcias donu la sekvan por ne gluti la trovojn!
 fnt_json(Vrk:_No,Tit, json([vrk=Verko,lok=Tit])) :- vrk(Vrk,Verko,_,_,_).
 
 
