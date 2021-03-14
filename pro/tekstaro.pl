@@ -167,17 +167,12 @@ vrk(lrz,lingvaj_respondoj,1889, %..-1913
     struct_tei(chapitro),
     esf('lingvaj-respondoj.xml')).
 
-vrk(vzm,vivozamenhof,1920,
-    struct_gutenberg,
-    tekstoj('gutenberg/Vivo_de_Zamenhof.html')).
+
 
 vrk(kkl,kompatinda_klem,1931,
     struct_tei(chapitro),
     esf('kompatinda-klem.xml')).
 
-vrk(vch,vivo_chukchoj,1933,
-    struct_tei(chapitro),
-    esf('el-vivo-de-chukchoj.xml')).
 
 % div sen @type
 %vrk(gmn,gimnazio,1909,
@@ -213,6 +208,9 @@ vrk(p_i,pro_ishtar,1924,
     struct_tei(chapitro),
     esf('pro-ishtar.xml')).
 
+vrk(quv,quo_vadis,1933,
+    struct_tei(chapitro),
+    esf('quo-vadis.xml')).
 
 % tro da neesperantaĵoj?:
 %vrk(res,reformoj,1907,
@@ -233,6 +231,14 @@ vrk(tor,al_torento,1930,
 vrk(taa,tri_angloj,1936,
     struct_tei(chapitro),
     esf('tri-angloj-alilande.xml')).
+
+vrk(vch,vivo_chukchoj,1933,
+    struct_tei(chapitro),
+    esf('el-vivo-de-chukchoj.xml')).
+
+vrk(vzm,vivozamenhof,1920,
+    struct_gutenberg,
+    tekstoj('gutenberg/Vivo_de_Zamenhof.html')).    
 
 vrk(voj,vojaghimpresoj,1895, %(re 2003)
     struct_tei(enkonduko,chapitro),
