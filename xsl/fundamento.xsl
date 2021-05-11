@@ -536,7 +536,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="list[@type='def']/item">
   <xsl:choose>
-    <xsl:when test="position()=last()-1">
+    <xsl:when test="position()=last()">
       <xsl:apply-templates/><xsl:text>. </xsl:text>
     </xsl:when>
     <xsl:otherwise>
