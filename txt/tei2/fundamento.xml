@@ -39419,18 +39419,15 @@ cierpieć</item>
   <item lang="pl">trybuna,
 mównica</item>
 </list>
-<list type="deriv">
-  <label lang="eo">tri&strek;foli&strek;</label><item>
-  <list type="def">
-    <item lang="fr">trèfle</item>
-    <item lang="en">trefoil</item>
-    <item lang="de">Klee</item>
-    <item lang="ru">трилистникъ</item>
-    <item lang="pl">koniczyna</item>
-  </list>
-  </item>
+
+<label lang="eo">tri&strek;foli&strek;</label><item>
+<list type="def">
+  <item lang="fr">trèfle</item>
+  <item lang="en">trefoil</item>
+  <item lang="de">Klee</item>
+  <item lang="ru">трилистникъ</item>
+  <item lang="pl">koniczyna</item>
 </list>
-</item>
 
 <label lang="eo">trik&strek;</label><item>
 <list type="def">
