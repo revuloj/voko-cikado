@@ -1,1 +1,3 @@
-txt/* linguist-vendored
+*.php linguist-vendored
+*.txt linguist-vendored
+*.html linguist-vendored
