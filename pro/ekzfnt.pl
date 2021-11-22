@@ -6,6 +6,7 @@
 	      findfast/3,
 	      findfast/4,
 	      findsmart/3,
+	      findsmart/4,
           findregex/3,
           findregex/4,
 	      show_stats/0
@@ -182,7 +183,7 @@ find(isub,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil) :-
     downcase_atom(Sercxo,S),
     tekstaro:cit(Vrk:Dos,Lok,Txt),
     downcase_atom(Txt,T),
-    isub(S,T,false,Simil),
+    isub(S,T,Simil,[zero_to_one(true)]),
     Simil > 0.5 .
 
 find(contains,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
