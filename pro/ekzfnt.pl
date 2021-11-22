@@ -6,13 +6,16 @@
 	      findfast/3,
 	      findfast/4,
 	      findsmart/3,
-	      findsmart/4,
+          findregex/3,
+          findregex/4,
 	      show_stats/0
 ]).
 
 :- use_module(library(dcg/basics)).
 %:- use_module(library(readutil)).
 :- use_module(library(isub)).
+:- use_module(library(pcre)).
+
 :- use_module(tekstanalizo).
 
 :- debug(ekzfnt(_)).
@@ -83,6 +86,31 @@ findsmart(Max,Verkaro,Sercho,Trovoj) :-
 			   
     cit_to_ekzj(Trovj,Trovoj)).
 
+
+findregex(Max,Sercho,Trovoj) :- findregex(Max,chiuj,Sercho,Trovoj).
+
+findregex(Max,Verkaro,Sercho,Trovoj) :-
+    re_compile(Sercho,Regex,[]),
+    verkaro(Verkaro,Verkoj),
+    atom_length(Sercho,L), L>2,
+
+    concurrent_maplist(findbest(regex,Max,Regex),Verkoj,T), 
+  
+    % faru unu liston el pluraj (pro paralela serĉo)
+    append(T,Trv), !, re_flush,
+  
+    length(Trv,Len), debug(ekzfnt(findregex),'findregex len Trv ~w',[Len]),
+  
+   ( Trv = []
+      -> Trovoj = []
+    ;			   
+        group_by(1,Simil-T1,
+  %  bagof(Simil-T1,
+         limit(Max,
+           order_by([desc(Simil)],member(Simil-T1,Trv))),
+         Trovj),
+                 
+      cit_to_ekzj(Trovj,Trovoj)).
 
 findbest(Method,Max,Sercxo,Vrk,Trovoj) :-
     group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
@@ -162,10 +190,15 @@ find(contains,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
     tekstaro:cit(Vrk:Dos,Lok,Txt),
     text_contained(S,Txt).
 
+find(regex,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
+    tekstaro:cit(Vrk:Dos,Lok,Txt),
+    re_match(Sercxo,Txt).    
+
 ngram_find(NGrams,Atom,Percentage) :-
     proper_length(NGrams,Len), Len>0,
     ngram_count(NGrams,Atom,0,Count),
     Percentage is Count / Len.   % >= 0.7
+
 
 % komparu du tekstojn: a) ekzakte b) uzante n-gramojn
 
@@ -181,6 +214,8 @@ text_match(Atom1,Atom2,Percentage) :-
   
 text_match(Atom1,Atom2,Percentage) :-
   ngram_match(Atom1,Atom2,4,Percentage).
+
+
 
 % alternative dishaku nur la pli mallongan atomon
 % kaj serchu chiun unuopan n-gramon en la pli longa teksto (maplist, member... reduce?)
