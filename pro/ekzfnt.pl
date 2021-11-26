@@ -91,7 +91,8 @@ findsmart(Max,Verkaro,Sercho,Trovoj) :-
 findregex(Max,Sercho,Trovoj) :- findregex(Max,chiuj,Sercho,Trovoj).
 
 findregex(Max,Verkaro,Sercho,Trovoj) :-
-    re_compile(Sercho,Regex,[]),
+    atom_concat('(*UCP)',Sercho,Pattern),
+    re_compile(Pattern,Regex,[]),
     verkaro(Verkaro,Verkoj),
     atom_length(Sercho,L), L>2,
 
