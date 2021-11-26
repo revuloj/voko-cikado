@@ -279,7 +279,7 @@ vrk(chr,chu_rakonti,1986,
 vrk(chm,chu_mortu,1982,
     struct_tei(chapitro),
     esf('chu-shi-mortu-trafike.xml')).
-vrk(ckc,chu_chine,1976,
+vrk(chc,chu_chine,1976,
     struct_tei(chapitro),
     esf('chu-vi-kuiras-chine.xml')).
 
@@ -398,27 +398,27 @@ vrk(viv,vivo_vokas,1946,
     struct_tei(chapitro),
     esf('vivo-vokas.xml')).
 
-vrk(md1,mondediplo1,2002,
+vrk(md02,mondediplo1,2002,
     struct_tei(artikolo),
     esf('mondediplo-2002.xml')).
 
-vrk(md2,mondediplo2,2005,
+vrk(md05,mondediplo2,2005,
     struct_tei(artikolo),
     esf('mondediplo-2005.xml')).
   
-vrk(md3,mondediplo3,2008,
+vrk(md08,mondediplo3,2008,
     struct_tei(artikolo),
     esf('mondediplo-2008.xml')).
 
-vrk(md4,mondediplo4,2011,
+vrk(md11,mondediplo4,2011,
     struct_tei(artikolo),
     esf('mondediplo-2011.xml')).
   
-vrk(md5,mondediplo5,2014,
+vrk(md14,mondediplo5,2014,
     struct_tei(artikolo),
     esf('mondediplo-2014.xml')).
      
-vrk(md6,mondediplo6,2017,
+vrk(md17,mondediplo6,2017,
     struct_tei(artikolo),
     esf('mondediplo-2017.xml')).
 

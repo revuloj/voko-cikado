@@ -690,8 +690,6 @@ bib_(Vrk,Bib) :- bib(Vrk,Bib),!.
 bib_(Vrk,Bib) :- bib(Bib,_,_,_), downcase_atom(Bib,Vrk).
 
 
-fnt_json(lsb:_,Lok,json([vrk='La Stranga Butiko',aut='Raymond Schwartz',lok=Lok,url='http://steloj.de/esperanto/butiko'])).
-
 fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     (Vrk = m_t ; Vrk = n_t),
 	     % TODO: aldonu titolon de la teksto
