@@ -722,6 +722,15 @@ fnt_json(poe:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
 fnt_json(rab:_,Lok,json([bib='Rabistoj',lok=Lok])).
 fnt_json(rvz:_,Lok,json([bib='Revizoro',lok=Lok])).
 
+fnt_json(ode:_,Lok,json([bib='LOdE',lok=Loko])) :-
+    once((
+        % ignoru unuan parton de Lok: 'SENDEPENDA ĈIUMONATA REVUO. '
+        atomic_list_concat([_|L],'.',Lok),
+        atomic_list_concat(L,',',Loko)
+    ;
+        Loko = Lok
+    )).
+
 fnt_json(scr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
 
 fnt_json(mo1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
