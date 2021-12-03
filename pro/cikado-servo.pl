@@ -164,7 +164,7 @@ sercho(Kie,Sercho) :-
     debug(cikado(what),'>>> ~w: ~w',[Kie,Sercho]),
     once((
         is_regex(Sercho), 
-        time(findregex(50,Kie,Sercho,Json))
+        time(findregex(100,Kie,Sercho,Json))
         ;
         % se la serĉaĵo enhavas alemanŭ tri literojn kaj spacsignon 
         % (do plurajn vortojn aŭ vorton kun antaŭa aŭ posta spaco),
@@ -173,7 +173,7 @@ sercho(Kie,Sercho) :-
         time(findsmart(50,Kie,Sercho,Json))
         ;
         % unuopajn vortojn ni serĉas akurate (findfast)
-        findfast(50,Kie,Sercho,Json))
+        findfast(100,Kie,Sercho,Json))
     )),
 %	  show_stats,
     reply_json(Json),
