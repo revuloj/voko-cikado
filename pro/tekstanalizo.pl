@@ -762,6 +762,9 @@ fnt_json(mo3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	format(atom(Url),'https://www.monato.be/~w/~w',[Jaro,Dos]).
 	%))
 
+fnt_json(kon:_,Lok,json([bib='Kon11',lok=Lok])).
+
+
 % se ni scias almenaŭ bbibliografian mallongigon, uzu tiun
 fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
     
