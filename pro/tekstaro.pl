@@ -17,14 +17,17 @@ bib(d_l,'DL').
 bib(f_e,'F').
 bib(f_k,'FK').
 bib(fbg,'ElektFab').
+bib(grd,'Gerda').
 bib(hml,'Hamlet').
 bib(ifi,'Ifigenio').
 bib(ika,'IK').
 bib(ito,'InfanTorent2').
 bib(kis,'Kiso').
+bib(kon,'Kon11').
 bib(knd,'Kandid').
 bib(lst,'Lasta').
 bib(lbl,'BonaLingvo').
+bib(lpl,'Plumamikoj').
 bib(lrz,'LR').
 bib(msh,'MortulŜip').
 bib(mtp,'Metrop').
@@ -35,8 +38,8 @@ bib(rab,'Rabistoj').
 bib(rvz,'Revizoro').
 bib(spj,'SkandalJozef').
 bib(sra,'SatirRak').
-
-%bib(lr,'LR').
+bib(vch,'Ĉukĉoj').
+bib(voj,'VojaĝImp').
 bib(vzm,'VivZam').
 
 
