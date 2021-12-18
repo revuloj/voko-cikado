@@ -1730,744 +1730,321 @@ furunk| Hautgeschwŭr, Blutgeschwŭr.
 
 
  
- 
-
+G, Ĝ
  
 
-galon |
+galon| Gold-, Silberborte, usw.
+gam| Tonleiter.
+ĝentil| höflich, artig.
+glut| verschlingen, verschlucken; einnehmen (Medizin).
+golf| Golf, Meerbusen.
+graci| graziös, zierlich.
+grifel| Griffel, Stichel.
+gvid| führen, leiten.
+
+
+H
+
+ha. ha! ach!
+  
+  har|ar| Behaarung.
+ho. o! ach! oh!
+
+
+I
+
+idol| Abgott, Götze.
+ig| brul- = brennen (intr.); brul-ig- = brennen (tr.).
+iĝ| in einen Zustand gelangen.
+iĥtiokol| Fischleim.
+imag| sich einbilden.
+indulg| nachsichtig sein, schonen.
+ifuz| ziehen lassen, aufgiessen (Tee).
+inklin| geneigt, bereit zu.
+insign| Wappen, Wahrzeichen, Abzeichen.
+insult| (be)schimpfen.
+inter. zwischen, unter.
+interjekci| Ausrufswort.
+interpunkci| Zeichensetzung.
+intim| vertraut, intim.
+intrig| intrigieren, Ränke schmieden.
+intermit| aussetzen (technisch).
+ist |bezeichnet den Träger des Berufs, der regelmässigen Beschäftigung mit etwas.
+
+J, Ĵ
+
+ĵus. soeben, gerade, just.
+
+
+K
+
+kan |Schilf, Rohr.
+kapr| Ziege.
+kapuĉ| Kapuze.
+karnaval| Karneval, Fasching.
+kataplasm| Umschlag, Pflaster.
+kaz| Kasus, Fall.
+ke. dass.
+kiam. als, wann, wenn.
+klav| Taste.
+klopod| sich anstrengen, sich bemühen.
+kokos| Kokosnuss.
+koleg| Kollege.
+kolubr| Natter (giftlose ~)
+komunik| verbinden, anschliessen; mitteilen.
+konform| entsprechend, ŭbereinstimmend.
+konstat| feststellen, konstatieren.
+konsum| verzehren, verbrauchen.
+konven|sich passen, sich geziemen.
+konvulsi| Zuckung.
+kopi| abschreiben, kopieren.
+korekt| berichtigen, verbessern.
+korespond| Briefe wechseln, korrespondieren.
+
+  kort|eg| Hof (eines Fürsten).
+
+kostum| Kostüm, Tracht.
+kovr| bedecken, verhüillen.
+  kovr|il| Umschlag. Hülle, Decke, Deckel.
+
+krak| krachen, knacken.
+kran| Zapfen, Hahn.
+
+  kred|ebl| glaublich, warscheinlich.
+
+krev| platzen, bersten.
+kripl| verstümmelt, verkrüppelt.
+krur| Bein, Unterschenkel.
+krust| Kruste, Rinde.
+kurac| (ärztlich) behandeln.
+kuraĝ| mutig, kühn.
+kurb| krumm, gebogen.
+
+  kusen|eg| Pfühl, Plumeau.
+kutim| gewohnt sein, pflegen
+kuv| Wanne, Kübel.
+kvartal| Stadtviertel.
+kviet| sanft, ruhig.
 
-gam]
-ĝentil|
-glut|
-
-golf|
-graci|
-grifel|
-gvid|
-
-ha.
-har|ar|
-ho.
-
-idol|
-
-igi
-
-iĝi
-iĥtiokol|
-imag |
-indulg|
-
-ifuz |
-
-inklin |
-insign |
-
-insult |
-inter.
-
-260
-
-GĜ
-
-Gold-, Silberborte,
-usw.
-
-Tonleiter.
-
-hoflich, artig.
-
-verschlingen,
-
-verschlucken ;
-
-einnehmen (Medi-
-zin).
-
-Golf, Meerbusen.
-
-grazios, zierlich.
-
-Griffel, Stichel.
-
-fihren, leiten.
-
-ha ! ach !
-Behaarung.
-o!ach!oh!
-
-Abgott, Gotze.
-brul- = brennen
-(intr.); brul-ig-
-= brennen (tr.).
-in einen Zustand
-gelangen.
-Fischleim.
-sich einbilden.
-nachsichtig sein,
-schonen.
-ziehen lassen,
-aufgiessen (Tee).
-geneigt, bereit zu.
-Wappen, Wahrzei-
-chen, Abzeichen,
-(be)schimpfen.
-zwischen, unter.
-
- 
-
-interjekci |
-interpunkci|
-intim |
-intrig|
-
-intermit
-
-ist |
-
-kan |
-
-kapr|
-kapuĉ|
-karnaval|
-kataplasm |
-kaz|
-
-ke.
-
-kiam.
-
-klav|
-klopod|
-
-kokos|
-koleg|
-kolubr|
-komunik |
-konform |
-
-konstat|
-
-konsum|
-
-Ausrufswort.
-
-Zeichensetzung.
-
-vertraut, intim.
-
-intrigieren, Rinke
-schmieden.
-
-aussetzen
-nisch).
-
-bezeichnet den Tri-
-ger des Berufs,
-der regelmŝssigen
-Beschaftigung mit
-etwas.
-
-(tech
-
-33
-
-soeben, gerade, just
-
-Schilf, Rohr.
-Ziege.
-
-Kapuze.
-
-Karneval, Fasching.
-Umschlag, Pflaster.
-Kasus, Fall.
-
-dass.
-
-als, wann, wenn.
-Taste.
-
-sich anstrengen,
-sich bemŭhen.
-Kokosnuss.
-Kollege.
-
-Natter (giftlose =).
-verbinden,
-anschliessen ;
-mitteilen.
-entsprechend,
-ŭbereinstimmend.
-feststellen,
-konstatieren.
-verzehren,
-verbrauchen.
-
-konven |
-
-konvulsi|
-kopi|
-
-korekt|
-korespond |
-
-kort|eg|
-kostum|
-kovr|
-
-kovrlil|
-
-krak|
-kran|
-kred |ebl|
-
-krev|
-kripl|
-
-krur
-
-krust|
-kurae|
-kuraĝ|
-kurb|
-
-kusen |eg|
-kutim]
-
-kuv|
-kvartal|
-kviet
-
-laŭ|larĝ|e.
-
-laŭt|
-lekant|
 
 L
 
-sich passen, sich
-geziemen.
-Zuckung.
-abschreiben,
-kopieren.
-berichtigen,
-verbessern.
-Briefe wechseln,
-korrespondieren.
-Hof (eines Fŭrsten).
-Kostium, Tracht.
+  laŭ|larĝ|e. der Breite nach, quer.
+laŭt| laut.
+lekant| (weisse)Gänseblume.
+leontod| Löwenzahn (Pflanze).
+lert| geschickt, gewandt.
+lev| heben.
+lini| Linie, Zeile.
+lunatik| mondsüchtig.
+makler| Makler sein, Geschäfte vermitteln.
+malgraŭ| ungeachtet, trotz.
+memor| sich erinnern, gedenken.
+met| hintun, setzen, stellen, legen.
 
-bedecken,
+  mez|o|nombr| Durchschnittzahl.
+  al|mezur| anmessen.
+miogal| Bisamratte.
+model| Modell, Muster.
+muĝ| brausen, brüllen.
+murmur| murmeln, brummen.
+muslin| Musselin, Nesseltuch.
 
-verhiŭillen.
+  nask|iĝ| geboren werden, entstehen.
+nenia. keinerlei.
+nenies. keines, niemandes.
+neniu. kein, niemand.
+nest| Nest.
+net| Reinschrift.
+  mal|net| Konzept, Entwurf, Kladde.
+nobl| edel, vornehm (Gesinnung).
+nuk| Nacken, Genick.
 
-Umschlag. Hiille,
-Decke, Deckel.
 
-krachen, knacken.
-Zapfen, Hahn.
-glaublich,
-warscheinlich.
-platzen, bersten.
-verstuimmelt,
-verkrippelt.
-Bein, Unter-
-schenkel,
-Kruste, Rinde.
-(drztlich) behandeln
-mutig, kŭuhn.
-krumm, gebogen.
-Pfŭhl, Plumeau.
-gewohnt sein,
-pflegen.
-Wanne, Kibel.
-Stadtviertel.
-sanft, ruhig.
 
-der Breite nach,
-quer.
+O
 
-laut.
+obl| bezeichnet das Vervielfältigungswort.
+  du|obl| zweifach, doppelt.
+okaz|o. Fall, Ereignis, Gelegenheit.
+okzal| Sauerampfer.
+oportun| bequem, gelegen.
+ornam| schmücken, (ver)zieren, (an)putzen.
+  
+  de|pago. Abgabe, Zoll.
+palp| tasten, fühlen.
+parad| prangen, prunken.
+paraliz| lähmen.
+paroĥ| Kirchspiel, Pfarre.
+pas| vorbeigehen, vergehen.
+paŝt| weiden (tr.).
+penik| Pinsel.
+pensi| Ruhegehalt, Pension.
+peritone| Bauchfell.
+perk| Barsch.
+pice| Weisstanne.
+pied| Fuss.
+pingl| (Steck)nadel.
+pirit| Kies, Feuerstein.
+posed| besitzen.
+preciz| genau.
+pret| fertig, bereit.
+pretend| beanspruchen.
+pri. von, über, betreffs.
+profesi| Beruf, Gewerbe.
+prosper| glücken, gedeihen.
+prunel| Schlehenpflaume.
 
-(weisse)
-blume.
-
-Gainse-
-
+  punkt|o|kom| Strichpunkt.
+  du|punkt| Doppelpunkt.
  
 
-leontod |
+rajt|ig| berechtigen, bevollmächtigen.
+rap| weisse Rübe.
+registr| eintragen, registrieren.
+regn| Staat, Reich.
+rekt| gerade, direkt
+  mal|rekt| nicht gerade; indirekt.
+ribel| sich empören.
+ricev| erhalten, bekommen.
+rifuz| verweigern, sich weigern, ausschlagen.
+rigard| schauen, blicken, betrachten.
+riverenc| Verbeugung, Knicks
+
+  rul|o. Rolle,Walze.
+
+
+S, Ŝ
+
+saĝ| klug, weise.
+sagac| scharfsinnig, spitzfindig.
+ŝak| Schach (Spiel).
+salajr| Gehalt, Lohn.
+salik| Weide (Baum).
+salvi| Salbei.
+sam| selbe(r), gleiche(r).
+ŝat| schätzen, Wertlegen auf.
+
+  mal|ŝat| geringschätzen, vernachlässigen.
+sent| fühlen, empfinden
+sepi| Tintenfisch.
+singult| den Schlucken haben.
+ŝirm| beschirmen, schützen.
+sirop| Sirup.
+skadr| Schwadron.
+skapol| Schulterblatt.
+skiz| entwerfen, skizzieren.
+sklav| Sklave.
+skurĝ| Knute.
+
+  mal|sobr| ausschweifend, unmässig.
+solv| lösen, auflösen.
+son| tönen, klingen.
+sonor| läuten, hallen.
+sopir| sich sehnen, seufzen
+sopran| Sopran (weibliche) Oberstimme.
+sorb| schlürfen, einsaugen
+  el|spez| ausgeben.
+  en|spez| einnehmen, lösen.
+
+spit| trotz (dem, der usw).
+sput| spucken, speien.
+stabl| Staffelei, Gestell.
+stal| Stall, Schuppen.
+stamp| stempeln, prägen.
+standard| Fahne, Banner.
+stern| ausbreiten, betten, lagern.
+sukces| Erfolg haben, gelingen.
+
+  re|sum| zusammenfassen.
+supoz| vermuten, voraussehen.
+surtut| Überrock.
+suspekt| Verdacht hegen, argwöhnen.
+
+
+
+T 
+
+ted| listig sein, Überdruss erregen.
+
+  sub|ten| unterstützen, halten.
+
+tent| in Versuchung führen.
+termin| Terminus, Fachausdruck.
+tern| niesen.
+testik| Hode.
+tetr| Birkhuhn.
+tetra| Waldhuhn.
+
+  kun|tir| zusammenziehen.
+toler| dulden, tolerieren.
+trakt| verhandeln.
+tremp| tunken, eintauchen.
+trivial| trivial, abgedroschen.
+tromb| Wasserhose.
+tromp| täuschen, betrügen.
+trunk| Stamm, Rumpf.
+tub| Rohr, Röhre.
+tuj. sogleich, sofort.
+turment| quälen, peinigen.
+tuŝ| berühren.
+
+
+V
+
+vant| eitel, nichtig, leichtfertig.
+venĝ| (sich) rächen.
+vest| ankleiden, anziehen.
+viburn| Schneeball (Pflanze).
+
+  vin|ber| Weinbeere.
+violonĉel| Cello.
+vizaĝ| Gesicht, Antlitz.
+vizier| Visier (Helm).
 
-lert|
-lev|
-lini|
-lunatik|
-
-makler|
-
-malgraŭ |
-memor|
-
-met |
-
-mez|o|nombr|
-al|mezur]
-miogal|
-model|
-muĝ|
-murmur
-muslin |
-
-nask|iĝ|
-
-nenia.
-nenies.
-neniu.
-nest|
-net
-
-mal net
-
-nobl|
-
-nuk |
-
-Lowenzahn
-(Pflanze).
-
-geschickt, gewandt.
-
-heben,
-
-Linie, Zeile.
-
-mondsŭchtig.
-
-Makier sein,
-Geschifte vermit-
-teln.
-ungeachtet, trotz.
-sich erinnern,
-gedenken.
-hintun, setzen,
-stellen, legen.
-Durchschnittzahl.
-anmessen.
-Bisamratte.
-Modell, Muster.
-brausen, brŭllen.
-murmeln, brummen
-Musselin,
-Nesseltuch.
-
-geboren werden,
-
-entstehen.
-
-keinerlei.
-
-keines, niemandes.
-
-kein, niemand.
-
-Nest.
-
-Reinschrift.
-
-Konzept, Entwurf,
-Kladde.
-
-edel, vornehm (Ge-
-sinnung).
-
-Nacken, Genick.
-
-267
-
- 
-
- 
- 
-
-obl|
-
-du|obl|
-okaz|o.
-
-okzal|
-oportun |
-ornam |
-
-de|pago.
-palp|
-parad |
-paraliz|
-paroĥ|
-pas]
-
-paŝt |
-penik|
-pensi|
-
-peritone |
-
-perk |
-
-pice |
-
-pied|
-
-pingl|
-
-pirit|
-
-posed
-
-preciz
-
-pret |
-
-pretend|
-
-pri.
-
-profesi |
-
-prosper |
-
-prunel|
-punkt|o[kom |
-du|punkt|
-
-268
-
-bezeichnet das Ver-
-vielfiltigungswort.
-zweifach, doppelt.
-Fall, Ereignis,
-Gelegenheit.
-Sauerampfer.
-bequem, gelegen.
-schmŭcken,
-(ver)zieren,
-(an)putzen.
-
-Abgabe, Zoll.
-tasten, fiihlen.
-prangen, prunken.
-lahmen.
-Kirchspiel, Pfarre.
-vorbeigehen,
-vergehen.
-
-weiden (tr.).
-Pinsel.
-Ruhegehalt,
-Pension.
-Bauchfell.
-
-Barsch.
-Weisstanne.
-
-Fuss.
-(Steck)nadel,
-Kies, Feuerstein.
-besitzen.
-
-genau.
-
-fertig, bereit.
-beanspruchen.
-von, iiber, betreffs.
-Beruf, Gewerbe.
-glicken, gedeihen.
-Schlehenpflaume.
-Strichpunkt.
-Doppelpunkt,
-
- 
-
-rajt |ig|
-
-rap|
-registr|
-
-regn |
-rekt|
-mal)|rekt |
-
-ribel|
-ricev
-
-rifuz
-
-rigard|
-
-riverene|
-rul|o.
-
-saĝ|
-sagac|
-ŝak|
-salajr|
-
-salik |
-salvi|
-
-sam |
-ŝat|
-
-mal|ŝat|
-sent|
-sepi|
-
-singult|
-
-ŝirm |
-
-berechtigen,
-bevollmŝchtigen.
-weisse Ribe.
-eintragen,
-registrieren.
-Staat, Reich.
-gerade, direkt.
-nicht gerade ;
-indirekt.
-sich empĉren.
-erhalten,
-bekommen.
-verweigern,
-sich weigern,
-ausschlagen.
-schauen,  blicken,
-betrachten.
-Verbeugung, Knicks
-Rolle,Walze..
-
-S, 8
-
-klug, weise.
-scharfsinnig,
-spitzfindig.
-Schach (Spiel).
-Gehalt, Lohn.
-Weide (Baum).
-Salbei.
-selbe(r), gleiche(r).
-schŝtzen,
-Wertlegen auf.
-geringschitzen,
-vernachlŝssigen.
-fuhlen, empfinden.
-Tintenfisch.
-den Schlucken ha-
-ben.
-beschirmen,
-schiŭtzen.
-
-sirop|
-L skadr|
-skapol|
-skiz|
-
-sklav|
-skurĝ|
-
-solv|
-a son |
-a sonor|
-sopir|
-
-sorb|
-
-spit|
-1a sput|
-i stabl|
-
-N stal|
-
-J stamp]
-
-p standard|
-o stern|
-
-supoz|
-
-A surtut|
-
-: suspekt
-
-mal|sobr|
-
-sopran |
-
-el|spez|
-l en|spez|
-
-sukces!
-
-i re|sum|
-
-Sirup.
-Schwadron.
-Schulterblatt.
-entwerfen,
-skizzieren.
-Sklave.
-Knute.
-ausschweifend,
-unmissig.
-iĉsen, auflĉsen.
-tonen, klingen.
-lŝuten, hallen.
-sich sehnen, seufzen
-Sopran (weibliche)
-Oberstimme.
-schlŭrfen, einsaugen
-ausgeben.
-einnehmen, lIĉsen.
-trotz (dem, der usw).
-spucken, speien.
-Staffelei, Gestell.
-Stall. Schuppen.
-stempeln, prigen.
-Fahne, Banner.
-ausbreiten, betten,
-lagern.
-Erfolg haben,
-gelingen.
-zusammenfassen.
-vermuten,
-voraussehen.
-Uberrock.
-Verdacht hegen,
-argwohnen.
-
- 
-
-ted|
-sub|ten|
-
-tent|
-
-termin |
-
-tern |
-testik |
-tetr|
-tetra |
-
-kun |tir|
-toler|
-trakt|
-tremp|
-trivial|
-
-tromb|
-tromp|
-trunk|
-tub|
-
-tuj.
-turment |
-tuŝ|
-
-vant|
-
-venĝ|
-vest|
-viburn|
-vin|ber|
-violonĉel|
-vizaĝ|
-vizier|
-
-listig sein,
-Uberdruss erregen.
-unterstŭtzen,
-halten.
-in Versuchung fŭh-
-ren.
-Terminus, Fachaus-
-druck.
-niesen.
-Hode.
-Birkhuhn.
-Waldhuhn.
-zusammenziehen.
-dulden, tolerieren.
-verhandeln.
-tunken, eintauchen.
-trivial, abgedro-
-schen.
-Wasserhose.
-tŝuschen, betriigen.
-Stamm, Rumpf.
-Rohr, Rĉhre.
-sogleich, sofort.
-quilen, peinigen.
-beriihren.
-
-eitel, nichtig,
-leichtfertig.
-
-(sich) richen.
-ankleiden, anziehen
-Schneeball(Pflanze).
-Weinbeere.
-
-Cello.
-
-Gesicht, Antlitz.
-Visier (Helm).
-
-269
 
  
 
  
-
- 
-RUSA PARTO 93)
+RUSA PARTO (23)
 
 (Redaktita de S. OBRUĈEV) (24)
+
 Antaŭparolo.
+
 La ĉi-sube presitaj korektoj de dubaj tradukoj de Universala
-Vortaro estas verkitaj laŭ sekvanta materialo (25) :
+Vortaro estas verkitaj laŭ sekvanta materialo (25):
 
-1. Korektoj, proponitaj de V. DEVJATNIN - 98 vortoj (OG, 5,
-7 (51), 25 JAN 18, p. 226/281).
+1. Korektoj, proponitaj de V. DEVJATNIN - 93 vortoj (OG 5,
+7 (51), 25 JAN 18, p. 226/231).
 
-2. Kritiko pri 29 vortoj de tiu korektaro, sendita al la Aka-
-demio de S. OBRUĈEV.
+2. Kritiko pri 29 vortoj de tiu korektaro, sendita al la 
+Akademio de S. OBRUĈEV.
 
-8. Kritiko pri ses vortoj de sama korektaro, senditaj al la
-«Ondo de Esperanto » de D-ro V. LEBEDEY.
+3. Kritiko pri ses vortoj de sama korektaro, senditaj al la
+«Ondo de Esperanto» de D-ro V. LEBEDEV.
 
-4. Korektaro de 58 vortoj (ne entenataj en korektaro de DEv-
-JATNIN), sendita al la Akademio de V. LEBEDEY.
+4. Korektaro de 53 vortoj (ne entenataj en korektaro de 
+DEVJATNIN), sendita al la Akademio de V. LEBEDEV.
 
-5. Korektaro de 88 vortoj (ne entenataj en tiu de V. DEv-
-JATNIN), sendita al la Akademio de S. OBRUĈEV.
+5. Korektaro de 83 vortoj (ne entenataj en tiu de 
+V. DEVJATNIN), sendita al la Akademio de S. OBRUĈEV.
 
-Tiuj- manuskriptoj estis zorge komparitaj, kaj la definitivan
+
+Tiuj manuskriptoj estis zorge komparitaj, kaj la definitivan
 korektaron de 208 vortoj ni nun prezentas. La korektoj laŭ sia
-karaktero dividiĝas jene :
+karaktero dividiĝas jene:
 
 1. Simplaj ortografiaj korektoj.
 
 2. Anstataŭo de neuzata aŭ neliteratura vorto per moderna.
 
-(23) Th. CAnr (1923).
+(23) Th. CART (1923).
 
-(24) La rusa komisiono elektita de la L.K. en 1906 konsistis el S-roj AvI-
-LOv kaj KOFMAN.
+(24) La rusa komisiono elektita de la L.K. en 1906 konsistis el 
+S-roj AVILOV kaj KOFMAN.
 
-(25) Legu : laŭ la sekvanta materialo.
-
-270
+(25) Legu: laŭ la sekvanta materialo.
 
 3. Klarigo de senco per unu aŭ kelkaj sinonimoj — en okazo,
 se (26) esperanta vorto havas kelkajn signifojn.
@@ -2480,672 +2057,278 @@ kiuj (27) ne egalvaloras al esperanta.
 vorto — por substreki la internacian karakteron de Esperanto.
 
 6. Korekto de malĝustaj aŭ eĉ eraraj tradukoj.
-a
+
 
 Por ĉiuj faritaj korektoj la suprecititaj manuskriptoj enhavas
 detalan pravigon. La korektoj estis komparitaj kun la vortaroj de
-KABE, VERAX, Bornac, kelkaj ruslingvaj, kaj la moderna esperanta
-uzado. Precipe oni atentis la Esperanto-Rusan vortaron de L. ZA-
-MENHOF (eldonoj 1909 kaj 1911 j.), en kiuj la Majstro mem enkon-
-dukis multajn el proponitaj de ni korektoj.
+KABE, VERAX, BOIRAC, kelkaj ruslingvaj, kaj la moderna esperanta
+uzado. Precipe oni atentis la Esperanto-Rusan vortaron de 
+L. ZAMENHOF (eldonoj 1909 kaj 1911 j.), en kiuj la Majstro mem 
+enkondukis multajn el proponitaj de ni korektoj.
 
-Moskvo, 10 MAR 28. S. OBRUĈEY.
+Moskvo, 10 MAR 23.                  S. OBRUĈEV.
+
+
 A
 
-abat| aŭ6aT, HCYMEH, HACTOATEJD.
+abat| аб6ат, игумен, настоятель.
+abon| подписываться (на журнал), абонироваться.
+ad| означает продолжительность действия или многократный вид.
+admir| дивиться, изумляться, босхищаться.
+afabl| приветливый, любезный.
+afekt| аффектировать, жеманиться, рисоваться.
+aĝ| восраст.
+akar| клещ.
+akompan| сопровождать, акомпанировать.
+aplaŭd| хлопать в ладоши, аплодировать.
+apr| кабан, вепрь.
+apud. возле. подле, около.
+arm| вооружать.
+arogant| наглый, нахальный.
+artrit| подарга.
 
-abon| NONNHCHIBATECA (HA »«KYyDHAN), AŬOHHPOBATECA.
+(26) Legu: en la okazo, kiam.
+(27) Legu: el kiuj unu.
 
-ad| OBHAUAET NIDONOJVKATEJIBHOCTE NEĤCTBHA HIM MHO-
-TOKPDATHBIŬ BHA.
 
-admir| AMBHTECA, HBYMHATECA, BOCXHINATECA.
+B 
 
-afabl| NnpHBETNABBIĤ, JHOGEBHBIĤ.
+bagatel| пустяк, безделица.
+baldaŭ. вскоре, скоро.
+barbir| цырюльник, парикмахер.
+bast| луб, лыко.
+batal| бороться, сражаться.
+beladon| белладона, сонная одурь.
+boat| шлопка, лодка, бот.
+bombon| конфета.
+border| окаймлять, подшивать (кайму).
+brak| рука (от плеча до кисти).
+brav| удалой, бравый.
+buĉ| закалывать.
+bul| ком, комок.
+burĝon| почка (растения), бутон.
+buŝel| бушель, английская мера сыпучих тел, равная 36,5 литра (прибл. четверик).
 
-afekt| aŬĥEeKTHPOBATE, 7KEMAHHTECA, DMHCOBATECA.
 
-aĝ| BOapACT.
 
-akar| KIEN.
 
-akompan | CONPOBO?KAATL, AKOMNAHHPOBATBE.
+ĉagren| причинять досаду, огорчать.
+ĉarlatan| шарлатан, мошенник.
+ĉarm| милый, очаровательный.
 
-aplaŭd| XAOMATb B NANOMIA, ANNONHPOBATD.
 
-apr kKAŬAH, BENIDb.
 
-apud. B03Ne, NONME, OKOJIO.
+damask| камка (камчатный).
+de. от; образует также родительный падеж.
+desegn| рисовать чертить.
+difekt| повреждать, портить.
+dis| раз- (в разные стороны).
+distil| дистилировать, очишать перегонкою.
+distr| рассеивать, развлекать.
+do. итак, же.
+dorn| шип, колючка (у растений).
+dot| давать в приданое.
+  drink|ej| кабак, шинок.
+dung| нанимать (кого-либо).
 
-arm| BOODY?KATb.
 
-arogant| HaTAblli, HAXANBHBIĤ.
 
-artrit| nonarpa.
 
-(26) Legu : en la okazo, kiam.
-(27) Legu : el kiuj unu.
+edif| назидать, поучать.
+efik| действовать (оказывать действие).
+egal| одинаковый, равный.
+eksped| отправлять (экспедировать).
+eksplod| взрываться.
+ekstr| экстренный, чрезвычайный.
 
-271
+fajl| пилить напильником.
+fak| отделение, отдел, отрасль.
+falbal| фалбала, оборка.
+fand| расплавлять, растоплять.
+fantom| призрак, привидение.
+felt| войлок, фетр.
+ferm| закрывать.
+filtr| цедить, фильтровать.
+firm| прочный.
+flar| нюхать, обонять.
+fleg| ухаживать (за больными и т. п.).
+flik| латать, делать заплаты, починать.
+flirt| порхать, любезничать.
+fokus| фокус оптический.
+frakas| раздроблять.
+furunk| чирей, фурункул.
 
- 
+gamaŝ| гамаша, гетры.
+gazet| газета, журнал.
+grimac| гримаса. ужимка.
+gustum| пробовать на вкус, отведывать.
+guvern| воспитывать, наставлять.
 
- 
- 
+indulg| снисходить, прощать.
+infuz| настаивать (настойку).
+iniciat| быть инициатором, делать почин.
+insid| строить козни, подстререгать.
+insign| герб, значок.
+instig| побуждать, подстрекать.
 
-bagatel|
-baldaŭ.
-barbir|
-bast|
-batal|
-beladon |
-boat|
-bombon |
-border|
-brak|
-brav|
-buĉ|
-bul|
-burĝon |
-buŝel|
 
-ĉagren |
-ĉarlatan |
-ĉarm |
-
-damask |
-de.
-desegn |
-difekt|
-dis|
-distil|
-distr|
-do.
-dorn |
-dot|
-drink |ej|
-dung|
-
-B
-
-NYCTAK, GesYpen~HUNA.
-
-BCKODE, CKODO.
-
-NBIDIOIBHAK, NADHKMAXED.
-
-HYO, ABIKO.
-
-GODOTECA, CDAWKATBCA.
-
-ĜENAANOHA, COHHAA OAYDb.
-
-MNONKA, JONKA, ĜOT.
-
-KOHQETA.
-
-OKAŬMJATE, NONMMBATE (KAŬMY).
-
-pyka (OT nneva NO KHCTH).
-
-yXkanoh, 6OpaBbliĤ.
-
-8AKAJBIBAT»b.
-
-KOM, KOMOK.
-
-nouka (pacTeHHA), 6ĜYTOH.
-
-6ymenb, aHTAHĤCKAA Mepa CHIMYUHX TEJ, DABHAA
-36,5 surpa (NpH6n. METBEepHK).
-
-Ĉ
-
-NDHUHHATE NOCAXY, OTODUATB.
-MAPAATAH, MOMEHHAK.
-MHJHIIĤ, OYVADOBATEJIBHBIĤ.
-
-D
-
-KAMKA (KAMYUATHBIĤ).
-
-OT; O6pa3yeT TAK»KE DONHTENBHBIĤ NANEIK.
-pHCOBATb, YUEPTHTB.
-
-NOBDEMKNATD, NODTHTB.
-
-pas- (B pasHble CTODOHBI).
-AKCTAAHHPOBATB, OVHIMATE NEPETOHKOIO.
-pacce4BaTb, DasBJIEKATb.
-
-HTAK, ke.
-
-MIMI, KOJIOUKA (y pacregui).
-
-NABATb B MPHNAHOE.
-
-KAŬAK, LUHHOK.
-
-NAHHMATBb (KOTO-IHŬO).
 
  
+ĵongl| жонгликровать.
+
+kan| тростник, камыш.
+kapitulac| капитулировать, сдаться.
+kapot| плащ с капюшоном.
+kapuĉ| капюшон.
+kaviar| икра (рыб, амфибий).
+kaz| падеж (грамматич.).
+ken| смолистое дерево (также-лучина).
+kiras| панцырь, кираса.
+kitel| китель, балахон.
+kokcinel| божья коровка.
+kolon| столб, колонна.
+kolport| продавать в разнос.
+komb| причесывать, чесать.
+konjunkci| союз (грамматич.).
+konsist| состоять.
+konstat| подтверждать.
+konvulsi| суддорога, конвульсия.
+korpus| корпус (часть армии).
+kost|o. стоимость.
+kovril| (de libro) обложка, обёртка.
+kramp| скоба, скобка.
+kriminal| уголовный, криминальный.
+kroĉ| зацеплять.
+kronik| хроника, летопись.
+krust| корка, струп.
+kvazaŭ. как будто, будто-бы.
+kviet| кроткий, спокойный.
+kvitanc| выдавать квитанцию, расписываться в получении. 
+
+
+led| кожа (выделанная).
+leŭtenant| поручик, лейтенант.
+liah| лиана.
+litani| молебен.
+lorn| зрительная труба.
+
+
+
+maiz| маис, кукуриза.
+mal| (приставка) означает прямую противоположность.
+
+man| рука (кисть).
+manier| способ, образ, манера.
+markot| отпрыск, отросток.
+met| поставить, положить, класть; может быть переведено различными глаголами.
+
+mister| тайна.
+murmur| бормотать.
+
+nask|iĝ| рождаться (возникать).
+not| (muzik|a) нота (музык.).
+
+obstrukc| запор, засорение.
+ol. чем (при сравнит. степени).
+
+ole| масло (жидкое - раст., животн. и минеральное).
+opini| иметь мнение, полагать.
+ornam| украшать.
+
+pantofl| туфля.
+parti|a. пристрастный, партийный.
+pentr| рисовать, писать красками.
+petrol| керосин.
+petrosel| петрушка (растение).
+pik| колоть; пика (в картах).
+pini| пиния.
+pip| трубка (для курения).
+precip| преимущественно, особенно.
+primol| первозвет, баранчик.
+pro. ради, из-за.
+proces| прозесс.
+profit| иметь барыш, воспользоваться.
+
+proklam| оглашать, провозглашать, обнародовать.
+prokrast| отсрочивать, откладывать.
+prov| испывать, пробовать.
+
+radi| луч, спица (колеса).
+rafin| рафинировавать, жимически очищать, изощрять.
+rand| край (граница).
+rang| ранг, степень, чин.
+rast| сгебать граблями.
+restoraci| ресторан.
+rezerv| приберечь, сохранить для себя, обеспечить за собою.
+
+ribel| восставать, бунтовать.
+rifuĝ| укрываться, находить убежище-
+rikolt| жать (рожь, пшеницу).
+riverence| реверанс, поклон.
+
+sagac| хитрый, проницательный.
+salut| кланятцся, приветствовать.
+ŝat| дорожить, ценить.
+sekret| тайна, секрет.
+servut| барщина (крепостное право).
+sibl| шипеть.
+sincer| искренний
+sinjor| господин, сударь.
+skiz| делать очерк, эскиз, набросок.
+sol| единственный, один.
+solv| растворять в жидкости; решать задачу, загадку.
+sopran| дискант, сопрано.
+sorb| всасывать, хлебать.
+spalir| шпалера.
+spez| оборот (в торговле).
+spit| вопреки, наперекор.
+sput| харкать.
+steb| строчить (шить).
+strek| проводить черту, черкать.
+strik| стачка, забастовка.
+ŝuld| быть должным (должником).
+sulk| борозда, морщина.
+
+
+
+tali| стан, талия.
+teg| натягивать (сверху), обтягивать.
+teler| тарелка.
+tem| тема.
+teras| терраса.
+tibi| большая берцовая кость.
+torn| гочить (на токарном станке).
+traĥe| дыхательное горло, трахея.
+trajt| черта (лица, характера и пр.).
+trakt| вести преговоры, трактовать.
+tri|foli| трилисник, клевер.
+trip| потроха, требуха, ливер.
+trivial| избитый, пошлый, тривиальный.
+tron| престол, трон.
+trul| лопаточка для штукатуров.
+tumult| суматоха, тревога.
+turn| вращать, поворачивать.
+
+uniform| форма, мундир.
+universal| вцеобщий, универсальный.
+
+uzurp| уаурпировать, беззаконно захватывать.
+
+van| напрасный, тщетный.
+vart| няньчить, ухаживать зя детьми.
+veget| прозябать, произрастать.
+ventr| живот.
+verdigr| ярь, медяника.
+verk| цочинять, писать (книги).
+vestibl| сени, вестибюль.
+veŝt| жилет.
+vikari| викарий.
+virg| девственный, невинный.
+
+mal|virg|ig| лишать невинности, растлить.
+viŝ| вытирать.
 
-edif|
-efik|
-egal|
-eksped|
-eksplod|
-ekstr|
 
-fajl|
-fak|
-falbal|
-fandl|
-fantom]
-felt|
-ferm]
-filtr|
-firm]
-flar|
-fleg|
-flik|
-flirt|
-fokus|
-frakas|
-furunk|
-
-gamaŝ|
-gazet)
-grimac|
-gustum|
-guvern |
-
-indulg|
-infuz|
-iniciat |
-insid|
-insign |
-instig|
-
-E
-
-HAa24AATb, MOYYATB.
-
-NEĤCTBOBATE (OKABBIBATB NElĤCTraue).
-ONHHAKOBBIĤ, DABHEIĤ.
-
-OTNIDABJIATE (BKCMENHPOBATE ).
-BBDHBATECA.
-
-aKCTDEHHHIĤŬ, UupPEBBLIVAŬĤHBIĤ.
-
-F
-
-NHJATb HANHJIBHHKOM.
-
-OTNENEHHE, OTNEJI, OTPACIBL.
-ĝan6ana, obopka.
-
-PacIIABHATE, PACTOILIATB.
-npHapaKk, NDHBHAEKHE.
-
-BOĤJOK, QeETp.
-
-3AKDPBIBATb.
-
-NeNATb, ĤAJITPOBATE.
-
-NPOYHBIĤ,
-
-HIOXATE, OŬOHATD.
-
-YXAKHBATE (3a ĜONBHHIMH H T. M.).
-JATATb, NENATb BANJATBI, DOVHHATD.
-NOpXATb, HOŬEBHHUATE.
-
-ĤOKYC ONTAYECKAŬ.
-
-pasapolaIAT5=.
-
-unpeŭ, QYDYHKYA.
-
-G
-
-raMama, TETDBI.
-
-raseTa, :«xyDHaJ.
-
-TDHMaca, Y»KHMKA.
-
-NPOĜOBATE HA BKYC, OTBENBIBATE.
-BOCNIHTRBATb, HACTABJATB.
-
-I
-
-CHHCXOAATE, NPONMATB.
-
-HACTAHBATb (HACTOĤKY).
-
-6BITb HHHNHATODOM, NEMATE NOUAH.
-CTDOHTb KOBHH, MONCTEPETATB.
-rep6, 3HA40K.
-
-NOŬYKAATB, NONCTPEKATB.
-
-278
-
- 
-
- 
-ĵongl|
-
-kan|
-kapitulae|
-kapot|
-kapuĉ|
-kaviar|
-kaz|
-
-ken|
-
-kiras|
-kitel|
-kokcinel|
-kolon |
-kolport|
-komb|
-konjunkci|
-konsist|
-konstat] .
-konvulsi |
-korpus |
-kost|o.
-kovril| (de libro)
-kramp|
-kriminal|
-kroĉ|
-
-kronik |
-krust|
-kvazaŭ.
-kviet|
-kvitane|
-
-led|
-leŭtenant|
-liah |
-
-litani |
-lorn |
-
-274
-
-Ĵ
-
-”KOHTJIHPOBAT».
-
-K
-
-TDOCTHAK, KAMHIII.
-
-KANHTYJIHPOBATE, CAATBECA.
-
-NMIAMI C KANIONIOHOM.
-
-KANOIIOH.
-
-HKPA (pw6, ambu6uŭ).
-
-nanemx (rpaMMarTmu.).
-
-CMOJIHCTOE NEĤEBO (TAKE - NYUHHA).
-
-NAHUBIDb, KHpAca.
-
-KHTEJIb, OANAXOH.
-
-GOA KODOBKA.
-
-CTOJIĜ, KOJIOHHA.
-
-NPONABATE B pa3HOC.
-
-NPHYUECIBATb, UECATP.
-
-coY3 (rpaMMaTMu.).
-
-COCTOARTB».
-
-NONTBEPKAATD.
-
-cynopora, KOHBYHBCHA.
-
-KODNIYC (uacTb apMum).
-
-CTOHMOCTb.
-
-OŬNOMKKA, OŬĈPTKA.
-
-CKOĜA, CKOŬKA.
-
-YTONOBHBIM, KDHMHHARNBHBIl.
-
-SAlENAAT~.
-
-XDOHHKA, HETONHCB.
-
-KOPKA, CTDYI.
-
-KAK OYATO, ĜYATO-OBI.
-
-KPDOTKHĤ, CNOKOĤHDBIH.
-
-BRINABATE KBHTAHNMIO, DACIIHCBIBATECA B MNOJY-
-HEHHH.
-
-L
-
-KO?KA (BBI;1e1AHHAAR).
-NODYYHK, HEĥTEHAHKT.
-nuana.
-
-MOJEŬEH.
-B3PHTEJLHAA TpyYŬAa.
-
-maiz|
-mal|
-
-man |
-manier
-markot|
-met |
-
-mister|
-murmur |
-
-naskiĝ|
-not| (muzik |a)
-
-obstruke|
-ol.
-
-ole|
-opini|
-ornam |
-
-pantofl|
-parti|a.
-pentr|
-petrol|
-petrosel|
-pik|
-pini|
-pipl.
-precip|
-primol|
-pro.
-proces |
-profit|
-
-M
-
-MaHC, KYyKYDY3SA.
-
-(MPHCTABKA) OBHAUAET NIDAMVYIO NHMDOTHBONONO?K-
-HOCTb.
-
-PYKA (KHCTB).
-
-CNOCOĜ, O6paa, MaHepa.
-
-OTNIPBICK, OTDOCTOK.
-
-NOCTABHTb, NIONOMMATK, KHACTB; MOJKET ĜbITb MEPE-
-BEeNEHO PABNIHUHBIMA THATONAMA.
-
-TraŭHa.
-
-ĜOpMOTATB.
-
-N
-
-POKAATECA (BOBHHKATB ).
-HOTA (MY3BBIR.).
-
-0
-
-3anop, aacopeHHe.
-
-ueM (NDA CPABHHT. CTEeNEHH).
-
-MaCIO (WKHNAKOE - DACT., -KHBOTH. MH MHHEDAJBHOE ).
-HMETb MHEHHE, NMONATATD.
-
-YKDAMAT».
-
-p
-
-TyĝaA.
-
-NPHCTPACTHXĤ, NApTAĤHBIĤ.
-PHCOBATb, NHCATL KPACKAMH.
-KEPOCHH.
-
-nerpyuika (pacrenne).
-KOJOTb; NIHKA (B KapTax).
-NHHHA.
-
-TPY6OKA (AMA KYPEHHA).
-NDPEHMYIMECTBEHHO, OCOŬEHHO.
-NEPBONBET, ĜADAHYHK.
-
-pan, Ha-3a.
-
-nponecc.
-
-HMETb ĜAPBIU, BOCIIOJIBBOBATBCA.
-
-275
-
- 
-proklam|
-prokrast
-prov|
-
-radi|
-rafin|
-rand|
-rang|
-rast|
-restoraci|
-rezerv |
-
-ribel|
-rifuĝ|
-rikolt|
-riverence|
-
-sagac|
-salut|
-ŝat|
-sekret|
-servut|
-sibl|
-sincer|
-sinjor|
-skiz|
-sol|
-solv|
-sopran |
-sorb|
-spalir|
-spez|
-spit|
-sput|
-steb|
-strek|
-strik|
-ŝuld|
-sulk |
-
-276
-
-OTNAMATb, NPOBOBTAMATE, OGHADONOBATB.
-OTCDOYHBATb, OTKHANBIBATD.
-HCNIBITRIBATE, NDOĜOBATB.
-
-R
-
-aYy4, cIHNA (KONECA).
-
-PAĤHHHPOBATE, XHMHUECKH OYUHMATB, H3OMPATB.
-
-Kpaŭ (rpanHmua).
-
-PAHT, CTENEHb, YUHH.
-
-crpeŭaTe Tpa6naMA.
-
-pecropan.
-
-npAŬepeub, COXDAHHTE AIA CEŬA, OĜECNEYHTE 3a
-COŬOIO.
-
-BOCCTABATb, OYHTOBATb.
-
-YKPHBATECA, HAXONHTE yGemMIIE.
-
-”KATb (POMKb, MMEHHMY ).
-
-PpEeBeDAaHC, IIOKJOH.
-
-S, Ŝ
-
-XATDHĤ, NDOHHUATEHNBHBIĤ,
-KHAHATECA, NDHBETCTBOBATB.
-NODOKHTb, EHHTP.
-
-TAŭHA, cekper.
-
-GapiInHa (KPEMOCTHOE MPABO).
-MANETP.
-
-HCKDEHHHUĤ.
-
-TOCNONHAH, CYNADB.
-
-NEAATE OYVEPK, ACKHB, HAŬDOCOK.
-ENHHCTBEHHBIĤ, OAHH.
-PACTBODATE B ?KHAKOCTAH; DEUNIATb 3ANAUY, BATAANKY.
-AHCKAHT, CONPAHO. j
-BCACBIBATb, XJHEŬATD.
-
-mnanepa.
-
-OĜOPOT (B TOpTOBRE).
-BONPEKH, HAMEPEKOD.
-
-XApKATb.
-
-CTDOYHTP (MIMTB).
-
-NPOBONHTb VEPTY, HEPKATB.
-CTAUKA, 3AŬACTOBKA.
-
-GBITb NOJMMKHBIM (NOMDKHHKOM).
-bopoaxza, MOpIUIHHA.
-
-tali|
-teg|
-teler|
-tem|
-teras|
-tibi|
-torn|
-traĥe|
-trajt|
-trakt|
-tri|foli|
-trip|
-trivial|
-tron |
-trul|
-tumult
-turn |
-
-uniform |
-universal|
-
-uzurp|
-
-van]
-vart|
-veget|
-ventr|
-verdigr|
-verk]
-vestibl|
-veŝt |
-vikari|
-virg|
-
-mal|virglig|
-viŝ|
-
-T
-
-CTAH, TAAHA,
-HATATHBATE (CBEpXY), OĜGTATHBATD.
-Tapernka.
-
-TEMA.
-
-Teppaca.
-
-6ONBIIAA ĜEPUOBAA KOCTB.
-
-TOWATB (HA TOKADHOM CTAHKE).
-ABIXATEJIBHOE TODO, TPAXEA.
-vepra (numa, xXapaktrepa H mp.).
-BECTH NPETOBODBI, TDAKTOBATB.
-TPHHHCHAK, KNEBEDP,
-
-norpoxa, Tpe6yxa, JIHBED.
-MaŬHTHĤ, MOMJIBIM, TDABHAJBHBĤ.
-npecToJ, TDOH.
-
-HONATOYUKA NIA MITYKATYDOB.
-cyMaToxa, TpeBora.
-
-BDAMATb, NIOBODAYHBAT5.
-
-U
-
-dopa, MYHAHD.
-BCEOOMAŬ, YHHBEPCAJIBHHIĤ.
-YaYDNIMDOBATb, ĜE3B3AKOHHO 3AXBATBIBATb.
-
-Vv
-
-HANDACHHĤ, TUIETHBĤ.
-HAHBUATb, YXAKHBATb 34 NETBMH.
-npo316aTb, NpOHSPACTATB».
-”XHBOT.
-
-AP», MENAHKA.
-
-COYHHATb, NHCATE (KHHTH).
-CeHA, BECTHĜĈIOJIB.
-
-iKHHET.
-
-BHKAapHĤ.
-
-MEBCTBEHHBIĤ, HEBHHHBIĤ.
-AHMATE HeBAHHOCTH, DACTAHTE.
-BBITHDATB.
-
-27
 
  
  
