@@ -1,156 +1,267 @@
-AKADEMIAJ KOREKTOJ
-DE LA UNIVERSALA VORTARO
+<?xml-stylesheet type="text/xml" href="fundamento.xsl"?>
+ 
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd"
+[ 
 
+<!ENTITY dash "&#x2015;">
+<!ENTITY elipse "...">
+<!ENTITY yat "&#x0463;"> 
+<!ENTITY Yat "&#x0462;">
+<!ENTITY oelig "&#x0153;">
+
+<!ENTITY apostrof "&#x2019;">
+<!ENTITY strek "'">
+<!ENTITY strek_fr "&strek;">
+<!ENTITY strek_de "&strek;">
+<!ENTITY strek_en "&strek;">
+<!ENTITY strek_ru "|">
+<!ENTITY strek_pl "/">
+
+]>
+
+
+<TEI.2>
+<teiHeader>
+   <!-- kunmetu en Fundamenton kaj forigu tiam ĉi-kapon...? -->
+  <fileDesc>
+    <titleStmt>
+      <title>Fundamento de Esperanto</title>
+      <author>L. L. Zamenhof</author>
+      <respStmt>
+        <resp>enkomputiligita kaj adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: fundamento.xml,v 1.28 2011/02/07 18:52:07 revo Exp $</edition>
+    </editionStmt>
+    <extent>132 kB</extent>
+    <publicationStmt>
+      <publisher>Wolfram DIESTEL</publisher>
+      <pubPlace>Lepsiko</pubPlace>
+      <date>2011-02-07</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+ <encodingDesc>
+    <projectDesc>
+      <p>Tiu teksto estiĝis kadre de projekto celanta disponigi
+      bazajn tekstojn de Esperanto en unueca stilo en Interreto.
+      Inter alie ili uziĝu kiel esplormaterialo por laboro
+      ĉe Reta Vortaro.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstoj de Antaŭparolo kaj Ekzercaro (sen la vortlistoj)
+      jam estis rete publikigitaj kaj uzitaj tie ĉi, la ceteron mi 
+      mem enkomputiligis.</p>
+
+      <p>Multe helpis ĉe la korektado de eraroj Bertilo Wennergren kaj
+      Dominic Cornice.</p>
+
+      <p>La tri partoj aperas kiel propraj &lt;text&gt;-oj, ĉar ili
+      havas ĉiu apartan titolpaĝeton. La
+      ĉapitroj estas apartigitaj per
+      &lt;div type="chapter" id="markilo"&gt; kaj la
+      subĉapitroj &lt;div type="section" id="markilo"&gt;.
+      </p>
+ 
+      <p>Kiel emfazaj elementoj estas uzataj diversloke emph, hi kaj
+      mentioned, en la diverslingvaj gramatikoj ili uziĝas nekohere,
+      same kiel en la papera originalo. Alternativo estus kohera uzo
+      en la XML-teksto kaj lingvospecifa adapto de la XSL-reguloj.
+      </p>
+  
+      <p>La diverslingvaj partoj estas ĉiuj markitaj per la atributo
+      "lang" (vd. la ekzemplojn en la gramatikaj partoj).</p>
+ 
+    </editorialDecl>
+  </encodingDesc>
+ 
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+      <language id="de">germane</language>
+      <language id="en">angle</language>
+      <language id="fr">france</language>
+      <language id="la">latine</language>
+      <language id="ru">ruse</language>
+      <language id="pl">pole</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<!-- ^^^^^^^^ -->
+
+<text lang="eo">   
+
+  <front rend="index">
+    <titlePage>
+      <docTitle>
+        <titlePart type="main">
+          AKADEMIAJ KOREKTOJ          
+        </titlePart>
+        <titlePart type="sub">
+          DE LA UNIVERSALA VORTARO
+        </titlePart>
+      </docTitle>
+    </titlePage>
+
+<div type="part" id="ak_antparol" rend="doc">
+<head>AKADEMIAJ KOREKTOJ<lb/>
+      DE LA UNIVERSALA VORTARO</head>
+
+<p>
 Okaze de la Dua Universala Kongreso (Ĝenevo, 1906), la Lingva
 Komitato decidis, ke estu reviziitaj la naciaj tradukoj de la radikoj
 entenataj en la Universala Vortaro fare de komisionoj franca, 
-germana, angla, rusa, kaj pola (1). Fakte tiu laboro estis komencita de
-la L.K. ĵam antaŭ la Ĝeneva Kongreso. Ĝi estis daŭronta ĝis 1914
-kaj pro la milito estis publikigita nur en 1922-23.
-
-En la Tria U.K. (Kembriĝo, 1907) la L.K. konstatas, ke la tri
-partoj angla, germana kaj pola estas preskaŭ prespretaj; la rusa
-alvenas dum la presado de la kongresa raportaro (2). Pri la franca,
-Prof. Th. CART jam antaŭe publikigis partan korektoliston (1).
-
-La komisiono pri dubaj tradukoj finas sian laboron por la Kvara
-U.K. (Dresdeno, 1908), laŭ la deklaro de Prezidanto Prof. BOIRAC
-en sia Raporto pri la agado de L.K. de la Tria ĝis la 
-Kvara Kongresoj (3).
-
-Tamen tiuj korektoj estis aperontaj nur ek de Aprilo 1912 en la
-«Oficiala Gazeto», kaj ili tie aperis nur kiel Prepardokumentoj, kiel
-anoncis Prof. CART en sia Raporto de la Vortara Sekcio (4). Krome,
-la franca kaj rusa partoj anoncitaj fine de 1912 (5) aperos nur en
-1913.
-
-(1) Cirkulero 4-a de L.K., 27 OKT 06, citita de OG 1, p. 4. — Krome Vd.
+germana, angla, rusa, kaj pola<note rend="footnote" n="1">Cirkulero 4-a 
+de L.K., 27 OKT 06, citita de OG 1, p. 4. — Krome Vd.
 la tre detalan raporton de Th. CART (1907), kiu enhavas francan tradukliston
 aprobitan de ZAMENHOF kaj ankaŭ rimarkojn de la majstro pri la vortoj:
 akuŝi, domaĝo, lui, ekstr, gargari; rimarkoj enprenitaj en LR 
-(Kp. OV 588-539).
-
-(2) E-ista Dok., Kajero sesa (JAN 08) p. 21 kaj p. 57.
-
-(3) OG 1, 25 AUG 08, p. 78.
-
-(4) OG 5, 2 (46), 25 JUL 12, p. 53.
-
-(5) OG 5, 5 (49), 25 NOV 12, p. 167.
-
-
-
-
- 
-
+(Kp. OV 588-539).</note>. 
+Fakte tiu laboro estis komencita de
+la L.K. ĵam antaŭ la Ĝeneva Kongreso. Ĝi estis daŭronta ĝis 1914
+kaj pro la milito estis publikigita nur en 1922-23.
+</p><p>
+En la Tria U.K. (Kembriĝo, 1907) la L.K. konstatas, ke la tri
+partoj angla, germana kaj pola estas preskaŭ prespretaj; la rusa
+alvenas dum la presado de la kongresa raportaro<note rend="footnote" n="2">E-ista Dok., 
+Kajero sesa (JAN 08) p. 21 kaj p. 57.</note>. Pri la franca,
+Prof. Th. CART jam antaŭe publikigis partan korektoliston<note rend="footnoteref" n="1"></note>.
+</p><p>
+La komisiono pri dubaj tradukoj finas sian laboron por la Kvara
+U.K. (Dresdeno, 1908), laŭ la deklaro de Prezidanto Prof. BOIRAC
+en sia Raporto pri la agado de L.K. de la Tria ĝis la 
+Kvara Kongresoj<note rend="footnote" n="3">OG 1, 25 AUG 08, p. 78.</note>.
+</p><p>
+Tamen tiuj korektoj estis aperontaj nur ek de Aprilo 1912 en la
+«Oficiala Gazeto», kaj ili tie aperis nur kiel Prepardokumentoj, kiel
+anoncis Prof. CART en sia Raporto de la Vortara Sekcio
+<note rend="footnote" n="4">OG 5, 2 (46), 25 JUL 12, p. 53.</note>. Krome,
+la franca kaj rusa partoj anoncitaj fine de 1912<note rend="footnote" n="5">OG 5, 
+5 (49), 25 NOV 12, p. 167.</note> aperos nur en 1913.
+</p><p>
 Tiel, ĉe la Naŭa U.K. (Berno, 1913), la kvin partoj jam aperis
-kaj Prezidanto Prof. BOIRAC atestas (6) la ricevon de rimarkoj pri
+kaj Prezidanto Prof. BOIRAC atestas
+<note rend="footnote" n="6">OG 6, 2 (57), 25 JUL 18, p. 21.</note> 
+la ricevon de rimarkoj pri
 tiuj prepardokumentoj, krom pri la pola kaj la rusa.
-
+</p><p>
 La konkluda raporto (datita: 14 JUL 13) de CART sub la
 titolo: Oficialaj decidoj kaj komunikoj, Raporto pri dubaj tradukoj
-de Universala Vortaro (7) konfirmas la antaŭajn prepardokumentojn,
+de Universala Vortaro <note rend="footnote" n="7">OG 6, 9 (64), 25 MAR 14, 
+p. 199-202.</note> konfirmas la antaŭajn prepardokumentojn,
 sed aldonas tri listojn de modifoj: anglan, germanan kaj francan.
 Tamen la partoj pola kaj rusa ŝajne estas ne tute kontentigaj kaj oni
-decidas peti konfirmon de la polaj kaj rusaj L.K.-anoj antaŭ definitiva publikigo (8). Tia konfirmo sub formo de novaj korektoj venis por
+decidas peti konfirmon de la polaj kaj rusaj L.K.-anoj antaŭ definitiva 
+publikigo<note rend="footnote" n="8">OG 6, 4 (59), 25 OKT 13, p. 60.</note>. 
+Tia konfirmo sub formo de novaj korektoj venis por
 la rusa ŝajne nur post 1914 kaj povis aperi nur kun la definitiva teksto
 en 1923. Aliparte, restis dubo, kiel oni nun uzu tiujn korektojn? Ĉu
 enpreni ilin en novan korektitan eldonon de la Fundamento?
-
+</p><p>
 Por la Deka U.K. (Parizo, 1914), CART pretigis Raporton de
 la Sekcio pri Komuna Vortaro. Tie li parolas interalie pri la naciaj
-tradukoj de Universala Vortaro (9); post la fino de tiu laboro venis
+tradukoj de Universala Vortaro<note rend="footnote" n="9">OG 7, 2 (68), 25 JUL 14, p. 38.</note>; 
+post la fino de tiu laboro venis
 pluaj rimarkoj: «Senfina estus tia laboro, se ĉiujn klerulojn oni volus
 aŭskulti». Tial li saĝe proponas: unue, ke la UV mem restu, kia ĝi
 estas, t.e. sen korektoj. Due, ke la vortaristoj estu invitataj uzi 
 la korektojn montritajn de la L.K. en la oficiale akceptitaj raportoj.
-
+</p><p>
 Pro la milito, prokrastiĝis la eldono plurajn jarojn: komence de
-1921 oni repensas pri utileco de tia eldono (10), kaj en sia raporto
-antaŭ la L.K. kaj ĝia Akademio (11), Prezidanto CART anoncas, ke
+1921 oni repensas pri utileco de tia eldono<note rend="footnote" n="10">OG 8, 1-2 (78-79), 
+25 JAN 21 (Piednoto p. 3).</note>, kaj en sia raporto
+antaŭ la L.K. kaj ĝia Akademio<note rend="footnote" n="11">OG 8, 
+4 (81), 25 SEPT 21, p. 106.</note>, Prezidanto CART anoncas, ke
 la listo de korektoj aperos ĉu aparte, ĉu kune kun plena Radikaro
 Oficiala entenanta tradukojn, sed ke la Universala Vortaro daŭre estos
 represata tia, kia ĝi estas.
-
+</p><p>
 Bedaŭrinde ek de 1922, ne plu aperas la «Oficiala Gazeto» kaj
 la Centra Oficejo ne plu eldonas. Tio klarigas la mizeran staton, en
 kiu estas eldonitaj de diversaj firmaoj la kvin broŝuroj litografitaj laŭ
 manskribitaj originaloj.
-
-(6) OG 6, 2 (57), 25 JUL 18, p. 21.
-
-(7) OG 6, 9 (64), 25 MAR 14, p. 199-202.
-
-(8) OG 6, 4 (59), 25 OKT 13, p. 60.
-
-(9) OG 7, 2 (68), 25 JUL 14, p. 38.
-
-(10) OG 8, 1-2 (78-79), 25 JAN 21 (Piednoto p. 3).
-
-(11) OG 8, 4 (81), 25 SEPT 21, p. 106.
-
-
-
+</p><p>
 Ili aperas sub la ĝenerala titolo: Korekto de la eraraj tradukoj
 en Universala Vortaro (kun aprobo de la Lingva Komitato). La
 franca kaj angla partoj aperas sen dato, sed ŝajne en la dua duono de
-1922 (12). En 1923 aperas la tri aliaj partoj. «Esperanto», organo de
+1922<note rend="footnote" n="11">Ke ankaŭ la angla datas el 1922, evidentas el la fakto, ke la ekz-ero,
+pri kiu mi povis disponi, surhavas stampon kaj de la Brita E-o-Asocio kaj de
+la dato: 3 AUG 22.</note>. En 1923 aperas la tri aliaj partoj. «Esperanto», organo de
 U.E.A., en sia numero de Novembro 1922 (p. 190) salutas tiun longe
 atenditan verkon, okaze de la apero de la franca parto kaj la recenzisto
 prave rimarkas: «Eble la titolo ne estas tre bone elektita, ĉar pli ofte
 ol eraraj, la tradukoj estas nesufiĉaj, neplenaj, dubaj aŭ dusencaj,
 kaj la korektoj estas precizigoj, unusencigoj aŭ kompletigoj.»
-
+</p><p>
 Ni aldone memorigu, ke GROSJEAN-MAUPIN enprenis tiujn
 korektojn en sian Oficialan Klasikan Libron (1924-27), antaŭ ol
 priatenti ilin okaze de la redaktado de la Plena Vortaro (1930), verko
 vaste konata kaj de multaj konsiderata kiel «duonoficiala». Tiel, 
 tamen, tiuj Akademiaj Korektoj ricevis vastan diskonigon, des pli ke
 la plej multaj el la bonaj naciaj vortaroj apogiĝas sur la Plena Vortaro.
-
+</p><p>
 Atentante la Bulonjan Deklaracion kaj la decidojn de la Lingva
 Komitato, ni represis en tiu ĉi volumo la Universalan Vortaron senŝanĝa, 
 kaj ĉi-sube sekvas la kvin partoj de la Korektoj. Ni represas
-ilin en sia tuteco, sed tamen donas al ili la kutiman ordon de la Universala Vortaro: franca, angla, germana, rusa, pola. Krome nur la
+ilin en sia tuteco, sed tamen donas al ili la kutiman ordon de la Universala 
+Vortaro: franca, angla, germana, rusa, pola. Krome nur la
 angla kaj la germana partoj enhavis ĝeneralan titolon kaj enkondukon:
 tiujn ni presas kompreneble nur unufoje kaj ĉekape.
-
+</p><p>
 Ni memorigu ĉi tie, ke en la marĝenoj de la Universala Vortaro
 ni aldonis la litersignojn f, a, g, r, p vid-al-vide de la radikoj, por
 kiuj estas trovebla Korekto en unu aŭ pluraj partoj.
+</p>
 
-                           A. A.
+<signed>
+<name>A. A.</name>
+</signed>
+                           
+</div>
 
-(12) Ke ankaŭ la angla datas el 1922, evidentas el la fakto, ke la ekz-ero,
-pri kiu mi povis disponi, surhavas stampon kaj de la Brita E-o-Asocio kaj de
-la dato: 3 AUG 22.
+<div type="part" id="ofc_rap" rend="doc">
+<head>OFICIALA RAPORTO DE PROF. TH. CART<lb/>
+PRI ERARAJ NACILINGVAJ TRADUKOJ EN UV.<lb/>
+(1914)</head>
 
+<salute>
+<address>
+<addrLine>Al Rektoro BOIRAC,</addrLine>
+<addrLine>Prezidanto de la Lingva Komitato.</addrLine>
+</address>
 
-
- 
-OFICIALA RAPORTO DE PROF. TH. CART
-PRI ERARAJ NACILINGVAJ TRADUKOJ EN UV,
-
-(1914)
-
-Al Rektoro BOIRAC,
-Prezidanto de la Lingva Komitato.
-
-Estimata Prezidanto,
-
+Estimata Prezidanto,</salute>
+<p>
 La laboro pri la nacilingvaj eraroj en la tradukoj de UV estas
 finita. La korektotaj tradukoj jam aperis en «Oficiala Gazeto»
 N-oj 43, 44, 46, 47, 50, 51 kaj 64. De tiam mi ricevis ankoraŭ diversajn rimarkojn, kiuj montras, kiel malfacila estas la konsento eĉ
 inter samlingvanoj: senfina estus tia laboro, se ĉiujn klerulojn oni
 volus aŭskulti. La Akademio ree atente ekzamenis la faritajn kritikojn kaj akceptis tiujn, kiuj post interkonsiliĝo kun la speciale
-interesataj nacilingvanoj, ŝajnis aprobindaj. Tie ĉi, kiel ĉie, preferinda estas eĉ ne perfekta solvo, ol neniu solvo(*).
-
-*) Cetere ŝajnas pli saĝe lasi, laŭ la konsilo de D-ro ZAMENHOF, nian UV
-tia, kia ĝi estas (eĉ kun ĝiaj tradukeraretoj), kaj simple inviti la verkistojn de naciaj vortaroj uzi la tie ĉi montritajn korektojn. [noto en la raporto mem]
-
+interesataj nacilingvanoj, ŝajnis aprobindaj. Tie ĉi, kiel ĉie, preferinda estas eĉ ne perfekta solvo, ol neniu solvo
+<note rend="footnote" n="*">Cetere ŝajnas pli saĝe lasi, laŭ la konsilo de D-ro ZAMENHOF, nian UV
+tia, kia ĝi estas (eĉ kun ĝiaj tradukeraretoj), kaj simple inviti la verkistojn de naciaj vortaroj uzi la tie ĉi montritajn korektojn. [noto en la raporto mem]</note>.
+</p>
+</div>
 
 <div type="section">
-<head>FRANCA PARTO</head> (13) (14) (15)
+
+<head>FRANCA PARTO
+<note rend="footnote" n="13">Th. CART (1922).</note>
+<note rend="footnote" n="14">(Komparu: Prepardokumentoj: OG 5, 6 (50), 25 DEC 12, p. 210-221.
+— Vd. Eratumo: OG (51), p. 226; modifojn Vd. en: OG 6, 9 (64), 25 MAR
+14; p. 202. — Krome Vd. noton 1.</note>
+<note rend="footnote" n="15">La franca komisiono elektita de la L.K. okaze de la 
+Ĝeneva Kongreso (1906) estis formita de S-roj DE BEAUFRONT, CART, HUET (Vd. E-ista
+Dok., MAR 07, p. 36). — Horace HUET (1860-1911) estis aŭtoro de raporto
+al la L.K. (1911).</note>
+</head> 
+
 
 <div type="letter" n="A">
 <head>A</head>
@@ -366,25 +477,12 @@ tia, kia ĝi estas (eĉ kun ĝiaj tradukeraretoj), kaj simple inviti la verkisto
   <item lang="fr">avide.</item>
 </list>
 </item>
-
-
-
- 
-
-(13) Th. CART (1922).
-
-(14) Komparu: Prepardokumentoj: OG 5, 6 (50), 25 DEC 12, p. 210-221.
-— Vd. Eratumo: OG (51), p. 226; modifojn Vd. en: OG 6, 9 (64), 25 MAR
-14; p. 202. — Krome Vd. noton 1.
-
-(15) La franca komisiono elektita de la L.K. okaze de la Ĝeneva Kongreso (1906) estis formita de S-roj DE BEAUFRONT, CART, HUET (Vd. E-ista
-Dok., MAR 07, p. 36). — Horace HUET (1860-1911) estis aŭtoro de raporto
-al la L.K. (1911).
-
+</list>
+</div>
 
 
 <div type="letter" n="B">
-<head>B$2</head>
+<head>B</head>
 
 <list type="dict" n="B">
 
@@ -556,7 +654,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="C">
-<head>C$2</head>
+<head>C</head>
 
 <list type="dict" n="C">
 
@@ -626,7 +724,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="D">
-<head>D$2</head>
+<head>D</head>
 
 <list type="dict" n="D">
 
@@ -670,15 +768,15 @@ al la L.K. (1911).
 <list type="def">
   <item lang="fr">devoir (obligation).</item>
 </list>
-</item>
-
-<item><list type="deriv">
-<label lang="eo">dev|ig|</label><item>
-<list type="def">
-  <item lang="fr">obliger, contraindre.</item>
+  <list type="deriv">
+  <label lang="eo">dev|ig|</label><item>
+  <list type="def">
+    <item lang="fr">obliger, contraindre.</item>
+  </list>
+  </item>
 </list>
 </item>
-</list></item>
+
 <label lang="eo">dezir|</label><item>
 <list type="def">
   <item lang="fr">désirer, souhaiter.</item>
@@ -745,7 +843,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="E">
-<head>E$2</head>
+<head>E</head>
 
 <list type="dict" n="E">
 
@@ -797,7 +895,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="F">
-<head>F$2</head>
+<head>F</head>
 
 <list type="dict" n="F">
 
@@ -939,13 +1037,12 @@ al la L.K. (1911).
 </list>
 </item>
 
-
-
 </list>
 </div>
 
+
 <div type="letter" n="G">
-<head>G$2</head>
+<head>G</head>
 
 <list type="dict" n="G">
 
@@ -1039,7 +1136,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="H">
-<head>H$2</head>
+<head>H</head>
 
 <list type="dict" n="H">
 
@@ -1092,7 +1189,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="I">
-<head>I$2</head>
+<head>I</head>
 
 <list type="dict" n="I">
 
@@ -1168,7 +1265,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="J">
-<head>J$2</head>
+<head>J</head>
 
 <list type="dict" n="J">
  
@@ -1196,7 +1293,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="K">
-<head>K$2</head>
+<head>K</head>
 
 <list type="dict" n="K">
 
@@ -1544,7 +1641,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="L">
-<head>L$2</head>
+<head>L</head>
 
 <list type="dict" n="L">
 
@@ -1638,7 +1735,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="M">
-<head>M$2</head>
+<head>M</head>
 
 <list type="dict" n="M">
 
@@ -1714,7 +1811,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="N">
-<head>N$2</head>
+<head>N</head>
 
 <list type="dict" n="N">
 
@@ -1760,7 +1857,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="O">
-<head>O$2</head>
+<head>O</head>
 
 <list type="dict" n="O">
 
@@ -1788,7 +1885,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="P">
-<head>P$2</head>
+<head>P</head>
 
 <list type="dict" n="P">
 
@@ -2062,7 +2159,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="R">
-<head>R$2</head>
+<head>R</head>
 
 <list type="dict" n="R">
 
@@ -2140,7 +2237,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="S">
-<head>S$2</head>
+<head>S</head>
 
 <list type="dict" n="S">
 
@@ -2420,7 +2517,7 @@ al la L.K. (1911).
 </div>
 
 <div type="letter" n="T">
-<head>T$2</head>
+<head>T</head>
 
 <list type="dict" n="T">
 
@@ -2535,7 +2632,7 @@ torf|tourbe.
 </div>
 
 <div type="letter" n="U">
-<head>U$2</head>
+<head>U</head>
 
 <list type="dict" n="U">
 
@@ -2575,7 +2672,7 @@ torf|tourbe.
 </div>
 
 <div type="letter" n="V">
-<head>V$2</head>
+<head>V</head>
 
 <list type="dict" n="V">
 
@@ -2664,7 +2761,7 @@ torf|tourbe.
 </div>
 
 <div type="letter" n="Z">
-<head>Z$2</head>
+<head>Z</head>
 
 <list type="dict" n="Z">
 
@@ -2674,49 +2771,47 @@ torf|tourbe.
 </list>
 </item>
 
+</list>
+</div>
+</div>
 
- 
 
- </div>
- 
 
 <div type="section">
-<head>ANGLA PARTO</head> (16) (17)
+<head>ANGLA PARTO
+<note rend="footnote" n=16">Th. CART (1922). — Ni ĉi tie danku S-ron M. C. BUTLER kiu
+bonvole kontrolis la lastan presprovaĵon.</note>
+<note rend="footnote" n=17">Komparu: Prepardokumentoj: OG 4, 10 (43), 25 APR 12, p. 363-
+375 kaj OG (44), p. 400-411. Modifojn vidu en OG (64), p. 200.</note>
+</head>
 
+<p>
 (Ĉefaj kunlaborantoj: F-ino Adela SHAFER, S-roj RHODES,
-MILLIDGE kaj ELLIS.) (18).
-
-Kiam la senco de iu vorto ne estas la sama, se (19) tiu ĉi vorto
-estas verbo aŭ substantivo, oni aldonis la verbigan prepozicion /to/,
+MILLIDGE kaj ELLIS.)<note rend="footnote" n=18">La angla komisiono 
+elektita de la L.K. en 1906 konsistis el F-ino
+SHAFER kaj S-roj RHODES kaj ELLIS (Vd. noton 15)</note>.
+</p><p>
+Kiam la senco de iu vorto ne estas la sama, 
+se<note rend="footnote" n=19">Tiu /se/ estas anglismo signifanta: laŭ tio, ĉu.</note> 
+tiu ĉi vorto estas verbo aŭ substantivo, oni aldonis la verbigan prepozicion /to/,
 aŭ la literojn: /vb/, post la vorto. Ekz.: arm = to arm. La vorto arm
 signifus: brako, kun /to/ oni tuj komprenas, ke ĝi signifas armi.
-
+</p><p>
 Kiam la traduko bezonas aldonan vorton por klarigi la unuan,
 oni aldonis ĝin. Ekz.: la vorto order signifas ĉu ordeno, ĉu ordo, ĉu
 mendo, ĉu mendado, k.t.p. Order bezonas do klarigan vorton.
-
+</p><p>
 Kiam la signifo estas duba, ĉar ekzistas en la angla lingvo du
 apartaj signifoj, kiuj povas aŭ ne esti ĝustaj, oni metis ĉiam la du
 signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
-
-(16) Th. CART (1922). — Ni ĉi tie danku S-ron M. C. BUTLER kiu
-bonvole kontrolis la lastan presprovaĵon.
-
-(17) Komparu: Prepardokumentoj: OG 4, 10 (43), 25 APR 12, p. 363-
-375 kaj OG (44), p. 400-411. Modifojn vidu en OG (64), p. 200.
-
-(18) La angla komisiono elektita de la L.K. en 1906 konsistis el F-ino
-SHAFER kaj S-roj RHODES kaj ELLIS (Vd. noton 15).
-
-(19) Tiu /se/ estas anglismo signifanta: laŭ tio, ĉu.
-
+</p>
 
 
 </list>
 </div>
 
 <div type="letter" n="A">
-<head>A$2</head>
+<head>A</head>
 
 <list type="dict" n="A">
 
@@ -2908,14 +3003,18 @@ SHAFER kaj S-roj RHODES kaj ELLIS (Vd. noton 15).
 </list>
 </item>
 
-azot|nitrogen, azote.
-
+<label lang="eo">azot|</label><item>
+<list type="def">
+  <item lang="en">nitrogen, azote.</item>
+</list>
+</item>
 
 </list>
 </div>
 
+
 <div type="letter" n="B">
-<head>B$2</head>
+<head>B</head>
 
 <list type="dict" n="B">
 
@@ -3126,13 +3225,12 @@ azot|nitrogen, azote.
 </list>
 </item>
 
-
-
 </list>
 </div>
 
+
 <div type="letter" n="C">
-<head>C$2</head>
+<head>C</head>
 
 <list type="dict" n="C">
 
@@ -3257,7 +3355,7 @@ azot|nitrogen, azote.
 </div>
 
 <div type="letter" n="D">
-<head>D$2</head>
+<head>D</head>
 
 <list type="dict" n="D">
 
@@ -3460,7 +3558,7 @@ azot|nitrogen, azote.
 </div>
 
 <div type="letter" n="E">
-<head>E$2</head>
+<head>E</head>
 
 <list type="dict" n="E">
 
@@ -3572,7 +3670,7 @@ azot|nitrogen, azote.
 </div>
 
 <div type="letter" n="F">
-<head>F$2</head>
+<head>F</head>
 
 <list type="dict" n="F">
 
@@ -3879,7 +3977,7 @@ azot|nitrogen, azote.
 </div>
 
 <div type="letter" n="G">
-<head>G$2</head>
+<head>G</head>
 
 <list type="dict" n="G">
 
@@ -4092,7 +4190,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="H">
-<head>H$2</head>
+<head>H</head>
 
 <list type="dict" n="H">
 
@@ -4187,7 +4285,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="I">
-<head>I$2</head>
+<head>I</head>
 
 <list type="dict" n="I">
 
@@ -4305,7 +4403,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="J">
-<head>J$2</head>
+<head>J</head>
 
 <list type="dict" n="J">
 
@@ -4333,7 +4431,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="K">
-<head>K$2</head>
+<head>K</head>
 
 <list type="dict" n="K">
 
@@ -5102,7 +5200,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="L">
-<head>L$2</head>
+<head>L</head>
 
 <list type="dict" n="L">
 
@@ -5303,7 +5401,7 @@ grifel|slate-pencil.
 </div>
 
 <div type="letter" n="M">
-<head>M$2</head>
+<head>M</head>
 
 <list type="dict" n="M">
 
@@ -5522,7 +5620,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="N">
-<head>N$2</head>
+<head>N</head>
 
 <list type="dict" n="N">
 
@@ -5633,7 +5731,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="O">
-<head>O$2</head>
+<head>O</head>
 
 <list type="dict" n="O">
 
@@ -5735,7 +5833,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="P">
-<head>P$2</head>
+<head>P</head>
 
 <list type="dict" n="P">
 
@@ -6410,7 +6508,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="R">
-<head>R$2</head>
+<head>R</head>
 
 <list type="dict" n="R">
 
@@ -6653,7 +6751,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="S">
-<head>S$2</head>
+<head>S</head>
 
 <list type="dict" n="S">
 
@@ -7267,7 +7365,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="T">
-<head>T$2</head>
+<head>T</head>
 
 <list type="dict" n="T">
 
@@ -7568,7 +7666,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="U">
-<head>U$2</head>
+<head>U</head>
 
 <list type="dict" n="U">
 
@@ -7631,7 +7729,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="V">
-<head>V$2</head>
+<head>V</head>
 
 <list type="dict" n="V">
 
@@ -7864,7 +7962,7 @@ magazen|shop, store, ware-house.
 </div>
 
 <div type="letter" n="Z">
-<head>Z$2</head>
+<head>Z</head>
 
 <list type="dict" n="Z">
 
@@ -7901,31 +7999,30 @@ magazen|shop, store, ware-house.
 </item>
 </list></item>
 
- 
-
+</list>
+</div>
 </div>
  
 
 <div type="section">
-<head>GERMANA PARTO</head> (20) (21)
+<head>GERMANA PARTO
+<note rend="footnote" n="20">Th. CART (1923). — Ni ĉi tie danku S-ron Dipl. Inĝ. R. HAFERKORN,
+kiu bonvole kontrolis la lastan presprovaĵon.</note>
+<note rend="footnote" n="21">Komparu: Prepardokumentoj: OG 5, 2 (46), 25 JUL 12, p. 64-73.
+Modifoj en: OG (64), p. 201.</note>
+</head>
 
+<p>
 (Ĉefaj kunlaborintoj: S-roj ELB, CHRISTALLER kaj F-ino
-SCHEFER) (22)
-
-(20) Th. CART (1923). — Ni ĉi tie danku S-ron Dipl. Inĝ. R. HAFERKORN,
-kiu bonvole kontrolis la lastan presprovaĵon.
-(21) Komparu: Prepardokumentoj: OG 5, 2 (46), 25 JUL 12, p. 64-73.
-Modifoj en: OG (64), p. 201.
-
-(22) La germana komisiono elektita de la L.K en 1906 konsistis el S-roj
-CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
-
+SCHEFER)<note rend="footnote" n="22">La germana komisiono elektita de la L.K en 1906 konsistis el S-roj
+CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
+</p>
 
 </list>
 </div>
 
 <div type="letter" n="A">
-<head>A$2</head>
+<head>A</head>
 
 <list type="dict" n="A">
 
@@ -8037,13 +8134,12 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </list>
 </item>
 
-
-
 </list>
 </div>
 
+
 <div type="letter" n="B">
-<head>B$2</head>
+<head>B</head>
 
 <list type="dict" n="B">
 
@@ -8126,7 +8222,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="C">
-<head>C$2</head>
+<head>C</head>
 
 <list type="dict" n="C">
 
@@ -8172,7 +8268,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="D">
-<head>D$2</head>
+<head>D</head>
 
 <list type="dict" n="D">
 
@@ -8260,7 +8356,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="E">
-<head>E$2</head>
+<head>E</head>
 
 <list type="dict" n="E">
 
@@ -8417,7 +8513,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="G">
-<head>G$2</head>
+<head>G</head>
 
 <list type="dict" n="G">
  
@@ -8476,7 +8572,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="H">
-<head>H$2</head>
+<head>H</head>
 
 <list type="dict" n="H">
 
@@ -8506,7 +8602,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="I">
-<head>I$2</head>
+<head>I</head>
 
 <list type="dict" n="I">
 
@@ -8617,7 +8713,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="J">
-<head>J$2</head>
+<head>J</head>
 
 <list type="dict" n="J">
 
@@ -8633,7 +8729,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="K">
-<head>K$2</head>
+<head>K</head>
 
 <list type="dict" n="K">
 
@@ -8899,7 +8995,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="L">
-<head>L$2</head>
+<head>L</head>
 
 <list type="dict" n="L">
 
@@ -9085,7 +9181,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="O">
-<head>O$2</head>
+<head>O</head>
 
 <list type="dict" n="O">
 
@@ -9364,7 +9460,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="S">
-<head>S$2</head>
+<head>S</head>
 
 <list type="dict" n="S">
 
@@ -9624,7 +9720,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="T">
-<head>T$2</head>
+<head>T</head>
 
 <list type="dict" n="T">
 
@@ -9759,7 +9855,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 </div>
 
 <div type="letter" n="V">
-<head>V$2</head>
+<head>V</head>
 
 <list type="dict" n="V">
 
@@ -9812,84 +9908,86 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
   <item lang="de">Visier (Helm).</item>
 </list>
 </item>
+</list>
+</div>
 
-
-
- 
-
- 
 </div>
  
 
 <div type="section">
-<head>RUSA PARTO</head> (23)
+<head>RUSA PARTO
+<note rend="footnote" n="23">Th. CART (1923).</note>
+</head>
 
-(Redaktita de S. OBRUĈEV) (24)
+<p>
+(Redaktita de S. OBRUĈEV) 
+<note rend="footnote" n="24">La rusa komisiono elektita de la L.K. en 1906 konsistis el 
+S-roj AVILOV kaj KOFMAN.</note>
+</p>
 
-Antaŭparolo.
+<head>Antaŭparolo.</head>
 
+<p>
 La ĉi-sube presitaj korektoj de dubaj tradukoj de Universala
-Vortaro estas verkitaj laŭ sekvanta materialo (25):
-
+Vortaro estas verkitaj laŭ sekvanta materialo
+<note rend="footnote" n="25">Legu: laŭ la sekvanta materialo.</note>:
+</p><p>
 1. Korektoj, proponitaj de V. DEVJATNIN - 93 vortoj (OG 5,
 7 (51), 25 JAN 18, p. 226/231).
-
+</p><p>
 2. Kritiko pri 29 vortoj de tiu korektaro, sendita al la 
 Akademio de S. OBRUĈEV.
-
+</p><p>
 3. Kritiko pri ses vortoj de sama korektaro, senditaj al la
 «Ondo de Esperanto» de D-ro V. LEBEDEV.
-
+</p><p>
 4. Korektaro de 53 vortoj (ne entenataj en korektaro de 
 DEVJATNIN), sendita al la Akademio de V. LEBEDEV.
-
+</p><p>
 5. Korektaro de 83 vortoj (ne entenataj en tiu de 
 V. DEVJATNIN), sendita al la Akademio de S. OBRUĈEV.
-
+</p><p>
 
 Tiuj manuskriptoj estis zorge komparitaj, kaj la definitivan
 korektaron de 208 vortoj ni nun prezentas. La korektoj laŭ sia
 karaktero dividiĝas jene:
-
+</p><p>
 1. Simplaj ortografiaj korektoj.
-
+</p><p>
 2. Anstataŭo de neuzata aŭ neliteratura vorto per moderna.
-
-(23) Th. CART (1923).
-
-(24) La rusa komisiono elektita de la L.K. en 1906 konsistis el 
-S-roj AVILOV kaj KOFMAN.
-
-(25) Legu: laŭ la sekvanta materialo.
-
+</p><p>
 3. Klarigo de senco per unu aŭ kelkaj sinonimoj — en okazo,
-se (26) esperanta vorto havas kelkajn signifojn.
+se <note rend="footnote" n="26">Legu: en la okazo, kiam.</note>
 
+
+ esperanta vorto havas kelkajn signifojn.
+</p><p>
 4. Klarigo per sinonimo aŭ preciziga noto (inter krampoj), se
 la uzita en U.V. rusa vorto havas du malsamajn signifojn, unu el
-kiuj (27) ne egalvaloras al esperanta.
-
+kiuj <note rend="footnote" n="27">Legu: el kiuj unu.</note>
+ ne egalvaloras al esperanta.
+</p><p>
 5. Aldono de sinonimo, samradika kaj samsona kun esperanta
 vorto — por substreki la internacian karakteron de Esperanto.
-
+</p><p>
 6. Korekto de malĝustaj aŭ eĉ eraraj tradukoj.
-
-
+</p><p>
 Por ĉiuj faritaj korektoj la suprecititaj manuskriptoj enhavas
 detalan pravigon. La korektoj estis komparitaj kun la vortaroj de
 KABE, VERAX, BOIRAC, kelkaj ruslingvaj, kaj la moderna esperanta
 uzado. Precipe oni atentis la Esperanto-Rusan vortaron de 
 L. ZAMENHOF (eldonoj 1909 kaj 1911 j.), en kiuj la Majstro mem 
 enkondukis multajn el proponitaj de ni korektoj.
-
-Moskvo, 10 MAR 23.                  S. OBRUĈEV.
-
-
-</list>
+</p>
+<signed>
+<place>Moskvo</place>, <date>10 MAR 23.</date>
+                  <name>S. OBRUĈEV.</name>
+</signed>
 </div>
 
+
 <div type="letter" n="A">
-<head>A$2</head>
+<head>A</head>
 
 <list type="dict" n="A">
 
@@ -9983,16 +10081,13 @@ Moskvo, 10 MAR 23.                  S. OBRUĈEV.
 </list>
 </item>
 
-
-(26) Legu: en la okazo, kiam.
-(27) Legu: el kiuj unu.
-
-
 </list>
 </div>
 
+
+
 <div type="letter" n="B">
-<head>B$2</head>
+<head>B</head>
 
 <list type="dict" n="B">
 
@@ -11198,32 +11293,28 @@ Moskvo, 10 MAR 23.                  S. OBRUĈEV.
 </list>
 </item>
 
-
-
-
-
-
+</list>
+</div>
 </div>
  
 
 <div type="section">
-<head>POLA PARTO</head> (28)
-
-(Redaktita de A. GRABOWSKI kaj K. BEIN) (29)
-
-(28) Th. CART (1923). — Ni ne modifis la intertempe ŝanĝiĝintan polan
+<head>POLA PARTO
+<note rend="footnote" n="28">Th. CART (1923). — Ni ne modifis la intertempe ŝanĝiĝintan polan
 ortografion (La malnovajn: emalja, misterjum, pinja... Poloj senpene legos
 emalia, misterium, pinia...). — Ni tie danku Inĝ. L. ZAMENHOF, kiu bonvole
-kontrolis la lastan presprovaĵon.
+kontrolis la lastan presprovaĵon.</note>
+</head> (28)
 
-(29) La pola komisiono elektita de la L.K. en 1906 konsistis ĝuste el 
-S-roj K. BEIN (= KABE) kaj GRABOWSKI.
+<p>
+(Redaktita de A. GRABOWSKI kaj K. BEIN)
+<note rend="footnote" n="29">La pola komisiono elektita de la L.K. en 1906 konsistis ĝuste el 
+S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
+</p>
 
-</list>
-</div>
 
 <div type="letter" n="A">
-<head>A$2</head>
+<head>A</head>
 
 <list type="dict" n="A">
 
@@ -11318,7 +11409,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="B">
-<head>B$2</head>
+<head>B</head>
 
 <list type="dict" n="B">
 
@@ -11389,7 +11480,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="C">
-<head>C$2</head>
+<head>C</head>
 
 <list type="dict" n="C">
 
@@ -11441,7 +11532,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="D">
-<head>D$2</head>
+<head>D</head>
 
 <list type="dict" n="D">
 
@@ -11481,7 +11572,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="E">
-<head>E$2</head>
+<head>E</head>
 
 <list type="dict" n="E">
 
@@ -11563,7 +11654,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="F">
-<head>F$2</head>
+<head>F</head>
 
 <list type="dict" n="F">
 
@@ -11693,7 +11784,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="G">
-<head>G$2</head>
+<head>G</head>
 
 <list type="dict" n="G">
 
@@ -11745,18 +11836,27 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 </div>
 
 <div type="letter" n="H">
-<head>H$2</head>
+<head>H</head>
 
 <list type="dict" n="H">
 
-<label lang="eo">hiskiam</label><item>
+<label lang="eo">hiskiam|</label><item>
 <list type="def">
-  <item lang="pl">|blekol.</item>
+  <item lang="pl">blekol.</item>
 </list>
 </item>
 
-histrik|jezozwierz.
-kortulan|poŝwierka, ortolan.
+<label lang="eo">histrik|</label><item>
+<list type="def">
+  <item lang="pl">jezozwierz.</item>
+</list>
+</item>
+
+<label lang="eo">kortulan|</label><item>
+<list type="def">
+  <item lang="pl">poŝwierka, ortolan.</item>
+</list>
+</item>
 
 
 
@@ -11764,7 +11864,7 @@ kortulan|poŝwierka, ortolan.
 </div>
 
 <div type="letter" n="I">
-<head>I$2</head>
+<head>I</head>
 
 <list type="dict" n="I">
 
@@ -11824,7 +11924,13 @@ kortulan|poŝwierka, ortolan.
 
 
 
-Ĵ
+</list>
+</div>
+
+<div type="letter" n="K">
+<head>Ĵ/head>
+
+<list type="dict" n="J">
 
 <label lang="eo">ĵongl|</label><item>
 <list type="def">
@@ -11832,13 +11938,12 @@ kortulan|poŝwierka, ortolan.
 </list>
 </item>
 
-
-
 </list>
 </div>
 
+
 <div type="letter" n="K">
-<head>K$2</head>
+<head>K</head>
 
 <list type="dict" n="K">
 
@@ -12128,7 +12233,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="L">
-<head>L$2</head>
+<head>L</head>
 
 <list type="dict" n="L">
 
@@ -12225,7 +12330,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="M">
-<head>M$2</head>
+<head>M</head>
 
 <list type="dict" n="M">
 
@@ -12303,7 +12408,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="N">
-<head>N$2</head>
+<head>N</head>
 
 <list type="dict" n="N">
 
@@ -12325,7 +12430,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="O">
-<head>O$2</head>
+<head>O</head>
 
 <list type="dict" n="O">
 
@@ -12353,7 +12458,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="P">
-<head>P$2</head>
+<head>P</head>
 
 <list type="dict" n="P">
 
@@ -12549,7 +12654,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="R">
-<head>R$2</head>
+<head>R</head>
 
 <list type="dict" n="R">
 
@@ -12631,7 +12736,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="S">
-<head>S$2</head>
+<head>S</head>
 
 <list type="dict" n="S">
 
@@ -12838,7 +12943,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="T">
-<head>T$2</head>
+<head>T</head>
 
 <list type="dict" n="T">
 
@@ -12952,7 +13057,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="V">
-<head>V$2</head>
+<head>V</head>
 
 <list type="dict" n="V">
 
@@ -13054,7 +13159,7 @@ komun] wspólny.
 </div>
 
 <div type="letter" n="Z">
-<head>Z$2</head>
+<head>Z</head>
 
 <list type="dict" n="Z">
 
@@ -13064,21 +13169,25 @@ komun] wspólny.
 </list>
 </item>
 
-zum| brzęczeć (o owadach).
+<label lang="eo">zum|</label><item>
+<list type="def">
+  <item lang="pl">brzęczeć (o owadach).</item>
+</list>
+</item>
 
-
-P.S. — Pri la vortoj «gargari» kaj «malsobra», kies polaj 
+<p>P.S. — Pri la vortoj «gargari» kaj «malsobra», kies polaj 
 tradukoj laŭ mia opinio estas ĝustaj, Kolego BEIN rezervis 
-al si «votum separatum» (30).
+al si «votum separatum» <note rend="footnote" n="30">Latine: aparta voĉdono.</note>
+</p>
 
-A. Gr.
+<signed>A. Gr.</signed>
 
-Pri la vortoj: «gargari», «sobra», «malsobra»
-
-Gargari (31)
-
+<p>Pri la vortoj: «gargari», «sobra», «malsobra»
+</p><p>
+Gargari <note rend="footnote" n="31">Vd. klarigojn en la Lingvaj Rimarkoj.</note>
+</p><p>
 Mi proponas:
-
+</p><p>
 Gargari. — Se gargariser | to gargle | gurgeln | полоскать (горло) |
 płukać (gardto); t. e. oni povas diri /gargari/ nur pri la gorĝo; 
 gargari tolaĵon estas tute malĝusta esprimo, la ĝusta vorto mankas en
@@ -13086,25 +13195,25 @@ Esperanto (31), gargari ne povas ĝin anstataŭi, ĉar alie la
 multe-nacia, /son-imitanta/ vorto /gargar/ signifus tion, kion ĝi signifas en neniu lingvo. Eĉ en arta lingvo la arbitreco devas havi limojn, kaj
 ni forgesu neniam, ke la principo de l'internacieco devas superi
 ĉiujn aliajn.
-
-Sobra, malsobra (31)
-
+</p><p>
+Sobra, malsobra <note rend="footnoteref" n="31"></note>
+</p><p>
 Mi proponas:
+</p><p>
 Sobra. — Wstrzemięźliwy, umiarkowany.
 Malsobra. — Niewstrzemięźliwy, nieumiarkowany; t.e. la
-sencon, kiun oni donis al la vortoj en la aprobitaj vortaroj (32).
+sencon, kiun oni donis al la vortoj en la aprobitaj vortaroj
+<note rend="footnote n="32">Aprobitaj vortaroj: DE BEAUFRONT (1902): intempérant. — 
+JURGENSEN (1904): unmässig. (Laŭ KABE, 1911: malsobra = malmodere 
+trinkanta kaj manĝanta; ebria = estanta sub la influo de la alkoholo. 
+— En la F-to, malsobra havis la signifon de ebria).</note>.
 Akceptinte la vorton /ebria/, D-ro ZAMENHOF mem ŝanĝis la signifon
 de la cititaj vortoj.
+</p><p>
 
-Varsovio, 14 JUL 07.
-D-ro BEIN.
-
-(30) Latine: aparta voĉdono.
-
-(31) Vd. klarigojn en la Lingvaj Rimarkoj.
-
-(32) Aprobitaj vortaroj: DE BEAUFRONT (1902): intempérant. — 
-JURGENSEN (1904): unmässig. (Laŭ KABE, 1911: malsobra = malmodere 
-trinkanta kaj manĝanta; ebria = estanta sub la influo de la alkoholo. — En la F-to, malsobra havis la signifon de ebria).
+<signed><place>Varsovio</place>, <date>14 JUL 07.</date>
+<name>D-ro BEIN.</name>
+</signed>
 
 </div>
+</text>
