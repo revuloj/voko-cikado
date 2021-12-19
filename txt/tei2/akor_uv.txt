@@ -149,10 +149,13 @@ interesataj nacilingvanoj, ŝajnis aprobindaj. Tie ĉi, kiel ĉie, preferinda es
 tia, kia ĝi estas (eĉ kun ĝiaj tradukeraretoj), kaj simple inviti la verkistojn de naciaj vortaroj uzi la tie ĉi montritajn korektojn. [noto en la raporto mem]
 
 
+<div type="section">
+<head>FRANCA PARTO</head> (13) (14) (15)
 
-FRANCA PARTO (13) (14) (15)
+<div type="letter" n="A">
+<head>A</head>
 
-A 
+<list type="dict" n="A">
 
 <label lang="eo">abon&strek;</label><item>
 <list type="def">
@@ -380,7 +383,10 @@ al la L.K. (1911).
 
 
 
-B 
+<div type="letter" n="B">
+<head>B$2</head>
+
+<list type="dict" n="B">
 
 
 <label lang="eo">bak|</label><item>
@@ -546,8 +552,13 @@ B
 </item>
 
 
+</list>
+</div>
 
-C, Ĉ
+<div type="letter" n="C">
+<head>C$2</head>
+
+<list type="dict" n="C">
 
 <label lang="eo">ĉarnir|</label><item>
 <list type="def">
@@ -611,7 +622,13 @@ C, Ĉ
 
 
 
-D
+</list>
+</div>
+
+<div type="letter" n="D">
+<head>D$2</head>
+
+<list type="dict" n="D">
 
 <label lang="eo">daŭr|</label><item>
 <list type="def">
@@ -724,7 +741,13 @@ D
 
 
 
-E
+</list>
+</div>
+
+<div type="letter" n="E">
+<head>E$2</head>
+
+<list type="dict" n="E">
 
 <label lang="eo">edif|</label><item>
 <list type="def">
@@ -770,7 +793,13 @@ E
 
 
 
-F 
+</list>
+</div>
+
+<div type="letter" n="F">
+<head>F$2</head>
+
+<list type="dict" n="F">
 
 <label lang="eo">fak|</label><item>
 <list type="def">
@@ -912,7 +941,13 @@ F
 
 
 
-G, Ĝ
+</list>
+</div>
+
+<div type="letter" n="G">
+<head>G$2</head>
+
+<list type="dict" n="G">
 
 <label lang="eo">gal|</label><item>
 <list type="def">
@@ -1000,7 +1035,13 @@ G, Ĝ
 
 
 
-H
+</list>
+</div>
+
+<div type="letter" n="H">
+<head>H$2</head>
+
+<list type="dict" n="H">
 
 <label lang="eo">hak|</label><item>
 <list type="def">
@@ -1047,7 +1088,13 @@ H
 
 
 
-I
+</list>
+</div>
+
+<div type="letter" n="I">
+<head>I$2</head>
+
+<list type="dict" n="I">
 
 <label lang="eo">imag|</label><item>
 <list type="def">
@@ -1117,7 +1164,13 @@ I
 
 
 
-J, Ĵ
+</list>
+</div>
+
+<div type="letter" n="J">
+<head>J$2</head>
+
+<list type="dict" n="J">
  
 <label lang="eo">ĵongl|</label><item>
 <list type="def">
@@ -1139,7 +1192,13 @@ J, Ĵ
 
 
 
-K
+</list>
+</div>
+
+<div type="letter" n="K">
+<head>K$2</head>
+
+<list type="dict" n="K">
 
 <label lang="eo">kaĉ|</label><item>
 <list type="def">
@@ -1481,7 +1540,13 @@ K
 
 
 
-L
+</list>
+</div>
+
+<div type="letter" n="L">
+<head>L$2</head>
+
+<list type="dict" n="L">
 
 <label lang="eo">laĉ|</label><item>
 <list type="def">
@@ -1569,7 +1634,13 @@ L
 
 
 
-M
+</list>
+</div>
+
+<div type="letter" n="M">
+<head>M$2</head>
+
+<list type="dict" n="M">
 
 <label lang="eo">makler|</label><item>
 <list type="def">
@@ -1639,7 +1710,13 @@ M
 
 
 
-N
+</list>
+</div>
+
+<div type="letter" n="N">
+<head>N$2</head>
+
+<list type="dict" n="N">
 
 <label lang="eo">nap|</label><item>
 <list type="def">
@@ -1679,7 +1756,13 @@ N
 
 
 
-O
+</list>
+</div>
+
+<div type="letter" n="O">
+<head>O$2</head>
+
+<list type="dict" n="O">
 
 <label lang="eo">odor|</label><item>
 <list type="def">
@@ -1701,7 +1784,13 @@ O
 
 
 
-P 
+</list>
+</div>
+
+<div type="letter" n="P">
+<head>P$2</head>
+
+<list type="dict" n="P">
 
 <label lang="eo">paĝi|</label><item>
 <list type="def">
@@ -1969,7 +2058,13 @@ P
 
 
 
-R
+</list>
+</div>
+
+<div type="letter" n="R">
+<head>R$2</head>
+
+<list type="dict" n="R">
 
 <label lang="eo">rapir|</label><item>
 <list type="def">
@@ -2041,7 +2136,13 @@ R
 
 
 
-S, Ŝ
+</list>
+</div>
+
+<div type="letter" n="S">
+<head>S$2</head>
+
+<list type="dict" n="S">
 
 <label lang="eo">ŝaf|</label><item>
 <list type="def">
@@ -2315,7 +2416,13 @@ S, Ŝ
 
 
 
-T
+</list>
+</div>
+
+<div type="letter" n="T">
+<head>T$2</head>
+
+<list type="dict" n="T">
 
 <label lang="eo">tabl|</label><item>
 <list type="def">
@@ -2424,7 +2531,13 @@ torf|tourbe.
 
 
 
-U
+</list>
+</div>
+
+<div type="letter" n="U">
+<head>U$2</head>
+
+<list type="dict" n="U">
 
 <label lang="eo">uln|</label><item>
 <list type="def">
@@ -2458,7 +2571,13 @@ U
 
 
 
-V
+</list>
+</div>
+
+<div type="letter" n="V">
+<head>V$2</head>
+
+<list type="dict" n="V">
 
 <label lang="eo">vafl|</label><item>
 <list type="def">
@@ -2541,7 +2660,13 @@ V
 
 
 
-Z
+</list>
+</div>
+
+<div type="letter" n="Z">
+<head>Z$2</head>
+
+<list type="dict" n="Z">
 
 <label lang="eo">zizel|</label><item>
 <list type="def">
@@ -2552,10 +2677,11 @@ Z
 
  
 
- 
+ </div>
  
 
-ANGLA PARTO (16) (17)
+<div type="section">
+<head>ANGLA PARTO</head> (16) (17)
 
 (Ĉefaj kunlaborantoj: F-ino Adela SHAFER, S-roj RHODES,
 MILLIDGE kaj ELLIS.) (18).
@@ -2586,7 +2712,13 @@ SHAFER kaj S-roj RHODES kaj ELLIS (Vd. noton 15).
 
 
 
-A
+</list>
+</div>
+
+<div type="letter" n="A">
+<head>A$2</head>
+
+<list type="dict" n="A">
 
 <label lang="eo">absint|</label><item>
 <list type="def">
@@ -2779,7 +2911,13 @@ A
 azot|nitrogen, azote.
 
 
-B 
+</list>
+</div>
+
+<div type="letter" n="B">
+<head>B$2</head>
+
+<list type="dict" n="B">
 
 <label lang="eo">bala|</label><item>
 <list type="def">
@@ -2990,7 +3128,13 @@ B
 
 
 
-C, Ĉ
+</list>
+</div>
+
+<div type="letter" n="C">
+<head>C$2</head>
+
+<list type="dict" n="C">
 
 <label lang="eo">ĉagren|</label><item>
 <list type="def">
@@ -3109,7 +3253,13 @@ C, Ĉ
 
 
 
-D
+</list>
+</div>
+
+<div type="letter" n="D">
+<head>D$2</head>
+
+<list type="dict" n="D">
 
 <label lang="eo">datur|</label><item>
 <list type="def">
@@ -3306,7 +3456,13 @@ D
 
 
  
-E
+</list>
+</div>
+
+<div type="letter" n="E">
+<head>E$2</head>
+
+<list type="dict" n="E">
 
 <label lang="eo">eben|</label><item>
 <list type="def">
@@ -3412,7 +3568,13 @@ E
 
 
 
-F
+</list>
+</div>
+
+<div type="letter" n="F">
+<head>F$2</head>
+
+<list type="dict" n="F">
 
 <label lang="eo">fabrik|</label><item>
 <list type="def">
@@ -3713,7 +3875,13 @@ F
 
 
 
-G, Ĝ
+</list>
+</div>
+
+<div type="letter" n="G">
+<head>G$2</head>
+
+<list type="dict" n="G">
 
 <label lang="eo">gad|</label><item>
 <list type="def">
@@ -3920,7 +4088,13 @@ grifel|slate-pencil.
 
 
 
-H
+</list>
+</div>
+
+<div type="letter" n="H">
+<head>H$2</head>
+
+<list type="dict" n="H">
 
 <label lang="eo">hal|</label><item>
 <list type="def">
@@ -4009,7 +4183,13 @@ H
 
 
 
-I
+</list>
+</div>
+
+<div type="letter" n="I">
+<head>I$2</head>
+
+<list type="dict" n="I">
 
 <label lang="eo">ia.</label><item>
 <list type="def">
@@ -4121,7 +4301,13 @@ I
 
 
 
-J, Ĵ
+</list>
+</div>
+
+<div type="letter" n="J">
+<head>J$2</head>
+
+<list type="dict" n="J">
 
 <label lang="eo">ja.</label><item>
 <list type="def">
@@ -4143,7 +4329,13 @@ J, Ĵ
 
 
 
-K
+</list>
+</div>
+
+<div type="letter" n="K">
+<head>K$2</head>
+
+<list type="dict" n="K">
 
 <label lang="eo">kadr|</label><item>
 <list type="def">
@@ -4906,7 +5098,13 @@ K
 
 
  
-L
+</list>
+</div>
+
+<div type="letter" n="L">
+<head>L$2</head>
+
+<list type="dict" n="L">
 
 <label lang="eo">labor|</label><item>
 <list type="def">
@@ -5101,7 +5299,13 @@ L
 
 
 
-M
+</list>
+</div>
+
+<div type="letter" n="M">
+<head>M$2</head>
+
+<list type="dict" n="M">
 
 magazen|shop, store, ware-house.
 <label lang="eo">majest|</label><item>
@@ -5314,7 +5518,13 @@ magazen|shop, store, ware-house.
 
 
 
-N
+</list>
+</div>
+
+<div type="letter" n="N">
+<head>N$2</head>
+
+<list type="dict" n="N">
 
 <label lang="eo">nap|</label><item>
 <list type="def">
@@ -5419,7 +5629,13 @@ N
 
 
 
-O
+</list>
+</div>
+
+<div type="letter" n="O">
+<head>O$2</head>
+
+<list type="dict" n="O">
 
 <label lang="eo">oblat|</label><item>
 <list type="def">
@@ -5515,7 +5731,13 @@ O
 
 
 
-P
+</list>
+</div>
+
+<div type="letter" n="P">
+<head>P$2</head>
+
+<list type="dict" n="P">
 
 <label lang="eo">paĝ|</label><item>
 <list type="def">
@@ -6184,7 +6406,13 @@ P
 
 
 
-R
+</list>
+</div>
+
+<div type="letter" n="R">
+<head>R$2</head>
+
+<list type="dict" n="R">
 
 <label lang="eo">rabot|</label><item>
 <list type="def">
@@ -6421,7 +6649,13 @@ R
 
 
 
-S, Ŝ
+</list>
+</div>
+
+<div type="letter" n="S">
+<head>S$2</head>
+
+<list type="dict" n="S">
 
 <item><list type="deriv">
 <label lang="eo">sabl|aĵ|</label><item>
@@ -7029,7 +7263,13 @@ S, Ŝ
 
 
 
-T
+</list>
+</div>
+
+<div type="letter" n="T">
+<head>T$2</head>
+
+<list type="dict" n="T">
 
 <label lang="eo">tabul|</label><item>
 <list type="def">
@@ -7324,7 +7564,13 @@ T
 
 
 
-U
+</list>
+</div>
+
+<div type="letter" n="U">
+<head>U$2</head>
+
+<list type="dict" n="U">
 
 <item><list type="deriv">
 <label lang="eo">ung|eg|</label><item>
@@ -7381,7 +7627,13 @@ U
 </list></item>
 
 
-V
+</list>
+</div>
+
+<div type="letter" n="V">
+<head>V$2</head>
+
+<list type="dict" n="V">
 
 <label lang="eo">vafl|</label><item>
 <list type="def">
@@ -7608,7 +7860,13 @@ V
 
 
 
-Z
+</list>
+</div>
+
+<div type="letter" n="Z">
+<head>Z$2</head>
+
+<list type="dict" n="Z">
 
 <label lang="eo">zizel|</label><item>
 <list type="def">
@@ -7645,7 +7903,11 @@ Z
 
  
 
-GERMANA PARTO (20) (21)
+</div>
+ 
+
+<div type="section">
+<head>GERMANA PARTO</head> (20) (21)
 
 (Ĉefaj kunlaborintoj: S-roj ELB, CHRISTALLER kaj F-ino
 SCHEFER) (22)
@@ -7659,7 +7921,13 @@ Modifoj en: OG (64), p. 201.
 CHRISTALLER, HANAUER, MYBS (Vd. noton 15).
 
 
-A
+</list>
+</div>
+
+<div type="letter" n="A">
+<head>A$2</head>
+
+<list type="dict" n="A">
 
 <label lang="eo">absces|</label><item>
 <list type="def">
@@ -7771,7 +8039,13 @@ A
 
 
 
-B
+</list>
+</div>
+
+<div type="letter" n="B">
+<head>B$2</head>
+
+<list type="dict" n="B">
 
 <label lang="eo">bant|</label><item>
 <list type="def">
@@ -7848,7 +8122,13 @@ B
 
 
 
-C, Ĉ
+</list>
+</div>
+
+<div type="letter" n="C">
+<head>C$2</head>
+
+<list type="dict" n="C">
 
 <label lang="eo">ĉe.</label><item>
 <list type="def">
@@ -7888,7 +8168,13 @@ C, Ĉ
 
 
 
-D
+</list>
+</div>
+
+<div type="letter" n="D">
+<head>D$2</head>
+
+<list type="dict" n="D">
 
 <label lang="eo">da.</label><item>
 <list type="def">
@@ -7970,7 +8256,13 @@ D
 
 
 
-E 
+</list>
+</div>
+
+<div type="letter" n="E">
+<head>E$2</head>
+
+<list type="dict" n="E">
 
 <label lang="eo">eksped|</label><item>
 <list type="def">
@@ -8121,7 +8413,13 @@ E
 
 
  
-G, Ĝ
+</list>
+</div>
+
+<div type="letter" n="G">
+<head>G$2</head>
+
+<list type="dict" n="G">
  
 
 <label lang="eo">galon|</label><item>
@@ -8174,7 +8472,13 @@ G, Ĝ
 
 
 
-H
+</list>
+</div>
+
+<div type="letter" n="H">
+<head>H$2</head>
+
+<list type="dict" n="H">
 
 <label lang="eo">ha.</label><item>
 <list type="def">
@@ -8198,7 +8502,13 @@ H
 
 
 
-I
+</list>
+</div>
+
+<div type="letter" n="I">
+<head>I$2</head>
+
+<list type="dict" n="I">
 
 <label lang="eo">idol|</label><item>
 <list type="def">
@@ -8303,7 +8613,13 @@ I
 </item>
 
 
-J, Ĵ
+</list>
+</div>
+
+<div type="letter" n="J">
+<head>J$2</head>
+
+<list type="dict" n="J">
 
 <label lang="eo">ĵus.</label><item>
 <list type="def">
@@ -8313,7 +8629,13 @@ J, Ĵ
 
 
 
-K
+</list>
+</div>
+
+<div type="letter" n="K">
+<head>K$2</head>
+
+<list type="dict" n="K">
 
 <label lang="eo">kan</label><item>
 <list type="def">
@@ -8573,7 +8895,13 @@ K
 
 
 
-L
+</list>
+</div>
+
+<div type="letter" n="L">
+<head>L$2</head>
+
+<list type="dict" n="L">
 
 <item><list type="deriv">
 <label lang="eo">laŭ|larĝ|e.</label><item>
@@ -8753,7 +9081,13 @@ L
 
 
 
-O
+</list>
+</div>
+
+<div type="letter" n="O">
+<head>O$2</head>
+
+<list type="dict" n="O">
 
 <label lang="eo">obl|</label><item>
 <list type="def">
@@ -9026,7 +9360,13 @@ O
 </list></item>
 
 
-S, Ŝ
+</list>
+</div>
+
+<div type="letter" n="S">
+<head>S$2</head>
+
+<list type="dict" n="S">
 
 <label lang="eo">saĝ|</label><item>
 <list type="def">
@@ -9280,7 +9620,13 @@ S, Ŝ
 
 
 
-T 
+</list>
+</div>
+
+<div type="letter" n="T">
+<head>T$2</head>
+
+<list type="dict" n="T">
 
 <label lang="eo">ted|</label><item>
 <list type="def">
@@ -9409,7 +9755,13 @@ T
 
 
 
-V
+</list>
+</div>
+
+<div type="letter" n="V">
+<head>V$2</head>
+
+<list type="dict" n="V">
 
 <label lang="eo">vant|</label><item>
 <list type="def">
@@ -9466,7 +9818,11 @@ V
  
 
  
-RUSA PARTO (23)
+</div>
+ 
+
+<div type="section">
+<head>RUSA PARTO</head> (23)
 
 (Redaktita de S. OBRUĈEV) (24)
 
@@ -9529,7 +9885,13 @@ enkondukis multajn el proponitaj de ni korektoj.
 Moskvo, 10 MAR 23.                  S. OBRUĈEV.
 
 
-A
+</list>
+</div>
+
+<div type="letter" n="A">
+<head>A$2</head>
+
+<list type="dict" n="A">
 
 <label lang="eo">abat|</label><item>
 <list type="def">
@@ -9626,7 +9988,13 @@ A
 (27) Legu: el kiuj unu.
 
 
-B 
+</list>
+</div>
+
+<div type="letter" n="B">
+<head>B$2</head>
+
+<list type="dict" n="B">
 
 <label lang="eo">bagatel|</label><item>
 <list type="def">
@@ -10835,7 +11203,11 @@ B
 
 
 
-POLA PARTO (28)
+</div>
+ 
+
+<div type="section">
+<head>POLA PARTO</head> (28)
 
 (Redaktita de A. GRABOWSKI kaj K. BEIN) (29)
 
@@ -10847,7 +11219,13 @@ kontrolis la lastan presprovaĵon.
 (29) La pola komisiono elektita de la L.K. en 1906 konsistis ĝuste el 
 S-roj K. BEIN (= KABE) kaj GRABOWSKI.
 
-A
+</list>
+</div>
+
+<div type="letter" n="A">
+<head>A$2</head>
+
+<list type="dict" n="A">
 
 <label lang="eo">absces|</label><item>
 <list type="def">
@@ -10936,7 +11314,13 @@ A
 
 
 
-B
+</list>
+</div>
+
+<div type="letter" n="B">
+<head>B$2</head>
+
+<list type="dict" n="B">
 
 <label lang="eo">babil|</label><item>
 <list type="def">
@@ -11001,7 +11385,13 @@ B
 
 
 
-C, Ĉ
+</list>
+</div>
+
+<div type="letter" n="C">
+<head>C$2</head>
+
+<list type="dict" n="C">
 
 <label lang="eo">ĉan|</label><item>
 <list type="def">
@@ -11047,7 +11437,13 @@ C, Ĉ
 
 
 
-D
+</list>
+</div>
+
+<div type="letter" n="D">
+<head>D$2</head>
+
+<list type="dict" n="D">
 
 <label lang="eo">dec|</label><item>
 <list type="def">
@@ -11081,7 +11477,13 @@ D
 
 
 
-E
+</list>
+</div>
+
+<div type="letter" n="E">
+<head>E$2</head>
+
+<list type="dict" n="E">
 
 <label lang="eo">eben|</label><item>
 <list type="def">
@@ -11157,7 +11559,13 @@ E
 
 
 
-F
+</list>
+</div>
+
+<div type="letter" n="F">
+<head>F$2</head>
+
+<list type="dict" n="F">
 
 <label lang="eo">fabel|</label><item>
 <list type="def">
@@ -11281,7 +11689,13 @@ F
 
 
 
-G, Ĝ
+</list>
+</div>
+
+<div type="letter" n="G">
+<head>G$2</head>
+
+<list type="dict" n="G">
 
 <label lang="eo">gajn|</label><item>
 <list type="def">
@@ -11327,7 +11741,13 @@ G, Ĝ
 
 
 
-H 
+</list>
+</div>
+
+<div type="letter" n="H">
+<head>H$2</head>
+
+<list type="dict" n="H">
 
 <label lang="eo">hiskiam</label><item>
 <list type="def">
@@ -11340,7 +11760,13 @@ kortulan|poŝwierka, ortolan.
 
 
 
-I
+</list>
+</div>
+
+<div type="letter" n="I">
+<head>I$2</head>
+
+<list type="dict" n="I">
 
 <label lang="eo">ibis|</label><item>
 <list type="def">
@@ -11408,7 +11834,13 @@ I
 
 
 
-K
+</list>
+</div>
+
+<div type="letter" n="K">
+<head>K$2</head>
+
+<list type="dict" n="K">
 
 <label lang="eo">kaĉ|</label><item>
 <list type="def">
@@ -11692,7 +12124,13 @@ komun] wspólny.
 
 
 
-L
+</list>
+</div>
+
+<div type="letter" n="L">
+<head>L$2</head>
+
+<list type="dict" n="L">
 
 <item><list type="deriv">
 <label lang="eo">pri|labor|</label><item>
@@ -11783,7 +12221,13 @@ L
 
 
 
-M
+</list>
+</div>
+
+<div type="letter" n="M">
+<head>M$2</head>
+
+<list type="dict" n="M">
 
 <label lang="eo">mac|</label><item>
 <list type="def">
@@ -11855,7 +12299,13 @@ M
 
 
 
-N
+</list>
+</div>
+
+<div type="letter" n="N">
+<head>N$2</head>
+
+<list type="dict" n="N">
 
 <label lang="eo">neces|</label><item>
 <list type="def">
@@ -11871,7 +12321,13 @@ N
 
 
 
-O
+</list>
+</div>
+
+<div type="letter" n="O">
+<head>O$2</head>
+
+<list type="dict" n="O">
 
 <label lang="eo">ofend|</label><item>
 <list type="def">
@@ -11893,7 +12349,13 @@ O
 
 
 
-P
+</list>
+</div>
+
+<div type="letter" n="P">
+<head>P$2</head>
+
+<list type="dict" n="P">
 
 <label lang="eo">par|</label><item>
 <list type="def">
@@ -12083,7 +12545,13 @@ P
 
 
 
-R
+</list>
+</div>
+
+<div type="letter" n="R">
+<head>R$2</head>
+
+<list type="dict" n="R">
 
 <label lang="eo">rajt|</label><item>
 <list type="def">
@@ -12159,7 +12627,13 @@ R
 
 
 
-S, Ŝ
+</list>
+</div>
+
+<div type="letter" n="S">
+<head>S$2</head>
+
+<list type="dict" n="S">
 
 <label lang="eo">ŝalm|</label><item>
 <list type="def">
@@ -12360,7 +12834,13 @@ S, Ŝ
 
 
 
-T 
+</list>
+</div>
+
+<div type="letter" n="T">
+<head>T$2</head>
+
+<list type="dict" n="T">
 
 <label lang="eo">taĉment|</label><item>
 <list type="def">
@@ -12468,7 +12948,13 @@ T
 
 
 
-V
+</list>
+</div>
+
+<div type="letter" n="V">
+<head>V$2</head>
+
+<list type="dict" n="V">
 
 <label lang="eo">vant|</label><item>
 <list type="def">
@@ -12564,7 +13050,13 @@ V
 
 
 
-Z
+</list>
+</div>
+
+<div type="letter" n="Z">
+<head>Z$2</head>
+
+<list type="dict" n="Z">
 
 <label lang="eo">zebr|</label><item>
 <list type="def">
@@ -12615,3 +13107,4 @@ D-ro BEIN.
 JURGENSEN (1904): unmässig. (Laŭ KABE, 1911: malsobra = malmodere 
 trinkanta kaj manĝanta; ebria = estanta sub la influo de la alkoholo. — En la F-to, malsobra havis la signifon de ebria).
 
+</div>
