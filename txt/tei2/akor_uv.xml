@@ -108,6 +108,8 @@
         </titlePart>
       </docTitle>
     </titlePage>
+  </front>
+<body>
 
 <div type="part" id="ak_antparol" rend="doc">
 <head>AKADEMIAJ KOREKTOJ<lb/>
@@ -765,9 +767,9 @@ al la L.K. (1911).</note>
 </item>
 
 <label lang="eo">dev|</label><item>
-<list type="def">
-  <item lang="fr">devoir (obligation).</item>
-</list>
+  <list type="def">
+    <item lang="fr">devoir (obligation).</item>
+  </list>
   <list type="deriv">
   <label lang="eo">dev|ig|</label><item>
   <list type="def">
@@ -1150,9 +1152,15 @@ al la L.K. (1911).</note>
 <list type="def">
   <item lang="fr">cheveu, poil.</item>
 </list>
+<list type="deriv">
+  <label lang="eo">har|ar|</label><item>
+  <list type="def">
+    <item lang="fr">chevelure.</item>
+  </list>
+  </item>
+</list>
 </item>
 
-  har|ar'| chevelure.
 <label lang="eo">hejm|</label><item>
 <list type="def">
   <item lang="fr">le chez soi, le foyer domestique.</item>
@@ -1597,14 +1605,15 @@ al la L.K. (1911).</note>
 </list>
 </item>
 
-
-<item><list type="deriv">
-<label lang="eo">kusen|eg|</label><item>
-<list type="def">
-  <item lang="fr">édredon.</item>
-</list>
-</item>
+<label lang="eo" rend="hidden">kusen|</label>
+  <item><list type="deriv">
+  <label lang="eo">kusen|eg|</label><item>
+  <list type="def">
+    <item lang="fr">édredon.</item>
+  </list>
+  </item>
 </list></item>
+
 <label lang="eo">kutim|</label><item>
 <list type="def">
   <item lang="fr">avoir coutume, être habitué à.</item>
@@ -2193,7 +2202,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">rekt|</label>
 <item><list type="deriv">
 <label lang="eo">mal|rekt|</label><item>
 <list type="def">
@@ -2201,6 +2210,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">rif|</label><item>
 <list type="def">
   <item lang="fr">récif, écueil.</item>
@@ -2281,16 +2291,14 @@ al la L.K. (1911).</note>
 <list type="def">
   <item lang="fr">estimer, apprécier.</item>
 </list>
-</item>
-
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">mal|ŝat|</label><item>
 <list type="def">
   <item lang="fr">dédaigner, faire peu de cas de.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">satur|</label><item>
 <list type="def">
   <item lang="fr">saturer (chim.).</item>
@@ -2387,7 +2395,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">sobr|</label>
 <item><list type="deriv">
 <label lang="eo">mal|sobr|</label><item>
 <list type="def">
@@ -2395,6 +2403,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">solv|</label><item>
 <list type="def">
   <item lang="fr">résoudre, dissoudre,</item>
@@ -2425,7 +2434,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">spez|</label>
 <item><list type="deriv">
 <label lang="eo">en|spez|</label><item>
 <list type="def">
@@ -2433,6 +2442,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">spin|</label><item>
 <list type="def">
   <item lang="fr">épine dorsale, échine.</item>
@@ -2551,7 +2561,7 @@ al la L.K. (1911).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">tir|</label>
 <item><list type="deriv">
 <label lang="eo">kun|tir|</label><item>
 <list type="def">
@@ -2559,7 +2569,13 @@ al la L.K. (1911).</note>
 </list>
 </item>
 </list></item>
-torf|tourbe.
+
+<label lang="eo">torf|</label><item>
+<list type="def">
+  <item lang="fr">tourbe.</item>
+</list>
+</item>
+
 <label lang="eo">tornistr|</label><item>
 <list type="def">
   <item lang="fr">havresac, sac d'école.</item>
@@ -2779,20 +2795,20 @@ torf|tourbe.
 
 <div type="section">
 <head>ANGLA PARTO
-<note rend="footnote" n=16">Th. CART (1922). — Ni ĉi tie danku S-ron M. C. BUTLER kiu
+<note rend="footnote" n="16">Th. CART (1922). — Ni ĉi tie danku S-ron M. C. BUTLER kiu
 bonvole kontrolis la lastan presprovaĵon.</note>
-<note rend="footnote" n=17">Komparu: Prepardokumentoj: OG 4, 10 (43), 25 APR 12, p. 363-
+<note rend="footnote" n="17">Komparu: Prepardokumentoj: OG 4, 10 (43), 25 APR 12, p. 363-
 375 kaj OG (44), p. 400-411. Modifojn vidu en OG (64), p. 200.</note>
 </head>
 
 <p>
 (Ĉefaj kunlaborantoj: F-ino Adela SHAFER, S-roj RHODES,
-MILLIDGE kaj ELLIS.)<note rend="footnote" n=18">La angla komisiono 
+MILLIDGE kaj ELLIS.)<note rend="footnote" n="18">La angla komisiono 
 elektita de la L.K. en 1906 konsistis el F-ino
 SHAFER kaj S-roj RHODES kaj ELLIS (Vd. noton 15)</note>.
 </p><p>
 Kiam la senco de iu vorto ne estas la sama, 
-se<note rend="footnote" n=19">Tiu /se/ estas anglismo signifanta: laŭ tio, ĉu.</note> 
+se<note rend="footnote" n="19">Tiu /se/ estas anglismo signifanta: laŭ tio, ĉu.</note> 
 tiu ĉi vorto estas verbo aŭ substantivo, oni aldonis la verbigan prepozicion /to/,
 aŭ la literojn: /vb/, post la vorto. Ekz.: arm = to arm. La vorto arm
 signifus: brako, kun /to/ oni tuj komprenas, ke ĝi signifas armi.
@@ -2806,8 +2822,6 @@ apartaj signifoj, kiuj povas aŭ ne esti ĝustaj, oni metis ĉiam la du
 signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </p>
 
-
-</list>
 </div>
 
 <div type="letter" n="A">
@@ -2821,7 +2835,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">aĉet|</label>
 <item><list type="deriv">
 <label lang="eo">sub|aĉet|</label><item>
 <list type="def">
@@ -2829,6 +2843,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">acid|</label><item>
 <list type="def">
   <item lang="en">acid, sour.</item>
@@ -3030,20 +3045,24 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
-<item><list type="deriv">
+<label lang="eo" rend="hidden">bapt|</label>
+<item>
+<list type="deriv">
 <label lang="eo">bapt|an|</label><item>
 <list type="def">
   <item lang="en">sponsor, gossip, God-relation.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list>
+<list type="deriv">
 <label lang="eo">bapt|o|patr|</label><item>
 <list type="def">
   <item lang="en">Godfather.</item>
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">bar|</label>
 <item><list type="deriv">
 <label lang="eo">bar|il|</label><item>
 <list type="def">
@@ -3051,6 +3070,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">barakt|</label><item>
 <list type="def">
   <item lang="en">throw oneself about, struggle.</item>
@@ -3292,15 +3312,14 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 <list type="def">
   <item lang="en">sky, heaven.</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">ĉiel|ark|</label><item>
 <list type="def">
   <item lang="en">rainbow.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ĉif|</label><item>
 <list type="def">
   <item lang="en">crumple, tumble.</item>
@@ -3536,24 +3555,20 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 <label lang="eo">dum.</label><item>
 <list type="def">
   <item lang="en">while, whilst.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">dum|e.</label><item>
 <list type="def">
   <item lang="en">meanwhile.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">dung|</label><item>
 <list type="def">
   <item lang="en">hire, engage.</item>
 </list>
 </item>
 
-
- 
 </list>
 </div>
 
@@ -3683,16 +3698,14 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 <label lang="eo">faden|</label><item>
 <list type="def">
   <item lang="en">thread (a).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">metal|faden|</label><item>
 <list type="def">
   <item lang="en">wire.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">fajenc|</label><item>
 <list type="def">
   <item lang="en">earthenware, crockery. </item>
@@ -3819,6 +3832,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">firm|</label>
 <item><list type="deriv">
 <label lang="eo">firm|o.</label><item>
 <list type="def">
@@ -3826,6 +3840,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">fleg|</label><item>
 <list type="def">
   <item lang="en">nurse, tend.</item>
@@ -3874,6 +3889,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">for|</label>
 <item><list type="deriv">
 <label lang="eo">for|permes|</label><item>
 <list type="def">
@@ -3881,6 +3897,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">fortepian|</label><item>
 <list type="def">
   <item lang="en">pianoforte.</item>
@@ -4035,7 +4052,12 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
-ĝentil|polite, courteous.
+<label lang="eo">ĝentil|</label><item>
+<list type="def">
+  <item lang="en">polite, courteous.</item>
+</list>
+</item>
+
 <label lang="eo">ĝerm|</label><item>
 <list type="def">
   <item lang="en">germ.</item>
@@ -4081,16 +4103,14 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 <label lang="eo">glit|</label><item>
 <list type="def">
   <item lang="en">glide, skate, slide.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">glit|vetur|il|</label><item>
 <list type="def">
   <item lang="en">sledge.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">glor|</label><item>
 <list type="def">
   <item lang="en">glorify.</item>
@@ -4109,6 +4129,7 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">gren|</label>
 <item><list type="deriv">
 <label lang="eo">gren|ej|</label><item>
 <list type="def">
@@ -4116,13 +4137,19 @@ signifojn. Ekz.: gri' = 1) hulled grain; 2) coarse oatmeal.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">gri|</label><item>
 <list type="def">
   <item lang="en">coarse oatmeal (t.e. aveno duone muelita).</item>
 </list>
 </item>
 
-grifel|slate-pencil.
+<label lang="eo">grifel|</label><item>
+<list type="def">
+  <item lang="en">slate-pencil.</item>
+</list>
+</item>
+
 <label lang="eo">grinc|</label><item>
 <list type="def">
   <item lang="en">gnash, grind (of teeth, etc.).</item>
@@ -4159,6 +4186,7 @@ grifel|slate-pencil.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">gust|</label>
 <item><list type="deriv">
 <label lang="eo">gust|um|</label><item>
 <list type="def">
@@ -4166,6 +4194,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ĝust|</label><item>
 <list type="def">
   <item lang="en">right, exact, correct.</item>
@@ -4206,6 +4235,7 @@ grifel|slate-pencil.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">har|</label>
 <item><list type="deriv">
 <label lang="eo">har|lig|</label><item>
 <list type="def">
@@ -4213,6 +4243,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">haŭt|</label><item>
 <list type="def">
   <item lang="en">skin (subst.).</item>
@@ -4912,16 +4943,14 @@ grifel|slate-pencil.
 <label lang="eo">kort|</label><item>
 <list type="def">
   <item lang="en">court, courtyard.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">kort|eg|court</label><item>
 <list type="def">
   <item lang="en">(of a king).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">kost|</label><item>
 <list type="def">
   <item lang="en">cost (vb.).</item>
@@ -4941,20 +4970,21 @@ grifel|slate-pencil.
 </item>
 
   
+<label lang="eo" rend="hidden">kovr|</label>
 <item><list type="deriv">
 <label lang="eo">kovr|il|</label><item>
 <list type="def">
   <item lang="en">a cover.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">mal|kovr|</label><item>
 <list type="def">
   <item lang="en">uncover, lay bare.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">krad|</label><item>
 <list type="def">
   <item lang="en">grating, cross-bars.</item>
@@ -4979,7 +5009,7 @@ grifel|slate-pencil.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">kred|</label>
 <item><list type="deriv">
 <label lang="eo">kred|ebl|</label><item>
 <list type="def">
@@ -4987,6 +5017,8 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">kresk|</label>
 <item><list type="deriv">
 <label lang="eo">kresk|aĵ|</label><item>
 <list type="def">
@@ -4994,6 +5026,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">krev|</label><item>
 <list type="def">
   <item lang="en">burst (intr.).</item>
@@ -5096,7 +5129,7 @@ grifel|slate-pencil.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">flav|</label>
 <item><list type="deriv">
 <label lang="eo">flav|a</label><item>
 <list type="def">
@@ -5104,6 +5137,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">kur|</label><item>
 <list type="def">
   <item lang="en">run (intr.).</item>
@@ -5113,16 +5147,14 @@ grifel|slate-pencil.
 <label lang="eo">kurac|</label><item>
 <list type="def">
   <item lang="en">treat (as an illness), cure.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">kurac|il|</label><item>
 <list type="def">
   <item lang="en">medicine, remedy.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">kuraĝ|</label><item>
 <list type="def">
   <item lang="en">courageous.</item>
@@ -5141,21 +5173,23 @@ grifel|slate-pencil.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">kurten|</label>
 <item><list type="deriv">
 <label lang="eo">flank|kurten|</label><item>
 <list type="def">
   <item lang="en">curtain (side).</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list>
+<list type="deriv">
 <label lang="eo">rul|kurten|</label><item>
 <list type="def">
   <item lang="en">window-blind.</item>
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">kusen|</label>
 <item><list type="deriv">
 <label lang="eo">kusen|eg|</label><item>
 <list type="def">
@@ -5163,6 +5197,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">kutim|</label><item>
 <list type="def">
   <item lang="en">be accustomed.</item>
@@ -5207,16 +5242,14 @@ grifel|slate-pencil.
 <label lang="eo">labor|</label><item>
 <list type="def">
   <item lang="en">work, labour.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">per|labor|</label><item>
 <list type="def">
   <item lang="en">earn one's living.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">laĉ|</label><item>
 <list type="def">
   <item lang="en">lace (boots, stays, etc.).</item>
@@ -5238,16 +5271,14 @@ grifel|slate-pencil.
 <label lang="eo">lakt|</label><item>
 <list type="def">
   <item lang="en">milk (subst.).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">lakt|um|</label><item>
 <list type="def">
   <item lang="en">spawn, milt.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">lang|tongue</label><item>
 <list type="def">
   <item lang="en">(organ of speech).</item>
@@ -5314,6 +5345,7 @@ grifel|slate-pencil.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">libr|</label>
 <item><list type="deriv">
 <label lang="eo">libr|o|ten|ant|</label><item>
 <list type="def">
@@ -5321,6 +5353,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">liken|</label><item>
 <list type="def">
   <item lang="en">lichen (bot.).</item>
@@ -5334,6 +5367,7 @@ grifel|slate-pencil.
 </item>
 
 
+<label lang="eo" rend="hidden">lim|</label>
 <item><list type="deriv">
 <label lang="eo">lim|ig|</label><item>
 <list type="def">
@@ -5341,6 +5375,7 @@ grifel|slate-pencil.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">lini|</label><item>
 <list type="def">
   <item lang="en">line.</item>
@@ -5405,7 +5440,12 @@ grifel|slate-pencil.
 
 <list type="dict" n="M">
 
-magazen|shop, store, ware-house.
+<label lang="eo">magazen|</label><item>
+<list type="def">
+  <item lang="en">shop, store, ware-house.</item>
+</list>
+</item>
+
 <label lang="eo">majest|</label><item>
 <list type="def">
   <item lang="en">majestic, dignified.</item>
@@ -5415,16 +5455,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">majstr|</label><item>
 <list type="def">
   <item lang="en">master (of his art).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">sub|majstr|</label><item>
 <list type="def">
   <item lang="en">journeyman, fore-man.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">makler|</label><item>
 <list type="def">
   <item lang="en">act as broker, deal.</item>
@@ -5437,21 +5475,21 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">man|</label>
 <item><list type="deriv">
 <label lang="eo">man|plat|</label><item>
 <list type="def">
   <item lang="en">palm (hand).</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">man|um|</label><item>
 <list type="def">
   <item lang="en">cuff (of sleeve), wristhand.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">mank|</label><item>
 <list type="def">
   <item lang="en">want, lack.</item>
@@ -5506,14 +5544,15 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
-<item><list type="deriv">
+<label lang="eo" rend="hidden">meĉ|</label><item>
+<list type="deriv">
 <label lang="eo">meĉ|aĵ|</label><item>
 <list type="def">
   <item lang="en">tinder, match.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">membr|</label><item>
 <list type="def">
   <item lang="en">member, limb.</item>
@@ -5532,7 +5571,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">met|</label>
 <item><list type="deriv">
 <label lang="eo">el|met|</label><item>
 <list type="def">
@@ -5540,6 +5579,8 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">mezur|</label>
 <item><list type="deriv">
 <label lang="eo">al|mezur|</label><item>
 <list type="def">
@@ -5547,6 +5588,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">milit|</label><item>
 <list type="def">
   <item lang="en">make war.</item>
@@ -5630,15 +5672,15 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">neces|</label>
 <item><list type="deriv">
 <label lang="eo">neces|ej|</label><item>
 <list type="def">
   <item lang="en">water-closet.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list>
+<list type="deriv">
 <label lang="eo">neces|uj|</label><item>
 <list type="def">
   <item lang="en">workbox-sewing-case.</item>
@@ -5673,16 +5715,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">net|</label><item>
 <list type="def">
   <item lang="en">clean (as a copy), neat. </item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">mal|net|</label><item>
 <list type="def">
   <item lang="en">rough draft.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">nivel|</label><item>
 <list type="def">
   <item lang="en">level (sea, etc.).</item>
@@ -5757,22 +5797,20 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">office, duty, function.</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">ofic|ist|</label><item>
 <list type="def">
   <item lang="en">official, functionary.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">ofic|ej|</label><item>
 <list type="def">
   <item lang="en">bureau, office.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">oficir|</label><item>
 <list type="def">
   <item lang="en">officer (mil. and nav., etc.),</item>
@@ -5861,7 +5899,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">palpebr|</label>
 <item><list type="deriv">
 <label lang="eo">palpebr|um|</label><item>
 <list type="def">
@@ -5906,7 +5944,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">parol|</label>
 <item><list type="deriv">
 <label lang="eo">inter|parol|</label><item>
 <list type="def">
@@ -5914,8 +5952,10 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">part|</label>
 <item><list type="deriv">
-<label lang="eo">parto|pren|</label><item>
+<label lang="eo">part|o|pren|</label><item>
 <list type="def">
   <item lang="en">take part in, participate.</item>
 </list>
@@ -5955,16 +5995,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">pasament|</label><item>
 <list type="def">
   <item lang="en">braid-trimmings, passementerie.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">pasament|ist|</label><item>
 <list type="def">
   <item lang="en">maker of trimmings</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">pasi|</label><item>
 <list type="def">
   <item lang="en">passion (not anger).</item>
@@ -6035,22 +6073,20 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">hang (intr.).</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">de|pend|</label><item>
 <list type="def">
   <item lang="en">depend, hang from.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">el|pend|aĵ|</label><item>
 <list type="def">
   <item lang="en">signboard.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">pendol|</label><item>
 <list type="def">
   <item lang="en">pendulum.</item>
@@ -6075,7 +6111,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">pere|</label>
 <item><list type="deriv">
 <label lang="eo">pere|ig|</label><item>
 <list type="def">
@@ -6083,13 +6119,14 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">perk|</label><item>
 <list type="def">
   <item lang="en">perch (fish).</item>
 </list>
 </item>
-
   
+<label lang="eo" rend="hidden">permes|</label>
 <item><list type="deriv">
 <label lang="eo">for|permes|</label><item>
 <list type="def">
@@ -6097,6 +6134,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">peron|</label><item>
 <list type="def">
   <item lang="en">door-stop, platform (in a station, etc.).</item>
@@ -6121,7 +6159,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">pez|</label>
 <item><list type="deriv">
 <label lang="eo">pez|il|</label><item>
 <list type="def">
@@ -6129,6 +6167,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">pice|</label><item>
 <list type="def">
   <item lang="en">silver fir-tree.</item>
@@ -6144,16 +6183,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">pik|</label><item>
 <list type="def">
   <item lang="en">prick, sting; spade (cards).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">pik|il|</label><item>
 <list type="def">
   <item lang="en">sting (a).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">piked|</label><item>
 <list type="def">
   <item lang="en">picket (milit.), piquet (cards).</item>
@@ -6211,16 +6248,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">plen|</label><item>
 <list type="def">
   <item lang="en">full, complete.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">plen|um|</label><item>
 <list type="def">
   <item lang="en">fulfil, accomplish.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">plet|</label><item>
 <list type="def">
   <item lang="en">tray, salver.</item>
@@ -6287,7 +6322,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">pom|</label>
 <item><list type="deriv">
 <label lang="eo">ter|pom|</label><item>
 <list type="def">
@@ -6295,6 +6330,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">porcelan|</label><item>
 <list type="def">
   <item lang="en">china, porcelain.</item>
@@ -6310,16 +6346,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">port|</label><item>
 <list type="def">
   <item lang="en">carry.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">el|port|</label><item>
 <list type="def">
   <item lang="en">bear, endure,</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">porter|</label><item>
 <list type="def">
   <item lang="en">porter, beer.</item>
@@ -6368,7 +6402,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">pren|</label>
 <item><list type="deriv">
 <label lang="eo">pren|o.</label><item>
 <list type="def">
@@ -6376,6 +6410,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">pretend|</label><item>
 <list type="def">
   <item lang="en">lay claim to.</item>
@@ -6578,7 +6613,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">rekt|</label>
 <item><list type="deriv">
 <label lang="eo">mal|rekt|</label><item>
 <list type="def">
@@ -6605,7 +6640,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">respond|</label>
 <item><list type="deriv">
 <label lang="eo">respond|ec|</label><item>
 <list type="def">
@@ -6613,6 +6648,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ret|</label><item>
 <list type="def">
   <item lang="en">net (a).</item>
@@ -6622,16 +6658,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">rev|</label><item>
 <list type="def">
   <item lang="en">dream (vb.).  </item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">dis|rev|iĝ|</label><item>
 <list type="def">
   <item lang="en">disenchantment.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ribel|</label><item>
 <list type="def">
   <item lang="en">revolt, rebel (vb.).</item>
@@ -6650,7 +6684,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">rifuz|</label>
 <item><list type="deriv">
 <label lang="eo">rifuz|iĝ|</label><item>
 <list type="def">
@@ -6658,6 +6692,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">rigl|</label><item>
 <list type="def">
   <item lang="en">bolt (vb.).</item>
@@ -6676,7 +6711,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">ring|</label>
 <item><list type="deriv">
 <label lang="eo">ring|eg|</label><item>
 <list type="def">
@@ -6684,6 +6719,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">risort|</label><item>
 <list type="def">
   <item lang="en">spring (s.) (mech.).</item>
@@ -6723,16 +6759,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">ruin|</label><item>
 <list type="def">
   <item lang="en">ruins, a ruin.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">ruin|ig|</label><item>
 <list type="def">
   <item lang="en">ruin, destroy.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">rukt|</label><item>
 <list type="def">
   <item lang="en">eructation.</item>
@@ -6755,6 +6789,7 @@ magazen|shop, store, ware-house.
 
 <list type="dict" n="S">
 
+<label lang="eo" rend="hidden">sabl|</label>
 <item><list type="deriv">
 <label lang="eo">sabl|aĵ|</label><item>
 <list type="def">
@@ -6762,6 +6797,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">sakr|</label><item>
 <list type="def">
   <item lang="en">sacrum (anat.).</item>
@@ -6769,6 +6805,7 @@ magazen|shop, store, ware-house.
 </item>
 
 
+<label lang="eo" rend="hidden">sal|</label>
 <item><list type="deriv">
 <label lang="eo">sal|amoniak|</label><item>
 <list type="def">
@@ -6776,6 +6813,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">salat|</label><item>
 <list type="def">
   <item lang="en">salad.</item>
@@ -6835,15 +6873,14 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">prize, value.</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">mal|ŝat|</label><item>
 <list type="def">
   <item lang="en">hold of no value, not care about.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">satur|</label><item>
 <list type="def">
   <item lang="en">saturate.</item>
@@ -6856,7 +6893,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">sci|</label>
 <item><list type="deriv">
 <label lang="eo">sci|iĝ|</label><item>
 <list type="def">
@@ -6864,6 +6901,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">seb|</label><item>
 <list type="def">
   <item lang="en">tallow, suet.</item>
@@ -6891,16 +6929,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">ŝel|</label><item>
 <list type="def">
   <item lang="en">shell, peel, bark.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">sen|ŝel|ig|</label><item>
 <list type="def">
   <item lang="en">shell, peel (vb.).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ŝelk|</label><item>
 <list type="def">
   <item lang="en">braces, suspenders.</item>
@@ -7108,23 +7144,20 @@ magazen|shop, store, ware-house.
 <label lang="eo">spez|</label><item>
 <list type="def">
   <item lang="en">turnover (money), exchange.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">el|spez|</label><item>
 <list type="def">
   <item lang="en">expend.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">en|spez|</label><item>
 <list type="def">
   <item lang="en">have income, receipt.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">spion|</label><item>
 <list type="def">
   <item lang="en">spy (a).</item>
@@ -7159,15 +7192,14 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">station, dept (rail-road).</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">staci|dom|</label><item>
 <list type="def">
   <item lang="en">station (building).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">stal|</label><item>
 <list type="def">
   <item lang="en">stall, shed, stable.</item>
@@ -7261,16 +7293,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">ŝtup|</label><item>
 <list type="def">
   <item lang="en">tow (subst.).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">ŝtup|ar|</label><item>
 <list type="def">
   <item lang="en">staircase, ladder.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">subjekt|</label><item>
 <list type="def">
   <item lang="en">subject (gram.).</item>
@@ -7302,6 +7332,7 @@ magazen|shop, store, ware-house.
 </item>
 
 
+<label lang="eo" rend="hidden">sum|</label>
 <item><list type="deriv">
 <label lang="eo">re|sum|</label><item>
 <list type="def">
@@ -7309,6 +7340,8 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">sun|</label>
 <item><list type="deriv">
 <label lang="eo">sun|flor|</label><item>
 <list type="def">
@@ -7316,6 +7349,8 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">super|</label>
 <item><list type="deriv">
 <label lang="eo">super|jar|</label><item>
 <list type="def">
@@ -7323,11 +7358,15 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">supr|</label>
+<item><list type="deriv">
 <label lang="eo">supr|o.</label><item>
 <list type="def">
   <item lang="en">summit, top.</item>
 </list>
 </item>
+</list></item>
 
 <label lang="eo">surtut|</label><item>
 <list type="def">
@@ -7393,7 +7432,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">tambur|</label>
 <item><list type="deriv">
 <label lang="eo">tambur|i.</label><item>
 <list type="def">
@@ -7401,6 +7440,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tapet|</label><item>
 <list type="def">
   <item lang="en">wall-paper, paper-hangings.</item>
@@ -7423,36 +7463,35 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">cover (wholly) (vb.).</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">teg|o.</label><item>
 <list type="def">
   <item lang="en"> covering, slip.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tem|</label><item>
 <list type="def">
   <item lang="en">theme, topic.</item>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">ten|</label>
 <item><list type="deriv">
 <label lang="eo">ten|il|</label><item>
 <list type="def">
   <item lang="en">handle, haft.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">de|ten|</label><item>
 <list type="def">
   <item lang="en">abstain from, restrain.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tend|</label><item>
 <list type="def">
   <item lang="en">tent.</item>
@@ -7503,7 +7542,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">tir|</label>
 <item><list type="deriv">
 <label lang="eo">kun|tir|</label><item>
 <list type="def">
@@ -7511,6 +7550,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tiu.</label><item>
 <list type="def">
   <item lang="en">that (one) (person or thing).</item>
@@ -7520,16 +7560,14 @@ magazen|shop, store, ware-house.
 <label lang="eo">tol|</label><item>
 <list type="def">
   <item lang="en">linen (mat.).</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">tol|aĵ|</label><item>
 <list type="def">
   <item lang="en">underlinen (washing).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tomb|</label><item>
 <list type="def">
   <item lang="en">tomb, grave.</item>
@@ -7584,7 +7622,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">tri|</label>
 <item><list type="deriv">
 <label lang="eo">tri|foli|</label><item>
 <list type="def">
@@ -7592,6 +7630,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">trikot|</label><item>
 <list type="def">
   <item lang="en">stockinet (mat. for tights, jerseys, etc.).</item>
@@ -7610,7 +7649,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">tro|</label>
 <item><list type="deriv">
 <label lang="eo">tro|uz|</label><item>
 <list type="def">
@@ -7618,6 +7657,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">tuber|</label><item>
 <list type="def">
   <item lang="en">tuber, bump, swelling.</item>
@@ -7670,6 +7710,7 @@ magazen|shop, store, ware-house.
 
 <list type="dict" n="U">
 
+<label lang="eo" rend="hidden">ung|</label>
 <item><list type="deriv">
 <label lang="eo">ung|eg|</label><item>
 <list type="def">
@@ -7677,6 +7718,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">uniform|</label><item>
 <list type="def">
   <item lang="en">uniform (dress).</item>
@@ -7693,9 +7735,7 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">useful.</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">mal|util|</label><item>
 <list type="def">
   <item lang="en">harmful.</item>
@@ -7707,16 +7747,14 @@ magazen|shop, store, ware-house.
 <list type="def">
   <item lang="en">use, employ (vb.).</item>
 </list>
-</item>
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">uz|aĵ|</label><item>
 <list type="def">
   <item lang="en">implement, utensil.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list>
+<list type="deriv">
 <label lang="eo">tro|uz|</label><item>
 <list type="def">
   <item lang="en">use to excess, abuse.</item>
@@ -7800,20 +7838,21 @@ magazen|shop, store, ware-house.
 </item>
 
 
+<label lang="eo" rend="hidden">vast|</label>
 <item><list type="deriv">
 <label lang="eo">mal|vast|</label><item>
 <list type="def">
   <item lang="en">narrow, restricted.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">vast|ig|</label><item>
 <list type="def">
   <item lang="en">extend, enlarge (trans.).</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">vat|</label><item>
 <list type="def">
   <item lang="en">wadding.</item>
@@ -7838,7 +7877,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">ven|</label>
 <item><list type="deriv">
 <label lang="eo">de|ven|</label><item>
 <list type="def">
@@ -7846,6 +7885,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">venĝ|</label><item>
 <list type="def">
   <item lang="en">take revenge, avenge.</item>
@@ -7906,7 +7946,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 
-  
+<label lang="eo" rend="hidden">vilaĝ|</label>
 <item><list type="deriv">
 <label lang="eo">vilaĝ|an|</label><item>
 <list type="def">
@@ -7914,6 +7954,7 @@ magazen|shop, store, ware-house.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">vin|</label><item>
 <list type="def">
   <item lang="en">wine.</item>
@@ -7981,17 +8022,13 @@ magazen|shop, store, ware-house.
 <label lang="eo">zorg|</label><item>
 <list type="def">
   <item lang="en">look after, see to.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">zorg|ant|</label><item>
 <list type="def">
   <item lang="en">guardian.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">zorg|at|</label><item>
 <list type="def">
   <item lang="en">ward.</item>
@@ -8000,7 +8037,6 @@ magazen|shop, store, ware-house.
 </list></item>
 
 </list>
-</div>
 </div>
  
 
@@ -8018,8 +8054,8 @@ SCHEFER)<note rend="footnote" n="22">La germana komisiono elektita de la L.K en 
 CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </p>
 
-</list>
 </div>
+
 
 <div type="letter" n="A">
 <head>A</head>
@@ -8155,6 +8191,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
+<label lang="eo" rend="hidden">batal|</label>
 <item><list type="deriv">
 <label lang="eo">batal|il|</label><item>
 <list type="def">
@@ -8162,6 +8199,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">bazar|</label><item>
 <list type="def">
   <item lang="de">Markt, Basar.</item>
@@ -8411,16 +8449,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">fart|</label><item>
 <list type="def">
   <item lang="de">sich (gesundheitlich) befinden.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">fart|o.</label><item>
 <list type="def">
   <item lang="de">Befinden, Zustand.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">fask|</label><item>
 <list type="def">
   <item lang="de">Bündel.</item>
@@ -8583,6 +8619,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </item>
 
   
+<label lang="eo" rend="hidden">har|</label>
 <item><list type="deriv">
 <label lang="eo">har|ar|</label><item>
 <list type="def">
@@ -8590,6 +8627,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ho.</label><item>
 <list type="def">
   <item lang="de">o! ach! oh!</item>
@@ -8865,7 +8903,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">kort|</label>
 <item><list type="deriv">
 <label lang="eo">kort|eg|</label><item>
 <list type="def">
@@ -8883,10 +8921,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">kovr|</label><item>
 <list type="def">
   <item lang="de">bedecken, verhüillen.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">kovr|il|</label><item>
 <list type="def">
   <item lang="de">Umschlag. Hülle, Decke, Deckel.</item>
@@ -8906,7 +8941,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">kred|</label>
 <item><list type="deriv">
 <label lang="eo">kred|ebl|</label><item>
 <list type="def">
@@ -8957,7 +8992,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">kusen|</label>
 <item><list type="deriv">
 <label lang="eo">kusen|eg|</label><item>
 <list type="def">
@@ -8965,6 +9000,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">kutim|</label><item>
 <list type="def">
   <item lang="de">gewohnt sein, pflegen</item>
@@ -8999,6 +9035,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 
 <list type="dict" n="L">
 
+<label lang="eo" rend="hidden">larĝ</label>
 <item><list type="deriv">
 <label lang="eo">laŭ|larĝ|e.</label><item>
 <list type="def">
@@ -9006,6 +9043,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">laŭt|</label><item>
 <list type="def">
   <item lang="de">laut.</item>
@@ -9048,6 +9086,15 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
+</list>
+</div>
+
+<div type="letter" n="M">
+<head>M</head>
+
+<list type="dict" n="M">
+
+
 <label lang="eo">makler|</label><item>
 <list type="def">
   <item lang="de">Makler sein, Geschäfte vermitteln.</item>
@@ -9072,7 +9119,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">mez|</label>
 <item><list type="deriv">
 <label lang="eo">mez|o|nombr|</label><item>
 <list type="def">
@@ -9080,6 +9127,8 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">mezur|</label>
 <item><list type="deriv">
 <label lang="eo">al|mezur|</label><item>
 <list type="def">
@@ -9087,6 +9136,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">miogal|</label><item>
 <list type="def">
   <item lang="de">Bisamratte.</item>
@@ -9118,6 +9168,15 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </item>
 
 
+</list>
+</div>
+
+<div type="letter" n="N">
+<head>N</head>
+
+<list type="dict" n="N">
+
+<label lang="eo" rend="hidden">nask|</label>
 <item><list type="deriv">
 <label lang="eo">nask|iĝ|</label><item>
 <list type="def">
@@ -9125,6 +9184,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">nenia.</label><item>
 <list type="def">
   <item lang="de">keinerlei.</item>
@@ -9152,16 +9212,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">net|</label><item>
 <list type="def">
   <item lang="de">Reinschrift.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">mal|net|</label><item>
 <list type="def">
   <item lang="de">Konzept, Entwurf, Kladde.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">nobl|</label><item>
 <list type="def">
   <item lang="de">edel, vornehm (Gesinnung).</item>
@@ -9188,21 +9246,22 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">obl|</label><item>
 <list type="def">
   <item lang="de">bezeichnet das Vervielfältigungswort.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">du|obl|</label><item>
 <list type="def">
   <item lang="de">zweifach, doppelt.</item>
 </list>
 </item>
 </list></item>
+
+<label lang="eo" rend="hidden">okaz|</label><item>
+<list>
 <label lang="eo">okaz|o.</label><item>
 <list type="def">
   <item lang="de">Fall, Ereignis, Gelegenheit.</item>
 </list>
 </item>
+</list></item>
 
 <label lang="eo">okzal|</label><item>
 <list type="def">
@@ -9222,7 +9281,16 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-  
+</list>
+</div>
+
+<div type="letter" n="P">
+<head>P</head>
+
+<list type="dict" n="P">
+
+
+<label lang="eo" rend="hidden">pag|</label>
 <item><list type="deriv">
 <label lang="eo">de|pago.</label><item>
 <list type="def">
@@ -9230,6 +9298,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">palp|</label><item>
 <list type="def">
   <item lang="de">tasten, fühlen.</item>
@@ -9362,15 +9431,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">punkt|</label>
 <item><list type="deriv">
 <label lang="eo">punkt|o|kom|</label><item>
 <list type="def">
   <item lang="de">Strichpunkt.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">du|punkt|</label><item>
 <list type="def">
   <item lang="de">Doppelpunkt.</item>
@@ -9406,16 +9474,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">rekt|</label><item>
 <list type="def">
   <item lang="de">gerade, direkt</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">mal|rekt|</label><item>
 <list type="def">
   <item lang="de">nicht gerade; indirekt.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">ribel|</label><item>
 <list type="def">
   <item lang="de">sich empören.</item>
@@ -9446,7 +9512,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">rul|</label>
 <item><list type="deriv">
 <label lang="eo">rul|o.</label><item>
 <list type="def">
@@ -9509,17 +9575,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <label lang="eo">ŝat|</label><item>
 <list type="def">
   <item lang="de">schätzen, Wertlegen auf.</item>
-</list>
-</item>
-
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">mal|ŝat|</label><item>
 <list type="def">
   <item lang="de">geringschätzen, vernachlässigen.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">sent|</label><item>
 <list type="def">
   <item lang="de">fühlen, empfinden</item>
@@ -9580,7 +9643,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">sobr|</label>
 <item><list type="deriv">
 <label lang="eo">mal|sobr|</label><item>
 <list type="def">
@@ -9588,6 +9651,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">solv|</label><item>
 <list type="def">
   <item lang="de">lösen, auflösen.</item>
@@ -9624,14 +9688,14 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
+<label lang="eo" rend="hidden">spez|</label>
 <item><list type="deriv">
 <label lang="eo">el|spez|</label><item>
 <list type="def">
   <item lang="de">ausgeben.</item>
 </list>
 </item>
-</list></item>
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">en|spez|</label><item>
 <list type="def">
   <item lang="de">einnehmen, lösen.</item>
@@ -9687,7 +9751,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">sum|</label>
 <item><list type="deriv">
 <label lang="eo">re|sum|</label><item>
 <list type="def">
@@ -9695,6 +9759,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">supoz|</label><item>
 <list type="def">
   <item lang="de">vermuten, voraussehen.</item>
@@ -9730,7 +9795,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">ten|</label>
 <item><list type="deriv">
 <label lang="eo">sub|ten|</label><item>
 <list type="def">
@@ -9775,7 +9840,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">tir|</label>
 <item><list type="deriv">
 <label lang="eo">kun|tir|</label><item>
 <list type="def">
@@ -9783,6 +9848,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">toler|</label><item>
 <list type="def">
   <item lang="de">dulden, tolerieren.</item>
@@ -9883,7 +9949,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">vin|</label>
 <item><list type="deriv">
 <label lang="eo">vin|ber|</label><item>
 <list type="def">
@@ -9891,6 +9957,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">violonĉel|</label><item>
 <list type="def">
   <item lang="de">Cello.</item>
@@ -9909,7 +9976,6 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </list>
 </item>
 </list>
-</div>
 
 </div>
  
@@ -9917,13 +9983,16 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="section">
 <head>RUSA PARTO
 <note rend="footnote" n="23">Th. CART (1923).</note>
-</head>
 
-<p>
+<note rend="paragraph">
 (Redaktita de S. OBRUĈEV) 
 <note rend="footnote" n="24">La rusa komisiono elektita de la L.K. en 1906 konsistis el 
 S-roj AVILOV kaj KOFMAN.</note>
-</p>
+</note>
+
+</head>
+
+
 
 <head>Antaŭparolo.</head>
 
@@ -9980,7 +10049,7 @@ L. ZAMENHOF (eldonoj 1909 kaj 1911 j.), en kiuj la Majstro mem
 enkondukis multajn el proponitaj de ni korektoj.
 </p>
 <signed>
-<place>Moskvo</place>, <date>10 MAR 23.</date>
+<name>Moskvo</name>, <date>10 MAR 23.</date>
                   <name>S. OBRUĈEV.</name>
 </signed>
 </div>
@@ -10266,6 +10335,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">drink|</label>
 <item><list type="deriv">
 <label lang="eo">drink|ej|</label><item>
 <list type="def">
@@ -10273,6 +10343,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">dung|</label><item>
 <list type="def">
   <item lang="ru">нанимать (кого-либо).</item>
@@ -11155,6 +11226,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">tri|</label>
 <item><list type="deriv">
 <label lang="eo">tri|foli|</label><item>
 <list type="def">
@@ -11162,6 +11234,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">trip|</label><item>
 <list type="def">
   <item lang="ru">потроха, требуха, ливер.</item>
@@ -11277,10 +11350,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <list type="def">
   <item lang="ru">девственный, невинный.</item>
 </list>
-</item>
-
-
-<item><list type="deriv">
+<list type="deriv">
 <label lang="eo">mal|virg|ig|</label><item>
 <list type="def">
   <item lang="ru">лишать невинности, растлить.</item>
@@ -11295,7 +11365,6 @@ enkondukis multajn el proponitaj de ni korektoj.
 
 </list>
 </div>
-</div>
  
 
 <div type="section">
@@ -11304,13 +11373,15 @@ enkondukis multajn el proponitaj de ni korektoj.
 ortografion (La malnovajn: emalja, misterjum, pinja... Poloj senpene legos
 emalia, misterium, pinia...). — Ni tie danku Inĝ. L. ZAMENHOF, kiu bonvole
 kontrolis la lastan presprovaĵon.</note>
-</head> (28)
 
-<p>
+<note rend="paragraph">
 (Redaktita de A. GRABOWSKI kaj K. BEIN)
 <note rend="footnote" n="29">La pola komisiono elektita de la L.K. en 1906 konsistis ĝuste el 
 S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
-</p>
+</note>
+</head>
+
+
 
 
 <div type="letter" n="A">
@@ -11330,6 +11401,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 </list>
 </item>
 
+<label lang="eo" rend="hidden">afabl|</label>
 <item><list type="deriv">
 <label lang="eo">mal|afabl|</label><item>
 <list type="def">
@@ -11337,6 +11409,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">afer|</label><item>
 <list type="def">
   <item lang="pl">sprawa, rzecz.</item>
@@ -11928,7 +12001,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 </div>
 
 <div type="letter" n="K">
-<head>Ĵ/head>
+<head>Ĵ</head>
 
 <list type="dict" n="J">
 
@@ -12067,7 +12140,12 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 </list>
 </item>
 
-komun] wspólny.
+<label lang="eo">komun|</label><item>
+<list type="def">
+  <item lang="pl">wspólny.</item>
+</list>
+</item>
+
 <label lang="eo">kondamn|</label><item>
 <list type="def">
   <item lang="pl">osądzać, skazać, potępiać.</item>
@@ -12134,6 +12212,7 @@ komun] wspólny.
 </list>
 </item>
 
+<label lang="eo" rend="hidden">kort|</label>
 <item><list type="deriv">
 <label lang="eo">kort|eg|</label><item>
 <list type="def">
@@ -12237,6 +12316,7 @@ komun] wspólny.
 
 <list type="dict" n="L">
 
+<label lang="eo" rend="hidden">labor|</label>
 <item><list type="deriv">
 <label lang="eo">pri|labor|</label><item>
 <list type="def">
@@ -12244,6 +12324,7 @@ komun] wspólny.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">laĉ|</label><item>
 <list type="def">
   <item lang="pl">sznurek.</item>
@@ -12301,16 +12382,14 @@ komun] wspólny.
 <label lang="eo">log|</label><item>
 <list type="def">
   <item lang="pl">wabić.</item>
-</list>
-</item>
-
-<item><list type="deriv">
+</list><list type="deriv">
 <label lang="eo">de|log|</label><item>
 <list type="def">
   <item lang="pl">uwieść.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">lu|</label><item>
 <list type="def">
   <item lang="pl">wynajmować (co od kogo).</item>
@@ -12352,14 +12431,15 @@ komun] wspólny.
 </list>
 </item>
 
-
-<item><list type="deriv">
+<label lang="eo" rend="hidden">meĉ|</label><item>
+<list type="deriv">
 <label lang="eo">meĉ|aĵ|</label><item>
 <list type="def">
   <item lang="pl">lont.</item>
 </list>
 </item>
 </list></item>
+
 <label lang="eo">meriz|</label><item>
 <list type="def">
   <item lang="pl">dzika wiśnia.</item>
@@ -12764,7 +12844,7 @@ komun] wspólny.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">ŝat|</label>
 <item><list type="deriv">
 <label lang="eo">mal|ŝat|</label><item>
 <list type="def">
@@ -12916,8 +12996,8 @@ komun] wspólny.
   <item lang="pl">ramię, barki.</item>
 </list>
 </item>
-
   
+<label lang="eo" rend="hidden">sum|</label>
 <item><list type="deriv">
 <label lang="eo">re|sum|</label><item>
 <list type="def">
@@ -12925,6 +13005,7 @@ komun] wspólny.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">super.</label><item>
 <list type="def">
   <item lang="pl">nad, ponad.</item>
@@ -12971,7 +13052,7 @@ komun] wspólny.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">ter|</label>
 <item><list type="deriv">
 <label lang="eo">ter|kol</label><item>
 <list type="def">
@@ -12979,6 +13060,7 @@ komun] wspólny.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">testik|</label><item>
 <list type="def">
   <item lang="pl">jądro.</item>
@@ -13085,7 +13167,7 @@ komun] wspólny.
 </list>
 </item>
 
-
+<label lang="eo" rend="hidden">vent|</label>
 <item><list type="deriv">
 <label lang="eo">vent|um|</label><item>
 <list type="def">
@@ -13093,6 +13175,7 @@ komun] wspólny.
 </list>
 </item>
 </list></item>
+
 <label lang="eo">verdigr|</label><item>
 <list type="def">
   <item lang="pl">grynszpan.</item>
@@ -13175,13 +13258,17 @@ komun] wspólny.
 </list>
 </item>
 
+</list>
+
+<div type="remark">
 <p>P.S. — Pri la vortoj «gargari» kaj «malsobra», kies polaj 
 tradukoj laŭ mia opinio estas ĝustaj, Kolego BEIN rezervis 
 al si «votum separatum» <note rend="footnote" n="30">Latine: aparta voĉdono.</note>
 </p>
-
 <signed>A. Gr.</signed>
+</div>
 
+<div type="remark">
 <p>Pri la vortoj: «gargari», «sobra», «malsobra»
 </p><p>
 Gargari <note rend="footnote" n="31">Vd. klarigojn en la Lingvaj Rimarkoj.</note>
@@ -13203,17 +13290,22 @@ Mi proponas:
 Sobra. — Wstrzemięźliwy, umiarkowany.
 Malsobra. — Niewstrzemięźliwy, nieumiarkowany; t.e. la
 sencon, kiun oni donis al la vortoj en la aprobitaj vortaroj
-<note rend="footnote n="32">Aprobitaj vortaroj: DE BEAUFRONT (1902): intempérant. — 
+<note rend="footnote" n="32">Aprobitaj vortaroj: DE BEAUFRONT (1902): intempérant. — 
 JURGENSEN (1904): unmässig. (Laŭ KABE, 1911: malsobra = malmodere 
 trinkanta kaj manĝanta; ebria = estanta sub la influo de la alkoholo. 
 — En la F-to, malsobra havis la signifon de ebria).</note>.
 Akceptinte la vorton /ebria/, D-ro ZAMENHOF mem ŝanĝis la signifon
 de la cititaj vortoj.
-</p><p>
+</p>
 
-<signed><place>Varsovio</place>, <date>14 JUL 07.</date>
+<signed><name>Varsovio</name>, <date>14 JUL 07.</date>
 <name>D-ro BEIN.</name>
 </signed>
+</div>
 
 </div>
+</div>
+
+</body>
 </text>
+</TEI.2>
