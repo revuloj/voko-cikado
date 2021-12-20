@@ -257,9 +257,12 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template name="footer">
   <hr/>
-  <div class="footnotes">
-    <xsl:call-template name="footnotes"/>
-  </div>
+  <xsl:if test="self::div">
+    <div class="footnotes">
+      <xsl:call-template name="footnotes"/>
+    </div>
+  </xsl:if>
+
   <div class="footer">
   <xsl:choose>
     <xsl:when test="self::text|self::div[@id='antparol']">
