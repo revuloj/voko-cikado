@@ -24,6 +24,8 @@
   <!ENTITY circ "^">
   <!ENTITY breve "&#x02d8;">
 
+  <!ENTITY TRISTELO "* * *">
+
 ]>
 
 <xsl:transform
@@ -255,6 +257,9 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template name="footer">
   <hr/>
+  <div class="footnotes">
+    <xsl:call-template name="footnotes"/>
+  </div>
   <div class="footer">
   <xsl:choose>
     <xsl:when test="self::text|self::div[@id='antparol']">
@@ -464,9 +469,59 @@ specialajn regulojn ne au alie difinitajn tie.
   </p>
 </xsl:template>
 
+<xsl:template match="address[@rend='right']">
+  <p class="right">
+  <xsl:apply-templates/>
+  </p>
+</xsl:template>
+<!--
 <xsl:template match="note[@rend='footnote']">
   <span class="note">(<xsl:apply-templates/>)</span>
 </xsl:template>
+-->
+
+<!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
+<xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
+  <xsl:text>(</xsl:text>
+  <a>
+    <xsl:attribute name="id">
+      <xsl:text>fn_</xsl:text>
+      <xsl:call-template name="footnote-id"/>
+    </xsl:attribute>
+    <xsl:attribute name="href">
+      <xsl:text>#</xsl:text>
+      <xsl:call-template name="footnote-id"/>
+    </xsl:attribute>
+    <xsl:text>&#x2193;</xsl:text><xsl:call-template name="footnote-id"/>
+  </a>
+  <xsl:text>)</xsl:text>
+</xsl:template>
+
+
+<xsl:template name="footnotes">
+  <xsl:for-each select=".//note[@rend='footnote']">
+    <p>
+      <xsl:attribute name="id">
+        <xsl:call-template name="footnote-id"/>
+      </xsl:attribute>
+    <xsl:text>(</xsl:text>
+    <a>
+      <xsl:attribute name="href">
+        <xsl:text>#fn_</xsl:text>
+        <xsl:call-template name="footnote-id"/>
+      </xsl:attribute>
+      <xsl:text>&#x2191;</xsl:text><xsl:call-template name="footnote-id"/>
+    </a>
+    <xsl:text>) </xsl:text>
+    <xsl:apply-templates/>
+    </p>
+  </xsl:for-each>
+</xsl:template>
+
+<xsl:template name="footnote-id">
+  <xsl:value-of select="@n"/>
+</xsl:template>
+
 
 <xsl:template match="list/head">
   <h4><xsl:apply-templates/></h4>
@@ -482,25 +537,24 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="list[@type='dict']/label">
-  <strong>
-  <a name="{generate-id()}"/>
-  <xsl:apply-templates/>
-  <xsl:text> </xsl:text>
+  <strong id="{generate-id()}">
+    <xsl:apply-templates/>
+    <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
 
+<xsl:template match="label[@rend='hidden']" priority="2"/>
+
 <xsl:template match="emph[@lang='eo']">
-  <em>
-  <a name="{generate-id()}"/>
-  <xsl:apply-templates/>
+  <em id="{generate-id()}">
+    <xsl:apply-templates/>
   </em>
 </xsl:template>
 
 <xsl:template match="hi[@lang='eo']">
-  <strong>
-  <a name="{generate-id()}"/>
-  <xsl:apply-templates/>
-  <xsl:text> </xsl:text>
+  <strong id="{generate-id()}">
+    <xsl:apply-templates/>
+    <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
 
@@ -517,7 +571,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="list[@type='deriv']/label">
-  <strong>
+  <strong id="{generate-id()}">
   <xsl:apply-templates/>
   <xsl:text> </xsl:text>
   </strong>
@@ -546,11 +600,31 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
+<!-- Akademiaj korektoj UV -->
+<xsl:template match="text[@id='akkor']//div[@type='section']">
+  <xsl:result-document method="html" href="{@id}.html">	
+  <html>
+   <head>
+     <link title="stilo" type="text/css" rel="stylesheet"
+     href="../css/{$stylesheet}" />
+     <title>Akademiaj korektoj &dash; <xsl:value-of select="head"/>.</title>
+   </head>
+   <body background="../bld/papero.jpg">
+     <xsl:call-template name="header"/>
+     <h1>
+      <xsl:apply-templates select="head"/>
+     </h1>
+     <xsl:apply-templates select="div|list|salute|p|signed"/>
+     <xsl:call-template name="footer"/>
+   </body>
+  </html>
+  </xsl:result-document>
+</xsl:template>
 
 <!-- esperanta vortindekso -->
 
 <xsl:key name="eoletters" match="
-	 //list[@type='dict']/label |
+	 //list[@type='dict']//label |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
 	 use="translate(substring(.,1,1),
@@ -558,7 +632,7 @@ specialajn regulojn ne au alie difinitajn tie.
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
 
 <xsl:key name="eowords" match="
-	 //list[@type='dict']/label |
+	 //list[@type='dict']//label |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
          use="."/>
@@ -567,7 +641,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <!-- elektu por chiu litero unu reprezentanton -->
   <xsl:for-each select=
-    "(//list[@type='dict']/label |
+    "(//list[@type='dict']//label |
 	    //emph[@lang='eo'] | 
 	    //hi[@lang='eo'])
 	    [count(.|key('eoletters',
@@ -631,7 +705,7 @@ specialajn regulojn ne au alie difinitajn tie.
  <xsl:result-document method="html" href="vortinx_{$firstletter}.html"> 
    <html>
      <head>
-       <title>ea vortindekso, litero <xsl:value-of
+       <title>e-a vortindekso, litero <xsl:value-of
          select="$firstletter"/>
        </title>
      </head>
@@ -676,88 +750,99 @@ specialajn regulojn ne au alie difinitajn tie.
   </xsl:for-each><br/>
 </xsl:template>
 
+
 <xsl:template name="ref">
   <a>
-
   <xsl:choose>
+    <!-- EKZERCARO -->
+    <xsl:when test="ancestor::text[@id='ekz']">
+      <xsl:attribute name="href">
+        <xsl:text>ekz_</xsl:text>
+        <xsl:value-of select="ancestor::div[@type='section']/@n"/>
+        <xsl:text>.html#</xsl:text>
+        <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Ekzerc. &para; </xsl:text>
+	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
+    </xsl:when>
 
-      <!-- EKZERCARO -->
-      <xsl:when test="ancestor::text[@id='ekz']">
-       <xsl:attribute name="href">
-         <xsl:text>ekz_</xsl:text>
-         <xsl:value-of select="ancestor::div[@type='section']/@n"/>
-         <xsl:text>.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-       </xsl:attribute>
-       <xsl:text>Ekzerc. &para; </xsl:text>
-	  <xsl:value-of select="ancestor::div[@type='section']/@n"/>
-      </xsl:when>
-
-      <!-- UNIVERSALA VORTARO -->
-      <xsl:when test="ancestor::text[@id='univort']">
-       <xsl:attribute name="href">
-         <xsl:text>uv_</xsl:text>
-         <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
-         <xsl:text>.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-        </xsl:attribute>
-       <xsl:text>UV </xsl:text>
+    <!-- UNIVERSALA VORTARO -->
+    <xsl:when test="ancestor::text[@id='univort']">
+      <xsl:attribute name="href">
+        <xsl:text>uv_</xsl:text>
         <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
-      </xsl:when>
+        <xsl:text>.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>UV </xsl:text>
+      <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
+    </xsl:when>
 
-      <!-- ANTAUPAROLO -->
-      <xsl:when test="ancestor::div[@id='antparol']">
-       <xsl:attribute name="href">
-         <xsl:text>antparol.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-        </xsl:attribute>
-       <xsl:text>Antaŭparolo</xsl:text>
-      </xsl:when>
+    <!-- AKADEMIAJ KOREKTOJ -->
+    <xsl:when test="ancestor::text[@id='akkor']">
+      <xsl:attribute name="href">
+        <xsl:value-of select="ancestor::div[@type='section']/@id"/>
+        <xsl:text>.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>AK </xsl:text>
+      <xsl:value-of select="ancestor::div[@type='section']/@n"/>
+      <!--xsl:value-of select="ancestor::div[@type='letter']/@n"/-->
+    </xsl:when>
 
-      <!-- GRAMATIKO FRANCA -->
-      <xsl:when test="ancestor::div[@id='gra_fr']">
-       <xsl:attribute name="href">
-         <xsl:text>gra_fr.html#</xsl:text>
-         <xsl:value-of select="generate-id()"/>
-       </xsl:attribute>
-       <xsl:text>Gram. fr.</xsl:text>
-      </xsl:when>
+    <!-- ANTAUPAROLO -->
+    <xsl:when test="ancestor::div[@id='antparol']">
+      <xsl:attribute name="href">
+        <xsl:text>antparol.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Antaŭparolo</xsl:text>
+    </xsl:when>
 
-       <!-- GRAMATIKO ANGLA -->
-      <xsl:when test="ancestor::div[@id='gra_en']">
-       <xsl:attribute name="href">
-         <xsl:text>gra_en.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-        </xsl:attribute>
-       <xsl:text>Gram. angl.</xsl:text>
-      </xsl:when>
+    <!-- GRAMATIKO FRANCA -->
+    <xsl:when test="ancestor::div[@id='gra_fr']">
+      <xsl:attribute name="href">
+        <xsl:text>gra_fr.html#</xsl:text>
+        <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Gram. fr.</xsl:text>
+    </xsl:when>
 
-      <!-- GRAMATIKO GERMANA -->
-      <xsl:when test="ancestor::div[@id='gra_de']">
-       <xsl:attribute name="href">
-         <xsl:text>gra_de.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-       </xsl:attribute>
-       <xsl:text>Gram. germ.</xsl:text>
-      </xsl:when>
+    <!-- GRAMATIKO ANGLA -->
+    <xsl:when test="ancestor::div[@id='gra_en']">
+      <xsl:attribute name="href">
+        <xsl:text>gra_en.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Gram. angl.</xsl:text>
+    </xsl:when>
 
-      <!-- GRAMATIKO RUSA -->
-      <xsl:when test="ancestor::div[@id='gra_ru']">
-       <xsl:attribute name="href">
-         <xsl:text>gra_ru.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-       </xsl:attribute>
-       <xsl:text>Gram. rus.</xsl:text>
-      </xsl:when>
+    <!-- GRAMATIKO GERMANA -->
+    <xsl:when test="ancestor::div[@id='gra_de']">
+      <xsl:attribute name="href">
+        <xsl:text>gra_de.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Gram. germ.</xsl:text>
+    </xsl:when>
 
-      <!-- GRAMATIKO POLA -->
-      <xsl:when test="ancestor::div[@id='gra_pl']">
-       <xsl:attribute name="href">
-         <xsl:text>gra_pl.html#</xsl:text>
-	 <xsl:value-of select="generate-id()"/>
-       </xsl:attribute>
-       <xsl:text>Gram. pola</xsl:text>
-      </xsl:when>
+    <!-- GRAMATIKO RUSA -->
+    <xsl:when test="ancestor::div[@id='gra_ru']">
+      <xsl:attribute name="href">
+        <xsl:text>gra_ru.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Gram. rus.</xsl:text>
+    </xsl:when>
+
+    <!-- GRAMATIKO POLA -->
+    <xsl:when test="ancestor::div[@id='gra_pl']">
+      <xsl:attribute name="href">
+        <xsl:text>gra_pl.html#</xsl:text>
+	      <xsl:value-of select="generate-id()"/>
+      </xsl:attribute>
+      <xsl:text>Gram. pola</xsl:text>
+    </xsl:when>
     
   </xsl:choose>
   </a>
