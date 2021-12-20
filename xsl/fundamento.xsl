@@ -664,7 +664,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- esperanta vortindekso -->
 
 <xsl:key name="eoletters" match="
-	 //list[@type='dict']//label |
+	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
 	 use="translate(substring(.,1,1),
@@ -672,7 +672,7 @@ specialajn regulojn ne au alie difinitajn tie.
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
 
 <xsl:key name="eowords" match="
-	 //list[@type='dict']//label |
+	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
          use="."/>
@@ -681,7 +681,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <!-- elektu por chiu litero unu reprezentanton -->
   <xsl:for-each select=
-    "(//list[@type='dict']//label |
+    "(//list[@type='dict']//label[not(@rend='hidden')] |
 	    //emph[@lang='eo'] | 
 	    //hi[@lang='eo'])
 	    [count(.|key('eoletters',
