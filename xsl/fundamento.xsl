@@ -198,7 +198,7 @@ specialajn regulojn ne au alie difinitajn tie.
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
             <!-- por ekzercaro skribu §xx -->
-            <xsl:if test="../text[@id='ekz']">
+            <xsl:if test="ancestor::text[@id='ekz']">
               <xsl:if test="@n">
                 <xsl:text>&para; </xsl:text>
                 <xsl:value-of select="@n"/>
@@ -288,12 +288,15 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="self::div[@type='chapter' or @type='section']">
       <xsl:for-each select="following-sibling::div[@rend='doc'][1]">
         <a href="{@id}.html">
+          <!-- por ekzercaro skribu §xx -->
+          <xsl:if test="ancestor::text[@id='ekz']">
             <xsl:if test="@n">
               <xsl:text>&para; </xsl:text>
               <xsl:value-of select="@n"/>
               <xsl:text>. </xsl:text>            
-            </xsl:if>          
-            <xsl:value-of select="head"/>
+            </xsl:if>
+          </xsl:if>
+          <xsl:apply-templates select="head" mode="toc"/>
           <xsl:text>&nbsp;&gt;&gt;</xsl:text>
         </a>
       </xsl:for-each>
@@ -408,7 +411,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<!-- gramatikojn metu en proprajn dosierojn -->
+<!-- grakademiajn korektojn po lingvo metu en propran dosieron -->
 
 <xsl:template match="text[@id='akkor']/body">
   <center>
@@ -423,7 +426,7 @@ specialajn regulojn ne au alie difinitajn tie.
     </xsl:for-each>
   </ul>
   <hr/>
-  <xsl:apply-templates select="div[@type!='chapter']"/>
+  <xsl:apply-templates select="div"/>
 </xsl:template>
 
 
@@ -637,8 +640,8 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<!-- Akademiaj korektoj UV -->
-<xsl:template match="text[@id='akkor']//div[@type='section']">
+<!-- Akademiaj korektoj de UV -->
+<xsl:template match="text[@id='akkor']//div[@type='chapter']">
   <xsl:result-document method="html" href="{@id}.html">	
   <html>
    <head>
