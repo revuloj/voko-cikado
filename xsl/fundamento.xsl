@@ -24,8 +24,6 @@
   <!ENTITY circ "^">
   <!ENTITY breve "&#x02d8;">
 
-  <!ENTITY TRISTELO "* * *">
-
 ]>
 
 <xsl:transform
@@ -143,7 +141,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
             <li class="subcontent">
               <a href="{$ref}">
-                <xsl:value-of select=".//head[1]"/>
+                <xsl:apply-templates select="./head[1]" mode="toc"/>
               </a>
             </li>
           </xsl:for-each>
@@ -159,12 +157,15 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:value-of select="titlePart[@type='main']"/>
 </xsl:template>
 
+
 <xsl:template name="header">
 
   <xsl:choose>
  
+    <!-- TEXT header -->
     <xsl:when test="self::text">
       <div class="header">
+      <!-- navigeblo al antaŭa dokumento -->
       <xsl:for-each select="(preceding-sibling::text[@rend='doc'] | ./div[@id='antparol']) [last()]"> 
         <span class="header_left">
           <a href="{@id}.html">
@@ -174,41 +175,49 @@ specialajn regulojn ne au alie difinitajn tie.
         </span>
       </xsl:for-each>
 
-      <span class="header_center">
+      <!-- aktuala dokumento kun navigeblo supren-->
+      <span class="header_center">        
         <xsl:text> </xsl:text>
         <a href="index.html">
-          <xsl:for-each select="//front[1]//docAuthor">
+          <xsl:for-each select="(//front//docAuthor)[1]">
             <xsl:value-of select="."/>:
           </xsl:for-each>
-          <xsl:value-of select="//front[1]//titlePart[@type='main']"/>
+          <xsl:value-of select="(//front//titlePart[@type='main'])[1]"/>
         </a>
       </span>
       </div>
     </xsl:when>
 
+    <!-- DIV header -->
     <xsl:when test="self::div[@type='chapter' or @type='section']">
       <div class="header">
+
+      <!-- navigeblo al la antaŭa ĉapitro -->
       <xsl:for-each select="preceding-sibling::div[@rend='doc'][1]"> 
         <span class="header_left">
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
-            <xsl:if test="@n">
-              <xsl:text>&para; </xsl:text>
-              <xsl:value-of select="@n"/>
-              <xsl:text>. </xsl:text>            
+            <!-- por ekzercaro skribu §xx -->
+            <xsl:if test="../text[@id='ekz']">
+              <xsl:if test="@n">
+                <xsl:text>&para; </xsl:text>
+                <xsl:value-of select="@n"/>
+                <xsl:text>. </xsl:text>            
+              </xsl:if>
             </xsl:if>
-            <xsl:value-of select="head"/>
+            <xsl:apply-templates select="head" mode="toc"/>
           </a>
         </span>
       </xsl:for-each>
 
       <span class="header_center">
         <xsl:text> </xsl:text>
+        <!-- navigeblo al la enhavanta dokumento (do supren) -->
         <a href="index.html">
-          <xsl:value-of select="//front[1]//titlePart[@type='main']"/>
+          <xsl:value-of select="(//front//titlePart[@type='main'])[1]"/>
         </a>
         &dash;
-        <xsl:for-each select="ancestor::text[@rend='doc'][1]">
+        <xsl:for-each select="(ancestor::text[@rend='doc'])[1]">
           <a href="{@id}.html">
             <xsl:value-of select=".//titlePart[@type='main'][1]"/>
           </a>
@@ -217,15 +226,16 @@ specialajn regulojn ne au alie difinitajn tie.
       </div>
     </xsl:when>
 
+    <!-- kapo por ĉapitroj de literoj en UV -->
     <xsl:when test="self::div[@type='letter']">
       <div class="uv_header">
       <p align="center">
         <xsl:text> </xsl:text>
         <a href="index.html">
-          <xsl:value-of select="//front[1]//titlePart[@type='main']"/>
+          <xsl:value-of select="(//front[1]//titlePart[@type='main'])[1]"/>
         </a>
         &dash;
-        <xsl:for-each select="ancestor::text[@rend='doc'][1]">
+        <xsl:for-each select="(ancestor::text[@rend='doc'])[1]">
           <a href="{@id}.html">
             <xsl:value-of select=".//titlePart[@type='main'][1]"/>
           </a>
@@ -248,12 +258,13 @@ specialajn regulojn ne au alie difinitajn tie.
         </xsl:for-each>
       </p>
       </div>
-    </xsl:when> 
+    </xsl:when>
+
   </xsl:choose>
-
-
   <hr/>
 </xsl:template>
+
+
 
 <xsl:template name="footer">
   <hr/>
@@ -306,6 +317,7 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:apply-templates select="head"/>
   </center>
   <hr/>
+  <!-- enhavtabelo por la kvin gramatikoj -->
   <ul>
     <xsl:for-each select="./div[@type='chapter']">
       <li class="content"><a href="{@id}.html">
@@ -396,6 +408,25 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
+<!-- gramatikojn metu en proprajn dosierojn -->
+
+<xsl:template match="text[@id='akkor']/body">
+  <center>
+    <xsl:apply-templates select="head"/>
+  </center>
+  <!-- enhavtabelo por la kvin lingvoj de korekto -->
+  <ul>
+    <xsl:for-each select="./div[@type='chapter']">
+      <li class="content"><a href="{@id}.html">
+        <xsl:apply-templates select="head" mode="toc"/>
+      </a></li>
+    </xsl:for-each>
+  </ul>
+  <hr/>
+  <xsl:apply-templates select="div[@type!='chapter']"/>
+</xsl:template>
+
+
 <!-- tabeloj -->
 
 <xsl:template match="table">
@@ -482,6 +513,9 @@ specialajn regulojn ne au alie difinitajn tie.
   <span class="note">(<xsl:apply-templates/>)</span>
 </xsl:template>
 -->
+
+<!-- ne montru kapnotojn en la enhav-tabelo! -->
+<xsl:template match="head/note" mode="toc"/>
 
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
@@ -737,7 +771,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <div class="header">
     <span class="header_center">
       <a href="index.html">
-        <xsl:value-of select="//front[1]//titlePart[@type='main']"/>
+        <xsl:value-of select="(//front[1]//titlePart[@type='main'])[1]"/>
       </a>
       <xsl:text>&dash; esperanta indekso</xsl:text>
     </span>
@@ -784,12 +818,12 @@ specialajn regulojn ne au alie difinitajn tie.
     <!-- AKADEMIAJ KOREKTOJ -->
     <xsl:when test="ancestor::text[@id='akkor']">
       <xsl:attribute name="href">
-        <xsl:value-of select="ancestor::div[@type='section']/@id"/>
+        <xsl:value-of select="ancestor::div[@type='chapter']/@id"/>
         <xsl:text>.html#</xsl:text>
 	      <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
       <xsl:text>AK </xsl:text>
-      <xsl:value-of select="ancestor::div[@type='section']/@n"/>
+      <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
       <!--xsl:value-of select="ancestor::div[@type='letter']/@n"/-->
     </xsl:when>
 
