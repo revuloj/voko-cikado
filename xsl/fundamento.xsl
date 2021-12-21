@@ -24,6 +24,8 @@
   <!ENTITY circ "^">
   <!ENTITY breve "&#x02d8;">
 
+  <!ENTITY FE_fonto "https://github.com/revuloj/voko-cikado/blob/master/txt/tei2/fundamento.xml">
+
 ]>
 
 <xsl:transform
@@ -152,9 +154,15 @@ specialajn regulojn ne au alie difinitajn tie.
   </ul>
 </xsl:template>
 
-
 <xsl:template match="docTitle" mode="index">
   <xsl:value-of select="titlePart[@type='main']"/>
+</xsl:template>
+
+<!-- teiHeader -->
+<xsl:template match="teiHeader">
+     <address>
+       fonto: <a target="_new" href="&FE_fonto;">fundamento.xml (ĉe Github)</a>
+     </address>
 </xsl:template>
 
 

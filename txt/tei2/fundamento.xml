@@ -20,15 +20,18 @@
 <!ENTITY TRISTELO "* * *">
 
 ]>
+
+<!--
+
+  2021-12-20 WD aldonis Akedemiajn Korektojn de UV
+
+-->
  
 <!-- $Id: fundamento.xml,v 1.28 2011/02/07 18:52:07 revo Exp $ -->
 <!--
   $Log: fundamento.xml,v $
   Revision 1.28  2011/02/07 18:52:07  revo
   adaptoj necesaj por Adobe Digital Editions, kaj detalaj shanghoj proponitaj de Paul Peeraerts
-
-  Revision 1.27  2011/01/29 19:55:16  revo
-  elcherpajho el senchesa rakonto kiel epub
 
   Revision 1.26  2011/01/23 08:39:23  revo
   stabila interstato de epub-fundamento
@@ -64,7 +67,8 @@
   kap- kaj piedlinioj por la navigado
 
   Revision 1.15  2002/09/21 11:30:34  revo
-  enhavtabelo kreighas lau la atributoj type anstatau rend=inx, por subdokumentoj uzu nun rend=doc
+  enhavtabelo kreighas lau la atributoj type anstatau rend=inx, 
+  por subdokumentoj uzu nun rend=doc
 
   Revision 1.14  2002/09/04 16:45:37  revo
   penumi->plenumi (lau Bertilo)
@@ -108,7 +112,6 @@
   Revision 1.1  2002/01/07 11:16:28  revo
   nova: Fundamento de Eo
 
- 
 -->
 
 <TEI.2>
@@ -124,9 +127,10 @@
       </respStmt>
     </titleStmt>
     <editionStmt>
-      <edition>$Id: fundamento.xml,v 1.28 2011/02/07 18:52:07 revo Exp $</edition>
+      <edition>Fundamento de Esperanto 1905, enretigita en 2002 surbaze de faksimilo de PEA 1987,
+      Akademiaj Korektoj de UV 1906-1922, enretigita en 2021 surbaze de FdE, 10a eldono 1993</edition>
     </editionStmt>
-    <extent>132 kB</extent>
+    <extent>1475 kB</extent>
     <publicationStmt>
       <publisher>Wolfram DIESTEL</publisher>
       <pubPlace>Lepsiko</pubPlace>
@@ -147,20 +151,25 @@
     <editorialDecl>
       <p>La tekstoj de Antaŭparolo kaj Ekzercaro (sen la vortlistoj)
       jam estis rete publikigitaj kaj uzitaj tie ĉi, la ceteron mi 
-      mem enkomputiligis.</p>
-
-      <p>Multe helpis ĉe la korektado de eraroj Bertilo Wennergren kaj
+      mem enkomputiligis. La precipa enretigo okazis en 2002 kaj
+      kontroloj kaj korektoj okazis precipe inter 2002 ĝis 2006.
+      Multe helpis ĉe la korektado de eraroj Bertilo Wennergren kaj
       Dominic Cornice.</p>
 
       <p>La tri partoj aperas kiel propraj &lt;text&gt;-oj, ĉar ili
-      havas ĉiu apartan titolpaĝeton. La
-      ĉapitroj estas apartigitaj per
-      &lt;div type="chapter" id="markilo"&gt; kaj la
-      subĉapitroj &lt;div type="section" id="markilo"&gt;.
+      havas ĉiu apartan titolpaĝeton. 
+      Krome, fine de 2021 mi aldonis kiel kvaran tekston la 
+      Akdemiajn Korektojn de UV el la jaroj 1906 ĝis 1922, fine 
+      publikigitaj en 1923.
+      </p>
+      
+      <p>La ĉapitroj estas apartigitaj per
+      &lt;div type="chapter" id="{markilo}"&gt; kaj la
+      subĉapitroj &lt;div type="section" id="{markilo}"&gt;.
       </p>
  
-      <p>Kiel emfazaj elementoj estas uzataj diversloke emph, hi kaj
-      mentioned, en la diverslingvaj gramatikoj ili uziĝas nekohere,
+      <p>Kiel emfazaj elementoj estas uzataj diversloke &lt;emph&gt;, &lt;hi&gt; kaj
+      &lt;mentioned&gt;. En la diverslingvaj gramatikoj ili uziĝas nekohere,
       same kiel en la papera originalo. Alternativo estus kohera uzo
       en la XML-teksto kaj lingvospecifa adapto de la XSL-reguloj.
       </p>
@@ -196,6 +205,9 @@
         </titlePart>
         <titlePart type="parts">
           GRAMATIKO, EKZERCARO, UNIVERSALA VORTARO
+        </titlePart>
+        <titlePart type="complement">
+          kaj AKADEMIAJ KOREKTOJ
         </titlePart>
       </docTitle>
     </titlePage>
