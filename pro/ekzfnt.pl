@@ -27,6 +27,13 @@
 % predikatoj por serĉi en la faktoj pri la fontoj
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%! printbest(+Metodo,+Max,+Serĉo,+Verko) is det
+%
+% Serĉas per =findbest= en la verko =Verko= kaj tuj elskribas la plej bonajn trovojn.
+% =Methodo= estas la serĉmetodo kaj povas esti unu el =ngram=, =isub=, =contains=
+% aŭ =regex=. =Max= donas la nombron de maksimume redonotaj trovoj, =Sercho= donas
+% la serĉesprimon, kio povas esti unu aŭ pluraj vortoj aŭ regulesprimo kun la metodo =regex=.
+% 
 printbest(Method,Max,Sercho,Vrk) :-
     findbest(Method,Max,Sercho,Vrk,Trovoj),
     forall(
@@ -48,8 +55,20 @@ printbest(Method,Max,Sercho,Vrk) :-
 		)
 	    )).
 
+%! findfast(+Max,+Serĉo,-Trovoj) is det
+%
+% Serĉas unuavice per la metodo =contains= ekzaktajn lokojn kaj
+% duavice poer la metodo =isub= neekzaktajn lokojn, kie aperas
+% la vorto au la frazeto donita en =Sercho=. Traserĉataj estas ĉiuj verkoj.
+% La rezulto redoniĝas en =Trovoj=.
 findfast(Max,Sercho,Trovoj) :- findfast(Max,chiuj,Sercho,Trovoj).
 
+%! findfast(+Max,+Verkaro,+Serĉo,-Trovoj) is det
+%
+% Serĉas unuavice per la metodo =contains= ekzaktajn lokojn kaj
+% duavice poer la metodo =isub= neekzaktajn lokojn, kie aperas
+% la vorto au la frazeto donita en =Sercho=. Traserĉataj estas la verkoj
+% el la verkolisto =Verkaro=. La rezulto redoniĝas en =Trovoj=.
 findfast(Max,Verkaro,Sercho,Trovoj) :-
     verkaro(Verkaro,Verkoj),
     concurrent_maplist(findbest(contains,Max,Sercho),Verkoj,Tr),
@@ -63,9 +82,18 @@ findfast(Max,Verkaro,Sercho,Trovoj) :-
      ; Trovj=Tr1),
     cit_to_ekzj(Trovj,Trovoj).
 
-
+%! findsmart(+Max,+Serĉo,-Trovoj) is det
+%
+% Serĉas per la metodo =ngram= neekzaktajn lokojn, kie aperas
+% la vorto au la frazeto donita en =Sercho=. Traserĉataj estas ĉiuj verkoj.
+% La rezulto redoniĝas en =Trovoj=.
 findsmart(Max,Sercho,Trovoj) :- findsmart(Max,chiuj,Sercho,Trovoj).
 
+%! findsmart(+Max,+Verkaro,+Serĉo,-Trovoj) is det
+%
+% Serĉas per la metodo =ngram= neekzaktajn lokojn, kie aperas
+% la vorto au la frazeto donita en =Sercho=. Traserĉataj estas la verkoj
+% el la verkolisto =Verkaro=. La rezulto redoniĝas en =Trovoj=.
 findsmart(Max,Verkaro,Sercho,Trovoj) :-
   verkaro(Verkaro,Verkoj),
   atom_length(Sercho,L), L>3,
@@ -88,8 +116,18 @@ findsmart(Max,Verkaro,Sercho,Trovoj) :-
     cit_to_ekzj(Trovj,Trovoj)).
 
 
+%! findregex(+Max,+Serĉo,-Trovoj) is det
+%
+% Serĉas per la metodo =regex= lokojn kiuj konformas al la regulesprimo
+% donita en =Sercho=. Traserĉataj estas ĉiuj verkoj.
+% La rezulto redoniĝas en =Trovoj=.
 findregex(Max,Sercho,Trovoj) :- findregex(Max,chiuj,Sercho,Trovoj).
 
+%! findregex(+Max,+Verkaro,+Serĉo,-Trovoj) is det
+%
+% Serĉas per la metodo =regex= lokojn kiuj konformas al la regulesprimo
+% donita en =Sercho=. Traserĉataj estas la verkoj el la verkolisto =Verkaro=.
+% La rezulto redoniĝas en =Trovoj=.
 findregex(Max,Verkaro,Sercho,Trovoj) :-
     % vd. http://www.pcre.org/current/doc/html/pcre2syntax.html#SEC10
     %atom_concat('(*UCP)',Sercho,Pattern),
@@ -116,6 +154,14 @@ findregex(Max,Verkaro,Sercho,Trovoj) :-
                  
       cit_to_ekzj(Trovj,Trovoj)).
 
+%! findbest(+Metodo,+Max,+Serĉo,+Vrk,-Trovoj) is det
+%
+% Serĉas per la metodo =Metodo= lokojn kiuj laŭeble bone 
+% konformas al la serĉesprimo donita en =Sercho=. 
+% La metodoj =contains= kaj =regex= serĉas ekzakte, la metodoj
+% =isub= kaj =ngram= neekzakte. =Max= donas la maksimumon de redonotaj trovoj.
+% =Vrk= povas esti unopa verko aŭ listo de verkoj, ekze =|[prv,m_t]|=. 
+% La rezulto redoniĝas en =Trovoj=.
 findbest(Method,Max,Sercxo,Vrk,Trovoj) :-
     group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
 	     limit(Max,
@@ -141,6 +187,11 @@ findbest(Method,Max,Sercxo,Verkoj,Trovoj) :-
 % empty list when nothing found
 findbest(_,_,_,_,[]).
 
+%! findbest(+Metodo,+Max,+Serĉo,+Vrk,+Ekskludoj,-Trovoj) is det
+%
+% Same kiel findebest/5, sed la aldona parametro =Ekskludoj= donas liston
+% de trovlokoj, kiuj estas ignorataj. Utila se oni volas serci per pluraj metodoj
+% unu post la alia kaj eviti, ke retrovitaj lokoj limigu la nombron de rezultoj.
 findbest_excl(Method,Max,Sercxo,Vrk,Ekskludoj,Trovoj) :-
     \+ is_list(Vrk),
     %normalize(Sercho,Sercxo),
@@ -175,6 +226,14 @@ append_excl(Trovoj1,Trovoj2,Trovoj) :-
     append(Trovoj1,Resto2,Trovoj).
 excl_chk(Excl,_-Cit) :- memberchk(Cit,Excl).
 
+%! find(+Metodo,+Serĉo,?Trovo,-Simileco) is nondet
+%
+% Serĉas per la metodo =Metodo= kaj la esprimo =Sercho=.
+% Unuopa trovo estas en la formo =|cit(Vrk:Dos,Lok,Txt)|=,
+% ĉe kio =Vrk= jam povas esti antaŭplenigita por limigi la
+% serĉon al tiu verko. =Simileco= donas valoron inter 0 kaj 1
+% por mezuro, kiom bone la trovo konformas al la serĉesprimo.
+% Ĉe ekzaktaj serĉmetodoj =contains= kaj =regex= gi estas ciam 1.0
 find(ngram,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil) :-
     atom_length(Sercxo,L), L>3,
     ngrams(Sercxo,4,NGrams),
@@ -198,14 +257,24 @@ find(regex,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
     tekstaro:cit(Vrk:Dos,Lok,Txt),
     re_match(Sercxo,Txt).    
 
+%! ngram_find(+NGrams,+Teksto:atom,-Simileco) is nondet
+%
+% Komparas la liston de n-gramoj =NGrams= kun la
+% atomo =Teksto= (t.e. frazo el traserĉenda fontoteksto) 
+% kaj redonas mezuron de konformeco kiel =Simileco=.
+% Se ciuj n-gramoj troviĝas tio estas 1.0, se nur la duono
+% troviĝis tio estas 0.5 kaj se neniu troviĝis 0.0
 ngram_find(NGrams,Atom,Percentage) :-
     proper_length(NGrams,Len), Len>0,
     ngram_count(NGrams,Atom,0,Count),
     Percentage is Count / Len.   % >= 0.7
 
 
-% komparu du tekstojn: a) ekzakte b) uzante n-gramojn
-
+%! text_contained(+Serĉo,+Teksto) is det
+%
+% Rezultiĝas kiel =true= se la minuskligita 
+% teksto =Serĉo= troviĝas ekzakte ie ie en =Teksto=.
+% aliokaze rezultiĝas =false=.
 text_contained(Sercxo,Teksto) :-
   atom_length(Sercxo,L1), L1>0,
   atom_length(Teksto,L2), L2>0,
@@ -213,6 +282,10 @@ text_contained(Sercxo,Teksto) :-
   downcase_atom(Teksto,A2),
   sub_atom(A2,_,_,_,Sercxo).  
 
+%! text_match(+Atom1,+Atom2,-Procentoj) is det
+%
+% Redonas kiel =Procentoj= 1.0, se =|Atom1 = Atom2|=,
+% aliokaze redoniĝas la rezulto de ngram_match kun n=4.
 text_match(Atom1,Atom2,Percentage) :-
   Atom1 = Atom2, Percentage = 1.0.
   
@@ -220,10 +293,13 @@ text_match(Atom1,Atom2,Percentage) :-
   ngram_match(Atom1,Atom2,4,Percentage).
 
 
-
-% alternative dishaku nur la pli mallongan atomon
-% kaj serchu chiun unuopan n-gramon en la pli longa teksto (maplist, member... reduce?)
-% komparu ambau variantojn poste...
+%! ngram_match(+Atom1,+Atom2,+N,-Procentoj) is det
+%
+% Redonas procentan valoron (inter 0 kaj 1), kiom
+% bone =Atom1= kaj =Atom2= similas. Ambaŭ atomoj estas
+% dishakitaj en n-gramoj kun la longo =N=. Poste la simileco
+% estas kalkulita kiel propocio de komunaj n-gramoj kaj
+% la minimuma longeco de la atomoj.
 ngram_match(Atom1,Atom2,N,Percentage) :-
     %downcase_atom(Atom1,A1),
     %downcase_atom(Atom2,A2),
@@ -237,6 +313,11 @@ ngram_match(Atom1,Atom2,N,Percentage) :-
     Percentage is Lc / min(L1,L2).   % >= 0.7
     %Percentage is (Lc+Lc) / (L1+L2). % >=0.66
 
+%! ngram_count(+NGramoj,+Atom,+Valoro0,-Nombro) is det
+%
+% Redonas kiel =Nombro= la nombron de ngramoj el
+% =NGrams= trovitaj en Atom. =Valoro0= estas la
+% baza nombro por kalkulado, komence nulo.
 ngram_count([],_,C,C).
 ngram_count([NGram|More],Atom,C,Count) :-
     once((
@@ -247,6 +328,9 @@ ngram_count([NGram|More],Atom,C,Count) :-
     )),
     ngram_count(More,Atom,C1,Count).
   
+%! ngrams(+Atom,+Len,-NGramoj) is det
+%
+% Dishakas =Atom= en n-gramojn kun la longo =N=.
 ngrams(Atom,Len,NGrams) :- 
   setof(NGram,A^B^sub_atom(Atom,B,Len,A,NGram),NGrams).
     

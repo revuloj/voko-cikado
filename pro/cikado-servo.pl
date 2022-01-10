@@ -37,6 +37,7 @@
 %:- use_module(auth).
 %:- use_module(xml_quote).
 :- use_module(ekzfnt).
+:- use_module(tekstanalizo).
 
 :- debug(http(request)).
 :- debug(cikado(_)).
@@ -100,6 +101,7 @@ http:location(verkoj,root(verkoj),[]).
 %:- http_handler(cit(.), reply_files, [prefix,authentication(openid)]).
 %:- http_handler(red(revo_bibliogr), revo_bibliogr, []).
 :- http_handler(root(cikado), citajho_sercho, []). %[authentication(ajaxid)]).
+:- http_handler(root(verkaro), verko_listo, []). %[authentication(ajaxid)]).
 
 
 
@@ -188,3 +190,12 @@ is_regex(Sercho) :-
         memberchk(C,Codes)
     )).
 
+verko_listo(Request) :-
+    %%    ajax_auth(Request),
+        %debug(cikado(auth),'permesite',[]),
+        http_parameters(Request,
+            [
+            kiu(Kiu, [oneof([klasikaj,postaj])]) 
+            ]),
+        verkaro_json(Kiu,JsonList),
+        reply_json(JsonList).

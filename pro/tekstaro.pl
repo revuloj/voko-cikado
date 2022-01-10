@@ -5,9 +5,13 @@ user:file_search_path(cfg,'../cfg').
 
 :- dynamic bib/4.
 
-% referencoj de verko-identigiloj al la bibliografio de ReVo...
-% Se la Verko-Id estas samlitera kiel la biblografia @mll, ne necesas
-% aparta referenco tie ĉi, ekz-e: bib(prv,'PrV').
+%! bib(?Id,?Bib) is nondet
+%
+% Asocio inter la verk-indiko kaj la bibliografia indiko (@mll).
+% vd [bibliografio.xml](https://github.com/revuloj/revo-fonto/blob/master/cfg/bibliogr.xml).
+% Tio funkcias aŭtomate se ambaŭ minuskligite egalas.
+% Aliokaze la rilaton ni registras per aparta fakto.
+
 bib(m_t,'MT').
 bib(n_t,'NT').
 bib(d_l,'DL').
@@ -47,6 +51,19 @@ bib(vzm,'VivZam').
 % klasikaj tekstoj de Zamnenhof, Kabe, Ŝvarc kc - ĝis 1939
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%! vrk(?Id,?Nomo,?Jaro,-Strukturo,-Dosierskemo) is nondet
+%
+% Tiu predikato priskribas registritan verkon kun sia mallongigo, nomo,
+% aperjaro, strukturo kaj dosierskemo.
+% La mallongigo Id kaj la nomo devas esti unikaj.
+% La strukturo indikas kiel la programo devas legi kaj disanalizi
+% la fontotekston, ekz-e struct_teix(foreword,story) indikas,
+% ke la fonto estas XML-teksto laŭ dokumenttipo TEI-Lite kaj
+% la sekcioj estas rekoneblaj per =|@type=forword|= kaj =|@stype=story|=.
+% Fine la dosierskemo indikas la dosierujon kaj la skemon por trovi la
+% la fontodosierojn en la disko, ekz-e verkoj('fabeloj?.xml') trovas
+% la dosierojn =|fabeloj1.xml|=, =|fabeloj2.xml|= ktp. en la dosierujo, kiun ni
+% registris sub la nomo verkoj.
 vrk(prv,proverbaro,1910,
     struct_teix(preface,chapter),
     verkoj('proverb.xml')).
@@ -440,6 +457,12 @@ vrk(ode,ondo_esperanto,2001, %..2004
     esf('ondo-de-esperanto.xml')).
 
 
+
+%! verkaro(?Verkaro,-Listo) is nondet
+%
+% Tiu predikato redonas iun el pluraj antaŭdifinitaj verkolistojj, kiujn oni povas traserĉi samtempe.
+% Momente estas difinitaj =klasikaj= por verkoj aperintaj ĝis la 2a mondmilito,
+% =postaj= por tiuj, aperintaj post la 2a mondmilito kaj =chiuj=.
 
 %verkaro(klasikaj,[pv,mt,nt,fb,gf,fr,fe,ee,ik,hm,pa,po,bu,ma,ha,ba,op,rv,ra,vz,if,lr,fk,dl]).
 verkaro(klasikaj,Verkoj) :- findall(V,(vrk(V,_,Jaro,_,_),Jaro<1940),Verkoj).

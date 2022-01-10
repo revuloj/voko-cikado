@@ -1,6 +1,7 @@
 /* -*- Mode: Prolog -*- */
 :- module(tekstaro,[
 	      verkaro/2,
+          verkaro_json/2,
 	      read_all_vrk/0,
 	      read_vrk/1,
 	      save_vrk/1,
@@ -42,6 +43,10 @@ bibliogr(cfg('bibliogr.xml')).
 %user:file_search_path(tekstoj,'/home/revo/citajhoj/tekstoj').
 %user:file_search_path(verkoj,'/home/revo/verkoj/xml').
 
+%! read_all_vrk is det.
+%
+% Legas kaj preparas ĉiujn verkojn registritajn en =testaro.pl=.
+% Tio okazas aŭtomate ĉe legado de tiu ci koddosiero.
 read_all_vrk :-
     retractall(cit(_,_,_)),
     retractall(txt(_,_,_)),
@@ -96,13 +101,19 @@ save_vrk(V) :-
 	    close(Out)
 	).
 
-% La Biblio
+%! struct_biblio(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% La Biblio: legas kaj preparas =File= por posta traserĉado.
 struct_biblio(Vrk:No,Titolo,File,_) :-
     read_file_to_codes(File,Codes,[encoding(utf8)]),
     phrase(biblio_teksto(Vrk:No,Titolo),Codes),
     assert(txt(Vrk:No,Titolo,File)).
 
-% Teix-tekstoj, Dividoj donas la ĉapitrojn por referenci trovaĵojn
+%! struct_teix(+Vrk_No,-Titolo,+File,+Dividoj) is det
+%
+% Legas =File= kiel TEIX-teksto, 
+% =Dividoj= donas la ĉapitrojn kiel listo de tip-indikoj
+% por referenci trovaĵojn
 struct_teix(Vrk:No,Titolo,File,Dividoj) :-
     teix_teksto(Vrk:No,Titolo,File,Dividoj).
 
@@ -112,34 +123,51 @@ struct_teix_nevalida(Vrk:No,Titolo,File,Dividoj) :- !,
 struct_tei(Vrk:No,Titolo,File,Dividoj) :-
     esf_teksto(Vrk:No,Titolo,File,Dividoj).
 
-% La Fundamento de Eo - limigu al Antaŭparolo kaj Ekzercaro
+%! struct_fudamento(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% La Fundamento de Eo: Legas kaj perparas la Antaŭparolon kaj Ekzercaron
+% de la Fundamento
 struct_fundamento(Vrk:No,Titolo,File,_) :- !,
    fundamento_teksto(Vrk:No,Titolo,File).
 
-% Marta
+%! struct_marta(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Marta: Legas kaj preparas la tekston de 'Marta'
 struct_marta(Vrk:No,Titolo,File,_) :- !,
    marta_teksto(Vrk:No,Titolo,File).
 
-% Verkoj el Gutenberg-projekto
+%! struct_gutenberg(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Verkoj el Gutenberg-projekto: legas kaj preparas tian tekston.
 struct_gutenberg(Vrk:No,Titolo,File,_) :- 
     guten_teksto(Vrk:No,Titolo,File).
 
 
-% Paroloj de Zamenhof, Homaranismo
+%! struct_paroloj(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Paroloj de Zamenhof, Homaranismo: legas kaj preparas tian tekston el =File=
 struct_paroloj(Vrk:No,Titolo,File,_) :- !,
    paroloj_tekstoj(Vrk:No,Titolo,File).
 
-% Monato 1
+%! struct_monato_txt(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Monato 1: legas kaj preparas simplan tekstdosieron =File= de 'Monato'
 struct_monato_txt(Vrk:No,Titolo,File,_) :- !,
     read_file_to_codes(File,Codes,[]),
     phrase(monato_teksto(Vrk:No,Titolo),Codes),
     assert(txt(Vrk:No,Titolo,File)),
     debug(tekstaro(txt),'~q',[Titolo]).
 
-% Monato 2, 3
+%! struct_monato2_html(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Monato 2: legas kaj preparas HTML-fonton de 'Monato'
 struct_monato2_html(Vrk:No,Titolo,File,_) :- !,
     monato2_html(Vrk:No,Titolo,File).
 
+
+%! struct_monato3_html(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Monato 3: legas kaj preparas HTML-fonton de 'Monato'
 struct_monato3_html(Vrk:No,Titolo,File,_) :- !,
     monato3_html(Vrk:No,Titolo,File).
 
@@ -151,6 +179,12 @@ struct_monato3_html(Vrk:No,Titolo,File,_) :- !,
 % predikatoj por analizi TEIXLITE-tekstojn al txt- kaj cit-faktoj
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%! teix_teksto(+Vrk_No,-Titolo,+File,+DivTypes) is det
+%
+% Enlegas kaj preparas XML-tekston laŭ DTD TEI.2.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Vrk:No,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 teix_teksto(Vrk:No,Titolo,File,DivTypes) :-
     teixdtd(DTDPathSpec),
     expand_file_search_path(DTDPathSpec,DTDFile),
@@ -160,6 +194,12 @@ teix_teksto(Vrk:No,Titolo,File,DivTypes) :-
     teixlite_teksto(Vrk:No,DOM,DivTypes,Titolo),
     assert(txt(Vrk:No,Titolo,File)).
 
+%! teix1_teksto(+Vrk_No,-Titolo,+File,+DivTypes) is det
+%
+% Enlegas kaj preparas XML-tekston laŭ DTD TEI.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Vrk:No,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 teix1_teksto(Vrk:No,Titolo,File,DivTypes) :-
 %    teixdtd(DTDPathSpec),
 %    expand_file_search_path(DTDPathSpec,DTDFile),
@@ -169,6 +209,12 @@ teix1_teksto(Vrk:No,Titolo,File,DivTypes) :-
     tei1lite_teksto(Vrk:No,DOM,DivTypes,Titolo),
     assert(txt(Vrk:No,Titolo,File)).
 
+%! esf_teksto(+Vrk_No,-Titolo,+File,+DivTypes) is det
+%
+% Enlegas kaj preparas XML-tekston laŭ DTD TEI de ESF.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Vrk:No,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 esf_teksto(Vrk:No,Titolo,File,DivTypes) :-
     tei_dtd(DTDPathSpec),
     expand_file_search_path(DTDPathSpec,DTDFile),
@@ -178,15 +224,21 @@ esf_teksto(Vrk:No,Titolo,File,DivTypes) :-
     tei_teksto(Vrk:No,DOM,DivTypes,Titolo),
     assert(txt(Vrk:No,Titolo,File)).
 
-/**
+/*
 % ignoru pi(..)  en [pi(...),element(TEI.2..)]
 fabelo_teksto(fb:No,[_,DOM],Titolo) :-
     teixlite_teksto(fb:No,[_,DOM],story,Titolo).
 
 faraono_teksto(fr:No,[_,DOM],Titolo) :-
     teixlite_teksto(fr:No,[_,DOM],chapter,Titolo).
-***/
+*/
 
+%! fundamento_teksto(+Dos,-Titolo,+File) is det
+%
+% Enlegas kaj preparas XML-tekston de Fundamento laŭ DTD TEI.2.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Dos,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 fundamento_teksto(Dos,Titolo,File) :-
     teixdtd(DTDPathSpec),
     expand_file_search_path(DTDPathSpec,DTDFile),
@@ -213,6 +265,12 @@ fundamento_teksto(Dos,Titolo,File) :-
     ).
 
 
+%! paroloj_tekstoj(+Dos,-Titolo,+File) is det
+%
+% Enlegas kaj preparas XML-tekston de Paroloj laŭ DTD TEI.2.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Dos,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 paroloj_tekstoj(Dos,Titolo,File) :-
     teixdtd(DTDPathSpec),
     expand_file_search_path(DTDPathSpec,DTDFile),
@@ -244,6 +302,12 @@ paroloj_tekstoj(Dos,Titolo,File) :-
 	fail
     ).
 
+%! marta_teksto(+Dos,-Titolo,+File) is det
+%
+% Enlegas kaj preparas XML-tekston de Marta laŭ DTD TEI.2.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Dos,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 marta_teksto(Dos,Titolo,File) :-
     teixdtd(DTDPathSpec),
     expand_file_search_path(DTDPathSpec,DTDFile),
@@ -269,6 +333,13 @@ marta_teksto(Dos,Titolo,File) :-
 	fail
     ).
 
+
+%! guten_teksto(+Dos,-Titolo,+File) is det
+%
+% Enlegas kaj preparas HTML-tekston de Gutenberg-projekto.
+% La trovitajn tekstojn (sekciojn) ni memoras kiel
+% faktoj =|txt(Dos,Titolo,File)|=. Pri la frazoj
+% trovitaj vd. =teixlite_div=.
 guten_teksto(Dos,Titolo,File) :-
     load_html(File,[DOM],[encoding('utf-8')]),
     xpath(DOM,/html,Root),
@@ -301,13 +372,22 @@ guten_teksto(Dos,Titolo,File) :-
 	).
 
 	
-%%	format('~n~q:~n',[SekcioTitolo]),
+%	format('~n~q:~n',[SekcioTitolo]),
 %	fail
 %    ).
 
+%! teixlite_teksto(+Dos,+DOM,+Sekcioj,-Titolo) is det
+%
+% Enlegas kaj preparas tekston jam analizitan kiel DOM
+% (dokument-objekt-modelo). Kiel =DOM= ni atendas aŭ unuelementan liston,
+% kies unusola elemento enhavas la tutan DOM, aŭ duelementan
+% liston, kies unuan elementon (PI = proceda instrukcio) ni ignoras
+% dum la efektiva XML-DOM-enhavo estas en la dua elemento.
+% =Sekcioj= donas liston de sekcio-tipoj, kiujn ni traktu.
+% Pri la frazoj trovitaj vd. =teixlite_div=.
 
-% ignoru pi(..)  en [pi(...),element(TEI.2..)]
 teixlite_teksto(Dos,[_,DOM],SectionTypes,Titolo) :-
+  % ignoru pi(..)  en [pi(...),element(TEI.2..)]
     xpath(DOM,/'TEI.2',Root),
     xpath(Root,teiHeader/fileDesc/titleStmt/title(normalize_space),Titolo),!,
     \+ (
@@ -337,24 +417,13 @@ tei1lite_teksto(Dos,[DOM],SectionTypes,Titolo) :-
 	fail
     ).
 
-teixlite_div(Dos,SekcioTitolo,Div) :- 
-    Div = element('div',_,Children),
-    member(element(ChildName,Attrs,ChildContent),Children),
-%%    write(ChildName), write(', '),
-
-    xpath(element(ChildName,Attrs,ChildContent),/self(text),Enhavo),
-    atomic_list_concat(Frazoj,'.',Enhavo),
-    forall(
-	    member(Fraz,Frazoj),
-	    once((
-		normalize_space(atom(Frazo),Fraz),
-		Frazo \= '',
-		debug(tekstaro(txt),'~q',[Frazo]),
-		assert(cit(Dos,SekcioTitolo,Frazo))
-	    ; true
-	    ))
-	).
-
+%! tei_teksto(+Dos,+DOM,+Sekcioj,-Titolo) is det
+%
+% Enlegas kaj preparas tekston jam analizitan kiel DOM
+% (dokument-objekt-modelo). Kiel =DOM= ni atendas unuelementan liston,
+% kies unusola elemento enhavas la tutan DOM.
+% =Sekcioj= donas liston de sekcio-tipoj, kiujn ni traktu.
+% Pri la frazoj trovitaj vd. =teixlite_div=.
 
 tei_teksto(Dos,[DOM],SectionTypes,Titolo) :-
     xpath(DOM,/'TEI',Root),
@@ -372,6 +441,28 @@ tei_teksto(Dos,[DOM],SectionTypes,Titolo) :-
 	teixlite_div(Dos,SekcioTitolo,Div),
 	fail
     ).
+
+%! teixlite_div(+Dos,-SekcioTitolo,+Div) is nondet.
+%
+% Trakribras XML-elementon =Div= por ĉiuj frazoj,
+% kiujn ni memoras kiel faktoj =|cit(Dos,SekcioTitolo,Frazo)|=.
+teixlite_div(Dos,SekcioTitolo,Div) :- 
+    Div = element('div',_,Children),
+    member(element(ChildName,Attrs,ChildContent),Children),
+%%    write(ChildName), write(', '),
+
+    xpath(element(ChildName,Attrs,ChildContent),/self(text),Enhavo),
+    atomic_list_concat(Frazoj,'.',Enhavo),
+    forall(
+	    member(Fraz,Frazoj),
+	    once((
+		normalize_space(atom(Frazo),Fraz),
+		Frazo \= '',
+		debug(tekstaro(txt),'~q',[Frazo]),
+		assert(cit(Dos,SekcioTitolo,Frazo))
+	    ; true
+	    ))
+	).
 
 
 % return atomic content only ignoring element content
@@ -633,6 +724,10 @@ monato_teksto_linio(Linio) -->
 % predikatoj por legi la bibliografion
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+%! read_bib is det.
+%
+% Legas la bibliografion kaj memoras la informojn kiel faktoj.
+% Tio okazas aŭtomate ĉe legado de tiu ci koddosiero.
 read_bib :-
     retractall(bib(_,_,_,_)),
     bibliogr(BibFile),
@@ -653,10 +748,14 @@ bib_url(Vrk,Url) :- once((xpath(Vrk,url(normalize_space),Url); Url='')).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% predikatoj por redoni ekzemploj kun fontindiko kiel Json
+% predikatoj por redoni ekzemplojn kun fontindiko kiel Json
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
+%! cit_to_ekzj(+Citoj,-Tekstoj) is det
+%
+% transformas liston de trovitaj citaĵojn  en la formo sim-cit
+% al listo de paroj [sim,json], t.e. kun la citajoj transformitaj
+% al JSON-strukturoj
 cit_to_ekzj(Citoj,Texts) :-
     findall(
 	    json([sim=Simil,cit=CitJson]),
@@ -666,7 +765,11 @@ cit_to_ekzj(Citoj,Texts) :-
 	    ),
 	    Texts).
 
-% kontrolu ĉu ĉiuj verkoj estas efektive citeblaj
+%! check_cit_to_json is det
+%
+% Kontrolas ĉu ĉiuj verkoj estas efektive citeblaj prenante la unuan frazon de
+% ciu verko kaj transformante ĝin als JSON-fontindiko. La rezultoj estas
+% rekte elskribitaj en la ekranon.
 check_cit_to_json :-
     %findall(V,vrk(V,_,_,_,_),Verkoj),
     %forall(member(Vrk,Verkoj),preflightcheck(Vrk)).
@@ -685,11 +788,17 @@ check_cit_to_json(Vrk) :-
 cit_to_json(cit(Vrk,Lok,Text),json([ekz=Text,fnt=FntJson])) :-
 	fnt_json(Vrk,Lok,FntJson),!.
 
-
+%! bib_(+Verko,-Bib) is det
+%
+% Redonas la bibliografian mallongigon de verko. Ĝi respondas aŭ
+% minuskligite al la verko-identigilo au estas aparte registrita. 
 bib_(Vrk,Bib) :- bib(Vrk,Bib),!.
 bib_(Vrk,Bib) :- bib(Bib,_,_,_), downcase_atom(Bib,Vrk).
 
 
+%! fnt_json(+Vrk_No,+Lok,-JSON) is det
+%
+% Transformats trovlokon al JSON-strukturo.
 fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     (Vrk = m_t ; Vrk = n_t),
 	     % TODO: aldonu titolon de la teksto
@@ -768,6 +877,31 @@ fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
     
 % se neniu antaŭa funkcias donu la sekvan por ne gluti la trovojn!
 fnt_json(Vrk:_No,Tit, json([vrk=Verko,lok=Tit])) :- vrk(Vrk,Verko,_,_,_).
+
+%! vrk_json(+Verko,-JSON) is det
+%
+% Transformas verk-identigilon al JSON-strukturo por
+% ebligi listigadon de la traserĉeblaj verkoj.
+vrk_json(Vrk,json([vrk=Vrk,jar=Jar,bib=Bib,tit=Tit,aut=Aut,url=Url])) :-
+    vrk(Vrk,_,Jar,_,_),
+    bib_(Vrk,Bib),!,
+    bib(Bib,Tit,Aut,Url).
+
+vrk_json(Vrk,json([vrk=Vrk,jar=Jar,tit=Nom])) :-
+    vrk(Vrk,Nom,Jar,_,_).
+
+%! verkaro_json(+Verkaro,-JSON) is det
+%
+% Transformas verkaron (=klasikaj=, =postaj=) al JSON-strukturo por
+% ebligi listigadon de la traserĉeblaj verkoj.
+verkaro_json(Verkaro,JsonList) :-
+    bagof(J,
+        V^VL^(
+        verkaro(Verkaro,VL),
+        member(V,VL),
+        vrk_json(V,J)
+        ),
+    JsonList).
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
