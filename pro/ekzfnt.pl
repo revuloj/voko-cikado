@@ -70,7 +70,14 @@ findfast(Max,Sercho,Trovoj) :- findfast(Max,chiuj,Sercho,Trovoj).
 % la vorto au la frazeto donita en =Sercho=. Traserĉataj estas la verkoj
 % el la verkolisto =Verkaro=. La rezulto redoniĝas en =Trovoj=.
 findfast(Max,Verkaro,Sercho,Trovoj) :-
-    verkaro(Verkaro,Verkoj),
+    once((
+        atom(Verkaro),
+        verkaro(Verkaro,Verkoj)
+        ;
+        is_list(Verkaro),
+        Verkaro = Verkoj
+    )),
+
     concurrent_maplist(findbest(contains,Max,Sercho),Verkoj,Tr),
     append(Tr,Tr1),
     length(Tr1,L), Mx2 is Max-L,
@@ -95,8 +102,16 @@ findsmart(Max,Sercho,Trovoj) :- findsmart(Max,chiuj,Sercho,Trovoj).
 % la vorto au la frazeto donita en =Sercho=. Traserĉataj estas la verkoj
 % el la verkolisto =Verkaro=. La rezulto redoniĝas en =Trovoj=.
 findsmart(Max,Verkaro,Sercho,Trovoj) :-
-  verkaro(Verkaro,Verkoj),
   atom_length(Sercho,L), L>3,
+
+  once((
+    atom(Verkaro),
+    verkaro(Verkaro,Verkoj)
+    ;
+    is_list(Verkaro),
+    Verkaro = Verkoj
+  )),
+
   concurrent_maplist(findbest(ngram,Max,Sercho),Verkoj,T), 
 
   % faru unu liston el pluraj (pro paralela serĉo)
@@ -132,15 +147,21 @@ findregex(Max,Verkaro,Sercho,Trovoj) :-
     % vd. http://www.pcre.org/current/doc/html/pcre2syntax.html#SEC10
     %atom_concat('(*UCP)',Sercho,Pattern),
     %re_compile(Pattern,Regex,[]),
-    re_compile(Sercho,Regex,[ucp(true)]),
-    verkaro(Verkaro,Verkoj),
     atom_length(Sercho,L), L>2,
+    re_compile(Sercho,Regex,[ucp(true)]),
 
+    once((
+        atom(Verkaro),
+        verkaro(Verkaro,Verkoj)
+        ;
+        is_list(Verkaro),
+        Verkaro = Verkoj
+    )),
+    
     concurrent_maplist(findbest(regex,Max,Regex),Verkoj,T), 
   
     % faru unu liston el pluraj (pro paralela serĉo)
-    append(T,Trv), !, re_flush,
-  
+    append(T,Trv), !, re_flush,  
     length(Trv,Len), debug(ekzfnt(findregex),'findregex len Trv ~w',[Len]),
   
    ( Trv = []

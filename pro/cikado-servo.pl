@@ -157,10 +157,16 @@ citajho_sercho(Request) :-
     http_parameters(Request,
 	    [
 	    sercho(Sercho, [length>1,length<500]),
-	    kie(Kie, [oneof([klasikaj,postaj])]) 
+	    kie(Kie, [optional(true),oneof([klasikaj,postaj])]),
+        vrk(Vrkj, [optional(true),length<500])
 	    ]),
-    sercho(Kie,Sercho).
-
+    once((
+        Vrkj \= '', % ni ricevis detalan verko-liston
+        sercho_vrk(Vrkj,Sercho)
+        ;
+        sercho(Kie,Sercho)
+    )).
+    
 
 sercho(Kie,Sercho) :-    
     debug(cikado(what),'>>> ~w: ~w',[Kie,Sercho]),
@@ -179,8 +185,28 @@ sercho(Kie,Sercho) :-
     )),
 %	  show_stats,
     reply_json(Json),
-    debug(cikado(what),'<<< ~w: ~w',[Kie,Sercho]) .
+    debug(cikado(what),'<<< ~w: ~w',[Kie,Sercho]).
 
+sercho_vrk(Vrkj,Sercho) :-    
+    debug(cikado(what),'>>> ~w: ~w',[Vrkj,Sercho]),
+    atom(Vrkj), Vrkj \= '',
+    atomic_list_concat(VLst,',',Vrkj),
+    once((
+        is_regex(Sercho), 
+        time(findregex(100,VLst,Sercho,Json))
+        ;
+        % se la serĉaĵo enhavas alemanŭ tri literojn kaj spacsignon 
+        % (do plurajn vortojn aŭ vorton kun antaŭa aŭ posta spaco),
+        % ni serĉos neakturate (ngram-serco, findsmart)
+        (sub_atom(Sercho,_,1,_,' '), sub_atom(Sercho,3,1,_,_),
+        time(findsmart(50,VLst,Sercho,Json))
+        ;
+        % unuopajn vortojn ni serĉas akurate (findfast)
+        time(findfast(100,VLst,Sercho,Json)))
+    )),
+%	  show_stats,
+    reply_json(Json),
+    debug(cikado(what),'<<< ~w: ~w',[Vrkj,Sercho]) .
 
 is_regex(Sercho) :-
     atom_codes(Sercho,Codes),
