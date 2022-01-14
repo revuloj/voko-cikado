@@ -221,7 +221,7 @@ verko_listo(Request) :-
         %debug(cikado(auth),'permesite',[]),
         http_parameters(Request,
             [
-            kiu(Kiu, [oneof([klasikaj,postaj])]) 
+            kiu(Kiu, [oneof([klasikaj,postaj,chiuj])]) 
             ]),
         verkaro_json(Kiu,JsonList),
         reply_json(JsonList).
