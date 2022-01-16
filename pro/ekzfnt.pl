@@ -148,7 +148,7 @@ findregex(Max,Verkaro,Sercho,Trovoj) :-
     %atom_concat('(*UCP)',Sercho,Pattern),
     %re_compile(Pattern,Regex,[]),
     atom_length(Sercho,L), L>2,
-    re_compile(Sercho,Regex,[ucp(true)]),
+    re_compile(Sercho,Regex,[caseless(true),ucp(true)]),
 
     once((
         atom(Verkaro),
