@@ -102,6 +102,7 @@ http:location(verkoj,root(verkoj),[]).
 %:- http_handler(red(revo_bibliogr), revo_bibliogr, []).
 :- http_handler(root(cikado), citajho_sercho, []). %[authentication(ajaxid)]).
 :- http_handler(root(verkaro), verko_listo, []). %[authentication(ajaxid)]).
+:- http_handler(root(kunteksto), kunteksto, []). %[authentication(ajaxid)]).
 
 
 
@@ -225,3 +226,15 @@ verko_listo(Request) :-
             ]),
         verkaro_json(Kiu,JsonList),
         reply_json(JsonList).
+
+kunteksto(Request) :-
+        %%    ajax_auth(Request),
+            %debug(cikado(auth),'permesite',[]),
+            http_parameters(Request,
+                [
+                frazo(Frazo, [nonneg]),
+                n(N, [between(0,5)])
+                ]),
+            kunteksto_json(Frazo,N,JsonList),
+            reply_json(JsonList).
+    

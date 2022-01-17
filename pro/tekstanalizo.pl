@@ -2,6 +2,7 @@
 :- module(tekstaro,[
 	      verkaro/2,
           verkaro_json/2,
+          kunteksto_json/3,
 	      read_all_vrk/0,
 	      read_vrk/1,
 	      save_vrk/1,
@@ -14,7 +15,7 @@
 :- use_module(library(xpath)).
 %:- use_module(agordo).
 
-:- dynamic txt/3, cit/3, aut/3, vrk/4, bib/2, bib/4.
+:- dynamic txt/3, cit/4, aut/3, vrk/4, bib/2, bib/4.
 
 :- consult(tekstaro).
 
@@ -48,9 +49,10 @@ bibliogr(cfg('bibliogr.xml')).
 % Legas kaj preparas ĉiujn verkojn registritajn en =testaro.pl=.
 % Tio okazas aŭtomate ĉe legado de tiu ci koddosiero.
 read_all_vrk :-
-    retractall(cit(_,_,_)),
+    retractall(cit(_,_,_,_)),
     retractall(txt(_,_,_)),
     retractall(aut(_,_,_)),
+    nb_setval(fraznro,0),
     \+ (
 	vrk(Vrk,_,_,_,_),
 	read_vrk(Vrk),
@@ -65,8 +67,11 @@ read_vrk(Vrk) :-
     %  atomic_list_concat([Rad,'/',Path,'/*.',Fin],'',Pattern),
     debug(tekstaro(vrk),'[~q] (~q/~d) ~q',[Vrk,Desc,Jar,Pattern]),
     expand_file_name(Pattern,Files),
+    nb_getval(fraznro,F1),
     read_vrk_files(Vrk,Struct,Files,1),
-    aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), CitCount),
+    nb_getval(fraznro,F2),
+    %aggregate(count, X^Y^Z^N^cit(Vrk:X,Y,Z,N), CitCount),
+    CitCount is F2 - F1,
     aggregate(count, U^V^W^txt(Vrk:U,V,W), TxtCount),
     debug(tekstaro(vrk),'-----> ~d frazoj en ~d teksto(j)',[CitCount,TxtCount]),
     !.
@@ -83,15 +88,15 @@ read_vrk_files(Vrk,Struct,[File|More],No) :-
 read_vrk_files(_,_,[],_).
 
 forget(Vrk) :-
-    retractall(tekstaro:cit(Vrk:_,_,_)),
+    retractall(tekstaro:cit(Vrk:_,_,_,_)),
     retractall(tekstaro:txt(Vrk:_,_,_)),
     retractall(tekstaro:aut(Vrk:_,_,_)).
 
 save_vrk(Out,V) :-
   forall(
-    cit(V:A,B,C),
-    format(Out,'cit(~k:~k,~k,~k).~n',[V,A,B,C])
-      ).
+    cit(V:A,B,C,F),
+    format(Out,'cit(~k:~k,~k,~k).~n',[V,A,B,C,F])
+    ).
 
 save_vrk(V) :-
     atom_concat(V,'.pl',File),
@@ -295,7 +300,8 @@ paroloj_tekstoj(Dos,Titolo,File) :-
 		    normalize_space(atom(Frazo),Fraz),
 		    Frazo \= '',
 		    debug(tekstaro(txt),'~q',[Frazo]),
-		    assert(cit(Dos,SekcioTitolo,Frazo))
+            fraznro(N),
+		    assert(cit(Dos,SekcioTitolo,Frazo,N))
 		; true
 		))
 	    ),
@@ -364,7 +370,8 @@ guten_teksto(Dos,Titolo,File) :-
 		    normalize_space(atom(Frazo),Fraz),
 		    Frazo \= '',
 		    debug(tekstaro(txt),'~q',[Frazo]),
-		    assert(cit(Dos,Titolo,Frazo))
+            fraznro(N),
+		    assert(cit(Dos,Titolo,Frazo,N))
 		  ; true
 		))
 	    ),
@@ -459,7 +466,8 @@ teixlite_div(Dos,SekcioTitolo,Div) :-
 		normalize_space(atom(Frazo),Fraz),
 		Frazo \= '',
 		debug(tekstaro(txt),'~q',[Frazo]),
-		assert(cit(Dos,SekcioTitolo,Frazo))
+        fraznro(N),
+		assert(cit(Dos,SekcioTitolo,Frazo,N))
 	    ; true
 	    ))
 	).
@@ -504,7 +512,8 @@ monato2_html(Dos,Titolo,File) :-
 		Frazo \= '',
 		lat3_utf8(Frazo,F),
 		debug(tekstaro(txt),'~q',[F]),
-		assert(cit(Dos,Titolo,F))
+        fraznro(N),
+		assert(cit(Dos,Titolo,F,N))
 	      ; true
 	    ))
 	),
@@ -534,7 +543,8 @@ monato3_html(Dos,Titolo,File) :-
 		normalize_space(atom(Frazo),Fraz),
 		Frazo \= '',
 		debug(tekstaro(txt),'~q',[Frazo]),
-		assert(cit(Dos,Titolo,Frazo))
+        fraznro(N),
+		assert(cit(Dos,Titolo,Frazo,N))
 	      ; true
 	    ))
 	),
@@ -566,7 +576,8 @@ biblio_chapitroj(_,_) -->[].
 
 biblio_chapitro(VrkTxt,No) --> biblio_chapitro_titolo(No,SubTitolo), "\n\n",
 			       { SubTitolo = '' -> true
-				 ; assert(cit(VrkTxt,No,SubTitolo))
+				 ; 
+                    fraznro(N),assert(cit(VrkTxt,No,SubTitolo,N))
 			       },
 			       biblio_chapitro_teksto(VrkTxt,No).
 
@@ -609,7 +620,8 @@ biblio_alineo(VrkTxt,ChapNo,AlnNo) -->
     {
 	append(Text1,[32|Text2],Text),
 	atom_codes(T,Text),
-	assert(cit(VrkTxt,ChapNo:AlnNo,T)),
+    fraznro(N),
+	assert(cit(VrkTxt,ChapNo:AlnNo,T,N)),
 	debug(tekstaro(txt),'    ~d:~d ~q',[ChapNo,AlnNo,T])
     }.
 biblio_alineo_tail([]) --> biblio_piednoto. 
@@ -668,7 +680,8 @@ monato_teksto_frazoj(Dos,Titolo,Teksto) :-
 		%Fraz=F,
 		cx_utf8(Fraz,F),
 		debug(tekstaro(txt),'~q',[F]),
-		assert(cit(Dos,Titolo,F))
+        fraznro(N),
+		assert(cit(Dos,Titolo,F,N))
 	    ; true))
 	).	
 
@@ -777,16 +790,36 @@ check_cit_to_json :-
 
 check_cit_to_json(Vrk) :-
     once((
-        aggregate(count, X^Y^Z^cit(Vrk:X,Y,Z), CitCount), CitCount>10,
-        N is div(CitCount,2), call_nth(cit(Vrk:Dos,Lok,Fraz),N),
-        cit_to_json(cit(Vrk:Dos,Lok,Fraz),Json),
+        aggregate(count, X^Y^Z^Fn^cit(Vrk:X,Y,Z,Fn), CitCount), CitCount>10,
+        N is div(CitCount,2), call_nth(cit(Vrk:Dos,Lok,Fraz,Fn),N),
+        cit_to_json(cit(Vrk:Dos,Lok,Fraz,Fn),Json),
         format('~w:',[Vrk]), json_write(current_output,Json),nl
         ;
         format("NE CITEBLA: ~w~n",[Vrk])
     )).
 
-cit_to_json(cit(Vrk,Lok,Text),json([ekz=Text,fnt=FntJson])) :-
+cit_to_json(cit(Vrk,Lok,Text,Fn),json([ekz=Text,fnt=FntJson,fno=Fn])) :-
 	fnt_json(Vrk,Lok,FntJson),!.
+
+%! kunteksto_json(+Frazo,+N,-JSON) is det
+%
+% Redonas JSON-strukturon kun la kunteksto de frazo
+% donita per ĝia numero, =N= estas la nombro de redonitaj
+% antaŭaj kaj postaj frazoj
+kunteksto_json(FrazNro,N,JsonList) :-
+    % eltrovu unue la verkon, ni konsideras
+    % nur kuntekstajn frazojn de la sama verko kaj dosiero
+    % Ĉu ankaŭ la titolo (sekcio) estu limigita?
+    cit(Vrk:Dos,_,_,FrazNro),
+    Min is FrazNro-N,
+    Max is FrazNro+N,
+    bagof(J,
+        Lok^Txt^Fn^(
+            between(Min,Max,Fn),
+            cit(Vrk:Dos,Lok,Txt,Fn),
+            cit_to_json(cit(Vrk:Dos,Lok,Txt,Fn),J)
+        ),
+        JsonList).
 
 %! bib_(+Verko,-Bib) is det
 %
@@ -904,11 +937,18 @@ verkaro_json(Verkaro,JsonList) :-
     JsonList).
 
 
+
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % helpo-predikatoj / DCG por analizado
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 lookahead(T), T --> T.
+
+fraznro(N) :-
+    nb_getval(fraznro,N_1),
+    succ(N_1,N),
+    nb_setval(fraznro,N).
 
 line_upper([C|Tail]) --> [C],
 	{ code_type(C,upper) },

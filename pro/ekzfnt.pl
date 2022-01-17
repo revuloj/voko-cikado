@@ -45,7 +45,7 @@ printbest(Method,Max,Sercho,Vrk) :-
 		 ->
 		     once((
 			Method=ngram,
-			Cit = cit(_,_,Text),	 
+			Cit = cit(_,_,Text,_),	 
 			debug_ngrams(Sercho,Text,4)
 			;
 			true
@@ -184,24 +184,24 @@ findregex(Max,Verkaro,Sercho,Trovoj) :-
 % =Vrk= povas esti unopa verko aŭ listo de verkoj, ekze =|[prv,m_t]|=. 
 % La rezulto redoniĝas en =Trovoj=.
 findbest(Method,Max,Sercxo,Vrk,Trovoj) :-
-    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
+    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt,Fn),
 	     limit(Max,
 		   order_by([desc(Simil)],
 			    (
 				%member(Vrk,Verkoj),
-				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil)
+				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil)
 			    ))),
 	     Trovoj), !.
 
 
 findbest(Method,Max,Sercxo,Verkoj,Trovoj) :-
     is_list(Verkoj),
-    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
+    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt,Fn),
 	     limit(Max,
 		   order_by([desc(Simil)],
 			    (
 				member(Vrk,Verkoj),
-				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil)
+				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil)
 			    ))),
 	     Trovoj), !.
 
@@ -216,25 +216,25 @@ findbest(_,_,_,_,[]).
 findbest_excl(Method,Max,Sercxo,Vrk,Ekskludoj,Trovoj) :-
     \+ is_list(Vrk),
     %normalize(Sercho,Sercxo),
-    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
+    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt,Fn),
 	     limit(Max,
 		   order_by([desc(Simil)],
 			    (
-				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil),
-                                \+ memberchk(cit(Vrk:Dos,Lok,Txt),Ekskludoj)
+				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil),
+                                \+ memberchk(cit(Vrk:Dos,Lok,Txt,Fn),Ekskludoj)
 			    ))),
 	     Trovoj), !.
 
 findbest_excl(Method,Max,Sercxo,Verkoj,Ekskludoj,Trovoj) :-
     is_list(Verkoj),
     %normalize(Sercho,Sercxo),
-    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt),
+    group_by(_, Simil-cit(Vrk:Dos,Lok,Txt,Fn),
 	     limit(Max,
 		   order_by([desc(Simil)],
 			    (
 				member(Vrk,Verkoj),
-				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil),
-                                \+ memberchk(cit(Vrk:Dos,Lok,Txt),Ekskludoj)
+				find(Method,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil),
+                                \+ memberchk(cit(Vrk:Dos,Lok,Txt,Fn),Ekskludoj)
 			    ))),
 	     Trovoj), !.
 
@@ -255,27 +255,27 @@ excl_chk(Excl,_-Cit) :- memberchk(Cit,Excl).
 % serĉon al tiu verko. =Simileco= donas valoron inter 0 kaj 1
 % por mezuro, kiom bone la trovo konformas al la serĉesprimo.
 % Ĉe ekzaktaj serĉmetodoj =contains= kaj =regex= gi estas ciam 1.0
-find(ngram,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil) :-
+find(ngram,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil) :-
     atom_length(Sercxo,L), L>3,
     ngrams(Sercxo,4,NGrams),
-    tekstaro:cit(Vrk:Dos,Lok,Txt),
+    tekstaro:cit(Vrk:Dos,Lok,Txt,Fn),
     ngram_find(NGrams,Txt,Simil),
     Simil > 0.3. %0.3 .
 
-find(isub,Sercxo,cit(Vrk:Dos,Lok,Txt),Simil) :-
+find(isub,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),Simil) :-
     downcase_atom(Sercxo,S),
-    tekstaro:cit(Vrk:Dos,Lok,Txt),
+    tekstaro:cit(Vrk:Dos,Lok,Txt,Fn),
     downcase_atom(Txt,T),
     isub(S,T,Simil,[zero_to_one(true)]),
     Simil > 0.5 .
 
-find(contains,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
+find(contains,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),1.0) :-
     downcase_atom(Sercxo,S),
-    tekstaro:cit(Vrk:Dos,Lok,Txt),
+    tekstaro:cit(Vrk:Dos,Lok,Txt,Fn),
     text_contained(S,Txt).
 
-find(regex,Sercxo,cit(Vrk:Dos,Lok,Txt),1.0) :-
-    tekstaro:cit(Vrk:Dos,Lok,Txt),
+find(regex,Sercxo,cit(Vrk:Dos,Lok,Txt,Fn),1.0) :-
+    tekstaro:cit(Vrk:Dos,Lok,Txt,Fn),
     re_match(Sercxo,Txt).    
 
 %! ngram_find(+NGrams,+Teksto:atom,-Simileco) is nondet
