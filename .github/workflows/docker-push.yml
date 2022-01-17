@@ -44,9 +44,9 @@ jobs:
         run: |
            docker build . --file Dockerfile --tag $IMAGE_NAME
 
-#      - name: Testoj de ${{ env.IMAGE_NAME }}
-#        run: |
-#          docker run $IMAGE_NAME bash -c "perl -MMIME::Entity -MAuthen::SASL::Perl -MIO::Socket::SSL -e1"
+      - name: Testoj de ${{ env.IMAGE_NAME }}
+        run: |
+          tst/docker-test.sh $IMAGE_NAME
 
       - name: Arĥivo de ${{ env.IMAGE_NAME }}
         run: |

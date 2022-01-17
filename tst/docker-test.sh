@@ -1,5 +1,7 @@
 #!/bin/bash
 
+docker_image="${1:-voko-cikado:latest}"
+
 # lanĉi la test-procezujon
 docker run -p 8082 --name cikado-test --rm -d voko-cikado:latest
 
@@ -23,9 +25,20 @@ do
   sleep 10
 done
 
-#curl -L "http://$HPORT/"
-echo "Akirante la verkoliston..."
-curl -L "http://$HPORT/cikado/verkaro?kiu=chiuj"
+# momente ni nur testas, ĉu la retpetoj estas sukcesaj. Uzante 'jq'
+# ni povus ankaŭ pli detale rigardi ĉu la enhavo estas kiel atendita...
 
-#echo ""; echo "Forigi..."
-#docker kill cikado-test
+echo ""; echo "Akirante la verkoliston..."
+curl -fLI "http://$HPORT/cikado/verkaro?kiu=chiuj"
+
+echo ""; echo "Simpla serĉo pri 'hundo'..."
+curl -fLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
+
+echo ""; echo "Serĉante je regulesprimo..."
+curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
+
+echo ""; echo "Petante kuntekston de frazo per nombro..."
+curl -fLI "http://$HPORT/cikado/kunteksto?frazo=35967&n=1"
+
+echo ""; echo "Forigi..."
+docker kill cikado-test
