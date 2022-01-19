@@ -3,7 +3,7 @@
 docker_image="${1:-voko-cikado:latest}"
 
 # lanĉi la test-procezujon
-docker run -p 8082 --name cikado-test --rm -d voko-cikado:latest
+docker run -p 8082 --name cikado-test --rm -d ${docker_image}
 
 # atendi, ĝis ĝi ricevis retpordon
 while ! docker port cikado-test
