@@ -16,11 +16,19 @@ bib(m_t,'MT').
 bib(n_t,'NT').
 bib(d_l,'DL').
 bib(e_e,'EE').
+bib(hom,'Homaranismo').
 bib(mrt,'Marta').
 bib(d_l,'DL').
 bib(f_e,'F').
 bib(f_k,'FK').
+bib(fb1,'Fab1').
+bib(fb2,'Fab2').
+bib(fb3,'Fab3').
+bib(fb4,'Fab4').
 bib(fbg,'ElektFab').
+bib(fr1,'Far1').
+bib(fr2,'Far2').
+bib(fr3,'Far3').
 bib(grd,'Gerda').
 bib(hml,'Hamlet').
 bib(ifi,'Ifigenio').
@@ -73,12 +81,27 @@ vrk(m_t,biblio_malnova,1916,
 vrk(n_t,biblio_nova,1916,
     struct_biblio,
     tekstoj('biblio/nova/*.utf')).
-vrk(fba,fabeloj,1926, %+/26/32/63
+vrk(fb1,fabeloj1,1926, 
     struct_teix(foreword,story),
-    verkoj('fabeloj?.xml')).
-vrk(far,faraono,1926,
+    verkoj('fabeloj1.xml')).
+vrk(fb2,fabeloj2,1926, 
+    struct_teix(foreword,story),
+    verkoj('fabeloj2.xml')).
+vrk(fb3,fabeloj3,1932, 
+    struct_teix(foreword,story),
+    verkoj('fabeloj3.xml')).
+vrk(fb4,fabeloj4,1963, 
+    struct_teix(foreword,story),
+    verkoj('fabeloj4.xml')).
+vrk(fr1,faraono1,1927,
     struct_teix(chapter),
-    verkoj('faraono?.xml')).
+    verkoj('faraono1.xml')).
+vrk(fr2,faraono2,1926,
+    struct_teix(chapter),
+    verkoj('faraono1.xml')).
+vrk(fr3,faraono3,1926,
+    struct_teix(chapter),
+    verkoj('faraono1.xml')).
 vrk(f_e,fundamento,1905,
     struct_fundamento,
     verkoj('fundamento.xml')).
