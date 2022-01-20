@@ -1,6 +1,7 @@
 user:file_search_path(tekstoj,'../txt').
 user:file_search_path(esf,'../txt/tei_esf/tekstoj').
 user:file_search_path(verkoj,'../txt/tei2').
+user:file_search_path(ekstraj,'../ekstraj').
 user:file_search_path(cfg,'../cfg').
 
 :- dynamic bib/4.
@@ -427,7 +428,7 @@ vrk(sra,satiraj_rakontoj,1950, %..1969
 
 vrk(scr,senchesa,1997,
     struct_teix(chapter),
-    verkoj('senchesa*.xml')). % per la * ignoriĝas, se mankas!
+    ekstraj('senchesa*.xml')). % per la * ignoriĝas, se mankas!
 
 vrk(tki,tokio_invitas,1963,
     struct_tei(artikolo),
