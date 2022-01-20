@@ -12,3 +12,5 @@ curl -L "http://localhost:8000/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
 
 curl -L "http://localhost:8000/cikado/kunteksto?frazo=35967&n=2"
 
+curl -L "http://localhost:8000/cikado/cikado?sercho=\bhun[dt]o&jar_de=1940&jar_ghis=1950"
+

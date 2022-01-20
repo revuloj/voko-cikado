@@ -441,6 +441,7 @@ vrk(viv,vivo_vokas,1946,
     struct_tei(chapitro),
     esf('vivo-vokas.xml')).
 
+/* kvalito nur subaveraĝa...:
 vrk(md02,mondediplo1,2002,
     struct_tei(artikolo),
     esf('mondediplo-2002.xml')).
@@ -464,6 +465,7 @@ vrk(md14,mondediplo5,2014,
 vrk(md17,mondediplo6,2017,
     struct_tei(artikolo),
     esf('mondediplo-2017.xml')).
+*/
 
 vrk(mo1,monato_1,1993, %..-1995
     struct_monato_txt,
@@ -491,6 +493,7 @@ vrk(ode,ondo_esperanto,2001, %..2004
 verkaro(klasikaj,Verkoj) :- findall(V,(vrk(V,_,Jaro,_,_),Jaro<1940),Verkoj).
 verkaro(postaj,Verkoj) :- findall(V,(vrk(V,_,Jaro,_,_),Jaro>=1940),Verkoj).
 verkaro(chiuj,Verkoj) :- findall(V,vrk(V,_,_,_,_),Verkoj).
+verkaro(De-Ghis,Verkoj) :- findall(V,(vrk(V,_,Jaro,_,_),Jaro>=De,Jaro=<Ghis),Verkoj).
 
 verko_listo:- 
     bagof(V-J-T,X^Y^vrk(V,T,J,X,Y),Vj),

@@ -1,5 +1,9 @@
 #!/bin/bash
 
+# tuj finu se unuopa komando fiaskas 
+# - necesas por distingi sukcesan de malsukcesa testaro
+set -e
+
 docker_image="${1:-voko-cikado:latest}"
 
 # lanĉi la test-procezujon
@@ -36,6 +40,12 @@ curl -fLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
 
 echo ""; echo "Serĉante je regulesprimo..."
 curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
+
+echo ""; echo "Serĉante en jarperiodo..."
+curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&jar_de=1940&jar_ghis=1950"
+
+echo ""; echo "Serĉante en konkreta verkaro..."
+curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&vrk=prv,d_l"
 
 echo ""; echo "Petante kuntekston de frazo per nombro..."
 curl -fLI "http://$HPORT/cikado/kunteksto?frazo=35967&n=1"
