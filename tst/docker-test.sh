@@ -33,22 +33,22 @@ done
 # ni povus ankaŭ pli detale rigardi ĉu la enhavo estas kiel atendita...
 
 echo ""; echo "Akirante la verkoliston..."
-curl -fLI "http://$HPORT/cikado/verkaro?kiu=chiuj"
+curl -fsLI "http://$HPORT/cikado/verkaro?kiu=chiuj"
 
 echo ""; echo "Simpla serĉo pri 'hundo'..."
-curl -fLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
 
 echo ""; echo "Serĉante je regulesprimo..."
-curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
 
 echo ""; echo "Serĉante en jarperiodo..."
-curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&jar_de=1940&jar_ghis=1950"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&jar_de=1940&jar_ghis=1950"
 
 echo ""; echo "Serĉante en konkreta verkaro..."
-curl -fLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&vrk=prv,d_l"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&vrk=prv,d_l"
 
 echo ""; echo "Petante kuntekston de frazo per nombro..."
-curl -fLI "http://$HPORT/cikado/kunteksto?frazo=35967&n=1"
+curl -fsLI "http://$HPORT/cikado/kunteksto?frazo=35967&n=1"
 
 echo ""; echo "Forigi..."
 docker kill cikado-test
