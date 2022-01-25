@@ -839,13 +839,6 @@ fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     format(atom(FntLok),'~w ~w',[Titolo,Lok]),
 	     bib_(Vrk,Bib).	     
 
-fnt_json(fba:No,Lok,json([bib=Bib,lok=Lok])) :-
-      format(atom(Bib),'Fab~d',[No]).
-
-fnt_json(f_e:_,Lok,json([bib='F',lok=Lok])).
-
-fnt_json(fbg:_,Lok,json([bib='ElektFab',lok=Lok])).
-
 fnt_json(far:No,Lok,json([bib=Bib,lok=FntLok])) :-
     format(atom(Bib),'Far~d',[No]),
     atomic_list_concat([Vorto|Vortoj],' ',Lok),
@@ -857,18 +850,14 @@ fnt_json(far:No,Lok,json([bib=Bib,lok=FntLok])) :-
 
 fnt_json(par:_,Tit,json([bib='Paroloj',vrk=Tit])).
 fnt_json(hom:_,Tit,json([bib='Homaranismo',vrk=Tit])).
-fnt_json(lrz:_,Lok,json([bib='LR',lok=Lok])).
 
 fnt_json(poe:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
-
-fnt_json(rab:_,Lok,json([bib='Rabistoj',lok=Lok])).
-fnt_json(rvz:_,Lok,json([bib='Revizoro',lok=Lok])).
 
 fnt_json(ode:_,Lok,json([bib='LOdE',lok=Loko])) :-
     once((
         % ignoru unuan parton de Lok: 'SENDEPENDA ĈIUMONATA REVUO. '
         atomic_list_concat([_|L],'.',Lok),
-        atomic_list_concat(L,',',Loko)
+        atomic_list_concat(L,', ',Loko)
     ;
         Loko = Lok
     )).
@@ -905,7 +894,10 @@ fnt_json(mo3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	%))
 
 
-% se ni scias almenaŭ bbibliografian mallongigon, uzu tiun
+fnt_json(Vrk:No,Lok,json([bib=Bib,lok=Lok])) :-
+    bib(Vrk,Bib), atom(Lok).   
+
+% se ni scias almenaŭ bibliografian mallongigon, uzu tiun
 fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
     
 % se neniu antaŭa funkcias donu la sekvan por ne gluti la trovojn!
