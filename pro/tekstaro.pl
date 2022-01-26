@@ -45,6 +45,7 @@ bib(lrz,'LR').
 bib(msh,'MortulŜip').
 bib(mtp,'Metrop').
 bib(par,'Paroloj').
+bib(ode,'LOdE').
 bib(p_i,'Iŝtar').
 bib(pkp,'PatrojFiloj').
 bib(rab,'Rabistoj').

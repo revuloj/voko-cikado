@@ -15,6 +15,13 @@
 :- use_module(library(xpath)).
 %:- use_module(agordo).
 
+
+% faktoj:
+% vrk(mt,...)
+% txt(mt:1,'Genezo','biblio/malnova/01biblio.gen.utf')
+% cit(mt:1,'3:14','Kaj Dio la Eternulo diris al la..').
+% aut(m2:1,'Funebro sen dio','Anna Loewenstein').
+
 :- dynamic txt/3, cit/4, aut/3, vrk/4, bib/2, bib/4.
 
 :- consult(tekstaro).
@@ -25,11 +32,6 @@
 %:- debug(tekstaro(dos)).
 %:- debug(tekstaro(chap)).
 %%:- debug(tekstaro(txt)).
-
-% vrk(mt,...)
-% txt(mt:1,'Genezo','biblio/malnova/01biblio.gen.utf')
-% cit(mt:1,3:14,'Kaj Dio la Eternulo diris al la..').
-% aut(m2:1,'Funebro sen dio','Anna Loewenstein').
 
 %:- initialization(agordo).
 %%%% Vi povas tie ĉi malŝalti portempe la aŭtomatan tekstŝargon, sed
@@ -856,7 +858,7 @@ fnt_json(poe:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).
 fnt_json(ode:_,Lok,json([bib='LOdE',lok=Loko])) :-
     once((
         % ignoru unuan parton de Lok: 'SENDEPENDA ĈIUMONATA REVUO. '
-        atomic_list_concat([_|L],'.',Lok),
+        atomic_list_concat([_|L],'. ',Lok),
         atomic_list_concat(L,', ',Loko)
     ;
         Loko = Lok
@@ -894,8 +896,8 @@ fnt_json(mo3:No,Tit,json([bib='Monato',aut=Aut,vrk=Tit,url=Url,lok=Jaro])) :-
 	%))
 
 
-fnt_json(Vrk:No,Lok,json([bib=Bib,lok=Lok])) :-
-    bib(Vrk,Bib), atom(Lok).   
+fnt_json(Vrk:_,Lok,json([bib=Bib,lok=Lok])) :-
+    bib_(Vrk,Bib), atom(Lok).   
 
 % se ni scias almenaŭ bibliografian mallongigon, uzu tiun
 fnt_json(Vrk:_,_,json([bib=Bib])) :- bib_(Vrk,Bib).
@@ -911,6 +913,16 @@ vrk_json(Vrk,json([vrk=Vrk,jar=Jar,bib=Bib,tit=Tit,aut=Aut,url=Url])) :-
     vrk(Vrk,_,Jar,_,_),
     bib_(Vrk,Bib),!,
     bib(Bib,Tit,Aut,Url).
+
+vrk_json(poe,json([vrk=poe,jar=Jar,aut='L. L. Zamenhof',tit='Poemoj'])) :- !,
+    vrk(poe,_,Jar,_,_).
+
+vrk_json(scr,json([vrk=scr,jar=Jar,aut='Michael Ende',tit='La Senĉesa Rakonto'])) :- !,
+    vrk(scr,_,Jar,_,_).
+
+vrk_json(Vrk,json([vrk=Vrk,jar=Jar,bib='Monato',aut='Diversaj aŭtoroj',tit='Monato'])) :-
+    memberchk(Vrk,[mo1,mo2,mo3]),!,
+    vrk(Vrk,_,Jar,_,_).
 
 vrk_json(Vrk,json([vrk=Vrk,jar=Jar,tit=Nom])) :-
     vrk(Vrk,Nom,Jar,_,_).
