@@ -441,7 +441,7 @@ tei_teksto(Dos,[DOM],SectionTypes,Titolo) :-
 	xpath(Root,//(div(@type=Type)),Div),
 	memberchk(Type,SectionTypes),
     once((
-        xpath(Div,/(div)/head(content),Cnt),
+        xpath(Div,/(div)/head(normalize_space),Cnt),
         text_content(Cnt,SekcioTitolo)
         ; SekcioTitolo=''
     )),
@@ -841,8 +841,9 @@ fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     format(atom(FntLok),'~w ~w',[Titolo,Lok]),
 	     bib_(Vrk,Bib).	     
 
-fnt_json(far:No,Lok,json([bib=Bib,lok=FntLok])) :-
-    format(atom(Bib),'Far~d',[No]),
+fnt_json(Far:No,Lok,json([bib=Bib,lok=FntLok])) :-
+    member(Far-Bib,[fr1-'Far1',fr2-'Far2',fr3-'Far3']),
+    %format(atom(Bib),'Far~d',[No]),
     atomic_list_concat([Vorto|Vortoj],' ',Lok),
     sub_atom(Vorto,0,1,_,L1),
     sub_atom(Vorto,1,_,0,Literoj),
@@ -851,6 +852,9 @@ fnt_json(far:No,Lok,json([bib=Bib,lok=FntLok])) :-
     atomic_list_concat([Vorto1|Vortoj],' ',FntLok).
 
 fnt_json(par:_,Tit,json([bib='Paroloj',vrk=Tit])).
+
+fnt_json(prv:_,_,json([bib='PrV'])). % ignoru ĉaptirojn en PrV!
+
 fnt_json(hom:_,Tit,json([bib='Homaranismo',vrk=Tit])).
 
 fnt_json(poe:_,Tit,json([aut='L. L. Zamenhof',vrk=Tit])).

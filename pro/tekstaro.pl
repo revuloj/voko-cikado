@@ -100,10 +100,10 @@ vrk(fr1,faraono1,1927,
     verkoj('faraono1.xml')).
 vrk(fr2,faraono2,1926,
     struct_teix(chapter),
-    verkoj('faraono1.xml')).
+    verkoj('faraono2.xml')).
 vrk(fr3,faraono3,1926,
     struct_teix(chapter),
-    verkoj('faraono1.xml')).
+    verkoj('faraono3.xml')).
 vrk(f_e,fundamento,1905,
     struct_fundamento,
     verkoj('fundamento.xml')).
