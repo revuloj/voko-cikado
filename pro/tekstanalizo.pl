@@ -428,7 +428,7 @@ tei1lite_teksto(Dos,[DOM],SectionTypes,Titolo) :-
 
 %! tei_teksto(+Dos,+DOM,+Sekcioj,-Titolo) is det
 %
-% Enlegas kaj preparas tekston jam analizitan kiel DOM
+% Enlegas kaj preparas tekston (de ESF) jam analizitan kiel DOM
 % (dokument-objekt-modelo). Kiel =DOM= ni atendas unuelementan liston,
 % kies unusola elemento enhavas la tutan DOM.
 % =Sekcioj= donas liston de sekcio-tipoj, kiujn ni traktu.
@@ -441,8 +441,12 @@ tei_teksto(Dos,[DOM],SectionTypes,Titolo) :-
 	xpath(Root,//(div(@type=Type)),Div),
 	memberchk(Type,SectionTypes),
     once((
-        xpath(Div,/(div)/head(normalize_space),Cnt),
-        text_content(Cnt,SekcioTitolo)
+        xpath(Div,/(div)/head(normalize_space),SekcioTitolo)
+        % ni uzas (normalize_space) anst. (content)+text_content, ĉar
+        % ekz-e en QuV aperas ĉapitronumero en aparta elemento:
+        % <head>ĈAPITRO <num>I</num></head>, do ni alie
+        % ricevus nur "ĈAPITRO"!
+        %,text_content(Cnt,SekcioTitolo)
         ; SekcioTitolo=''
     )),
 	debug(tekstaro(chap),'~q',[SekcioTitolo]),
@@ -475,7 +479,9 @@ teixlite_div(Dos,SekcioTitolo,Div) :-
 	).
 
 
-% return atomic content only ignoring element content
+%! text_content(+ContentList,-Atom) 
+%
+% Redonas nur la tekstan enhavon de la enhav-listo ignorante elementan enhavon
 text_content(Cnt,Atom) :-
     text_content_(Cnt,List),
     atomic_list_concat(List,A),
@@ -841,7 +847,7 @@ fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     format(atom(FntLok),'~w ~w',[Titolo,Lok]),
 	     bib_(Vrk,Bib).	     
 
-fnt_json(Far:No,Lok,json([bib=Bib,lok=FntLok])) :-
+fnt_json(Far:_,Lok,json([bib=Bib,lok=FntLok])) :-
     member(Far-Bib,[fr1-'Far1',fr2-'Far2',fr3-'Far3']),
     %format(atom(Bib),'Far~d',[No]),
     atomic_list_concat([Vorto|Vortoj],' ',Lok),
