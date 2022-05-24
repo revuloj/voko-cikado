@@ -186,6 +186,10 @@ vrk(hml,hamleto,1893,
     struct_gutenberg,
     tekstoj('gutenberg/Hamleto.html')).
 
+vrk(ido,idoj_orfeo,1923,
+    struct_tei(antauparolo,parto),
+    esf('idoj-de-orfeo.xml')).
+
 vrk(hst,homoj_tero,1932,
     struct_tei(parto),
     esf('homoj-sur-la-tero.xml')).
@@ -208,6 +212,7 @@ vrk(kzg,kion_zamenhof,1906,
 vrk(ifi,ifigenio,1908,
     struct_gutenberg,
     tekstoj('gutenberg/Ifigenio.html')).
+
 vrk(lrz,lingvaj_respondoj,1889, %..-1913
     struct_tei(chapitro),
     esf('lingvaj-respondoj.xml')).
