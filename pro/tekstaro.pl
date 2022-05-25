@@ -217,7 +217,9 @@ vrk(lrz,lingvaj_respondoj,1889, %..-1913
     struct_tei(chapitro),
     esf('lingvaj-respondoj.xml')).
 
-
+vrk(mra,mirinda_amo,1913,
+    struct_tei(chapitro),
+    esf('mirinda-amo.xml')).
 
 vrk(kkl,kompatinda_klem,1931,
     struct_tei(chapitro),
