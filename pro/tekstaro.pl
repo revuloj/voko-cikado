@@ -276,6 +276,10 @@ vrk(rob,robinsono,1908,
     struct_tei(enkonduko,parto),
     esf('robinsono-kruso.xml')).
 
+vrk(srt,sro_tadeo,1918,    
+    struct_tei(antauparolo,chapitro),
+    esf('sinjoro-tadeo.xml')).
+
 vrk(tor,al_torento,1930,
     struct_tei(chapitro),
     esf('al-torento.xml')).
@@ -449,6 +453,23 @@ vrk(vra,vespera_rugho,1950,
 vrk(viv,vivo_vokas,1946,
     struct_tei(chapitro),
     esf('vivo-vokas.xml')).
+
+vrk(lae,lingvistikaj_aspektoj,1978,    
+    struct_tei(antauparolo,chapitro),
+    esf('lingvistikaj-aspektoj.xml')).
+
+vrk(oip,ombro_interna,1984,    
+    struct_tei(antauparolo,precipa,postparolo),
+    esf('ombro-sur-interna-pejzagho.xml')).
+
+vrk(stu,shtona_urbo,1999,    
+    struct_tei(antauparolo,parto),
+    esf('la-shtona-urbo.xml')).
+
+vrk(mja,memorajhoj_agripina,2021,    
+    struct_tei(parto),
+    esf('la-memorajhoj-de-julia-agripina.xml')).
+    
 
 /* kvalito nur subaveraĝa...:
 vrk(md02,mondediplo1,2002,
