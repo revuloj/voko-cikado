@@ -39,13 +39,14 @@ echo ""; echo "Simpla serĉo pri 'hundo'..."
 curl -fsLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
 
 echo ""; echo "Serĉante je regulesprimo..."
+# curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
 curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
 
 echo ""; echo "Serĉante en jarperiodo..."
-curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&jar_de=1940&jar_ghis=1950"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=%5Cbhun%5Bdt%5Do&jar_de=1940&jar_ghis=1950"
 
 echo ""; echo "Serĉante en konkreta verkaro 1..."
-curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&vrk=prv,d_l"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=%5Cbhun%5Bdt%5Do&vrk=prv%2Cd_l"
 
 echo ""; echo "Serĉante en konkreta verkaro 2..."
 curl -fsLI "http://$HPORT/cikado/cikado?sercho=malfeli%C4%89o&vrk=fr1,fr2,fr3"
