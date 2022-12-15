@@ -40,7 +40,7 @@ curl -fsLI "http://$HPORT/cikado/cikado?sercho=hundo&kie=klasikaj"
 
 echo ""; echo "Serĉante je regulesprimo..."
 # curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
-curl -fsLI "http://$HPORT/cikado/cikado?sercho=\bhun[dt]o&kie=klasikaj"
+curl -fsLI "http://$HPORT/cikado/cikado?sercho=%5Cbhun%5Bdt%5Do&kie=klasikaj"
 
 echo ""; echo "Serĉante en jarperiodo..."
 curl -fsLI "http://$HPORT/cikado/cikado?sercho=%5Cbhun%5Bdt%5Do&jar_de=1940&jar_ghis=1950"
