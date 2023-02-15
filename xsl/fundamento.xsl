@@ -419,7 +419,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<!-- grakademiajn korektojn po lingvo metu en propran dosieron -->
+<!-- akademiajn korektojn po lingvo metu en propran dosieron -->
 
 <xsl:template match="text[@id='akkor']/body">
   <center>
@@ -435,6 +435,9 @@ specialajn regulojn ne au alie difinitajn tie.
   </ul>
   <hr/>
   <xsl:apply-templates select="div"/>
+  <xsl:for-each select="div[@type='prolog']">
+    <xsl:call-template name="footer"/>
+  </xsl:for-each>
 </xsl:template>
 
 
