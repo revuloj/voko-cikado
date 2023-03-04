@@ -921,24 +921,24 @@ por la itala kaj Domingues por la portugala.
 <label lang="eo">Afrik&strek;o</label><item>
 <list type="def">
   <item lang="eo">La kontinento sude de Eŭropo. </item> 
-  <item lang="A">Africa</item> 
-  <item lang="F">Afrique</item> 
-  <item lang="G">Afrika</item>
-  <item lang="H">África</item> 
-  <item lang="I">Africa</item> 
-  <item lang="P">Africa</item>
+  <item lang="en">Africa</item> 
+  <item lang="fr">Afrique</item> 
+  <item lang="de">Afrika</item>
+  <item lang="es">África</item> 
+  <item lang="it">Africa</item> 
+  <item lang="pt">Africa</item>
 </list>
 </item>
 
 <label lang="eo">alkemi&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: alĥemio. </item> 
-  <item lang="A">alchemy</item>
-  <item lang="G">Alchimie</item> 
-  <item lang="H">alquimia</item> 
-  <item lang="I">alchimia</item> 
-  <item lang="P">alquimia</item>
-  <item lang="F">alchimie</item>
+  <item lang="en">alchemy</item>
+  <item lang="de">Alchimie</item> 
+  <item lang="es">alquimia</item> 
+  <item lang="it">alchimia</item> 
+  <item lang="pt">alquimia</item>
+  <item lang="fr">alchimie</item>
 </list>
 </item>
 
@@ -946,24 +946,24 @@ por la itala kaj Domingues por la portugala.
 <list type="def">
   <item lang="eo">Neprofesiulo, kiu amas kaj praktikas ian aktivecon sportan,
 artan, sciencan... </item>
-  <item lang="A">amateur</item>
-  <item lang="F">amateur</item>
-  <item lang="G">Liebhaber (einer Sache)</item>
-  <item lang="H">aficionado, (amateur)</item>
-  <item lang="I">amatore, cultore</item>
-  <item lang="P">amador, curioso</item>
+  <item lang="en">amateur</item>
+  <item lang="fr">amateur</item>
+  <item lang="de">Liebhaber (einer Sache)</item>
+  <item lang="es">aficionado, (amateur)</item>
+  <item lang="it">amatore, cultore</item>
+  <item lang="pt">amador, curioso</item>
 </list>
 </item>
 
 <label lang="eo">ambasad&strek;o</label><item>
 <list type="def">
   <item lang="eo">Ambasadoro kun ties sekvantaro, konsilantaro ktp. </item>
-  <item lang="A">embassy</item>
-  <item lang="F">ambassade</item>
-  <item lang="G">Botschaft (diplomatisches Amt)</item>
-  <item lang="H">embajada</item>
-  <item lang="I">ambasciata</item>
-  <item lang="P">embaixada</item>
+  <item lang="en">embassy</item>
+  <item lang="fr">ambassade</item>
+  <item lang="de">Botschaft (diplomatisches Amt)</item>
+  <item lang="es">embajada</item>
+  <item lang="it">ambasciata</item>
+  <item lang="pt">embaixada</item>
 </list>
 </item>
 
@@ -971,12 +971,12 @@ artan, sciencan... </item>
 <list type="def">
   <item lang="eo">La kontinento inter Atlantiko kaj Pacifiko, konsistanta el tri
 partoj: Norda, Centra kaj Suda Amerikoj. </item>
-  <item lang="A">America</item>
-  <item lang="F">Amérique</item>
-  <item lang="G">Amerika</item>
-  <item lang="H">América</item>
-  <item lang="I">America</item>
-  <item lang="P">America</item>
+  <item lang="en">America</item>
+  <item lang="fr">Amérique</item>
+  <item lang="de">Amerika</item>
+  <item lang="es">América</item>
+  <item lang="it">America</item>
+  <item lang="pt">America</item>
 </list>
 </item>
 
@@ -987,12 +987,12 @@ a) en kemia laboratorio,
 b) por hermete enteni medikamentojn, 
 c) por envakue enteni la filamentojn de elektra lampo.
  </item>
-  <item lang="A">phial, ampoule, bulb</item>
-  <item lang="F">ampoule, fiole</item>
-  <item lang="G">Phiole, Kolb en (chem. Glasgefäss), Ampulle, Glühbirne</item>
-  <item lang="H">ampolla, bombilla, pipeta, redoma</item>
-  <item lang="I">ampolla, fiala, fialetta, bulbo</item>
-  <item lang="P">ampola</item>
+  <item lang="en">phial, ampoule, bulb</item>
+  <item lang="fr">ampoule, fiole</item>
+  <item lang="de">Phiole, Kolb en (chem. Glasgefäss), Ampulle, Glühbirne</item>
+  <item lang="es">ampolla, bombilla, pipeta, redoma</item>
+  <item lang="it">ampolla, fiala, fialetta, bulbo</item>
+  <item lang="pt">ampola</item>
 </list>
 </item>
 
@@ -1000,12 +1000,12 @@ c) por envakue enteni la filamentojn de elektra lampo.
 <list type="def">
   <item lang="eo">Komuna vorto por bestoj kaj homoj, opone al vegetaloj kaj
 mineraloj. </item>
-  <item lang="A">animal (as opposed to vegetable or mineral)</item>
-  <item lang="F">animal</item>
-  <item lang="G">Lebewesen</item>
-  <item lang="H">animal</item>
-  <item lang="I">animale</item>
-  <item lang="P">animal</item>
+  <item lang="en">animal (as opposed to vegetable or mineral)</item>
+  <item lang="fr">animal</item>
+  <item lang="de">Lebewesen</item>
+  <item lang="es">animal</item>
+  <item lang="it">animale</item>
+  <item lang="pt">animal</item>
 </list>
 </item>
 
@@ -1013,36 +1013,36 @@ mineraloj. </item>
 <list type="def">
   <item lang="eo">Reĝimo, en kiu la politika povo apartenas al la aristokrataro.
 </item>
-  <item lang="A">aristocracy (form of government)</item>
-  <item lang="F">aristocratie</item>
-  <item lang="G">Aristokratie, Adelsherrschaft</item>
-  <item lang="H">aristocracia</item>
-  <item lang="I">aristocrazia</item> 
-  <item lang="P">aristocracia</item>
+  <item lang="en">aristocracy (form of government)</item>
+  <item lang="fr">aristocratie</item>
+  <item lang="de">Aristokratie, Adelsherrschaft</item>
+  <item lang="es">aristocracia</item>
+  <item lang="it">aristocrazia</item> 
+  <item lang="pt">aristocracia</item>
 </list>
 </item>
 
 <label lang="eo">arkaism&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: arĥaismo. </item>
-  <item lang="A">archaism, obsolete word</item>
-  <item lang="F">archaïsme</item>
-  <item lang="G">Archaismus</item>
-  <item lang="H">arcaísmo</item>
-  <item lang="I">arcaismo</item>
-  <item lang="P">arcaísmo</item>
+  <item lang="en">archaism, obsolete word</item>
+  <item lang="fr">archaïsme</item>
+  <item lang="de">Archaismus</item>
+  <item lang="es">arcaísmo</item>
+  <item lang="it">arcaismo</item>
+  <item lang="pt">arcaísmo</item>
 </list>
 </item>
 
-<label lang="eo">arkitektur/o</label><item>
+<label lang="eo">arkitektur&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: arĥitekturo</item>
-  <item lang="A">architecture</item>
-  <item lang="F">architecture</item>
-  <item lang="G">Architektur</item>
-  <item lang="H">arquitectura</item>
-  <item lang="I">architettura</item>
-  <item lang="P">arquitetura</item>
+  <item lang="en">architecture</item>
+  <item lang="fr">architecture</item>
+  <item lang="de">Architektur</item>
+  <item lang="es">arquitectura</item>
+  <item lang="it">architettura</item>
+  <item lang="pt">arquitetura</item>
 </list>
 </item>
 
@@ -1050,36 +1050,36 @@ mineraloj. </item>
 <list type="def">
   <item lang="eo">Interkonsiliĝa aŭ leĝodona instanco aŭ organo de iu organizaĵo,
 kontraste al la ekzekutiva responda instanco. </item> 
-  <item lang="A">assembly</item>
-  <item lang="F">assemblée</item> 
-  <item lang="G">Versammlung</item>
-  <item lang="H">asamblea</item>
-  <item lang="I">assemblea</item>
-  <item lang="P">assembléia</item>
+  <item lang="en">assembly</item>
+  <item lang="fr">assemblée</item> 
+  <item lang="de">Versammlung</item>
+  <item lang="es">asamblea</item>
+  <item lang="it">assemblea</item>
+  <item lang="pt">assembléia</item>
 </list>
 </item>
 
 <label lang="eo">asist&strek;i</label><item>
 <list type="def">
   <item lang="eo">Pro devo aŭ profesio helpi en fake difinita maniero: ~i kirurgon ĉe operacio; sociala ~antino en fabriko.</item>
-  <item lang="A">to assist (officially), to be in attendance (as experts or advisers), to support, to take part in</item>
-  <item lang="F">assister, servir d’assistant</item>
-  <item lang="G">beistehen, assistieren</item>
-  <item lang="H">asistir, servir de asistente</item>
-  <item lang="I">assistere, essere assistente</item>
-  <item lang="P">assistir, auxiliar</item>
+  <item lang="en">to assist (officially), to be in attendance (as experts or advisers), to support, to take part in</item>
+  <item lang="fr">assister, servir d’assistant</item>
+  <item lang="de">beistehen, assistieren</item>
+  <item lang="es">asistir, servir de asistente</item>
+  <item lang="it">assistere, essere assistente</item>
+  <item lang="pt">assistir, auxiliar</item>
 </list>
 </item>
 
 <label lang="eo">Atlantik&strek;o</label><item>
 <list type="def">
   <item lang="eo">La oceano inter Eŭropo kaj Ameriko. </item>
-  <item lang="A">Atlantic</item>
-  <item lang="F">l’Atlantique</item>
-  <item lang="G">Atlantik, Atlantischer Ozean</item>
-  <item lang="H">Atlántico</item>
-  <item lang="I">Atlantico</item>
-  <item lang="P">Atlântico</item>
+  <item lang="en">Atlantic</item>
+  <item lang="fr">l’Atlantique</item>
+  <item lang="de">Atlantik, Atlantischer Ozean</item>
+  <item lang="es">Atlántico</item>
+  <item lang="it">Atlantico</item>
+  <item lang="pt">Atlântico</item>
 </list>
 </item>
 
@@ -1087,24 +1087,24 @@ kontraste al la ekzekutiva responda instanco. </item>
 <list type="def">
   <item lang="eo">Libroforma kolekto de mapoj, desegnaĵoj, bildoj, fotoj ktp.
  pri aparta temo: geografia, historia, anatomia, moda ~o. </item>
-  <item lang="A">atlas</item>
-  <item lang="F">atlas</item>
-  <item lang="G">Atlas, Kartensammlung</item>
-  <item lang="H">atlas</item>
-  <item lang="I">atlante</item>
-  <item lang="P">atlas</item>
+  <item lang="en">atlas</item>
+  <item lang="fr">atlas</item>
+  <item lang="de">Atlas, Kartensammlung</item>
+  <item lang="es">atlas</item>
+  <item lang="it">atlante</item>
+  <item lang="pt">atlas</item>
 </list>
 </item>
 
 <label lang="eo">aŭdac&strek;a</label><item>
 <list type="def">
   <item lang="eo">Riskema fari ion malgraŭ la danĝeroj aŭ malhelpoj. </item>
-  <item lang="A">audacious, bold, daring</item>
-  <item lang="F">audacieux</item>
-  <item lang="G">kühn, verwegen</item>
-  <item lang="H">audaz, atrevido</item>
-  <item lang="I">audace</item>
-  <item lang="P">audaz</item>
+  <item lang="en">audacious, bold, daring</item>
+  <item lang="fr">audacieux</item>
+  <item lang="de">kühn, verwegen</item>
+  <item lang="es">audaz, atrevido</item>
+  <item lang="it">audace</item>
+  <item lang="pt">audaz</item>
 </list>
 </item>
 
@@ -1112,24 +1112,24 @@ kontraste al la ekzekutiva responda instanco. </item>
 <list type="def">
   <item lang="eo">La kontinento de la suda hemisfero okcidente de Pacifiko.
  </item>
-  <item lang="A">Australia</item>
-  <item lang="F">Australie</item>
-  <item lang="G">Australien</item>
-  <item lang="H">Australia</item>
-  <item lang="I">Australia</item>
-  <item lang="P">Austrália</item>
+  <item lang="en">Australia</item>
+  <item lang="fr">Australie</item>
+  <item lang="de">Australien</item>
+  <item lang="es">Australia</item>
+  <item lang="it">Australia</item>
+  <item lang="pt">Austrália</item>
 </list>
 </item>
 
 <label lang="eo">aŭt&strek;o</label><item>
 <list type="def">
   <item lang="eo">Mallongigo de: aŭtomobilo. </item>
-  <item lang="A">car, automobile, (US) auto</item>
-  <item lang="F">auto</item>
-  <item lang="G">Kraftwagen, Auto</item>
-  <item lang="H">auto</item>
-  <item lang="I">auto</item>
-  <item lang="P">auto(móvel)</item>
+  <item lang="en">car, automobile, (US) auto</item>
+  <item lang="fr">auto</item>
+  <item lang="de">Kraftwagen, Auto</item>
+  <item lang="es">auto</item>
+  <item lang="it">auto</item>
+  <item lang="pt">auto(móvel)</item>
 </list>
 </item>
 
@@ -1137,12 +1137,12 @@ kontraste al la ekzekutiva responda instanco. </item>
 <list type="def">
   <item lang="eo">Granda publika aŭtomobila veturilo, kiu transportas pasaĝerojn
  de stacio al aliaj laŭ difinitaj linioj.</item>
-  <item lang="A">motor-bus, bus</item>
-  <item lang="F">autobus</item>
-  <item lang="G">Autobus, Bus</item>
-  <item lang="H">autobús</item>
-  <item lang="I">autobus</item>
-  <item lang="P">auto-ônibus</item>
+  <item lang="en">motor-bus, bus</item>
+  <item lang="fr">autobus</item>
+  <item lang="de">Autobus, Bus</item>
+  <item lang="es">autobús</item>
+  <item lang="it">autobus</item>
+  <item lang="pt">auto-ônibus</item>
 </list>
 </item>
 
@@ -1150,12 +1150,12 @@ kontraste al la ekzekutiva responda instanco. </item>
 <list type="def">
   <item lang="eo">Tio, kio donas ian superecon, pli grandan profiton, aŭ enhavas
 pli grandan utilon, oportunon. </item>
-  <item lang="A">advantage</item>
-  <item lang="F">avantage</item>
-  <item lang="G">Vorteil, Vorzug</item>
-  <item lang="H">ventaja</item>
-  <item lang="I">vantaggio</item>
-  <item lang="P">vantagem</item>
+  <item lang="en">advantage</item>
+  <item lang="fr">avantage</item>
+  <item lang="de">Vorteil, Vorzug</item>
+  <item lang="es">ventaja</item>
+  <item lang="it">vantaggio</item>
+  <item lang="pt">vantagem</item>
 </list>
 </item>
 
@@ -1163,12 +1163,12 @@ pli grandan utilon, oportunon. </item>
 <list type="def">
   <item lang="eo">Larĝa strato, ambaŭflanke borderita per arboj, ofte kun
 perspektivo al monumento aŭ pejzaĝo. </item>
-  <item lang="A">avenue</item>
-  <item lang="F">avenue</item>
-  <item lang="G">Anfahrt, (breite bepflanzte) Strasse, (Avenue)</item>
-  <item lang="H">avenida</item>
-  <item lang="I">viale</item>
-  <item lang="P">avenida</item>
+  <item lang="en">avenue</item>
+  <item lang="fr">avenue</item>
+  <item lang="de">Anfahrt, (breite bepflanzte) Strasse, (Avenue)</item>
+  <item lang="es">avenida</item>
+  <item lang="it">viale</item>
+  <item lang="pt">avenida</item>
 </list>
 </item>
 
@@ -1176,74 +1176,74 @@ perspektivo al monumento aŭ pejzaĝo. </item>
 <list type="def">
   <item lang="eo">La nordhemisfera kontinento, kiu okcidente limas Eŭropon kaj
 Afrikon. </item>
-  <item lang="A">Asia</item>
-  <item lang="F">Asie</item>
-  <item lang="G">Asien</item>
-  <item lang="H">Asia</item>
-  <item lang="I">Asia</item>
-  <item lang="P">Asia</item>
+  <item lang="en">Asia</item>
+  <item lang="fr">Asie</item>
+  <item lang="de">Asien</item>
+  <item lang="es">Asia</item>
+  <item lang="it">Asia</item>
+  <item lang="pt">Asia</item>
 </list>
 </item>
 
 <label lang="eo">beb&strek;o</label><item>
 <list type="def">
   <item lang="eo">Tre juna infano. </item>
-  <item lang="A">baby</item>
-  <item lang="F">bébé</item>
-  <item lang="G">Saügling, Kleinkind, Baby</item>
-  <item lang="H">bebé, “baby”</item>
-  <item lang="I">bimbo, bimbetto, (“bebè”)</item>
-  <item lang="P">bebê</item>
+  <item lang="en">baby</item>
+  <item lang="fr">bébé</item>
+  <item lang="de">Saügling, Kleinkind, Baby</item>
+  <item lang="es">bebé, “baby”</item>
+  <item lang="it">bimbo, bimbetto, (“bebè”)</item>
+  <item lang="pt">bebê</item>
 </list>
 </item>
 
 <label lang="eo">bend&strek;o</label><item>
 <list type="def">
   <item lang="eo">Mallarĝa kaj longa peco el ia maldika materio. </item>
-  <item lang="A">tape, band</item>
-  <item lang="F">bande (d’étoffe, ...)</item>
-  <item lang="G">Binde, Band, Streifen</item>
-  <item lang="H">tira, venda, banda</item>
-  <item lang="I">fascia, benda, banda, nastro</item>
-  <item lang="P">tira, fita, faixa</item>
+  <item lang="en">tape, band</item>
+  <item lang="fr">bande (d’étoffe, ...)</item>
+  <item lang="de">Binde, Band, Streifen</item>
+  <item lang="es">tira, venda, banda</item>
+  <item lang="it">fascia, benda, banda, nastro</item>
+  <item lang="pt">tira, fita, faixa</item>
 </list>
 </item>
 
 <label lang="eo">bovl&strek;o</label><item>
 <list type="def">
   <item lang="eo">Larĝa, duonsfera taso, ordinare el argilo aŭ fajenco. </item>
-  <item lang="A">bowl</item>
-  <item lang="F">bol</item>
-  <item lang="G">(Trink)schale</item>
-  <item lang="H">tazón, bol</item>
-  <item lang="I">ciotola</item>
-  <item lang="P">tijela, escudela</item>
+  <item lang="en">bowl</item>
+  <item lang="fr">bol</item>
+  <item lang="de">(Trink)schale</item>
+  <item lang="es">tazón, bol</item>
+  <item lang="it">ciotola</item>
+  <item lang="pt">tijela, escudela</item>
 </list>
 </item>
 
-<label lang="eo">bred/i</label><item>
+<label lang="eo">bred&strek;i</label><item>
 <list type="def">
   <item lang="eo">1. Teni kaj reprodukti (bestojn) por la homuzado.</item>
   <item lang="eo">2. Plibonigi kulturformojn de plantoj kaj bestoj produktante novajn per krucado aŭ
 selekto.</item>
-  <item lang="A">to breed</item>
-  <item lang="F">élever, produire (bêtes, plantes), améliorer (race)</item>
-  <item lang="G">züchten, aufziehen</item>
-  <item lang="H">criar</item>
-  <item lang="I">allevare</item>
-  <item lang="P">criar (animais), cultivar (plantas), melhorar (raça)</item>
+  <item lang="en">to breed</item>
+  <item lang="fr">élever, produire (bêtes, plantes), améliorer (race)</item>
+  <item lang="de">züchten, aufziehen</item>
+  <item lang="es">criar</item>
+  <item lang="it">allevare</item>
+  <item lang="pt">criar (animais), cultivar (plantas), melhorar (raça)</item>
 </list>
 </item>
 
-<label lang="eo">buĝet/o</label><item>
+<label lang="eo">buĝet&strek;o</label><item>
 <list type="def">
   <item lang="eo">Detala antaŭkalkulo de en- kaj el-spezoj por difinita periodo, ofte prezentita en formala dokumento.</item>
-  <item lang="A">budget</item>
-  <item lang="F">budget</item>
-  <item lang="G">Haushaltsplan, Budget</item>
-  <item lang="H">presupuesto, (“budget”)</item>
-  <item lang="I">bilancio, preventivo</item>
-  <item lang="P">orçamento</item>
+  <item lang="en">budget</item>
+  <item lang="fr">budget</item>
+  <item lang="de">Haushaltsplan, Budget</item>
+  <item lang="es">presupuesto, (“budget”)</item>
+  <item lang="it">bilancio, preventivo</item>
+  <item lang="pt">orçamento</item>
 </list>
 </item>
 
@@ -1252,12 +1252,12 @@ selekto.</item>
   <item lang="eo">Centra loko, kie oni produktas ion ĉirkaŭe distribueblan
 (elektron, betonon, ...) aŭ funkciigas telefonan sistemon, aŭ kie oni
 administras komunan agadon (sindikatoj, partioj, ...). </item>
-  <item lang="A">centre (of activity), (generating) station, (telephone)exchange</item>
-  <item lang="F">une centrale</item>
-  <item lang="G">Zentrale, Kraftwerk, Gewerkschaftszentrale</item>
-  <item lang="H">central</item>
-  <item lang="I">centrale</item>
-  <item lang="P">central</item>
+  <item lang="en">centre (of activity), (generating) station, (telephone)exchange</item>
+  <item lang="fr">une centrale</item>
+  <item lang="de">Zentrale, Kraftwerk, Gewerkschaftszentrale</item>
+  <item lang="es">central</item>
+  <item lang="it">centrale</item>
+  <item lang="pt">central</item>
 </list>
 </item>
 
@@ -1265,12 +1265,12 @@ administras komunan agadon (sindikatoj, partioj, ...). </item>
 <list type="def">
   <item lang="eo">Legomo, specio el la genro ajlo, kulturata por sia bulbo (Allium
 cepa). </item>
-  <item lang="A">onion</item>
-  <item lang="F">oignon (légume)</item>
-  <item lang="G">Zwiebel</item>
-  <item lang="H">cebolla</item>
-  <item lang="I">cipolla</item>
-  <item lang="P">cebola</item>
+  <item lang="en">onion</item>
+  <item lang="fr">oignon (légume)</item>
+  <item lang="de">Zwiebel</item>
+  <item lang="es">cebolla</item>
+  <item lang="it">cipolla</item>
+  <item lang="pt">cebola</item>
 </list>
 </item>
 
@@ -1278,24 +1278,24 @@ cepa). </item>
 <list type="def">
   <item lang="eo">La lokaro de ĉiuj punktoj en ebeno, kiuj havas fiksan distancon al
 donita punkto, nomata la centro. </item>
-  <item lang="A">circle</item>
-  <item lang="F">cercle</item>
-  <item lang="G">Kreis</item>
-  <item lang="H">círculo</item>
-  <item lang="I">circolo</item>
-  <item lang="P">circunferência</item>
+  <item lang="en">circle</item>
+  <item lang="fr">cercle</item>
+  <item lang="de">Kreis</item>
+  <item lang="es">círculo</item>
+  <item lang="it">circolo</item>
+  <item lang="pt">circunferência</item>
 </list>
 </item>
 
 <label lang="eo">cirkvit&strek;o</label><item>
 <list type="def">
   <item lang="eo">La vojo, laŭ kiu kurento povas cirkuli. </item>
-  <item lang="A">circuit (electric)</item>
-  <item lang="F">circuit (électrique)</item>
-  <item lang="G">Stromkreis, Leitung</item>
-  <item lang="H">circuito (eléctrico)</item>
-  <item lang="I">circuito (elettrico)</item>
-  <item lang="P">circuito (eléctrico)</item>
+  <item lang="en">circuit (electric)</item>
+  <item lang="fr">circuit (électrique)</item>
+  <item lang="de">Stromkreis, Leitung</item>
+  <item lang="es">circuito (eléctrico)</item>
+  <item lang="it">circuito (elettrico)</item>
+  <item lang="pt">circuito (eléctrico)</item>
 </list>
 </item>
 
@@ -1304,36 +1304,36 @@ donita punkto, nomata la centro. </item>
   <item lang="eo">Reĝimo, en kiu la politika povo apartenas, jen pere, jen
 senpere, al la popolo, kaj en kiu estas plej fortaj la sendistinge egaligaj
 tendencoj.</item>
-  <item lang="A">democracy</item>
-  <item lang="F">démocratie</item>
-  <item lang="G">Demokratie</item>
-  <item lang="H">democracia</item>
-  <item lang="I">democrazia</item>
-  <item lang="P">democracia</item>
+  <item lang="en">democracy</item>
+  <item lang="fr">démocratie</item>
+  <item lang="de">Demokratie</item>
+  <item lang="es">democracia</item>
+  <item lang="it">democrazia</item>
+  <item lang="pt">democracia</item>
 </list>
 </item>
 
 <label lang="eo">difteri&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: difterito. </item>
-  <item lang="A">diphtheria</item>
-  <item lang="F">diphtérie</item>
-  <item lang="G">Diphtherie</item>
-  <item lang="H">difteria</item>
-  <item lang="I">difterite</item>
-  <item lang="P">difteria</item>
+  <item lang="en">diphtheria</item>
+  <item lang="fr">diphtérie</item>
+  <item lang="de">Diphtherie</item>
+  <item lang="es">difteria</item>
+  <item lang="it">difterite</item>
+  <item lang="pt">difteria</item>
 </list>
 </item>
 
 <label lang="eo">distribu&strek;i</label><item>
 <list type="def">
   <item lang="eo">Disdoni al ĉiu laŭ ĝia destino: ~i leterojn, laboron, provianton. </item>
-  <item lang="A">to distribute</item>
-  <item lang="F">distribuer</item>
-  <item lang="G">ver-, auf-, aus-, zu-teilen; abgeben</item>
-  <item lang="H">distribuir</item>
-  <item lang="I">distribuire</item>
-  <item lang="P">distribuir</item>
+  <item lang="en">to distribute</item>
+  <item lang="fr">distribuer</item>
+  <item lang="de">ver-, auf-, aus-, zu-teilen; abgeben</item>
+  <item lang="es">distribuir</item>
+  <item lang="it">distribuire</item>
+  <item lang="pt">distribuir</item>
 </list>
 </item>
 
@@ -1341,26 +1341,26 @@ tendencoj.</item>
 <list type="def">
   <item lang="eo">Tre maldika, fleksebla kaj longa vergo el metalo aŭ alia materio,
 ordinare kun ronda sekco. </item>
-  <item lang="A">wire</item>
-  <item lang="F">fil (de métal)</item>
-  <item lang="G">Draht</item>
-  <item lang="H">alambre</item>
-  <item lang="I">filo (di metallo)</item>
-  <item lang="P">fio de metal, arame</item>
+  <item lang="en">wire</item>
+  <item lang="fr">fil (de métal)</item>
+  <item lang="de">Draht</item>
+  <item lang="es">alambre</item>
+  <item lang="it">filo (di metallo)</item>
+  <item lang="pt">fio de metal, arame</item>
 </list>
 </item>
 
-<label lang="eo">ekran/o</label><item>
+<label lang="eo">ekran&strek;o</label><item>
 <list type="def">
   <item lang="eo">Surfaco, kiu haltigas diversajn radiojn aŭ substancojn, ĉu por
 ŝirmi kontraŭ ilia efiko (kamena ~o; iks-radia ~o el plumbo), ĉu por
 videbligi ilin (kineja ~o, fluoreska ~o)</item>
-  <item lang="A">screen</item>
-  <item lang="F">écran</item>
-  <item lang="G">Schutzschirm, Schutzwand, Filmwand, Leuchtschirm</item>
-  <item lang="H">pantalla, lienzo</item>
-  <item lang="I">schermo, parafuoco, ventola</item>
-  <item lang="P">anteparo, biombo, tela (para projecção)</item>
+  <item lang="en">screen</item>
+  <item lang="fr">écran</item>
+  <item lang="de">Schutzschirm, Schutzwand, Filmwand, Leuchtschirm</item>
+  <item lang="es">pantalla, lienzo</item>
+  <item lang="it">schermo, parafuoco, ventola</item>
+  <item lang="pt">anteparo, biombo, tela (para projecção)</item>
 </list>
 </item>
 
@@ -1368,39 +1368,39 @@ videbligi ilin (kineja ~o, fluoreska ~o)</item>
 <list type="def">
   <item lang="eo">Scienco pri la fenomenoj estigataj de liberaj elektronoj kaj
 tekniko uzanta tiajn fenomenojn. </item>
-  <item lang="A">electronics</item>
-  <item lang="F">l’électronique</item>
-  <item lang="G">Elektronik</item>
-  <item lang="H">electrónica</item>
-  <item lang="I">elettronica</item>
-  <item lang="P">eletrónica</item>
+  <item lang="en">electronics</item>
+  <item lang="fr">l’électronique</item>
+  <item lang="de">Elektronik</item>
+  <item lang="es">electrónica</item>
+  <item lang="it">elettronica</item>
+  <item lang="pt">eletrónica</item>
 </list>
 </item>
 
-<label lang="eo">emerit/o</label><item>
+<label lang="eo">emerit&strek;o</label><item>
 <list type="def">
   <item lang="eo">1. Oficisto, kiu post difinita tempo de servado forlasas honore la
 oficon kaj ricevadas pension.</item>
   <item lang="eo">2. Pli ĝenerale, persono, kiu retiriĝis de la
 aktiva vivo.</item>
-  <item lang="A">retired person, emeritus</item>
-  <item lang="F">un retraité</item>
-  <item lang="G">Beamter im Ruhestand, Ruhegehaltsempfänger, (Emeritus)</item>
-  <item lang="H">jubilado, emérito</item>
-  <item lang="I">pensionato</item>
-  <item lang="P">(funcionário) aposentado, reformado, jubilado</item>
+  <item lang="en">retired person, emeritus</item>
+  <item lang="fr">un retraité</item>
+  <item lang="de">Beamter im Ruhestand, Ruhegehaltsempfänger, (Emeritus)</item>
+  <item lang="es">jubilado, emérito</item>
+  <item lang="it">pensionato</item>
+  <item lang="pt">(funcionário) aposentado, reformado, jubilado</item>
 </list>
 </item>
 
-<label lang="eo">eskap/i</label><item>
+<label lang="eo">eskap&strek;i</label><item>
 <list type="def">
   <item lang="eo">Liberigi sin de tio, kio katenas; sukcese eviti per forkuro.;
  A. to escape</item>
-  <item lang="F">échapper, s’échapper</item>
-  <item lang="G">entspringen, entwischen, entlaufen, entschlüpfen</item>
-  <item lang="H">escapar, escaparse</item>
-  <item lang="I">sfuggire</item>
-  <item lang="P">escapar</item>
+  <item lang="fr">échapper, s’échapper</item>
+  <item lang="de">entspringen, entwischen, entlaufen, entschlüpfen</item>
+  <item lang="es">escapar, escaparse</item>
+  <item lang="it">sfuggire</item>
+  <item lang="pt">escapar</item>
 </list>
 </item>
 
@@ -1408,37 +1408,37 @@ aktiva vivo.</item>
 <list type="def">
   <item lang="eo">Haltoloko, kie oni ripozas aŭ tranoktas, kaj ankaŭ distanco inter du
 tiaj haltolokoj. </item>
-  <item lang="A">stage, halting-place, stopover</item>
-  <item lang="F">étape</item>
-  <item lang="G">Rastort, Etappe</item>
-  <item lang="H">etapa</item>
-  <item lang="I">tappa</item>
-  <item lang="P">estádio, etapa</item>
+  <item lang="en">stage, halting-place, stopover</item>
+  <item lang="fr">étape</item>
+  <item lang="de">Rastort, Etappe</item>
+  <item lang="es">etapa</item>
+  <item lang="it">tappa</item>
+  <item lang="pt">estádio, etapa</item>
 </list>
 </item>
 
 <label lang="eo">event&strek;o</label><item>
 <list type="def">
   <item lang="eo">Difinita, sufiĉe grava okazaĵo. </item>
-  <item lang="A">event</item>
-  <item lang="F">événement (marquant)</item>
-  <item lang="G">Ereignis, Vorkommen, Vorkommnis, Begebenheit, Geschehen, Geschehnis</item>
-  <item lang="H">evento, (acontecimiento imprevisto)</item>
-  <item lang="I">avvenimento, evento</item>
-  <item lang="P">evento, (acontecimento importante)</item>
+  <item lang="en">event</item>
+  <item lang="fr">événement (marquant)</item>
+  <item lang="de">Ereignis, Vorkommen, Vorkommnis, Begebenheit, Geschehen, Geschehnis</item>
+  <item lang="es">evento, (acontecimiento imprevisto)</item>
+  <item lang="it">avvenimento, evento</item>
+  <item lang="pt">evento, (acontecimento importante)</item>
 </list>
 </item>
 
-<label lang="eo">fac/o</label><item>
+<label lang="eo">fac&strek;o</label><item>
 <list type="def">
   <item lang="eo">Ordinare, ebena parto de surfaco de objekto, limita de pli-malpli
 difinita figuro; ~o de glitvalvo, de martelo, de amboso, de osto</item>
-  <item lang="A">face (of an object)</item>
-  <item lang="F">face (d’un objet)</item>
-  <item lang="G">Seite, Fläche</item>
-  <item lang="H">faz, frente</item>
-  <item lang="I">faccia</item>
-  <item lang="P">face (mat.)</item>
+  <item lang="en">face (of an object)</item>
+  <item lang="fr">face (d’un objet)</item>
+  <item lang="de">Seite, Fläche</item>
+  <item lang="es">faz, frente</item>
+  <item lang="it">faccia</item>
+  <item lang="pt">face (mat.)</item>
 </list>
 </item>
 
@@ -1446,12 +1446,12 @@ difinita figuro; ~o de glitvalvo, de martelo, de amboso, de osto</item>
 <list type="def">
   <item lang="eo">Materio, ordinare likva, uzata por ŝmiri surfacon en la intenco ĝin
 ŝirmi aŭ ĝin kolorigi: ~o el minio; blanke~ita kradaĵo. </item>
-  <item lang="A">paint</item>
-  <item lang="F">matière colorante, colorant</item>
-  <item lang="G">Farbe, Farbstoff, Färbemittel</item>
-  <item lang="H">materia colorante, colorante</item>
-  <item lang="I">materia colorante, colorante</item>
-  <item lang="P">tinta (para pintar)</item>
+  <item lang="en">paint</item>
+  <item lang="fr">matière colorante, colorant</item>
+  <item lang="de">Farbe, Farbstoff, Färbemittel</item>
+  <item lang="es">materia colorante, colorante</item>
+  <item lang="it">materia colorante, colorante</item>
+  <item lang="pt">tinta (para pintar)</item>
 </list>
 </item>
 
@@ -1459,12 +1459,12 @@ difinita figuro; ~o de glitvalvo, de martelo, de amboso, de osto</item>
 <list type="def">
   <item lang="eo">Kunigi ŝtatojn, societojn, sindikatojn aŭ similajn organizaĵojn en
 federacion. </item>
-  <item lang="A">to federate</item>
-  <item lang="F">fédérer</item>
-  <item lang="G">vereinigen, verbünden</item>
-  <item lang="H">federar</item>
-  <item lang="I">federare</item>
-  <item lang="P">federar</item>
+  <item lang="en">to federate</item>
+  <item lang="fr">fédérer</item>
+  <item lang="de">vereinigen, verbünden</item>
+  <item lang="es">federar</item>
+  <item lang="it">federare</item>
+  <item lang="pt">federar</item>
 </list>
 </item>
 
@@ -1472,27 +1472,27 @@ federacion. </item>
 <list type="def">
   <item lang="eo">Bendo kovrita de fotoemulsio; tuto de la bildoj fiksitaj sur tia(j)
 bendo(j) kaj projekcieblaj sur ekranon. </item>
-  <item lang="A">film</item>
-  <item lang="F">film, pellicule</item>
-  <item lang="G">Film</item>
-  <item lang="H">film(e)</item>
-  <item lang="I">film, pellicola</item>
-  <item lang="P">fita, filme</item>
+  <item lang="en">film</item>
+  <item lang="fr">film, pellicule</item>
+  <item lang="de">Film</item>
+  <item lang="es">film(e)</item>
+  <item lang="it">film, pellicola</item>
+  <item lang="pt">fita, filme</item>
 </list>
 </item>
 
-<label lang="eo">fotel/o</label><item>
+<label lang="eo">fotel&strek;o</label><item>
 <list type="def">
   <item lang="eo">Komforta kaj sufiĉe ampleksa sidilo, kun brak- kaj dors-apogiloj, por
 unu persono. (Ordinare, la fotelo estas malalta kaj ĉiuflanke kusene
 remburita, dum la brakseĝo, pli malpeza, havas apartajn brakapogilojn
 kaj pli similas al ordinara seĝo)</item>
-  <item lang="A">easy-chair, armchair, (fauteuil)</item>
-  <item lang="F">fauteuil</item>
-  <item lang="G">Lehnstuhl, (Sessel), (Fauteuil)</item>
-  <item lang="H">butaca, sillón</item>
-  <item lang="I">poltrona</item>
-  <item lang="P">poltrona</item>
+  <item lang="en">easy-chair, armchair, (fauteuil)</item>
+  <item lang="fr">fauteuil</item>
+  <item lang="de">Lehnstuhl, (Sessel), (Fauteuil)</item>
+  <item lang="es">butaca, sillón</item>
+  <item lang="it">poltrona</item>
+  <item lang="pt">poltrona</item>
 </list>
 </item>
 
@@ -1500,12 +1500,12 @@ kaj pli similas al ordinara seĝo)</item>
 <list type="def">
   <item lang="eo">Arto de fotografado kaj ĉiuj kun ĝi ligitaj laboroj.
  </item>
-  <item lang="A">photography</item>
-  <item lang="F">la photographie</item>
-  <item lang="G">Photographie, Lichtbildkunst</item>
-  <item lang="H">fotografía</item>
-  <item lang="I">fotografia</item>
-  <item lang="P">fotografia (arte)</item>
+  <item lang="en">photography</item>
+  <item lang="fr">la photographie</item>
+  <item lang="de">Photographie, Lichtbildkunst</item>
+  <item lang="es">fotografía</item>
+  <item lang="it">fotografia</item>
+  <item lang="pt">fotografia (arte)</item>
 </list>
 </item>
 
@@ -1513,38 +1513,38 @@ kaj pli similas al ordinara seĝo)</item>
 <list type="def">
   <item lang="eo">Forkuri, por savi sin de reala aŭ imagata danĝero.
  </item>
-  <item lang="A">to flee</item>
-  <item lang="F">fuir, s’enfuir</item>
-  <item lang="G">(ent-)fliehen, flüchten, davonlaufen</item>
-  <item lang="H">huir</item>
-  <item lang="I">fuggire</item>
-  <item lang="P">fugir</item>
+  <item lang="en">to flee</item>
+  <item lang="fr">fuir, s’enfuir</item>
+  <item lang="de">(ent-)fliehen, flüchten, davonlaufen</item>
+  <item lang="es">huir</item>
+  <item lang="it">fuggire</item>
+  <item lang="pt">fugir</item>
 </list>
 </item>
 
 <label lang="eo">garaĝ&strek;o</label><item>
 <list type="def">
   <item lang="eo">Konstruaĵo, kie oni tenas, prizorgas aŭ riparas aŭtojn. </item>
-  <item lang="A">garage</item>
-  <item lang="F">garage</item>
-  <item lang="G">Garage</item>
-  <item lang="H">cochera, garaje</item>
-  <item lang="I">garage</item>
-  <item lang="P">garagem</item>
+  <item lang="en">garage</item>
+  <item lang="fr">garage</item>
+  <item lang="de">Garage</item>
+  <item lang="es">cochera, garaje</item>
+  <item lang="it">garage</item>
+  <item lang="pt">garagem</item>
 </list>
 </item>
 
-<label lang="eo">glukoz/o</label><item>
+<label lang="eo">glukoz&strek;o</label><item>
 <list type="def">
   <item lang="eo">Tipa glucido, kun dolĉa gusto, trovebla en kelkaj fruktoj (ekz.
 vinbero); C6H12O6 ; plej ofta en la sukeroj, ĝi estas komponanto de tre
 multaj hidrolizeblaj glucidoj.</item>
-  <item lang="A">glucose</item>
-  <item lang="F">glucose</item>
-  <item lang="G">Glukose</item>
-  <item lang="H">glucosa</item>
-  <item lang="I">glucosio</item>
-  <item lang="P">glicose</item>
+  <item lang="en">glucose</item>
+  <item lang="fr">glucose</item>
+  <item lang="de">Glukose</item>
+  <item lang="es">glucosa</item>
+  <item lang="it">glucosio</item>
+  <item lang="pt">glicose</item>
 </list>
 </item>
 
@@ -1552,12 +1552,12 @@ multaj hidrolizeblaj glucidoj.</item>
 <list type="def">
   <item lang="eo">Transpagi iun sumon el sia konto en la konton de iu alia.
  </item>
-  <item lang="A">to transfer (funds)</item>
-  <item lang="F">virer</item>
-  <item lang="G">übertragen, (girieren)</item>
-  <item lang="H">girar</item>
-  <item lang="I">girare, stornare</item>
-  <item lang="P">transferir (com.)</item>
+  <item lang="en">to transfer (funds)</item>
+  <item lang="fr">virer</item>
+  <item lang="de">übertragen, (girieren)</item>
+  <item lang="es">girar</item>
+  <item lang="it">girare, stornare</item>
+  <item lang="pt">transferir (com.)</item>
 </list>
 </item>
 
@@ -1566,24 +1566,24 @@ multaj hidrolizeblaj glucidoj.</item>
   <item lang="eo">Granda ŝirmejo esence formita el metalĉarpenta tegmento
 subtenata de metalaj fostoj kaj uzata por enteni fojnon, kulturmaŝinojn,
 aviadilojn, aerostatojn, k.s. </item>
-  <item lang="A">hangar, storage building</item>
-  <item lang="F">hangar</item>
-  <item lang="G">Schuppen, Halle, Hangar</item>
-  <item lang="H">cobertizo, hangar</item>
-  <item lang="I">tettoi, hangar, capannone, (avio)rimessa</item>
-  <item lang="P">hangar</item>
+  <item lang="en">hangar, storage building</item>
+  <item lang="fr">hangar</item>
+  <item lang="de">Schuppen, Halle, Hangar</item>
+  <item lang="es">cobertizo, hangar</item>
+  <item lang="it">tettoi, hangar, capannone, (avio)rimessa</item>
+  <item lang="pt">hangar</item>
 </list>
 </item>
 
 <label lang="eo">heĝ&strek;o</label><item>
 <list type="def">
   <item lang="eo">Barilo el interplektitaj arbedoj. </item>
-  <item lang="A">hedge</item>
-  <item lang="F">haie, haie vive</item>
-  <item lang="G">Hecke, (Hag)</item>
-  <item lang="H">seto, cerco</item>
-  <item lang="I">siepe, chiudenda</item>
-  <item lang="P">cerca viva</item>
+  <item lang="en">hedge</item>
+  <item lang="fr">haie, haie vive</item>
+  <item lang="de">Hecke, (Hag)</item>
+  <item lang="es">seto, cerco</item>
+  <item lang="it">siepe, chiudenda</item>
+  <item lang="pt">cerca viva</item>
 </list>
 </item>
 
@@ -1592,36 +1592,36 @@ aviadilojn, aerostatojn, k.s. </item>
   <item lang="eo">Flugmaŝino ekipita per granda vertikalaksa helico kaj
 kapabla sin levi kaj mallevi vertikale, sin movi en la aero aŭ tie ŝvebi.
  </item>
-  <item lang="A">helicopter</item>
-  <item lang="F">hélicoptère</item>
-  <item lang="G">Hubschrauber</item>
-  <item lang="H">helicóptero</item>
-  <item lang="I">elicottero</item>
-  <item lang="P">helicóptero</item>
+  <item lang="en">helicopter</item>
+  <item lang="fr">hélicoptère</item>
+  <item lang="de">Hubschrauber</item>
+  <item lang="es">helicóptero</item>
+  <item lang="it">elicottero</item>
+  <item lang="pt">helicóptero</item>
 </list>
 </item>
 
 <label lang="eo">humid&strek;a</label><item>
 <list type="def">
   <item lang="eo">Entenanta ian kvanton da likvo aŭ vaporo. </item>
-  <item lang="A">damp, humid</item>
-  <item lang="F">humide</item>
-  <item lang="G">feucht</item>
-  <item lang="H">húmedo, (húmido)</item>
-  <item lang="I">umido</item>
-  <item lang="P">úmido</item>
+  <item lang="en">damp, humid</item>
+  <item lang="fr">humide</item>
+  <item lang="de">feucht</item>
+  <item lang="es">húmedo, (húmido)</item>
+  <item lang="it">umido</item>
+  <item lang="pt">úmido</item>
 </list>
 </item>
 
 <label lang="eo">impet&strek;i</label><item>
 <list type="def">
   <item lang="eo">Forte kaj vive sin ĵeti antaŭen. </item>
-  <item lang="A">to rush forward</item>
-  <item lang="F">s’élancer</item>
-  <item lang="G">sich vorwärts stürzen, loststürzen</item>
-  <item lang="H">lanzarse, arrojarse, tener ímpetu</item>
-  <item lang="I">slanciarsi, avventarsi, scagliarsi, scattare</item>
-  <item lang="P">arremeter, arrojar-se</item>
+  <item lang="en">to rush forward</item>
+  <item lang="fr">s’élancer</item>
+  <item lang="de">sich vorwärts stürzen, loststürzen</item>
+  <item lang="es">lanzarse, arrojarse, tener ímpetu</item>
+  <item lang="it">slanciarsi, avventarsi, scagliarsi, scattare</item>
+  <item lang="pt">arremeter, arrojar-se</item>
 </list>
 </item>
 
@@ -1629,12 +1629,12 @@ kapabla sin levi kaj mallevi vertikale, sin movi en la aero aŭ tie ŝvebi.
 <list type="def">
   <item lang="eo">Enŝprucigi substancon en organismon, aparaton aŭ materialon.
  </item>
-  <item lang="A">to inject</item>
-  <item lang="F">injecter</item>
-  <item lang="G">einspritzen, injizieren</item>
-  <item lang="H">inyectar</item>
-  <item lang="I">iniettare</item>
-  <item lang="P">injectar</item>
+  <item lang="en">to inject</item>
+  <item lang="fr">injecter</item>
+  <item lang="de">einspritzen, injizieren</item>
+  <item lang="es">inyectar</item>
+  <item lang="it">iniettare</item>
+  <item lang="pt">injectar</item>
 </list>
 </item>
 
@@ -1643,12 +1643,12 @@ kapabla sin levi kaj mallevi vertikale, sin movi en la aero aŭ tie ŝvebi.
   <item lang="eo">(Se paroli pri deputito en parlamento) publike demandi al
 ministro por ricevi klarigojn pri agoj de la registaro.
  </item>
-  <item lang="A">to interpellate</item>
-  <item lang="F">interpeller</item>
-  <item lang="G">interpellieren</item>
-  <item lang="H">interpelar</item>
-  <item lang="I">interpellare</item>
-  <item lang="P">interpelar (parlamentar)</item>
+  <item lang="en">to interpellate</item>
+  <item lang="fr">interpeller</item>
+  <item lang="de">interpellieren</item>
+  <item lang="es">interpelar</item>
+  <item lang="it">interpellare</item>
+  <item lang="pt">interpelar (parlamentar)</item>
 </list>
 </item>
 
@@ -1656,12 +1656,12 @@ ministro por ricevi klarigojn pri agoj de la registaro.
 <list type="def">
   <item lang="eo">Krei, elpensi ion novan per la forto de la spirito: ~i maŝinon,
 novan metodon, procedon, modon, kombinon. </item>
-  <item lang="A">to invent</item>
-  <item lang="F">inventer</item>
-  <item lang="G">erfinden</item>
-  <item lang="H">inventar</item>
-  <item lang="I">inventare</item>
-  <item lang="P">inventar</item>
+  <item lang="en">to invent</item>
+  <item lang="fr">inventer</item>
+  <item lang="de">erfinden</item>
+  <item lang="es">inventar</item>
+  <item lang="it">inventare</item>
+  <item lang="pt">inventar</item>
 </list>
 </item>
 
@@ -1669,24 +1669,24 @@ novan metodon, procedon, modon, kombinon. </item>
 <list type="def">
   <item lang="eo">Planto kun karnecaj tigoj kaj branĉoj, kiuj surhavas skvamojn aŭ
 pikilojn anstataŭ folioj. </item>
-  <item lang="A">cactus</item>
-  <item lang="F">cactus</item>
-  <item lang="G">Kaktus</item>
-  <item lang="H">cacto, cactus</item>
-  <item lang="I">cacto, cactus</item>
-  <item lang="P">cacto</item>
+  <item lang="en">cactus</item>
+  <item lang="fr">cactus</item>
+  <item lang="de">Kaktus</item>
+  <item lang="es">cacto, cactus</item>
+  <item lang="it">cacto, cactus</item>
+  <item lang="pt">cacto</item>
 </list>
 </item>
 
 <label lang="eo">kamion&strek;o</label><item>
 <list type="def">
   <item lang="eo">Granda aŭtomobila veturilo por pezaj ŝarĝoj. </item>
-  <item lang="A">lorry, truck</item>
-  <item lang="F">camion</item>
-  <item lang="G">Lastkraftwagen, Lastauto, Laster</item>
-  <item lang="H">camión</item>
-  <item lang="I">camion</item>
-  <item lang="P">camião, caminhão</item>
+  <item lang="en">lorry, truck</item>
+  <item lang="fr">camion</item>
+  <item lang="de">Lastkraftwagen, Lastauto, Laster</item>
+  <item lang="es">camión</item>
+  <item lang="it">camion</item>
+  <item lang="pt">camião, caminhão</item>
 </list>
 </item>
 
@@ -1694,26 +1694,26 @@ pikilojn anstataŭ folioj. </item>
 <list type="def">
   <item lang="eo">Versaĵo, plej ofte gaja, sprita aŭ moka, konsistanta el egalaj
 strofoj finiĝantaj per refreno kaj destinita esti kantata. </item>
-  <item lang="A">(chanson), (little) song</item>
-  <item lang="F">chanson</item>
-  <item lang="G">Lied, Gesang, Chanson</item>
-  <item lang="H">canción</item>
-  <item lang="I">canzone</item>
-  <item lang="P">canção, modinha</item>
+  <item lang="en">(chanson), (little) song</item>
+  <item lang="fr">chanson</item>
+  <item lang="de">Lied, Gesang, Chanson</item>
+  <item lang="es">canción</item>
+  <item lang="it">canzone</item>
+  <item lang="pt">canção, modinha</item>
 </list>
 </item>
 
-<label lang="eo">kasked/o</label><item>
+<label lang="eo">kasked&strek;o</label><item>
 <list type="def">
   <item lang="eo">Ĉapo kun viziero, portata aŭ de uniformuloj, aŭ de civiluloj.
 RIM.: la kaskedo estas pli plata, iafoje kap-ronda; la kepo estas pli alta,
 ordinare cilindra.</item>
-  <item lang="A">(peaked) cap</item>
-  <item lang="F">casquette</item>
-  <item lang="G">(Schirm-)Mütze</item>
-  <item lang="H">gorra, (casquette)</item>
-  <item lang="I">berretto</item>
-  <item lang="P">boné</item>
+  <item lang="en">(peaked) cap</item>
+  <item lang="fr">casquette</item>
+  <item lang="de">(Schirm-)Mütze</item>
+  <item lang="es">gorra, (casquette)</item>
+  <item lang="it">berretto</item>
+  <item lang="pt">boné</item>
 </list>
 </item>
 
@@ -1721,61 +1721,61 @@ ordinare cilindra.</item>
 <list type="def">
   <item lang="eo">Ligna aŭ metala peco, ordinare konusa, uzata anstataŭ najlo, por
 perforte ŝtopi truon aŭ rigi de kunfiksi du partopecojn. </item>
-  <item lang="A">peg</item>
-  <item lang="F">cheville (de bois)</item>
-  <item lang="G">Pflock, Zapfen, Keil (Verbindungsteil zum Befestigen — Verkeilen — von Rädern, Riemenscheiben auf Wellen)</item>
-  <item lang="H">clavija</item>
-  <item lang="I">cavicchio, caviglia, cuneo</item>
-  <item lang="P">cavilha</item>
+  <item lang="en">peg</item>
+  <item lang="fr">cheville (de bois)</item>
+  <item lang="de">Pflock, Zapfen, Keil (Verbindungsteil zum Befestigen — Verkeilen — von Rädern, Riemenscheiben auf Wellen)</item>
+  <item lang="es">clavija</item>
+  <item lang="it">cavicchio, caviglia, cuneo</item>
+  <item lang="pt">cavilha</item>
 </list>
 </item>
 
 <label lang="eo">kemi&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: ĥemio. </item>
-  <item lang="A">chemistry</item>
-  <item lang="F">chimie</item>
-  <item lang="G">Chemie</item>
-  <item lang="H">química</item>
-  <item lang="I">chimica</item>
-  <item lang="P">química</item>
+  <item lang="en">chemistry</item>
+  <item lang="fr">chimie</item>
+  <item lang="de">Chemie</item>
+  <item lang="es">química</item>
+  <item lang="it">chimica</item>
+  <item lang="pt">química</item>
 </list>
 </item>
 
 <label lang="eo">kin&strek;o</label><item>
 <list type="def">
   <item lang="eo">Kinematografio, filmarto. </item>
-  <item lang="A">cinema, film (as an art form)</item>
-  <item lang="F">ciné, cinéma</item>
-  <item lang="G">Filmkunst</item>
-  <item lang="H">cine</item>
-  <item lang="I">cinema</item>
-  <item lang="P">cinema, cine (arte)</item>
+  <item lang="en">cinema, film (as an art form)</item>
+  <item lang="fr">ciné, cinéma</item>
+  <item lang="de">Filmkunst</item>
+  <item lang="es">cine</item>
+  <item lang="it">cinema</item>
+  <item lang="pt">cinema, cine (arte)</item>
 </list>
 </item>
 
-<label lang="eo">kirurg/o, (ĥirurg/o)</label><item>
+<label lang="eo">kirurg&strek;o, (ĥirurg&strek;o)</label><item>
 <list type="def">
   <item lang="eo">Specialisto pri kirurgio.</item>
-  <item lang="A">surgeon</item>
-  <item lang="F">chirurgien</item>
-  <item lang="G">Chirurg</item>
-  <item lang="H">cirujano</item>
-  <item lang="I">chirurgo</item>
-  <item lang="P">cirurgião</item>
+  <item lang="en">surgeon</item>
+  <item lang="fr">chirurgien</item>
+  <item lang="de">Chirurg</item>
+  <item lang="es">cirujano</item>
+  <item lang="it">chirurgo</item>
+  <item lang="pt">cirurgião</item>
 </list>
 </item>
 
-<label lang="eo">kirurgi/o, (ĥirurgi/o)</label><item>
+<label lang="eo">kirurgi&strek;o, (ĥirurgi&strek;o)</label><item>
 <list type="def">
   <item lang="eo">Medicina teorio kaj arto kuraci malsanulojn per
 operacioj.</item>
-  <item lang="A">surgery</item>
-  <item lang="F">chirurgie</item>
-  <item lang="G">Chirurgie</item>
-  <item lang="H">cirujía</item>
-  <item lang="I">chirurgia</item>
-  <item lang="P">cirurgia</item>
+  <item lang="en">surgery</item>
+  <item lang="fr">chirurgie</item>
+  <item lang="de">Chirurgie</item>
+  <item lang="es">cirujía</item>
+  <item lang="it">chirurgia</item>
+  <item lang="pt">cirurgia</item>
 </list>
 </item>
 
@@ -1785,12 +1785,12 @@ operacioj.</item>
 linioj skribitaj aŭ presitaj unu sub alia.</item>
   <item lang="eo">2. Vico de objektoj aŭ personoj
 aranĝitaj unu post aŭ sub alia.</item>
-  <item lang="A">column, file (of soldiers), rib (of knitting)</item>
-  <item lang="F">colonne (de chiffres, de journal), file (de soldats), côte (de tricot)</item>
-  <item lang="G">Spalte, Reihe, Kolumne</item>
-  <item lang="H">columna (de cifras, de diario), filo (de soldados)</item>
-  <item lang="I">colonna, fila, catasta</item>
-  <item lang="P">coluna</item>
+  <item lang="en">column, file (of soldiers), rib (of knitting)</item>
+  <item lang="fr">colonne (de chiffres, de journal), file (de soldats), côte (de tricot)</item>
+  <item lang="de">Spalte, Reihe, Kolumne</item>
+  <item lang="es">columna (de cifras, de diario), filo (de soldados)</item>
+  <item lang="it">colonna, fila, catasta</item>
+  <item lang="pt">coluna</item>
 </list>
 </item>
 
@@ -1798,86 +1798,86 @@ aranĝitaj unu post aŭ sub alia.</item>
 <list type="def">
   <item lang="eo">Post hezito aŭ dubiĝo, konsenti pri la ebleco de io: mi ~as, ke
 mia sinteno povas ŝajni mensoga. </item>
-  <item lang="A">to concede</item>
-  <item lang="F">concéder</item>
-  <item lang="G">einräumen, gewähren, bewilligen</item>
-  <item lang="H">conceder</item>
-  <item lang="I">concedere</item>
-  <item lang="P">conceder, admitir</item>
+  <item lang="en">to concede</item>
+  <item lang="fr">concéder</item>
+  <item lang="de">einräumen, gewähren, bewilligen</item>
+  <item lang="es">conceder</item>
+  <item lang="it">concedere</item>
+  <item lang="pt">conceder, admitir</item>
 </list>
 </item>
 
-<label lang="eo">koncentr/i</label><item>
+<label lang="eo">koncentr&strek;i</label><item>
 <list type="def">
   <item lang="eo">1. Dense kunigi en iun lokon: ~i trupojn, ŝipojn, kaptitojn.</item>
 <item lang="eo">2. Pliigi la proporcion de solvita substanco en solvaĵo, per relativa forigo
  de la likvaĵoj: ~ita acido, ~ita lakto, ~ita infuzo.</item>
-  <item lang="A">to concentrate</item>
-  <item lang="F">concentrer</item>
-  <item lang="G">konzentrieren</item>
-  <item lang="H">concentrar</item>
-  <item lang="I">concentrare</item>
-  <item lang="P">concentrar</item>
+  <item lang="en">to concentrate</item>
+  <item lang="fr">concentrer</item>
+  <item lang="de">konzentrieren</item>
+  <item lang="es">concentrar</item>
+  <item lang="it">concentrare</item>
+  <item lang="pt">concentrar</item>
 </list>
 </item>
 
 <label lang="eo">kontest&strek;i</label><item>
 <list type="def">
   <item lang="eo">Diskute malakcepti aserton, postulon aŭ establitan situacion. </item>
-  <item lang="A">to contest</item>
-  <item lang="F">contester</item>
-  <item lang="G">bestreiten, einwenden, anfechten</item>
-  <item lang="H">discutir, negar, impugnar</item>
-  <item lang="I">contestare, impugnare</item>
-  <item lang="P">contestar</item>
+  <item lang="en">to contest</item>
+  <item lang="fr">contester</item>
+  <item lang="de">bestreiten, einwenden, anfechten</item>
+  <item lang="es">discutir, negar, impugnar</item>
+  <item lang="it">contestare, impugnare</item>
+  <item lang="pt">contestar</item>
 </list>
 </item>
 
 <label lang="eo">kosm&strek;o</label><item>
 <list type="def">
   <item lang="eo">La universo rigardata kiel unu ordigita tuto. </item>
-  <item lang="A">cosmos, space</item>
-  <item lang="F">cosmos</item>
-  <item lang="G">Kosmos, Weltall</item>
-  <item lang="H">cosmos</item>
-  <item lang="I">cosmo</item>
-  <item lang="P">cosmo(s)</item>
+  <item lang="en">cosmos, space</item>
+  <item lang="fr">cosmos</item>
+  <item lang="de">Kosmos, Weltall</item>
+  <item lang="es">cosmos</item>
+  <item lang="it">cosmo</item>
+  <item lang="pt">cosmo(s)</item>
 </list>
 </item>
 
 <label lang="eo">kurent&strek;o</label><item>
 <list type="def">
   <item lang="eo">Fluo de elektro pasanta tra konduktilo: kontinua ~o, alterna ~o.</item>
-  <item lang="A">current (electric)</item>
-  <item lang="F">courant (électrique)</item>
-  <item lang="G">Strom (elektrischer)</item>
-  <item lang="H">corriente (eléctrica)</item>
-  <item lang="I">corrente (elettrica)</item>
-  <item lang="P">corrente (elétrica)</item>
+  <item lang="en">current (electric)</item>
+  <item lang="fr">courant (électrique)</item>
+  <item lang="de">Strom (elektrischer)</item>
+  <item lang="es">corriente (eléctrica)</item>
+  <item lang="it">corrente (elettrica)</item>
+  <item lang="pt">corrente (elétrica)</item>
 </list>
 </item>
 
 <label lang="eo">laboratori&strek;o</label><item>
 <list type="def">
   <item lang="eo">Laborejo, destinita por teknikaj aŭ sciencaj esploroj, operacioj, eksperimentoj.</item>
-  <item lang="A">laboratory</item>
-  <item lang="F">laboratoire</item>
-  <item lang="G">Laboratorium</item>
-  <item lang="H">laboratorio</item>
-  <item lang="I">laboratorio</item>
-  <item lang="P">laboratório</item>
+  <item lang="en">laboratory</item>
+  <item lang="fr">laboratoire</item>
+  <item lang="de">Laboratorium</item>
+  <item lang="es">laboratorio</item>
+  <item lang="it">laboratorio</item>
+  <item lang="pt">laboratório</item>
 </list>
 </item>
 
 <label lang="eo">lap&strek;o</label><item>
 <list type="def">
   <item lang="eo">Specio de arktio kun alkroĉiĝemaj globaj kapituloj (Arctium lappa).</item>
-  <item lang="A">burdock</item>
-  <item lang="F">bardane, glouteron</item>
-  <item lang="G">Klette</item>
-  <item lang="H">bardana, lampazo</item>
-  <item lang="I">bardana, lappa</item>
-  <item lang="P">bardana, pegamassa</item>
+  <item lang="en">burdock</item>
+  <item lang="fr">bardane, glouteron</item>
+  <item lang="de">Klette</item>
+  <item lang="es">bardana, lampazo</item>
+  <item lang="it">bardana, lappa</item>
+  <item lang="pt">bardana, pegamassa</item>
 </list>
 </item>
 
@@ -1885,28 +1885,28 @@ mia sinteno povas ŝajni mensoga. </item>
 <list type="def">
   <item lang="eo">La angula distanco, norden aŭ suden, inter unu loko kaj la
 ekvatoro. </item>
-  <item lang="A">latitude</item>
-  <item lang="F">latitude</item>
-  <item lang="G">geographische Breite</item>
-  <item lang="H">latitud</item>
-  <item lang="I">latitudine</item>
-  <item lang="P">latitude</item>
+  <item lang="en">latitude</item>
+  <item lang="fr">latitude</item>
+  <item lang="de">geographische Breite</item>
+  <item lang="es">latitud</item>
+  <item lang="it">latitudine</item>
+  <item lang="pt">latitude</item>
 </list>
 </item>
 
-<label lang="eo">licenc/o</label><item>
+<label lang="eo">licenc&strek;o</label><item>
 <list type="def">
   <item lang="eo">1. Permeso, donita de registaro aŭ grava organizaĵo al unu el ties
 anoj, plenumi difinitan socian agadon (presi, instrui, prediki, vendi tian aŭ
 tian varon, konduki aŭton ...).</item> 
 <item lang="eo"> 2. Escepta malobeo al gramatika aŭ poezia
 regulo.</item>
-  <item lang="A">license, permit</item>
-  <item lang="F">licence, permis</item>
-  <item lang="G">Erlaubnis, Erlaubnisschein, Lizenz</item>
-  <item lang="H">licencia, permiso</item>
-  <item lang="I">licenza, permesso, patente</item>
-  <item lang="P">licença</item>
+  <item lang="en">license, permit</item>
+  <item lang="fr">licence, permis</item>
+  <item lang="de">Erlaubnis, Erlaubnisschein, Lizenz</item>
+  <item lang="es">licencia, permiso</item>
+  <item lang="it">licenza, permesso, patente</item>
+  <item lang="pt">licença</item>
 </list>
 </item>
 
@@ -1916,12 +1916,12 @@ regulo.</item>
 la ĝin entenanta ujo, sed praktike konservas la saman volumenon ĉe
 kunpremado: la tri statoj de la materio estas gaseco, likveco kaj solideco.
 </item>
-  <item lang="A">a liquid</item>
-  <item lang="F">un liquide</item>
-  <item lang="G">Flüssigkeit</item>
-  <item lang="H">un líquido</item>
-  <item lang="I">un liquido</item>
-  <item lang="P">líquido</item>
+  <item lang="en">a liquid</item>
+  <item lang="fr">un liquide</item>
+  <item lang="de">Flüssigkeit</item>
+  <item lang="es">un líquido</item>
+  <item lang="it">un liquido</item>
+  <item lang="pt">líquido</item>
 </list>
 </item>
 
@@ -1929,12 +1929,12 @@ kunpremado: la tri statoj de la materio estas gaseco, likveco kaj solideco.
 <list type="def">
   <item lang="eo">Tekniko kaj arto de litografisto.
  </item>
-  <item lang="A">lithography</item>
-  <item lang="F">lithographie (art)</item>
-  <item lang="G">Lithographie</item>
-  <item lang="H">litografía</item>
-  <item lang="I">litografia</item>
-  <item lang="P">litografia</item>
+  <item lang="en">lithography</item>
+  <item lang="fr">lithographie (art)</item>
+  <item lang="de">Lithographie</item>
+  <item lang="es">litografía</item>
+  <item lang="it">litografia</item>
+  <item lang="pt">litografia</item>
 </list>
 </item>
 
@@ -1944,16 +1944,16 @@ kunpremado: la tri statoj de la materio estas gaseco, likveco kaj solideco.
 meridiano de loko kaj la origina meridiano, nome la Grenviĉa meridiano
 por la teraj ~oj, kaj la meridiano de la printempa ekvinoksa punkto por la
 ĉielaj ~oj. </item>
-  <item lang="A">longitude</item>
-  <item lang="F">longitude</item>
-  <item lang="G">geographische Länge</item>
-  <item lang="H">longitud</item>
-  <item lang="I">longitudine</item>
-  <item lang="P">longitude</item>
+  <item lang="en">longitude</item>
+  <item lang="fr">longitude</item>
+  <item lang="de">geographische Länge</item>
+  <item lang="es">longitud</item>
+  <item lang="it">longitudine</item>
+  <item lang="pt">longitude</item>
 </list>
 </item>
 
-<label lang="eo">lotus/o</label><item>
+<label lang="eo">lotus&strek;o</label><item>
 <list type="def">
   <item lang="eo">Nomo de pluraj vegetaloj, nome:</item>
 <item lang="eo">1. la greka ~o, legumenaco uzata kiel furaĝo</item>
@@ -1962,12 +1962,12 @@ fabrikis flutojn kaj kies fruktojn manĝis la Lotofagoj, specio el zizifoj
 (Zizyphus lotus)</item>
 <item lang="eo">3. la egipta ~o, nimfeo ankaŭ nomata Nila lilio (Nymphæa lotus, N.caerulea)</item>
 <item lang="eo">4. la hinda ~o, nimfeaco, sankta signo de la budhismo (Nelumbium speciosum).</item>
-  <item lang="A">lotus</item>
-  <item lang="F">lotus</item>
-  <item lang="G">Lotos, Lotosblume</item>
-  <item lang="H">loto</item>
-  <item lang="I">loto</item>
-  <item lang="P">loto, lotus, lódão</item>
+  <item lang="en">lotus</item>
+  <item lang="fr">lotus</item>
+  <item lang="de">Lotos, Lotosblume</item>
+  <item lang="es">loto</item>
+  <item lang="it">loto</item>
+  <item lang="pt">loto, lotus, lódão</item>
 </list>
 </item>
 
@@ -1975,16 +1975,16 @@ fabrikis flutojn kaj kies fruktojn manĝis la Lotofagoj, specio el zizifoj
 <list type="def">
   <item lang="eo">Meti substancon speciale glitigeman inter du frotiĝantajn
 surfacojn, por faciligi la glitadon. </item>
-  <item lang="A">to lubricate</item>
-  <item lang="F">lubrifier</item>
-  <item lang="G">schmieren, einölen</item>
-  <item lang="H">lubricar, lubrificar</item>
-  <item lang="I">lubrificare</item>
-  <item lang="P">lubrificar</item>
+  <item lang="en">to lubricate</item>
+  <item lang="fr">lubrifier</item>
+  <item lang="de">schmieren, einölen</item>
+  <item lang="es">lubricar, lubrificar</item>
+  <item lang="it">lubrificare</item>
+  <item lang="pt">lubrificar</item>
 </list>
 </item>
 
-<label lang="eo">luk/o</label><item>
+<label lang="eo">luk&strek;o</label><item>
 <list type="def">
   <item lang="eo">Aperturo, pli-malpli trairebla de homo, destinata al enlaso de lumo
 aŭ aero aŭ al simpla trairo, diversmaniere fermebla, kaj trovebla
@@ -1998,12 +1998,12 @@ interalie:</item>
   b) ĉe la ŝeloparieto: ŝipo~o (tre ofte ronda)</item> 
 <item lang="eo">3. sur ŝoseo aŭ trotuaro: kloak~o k.s.
  (Kp. rigardilo, aperturo). </item>
-  <item lang="A">1.a) dormer-window, b) trap-door, c) air-hole, ventilator; 2.a) hatchway, b) port-hole; 3. man-hole</item>
-  <item lang="F">1.a) lucarne, b) trappe, c) soupirail; 2.a) écoutille, b) hublot; 3. ouverture d’accès, trou d&strek;homme</item>
-  <item lang="G">1.a) Dachluke, b) Falltür, Klapptür, c) Kellerloch; 2.a) Deckluke, b) Bullauge; 3. Einsteigöffnung, Mannloch</item>
-  <item lang="H">1.a) lumbrera, b) trampa, c) toma de luz; 2.a) escotilla, b) portilla, tragaluz; 3. orificio de acceso, boca de entrada</item>
-  <item lang="I">1.a) abbaino, finestrella (sul tetto), b) trappola, c) pozzo di luce; 2.a) boccaporto, b) obló, sportello; 3. bocca d’accesso</item>
-  <item lang="P">1.a) trapeira, b) olho-de-boi, c) lumieiro, claraboia; 2.a) escotilha, b) vigia; 3. boca de bueiro</item>
+  <item lang="en">1.a) dormer-window, b) trap-door, c) air-hole, ventilator; 2.a) hatchway, b) port-hole; 3. man-hole</item>
+  <item lang="fr">1.a) lucarne, b) trappe, c) soupirail; 2.a) écoutille, b) hublot; 3. ouverture d’accès, trou d&strek;homme</item>
+  <item lang="de">1.a) Dachluke, b) Falltür, Klapptür, c) Kellerloch; 2.a) Deckluke, b) Bullauge; 3. Einsteigöffnung, Mannloch</item>
+  <item lang="es">1.a) lumbrera, b) trampa, c) toma de luz; 2.a) escotilla, b) portilla, tragaluz; 3. orificio de acceso, boca de entrada</item>
+  <item lang="it">1.a) abbaino, finestrella (sul tetto), b) trappola, c) pozzo di luce; 2.a) boccaporto, b) obló, sportello; 3. bocca d’accesso</item>
+  <item lang="pt">1.a) trapeira, b) olho-de-boi, c) lumieiro, claraboia; 2.a) escotilha, b) vigia; 3. boca de bueiro</item>
 </list>
 </item>
 
@@ -2011,49 +2011,49 @@ interalie:</item>
 <list type="def">
   <item lang="eo">Folio, sur kiu estas konvencie figurita jen pli-malpli granda parto de
 la tergloba surfaco, j en porcio de la astra ĉielo.</item>
-  <item lang="A">map</item>
-  <item lang="F">carte (géographique, céleste)</item>
-  <item lang="G">Landkarte, Himmelskarte</item>
-  <item lang="H">mapa</item>
-  <item lang="I">carta, cartina (geografica), mappa</item>
-  <item lang="P">mapa (geog.)</item>
+  <item lang="en">map</item>
+  <item lang="fr">carte (géographique, céleste)</item>
+  <item lang="de">Landkarte, Himmelskarte</item>
+  <item lang="es">mapa</item>
+  <item lang="it">carta, cartina (geografica), mappa</item>
+  <item lang="pt">mapa (geog.)</item>
 </list>
 </item>
 
 <label lang="eo">Mediterane&strek;o</label><item>
 <list type="def">
   <item lang="eo">Granda maro, fermita inter Eŭropo, Afriko kaj Azio. </item>
-  <item lang="A">Mediterranean</item>
-  <item lang="F">Méditerranée</item>
-  <item lang="G">Mittelmeer</item>
-  <item lang="H">Mediterráneo</item>
-  <item lang="I">Mediterraneo</item>
-  <item lang="P">Mediterrâneo</item>
+  <item lang="en">Mediterranean</item>
+  <item lang="fr">Méditerranée</item>
+  <item lang="de">Mittelmeer</item>
+  <item lang="es">Mediterráneo</item>
+  <item lang="it">Mediterraneo</item>
+  <item lang="pt">Mediterrâneo</item>
 </list>
 </item>
 
-<label lang="eo">meĥanism/o, mekanism/o</label><item>
+<label lang="eo">meĥanism&strek;o, mekanism&strek;o</label><item>
 <list type="def">
   <item lang="eo">Sistemo de organoj aŭ pecoj, kiuj kunefikas en
 maŝino aŭ aparato, aŭ en biologia proceso, por atingi difinitan rezulton.</item>
-  <item lang="A">mechanism</item>
-  <item lang="F">mécanisme</item>
-  <item lang="G">Mechanismus, Getriebe, Vorrichtung</item>
-  <item lang="H">mecanismo</item>
-  <item lang="I">congegno, meccanismo</item>
-  <item lang="P">mecanismo</item>
+  <item lang="en">mechanism</item>
+  <item lang="fr">mécanisme</item>
+  <item lang="de">Mechanismus, Getriebe, Vorrichtung</item>
+  <item lang="es">mecanismo</item>
+  <item lang="it">congegno, meccanismo</item>
+  <item lang="pt">mecanismo</item>
 </list>
 </item>
 
 <label lang="eo">mekanik&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: meĥaniko. </item>
-  <item lang="A">mechanics</item>
-  <item lang="F">la mécanique</item>
-  <item lang="G">Mechanik</item>
-  <item lang="H">mecánica</item>
-  <item lang="I">meccanica</item>
-  <item lang="P">mecânica</item>
+  <item lang="en">mechanics</item>
+  <item lang="fr">la mécanique</item>
+  <item lang="de">Mechanik</item>
+  <item lang="es">mecánica</item>
+  <item lang="it">meccanica</item>
+  <item lang="pt">mecânica</item>
 </list>
 </item>
 
@@ -2062,12 +2062,12 @@ maŝino aŭ aparato, aŭ en biologia proceso, por atingi difinitan rezulton.</it
   <item lang="eo">Industrio, celanta elfosadon de minaĵoj kaj ekstraktadon,
 fabrikadon kaj prilaboradon de metaloj.
  </item>
-  <item lang="A">metallurgy</item>
-  <item lang="F">métallurgie</item>
-  <item lang="G">Metallurgie, Hüttenwesen</item>
-  <item lang="H">metalurgia</item>
-  <item lang="I">metallurgia</item>
-  <item lang="P">metalurgia</item>
+  <item lang="en">metallurgy</item>
+  <item lang="fr">métallurgie</item>
+  <item lang="de">Metallurgie, Hüttenwesen</item>
+  <item lang="es">metalurgia</item>
+  <item lang="it">metallurgia</item>
+  <item lang="pt">metalurgia</item>
 </list>
 </item>
 
@@ -2075,12 +2075,12 @@ fabrikadon kaj prilaboradon de metaloj.
 <list type="def">
   <item lang="eo">Tuto de la oficejoj kaj oficistoj de iu ministra fako, kaj domego,
 kie ili troviĝas. </item>
-  <item lang="A">ministry (pol.)</item>
-  <item lang="F">ministère</item>
-  <item lang="G">Ministerium</item>
-  <item lang="H">ministerio</item>
-  <item lang="I">ministero</item>
-  <item lang="P">ministério</item>
+  <item lang="en">ministry (pol.)</item>
+  <item lang="fr">ministère</item>
+  <item lang="de">Ministerium</item>
+  <item lang="es">ministerio</item>
+  <item lang="it">ministero</item>
+  <item lang="pt">ministério</item>
 </list>
 </item>
 
@@ -2088,49 +2088,49 @@ kie ili troviĝas. </item>
 <list type="def">
   <item lang="eo">Konjunkcio kaj adverbo, indikanta resp. subtrahon aŭ negativan
 nombron.</item>
-  <item lang="A">minus</item>
-  <item lang="F">moins (math.)</item>
-  <item lang="G">weniger, minus</item>
-  <item lang="H">menos</item>
-  <item lang="I">meno</item>
-  <item lang="P">menos</item>
+  <item lang="en">minus</item>
+  <item lang="fr">moins (math.)</item>
+  <item lang="de">weniger, minus</item>
+  <item lang="es">menos</item>
+  <item lang="it">meno</item>
+  <item lang="pt">menos</item>
 </list>
 </item>
 
 <label lang="eo">mistifik&strek;i</label><item>
 <list type="def">
   <item lang="eo">Ŝerctrompi iun, trouzante lian kredemon. </item>
-  <item lang="A">to hoax, to fool</item>
-  <item lang="F">mystifier, berner</item>
-  <item lang="G">mystifizieren, foppen, zum besten halten</item>
-  <item lang="H">embaucar, engañar, mofar, mixtificar, mistificar</item>
-  <item lang="I">corbellare, turlupinare</item>
-  <item lang="P">mistificar, burlar, ludibriar</item>
+  <item lang="en">to hoax, to fool</item>
+  <item lang="fr">mystifier, berner</item>
+  <item lang="de">mystifizieren, foppen, zum besten halten</item>
+  <item lang="es">embaucar, engañar, mofar, mixtificar, mistificar</item>
+  <item lang="it">corbellare, turlupinare</item>
+  <item lang="pt">mistificar, burlar, ludibriar</item>
 </list>
 </item>
 
 <label lang="eo">monark&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: monarĥo. </item>
-  <item lang="A">monarch</item>
-  <item lang="F">monarque</item>
-  <item lang="G">Monarch</item>
-  <item lang="H">monarca</item>
-  <item lang="I">monarca</item>
-  <item lang="P">monarca</item>
+  <item lang="en">monarch</item>
+  <item lang="fr">monarque</item>
+  <item lang="de">Monarch</item>
+  <item lang="es">monarca</item>
+  <item lang="it">monarca</item>
+  <item lang="pt">monarca</item>
 </list>
 </item>
 
-<label lang="eo">monarki/o, (monarĥi/o)</label><item>
+<label lang="eo">monarki&strek;o, (monarĥi&strek;o)</label><item>
 <list type="def">
   <item lang="eo">Reĝimo de regno regata de monarĥo (monarko)
 kaj tia regno: absoluta, konstitucia, demokratia ~o.</item>
-  <item lang="A">monarchy</item>
-  <item lang="F">monarchie</item>
-  <item lang="G">Monarchie</item>
-  <item lang="H">monarquía</item>
-  <item lang="I">monarchia</item>
-  <item lang="P">monarquía</item>
+  <item lang="en">monarchy</item>
+  <item lang="fr">monarchie</item>
+  <item lang="de">Monarchie</item>
+  <item lang="es">monarquía</item>
+  <item lang="it">monarchia</item>
+  <item lang="pt">monarquía</item>
 </list>
 </item>
 
@@ -2139,12 +2139,12 @@ kaj tia regno: absoluta, konstitucia, demokratia ~o.</item>
   <item lang="eo">Komuna nomo por pikantaj dipteraj insektoj, precipe el la familio
  de kuledoj.
  </item>
-  <item lang="A">mosquito</item>
-  <item lang="F">moustique</item>
-  <item lang="G">Moskito, Stechmücke, Schnake</item>
-  <item lang="H">mosquito</item>
-  <item lang="I">zanzara</item>
-  <item lang="P">mosquito, pernilongo</item>
+  <item lang="en">mosquito</item>
+  <item lang="fr">moustique</item>
+  <item lang="de">Moskito, Stechmücke, Schnake</item>
+  <item lang="es">mosquito</item>
+  <item lang="it">zanzara</item>
+  <item lang="pt">mosquito, pernilongo</item>
 </list>
 </item>
 
@@ -2154,12 +2154,12 @@ kaj tia regno: absoluta, konstitucia, demokratia ~o.</item>
 ricevi trian P nomatan produto; la produto P de la du entjeroj A kaj B
 estas la adicio de B nombroj, ĉiuj egalaj al A.
  </item>
-  <item lang="A">to multiply</item>
-  <item lang="F">multiplier (math.)</item>
-  <item lang="G">multiplizieren</item>
-  <item lang="H">multiplicar (mat.)</item>
-  <item lang="I">moltiplicare (mat.)</item>
-  <item lang="P">multiplicar (mat.)</item>
+  <item lang="en">to multiply</item>
+  <item lang="fr">multiplier (math.)</item>
+  <item lang="de">multiplizieren</item>
+  <item lang="es">multiplicar (mat.)</item>
+  <item lang="it">moltiplicare (mat.)</item>
+  <item lang="pt">multiplicar (mat.)</item>
 </list>
 </item>
 
@@ -2168,12 +2168,12 @@ estas la adicio de B nombroj, ĉiuj egalaj al A.
   <item lang="eo">Elstara parto de la kapo de tiuj bestoj, ĉe kiuj la nazo kaj buŝo
 elpintiĝas el la vizaĝo: ~o de hundo, de kato, de ezoko.
  </item>
-  <item lang="A">muzzle, snout (of animals, fish)</item>
-  <item lang="F">museau, mufle, groin, boutoir</item>
-  <item lang="G">Schnauze, Maul</item>
-  <item lang="H">hocico, morro, jeta</item>
-  <item lang="I">muso, ceffo</item>
-  <item lang="P">focinho</item>
+  <item lang="en">muzzle, snout (of animals, fish)</item>
+  <item lang="fr">museau, mufle, groin, boutoir</item>
+  <item lang="de">Schnauze, Maul</item>
+  <item lang="es">hocico, morro, jeta</item>
+  <item lang="it">muso, ceffo</item>
+  <item lang="pt">focinho</item>
 </list>
 </item>
 
@@ -2181,36 +2181,36 @@ elpintiĝas el la vizaĝo: ~o de hundo, de kato, de ezoko.
 <list type="def">
   <item lang="eo">Pintforma metala vergeto elfarita por diversaj uzoj, sed ne por
 kudri. </item>
-  <item lang="A">needle</item>
-  <item lang="F">aiguille</item>
-  <item lang="G">Nadel</item>
-  <item lang="H">aguja</item>
-  <item lang="I">ago</item>
-  <item lang="P">agulha (téc.)</item>
+  <item lang="en">needle</item>
+  <item lang="fr">aiguille</item>
+  <item lang="de">Nadel</item>
+  <item lang="es">aguja</item>
+  <item lang="it">ago</item>
+  <item lang="pt">agulha (téc.)</item>
 </list>
 </item>
 
 <label lang="eo">neglekt&strek;i</label><item>
 <list type="def">
   <item lang="eo">Lasi ne farita, ne atentata, ne zorgita. </item>
-  <item lang="A">to neglect</item>
-  <item lang="F">négliger</item>
-  <item lang="G">vernachlässigen, unterlassen, versäumen</item>
-  <item lang="H">descuidar</item>
-  <item lang="I">trascurare, tralasciare, negligere</item>
-  <item lang="P">negligenciar, desleixar, descuidar, descurar</item>
+  <item lang="en">to neglect</item>
+  <item lang="fr">négliger</item>
+  <item lang="de">vernachlässigen, unterlassen, versäumen</item>
+  <item lang="es">descuidar</item>
+  <item lang="it">trascurare, tralasciare, negligere</item>
+  <item lang="pt">negligenciar, desleixar, descuidar, descurar</item>
 </list>
 </item>
 
 <label lang="eo">nervoz&strek;a</label><item>
 <list type="def">
   <item lang="eo">Havanta facile eksciteblan maltrankviliĝeman psikon. </item>
-  <item lang="A">nervous, fidgety, excitable, highly-strung</item>
-  <item lang="F">nerveux, (excitable)</item>
-  <item lang="G">nervös, erregt, erregbar</item>
-  <item lang="H">nervioso (de nervios irritables)</item>
-  <item lang="I">nervoso</item>
-  <item lang="P">nervoso, irritável, exaltado</item>
+  <item lang="en">nervous, fidgety, excitable, highly-strung</item>
+  <item lang="fr">nerveux, (excitable)</item>
+  <item lang="de">nervös, erregt, erregbar</item>
+  <item lang="es">nervioso (de nervios irritables)</item>
+  <item lang="it">nervoso</item>
+  <item lang="pt">nervoso, irritável, exaltado</item>
 </list>
 </item>
 
@@ -2219,48 +2219,48 @@ kudri. </item>
   <item lang="eo">Nitrogenhava sinteza kombinaĵo, analoga al la plastoj, el kiu oni
 faras i.a. specon de artefarita silko.
  </item>
-  <item lang="A">nylon</item>
-  <item lang="F">nylon</item>
-  <item lang="G">Nylon</item>
-  <item lang="H">nilón, nailon</item>
-  <item lang="I">nailon, “nylon”</item>
-  <item lang="P">“nylon”</item>
+  <item lang="en">nylon</item>
+  <item lang="fr">nylon</item>
+  <item lang="de">Nylon</item>
+  <item lang="es">nilón, nailon</item>
+  <item lang="it">nailon, “nylon”</item>
+  <item lang="pt">“nylon”</item>
 </list>
 </item>
 
 <label lang="eo">nul</label><item>
 <list type="def">
   <item lang="eo">La nombrosigno 0 (radiko  de la Fundamenta: nul/o).</item>
-  <item lang="A">zero, nought, nil</item>
-  <item lang="F">zéro</item>
-  <item lang="G">Null</item>
-  <item lang="H">cero</item>
-  <item lang="I">zero</item>
-  <item lang="P">zero</item>
+  <item lang="en">zero, nought, nil</item>
+  <item lang="fr">zéro</item>
+  <item lang="de">Null</item>
+  <item lang="es">cero</item>
+  <item lang="it">zero</item>
+  <item lang="pt">zero</item>
 </list>
 </item>
 
 <label lang="eo">obstakl&strek;o</label><item>
 <list type="def">
   <item lang="eo">Tio, kio malhelpas aŭ malfruigas la iradon (propre aŭ figure). </item>
-  <item lang="A">obstacle, hindrance</item>
-  <item lang="F">obstacle, empêchement</item>
-  <item lang="G">Hindernis, Erschwerung</item>
-  <item lang="H">obstáculo</item>
-  <item lang="I">ostacolo</item>
-  <item lang="P">obstàculo, empecilho, embaraço</item>
+  <item lang="en">obstacle, hindrance</item>
+  <item lang="fr">obstacle, empêchement</item>
+  <item lang="de">Hindernis, Erschwerung</item>
+  <item lang="es">obstáculo</item>
+  <item lang="it">ostacolo</item>
+  <item lang="pt">obstàculo, empecilho, embaraço</item>
 </list>
 </item>
 
 <label lang="eo">ofert&strek;i</label><item>
 <list type="def">
   <item lang="eo">Proponi (varon aŭ servon) al kliento: la leĝo pri ~o kaj mendo. </item>
-  <item lang="A">to offer, to tender (for sale or supply)</item>
-  <item lang="F">offrir (commerce)</item>
-  <item lang="G">anbieten, feilbieten, offerieren</item>
-  <item lang="H">ofrecer (oferta), ofertar</item>
-  <item lang="I">offrire</item>
-  <item lang="P">oferecer (com)</item>
+  <item lang="en">to offer, to tender (for sale or supply)</item>
+  <item lang="fr">offrir (commerce)</item>
+  <item lang="de">anbieten, feilbieten, offerieren</item>
+  <item lang="es">ofrecer (oferta), ofertar</item>
+  <item lang="it">offrire</item>
+  <item lang="pt">oferecer (com)</item>
 </list>
 </item>
 
@@ -2268,37 +2268,37 @@ faras i.a. specon de artefarita silko.
 <list type="def">
   <item lang="eo">Esprimi opinion kontraŭan al la opinio de iu alia kaj peni, ke tiu ne
 povu efektivigi la sian. </item>
-  <item lang="A">to oppose</item>
-  <item lang="F">s’opposer à, aller contre, contrecarrer</item>
-  <item lang="G">entgegenstellen, entgegen, opponieren</item>
-  <item lang="H">oponerse</item>
-  <item lang="I">opporsi</item>
-  <item lang="P">opor-se</item>
+  <item lang="en">to oppose</item>
+  <item lang="fr">s’opposer à, aller contre, contrecarrer</item>
+  <item lang="de">entgegenstellen, entgegen, opponieren</item>
+  <item lang="es">oponerse</item>
+  <item lang="it">opporsi</item>
+  <item lang="pt">opor-se</item>
 </list>
 </item>
 
-<label lang="eo">ort/o</label><item>
+<label lang="eo">ort&strek;o</label><item>
 <list type="def">
   <item lang="eo">90-grada angulo: se du rektoj kruciĝas, tiel ke du apudaj anguloj
 estas egalaj, ili determinas kvar ortojn.</item>
-  <item lang="A">right angle</item>
-  <item lang="F">angle droit, un droit</item>
-  <item lang="G">rechter Winkel, Rechter</item>
-  <item lang="H">ángulo recto, recto</item>
-  <item lang="I">angolo retto</item>
-  <item lang="P">ángulo reto</item>
+  <item lang="en">right angle</item>
+  <item lang="fr">angle droit, un droit</item>
+  <item lang="de">rechter Winkel, Rechter</item>
+  <item lang="es">ángulo recto, recto</item>
+  <item lang="it">angolo retto</item>
+  <item lang="pt">ángulo reto</item>
 </list>
 </item>
 
 <label lang="eo">Pacifik&strek;o</label><item>
 <list type="def">
   <item lang="eo">La Oceano inter Ameriko, Azio kaj Oceanio. </item>
-  <item lang="A">The Pacific</item>
-  <item lang="F">le Pacifique</item>
-  <item lang="G">der Stille Ozean, der Pazifik</item>
-  <item lang="H">el Pacífico</item>
-  <item lang="I">il Pacifico</item>
-  <item lang="P">o Pacífico</item>
+  <item lang="en">The Pacific</item>
+  <item lang="fr">le Pacifique</item>
+  <item lang="de">der Stille Ozean, der Pazifik</item>
+  <item lang="es">el Pacífico</item>
+  <item lang="it">il Pacifico</item>
+  <item lang="pt">o Pacífico</item>
 </list>
 </item>
 
@@ -2306,12 +2306,12 @@ estas egalaj, ili determinas kvar ortojn.</item>
 <list type="def">
   <item lang="eo">Akcidenta nefunkciado de aparato aŭ de motorveturilo.
  </item>
-  <item lang="A">breakdown, failure</item>
-  <item lang="F">panne (tech.)</item>
-  <item lang="G">Panne, Störung, Schaden, Defekt</item>
-  <item lang="H">avería</item>
-  <item lang="I">panna, panne, guasto (meccanico), avaria</item>
-  <item lang="P">pane</item>
+  <item lang="en">breakdown, failure</item>
+  <item lang="fr">panne (tech.)</item>
+  <item lang="de">Panne, Störung, Schaden, Defekt</item>
+  <item lang="es">avería</item>
+  <item lang="it">panna, panne, guasto (meccanico), avaria</item>
+  <item lang="pt">pane</item>
 </list>
 </item>
 
@@ -2320,12 +2320,12 @@ estas egalaj, ili determinas kvar ortojn.</item>
   <item lang="eo">Ombrelforma aparato, kiu uzas la aeran reziston por malrapidigi
 la malsupreniĝon de falanta korpo.
  </item>
-  <item lang="A">parachute</item>
-  <item lang="F">parachute</item>
-  <item lang="G">Fallschirm</item>
-  <item lang="H">paracaídas</item>
-  <item lang="I">paracadute</item>
-  <item lang="P">pára-quedas</item>
+  <item lang="en">parachute</item>
+  <item lang="fr">parachute</item>
+  <item lang="de">Fallschirm</item>
+  <item lang="es">paracaídas</item>
+  <item lang="it">paracadute</item>
+  <item lang="pt">pára-quedas</item>
 </list>
 </item>
 
@@ -2333,12 +2333,12 @@ la malsupreniĝon de falanta korpo.
 <list type="def">
   <item lang="eo">Genra nomo de makromolekulaj sintezaj materioj, transformeblaj
 per diversaj procedoj ordinare uzantaj varmon kaj premon. </item>
-  <item lang="A">plastic (material)</item>
-  <item lang="F">matière plastique, un plastique</item>
-  <item lang="G">Kunststoff, Pressstoff, Kunstharz</item>
-  <item lang="H">material plástico, plástico</item>
-  <item lang="I">materia plastica</item>
-  <item lang="P">matéria plastica, plástico</item>
+  <item lang="en">plastic (material)</item>
+  <item lang="fr">matière plastique, un plastique</item>
+  <item lang="de">Kunststoff, Pressstoff, Kunstharz</item>
+  <item lang="es">material plástico, plástico</item>
+  <item lang="it">materia plastica</item>
+  <item lang="pt">matéria plastica, plástico</item>
 </list>
 </item>
 
@@ -2346,24 +2346,24 @@ per diversaj procedoj ordinare uzantaj varmon kaj premon. </item>
 <list type="def">
   <item lang="eo">Lerte sin ĵeti en akvon, por naĝi.
  </item>
-  <item lang="A">to dive, to plunge</item>
-  <item lang="F">plonger</item>
-  <item lang="G">tauchen</item>
-  <item lang="H">zambullirse</item>
-  <item lang="I">tuffarsi</item>
-  <item lang="P">mergulhar</item>
+  <item lang="en">to dive, to plunge</item>
+  <item lang="fr">plonger</item>
+  <item lang="de">tauchen</item>
+  <item lang="es">zambullirse</item>
+  <item lang="it">tuffarsi</item>
+  <item lang="pt">mergulhar</item>
 </list>
 </item>
 
 <label lang="eo">plus</label><item>
 <list type="def">
   <item lang="eo">Konjunkcio kaj adverbo, indikanta resp. adicion aŭ pozitivan nombron.</item>
-  <item lang="A">plus</item>
-  <item lang="F">plus (math.)</item>
-  <item lang="G">plus</item>
-  <item lang="H">más</item>
-  <item lang="I">più</item>
-  <item lang="P">mais (mat.)</item>
+  <item lang="en">plus</item>
+  <item lang="fr">plus (math.)</item>
+  <item lang="de">plus</item>
+  <item lang="es">más</item>
+  <item lang="it">più</item>
+  <item lang="pt">mais (mat.)</item>
 </list>
 </item>
 
@@ -2371,36 +2371,36 @@ per diversaj procedoj ordinare uzantaj varmon kaj premon. </item>
 <list type="def">
   <item lang="eo">Fari kiel kompetentulo instruan aŭ klerigan paroladon pri sufiĉe
 grava temo. </item>
-  <item lang="A">to lecture</item>
-  <item lang="F">faire une conférence</item>
-  <item lang="G">einen Vortrag (Vorlesung) halten</item>
-  <item lang="H">tener una conferencia (lección, discurso)</item>
-  <item lang="I">fare una conferenza</item>
-  <item lang="P">fazer preleção</item>
+  <item lang="en">to lecture</item>
+  <item lang="fr">faire une conférence</item>
+  <item lang="de">einen Vortrag (Vorlesung) halten</item>
+  <item lang="es">tener una conferencia (lección, discurso)</item>
+  <item lang="it">fare una conferenza</item>
+  <item lang="pt">fazer preleção</item>
 </list>
 </item>
 
 <label lang="eo">preskrib&strek;i</label><item>
 <list type="def">
   <item lang="eo">(pp leĝoj aŭ kuracistoj) Formale kaj aŭtoritate ordoni. </item>
-  <item lang="A">to prescribe</item>
-  <item lang="F">prescrire</item>
-  <item lang="G">vorschreiben, verschreiben</item>
-  <item lang="H">prescribir</item>
-  <item lang="I">prescrivere</item>
-  <item lang="P">prescrever</item>
+  <item lang="en">to prescribe</item>
+  <item lang="fr">prescrire</item>
+  <item lang="de">vorschreiben, verschreiben</item>
+  <item lang="es">prescribir</item>
+  <item lang="it">prescrivere</item>
+  <item lang="pt">prescrever</item>
 </list>
 </item>
 
 <label lang="eo">prolet&strek;o</label><item>
 <list type="def">
   <item lang="eo">Moderna formo de: proletario. </item>
-  <item lang="A">proletarian</item>
-  <item lang="F">prolétaire</item>
-  <item lang="G">Proletarier, (Prolet)</item>
-  <item lang="H">proletario</item>
-  <item lang="I">proletario</item>
-  <item lang="P">proletário</item>
+  <item lang="en">proletarian</item>
+  <item lang="fr">prolétaire</item>
+  <item lang="de">Proletarier, (Prolet)</item>
+  <item lang="es">proletario</item>
+  <item lang="it">proletario</item>
+  <item lang="pt">proletário</item>
 </list>
 </item>
 
@@ -2410,12 +2410,12 @@ grava temo. </item>
 varman aeron — aŭ maŝinorgano, kiu disradias varmon ĉirkaŭ si, ĉu por
 hejti lokon, ĉu por malvarmigi maŝinparton aŭ sistemon (kiel ekz-e:
 eksplod-motoron); ankaŭ elektra hejtilo.</item>
-  <item lang="A">radiator</item>
-  <item lang="F">radiateur</item>
-  <item lang="G">Heizkörper, Kühler</item>
-  <item lang="H">radiador</item>
-  <item lang="I">radiatore</item>
-  <item lang="P">radiador</item>
+  <item lang="en">radiator</item>
+  <item lang="fr">radiateur</item>
+  <item lang="de">Heizkörper, Kühler</item>
+  <item lang="es">radiador</item>
+  <item lang="it">radiatore</item>
+  <item lang="pt">radiador</item>
 </list>
 </item>
 
@@ -2424,12 +2424,12 @@ eksplod-motoron); ankaŭ elektra hejtilo.</item>
   <item lang="eo">(pp surfaco de korpo) Fari, ke trafanta lumradio, sonondo k.a.
 ne penetru en iun surfacon, sed ŝanĝu sian direkton al direkto simetria rilate
 al la ortanto ĉe la trafpunkto. </item>
-  <item lang="A">to reflect (phys.)</item>
-  <item lang="F">réfléchir (lumière), renvoyer (son)</item>
-  <item lang="G">zurückstrahlen, zurückwerfen, reflektieren</item>
-  <item lang="H">reflejar, reflectar</item>
-  <item lang="I">riflettere</item>
-  <item lang="P">reflectir</item>
+  <item lang="en">to reflect (phys.)</item>
+  <item lang="fr">réfléchir (lumière), renvoyer (son)</item>
+  <item lang="de">zurückstrahlen, zurückwerfen, reflektieren</item>
+  <item lang="es">reflejar, reflectar</item>
+  <item lang="it">riflettere</item>
+  <item lang="pt">reflectir</item>
 </list>
 </item>
 
@@ -2437,37 +2437,37 @@ al la ortanto ĉe la trafpunkto. </item>
 <list type="def">
   <item lang="eo">Aperigi tion, kio estis nekonata, sekreta aŭ nevidebla: ~i planon,
 misteron; ~i foton per kemia bano. </item>
-  <item lang="A">to reveal, to develop (phot.)</item>
-  <item lang="F">révéler, développer (photo)</item>
-  <item lang="G">enthüllen, aufdecken, entwickeln</item>
-  <item lang="H">revelar</item>
-  <item lang="I">rivelare, sviluppare</item>
-  <item lang="P">revelar</item>
+  <item lang="en">to reveal, to develop (phot.)</item>
+  <item lang="fr">révéler, développer (photo)</item>
+  <item lang="de">enthüllen, aufdecken, entwickeln</item>
+  <item lang="es">revelar</item>
+  <item lang="it">rivelare, sviluppare</item>
+  <item lang="pt">revelar</item>
 </list>
 </item>
 
-<label lang="eo">rivolu/o</label><item>
+<label lang="eo">rivolu&strek;o</label><item>
 <list type="def">
   <item lang="eo">Rotacio de 360°: la tero ~as ĉirkaŭ sia akso en 24 horoj kaj ĉirkaŭ
 la suno  en iom pli ol 365 tagoj.</item>
-  <item lang="A">revolution (around an axis)</item>
-  <item lang="F">révolution (méc., géom.), tour (d’hélice)</item>
-  <item lang="G">Tour, Umdrehung, Umlauf, Rotation</item>
-  <item lang="H">revolución (mec., geom.), vuelta</item>
-  <item lang="I">rivoluzione (mec., geom.)</item>
-  <item lang="P">revolução (mec., geom.)</item>
+  <item lang="en">revolution (around an axis)</item>
+  <item lang="fr">révolution (méc., géom.), tour (d’hélice)</item>
+  <item lang="de">Tour, Umdrehung, Umlauf, Rotation</item>
+  <item lang="es">revolución (mec., geom.), vuelta</item>
+  <item lang="it">rivoluzione (mec., geom.)</item>
+  <item lang="pt">revolução (mec., geom.)</item>
 </list>
 </item>
 
 <label lang="eo">sandviĉ&strek;o</label><item>
 <list type="def">
   <item lang="eo">Manĝaĵo, konsistanta el ia nutraĵo metita inter du pantranĉoj. </item>
-  <item lang="A">sandwich</item>
-  <item lang="F">sandwich</item>
-  <item lang="G">Sandwich, belegtes Brötchen, Doppelschnitte</item>
-  <item lang="H">“sándwich”, emparedado</item>
-  <item lang="I">“sandwich”, panino imbottito, panino gravido</item>
-  <item lang="P">sanduíche</item>
+  <item lang="en">sandwich</item>
+  <item lang="fr">sandwich</item>
+  <item lang="de">Sandwich, belegtes Brötchen, Doppelschnitte</item>
+  <item lang="es">“sándwich”, emparedado</item>
+  <item lang="it">“sandwich”, panino imbottito, panino gravido</item>
+  <item lang="pt">sanduíche</item>
 </list>
 </item>
 
@@ -2475,12 +2475,12 @@ la suno  en iom pli ol 365 tagoj.</item>
 <list type="def">
   <item lang="eo">Ĉefe silka, kaj nun nilona, sed ankaŭ lana, kotona ... teksaĵo, de kiu
 unu flanko estas glata kaj brila. </item>
-  <item lang="A">satin</item>
-  <item lang="F">satin</item>
-  <item lang="G">Satin, Atlas</item>
-  <item lang="H">raso, satén, satín</item>
-  <item lang="I">raso, “satin”</item>
-  <item lang="P">cetim</item>
+  <item lang="en">satin</item>
+  <item lang="fr">satin</item>
+  <item lang="de">Satin, Atlas</item>
+  <item lang="es">raso, satén, satín</item>
+  <item lang="it">raso, “satin”</item>
+  <item lang="pt">cetim</item>
 </list>
 </item>
 
@@ -2490,12 +2490,12 @@ unu flanko estas glata kaj brila. </item>
 tiu ricevas sciigojn pri iaj elementoj, fizikaj aŭ kemiaj, de la ekstera medio
 aŭ de la interna medio: vidado, aŭdado, flarado, gustumado kaj tuŝado
 estas la kvin klasikaj ~oj; muskola ~o, ekvilibro~o. </item>
-  <item lang="A">sense (the five senses)</item>
-  <item lang="F">sens (les cinq sens)</item>
-  <item lang="G">Sinn (die fünf Sinne)</item>
-  <item lang="H">sentido (los cinco sentidos)</item>
-  <item lang="I">senso (i cinque sensi)</item>
-  <item lang="P">sentido (os cinco sentidos)</item>
+  <item lang="en">sense (the five senses)</item>
+  <item lang="fr">sens (les cinq sens)</item>
+  <item lang="de">Sinn (die fünf Sinne)</item>
+  <item lang="es">sentido (los cinco sentidos)</item>
+  <item lang="it">senso (i cinque sensi)</item>
+  <item lang="pt">sentido (os cinco sentidos)</item>
 </list>
 </item>
 
@@ -2503,12 +2503,12 @@ estas la kvin klasikaj ~oj; muskola ~o, ekvilibro~o. </item>
 <list type="def">
   <item lang="eo">Homa brusto, rigardata kiel formanta kun la brakoj aŭ femuroj ian
 varman ŝirmejon. </item>
-  <item lang="A">bosom, breast, lap</item>
-  <item lang="F">sein, giron</item>
-  <item lang="G">Busen, Brust, Schoss</item>
-  <item lang="H">seno, regazo</item>
-  <item lang="I">seno, petto</item>
-  <item lang="P">seio, regaço</item>
+  <item lang="en">bosom, breast, lap</item>
+  <item lang="fr">sein, giron</item>
+  <item lang="de">Busen, Brust, Schoss</item>
+  <item lang="es">seno, regazo</item>
+  <item lang="it">seno, petto</item>
+  <item lang="pt">seio, regaço</item>
 </list>
 </item>
 
@@ -2516,12 +2516,12 @@ varman ŝirmejon. </item>
 <list type="def">
   <item lang="eo">Gramatika nombro, montranta, ke oni parolas pri ununura
 persono aŭ afero. </item>
-  <item lang="A">the singular</item>
-  <item lang="F">le singulier (gram.)</item>
-  <item lang="G">Einzahl, Singular</item>
-  <item lang="H">el singular</item>
-  <item lang="I">il singolare</item>
-  <item lang="P">singular</item>
+  <item lang="en">the singular</item>
+  <item lang="fr">le singulier (gram.)</item>
+  <item lang="de">Einzahl, Singular</item>
+  <item lang="es">el singular</item>
+  <item lang="it">il singolare</item>
+  <item lang="pt">singular</item>
 </list>
 </item>
 
@@ -2530,26 +2530,26 @@ persono aŭ afero. </item>
   <item lang="eo">Loko rigardata konsidere al la kondiĉoj, kiujn ĝi prezentis aŭ
 prezentas por la starigo de homloĝejoj (naturo de la grundo, ebloj de
 vivtenado, defendorimedoj, ktp). </item>
-  <item lang="A">site, situation, position</item>
-  <item lang="F">site, situation (géo.), position, assiette (d’une ville)</item>
-  <item lang="G">Lage, Situation</item>
-  <item lang="H">sitio, situación, posición, asiento</item>
-  <item lang="I">sito, situazione, posizione</item>
-  <item lang="P">situação, localização</item>
+  <item lang="en">site, situation, position</item>
+  <item lang="fr">site, situation (géo.), position, assiette (d’une ville)</item>
+  <item lang="de">Lage, Situation</item>
+  <item lang="es">sitio, situación, posición, asiento</item>
+  <item lang="it">sito, situazione, posizione</item>
+  <item lang="pt">situação, localização</item>
 </list>
 </item>
 
-<label lang="eo">ski/o</label><item>
+<label lang="eo">ski&strek;o</label><item>
 <list type="def">
   <item lang="eo"> Ĉiu peco el paro da lignaj, plastaj aŭ metalaj tabuloj, longaj ĉ. du
 metrojn, larĝaj 7 ĝis 9 centimetrojn, kun suprenkurbita antaŭa
 ekstremaĵo, kiun oni alfiksas al ĉiu ŝuo kaj per kiu oni glitas sur la neĝo.</item>
-  <item lang="A">ski</item>
-  <item lang="F">ski</item>
-  <item lang="G">Ski, Schi</item>
-  <item lang="H">esquí</item>
-  <item lang="I">sci</item>
-  <item lang="P">esqui</item>
+  <item lang="en">ski</item>
+  <item lang="fr">ski</item>
+  <item lang="de">Ski, Schi</item>
+  <item lang="es">esquí</item>
+  <item lang="it">sci</item>
+  <item lang="pt">esqui</item>
 </list>
 </item>
 
@@ -2558,12 +2558,12 @@ ekstremaĵo, kiun oni alfiksas al ĉiu ŝuo kaj per kiu oni glitas sur la neĝo.
   <item lang="eo">Veturilo, provizita per glitiloj anstataŭ radoj, uzata por transporti
 ŝarĝojn aŭ homojn, tirata de ĉevaloj, hundoj, boacoj, aŭ puŝata de homo.
 </item>
-  <item lang="A">sled, sledge, sleigh</item>
-  <item lang="F">traîneau, (schlitte)</item>
-  <item lang="G">Schlitten</item>
-  <item lang="H">trineo</item>
-  <item lang="I">slitta</item>
-  <item lang="P">trenó</item>
+  <item lang="en">sled, sledge, sleigh</item>
+  <item lang="fr">traîneau, (schlitte)</item>
+  <item lang="de">Schlitten</item>
+  <item lang="es">trineo</item>
+  <item lang="it">slitta</item>
+  <item lang="pt">trenó</item>
 </list>
 </item>
 
@@ -2572,26 +2572,26 @@ ekstremaĵo, kiun oni alfiksas al ĉiu ŝuo kaj per kiu oni glitas sur la neĝo.
   <item lang="eo">Grava greno, multe kulturata en varmaj sekaj regionoj por
 produktado de faruno, sukero, siropo, alkoholo ktp.
 (Andropogon sorghum). </item>
-  <item lang="A">sorghum</item>
-  <item lang="F">sorgho, sorgum</item>
-  <item lang="G">Sorghum, Mohrenhirse</item>
-  <item lang="H">sorgo</item>
-  <item lang="I">sorgo</item>
-  <item lang="P">sorgo</item>
+  <item lang="en">sorghum</item>
+  <item lang="fr">sorgho, sorgum</item>
+  <item lang="de">Sorghum, Mohrenhirse</item>
+  <item lang="es">sorgo</item>
+  <item lang="it">sorgo</item>
+  <item lang="pt">sorgo</item>
 </list>
 </item>
 
 
-<label lang="eo">spur/o</label><item>
+<label lang="eo">spur&strek;o</label><item>
 <list type="def">
   <item lang="eo">Postlasita enpremo, marko, signo, dank’ al kiu eblas diveni, kien iu
 aŭ io pasis, aŭ kion iu faris, aŭ kio (fizike) okazis.</item>
-  <item lang="A">spoor, footprint, track, trace, trail</item>
-  <item lang="F">trace, empreinte, vestige, indice</item>
-  <item lang="G">Spur</item>
-  <item lang="H">huella, pisada, impresión, indicio</item>
-  <item lang="I">traccia, orma, indicio</item>
-  <item lang="P">indício</item>
+  <item lang="en">spoor, footprint, track, trace, trail</item>
+  <item lang="fr">trace, empreinte, vestige, indice</item>
+  <item lang="de">Spur</item>
+  <item lang="es">huella, pisada, impresión, indicio</item>
+  <item lang="it">traccia, orma, indicio</item>
+  <item lang="pt">indício</item>
 </list>
 </item>
 
@@ -2599,50 +2599,50 @@ aŭ io pasis, aŭ kion iu faris, aŭ kio (fizike) okazis.</item>
 <list type="def">
   <item lang="eo">Loko, destinita kaj taŭge aranĝita por atletaj aŭ sportaj ekzercoj
 kaj konkursoj, kun multaj ŝtupaj vicoj da sidlokoj por la publiko. </item>
-  <item lang="A">stadium</item>
-  <item lang="F">stade (sport)</item>
-  <item lang="G">Stadion, Sportplatz</item>
-  <item lang="H">estadio (deporte)</item>
-  <item lang="I">stadio</item>
-  <item lang="P">estádio, campo (de esportes)</item>
+  <item lang="en">stadium</item>
+  <item lang="fr">stade (sport)</item>
+  <item lang="de">Stadion, Sportplatz</item>
+  <item lang="es">estadio (deporte)</item>
+  <item lang="it">stadio</item>
+  <item lang="pt">estádio, campo (de esportes)</item>
 </list>
 </item>
 
-<label lang="eo">start/i. (netransitiva)</label><item>
+<label lang="eo">start&strek;i. (netransitiva)</label><item>
 <list type="def">
   <item lang="eo">1. Komenci sportan agadon en konkuro.</item>
   <item lang="eo">2. (pp motoro ks.) Ekfunkcii.</item>
-  <item lang="A">to start (in a race etc., intr.), 2. to start up (intr.)</item>
-  <item lang="F">1. partir (coureur), démarrer, prendre le départ, 2. démarrer</item>
-  <item lang="G">1.,2. starten</item>
-  <item lang="H">1. arrancar, salir, emprender la marcha, 2. arrancar</item>
-  <item lang="I">1. partire, prendere il via, 2. avviarsi</item>
-  <item lang="P">1. arrancar, partir, pôr-se em marcha, 2. pôr-se em movimento</item>
+  <item lang="en">to start (in a race etc., intr.), 2. to start up (intr.)</item>
+  <item lang="fr">1. partir (coureur), démarrer, prendre le départ, 2. démarrer</item>
+  <item lang="de">1.,2. starten</item>
+  <item lang="es">1. arrancar, salir, emprender la marcha, 2. arrancar</item>
+  <item lang="it">1. partire, prendere il via, 2. avviarsi</item>
+  <item lang="pt">1. arrancar, partir, pôr-se em marcha, 2. pôr-se em movimento</item>
 </list>
 </item>
 
-<label lang="eo">subtrah/i</label><item>
+<label lang="eo">subtrah&strek;i</label><item>
 <list type="def">
   <item lang="eo">(nombron de alia nombro) Trovi la diferencon de la dua nombro
 per la unua nombro.</item>
-  <item lang="A">to subtract</item>
-  <item lang="F">soustraire</item>
-  <item lang="G">subtrahieren, abziehen</item>
-  <item lang="H">substraer, restar</item>
-  <item lang="I">sottrarre</item>
-  <item lang="P">subtrair (mat.)</item>
+  <item lang="en">to subtract</item>
+  <item lang="fr">soustraire</item>
+  <item lang="de">subtrahieren, abziehen</item>
+  <item lang="es">substraer, restar</item>
+  <item lang="it">sottrarre</item>
+  <item lang="pt">subtrair (mat.)</item>
 </list>
 </item>
 
 <label lang="eo">suplement&strek;o</label><item>
 <list type="def">
   <item lang="eo">Kompletiga aldono. </item>
-  <item lang="A">supplement</item>
-  <item lang="F">supplément</item>
-  <item lang="G">Ergänzung, Nachtrag</item>
-  <item lang="H">suplemento</item>
-  <item lang="I">supplemento</item>
-  <item lang="P">suplemento</item>
+  <item lang="en">supplement</item>
+  <item lang="fr">supplément</item>
+  <item lang="de">Ergänzung, Nachtrag</item>
+  <item lang="es">suplemento</item>
+  <item lang="it">supplemento</item>
+  <item lang="pt">suplemento</item>
 </list>
 </item>
 
@@ -2650,12 +2650,12 @@ per la unua nombro.</item>
 <list type="def">
   <item lang="eo">Lokaro de la punktoj limantaj porcion de spaco aŭ solidon en la
 spaco. </item>
-  <item lang="A">surface</item>
-  <item lang="F">surface</item>
-  <item lang="G">Oberfläche</item>
-  <item lang="H">superficie</item>
-  <item lang="I">superficie</item>
-  <item lang="P">superfície</item>
+  <item lang="en">surface</item>
+  <item lang="fr">surface</item>
+  <item lang="de">Oberfläche</item>
+  <item lang="es">superficie</item>
+  <item lang="it">superficie</item>
+  <item lang="pt">superfície</item>
 </list>
 </item>
 
@@ -2663,12 +2663,12 @@ spaco. </item>
 <list type="def">
   <item lang="eo">Profesia kondukisto de aŭtomobilo, kamiono k.s.
  </item>
-  <item lang="A">chauffeur</item>
-  <item lang="F">chauffeur</item>
-  <item lang="G">Fahrer, Chauffeur, Schofför</item>
-  <item lang="H">“chauffeur”, chófer, chofer, conductor</item>
-  <item lang="I">autista, guidatore</item>
-  <item lang="P">chofer, motorista</item>
+  <item lang="en">chauffeur</item>
+  <item lang="fr">chauffeur</item>
+  <item lang="de">Fahrer, Chauffeur, Schofför</item>
+  <item lang="es">“chauffeur”, chófer, chofer, conductor</item>
+  <item lang="it">autista, guidatore</item>
+  <item lang="pt">chofer, motorista</item>
 </list>
 </item>
 
@@ -2676,36 +2676,36 @@ spaco. </item>
 <list type="def">
   <item lang="eo">Doni difinitan formon al materialo, tute aparte al ŝtofo, tranĉante el ĝi
 pecojn aŭ eretojn: ~i ŝtonon, gemon, ŝtofon. </item>
-  <item lang="A">to cut, cut to shape, to form</item>
-  <item lang="F">tailler</item>
-  <item lang="G">zuschneiden, zustutzen, anspitzen, abschleifen, behauen</item>
-  <item lang="H">cortar, tallar</item>
-  <item lang="I">tagliare</item>
-  <item lang="P">talhar, recortar</item>
+  <item lang="en">to cut, cut to shape, to form</item>
+  <item lang="fr">tailler</item>
+  <item lang="de">zuschneiden, zustutzen, anspitzen, abschleifen, behauen</item>
+  <item lang="es">cortar, tallar</item>
+  <item lang="it">tagliare</item>
+  <item lang="pt">talhar, recortar</item>
 </list>
 </item>
 
 <label lang="eo">tajp&strek;i</label><item>
 <list type="def">
   <item lang="eo">Skribi per maŝino. </item>
-  <item lang="A">to type, to typewrite</item>
-  <item lang="F">taper (à la machine), dactylographier</item>
-  <item lang="G">tippen, maschineschreiben</item>
-  <item lang="H">mecanografiar, escribir con máquina</item>
-  <item lang="I">dattilografare, scrivere a macchina, battere a macchina</item>
-  <item lang="P">dactilografar</item>
+  <item lang="en">to type, to typewrite</item>
+  <item lang="fr">taper (à la machine), dactylographier</item>
+  <item lang="de">tippen, maschineschreiben</item>
+  <item lang="es">mecanografiar, escribir con máquina</item>
+  <item lang="it">dattilografare, scrivere a macchina, battere a macchina</item>
+  <item lang="pt">dactilografar</item>
 </list>
 </item>
 
 <label lang="eo">televid&strek;i</label><item>
 <list type="def">
   <item lang="eo">Vidi per televizio. </item>
-  <item lang="A">to watch television</item>
-  <item lang="F">voir à la télévision</item>
-  <item lang="G">das Fernsehen schauen</item>
-  <item lang="H">mirar a la television</item>
-  <item lang="I">vedere alla televisione</item>
-  <item lang="P">assistir televisão</item>
+  <item lang="en">to watch television</item>
+  <item lang="fr">voir à la télévision</item>
+  <item lang="de">das Fernsehen schauen</item>
+  <item lang="es">mirar a la television</item>
+  <item lang="it">vedere alla televisione</item>
+  <item lang="pt">assistir televisão</item>
 </list>
 </item>
 
@@ -2713,12 +2713,12 @@ pecojn aŭ eretojn: ~i ŝtonon, gemon, ŝtofon. </item>
 <list type="def">
   <item lang="eo">Ventabunda vetero, pli forta ol ŝtormo, sed malpli forta ol
 uragano. </item>
-  <item lang="A">tempest</item>
-  <item lang="F">tempête</item>
-  <item lang="G">Sturm, stürmisches Wetter, Unwetter, Ungewitter</item>
-  <item lang="H">tempestad</item>
-  <item lang="I">tempesta</item>
-  <item lang="P">tempestade</item>
+  <item lang="en">tempest</item>
+  <item lang="fr">tempête</item>
+  <item lang="de">Sturm, stürmisches Wetter, Unwetter, Ungewitter</item>
+  <item lang="es">tempestad</item>
+  <item lang="it">tempesta</item>
+  <item lang="pt">tempestade</item>
 </list>
 </item>
 
@@ -2726,12 +2726,12 @@ uragano. </item>
 <list type="def">
   <item lang="eo">Montranta varman delikatecon de la koro.
  </item>
-  <item lang="A">tender</item>
-  <item lang="F">tendre, caressant</item>
-  <item lang="G">liebevoll, herzlich, liebkosend, zärtlich</item>
-  <item lang="H">tierno, cariñoso</item>
-  <item lang="I">tenero, affettuoso, amorevole</item>
-  <item lang="P">terno, carinhoso, amoroso, afável</item>
+  <item lang="en">tender</item>
+  <item lang="fr">tendre, caressant</item>
+  <item lang="de">liebevoll, herzlich, liebkosend, zärtlich</item>
+  <item lang="es">tierno, cariñoso</item>
+  <item lang="it">tenero, affettuoso, amorevole</item>
+  <item lang="pt">terno, carinhoso, amoroso, afável</item>
 </list>
 </item>
 
@@ -2739,12 +2739,12 @@ uragano. </item>
 <list type="def">
   <item lang="eo">Terspaco, rigardata el la vidpunkto de ĝia utiligado por difinita
 homa aktiveco. </item>
-  <item lang="A">ground, piece of land, terrain</item>
-  <item lang="F">terrain</item>
-  <item lang="G">Boden, Grundstück, Gelände</item>
-  <item lang="H">terreno, solar</item>
-  <item lang="I">terreno</item>
-  <item lang="P">terreno</item>
+  <item lang="en">ground, piece of land, terrain</item>
+  <item lang="fr">terrain</item>
+  <item lang="de">Boden, Grundstück, Gelände</item>
+  <item lang="es">terreno, solar</item>
+  <item lang="it">terreno</item>
+  <item lang="pt">terreno</item>
 </list>
 </item>
 
@@ -2753,42 +2753,42 @@ homa aktiveco. </item>
   <item lang="eo">Tiu parto de herbecaj plantoj, kiu portas burĝonojn, foliojn kaj florojn,
 kaj kiu kune kun la radiko konsistigas la akson de la planto.
  </item>
-  <item lang="A">stem, stalk (of plant)</item>
-  <item lang="F">tige, queue (fleur), pied (herbe)</item>
-  <item lang="G">Stiel, Stengel</item>
-  <item lang="H">tallo</item>
-  <item lang="I">gambo, culmo</item>
-  <item lang="P">talo, haste, caule</item>
+  <item lang="en">stem, stalk (of plant)</item>
+  <item lang="fr">tige, queue (fleur), pied (herbe)</item>
+  <item lang="de">Stiel, Stengel</item>
+  <item lang="es">tallo</item>
+  <item lang="it">gambo, culmo</item>
+  <item lang="pt">talo, haste, caule</item>
 </list>
 </item>
 
-<label lang="eo">tonel/o</label><item>
+<label lang="eo">tonel&strek;o</label><item>
 <list type="def">
   <item lang="eo">Unuo de volumeno, uzata por mezuri la internan kapaciton de ŝipo:
 la internacia ~o valoras 2,83m³.</item>
-  <item lang="A">ton (displacement)</item>
-  <item lang="F">tonneau (de jauge)</item>
-  <item lang="G">Tonneau, Tonne</item>
-  <item lang="H">tonel, tonelada</item>
-  <item lang="I">tonnellata</item>
-  <item lang="P">tonelada (mar.)</item> 
+  <item lang="en">ton (displacement)</item>
+  <item lang="fr">tonneau (de jauge)</item>
+  <item lang="de">Tonneau, Tonne</item>
+  <item lang="es">tonel, tonelada</item>
+  <item lang="it">tonnellata</item>
+  <item lang="pt">tonelada (mar.)</item> 
 </list>
 <note>Kp. tuno.</note>
 </item>
 
-<label lang="eo">trajn/o</label><item>
+<label lang="eo">trajn&strek;o</label><item>
 <list type="def">
   <item lang="eo">1. Sinsekvo de similaj veturiloj aŭ objektoj trenataj, aŭ (se figure)
 vice irantaj unu post la alia: ŝipo~o, fos~o; (f) ondo~o.</item> 
  <item lang="eo">2. Vagonaro movata de lokomotivo kaj iranta laŭ difinita horaro (= vagon~o).</item>
  <item lang="eo">3. Veturilaro, kiu transportas ĉion, kion la trupoj bezonas por vivi kaj
 batali (= proviza veturilaro, militista konvojo, loĝistika servo).</item> 
-  <item lang="A">1.2.3. train</item>
-  <item lang="F">1.2.3. train</item>
-  <item lang="G">1.2. Zug. 3. Train, Tross</item>
-  <item lang="H">1.2.3. tren</item>
-  <item lang="I">1.2. treno, 3. carreggio, convoglio</item>
-  <item lang="P">1.2.3. trem</item>
+  <item lang="en">1.2.3. train</item>
+  <item lang="fr">1.2.3. train</item>
+  <item lang="de">1.2. Zug. 3. Train, Tross</item>
+  <item lang="es">1.2.3. tren</item>
+  <item lang="it">1.2. treno, 3. carreggio, convoglio</item>
+  <item lang="pt">1.2.3. trem</item>
 </list>
 </item>
 
@@ -2796,11 +2796,11 @@ batali (= proviza veturilaro, militista konvojo, loĝistika servo).</item>
 <list type="def">
   <item lang="eo">Potenca motorveturilo uzata por tiri agrajn maŝinojn aŭ
 ŝarĝveturilojn. </item>
-  <item lang="A">tractor</item>
-  <item lang="F">tracteur</item>
-  <item lang="G">Traktor, Zugmaschine, Schlepper</item>
-  <item lang="H">tractor. I. trattore</item>
-  <item lang="P">tractor</item>
+  <item lang="en">tractor</item>
+  <item lang="fr">tracteur</item>
+  <item lang="de">Traktor, Zugmaschine, Schlepper</item>
+  <item lang="es">tractor. I. trattore</item>
+  <item lang="pt">tractor</item>
 </list>
 </item>
 
@@ -2809,24 +2809,24 @@ batali (= proviza veturilaro, militista konvojo, loĝistika servo).</item>
   <item lang="eo">Submeti al instruado kaj ekzercado, por konduki ĝis la dezirata
 stato de kapableco aŭ por prepari al sporto, batalado ktp......
  </item>
-  <item lang="A">to train</item>
-  <item lang="F">former (un disciple), instruire (conscrits), préparer (candidat), exercer (oreille), entraîner (sportif)</item>
-  <item lang="G">trainieren, ausbilden</item>
-  <item lang="H">adiestrar, entrenar, ejercitar</item>
-  <item lang="I">allenare</item>
-  <item lang="P">treinar, adestrar, exercitar (par esporte, batalha, trabalho)</item>
+  <item lang="en">to train</item>
+  <item lang="fr">former (un disciple), instruire (conscrits), préparer (candidat), exercer (oreille), entraîner (sportif)</item>
+  <item lang="de">trainieren, ausbilden</item>
+  <item lang="es">adiestrar, entrenar, ejercitar</item>
+  <item lang="it">allenare</item>
+  <item lang="pt">treinar, adestrar, exercitar (par esporte, batalha, trabalho)</item>
 </list>
 </item>
 
 <label lang="eo">tun&strek;o</label><item>
 <list type="def">
   <item lang="eo">Mezurunuo  de pezo valoranta 1000 kilogramojn. </item>
-  <item lang="A">metric ton, tonne</item>
-  <item lang="F">tonne</item>
-  <item lang="G">Tonne</item>
-  <item lang="H">tonelada</item>
-  <item lang="I">tonnellata</item>
-  <item lang="P">tonelada (métrica)</item> 
+  <item lang="en">metric ton, tonne</item>
+  <item lang="fr">tonne</item>
+  <item lang="de">Tonne</item>
+  <item lang="es">tonelada</item>
+  <item lang="it">tonnellata</item>
+  <item lang="pt">tonelada (métrica)</item> 
 </list>
 <note>— Kp. tonelo.</note>
 </item>
@@ -2835,12 +2835,12 @@ stato de kapableco aŭ por prepari al sporto, batalado ktp......
 <list type="def">
   <item lang="eo">Substanco donanta imunecon kontraŭ mikroba aŭ parazita
 malsano. </item>
-  <item lang="A">vaccine</item>
-  <item lang="F">vaccin</item>
-  <item lang="G">Impfstoff, Vakzine</item>
-  <item lang="H">vacuna</item>
-  <item lang="I">vaccino</item>
-  <item lang="P">vacina</item>
+  <item lang="en">vaccine</item>
+  <item lang="fr">vaccin</item>
+  <item lang="de">Impfstoff, Vakzine</item>
+  <item lang="es">vacuna</item>
+  <item lang="it">vaccino</item>
+  <item lang="pt">vacina</item>
 </list>
 </item>
 
@@ -2849,12 +2849,12 @@ malsano. </item>
   <item lang="eo">Ĉiu membro de unu el la du regnoj de vivuloj, karakterizita per
 ĉelparietoj el celulozo, havanta la funkciojn de sinnutrado kaj reprodukto,
 kaj plej ofte posedanta klorofilon. </item>
-  <item lang="A">plant (as opposed to animal)</item>
-  <item lang="F">un végétal</item>
-  <item lang="G">Pflanze, Gewächs</item>
-  <item lang="H">un vegetal</item>
-  <item lang="I">un vegetale, pianta</item>
-  <item lang="P">vegetal</item>
+  <item lang="en">plant (as opposed to animal)</item>
+  <item lang="fr">un végétal</item>
+  <item lang="de">Pflanze, Gewächs</item>
+  <item lang="es">un vegetal</item>
+  <item lang="it">un vegetale, pianta</item>
+  <item lang="pt">vegetal</item>
 </list>
 </item>
 
@@ -2862,36 +2862,36 @@ kaj plej ofte posedanta klorofilon. </item>
 <list type="def">
   <item lang="eo">Sekcopunkto de la du lateroj de angulo, ankaŭ se la angulo
 apartenas al plurlatero aŭ al pluredro. </item>
-  <item lang="A">vertex, apex (of an angle)</item>
-  <item lang="F">sommet (d’un angle)</item>
-  <item lang="G">Scheitelpunkt (eines Winkels), Ecke (eines Dreiecks)</item>
-  <item lang="H">vértice (geom.)</item>
-  <item lang="I">vertice (geom.)</item>
-  <item lang="P">vértice (geom.)</item>
+  <item lang="en">vertex, apex (of an angle)</item>
+  <item lang="fr">sommet (d’un angle)</item>
+  <item lang="de">Scheitelpunkt (eines Winkels), Ecke (eines Dreiecks)</item>
+  <item lang="es">vértice (geom.)</item>
+  <item lang="it">vertice (geom.)</item>
+  <item lang="pt">vértice (geom.)</item>
 </list>
 </item>
 
 <label lang="eo">viper&strek;o</label><item>
 <list type="def">
   <item lang="eo">Zamenhofa formo de: vipuro (genro  de serpentoj: Vipera). </item>
-  <item lang="A">viper</item>
-  <item lang="F">vipère</item>
-  <item lang="G">Viper</item>
-  <item lang="H">víbora</item>
-  <item lang="I">vipera</item>
-  <item lang="P">víbora</item>
+  <item lang="en">viper</item>
+  <item lang="fr">vipère</item>
+  <item lang="de">Viper</item>
+  <item lang="es">víbora</item>
+  <item lang="it">vipera</item>
+  <item lang="pt">víbora</item>
 </list>
 </item>
 
 <label lang="eo">vit&strek;o</label><item>
 <list type="def">
   <item lang="eo">Vinberplanto (Vitis ampelos, Vitis vinifera). </item>
-  <item lang="A">vine</item>
-  <item lang="F">vigne (plante)</item>
-  <item lang="G">Weinstock</item>
-  <item lang="H">vid, viña</item>
-  <item lang="I">vite</item>
-  <item lang="P">videira</item>
+  <item lang="en">vine</item>
+  <item lang="fr">vigne (plante)</item>
+  <item lang="de">Weinstock</item>
+  <item lang="es">vid, viña</item>
+  <item lang="it">vite</item>
+  <item lang="pt">videira</item>
 </list>
 </item>
 
@@ -3002,9 +3002,13 @@ la sangon okaze de mensa aŭ korpa premo (danĝero k.s.) por prepari la
 korpon al urĝa agado, fuĝo, sindefendo k.s.: adrenalino akcelas la koran
 ritmon kaj altigas la sangopremon. Formulo: C6H3(OH)2-CH(OH)-CH2-NH-CH3.</item>
 
-<label lang="eo">agres&strek;i</label><item>Ataki ne provokite; ataki kiel unua ne estante mem minacata de
-atako: agresi personon; agresi landon. agres/em/a . Ĉiam preta ataki, aŭ
-inklina kutime ataki, eĉ ne provokite.</item>
+<label lang="eo">agres&strek;i</label>
+  <item>Ataki ne provokite; ataki kiel unua ne estante mem minacata de atako: agresi personon; agresi landon. 
+  <list type="deriv">
+    <label lang="eo">agres&strek;em&strek;a</label>
+    <item>Ĉiam preta ataki, aŭ inklina kutime ataki, eĉ ne provokite.</item>
+  </list>
+</item>
 
 <label lang="eo">aidos&strek;o</label><item>Akirita malsufiĉo de la imunsistemo.
 Grava malsano, kiu malfortigas la korpajn defendojn kontraŭ ĉiaj malsanoj, plej ofte transdonata per
@@ -3034,8 +3038,13 @@ kaj ties rezulto (tekstoparto amen de ŝanĝita aŭ aldonita).</item>
 <label lang="eo">anĉ&strek;o</label><item>Maldika elasta langeto, kies vibrado kreas la tonojn ĉe kelkaj instru-
 mentoj, ekz. hobojo, klarneto kaj saksofono.</item>
 
-<label lang="eo">Antarkt&strek;o</label><item>La regiono kaj kontinento ĉirkaŭ la suda poluso. Antarkt/a . 
-Rilata al Antarkto; tia kiel (en) Antarkto: la Antarkta Cirklo; Antarkta klimato; Antarkta glacio.</item>
+<label lang="eo">Antarkt&strek;o</label>
+  <item>La regiono kaj kontinento ĉirkaŭ la suda poluso. 
+  <list type="deriv">
+    <label lang="eo">Antarkt&strek;a</label>
+    <item>Rilata al Antarkto; tia kiel (en) Antarkto: la Antarkta Cirklo; Antarkta klimato; Antarkta glacio.</item>
+  </list>
+</item>
 
 <label lang="eo">antibiotik&strek;o</label><item>Organika substanco produktata de mikroboj aŭ ĥemie sintezata, 
 kiu povas malhelpi plimultiĝon de bakterioj kaj aliaj mikroboj, kaj eĉ
@@ -3048,15 +3057,21 @@ eliras la fekaĵoj (komunuze nomata postaĵotruo).</item>
 <label lang="eo">aperitiv&strek;o</label><item>Trinkaĵo, ordinare alkohola, trinkata (kiel apetitvekilo) antaŭ
 manĝo.</item>
 
-<label lang="eo">are&strek;o</label><item>
-  1 Mezuro de surfaco: ŝi mezuris la areon de la kampo; la areo de la
+<label lang="eo">are&strek;o</label>
+<item><list type="def">
+<item>1 Mezuro de surfaco: ŝi mezuris la areon de la kampo; la areo de la
 ĉambro estas 20 kvadrataj metroj; tiu lando havas areon de pli ol cent mil
-kvadrataj kilometroj. 
-  2 Parto de surfaco; tereno: tie estas parka areo, kie
+kvadrataj kilometroj.</item> 
+<item>2 Parto de surfaco; tereno: tie estas parka areo, kie
 oni povas promeni; kulturata areo.</item>
+</list>
+</item>
 
-<label lang="eo">Arkt&strek;o</label><item>La regiono ĉirkaŭ la norda poluso. Arkt/a . Rilata al Arkto; tia kiel
+<label lang="eo">Arkt&strek;o</label><item>La regiono ĉirkaŭ la norda poluso. 
+  <list type="deriv"><label lang="eo">Arkt&strek;a</label><item>Rilata al Arkto; tia kiel
 (en) Arkto: la Arkta Oceano; la Arkta Cirklo; Arkta klimato.</item>
+  </list>
+</item>
 
 <label lang="eo">asbest&strek;o</label><item>Mola griza fibra minerala substanco, el kiu oni povas fari teksaĵon
 izolantan kontraŭ varmego kaj fajro. <note>(1)</note></item>
@@ -3066,25 +3081,31 @@ konsistanta el substanco kun la ĥemia formulo CH3-CO-O-C6H4-COOH.</item>
 
 <label lang="eo">avokad&strek;o</label><item>Frukto de avokadujo, kun verda aŭ bruneta ŝelo (el kiu oni povas
 ĝin manĝi), tre nutra, butereca karno, kaj unu sola tre granda malmola
-kerno. avokad/uj/o , avokad/arb/o . Arbo el tropika Ameriko, kies frukto
-estas avokado. (Persea americana.)</item>
+kerno. 
+<list type="deriv"><label lang="eo">avokad&strek;uj&strek;o, avokad&strek;arb&strek;o</label><item>Arbo el tropika Ameriko, kies frukto estas avokado. (Persea americana.)</item>
+</list>
+</item>
 
 <label lang="eo">banked&strek;o</label><item>Komuna ceremonia manĝo kun multaj partoprenantoj (por festi
 aŭ honori ion, ofte kun festparoladoj k.s.).</item>
 
 <label lang="eo">baskul&strek;o</label><item>
-  1 Aparato konsistanta el trabo, stango, tabulo aŭ simila afero, kies
-unu ekstremaĵo leviĝas, kiam la alia malsupreniras. 
-  2 Ludilo konsistanta
-el tabulo aŭ stango, kiu estas ekvilibrigita sur mezpunkto, kaj sur kies ek-
-stremaĵoj povas sidi personoj alterne leviĝantaj kaj malleviĝantaj laŭ la
-movo de la tabulo aŭ stango.
- 3 Cirkvito, meĥanismo k.s., kiu analoge al baskulo 1 povas alterni inter du statoj.</item>
+<list type="def">
+  <item>1 Aparato konsistanta el trabo, stango, tabulo aŭ simila afero, kies
+  unu ekstremaĵo leviĝas, kiam la alia malsupreniras.</item>
+  <item>2 Ludilo konsistanta el tabulo aŭ stango, kiu estas ekvilibrigita sur mezpunkto, kaj sur kies ek-
+  stremaĵoj povas sidi personoj alterne leviĝantaj kaj malleviĝantaj laŭ la movo de la tabulo aŭ stango.</item>
+  <item>3 Cirkvito, meĥanismo k.s., kiu analoge al baskulo 1 povas alterni inter du statoj.</item>
+</list>
+</item>
 
-<label lang="eo">beletr&strek;o</label><item>Arta literaturo plezurocela aŭ distrocela, precipe tia, kiu rakontas
-pri okazaĵoj kaj personoj imagitaj. beletr/aĵ/o . Verko beletra.</item>
+<label lang="eo">beletr&strek;o</label>
+<item>Arta literaturo plezurocela aŭ distrocela, precipe tia, kiu rakontas pri okazaĵoj kaj personoj imagitaj. 
+  <list type="deriv"><label>beletr/aĵ/o</label><item>Verko beletra.</item>
+  </list>
+</item>
 
-<label lang="eo">beletr/ist/o</label><item>Beletra verkisto aŭ specialisto.</item>
+<label lang="eo">beletr&strek;ist&strek;o</label><item>Beletra verkisto aŭ specialisto.</item>
 
 <label lang="eo">bemol&strek;o</label><item>Muziknota kromsigno, kiu montras malaltigon de tono: ♭.</item>
 
@@ -3092,8 +3113,11 @@ pri okazaĵoj kaj personoj imagitaj. beletr/aĵ/o . Verko beletra.</item>
 
 <label lang="eo">bit&strek;o</label><item>Pozicio de duuma cifero en duuma kodaĵo: kontrola parecbito; la tria
 bito de la nombroprezento; ĉi tia memorĉelo povas enteni 32 bitojn; por
-prezenti tian nombron oni bezonas almenaŭ 10 bitojn. bit/ok/o . Grupo de
-ok bitoj traktata kiel tutaĵo (kiel unuo en komputado k.s.).</item>
+prezenti tian nombron oni bezonas almenaŭ 10 bitojn. 
+<list type="deriv"><label lang="eo">bit&strek;ok&strek;o</label><item>Grupo de
+  ok bitoj traktata kiel tutaĵo (kiel unuo en komputado k.s.).</item>
+</list>
+</item>
  
 <label lang="eo">bizon&strek;o</label><item>Sovaĝa remaĉanta parhufa bovosimila mamulo Nord-Amerika kaj
 Eŭropa. (Bison bison, Bison bonasus.)</item>
@@ -3109,30 +3133,45 @@ branĉoj per la hokaj ungegoj de siaj tre longaj dufingraj aŭ trifingraj
 membroj, kaj sin movas tre malrapide. (Bradypus.)</item>
 
 <label lang="eo">brit&strek;o</label><item>
- 1 Ano de Britujo.
- 2 Ano de la antikva indiĝena gento de Britujo 1.</item>
+<list type="def">
+  <item>1 Ano de Britujo.</item>
+  <item>2 Ano de la antikva indiĝena gento de Britujo 1.</item>
+</list>
+</item>
 
-<label lang="eo">Brit/uj/o</label><item>
- 1 Insulo en Eŭropo, inter Francujo kaj Irlando.
- 2 Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
+<label lang="eo">Brit&strek;uj&strek;o</label><item>
+<list type="def">
+  <item>1 Insulo en Eŭropo, inter Francujo kaj Irlando.</item>
+  <item>2 Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
+</list>
+</item>
 
 <label lang="eo">brokol&strek;o</label><item>Speco de legoma brasiko, parenca al florbrasiko, kun kapo verda
 (ĉe iaj specoj tamen violkolora aŭ eĉ blanka) konsistanta el nefirma floraro. (Brassica oleracea italica.)</item>
 
-<label lang="eo">burokrat&strek;o</label><item>1 Oficisto en administrejo (ŝtata), rigardata kiel parto de sist-
-emo por regado kaj administrado. (Se oni parolas konkrete pri persono,
-oni preferas vortojn kiel oficisto, administranto, funkciulo k.s.) 2 (mal-
-ŝate) Persono, kiu rigore sekvas la administrajn regulojn kaj rutinojn, sed
-ignoras la bazan celaron de la laboro aŭ la demokratian devon reagi al
-publikaj kritikoj. burokrat/ar/o . Tuto de la burokratoj 1 (en unu ŝtato
-k.s.). burokrat/ism/o 1 Sistemo de (kvazaŭa) regado fare de la burokrat-
-aro; administra sistemo, en kiu la burokratoj 1 havas tro da povo aŭ
-influo. 2 (malŝate) La procedo-troigaj tendencoj 
- de burokrato 2; sistema flegado aŭ apogado de tiaj tendencoj.</item>
+<label lang="eo">burokrat&strek;o</label><item>
+<list type="def">
+  <item>1 Oficisto en administrejo (ŝtata), rigardata kiel parto de sistemo por regado kaj administrado. (Se oni parolas konkrete pri persono, oni preferas vortojn kiel oficisto, administranto, funkciulo k.s.)</item>
+  <item>2 (malŝate) Persono, kiu rigore sekvas la administrajn regulojn kaj rutinojn, sed ignoras la bazan celaron de la laboro aŭ la demokratian devon reagi al publikaj kritikoj.</item>
+</list>
+<list type="deriv">
+  <label lang="eo">burokrat&strek;ar&strek;o</label><item>Tuto de la burokratoj 1 (en unu ŝtato k.s.).</item> 
+  <label lang="eo">burokrat&strek;ism&strek;o</label><item>
+    <list type="def">
+      <item>1 Sistemo de (kvazaŭa) regado fare de la burokrataro; administra sistemo, en kiu la burokratoj 1 havas tro da povo aŭ influo.</item> 
+      <item>2 (malŝate) La procedo-troigaj tendencoj de burokrato 2; sistema flegado aŭ apogado de tiaj tendencoj.</item>
+    </list>
+  </item>
+</list>
+</item>
 
-<label lang="eo">cic&strek;o</label><item>Elstaraĵo ĉe la mamo de homoj kaj aliaj mamuloj, tra kiu ĉe inoj la idoj
-suĉas lakton. cic/um/o . Longa cicoforma botelkovrilo kun truo ĉe la
-pinto, tra kiu infano suĉas lakton.</item>
+<label lang="eo">cic&strek;o</label>
+<item>Elstaraĵo ĉe la mamo de homoj kaj aliaj mamuloj, tra kiu ĉe inoj la idoj suĉas lakton. 
+<list type="deriv">
+  <label lang="eo">cic&strek;um&strek;o</label>
+  <item>Longa cicoforma botelkovrilo kun truo ĉe la pinto, tra kiu infano suĉas lakton.</item>
+</list>
+</item>
 
 <label lang="eo">cirkumcid&strek;i</label><item>Detranĉi parton de la haŭta refaldo, kiu ĉirkaŭas la kapon de
 peniso (la glanon) por lasi tiun libera (pro higienaj, medicinaj aŭ religiaj
@@ -3148,10 +3187,15 @@ brakoj pli longaj ol la kruroj, malhelhara, vivanta en centra kaj okcidenta
 Afriko. (Pan troglodytes.)</item>
 
 <label lang="eo">ĉin&strek;o</label><item>
- 1 Ano de la ĉefgento de Ĉinujo.
- 2 (vastasence) Ĉinujano. Ĉin/uj/o .
+<list type="def">
+ <item>1 Ano de la ĉefgento de Ĉinujo.</item>
+ <item>2 (vastasence) Ĉinujano.</item> 
+</list>
+<list type="deriv"><label lang="eo">Ĉin&strek;uj&strek;o</label><item>
 Lando en orienta Azio, ĉe la Flava Maro, la Orientĉina Maro kaj la Sud-
 ĉina Maro, inter Rusujo kaj Birmo. Internacia landokodaĵo: CN.</item>
+</list>
+</item>
 
 <label lang="eo">defi&strek;i</label><item>Inviti aŭ provoki al batalo, konkurso k.s. prezentante sin mem kiel
 kontraŭulon: defii boksan ĉampionon; defii iun batali; defii iun je/al
@@ -3162,15 +3206,17 @@ ebenaĵo, kiu estas formita el materialo alportita de la akvofluo, kaj tra kiu
 disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
 
 <label lang="eo">demografi&strek;o</label><item>
- 1 Scienco pri la konsisto de la loĝantaro kaj pri ĝia evoluo.
- 2 Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj
-pri tendencoj de ilia evoluo: demografio de la urboj; demografio de la
-kamparaj regionoj.</item>
+<list type="def">
+  <item>1 Scienco pri la konsisto de la loĝantaro kaj pri ĝia evoluo.</item>
+  <item>2 Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj pri tendencoj de ilia evoluo: demografio de la urboj; demografio de la kamparaj regionoj.</item>
+</list>
+</item>
 
 <label lang="eo">detektiv&strek;o</label><item>
- 1 Polica esploristo, kies tasko estas eltrovi la faktojn pri krimoj.
- 2 Privata esploristo, kiu provas eltrovi la faktojn pri krimoj aŭ aliaj aferoj,
-ekz. komisie de privatulo.</item>
+<list type="def">
+  <item>1 Polica esploristo, kies tasko estas eltrovi la faktojn pri krimoj.</item>
+  <item>2 Privata esploristo, kiu provas eltrovi la faktojn pri krimoj aŭ aliaj aferoj, ekz. komisie de privatulo.</item>
+</list></item>
 
 <label lang="eo">dies&strek;o</label><item>Muziknota kromsigno, kiu montras altigon de tono: ♯.</item>
 
@@ -3188,15 +3234,27 @@ dizertis.</item>
 drasta ŝanĝo; drasta kresko; drasta esprimo; drasta kontrasto (= kreanta
 fortan impreson).</item>
 
-<label lang="eo">driv&strek;i</label><item>1 Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol
-intencite, sen klara direkto): la ŝipo drivis pro motordifekto. 2 Deflankiĝi
-de la intencita direkto pro puŝo de vento aŭ akvofluo: la kuglo drivis pro
-la forta vento, kaj tial ĝi ne trafis la celon. driv/o 1 Ago drivi. 2 Malrapida
-ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): kon-
-tinenta drivo; lingva drivo.</item>
+<label lang="eo">driv&strek;i</label><item>
+<list type="def">
+  <item>1 Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol intencite, sen klara direkto): la ŝipo drivis pro motordifekto.</item>
+  <item>2 Deflankiĝi de la intencita direkto pro puŝo de vento aŭ akvofluo: la kuglo drivis pro la forta vento, kaj tial ĝi ne trafis la celon.</item>
+</list>
+  <list type="deriv"><label lang="eo">driv&strek;o</label><item>
+  <list type="def">
+    <item>1 Ago drivi.</item> 
+    <item>2 Malrapida ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): kon- tinenta drivo; lingva drivo.</item>
+  </list>
+  </item>
+</list>
+</item>
 
-<label lang="eo">ekologi&strek;o</label><item>1 Reciprokaj influoj inter vivantaj organismoj kaj ties natura
-medio. 2 Scienco pri ekologio 1.</item>
+<label lang="eo">ekologi&strek;o</label><item>
+<list type="def">
+  <item>1 Reciprokaj influoj inter vivantaj organismoj kaj ties natura medio.</item>
+  <item>2 Scienco pri ekologio 1.</item>
+</list>
+</item>
+
 
 <label lang="eo">etiked&strek;o</label><item>Peco de papero aŭ alia materialo kun aŭ por surskribo, alfiksita
 aŭ alfiksebla sur aŭ al io, por montri enhavon, specon, adreson ktp.</item>
@@ -3204,44 +3262,50 @@ aŭ alfiksebla sur aŭ al io, por montri enhavon, specon, adreson ktp.</item>
 <label lang="eo">etn&strek;o</label><item>Gento. Historie estiĝinta homgrupo, kies vivmanieron karakterizas
 komunaj trajtoj kulturaj, civilizaciaj aŭ religiaj, kaj kiu konscias pri tiu
 komuneco. (Komunaj lingvo, lando aŭ socipolitika strukturo estas ofta,
-sed ne nepra trajto de etno.
- Kontraste al gento, etno ne insistas pri deveno de komunaj prauloj, fikciaj aŭ realaj.)</item>
+sed ne nepra trajto de etno. Kontraste al gento, etno ne insistas pri deveno de komunaj prauloj, fikciaj aŭ realaj.)</item>
 
 <label lang="eo">etnologi&strek;o</label><item>Scienco pri la homaj etnoj kaj iliaj diferencoj (uzanta faktojn
 kolektitajn per etnografio); socia kaj kultura antropologio.</item>
 
 <label lang="eo">etos&strek;o</label><item>Reganta humoro aŭ spirita atmosfero kreata de ĉeestantaj homoj,
-ĉirkaŭaĵo, cirkonstancoj aŭ artaĵo: la etoso 
- en la oficejo estas streĉa; la spektaklo/muziko kreis agrablan etoson.</item>
+ĉirkaŭaĵo, cirkonstancoj aŭ artaĵo: la etoso en la oficejo estas streĉa; la spektaklo/muziko kreis agrablan etoson.</item>
 
 <label lang="eo">eŭfemism&strek;o</label><item>Evitvorto, evitesprimo. Vorto aŭ esprimo uzata por mildeco
-anstataŭ diraĵo, kiu povas esti rigardata kiel tro kruda, tro malagrabla,
-tro sankta aŭ simile: “kuŝi” estas eŭfemismo por “seksumi”; “etna purigado” estas eŭfemismo por “popolmurdo”; la vorto “necesejo” estas eŭfemismo.</item>
+anstataŭ diraĵo, kiu povas esti rigardata kiel tro kruda, tro malagrabla, tro sankta aŭ simile: “kuŝi” estas eŭfemismo por “seksumi”; “etna purigado” estas eŭfemismo por “popolmurdo”; la vorto “necesejo” estas eŭfemismo.</item>
 
 <label lang="eo">eŭkalipt&strek;o</label><item>Ĉiamverda rapidkreska arbo indiĝena en Aŭstralio, kun tre alta
 trunko kaj kun folioj enhavantaj oleon fortodoran kaj seninfektigan,
 kreskigata por medikamenta kaj papera industrioj. (Eucalyptus.)</item>
 
-<label lang="eo">eŭr&strek;o</label><item>Monunuo 
- de Eŭropa Unio: centono de eŭro estas cendo; ĝi kostas
+<label lang="eo">eŭr&strek;o</label>
+<item>Monunuo de Eŭropa Unio: centono de eŭro estas cendo; ĝi kostas
 dek eŭrojn kaj kvindek cendojn.</item>
 
 <label lang="eo">farĉ&strek;o</label><item>Hakita (kaj spicita) viando, legomaĵo aŭ fruktaĵo, kiun oni enmetas
- en la internon de kuirota manĝaĵo.</item>
- <label lang="eo">farĉ/i</label><item>Plenigi la internon de manĝaĵo
-per farĉo: farĉi anseron per prunoj kaj pomoj; farĉi tomatojn; bovo farĉita
-per anasoj kaj kokinoj; farĉitaj terpomoj.</item>
+ en la internon de kuirota manĝaĵo.
+<list type="deriv">
+  <label lang="eo">farĉ&strek;i</label>
+  <item>Plenigi la internon de manĝaĵo per farĉo: farĉi anseron per prunoj kaj pomoj; farĉi tomatojn; bovo farĉita per anasoj kaj kokinoj; farĉitaj terpomoj.</item>
+</list>
+</item>
 
-<label lang="eo">fek&strek;i</label><item>Eligi ekskrementon el la anuso: li fekas 
- en la necesejo; la hundo fekis.</item>
-<label lang="eo">fek&strek;o</label><item>Ago feki kaj ties rezulto (fekaĵo). fek/aĵ/o . Ekskremento eligita el la
-anuso.</item>
+
+<label lang="eo">fek&strek;i</label>
+<item>Eligi ekskrementon el la anuso: li fekas en la necesejo; la hundo fekis.
+<list type="deriv">
+  <label lang="eo">fek&strek;o</label>
+  <item>Ago feki kaj ties rezulto (fekaĵo). fek/aĵ/o . Ekskremento eligita el la anuso.</item>
+</list>
+</item>
 
 <label lang="eo">festival&strek;o</label><item>
- 1 Renkontiĝo dediĉita al arto (muziko, kino ktp.), ofte perioda kaj
-internacia: la Berlina Film-Festivalo; la Kultura Esperanto-Festivalo.
- 2 Amasa renkontiĝo kun parte festa karaktero: la Monda Festivalo de
+<list type="def">
+  <item>1 Renkontiĝo dediĉita al arto (muziko, kino ktp.), ofte perioda kaj
+internacia: la Berlina Film-Festivalo; la Kultura Esperanto-Festivalo.</item>
+  <item>2 Amasa renkontiĝo kun parte festa karaktero: la Monda Festivalo de
 Junularo kaj Studentaro.</item>
+</list>
+</item>
 
 <label lang="eo">folklor&strek;o</label><item>Popola tradiciaro arta kaj spirita (legendoj, kantoj, vestoj k.s.).</item>
 
@@ -3262,37 +3326,62 @@ nian galaksion oni nomas “la Lakta Vojo” aŭ simple “la Galaksio”.</item
 
 <label lang="eo">gen&strek;o</label><item>Kromosomero, kiu regas biologian heredadon.</item>
 
-<label lang="eo">genr&strek;o</label><item>1 Gramatika kategorio (precipe ĉe substantivoj kaj pronomoj, sed
+<label lang="eo">genr&strek;o</label><item>
+<list type="def">
+  <item>1 Gramatika kategorio (precipe ĉe substantivoj kaj pronomoj, sed
 ankaŭ ĉe aliaj vortspecoj), kiu almenaŭ historie iel rilatas al la sekso de
 estaĵoj aŭ al distingo inter uloj kaj aĵoj: vira genro; ina genro; neŭtra
-genro. 2 Subgrupo de zoologia aŭ botanika familio.</item>
+genro.</item>
+  <item>2 Subgrupo de zoologia aŭ botanika familio.</item>
+</list>
+</item>
 
-<label lang="eo">giĉet&strek;o</label><item>1 Fenestreto en pordo aŭ vando destinita por interparoli aŭ trans-
-doni ion. 2 Apartigita spaco, en kiu oni priservas klientojn (en poŝtoficejo,
+<label lang="eo">giĉet&strek;o</label><item>
+<list type="def">
+  <item>1 Fenestreto en pordo aŭ vando destinita por interparoli aŭ trans-
+doni ion.</item>
+  <item>2 Apartigita spaco, en kiu oni priservas klientojn (en poŝtoficejo,
 biletvendejo k.s.), ordinare kun ia barilo (fenestreto, vendotablo k.s.) inter
 la giĉetisto kaj la kliento.</item>
+</list>
+</item>
 
 <label lang="eo">glis&strek;i</label><item>(pri aviadilo) Flugi (malsupren) sen uzo de motora forto: la aviadilo
 malrapi de glisis al la tero.</item>
 
-<label lang="eo">glis/il/o</label><item>Senmotora aviadilo, kies flugado dependas de aerfortoj kaj aerfluoj.</item>
+<label lang="eo">glis&strek;il&strek;o</label><item>Senmotora aviadilo, kies flugado dependas de aerfortoj kaj aerfluoj.</item>
 
 <label lang="eo">grafik&strek;o</label><item>Arto aŭ tekniko prezenti ion per desegnaj linioj: ŝi studis grafikon
- en la artlernejo komputila grafiko estas nun populara.</item>
-<label lang="eo">grafik/aĵ/o</label><item>1 Bildo
-grafika: grafikaĵoj ilustris la poemaron. 2 Desegnaĵo prezentanta
-fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun
-nombraj indikoj: la grafikaĵo prezentis la dividon de la membraro laŭ profesioj. </item>
-<label lang="eo">grafik/ist/o</label><item>Grafika artisto; profesiulo pri grafiko.</item>
+ en la artlernejo komputila grafiko estas nun populara.
+<list type="deriv">
+  <label lang="eo">grafik&strek;aĵ&strek;o</label>
+  <item>
+  <list type="def">
+    <item>1 Bildo grafika: grafikaĵoj ilustris la poemaron.</item>
+    <item>2 Desegnaĵo prezentanta fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun nombraj indikoj: la grafikaĵo prezentis la dividon de la membraro laŭ profesioj.</item>
+  </list>
+  </item>
+  <label lang="eo">grafik&strek;ist&strek;o</label>
+  <item>Grafika artisto; profesiulo pri grafiko.</item>
+</list>
+</item>
 
-<label lang="eo">gujav&strek;o</label><item>Frukto de gujavujo, tre aroma, ronda aŭ longforma, ruĝe aŭ flave
-verda, pomo-granda, uzata por konfitaĵo ktp. gujav/uj/o , gujav/arb/o .
-Arbo el tropika Ameriko, kreskigata pro sia frukto gujavo. (Psidium
-guajava.)</item>
+<label lang="eo">gujav&strek;o</label>
+<item>Frukto de gujavujo, tre aroma, ronda aŭ longforma, ruĝe aŭ flave verda, pomo-granda, uzata por konfitaĵo ktp. 
+<list type="deriv">
+  <label lang="eo">gujav&strek;uj&strek;o, gujav&strek;arb&strek;o</label><item>
+  Arbo el tropika Ameriko, kreskigata pro sia frukto gujavo. (Psidium guajava.)</item>
+</list>
+</item>
 
-<label lang="eo">hormon&strek;o</label><item>1 Substanco produktata de organo (ofte de glando), portata de la
-sango al aliaj organoj aŭ ĉeloj por influi ties funkciadon. 2 Substanco en
+<label lang="eo">hormon&strek;o</label><item>
+<list type="def">
+  <item>1 Substanco produktata de organo (ofte de glando), portata de la
+sango al aliaj organoj aŭ ĉeloj por influi ties funkciadon.</item>
+  <item>2 Substanco en
 vegetaĵo, funkcianta analoge al hormono 1 (plej ofte influanta la kreskadon de la vegetaĵo).</item>
+</list>
+</item>
 
 <label lang="eo">ideologi&strek;o</label><item>Idearo. Sistemigita aro da ideoj kaj idealoj de grupo politika, re-
 ligia, socia k.s., tra kiuj la grupanoj rigardas la realon.</item>
@@ -3309,10 +3398,14 @@ ligia, socia k.s., tra kiuj la grupanoj rigardas la realon.</item>
 <label lang="eo">Israel&strek;o</label><item>Ŝtato en okcidenta Azio, ĉe Mediteraneo, sude de Libano, fondita
 en 1948. Internacia landokodaĵo: IL. <note>(3)</note></item>
 
-<label lang="eo">japan&strek;o</label><item>1 Ano de la ĉefgento de Japanujo.
- 2 (vastasence) Japanujano.</item>
+<label lang="eo">japan&strek;o</label><item>
+<list type="def">
+  <item>1 Ano de la ĉefgento de Japanujo.</item>
+  <item>2 (vastasence) Japanujano.</item>
+</list>
+</item>
 
-<label lang="eo">Japan/uj/o</label><item>Lando en orienta Azio, insuloĉeno inter Pacifiko kaj la Japana
+<label lang="eo">Japan&strek;uj&strek;o</label><item>Lando en orienta Azio, insuloĉeno inter Pacifiko kaj la Japana
 Maro. Internacia landokodaĵo: JP.</item>
 
 <label lang="eo">ĵaz&strek;o</label><item>Muzikspeco kreita en la 1920aj jaroj en suda Usono, karakterizata
@@ -3326,12 +3419,17 @@ kontraŭulon per specialaj ĵetoj, kruroblokadoj k.s.</item>
 <label lang="eo">kalci&strek;o</label><item>Ĥemia elemento, grizblanka metalo, kiu interalie estas parto de
 ostoj kaj dentoj. Simbolo Ca, atomnumero 20, atommaso 40,08.</item>
 
-<label lang="eo">kampanj&strek;o</label><item>1 Serio da militaj manovroj kun difinita celo en iu regiono: la
-Ruslanda kampanjo de la Granda Armeo en la jaro 1812a. 2 Intensa
-publika agado por akiri subtenon de homoj por afero: la mediprotektantoj
-faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo. kampanj/i .
-Fari kampanjon: ili kampanjis por la maldekstra partio; li kampanjas
-kontraŭ la nova leĝo.</item>
+<label lang="eo">kampanj&strek;o</label><item>
+<list type="def">
+  <item>1 Serio da militaj manovroj kun difinita celo en iu regiono: la Ruslanda kampanjo de la Granda Armeo en la jaro 1812a.</item>
+  <item>2 Intensa publika agado por akiri subtenon de homoj por afero: la mediprotektantoj faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo.</item>
+</list>
+<list type="deriv">
+  <label lang="eo">kampanj&strek;i</label><item>
+  Fari kampanjon: ili kampanjis por la maldekstra partio; li kampanjas
+  kontraŭ la nova leĝo.</item>
+</list>
+</item>
 
 <label lang="eo">kancer&strek;o</label><item>Grava malsano karakterizata de malnormala kaj danĝera multobliĝo 
  de ĉeloj: pulmokancero; mamokancero.</item>
@@ -3339,14 +3437,21 @@ kontraŭ la nova leĝo.</item>
 <label lang="eo">kanguru&strek;o</label><item>Aŭstralia mamulo, kiu havas tre mallongajn antaŭajn krurojn,
 tre longajn kaj fortajn malantaŭajn krurojn, per kiuj ĝi sin movas salte,
 kaj tre muskolan apogan voston, kaj kies ino havas ventran haŭtpoŝon, en
-kiu restas la idoj dum la unua tempo post la naskiĝo. ( Macropodinae aŭ pli
-vastasence Macropodidae .)</item>
+kiu restas la idoj dum la unua tempo post la naskiĝo. (Macropodinae aŭ pli
+vastasence Macropodidae.)</item>
 
-<label lang="eo">kapsik&strek;o</label><item>1 Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.) 2 Verda, ruĝa
-aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
+<label lang="eo">kapsik&strek;o</label><item>
+<list type="def">
+  <item>1 Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.)</item>
+  <item>2 Verda, ruĝa aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
 interne, uzata kiel legomo kaj kiel spico: akra kapsiko; neakra kapsiko; el
-kapsiko oni faras paprikon. kapsik/et/o . Malgranda ordinare tre akra
-kapsiko 2.</item>
+kapsiko oni faras paprikon.</item>
+</list>
+<list type="deriv">
+  <label lang="eo">kapsik&strek;et&strek;o</label>
+  <item>Malgranda ordinare tre akra kapsiko 2.</item>
+</list>
+</item>
 
 <label lang="eo">karoseri&strek;o</label><item>Ekstera (supra) korpo de aŭto aŭ de simila veturilo, kontraste al
 eventuala ĉasio: memportanta karoserio (= karoserio s en ĉasio).</item>
@@ -3355,36 +3460,53 @@ eventuala ĉasio: memportanta karoserio (= karoserio s en ĉasio).</item>
 aŭ ion similan, kaj kiun oni povas, sen ĝin malfermi, meti en aparaton por
 uzi tiun enhavaĵon.</item>
 
-<label lang="eo">katapult&strek;o</label><item>1 Malnova militmaŝino, kiu pafis ŝtonojn k.a. pere de longa
-streĉita brako aŭ pere de diversaj aliaj meĥanismoj.
- 2 Pafileto en la formo
+<label lang="eo">katapult&strek;o</label><item>
+<list type="def">
+  <item>1 Malnova militmaŝino, kiu pafis ŝtonojn k.a. pere de longa
+streĉita brako aŭ pere de diversaj aliaj meĥanismoj.</item>
+  <item>2 Pafileto en la formo
 de Y, kun kaŭĉuka ŝnuro (rubando), per kiu oni (precipe infanoj) pafas
 ŝtonetojn k.s. 3 Meĥanika aparato, por antaŭenĵeti aviadilon for de la
 ferdeko de ŝipo, aŭ glisilon for de la grundo.</item>
+</list></item>
 
 <label lang="eo">kibuc&strek;o</label><item>Speco de kooperativa vilaĝo Israela kun komuna havaĵo.</item>
 
 <label lang="eo">kimon&strek;o</label><item>Japana tradicia vesto longa kun larĝaj manikoj, portata kun larĝa
 zono el ŝtofo.</item>
 
-<label lang="eo">kiosk&strek;o</label><item>1 Budeto por vendo de varoj (gazetoj, floroj, trinkaĵoj ktp.).
-2 Ĝardena (Orient-stila) paviloneto nefermita ĉe unu aŭ pluraj flankoj.</item>
+<label lang="eo">kiosk&strek;o</label><item>
+<list type="def">
+  <item>1 Budeto por vendo de varoj (gazetoj, floroj, trinkaĵoj ktp.).</item>
+  <item>2 Ĝardena (Orient-stila) paviloneto nefermita ĉe unu aŭ pluraj flankoj.</item>
+</list>
+</item>
 
 <label lang="eo">klitor&strek;o</label><item>Malgranda sentema organo ĉe la antaŭo de la vulvo, grava en
 seksa plezuro ĉe virinoj.</item>
 
 <label lang="eo">klon&strek;o</label><item>Organismo aŭ ĉelo, kiu estas gena kopio de alia organismo aŭ ĉelo.
- klon/i . Estigi klonon (el organismo/ĉelo); estigi kiel klonon: kloni beston;
+<list type="deriv">
+  <label lang="eo">klon&strek;i</label><item>Estigi klonon (el organismo/ĉelo); estigi kiel klonon: kloni beston;
 kloni ĉelon.</item>
+</list>
+</item>
 
-<label lang="eo">kod&strek;o</label><item>1 Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn:
-internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo;
-ĉifro estas sekreta kodo. 2 Kodaĵo: poŝta kodo; UEA-kodo; fonta kodo de
-programo (= fonta teksto de programo).</item>
- <label lang="eo">kod/i</label><item>Esprimi ion en kodo 1:
-kodi mesaĝon.</item> <label lang="eo">mal/kod/i</label><item>Ekstrakti informon el koditaĵo: malkodi sen-
-daĵon.</item> <label lang="eo">kod/aĵ/o</label><item>Grupo da signoj, prezentanta koditan informon. 
-<note>(4)</note></item>
+<label lang="eo">kod&strek;o</label><item>
+<list type="def">
+  <item>1 Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn: internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo; ĉifro estas sekreta kodo.</item>
+  <item>2 Kodaĵo: poŝta kodo; UEA-kodo; fonta kodo de programo (= fonta teksto de programo).</item>
+</list>
+<list type="deriv">
+   <label lang="eo">kod&strek;i</label>
+   <item>Esprimi ion en kodo 1: kodi mesaĝon.</item> 
+   <label lang="eo">mal&strek;kod&strek;i</label>
+   <item>Ekstrakti informon el koditaĵo: malkodi sendaĵon.</item> 
+   <label lang="eo">kod&strek;aĵ&strek;o</label>
+   <item>Grupo da signoj, prezentanta koditan informon.</item>
+</list>
+<note>(4)</note>
+</item>
 
 <label lang="eo">kodeks&strek;o</label><item>Libro, precipe antikva manuskripto, el falditaj kaj binditaj folioj
 (kontraste al libro rulforma). <note>(5)</note></item>
@@ -3393,30 +3515,47 @@ daĵon.</item> <label lang="eo">kod/aĵ/o</label><item>Grupo da signoj, prezenta
 harmonie k.s. interligitaj aŭ interrilatantaj. 2 (pri parto de tuto) Tia, ke ĝi
 konsekvence, logike, harmonie k.s. interligiĝas aŭ interrilatas kun la aliaj
 partoj de la tuto.
- koher/i 1 Esti kohera: ŝiaj ideoj koheras; tiu parto ne
-koheras kun la resto. 2 (pri atomoj, molekuloj, eroj k.s.) Kunteniĝi pro re-
-ciproka altiro: la grajnetoj de argilo koheras.</item>
+<list type="deriv">
+  <label lang="eo">koher&strek;i</label><item>
+  <list type="def">
+    <item>1 Esti kohera: ŝiaj ideoj koheras; tiu parto ne koheras kun la resto.</item>
+    <item>2 (pri atomoj, molekuloj, eroj k.s.) Kunteniĝi pro reciproka altiro: la grajnetoj de argilo koheras.</item>
+  </list>
+  </item>
+</list>
+</item>
 
 <label lang="eo">koment&strek;i</label><item>Komentarii. Prezenti rimarkon, opiniesprimon aŭ klarigon (pri
 okazaĵo, eldiraĵo k.s.): li komentis, ke tio estas rimarkinda; ŝi tute pravas,
 komentis apudstaranto; la funkciulo rifuzis komenti pri la propono;
 komenti novaĵon; komenti decidon; komenti pri ideo; komenti pri libro;
-komentita Korano (= prinotita Korano). koment/o 1 Ago komenti.
-2 Rimarko, noto, vortoj de komentinto.
- koment/ar/o . Komentario.
-Kolekto aŭ serio da komentoj 2, precipe tiaj, kiuj celas komprenigi la mal-
-facilaĵojn de teksto aŭ verko: eldono de Korano kun komentaro.</item>
+komentita Korano (= prinotita Korano). 
+<list type="deriv">
+  <label lang="eo">koment&strek;o</label><item>
+  <list type="def">
+    <item>1 Ago komenti.</item>
+    <item>2 Rimarko, noto, vortoj de komentinto.</item>
+  </list>
+  </item>
+  <label lang="eo">koment&strek;ar&strek;o</label><item>Komentario.
+Kolekto aŭ serio da komentoj 2, precipe tiaj, kiuj celas komprenigi la malfacilaĵojn de teksto aŭ verko: eldono de Korano kun komentaro.</item>
+</list>
+</item>
 
 <label lang="eo">kompakt&strek;a</label><item>Tia, ke ĝiaj konsistigaj eroj estas tiel malvaste aranĝitaj, ke ĝi
 plene okupas sian volumenon, sen kavoj, poroj aŭ truoj, kio malhelpas
 penetron de ekstera objekto en ĝin: kompakta amaso; kompakta grundo;
 kompakta pulvoro.</item>
 
-<label lang="eo">komput&strek;i</label><item>Plenumi algoritmon aŭ programon, precipe per aŭtomata rimedo
-(komputilo). (La gramatika objekto, se ĝi ĉeestas, indikas celatan re-
-zulton: komputi la paskodatojn.) komput/il/o . Maŝino por aŭtomata
-komputado. komput/o/scienc/o . Scienco pri komputado, precipe pri la
-aŭtomata komputado per komputiloj.</item>
+<label lang="eo">komput&strek;i</label>
+<item>Plenumi algoritmon aŭ programon, precipe per aŭtomata rimedo (komputilo). (La gramatika objekto, se ĝi ĉeestas, indikas celatan re-zulton: komputi la paskodatojn.) 
+<list type="deriv">
+  <label lang="eo">komput&strek;il&strek;o</label>
+  <item>Maŝino por aŭtomata komputado.</item> 
+  <label lang="eo">komput&strek;o&strek;scienc&strek;o</label>
+  <item>Scienco pri komputado, precipe pri la aŭtomata komputado per komputiloj.</item>
+</list>
+</item>
 
 <label lang="eo">kondom&strek;o</label><item>Elasta kaj tre maldika (kaŭĉuka) ingo tenata sur peniso dum
 seksumado por malebligi gravediĝon kaj infektiĝon.</item>
@@ -3426,9 +3565,20 @@ tuto (de cirkvito, de komputila aŭ telefona reto ktp.): ŝi konektis la
 komputilon kun la poŝtelefono per kablo; tiu aparato funkcias konektite
 (al la Interreto, al komputilo), dum ĉi tiu, senkonekte (= aŭtonome); ĉi tiu
 kablo konektas partojn de la cirkvito; la paciento estas konektita al
-artefarita reno.</item> <label lang="eo">konekt/o</label><item> 1 Ago konekti, konektado. 2 Stato esti kon-
-ektita, konektiteco: mi havas (ret)konekton; konekto mankas; la konekto
-perdiĝis. </item> <label lang="eo">mal/konekt/i</label><item>Ĉesigi, rompi konekton: malkonekti aparaton.</item>
+artefarita reno.
+<list type="deriv">
+  <label lang="eo">konekt&strek;o</label>
+  <item> 
+  <list type="def">
+    <item>1 Ago konekti, konektado.</item> 
+    <item>2 Stato esti konektita, konektiteco: mi havas (ret)konekton; konekto mankas; la konekto perdiĝis.</item>
+  </list>
+  </item>
+  <label lang="eo">mal&strek;konekt&strek;i</label>
+  <item>Ĉesigi, rompi konekton: malkonekti aparaton.</item>
+</list>
+</item>
+
 <label lang="eo">kooperativ&strek;o</label><item>Societo posedata kaj regata de siaj membroj, kaj celanta
 helpi al la (ekonomiaj) bezonoj de la membroj per komuna entrepreno.</item>
 
@@ -3441,10 +3591,15 @@ parojn da kromosomoj.</item>
 
 <label lang="eo">ku&strek;o</label><item>La litero Q, q.</item>
 
-<label lang="eo">kurz&strek;o</label><item>1 En borso (aŭ borsosimila negocado) konstatita referenca prezo de
+<label lang="eo">kurz&strek;o</label><item>
+<list type="def">
+  <item>1 En borso (aŭ borsosimila negocado) konstatita referenca prezo de
 valorpaperoj, valutoj aŭ varoj: kurzo de akcioj; kurzo 
- de nafto; kurzo en la nigra merkato. 2 Relativa valoro de du valutoj: la hodiaŭa kurzo de eŭro
+ de nafto; kurzo en la nigra merkato.</item>
+  <item>2 Relativa valoro de du valutoj: la hodiaŭa kurzo de eŭro
 estas 1,33 dolaroj.</item>
+</list>
+</item>
 
 <label lang="eo">kvaker&strek;o</label><item>Ano de la Societo de Amikoj, dogme liberala eklezio estiĝinta en
 Britujo en la 17a jarcento, en kies diservaj kunvenoj silenta meditado
@@ -3454,10 +3609,14 @@ kaj pacismo.</item>
 <label lang="eo">kvorum&strek;o</label><item>Difinita minimuma nombro de partoprenantoj en kunveno,
 necesa por validigi ĝiajn decidojn.</item>
 
-<label lang="eo">lanĉ&strek;i</label><item>1 Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: lanĉi ŝipon (= enakv-
-igi ĝin unuafoje post la konstruado); lanĉi sateliton. 2 Prezenti (varon,
+<label lang="eo">lanĉ&strek;i</label><item>
+<list type="def">
+  <item>1 Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: lanĉi ŝipon (= enakvigi ĝin unuafoje post la konstruado); lanĉi sateliton.</item>
+  <item>2 Prezenti (varon,
 verkon, ideon k.s.) je la unua fojo al publika uzado: lanĉi gazeton; lanĉi
 romanon; lanĉi kampanjon; lanĉi novan vorton.</item>
+</list>
+</item>
 
 <label lang="eo">laser&strek;o</label><item>Aparato por produkti radion, konsistantan el elektromagnetaj ondoj
 (ekz. lumo) kun tre mallarĝa spektro kaj sama fazo: la radio de lasero
@@ -3478,83 +3637,158 @@ ofte kun diversaj spicoj.</item>
 
 <label lang="eo">majuskl&strek;o</label><item>Ĉeflitero, grandlitero. Tia litervarianto (en kelkaj alfabetaj
 skribosistemoj), kiu estas uzata precipe kiel komenclitero de frazoj kaj de
-propraj nomoj, ekz. A, B, C, Ĉ. (La malo estas minusklo.) majuskl/et/o .
+propraj nomoj, ekz. A, B, C, Ĉ. (La malo estas minusklo.) 
+<list type="deriv">
+  <label lang="eo">majuskl&strek;et&strek;o</label><item>
 Litero (en alfabeto posedanta majusklojn kaj minusklojn) majuskloforma
 sed malpli alta ol normala majusklo de la sama serio (proksimume
-samalta kiel la plej malaltaj minuskloj). majuskl/a 1 Skribita per maj-
-usklo(j); rilata al majusklo(j). 2 (en paleografio kaj tipografio, pri signaro)
+samalta kiel la plej malaltaj minuskloj).</item> 
+  <label lang="eo">majuskl&strek;a</label><item>
+  <list type="def">
+    <item>1 Skribita per majusklo(j); rilata al majusklo(j).</item>
+    <item>2 (en paleografio kaj tipografio, pri signaro)
 Tia, ke ĉiu signo (escepte de eventualaj kromsignoj) estas skribebla inter
 du paralelaj horizontaloj: majuskla signaro; majusklaj ciferoj; kodekso en
 la majuskla skribo de la kvina jarcento.</item>
+  </list>
+  </item>
+</list>
+</item>
 
 <label lang="eo">mandarin&strek;o</label><item>Frukto de mandarinujo, speco de oranĝeto, tre suka kaj dolĉa,
-kun bonodora, maldika, facile forigebla ŝelo. </item> <label lang="eo">mandarin/uj/o, mandarin/arb/o</label><item> Arbeto, kies frukto estas mandarino. (Citrus reticulata.)</item>
+kun bonodora, maldika, facile forigebla ŝelo.
+<list type="deriv">
+  <label lang="eo">mandarin&strek;uj&strek;o, mandarin&strek;arb&strek;o</label>
+  <item>Arbeto, kies frukto estas mandarino. (Citrus reticulata.)</item>
+</list>
+</item>
 
 <label lang="eo">mang&strek;o</label><item>Frukto de mangujo, maturstadie flava aŭ oranĝa, kun tre suka,
-dolĉa, aroma, flava karno kaj kun granda plata kerno.</item> <label lang="eo">mang/uj/o, mang/arb/o</label><item> Tropika fruktarbo indiĝena en suda Azio, kies frukto estas mango. (Mangifera indica.)</item>
+dolĉa, aroma, flava karno kaj kun granda plata kerno.
+<list type="deriv">
+  <label lang="eo">mang&strek;uj&strek;o, mang&strek;arb&strek;o</label><item> Tropika fruktarbo indiĝena en suda Azio, kies frukto estas mango. (Mangifera indica.)</item>
+</list>
+</item>
 
 <label lang="eo">maniok&strek;o</label><item>Tropika arbusto aŭ arbeto origine el Sud-Ameriko, kun tuberaj
 ameloriĉaj radikoj, kiuj estas manĝeblaj post prilaboro: dolĉa manioko;
 maldolĉa manioko; tapioko estas farita el manioko. (Manihot esculenta.)</item>
 
-<label lang="eo">mate&strek;o</label><item>1 Arbo maksimume dek metrojn alta, kies ledecaj folioj, sekigitaj aŭ
-rostitaj, estas uzataj por infuzaĵoj. (Ilex paraguayensis.) 2 Sekigitaj aŭ
-rostitaj folioj de mateo 1. 3 Infuzaĵo el mateo 2. <note>(6)</note></item>
+<label lang="eo">mate&strek;o</label><item>
+<list type="def">
+  <item>1 Arbo maksimume dek metrojn alta, kies ledecaj folioj, sekigitaj aŭ
+rostitaj, estas uzataj por infuzaĵoj. (Ilex paraguayensis.)</item>
+  <item>2 Sekigitaj aŭ
+rostitaj folioj de mateo 1.</item>
+  <item>3 Infuzaĵo el mateo 2. <note>(6)</note></item>
+</list>
+</item>
 
-<label lang="eo">matric&strek;o</label><item>1 Gravurita peco aŭ muldilo, tenanta negativan reliefan formon,
+<label lang="eo">matric&strek;o</label><item>
+<list type="def">
+  <item>1 Gravurita peco aŭ muldilo, tenanta negativan reliefan formon,
 uzata por krei (per stampado aŭ fandado) gramofonajn diskojn, pre-
 stipojn, medalojn, monerojn, aŭtoplatojn aŭ aliajn objektojn kun reliefa
-surfaco. 2 Tabelo el samspecaj matematikaj objektoj (ekz. nombroj):
+surfaco.</item>
+  <item>2 Tabelo el samspecaj matematikaj objektoj (ekz. nombroj):
 matrico el 200 horizontaloj kaj 300 vertikaloj; kvadrata matrico;
 adicio/multipliko de matricoj.</item>
+</list>
+</item>
 
-<label lang="eo">melongen&strek;o</label><item>1 Neligneca kreskaĵo kun dentaj folioj, violetaj floroj kaj
-grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj ali-
-koloraj). (Solanum melongena.) 2 Frukto de melongeno 1.</item>
+<label lang="eo">melongen&strek;o</label><item>
+<list type="def">
+  <item>1 Neligneca kreskaĵo kun dentaj folioj, violetaj floroj kaj
+grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj alikoloraj). (Solanum melongena.)</item>
+  <item>2 Frukto de melongeno 1.</item>
+</list>
+</item>
 
 <label lang="eo">menstru&strek;i</label><item>Ellasi sangon el la utero dum kelkaj tagoj proksimume unu fojon
-en ĉiu monato: ŝi regule menstruas. menstru/o . Menstrua sangelfluo,
+en ĉiu monato: ŝi regule menstruas. 
+<list type="deriv">
+  <label lang="eo">menstru&strek;o</label><item>Menstrua sangelfluo,
 monataĵo: kiam estis via lasta menstruo?; ŝiaj menstruoj estas neregulaj;
 menstruoj okazas de la seksmaturiĝo ĝis la definitiva menstruĉeso.</item>
+</list>
+</item>
 
-<label lang="eo">mesaĝ&strek;o</label><item>1 Parola aŭ skriba informo sendata al iu: nuntempe homoj sendas
-mesaĝojn tra la Interreto. 2 (figure) Esenca ideo, kiun celas transdoni
+<label lang="eo">mesaĝ&strek;o</label><item>
+<list type="def">
+  <item>1 Parola aŭ skriba informo sendata al iu: nuntempe homoj sendas
+mesaĝojn tra la Interreto. </item>
+  <item>2 (figure) Esenca ideo, kiun celas transdoni
 teksto, rakonto, filmo, agado k.s.: kio estas la mesaĝo de la Biblio por la
-nuntempa homo?; tiu filmo enhavas politikan mesaĝon; la malbona tra-
-duko fuŝis la mesaĝon de la aŭtoro.
-   mesaĝ/i . Sendi per mesaĝo: li
+nuntempa homo?; tiu filmo enhavas politikan mesaĝon; la malbona traduko fuŝis la mesaĝon de la aŭtoro.</item>
+</list>
+<list type="deriv">
+  <label lang="eo">mesaĝ&strek;i</label><item>Sendi per mesaĝo: li
 mesaĝis la novaĵon al mi; ili ofte mesaĝas inter si; per poŝtelefono oni
 povas mesaĝi tre rapide.</item>
+</list>
+</item>
 
 <label lang="eo">minuskl&strek;o</label><item>Malĉeflitero, etlitero. Tia litervarianto (en kelkaj alfabetaj
 skribosistemoj), kiu estas uzata en ĉiuj ordinaraj okazoj (en kiuj oni ne
-uzas majusklon), ekz. a, b, c, ĉ. (La malo estas majusklo.) minuskl/a
-1 Skribita per minusklo(j); rilata al minusklo(j). 2 (en paleografio kaj tipo-
-grafio, pri signaro) Tia, ke ne ĉiu signobildo estas skribebla inter du
+uzas majusklon), ekz. a, b, c, ĉ. (La malo estas majusklo.) 
+<list type="deriv">
+  <label lang="eo">minuskl&strek;a</label><item>
+  <list type="def">
+    <item>1 Skribita per minusklo(j); rilata al minusklo(j).</item>
+    <item>2 (en paleografio kaj tipografio, pri signaro) Tia, ke ne ĉiu signobildo estas skribebla inter du
 paralelaj horizontaloj: minuskla signaro; minusklaj ciferoj; minuskla
 skribo Karolida.</item>
+  </list>
+  </item>
+</list>
+</item>
 
-<label lang="eo">miraĝ&strek;o</label><item>1 Optika fenomeno kaŭzanta tian iluzion, ke malproksimaj objektoj
+<label lang="eo">miraĝ&strek;o</label><item>
+<list type="def">
+  <item>1 Optika fenomeno kaŭzanta tian iluzion, ke malproksimaj objektoj
 ŝajnas proksimaj pro devojigo de lumo trairanta varman aertavolon: la
-ŝajna lago en la dezerto estis miraĝo.
- 2 (figure) Alloga iluzio.</item>
+ŝajna lago en la dezerto estis miraĝo.</item>
+  <item>2 (figure) Alloga iluzio.</item>
+</list>
+</item>
 
 <label lang="eo">modem&strek;o</label><item>Aparato, kiu transformas ciferecan signalon (ekz. de komputilo)
 en analogan aŭ inverse, por transsendo per telefona reto, radio, elektra
 reto aŭ simile: konekti komputilon al la Interreto per modemo.</item>
 
-<label lang="eo">muld&strek;i</label><item>1 Fari objekton enpremante aŭ fluigante molan substancon en ujon,
+<label lang="eo">muld&strek;i</label><item>
+<list type="def">
+  <item>1 Fari objekton enpremante aŭ fluigante molan substancon en ujon,
 kiu havas la deziratan formon: muldi medalon; muldi plastajn telerojn;
-(figure) muldi pensmanieron. 2 Reprodukti la formon de io per mola sub-
+(figure) muldi pensmanieron.</item>
+  <item>2 Reprodukti la formon de io per mola sub-
 stanco, kiun oni poste malmoligas kiel ujon (por ebligi muldi 1): muldi per
 gipso vizaĝon; muldi reliefon.</item>
+</list>
+</item>
 
-<label lang="eo">nan&strek;o</label><item>1 Homo, kiu estas multe malpli alta ol normale (por la aĝo). 2 Besto
-aŭ vegetaĵo, kiu estas multe malpli granda ol normale. nan/a 1 Rilata al
-nano. 2 Tre malalta/malgranda.</item>
+<label lang="eo">nan&strek;o</label><item>
+<list type="def">
+  <item>1 Homo, kiu estas multe malpli alta ol normale (por la aĝo).</item>
+  <item>2 Besto
+aŭ vegetaĵo, kiu estas multe malpli granda ol normale.</item> 
+</list>
+<list type="deriv">
+  <label lang="eo">nan&strek;a</label><item> 
+  <list type="def">
+    <item>1 Rilata al nano.</item> 
+    <item>2 Tre malalta/malgranda.</item>
+  </list>
+  </item>
+</list>
+</item>
 
 <label lang="eo">omaĝ&strek;o</label><item>Esprimo aŭ manifestaĵo de honora respekto al iu: la ekspozicio
-estas omaĝo al la ĵus mortinta artisto. omaĝ/i . Esprimi honoran respekton: omaĝi al Zamenhof.</item>
+estas omaĝo al la ĵus mortinta artisto. 
+<list type="deriv">
+  <label lang="eo">omaĝ&strek;i</label><item>Esprimi honoran respekton: omaĝi al Zamenhof.</item>
+</list>
+</item>
 
 <label lang="eo">organik&strek;a</label><item>Rilata al la karbonkombinaĵoj: organika ĥemio. ne/organik/a .
 Rilata al ĉiuj substancoj aliaj ol la karbonkombinaĵoj: neorganika ĥemio.</item>
@@ -3591,8 +3825,12 @@ formas la korolon de la floro, kaj ekster kiuj troviĝas la kalikfolioj.</item>
 
 <label lang="eo">pic&strek;o</label><item>Italdevena manĝaĵo el platigita (ronda) pastopeco kun surmetitaj
 tomatoj, fromaĝo kaj aliaj ingrediencoj, bakata en forno: pico kun
-anĉovoj; pico kun ŝinko; funga pico; kvarsezona pico. pic/ej/o . Restoracio
+anĉovoj; pico kun ŝinko; funga pico; kvarsezona pico. 
+<list type="deriv">
+  <label lang="eo">pic&strek;ej&strek;o</label><item>Restoracio
 aŭ simila ejo, kiu ĉefe vendas picojn.</item>
+</list>
+</item>
 
 <label lang="eo">piĵam&strek;o</label><item>Dormovesto el komforte vastaj jako kaj pantalono (ordinare en du
 pecoj, sed iafoje en unu kuna peco).</item>
@@ -3605,8 +3843,12 @@ por tre lerte naĝi, vivanta en la sudaj partoj de la tero, precipe en
 Antarkto. ( Spheniscidae .)</item>
 
 <label lang="eo">pis&strek;i</label><item>(familiare) Urini: la infaneto pisis 
- en pispoton; ĉi tie hundoj pisas.</item>
-  <label lang="eo">pis/o</label><item> Ago pisi kaj ties rezulto (pisaĵo). pis/aĵ/o . Urino.</item>
+ en pispoton; ĉi tie hundoj pisas.
+<list type="deriv">
+  <label lang="eo">pis&strek;o</label><item>Ago pisi kaj ties rezulto (pisaĵo). 
+  <label lang="eo">pis&strek;aĵ&strek;o</label>Urino.</item>
+</list>
+</item>
 
 <label lang="eo">polen&strek;o</label><item>Subtila flava polvo, kiu estas produktata de virseksa organo de
 floro, kaj kiu transportite al aliaj floroj (pere de vento, akvo, insektoj aŭ
@@ -3629,13 +3871,18 @@ kaj produktanta parton de la sperma likvo.</item>
 
 <label lang="eo">pub&strek;o</label><item>La malsupra parto de la ventro, ĉe plenkreskuloj normale kovrita de
 haroj, kovranta la antaŭan parton de la koksosto.</item>
- <label lang="eo">pub/ost/o</label><item> Antaŭa parto de la koksosto.</item>
+ <label lang="eo">pub&strek;ost&strek;o</label><item> Antaŭa parto de la koksosto.</item>
 
-<label lang="eo">pulp&strek;o</label><item>1 Fruktokarno. Mola, karneca parto de frukto aŭ legomo.
- 2 Kunteniĝema maso de mola vegetaĵa materio: pulpo de sukerbetoj; ligna
-pulpo (el kiu oni faras paperon). 3 Mola aŭ duonmola parto de kelkaj org-
+<label lang="eo">pulp&strek;o</label><item>
+<list type="def">
+  <item>1 Fruktokarno. Mola, karneca parto de frukto aŭ legomo.</item>
+  <item>2 Kunteniĝema maso de mola vegetaĵa materio: pulpo de sukerbetoj; ligna
+pulpo (el kiu oni faras paperon). </item>
+  <item>3 Mola aŭ duonmola parto de kelkaj org-
 anoj: denta pulpo (= interna parto 
  de dento); liena pulpo.</item>
+</list>
+</item>
 
 <label lang="eo">pund&strek;o</label><item>Monunuo de Britujo k.a.
  landoj: ĝi kostas dek pundojn kaj kvindek
@@ -3658,12 +3905,15 @@ temo, spegulanta opinion de la plimulto inter la anoj de iu fakta aŭ prin-
 cipa kunveno, konstatitan per voĉdono aŭ alia publike kontrolebla
 metodo, kutime post debato en tiu kunveno pri la temo.</item>
 
-<label lang="eo">robot&strek;o</label><item>1 Maŝino kapabla obei difinitajn ordonojn pri la maniero moviĝi kaj
-plenumi taskojn, uzata ekz. en fabrikoj por anstataŭi profesiulon en mani-
-ero pli efika, malmultekosta aŭ sendanĝera. 2 (en fikciaj verkoj) Maŝino,
-plej ofte simila al homo (aŭ besto), kapabla pensi kaj agi memstare.
-3 (figure) Komputila programo kapabla esplori komputilan reton kaj trovi
+<label lang="eo">robot&strek;o</label><item>
+<list type="def">
+  <item>1 Maŝino kapabla obei difinitajn ordonojn pri la maniero moviĝi kaj
+plenumi taskojn, uzata ekz. en fabrikoj por anstataŭi profesiulon en maniero pli efika, malmultekosta aŭ sendanĝera.</item>
+  <item>2 (en fikciaj verkoj) Maŝino, plej ofte simila al homo (aŭ besto), kapabla pensi kaj agi memstare.</item>
+  <item>3 (figure) Komputila programo kapabla esplori komputilan reton kaj trovi
  en ĝi petitajn informojn.</item>
+</list>
+</item>
 
 <label lang="eo">ronĝ&strek;i</label><item>Per la dentoj mordet(ad)i forigante pecetojn: ratoj ronĝas la
 meblojn; sciuroj ronĝas; mi iom ronĝis la biskviton. ronĝ/ul/o . Tia mam-
@@ -3683,17 +3933,23 @@ anĉo kaj plej ofte S-forma metala (latuna) tubo.</item>
 <label lang="eo">salikok&strek;o</label><item>Malgranda senvertebra akvobesto, dekkrura krustulo. (Pandalus,
 Leander, Crangon, Paeneus kaj parencaj genroj.)</item>
 
-<label lang="eo">satelit&strek;o</label><item>1 Astro rivoluanta ĉirkaŭ pli granda astro. 2 Artefarita objekto
-rivoluanta ĉirkaŭ la tero (aŭ alia astro). 3 (figure) Urbo, regno aŭ organiz-
-aĵo politike aŭ ekonomie dependa de alia urbo/regno/organizaĵo.
-4 (figure) Fihelpanto tute dependanta 
- de iu; nedisiĝa fikunulo, al kiu oni
-komisias krimajn aŭ malnoblajn taskojn.</item>
+<label lang="eo">satelit&strek;o</label><item>
+<list type="def">
+  <item>1 Astro rivoluanta ĉirkaŭ pli granda astro.</item>
+  <item>2 Artefarita objekto rivoluanta ĉirkaŭ la tero (aŭ alia astro).</item>
+  <item>3 (figure) Urbo, regno aŭ organizaĵo politike aŭ ekonomie dependa de alia urbo/regno/organizaĵo.</item>
+  <item>4 (figure) Fihelpanto tute dependanta de iu; nedisiĝa fikunulo, al kiu oni komisias krimajn aŭ malnoblajn taskojn.</item>
+</list>
+</item>
 
-<label lang="eo">sesi&strek;o</label><item>1 Periodo de kunsidoj de parlamento, asembleo, juĝa instanco,
+<label lang="eo">sesi&strek;o</label><item>
+<list type="def">
+  <item>1 Periodo de kunsidoj de parlamento, asembleo, juĝa instanco,
 komisiono k.s.: ordinara sesio; eksterordinara sesio; la aŭtuna sesio de la
-parlamento; la ekzamena sesio daŭros de la 11a ĝis la 25a de Junio.
-2 Serio de universitataj prelegoj.</item>
+parlamento; la ekzamena sesio daŭros de la 11a ĝis la 25a de Junio.</item>
+  <item>2 Serio de universitataj prelegoj.</item>
+</list>
+</item>
 
 <label lang="eo">silici&strek;o</label><item>Ĥemia elemento, nemetalo bruna (en stato nekristala) aŭ nigre
 griza (en stato kristala).
@@ -3707,10 +3963,16 @@ precipe por ciferecigi optikajn bildojn.</item>
 <label lang="eo">skeĉ&strek;o</label><item>Mallonga sceno, kutime komika aŭ satira, prezentata de unu aŭ
 pluraj aktoroj, kaj kompleta en si mem.</item>
 
-<label lang="eo">skolt&strek;o</label><item>1 Soldato, ŝipo, aviadilo k.s. elsendita por kolekti informojn pri la
-pozicio aŭ forto de la malamiko, pri la irota vojo (de armeo), k.s.
- 2 Ano de la skolta movado, internacia junulara movado fondita en Anglujo en 1907.
-  skolt/ism/o . La idearo de la skolta movado; tiu movado mem.</item>
+<label lang="eo">skolt&strek;o</label><item>
+<list type="def">
+ <item>1 Soldato, ŝipo, aviadilo k.s. elsendita por kolekti informojn pri la
+pozicio aŭ forto de la malamiko, pri la irota vojo (de armeo), k.s.</item>
+ <item>2 Ano de la skolta movado, internacia junulara movado fondita en Anglujo en 1907.</item>
+</list>
+<list type="deriv">
+  <label lang="eo">skolt&strek;ism&strek;o</label><item>La idearo de la skolta movado; tiu movado mem.</item>
+</list>
+</item>
 
 <label lang="eo">specif&strek;i</label><item>Nome esprimi, detale difini, precize mencii: specifi postulojn;
 specifi regulojn; specifi celojn. specif/a . Havanta ecojn karakterizajn aŭ
@@ -3722,18 +3984,23 @@ specifaj formoj de unu klaso de bestoj (nur tiu klaso havas tiujn formojn).</ite
 zentata: spekti filmon; spekti operon; spekti teatraĵon; spekti baleton;
 spekti sportan festivalon.</item>
 
-<label lang="eo">stabil&strek;a</label><item>1 Ema firme restadi 
- en sama pozicio aŭ stato: stabila konstruaĵo;
-stabila situacio; stabila paco; stabila solvaĵo; stabila elemento. 2 Ŝanĝiĝ-
-anta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ek-
-vilibra kaj antaŭvidebla maniero: stabila kresko; stabila evoluo; stabila
-ekonomio.</item>
+<label lang="eo">stabil&strek;a</label><item>
+<list type="def">
+  <item>1 Ema firme restadi en sama pozicio aŭ stato: stabila konstruaĵo;
+stabila situacio; stabila paco; stabila solvaĵo; stabila elemento.</item>
+  <item>2 Ŝanĝiĝanta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ekvilibra kaj antaŭvidebla maniero: stabila kresko; stabila evoluo; stabila ekonomio.</item>
+</list>
+</item>
 
-<label lang="eo">stagn&strek;i</label><item>1 (pri likvo) Restadi senflua (kaj tial fariĝi malpura kaj malagrabla):
-akvo stagnis en truoj ĉe la flanko de la vojo.
- 2 (pri agadkampo, entrepreno k.s.) Restadi senmova, senaga, malaktiva, ne evoluanta, ne
+<label lang="eo">stagn&strek;i</label><item>
+<list type="def">
+   <item>1 (pri likvo) Restadi senflua (kaj tial fariĝi malpura kaj malagrabla):
+akvo stagnis en truoj ĉe la flanko de la vojo.</item>
+   <item>2 (pri agadkampo, entrepreno k.s.) Restadi senmova, senaga, malaktiva, ne evoluanta, ne
 progresanta k.s.: la komerco stagnas; la ekonomio stagnis; la movado
 stagnis; la membronombro stagnas.</item>
+</list>
+</item>
 
 <label lang="eo">statut&strek;o</label><item>Fundamenta regularo de organizaĵo.</item>
 
@@ -3743,22 +4010,31 @@ kapablas krei impreson de multaj dise situantaj sonfontoj.</item>
 <label lang="eo">stir&strek;i</label><item>Direkti moviĝadon de veturilo: stiri aŭton; stiri ŝipon; stiri biciklon;
 stiri aviadilon.</item>
 
-<label lang="eo">stok&strek;o</label><item>1 Disponebla kvanto da varoj, krudmaterialoj aŭ fabrikitaĵoj (tenata
- en provizejo).
- 2 (figure) Provizo, kolekto (de io havebla por uzo): vorto-
-stoko (= vortprovizo); ŝi havas grandan stokon da ŝercoj. stok/i . Teni en
-stoko; amasigi en stoko; aldoni al stoko: stoki varojn; stoki manĝaĵojn;
+<label lang="eo">stok&strek;o</label><item>
+<list type="def">
+  <item>1 Disponebla kvanto da varoj, krudmaterialoj aŭ fabrikitaĵoj (tenata en provizejo).</item>
+  <item>2 (figure) Provizo, kolekto (de io havebla por uzo): vortostoko (= vortprovizo); ŝi havas grandan stokon da ŝercoj.</item>
+</list> 
+<list type="deriv">
+  <label lang="eo">stok&strek;i</label><item>Teni en stoko; amasigi en stoko; aldoni al stoko: stoki varojn; stoki manĝaĵojn;
 stokata varo (= varo tenata en stoko/metata en stokon); stokita varo
 (= varo metita en stokon).</item>
+</list>
+</item>
 
 <label lang="eo">strangol&strek;i</label><item>Sufoki per premo 
  de la gorĝo: strangoli homon; strangoli beston.</item>
 
-<label lang="eo">sugest&strek;i</label><item>1 Prezenti, proponi (seninsiste) ideon por konsidero: mi sugestas,
-ke ni faru jene; sugesti solvon; sugesti respondon. 2 Kaŭzi aperon de
+<label lang="eo">sugest&strek;i</label><item>
+<list type="def">
+  <item>1 Prezenti, proponi (seninsiste) ideon por konsidero: mi sugestas,
+ke ni faru jene; sugesti solvon; sugesti respondon.</item>
+  <item>2 Kaŭzi aperon de
 ideo, pensigi: la simptomoj sugestas, ke li havas malarion; ŝia esprimo
 sugestis, ke ŝi estas kolera; la flugado de la birdoj sugestis novan ideon
 por flugmaŝino.</item>
+</list>
+</item>
 
 <label lang="eo">ŝalt&strek;i</label><item>Ekfunkciigi aparaton per tiucela regilo (ŝaltilo), precipe tiel ke ĝi
 komencu produkti sonon, lumon, varmon, akvon ktp. (la gramatika
@@ -3772,10 +4048,16 @@ longaj tubformaj folioj uzataj pro sia aromo en salato kaj aliaj manĝaĵoj.
 (Allium schoenoprasum.)</item>
 
 <label lang="eo">ŝok&strek;i</label><item>Forte kaj malagrable surprizi aŭ ĉagreni: lia konduto ŝokis min; la
-novaĵo ŝokis ŝin. ŝok/o 1 Ago ŝoki kaj ties rezulto. 2 (en medicino) Stato
-de korpa malforteco karakterizata de nenormale malgranda aktivado de
-la koro, pulmoj ktp. (pro difekto al la korpo aŭ pro ekstreme malagrabla
-sperto).</item>
+novaĵo ŝokis ŝin. 
+<list type="deriv">
+  <label lang="eo">ŝok&strek;o</label><item>
+  <list type="def"> 
+    <item>1 Ago ŝoki kaj ties rezulto.</item> 
+    <item>2 (en medicino) Stato de korpa malforteco karakterizata de nenormale malgranda aktivado de la koro, pulmoj ktp. (pro difekto al la korpo aŭ pro ekstreme malagrabla sperto).</item>
+  </list>
+  </item>
+</list>
+</item>
 
 <label lang="eo">ŝtorm&strek;o</label><item>Fortega vento, ofte akompanata de pluvego aŭ neĝo, malpli forta
 ol tempesto.</item>
@@ -3795,7 +4077,7 @@ la ekzisto de telepatio ne estas science pruvita.</item>
 <label lang="eo">tenis&strek;o</label><item>Sporto, en kiu du ludantoj (aŭ du paroj da ludantoj) per rakedoj
 alterne batas kaj rebatas pilketon trans reton streĉitan inter la ludantoj.</item>
 
-<label lang="eo">tabl/o/tenis/o</label><item> Tenisosimila ludo sur speciala tablo, en kiu oni uzas
+<label lang="eo">tabl&strek;o&strek;tenis&strek;o</label><item> Tenisosimila ludo sur speciala tablo, en kiu oni uzas
 lignajn batilojn kaj tre malpezan plastan pilketon.</item>
 
 <label lang="eo">test&strek;o</label><item>Ekzameno, mezurado aŭ enketo por kontroli ion (ekz. nivelon de
@@ -3816,10 +4098,13 @@ puni: torturi kaptiton; torturi krimulon.</item>
 <label lang="eo">tret&strek;i</label><item>Piedpremi. Premi (forte) per la piedoj: treti iun/ion (per la piedoj);
 treti sur iun/ion; treti (vinberojn) en vinpremejo.</item>
 
-<label lang="eo">trib&strek;o</label><item>1 Etna homgrupo (precipe se nomada aŭ rigardata kiel primitiva) viv-
-anta en komunumo.
- 2 Subdivido de zoologia aŭ botanika familio (uzata
+<label lang="eo">trib&strek;o</label><item>
+<list type="def">
+  <item>1 Etna homgrupo (precipe se nomada aŭ rigardata kiel primitiva) vivanta en komunumo.</item>
+  <item>2 Subdivido de zoologia aŭ botanika familio (uzata
 por grupigi genrojn de grandaj familioj).</item>
+</list>
+</item>
 
 <label lang="eo">tukan&strek;o</label><item>Birdo el tropika Ameriko, kun brilkoloraj plumoj kaj grandega, sed
 malpeza forta beko. ( Rhamphastidae .)</item>
@@ -3828,12 +4113,14 @@ malpeza forta beko. ( Rhamphastidae .)</item>
 ĉeloj, kiu povas esti sendanĝera, se ĝi kreskas malrapide kaj ne disvast-
 iĝas, sed en aliaj okazoj povas esti danĝere rapidkreska kaj invadema.</item>
 
-<label lang="eo">uni&strek;o</label><item>1 Unuiĝo de landoj, kiuj konsentas pri komunigo de la tuto aŭ parto
+<label lang="eo">uni&strek;o</label><item>
+<list type="def">
+  <item>1 Unuiĝo de landoj, kiuj konsentas pri komunigo de la tuto aŭ parto
  de sia regpovo. Tia unuiĝo povas esti interŝtata (ekz.
- Eŭropa Unio en
-1992) aŭ unuŝtata (ekz. Sud-Afriko en 1910). 2 Asocio. Kultura, sindikata
-aŭ partipolitika organizaĵo, forme analoga al unio 1, konsistanta el re-
-gionaj societoj.</item>
+ Eŭropa Unio en 1992) aŭ unuŝtata (ekz. Sud-Afriko en 1910). </item>
+  <item>2 Asocio. Kultura, sindikata aŭ partipolitika organizaĵo, forme analoga al unio 1, konsistanta el regionaj societoj.</item>
+</list>
+</item>
 
 <label lang="eo">Uson&strek;o</label><item>Lando en Nord-Ameriko, inter Atlantiko kaj Pacifiko, inter Kanado
 kaj Meksiko. Internacia landokodaĵo: US.</item>
@@ -3841,23 +4128,32 @@ kaj Meksiko. Internacia landokodaĵo: US.</item>
 <label lang="eo">vagin&strek;o</label><item>Interna kanalo ĉe virinoj kaj iuj bestinoj, kiun la peniso penetras
 dum seksumado; ĉe virinoj ĝi kondukas de la vulvo ĝis la utero.</item>
 
-<label lang="eo">vaku&strek;o</label><item>1 Kompleta foresto de materio.
- 2 Senaera malplena spaco.</item>
+<label lang="eo">vaku&strek;o</label><item>
+<list type="def">
+  <item>1 Kompleta foresto de materio.</item>
+  <item>2 Senaera malplena spaco.</item>
+</list>
+</item>
 
-<label lang="eo">valut&strek;o</label><item>1 Mono aŭ monsigno (devizoj, bankbiletoj, moneroj, akciaj kuponoj
-k.s.) cirkulanta en unu lando aŭ grupo da landoj.
- 2 Fremda devizo (ĉeko
-aŭ kambio). 3 Valoro de papermono rilate al la ora aŭ arĝenta metalunuo
- en valormetalbaza monsistemo.</item>
+<label lang="eo">valut&strek;o</label><item>
+<list type="def">
+  <item>1 Mono aŭ monsigno (devizoj, bankbiletoj, moneroj, akciaj kuponoj k.s.) cirkulanta en unu lando aŭ grupo da landoj.</item>
+  <item>2 Fremda devizo (ĉeko aŭ kambio).</item>
+  <item>3 Valoro de papermono rilate al la ora aŭ arĝenta metalunuo en valormetalbaza monsistemo.</item>
+</list>
+</item>
 
 <label lang="eo">vand&strek;o</label><item>Interna, maldika muro aŭ alispeca apartigaĵo dividanta iun spacon:
 vando de ĉelo; vando de ĉambro; vando de vagono.</item>
 
-<label lang="eo">versi&strek;o</label><item>1 Prezento de afero el iu vidpunkto (normale kontraste al alia vid-
-punkto): ŝi rakontis sian version de la aventuro.
- 2 Formo, redakto aŭ eldono de teksto, programo k.s.
+<label lang="eo">versi&strek;o</label><item>
+<list type="def">
+  <item>1 Prezento de afero el iu vidpunkto (normale kontraste al alia vidpunkto): ŝi rakontis sian version de la aventuro.</item>
+  <item>2 Formo, redakto aŭ eldono de teksto, programo k.s.
  (normale kontraste al alia formo/redakto/eldono): mi konas nur la germanan version de la poemo, kaj ne la originan
 polan version; Petro uzas la novan version de la programo.</item>
+</list>
+</item>
 
 <label lang="eo">virtual&strek;a</label><item>Kvazaŭa. Tia, ke ĝi funkcias, efikas aŭ impresas samkiel io, sed
 efektive estas io alia (plej ofte ne fizike reala): virtuala memoro; virtuala
@@ -3891,24 +4187,24 @@ plastaj) dentoj, kiuj interplektiĝas per ŝovado de movebla peco intera</item>
 
 <list>
 <item n="1">
-1. Asbesto. La oficialigita difino de asbesto bedaŭrinde enhavas eraron.
+<hi>1. Asbesto.</hi> La oficialigita difino de asbesto bedaŭrinde enhavas eraron.
 
 Asbesto ne estas ĉiam griza. Tiu eraro estis malkovrita nur kiam estis tro
 malfrue por haltigi la oficialigan proceduron. La Akademio intencas iam
 oficiale ĝustigi tiun difinotekston.
 </item>
 <item n="2">
-2. Bito. La Akademio lasas por posta konsidero la demandon, ĉu bito estu
+<hi>2. Bito.</hi> La Akademio lasas por posta konsidero la demandon, ĉu bito estu
 ankaŭ la nomo de la mezurunuo el informteorio, aŭ ĉu oni tiun nomu
 ŝanono.
 </item>
 <item n="3">
-3. Israelo. Kromnomo por Jakob estis Izrael(o), laŭ kiu oni nomas la
+<hi>3. Israelo.</hi> Kromnomo por Jakob estis Izrael(o), laŭ kiu oni nomas la
 antikvan popolon Izrael(o) aŭ la antikvajn hebreojn Izraelidoj, ekzemple
  en la Esperanta Biblio.
 </item>
 <item n="4">
-4. Kodo. La Akademio lasas por posta konsidero la demandon, ĉu la juran
+<hi>4. Kodo.</hi> La Akademio lasas por posta konsidero la demandon, ĉu la juran
 sencon “sistema normodona dokumento pri iu branĉo de socia aŭ faka
 vivo” oni esprimu per la vorto kodo (kio konformus al la rekomendo de la
 aŭtoritataj vortaroj kaj al la uzado de plimulto, sed malkoheras kun la
@@ -3916,7 +4212,7 @@ signosistema senco), aŭ per kodekso (uzata malpli ofte, sed pli kohere
 kun la ĉefsenco).
 </item>
 <item n="5">
-5. Kodekso. En multaj lingvoj per natura sencovastigo (kodekso, enten-
+<hi>5. Kodekso.</hi> En multaj lingvoj per natura sencovastigo (kodekso, enten-
 anta la leĝaron  de Justiniano; la Kodekso de Justiniano) la vorto
 kodekso akiris la sencon “kohera normodona dokumento pri iu branĉo de
 socia aŭ faka vivo”: civila kodekso; mara kodekso; honorkodekso. Tia uzo
@@ -3924,7 +4220,7 @@ estas atestita ankaŭ en Esperanto, tamen ĝi restas konsiderinde malpli
 ofta ol la homonima uzo de la samdevena vorto kodo.
 </item>
 <item n="2">
-6. Mateo. La personan nomon Mateo, kaj la tutan problemon pri traktado
+<hi>6. Mateo.</hi> La personan nomon Mateo, kaj la tutan problemon pri traktado
  de personaj nomoj, la Akademio prokrastis por posta konsidero.
 </item>
 </list>
