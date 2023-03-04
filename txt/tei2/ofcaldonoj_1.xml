@@ -309,7 +309,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="A">
 
-<label lang="eo">&stel;abism&strek;</label><item>
+<label lang="eo" rend="&stel;">abism&strek;</label><item>
 <list type="def">
   <item lang="fr">abîme</item>
   <item lang="en">abyss</item>
@@ -319,7 +319,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;abort&strek;</label><item>
+<label lang="eo" rend="&stel;">abort&strek;</label><item>
 <list type="def">
   <item lang="fr">avorter</item>
   <item lang="en">abort, miscarry</item>
@@ -329,7 +329,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;absolut&strek;</label><item>
+<label lang="eo" rend="&stel;">absolut&strek;</label><item>
 <list type="def">
   <item lang="fr">absolu</item>
   <item lang="en">absolute</item>
@@ -339,7 +339,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;abstrakt&strek;</label><item>
+<label lang="eo" rend="&stel;">abstrakt&strek;</label><item>
 <list type="def">
   <item lang="fr">abstrait</item>
   <item lang="en">abstract</item>
@@ -349,7 +349,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;absurd&strek;</label><item>
+<label lang="eo" rend="&stel;">absurd&strek;</label><item>
 <list type="def">
   <item lang="fr">absurde</item>
   <item lang="en">absurd</item>
@@ -359,12 +359,12 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aĉ</label>
+<label lang="eo" rend="&stel;">aĉ</label>
 <item type="def" lang="eo">
  sufikso por montri malŝatan, malestiman sencon.
 </item>
 
-<label lang="eo">&stel;adept&strek;</label><item>
+<label lang="eo" rend="&stel;">adept&strek;</label><item>
 <list type="def">
   <item lang="fr">adepte</item>
   <item lang="en">adept</item>
@@ -374,7 +374,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;adjutant&strek;</label><item>
+<label lang="eo" rend="&stel;">adjutant&strek;</label><item>
 <list type="def">
   <item lang="fr">aide de camp</item>
   <item lang="en">adjutant</item>
@@ -384,7 +384,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;admiral&strek;</label><item>
+<label lang="eo" rend="&stel;">admiral&strek;</label><item>
 <list type="def">
   <item lang="fr">amiral</item>
   <item lang="en">admiral</item>
@@ -394,7 +394,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;adopt&strek;</label><item>
+<label lang="eo" rend="&stel;">adopt&strek;</label><item>
 <list type="def">
   <item lang="fr">adopter</item>
   <item lang="en">adopt</item>
@@ -404,7 +404,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;adres&strek;</label><item>
+<label lang="eo" rend="&stel;">adres&strek;</label><item>
 <list type="def">
   <item lang="fr">adresse (de lettre)</item>
   <item lang="en">address</item>
@@ -424,7 +424,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;advokat&strek;</label><item>
+<label lang="eo" rend="&stel;">advokat&strek;</label><item>
 <list type="def">
   <item lang="fr">avocat</item>
   <item lang="en">counsel, advocate</item>
@@ -464,7 +464,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aforism&strek;</label><item>
+<label lang="eo" rend="&stel;">aforism&strek;</label><item>
 <list type="def">
   <item lang="fr">aphorisme</item>
   <item lang="en">aphorism, maxim</item>
@@ -494,7 +494,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;agat&strek;</label><item>
+<label lang="eo" rend="&stel;">agat&strek;</label><item>
 <list type="def">
   <item lang="fr">agate</item>
   <item lang="en">agate</item>
@@ -514,7 +514,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;agoni&strek;</label><item>
+<label lang="eo" rend="&stel;">agoni&strek;</label><item>
 <list type="def">
   <item lang="fr">agonie</item>
   <item lang="en">death-agony</item>
@@ -534,7 +534,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;agronomi&strek;</label><item>
+<label lang="eo" rend="&stel;">agronomi&strek;</label><item>
 <list type="def">
   <item lang="fr">agronomie</item>
   <item lang="en">husbandry</item>
@@ -555,7 +555,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;akademi&strek;</label><item>
+<label lang="eo" rend="&stel;">akademi&strek;</label><item>
 <list type="def">
   <item lang="fr">académie</item>
   <item lang="en">academy</item>
@@ -585,7 +585,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;akord&strek;</label><item>
+<label lang="eo" rend="&stel;">akord&strek;</label><item>
 <list type="def">
   <item lang="fr">accord (mus., gram., etc.)</item>
   <item lang="en">accord</item>
@@ -605,7 +605,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;akt&strek;</label><item>
+<label lang="eo" rend="&stel;">akt&strek;</label><item>
 <list type="def">
   <item lang="fr">acte (théâtre, document)</item>
   <item lang="en">act, deed</item>
@@ -615,7 +615,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aktiv&strek;</label><item>
+<label lang="eo" rend="&stel;">aktiv&strek;</label><item>
 <list type="def">
   <item lang="fr">actif (gram.)</item>
   <item lang="en">active</item>
@@ -625,7 +625,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aktor&strek;</label><item>
+<label lang="eo" rend="&stel;">aktor&strek;</label><item>
 <list type="def">
   <item lang="fr">acteur</item>
   <item lang="en">actor</item>
@@ -635,7 +635,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;akurat&strek;</label><item>
+<label lang="eo" rend="&stel;">akurat&strek;</label><item>
 <list type="def">
   <item lang="fr">ponctuel</item>
   <item lang="en">punctual</item>
@@ -675,7 +675,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;alarm&strek;</label><item>
+<label lang="eo" rend="&stel;">alarm&strek;</label><item>
 <list type="def">
   <item lang="fr">alarmer</item>
   <item lang="en">alarm</item>
@@ -685,7 +685,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;album&strek;</label><item>
+<label lang="eo" rend="&stel;">album&strek;</label><item>
 <list type="def">
   <item lang="fr">album</item>
   <item lang="en">album</item>
@@ -695,7 +695,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ale&strek;</label><item>
+<label lang="eo" rend="&stel;">ale&strek;</label><item>
 <list type="def">
   <item lang="fr">allée</item>
   <item lang="en">alley</item>
@@ -705,7 +705,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;alegori&strek;</label><item>
+<label lang="eo" rend="&stel;">alegori&strek;</label><item>
 <list type="def">
   <item lang="fr">allégorie</item>
   <item lang="en">allegory</item>
@@ -715,7 +715,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;alfabet&strek;</label><item>
+<label lang="eo" rend="&stel;">alfabet&strek;</label><item>
 <list type="def">
   <item lang="fr">alphabet</item>
   <item lang="en">alphabet</item>
@@ -725,7 +725,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;algebr&strek;</label><item>
+<label lang="eo" rend="&stel;">algebr&strek;</label><item>
 <list type="def">
   <item lang="fr">algèbre</item>
   <item lang="en">algebra</item>
@@ -735,7 +735,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aligator&strek;</label><item>
+<label lang="eo" rend="&stel;">aligator&strek;</label><item>
 <list type="def">
   <item lang="fr">alligator</item>
   <item lang="en">alligator</item>
@@ -745,7 +745,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;alkohol&strek;</label><item>
+<label lang="eo" rend="&stel;">alkohol&strek;</label><item>
 <list type="def">
   <item lang="fr">alcool</item>
   <item lang="en">alcohol</item>
@@ -765,7 +765,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;almanak&strek;</label><item>
+<label lang="eo" rend="&stel;">almanak&strek;</label><item>
 <list type="def">
   <item lang="fr">almanach</item>
   <item lang="en">almanack</item>
@@ -775,7 +775,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ambasador&strek;</label><item>
+<label lang="eo" rend="&stel;">ambasador&strek;</label><item>
 <list type="def">
   <item lang="fr">ambassadeur</item>
   <item lang="en">ambassador</item>
@@ -805,7 +805,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ambrozi&strek;</label><item>
+<label lang="eo" rend="&stel;">ambrozi&strek;</label><item>
 <list type="def">
   <item lang="fr">ambroisie</item>
   <item lang="en">ambrosia</item>
@@ -825,7 +825,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;amfor&strek;</label><item>
+<label lang="eo" rend="&stel;">amfor&strek;</label><item>
 <list type="def">
   <item lang="fr">amphore</item>
   <item lang="en">amphora</item>
@@ -855,7 +855,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;analiz&strek;</label><item>
+<label lang="eo" rend="&stel;">analiz&strek;</label><item>
 <list type="def">
   <item lang="fr">analyser</item>
   <item lang="en">analyse</item>
@@ -875,7 +875,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;anatomi&strek;</label><item>
+<label lang="eo" rend="&stel;">anatomi&strek;</label><item>
 <list type="def">
   <item lang="fr">anatomie</item>
   <item lang="en">anatomy</item>
@@ -895,7 +895,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;anekdot&strek;</label><item>
+<label lang="eo" rend="&stel;">anekdot&strek;</label><item>
 <list type="def">
   <item lang="fr">anecdote</item>
   <item lang="en">anecdote</item>
@@ -915,7 +915,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;anonim&strek;</label><item>
+<label lang="eo" rend="&stel;">anonim&strek;</label><item>
 <list type="def">
   <item lang="fr">anonyme</item>
   <item lang="en">anonymous</item>
@@ -945,7 +945,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;antipati&strek;</label><item>
+<label lang="eo" rend="&stel;">antipati&strek;</label><item>
 <list type="def">
   <item lang="fr">antipathie</item>
   <item lang="en">antipathy</item>
@@ -955,7 +955,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;antipod&strek;</label><item>
+<label lang="eo" rend="&stel;">antipod&strek;</label><item>
 <list type="def">
   <item lang="fr">antipode</item>
   <item lang="en">antipodes</item>
@@ -965,7 +965,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;antropologi&strek;</label><item>
+<label lang="eo" rend="&stel;">antropologi&strek;</label><item>
 <list type="def">
   <item lang="fr">anthropologie</item>
   <item lang="en">anthropology</item>
@@ -975,7 +975,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aparat&strek;</label><item>
+<label lang="eo" rend="&stel;">aparat&strek;</label><item>
 <list type="def">
   <item lang="fr">appareil</item>
   <item lang="en">apparatus</item>
@@ -985,7 +985,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;apati&strek;</label><item>
+<label lang="eo" rend="&stel;">apati&strek;</label><item>
 <list type="def">
   <item lang="fr">apathie</item>
   <item lang="en">apathy</item>
@@ -995,7 +995,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;apetit&strek;</label><item>
+<label lang="eo" rend="&stel;">apetit&strek;</label><item>
 <list type="def">
   <item lang="fr">appétit</item>
   <item lang="en">appetite</item>
@@ -1085,7 +1085,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aristokrat&strek;</label><item>
+<label lang="eo" rend="&stel;">aristokrat&strek;</label><item>
 <list type="def">
   <item lang="fr">aristocrate</item>
   <item lang="en">aristocrat</item>
@@ -1095,7 +1095,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aritmetik&strek;</label><item>
+<label lang="eo" rend="&stel;">aritmetik&strek;</label><item>
 <list type="def">
   <item lang="fr">arithmétique</item>
   <item lang="en">arithmetic</item>
@@ -1115,7 +1115,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;arme&strek;</label><item>
+<label lang="eo" rend="&stel;">arme&strek;</label><item>
 <list type="def">
   <item lang="fr">armée</item>
   <item lang="en">army</item>
@@ -1125,7 +1125,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;arom&strek;</label><item>
+<label lang="eo" rend="&stel;">arom&strek;</label><item>
 <list type="def">
   <item lang="fr">arome</item>
   <item lang="en">aroma</item>
@@ -1165,7 +1165,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;asesor&strek;</label><item>
+<label lang="eo" rend="&stel;">asesor&strek;</label><item>
 <list type="def">
   <item lang="fr">assesseur</item>
   <item lang="en">assessor</item>
@@ -1215,7 +1215,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;astr&strek;</label><item>
+<label lang="eo" rend="&stel;">astr&strek;</label><item>
 <list type="def">
   <item lang="fr">astre</item>
   <item lang="en">planet, star, heavenly body</item>
@@ -1225,7 +1225,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;astrolog&strek;</label><item>
+<label lang="eo" rend="&stel;">astrolog&strek;</label><item>
 <list type="def">
   <item lang="fr">astrologue</item>
   <item lang="en">astrologer</item>
@@ -1266,7 +1266,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;atlet&strek;</label><item>
+<label lang="eo" rend="&stel;">atlet&strek;</label><item>
 <list type="def">
   <item lang="fr">athlète</item>
   <item lang="en">athlete</item>
@@ -1276,7 +1276,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;atmosfer&strek;</label><item>
+<label lang="eo" rend="&stel;">atmosfer&strek;</label><item>
 <list type="def">
   <item lang="fr">atmosphère</item>
   <item lang="en">atmosphere</item>
@@ -1306,7 +1306,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭdienc&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭdienc&strek;</label><item>
 <list type="def">
   <item lang="fr">audience</item>
   <item lang="en">audience, interview</item>
@@ -1316,7 +1316,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭkci&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭkci&strek;</label><item>
 <list type="def">
   <item lang="fr">encan</item>
   <item lang="en">auction</item>
@@ -1336,7 +1336,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭtomat&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭtomat&strek;</label><item>
 <list type="def">
   <item lang="fr">automate</item>
   <item lang="en">automaton</item>
@@ -1346,7 +1346,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭtomobil&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭtomobil&strek;</label><item>
 <list type="def">
   <item lang="fr">automobile</item>
   <item lang="en">motor-car</item>
@@ -1356,7 +1356,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭtor&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭtor&strek;</label><item>
 <list type="def">
   <item lang="fr">auteur</item>
   <item lang="en">author</item>
@@ -1366,7 +1366,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aŭtoritat&strek;</label><item>
+<label lang="eo" rend="&stel;">aŭtoritat&strek;</label><item>
 <list type="def">
   <item lang="fr">autorité</item>
   <item lang="en">authority</item>
@@ -1385,7 +1385,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="B">
 
-<label lang="eo">&stel;bal&strek;</label><item>
+<label lang="eo" rend="&stel;">bal&strek;</label><item>
 <list type="def">
   <item lang="fr">bal</item>
   <item lang="en">ball, dancing</item>
@@ -1395,7 +1395,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;balast&strek;</label><item>
+<label lang="eo" rend="&stel;">balast&strek;</label><item>
 <list type="def">
   <item lang="fr">ballast, lest</item>
   <item lang="en">ballast</item>
@@ -1405,7 +1405,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;balkon&strek;</label><item>
+<label lang="eo" rend="&stel;">balkon&strek;</label><item>
 <list type="def">
   <item lang="fr">balcon</item>
   <item lang="en">balcony</item>
@@ -1415,7 +1415,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;banderol&strek;</label><item>
+<label lang="eo" rend="&stel;">banderol&strek;</label><item>
 <list type="def">
   <item lang="fr">bande (de papier)</item>
   <item lang="en">paper band, wrapper</item>
@@ -1425,7 +1425,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bank&strek;</label><item>
+<label lang="eo" rend="&stel;">bank&strek;</label><item>
 <list type="def">
   <item lang="fr">banque</item>
   <item lang="en">bank</item>
@@ -1435,7 +1435,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bankrot&strek;</label><item>
+<label lang="eo" rend="&stel;">bankrot&strek;</label><item>
 <list type="def">
   <item lang="fr">faire faillite</item>
   <item lang="en">become bankrupt</item>
@@ -1445,7 +1445,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;barbar&strek;</label><item>
+<label lang="eo" rend="&stel;">barbar&strek;</label><item>
 <list type="def">
   <item lang="fr">barbare</item>
   <item lang="en">barbarous</item>
@@ -1455,7 +1455,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bard&strek;</label><item>
+<label lang="eo" rend="&stel;">bard&strek;</label><item>
 <list type="def">
   <item lang="fr">barde</item>
   <item lang="en">bard</item>
@@ -1465,7 +1465,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bariton&strek;</label><item>
+<label lang="eo" rend="&stel;">bariton&strek;</label><item>
 <list type="def">
   <item lang="fr">baryton</item>
   <item lang="en">baritone</item>
@@ -1475,7 +1475,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;barometr&strek;</label><item>
+<label lang="eo" rend="&stel;">barometr&strek;</label><item>
 <list type="def">
   <item lang="fr">baromètre</item>
   <item lang="en">barometer</item>
@@ -1485,7 +1485,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;baron&strek;</label><item>
+<label lang="eo" rend="&stel;">baron&strek;</label><item>
 <list type="def">
   <item lang="fr">baron</item>
   <item lang="en">baron</item>
@@ -1495,7 +1495,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bas&strek;</label><item>
+<label lang="eo" rend="&stel;">bas&strek;</label><item>
 <list type="def">
   <item lang="fr">basse (voix)</item>
   <item lang="en">bass (mus.)</item>
@@ -1505,7 +1505,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bastard&strek;</label><item>
+<label lang="eo" rend="&stel;">bastard&strek;</label><item>
 <list type="def">
   <item lang="fr">bâtard</item>
   <item lang="en">bastard</item>
@@ -1535,7 +1535,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;baz&strek;</label><item>
+<label lang="eo" rend="&stel;">baz&strek;</label><item>
 <list type="def">
   <item lang="fr">base</item>
   <item lang="en">basis, base</item>
@@ -1545,7 +1545,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bazilisk&strek;</label><item>
+<label lang="eo" rend="&stel;">bazilisk&strek;</label><item>
 <list type="def">
   <item lang="fr">basilic</item>
   <item lang="en">basilisk</item>
@@ -1575,7 +1575,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bibli&strek;</label><item>
+<label lang="eo" rend="&stel;">bibli&strek;</label><item>
 <list type="def">
   <item lang="fr">Bible</item>
   <item lang="en">Bible</item>
@@ -1585,7 +1585,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bibliotek&strek;</label><item>
+<label lang="eo" rend="&stel;">bibliotek&strek;</label><item>
 <list type="def">
   <item lang="fr">bibliothèque</item>
   <item lang="en">library</item>
@@ -1615,7 +1615,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bigot&strek;</label><item>
+<label lang="eo" rend="&stel;">bigot&strek;</label><item>
 <list type="def">
   <item lang="fr">bigot</item>
   <item lang="en">bigot</item>
@@ -1635,7 +1635,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bild&strek;</label><item>
+<label lang="eo" rend="&stel;">bild&strek;</label><item>
 <list type="def">
   <item lang="fr">image</item>
   <item lang="en">image, picture</item>
@@ -1645,7 +1645,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;biologi&strek;</label><item>
+<label lang="eo" rend="&stel;">biologi&strek;</label><item>
 <list type="def">
   <item lang="fr">biologie</item>
   <item lang="en">biology</item>
@@ -1675,7 +1675,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;blasfem&strek;</label><item>
+<label lang="eo" rend="&stel;">blasfem&strek;</label><item>
 <list type="def">
   <item lang="fr">blasphème</item>
   <item lang="en">blasphemy</item>
@@ -1715,7 +1715,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bombard&strek;</label><item>
+<label lang="eo" rend="&stel;">bombard&strek;</label><item>
 <list type="def">
   <item lang="fr">bombarder</item>
   <item lang="en">bombard</item>
@@ -1725,7 +1725,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bordel&strek;</label><item>
+<label lang="eo" rend="&stel;">bordel&strek;</label><item>
 <list type="def">
   <item lang="fr">bordel</item>
   <item lang="en">brothel</item>
@@ -1735,7 +1735,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;botanik&strek;</label><item>
+<label lang="eo" rend="&stel;">botanik&strek;</label><item>
 <list type="def">
   <item lang="fr">botanique</item>
   <item lang="en">botany</item>
@@ -1755,7 +1755,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;brom&strek;</label><item>
+<label lang="eo" rend="&stel;">brom&strek;</label><item>
 <list type="def">
   <item lang="fr">brome</item>
   <item lang="en">bromine</item>
@@ -1765,7 +1765,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;broŝur&strek;</label><item>
+<label lang="eo" rend="&stel;">broŝur&strek;</label><item>
 <list type="def">
   <item lang="fr">brochure</item>
   <item lang="en">pamphlet</item>
@@ -1775,7 +1775,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;buduar&strek;</label><item>
+<label lang="eo" rend="&stel;">buduar&strek;</label><item>
 <list type="def">
   <item lang="fr">boudoir</item>
   <item lang="en">boudoir</item>
@@ -1795,7 +1795,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;bulvard&strek;</label><item>
+<label lang="eo" rend="&stel;">bulvard&strek;</label><item>
 <list type="def">
   <item lang="fr">boulevard</item>
   <item lang="en">boulevard</item>
@@ -1824,7 +1824,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="C">
 
-<label lang="eo">&stel;car&strek;</label><item>
+<label lang="eo" rend="&stel;">car&strek;</label><item>
 <list type="def">
   <item lang="fr">tsar</item>
   <item lang="en">czar</item>
@@ -1834,7 +1834,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;cend&strek;</label><item>
+<label lang="eo" rend="&stel;">cend&strek;</label><item>
 <list type="def">
   <item lang="fr">cent (monnaie)</item>
   <item lang="en">cent (coin)</item>
@@ -1844,7 +1844,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;centim&strek;</label><item>
+<label lang="eo" rend="&stel;">centim&strek;</label><item>
 <list type="def">
   <item lang="fr">centime</item>
   <item lang="en">centime</item>
@@ -1854,7 +1854,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;centimetr&strek;</label><item>
+<label lang="eo" rend="&stel;">centimetr&strek;</label><item>
 <list type="def">
   <item lang="fr">centimètre</item>
   <item lang="en">centimeter</item>
@@ -1864,7 +1864,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;centr&strek;</label><item>
+<label lang="eo" rend="&stel;">centr&strek;</label><item>
 <list type="def">
   <item lang="fr">centre</item>
   <item lang="en">centre</item>
@@ -1884,7 +1884,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ceremoni&strek;</label><item>
+<label lang="eo" rend="&stel;">ceremoni&strek;</label><item>
 <list type="def">
   <item lang="fr">cérémonie</item>
   <item lang="en">ceremony</item>
@@ -1904,7 +1904,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;cigan&strek;</label><item>
+<label lang="eo" rend="&stel;">cigan&strek;</label><item>
 <list type="def">
   <item lang="fr">tzigane</item>
   <item lang="en">gypsy</item>
@@ -1924,7 +1924,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;cilindr&strek;</label><item>
+<label lang="eo" rend="&stel;">cilindr&strek;</label><item>
 <list type="def">
   <item lang="fr">cylindre</item>
   <item lang="en">cylinder</item>
@@ -1934,7 +1934,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;cirk&strek;</label><item>
+<label lang="eo" rend="&stel;">cirk&strek;</label><item>
 <list type="def">
   <item lang="fr">cirque</item>
   <item lang="en">circus</item>
@@ -1954,7 +1954,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;civil&strek;</label><item>
+<label lang="eo" rend="&stel;">civil&strek;</label><item>
 <list type="def">
   <item lang="fr">civil</item>
   <item lang="en">civil (non-military)</item>
@@ -2002,7 +2002,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;definitiv&strek;</label><item>
+<label lang="eo" rend="&stel;">definitiv&strek;</label><item>
 <list type="def">
   <item lang="fr">définitif</item>
   <item lang="en">definitive</item>
@@ -2012,7 +2012,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dekan&strek;</label><item>
+<label lang="eo" rend="&stel;">dekan&strek;</label><item>
 <list type="def">
   <item lang="fr">doyen</item>
   <item lang="en">dean</item>
@@ -2022,7 +2022,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;deklam&strek;</label><item>
+<label lang="eo" rend="&stel;">deklam&strek;</label><item>
 <list type="def">
   <item lang="fr">déclamer</item>
   <item lang="en">declaim</item>
@@ -2032,7 +2032,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;deklar&strek;</label><item>
+<label lang="eo" rend="&stel;">deklar&strek;</label><item>
 <list type="def">
   <item lang="fr">déclarer</item>
   <item lang="en">declare</item>
@@ -2042,7 +2042,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dekolt&strek;</label><item>
+<label lang="eo" rend="&stel;">dekolt&strek;</label><item>
 <list type="def">
   <item lang="fr">décolleter</item>
   <item lang="en">bare the neck</item>
@@ -2082,7 +2082,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;desert&strek;</label><item>
+<label lang="eo" rend="&stel;">desert&strek;</label><item>
 <list type="def">
   <item lang="fr">dessert</item>
   <item lang="en">dessert</item>
@@ -2092,7 +2092,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;despot&strek;</label><item>
+<label lang="eo" rend="&stel;">despot&strek;</label><item>
 <list type="def">
   <item lang="fr">despote</item>
   <item lang="en">despot</item>
@@ -2102,7 +2102,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;destin&strek;</label><item>
+<label lang="eo" rend="&stel;">destin&strek;</label><item>
 <list type="def">
   <item lang="fr">destiner</item>
   <item lang="en">destine</item>
@@ -2112,7 +2112,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diadem&strek;</label><item>
+<label lang="eo" rend="&stel;">diadem&strek;</label><item>
 <list type="def">
   <item lang="fr">diadème</item>
   <item lang="en">diadem</item>
@@ -2122,7 +2122,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diafragm&strek;</label><item>
+<label lang="eo" rend="&stel;">diafragm&strek;</label><item>
 <list type="def">
   <item lang="fr">diaphragme</item>
   <item lang="en">diaphragm</item>
@@ -2132,7 +2132,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diagnoz&strek;</label><item>
+<label lang="eo" rend="&stel;">diagnoz&strek;</label><item>
 <list type="def">
   <item lang="fr">diagnostic</item>
   <item lang="en">diagnosis</item>
@@ -2162,7 +2162,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dialekt&strek;</label><item>
+<label lang="eo" rend="&stel;">dialekt&strek;</label><item>
 <list type="def">
   <item lang="fr">dialecte</item>
   <item lang="en">dialect</item>
@@ -2172,7 +2172,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dialog&strek;</label><item>
+<label lang="eo" rend="&stel;">dialog&strek;</label><item>
 <list type="def">
   <item lang="fr">dialogue</item>
   <item lang="en">dialogue</item>
@@ -2182,7 +2182,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diametr&strek;</label><item>
+<label lang="eo" rend="&stel;">diametr&strek;</label><item>
 <list type="def">
   <item lang="fr">diamètre</item>
   <item lang="en">diameter</item>
@@ -2192,7 +2192,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diet&strek;</label><item>
+<label lang="eo" rend="&stel;">diet&strek;</label><item>
 <list type="def">
   <item lang="fr">diète (régime)</item>
   <item lang="en">diet</item>
@@ -2232,7 +2232,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diplom&strek;</label><item>
+<label lang="eo" rend="&stel;">diplom&strek;</label><item>
 <list type="def">
   <item lang="fr">diplôme</item>
   <item lang="en">diploma</item>
@@ -2242,7 +2242,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;diplomat&strek;</label><item>
+<label lang="eo" rend="&stel;">diplomat&strek;</label><item>
 <list type="def">
   <item lang="fr">diplomate</item>
   <item lang="en">diplomatist</item>
@@ -2252,7 +2252,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;direktor&strek;</label><item>
+<label lang="eo" rend="&stel;">direktor&strek;</label><item>
 <list type="def">
   <item lang="fr">directeur</item>
   <item lang="en">director</item>
@@ -2332,7 +2332,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dog&strek;</label><item>
+<label lang="eo" rend="&stel;">dog&strek;</label><item>
 <list type="def">
   <item lang="fr">dogue</item>
   <item lang="en">bulldog, mastiff</item>
@@ -2342,7 +2342,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;doktor&strek;</label><item>
+<label lang="eo" rend="&stel;">doktor&strek;</label><item>
 <list type="def">
   <item lang="fr">docteur</item>
   <item lang="en">doctor</item>
@@ -2362,7 +2362,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dokument&strek;</label><item>
+<label lang="eo" rend="&stel;">dokument&strek;</label><item>
 <list type="def">
   <item lang="fr">document</item>
   <item lang="en">document</item>
@@ -2372,7 +2372,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dolar&strek;</label><item>
+<label lang="eo" rend="&stel;">dolar&strek;</label><item>
 <list type="def">
   <item lang="fr">dollar</item>
   <item lang="en">dollar</item>
@@ -2382,7 +2382,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;doz&strek;</label><item>
+<label lang="eo" rend="&stel;">doz&strek;</label><item>
 <list type="def">
   <item lang="fr">dose</item>
   <item lang="en">dose</item>
@@ -2392,7 +2392,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dragon&strek;</label><item>
+<label lang="eo" rend="&stel;">dragon&strek;</label><item>
 <list type="def">
   <item lang="fr">dragon (milit.)</item>
   <item lang="en">dragoon</item>
@@ -2402,7 +2402,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dram&strek;</label><item>
+<label lang="eo" rend="&stel;">dram&strek;</label><item>
 <list type="def">
   <item lang="fr">drame</item>
   <item lang="en">drama</item>
@@ -2422,7 +2422,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;duel&strek;</label><item>
+<label lang="eo" rend="&stel;">duel&strek;</label><item>
 <list type="def">
   <item lang="fr">duel</item>
   <item lang="en">duel</item>
@@ -2442,7 +2442,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;dukat&strek;</label><item>
+<label lang="eo" rend="&stel;">dukat&strek;</label><item>
 <list type="def">
   <item lang="fr">ducat</item>
   <item lang="en">ducat</item>
@@ -2461,7 +2461,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="E">
 
-<label lang="eo">&stel;ebri&strek;</label><item>
+<label lang="eo" rend="&stel;">ebri&strek;</label><item>
 <list type="def">
   <item lang="fr">ivre</item>
   <item lang="en">drunk</item>
@@ -2471,7 +2471,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;eden&strek;</label><item>
+<label lang="eo" rend="&stel;">eden&strek;</label><item>
 <list type="def">
   <item lang="fr">Eden</item>
   <item lang="en">Eden</item>
@@ -2481,7 +2481,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;egid&strek;</label><item>
+<label lang="eo" rend="&stel;">egid&strek;</label><item>
 <list type="def">
   <item lang="fr">égide</item>
   <item lang="en">Ægis</item>
@@ -2491,7 +2491,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;egoism&strek;</label><item>
+<label lang="eo" rend="&stel;">egoism&strek;</label><item>
 <list type="def">
   <item lang="fr">égoïsme</item>
   <item lang="en">egoism</item>
@@ -2511,7 +2511,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;eklezi&strek;</label><item>
+<label lang="eo" rend="&stel;">eklezi&strek;</label><item>
 <list type="def">
   <item lang="fr">Eglise (société)</item>
   <item lang="en">the Church</item>
@@ -2521,7 +2521,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekonomi&strek;</label><item>
+<label lang="eo" rend="&stel;">ekonomi&strek;</label><item>
 <list type="def">
   <item lang="fr">économie</item>
   <item lang="en">economy</item>
@@ -2531,7 +2531,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekskrement&strek;</label><item>
+<label lang="eo" rend="&stel;">ekskrement&strek;</label><item>
 <list type="def">
   <item lang="fr">excrément</item>
   <item lang="en">excrement</item>
@@ -2541,7 +2541,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;eksperiment&strek;</label><item>
+<label lang="eo" rend="&stel;">eksperiment&strek;</label><item>
 <list type="def">
   <item lang="fr">expérience</item>
   <item lang="en">experiment</item>
@@ -2561,7 +2561,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekspres&strek;</label><item>
+<label lang="eo" rend="&stel;">ekspres&strek;</label><item>
 <list type="def">
   <item lang="fr">exprès (messager)</item>
   <item lang="en">express, messenger</item>
@@ -2571,7 +2571,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekstaz&strek;</label><item>
+<label lang="eo" rend="&stel;">ekstaz&strek;</label><item>
 <list type="def">
   <item lang="fr">extase</item>
   <item lang="en">ecstasy</item>
@@ -2591,7 +2591,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekvator&strek;</label><item>
+<label lang="eo" rend="&stel;">ekvator&strek;</label><item>
 <list type="def">
   <item lang="fr">équateur</item>
   <item lang="en">equator</item>
@@ -2601,7 +2601,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ekzem&strek;</label><item>
+<label lang="eo" rend="&stel;">ekzem&strek;</label><item>
 <list type="def">
   <item lang="fr">eczéma</item>
   <item lang="en">eczema</item>
@@ -2611,7 +2611,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;elegant&strek;</label><item>
+<label lang="eo" rend="&stel;">elegant&strek;</label><item>
 <list type="def">
   <item lang="fr">élégant</item>
   <item lang="en">elegant</item>
@@ -2631,7 +2631,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;elektr&strek;</label><item>
+<label lang="eo" rend="&stel;">elektr&strek;</label><item>
 <list type="def">
   <item lang="fr">électricité</item>
   <item lang="en">electricity</item>
@@ -2641,7 +2641,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;element&strek;</label><item>
+<label lang="eo" rend="&stel;">element&strek;</label><item>
 <list type="def">
   <item lang="fr">élément</item>
   <item lang="en">element</item>
@@ -2651,7 +2651,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;eliksir&strek;</label><item>
+<label lang="eo" rend="&stel;">eliksir&strek;</label><item>
 <list type="def">
   <item lang="fr">élixir</item>
   <item lang="en">elixir</item>
@@ -2661,7 +2661,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;elips&strek;</label><item>
+<label lang="eo" rend="&stel;">elips&strek;</label><item>
 <list type="def">
   <item lang="fr">ellipse (géom.)</item>
   <item lang="en">ellipse</item>
@@ -2701,7 +2701,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;emulsi&strek;</label><item>
+<label lang="eo" rend="&stel;">emulsi&strek;</label><item>
 <list type="def">
   <item lang="fr">émulsion</item>
   <item lang="en">emulsion</item>
@@ -2711,7 +2711,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;energi&strek;</label><item>
+<label lang="eo" rend="&stel;">energi&strek;</label><item>
 <list type="def">
   <item lang="fr">énergie</item>
   <item lang="en">energy</item>
@@ -2731,7 +2731,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;epidemi&strek;</label><item>
+<label lang="eo" rend="&stel;">epidemi&strek;</label><item>
 <list type="def">
   <item lang="fr">épidémie</item>
   <item lang="en">epidemic</item>
@@ -2791,7 +2791,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;epitet&strek;</label><item>
+<label lang="eo" rend="&stel;">epitet&strek;</label><item>
 <list type="def">
   <item lang="fr">épithète</item>
   <item lang="en">epithet</item>
@@ -2821,7 +2821,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;estetik&strek;</label><item>
+<label lang="eo" rend="&stel;">estetik&strek;</label><item>
 <list type="def">
   <item lang="fr">esthétique</item>
   <item lang="en">aesthetic</item>
@@ -2851,7 +2851,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;etiologi&strek;</label><item>
+<label lang="eo" rend="&stel;">etiologi&strek;</label><item>
 <list type="def">
   <item lang="fr">étiologie</item>
   <item lang="en">etiology</item>
@@ -2861,7 +2861,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;evangeli&strek;</label><item>
+<label lang="eo" rend="&stel;">evangeli&strek;</label><item>
 <list type="def">
   <item lang="fr">Evangile</item>
   <item lang="en">Gospel</item>
@@ -2881,7 +2881,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;evident&strek;</label><item>
+<label lang="eo" rend="&stel;">evident&strek;</label><item>
 <list type="def">
   <item lang="fr">évident</item>
   <item lang="en">evident</item>
@@ -2920,7 +2920,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fakt&strek;</label><item>
+<label lang="eo" rend="&stel;">fakt&strek;</label><item>
 <list type="def">
   <item lang="fr">fait</item>
   <item lang="en">fact</item>
@@ -2930,7 +2930,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fakultat&strek;</label><item>
+<label lang="eo" rend="&stel;">fakultat&strek;</label><item>
 <list type="def">
   <item lang="fr">faculté</item>
   <item lang="en">faculty (of a University)</item>
@@ -2940,7 +2940,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fantazi&strek;</label><item>
+<label lang="eo" rend="&stel;">fantazi&strek;</label><item>
 <list type="def">
   <item lang="fr">fantaisie</item>
   <item lang="en">fancy, fantasy</item>
@@ -2980,7 +2980,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fatal&strek;</label><item>
+<label lang="eo" rend="&stel;">fatal&strek;</label><item>
 <list type="def">
   <item lang="fr">fatalité</item>
   <item lang="en">destiny, fate</item>
@@ -3020,7 +3020,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;felieton&strek;</label><item>
+<label lang="eo" rend="&stel;">felieton&strek;</label><item>
 <list type="def">
   <item lang="fr">feuilleton</item>
   <item lang="en">feuilleton</item>
@@ -3030,7 +3030,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fenomen&strek;</label><item>
+<label lang="eo" rend="&stel;">fenomen&strek;</label><item>
 <list type="def">
   <item lang="fr">phénomène</item>
   <item lang="en">phenomenon</item>
@@ -3040,7 +3040,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;feston&strek;</label><item>
+<label lang="eo" rend="&stel;">feston&strek;</label><item>
 <list type="def">
   <item lang="fr">feston</item>
   <item lang="en">festoon</item>
@@ -3060,7 +3060,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fi&strek;</label><item>
+<label lang="eo" rend="&stel;">fi&strek;</label><item>
 <list type="def">
   <item lang="fr">fi!</item>
   <item lang="en">fie! for shame!</item>
@@ -3070,7 +3070,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fiask&strek;</label><item>
+<label lang="eo" rend="&stel;">fiask&strek;</label><item>
 <list type="def">
   <item lang="fr">fiasco</item>
   <item lang="en">fiasco</item>
@@ -3080,7 +3080,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fiks&strek;</label><item>
+<label lang="eo" rend="&stel;">fiks&strek;</label><item>
 <list type="def">
   <item lang="fr">fixer</item>
   <item lang="en">fix</item>
@@ -3110,7 +3110,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;filantropi&strek;</label><item>
+<label lang="eo" rend="&stel;">filantropi&strek;</label><item>
 <list type="def">
   <item lang="fr">philanthropie</item>
   <item lang="en">philanthropy</item>
@@ -3140,7 +3140,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;filozof&strek;</label><item>
+<label lang="eo" rend="&stel;">filozof&strek;</label><item>
 <list type="def">
   <item lang="fr">philosophe</item>
   <item lang="en">philosopher</item>
@@ -3150,7 +3150,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;filozofi&strek;</label><item>
+<label lang="eo" rend="&stel;">filozofi&strek;</label><item>
 <list type="def">
   <item lang="fr">philosophie</item>
   <item lang="en">philosophy</item>
@@ -3170,7 +3170,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;financ&strek;</label><item>
+<label lang="eo" rend="&stel;">financ&strek;</label><item>
 <list type="def">
   <item lang="fr">finance</item>
   <item lang="en">finance</item>
@@ -3180,7 +3180,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fizik&strek;</label><item>
+<label lang="eo" rend="&stel;">fizik&strek;</label><item>
 <list type="def">
   <item lang="fr">physique</item>
   <item lang="en">physics</item>
@@ -3190,7 +3190,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fiziologi&strek;</label><item>
+<label lang="eo" rend="&stel;">fiziologi&strek;</label><item>
 <list type="def">
   <item lang="fr">physiologie</item>
   <item lang="en">physiology</item>
@@ -3200,7 +3200,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fizionomi&strek;</label><item>
+<label lang="eo" rend="&stel;">fizionomi&strek;</label><item>
 <list type="def">
   <item lang="fr">physionomie</item>
   <item lang="en">physiognomy</item>
@@ -3210,7 +3210,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fleksi&strek;</label><item>
+<label lang="eo" rend="&stel;">fleksi&strek;</label><item>
 <list type="def">
   <item lang="fr">flexion (gram.)</item>
   <item lang="en">inflection</item>
@@ -3240,7 +3240,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;formul&strek;</label><item>
+<label lang="eo" rend="&stel;">formul&strek;</label><item>
 <list type="def">
   <item lang="fr">formule</item>
   <item lang="en">formula</item>
@@ -3250,7 +3250,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fotograf&strek;</label><item>
+<label lang="eo" rend="&stel;">fotograf&strek;</label><item>
 <list type="def">
   <item lang="fr">photographier</item>
   <item lang="en">photograph</item>
@@ -3270,7 +3270,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;frank&strek;</label><item>
+<label lang="eo" rend="&stel;">frank&strek;</label><item>
 <list type="def">
   <item lang="fr">franc (monnaie)</item>
   <item lang="en">franc</item>
@@ -3280,7 +3280,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;fraz&strek;</label><item>
+<label lang="eo" rend="&stel;">fraz&strek;</label><item>
 <list type="def">
   <item lang="fr">phrase</item>
   <item lang="en">phrase, sentence</item>
@@ -3330,7 +3330,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;funkci&strek;</label><item>
+<label lang="eo" rend="&stel;">funkci&strek;</label><item>
 <list type="def">
   <item lang="fr">fonction</item>
   <item lang="en">function</item>
@@ -3340,7 +3340,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;furi&strek;</label><item>
+<label lang="eo" rend="&stel;">furi&strek;</label><item>
 <list type="def">
   <item lang="fr">furie (myth.)</item>
   <item lang="en">Fury</item>
@@ -3359,7 +3359,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="G">
 
-<label lang="eo">&stel;galer&strek;</label><item>
+<label lang="eo" rend="&stel;">galer&strek;</label><item>
 <list type="def">
   <item lang="fr">galère</item>
   <item lang="en">galley</item>
@@ -3369,7 +3369,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;galop&strek;</label><item>
+<label lang="eo" rend="&stel;">galop&strek;</label><item>
 <list type="def">
   <item lang="fr">galop</item>
   <item lang="en">gallop</item>
@@ -3409,7 +3409,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;garnizon&strek;</label><item>
+<label lang="eo" rend="&stel;">garnizon&strek;</label><item>
 <list type="def">
   <item lang="fr">garnison</item>
   <item lang="en">garrison</item>
@@ -3429,7 +3429,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;general&strek;</label><item>
+<label lang="eo" rend="&stel;">general&strek;</label><item>
 <list type="def">
   <item lang="fr">général (milit.)</item>
   <item lang="en">a general</item>
@@ -3439,7 +3439,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;geni&strek;</label><item>
+<label lang="eo" rend="&stel;">geni&strek;</label><item>
 <list type="def">
   <item lang="fr">génie (talent)</item>
   <item lang="en">genius</item>
@@ -3449,7 +3449,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;geografi&strek;</label><item>
+<label lang="eo" rend="&stel;">geografi&strek;</label><item>
 <list type="def">
   <item lang="fr">géographie</item>
   <item lang="en">geography</item>
@@ -3469,7 +3469,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;geometri&strek;</label><item>
+<label lang="eo" rend="&stel;">geometri&strek;</label><item>
 <list type="def">
   <item lang="fr">géométrie</item>
   <item lang="en">geometry</item>
@@ -3499,7 +3499,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;gigant&strek;</label><item>
+<label lang="eo" rend="&stel;">gigant&strek;</label><item>
 <list type="def">
   <item lang="fr">géant</item>
   <item lang="en">giant</item>
@@ -3529,7 +3529,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;girland&strek;</label><item>
+<label lang="eo" rend="&stel;">girland&strek;</label><item>
 <list type="def">
   <item lang="fr">guirlande</item>
   <item lang="en">garland</item>
@@ -3579,7 +3579,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;grafologi&strek;</label><item>
+<label lang="eo" rend="&stel;">grafologi&strek;</label><item>
 <list type="def">
   <item lang="fr">graphologie</item>
   <item lang="en">graphology</item>
@@ -3589,7 +3589,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;gram&strek;</label><item>
+<label lang="eo" rend="&stel;">gram&strek;</label><item>
 <list type="def">
   <item lang="fr">gramme</item>
   <item lang="en">gram</item>
@@ -3599,7 +3599,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;grandioz&strek;</label><item>
+<label lang="eo" rend="&stel;">grandioz&strek;</label><item>
 <list type="def">
   <item lang="fr">grandiose, sublime</item>
   <item lang="en">grand</item>
@@ -3628,7 +3628,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="Ĝ">
 
-<label lang="eo">&stel;ĝeneral&strek;</label><item>
+<label lang="eo" rend="&stel;">ĝeneral&strek;</label><item>
 <list type="def">
   <item lang="fr">général (adj)</item>
   <item lang="en">general</item>
@@ -3657,7 +3657,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;harmoni&strek;</label><item>
+<label lang="eo" rend="&stel;">harmoni&strek;</label><item>
 <list type="def">
   <item lang="fr">harmonie</item>
   <item lang="en">harmony</item>
@@ -3677,7 +3677,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;he;</label><item>
+<label lang="eo" rend="&stel;">he;</label><item>
 <list type="def">
   <item lang="fr">hé!</item>
   <item lang="en">eh!</item>
@@ -3697,7 +3697,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;hekatomb&strek;</label><item>
+<label lang="eo" rend="&stel;">hekatomb&strek;</label><item>
 <list type="def">
   <item lang="fr">hécatombe</item>
   <item lang="en">hecatomb</item>
@@ -3707,7 +3707,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;hektar&strek;</label><item>
+<label lang="eo" rend="&stel;">hektar&strek;</label><item>
 <list type="def">
   <item lang="fr">hectare</item>
   <item lang="en">hectare</item>
@@ -3717,7 +3717,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;herold&strek;</label><item>
+<label lang="eo" rend="&stel;">herold&strek;</label><item>
 <list type="def">
   <item lang="fr">héraut</item>
   <item lang="en">herald</item>
@@ -3747,7 +3747,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;hien&strek;</label><item>
+<label lang="eo" rend="&stel;">hien&strek;</label><item>
 <list type="def">
   <item lang="fr">hyène</item>
   <item lang="en">hyena</item>
@@ -3757,7 +3757,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;higien&strek;</label><item>
+<label lang="eo" rend="&stel;">higien&strek;</label><item>
 <list type="def">
   <item lang="fr">hygiène</item>
   <item lang="en">hygiene</item>
@@ -3767,7 +3767,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;himn&strek;</label><item>
+<label lang="eo" rend="&stel;">himn&strek;</label><item>
 <list type="def">
   <item lang="fr">hymne</item>
   <item lang="en">hymn</item>
@@ -3787,7 +3787,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;hipotek&strek;</label><item>
+<label lang="eo" rend="&stel;">hipotek&strek;</label><item>
 <list type="def">
   <item lang="fr">hypothèque</item>
   <item lang="en">mortgage</item>
@@ -3797,7 +3797,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;hipotez&strek;</label><item>
+<label lang="eo" rend="&stel;">hipotez&strek;</label><item>
 <list type="def">
   <item lang="fr">hypothèse</item>
   <item lang="en">hypothesis</item>
@@ -3837,7 +3837,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;homonim&strek;</label><item>
+<label lang="eo" rend="&stel;">homonim&strek;</label><item>
 <list type="def">
   <item lang="fr">homonyme</item>
   <item lang="en">homonym</item>
@@ -3847,7 +3847,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;horizont&strek;</label><item>
+<label lang="eo" rend="&stel;">horizont&strek;</label><item>
 <list type="def">
   <item lang="fr">horizon</item>
   <item lang="en">horizon</item>
@@ -3886,7 +3886,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="I">
 
-<label lang="eo">&stel;ide&strek;</label><item>
+<label lang="eo" rend="&stel;">ide&strek;</label><item>
 <list type="def">
   <item lang="fr">idée</item>
   <item lang="en">idea</item>
@@ -3896,7 +3896,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ideal&strek;</label><item>
+<label lang="eo" rend="&stel;">ideal&strek;</label><item>
 <list type="def">
   <item lang="fr">idéal</item>
   <item lang="en">ideal</item>
@@ -3906,7 +3906,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ident&strek;</label><item>
+<label lang="eo" rend="&stel;">ident&strek;</label><item>
 <list type="def">
   <item lang="fr">identique</item>
   <item lang="en">identical</item>
@@ -3916,7 +3916,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;idiot&strek;</label><item>
+<label lang="eo" rend="&stel;">idiot&strek;</label><item>
 <list type="def">
   <item lang="fr">idiot</item>
   <item lang="en">idiot</item>
@@ -3956,7 +3956,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;impon&strek;</label><item>
+<label lang="eo" rend="&stel;">impon&strek;</label><item>
 <list type="def">
   <item lang="fr">en imposer</item>
   <item lang="en">impose</item>
@@ -4016,7 +4016,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;infanteri&strek;</label><item>
+<label lang="eo" rend="&stel;">infanteri&strek;</label><item>
 <list type="def">
   <item lang="fr">infanterie</item>
   <item lang="en">infantry</item>
@@ -4026,7 +4026,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inform&strek;</label><item>
+<label lang="eo" rend="&stel;">inform&strek;</label><item>
 <list type="def">
   <item lang="fr">informer</item>
   <item lang="en">inform</item>
@@ -4036,7 +4036,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inkognit&strek;</label><item>
+<label lang="eo" rend="&stel;">inkognit&strek;</label><item>
 <list type="def">
   <item lang="fr">incognito</item>
   <item lang="en">incognito</item>
@@ -4046,7 +4046,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inkvizici&strek;</label><item>
+<label lang="eo" rend="&stel;">inkvizici&strek;</label><item>
 <list type="def">
   <item lang="fr">inquisition</item>
   <item lang="en">Inquisition</item>
@@ -4056,7 +4056,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inkvizitor&strek;</label><item>
+<label lang="eo" rend="&stel;">inkvizitor&strek;</label><item>
 <list type="def">
   <item lang="fr">inquisiteur</item>
   <item lang="en">inquisitor</item>
@@ -4076,7 +4076,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inspektor&strek;</label><item>
+<label lang="eo" rend="&stel;">inspektor&strek;</label><item>
 <list type="def">
   <item lang="fr">inspecteur</item>
   <item lang="en">inspector</item>
@@ -4086,7 +4086,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;instinkt&strek;</label><item>
+<label lang="eo" rend="&stel;">instinkt&strek;</label><item>
 <list type="def">
   <item lang="fr">instinct</item>
   <item lang="en">instinct</item>
@@ -4096,7 +4096,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;instituci&strek;</label><item>
+<label lang="eo" rend="&stel;">instituci&strek;</label><item>
 <list type="def">
   <item lang="fr">institution</item>
   <item lang="en">institution</item>
@@ -4106,7 +4106,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;instrument&strek;</label><item>
+<label lang="eo" rend="&stel;">instrument&strek;</label><item>
 <list type="def">
   <item lang="fr">instrument</item>
   <item lang="en">instrument</item>
@@ -4116,7 +4116,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;inteligent&strek;</label><item>
+<label lang="eo" rend="&stel;">inteligent&strek;</label><item>
 <list type="def">
   <item lang="fr">intelligent</item>
   <item lang="en">intelligent</item>
@@ -4156,7 +4156,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ironi&strek;</label><item>
+<label lang="eo" rend="&stel;">ironi&strek;</label><item>
 <list type="def">
   <item lang="fr">ironie</item>
   <item lang="en">irony</item>
@@ -4196,7 +4196,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;jezuit&strek;</label><item>
+<label lang="eo" rend="&stel;">jezuit&strek;</label><item>
 <list type="def">
   <item lang="fr">jésuite</item>
   <item lang="en">Jesuit</item>
@@ -4216,7 +4216,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;jubile&strek;</label><item>
+<label lang="eo" rend="&stel;">jubile&strek;</label><item>
 <list type="def">
   <item lang="fr">jubilé</item>
   <item lang="en">jubilee</item>
@@ -4236,7 +4236,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;jurist&strek;</label><item>
+<label lang="eo" rend="&stel;">jurist&strek;</label><item>
 <list type="def">
   <item lang="fr">juriste</item>
   <item lang="en">jurist</item>
@@ -4255,7 +4255,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="Ĵ">
 
-<label lang="eo">&stel;ĵargon&strek;</label><item>
+<label lang="eo" rend="&stel;">ĵargon&strek;</label><item>
 <list type="def">
   <item lang="fr">jargon</item>
   <item lang="en">jargon</item>
@@ -4265,7 +4265,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ĵurnal&strek;</label><item>
+<label lang="eo" rend="&stel;">ĵurnal&strek;</label><item>
 <list type="def">
   <item lang="fr">journal</item>
   <item lang="en">journal</item>
@@ -4284,7 +4284,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="K">
 
-<label lang="eo">&stel;kabal&strek;</label><item>
+<label lang="eo" rend="&stel;">kabal&strek;</label><item>
 <list type="def">
   <item lang="fr">cabale</item>
   <item lang="en">cabala</item>
@@ -4304,7 +4304,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kadavr&strek;</label><item>
+<label lang="eo" rend="&stel;">kadavr&strek;</label><item>
 <list type="def">
   <item lang="fr">cadavre</item>
   <item lang="en">corpse</item>
@@ -4354,7 +4354,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kalendar&strek;</label><item>
+<label lang="eo" rend="&stel;">kalendar&strek;</label><item>
 <list type="def">
   <item lang="fr">calendrier</item>
   <item lang="en">calendar</item>
@@ -4364,7 +4364,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kalkan&strek;um&strek;</label><item>
+<label lang="eo" rend="&stel;">kalkan&strek;um&strek;</label><item>
 <list type="def">
   <item lang="fr">talon (chauss.)</item>
   <item lang="en">heel (of a shoe)</item>
@@ -4374,7 +4374,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kamarad&strek;</label><item>
+<label lang="eo" rend="&stel;">kamarad&strek;</label><item>
 <list type="def">
   <item lang="fr">camarade</item>
   <item lang="en">comrade, fellow</item>
@@ -4394,7 +4394,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kanal&strek;</label><item>
+<label lang="eo" rend="&stel;">kanal&strek;</label><item>
 <list type="def">
   <item lang="fr">canal</item>
   <item lang="en">channel</item>
@@ -4404,7 +4404,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kandidat&strek;</label><item>
+<label lang="eo" rend="&stel;">kandidat&strek;</label><item>
 <list type="def">
   <item lang="fr">candidat</item>
   <item lang="en">candidate</item>
@@ -4454,7 +4454,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kapital&strek;</label><item>
+<label lang="eo" rend="&stel;">kapital&strek;</label><item>
 <list type="def">
   <item lang="fr">capital (fonds)</item>
   <item lang="en">capital</item>
@@ -4464,7 +4464,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kaporal&strek;</label><item>
+<label lang="eo" rend="&stel;">kaporal&strek;</label><item>
 <list type="def">
   <item lang="fr">caporal</item>
   <item lang="en">corporal</item>
@@ -4474,7 +4474,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;karakteriz&strek;</label><item>
+<label lang="eo" rend="&stel;">karakteriz&strek;</label><item>
 <list type="def">
   <item lang="fr">caractériser</item>
   <item lang="en">characterize</item>
@@ -4494,7 +4494,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;karat&strek;</label><item>
+<label lang="eo" rend="&stel;">karat&strek;</label><item>
 <list type="def">
   <item lang="fr">carat</item>
   <item lang="en">carat</item>
@@ -4524,7 +4524,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;karn&strek;</label><item>
+<label lang="eo" rend="&stel;">karn&strek;</label><item>
 <list type="def">
   <item lang="fr">chair</item>
   <item lang="en">flesh</item>
@@ -4534,7 +4534,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kast&strek;</label><item>
+<label lang="eo" rend="&stel;">kast&strek;</label><item>
 <list type="def">
   <item lang="fr">caste</item>
   <item lang="en">caste</item>
@@ -4544,7 +4544,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">*katafalk&strek;</label><item>
+<label lang="eo" rend="&stel;">katafalk&strek;</label><item>
 <list type="def">
   <item lang="fr">catafalque</item>
   <item lang="en">catafalque</item>
@@ -4564,7 +4564,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;katalog&strek;</label><item>
+<label lang="eo" rend="&stel;">katalog&strek;</label><item>
 <list type="def">
   <item lang="fr">catalogue</item>
   <item lang="en">catalogue</item>
@@ -4574,7 +4574,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;katastrof&strek;</label><item>
+<label lang="eo" rend="&stel;">katastrof&strek;</label><item>
 <list type="def">
   <item lang="fr">catastrophe</item>
   <item lang="en">catastrophe</item>
@@ -4584,7 +4584,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;katedr&strek;</label><item>
+<label lang="eo" rend="&stel;">katedr&strek;</label><item>
 <list type="def">
   <item lang="fr">chaire</item>
   <item lang="en">chair of state</item>
@@ -4594,7 +4594,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kategori&strek;</label><item>
+<label lang="eo" rend="&stel;">kategori&strek;</label><item>
 <list type="def">
   <item lang="fr">catégorie</item>
   <item lang="en">category</item>
@@ -4604,7 +4604,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;katolik&strek;</label><item>
+<label lang="eo" rend="&stel;">katolik&strek;</label><item>
 <list type="def">
   <item lang="fr">catholique</item>
   <item lang="en">catholic</item>
@@ -4644,7 +4644,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kilogram&strek;</label><item>
+<label lang="eo" rend="&stel;">kilogram&strek;</label><item>
 <list type="def">
   <item lang="fr">kilogramme</item>
   <item lang="en">kilogram</item>
@@ -4654,7 +4654,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kilometr&strek;</label><item>
+<label lang="eo" rend="&stel;">kilometr&strek;</label><item>
 <list type="def">
   <item lang="fr">kilomètre</item>
   <item lang="en">kilometer</item>
@@ -4674,7 +4674,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;klient&strek;</label><item>
+<label lang="eo" rend="&stel;">klient&strek;</label><item>
 <list type="def">
   <item lang="fr">client</item>
   <item lang="en">client</item>
@@ -4694,7 +4694,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kloak&strek;</label><item>
+<label lang="eo" rend="&stel;">kloak&strek;</label><item>
 <list type="def">
   <item lang="fr">cloaque</item>
   <item lang="en">common sewer</item>
@@ -4704,7 +4704,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koeficient&strek;</label><item>
+<label lang="eo" rend="&stel;">koeficient&strek;</label><item>
 <list type="def">
   <item lang="fr">coefficient</item>
   <item lang="en">coefficient</item>
@@ -4734,7 +4734,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kolegi&strek;</label><item>
+<label lang="eo" rend="&stel;">kolegi&strek;</label><item>
 <list type="def">
   <item lang="fr">collège</item>
   <item lang="en">college</item>
@@ -4754,7 +4754,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kolonel&strek;</label><item>
+<label lang="eo" rend="&stel;">kolonel&strek;</label><item>
 <list type="def">
   <item lang="fr">colonel</item>
   <item lang="en">colonel</item>
@@ -4764,7 +4764,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koloni&strek;</label><item>
+<label lang="eo" rend="&stel;">koloni&strek;</label><item>
 <list type="def">
   <item lang="fr">colonie</item>
   <item lang="en">colony</item>
@@ -4774,7 +4774,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kolos&strek;</label><item>
+<label lang="eo" rend="&stel;">kolos&strek;</label><item>
 <list type="def">
   <item lang="fr">colosse</item>
   <item lang="en">colossus</item>
@@ -4794,7 +4794,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;komedi&strek;</label><item>
+<label lang="eo" rend="&stel;">komedi&strek;</label><item>
 <list type="def">
   <item lang="fr">comédie</item>
   <item lang="en">comedy</item>
@@ -4804,7 +4804,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;komet&strek;</label><item>
+<label lang="eo" rend="&stel;">komet&strek;</label><item>
 <list type="def">
   <item lang="fr">comète</item>
   <item lang="en">comet</item>
@@ -4824,7 +4824,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;komisar&strek;</label><item>
+<label lang="eo" rend="&stel;">komisar&strek;</label><item>
 <list type="def">
   <item lang="fr">commissaire</item>
   <item lang="en">commissary</item>
@@ -4834,7 +4834,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kompani&strek;</label><item>
+<label lang="eo" rend="&stel;">kompani&strek;</label><item>
 <list type="def">
   <item lang="fr">compagnie</item>
   <item lang="en">company</item>
@@ -4844,7 +4844,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;komparativ&strek;</label><item>
+<label lang="eo" rend="&stel;">komparativ&strek;</label><item>
 <list type="def">
   <item lang="fr">comparatif</item>
   <item lang="en">comparative (gram.)</item>
@@ -4874,7 +4874,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kompetent&strek;</label><item>
+<label lang="eo" rend="&stel;">kompetent&strek;</label><item>
 <list type="def">
   <item lang="fr">compétent</item>
   <item lang="en">competent</item>
@@ -4894,7 +4894,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;komplik&strek;</label><item>
+<label lang="eo" rend="&stel;">komplik&strek;</label><item>
 <list type="def">
   <item lang="fr">compliquer</item>
   <item lang="en">complicate</item>
@@ -4904,7 +4904,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kompliment&strek;</label><item>
+<label lang="eo" rend="&stel;">kompliment&strek;</label><item>
 <list type="def">
   <item lang="fr">compliment</item>
   <item lang="en">compliment</item>
@@ -4914,7 +4914,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kompon&strek;</label><item>
+<label lang="eo" rend="&stel;">kompon&strek;</label><item>
 <list type="def">
   <item lang="fr">composer (mus.)</item>
   <item lang="en">compose</item>
@@ -4924,7 +4924,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koncentr&strek;</label><item>
+<label lang="eo" rend="&stel;">koncentr&strek;</label><item>
 <list type="def">
   <item lang="fr">concentrique</item>
   <item lang="en">concentrate</item>
@@ -4934,7 +4934,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koncert&strek;</label><item>
+<label lang="eo" rend="&stel;">koncert&strek;</label><item>
 <list type="def">
   <item lang="fr">concert</item>
   <item lang="en">concert</item>
@@ -4954,7 +4954,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kongres&strek;</label><item>
+<label lang="eo" rend="&stel;">kongres&strek;</label><item>
 <list type="def">
   <item lang="fr">congrès</item>
   <item lang="en">congress</item>
@@ -4974,7 +4974,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kontinent&strek;</label><item>
+<label lang="eo" rend="&stel;">kontinent&strek;</label><item>
 <list type="def">
   <item lang="fr">continent</item>
   <item lang="en">continent</item>
@@ -4994,7 +4994,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kontralt&strek;</label><item>
+<label lang="eo" rend="&stel;">kontralt&strek;</label><item>
 <list type="def">
   <item lang="fr">contralto</item>
   <item lang="en">contralto</item>
@@ -5014,7 +5014,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kontrast&strek;</label><item>
+<label lang="eo" rend="&stel;">kontrast&strek;</label><item>
 <list type="def">
   <item lang="fr">contraste</item>
   <item lang="en">contrast</item>
@@ -5034,7 +5034,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kopek&strek;</label><item>
+<label lang="eo" rend="&stel;">kopek&strek;</label><item>
 <list type="def">
   <item lang="fr">copek</item>
   <item lang="en">kopeck</item>
@@ -5044,7 +5044,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koral&strek;</label><item>
+<label lang="eo" rend="&stel;">koral&strek;</label><item>
 <list type="def">
   <item lang="fr">corail</item>
   <item lang="en">coral</item>
@@ -5054,7 +5054,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;koridor&strek;</label><item>
+<label lang="eo" rend="&stel;">koridor&strek;</label><item>
 <list type="def">
   <item lang="fr">corridor</item>
   <item lang="en">corridor</item>
@@ -5064,7 +5064,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;korne&strek;</label><item>
+<label lang="eo" rend="&stel;">korne&strek;</label><item>
 <list type="def">
   <item lang="fr">cornée</item>
   <item lang="en">cornea</item>
@@ -5084,7 +5084,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kornik&strek;</label><item>
+<label lang="eo" rend="&stel;">kornik&strek;</label><item>
 <list type="def">
   <item lang="fr">corneille</item>
   <item lang="en">crow</item>
@@ -5094,7 +5094,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;korsar&strek;</label><item>
+<label lang="eo" rend="&stel;">korsar&strek;</label><item>
 <list type="def">
   <item lang="fr">corsaire</item>
   <item lang="en">corsair</item>
@@ -5144,7 +5144,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kozak&strek;</label><item>
+<label lang="eo" rend="&stel;">kozak&strek;</label><item>
 <list type="def">
   <item lang="fr">cosaque</item>
   <item lang="en">cossack</item>
@@ -5164,7 +5164,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kredit&strek;</label><item>
+<label lang="eo" rend="&stel;">kredit&strek;</label><item>
 <list type="def">
   <item lang="fr">crédit</item>
   <item lang="en">credit</item>
@@ -5184,7 +5184,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;krucifiks&strek;</label><item>
+<label lang="eo" rend="&stel;">krucifiks&strek;</label><item>
 <list type="def">
   <item lang="fr">crucifix</item>
   <item lang="en">crucifix</item>
@@ -5204,7 +5204,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kultur&strek;</label><item>
+<label lang="eo" rend="&stel;">kultur&strek;</label><item>
 <list type="def">
   <item lang="fr">culture</item>
   <item lang="en">culture</item>
@@ -5234,7 +5234,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kurioz&strek;</label><item>
+<label lang="eo" rend="&stel;">kurioz&strek;</label><item>
 <list type="def">
   <item lang="fr">curieux, singulier</item>
   <item lang="en">curious, singular</item>
@@ -5244,7 +5244,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kurs&strek;</label><item>
+<label lang="eo" rend="&stel;">kurs&strek;</label><item>
 <list type="def">
   <item lang="fr">cours</item>
   <item lang="en">course</item>
@@ -5264,7 +5264,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kvadrat&strek;</label><item>
+<label lang="eo" rend="&stel;">kvadrat&strek;</label><item>
 <list type="def">
   <item lang="fr">carré</item>
   <item lang="en">square</item>
@@ -5274,7 +5274,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kvalit&strek;</label><item>
+<label lang="eo" rend="&stel;">kvalit&strek;</label><item>
 <list type="def">
   <item lang="fr">qualité</item>
   <item lang="en">quality</item>
@@ -5294,7 +5294,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;kvintesenc&strek;</label><item>
+<label lang="eo" rend="&stel;">kvintesenc&strek;</label><item>
 <list type="def">
   <item lang="fr">quintessence</item>
   <item lang="en">quintessence</item>
@@ -5313,7 +5313,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="L">
 
-<label lang="eo">&stel;labirint&strek;</label><item>
+<label lang="eo" rend="&stel;">labirint&strek;</label><item>
 <list type="def">
   <item lang="fr">labyrinthe</item>
   <item lang="en">labyrinth</item>
@@ -5363,7 +5363,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;lazur&strek;</label><item>
+<label lang="eo" rend="&stel;">lazur&strek;</label><item>
 <list type="def">
   <item lang="fr">azur</item>
   <item lang="en">azure</item>
@@ -5403,7 +5403,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;list&strek;</label><item>
+<label lang="eo" rend="&stel;">list&strek;</label><item>
 <list type="def">
   <item lang="fr">liste</item>
   <item lang="en">list</item>
@@ -5413,7 +5413,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;literatur&strek;</label><item>
+<label lang="eo" rend="&stel;">literatur&strek;</label><item>
 <list type="def">
   <item lang="fr">littérature</item>
   <item lang="en">literature</item>
@@ -5423,7 +5423,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">(&stel;)litograf&strek;</label><item>
+<label lang="eo" rend="(&stel;)">litograf&strek;</label><item>
 <list type="def">
   <item lang="fr">lithographier</item>
   <item lang="en">to lithograph</item>
@@ -5433,7 +5433,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;liturgi&strek;</label><item>
+<label lang="eo" rend="&stel;">liturgi&strek;</label><item>
 <list type="def">
   <item lang="fr">liturgie</item>
   <item lang="en">liturgy</item>
@@ -5443,7 +5443,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;logik&strek;</label><item>
+<label lang="eo" rend="&stel;">logik&strek;</label><item>
 <list type="def">
   <item lang="fr">logique</item>
   <item lang="en">logic</item>
@@ -5473,7 +5473,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;loteri&strek;</label><item>
+<label lang="eo" rend="&stel;">loteri&strek;</label><item>
 <list type="def">
   <item lang="fr">loterie</item>
   <item lang="en">lottery</item>
@@ -5522,7 +5522,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;makaron&strek;</label><item>
+<label lang="eo" rend="&stel;">makaron&strek;</label><item>
 <list type="def">
   <item lang="fr">macaron</item>
   <item lang="en">macaroon</item>
@@ -5572,7 +5572,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;mani&strek;</label><item>
+<label lang="eo" rend="&stel;">mani&strek;</label><item>
 <list type="def">
   <item lang="fr">manie</item>
   <item lang="en">mania</item>
@@ -5582,7 +5582,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;manifest&strek;</label><item>
+<label lang="eo" rend="&stel;">manifest&strek;</label><item>
 <list type="def">
   <item lang="fr">manifeste (subst.)</item>
   <item lang="en">manifesto</item>
@@ -5622,7 +5622,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;marionet&strek;</label><item>
+<label lang="eo" rend="&stel;">marionet&strek;</label><item>
 <list type="def">
   <item lang="fr">marionnette</item>
   <item lang="en">puppet</item>
@@ -5642,7 +5642,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;marmelad&strek;</label><item>
+<label lang="eo" rend="&stel;">marmelad&strek;</label><item>
 <list type="def">
   <item lang="fr">marmelade</item>
   <item lang="en">marmalade</item>
@@ -5652,7 +5652,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;martir&strek;</label><item>
+<label lang="eo" rend="&stel;">martir&strek;</label><item>
 <list type="def">
   <item lang="fr">martyr</item>
   <item lang="en">martyr</item>
@@ -5672,7 +5672,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;matematik&strek;</label><item>
+<label lang="eo" rend="&stel;">matematik&strek;</label><item>
 <list type="def">
   <item lang="fr">mathématique</item>
   <item lang="en">mathematics</item>
@@ -5682,7 +5682,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;materi&strek;</label><item>
+<label lang="eo" rend="&stel;">materi&strek;</label><item>
 <list type="def">
   <item lang="fr">matière</item>
   <item lang="en">matter (substance)</item>
@@ -5692,7 +5692,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;material&strek;</label><item>
+<label lang="eo" rend="&stel;">material&strek;</label><item>
 <list type="def">
   <item lang="fr">matériel, matériaux</item>
   <item lang="en">material</item>
@@ -5712,7 +5712,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;medicin&strek;</label><item>
+<label lang="eo" rend="&stel;">medicin&strek;</label><item>
 <list type="def">
   <item lang="fr">médecine</item>
   <item lang="en">medicine</item>
@@ -5742,7 +5742,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;melodi&strek;</label><item>
+<label lang="eo" rend="&stel;">melodi&strek;</label><item>
 <list type="def">
   <item lang="fr">mélodie</item>
   <item lang="en">melody</item>
@@ -5782,7 +5782,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;metafor&strek;</label><item>
+<label lang="eo" rend="&stel;">metafor&strek;</label><item>
 <list type="def">
   <item lang="fr">métaphore</item>
   <item lang="en">metaphor</item>
@@ -5802,7 +5802,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;metamorfoz&strek;</label><item>
+<label lang="eo" rend="&stel;">metamorfoz&strek;</label><item>
 <list type="def">
   <item lang="fr">métamorphose</item>
   <item lang="en">metamorphosis</item>
@@ -5822,7 +5822,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;metr&strek;</label><item>
+<label lang="eo" rend="&stel;">metr&strek;</label><item>
 <list type="def">
   <item lang="fr">mètre</item>
   <item lang="en">meter</item>
@@ -5832,7 +5832,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;miasm&strek;</label><item>
+<label lang="eo" rend="&stel;">miasm&strek;</label><item>
 <list type="def">
   <item lang="fr">miasme</item>
   <item lang="en">miasma</item>
@@ -5842,7 +5842,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;miaŭ&strek;</label><item>
+<label lang="eo" rend="&stel;">miaŭ&strek;</label><item>
 <list type="def">
   <item lang="fr">miauler</item>
   <item lang="en">mew</item>
@@ -5852,7 +5852,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;miliard&strek;</label><item>
+<label lang="eo" rend="&stel;">miliard&strek;</label><item>
 <list type="def">
   <item lang="fr">milliard</item>
   <item lang="en">thousand millions</item>
@@ -5862,7 +5862,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;mimik&strek;</label><item>
+<label lang="eo" rend="&stel;">mimik&strek;</label><item>
 <list type="def">
   <item lang="fr">mimique</item>
   <item lang="en">mimicry</item>
@@ -5882,7 +5882,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;mineral&strek;</label><item>
+<label lang="eo" rend="&stel;">mineral&strek;</label><item>
 <list type="def">
   <item lang="fr">minéral</item>
   <item lang="en">mineral</item>
@@ -5892,7 +5892,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;miniatur&strek;</label><item>
+<label lang="eo" rend="&stel;">miniatur&strek;</label><item>
 <list type="def">
   <item lang="fr">miniature</item>
   <item lang="en">miniature</item>
@@ -5902,7 +5902,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ministr&strek;</label><item>
+<label lang="eo" rend="&stel;">ministr&strek;</label><item>
 <list type="def">
   <item lang="fr">ministre</item>
   <item lang="en">minister (of state)</item>
@@ -5912,7 +5912,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;mirakl&strek;</label><item>
+<label lang="eo" rend="&stel;">mirakl&strek;</label><item>
 <list type="def">
   <item lang="fr">miracle</item>
   <item lang="en">miracle</item>
@@ -5922,7 +5922,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;miriad&strek;</label><item>
+<label lang="eo" rend="&stel;">miriad&strek;</label><item>
 <list type="def">
   <item lang="fr">myriade</item>
   <item lang="en">myriad</item>
@@ -5942,7 +5942,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;mitologi&strek;</label><item>
+<label lang="eo" rend="&stel;">mitologi&strek;</label><item>
 <list type="def">
   <item lang="fr">mythologie</item>
   <item lang="en">mythology</item>
@@ -6012,7 +6012,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;monolog&strek;</label><item>
+<label lang="eo" rend="&stel;">monolog&strek;</label><item>
 <list type="def">
   <item lang="fr">monologue</item>
   <item lang="en">monologue</item>
@@ -6032,7 +6032,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;moral&strek;</label><item>
+<label lang="eo" rend="&stel;">moral&strek;</label><item>
 <list type="def">
   <item lang="fr">moral</item>
   <item lang="en">moral</item>
@@ -6062,7 +6062,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;moske&strek;</label><item>
+<label lang="eo" rend="&stel;">moske&strek;</label><item>
 <list type="def">
   <item lang="fr">mosquée</item>
   <item lang="en">mosque</item>
@@ -6082,7 +6082,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;motor&strek;</label><item>
+<label lang="eo" rend="&stel;">motor&strek;</label><item>
 <list type="def">
   <item lang="fr">moteur</item>
   <item lang="en">motor</item>
@@ -6132,7 +6132,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;muzik&strek;</label><item>
+<label lang="eo" rend="&stel;">muzik&strek;</label><item>
 <list type="def">
   <item lang="fr">musique</item>
   <item lang="en">music</item>
@@ -6151,7 +6151,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="N">
 
-<label lang="eo">&stel;naft&strek;</label><item>
+<label lang="eo" rend="&stel;">naft&strek;</label><item>
 <list type="def">
   <item lang="fr">naphte</item>
   <item lang="en">naphtha</item>
@@ -6161,7 +6161,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;naiv&strek;</label><item>
+<label lang="eo" rend="&stel;">naiv&strek;</label><item>
 <list type="def">
   <item lang="fr">naïf</item>
   <item lang="en">artless</item>
@@ -6171,7 +6171,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;narkotik&strek;</label><item>
+<label lang="eo" rend="&stel;">narkotik&strek;</label><item>
 <list type="def">
   <item lang="fr">narcotique</item>
   <item lang="en">narcotic</item>
@@ -6191,7 +6191,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;negr&strek;</label><item>
+<label lang="eo" rend="&stel;">negr&strek;</label><item>
 <list type="def">
   <item lang="fr">nègre</item>
   <item lang="en">negro</item>
@@ -6201,7 +6201,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;nektar&strek;</label><item>
+<label lang="eo" rend="&stel;">nektar&strek;</label><item>
 <list type="def">
   <item lang="fr">nectar</item>
   <item lang="en">nectar</item>
@@ -6211,7 +6211,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;nerv&strek;</label><item>
+<label lang="eo" rend="&stel;">nerv&strek;</label><item>
 <list type="def">
   <item lang="fr">nerf</item>
   <item lang="en">nerve</item>
@@ -6231,7 +6231,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;nimf&strek;</label><item>
+<label lang="eo" rend="&stel;">nimf&strek;</label><item>
 <list type="def">
   <item lang="fr">nymphe</item>
   <item lang="en">nymph</item>
@@ -6251,7 +6251,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;normal&strek;</label><item>
+<label lang="eo" rend="&stel;">normal&strek;</label><item>
 <list type="def">
   <item lang="fr">normal</item>
   <item lang="en">normal</item>
@@ -6281,7 +6281,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;nunci&strek;</label><item>
+<label lang="eo" rend="&stel;">nunci&strek;</label><item>
 <list type="def">
   <item lang="fr">nonce</item>
   <item lang="en">nuncio</item>
@@ -6300,7 +6300,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="O">
 
-<label lang="eo">&stel;oaz&strek;</label><item>
+<label lang="eo" rend="&stel;">oaz&strek;</label><item>
 <list type="def">
   <item lang="fr">oasis</item>
   <item lang="en">oasis</item>
@@ -6320,7 +6320,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ocean&strek;</label><item>
+<label lang="eo" rend="&stel;">ocean&strek;</label><item>
 <list type="def">
   <item lang="fr">océan</item>
   <item lang="en">ocean</item>
@@ -6330,7 +6330,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;od&strek;</label><item>
+<label lang="eo" rend="&stel;">od&strek;</label><item>
 <list type="def">
   <item lang="fr">ode</item>
   <item lang="en">ode</item>
@@ -6370,7 +6370,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;oper&strek;</label><item>
+<label lang="eo" rend="&stel;">oper&strek;</label><item>
 <list type="def">
   <item lang="fr">opéra</item>
   <item lang="en">opera</item>
@@ -6380,7 +6380,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;operaci&strek;</label><item>
+<label lang="eo" rend="&stel;">operaci&strek;</label><item>
 <list type="def">
   <item lang="fr">opération (chir.)</item>
   <item lang="en">operation</item>
@@ -6390,7 +6390,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;opi&strek;</label><item>
+<label lang="eo" rend="&stel;">opi&strek;</label><item>
 <list type="def">
   <item lang="fr">opium</item>
   <item lang="en">opium</item>
@@ -6420,7 +6420,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;orator&strek;</label><item>
+<label lang="eo" rend="&stel;">orator&strek;</label><item>
 <list type="def">
   <item lang="fr">orateur</item>
   <item lang="en">orator</item>
@@ -6430,7 +6430,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;organ&strek;</label><item>
+<label lang="eo" rend="&stel;">organ&strek;</label><item>
 <list type="def">
   <item lang="fr">organe</item>
   <item lang="en">organ</item>
@@ -6440,7 +6440,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;organism&strek;</label><item>
+<label lang="eo" rend="&stel;">organism&strek;</label><item>
 <list type="def">
   <item lang="fr">organisme</item>
   <item lang="en">organism</item>
@@ -6450,7 +6450,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;organiz&strek;</label><item>
+<label lang="eo" rend="&stel;">organiz&strek;</label><item>
 <list type="def">
   <item lang="fr">organiser</item>
   <item lang="en">organize</item>
@@ -6470,7 +6470,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;original&strek;</label><item>
+<label lang="eo" rend="&stel;">original&strek;</label><item>
 <list type="def">
   <item lang="fr">original</item>
   <item lang="en">original</item>
@@ -6490,7 +6490,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ortografi&strek;</label><item>
+<label lang="eo" rend="&stel;">ortografi&strek;</label><item>
 <list type="def">
   <item lang="fr">orthographe</item>
   <item lang="en">orthography</item>
@@ -6519,7 +6519,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="P">
 
-<label lang="eo">&stel;pacient&strek;</label><item>
+<label lang="eo" rend="&stel;">pacient&strek;</label><item>
 <list type="def">
   <item lang="fr">patient (méd.)</item>
   <item lang="en">patient</item>
@@ -6559,7 +6559,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pantomim&strek;</label><item>
+<label lang="eo" rend="&stel;">pantomim&strek;</label><item>
 <list type="def">
   <item lang="fr">pantomime</item>
   <item lang="en">pantomime</item>
@@ -6579,7 +6579,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;paragraf&strek;</label><item>
+<label lang="eo" rend="&stel;">paragraf&strek;</label><item>
 <list type="def">
   <item lang="fr">paragraphe</item>
   <item lang="en">paragraph</item>
@@ -6589,7 +6589,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;paralel&strek;</label><item>
+<label lang="eo" rend="&stel;">paralel&strek;</label><item>
 <list type="def">
   <item lang="fr">parallèle</item>
   <item lang="en">parallel</item>
@@ -6599,7 +6599,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;parlament&strek;</label><item>
+<label lang="eo" rend="&stel;">parlament&strek;</label><item>
 <list type="def">
   <item lang="fr">parlement</item>
   <item lang="en">parliament</item>
@@ -6619,7 +6619,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;paroksism&strek;</label><item>
+<label lang="eo" rend="&stel;">paroksism&strek;</label><item>
 <list type="def">
   <item lang="fr">paroxysme</item>
   <item lang="en">paroxysm</item>
@@ -6629,7 +6629,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pasiv&strek;</label><item>
+<label lang="eo" rend="&stel;">pasiv&strek;</label><item>
 <list type="def">
   <item lang="fr">passif</item>
   <item lang="en">passive</item>
@@ -6639,7 +6639,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;paskvil&strek;</label><item>
+<label lang="eo" rend="&stel;">paskvil&strek;</label><item>
 <list type="def">
   <item lang="fr">pasquinade, pamphlet</item>
   <item lang="en">pasquinade</item>
@@ -6659,7 +6659,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;patos&strek;</label><item>
+<label lang="eo" rend="&stel;">patos&strek;</label><item>
 <list type="def">
   <item lang="fr">pathos, expression</item>
   <item lang="en">pathos, passion</item>
@@ -6669,7 +6669,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;patriot&strek;</label><item>
+<label lang="eo" rend="&stel;">patriot&strek;</label><item>
 <list type="def">
   <item lang="fr">patriote</item>
   <item lang="en">patriot</item>
@@ -6679,7 +6679,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;patriotism&strek;</label><item>
+<label lang="eo" rend="&stel;">patriotism&strek;</label><item>
 <list type="def">
   <item lang="fr">patriotisme</item>
   <item lang="en">patriotism</item>
@@ -6769,7 +6769,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;perspektiv&strek;</label><item>
+<label lang="eo" rend="&stel;">perspektiv&strek;</label><item>
 <list type="def">
   <item lang="fr">perspective</item>
   <item lang="en">perspective</item>
@@ -6779,7 +6779,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;peruk&strek;</label><item>
+<label lang="eo" rend="&stel;">peruk&strek;</label><item>
 <list type="def">
   <item lang="fr">perruque</item>
   <item lang="en">wig</item>
@@ -6789,7 +6789,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pfenig&strek;</label><item>
+<label lang="eo" rend="&stel;">pfenig&strek;</label><item>
 <list type="def">
   <item lang="fr">pfennig</item>
   <item lang="en">pfennig</item>
@@ -6799,7 +6799,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pian&strek;</label><item>
+<label lang="eo" rend="&stel;">pian&strek;</label><item>
 <list type="def">
   <item lang="fr">piano</item>
   <item lang="en">piano</item>
@@ -6809,7 +6809,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pigme&strek;</label><item>
+<label lang="eo" rend="&stel;">pigme&strek;</label><item>
 <list type="def">
   <item lang="fr">pygmée</item>
   <item lang="en">pygmy</item>
@@ -6819,7 +6819,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pilgrim&strek;</label><item>
+<label lang="eo" rend="&stel;">pilgrim&strek;</label><item>
 <list type="def">
   <item lang="fr">aller en pèlerinage</item>
   <item lang="en">go on a pilgrimage</item>
@@ -6829,7 +6829,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;piramid&strek;</label><item>
+<label lang="eo" rend="&stel;">piramid&strek;</label><item>
 <list type="def">
   <item lang="fr">pyramide</item>
   <item lang="en">pyramid</item>
@@ -6839,7 +6839,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pirat&strek;</label><item>
+<label lang="eo" rend="&stel;">pirat&strek;</label><item>
 <list type="def">
   <item lang="fr">pirate</item>
   <item lang="en">pirate</item>
@@ -6869,7 +6869,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;podagr&strek;</label><item>
+<label lang="eo" rend="&stel;">podagr&strek;</label><item>
 <list type="def">
   <item lang="fr">goutte (méd.)</item>
   <item lang="en">gout</item>
@@ -6879,7 +6879,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;poem&strek;</label><item>
+<label lang="eo" rend="&stel;">poem&strek;</label><item>
 <list type="def">
   <item lang="fr">poème</item>
   <item lang="en">poem</item>
@@ -6889,7 +6889,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;poet&strek;</label><item>
+<label lang="eo" rend="&stel;">poet&strek;</label><item>
 <list type="def">
   <item lang="fr">poète</item>
   <item lang="en">poet</item>
@@ -6899,7 +6899,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;poezi&strek;</label><item>
+<label lang="eo" rend="&stel;">poezi&strek;</label><item>
 <list type="def">
   <item lang="fr">poésie</item>
   <item lang="en">poetry</item>
@@ -6909,7 +6909,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;polemik&strek;</label><item>
+<label lang="eo" rend="&stel;">polemik&strek;</label><item>
 <list type="def">
   <item lang="fr">polémique</item>
   <item lang="en">polemics</item>
@@ -6919,7 +6919,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;politik&strek;</label><item>
+<label lang="eo" rend="&stel;">politik&strek;</label><item>
 <list type="def">
   <item lang="fr">politique</item>
   <item lang="en">politics</item>
@@ -6949,7 +6949,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;por&strek;</label><item>
+<label lang="eo" rend="&stel;">por&strek;</label><item>
 <list type="def">
   <item lang="fr">pore</item>
   <item lang="en">pore</item>
@@ -6959,7 +6959,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;poz&strek;</label><item>
+<label lang="eo" rend="&stel;">poz&strek;</label><item>
 <list type="def">
   <item lang="fr">poser (phot.)</item>
   <item lang="en">pose</item>
@@ -6969,7 +6969,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pozici&strek;</label><item>
+<label lang="eo" rend="&stel;">pozici&strek;</label><item>
 <list type="def">
   <item lang="fr">position</item>
   <item lang="en">position</item>
@@ -6979,7 +6979,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pozitiv&strek;</label><item>
+<label lang="eo" rend="&stel;">pozitiv&strek;</label><item>
 <list type="def">
   <item lang="fr">positif</item>
   <item lang="en">positive</item>
@@ -6989,7 +6989,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;prefekt&strek;</label><item>
+<label lang="eo" rend="&stel;">prefekt&strek;</label><item>
 <list type="def">
   <item lang="fr">préfet</item>
   <item lang="en">prefect</item>
@@ -7009,7 +7009,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;prelat&strek;</label><item>
+<label lang="eo" rend="&stel;">prelat&strek;</label><item>
 <list type="def">
   <item lang="fr">prélat</item>
   <item lang="en">prelate</item>
@@ -7029,7 +7029,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;princip&strek;</label><item>
+<label lang="eo" rend="&stel;">princip&strek;</label><item>
 <list type="def">
   <item lang="fr">principe</item>
   <item lang="en">principle</item>
@@ -7049,7 +7049,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;problem&strek;</label><item>
+<label lang="eo" rend="&stel;">problem&strek;</label><item>
 <list type="def">
   <item lang="fr">problème</item>
   <item lang="en">problem</item>
@@ -7059,7 +7059,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;procesi&strek;</label><item>
+<label lang="eo" rend="&stel;">procesi&strek;</label><item>
 <list type="def">
   <item lang="fr">procession</item>
   <item lang="en">procession</item>
@@ -7069,7 +7069,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;profesor&strek;</label><item>
+<label lang="eo" rend="&stel;">profesor&strek;</label><item>
 <list type="def">
   <item lang="fr">professeur</item>
   <item lang="en">professor</item>
@@ -7099,7 +7099,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;program&strek;</label><item>
+<label lang="eo" rend="&stel;">program&strek;</label><item>
 <list type="def">
   <item lang="fr">programme</item>
   <item lang="en">programme</item>
@@ -7109,7 +7109,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;projekci&strek;</label><item>
+<label lang="eo" rend="&stel;">projekci&strek;</label><item>
 <list type="def">
   <item lang="fr">projection</item>
   <item lang="en">projection</item>
@@ -7119,7 +7119,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;prolog&strek;</label><item>
+<label lang="eo" rend="&stel;">prolog&strek;</label><item>
 <list type="def">
   <item lang="fr">prologue</item>
   <item lang="en">prologue</item>
@@ -7129,7 +7129,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;propagand&strek;</label><item>
+<label lang="eo" rend="&stel;">propagand&strek;</label><item>
 <list type="def">
   <item lang="fr">propagande</item>
   <item lang="en">propaganda</item>
@@ -7159,7 +7159,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;protekt&strek;</label><item>
+<label lang="eo" rend="&stel;">protekt&strek;</label><item>
 <list type="def">
   <item lang="fr">protéger</item>
   <item lang="en">protect, patronise</item>
@@ -7169,7 +7169,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;protest&strek;</label><item>
+<label lang="eo" rend="&stel;">protest&strek;</label><item>
 <list type="def">
   <item lang="fr">protester</item>
   <item lang="en">protest</item>
@@ -7189,7 +7189,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;providenc&strek;</label><item>
+<label lang="eo" rend="&stel;">providenc&strek;</label><item>
 <list type="def">
   <item lang="fr">Providence</item>
   <item lang="en">Providence</item>
@@ -7199,7 +7199,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;provizor&strek;</label><item>
+<label lang="eo" rend="&stel;">provizor&strek;</label><item>
 <list type="def">
   <item lang="fr">provisoire</item>
   <item lang="en">provisional</item>
@@ -7209,7 +7209,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;proz&strek;</label><item>
+<label lang="eo" rend="&stel;">proz&strek;</label><item>
 <list type="def">
   <item lang="fr">prose</item>
   <item lang="en">prose</item>
@@ -7229,7 +7229,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;psalm&strek;</label><item>
+<label lang="eo" rend="&stel;">psalm&strek;</label><item>
 <list type="def">
   <item lang="fr">psaume</item>
   <item lang="en">psalm</item>
@@ -7259,7 +7259,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;puls&strek;</label><item>
+<label lang="eo" rend="&stel;">puls&strek;</label><item>
 <list type="def">
   <item lang="fr">pouls</item>
   <item lang="en">pulse</item>
@@ -7279,7 +7279,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;pustul&strek;</label><item>
+<label lang="eo" rend="&stel;">pustul&strek;</label><item>
 <list type="def">
   <item lang="fr">pustule</item>
   <item lang="en">pustule</item>
@@ -7318,7 +7318,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;raci&strek;</label><item>
+<label lang="eo" rend="&stel;">raci&strek;</label><item>
 <list type="def">
   <item lang="fr">rationnel</item>
   <item lang="en">rational</item>
@@ -7328,7 +7328,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;radikal&strek;</label><item>
+<label lang="eo" rend="&stel;">radikal&strek;</label><item>
 <list type="def">
   <item lang="fr">radical</item>
   <item lang="en">radical</item>
@@ -7338,7 +7338,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;raket&strek;</label><item>
+<label lang="eo" rend="&stel;">raket&strek;</label><item>
 <list type="def">
   <item lang="fr">fusée</item>
   <item lang="en">rocket</item>
@@ -7348,7 +7348,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ras&strek;</label><item>
+<label lang="eo" rend="&stel;">ras&strek;</label><item>
 <list type="def">
   <item lang="fr">race</item>
   <item lang="en">breed</item>
@@ -7358,7 +7358,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;real&strek;</label><item>
+<label lang="eo" rend="&stel;">real&strek;</label><item>
 <list type="def">
   <item lang="fr">réel</item>
   <item lang="en">real</item>
@@ -7378,7 +7378,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;recept&strek;</label><item>
+<label lang="eo" rend="&stel;">recept&strek;</label><item>
 <list type="def">
   <item lang="fr">ordonnance (méd.)</item>
   <item lang="en">recipe, prescription</item>
@@ -7408,7 +7408,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;reformaci&strek;</label><item>
+<label lang="eo" rend="&stel;">reformaci&strek;</label><item>
 <list type="def">
   <item lang="fr">(la) Réformation</item>
   <item lang="en">reformation</item>
@@ -7428,7 +7428,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;reklam&strek;</label><item>
+<label lang="eo" rend="&stel;">reklam&strek;</label><item>
 <list type="def">
   <item lang="fr">réclame</item>
   <item lang="en">advertisement</item>
@@ -7438,7 +7438,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;relief&strek;</label><item>
+<label lang="eo" rend="&stel;">relief&strek;</label><item>
 <list type="def">
   <item lang="fr">relief (sculpt.)</item>
   <item lang="en">relief</item>
@@ -7468,7 +7468,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;reputaci&strek;</label><item>
+<label lang="eo" rend="&stel;">reputaci&strek;</label><item>
 <list type="def">
   <item lang="fr">réputation</item>
   <item lang="en">reputation</item>
@@ -7478,7 +7478,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;respublik&strek;</label><item>
+<label lang="eo" rend="&stel;">respublik&strek;</label><item>
 <list type="def">
   <item lang="fr">république</item>
   <item lang="en">republic</item>
@@ -7488,7 +7488,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;retorik&strek;</label><item>
+<label lang="eo" rend="&stel;">retorik&strek;</label><item>
 <list type="def">
   <item lang="fr">rhétorique</item>
   <item lang="en">rhetoric</item>
@@ -7498,7 +7498,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;retort&strek;</label><item>
+<label lang="eo" rend="&stel;">retort&strek;</label><item>
 <list type="def">
   <item lang="fr">cornue</item>
   <item lang="en">retort (chem.)</item>
@@ -7508,7 +7508,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;revoluci&strek;</label><item>
+<label lang="eo" rend="&stel;">revoluci&strek;</label><item>
 <list type="def">
   <item lang="fr">révolution</item>
   <item lang="en">revolution</item>
@@ -7548,7 +7548,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rezultat&strek;</label><item>
+<label lang="eo" rend="&stel;">rezultat&strek;</label><item>
 <list type="def">
   <item lang="fr">résultat</item>
   <item lang="en">result</item>
@@ -7568,7 +7568,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ripar&strek;</label><item>
+<label lang="eo" rend="&stel;">ripar&strek;</label><item>
 <list type="def">
   <item lang="fr">réparer</item>
   <item lang="en">repair</item>
@@ -7578,7 +7578,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rism&strek;</label><item>
+<label lang="eo" rend="&stel;">rism&strek;</label><item>
 <list type="def">
   <item lang="fr">rame (de papier)</item>
   <item lang="en">ream</item>
@@ -7588,7 +7588,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ritm&strek;</label><item>
+<label lang="eo" rend="&stel;">ritm&strek;</label><item>
 <list type="def">
   <item lang="fr">rythme</item>
   <item lang="en">rhythm</item>
@@ -7608,7 +7608,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rol&strek;</label><item>
+<label lang="eo" rend="&stel;">rol&strek;</label><item>
 <list type="def">
   <item lang="fr">rôle</item>
   <item lang="en">part (in a play)</item>
@@ -7618,7 +7618,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;roman&strek;</label><item>
+<label lang="eo" rend="&stel;">roman&strek;</label><item>
 <list type="def">
   <item lang="fr">roman</item>
   <item lang="en">romance</item>
@@ -7638,7 +7638,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rubl&strek;</label><item>
+<label lang="eo" rend="&stel;">rubl&strek;</label><item>
 <list type="def">
   <item lang="fr">rouble</item>
   <item lang="en">rouble</item>
@@ -7658,7 +7658,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rut&strek;</label><item>
+<label lang="eo" rend="&stel;">rut&strek;</label><item>
 <list type="def">
   <item lang="fr">rue (bot.)</item>
   <item lang="en">rue</item>
@@ -7668,7 +7668,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;rutin&strek;</label><item>
+<label lang="eo" rend="&stel;">rutin&strek;</label><item>
 <list type="def">
   <item lang="fr">routine</item>
   <item lang="en">routine</item>
@@ -7687,7 +7687,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="S">
 
-<label lang="eo">&stel;sabr&strek;</label><item>
+<label lang="eo" rend="&stel;">sabr&strek;</label><item>
 <list type="def">
   <item lang="fr">sabre</item>
   <item lang="en">sabre</item>
@@ -7737,7 +7737,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sankci&strek;</label><item>
+<label lang="eo" rend="&stel;">sankci&strek;</label><item>
 <list type="def">
   <item lang="fr">sanction</item>
   <item lang="en">sanction</item>
@@ -7757,7 +7757,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sarkasm&strek;</label><item>
+<label lang="eo" rend="&stel;">sarkasm&strek;</label><item>
 <list type="def">
   <item lang="fr">sarcasme</item>
   <item lang="en">sarcasm</item>
@@ -7767,7 +7767,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;satan&strek;</label><item>
+<label lang="eo" rend="&stel;">satan&strek;</label><item>
 <list type="def">
   <item lang="fr">satan</item>
   <item lang="en">satan</item>
@@ -7777,7 +7777,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;satir&strek;</label><item>
+<label lang="eo" rend="&stel;">satir&strek;</label><item>
 <list type="def">
   <item lang="fr">satire (litt.)</item>
   <item lang="en">satire</item>
@@ -7787,7 +7787,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;satrap&strek;</label><item>
+<label lang="eo" rend="&stel;">satrap&strek;</label><item>
 <list type="def">
   <item lang="fr">satrape</item>
   <item lang="en">satrap</item>
@@ -7797,7 +7797,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;scen&strek;</label><item>
+<label lang="eo" rend="&stel;">scen&strek;</label><item>
 <list type="def">
   <item lang="fr">scène</item>
   <item lang="en">scene</item>
@@ -7807,7 +7807,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sekci&strek;</label><item>
+<label lang="eo" rend="&stel;">sekci&strek;</label><item>
 <list type="def">
   <item lang="fr">section</item>
   <item lang="en">section</item>
@@ -7817,7 +7817,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sekreci&strek;</label><item>
+<label lang="eo" rend="&stel;">sekreci&strek;</label><item>
 <list type="def">
   <item lang="fr">sécrétion</item>
   <item lang="en">secretion</item>
@@ -7827,7 +7827,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sekundant&strek;</label><item>
+<label lang="eo" rend="&stel;">sekundant&strek;</label><item>
 <list type="def">
   <item lang="fr">témoin, second</item>
   <item lang="en">second (in a duel)</item>
@@ -7837,7 +7837,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;seminari&strek;</label><item>
+<label lang="eo" rend="&stel;">seminari&strek;</label><item>
 <list type="def">
   <item lang="fr">séminaire</item>
   <item lang="en">seminary</item>
@@ -7847,7 +7847,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;senat&strek;</label><item>
+<label lang="eo" rend="&stel;">senat&strek;</label><item>
 <list type="def">
   <item lang="fr">sénat</item>
   <item lang="en">senate</item>
@@ -7857,7 +7857,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sfer&strek;</label><item>
+<label lang="eo" rend="&stel;">sfer&strek;</label><item>
 <list type="def">
   <item lang="fr">sphère</item>
   <item lang="en">sphere</item>
@@ -7867,7 +7867,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;simbol&strek;</label><item>
+<label lang="eo" rend="&stel;">simbol&strek;</label><item>
 <list type="def">
   <item lang="fr">symbole</item>
   <item lang="en">symbol</item>
@@ -7877,7 +7877,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;simetri&strek;</label><item>
+<label lang="eo" rend="&stel;">simetri&strek;</label><item>
 <list type="def">
   <item lang="fr">symétrie</item>
   <item lang="en">symmetry</item>
@@ -7897,7 +7897,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;simpati&strek;</label><item>
+<label lang="eo" rend="&stel;">simpati&strek;</label><item>
 <list type="def">
   <item lang="fr">sympathie</item>
   <item lang="en">sympathy</item>
@@ -7937,7 +7937,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sintaks&strek;</label><item>
+<label lang="eo" rend="&stel;">sintaks&strek;</label><item>
 <list type="def">
   <item lang="fr">syntaxe</item>
   <item lang="en">syntax</item>
@@ -7947,7 +7947,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;siren&strek;</label><item>
+<label lang="eo" rend="&stel;">siren&strek;</label><item>
 <list type="def">
   <item lang="fr">sirène (myth.)</item>
   <item lang="en">siren</item>
@@ -7957,7 +7957,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sistem&strek;</label><item>
+<label lang="eo" rend="&stel;">sistem&strek;</label><item>
 <list type="def">
   <item lang="fr">système</item>
   <item lang="en">system</item>
@@ -7977,7 +7977,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;skelet&strek;</label><item>
+<label lang="eo" rend="&stel;">skelet&strek;</label><item>
 <list type="def">
   <item lang="fr">squelette</item>
   <item lang="en">skeleton</item>
@@ -7987,7 +7987,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;skeptik&strek;</label><item>
+<label lang="eo" rend="&stel;">skeptik&strek;</label><item>
 <list type="def">
   <item lang="fr">sceptique</item>
   <item lang="en">sceptic</item>
@@ -8017,7 +8017,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sociologi&strek;</label><item>
+<label lang="eo" rend="&stel;">sociologi&strek;</label><item>
 <list type="def">
   <item lang="fr">sociologie</item>
   <item lang="en">sociology</item>
@@ -8047,7 +8047,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sofist&strek;</label><item>
+<label lang="eo" rend="&stel;">sofist&strek;</label><item>
 <list type="def">
   <item lang="fr">sophiste</item>
   <item lang="en">sophist</item>
@@ -8117,7 +8117,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;spad&strek;</label><item>
+<label lang="eo" rend="&stel;">spad&strek;</label><item>
 <list type="def">
   <item lang="fr">épée</item>
   <item lang="en">sword</item>
@@ -8127,7 +8127,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;special&strek;</label><item>
+<label lang="eo" rend="&stel;">special&strek;</label><item>
 <list type="def">
   <item lang="fr">spécial</item>
   <item lang="en">special</item>
@@ -8137,7 +8137,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;specimen&strek;</label><item>
+<label lang="eo" rend="&stel;">specimen&strek;</label><item>
 <list type="def">
   <item lang="fr">spécimen</item>
   <item lang="en">specimen</item>
@@ -8147,7 +8147,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;spektakl&strek;</label><item>
+<label lang="eo" rend="&stel;">spektakl&strek;</label><item>
 <list type="def">
   <item lang="fr">spectacle</item>
   <item lang="en">spectacle</item>
@@ -8157,7 +8157,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;spiral&strek;</label><item>
+<label lang="eo" rend="&stel;">spiral&strek;</label><item>
 <list type="def">
   <item lang="fr">spirale</item>
   <item lang="en">spiral</item>
@@ -8187,7 +8187,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;stadi&strek;</label><item>
+<label lang="eo" rend="&stel;">stadi&strek;</label><item>
 <list type="def">
   <item lang="fr">étape</item>
   <item lang="en">stage</item>
@@ -8197,7 +8197,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;statistik&strek;</label><item>
+<label lang="eo" rend="&stel;">statistik&strek;</label><item>
 <list type="def">
   <item lang="fr">statistique</item>
   <item lang="en">statistics</item>
@@ -8207,7 +8207,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;statu&strek;</label><item>
+<label lang="eo" rend="&stel;">statu&strek;</label><item>
 <list type="def">
   <item lang="fr">statue</item>
   <item lang="en">statue</item>
@@ -8267,7 +8267,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;stud&strek;</label><item>
+<label lang="eo" rend="&stel;">stud&strek;</label><item>
 <list type="def">
   <item lang="fr">étudier</item>
   <item lang="en">study</item>
@@ -8287,7 +8287,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sufiks&strek;</label><item>
+<label lang="eo" rend="&stel;">sufiks&strek;</label><item>
 <list type="def">
   <item lang="fr">suffixe</item>
   <item lang="en">suffix</item>
@@ -8307,7 +8307,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;sultan&strek;</label><item>
+<label lang="eo" rend="&stel;">sultan&strek;</label><item>
 <list type="def">
   <item lang="fr">sultan</item>
   <item lang="en">sultan</item>
@@ -8317,7 +8317,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;superlativ&strek;</label><item>
+<label lang="eo" rend="&stel;">superlativ&strek;</label><item>
 <list type="def">
   <item lang="fr">superlatif</item>
   <item lang="en">superlative</item>
@@ -8356,7 +8356,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="Ŝ">
 
-<label lang="eo">&stel;ŝanc&strek;</label><item>
+<label lang="eo" rend="&stel;">ŝanc&strek;</label><item>
 <list type="def">
   <item lang="fr">chance (probabilité)</item>
   <item lang="en">chance (possibility)</item>
@@ -8396,7 +8396,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ŝovinism&strek;</label><item>
+<label lang="eo" rend="&stel;">ŝovinism&strek;</label><item>
 <list type="def">
   <item lang="fr">chauvinisme</item>
   <item lang="en">chauvinism</item>
@@ -8406,7 +8406,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;ŝovinist&strek;</label><item>
+<label lang="eo" rend="&stel;">ŝovinist&strek;</label><item>
 <list type="def">
   <item lang="fr">chauvin</item>
   <item lang="en">ultra-patriot</item>
@@ -8435,7 +8435,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;takt&strek;</label><item>
+<label lang="eo" rend="&stel;">takt&strek;</label><item>
 <list type="def">
   <item lang="fr">mesure (mus.), tact</item>
   <item lang="en">tact</item>
@@ -8445,7 +8445,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;taktik&strek;</label><item>
+<label lang="eo" rend="&stel;">taktik&strek;</label><item>
 <list type="def">
   <item lang="fr">tactique</item>
   <item lang="en">tactics</item>
@@ -8455,7 +8455,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;taler&strek;</label><item>
+<label lang="eo" rend="&stel;">taler&strek;</label><item>
 <list type="def">
   <item lang="fr">thaler</item>
   <item lang="en">thaler</item>
@@ -8465,7 +8465,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tanin&strek;</label><item>
+<label lang="eo" rend="&stel;">tanin&strek;</label><item>
 <list type="def">
   <item lang="fr">tanin</item>
   <item lang="en">tannin</item>
@@ -8475,7 +8475,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tapiok&strek;</label><item>
+<label lang="eo" rend="&stel;">tapiok&strek;</label><item>
 <list type="def">
   <item lang="fr">tapioca</item>
   <item lang="en">tapioca</item>
@@ -8515,7 +8515,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;teatr&strek;</label><item>
+<label lang="eo" rend="&stel;">teatr&strek;</label><item>
 <list type="def">
   <item lang="fr">théâtre</item>
   <item lang="en">theatre</item>
@@ -8525,7 +8525,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tekst&strek;</label><item>
+<label lang="eo" rend="&stel;">tekst&strek;</label><item>
 <list type="def">
   <item lang="fr">texte</item>
   <item lang="en">text</item>
@@ -8545,7 +8545,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;telegraf&strek;</label><item>
+<label lang="eo" rend="&stel;">telegraf&strek;</label><item>
 <list type="def">
   <item lang="fr">télégraphe</item>
   <item lang="en">telegraph</item>
@@ -8555,7 +8555,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;telegram&strek;</label><item>
+<label lang="eo" rend="&stel;">telegram&strek;</label><item>
 <list type="def">
   <item lang="fr">télégramme</item>
   <item lang="en">telegram</item>
@@ -8565,7 +8565,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;temperament&strek;</label><item>
+<label lang="eo" rend="&stel;">temperament&strek;</label><item>
 <list type="def">
   <item lang="fr">tempérament</item>
   <item lang="en">temperament</item>
@@ -8575,7 +8575,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;temperatur&strek;</label><item>
+<label lang="eo" rend="&stel;">temperatur&strek;</label><item>
 <list type="def">
   <item lang="fr">température</item>
   <item lang="en">temperature</item>
@@ -8585,7 +8585,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;templ&strek;</label><item>
+<label lang="eo" rend="&stel;">templ&strek;</label><item>
 <list type="def">
   <item lang="fr">temple</item>
   <item lang="en">temple</item>
@@ -8595,7 +8595,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tendenc&strek;</label><item>
+<label lang="eo" rend="&stel;">tendenc&strek;</label><item>
 <list type="def">
   <item lang="fr">tendance</item>
   <item lang="en">tendency</item>
@@ -8615,7 +8615,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tenor&strek;</label><item>
+<label lang="eo" rend="&stel;">tenor&strek;</label><item>
 <list type="def">
   <item lang="fr">ténor</item>
   <item lang="en">tenor</item>
@@ -8625,7 +8625,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;teolog&strek;</label><item>
+<label lang="eo" rend="&stel;">teolog&strek;</label><item>
 <list type="def">
   <item lang="fr">théologien</item>
   <item lang="en">theologian</item>
@@ -8635,7 +8635,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;teologi&strek;</label><item>
+<label lang="eo" rend="&stel;">teologi&strek;</label><item>
 <list type="def">
   <item lang="fr">théologie</item>
   <item lang="en">theology</item>
@@ -8645,7 +8645,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;teori&strek;</label><item>
+<label lang="eo" rend="&stel;">teori&strek;</label><item>
 <list type="def">
   <item lang="fr">théorie</item>
   <item lang="en">theory</item>
@@ -8655,7 +8655,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;terapi&strek;</label><item>
+<label lang="eo" rend="&stel;">terapi&strek;</label><item>
 <list type="def">
   <item lang="fr">thérapeutique</item>
   <item lang="en">therapeutics</item>
@@ -8675,7 +8675,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;termit&strek;</label><item>
+<label lang="eo" rend="&stel;">termit&strek;</label><item>
 <list type="def">
   <item lang="fr">termite</item>
   <item lang="en">termite</item>
@@ -8705,7 +8705,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tip&strek;</label><item>
+<label lang="eo" rend="&stel;">tip&strek;</label><item>
 <list type="def">
   <item lang="fr">type</item>
   <item lang="en">type</item>
@@ -8715,7 +8715,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tipografi&strek;</label><item>
+<label lang="eo" rend="&stel;">tipografi&strek;</label><item>
 <list type="def">
   <item lang="fr">typographie</item>
   <item lang="en">typography</item>
@@ -8725,7 +8725,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tiran&strek;</label><item>
+<label lang="eo" rend="&stel;">tiran&strek;</label><item>
 <list type="def">
   <item lang="fr">tyran</item>
   <item lang="en">tyrant</item>
@@ -8735,7 +8735,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;titan&strek;</label><item>
+<label lang="eo" rend="&stel;">titan&strek;</label><item>
 <list type="def">
   <item lang="fr">titan</item>
   <item lang="en">Titan</item>
@@ -8765,7 +8765,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;torent&strek;</label><item>
+<label lang="eo" rend="&stel;">torent&strek;</label><item>
 <list type="def">
   <item lang="fr">torrent</item>
   <item lang="en">torrent</item>
@@ -8785,7 +8785,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tradici&strek;</label><item>
+<label lang="eo" rend="&stel;">tradici&strek;</label><item>
 <list type="def">
   <item lang="fr">tradition</item>
   <item lang="en">tradition</item>
@@ -8795,7 +8795,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tragedi&strek;</label><item>
+<label lang="eo" rend="&stel;">tragedi&strek;</label><item>
 <list type="def">
   <item lang="fr">tragédie</item>
   <item lang="en">tragedy</item>
@@ -8805,7 +8805,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tragikomedi&strek;</label><item>
+<label lang="eo" rend="&stel;">tragikomedi&strek;</label><item>
 <list type="def">
   <item lang="fr">tragi-comédie</item>
   <item lang="en">tragi-comedy</item>
@@ -8815,7 +8815,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;traktat&strek;</label><item>
+<label lang="eo" rend="&stel;">traktat&strek;</label><item>
 <list type="def">
   <item lang="fr">traité</item>
   <item lang="en">treaty, treatise</item>
@@ -8825,7 +8825,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;transit&strek;</label><item>
+<label lang="eo" rend="&stel;">transit&strek;</label><item>
 <list type="def">
   <item lang="fr">transit</item>
   <item lang="en">transit</item>
@@ -8835,7 +8835,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tribunal&strek;</label><item>
+<label lang="eo" rend="&stel;">tribunal&strek;</label><item>
 <list type="def">
   <item lang="fr">tribunal</item>
   <item lang="en">tribunal</item>
@@ -8845,7 +8845,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tribut&strek;</label><item>
+<label lang="eo" rend="&stel;">tribut&strek;</label><item>
 <list type="def">
   <item lang="fr">tribut</item>
   <item lang="en">tribute</item>
@@ -8855,7 +8855,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;triumf&strek;</label><item>
+<label lang="eo" rend="&stel;">triumf&strek;</label><item>
 <list type="def">
   <item lang="fr">triomphe</item>
   <item lang="en">triumph</item>
@@ -8865,7 +8865,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;trup&strek;</label><item>
+<label lang="eo" rend="&stel;">trup&strek;</label><item>
 <list type="def">
   <item lang="fr">troupe (théâtre)</item>
   <item lang="en">troop</item>
@@ -8875,7 +8875,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;tunel&strek;</label><item>
+<label lang="eo" rend="&stel;">tunel&strek;</label><item>
 <list type="def">
   <item lang="fr">tunnel</item>
   <item lang="en">tunnel</item>
@@ -8904,7 +8904,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="U">
 
-<label lang="eo">&stel;unison&strek;</label><item>
+<label lang="eo" rend="&stel;">unison&strek;</label><item>
 <list type="def">
   <item lang="fr">unisson</item>
   <item lang="en">unison</item>
@@ -8914,7 +8914,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;uragan&strek;</label><item>
+<label lang="eo" rend="&stel;">uragan&strek;</label><item>
 <list type="def">
   <item lang="fr">ouragan</item>
   <item lang="en">hurricane</item>
@@ -8934,7 +8934,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;utopi&strek;</label><item>
+<label lang="eo" rend="&stel;">utopi&strek;</label><item>
 <list type="def">
   <item lang="fr">utopie</item>
   <item lang="en">utopia</item>
@@ -8944,7 +8944,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;uvertur&strek;</label><item>
+<label lang="eo" rend="&stel;">uvertur&strek;</label><item>
 <list type="def">
   <item lang="fr">ouverture (mus.)</item>
   <item lang="en">overture</item>
@@ -8973,7 +8973,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;valor&strek;</label><item>
+<label lang="eo" rend="&stel;">valor&strek;</label><item>
 <list type="def">
   <item lang="fr">valoir</item>
   <item lang="en">be worth</item>
@@ -9003,7 +9003,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;velociped&strek;</label><item>
+<label lang="eo" rend="&stel;">velociped&strek;</label><item>
 <list type="def">
   <item lang="fr">vélocipède</item>
   <item lang="en">velocipede</item>
@@ -9132,7 +9132,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 
 <list type="dict" n="Z">
 
-<label lang="eo">&stel;zigzag&strek;</label><item>
+<label lang="eo" rend="&stel;">zigzag&strek;</label><item>
 <list type="def">
   <item lang="fr">zigzag</item>
   <item lang="en">zigzag</item>
@@ -9142,7 +9142,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;zodiak&strek;</label><item>
+<label lang="eo" rend="&stel;">zodiak&strek;</label><item>
 <list type="def">
   <item lang="fr">zodiaque</item>
   <item lang="en">zodiac</item>
@@ -9152,7 +9152,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;zoologi&strek;</label><item>
+<label lang="eo" rend="&stel;">zoologi&strek;</label><item>
 <list type="def">
   <item lang="fr">zoologie</item>
   <item lang="en">zoology</item>
@@ -9162,7 +9162,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;zuav&strek;</label><item>
+<label lang="eo" rend="&stel;">zuav&strek;</label><item>
 <list type="def">
   <item lang="fr">zouave</item>
   <item lang="en">zouave</item>
