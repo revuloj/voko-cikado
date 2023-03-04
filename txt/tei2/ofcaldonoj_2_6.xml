@@ -1088,17 +1088,17 @@ internaciaj vortoj, oni ankaŭ povus fari tie ĉi. Ni nur iru nian
 
 <div type="subpart">
 <head>Definitiva Listo de Komune Uzataj Vortoj
-Oficialigitaj de la Akademio (1)</head>
+Oficialigitaj de la Akademio 
+<note rend="footnote" n="4">La pola kaj rusa tradukoj estas poste aldonotaj. 
+— Kiam la notoj <emph>bot.</emph>, <emph>zool.</emph>, k.t.p.
+troviĝas en unu lingvo, ili ne estas ripetitaj. Ne estas eble, aliparte, en multlingva
+traduko doni <emph>ĉiujn</emph> eblajn tradukojn; tio estas afero de la naciaj vortaristoj, kiuj povas,
+laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
+</note>
+</head>
+<emph>
 
-<note>(1) La pola kaj rusa tradukoj estas poste aldonotaj. — Kiam la notoj bot., zool., k.t.p.
-troviĝas en unu lingvo, ili ne estas ripetitaj.</note>
-
-<p>Ne estas eble, aliparte, en multlingva
-traduko doni ĉiujn eblajn tradukojn; tio estas afero de la naciaj vortaristoj, kiuj povas,
-laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
-
-
-<div type="letter" n="A">
+</emph><div type="letter" n="A">
 <head>A</head>
 
 <list type="dict" n="A">
@@ -1122,7 +1122,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 <label lang="eo">adici&strek;i</label><item>
 <list type="def">
   <item lang="fr">additionner</item>
-  <item lang="en">to add >up</item>
+  <item lang="en">to add up</item>
   <item lang="de">addieren</item>
 </list>
 </item>
@@ -1130,7 +1130,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 <label lang="eo">akapar&strek;i fr</label><item>
 <list type="def">
   <item lang="fr">accaparer</item>
-  <item lang="en">to >corner</item>
+  <item lang="en">to corner</item>
   <item lang="de">wucherisch aufkaufen</item>
 </list>
 </item>
@@ -1440,7 +1440,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 
 <list type="dict" n="F">
 
-<label lang="eo">falang&strek;o (mil., anat.)</label><item>
+<label lang="eo">falang&strek;o <note>(mil., anat.)</note></label><item>
 <list type="def">
   <item lang="fr">phalange</item>
   <item lang="en">phalanx</item>
@@ -1572,7 +1572,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">irid&strek;o (bot.)</label><item>
+<label lang="eo">irid&strek;o <note>(bot.)</note></label><item>
 <list type="def">
   <item lang="fr">iris</item>
   <item lang="en">yellow flag</item>
@@ -1597,7 +1597,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">kalendul&strek;o (bot.)</label><item>
+<label lang="eo">kalendul&strek;o <note>(bot.)</note></label><item>
 <list type="def">
   <item lang="fr">souci</item>
   <item lang="en">marigold</item>
@@ -1678,7 +1678,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </item>
 
 
-<label lang="eo">kulis&strek;o (teatr.)</label><item>
+<label lang="eo">kulis&strek;o <note>(teatr.)</note></label><item>
 <list type="def">
   <item lang="fr">coulisse</item>
   <item lang="en">slip, wing</item>
@@ -1686,7 +1686,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">kumin&strek;o (bot.)</label><item>
+<label lang="eo">kumin&strek;o <note>(bot.)</note></label><item>
 <list type="def">
   <item lang="fr">cumin</item>
   <item lang="en">cumin</item>
@@ -1775,7 +1775,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">merlang&strek;o (zool.)</label><item>
+<label lang="eo">merlang&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">merlan</item>
   <item lang="en">whiting</item>
@@ -1783,7 +1783,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">mespil&strek;o (bot.)</label><item>
+<label lang="eo">mespil&strek;o <note>(bot.)</note></label><item>
 <list type="def">
   <item lang="fr">nèfle</item>
   <item lang="en">medlar</item>
@@ -1799,7 +1799,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">milv&strek;o (zool.)</label><item>
+<label lang="eo">milv&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">milan</item>
   <item lang="en">kite</item>
@@ -1923,7 +1923,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">pleŭronekt&strek;o (zool.)</label><item>
+<label lang="eo">pleŭronekt&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">rhombe, turbot</item>
   <item lang="en">brill</item>
@@ -1947,7 +1947,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">propozici&strek;o (gram.)</label><item>
+<label lang="eo">propozici&strek;o <note>(gram.)</note></label><item>
 <list type="def">
   <item lang="fr">proposition</item>
   <item lang="en">sentence</item>
@@ -1972,7 +1972,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 
 <list type="dict" n="R">
 
-<label lang="eo">raj&strek;o (zool.)</label><item>
+<label lang="eo">raj&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">raie</item>
   <item lang="en">ray (fish)</item>
@@ -2029,7 +2029,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">sevrug&strek;o (zool.)</label><item>
+<label lang="eo">sevrug&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">esturgeon</item>
   <item lang="en">sturgeon</item>
@@ -2045,7 +2045,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">sinap&strek;o (bot.)</label><item>
+<label lang="eo">sinap&strek;o <note>(bot.)</note></label><item>
 <list type="def">
   <item lang="fr">moutarde</item>
   <item lang="en">mustard-plant</item>
@@ -2126,7 +2126,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.</p>
 </list>
 </item>
 
-<label lang="eo">tink&strek;o (zool.)</label><item>
+<label lang="eo">tink&strek;o <note>(zool.)</note></label><item>
 <list type="def">
   <item lang="fr">tanche</item>
   <item lang="en">tench</item>
@@ -4788,10 +4788,10 @@ senutilajn pseŭdosufiksojn kaj ne estas la plej bona; ekz.: APELACI’, EMOCI�
 ERUDICI’, KONVERSACI’, REVELACI’, SUGESTI’, k.t.p.
 Mi jam detale respondis al tiu ĉi rimarkigo en mia raporto al la Praha
 Kongreso; tamen estas taŭge, ke mi tie ĉi ankoraŭ rememorigu miajn
-kolegojn, 1o ke, preparante la 3an Aldonon, mi ne rajtis elekti mem la
+kolegojn, 1. ke, preparante la 3an Aldonon, mi ne rajtis elekti mem la
 formojn, kiujn mi opiniis plej bonaj, sed devis enmeti nur la sole aŭ plej
-multe uzitajn formojn; 2o ke la mallaŭdataj formoj estas nur TOLEREBLAJ kaj
-UZEBLAJ internaciaj formoj, sed tute NE estas D EVIGAJ ; 3o ke tiuj, kiuj ne
+multe uzitajn formojn; 2. ke la mallaŭdataj formoj estas nur TOLEREBLAJ kaj
+UZEBLAJ internaciaj formoj, sed tute NE estas DEVIGAJ; 3. ke tiuj, kiuj ne
 aprobas la cititajn formojn, plene rajtas uzi aliajn pli mallongajn aŭ pli
 taŭgajn, egale internaciajn, formojn, kiuj kredeble iom post iom venkos kaj
 forpuŝos la malpli taŭgajn.
@@ -4896,7 +4896,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">akvafort&strek;o (gravuraĵo)</label><item>
+<label lang="eo">akvafort&strek;o <note>(gravuraĵo)</note></label><item>
 <list type="def">
   <item lang="fr">estampe gravée à l’eau-forte</item> 
   <item lang="en">etching, aquafortis engraving</item>
@@ -4942,7 +4942,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">amor&strek;o &Z;</label><item>  
+<label lang="eo">amor&strek;o <note>&Z;</note></label><item>  
 <list type="def">
   <item lang="fr">(myth) dieu</item> 
   <item lang="de">l’Amour, Cupidon, Eros</item> 
@@ -4991,7 +4991,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">ceramik&strek;o &Z;</label><item>
+<label lang="eo">ceramik&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">art céramique</item> 
   <item lang="en">ceramics</item>  <item lang="de">Töpferkunst</item>
@@ -5006,7 +5006,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">deriv&strek;i (tr.)</label><item>
+<label lang="eo">deriv&strek;i <note>(tr.)</note></label><item>
 <list type="def">
     <item lang="fr">(faire) dériver (gram)</item>
     <item lang="en">to derive (tr)</item>
@@ -5114,7 +5114,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">helic&strek;o (meĥ.)</label><item>
+<label lang="eo">helic&strek;o <note>(meĥ.)</note></label><item>
 <list type="def">
   <item lang="fr">hélice (méc)</item>
   <item lang="en">screw, propeller</item> 
@@ -5136,7 +5136,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">imun&strek;a &Z;</label><item>
+<label lang="eo">imun&strek;a <note>&Z;</note></label><item>
 <list type="def">  
   <item lang="fr">immunisé (méd)</item>
   <item lang="en">immune</item>  
@@ -5184,7 +5184,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">inflam&strek;o (med.)</label><item>
+<label lang="eo">inflam&strek;o <note>(med.)</note></label><item>
 <list type="def"> 
 <item lang="fr">inflammation (méd)</item>
   <item lang="en">inflammation</item>  
@@ -5256,7 +5256,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">kinin&strek;o &Z;</label><item>
+<label lang="eo">kinin&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">quinine</item> 
   <item lang="en">quinine</item>  
@@ -5288,7 +5288,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">knar&strek;i &Z;</label><item>
+<label lang="eo">knar&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">grincer (plume, roue, porte)</item> 
   <item lang="en">to creak (of a wheel, door, hinge, pen)</item>
@@ -5329,7 +5329,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">konker&strek;i &Z;</label><item>
+<label lang="eo">konker&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">conquérir</item> 
   <item lang="en">to conquer</item>  
@@ -5337,7 +5337,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">konsekr&strek;i &Z;</label><item>
+<label lang="eo">konsekr&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">consacrer (rel)</item> 
   <item lang="en">to consecrate, ordain</item> 
@@ -5345,7 +5345,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">kontinu&strek;a &Z;</label><item>
+<label lang="eo">kontinu&strek;a <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">continu</item> 
   <item lang="en">continuous</item> 
@@ -5369,7 +5369,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">kverel&strek;i &Z;</label><item>
+<label lang="eo">kverel&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">se quereller</item> 
   <item lang="en">to wrangle, quarrel</item> 
@@ -5378,7 +5378,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">lamen&strek;o &Z;</label><item>
+<label lang="eo">lamen&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">lame(lle)</item> 
   <item lang="en">lamina</item> 
@@ -5387,7 +5387,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">lament&strek;i &Z;</label><item>
+<label lang="eo">lament&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">se lamenter</item> 
   <item lang="en">to lament</item>  
@@ -5395,7 +5395,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">lat&strek;o &Z;</label><item>
+<label lang="eo">lat&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">latte</item> 
   <item lang="en">lath</item> 
@@ -5479,7 +5479,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">narkot&strek;i (trans.)</label><item>
+<label lang="eo">narkot&strek;i <note>(trans.)</note></label><item>
 <list type="def">
   <item lang="fr">narcotiser</item> 
   <item lang="en">to narcotize</item>  
@@ -5487,7 +5487,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">nas&strek;o &Z;</label><item>
+<label lang="eo">nas&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">nasse</item> 
   <item lang="en">hoop-net</item> 
@@ -5592,7 +5592,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">plag&strek;o &Z;</label><item>
+<label lang="eo">plag&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">calamité, fléau (fig.), plaie (fig)</item>
   <item lang="en">plague, calamity</item>
@@ -5642,7 +5642,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">podi&strek;o &Z;</label><item>
+<label lang="eo">podi&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">estrade</item> 
   <item lang="en">podium, stage</item>  
@@ -5650,7 +5650,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">provok-i &Z;</label><item>
+<label lang="eo">provok-i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">défier, provoquer</item> 
   <item lang="en">to provoke, defy, challenge</item>
@@ -5793,7 +5793,7 @@ neniu voĉdonus kontraŭ ĝi.
 </list>
 </item>
 
-<label lang="eo">viz&strek;o &Z;</label><item>
+<label lang="eo">viz&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="fr">visa</item> 
   <item lang="en">visa</item> 
@@ -5881,7 +5881,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">akvafort&strek;o (gravuraĵo)</label><item>
+<label lang="eo">akvafort&strek;o <note>(gravuraĵo)</note></label><item>
 <list type="def">
   <item lang="it">acquaforte (incisione ad)</item> 
   <item lang="es">aguafuerte</item>
@@ -5935,7 +5935,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">amor&strek;o &Z;</label><item>
+<label lang="eo">amor&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">amore, Cupido</item> 
   <item lang="es">Amor (mit.), Cupido</item> 
@@ -5989,7 +5989,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">ceramik&strek;o &Z;</label><item>
+<label lang="eo">ceramik&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">ceramica</item> 
   <item lang="es">cerámica</item> 
@@ -6135,7 +6135,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">helic&strek;o (meĥ.)</label><item>
+<label lang="eo">helic&strek;o <note>(meĥ.)</note></label><item>
 <list type="def">
   <item lang="it">elica</item> 
   <item lang="es">hélice</item> 
@@ -6162,7 +6162,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">imun&strek;a &Z;</label><item>
+<label lang="eo">imun&strek;a <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">immune (med.)</item> 
   <item lang="es">inmune</item> 
@@ -6297,7 +6297,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">kinin&strek;o &Z;</label><item>
+<label lang="eo">kinin&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">chinino</item> 
   <item lang="es">quinina</item> 
@@ -6333,7 +6333,7 @@ Libro nun en preparo.
 </list>
 </item>
 
-<label lang="eo">knar&strek;i &Z;</label><item>
+<label lang="eo">knar&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">stridere</item> 
   <item lang="es">rechinar (puerta, rueda, pluma)</item>
@@ -6380,7 +6380,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">konker&strek;i &Z;</label><item>
+<label lang="eo">konker&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">conquistare</item> 
   <item lang="es">conquistar</item> 
@@ -6389,7 +6389,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">konsekr&strek;i &Z;</label><item>
+<label lang="eo">konsekr&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">consacrare</item> 
   <item lang="es">consagrar (rel.)</item> 
@@ -6398,7 +6398,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">kontinu&strek;a &Z;</label><item>
+<label lang="eo">kontinu&strek;a <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">continuo</item> 
   <item lang="es">continuo</item> 
@@ -6425,7 +6425,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">kverel&strek;i &Z;</label><item>
+<label lang="eo">kverel&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">litigare</item> 
   <item lang="es">denostarse, injuriarse, disputar encolerizados</item>
@@ -6435,7 +6435,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">lamen&strek;o &Z;</label><item>
+<label lang="eo">lamen&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">lamina</item> 
   <item lang="es">lámina (metálica)</item> 
@@ -6445,7 +6445,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">lament&strek;i &Z;</label><item>
+<label lang="eo">lament&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">lamentarsi</item> 
   <item lang="es">lamentarse</item> 
@@ -6454,7 +6454,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">lat&strek;o &Z;</label><item>
+<label lang="eo">lat&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">assicella, panconcello</item>
   <item lang="es">lata, tabla delgada (empleada en la construcción)</item>
@@ -6550,7 +6550,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">narkot&strek;i (trans.)</label><item>
+<label lang="eo">narkot&strek;i <note>(trans.)</note></label><item>
 <list type="def">
   <item lang="it">narcotizzare</item> 
   <item lang="es">narcotizar</item> 
@@ -6559,7 +6559,7 @@ plenumi ian difinitan taskon</item>
 </list>
 </item>
 
-<label lang="eo">nas&strek;o &Z;</label><item>
+<label lang="eo">nas&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">nassa</item> 
   <item lang="es">nasa (para pescar)</item> 
@@ -6678,7 +6678,7 @@ fiŝojn</item>
 </list>
 </item>
 
-<label lang="eo">plag&strek;o &Z;</label><item>
+<label lang="eo">plag&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">flagello, calamità</item> 
   <item lang="es">plaga, calamidad</item> 
@@ -6734,7 +6734,7 @@ fiŝojn</item>
 </list>
 </item>
 
-<label lang="eo">podi&strek;o &Z;</label><item>
+<label lang="eo">podi&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">palco, podio</item> 
   <item lang="es">estrado</item> 
@@ -6743,7 +6743,7 @@ fiŝojn</item>
 </list>
 </item>
 
-<label lang="eo">provok&strek;i &Z;</label><item>
+<label lang="eo">provok&strek;i <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">sfidare, provocare</item> 
   <item lang="es">provocar, desafiar</item> 
@@ -6905,7 +6905,7 @@ fiŝojn</item>
 </list>
 </item>
 
-<label lang="eo">viz&strek;o &Z;</label><item>
+<label lang="eo">viz&strek;o <note>&Z;</note></label><item>
 <list type="def">
   <item lang="it">visto, autenticazione</item> 
   <item lang="es">refrendo, visado</item> 
@@ -7064,7 +7064,7 @@ fiŝojn</item>
 </item>
 
 
-<label lang="eo">bremso (Mekaniko)</label><item>
+<label lang="eo">bremso <note>(Mekaniko)</note></label><item>
 <list type="def">
   <item lang="eo">Mekanika aŭ elektra aparato por malakceli, haltigi aŭ reguligi movon aŭ funkciadon de maŝino</item>
   <item lang="en">brake</item>
@@ -7077,7 +7077,7 @@ fiŝojn</item>
 </item>
 
 
-<label lang="eo">pilo (Fiziko)</label><item>
+<label lang="eo">pilo <note>(Fiziko)</note></label><item>
 <list type="def">
   <item lang="eo">Fonto de elektra energio, uzanta la transformiĝon de kemia
 energio</item>
@@ -7348,7 +7348,7 @@ energio</item>
 
 <list type="dict">
 
-<label lang="eo">arbusto (Botaniko)</label><item>
+<label lang="eo">arbusto <note>(Botaniko)</note></label><item>
 <list type="def">
   <item lang="eo">Arbo, kies trunko estas ligneca ĉe la bazo, kaj herbeca ĉe la supro </item>
   <item lang="en">shrub</item>
@@ -7360,7 +7360,7 @@ energio</item>
 </list>
 </item>
 
-<label lang="eo">gramofono (Akustiko)</label><item>
+<label lang="eo">gramofono <note>(Akustiko)</note></label><item>
 <list type="def">
   <item lang="eo">Aparato kiu, per disko, reproduktas sonojn</item>
   <item lang="en">gramophone</item>
@@ -7372,7 +7372,7 @@ energio</item>
 </list>
 </item>
 
-<label lang="eo">grego (Zoologio)</label><item>
+<label lang="eo">grego <note>(Zoologio)</note></label><item>
 <list type="def">
   <item lang="eo">Kolekto da brutoj, birdoj aŭ (fig.) da homoj</item>
   <item lang="en">flock</item>
@@ -7384,7 +7384,7 @@ energio</item>
 </list>
 </item>
 
-<label lang="eo">ingredienco (Kemio)</label><item>
+<label lang="eo">ingredienco <note>(Kemio)</note></label><item>
 <list type="def">
   <item lang="eo">Ĉiu aparta substanco, kiu konsistigas miksaĵon </item>
   <item lang="en">ingredient</item>
@@ -7396,7 +7396,7 @@ energio</item>
 </list>
 </item>
 
-<label lang="eo">vinkto (Industrio)</label><item>
+<label lang="eo">vinkto <note>(Industrio)</note></label><item>
 <list type="def">
   <item lang="eo">Metala peco uzata por ripari porcelanaĵojn, k.t.p.</item>
   <item lang="en">rivet</item>
@@ -7408,7 +7408,7 @@ energio</item>
 </list>
 </item>
 
-<label lang="eo">vivisekcio (Anatomio)</label><item>
+<label lang="eo">vivisekcio <note>(Anatomio)</note></label><item>
 <list type="def">
   <item lang="eo">Operacio praktikata sur vivanta besto por studi fiziologiajn fenomenojn </item>
   <item lang="en">vivisection</item>

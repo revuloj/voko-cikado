@@ -474,6 +474,10 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
+<xsl:template match="list[@type='dict']/label/note">
+  <i><xsl:apply-templates/></i>
+</xsl:template>
+
 <xsl:template match="label[@rend='hidden']" priority="2"/>
 
 <xsl:template match="emph[@lang='eo']">
@@ -659,15 +663,18 @@ specialajn regulojn ne au alie difinitajn tie.
   </div>
 </xsl:template>
 
+<!-- indekseroj konsistas el kapvorto kaj listo de referencoj -->
 <xsl:template name="entry">
   <strong>
-    <xsl:apply-templates/>:
+    <xsl:apply-templates mode="index"/>:
   </strong>
   <xsl:for-each select="key('eowords',.)">
      <xsl:call-template name="ref"/>
   </xsl:for-each><br/>
 </xsl:template>
 
+<!-- subpremu alnotojn en indeksigitaj kapvortoj -->
+<xsl:template match="label/note" mode="index"/>
 
 <xsl:template name="ref">
   <!-- OA 1..9 -->
