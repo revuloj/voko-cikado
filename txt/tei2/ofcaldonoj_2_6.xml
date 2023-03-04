@@ -257,9 +257,10 @@ Difinoj en Esperanto: ĉiuj elementoj havas difinon
 
 <body>
 
-<head>Dua Oficiala Aldono al Universala Vortaro 
-  <note n="1">(RADIKOJ AKCEPTITAJ DE LA LINGVA KOMITATO)</note>
-</head>
+<head>Dua Oficiala Aldono al Universala Vortaro
+<note rend="footnote" n="1">Vidu: Oficiala Gazeto. N-roj 68, 64, 62, 51, 50, 47, 46, 44, 43.</note></head>
+<head type="subtitel1">(RADIKOJ AKCEPTITAJ DE LA LINGVA KOMITATO)</head>
+
 
 <!--
 ENHAVO:
@@ -268,13 +269,12 @@ uzataj Vortoj. [...]
 -->
 
 <div type="part" id="oa_2_enk">
-<head>I. ENKONDUKO</head>
+<head>I. Enkonduko</head>
 
+<head type="subtitle1">Letero al la Prezidanto de la Akademio.</head>
+
+<salute>Estimata Sinjoro Prezidanto,</salute>
 <p>
-Letero al la Prezidanto de la Akademio.
-</p>
-<p>
-Estimata Sinjoro Prezidanto,
 Verkante raporton pri niaj lastaj vortaraj laboroj sin trudas al mi
 ĉiumomente la franca fablo de La Fontaine “La muelisto, lia filo kaj la
 azeno”. El multaj flankoj konsilojn ni ricevas kaj admonojn, sed malaj ili
@@ -284,50 +284,53 @@ nian patron” kaj ne perdante tempon en vanaj diskutoj.
 </p>
 <p>
 Ĉu oni deziras ekzemplojn? Kelkaj postulas, ke la L. K. oficialigu la finiĝojn
-acio, icio, ucio (2); aliaj proponas, ke oni aliformigu ilin 
-en aco, ico, uco; la ceteraj volas ilin nepre forigi el ĉiuj esperantaj vortoj! Kelkaj plene apobas
-la finiĝon oido, aliaj preferas energie ojdo. Unu proponas, ke ĉiuj sciencoj
-finiĝu per io kaj ke de nun ni diru “matematikio”, “fizikio”, tial ke ni diras
-ĥemio, aŭ, laŭ aliaj, kemio; sed al multaj tre malplaĉas tiu ĉi finiĝo io!
-Abomena estas al iuj la fakto, ke en nia lingvo kelkaj vortoj finiĝas per ulo,
-ino, ilo kaj ili proponas, ke oni sisteme kripligu eĉ tute internaciajn vortojn,
-anstataŭante tiujn ĉi finaĵojn per olo, eno, elo; sed la plimulto, ĝis preskaŭ
-unuvoĉeco, opinias male. — Kaj vere! Kelkaj malmultaj L. K.-anoj akceptas
+<emph>acio</emph>, <emph>icio</emph>, <emph>ucio</emph>
+<note rend="footnote" n="2">Al tiuj ĉi Rektoro Boirac jam trafe respondis 
+en Antaŭparolo de sia “Plena Vortaro”, p. XVI.</note>; 
+aliaj proponas, ke oni aliformigu ilin en <emph>aco</emph>, <emph>ico</emph>, <emph>uco</emph>; 
+la ceteraj volas ilin nepre forigi el ĉiuj esperantaj vortoj! Kelkaj plene apobas
+la finiĝon <emph>oido</emph>, aliaj preferas energie <emph>ojdo</emph>. Unu proponas, ke ĉiuj sciencoj
+finiĝu per <emph>io</emph> kaj ke de nun ni diru “matematikio”, “fizikio”, tial ke ni diras
+ĥemio, aŭ, laŭ aliaj, kemio; sed al multaj tre malplaĉas tiu ĉi finiĝo <emph>io</emph>!
+Abomena estas al iuj la fakto, ke en nia lingvo kelkaj vortoj finiĝas per <emph>ulo</emph>,
+<emph>ino</emph>, <emph>ilo</emph> kaj ili proponas, ke oni sisteme kripligu eĉ tute internaciajn vortojn,
+anstataŭante tiujn ĉi finaĵojn per <emph>olo</emph>, <emph>eno</emph>, <emph>elo</emph>; 
+sed la plimulto, ĝis preskaŭ unuvoĉeco, opinias male. — Kaj vere! Kelkaj malmultaj L. K.-anoj akceptas
 la “Fundamenton”, sed ribelas kontraŭ la tie ĉi de Zamenhof uzita, liberala
 kaj praktika metodo.
 </p>
 <p>
 Kun vera ĉagreno oni konstatas, ke la pli akraj kritikistoj ofte tute ignoras
-aŭ ne konas BOIRAC , Plena Vortaro, — kaj certe neniam legis ĝian
-antaŭparolon, — KABE, Vortaro, kaj precipe ZAMENHOF, Lingvaj Respondoj. Por
+aŭ ne konas BOIRAC, <emph>Plena Vortaro</emph>, — kaj certe neniam legis ĝian
+antaŭparolon, — KABE, <emph>Vortaro</emph>, kaj precipe ZAMENHOF, <emph>Lingvaj Respondoj</emph>. Por
 ili Esperanto ne estas ankoraŭ ekzistanta, sed nur farota lingvo!
 Mi rapidas diri, ke la tre granda plimulto ne opinias tiamaniere; sed
 bedaŭrinde la aprobantoj, — eĉ kiam ili ne aprobas blindokule. — plej ofte
 silentas kaj tute ne voĉdonas.
 </p>
-<p>
-(1) Vidu: Oficiala Gazeto. N-roj 68, 64, 62, 51, 50, 47, 46, 44, 43
-(2) Al tiuj ĉi Rektoro Boirac jam trafe respondis en Antaŭparolo de sia “Plena Vortaro”,
-p. XVI.
-</p>
 
 </div>
 
 <div type="part" id="oa_2_ism">
-<head>II. SUFIKSO “ISM’”.</head>
+<head>II. Sufikso “ism’”.</head>
 <p>
-La sufikso ISM ’ (teorio, sistemo, doktrino, skolo, partio, celado, kaj analogiaj
-sencoj) estas oficiale akceptita.
+<emph>La sufikso ISM’ (teorio, sistemo, doktrino, skolo, partio, celado, kaj analogiaj
+sencoj) estas oficiale akceptita.</emph>
 </p>
 <p>
 Necese estas rimarkigi, ke tio tute ne signifas, kiel ŝajnas opinii du aŭ tri
-aprobantoj, ke, forprenante la finaĵon ism’, oni ĉiam ricevas esperantan
+aprobantoj, ke, forprenante la finaĵon <emph>ism’</emph>, oni ĉiam ricevas esperantan
 radikon aŭ rajtas krei ĝin kun speciala signifo. Tio ĉi ne estas pli vera por la
-vortoj atavismo, feminismo, optimismo, pesimismo, silogismo, solecismo,
-sofismo, turismo, k.t.p., ol tio estus — forprenante la finaĵojn ist’, in’, il’, ul’,
-an&strek;, k.t.p., — por la vortoj feministo, optimisto, sofisto, turisto, balzamino,
-doktrino, vazelino, bacilo, asimili, okulo, formulo, banano, turbano, sultano,
-k.t.p. En ĉiuj tiuj ĉi vortoj la silaboj ism’, ist’, in’, k.t.p. estas konsiderotaj ne
+vortoj <emph>atavismo</emph>, <emph>feminismo</emph>, <emph>optimismo</emph>, 
+<emph>pesimismo</emph>, <emph>silogismo</emph>, <emph>solecismo</emph>,
+<emph>sofismo</emph>, <emph>turismo</emph>, k.t.p., ol tio estus 
+<emph>—</emph> forprenante la finaĵojn <emph>ist’</emph>, <emph>in’</emph>, <emph>il’</emph>, <emph>ul’</emph>,
+<emph>an’</emph>, k.t.p., — por la vortoj <emph>feministo</emph>, <emph>optimisto</emph>,
+ <emph>sofisto</emph>, <emph>turisto</emph>, <emph>balzamino</emph>,
+<emph>doktrino</emph>, <emph>vazelino</emph>, <emph>bacilo</emph>, <emph>asimili</emph>, 
+<emph>okulo</emph>, <emph>formulo</emph>, <emph>banano</emph>, <emph>turbano</emph>, <emph>sultano</emph>,
+k.t.p. En ĉiuj tiuj ĉi vortoj la silaboj <emph>ism’</emph>, <emph>ist’</emph>,
+ <emph>in’</emph>, k.t.p. estas konsiderotaj ne
 kiel esperantaj sufiksoj, sed kiel finaĵoj ĉu internaciaj, ĉu de l’ devena
 lingvo, kiujn, laŭ la Zamenhofa modelo, oni ne volis kripligi.
 </p>
@@ -335,7 +338,7 @@ lingvo, kiujn, laŭ la Zamenhofa modelo, oni ne volis kripligi.
 </div>
 
 <div type="part" id="oa_2_vortoj">
-<head>III. INTERNACIAJ VORTOJ.</head>
+<head>III. Internaciaj Vortoj.</head>
 
 <div>
 <p>
@@ -347,14 +350,16 @@ vortojn internaciajn, kiujn ĝi ne entenas. Sed, ne “oficialigante” tion, ki
 bezonas “oficialigon”, tamen ŝajnis utile kaj eĉ necese, liveri al tiuj, kiuj ne
 povas per si mem juĝi, ĉu vorto estas internacia aŭ ne, sufiĉe plenan liston
 de vortoj, kiuj troviĝas ne nur en ilia nacia vortaro, sed en ĉiuj vortaroj kaj
-estas jam komune uzataj de niaj plej bonaj verkistoj (1) .
-En tiu ĉi listo ne troviĝas la vortoj, kie ismo vere estas sufikso, tial ke tiu ĉi
-sufikso estas akceptita de la L. K., nek la vortoj en cio, toro, kiam la
+estas jam komune uzataj de niaj plej bonaj verkistoj 
+<note rend="footnote" n="3">Al tio ni devas aldoni, ke ofte ekzistas 
+diferenco pri la skribmaniero, kaj ke tasko estas
+de la L. K. ĝin forigi.</note>.
+</p><p>
+En tiu ĉi listo ne troviĝas la vortoj, kie <emph>ismo</emph> vere estas sufikso, tial ke tiu ĉi
+sufikso estas akceptita de la L. K., nek la vortoj en <emph>cio</emph>, <emph>toro</emph>, kiam la
 fundamenta ideo jam estas montrata de ekzistanta esperanta radiko.
-</p>
-<p>
 Tamen la Akademio tute ne kondamnas la uzon de tiaj vortoj kaj ĝi restas fidela al
-la principoj esprimitaj de d-ro Z AMENHOF en lia artikolo pri Pseŭdosufiksoj per
+la principoj esprimitaj de d-ro ZAMENHOF en lia artikolo pri <emph>Pseŭdosufiksoj</emph> per
 tiuj ĉi vortoj:
 </p>
 <p>
@@ -362,44 +367,35 @@ tiuj ĉi vortoj:
 pseŭdosufiksoj “cio”, “toro” k.t.p. (ekzemple “civilizacio”, “redaktoro”
 k.t.p.); ili diras, ke de tiaj vortoj ni devas preni nur la radikan formon
 (ekzemple: “civiliz”, “redakt”) kaj ĉiujn devenajn formojn uzi nur kun
-sufikso aŭ finaĵo pure Esperanta (ekzemple: “civilizo”, “redaktejo”,
+sufikso aŭ finaĵo pure <emph>Esperanta</emph> (ekzemple: “civilizo”, “redaktejo”,
 “redaktisto”, anstataŭ “civilizacio”, “redakcio”, “redaktoro”).
-</p>
-<p>
 Kompreneble, se tia vorto, kiel ekzemple “redaktejo”, estus tute identa
 kun la vorto “redakcio” kaj povus ĝin perfekte anstataŭi, certe neniu el ni
 plendus, se la vorto “redakcio” baldaŭ malaperus el nia lingvo; sed se iu
-diras, ke la formoj pseŭdosufiksaj estas kontraŭ-Esperantaj, aŭ ke ili
-prezentas malaprobindan enkondukon de novaj vortoj, mi opinias, ke li
+diras, ke la formoj pseŭdosufiksaj estas <emph>kontraŭ-Esperantaj</emph>, aŭ ke ili
+prezentas malaprobindan enkondukon de <emph>novaj vortoj</emph>, mi opinias, ke li
 eraras. Tiaj formoj, kiel ekzemple “redakcio”, “civilizacio” estas nek
 kontraŭ-Esperantaj, nek novaj, ĉar laŭ la §15 de nia gramatiko ili plene;
 apartenas al nia lingvo jam de la unua momento de ĝia naskiĝo.
-</p>
-<p>
- Ni povas
-(1) Al tio ni devas aldoni, ke ofte ekzistas diferenco pri la skribmaniero, kaj ke tasko estas
-de la L. K. ĝin forigi.
-</p>
-<p>
-(2) esperi, ke pli aŭ malpli frue la pseŭdosufiksoj “fremdaj” fariĝos arĥaismoj
-kaj cedos sian lokon al vortoj “pure Esperantaj”; ni povas eĉ konsili tion;
-sed postuli tion ni ne povas, ĉar la diritaj vortoj ne sole havas en nia
+ Ni povas <emph>esperi</emph>, ke pli aŭ malpli frue la pseŭdosufiksoj “fremdaj” fariĝos arĥaismoj
+kaj cedos sian lokon al vortoj “pure Esperantaj”; ni povas eĉ <emph>konsili</emph> tion;
+sed <emph>postuli</emph> tion ni ne povas, ĉar la diritaj vortoj ne sole havas en nia
 lingvo (laŭ la §15) plenan rajton de ekzistado, sed ankoraŭ dum longa
 tempo multaj el tiuj pseŭdosufiksaj vortoj estos pli oportunaj, pli naturaj
 kaj pli kompreneblaj, ol la ilin anstataŭontaj vortoj “pure Esperantaj”. Ne
 venis ankoraŭ la tempo, ke ni estu tro pedantaj. Estas vero, ke sekve de
 nia toleremeco, ni por kelkaj vortoj, havos por kelka tempo formojn
-duoblajn (ekzemple: “evolucio” kaj “evoluo”); sed ŝajnas al mi, ke estas
+<emph>duoblajn</emph> (ekzemple: “evolucio” kaj “evoluo”); sed ŝajnas al mi, ke estas
 multe pli bone havi en la unua tempo ian “embarason de riĉeco”, ol mal-
 utili al si per ia nesufiĉe matura dekreto, elĵetante el la lingvo vortojn,
 kies elĵetindeco ne estas ankoraŭ por ni tute certa»
-(Ofic. Gaz., dec. 1911).
+(<emph>Ofic. Gaz.</emph>, dec. 1911).
 </p>
 </div>
 
 <div>
-<head>DEFINITIVA LISTO DE INTERNACIAJ VORTOJ,
-KIUJ LAŬ §15 DE L’FUNDAMENTO ESTAS ESPERANTAJ</head>
+<head>Definitiva Listo de Internaciaj Vortoj,
+kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 
 <div type="letter" n="A">
 <head>A</head>
@@ -1083,7 +1079,7 @@ KIUJ LAŬ §15 DE L’FUNDAMENTO ESTAS ESPERANTAJ</head>
 </div>
 
 <div type="part" id="oa_2_komunaj">
-<head>IV. KOMUNE UZATAJ VORTOJ</head>
+<head>IV. Komune Uzataj Vortoj</head>
 <p>
 La samajn rimarkojn pri la diverseco de la opinioj, kiel ni faris okaze de la
 internaciaj vortoj, oni ankaŭ povus fari tie ĉi. Ni nur iru nian
@@ -1091,8 +1087,8 @@ internaciaj vortoj, oni ankaŭ povus fari tie ĉi. Ni nur iru nian
 </p>
 
 <div type="subpart">
-<head>DEFINITIVA LISTO DE KOMUNE UZATAJ VORTOJ
-OFICIALIGITAJ DE LA AKADEMIO (1)</head>
+<head>Definitiva Listo de Komune Uzataj Vortoj
+Oficialigitaj de la Akademio (1)</head>
 
 <note>(1) La pola kaj rusa tradukoj estas poste aldonotaj. — Kiam la notoj bot., zool., k.t.p.
 troviĝas en unu lingvo, ili ne estas ripetitaj.</note>

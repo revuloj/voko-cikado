@@ -258,7 +258,7 @@ Difinoj en Esperanto: ĉiuj elementoj havas difinon
 
 <body>
 
-<div>
+<div type="part">
 <head>Klariga noto</head>
 <p>
 Tiu listo estas unua listo.
@@ -290,7 +290,7 @@ uzado de nia lingvo.
 </p>
 </div>
 
-<div>
+<div type="part">
 <head>Unua Oficiala Aldono al Universala Vortaro</head>
 <head type="subtitle1">(Radikoj akceptitaj de la Lingva Komitato)</head>
 

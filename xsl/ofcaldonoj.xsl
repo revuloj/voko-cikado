@@ -50,8 +50,8 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:import href="teixlite.xsl"/>
 
 <xsl:variable name="stylesheet">ofcaldonoj.css</xsl:variable>
-<xsl:variable name="content_level1" select="'part'"/>
-<xsl:variable name="content_level2" select="'chapter'"/>
+<xsl:variable name="content_level1" select="'xxx'"/> <!-- <text@doc> -->
+<xsl:variable name="content_level2" select="'part'"/>
 
 <xsl:template match="/TEI.2/text/front">
   <xsl:apply-templates/>
