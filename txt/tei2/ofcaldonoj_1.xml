@@ -246,15 +246,53 @@ Difinoj en Esperanto: ĉiuj elementoj havas difinon
       <titlePart type="main">
           Unua Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
+      <titlePart type="publisher">
+          PARIS, ESPERANTISTA CENTRA OFICEJO
+      </titlePart>
+      <titlePart type="date">
+        1909
       </titlePart>
     </docTitle>
   </titlePage>
 </front>
 
 <body>
+
+<div>
+<head>Klariga noto</head>
+<p>
+Tiu listo estas unua listo.
+</p><p>
+Ĝi, sekve, ne estas plena.
+</p><p>
+Oni tute ne intencis doni plenajn seriojn. Iom post iom, la serioj plipleniĝos.
+Se, ekzemple, oni citis la vorton “diplomato” kaj ne “diplomatio”, tio tute ne
+signifas, ke la vorto “diplomatio” ne estas akceptinda. Per analogio oni tute
+prave uzos ĝin kaj ĝi trovos lokon en alia listo.
+</p><p>
+Tiuj jaraj aldonoj kunfandiĝos fine en <emph>Universala Vortaro plenigita</emph>.
+</p><p>
+Kelkaj Lingvo-komitatanoj preferus, ke oni ne akceptu apud “astrologiisto”,
+kiun oni ĉiam rajtas uzi, la formon “astrologo”, kiu estas speciala radiko;
+sed tiuj pli mallongaj formoj (astrologo, astronomo k.t.p.), aprobitaj de la
+granda plimulto de la Lingvo-komitatanoj kaj jam ĝenerale uzataj, estas ofte
+multe pli oportunaj, kaj tute ne malpliigas la facilecon de la lingvo.
+</p><p>
+Aliaj dezirus klarigajn notojn por ĉiu vorto, sed tiu Aldono tute ne celas
+anstataŭi la naciajn vortarojn, kies tasko estas doni plenajn klarigojn. Tie ĉi
+sufiĉas montri la veran signifon per noteto komunkomprenebla (arch., bot.,
+k.t.p.) en la unua kolono, des pli, ke la komparo inter la diverslingvaj
+tradukoj estas granda helpilo.
+</p><p>
+Tiamaniere, per nerapida sed certa irado, nia oficiala komuna vortaro ĉiam
+pli kaj pli riĉiĝos, ĝiaj mankoj ĉiam pli kaj pli malaperos, sen ia rompo en la
+uzado de nia lingvo.
+</p>
+</div>
+
+<div>
 <head>Unua Oficiala Aldono al Universala Vortaro</head>
+<head type="subtitle1">(Radikoj akceptitaj de la Lingva Komitato)</head>
 
 <p>
 La steleto &stel; montras la vortojn cititajn en: 
@@ -321,7 +359,8 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">&stel;aĉ</label><item>
+<label lang="eo">&stel;aĉ</label>
+<item type="def" lang="eo">
  sufikso por montri malŝatan, malestiman sencon.
 </item>
 
@@ -503,7 +542,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
   <item lang="ru">агрономія</item>
   <item lang="pl">agronomja</item>
 </list>
-<note id="oa_1_agronomi" target="oa_1_astrolog">Vidu: Astrologo, la noton.</note>
+<note id="oa_1_agronomi" target="oa_1_astrolog" rend="footnote" n="1">Vidu: Astrologo, la noton.</note>
 </item>
 
 <label lang="eo">akaci&strek;</label><item>
@@ -1194,7 +1233,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
   <item lang="ru">астрологъ</item>
   <item lang="pl">astrolog</item>
 </list>
-<note id="oa_1_astrolog">Same: agronomo, antropologo, k.t.p.</note>
+<note id="oa_1_astrolog" rend="footnote" n="2">Same: agronomo, antropologo, k.t.p.</note>
 </item>
 
 <label lang="eo">astrologi&strek;</label><item>
@@ -4505,7 +4544,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </list>
 </item>
 
-<label lang="eo">31*katafalk&strek;</label><item>
+<label lang="eo">*katafalk&strek;</label><item>
 <list type="def">
   <item lang="fr">catafalque</item>
   <item lang="en">catafalque</item>
@@ -9134,6 +9173,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 </item>
 
 </list>
+</div>
 </div>
 
 </body>

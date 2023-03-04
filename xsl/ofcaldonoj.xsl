@@ -4,6 +4,7 @@
 [
   <!ENTITY leftquot '"'>
   <!ENTITY rightquot '"'>
+  <!ENTITY stel "*">
   <!ENTITY para "&#x00a7;">
   <!ENTITY dash "&#x2015;">
   <!ENTITY nbsp "&#x00a0;">
@@ -24,7 +25,7 @@
   <!ENTITY circ "^">
   <!ENTITY breve "&#x02d8;">
 
-  <!ENTITY FE_fonto "https://github.com/revuloj/voko-cikado/blob/master/txt/tei2/fundamento.xml">
+  <!ENTITY OA_fonto "https://github.com/revuloj/voko-cikado/blob/master/txt/tei2/ofcaldonoj.xml">
 
 ]>
 
@@ -37,18 +38,18 @@
 
 <!--
 
-XSLT-stildifinoj por fundamento.xml (La Fundamento de Eo). 
+XSLT-stildifinoj por ofcaldonoj.xml (La Oficialaj Aldonoj al la UV). 
 Ĝi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
 specialajn regulojn ne au alie difinitajn tie.
 
-(c) 2001-2022 che Wolfram DIESTEL
+(c) 2023 ĉe Wolfram DIESTEL
     permesilo GPL 2.0
 
 -->
 
 <xsl:import href="teixlite.xsl"/>
 
-<xsl:variable name="stylesheet">fundamento.css</xsl:variable>
+<xsl:variable name="stylesheet">ofcaldonoj.css</xsl:variable>
 <xsl:variable name="content_level1" select="'part'"/>
 <xsl:variable name="content_level2" select="'chapter'"/>
 
@@ -66,7 +67,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <ul class="content">
     <li class="content">esperanta indekso &dash; &gcirc;i ne apartenas
-      al la Fundamento, sed faciligas trovi ion en &gcirc;i:<br/>
+      al la Oficialaj Aldonoj, sed faciligas trovi ion en tiuj:<br/>
       <xsl:for-each select="/">
         <xsl:call-template name="wordindex"/>
       </xsl:for-each>
@@ -161,7 +162,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- teiHeader -->
 <xsl:template match="teiHeader">
      <address>
-       fonto: <a target="_new" href="&FE_fonto;">fundamento.xml (ĉe Github)</a>
+       fonto: <a target="_new" href="&OA_fonto;">ofcaldonoj.xml (ĉe Github)</a>
      </address>
 </xsl:template>
 
@@ -272,15 +273,13 @@ specialajn regulojn ne au alie difinitajn tie.
   <hr/>
 </xsl:template>
 
-
-
 <xsl:template name="footer">
   <hr/>
-  <xsl:if test="self::div">
+  <!-- <xsl:if test="self::div">-->
     <div class="footnotes">
       <xsl:call-template name="footnotes"/>
     </div>
-  </xsl:if>
+  <!-- </xsl:if> -->
 
   <div class="footer">
   <xsl:choose>
@@ -318,126 +317,6 @@ specialajn regulojn ne au alie difinitajn tie.
   <p class="smallTitle">
     <xsl:apply-templates/>
   </p>
-</xsl:template>
-
-
-<!-- gramatikojn metu en proprajn dosierojn -->
-
-<xsl:template match="text[@id='gra']/body">
-  <center>
-    <xsl:apply-templates select="head"/>
-  </center>
-  <hr/>
-  <!-- enhavtabelo por la kvin gramatikoj -->
-  <ul>
-    <xsl:for-each select="./div[@type='chapter']">
-      <li class="content"><a href="{@id}.html">
-        <xsl:value-of select="head"/>
-      </a></li>
-    </xsl:for-each>
-  </ul>
-  <xsl:apply-templates select="div"/>
-</xsl:template>
-
-<!-- ekzercojn metu en proprajn dosierojn -->
-
-<xsl:template match="text[@id='ekz']/body"> 
-  <center>
-    <xsl:apply-templates select="head"/>
-  </center>
-  <hr/>
-  <p align="center">
-    <xsl:for-each select="./div[@type='section']">
-      <a href="ekz_{@n}.html">&para; <xsl:value-of select="@n"/></a>
-      <xsl:text>, </xsl:text>
-    </xsl:for-each>
-  </p>
-  <xsl:apply-templates select="div"/>
-</xsl:template>
-
-<xsl:template match="text[@id='ekz']//div[@type='section']">
-  <xsl:result-document method="html" href="ekz_{@n}.html">	
-  <html>
-   <head>
-     <link title="stilo" type="text/css" rel="stylesheet"
-     href="../css/{$stylesheet}" />
-     <title>ekzercaro &para; <xsl:value-of select="@n"/>.</title>
-   </head>
-   <body background="../bld/papero.jpg">
-     <xsl:call-template name="header"/>
-     <h1>
-      <xsl:text>&para; </xsl:text>
-      <xsl:value-of select="@n"/>
-      <xsl:text>.</xsl:text>
-     </h1>
-     <xsl:apply-templates/>
-     <xsl:call-template name="footer"/>
-   </body>
-  </html>
-  </xsl:result-document>
-</xsl:template>
-
-
-<!-- litersekciojn de UV en proprajn dosierojn -->
-
-<xsl:template match="text[@id='univort']/body">
-  <p align="center">
-    <xsl:for-each select="./div[@type='letter']">
-      <a href="uv_{@n}.html"><xsl:value-of select="head"/></a>
-      <xsl:if test="not(@n='Z')">
-        <xsl:text>, </xsl:text>
-      </xsl:if>
-    </xsl:for-each>
-  </p>
-  <hr/>
-  <xsl:apply-templates select="./div[@type='section']"/>
-  <xsl:apply-templates select="./div[@type='letter']"/>	
-</xsl:template>
-
-<xsl:template match="text[@id='univort']/body/div[@type='section']/p">
-  <p class="first_p">
-  <xsl:apply-templates/>
-  </p>
-  <hr/>
-</xsl:template>
-
-<xsl:template match="text[@id='univort']//div[@type='letter']">
-  <xsl:result-document method="html" href="uv_{@n}.html">	
-  <html>
-   <head>
-     <link title="stilo" type="text/css" rel="stylesheet"
-     href="../css/{$stylesheet}" />
-     <title>universala vortaro <xsl:value-of select="@n"/></title>
-   </head>
-   <body background="../bld/papero.jpg">
-     <xsl:call-template name="header"/>
-     <xsl:apply-templates/>
-     <xsl:call-template name="footer"/>
-   </body>
-  </html>
-  </xsl:result-document>
-</xsl:template>
-
-
-<!-- akademiajn korektojn po lingvo metu en propran dosieron -->
-
-<xsl:template match="text[@id='akkor']/body">
-  <center>
-    <xsl:apply-templates select="head"/>
-  </center>
-  <!-- enhavtabelo por la kvin lingvoj de korekto -->
-  <ul>
-    <xsl:for-each select="./div[@type='chapter']">
-      <li class="content"><a href="{@id}.html">
-        <xsl:apply-templates select="head" mode="toc"/>
-      </a></li>
-    </xsl:for-each>
-  </ul>
-  <hr/>
-  <xsl:apply-templates select="div"/>
-  <xsl:for-each select="div[@type='prolog']">
-    <xsl:call-template name="footer"/>
-  </xsl:for-each>
 </xsl:template>
 
 
@@ -609,13 +488,16 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
-<xsl:template match="list[@type='dict']/item">
+<!-- strukturita enhavo de vortlistero vorto + pluraj tradukoj ks-->
+<xsl:template match="list[@type='dict']/item[list]">
   <p class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates select="list[@type='def']"/>
   </p>
   <xsl:apply-templates select="list[@type='deriv']"/>
+  <xsl:apply-templates select="note"/>
 </xsl:template>
+
 
 <xsl:template match="list[@type='deriv']">
   <xsl:apply-templates select="item"/>
@@ -628,7 +510,7 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
-<xsl:template match="list[@type='deriv']/item">
+<xsl:template match="list[@type='deriv']/item[list]">
   <p class="dict-subentry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates/>
@@ -637,6 +519,13 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="list[@type='def']">
   <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="item[@type='def' and not(list)]">
+  <p class="dict-entry">
+    <xsl:apply-templates select="preceding-sibling::label[1]"/>
+    <i><xsl:apply-templates/></i>
+  </p>
 </xsl:template>
 
 <xsl:template match="list[@type='def']/item">
@@ -651,50 +540,26 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<!-- Akademiaj korektoj de UV -->
-<xsl:template match="text[@id='akkor']//div[@type='chapter']">
-  <xsl:result-document method="html" href="{@id}.html">	
-  <html>
-   <head>
-     <link title="stilo" type="text/css" rel="stylesheet"
-     href="../css/{$stylesheet}" />
-     <title>Akademiaj korektoj &dash; <xsl:value-of select="head"/>.</title>
-   </head>
-   <body background="../bld/papero.jpg">
-     <xsl:call-template name="header"/>
-     <h1>
-      <xsl:apply-templates select="head"/>
-     </h1>
-     <xsl:apply-templates select="div|list|salute|p|signed"/>
-     <xsl:call-template name="footer"/>
-   </body>
-  </html>
-  </xsl:result-document>
-</xsl:template>
-
 <!-- esperanta vortindekso -->
 
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
+	 //list[@type='dict']/item[not(@rend='hidden')]"
 	 use="translate(substring(.,1,1),
     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
+	    //list[@type='dict']/item[not(@rend='hidden')]"
          use="."/>
 
 <xsl:template name="wordindex">
 
   <!-- elektu por chiu litero unu reprezentanton -->
   <xsl:for-each select=
-    "(//list[@type='dict']//label[not(@rend='hidden')] |
-	    //emph[@lang='eo'] | 
-	    //hi[@lang='eo'])
+    "( //list[@type='dict']//label[not(@rend='hidden')] |
+	    //list[@type='dict']/item[not(@rend='hidden')] )
 	    [count(.|key('eoletters',
 	    translate(substring(.,1,1),
     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',

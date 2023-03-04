@@ -142,6 +142,11 @@ voku ekz-e:
        style="${xsl}/fundamento.xsl" classpathref="saxon.classpath"/>
    </target>
 
+   <target name="ofcaldonoj" description="kreas HTML-paghojn el ofcaldonoj.xml">
+     <xslt in="${xml}/ofcaldonoj_1.xml" out="${celo}/ofcaldonoj/index.html"
+       style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath"/>
+   </target>   
+
    <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
      <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
        style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
