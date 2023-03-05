@@ -14,6 +14,11 @@
 	text-indent: 0;
 }		
 
+.dict-entry>li::marker, 
+.dict-subentry>li::marker {
+	font-weight: bold;
+}
+
 .dict-subentry {
 	    font-size: 12pt;
 	    text-align: left; 
@@ -25,7 +30,7 @@
 
 
 .dict-subentry li {
-	margin-left: 1em;
+	margin-left: -0.5em;
 	text-indent: 0;
 }		
 

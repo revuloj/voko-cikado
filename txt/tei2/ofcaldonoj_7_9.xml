@@ -895,7 +895,7 @@ RIM. Pri tiu teksto, el 43 membroj de la Akademio voĉdonis 41, ne voĉdonis
 Pro simpleco la suba listo donas por ĉiu radiko: la kategorion (per la finaĵo),
 difinon (plej ofte prenitan el “Plena Ilustrita Vortaro”) kaj tradukon en ses
 lingvoj: angla, franca, germana, hispana, itala kaj portugala (indikitaj per la
-kutimaj simboloj, respektive A.F.G.H.I.P.)
+kutimaj simboloj<!--, respektive A.F.G.H.I.P.-->)
 </p><p>
 Rusaj tradukoj estas sub preparado, sed pro tipografiaj malfaciloj ili devos
 aperi aparte.
@@ -3073,7 +3073,11 @@ oni povas promeni; kulturata areo</eg>.</item>
 </item>
 
 <label lang="eo">asbest&strek;o</label><item>Mola griza fibra minerala substanco, el kiu oni povas fari teksaĵon
-izolantan kontraŭ varmego kaj fajro. <note>(1)</note></item>
+izolantan kontraŭ varmego kaj fajro. 
+<note rend="footnote" n="1"><hi>Asbesto.</hi> La oficialigita difino de <emph>asbesto</emph> bedaŭrinde enhavas eraron.
+Asbesto ne estas ĉiam griza. Tiu eraro estis malkovrita nur kiam estis tro
+malfrue por haltigi la oficialigan proceduron. La Akademio intencas iam
+oficiale ĝustigi tiun difinotekston.</note></item>
 
 <label lang="eo">aspirin&strek;o</label><item>Medikamento uzata precipe kontraŭ doloro, febro kaj inflamo,
 konsistanta el substanco kun la ĥemia formulo CH₃-CO-O-C₆H₄-COOH.</item>
@@ -3081,7 +3085,7 @@ konsistanta el substanco kun la ĥemia formulo CH₃-CO-O-C₆H₄-COOH.</item>
 <label lang="eo">avokad&strek;o</label><item>Frukto de avokadujo, kun verda aŭ bruneta ŝelo (el kiu oni povas
 ĝin manĝi), tre nutra, butereca karno, kaj unu sola tre granda malmola
 kerno. 
-<list type="deriv"><label lang="eo">avokad&strek;uj&strek;o, avokad&strek;arb&strek;o</label><item>Arbo el tropika Ameriko, kies frukto estas avokado. (Persea americana.)</item>
+<list type="deriv"><label lang="eo">avokad&strek;uj&strek;o, avokad&strek;arb&strek;o</label><item>Arbo el tropika Ameriko, kies frukto estas avokado. (<foreign lang="la">Persea americana.</foreign>)</item>
 </list>
 </item>
 
@@ -3100,7 +3104,7 @@ aŭ honori ion, ofte kun festparoladoj k.s.).</item>
 
 <label lang="eo">beletr&strek;o</label>
 <item>Arta literaturo plezurocela aŭ distrocela, precipe tia, kiu rakontas pri okazaĵoj kaj personoj imagitaj. 
-  <list type="deriv"><label>beletr/aĵ/o</label><item>Verko beletra.</item>
+  <list type="deriv"><label>beletr&strek;aĵ&strek;o</label><item>Verko beletra.</item>
   </list>
 </item>
 
@@ -3116,38 +3120,43 @@ prezenti tian nombron oni bezonas almenaŭ 10 bitojn</eg>.
 <list type="deriv"><label lang="eo">bit&strek;ok&strek;o</label><item>Grupo de
   ok bitoj traktata kiel tutaĵo (kiel unuo en komputado k.s.).</item>
 </list>
-<note>(2)</note>
+<note rend="footnote" n="2"><hi>Bito.</hi> La Akademio lasas por posta konsidero la demandon, ĉu <emph>bito</emph> estu
+ankaŭ la nomo de la mezurunuo el informteorio, aŭ ĉu oni tiun nomu
+<emph>ŝanono</emph>.</note>
 </item>
  
 <label lang="eo">bizon&strek;o</label><item>Sovaĝa remaĉanta parhufa bovosimila mamulo Nord-Amerika kaj
-Eŭropa. (Bison bison, Bison bonasus.)</item>
+Eŭropa. (<foreign lang="la">Bison bison, Bison bonasus.</foreign>)</item>
 
 <label lang="eo">bluf&strek;i</label><item>Ŝajnigi sin supera al kontraŭulo por konduki tiun al eraro: <eg>ne timu
 lian minacon, ĉar li blufas</eg>.</item>
 
 <label lang="eo">boac&strek;o</label><item>Arkta remaĉanta mamulo portanta kornojn (en la Fundamento nom-
-ata norda cervo). (Rangifer tarandus.)</item>
+ata norda cervo). (<foreign lang="la">Rangifer tarandus.</foreign>)</item>
 
 <label lang="eo">bradip&strek;o</label><item>Centr-Amerika kaj Sud-Amerika mamulo, kiu pendas de arbo-
 branĉoj per la hokaj ungegoj de siaj tre longaj dufingraj aŭ trifingraj
-membroj, kaj sin movas tre malrapide. (Bradypus.)</item>
+membroj, kaj sin movas tre malrapide. (<foreign lang="la">Bradypus.</foreign>)</item>
 
 <label lang="eo">brit&strek;o</label><item>
 <list type="def">
   <item n="1">Ano de Britujo.</item>
   <item n="2">Ano de la antikva indiĝena gento de Britujo 1.</item>
 </list>
-</item>
-
-<label lang="eo">Brit&strek;uj&strek;o</label><item>
-<list type="def">
-  <item n="1">Insulo en Eŭropo, inter Francujo kaj Irlando.</item>
-  <item n="2">Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
+<list type="deriv">  
+  <label lang="eo">Brit&strek;uj&strek;o</label><item>
+  <list type="def">
+    <item n="1">Insulo en Eŭropo, inter Francujo kaj Irlando.</item>
+    <item n="2">Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
+  </list>
+  </item>
 </list>
 </item>
 
+
 <label lang="eo">brokol&strek;o</label><item>Speco de legoma brasiko, parenca al florbrasiko, kun kapo verda
-(ĉe iaj specoj tamen violkolora aŭ eĉ blanka) konsistanta el nefirma floraro. (Brassica oleracea italica.)</item>
+(ĉe iaj specoj tamen violkolora aŭ eĉ blanka) konsistanta el nefirma floraro. 
+(<foreign lang="la">Brassica oleracea italica.</foreign>)</item>
 
 <label lang="eo">burokrat&strek;o</label><item>
 <list type="def">
@@ -3184,7 +3193,7 @@ radojn ktp.</item>
 
 <label lang="eo">ĉimpanz&strek;o</label><item>Senvosta simio homsimila kun grandaj elstaraj oreloj, kaj kun
 brakoj pli longaj ol la kruroj, malhelhara, vivanta en centra kaj okcidenta
-Afriko. (Pan troglodytes.)</item>
+Afriko. (<foreign lang="la">Pan troglodytes.</foreign>)</item>
 
 <label lang="eo">ĉin&strek;o</label><item>
 <list type="def">
@@ -3280,7 +3289,7 @@ anstataŭ diraĵo, kiu povas esti rigardata kiel tro kruda, tro malagrabla, tro 
 
 <label lang="eo">eŭkalipt&strek;o</label><item>Ĉiamverda rapidkreska arbo indiĝena en Aŭstralio, kun tre alta
 trunko kaj kun folioj enhavantaj oleon fortodoran kaj seninfektigan,
-kreskigata por medikamenta kaj papera industrioj. (Eucalyptus.)</item>
+kreskigata por medikamenta kaj papera industrioj. (<foreign lang="la">Eucalyptus.</foreign>)</item>
 
 <label lang="eo">eŭr&strek;o</label>
 <item>Monunuo de Eŭropa Unio: centono de eŭro estas cendo; ĝi kostas
@@ -3380,7 +3389,7 @@ malrapi de glisis al la tero</eg>.</item>
 <item>Frukto de gujavujo, tre aroma, ronda aŭ longforma, ruĝe aŭ flave verda, pomo-granda, uzata por konfitaĵo ktp. 
 <list type="deriv">
   <label lang="eo">gujav&strek;uj&strek;o, gujav&strek;arb&strek;o</label><item>
-  Arbo el tropika Ameriko, kreskigata pro sia frukto gujavo. (Psidium guajava.)</item>
+  Arbo el tropika Ameriko, kreskigata pro sia frukto gujavo. (<foreign lang="la">Psidium guajava.</foreign>)</item>
 </list>
 </item>
 
@@ -3406,7 +3415,9 @@ ligia, socia k.s., tra kiuj la grupanoj rigardas la realon.</item>
 <label lang="eo">ipsilon&strek;o</label><item>La litero Y, y.</item>
 
 <label lang="eo">Israel&strek;o</label><item>Ŝtato en okcidenta Azio, ĉe Mediteraneo, sude de Libano, fondita
-en 1948. Internacia landokodaĵo: IL. <note>(3)</note></item>
+en 1948. Internacia landokodaĵo: IL. 
+<note rend="footnote" n="3">
+<hi>Israelo.</hi> Kromnomo por Jakob estis <emph>Izrael(o)</emph>, laŭ kiu oni nomas la antikvan popolon <emph>Izrael(o)</emph> aŭ la antikvajn hebreojn <emph>Izraelidoj</emph>, ekzemple en la Esperanta Biblio.</note></item>
 
 <label lang="eo">japan&strek;o</label><item>
 <list type="def">
@@ -3452,7 +3463,7 @@ vastasence Macropodidae.)</item>
 
 <label lang="eo">kapsik&strek;o</label><item>
 <list type="def">
-  <item n="1">Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.)</item>
+  <item n="1">Kreskaĵo, kiu produktas kapsikon 2. (<foreign lang="la">Capsicum.</foreign>)</item>
   <item n="2">Verda, ruĝa aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
 interne, uzata kiel legomo kaj kiel spico: <eg>akra kapsiko; neakra kapsiko; el
 kapsiko oni faras paprikon</eg>.</item>
@@ -3515,11 +3526,17 @@ kloni ĉelon.</item>
    <label lang="eo">kod&strek;aĵ&strek;o</label>
    <item>Grupo da signoj, prezentanta koditan informon.</item>
 </list>
-<note>(4)</note>
+<note rend="footnote" n="4"><hi>Kodo.</hi> La Akademio lasas por posta konsidero la demandon, ĉu la juran
+sencon “sistema normodona dokumento pri iu branĉo de socia aŭ faka
+vivo” oni esprimu per la vorto <emph>kodo</emph> (kio konformus al la rekomendo de la aŭtoritataj vortaroj kaj al la uzado de plimulto, sed malkoheras kun la
+signosistema senco), aŭ per <emph>kodekso</emph> (uzata malpli ofte, sed pli kohere kun la ĉefsenco).</note>
 </item>
 
 <label lang="eo">kodeks&strek;o</label><item>Libro, precipe antikva manuskripto, el falditaj kaj binditaj folioj
-(kontraste al libro rulforma). <note>(5)</note></item>
+(kontraste al libro rulforma). 
+<note rend="footnote" n="5"><hi>Kodekso.</hi> En multaj lingvoj per natura sencovastigo (<eg>kodekso, entenanta la leĝaron  de Justiniano; la Kodekso de Justiniano</eg>) la vorto
+<emph>kodekso</emph> akiris la sencon “kohera normodona dokumento pri iu branĉo de socia aŭ faka vivo”: <eg>civila kodekso; mara kodekso; honorkodekso</eg>. Tia uzo estas atestita ankaŭ en Esperanto, tamen ĝi restas konsiderinde malpli
+ofta ol la homonima uzo de la samdevena vorto <emph>kodo</emph>.</note></item>
 
 <label lang="eo">koher&strek;a</label><item>
   <list type="def">
@@ -3671,7 +3688,7 @@ la majuskla skribo de la kvina jarcento</eg>.</item>
 kun bonodora, maldika, facile forigebla ŝelo.
 <list type="deriv">
   <label lang="eo">mandarin&strek;uj&strek;o, mandarin&strek;arb&strek;o</label>
-  <item>Arbeto, kies frukto estas mandarino. (Citrus reticulata.)</item>
+  <item>Arbeto, kies frukto estas mandarino. (<foreign lang="la">Citrus reticulata.</foreign>)</item>
 </list>
 </item>
 
@@ -3684,15 +3701,16 @@ dolĉa, aroma, flava karno kaj kun granda plata kerno.
 
 <label lang="eo">maniok&strek;o</label><item>Tropika arbusto aŭ arbeto origine el Sud-Ameriko, kun tuberaj
 ameloriĉaj radikoj, kiuj estas manĝeblaj post prilaboro: <eg>dolĉa manioko;
-maldolĉa manioko; tapioko estas farita el manioko</eg>. (Manihot esculenta.)</item>
+maldolĉa manioko; tapioko estas farita el manioko</eg>. (<foreign lang="la">Manihot esculenta.</foreign>)</item>
 
 <label lang="eo">mate&strek;o</label><item>
 <list type="def">
   <item n="1">Arbo maksimume dek metrojn alta, kies ledecaj folioj, sekigitaj aŭ
-rostitaj, estas uzataj por infuzaĵoj. (Ilex paraguayensis.)</item>
+rostitaj, estas uzataj por infuzaĵoj. (<foreign lang="la">Ilex paraguayensis.</foreign>)</item>
   <item n="2">Sekigitaj aŭ
 rostitaj folioj de mateo 1.</item>
-  <item n="3">Infuzaĵo el mateo 2. <note>(6)</note></item>
+  <item n="3">Infuzaĵo el mateo 2. 
+<note rend="footnote" n="6"><hi>Mateo.</hi> La personan nomon <emph>Mateo</emph>, kaj la tutan problemon pri traktado de personaj nomoj, la Akademio prokrastis por posta konsidero.</note></item>
 </list>
 </item>
 
@@ -3711,7 +3729,7 @@ adicio/multipliko de matricoj.</item>
 <label lang="eo">melongen&strek;o</label><item>
 <list type="def">
   <item n="1">Neligneca kreskaĵo kun dentaj folioj, violetaj floroj kaj
-grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj alikoloraj). (Solanum melongena.)</item>
+grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj alikoloraj). (<foreign lang="la">Solanum melongena.</foreign>)</item>
   <item n="2">Frukto de melongeno 1.</item>
 </list>
 </item>
@@ -3858,7 +3876,7 @@ pecoj, sed iafoje en unu kuna peco).</item>
 
 <label lang="eo">pingven&strek;o</label><item>Mara birdo nigra-blanka, kiu ne povas flugi, sed uzas la flugilojn
 por tre lerte naĝi, vivanta en la sudaj partoj de la tero, precipe en
-Antarkto. (Spheniscidae.)</item>
+Antarkto. (<foreign lang="la">Spheniscidae.</foreign>)</item>
 
 <label lang="eo">pis&strek;i</label><item>(familiare) Urini: <eg>la infaneto pisis en pispoton; ĉi tie hundoj pisas</eg>.
 <list type="deriv">
@@ -3872,7 +3890,7 @@ floro, kaj kiu transportite al aliaj floroj (pere de vento, akvo, insektoj aŭ
 aliaj bestoj) servas por la reproduktado de la kreskaĵo.</item>
 
 <label lang="eo">polp&strek;o</label><item>Okbraka mara molusko, kapopiedulo kun po unu aŭ du vicoj da suĉ-
-iloj sur la brakoj. (Eledona, Octopus k.a.)</item>
+iloj sur la brakoj. (<foreign lang="la">Eledona, Octopus</foreign> k.a.)</item>
 
 <label lang="eo">prestiĝ&strek;o</label><item>Bona reputacio: <eg>la Kongreso levos la prestiĝon de nia afero en la
 okuloj de la mondo; la kompanio perdis sian prestiĝon pro la trompo</eg>.</item>
@@ -3950,8 +3968,8 @@ montrata per halto de globeto sur unu el la fakoj de horizontale turniĝanta rad
 <label lang="eo">saksofon&strek;o</label><item>Blovinstrumento precipe ĵaza, militista kaj dancorkestra kun
 anĉo kaj plej ofte S-forma metala (latuna) tubo.</item>
 
-<label lang="eo">salikok&strek;o</label><item>Malgranda senvertebra akvobesto, dekkrura krustulo. (Pandalus,
-Leander, Crangon, Paeneus kaj parencaj genroj.)</item>
+<label lang="eo">salikok&strek;o</label><item>Malgranda senvertebra akvobesto, dekkrura krustulo. (<foreign lang="la">Pandalus,
+Leander, Crangon, Paeneus</foreign> kaj parencaj genroj.)</item>
 
 <label lang="eo">satelit&strek;o</label><item>
 <list type="def">
@@ -4072,7 +4090,7 @@ komencu produkti sonon, lumon, varmon, akvon ktp. (la gramatika objekto povas in
 
 <label lang="eo">ŝenopraz&strek;o</label><item>Spicherbo parenca al cepo kaj ajlo, kun blankaj floroj kaj
 longaj tubformaj folioj uzataj pro sia aromo en salato kaj aliaj manĝaĵoj.
-(Allium schoenoprasum.)</item>
+(<foreign lang="la">Allium schoenoprasum.</foreign>)</item>
 
 <label lang="eo">ŝok&strek;i</label><item>Forte kaj malagrable surprizi aŭ ĉagreni: <eg>lia konduto ŝokis min; la
 novaĵo ŝokis ŝin</eg>. 
@@ -4096,7 +4114,7 @@ vizita per aparato, kiu montras la ŝuldatan veturpagon en ĉiu momento.</item>
 
 <label lang="eo">tapir&strek;o</label><item>Porkosimila mamulo el la ordo de neparhufuloj, kun dikaj kruroj,
 mallonga vosto kaj mallonga movebla rostro, vivanta en suda Azio kaj
-Sud&strek;Ameriko. (Tapirus.)</item>
+Sud&strek;Ameriko. (<foreign lang="la">Tapirus.</foreign>)</item>
 
 <label lang="eo">telepati&strek;o</label><item>Komunikiĝo inter mensoj per aliaj rimedoj ol la ordinaraj sensoj:
 la ekzisto de telepatio ne estas science pruvita.</item>
@@ -4134,7 +4152,7 @@ por grupigi genrojn de grandaj familioj).</item>
 </item>
 
 <label lang="eo">tukan&strek;o</label><item>Birdo el tropika Ameriko, kun brilkoloraj plumoj kaj grandega, sed
-malpeza forta beko. ( Rhamphastidae .)</item>
+malpeza forta beko. (<foreign lang="la">Rhamphastidae.</foreign>)</item>
 
 <label lang="eo">tumor&strek;o</label><item>Ŝvelaĵo aŭ kreskaĵo en la korpo pro malnormala multobliĝo de
 ĉeloj, kiu povas esti sendanĝera, se ĝi kreskas malrapide kaj ne disvast-
@@ -4207,43 +4225,6 @@ sistanta el la klitoro kaj la vaginaj lipoj.</item>
 plastaj) dentoj, kiuj interplektiĝas per ŝovado de movebla peco intera</item>
 
 </list>
-</div>
-
-<div>
-<head>Notoj</head>
-
-<list>
-<item n="1">
-<hi>1. Asbesto.</hi> La oficialigita difino de <emph>asbesto</emph> bedaŭrinde enhavas eraron.
-
-Asbesto ne estas ĉiam griza. Tiu eraro estis malkovrita nur kiam estis tro
-malfrue por haltigi la oficialigan proceduron. La Akademio intencas iam
-oficiale ĝustigi tiun difinotekston.
-</item>
-<item n="2">
-<hi>2. Bito.</hi> La Akademio lasas por posta konsidero la demandon, ĉu <emph>bito</emph> estu
-ankaŭ la nomo de la mezurunuo el informteorio, aŭ ĉu oni tiun nomu
-<emph>ŝanono</emph>.
-</item>
-<item n="3">
-<hi>3. Israelo.</hi> Kromnomo por Jakob estis <emph>Izrael(o)</emph>, laŭ kiu oni nomas la antikvan popolon <emph>Izrael(o)</emph> aŭ la antikvajn hebreojn <emph>Izraelidoj</emph>, ekzemple en la Esperanta Biblio.
-</item>
-<item n="4">
-<hi>4. Kodo.</hi> La Akademio lasas por posta konsidero la demandon, ĉu la juran
-sencon “sistema normodona dokumento pri iu branĉo de socia aŭ faka
-vivo” oni esprimu per la vorto <emph>kodo</emph> (kio konformus al la rekomendo de la aŭtoritataj vortaroj kaj al la uzado de plimulto, sed malkoheras kun la
-signosistema senco), aŭ per <emph>kodekso</emph> (uzata malpli ofte, sed pli kohere kun la ĉefsenco).
-</item>
-<item n="5">
-<hi>5. Kodekso.</hi> En multaj lingvoj per natura sencovastigo (<eg>kodekso, entenanta la leĝaron  de Justiniano; la Kodekso de Justiniano</eg>) la vorto
-<emph>kodekso</emph> akiris la sencon “kohera normodona dokumento pri iu branĉo de socia aŭ faka vivo”: <eg>civila kodekso; mara kodekso; honorkodekso</eg>. Tia uzo estas atestita ankaŭ en Esperanto, tamen ĝi restas konsiderinde malpli
-ofta ol la homonima uzo de la samdevena vorto <emph>kodo</emph>.
-</item>
-<item n="2">
-<hi>6. Mateo.</hi> La personan nomon <emph>Mateo</emph>, kaj la tutan problemon pri traktado de personaj nomoj, la Akademio prokrastis por posta konsidero.
-</item>
-</list>
-
 </div>
 
 </body>
