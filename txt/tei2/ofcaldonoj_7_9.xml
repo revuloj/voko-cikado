@@ -3245,10 +3245,12 @@ disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
 
 <label lang="eo">diskriminaci&strek;i</label><item>Oficiale aŭ efektive fari distingon inter personoj, tiel ke oni
 rifuzas al parto el ili rajton, kiun oni donas al aliaj el ili: 
-<eg>diskriminacii eksterlandanojn; diskriminacii malplimulton; diskriminaciata popolo</eg>.</item>
-
-<label lang="eo">diskriminaci&strek;o</label><item>Ago diskriminacii: rasa diskriminacio; seksa diskriminacio; diskriminacio kontraŭ virinoj; diskriminacio laŭ aĝo; pozitiva
-diskriminacio.</item>
+<eg>diskriminacii eksterlandanojn; diskriminacii malplimulton; diskriminaciata popolo</eg>.
+<list type="deriv">
+  <label lang="eo">diskriminaci&strek;o</label>
+  <item>Ago diskriminacii: <eg>rasa diskriminacio; seksa diskriminacio; diskriminacio kontraŭ virinoj; diskriminacio laŭ aĝo; pozitiva diskriminacio</eg>.</item>
+</list>
+</item>
 
 <label lang="eo">dizert&strek;i</label><item>Fuĝi el militservo kun intenco ne plu reveni al ĝi: <eg>la soldatoj
 dizertis</eg>.</item>
@@ -3433,10 +3435,11 @@ en 1948. Internacia landokodaĵo: IL.
   <item n="1">Ano de la ĉefgento de Japanujo.</item>
   <item n="2">(vastasence) Japanujano.</item>
 </list>
+<list type="deriv">
+  <label lang="eo">Japan&strek;uj&strek;o</label>
+  <item>Lando en orienta Azio, insuloĉeno inter Pacifiko kaj la Japana Maro. Internacia landokodaĵo: JP.</item>
+</list>
 </item>
-
-<label lang="eo">Japan&strek;uj&strek;o</label><item>Lando en orienta Azio, insuloĉeno inter Pacifiko kaj la Japana
-Maro. Internacia landokodaĵo: JP.</item>
 
 <label lang="eo">ĵaz&strek;o</label><item>Muzikspeco kreita en la 1920aj jaroj en suda Usono, karakterizata
 ĉefe de improvizado kaj de sinkopa ritmo.</item>
@@ -3915,8 +3918,12 @@ kaj produktanta parton de la sperma likvo.</item>
 azoto, hidrogeno kaj sulfuro: <eg>ovoblankaĵo enhavas proteinojn kaj akvon</eg>.</item>
 
 <label lang="eo">pub&strek;o</label><item>La malsupra parto de la ventro, ĉe plenkreskuloj normale kovrita de
-haroj, kovranta la antaŭan parton de la koksosto.</item>
- <label lang="eo">pub&strek;ost&strek;o</label><item> Antaŭa parto de la koksosto.</item>
+haroj, kovranta la antaŭan parton de la koksosto.
+<list type="deriv">
+  <label lang="eo">pub&strek;ost&strek;o</label>
+  <item> Antaŭa parto de la koksosto.</item>
+</list>
+</item>
 
 <label lang="eo">pulp&strek;o</label><item>
 <list type="def">
@@ -4129,10 +4136,12 @@ Sud&strek;Ameriko. (<foreign lang="la">Tapirus.</foreign>)</item>
 la ekzisto de telepatio ne estas science pruvita.</item>
 
 <label lang="eo">tenis&strek;o</label><item>Sporto, en kiu du ludantoj (aŭ du paroj da ludantoj) per rakedoj
-alterne batas kaj rebatas pilketon trans reton streĉitan inter la ludantoj.</item>
-
-<label lang="eo">tabl&strek;o&strek;tenis&strek;o</label><item> Tenisosimila ludo sur speciala tablo, en kiu oni uzas
-lignajn batilojn kaj tre malpezan plastan pilketon.</item>
+alterne batas kaj rebatas pilketon trans reton streĉitan inter la ludantoj.
+<list type="deriv">
+  <label lang="eo">tabl&strek;o&strek;tenis&strek;o</label>
+  <item>Tenisosimila ludo sur speciala tablo, en kiu oni uzas lignajn batilojn kaj tre malpezan plastan pilketon.</item>
+</list>
+</item>
 
 <label lang="eo">test&strek;o</label><item>Ekzameno, mezurado aŭ enketo por kontroli ion (ekz. nivelon de
 lernantoj, kvaliton de produkto, korpan sanstaton).</item>

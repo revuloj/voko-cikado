@@ -619,6 +619,7 @@ listo de tradukoj -->
 
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
+   //list[@type='dict']/item[@lang='eo'] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
 	 use="translate(substring(text(),1,1),
@@ -627,6 +628,7 @@ listo de tradukoj -->
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
+   //list[@type='dict']/item[@lang='eo'] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
          use="."/>
@@ -638,8 +640,9 @@ listo de tradukoj -->
 <!--//list[@type='dict']//label[not(@rend='hidden')] |
 	    //list[@type='dict']/item[not(list)] -->
 
-  <xsl:for-each select=
-    "( //list[@type='dict']//label[not(@rend='hidden')] |
+  <xsl:for-each select="(
+   //list[@type='dict']//label[not(@rend='hidden')] |
+   //list[@type='dict']/item[@lang='eo'] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo'])
 	    [count(.|key('eoletters',
