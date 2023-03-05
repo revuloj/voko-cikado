@@ -374,24 +374,10 @@ specialajn regulojn ne au alie difinitajn tie.
   </p>
 </xsl:template>
 
-<xsl:template match="div[@id='antparol']/list[@rend='1)']">
-  <xsl:apply-templates/>
-</xsl:template>
 
 <xsl:template match="list[@rend='1)']/item[@n]">
   <p class="p">
   <xsl:value-of select="@n"/>) 
-  <xsl:apply-templates/>
-  </p>
-</xsl:template>
-
-<xsl:template match="div[@id='antparol']/list/item/p">
-  <xsl:apply-templates/>
-</xsl:template>
-
-<xsl:template match="div[@id='antparol']/list[@rend='1.']/item[@n]" priority="1">
-  <p class="p">
-  <xsl:value-of select="@n"/>. 
   <xsl:apply-templates/>
   </p>
 </xsl:template>
@@ -458,7 +444,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
-<!-- Transformado de "Universala Vortaro" -->
+<!-- Transformado de "Vortaraj listoj" -->
 
 <xsl:template match="list[@type='dict']">
   <div class="dict">
@@ -466,6 +452,7 @@ specialajn regulojn ne au alie difinitajn tie.
   </div>
 </xsl:template>
 
+<!-- antaŭ ĉiu "item" povas aperi "label" kun la kapvorto -->
 <xsl:template match="list[@type='dict']/label">
   <strong id="{generate-id()}">
     <xsl:apply-templates/>
@@ -478,6 +465,8 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="label[@rend='hidden']" priority="2"/>
+
+<!-- emfazojn kun lingvo=eo ni ankaŭ ebligas adresi el la indekso -->
 
 <xsl:template match="emph[@lang='eo']">
   <em id="{generate-id()}">
@@ -492,12 +481,13 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
-<!-- strukturita enhavo de vortlistero vorto + pluraj tradukoj ks-->
+<!-- strukturita enhavo de vortlistero vorto + pluraj tradukoj ks -->
 
 <xsl:template match="list[@type='dict']/item[list]">
   <p class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates select="list[@type='def']"/>
+  <xsl:apply-templates select="list[@type='tr']"/>
   </p>
   <xsl:apply-templates select="list[@type='deriv']"/>
   <xsl:apply-templates select="note"/>
@@ -575,6 +565,24 @@ listo de tradukoj -->
   </p>
 </xsl:template>
 
+
+<!-- listo kun tradukoj -->
+
+<xsl:template match="list[@type='tr']">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<xsl:template match="list[@type='tr']/item">
+  <xsl:choose>
+    <xsl:when test="position()=last()">
+      <xsl:apply-templates/><xsl:text>. </xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:apply-templates/><xsl:text> | </xsl:text>	
+    </xsl:otherwise>
+  </xsl:choose>
+</xsl:template>
+
 <!-- listo kun difinoj esperantaj -->
 
 <xsl:template match="list[@type='def']">
@@ -605,16 +613,6 @@ listo de tradukoj -->
 </xsl:template>
 
 
-<xsl:template match="list[@rend='def']/item">
-  <xsl:choose>
-    <xsl:when test="position()=last()">
-      <xsl:apply-templates/><xsl:text>. </xsl:text>
-    </xsl:when>
-    <xsl:otherwise>
-      <xsl:apply-templates/><xsl:text> | </xsl:text>	
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
 
 
 <!-- esperanta vortindekso -->
