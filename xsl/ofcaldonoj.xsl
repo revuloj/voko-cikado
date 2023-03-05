@@ -544,8 +544,9 @@ listo de tradukoj -->
 <xsl:template match="list[@type='dict' and @rend='def']/item" priority="1">
   <p class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
-  <xsl:apply-templates select="text()|eg|list[@type='def']"/>
+  <xsl:apply-templates select="text()|eg"/>
   </p>
+  <xsl:apply-templates select="list[@type='def']"/>
   <xsl:apply-templates select="list[@type='deriv']"/>
   <xsl:apply-templates select="note"/>
 </xsl:template>
@@ -567,7 +568,7 @@ listo de tradukoj -->
   </strong>
 </xsl:template>
 
-<xsl:template match="list[@type='deriv']/item[list]">
+<xsl:template match="list[@type='deriv']/item">
   <p class="dict-subentry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates/>
@@ -576,8 +577,16 @@ listo de tradukoj -->
 
 <!-- listo kun difinoj esperantaj -->
 
-<xsl:template match="list[@type='def']">
+<xsl:template match="list[@type='deriv']/list[@type='def']">
+<ol class="dict-subentry">
   <xsl:apply-templates/>
+</ol>
+</xsl:template>
+
+<xsl:template match="list[@type='def']">
+<ol class="dict-entry">
+  <xsl:apply-templates/>
+</ol>
 </xsl:template>
 
 <xsl:template match="item[@rend='def' and not(list)]">

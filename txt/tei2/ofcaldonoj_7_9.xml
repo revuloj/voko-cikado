@@ -3058,10 +3058,10 @@ manĝo.</item>
 
 <label lang="eo">are&strek;o</label>
 <item><list type="def">
-<item>1 Mezuro de surfaco: <eg>ŝi mezuris la areon de la kampo; la areo de la
+<item n="1">Mezuro de surfaco: <eg>ŝi mezuris la areon de la kampo; la areo de la
 ĉambro estas 20 kvadrataj metroj; tiu lando havas areon de pli ol cent mil
 kvadrataj kilometroj</eg>.</item> 
-<item>2 Parto de surfaco; tereno: <eg>tie estas parka areo, kie
+<item n="2">Parto de surfaco; tereno: <eg>tie estas parka areo, kie
 oni povas promeni; kulturata areo</eg>.</item>
 </list>
 </item>
@@ -3090,11 +3090,11 @@ aŭ honori ion, ofte kun festparoladoj k.s.).</item>
 
 <label lang="eo">baskul&strek;o</label><item>
 <list type="def">
-  <item>1 Aparato konsistanta el trabo, stango, tabulo aŭ simila afero, kies
+  <item n="1">Aparato konsistanta el trabo, stango, tabulo aŭ simila afero, kies
   unu ekstremaĵo leviĝas, kiam la alia malsupreniras.</item>
-  <item>2 Ludilo konsistanta el tabulo aŭ stango, kiu estas ekvilibrigita sur mezpunkto, kaj sur kies ek-
+  <item n="2">Ludilo konsistanta el tabulo aŭ stango, kiu estas ekvilibrigita sur mezpunkto, kaj sur kies ek-
   stremaĵoj povas sidi personoj alterne leviĝantaj kaj malleviĝantaj laŭ la movo de la tabulo aŭ stango.</item>
-  <item>3 Cirkvito, meĥanismo k.s., kiu analoge al baskulo 1 povas alterni inter du statoj.</item>
+  <item n="3">Cirkvito, meĥanismo k.s., kiu analoge al baskulo 1 povas alterni inter du statoj.</item>
 </list>
 </item>
 
@@ -3134,15 +3134,15 @@ membroj, kaj sin movas tre malrapide. (Bradypus.)</item>
 
 <label lang="eo">brit&strek;o</label><item>
 <list type="def">
-  <item>1 Ano de Britujo.</item>
-  <item>2 Ano de la antikva indiĝena gento de Britujo 1.</item>
+  <item n="1">Ano de Britujo.</item>
+  <item n="2">Ano de la antikva indiĝena gento de Britujo 1.</item>
 </list>
 </item>
 
 <label lang="eo">Brit&strek;uj&strek;o</label><item>
 <list type="def">
-  <item>1 Insulo en Eŭropo, inter Francujo kaj Irlando.</item>
-  <item>2 Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
+  <item n="1">Insulo en Eŭropo, inter Francujo kaj Irlando.</item>
+  <item n="2">Regno, kiu inkluzivas Britujon 1 kaj Nord-Irlandon. Internacia landokodaĵo: GB.</item>
 </list>
 </item>
 
@@ -3151,15 +3151,15 @@ membroj, kaj sin movas tre malrapide. (Bradypus.)</item>
 
 <label lang="eo">burokrat&strek;o</label><item>
 <list type="def">
-  <item>1 Oficisto en administrejo (ŝtata), rigardata kiel parto de sistemo por regado kaj administrado. (Se oni parolas konkrete pri persono, oni preferas vortojn kiel oficisto, administranto, funkciulo k.s.)</item>
-  <item>2 (malŝate) Persono, kiu rigore sekvas la administrajn regulojn kaj rutinojn, sed ignoras la bazan celaron de la laboro aŭ la demokratian devon reagi al publikaj kritikoj.</item>
+  <item n="1">Oficisto en administrejo (ŝtata), rigardata kiel parto de sistemo por regado kaj administrado. (Se oni parolas konkrete pri persono, oni preferas vortojn kiel oficisto, administranto, funkciulo k.s.)</item>
+  <item n="2">(malŝate) Persono, kiu rigore sekvas la administrajn regulojn kaj rutinojn, sed ignoras la bazan celaron de la laboro aŭ la demokratian devon reagi al publikaj kritikoj.</item>
 </list>
 <list type="deriv">
   <label lang="eo">burokrat&strek;ar&strek;o</label><item>Tuto de la burokratoj 1 (en unu ŝtato k.s.).</item> 
   <label lang="eo">burokrat&strek;ism&strek;o</label><item>
     <list type="def">
-      <item>1 Sistemo de (kvazaŭa) regado fare de la burokrataro; administra sistemo, en kiu la burokratoj 1 havas tro da povo aŭ influo.</item> 
-      <item>2 (malŝate) La procedo-troigaj tendencoj de burokrato 2; sistema flegado aŭ apogado de tiaj tendencoj.</item>
+      <item n="1">Sistemo de (kvazaŭa) regado fare de la burokrataro; administra sistemo, en kiu la burokratoj 1 havas tro da povo aŭ influo.</item> 
+      <item n="2">(malŝate) La procedo-troigaj tendencoj de burokrato 2; sistema flegado aŭ apogado de tiaj tendencoj.</item>
     </list>
   </item>
 </list>
@@ -3188,8 +3188,8 @@ Afriko. (Pan troglodytes.)</item>
 
 <label lang="eo">ĉin&strek;o</label><item>
 <list type="def">
- <item>1 Ano de la ĉefgento de Ĉinujo.</item>
- <item>2 (vastasence) Ĉinujano.</item> 
+ <item n="1">Ano de la ĉefgento de Ĉinujo.</item>
+ <item n="2">(vastasence) Ĉinujano.</item> 
 </list>
 <list type="deriv"><label lang="eo">Ĉin&strek;uj&strek;o</label><item>
 Lando en orienta Azio, ĉe la Flava Maro, la Orientĉina Maro kaj la Sud-
@@ -3203,8 +3203,8 @@ batalo; defii amikon ŝakludi; (figure) ŝakludo defias la intelekton</eg>.</ite
 
 <label lang="eo">delt&strek;o</label><item>
 <list type="def">
- <item>1 La kvara litero de la greka alfabeto: Δ, δ. </item>
- <item>2 Pli-malpli triangula
+ <item n="1">La kvara litero de la greka alfabeto: Δ, δ. </item>
+ <item n="2">Pli-malpli triangula
 ebenaĵo, kiu estas formita el materialo alportita de la akvofluo, kaj tra kiu
 disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
 </list>
@@ -3212,15 +3212,15 @@ disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
 
 <label lang="eo">demografi&strek;o</label><item>
 <list type="def">
-  <item>1 Scienco pri la konsisto de la loĝantaro kaj pri ĝia evoluo.</item>
-  <item>2 Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj pri tendencoj de ilia evoluo: <eg>demografio de la urboj; demografio de la kamparaj regionoj</eg>.</item>
+  <item n="1">Scienco pri la konsisto de la loĝantaro kaj pri ĝia evoluo.</item>
+  <item n="2">Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj pri tendencoj de ilia evoluo: <eg>demografio de la urboj; demografio de la kamparaj regionoj</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">detektiv&strek;o</label><item>
 <list type="def">
-  <item>1 Polica esploristo, kies tasko estas eltrovi la faktojn pri krimoj.</item>
-  <item>2 Privata esploristo, kiu provas eltrovi la faktojn pri krimoj aŭ aliaj aferoj, ekz. komisie de privatulo.</item>
+  <item n="1">Polica esploristo, kies tasko estas eltrovi la faktojn pri krimoj.</item>
+  <item n="2">Privata esploristo, kiu provas eltrovi la faktojn pri krimoj aŭ aliaj aferoj, ekz. komisie de privatulo.</item>
 </list></item>
 
 <label lang="eo">dies&strek;o</label><item>Muziknota kromsigno, kiu montras altigon de tono: ♯.</item>
@@ -3241,13 +3241,13 @@ fortan impreson).</item>
 
 <label lang="eo">driv&strek;i</label><item>
 <list type="def">
-  <item>1 Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol intencite, sen klara direkto): <eg>la ŝipo drivis pro motordifekto</eg>.</item>
-  <item>2 Deflankiĝi de la intencita direkto pro puŝo de vento aŭ akvofluo: <eg>la kuglo drivis pro la forta vento, kaj tial ĝi ne trafis la celon</eg>.</item>
+  <item n="1">Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol intencite, sen klara direkto): <eg>la ŝipo drivis pro motordifekto</eg>.</item>
+  <item n="2">Deflankiĝi de la intencita direkto pro puŝo de vento aŭ akvofluo: <eg>la kuglo drivis pro la forta vento, kaj tial ĝi ne trafis la celon</eg>.</item>
 </list>
   <list type="deriv"><label lang="eo">driv&strek;o</label><item>
   <list type="def">
-    <item>1 Ago drivi.</item> 
-    <item>2 Malrapida ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): <eg>kontinenta drivo; lingva drivo</eg>.</item>
+    <item n="1">Ago drivi.</item> 
+    <item n="2">Malrapida ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): <eg>kontinenta drivo; lingva drivo</eg>.</item>
   </list>
   </item>
 </list>
@@ -3255,8 +3255,8 @@ fortan impreson).</item>
 
 <label lang="eo">ekologi&strek;o</label><item>
 <list type="def">
-  <item>1 Reciprokaj influoj inter vivantaj organismoj kaj ties natura medio.</item>
-  <item>2 Scienco pri ekologio 1.</item>
+  <item n="1">Reciprokaj influoj inter vivantaj organismoj kaj ties natura medio.</item>
+  <item n="2">Scienco pri ekologio 1.</item>
 </list>
 </item>
 
@@ -3307,9 +3307,9 @@ dek eŭrojn kaj kvindek cendojn.</item>
 
 <label lang="eo">festival&strek;o</label><item>
 <list type="def">
-  <item>1 Renkontiĝo dediĉita al arto (muziko, kino ktp.), ofte perioda kaj
+  <item n="1">Renkontiĝo dediĉita al arto (muziko, kino ktp.), ofte perioda kaj
 internacia: <eg>la Berlina Film-Festivalo; la Kultura Esperanto-Festivalo</eg>.</item>
-  <item>2 Amasa renkontiĝo kun parte festa karaktero: <eg>la Monda Festivalo de
+  <item n="2">Amasa renkontiĝo kun parte festa karaktero: <eg>la Monda Festivalo de
 Junularo kaj Studentaro</eg>.</item>
 </list>
 </item>
@@ -3338,19 +3338,19 @@ nian galaksion oni nomas “la Lakta Vojo” aŭ simple “la Galaksio”.</item
 
 <label lang="eo">genr&strek;o</label><item>
 <list type="def">
-  <item>1 Gramatika kategorio (precipe ĉe substantivoj kaj pronomoj, sed
+  <item n="1">Gramatika kategorio (precipe ĉe substantivoj kaj pronomoj, sed
 ankaŭ ĉe aliaj vortspecoj), kiu almenaŭ historie iel rilatas al la sekso de
 estaĵoj aŭ al distingo inter uloj kaj aĵoj: <eg>vira genro; ina genro; neŭtra
 genro</eg>.</item>
-  <item>2 Subgrupo de zoologia aŭ botanika familio.</item>
+  <item n="2">Subgrupo de zoologia aŭ botanika familio.</item>
 </list>
 </item>
 
 <label lang="eo">giĉet&strek;o</label><item>
 <list type="def">
-  <item>1 Fenestreto en pordo aŭ vando destinita por interparoli aŭ trans-
+  <item n="1">Fenestreto en pordo aŭ vando destinita por interparoli aŭ trans-
 doni ion.</item>
-  <item>2 Apartigita spaco, en kiu oni priservas klientojn (en poŝtoficejo,
+  <item n="2">Apartigita spaco, en kiu oni priservas klientojn (en poŝtoficejo,
 biletvendejo k.s.), ordinare kun ia barilo (fenestreto, vendotablo k.s.) inter
 la giĉetisto kaj la kliento.</item>
 </list>
@@ -3367,8 +3367,8 @@ malrapi de glisis al la tero</eg>.</item>
   <label lang="eo">grafik&strek;aĵ&strek;o</label>
   <item>
   <list type="def">
-    <item>1 Bildo grafika: <eg>grafikaĵoj ilustris la poemaron</eg>.</item>
-    <item>2 Desegnaĵo prezentanta fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun nombraj indikoj: <eg>la grafikaĵo prezentis la dividon de la membraro laŭ profesioj</eg>.</item>
+    <item n="1">Bildo grafika: <eg>grafikaĵoj ilustris la poemaron</eg>.</item>
+    <item n="2">Desegnaĵo prezentanta fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun nombraj indikoj: <eg>la grafikaĵo prezentis la dividon de la membraro laŭ profesioj</eg>.</item>
   </list>
   </item>
   <label lang="eo">grafik&strek;ist&strek;o</label>
@@ -3386,9 +3386,9 @@ malrapi de glisis al la tero</eg>.</item>
 
 <label lang="eo">hormon&strek;o</label><item>
 <list type="def">
-  <item>1 Substanco produktata de organo (ofte de glando), portata de la
+  <item n="1">Substanco produktata de organo (ofte de glando), portata de la
 sango al aliaj organoj aŭ ĉeloj por influi ties funkciadon.</item>
-  <item>2 Substanco en
+  <item n="2">Substanco en
 vegetaĵo, funkcianta analoge al hormono 1 (plej ofte influanta la kreskadon de la vegetaĵo).</item>
 </list>
 </item>
@@ -3410,8 +3410,8 @@ en 1948. Internacia landokodaĵo: IL. <note>(3)</note></item>
 
 <label lang="eo">japan&strek;o</label><item>
 <list type="def">
-  <item>1 Ano de la ĉefgento de Japanujo.</item>
-  <item>2 (vastasence) Japanujano.</item>
+  <item n="1">Ano de la ĉefgento de Japanujo.</item>
+  <item n="2">(vastasence) Japanujano.</item>
 </list>
 </item>
 
@@ -3431,8 +3431,8 @@ ostoj kaj dentoj. Simbolo Ca, atomnumero 20, atommaso 40,08.</item>
 
 <label lang="eo">kampanj&strek;o</label><item>
 <list type="def">
-  <item>1 Serio da militaj manovroj kun difinita celo en iu regiono<eg>la Ruslanda kampanjo de la Granda Armeo en la jaro 1812a</eg>.</item>
-  <item>2 Intensa publika agado por akiri subtenon de homoj por afero: <eg>la mediprotektantoj faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo</eg>.</item>
+  <item n="1">Serio da militaj manovroj kun difinita celo en iu regiono<eg>la Ruslanda kampanjo de la Granda Armeo en la jaro 1812a</eg>.</item>
+  <item n="2">Intensa publika agado por akiri subtenon de homoj por afero: <eg>la mediprotektantoj faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo</eg>.</item>
 </list>
 <list type="deriv">
   <label lang="eo">kampanj&strek;i</label><item>
@@ -3452,8 +3452,8 @@ vastasence Macropodidae.)</item>
 
 <label lang="eo">kapsik&strek;o</label><item>
 <list type="def">
-  <item>1 Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.)</item>
-  <item>2 Verda, ruĝa aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
+  <item n="1">Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.)</item>
+  <item n="2">Verda, ruĝa aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
 interne, uzata kiel legomo kaj kiel spico: <eg>akra kapsiko; neakra kapsiko; el
 kapsiko oni faras paprikon</eg>.</item>
 </list>
@@ -3472,9 +3472,9 @@ uzi tiun enhavaĵon.</item>
 
 <label lang="eo">katapult&strek;o</label><item>
 <list type="def">
-  <item>1 Malnova militmaŝino, kiu pafis ŝtonojn k.a. pere de longa
+  <item n="1">Malnova militmaŝino, kiu pafis ŝtonojn k.a. pere de longa
 streĉita brako aŭ pere de diversaj aliaj meĥanismoj.</item>
-  <item>2 Pafileto en la formo
+  <item n="2">Pafileto en la formo
 de Y, kun kaŭĉuka ŝnuro (rubando), per kiu oni (precipe infanoj) pafas
 ŝtonetojn k.s. 3 Meĥanika aparato, por antaŭenĵeti aviadilon for de la
 ferdeko de ŝipo, aŭ glisilon for de la grundo.</item>
@@ -3487,8 +3487,8 @@ zono el ŝtofo.</item>
 
 <label lang="eo">kiosk&strek;o</label><item>
 <list type="def">
-  <item>1 Budeto por vendo de varoj (gazetoj, floroj, trinkaĵoj ktp.).</item>
-  <item>2 Ĝardena (Orient-stila) paviloneto nefermita ĉe unu aŭ pluraj flankoj.</item>
+  <item n="1">Budeto por vendo de varoj (gazetoj, floroj, trinkaĵoj ktp.).</item>
+  <item n="2">Ĝardena (Orient-stila) paviloneto nefermita ĉe unu aŭ pluraj flankoj.</item>
 </list>
 </item>
 
@@ -3504,8 +3504,8 @@ kloni ĉelon.</item>
 
 <label lang="eo">kod&strek;o</label><item>
 <list type="def">
-  <item>1 Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn: <eg>internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo; ĉifro estas sekreta kodo</eg>.</item>
-  <item>2 Kodaĵo: <eg>poŝta kodo; UEA-kodo; fonta kodo de programo</eg> (= fonta teksto de programo).</item>
+  <item n="1">Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn: <eg>internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo; ĉifro estas sekreta kodo</eg>.</item>
+  <item n="2">Kodaĵo: <eg>poŝta kodo; UEA-kodo; fonta kodo de programo</eg> (= fonta teksto de programo).</item>
 </list>
 <list type="deriv">
    <label lang="eo">kod&strek;i</label>
@@ -3521,15 +3521,16 @@ kloni ĉelon.</item>
 <label lang="eo">kodeks&strek;o</label><item>Libro, precipe antikva manuskripto, el falditaj kaj binditaj folioj
 (kontraste al libro rulforma). <note>(5)</note></item>
 
-<label lang="eo">koher&strek;a</label><item>1 (pri tuto) Tia, ke ĉiuj ĝiaj partoj estas konsekvence, logike,
-harmonie k.s. interligitaj aŭ interrilatantaj. 2 (pri parto de tuto) Tia, ke ĝi
-konsekvence, logike, harmonie k.s. interligiĝas aŭ interrilatas kun la aliaj
-partoj de la tuto.
+<label lang="eo">koher&strek;a</label><item>
+  <list type="def">
+    <item n="1">(pri tuto) Tia, ke ĉiuj ĝiaj partoj estas konsekvence, logike, harmonie k.s. interligitaj aŭ interrilatantaj.</item>
+    <item n="2">(pri parto de tuto) Tia, ke ĝi konsekvence, logike, harmonie k.s. interligiĝas aŭ interrilatas kun la aliaj partoj de la tuto.</item>
+</list>
 <list type="deriv">
   <label lang="eo">koher&strek;i</label><item>
   <list type="def">
-    <item>1 Esti kohera: ŝiaj ideoj koheras; tiu parto ne koheras kun la resto.</item>
-    <item>2 (pri atomoj, molekuloj, eroj k.s.) Kunteniĝi pro reciproka altiro: la grajnetoj de argilo koheras.</item>
+    <item n="1">Esti kohera: ŝiaj ideoj koheras; tiu parto ne koheras kun la resto.</item>
+    <item n="2">(pri atomoj, molekuloj, eroj k.s.) Kunteniĝi pro reciproka altiro: la grajnetoj de argilo koheras.</item>
   </list>
   </item>
 </list>
@@ -3543,8 +3544,8 @@ komentita Korano</eg> (= prinotita Korano).
 <list type="deriv">
   <label lang="eo">koment&strek;o</label><item>
   <list type="def">
-    <item>1 Ago komenti.</item>
-    <item>2 Rimarko, noto, vortoj de komentinto.</item>
+    <item n="1">Ago komenti.</item>
+    <item n="2">Rimarko, noto, vortoj de komentinto.</item>
   </list>
   </item>
   <label lang="eo">koment&strek;ar&strek;o</label><item>Komentario.
@@ -3581,8 +3582,8 @@ artefarita reno</eg>.
   <label lang="eo">konekt&strek;o</label>
   <item> 
   <list type="def">
-    <item>1 Ago konekti, konektado.</item> 
-    <item>2 Stato esti konektita, konektiteco: <eg>mi havas (ret)konekton; konekto mankas; la konekto perdiĝis</eg>.</item>
+    <item n="1">Ago konekti, konektado.</item> 
+    <item n="2">Stato esti konektita, konektiteco: <eg>mi havas (ret)konekton; konekto mankas; la konekto perdiĝis</eg>.</item>
   </list>
   </item>
   <label lang="eo">mal&strek;konekt&strek;i</label>
@@ -3604,10 +3605,10 @@ parojn da kromosomoj</eg>.</item>
 
 <label lang="eo">kurz&strek;o</label><item>
 <list type="def">
-  <item>1 En borso (aŭ borsosimila negocado) konstatita referenca prezo de
+  <item n="1">En borso (aŭ borsosimila negocado) konstatita referenca prezo de
 valorpaperoj, valutoj aŭ varoj: <eg>kurzo de akcioj; kurzo 
  de nafto; kurzo en la nigra merkato</eg>.</item>
-  <item>2 Relativa valoro de du valutoj: <eg>la hodiaŭa kurzo de eŭro
+  <item n="2">Relativa valoro de du valutoj: <eg>la hodiaŭa kurzo de eŭro
 estas 1,33 dolaroj</eg>.</item>
 </list>
 </item>
@@ -3622,8 +3623,8 @@ necesa por validigi ĝiajn decidojn.</item>
 
 <label lang="eo">lanĉ&strek;i</label><item>
 <list type="def">
-  <item>1 Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: <eg>lanĉi ŝipon</eg> (= enakvigi ĝin unuafoje post la konstruado); <eg>lanĉi sateliton</eg>.</item>
-  <item>2 Prezenti (varon,
+  <item n="1">Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: <eg>lanĉi ŝipon</eg> (= enakvigi ĝin unuafoje post la konstruado); <eg>lanĉi sateliton</eg>.</item>
+  <item n="2">Prezenti (varon,
 verkon, ideon k.s.) je la unua fojo al publika uzado: <eg>lanĉi gazeton; lanĉi
 romanon; lanĉi kampanjon; lanĉi novan vorton</eg>.</item>
 </list>
@@ -3656,8 +3657,8 @@ sed malpli alta ol normala majusklo de la sama serio (proksimume
 samalta kiel la plej malaltaj minuskloj).</item> 
   <label lang="eo">majuskl&strek;a</label><item>
   <list type="def">
-    <item>1 Skribita per majusklo(j); rilata al majusklo(j).</item>
-    <item>2 (en paleografio kaj tipografio, pri signaro)
+    <item n="1">Skribita per majusklo(j); rilata al majusklo(j).</item>
+    <item n="2">(en paleografio kaj tipografio, pri signaro)
 Tia, ke ĉiu signo (escepte de eventualaj kromsignoj) estas skribebla inter
 du paralelaj horizontaloj: <eg>majuskla signaro; majusklaj ciferoj; kodekso en
 la majuskla skribo de la kvina jarcento</eg>.</item>
@@ -3687,21 +3688,21 @@ maldolĉa manioko; tapioko estas farita el manioko</eg>. (Manihot esculenta.)</i
 
 <label lang="eo">mate&strek;o</label><item>
 <list type="def">
-  <item>1 Arbo maksimume dek metrojn alta, kies ledecaj folioj, sekigitaj aŭ
+  <item n="1">Arbo maksimume dek metrojn alta, kies ledecaj folioj, sekigitaj aŭ
 rostitaj, estas uzataj por infuzaĵoj. (Ilex paraguayensis.)</item>
-  <item>2 Sekigitaj aŭ
+  <item n="2">Sekigitaj aŭ
 rostitaj folioj de mateo 1.</item>
-  <item>3 Infuzaĵo el mateo 2. <note>(6)</note></item>
+  <item n="3">Infuzaĵo el mateo 2. <note>(6)</note></item>
 </list>
 </item>
 
 <label lang="eo">matric&strek;o</label><item>
 <list type="def">
-  <item>1 Gravurita peco aŭ muldilo, tenanta negativan reliefan formon,
+  <item n="1">Gravurita peco aŭ muldilo, tenanta negativan reliefan formon,
 uzata por krei (per stampado aŭ fandado) gramofonajn diskojn, pre-
 stipojn, medalojn, monerojn, aŭtoplatojn aŭ aliajn objektojn kun reliefa
 surfaco.</item>
-  <item>2 Tabelo el samspecaj matematikaj objektoj (ekz. nombroj):
+  <item n="2">Tabelo el samspecaj matematikaj objektoj (ekz. nombroj):
 matrico el 200 horizontaloj kaj 300 vertikaloj; kvadrata matrico;
 adicio/multipliko de matricoj.</item>
 </list>
@@ -3709,9 +3710,9 @@ adicio/multipliko de matricoj.</item>
 
 <label lang="eo">melongen&strek;o</label><item>
 <list type="def">
-  <item>1 Neligneca kreskaĵo kun dentaj folioj, violetaj floroj kaj
+  <item n="1">Neligneca kreskaĵo kun dentaj folioj, violetaj floroj kaj
 grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj alikoloraj). (Solanum melongena.)</item>
-  <item>2 Frukto de melongeno 1.</item>
+  <item n="2">Frukto de melongeno 1.</item>
 </list>
 </item>
 
@@ -3726,9 +3727,9 @@ menstruoj okazas de la seksmaturiĝo ĝis la definitiva menstruĉeso</eg>.</item
 
 <label lang="eo">mesaĝ&strek;o</label><item>
 <list type="def">
-  <item>1 Parola aŭ skriba informo sendata al iu: <eg>nuntempe homoj sendas
+  <item n="1">Parola aŭ skriba informo sendata al iu: <eg>nuntempe homoj sendas
 mesaĝojn tra la Interreto</eg>. </item>
-  <item>2 (figure) Esenca ideo, kiun celas transdoni
+  <item n="2">(figure) Esenca ideo, kiun celas transdoni
 teksto, rakonto, filmo, agado k.s.: <eg>kio estas la mesaĝo de la Biblio por la
 nuntempa homo?; tiu filmo enhavas politikan mesaĝon; la malbona traduko fuŝis la mesaĝon de la aŭtoro</eg>.</item>
 </list>
@@ -3745,8 +3746,8 @@ uzas majusklon), ekz. a, b, c, ĉ. (La malo estas majusklo.)
 <list type="deriv">
   <label lang="eo">minuskl&strek;a</label><item>
   <list type="def">
-    <item>1 Skribita per minusklo(j); rilata al minusklo(j).</item>
-    <item>2 (en paleografio kaj tipografio, pri signaro) Tia, ke ne ĉiu signobildo estas skribebla inter du
+    <item n="1">Skribita per minusklo(j); rilata al minusklo(j).</item>
+    <item n="2">(en paleografio kaj tipografio, pri signaro) Tia, ke ne ĉiu signobildo estas skribebla inter du
 paralelaj horizontaloj: <eg>minuskla signaro; minusklaj ciferoj; minuskla
 skribo Karolida</eg>.</item>
   </list>
@@ -3756,10 +3757,10 @@ skribo Karolida</eg>.</item>
 
 <label lang="eo">miraĝ&strek;o</label><item>
 <list type="def">
-  <item>1 Optika fenomeno kaŭzanta tian iluzion, ke malproksimaj objektoj
+  <item n="1">Optika fenomeno kaŭzanta tian iluzion, ke malproksimaj objektoj
 ŝajnas proksimaj pro devojigo de lumo trairanta varman aertavolon: <eg>la
 ŝajna lago en la dezerto estis miraĝo</eg>.</item>
-  <item>2 (figure) Alloga iluzio.</item>
+  <item n="2">(figure) Alloga iluzio.</item>
 </list>
 </item>
 
@@ -3769,10 +3770,10 @@ reto aŭ simile: <eg>konekti komputilon al la Interreto per modemo</eg>.</item>
 
 <label lang="eo">muld&strek;i</label><item>
 <list type="def">
-  <item>1 Fari objekton enpremante aŭ fluigante molan substancon en ujon,
+  <item n="1">Fari objekton enpremante aŭ fluigante molan substancon en ujon,
 kiu havas la deziratan formon: <eg>muldi medalon; muldi plastajn telerojn;
 (figure) muldi pensmanieron</eg>.</item>
-  <item>2 Reprodukti la formon de io per mola sub-
+  <item n="2">Reprodukti la formon de io per mola sub-
 stanco, kiun oni poste malmoligas kiel ujon (por ebligi muldi 1): <eg>muldi per
 gipso vizaĝon; muldi reliefon</eg>.</item>
 </list>
@@ -3780,15 +3781,15 @@ gipso vizaĝon; muldi reliefon</eg>.</item>
 
 <label lang="eo">nan&strek;o</label><item>
 <list type="def">
-  <item>1 Homo, kiu estas multe malpli alta ol normale (por la aĝo).</item>
-  <item>2 Besto
+  <item n="1">Homo, kiu estas multe malpli alta ol normale (por la aĝo).</item>
+  <item n="2">Besto
 aŭ vegetaĵo, kiu estas multe malpli granda ol normale.</item> 
 </list>
 <list type="deriv">
   <label lang="eo">nan&strek;a</label><item> 
   <list type="def">
-    <item>1 Rilata al nano.</item> 
-    <item>2 Tre malalta/malgranda.</item>
+    <item n="1">Rilata al nano.</item> 
+    <item n="2">Tre malalta/malgranda.</item>
   </list>
   </item>
 </list>
@@ -3892,9 +3893,9 @@ haroj, kovranta la antaŭan parton de la koksosto.</item>
 
 <label lang="eo">pulp&strek;o</label><item>
 <list type="def">
-  <item>1 Fruktokarno. Mola, karneca parto de frukto aŭ legomo.</item>
-  <item>2 Kunteniĝema maso de mola vegetaĵa materio: <eg>pulpo de sukerbetoj; ligna pulpo</eg> (el kiu oni faras paperon). </item>
-  <item>3 Mola aŭ duonmola parto de kelkaj org-
+  <item n="1">Fruktokarno. Mola, karneca parto de frukto aŭ legomo.</item>
+  <item n="2">Kunteniĝema maso de mola vegetaĵa materio: <eg>pulpo de sukerbetoj; ligna pulpo</eg> (el kiu oni faras paperon). </item>
+  <item n="3">Mola aŭ duonmola parto de kelkaj org-
 anoj: <eg>denta pulpo</eg> (= interna parto 
  de dento); <eg>liena pulpo</eg>.</item>
 </list>
@@ -3923,10 +3924,10 @@ metodo, kutime post debato en tiu kunveno pri la temo.</item>
 
 <label lang="eo">robot&strek;o</label><item>
 <list type="def">
-  <item>1 Maŝino kapabla obei difinitajn ordonojn pri la maniero moviĝi kaj
+  <item n="1">Maŝino kapabla obei difinitajn ordonojn pri la maniero moviĝi kaj
 plenumi taskojn, uzata ekz. en fabrikoj por anstataŭi profesiulon en maniero pli efika, malmultekosta aŭ sendanĝera.</item>
-  <item>2 (en fikciaj verkoj) Maŝino, plej ofte simila al homo (aŭ besto), kapabla pensi kaj agi memstare.</item>
-  <item>3 (figure) Komputila programo kapabla esplori komputilan reton kaj trovi
+  <item n="2">(en fikciaj verkoj) Maŝino, plej ofte simila al homo (aŭ besto), kapabla pensi kaj agi memstare.</item>
+  <item n="3">(figure) Komputila programo kapabla esplori komputilan reton kaj trovi
  en ĝi petitajn informojn.</item>
 </list>
 </item>
@@ -3954,19 +3955,19 @@ Leander, Crangon, Paeneus kaj parencaj genroj.)</item>
 
 <label lang="eo">satelit&strek;o</label><item>
 <list type="def">
-  <item>1 Astro rivoluanta ĉirkaŭ pli granda astro.</item>
-  <item>2 Artefarita objekto rivoluanta ĉirkaŭ la tero (aŭ alia astro).</item>
-  <item>3 (figure) Urbo, regno aŭ organizaĵo politike aŭ ekonomie dependa de alia urbo/regno/organizaĵo.</item>
-  <item>4 (figure) Fihelpanto tute dependanta de iu; nedisiĝa fikunulo, al kiu oni komisias krimajn aŭ malnoblajn taskojn.</item>
+  <item n="1">Astro rivoluanta ĉirkaŭ pli granda astro.</item>
+  <item n="2">Artefarita objekto rivoluanta ĉirkaŭ la tero (aŭ alia astro).</item>
+  <item n="3">(figure) Urbo, regno aŭ organizaĵo politike aŭ ekonomie dependa de alia urbo/regno/organizaĵo.</item>
+  <item n="4">(figure) Fihelpanto tute dependanta de iu; nedisiĝa fikunulo, al kiu oni komisias krimajn aŭ malnoblajn taskojn.</item>
 </list>
 </item>
 
 <label lang="eo">sesi&strek;o</label><item>
 <list type="def">
-  <item>1 Periodo de kunsidoj de parlamento, asembleo, juĝa instanco,
+  <item n="1">Periodo de kunsidoj de parlamento, asembleo, juĝa instanco,
 komisiono k.s.: <eg>ordinara sesio; eksterordinara sesio; la aŭtuna sesio de la
 parlamento; la ekzamena sesio daŭros de la 11a ĝis la 25a de Junio</eg>.</item>
-  <item>2 Serio de universitataj prelegoj.</item>
+  <item n="2">Serio de universitataj prelegoj.</item>
 </list>
 </item>
 
@@ -3987,9 +3988,9 @@ pluraj aktoroj, kaj kompleta en si mem.</item>
 
 <label lang="eo">skolt&strek;o</label><item>
 <list type="def">
- <item>1 Soldato, ŝipo, aviadilo k.s. elsendita por kolekti informojn pri la
+ <item n="1">Soldato, ŝipo, aviadilo k.s. elsendita por kolekti informojn pri la
 pozicio aŭ forto de la malamiko, pri la irota vojo (de armeo), k.s.</item>
- <item>2 Ano de la skolta movado, internacia junulara movado fondita en Anglujo en 1907.</item>
+ <item n="2">Ano de la skolta movado, internacia junulara movado fondita en Anglujo en 1907.</item>
 </list>
 <list type="deriv">
   <label lang="eo">skolt&strek;ism&strek;o</label><item>La idearo de la skolta movado; tiu movado mem.</item>
@@ -4012,17 +4013,17 @@ spekti sportan festivalon</eg>.</item>
 
 <label lang="eo">stabil&strek;a</label><item>
 <list type="def">
-  <item>1 Ema firme restadi en sama pozicio aŭ stato: <eg>stabila konstruaĵo;
+  <item n="1">Ema firme restadi en sama pozicio aŭ stato: <eg>stabila konstruaĵo;
 stabila situacio; stabila paco; stabila solvaĵo; stabila elemento</eg>.</item>
-  <item>2 Ŝanĝiĝanta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ekvilibra kaj antaŭvidebla maniero: <eg>stabila kresko; stabila evoluo; stabila ekonomio</eg>.</item>
+  <item n="2">Ŝanĝiĝanta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ekvilibra kaj antaŭvidebla maniero: <eg>stabila kresko; stabila evoluo; stabila ekonomio</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">stagn&strek;i</label><item>
 <list type="def">
-   <item>1 (pri likvo) Restadi senflua (kaj tial fariĝi malpura kaj malagrabla):
+   <item n="1">(pri likvo) Restadi senflua (kaj tial fariĝi malpura kaj malagrabla):
 akvo stagnis en truoj ĉe la flanko de la vojo.</item>
-   <item>2 (pri agadkampo, entrepreno k.s.) Restadi senmova, senaga, malaktiva, ne evoluanta, ne
+   <item n="2">(pri agadkampo, entrepreno k.s.) Restadi senmova, senaga, malaktiva, ne evoluanta, ne
 progresanta k.s.: <eg>la komerco stagnas; la ekonomio stagnis; la movado
 stagnis; la membronombro stagnas</eg>.</item>
 </list>
@@ -4038,8 +4039,8 @@ stiri aviadilon</eg>.</item>
 
 <label lang="eo">stok&strek;o</label><item>
 <list type="def">
-  <item>1 Disponebla kvanto da varoj, krudmaterialoj aŭ fabrikitaĵoj (tenata en provizejo).</item>
-  <item>2 (figure) Provizo, kolekto (de io havebla por uzo): <eg>vortostoko</eg> (= vortprovizo); <eg>ŝi havas grandan stokon da ŝercoj</eg>.</item>
+  <item n="1">Disponebla kvanto da varoj, krudmaterialoj aŭ fabrikitaĵoj (tenata en provizejo).</item>
+  <item n="2">(figure) Provizo, kolekto (de io havebla por uzo): <eg>vortostoko</eg> (= vortprovizo); <eg>ŝi havas grandan stokon da ŝercoj</eg>.</item>
 </list> 
 <list type="deriv">
   <label lang="eo">stok&strek;i</label><item>Teni en stoko; amasigi en stoko; aldoni al stoko: <eg>stoki varojn; stoki manĝaĵojn;
@@ -4053,9 +4054,9 @@ stokata varo</eg> (= varo tenata en stoko/metata en stokon); <eg>stokita varo</e
 
 <label lang="eo">sugest&strek;i</label><item>
 <list type="def">
-  <item>1 Prezenti, proponi (seninsiste) ideon por konsidero: <eg>mi sugestas,
+  <item n="1">Prezenti, proponi (seninsiste) ideon por konsidero: <eg>mi sugestas,
 ke ni faru jene; sugesti solvon; sugesti respondon</eg>.</item>
-  <item>2 Kaŭzi aperon de
+  <item n="2">Kaŭzi aperon de
 ideo, pensigi: <eg>la simptomoj sugestas, ke li havas malarion; ŝia esprimo
 sugestis, ke ŝi estas kolera; la flugado de la birdoj sugestis novan ideon
 por flugmaŝino</eg>.</item>
@@ -4078,8 +4079,8 @@ novaĵo ŝokis ŝin</eg>.
 <list type="deriv">
   <label lang="eo">ŝok&strek;o</label><item>
   <list type="def"> 
-    <item>1 Ago ŝoki kaj ties rezulto.</item> 
-    <item>2 (en medicino) Stato de korpa malforteco karakterizata de nenormale malgranda aktivado de la koro, pulmoj ktp. (pro difekto al la korpo aŭ pro ekstreme malagrabla sperto).</item>
+    <item n="1">Ago ŝoki kaj ties rezulto.</item> 
+    <item n="2">(en medicino) Stato de korpa malforteco karakterizata de nenormale malgranda aktivado de la koro, pulmoj ktp. (pro difekto al la korpo aŭ pro ekstreme malagrabla sperto).</item>
   </list>
   </item>
 </list>
@@ -4126,8 +4127,8 @@ puni: <eg>torturi kaptiton; torturi krimulon</eg>.</item>
 
 <label lang="eo">trib&strek;o</label><item>
 <list type="def">
-  <item>1 Etna homgrupo (precipe se nomada aŭ rigardata kiel primitiva) vivanta en komunumo.</item>
-  <item>2 Subdivido de zoologia aŭ botanika familio (uzata
+  <item n="1">Etna homgrupo (precipe se nomada aŭ rigardata kiel primitiva) vivanta en komunumo.</item>
+  <item n="2">Subdivido de zoologia aŭ botanika familio (uzata
 por grupigi genrojn de grandaj familioj).</item>
 </list>
 </item>
@@ -4141,10 +4142,10 @@ iĝas, sed en aliaj okazoj povas esti danĝere rapidkreska kaj invadema.</item>
 
 <label lang="eo">uni&strek;o</label><item>
 <list type="def">
-  <item>1 Unuiĝo de landoj, kiuj konsentas pri komunigo de la tuto aŭ parto
+  <item n="1">Unuiĝo de landoj, kiuj konsentas pri komunigo de la tuto aŭ parto
  de sia regpovo. Tia unuiĝo povas esti interŝtata (ekz.
  Eŭropa Unio en 1992) aŭ unuŝtata (ekz. Sud-Afriko en 1910). </item>
-  <item>2 Asocio. Kultura, sindikata aŭ partipolitika organizaĵo, forme analoga al unio 1, konsistanta el regionaj societoj.</item>
+  <item n="2">Asocio. Kultura, sindikata aŭ partipolitika organizaĵo, forme analoga al unio 1, konsistanta el regionaj societoj.</item>
 </list>
 </item>
 
@@ -4156,16 +4157,16 @@ dum seksumado; ĉe virinoj ĝi kondukas de la vulvo ĝis la utero.</item>
 
 <label lang="eo">vaku&strek;o</label><item>
 <list type="def">
-  <item>1 Kompleta foresto de materio.</item>
-  <item>2 Senaera malplena spaco.</item>
+  <item n="1">Kompleta foresto de materio.</item>
+  <item n="2">Senaera malplena spaco.</item>
 </list>
 </item>
 
 <label lang="eo">valut&strek;o</label><item>
 <list type="def">
-  <item>1 Mono aŭ monsigno (devizoj, bankbiletoj, moneroj, akciaj kuponoj k.s.) cirkulanta en unu lando aŭ grupo da landoj.</item>
-  <item>2 Fremda devizo (ĉeko aŭ kambio).</item>
-  <item>3 Valoro de papermono rilate al la ora aŭ arĝenta metalunuo en valormetalbaza monsistemo.</item>
+  <item n="1">Mono aŭ monsigno (devizoj, bankbiletoj, moneroj, akciaj kuponoj k.s.) cirkulanta en unu lando aŭ grupo da landoj.</item>
+  <item n="2">Fremda devizo (ĉeko aŭ kambio).</item>
+  <item n="3">Valoro de papermono rilate al la ora aŭ arĝenta metalunuo en valormetalbaza monsistemo.</item>
 </list>
 </item>
 
@@ -4174,8 +4175,8 @@ vando de ĉelo; vando de ĉambro; vando de vagono.</item>
 
 <label lang="eo">versi&strek;o</label><item>
 <list type="def">
-  <item>1 Prezento de afero el iu vidpunkto (normale kontraste al alia vidpunkto): <eg>ŝi rakontis sian version de la aventuro</eg>.</item>
-  <item>2 Formo, redakto aŭ eldono de teksto, programo k.s.
+  <item n="1">Prezento de afero el iu vidpunkto (normale kontraste al alia vidpunkto): <eg>ŝi rakontis sian version de la aventuro</eg>.</item>
+  <item n="2">Formo, redakto aŭ eldono de teksto, programo k.s.
  (normale kontraste al alia formo/redakto/eldono): <eg>mi konas nur la germanan version de la poemo, kaj ne la originan
 polan version; Petro uzas la novan version de la programo</eg>.</item>
 </list>

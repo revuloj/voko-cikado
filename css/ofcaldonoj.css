@@ -5,18 +5,29 @@
 	    text-align: left; 
 	    margin-top: 0.5em; 
 	    margin-bottom: 0em; 
-	    margin-left: 0.75cm;
-	    text-indent: -7.5mm;
+	    margin-left: 1em;
+	    text-indent: -1em;
 	    }   
+
+.dict-entry li {
+	margin-left: -1em;
+	text-indent: 0;
+}		
 
 .dict-subentry {
 	    font-size: 12pt;
 	    text-align: left; 
 	    margin-top: 0.5em; 
 	    margin-bottom: 0em; 
-	    margin-left: 1.5cm;
-	    text-indent: -7.5mm;
+	    margin-left: 2em;
+	    text-indent: -1em;
 	    } 
+
+
+.dict-subentry li {
+	margin-left: 1em;
+	text-indent: 0;
+}		
 
 .titlePart {
 	    color: darkgreen;
