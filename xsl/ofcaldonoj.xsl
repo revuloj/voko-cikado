@@ -532,6 +532,14 @@ specialajn regulojn ne au alie difinitajn tie.
   </p>
 </xsl:template>
 
+<xsl:template match="item[@type='ref' and not(list)]">
+  <p class="dict-entry">
+    <xsl:apply-templates select="preceding-sibling::label[1]"/>
+    <xsl:apply-templates/>
+  </p>
+</xsl:template>
+
+
 <xsl:template match="list[@type='def']/item">
   <xsl:choose>
     <xsl:when test="position()=last()">

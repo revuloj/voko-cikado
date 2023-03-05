@@ -297,116 +297,116 @@ difino estas aldonita.
 
 
 <list type="dict">
-<label lang="eo">a</label><item lang="eo">nomo de la litero a, unua litero de la Esperanta alfabeto</item>
-<label lang="eo">absolut&strek;</label><item>(1)</item>
-<label lang="eo">aktiv&strek;</label><item>(1)</item>
-<label lang="eo">alfabet&strek;</label><item>(1)</item>
-<label lang="eo">arĥaism&strek;</label><item>vorto aŭ esprimo ne plu uzata en la komuna lingvo</item>
-<label lang="eo">aŭtor&strek;</label><item>(1)</item>
-<label lang="eo">aŭtoritat&strek;</label><item>(1)</item>
+<label lang="eo">a</label><item type="def" lang="eo">nomo de la litero a, unua litero de la Esperanta alfabeto</item>
+<label lang="eo">absolut&strek;</label><item type="ref">(1)</item>
+<label lang="eo">aktiv&strek;</label><item type="ref">(1)</item>
+<label lang="eo">alfabet&strek;</label><item type="ref">(1)</item>
+<label lang="eo">arĥaism&strek;</label><item type="def" lang="eo">vorto aŭ esprimo ne plu uzata en la komuna lingvo</item>
+<label lang="eo">aŭtor&strek;</label><item type="ref">(1)</item>
+<label lang="eo">aŭtoritat&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">bo</label><item>nomo de la litero b, dua litero de la Esperanta alfabeto</item>
-<label lang="eo">bal&strek;</label><item>(1)</item>
+<label lang="eo">bo</label><item type="def">nomo de la litero b, dua litero de la Esperanta alfabeto</item>
+<label lang="eo">bal&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">co</label><item>nomo de la litero c, tria litero de la Esperanta alfabeto</item>
-<label lang="eo">centim&strek;</label><item>(1)</item>
+<label lang="eo">co</label><item type="def" lang="eo">nomo de la litero c, tria litero de la Esperanta alfabeto</item>
+<label lang="eo">centim&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">ĉo</label><item>nomo de la litero ĉ, kvara litero de la Esperanta alfabeto</item>
-<label lang="eo">ĉial</label><item>el ĉia kaŭzo, motivo</item>
-<label lang="eo">ĉies</label><item>apartenanta al ĉiu</item>
-<label lang="eo">ĉiom</label><item>tutkvante</item>
+<label lang="eo">ĉo</label><item type="def" lang="eo">nomo de la litero ĉ, kvara litero de la Esperanta alfabeto</item>
+<label lang="eo">ĉial</label><item type="def" lang="eo">el ĉia kaŭzo, motivo</item>
+<label lang="eo">ĉies</label><item type="def" lang="eo">apartenanta al ĉiu</item>
+<label lang="eo">ĉiom</label><item type="def" lang="eo">tutkvante</item>
 
-<label lang="eo">do</label><item>nomo de la litero d, kvina litero de la Esperanta alfabeto</item>
-<label lang="eo">diplomat&strek;</label><item>(1)</item>
-<label lang="eo">diplomati&strek;</label><item>arto, profesio kaj aro de la diplomatoj</item>
-<label lang="eo">dogm&strek;</label><item>(2)</item>
-<label lang="eo">doktor&strek;</label><item>(1)</item>
-<label lang="eo">dokument&strek;</label><item>(1)</item>
+<label lang="eo">do</label><item type="def" lang="eo">nomo de la litero d, kvina litero de la Esperanta alfabeto</item>
+<label lang="eo">diplomat&strek;</label><item type="ref">(1)</item>
+<label lang="eo">diplomati&strek;</label><item type="def" lang="eo">arto, profesio kaj aro de la diplomatoj</item>
+<label lang="eo">dogm&strek;</label><item type="ref">(2)</item>
+<label lang="eo">doktor&strek;</label><item type="ref">(1)</item>
+<label lang="eo">dokument&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">e</label><item>nomo de la litero e, sesa litero de la Esperanta alfabeto</item>
-<label lang="eo">energi&strek;</label><item>(1)</item>
+<label lang="eo">e</label><item type="def" lang="eo">nomo de la litero e, sesa litero de la Esperanta alfabeto</item>
+<label lang="eo">energi&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">fo</label><item>nomo de la litero f, sepa litero de la Esperanta alfabeto</item>
-<label lang="eo">fi</label><item>(1)</item>
-<label lang="eo">fizik&strek;</label><item>(1)</item>
-<label lang="eo">fotograf&strek;</label><item>(1)</item>
+<label lang="eo">fo</label><item type="def" lang="eo">nomo de la litero f, sepa litero de la Esperanta alfabeto</item>
+<label lang="eo">fi</label><item type="ref">(1)</item>
+<label lang="eo">fizik&strek;</label><item type="ref">(1)</item>
+<label lang="eo">fotograf&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">go</label><item>nomo de la litero g, oka litero de la Esperanta alfabeto</item>
-<label lang="eo">geografi&strek;</label><item>(1)</item>
+<label lang="eo">go</label><item type="def" lang="eo">nomo de la litero g, oka litero de la Esperanta alfabeto</item>
+<label lang="eo">geografi&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">ĝo</label><item>nomo de la litero ĝ, naŭa litero de la Esperanta alfabeto</item>
+<label lang="eo">ĝo</label><item type="def" lang="eo">nomo de la litero ĝ, naŭa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ho</label><item>nomo de la litero ho, deka litero de la Esperanta alfabeto</item>
+<label lang="eo">ho</label><item type="def" lang="eo">nomo de la litero ho, deka litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ĥo</label><item>nomo de la litero ĥ, dekunua litero de la Esperanta alfabeto</item>
+<label lang="eo">ĥo</label><item type="def" lang="eo">nomo de la litero ĥ, dekunua litero de la Esperanta alfabeto</item>
 
-<label lang="eo">i</label><item>nomo de la litero i, dekdua litero de la Esperanta alfabeto</item>
-<label lang="eo">ide&strek;</label><item>(1)</item>
-<label lang="eo">instituci&strek;</label><item>(1)</item>
+<label lang="eo">i</label><item type="def" lang="eo">nomo de la litero i, dekdua litero de la Esperanta alfabeto</item>
+<label lang="eo">ide&strek;</label><item type="ref">(1)</item>
+<label lang="eo">instituci&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">jo</label><item>nomo de la litero j, dektria litero de la Esperanta alfabeto</item>
+<label lang="eo">jo</label><item type="def" lang="eo">nomo de la litero j, dektria litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ĵo</label><item>nomo de la litero ĵ, dekkvara litero de la Esperanta alfabeto</item>
+<label lang="eo">ĵo</label><item type="def" lang="eo">nomo de la litero ĵ, dekkvara litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ko</label><item>nomo de la litero k, dekkvina litero de la Esperanta alfabeto</item>
-<label lang="eo">kilometr&strek;</label><item>(1)</item>
-<label lang="eo">kompetent&strek;</label><item>(1)</item>
-<label lang="eo">kongres&strek;</label><item>(1)</item>
-<label lang="eo">kontrol&strek;</label><item>(1)</item>
-<label lang="eo">kopek&strek;</label><item>(1)</item>
+<label lang="eo">ko</label><item type="def" lang="eo">nomo de la litero k, dekkvina litero de la Esperanta alfabeto</item>
+<label lang="eo">kilometr&strek;</label><item type="ref">(1)</item>
+<label lang="eo">kompetent&strek;</label><item type="ref">(1)</item>
+<label lang="eo">kongres&strek;</label><item type="ref">(1)</item>
+<label lang="eo">kontrol&strek;</label><item type="ref">(1)</item>
+<label lang="eo">kopek&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">lo</label><item>nomo de la litero l, deksesa litero de la Esperanta alfabeto</item>
-<label lang="eo">literatur&strek;</label><item>(1)</item>
+<label lang="eo">lo</label><item type="def" lang="eo">nomo de la litero l, deksesa litero de la Esperanta alfabeto</item>
+<label lang="eo">literatur&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">mo</label><item>nomo de la litero m, deksepa litero de la Esperanta alfabeto</item>
-<label lang="eo">metr&strek;</label><item>(1)</item>
-<label lang="eo">milion&strek;</label><item>(2)</item>
+<label lang="eo">mo</label><item type="def" lang="eo">nomo de la litero m, deksepa litero de la Esperanta alfabeto</item>
+<label lang="eo">metr&strek;</label><item type="ref">(1)</item>
+<label lang="eo">milion&strek;</label><item type="ref">(2)</item>
 
-<label lang="eo">no</label><item>nomo de la litero n, dekoka litero de la Esperanta alfabeto</item>
-<label lang="eo">naiv&strek;</label><item>(1)</item>
-<label lang="eo">nenial</label><item>el nenia kaŭzo, motivo</item>
-<label lang="eo">neniom</label><item>nulkvante</item>
+<label lang="eo">no</label><item type="def" lang="eo">nomo de la litero n, dekoka litero de la Esperanta alfabeto</item>
+<label lang="eo">naiv&strek;</label><item type="ref">(1)</item>
+<label lang="eo">nenial</label><item type="def" lang="eo">el nenia kaŭzo, motivo</item>
+<label lang="eo">neniom</label><item type="def" lang="eo">nulkvante</item>
 
-<label lang="eo">o</label><item>nomo de la litero o, deknaŭa litero de la Esperanta alfabeto</item>
+<label lang="eo">o</label><item type="def" lang="eo">nomo de la litero o, deknaŭa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">po</label><item>nomo de la litero p, dudeka litero de la Esperanta alfabeto</item>
-<label lang="eo">paradoks&strek;</label><item>(2)</item>
-<label lang="eo">paralel&strek;</label><item>(1)</item>
-<label lang="eo">patent&strek;</label><item>(1)</item>
-<label lang="eo">pfenig&strek;</label><item>(1)</item>
-<label lang="eo">prefiks&strek;</label><item>(1)</item>
-<label lang="eo">princip&strek;</label><item>(1)</item>
-<label lang="eo">projekt&strek;</label><item>(2)</item>
+<label lang="eo">po</label><item type="def" lang="eo">nomo de la litero p, dudeka litero de la Esperanta alfabeto</item>
+<label lang="eo">paradoks&strek;</label><item type="ref">(2)</item>
+<label lang="eo">paralel&strek;</label><item type="ref">(1)</item>
+<label lang="eo">patent&strek;</label><item type="ref">(1)</item>
+<label lang="eo">pfenig&strek;</label><item type="ref">(1)</item>
+<label lang="eo">prefiks&strek;</label><item type="ref">(1)</item>
+<label lang="eo">princip&strek;</label><item type="ref">(1)</item>
+<label lang="eo">projekt&strek;</label><item type="ref">(2)</item>
 
-<label lang="eo">ro</label><item>nomo de la litero r, dudekunua litero de la Esperanta alfabeto</item>
-<label lang="eo">rezultat&strek;</label><item>(1)</item>
+<label lang="eo">ro</label><item type="def" lang="eo">nomo de la litero r, dudekunua litero de la Esperanta alfabeto</item>
+<label lang="eo">rezultat&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">so</label><item>nomo de la litero s, dudekdua litero de la Esperanta alfabeto</item>
-<label lang="eo">sankci&strek;</label><item>(1)</item>
-<label lang="eo">scen&strek;</label><item>(1)</item>
-<label lang="eo">sistem&strek;</label><item>(1)</item>
-<label lang="eo">sofism&strek;</label><item>(1)</item>
-<label lang="eo">special&strek;</label><item>(1)</item>
-<label lang="eo">sufiks&strek;</label><item>(1)</item>
+<label lang="eo">so</label><item type="def" lang="eo">nomo de la litero s, dudekdua litero de la Esperanta alfabeto</item>
+<label lang="eo">sankci&strek;</label><item type="ref">(1)</item>
+<label lang="eo">scen&strek;</label><item type="ref">(1)</item>
+<label lang="eo">sistem&strek;</label><item type="ref">(1)</item>
+<label lang="eo">sofism&strek;</label><item type="ref">(1)</item>
+<label lang="eo">special&strek;</label><item type="ref">(1)</item>
+<label lang="eo">sufiks&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">ŝo</label><item>nomo de la litero ŝ, dudektria litero de la Esperanta alfabeto</item>
+<label lang="eo">ŝo</label><item type="def" lang="eo">nomo de la litero ŝ, dudektria litero de la Esperanta alfabeto</item>
 
-<label lang="eo">to</label><item>nomo de la litero t, dudekkvara litero de la Esperanta alfabeto</item>
-<label lang="eo">teatr&strek;</label><item>(1)</item>
-<label lang="eo">telegraf&strek;</label><item>(1)</item>
-<label lang="eo">teori&strek;</label><item>(1)</item>
-<label lang="eo">ties</label><item>apartenanta al tiu</item>
-<label lang="eo">tragedi&strek;</label><item>(1)</item>
+<label lang="eo">to</label><item type="def" lang="eo">nomo de la litero t, dudekkvara litero de la Esperanta alfabeto</item>
+<label lang="eo">teatr&strek;</label><item type="ref">(1)</item>
+<label lang="eo">telegraf&strek;</label><item type="ref">(1)</item>
+<label lang="eo">teori&strek;</label><item type="ref">(1)</item>
+<label lang="eo">ties</label><item type="def" lang="eo">apartenanta al tiu</item>
+<label lang="eo">tragedi&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">u</label><item>nomo de la litero u, dudekkvina litero de la Esperanta alfabeto</item>
+<label lang="eo">u</label><item type="def" lang="eo">nomo de la litero u, dudekkvina litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ŭo</label><item>nomo de la litero ŭ, dudeksesa litero de la Esperanta alfabeto</item>
+<label lang="eo">ŭo</label><item type="def" lang="eo">nomo de la litero ŭ, dudeksesa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">vo</label><item>nomo de la litero v, dudeksepa litero de la Esperanta alfabeto</item>
-<label lang="eo">valor&strek;</label><item>(1)</item>
+<label lang="eo">vo</label><item type="def" lang="eo">nomo de la litero v, dudeksepa litero de la Esperanta alfabeto</item>
+<label lang="eo">valor&strek;</label><item type="ref">(1)</item>
 
-<label lang="eo">zo</label><item>nomo de la litero z, dudekoka litero de la Esperanta alfabeto</item>
-<label lang="eo">zoologi&strek;</label><item>(1)</item>
+<label lang="eo">zo</label><item type="def" lang="eo">nomo de la litero z, dudekoka litero de la Esperanta alfabeto</item>
+<label lang="eo">zoologi&strek;</label><item type="ref">(1)</item>
 </list>
 
 </div>
@@ -415,60 +415,61 @@ difino estas aldonita.
 <head>B. — 35 propraj nomoj</head>
 
 <list type="dict">
-<label lang="eo">angl&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">Ann&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Anton&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Aŭgust&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Berlin&strek;</label><item>(urbnomo)</item>
-<label lang="eo">Bert&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Bulonj&strek;</label><item>(urbnomo)</item>
-<label lang="eo">Elizabet&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Ernest&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Esperant&strek;</label><item>(nomo de lingvo)</item>
-<label lang="eo">Eŭrop&strek;</label><item>(nomo de kontinento)</item>
-<label lang="eo">franc&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">Georg&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">german&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">hebre&strek;</label><item>(1-a Oficiala Aldono; nomo de ano de popolo)</item>
-<label lang="eo">hispan&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">Jozef&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Kalvin&strek;</label><item>(vira nomo)</item>
-<label lang="eo">Klar&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">London&strek;</label><item>(urbnomo)</item>
-<label lang="eo">Ludovik&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Luter&strek;</label><item>(vira nomo)</item>
-<label lang="eo">Nikodem&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Nikola&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Pariz&strek;</label><item>(urbnomo)</item>
-<label lang="eo">Paŭlin&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Petr&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">pol&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">rus&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">Sofi&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Stefan&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Ŝiller&strek;</label><item>(vira nomo)</item>
-<label lang="eo">Teodor&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Vaŝington&strek;</label><item>(vira nomo)</item>
-<label lang="eo">Vilhelm&strek;</label><item>(vira antaŭnomo)</item>
+<label lang="eo">angl&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Ann&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Anton&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Aŭgust&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Berlin&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Bert&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Bulonj&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Elizabet&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Ernest&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Esperant&strek;</label><item type="def" lang="eo">(nomo de lingvo)</item>
+<label lang="eo">Eŭrop&strek;</label><item type="def" lang="eo">(nomo de kontinento)</item>
+<label lang="eo">franc&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Georg&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">german&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">hebre&strek;</label><item type="def" lang="eo">(1-a Oficiala Aldono; nomo de ano de popolo)</item>
+<label lang="eo">hispan&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Jozef&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Kalvin&strek;</label><item type="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Klar&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">London&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Ludovik&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Luter&strek;</label><item type="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Nikodem&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Nikola&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Pariz&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Paŭlin&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Petr&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">pol&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">rus&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Sofi&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Stefan&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Ŝiller&strek;</label><item type="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Teodor&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Vaŝington&strek;</label><item type="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Vilhelm&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
 </list>
 
 <p>
+<lb/>
 RIMARKO 1. En la Universala Vortaro troviĝas ekster la alfabeta ordo 10
 propraj nomoj, jam konsideritaj en la inventaro de tiu parto de la
 Fundamento:
 </p>
 
 <list type="dict">
-<label lang="eo">Aleksandr&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Emili&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Henriet&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Izrael&strek;</label><item>(vira nomo)</item>
-<label lang="eo">Johan&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Mari&strek;</label><item>(virina antaŭnomo)</item>
-<label lang="eo">Miĥael&strek;</label><item>(vira antaŭnomo)</item>
-<label lang="eo">Nov-Jork&strek;</label><item>(urbnomo)</item>
-<label lang="eo">turk&strek;</label><item>(nomo de ano de popolo)</item>
-<label lang="eo">Varsovi&strek;</label><item>(urbnomo)</item>
+<label lang="eo">Aleksandr&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Emili&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Henriet&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Izrael&strek;</label><item type="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Johan&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Mari&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Miĥael&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Nov-Jork&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">turk&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Varsovi&strek;</label><item type="def" lang="eo">(urbnomo)</item>
 </list>
 
 </div>
@@ -487,22 +488,22 @@ montrita interkrampe: ili estas samsignifaj kun la respondaj formoj en
 
 
 <list type="dict">
-<label lang="eo">agronom&strek;</label><item>(1)</item>
-<label lang="eo">antropolog&strek;</label><item>(1)</item>
-<label lang="eo">biolog&strek;</label><item>(1)</item>
-<label lang="eo">entomolog&strek;</label><item>(2)</item>
-<label lang="eo">etimolog&strek;</label><item>(2)</item>
-<label lang="eo">etiolog&strek;</label><item>(1)</item>
-<label lang="eo">fiziolog&strek;</label><item>(1)</item>
-<label lang="eo">genealog&strek;</label><item>(2)</item>
-<label lang="eo">grafolog&strek;</label><item>(1)</item>
-<label lang="eo">meteorolog&strek;</label><item>(2)</item>
-<label lang="eo">mineralog&strek;</label><item>(2)</item>
-<label lang="eo">mitolog&strek;</label><item>(1)</item>
-<label lang="eo">ornitolog&strek;</label><item>(3)</item>
-<label lang="eo">paleontolog&strek;</label><item>(2)</item>
-<label lang="eo">patolog&strek;</label><item>(2)</item>
-<label lang="eo">zoolog&strek;</label><item>(1)</item>
+<label lang="eo">agronom&strek;</label><item type="ref">(1)</item>
+<label lang="eo">antropolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">biolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">entomolog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">etimolog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">etiolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">fiziolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">genealog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">grafolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">meteorolog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">mineralog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">mitolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">ornitolog&strek;</label><item type="ref">(3)</item>
+<label lang="eo">paleontolog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">patolog&strek;</label><item type="ref">(2)</item>
+<label lang="eo">zoolog&strek;</label><item type="ref">(1)</item>
 </list>
 
 <p>
@@ -527,21 +528,21 @@ oficialigitaj. Do nova grupo de 15 radikoj estas aldonita al la Oficiala Listo:
 </p>
 
 <list type="dict">
-<label lang="eo">aŭtokrat&strek;</label><item>(3)</item>
-<label lang="eo">bibliograf&strek;</label><item>(2)</item>
-<label lang="eo">biograf&strek;</label><item>(2)</item>
-<label lang="eo">etnograf&strek;</label><item>(2)</item>
-<label lang="eo">geograf&strek;</label><item>(1)</item>
-<label lang="eo">geometr&strek;</label><item>(1)</item>
-<label lang="eo">homeopat&strek;</label><item>(1)</item>
-<label lang="eo">kartograf&strek;</label><item>(2)</item>
-<label lang="eo">kosmograf&strek;</label><item>(2)</item>
-<label lang="eo">oligarĥ&strek;, oligark&strek;</label><item>(3)</item>
-<label lang="eo">paleograf&strek;</label><item>(2)</item>
-<label lang="eo">plutokrat&strek;</label><item>(3)</item>
-<label lang="eo">teokrat&strek;</label><item>(2)</item>
-<label lang="eo">tipograf&strek;</label><item>(1)</item>
-<label lang="eo">topograf&strek;</label><item>(2)</item>
+<label lang="eo">aŭtokrat&strek;</label><item type="ref">(3)</item>
+<label lang="eo">bibliograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">biograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">etnograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">geograf&strek;</label><item type="ref">(1)</item>
+<label lang="eo">geometr&strek;</label><item type="ref">(1)</item>
+<label lang="eo">homeopat&strek;</label><item type="ref">(1)</item>
+<label lang="eo">kartograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">kosmograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">oligarĥ&strek;, oligark&strek;</label><item type="ref">(3)</item>
+<label lang="eo">paleograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">plutokrat&strek;</label><item type="ref">(3)</item>
+<label lang="eo">teokrat&strek;</label><item type="ref">(2)</item>
+<label lang="eo">tipograf&strek;</label><item type="ref">(1)</item>
+<label lang="eo">topograf&strek;</label><item type="ref">(2)</item>
 </list>
 
 </div>
@@ -668,18 +669,18 @@ Aldono, en kiu tiuj Fundamentaj vortoj estis siatempe kolektitaj.
 Estas Fundamentaj jenaj radikoj:</p>
 
 <list type="dict">
-<label lang="eo">adres&strek;o</label><item>(1)</item>
-<label lang="eo">centr&strek;o</label><item>(1)</item>
-<label lang="eo">frank&strek;o</label><item>(1)</item>
-<label lang="eo">general&strek;o</label><item>(1)</item>
-<label lang="eo">jur&strek;o</label><item>(3)</item>
-<label lang="eo">ĵurnal&strek;o</label><item>(1)</item>
-<label lang="eo">kilogram&strek;o</label><item>(1)</item>
-<label lang="eo">material&strek;o</label><item>(1)</item>
-<label lang="eo">metal&strek;o</label><item>(1)</item>
-<label lang="eo">muzik&strek;o</label><item>(1)</item>
-<label lang="eo">oficial&strek;a</label><item>(1)</item>
-<label lang="eo">tekst&strek;o</label><item>(1)</item>
+<label lang="eo">adres&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">centr&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">frank&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">general&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">jur&strek;o</label><item type="ref">(3)</item>
+<label lang="eo">ĵurnal&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">kilogram&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">material&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">metal&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">muzik&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">oficial&strek;a</label><item type="ref">(1)</item>
+<label lang="eo">tekst&strek;o</label><item type="ref">(1)</item>
 </list>
 
 <p>
@@ -702,8 +703,8 @@ aŭ de simpla preseraro (deino anstataŭ feino).
 <head>B) 2 propraj nomoj</head>
 
 <list type="dict">
-<label lang="eo">Paŭl&strek;o</label><item></item>
-<label lang="eo">Zamenhof</label><item></item>
+<label lang="eo">Paŭl&strek;o</label><item type="ref"/>
+<label lang="eo">Zamenhof</label><item type="ref"/>
 </list>
 
 <p>
