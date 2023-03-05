@@ -467,7 +467,6 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="list[@type='dict']/label">
-  <xsl:value-of select="@rend"/> <!-- kelkaj vortoj havas markon kiel ekz-e steleton -->
   <strong id="{generate-id()}">
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
@@ -549,7 +548,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] "
-	 use="translate(substring(.,1,1),
+	 use="translate(substring(text(),1,1),
     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
 
@@ -567,7 +566,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:for-each select=
     "( //list[@type='dict']//label[not(@rend='hidden')] )
 	    [count(.|key('eoletters',
-	    translate(substring(.,1,1),
+	    translate(substring(text(),1,1),
     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU'))[1])=1]">
 
@@ -582,7 +581,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template name="letter">
 
   <xsl:variable name="firstletter">
-    <xsl:value-of select="translate(substring(.,1,1),
+    <xsl:value-of select="translate(substring(text(),1,1),
      'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
      'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
   </xsl:variable>
