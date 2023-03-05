@@ -620,13 +620,17 @@ listo de tradukoj -->
 <!-- esperanta vortindekso -->
 
 <xsl:key name="eoletters" match="
-	 //list[@type='dict']//label[not(@rend='hidden')] "
+	 //list[@type='dict']//label[not(@rend='hidden')] |
+	 //emph[@lang='eo'] | 
+	 //hi[@lang='eo']"
 	 use="translate(substring(text(),1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
+    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
+    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU')"/>
 
 <xsl:key name="eowords" match="
-	 //list[@type='dict']//label[not(@rend='hidden')] "
+	 //list[@type='dict']//label[not(@rend='hidden')] |
+	 //emph[@lang='eo'] | 
+	 //hi[@lang='eo']"
          use="."/>
 
 <xsl:template name="wordindex">
@@ -637,15 +641,16 @@ listo de tradukoj -->
 	    //list[@type='dict']/item[not(list)] -->
 
   <xsl:for-each select=
-    "( //list[@type='dict']//label[not(@rend='hidden')] )
+    "( //list[@type='dict']//label[not(@rend='hidden')] |
+	 //emph[@lang='eo'] | 
+	 //hi[@lang='eo'])
 	    [count(.|key('eoletters',
 	    translate(substring(text(),1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU'))[1])=1]">
+    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
+    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU'))[1])=1]">
 
        <!-- ordigu ilin -->
-       <xsl:sort lang="eo" case-order="upper-first" />
-      
+       <xsl:sort lang="eo" case-order="upper-first" />      
        <xsl:call-template name="letter"/>
  
   </xsl:for-each>
@@ -655,8 +660,8 @@ listo de tradukoj -->
 
   <xsl:variable name="firstletter">
     <xsl:value-of select="translate(substring(text(),1,1),
-     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
+     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
+     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU')"/>
   </xsl:variable>
 
   <xsl:variable name="letterdesc">
@@ -679,7 +684,7 @@ listo de tradukoj -->
       <xsl:when test="$firstletter='C'">
         <xsl:text>U, &Ubreve;</xsl:text>
       </xsl:when>
-      <xsl:when test="$firstletter='X'">
+      <xsl:when test="$firstletter='0'">
         <xsl:text>specialaj</xsl:text>
       </xsl:when>
       <xsl:otherwise>
