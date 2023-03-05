@@ -493,6 +493,7 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <!-- strukturita enhavo de vortlistero vorto + pluraj tradukoj ks-->
+
 <xsl:template match="list[@type='dict']/item[list]">
   <p class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
@@ -538,6 +539,23 @@ listo de tradukoj -->
   <xsl:apply-templates/>
 </xsl:template>
 
+<!-- apartaj reguloj por difinlistoj de OA9 (sen tradukoj) -->
+
+<xsl:template match="list[@type='dict' and @rend='def']/item" priority="1">
+  <p class="dict-entry">
+  <xsl:apply-templates select="preceding-sibling::label[1]"/>
+  <xsl:apply-templates select="text()|eg|list[@type='def']"/>
+  </p>
+  <xsl:apply-templates select="list[@type='deriv']"/>
+  <xsl:apply-templates select="note"/>
+</xsl:template>
+
+<xsl:template match="item/eg">
+  <i><xsl:apply-templates/></i>
+</xsl:template>
+
+<!-- reguloj por derivaĵoj enŝovitaj sub la ĉefaj kapvortoj -->
+
 <xsl:template match="list[@type='deriv']">
   <xsl:apply-templates select="item"/>
 </xsl:template>
@@ -556,18 +574,20 @@ listo de tradukoj -->
   </p>
 </xsl:template>
 
+<!-- listo kun difinoj esperantaj -->
+
 <xsl:template match="list[@type='def']">
   <xsl:apply-templates/>
 </xsl:template>
 
-<xsl:template match="item[@type='def' and not(list)]">
+<xsl:template match="item[@rend='def' and not(list)]">
   <p class="dict-entry">
     <xsl:apply-templates select="preceding-sibling::label[1]"/>
     <i><xsl:apply-templates/></i>
   </p>
 </xsl:template>
 
-<xsl:template match="item[@type='ref' and not(list)]">
+<xsl:template match="item[@rend='ref' and not(list)]">
   <p class="dict-entry">
     <xsl:apply-templates select="preceding-sibling::label[1]"/>
     <xsl:apply-templates/>
@@ -575,7 +595,7 @@ listo de tradukoj -->
 </xsl:template>
 
 
-<xsl:template match="list[@type='def']/item">
+<xsl:template match="list[@rend='def']/item">
   <xsl:choose>
     <xsl:when test="position()=last()">
       <xsl:apply-templates/><xsl:text>. </xsl:text>

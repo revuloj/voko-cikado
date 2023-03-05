@@ -297,116 +297,116 @@ difino estas aldonita.
 
 
 <list type="dict">
-<label lang="eo">a</label><item type="def" lang="eo">nomo de la litero a, unua litero de la Esperanta alfabeto</item>
-<label lang="eo">absolut&strek;</label><item type="ref">(1)</item>
-<label lang="eo">aktiv&strek;</label><item type="ref">(1)</item>
-<label lang="eo">alfabet&strek;</label><item type="ref">(1)</item>
-<label lang="eo">arĥaism&strek;</label><item type="def" lang="eo">vorto aŭ esprimo ne plu uzata en la komuna lingvo</item>
-<label lang="eo">aŭtor&strek;</label><item type="ref">(1)</item>
-<label lang="eo">aŭtoritat&strek;</label><item type="ref">(1)</item>
+<label lang="eo">a</label><item rend="def" lang="eo">nomo de la litero a, unua litero de la Esperanta alfabeto</item>
+<label lang="eo">absolut&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">aktiv&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">alfabet&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">arĥaism&strek;</label><item rend="def" lang="eo">vorto aŭ esprimo ne plu uzata en la komuna lingvo</item>
+<label lang="eo">aŭtor&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">aŭtoritat&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">bo</label><item type="def">nomo de la litero b, dua litero de la Esperanta alfabeto</item>
-<label lang="eo">bal&strek;</label><item type="ref">(1)</item>
+<label lang="eo">bo</label><item rend="def">nomo de la litero b, dua litero de la Esperanta alfabeto</item>
+<label lang="eo">bal&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">co</label><item type="def" lang="eo">nomo de la litero c, tria litero de la Esperanta alfabeto</item>
-<label lang="eo">centim&strek;</label><item type="ref">(1)</item>
+<label lang="eo">co</label><item rend="def" lang="eo">nomo de la litero c, tria litero de la Esperanta alfabeto</item>
+<label lang="eo">centim&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">ĉo</label><item type="def" lang="eo">nomo de la litero ĉ, kvara litero de la Esperanta alfabeto</item>
-<label lang="eo">ĉial</label><item type="def" lang="eo">el ĉia kaŭzo, motivo</item>
-<label lang="eo">ĉies</label><item type="def" lang="eo">apartenanta al ĉiu</item>
-<label lang="eo">ĉiom</label><item type="def" lang="eo">tutkvante</item>
+<label lang="eo">ĉo</label><item rend="def" lang="eo">nomo de la litero ĉ, kvara litero de la Esperanta alfabeto</item>
+<label lang="eo">ĉial</label><item rend="def" lang="eo">el ĉia kaŭzo, motivo</item>
+<label lang="eo">ĉies</label><item rend="def" lang="eo">apartenanta al ĉiu</item>
+<label lang="eo">ĉiom</label><item rend="def" lang="eo">tutkvante</item>
 
-<label lang="eo">do</label><item type="def" lang="eo">nomo de la litero d, kvina litero de la Esperanta alfabeto</item>
-<label lang="eo">diplomat&strek;</label><item type="ref">(1)</item>
-<label lang="eo">diplomati&strek;</label><item type="def" lang="eo">arto, profesio kaj aro de la diplomatoj</item>
-<label lang="eo">dogm&strek;</label><item type="ref">(2)</item>
-<label lang="eo">doktor&strek;</label><item type="ref">(1)</item>
-<label lang="eo">dokument&strek;</label><item type="ref">(1)</item>
+<label lang="eo">do</label><item rend="def" lang="eo">nomo de la litero d, kvina litero de la Esperanta alfabeto</item>
+<label lang="eo">diplomat&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">diplomati&strek;</label><item rend="def" lang="eo">arto, profesio kaj aro de la diplomatoj</item>
+<label lang="eo">dogm&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">doktor&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">dokument&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">e</label><item type="def" lang="eo">nomo de la litero e, sesa litero de la Esperanta alfabeto</item>
-<label lang="eo">energi&strek;</label><item type="ref">(1)</item>
+<label lang="eo">e</label><item rend="def" lang="eo">nomo de la litero e, sesa litero de la Esperanta alfabeto</item>
+<label lang="eo">energi&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">fo</label><item type="def" lang="eo">nomo de la litero f, sepa litero de la Esperanta alfabeto</item>
-<label lang="eo">fi</label><item type="ref">(1)</item>
-<label lang="eo">fizik&strek;</label><item type="ref">(1)</item>
-<label lang="eo">fotograf&strek;</label><item type="ref">(1)</item>
+<label lang="eo">fo</label><item rend="def" lang="eo">nomo de la litero f, sepa litero de la Esperanta alfabeto</item>
+<label lang="eo">fi</label><item rend="ref">(1)</item>
+<label lang="eo">fizik&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">fotograf&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">go</label><item type="def" lang="eo">nomo de la litero g, oka litero de la Esperanta alfabeto</item>
-<label lang="eo">geografi&strek;</label><item type="ref">(1)</item>
+<label lang="eo">go</label><item rend="def" lang="eo">nomo de la litero g, oka litero de la Esperanta alfabeto</item>
+<label lang="eo">geografi&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">ĝo</label><item type="def" lang="eo">nomo de la litero ĝ, naŭa litero de la Esperanta alfabeto</item>
+<label lang="eo">ĝo</label><item rend="def" lang="eo">nomo de la litero ĝ, naŭa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ho</label><item type="def" lang="eo">nomo de la litero ho, deka litero de la Esperanta alfabeto</item>
+<label lang="eo">ho</label><item rend="def" lang="eo">nomo de la litero ho, deka litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ĥo</label><item type="def" lang="eo">nomo de la litero ĥ, dekunua litero de la Esperanta alfabeto</item>
+<label lang="eo">ĥo</label><item rend="def" lang="eo">nomo de la litero ĥ, dekunua litero de la Esperanta alfabeto</item>
 
-<label lang="eo">i</label><item type="def" lang="eo">nomo de la litero i, dekdua litero de la Esperanta alfabeto</item>
-<label lang="eo">ide&strek;</label><item type="ref">(1)</item>
-<label lang="eo">instituci&strek;</label><item type="ref">(1)</item>
+<label lang="eo">i</label><item rend="def" lang="eo">nomo de la litero i, dekdua litero de la Esperanta alfabeto</item>
+<label lang="eo">ide&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">instituci&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">jo</label><item type="def" lang="eo">nomo de la litero j, dektria litero de la Esperanta alfabeto</item>
+<label lang="eo">jo</label><item rend="def" lang="eo">nomo de la litero j, dektria litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ĵo</label><item type="def" lang="eo">nomo de la litero ĵ, dekkvara litero de la Esperanta alfabeto</item>
+<label lang="eo">ĵo</label><item rend="def" lang="eo">nomo de la litero ĵ, dekkvara litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ko</label><item type="def" lang="eo">nomo de la litero k, dekkvina litero de la Esperanta alfabeto</item>
-<label lang="eo">kilometr&strek;</label><item type="ref">(1)</item>
-<label lang="eo">kompetent&strek;</label><item type="ref">(1)</item>
-<label lang="eo">kongres&strek;</label><item type="ref">(1)</item>
-<label lang="eo">kontrol&strek;</label><item type="ref">(1)</item>
-<label lang="eo">kopek&strek;</label><item type="ref">(1)</item>
+<label lang="eo">ko</label><item rend="def" lang="eo">nomo de la litero k, dekkvina litero de la Esperanta alfabeto</item>
+<label lang="eo">kilometr&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">kompetent&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">kongres&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">kontrol&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">kopek&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">lo</label><item type="def" lang="eo">nomo de la litero l, deksesa litero de la Esperanta alfabeto</item>
-<label lang="eo">literatur&strek;</label><item type="ref">(1)</item>
+<label lang="eo">lo</label><item rend="def" lang="eo">nomo de la litero l, deksesa litero de la Esperanta alfabeto</item>
+<label lang="eo">literatur&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">mo</label><item type="def" lang="eo">nomo de la litero m, deksepa litero de la Esperanta alfabeto</item>
-<label lang="eo">metr&strek;</label><item type="ref">(1)</item>
-<label lang="eo">milion&strek;</label><item type="ref">(2)</item>
+<label lang="eo">mo</label><item rend="def" lang="eo">nomo de la litero m, deksepa litero de la Esperanta alfabeto</item>
+<label lang="eo">metr&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">milion&strek;</label><item rend="ref">(2)</item>
 
-<label lang="eo">no</label><item type="def" lang="eo">nomo de la litero n, dekoka litero de la Esperanta alfabeto</item>
-<label lang="eo">naiv&strek;</label><item type="ref">(1)</item>
-<label lang="eo">nenial</label><item type="def" lang="eo">el nenia kaŭzo, motivo</item>
-<label lang="eo">neniom</label><item type="def" lang="eo">nulkvante</item>
+<label lang="eo">no</label><item rend="def" lang="eo">nomo de la litero n, dekoka litero de la Esperanta alfabeto</item>
+<label lang="eo">naiv&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">nenial</label><item rend="def" lang="eo">el nenia kaŭzo, motivo</item>
+<label lang="eo">neniom</label><item rend="def" lang="eo">nulkvante</item>
 
-<label lang="eo">o</label><item type="def" lang="eo">nomo de la litero o, deknaŭa litero de la Esperanta alfabeto</item>
+<label lang="eo">o</label><item rend="def" lang="eo">nomo de la litero o, deknaŭa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">po</label><item type="def" lang="eo">nomo de la litero p, dudeka litero de la Esperanta alfabeto</item>
-<label lang="eo">paradoks&strek;</label><item type="ref">(2)</item>
-<label lang="eo">paralel&strek;</label><item type="ref">(1)</item>
-<label lang="eo">patent&strek;</label><item type="ref">(1)</item>
-<label lang="eo">pfenig&strek;</label><item type="ref">(1)</item>
-<label lang="eo">prefiks&strek;</label><item type="ref">(1)</item>
-<label lang="eo">princip&strek;</label><item type="ref">(1)</item>
-<label lang="eo">projekt&strek;</label><item type="ref">(2)</item>
+<label lang="eo">po</label><item rend="def" lang="eo">nomo de la litero p, dudeka litero de la Esperanta alfabeto</item>
+<label lang="eo">paradoks&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">paralel&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">patent&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">pfenig&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">prefiks&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">princip&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">projekt&strek;</label><item rend="ref">(2)</item>
 
-<label lang="eo">ro</label><item type="def" lang="eo">nomo de la litero r, dudekunua litero de la Esperanta alfabeto</item>
-<label lang="eo">rezultat&strek;</label><item type="ref">(1)</item>
+<label lang="eo">ro</label><item rend="def" lang="eo">nomo de la litero r, dudekunua litero de la Esperanta alfabeto</item>
+<label lang="eo">rezultat&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">so</label><item type="def" lang="eo">nomo de la litero s, dudekdua litero de la Esperanta alfabeto</item>
-<label lang="eo">sankci&strek;</label><item type="ref">(1)</item>
-<label lang="eo">scen&strek;</label><item type="ref">(1)</item>
-<label lang="eo">sistem&strek;</label><item type="ref">(1)</item>
-<label lang="eo">sofism&strek;</label><item type="ref">(1)</item>
-<label lang="eo">special&strek;</label><item type="ref">(1)</item>
-<label lang="eo">sufiks&strek;</label><item type="ref">(1)</item>
+<label lang="eo">so</label><item rend="def" lang="eo">nomo de la litero s, dudekdua litero de la Esperanta alfabeto</item>
+<label lang="eo">sankci&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">scen&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">sistem&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">sofism&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">special&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">sufiks&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">ŝo</label><item type="def" lang="eo">nomo de la litero ŝ, dudektria litero de la Esperanta alfabeto</item>
+<label lang="eo">ŝo</label><item rend="def" lang="eo">nomo de la litero ŝ, dudektria litero de la Esperanta alfabeto</item>
 
-<label lang="eo">to</label><item type="def" lang="eo">nomo de la litero t, dudekkvara litero de la Esperanta alfabeto</item>
-<label lang="eo">teatr&strek;</label><item type="ref">(1)</item>
-<label lang="eo">telegraf&strek;</label><item type="ref">(1)</item>
-<label lang="eo">teori&strek;</label><item type="ref">(1)</item>
-<label lang="eo">ties</label><item type="def" lang="eo">apartenanta al tiu</item>
-<label lang="eo">tragedi&strek;</label><item type="ref">(1)</item>
+<label lang="eo">to</label><item rend="def" lang="eo">nomo de la litero t, dudekkvara litero de la Esperanta alfabeto</item>
+<label lang="eo">teatr&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">telegraf&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">teori&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">ties</label><item rend="def" lang="eo">apartenanta al tiu</item>
+<label lang="eo">tragedi&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">u</label><item type="def" lang="eo">nomo de la litero u, dudekkvina litero de la Esperanta alfabeto</item>
+<label lang="eo">u</label><item rend="def" lang="eo">nomo de la litero u, dudekkvina litero de la Esperanta alfabeto</item>
 
-<label lang="eo">ŭo</label><item type="def" lang="eo">nomo de la litero ŭ, dudeksesa litero de la Esperanta alfabeto</item>
+<label lang="eo">ŭo</label><item rend="def" lang="eo">nomo de la litero ŭ, dudeksesa litero de la Esperanta alfabeto</item>
 
-<label lang="eo">vo</label><item type="def" lang="eo">nomo de la litero v, dudeksepa litero de la Esperanta alfabeto</item>
-<label lang="eo">valor&strek;</label><item type="ref">(1)</item>
+<label lang="eo">vo</label><item rend="def" lang="eo">nomo de la litero v, dudeksepa litero de la Esperanta alfabeto</item>
+<label lang="eo">valor&strek;</label><item rend="ref">(1)</item>
 
-<label lang="eo">zo</label><item type="def" lang="eo">nomo de la litero z, dudekoka litero de la Esperanta alfabeto</item>
-<label lang="eo">zoologi&strek;</label><item type="ref">(1)</item>
+<label lang="eo">zo</label><item rend="def" lang="eo">nomo de la litero z, dudekoka litero de la Esperanta alfabeto</item>
+<label lang="eo">zoologi&strek;</label><item rend="ref">(1)</item>
 </list>
 
 </div>
@@ -415,41 +415,41 @@ difino estas aldonita.
 <head>B. — 35 propraj nomoj</head>
 
 <list type="dict">
-<label lang="eo">angl&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">Ann&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Anton&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Aŭgust&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Berlin&strek;</label><item type="def" lang="eo">(urbnomo)</item>
-<label lang="eo">Bert&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Bulonj&strek;</label><item type="def" lang="eo">(urbnomo)</item>
-<label lang="eo">Elizabet&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Ernest&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Esperant&strek;</label><item type="def" lang="eo">(nomo de lingvo)</item>
-<label lang="eo">Eŭrop&strek;</label><item type="def" lang="eo">(nomo de kontinento)</item>
-<label lang="eo">franc&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">Georg&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">german&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">hebre&strek;</label><item type="def" lang="eo">(1-a Oficiala Aldono; nomo de ano de popolo)</item>
-<label lang="eo">hispan&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">Jozef&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Kalvin&strek;</label><item type="def" lang="eo">(vira nomo)</item>
-<label lang="eo">Klar&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">London&strek;</label><item type="def" lang="eo">(urbnomo)</item>
-<label lang="eo">Ludovik&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Luter&strek;</label><item type="def" lang="eo">(vira nomo)</item>
-<label lang="eo">Nikodem&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Nikola&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Pariz&strek;</label><item type="def" lang="eo">(urbnomo)</item>
-<label lang="eo">Paŭlin&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Petr&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">pol&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">rus&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">Sofi&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Stefan&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Ŝiller&strek;</label><item type="def" lang="eo">(vira nomo)</item>
-<label lang="eo">Teodor&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Vaŝington&strek;</label><item type="def" lang="eo">(vira nomo)</item>
-<label lang="eo">Vilhelm&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">angl&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Ann&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Anton&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Aŭgust&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Berlin&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Bert&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Bulonj&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Elizabet&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Ernest&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Esperant&strek;</label><item rend="def" lang="eo">(nomo de lingvo)</item>
+<label lang="eo">Eŭrop&strek;</label><item rend="def" lang="eo">(nomo de kontinento)</item>
+<label lang="eo">franc&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Georg&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">german&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">hebre&strek;</label><item rend="def" lang="eo">(1-a Oficiala Aldono; nomo de ano de popolo)</item>
+<label lang="eo">hispan&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Jozef&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Kalvin&strek;</label><item rend="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Klar&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">London&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Ludovik&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Luter&strek;</label><item rend="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Nikodem&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Nikola&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Pariz&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Paŭlin&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Petr&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">pol&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">rus&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Sofi&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Stefan&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Ŝiller&strek;</label><item rend="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Teodor&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Vaŝington&strek;</label><item rend="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Vilhelm&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
 </list>
 
 <p>
@@ -460,16 +460,16 @@ Fundamento:
 </p>
 
 <list type="dict">
-<label lang="eo">Aleksandr&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Emili&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Henriet&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Izrael&strek;</label><item type="def" lang="eo">(vira nomo)</item>
-<label lang="eo">Johan&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Mari&strek;</label><item type="def" lang="eo">(virina antaŭnomo)</item>
-<label lang="eo">Miĥael&strek;</label><item type="def" lang="eo">(vira antaŭnomo)</item>
-<label lang="eo">Nov-Jork&strek;</label><item type="def" lang="eo">(urbnomo)</item>
-<label lang="eo">turk&strek;</label><item type="def" lang="eo">(nomo de ano de popolo)</item>
-<label lang="eo">Varsovi&strek;</label><item type="def" lang="eo">(urbnomo)</item>
+<label lang="eo">Aleksandr&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Emili&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Henriet&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Izrael&strek;</label><item rend="def" lang="eo">(vira nomo)</item>
+<label lang="eo">Johan&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Mari&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
+<label lang="eo">Miĥael&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
+<label lang="eo">Nov-Jork&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
+<label lang="eo">turk&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
+<label lang="eo">Varsovi&strek;</label><item rend="def" lang="eo">(urbnomo)</item>
 </list>
 
 </div>
@@ -488,22 +488,22 @@ montrita interkrampe: ili estas samsignifaj kun la respondaj formoj en
 
 
 <list type="dict">
-<label lang="eo">agronom&strek;</label><item type="ref">(1)</item>
-<label lang="eo">antropolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">biolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">entomolog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">etimolog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">etiolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">fiziolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">genealog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">grafolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">meteorolog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">mineralog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">mitolog&strek;</label><item type="ref">(1)</item>
-<label lang="eo">ornitolog&strek;</label><item type="ref">(3)</item>
-<label lang="eo">paleontolog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">patolog&strek;</label><item type="ref">(2)</item>
-<label lang="eo">zoolog&strek;</label><item type="ref">(1)</item>
+<label lang="eo">agronom&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">antropolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">biolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">entomolog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">etimolog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">etiolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">fiziolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">genealog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">grafolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">meteorolog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">mineralog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">mitolog&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">ornitolog&strek;</label><item rend="ref">(3)</item>
+<label lang="eo">paleontolog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">patolog&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">zoolog&strek;</label><item rend="ref">(1)</item>
 </list>
 
 <p>
@@ -528,21 +528,21 @@ oficialigitaj. Do nova grupo de 15 radikoj estas aldonita al la Oficiala Listo:
 </p>
 
 <list type="dict">
-<label lang="eo">aŭtokrat&strek;</label><item type="ref">(3)</item>
-<label lang="eo">bibliograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">biograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">etnograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">geograf&strek;</label><item type="ref">(1)</item>
-<label lang="eo">geometr&strek;</label><item type="ref">(1)</item>
-<label lang="eo">homeopat&strek;</label><item type="ref">(1)</item>
-<label lang="eo">kartograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">kosmograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">oligarĥ&strek;, oligark&strek;</label><item type="ref">(3)</item>
-<label lang="eo">paleograf&strek;</label><item type="ref">(2)</item>
-<label lang="eo">plutokrat&strek;</label><item type="ref">(3)</item>
-<label lang="eo">teokrat&strek;</label><item type="ref">(2)</item>
-<label lang="eo">tipograf&strek;</label><item type="ref">(1)</item>
-<label lang="eo">topograf&strek;</label><item type="ref">(2)</item>
+<label lang="eo">aŭtokrat&strek;</label><item rend="ref">(3)</item>
+<label lang="eo">bibliograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">biograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">etnograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">geograf&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">geometr&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">homeopat&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">kartograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">kosmograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">oligarĥ&strek;, oligark&strek;</label><item rend="ref">(3)</item>
+<label lang="eo">paleograf&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">plutokrat&strek;</label><item rend="ref">(3)</item>
+<label lang="eo">teokrat&strek;</label><item rend="ref">(2)</item>
+<label lang="eo">tipograf&strek;</label><item rend="ref">(1)</item>
+<label lang="eo">topograf&strek;</label><item rend="ref">(2)</item>
 </list>
 
 </div>
@@ -669,18 +669,18 @@ Aldono, en kiu tiuj Fundamentaj vortoj estis siatempe kolektitaj.
 Estas Fundamentaj jenaj radikoj:</p>
 
 <list type="dict">
-<label lang="eo">adres&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">centr&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">frank&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">general&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">jur&strek;o</label><item type="ref">(3)</item>
-<label lang="eo">ĵurnal&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">kilogram&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">material&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">metal&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">muzik&strek;o</label><item type="ref">(1)</item>
-<label lang="eo">oficial&strek;a</label><item type="ref">(1)</item>
-<label lang="eo">tekst&strek;o</label><item type="ref">(1)</item>
+<label lang="eo">adres&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">centr&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">frank&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">general&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">jur&strek;o</label><item rend="ref">(3)</item>
+<label lang="eo">ĵurnal&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">kilogram&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">material&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">metal&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">muzik&strek;o</label><item rend="ref">(1)</item>
+<label lang="eo">oficial&strek;a</label><item rend="ref">(1)</item>
+<label lang="eo">tekst&strek;o</label><item rend="ref">(1)</item>
 </list>
 
 <p>
@@ -703,8 +703,8 @@ aŭ de simpla preseraro (deino anstataŭ feino).
 <head>B) 2 propraj nomoj</head>
 
 <list type="dict">
-<label lang="eo">Paŭl&strek;o</label><item type="ref"/>
-<label lang="eo">Zamenhof</label><item type="ref"/>
+<label lang="eo">Paŭl&strek;o</label><item rend="ref"/>
+<label lang="eo">Zamenhof</label><item rend="ref"/>
 </list>
 
 <p>
@@ -2991,15 +2991,15 @@ respektivaj difinotekstoj.
 <div id="oa_9_vortoj">
 <head>Oficialaj radikoj</head>
 
-<list type="dict">
+<list type="dict" rend="def">
 
 <label lang="eo">adrenalin&strek;o</label><item>Hormono produktata de la surrenaj glandoj kaj sekreciata en
 la sangon okaze de mensa aŭ korpa premo (danĝero k.s.) por prepari la
-korpon al urĝa agado, fuĝo, sindefendo k.s.: adrenalino akcelas la koran
-ritmon kaj altigas la sangopremon. Formulo: C6H3(OH)2-CH(OH)-CH2-NH-CH3.</item>
+korpon al urĝa agado, fuĝo, sindefendo k.s.: <eg>adrenalino akcelas la koran
+ritmon kaj altigas la sangopremon</eg>. Formulo: C₆H₃(OH)₂-CH(OH)-CH₂-NH-CH₃.</item>
 
 <label lang="eo">agres&strek;i</label>
-  <item>Ataki ne provokite; ataki kiel unua ne estante mem minacata de atako: agresi personon; agresi landon. 
+  <item>Ataki ne provokite; ataki kiel unua ne estante mem minacata de atako: <eg>agresi personon; agresi landon</eg>. 
   <list type="deriv">
     <label lang="eo">agres&strek;em&strek;a</label>
     <item>Ĉiam preta ataki, aŭ inklina kutime ataki, eĉ ne provokite.</item>
@@ -3019,16 +3019,15 @@ polvo k.s.</item>
 
 <label lang="eo">algoritm&strek;o</label><item>(en matematiko, komputado k.s.) Aro da precizaj reguloj aŭ pre-
 ciza priskribo de la agoj farendaj por solvi problemon aŭ atingi celon:
-algoritmo de obligado; la Eŭklida algoritmo; prezenti algoritmon per
-komputila programo.</item>
+<eg>algoritmo de obligado; la Eŭklida algoritmo; prezenti algoritmon per
+komputila programo</eg>.</item>
 
 <label lang="eo">ameb&strek;o</label><item>Unuĉela vivulo, sin movanta per ŝajnpiedoj (loboj aŭ fadenoj de
 ĉelinterna substanco), vivanta en akvo, malseka tero aŭ parazite en bestoj
 aŭ homoj, ofte ŝanĝanta sian formon. (Amoeba, Entamoeba k.a. parencaj
 genroj.)</item>
 
-<label lang="eo">amend&strek;i</label><item>Ŝanĝi parton de leĝo, rezolucio aŭ simila teksto per formala pro-
-ceduro: amendi leĝoproponon; amendi rezolucion. 
+<label lang="eo">amend&strek;i</label><item>Ŝanĝi parton de leĝo, rezolucio aŭ simila teksto per formala proceduro: <eg>amendi leĝoproponon; amendi rezolucion</eg>. 
 <list type="deriv">
   <label lang="eo">amend&strek;o</label><item>Ago amendi
 kaj ties rezulto (tekstoparto amen de ŝanĝita aŭ aldonita).</item>
@@ -3041,14 +3040,15 @@ mentoj, ekz. hobojo, klarneto kaj saksofono.</item>
   <item>La regiono kaj kontinento ĉirkaŭ la suda poluso. 
   <list type="deriv">
     <label lang="eo">Antarkt&strek;a</label>
-    <item>Rilata al Antarkto; tia kiel (en) Antarkto: la Antarkta Cirklo; Antarkta klimato; Antarkta glacio.</item>
+    <item>Rilata al Antarkto; tia kiel (en) Antarkto: 
+    <eg>la Antarkta Cirklo; Antarkta klimato; Antarkta glacio</eg>.</item>
   </list>
 </item>
 
 <label lang="eo">antibiotik&strek;o</label><item>Organika substanco produktata de mikroboj aŭ ĥemie sintezata, 
 kiu povas malhelpi plimultiĝon de bakterioj kaj aliaj mikroboj, kaj eĉ
-ilin mortigi: penicilino estas vaste uzata antibiotiko; multajn infektajn
-malsanojn oni kuracas per antibiotiko.</item>
+ilin mortigi: <eg>penicilino estas vaste uzata antibiotiko; multajn infektajn
+malsanojn oni kuracas per antibiotiko</eg>.</item>
 
 <label lang="eo">anus&strek;o</label><item>Malfermaĵo, kiu troviĝas ĉe la fino de la nutrokanalo, kaj tra kiu
 eliras la fekaĵoj (komunuze nomata postaĵotruo).</item>
@@ -3058,17 +3058,17 @@ manĝo.</item>
 
 <label lang="eo">are&strek;o</label>
 <item><list type="def">
-<item>1 Mezuro de surfaco: ŝi mezuris la areon de la kampo; la areo de la
+<item>1 Mezuro de surfaco: <eg>ŝi mezuris la areon de la kampo; la areo de la
 ĉambro estas 20 kvadrataj metroj; tiu lando havas areon de pli ol cent mil
-kvadrataj kilometroj.</item> 
-<item>2 Parto de surfaco; tereno: tie estas parka areo, kie
-oni povas promeni; kulturata areo.</item>
+kvadrataj kilometroj</eg>.</item> 
+<item>2 Parto de surfaco; tereno: <eg>tie estas parka areo, kie
+oni povas promeni; kulturata areo</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">Arkt&strek;o</label><item>La regiono ĉirkaŭ la norda poluso. 
   <list type="deriv"><label lang="eo">Arkt&strek;a</label><item>Rilata al Arkto; tia kiel
-(en) Arkto: la Arkta Oceano; la Arkta Cirklo; Arkta klimato.</item>
+(en) Arkto: <eg>la Arkta Oceano; la Arkta Cirklo; Arkta klimato</eg>.</item>
   </list>
 </item>
 
@@ -3076,7 +3076,7 @@ oni povas promeni; kulturata areo.</item>
 izolantan kontraŭ varmego kaj fajro. <note>(1)</note></item>
 
 <label lang="eo">aspirin&strek;o</label><item>Medikamento uzata precipe kontraŭ doloro, febro kaj inflamo,
-konsistanta el substanco kun la ĥemia formulo CH3-CO-O-C6H4-COOH.</item>
+konsistanta el substanco kun la ĥemia formulo CH₃-CO-O-C₆H₄-COOH.</item>
 
 <label lang="eo">avokad&strek;o</label><item>Frukto de avokadujo, kun verda aŭ bruneta ŝelo (el kiu oni povas
 ĝin manĝi), tre nutra, butereca karno, kaj unu sola tre granda malmola
@@ -3110,19 +3110,20 @@ aŭ honori ion, ofte kun festparoladoj k.s.).</item>
 
 <label lang="eo">beton&strek;o</label><item>Konstrumaterialo, miksaĵo el sablo, ŝtonetoj, cemento kaj akvo.</item>
 
-<label lang="eo">bit&strek;o</label><item>Pozicio de duuma cifero en duuma kodaĵo: kontrola parecbito; la tria
+<label lang="eo">bit&strek;o</label><item>Pozicio de duuma cifero en duuma kodaĵo: <eg>kontrola parecbito; la tria
 bito de la nombroprezento; ĉi tia memorĉelo povas enteni 32 bitojn; por
-prezenti tian nombron oni bezonas almenaŭ 10 bitojn. 
+prezenti tian nombron oni bezonas almenaŭ 10 bitojn</eg>. 
 <list type="deriv"><label lang="eo">bit&strek;ok&strek;o</label><item>Grupo de
   ok bitoj traktata kiel tutaĵo (kiel unuo en komputado k.s.).</item>
 </list>
+<note>(2)</note>
 </item>
  
 <label lang="eo">bizon&strek;o</label><item>Sovaĝa remaĉanta parhufa bovosimila mamulo Nord-Amerika kaj
 Eŭropa. (Bison bison, Bison bonasus.)</item>
 
-<label lang="eo">bluf&strek;i</label><item>Ŝajnigi sin supera al kontraŭulo por konduki tiun al eraro: ne timu
-lian minacon, ĉar li blufas.</item>
+<label lang="eo">bluf&strek;i</label><item>Ŝajnigi sin supera al kontraŭulo por konduki tiun al eraro: <eg>ne timu
+lian minacon, ĉar li blufas</eg>.</item>
 
 <label lang="eo">boac&strek;o</label><item>Arkta remaĉanta mamulo portanta kornojn (en la Fundamento nom-
 ata norda cervo). (Rangifer tarandus.)</item>
@@ -3174,7 +3175,7 @@ membroj, kaj sin movas tre malrapide. (Bradypus.)</item>
 
 <label lang="eo">cirkumcid&strek;i</label><item>Detranĉi parton de la haŭta refaldo, kiu ĉirkaŭas la kapon de
 peniso (la glanon) por lasi tiun libera (pro higienaj, medicinaj aŭ religiaj
-kialoj): cirkumcidi infaneton.</item>
+kialoj): <eg>cirkumcidi infaneton</eg>.</item>
 
 <label lang="eo">ĉampion&strek;o</label><item>Venkinto en grava sportokonkurso (urba, landa, tutmonda...).</item>
 
@@ -3197,17 +3198,22 @@ Lando en orienta Azio, ĉe la Flava Maro, la Orientĉina Maro kaj la Sud-
 </item>
 
 <label lang="eo">defi&strek;i</label><item>Inviti aŭ provoki al batalo, konkurso k.s. prezentante sin mem kiel
-kontraŭulon: defii boksan ĉampionon; defii iun batali; defii iun je/al
-batalo; defii amikon ŝakludi; (figure) ŝakludo defias la intelekton.</item>
+kontraŭulon: <eg>defii boksan ĉampionon; defii iun batali; defii iun je/al
+batalo; defii amikon ŝakludi; (figure) ŝakludo defias la intelekton</eg>.</item>
 
-<label lang="eo">delt&strek;o</label><item>1 La kvara litero de la greka alfabeto: Δ, δ. 2 Pli-malpli triangula
+<label lang="eo">delt&strek;o</label><item>
+<list type="def">
+ <item>1 La kvara litero de la greka alfabeto: Δ, δ. </item>
+ <item>2 Pli-malpli triangula
 ebenaĵo, kiu estas formita el materialo alportita de la akvofluo, kaj tra kiu
 disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
+</list>
+</item>
 
 <label lang="eo">demografi&strek;o</label><item>
 <list type="def">
   <item>1 Scienco pri la konsisto de la loĝantaro kaj pri ĝia evoluo.</item>
-  <item>2 Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj pri tendencoj de ilia evoluo: demografio de la urboj; demografio de la kamparaj regionoj.</item>
+  <item>2 Informoj pri la nombro, konsisto kaj loka distribuo de la loĝantaro, kaj pri tendencoj de ilia evoluo: <eg>demografio de la urboj; demografio de la kamparaj regionoj</eg>.</item>
 </list>
 </item>
 
@@ -3220,28 +3226,28 @@ disbranĉiĝas rivero ĉe sia enfluo en maron aŭ lagon.</item>
 <label lang="eo">dies&strek;o</label><item>Muziknota kromsigno, kiu montras altigon de tono: ♯.</item>
 
 <label lang="eo">diskriminaci&strek;i</label><item>Oficiale aŭ efektive fari distingon inter personoj, tiel ke oni
-rifuzas al parto el ili rajton, kiun oni donas al aliaj el ili: diskriminacii ek-
-sterlandanojn; diskriminacii malplimulton; diskriminaciata popolo.</item>
+rifuzas al parto el ili rajton, kiun oni donas al aliaj el ili: 
+<eg>diskriminacii eksterlandanojn; diskriminacii malplimulton; diskriminaciata popolo</eg>.</item>
 
 <label lang="eo">diskriminaci&strek;o</label><item>Ago diskriminacii: rasa diskriminacio; seksa diskriminacio; diskriminacio kontraŭ virinoj; diskriminacio laŭ aĝo; pozitiva
 diskriminacio.</item>
 
-<label lang="eo">dizert&strek;i</label><item>Fuĝi el militservo kun intenco ne plu reveni al ĝi: la soldatoj
-dizertis.</item>
+<label lang="eo">dizert&strek;i</label><item>Fuĝi el militservo kun intenco ne plu reveni al ĝi: <eg>la soldatoj
+dizertis</eg>.</item>
 
-<label lang="eo">drast&strek;a</label><item>Fortege, malmilde, rapide, radikale efikanta: drasta medikamento;
-drasta ŝanĝo; drasta kresko; drasta esprimo; drasta kontrasto (= kreanta
+<label lang="eo">drast&strek;a</label><item>Fortege, malmilde, rapide, radikale efikanta: <eg>drasta medikamento;
+drasta ŝanĝo; drasta kresko; drasta esprimo; drasta kontrasto</eg> (= kreanta
 fortan impreson).</item>
 
 <label lang="eo">driv&strek;i</label><item>
 <list type="def">
-  <item>1 Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol intencite, sen klara direkto): la ŝipo drivis pro motordifekto.</item>
-  <item>2 Deflankiĝi de la intencita direkto pro puŝo de vento aŭ akvofluo: la kuglo drivis pro la forta vento, kaj tial ĝi ne trafis la celon.</item>
+  <item>1 Flosi laŭ la puŝo de akvofluo aŭ vento (senstire, en alia direkto ol intencite, sen klara direkto): <eg>la ŝipo drivis pro motordifekto</eg>.</item>
+  <item>2 Deflankiĝi de la intencita direkto pro puŝo de vento aŭ akvofluo: <eg>la kuglo drivis pro la forta vento, kaj tial ĝi ne trafis la celon</eg>.</item>
 </list>
   <list type="deriv"><label lang="eo">driv&strek;o</label><item>
   <list type="def">
     <item>1 Ago drivi.</item> 
-    <item>2 Malrapida ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): kon- tinenta drivo; lingva drivo.</item>
+    <item>2 Malrapida ŝanĝiĝado aŭ moviĝado en ia sistemo (sen klara celo aŭ direkto): <eg>kontinenta drivo; lingva drivo</eg>.</item>
   </list>
   </item>
 </list>
@@ -3267,10 +3273,10 @@ sed ne nepra trajto de etno. Kontraste al gento, etno ne insistas pri deveno de 
 kolektitajn per etnografio); socia kaj kultura antropologio.</item>
 
 <label lang="eo">etos&strek;o</label><item>Reganta humoro aŭ spirita atmosfero kreata de ĉeestantaj homoj,
-ĉirkaŭaĵo, cirkonstancoj aŭ artaĵo: la etoso en la oficejo estas streĉa; la spektaklo/muziko kreis agrablan etoson.</item>
+ĉirkaŭaĵo, cirkonstancoj aŭ artaĵo: <eg>la etoso en la oficejo estas streĉa; la spektaklo/muziko kreis agrablan etoson</eg>.</item>
 
 <label lang="eo">eŭfemism&strek;o</label><item>Evitvorto, evitesprimo. Vorto aŭ esprimo uzata por mildeco
-anstataŭ diraĵo, kiu povas esti rigardata kiel tro kruda, tro malagrabla, tro sankta aŭ simile: “kuŝi” estas eŭfemismo por “seksumi”; “etna purigado” estas eŭfemismo por “popolmurdo”; la vorto “necesejo” estas eŭfemismo.</item>
+anstataŭ diraĵo, kiu povas esti rigardata kiel tro kruda, tro malagrabla, tro sankta aŭ simile<eg>“kuŝi” estas eŭfemismo por “seksumi”; “etna purigado” estas eŭfemismo por “popolmurdo”; la vorto “necesejo” estas eŭfemismo</eg>.</item>
 
 <label lang="eo">eŭkalipt&strek;o</label><item>Ĉiamverda rapidkreska arbo indiĝena en Aŭstralio, kun tre alta
 trunko kaj kun folioj enhavantaj oleon fortodoran kaj seninfektigan,
@@ -3284,7 +3290,7 @@ dek eŭrojn kaj kvindek cendojn.</item>
  en la internon de kuirota manĝaĵo.
 <list type="deriv">
   <label lang="eo">farĉ&strek;i</label>
-  <item>Plenigi la internon de manĝaĵo per farĉo: farĉi anseron per prunoj kaj pomoj; farĉi tomatojn; bovo farĉita per anasoj kaj kokinoj; farĉitaj terpomoj.</item>
+  <item>Plenigi la internon de manĝaĵo per farĉo: <eg>farĉi anseron per prunoj kaj pomoj; farĉi tomatojn; bovo farĉita per anasoj kaj kokinoj; farĉitaj terpomoj</eg>.</item>
 </list>
 </item>
 
@@ -3302,9 +3308,9 @@ dek eŭrojn kaj kvindek cendojn.</item>
 <label lang="eo">festival&strek;o</label><item>
 <list type="def">
   <item>1 Renkontiĝo dediĉita al arto (muziko, kino ktp.), ofte perioda kaj
-internacia: la Berlina Film-Festivalo; la Kultura Esperanto-Festivalo.</item>
-  <item>2 Amasa renkontiĝo kun parte festa karaktero: la Monda Festivalo de
-Junularo kaj Studentaro.</item>
+internacia: <eg>la Berlina Film-Festivalo; la Kultura Esperanto-Festivalo</eg>.</item>
+  <item>2 Amasa renkontiĝo kun parte festa karaktero: <eg>la Monda Festivalo de
+Junularo kaj Studentaro</eg>.</item>
 </list>
 </item>
 
@@ -3316,13 +3322,13 @@ Junularo kaj Studentaro.</item>
 </list></item>
 
 <label lang="eo">fram&strek;o</label><item>Ĉefparto (trabaro) de objekto, portanta la aliajn partojn de la
-objekto: framo de maŝino; framo de piano; framo de biciklo.</item>
+objekto: <eg>framo de maŝino; framo de piano; framo de biciklo</eg>.</item>
 
 <label lang="eo">frustr&strek;i</label><item>Senigi je kontentigo de bezono aŭ deziro (tiel kaŭzante mal-
-agrablajn sentojn): la malhelpoj frustris ŝin; li sentas sin frustrita.</item>
+agrablajn sentojn): <eg>la malhelpoj frustris ŝin; li sentas sin frustrita</eg>.</item>
 
 <label lang="eo">furz&strek;i</label><item>Lasi eliri intestajn gasojn el la anuso, kutime kun malagrabla odoro,
-ofte kun bruo: la ebriulo senhonte furzis.</item>
+ofte kun bruo: <eg>la ebriulo senhonte furzis</eg>.</item>
 
 <label lang="eo">galaksi&strek;o</label><item>Stelamaso (konsistanta tipe el inter milionoj kaj centoj da mil-
 iardoj da steloj) plej ofte aspektanta kiel spirala aŭ elipsa nebula astro:
@@ -3334,8 +3340,8 @@ nian galaksion oni nomas “la Lakta Vojo” aŭ simple “la Galaksio”.</item
 <list type="def">
   <item>1 Gramatika kategorio (precipe ĉe substantivoj kaj pronomoj, sed
 ankaŭ ĉe aliaj vortspecoj), kiu almenaŭ historie iel rilatas al la sekso de
-estaĵoj aŭ al distingo inter uloj kaj aĵoj: vira genro; ina genro; neŭtra
-genro.</item>
+estaĵoj aŭ al distingo inter uloj kaj aĵoj: <eg>vira genro; ina genro; neŭtra
+genro</eg>.</item>
   <item>2 Subgrupo de zoologia aŭ botanika familio.</item>
 </list>
 </item>
@@ -3350,19 +3356,19 @@ la giĉetisto kaj la kliento.</item>
 </list>
 </item>
 
-<label lang="eo">glis&strek;i</label><item>(pri aviadilo) Flugi (malsupren) sen uzo de motora forto: la aviadilo
-malrapi de glisis al la tero.</item>
+<label lang="eo">glis&strek;i</label><item>(pri aviadilo) Flugi (malsupren) sen uzo de motora forto: <eg>la aviadilo
+malrapi de glisis al la tero</eg>.</item>
 
 <label lang="eo">glis&strek;il&strek;o</label><item>Senmotora aviadilo, kies flugado dependas de aerfortoj kaj aerfluoj.</item>
 
-<label lang="eo">grafik&strek;o</label><item>Arto aŭ tekniko prezenti ion per desegnaj linioj: ŝi studis grafikon
- en la artlernejo komputila grafiko estas nun populara.
+<label lang="eo">grafik&strek;o</label><item>Arto aŭ tekniko prezenti ion per desegnaj linioj: <eg>ŝi studis grafikon
+ en la artlernejo komputila grafiko estas nun populara</eg>.
 <list type="deriv">
   <label lang="eo">grafik&strek;aĵ&strek;o</label>
   <item>
   <list type="def">
-    <item>1 Bildo grafika: grafikaĵoj ilustris la poemaron.</item>
-    <item>2 Desegnaĵo prezentanta fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun nombraj indikoj: la grafikaĵo prezentis la dividon de la membraro laŭ profesioj.</item>
+    <item>1 Bildo grafika: <eg>grafikaĵoj ilustris la poemaron</eg>.</item>
+    <item>2 Desegnaĵo prezentanta fenomenojn aŭ abstraktajn rilatojn per kurboj, surfacoj k.s., ofte kun nombraj indikoj: <eg>la grafikaĵo prezentis la dividon de la membraro laŭ profesioj</eg>.</item>
   </list>
   </item>
   <label lang="eo">grafik&strek;ist&strek;o</label>
@@ -3425,18 +3431,18 @@ ostoj kaj dentoj. Simbolo Ca, atomnumero 20, atommaso 40,08.</item>
 
 <label lang="eo">kampanj&strek;o</label><item>
 <list type="def">
-  <item>1 Serio da militaj manovroj kun difinita celo en iu regiono: la Ruslanda kampanjo de la Granda Armeo en la jaro 1812a.</item>
-  <item>2 Intensa publika agado por akiri subtenon de homoj por afero: la mediprotektantoj faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo.</item>
+  <item>1 Serio da militaj manovroj kun difinita celo en iu regiono<eg>la Ruslanda kampanjo de la Granda Armeo en la jaro 1812a</eg>.</item>
+  <item>2 Intensa publika agado por akiri subtenon de homoj por afero: <eg>la mediprotektantoj faris kampanjon por reutiligo de rubaĵoj; elekta kampanjo</eg>.</item>
 </list>
 <list type="deriv">
   <label lang="eo">kampanj&strek;i</label><item>
-  Fari kampanjon: ili kampanjis por la maldekstra partio; li kampanjas
-  kontraŭ la nova leĝo.</item>
+  Fari kampanjon<eg>ili kampanjis por la maldekstra partio; li kampanjas
+  kontraŭ la nova leĝo</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">kancer&strek;o</label><item>Grava malsano karakterizata de malnormala kaj danĝera multobliĝo 
- de ĉeloj: pulmokancero; mamokancero.</item>
+ de ĉeloj<eg>pulmokancero; mamokancero</eg>.</item>
 
 <label lang="eo">kanguru&strek;o</label><item>Aŭstralia mamulo, kiu havas tre mallongajn antaŭajn krurojn,
 tre longajn kaj fortajn malantaŭajn krurojn, per kiuj ĝi sin movas salte,
@@ -3448,8 +3454,8 @@ vastasence Macropodidae.)</item>
 <list type="def">
   <item>1 Kreskaĵo, kiu produktas kapsikon 2. (Capsicum.)</item>
   <item>2 Verda, ruĝa aŭ flava longforma frukto de kapsiko 1, kun multaj semoj pendantaj
-interne, uzata kiel legomo kaj kiel spico: akra kapsiko; neakra kapsiko; el
-kapsiko oni faras paprikon.</item>
+interne, uzata kiel legomo kaj kiel spico: <eg>akra kapsiko; neakra kapsiko; el
+kapsiko oni faras paprikon</eg>.</item>
 </list>
 <list type="deriv">
   <label lang="eo">kapsik&strek;et&strek;o</label>
@@ -3458,7 +3464,7 @@ kapsiko oni faras paprikon.</item>
 </item>
 
 <label lang="eo">karoseri&strek;o</label><item>Ekstera (supra) korpo de aŭto aŭ de simila veturilo, kontraste al
-eventuala ĉasio: memportanta karoserio (= karoserio s en ĉasio).</item>
+eventuala ĉasio: <eg>memportanta karoserio</eg> (= karoserio s en ĉasio).</item>
 
 <label lang="eo">kased&strek;o</label><item>Speciala skatoleto, kiu enhavas kaj protektas sonbendon, filmon
 aŭ ion similan, kaj kiun oni povas, sen ĝin malfermi, meti en aparaton por
@@ -3491,21 +3497,21 @@ seksa plezuro ĉe virinoj.</item>
 
 <label lang="eo">klon&strek;o</label><item>Organismo aŭ ĉelo, kiu estas gena kopio de alia organismo aŭ ĉelo.
 <list type="deriv">
-  <label lang="eo">klon&strek;i</label><item>Estigi klonon (el organismo/ĉelo); estigi kiel klonon: kloni beston;
+  <label lang="eo">klon&strek;i</label><item>Estigi klonon (el organismo/ĉelo); estigi kiel klonon: <eg>kloni beston</eg>;
 kloni ĉelon.</item>
 </list>
 </item>
 
 <label lang="eo">kod&strek;o</label><item>
 <list type="def">
-  <item>1 Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn: internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo; ĉifro estas sekreta kodo.</item>
-  <item>2 Kodaĵo: poŝta kodo; UEA-kodo; fonta kodo de programo (= fonta teksto de programo).</item>
+  <item>1 Sistemo de signoj aŭ signaloj por prezenti mesaĝojn aŭ ordonojn: <eg>internacia marista signalkodo; Morsa kodo; sepbita kodo; gena kodo; ĉifro estas sekreta kodo</eg>.</item>
+  <item>2 Kodaĵo: <eg>poŝta kodo; UEA-kodo; fonta kodo de programo</eg> (= fonta teksto de programo).</item>
 </list>
 <list type="deriv">
    <label lang="eo">kod&strek;i</label>
-   <item>Esprimi ion en kodo 1: kodi mesaĝon.</item> 
+   <item>Esprimi ion en kodo 1: <eg>kodi mesaĝon</eg>.</item> 
    <label lang="eo">mal&strek;kod&strek;i</label>
-   <item>Ekstrakti informon el koditaĵo: malkodi sendaĵon.</item> 
+   <item>Ekstrakti informon el koditaĵo: <eg>malkodi sendaĵon</eg>.</item> 
    <label lang="eo">kod&strek;aĵ&strek;o</label>
    <item>Grupo da signoj, prezentanta koditan informon.</item>
 </list>
@@ -3530,10 +3536,10 @@ partoj de la tuto.
 </item>
 
 <label lang="eo">koment&strek;i</label><item>Komentarii. Prezenti rimarkon, opiniesprimon aŭ klarigon (pri
-okazaĵo, eldiraĵo k.s.): li komentis, ke tio estas rimarkinda; ŝi tute pravas,
+okazaĵo, eldiraĵo k.s.): <eg>li komentis, ke tio estas rimarkinda; ŝi tute pravas,
 komentis apudstaranto; la funkciulo rifuzis komenti pri la propono;
 komenti novaĵon; komenti decidon; komenti pri ideo; komenti pri libro;
-komentita Korano (= prinotita Korano). 
+komentita Korano</eg> (= prinotita Korano). 
 <list type="deriv">
   <label lang="eo">koment&strek;o</label><item>
   <list type="def">
@@ -3542,17 +3548,18 @@ komentita Korano (= prinotita Korano).
   </list>
   </item>
   <label lang="eo">koment&strek;ar&strek;o</label><item>Komentario.
-Kolekto aŭ serio da komentoj 2, precipe tiaj, kiuj celas komprenigi la malfacilaĵojn de teksto aŭ verko: eldono de Korano kun komentaro.</item>
+Kolekto aŭ serio da komentoj 2, precipe tiaj, kiuj celas komprenigi la malfacilaĵojn de teksto aŭ verko: <eg>eldono de Korano kun komentaro</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">kompakt&strek;a</label><item>Tia, ke ĝiaj konsistigaj eroj estas tiel malvaste aranĝitaj, ke ĝi
 plene okupas sian volumenon, sen kavoj, poroj aŭ truoj, kio malhelpas
-penetron de ekstera objekto en ĝin: kompakta amaso; kompakta grundo;
-kompakta pulvoro.</item>
+penetron de ekstera objekto en ĝin: <eg>kompakta amaso; kompakta grundo;
+kompakta pulvoro</eg>.</item>
 
 <label lang="eo">komput&strek;i</label>
-<item>Plenumi algoritmon aŭ programon, precipe per aŭtomata rimedo (komputilo). (La gramatika objekto, se ĝi ĉeestas, indikas celatan re-zulton: komputi la paskodatojn.) 
+<item>Plenumi algoritmon aŭ programon, precipe per aŭtomata rimedo (komputilo). 
+(La gramatika objekto, se ĝi ĉeestas, indikas celatan rezulton: <eg>komputi la paskodatojn</eg>.) 
 <list type="deriv">
   <label lang="eo">komput&strek;il&strek;o</label>
   <item>Maŝino por aŭtomata komputado.</item> 
@@ -3565,21 +3572,21 @@ kompakta pulvoro.</item>
 seksumado por malebligi gravediĝon kaj infektiĝon.</item>
 
 <label lang="eo">konekt&strek;i</label><item>Kunigi, interligi objektojn tiel, ke ili funkciu kiel partoj de unu
-tuto (de cirkvito, de komputila aŭ telefona reto ktp.): ŝi konektis la
+tuto (de cirkvito, de komputila aŭ telefona reto ktp.): <eg>ŝi konektis la
 komputilon kun la poŝtelefono per kablo; tiu aparato funkcias konektite
-(al la Interreto, al komputilo), dum ĉi tiu, senkonekte (= aŭtonome); ĉi tiu
+(al la Interreto, al komputilo), dum ĉi tiu, senkonekte</eg> (= aŭtonome); <eg>ĉi tiu
 kablo konektas partojn de la cirkvito; la paciento estas konektita al
-artefarita reno.
+artefarita reno</eg>.
 <list type="deriv">
   <label lang="eo">konekt&strek;o</label>
   <item> 
   <list type="def">
     <item>1 Ago konekti, konektado.</item> 
-    <item>2 Stato esti konektita, konektiteco: mi havas (ret)konekton; konekto mankas; la konekto perdiĝis.</item>
+    <item>2 Stato esti konektita, konektiteco: <eg>mi havas (ret)konekton; konekto mankas; la konekto perdiĝis</eg>.</item>
   </list>
   </item>
   <label lang="eo">mal&strek;konekt&strek;i</label>
-  <item>Ĉesigi, rompi konekton: malkonekti aparaton.</item>
+  <item>Ĉesigi, rompi konekton:<eg> malkonekti aparaton</eg>.</item>
 </list>
 </item>
 
@@ -3590,18 +3597,18 @@ helpi al la (ekonomiaj) bezonoj de la membroj per komuna entrepreno.</item>
 daŭra.</item>
 
 <label lang="eo">kromosom&strek;o</label><item>Fadeno el biologia hereda materialo, precipe genoj, troviĝ-
-anta en la ĉeloj de organismoj (ordinare en la ĉelkerno): homoj havas 23
-parojn da kromosomoj.</item>
+anta en la ĉeloj de organismoj (ordinare en la ĉelkerno): <eg>homoj havas 23
+parojn da kromosomoj</eg>.</item>
 
 <label lang="eo">ku&strek;o</label><item>La litero Q, q.</item>
 
 <label lang="eo">kurz&strek;o</label><item>
 <list type="def">
   <item>1 En borso (aŭ borsosimila negocado) konstatita referenca prezo de
-valorpaperoj, valutoj aŭ varoj: kurzo de akcioj; kurzo 
- de nafto; kurzo en la nigra merkato.</item>
-  <item>2 Relativa valoro de du valutoj: la hodiaŭa kurzo de eŭro
-estas 1,33 dolaroj.</item>
+valorpaperoj, valutoj aŭ varoj: <eg>kurzo de akcioj; kurzo 
+ de nafto; kurzo en la nigra merkato</eg>.</item>
+  <item>2 Relativa valoro de du valutoj: <eg>la hodiaŭa kurzo de eŭro
+estas 1,33 dolaroj</eg>.</item>
 </list>
 </item>
 
@@ -3615,16 +3622,16 @@ necesa por validigi ĝiajn decidojn.</item>
 
 <label lang="eo">lanĉ&strek;i</label><item>
 <list type="def">
-  <item>1 Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: lanĉi ŝipon (= enakvigi ĝin unuafoje post la konstruado); lanĉi sateliton.</item>
+  <item>1 Enuzigi (ŝipon, veturilon k.s.) je la unua fojo: <eg>lanĉi ŝipon</eg> (= enakvigi ĝin unuafoje post la konstruado); <eg>lanĉi sateliton</eg>.</item>
   <item>2 Prezenti (varon,
-verkon, ideon k.s.) je la unua fojo al publika uzado: lanĉi gazeton; lanĉi
-romanon; lanĉi kampanjon; lanĉi novan vorton.</item>
+verkon, ideon k.s.) je la unua fojo al publika uzado: <eg>lanĉi gazeton; lanĉi
+romanon; lanĉi kampanjon; lanĉi novan vorton</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">laser&strek;o</label><item>Aparato por produkti radion, konsistantan el elektromagnetaj ondoj
-(ekz. lumo) kun tre mallarĝa spektro kaj sama fazo: la radio de lasero
-povas esti tre mallarĝa kaj tre intensa.</item>
+(ekz. lumo) kun tre mallarĝa spektro kaj sama fazo: <eg>la radio de lasero
+povas esti tre mallarĝa kaj tre intensa</eg>.</item>
 
 <label lang="eo">leŭkemi&strek;o</label><item>Speco de sangokancero, karakterizata de tro rapida produktado
  de blankaj sangoĉeloj, kiuj ofte estas nematuraj aŭ misformitaj.</item>
@@ -3652,8 +3659,8 @@ samalta kiel la plej malaltaj minuskloj).</item>
     <item>1 Skribita per majusklo(j); rilata al majusklo(j).</item>
     <item>2 (en paleografio kaj tipografio, pri signaro)
 Tia, ke ĉiu signo (escepte de eventualaj kromsignoj) estas skribebla inter
-du paralelaj horizontaloj: majuskla signaro; majusklaj ciferoj; kodekso en
-la majuskla skribo de la kvina jarcento.</item>
+du paralelaj horizontaloj: <eg>majuskla signaro; majusklaj ciferoj; kodekso en
+la majuskla skribo de la kvina jarcento</eg>.</item>
   </list>
   </item>
 </list>
@@ -3675,8 +3682,8 @@ dolĉa, aroma, flava karno kaj kun granda plata kerno.
 </item>
 
 <label lang="eo">maniok&strek;o</label><item>Tropika arbusto aŭ arbeto origine el Sud-Ameriko, kun tuberaj
-ameloriĉaj radikoj, kiuj estas manĝeblaj post prilaboro: dolĉa manioko;
-maldolĉa manioko; tapioko estas farita el manioko. (Manihot esculenta.)</item>
+ameloriĉaj radikoj, kiuj estas manĝeblaj post prilaboro: <eg>dolĉa manioko;
+maldolĉa manioko; tapioko estas farita el manioko</eg>. (Manihot esculenta.)</item>
 
 <label lang="eo">mate&strek;o</label><item>
 <list type="def">
@@ -3712,23 +3719,23 @@ grandaj malhele violaj longformaj fruktoj (ekzistas specoj aliformaj kaj alikolo
 en ĉiu monato: ŝi regule menstruas. 
 <list type="deriv">
   <label lang="eo">menstru&strek;o</label><item>Menstrua sangelfluo,
-monataĵo: kiam estis via lasta menstruo?; ŝiaj menstruoj estas neregulaj;
-menstruoj okazas de la seksmaturiĝo ĝis la definitiva menstruĉeso.</item>
+monataĵo: <eg>kiam estis via lasta menstruo?; ŝiaj menstruoj estas neregulaj;
+menstruoj okazas de la seksmaturiĝo ĝis la definitiva menstruĉeso</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">mesaĝ&strek;o</label><item>
 <list type="def">
-  <item>1 Parola aŭ skriba informo sendata al iu: nuntempe homoj sendas
-mesaĝojn tra la Interreto. </item>
+  <item>1 Parola aŭ skriba informo sendata al iu: <eg>nuntempe homoj sendas
+mesaĝojn tra la Interreto</eg>. </item>
   <item>2 (figure) Esenca ideo, kiun celas transdoni
-teksto, rakonto, filmo, agado k.s.: kio estas la mesaĝo de la Biblio por la
-nuntempa homo?; tiu filmo enhavas politikan mesaĝon; la malbona traduko fuŝis la mesaĝon de la aŭtoro.</item>
+teksto, rakonto, filmo, agado k.s.: <eg>kio estas la mesaĝo de la Biblio por la
+nuntempa homo?; tiu filmo enhavas politikan mesaĝon; la malbona traduko fuŝis la mesaĝon de la aŭtoro</eg>.</item>
 </list>
 <list type="deriv">
-  <label lang="eo">mesaĝ&strek;i</label><item>Sendi per mesaĝo: li
+  <label lang="eo">mesaĝ&strek;i</label><item>Sendi per mesaĝo: <eg>li
 mesaĝis la novaĵon al mi; ili ofte mesaĝas inter si; per poŝtelefono oni
-povas mesaĝi tre rapide.</item>
+povas mesaĝi tre rapide</eg>.</item>
 </list>
 </item>
 
@@ -3740,8 +3747,8 @@ uzas majusklon), ekz. a, b, c, ĉ. (La malo estas majusklo.)
   <list type="def">
     <item>1 Skribita per minusklo(j); rilata al minusklo(j).</item>
     <item>2 (en paleografio kaj tipografio, pri signaro) Tia, ke ne ĉiu signobildo estas skribebla inter du
-paralelaj horizontaloj: minuskla signaro; minusklaj ciferoj; minuskla
-skribo Karolida.</item>
+paralelaj horizontaloj: <eg>minuskla signaro; minusklaj ciferoj; minuskla
+skribo Karolida</eg>.</item>
   </list>
   </item>
 </list>
@@ -3750,24 +3757,24 @@ skribo Karolida.</item>
 <label lang="eo">miraĝ&strek;o</label><item>
 <list type="def">
   <item>1 Optika fenomeno kaŭzanta tian iluzion, ke malproksimaj objektoj
-ŝajnas proksimaj pro devojigo de lumo trairanta varman aertavolon: la
-ŝajna lago en la dezerto estis miraĝo.</item>
+ŝajnas proksimaj pro devojigo de lumo trairanta varman aertavolon: <eg>la
+ŝajna lago en la dezerto estis miraĝo</eg>.</item>
   <item>2 (figure) Alloga iluzio.</item>
 </list>
 </item>
 
 <label lang="eo">modem&strek;o</label><item>Aparato, kiu transformas ciferecan signalon (ekz. de komputilo)
 en analogan aŭ inverse, por transsendo per telefona reto, radio, elektra
-reto aŭ simile: konekti komputilon al la Interreto per modemo.</item>
+reto aŭ simile: <eg>konekti komputilon al la Interreto per modemo</eg>.</item>
 
 <label lang="eo">muld&strek;i</label><item>
 <list type="def">
   <item>1 Fari objekton enpremante aŭ fluigante molan substancon en ujon,
-kiu havas la deziratan formon: muldi medalon; muldi plastajn telerojn;
-(figure) muldi pensmanieron.</item>
+kiu havas la deziratan formon: <eg>muldi medalon; muldi plastajn telerojn;
+(figure) muldi pensmanieron</eg>.</item>
   <item>2 Reprodukti la formon de io per mola sub-
-stanco, kiun oni poste malmoligas kiel ujon (por ebligi muldi 1): muldi per
-gipso vizaĝon; muldi reliefon.</item>
+stanco, kiun oni poste malmoligas kiel ujon (por ebligi muldi 1): <eg>muldi per
+gipso vizaĝon; muldi reliefon</eg>.</item>
 </list>
 </item>
 
@@ -3787,17 +3794,17 @@ aŭ vegetaĵo, kiu estas multe malpli granda ol normale.</item>
 </list>
 </item>
 
-<label lang="eo">omaĝ&strek;o</label><item>Esprimo aŭ manifestaĵo de honora respekto al iu: la ekspozicio
-estas omaĝo al la ĵus mortinta artisto. 
+<label lang="eo">omaĝ&strek;o</label><item>Esprimo aŭ manifestaĵo de honora respekto al iu: <eg>la ekspozicio
+estas omaĝo al la ĵus mortinta artisto</eg>. 
 <list type="deriv">
-  <label lang="eo">omaĝ&strek;i</label><item>Esprimi honoran respekton: omaĝi al Zamenhof.</item>
+  <label lang="eo">omaĝ&strek;i</label><item>Esprimi honoran respekton: <eg>omaĝi al Zamenhof</eg>.</item>
 </list>
 </item>
 
-<label lang="eo">organik&strek;a</label><item>Rilata al la karbonkombinaĵoj: organika ĥemio. 
+<label lang="eo">organik&strek;a</label><item>Rilata al la karbonkombinaĵoj: <eg>organika ĥemio</eg>. 
 <list type="deriv">
   <label lang="eo">ne&strek;organik&strek;a</label><item>
-Rilata al ĉiuj substancoj aliaj ol la karbonkombinaĵoj: neorganika ĥemio.</item>
+Rilata al ĉiuj substancoj aliaj ol la karbonkombinaĵoj: <eg>neorganika ĥemio</eg>.</item>
 </list>
 </item>
 
@@ -3809,12 +3816,12 @@ senkoloran sukon helpantan al digesto, kaj kiu ankaŭ produktas
 hormonojn, interalie insulinon.</item>
 
 <label lang="eo">paprik&strek;o</label><item>Spico (ruĝa, bruna aŭ flava) preparata el sekigita kaj pulvorigita
-frukto de iuj specoj de kapsiko: hungara papriko; dolĉa papriko; akra
-papriko.</item>
+frukto de iuj specoj de kapsiko<eg>hungara papriko; dolĉa papriko; akra
+papriko</eg>.</item>
 
 <label lang="eo">pavilon&strek;o</label><item>Aparte staranta (ofte ornamita) konstruaĵo (aŭ tendo) en korto
-aŭ ĝardeno (ofte por uzo dum nur limigita tempo): ekspozicia pavilono;
-muzikpavilono; pavilono de tetrinkado.</item>
+aŭ ĝardeno (ofte por uzo dum nur limigita tempo): <eg>ekspozicia pavilono;
+muzikpavilono; pavilono de tetrinkado</eg>.</item>
 
 <label lang="eo">penicilin&strek;o</label><item>Antibiotiko origine ekstraktata el iuj specoj de penikŝimo, nun
 sintezata.</item>
@@ -3822,18 +3829,17 @@ sintezata.</item>
 <label lang="eo">penis&strek;o</label><item>Ekstera vira organo, per kiu homoj kaj bestoj urinas kaj seksumas.</item>
 
 <label lang="eo">periskop&strek;o</label><item>Rigardaparato kun speguloj aranĝitaj en tubo tiel, ke la rigardanto 
-povas vidi la ĉirkaŭaĵon restante sub aŭ malantaŭ ŝirmaĵo: periskopo
- de submarŝipo.</item>
+povas vidi la ĉirkaŭaĵon restante sub aŭ malantaŭ ŝirmaĵo<eg>periskopo
+ de submarŝipo</eg>.</item>
 
-<label lang="eo">persvad&strek;i</label><item>Igi iun iel agi per (insista) argumentado, petegado k.s.: ŝi per-
-svadis min kuniri, kvankam mi ne vere volis.</item>
+<label lang="eo">persvad&strek;i</label><item>Igi iun iel agi per (insista) argumentado, petegado k.s.: <eg>ŝi persvadis min kuniri, kvankam mi ne vere volis</eg>.</item>
 
 <label lang="eo">petal&strek;o</label><item>Iu el la aro de delikataj, koloraj, foliecaj partoj de floro, kiuj kune
 formas la korolon de la floro, kaj ekster kiuj troviĝas la kalikfolioj.</item>
 
 <label lang="eo">pic&strek;o</label><item>Italdevena manĝaĵo el platigita (ronda) pastopeco kun surmetitaj
-tomatoj, fromaĝo kaj aliaj ingrediencoj, bakata en forno: pico kun
-anĉovoj; pico kun ŝinko; funga pico; kvarsezona pico. 
+tomatoj, fromaĝo kaj aliaj ingrediencoj, bakata en forno: <eg>pico kun
+anĉovoj; pico kun ŝinko; funga pico; kvarsezona pico</eg>. 
 <list type="deriv">
   <label lang="eo">pic&strek;ej&strek;o</label><item>Restoracio
 aŭ simila ejo, kiu ĉefe vendas picojn.</item>
@@ -3845,7 +3851,7 @@ pecoj, sed iafoje en unu kuna peco).</item>
 
 <label lang="eo">piknik&strek;o</label><item>Senceremonia manĝo plenaera, en la naturo, dum ekskurso k.s.
   <list type="deriv">
-  <label lang="eo">piknik&strek;i</label><item>Fari piknikon: ili piknikis sub arbo.</item>
+  <label lang="eo">piknik&strek;i</label><item>Fari piknikon: <eg>ili piknikis sub arbo</eg>.</item>
 </list>
 </item>
 
@@ -3853,8 +3859,7 @@ pecoj, sed iafoje en unu kuna peco).</item>
 por tre lerte naĝi, vivanta en la sudaj partoj de la tero, precipe en
 Antarkto. (Spheniscidae.)</item>
 
-<label lang="eo">pis&strek;i</label><item>(familiare) Urini: la infaneto pisis 
- en pispoton; ĉi tie hundoj pisas.
+<label lang="eo">pis&strek;i</label><item>(familiare) Urini: <eg>la infaneto pisis en pispoton; ĉi tie hundoj pisas</eg>.
 <list type="deriv">
   <label lang="eo">pis&strek;o</label><item>Ago pisi kaj ties rezulto (pisaĵo). 
   <label lang="eo">pis&strek;aĵ&strek;o</label>Urino.</item>
@@ -3868,17 +3873,18 @@ aliaj bestoj) servas por la reproduktado de la kreskaĵo.</item>
 <label lang="eo">polp&strek;o</label><item>Okbraka mara molusko, kapopiedulo kun po unu aŭ du vicoj da suĉ-
 iloj sur la brakoj. (Eledona, Octopus k.a.)</item>
 
-<label lang="eo">prestiĝ&strek;o</label><item>Bona reputacio: la Kongreso levos la prestiĝon de nia afero en la
-okuloj de la mondo; la kompanio perdis sian prestiĝon pro la trompo.</item>
+<label lang="eo">prestiĝ&strek;o</label><item>Bona reputacio: <eg>la Kongreso levos la prestiĝon de nia afero en la
+okuloj de la mondo; la kompanio perdis sian prestiĝon pro la trompo</eg>.</item>
 
 <label lang="eo">prestiĝ&strek;a</label><item>Havanta prestiĝon; donanta prestiĝon al la posedanto, ricev-
-into, faranto k.s.: prestiĝa universitato; prestiĝa verko; prestiĝa aŭto; prestiĝa premio; prestiĝa ago.</item>
+into, faranto k.s.: <eg>prestiĝa universitato; prestiĝa verko; prestiĝa aŭto; prestiĝa premio; prestiĝa ago</eg>.</item>
 
 <label lang="eo">prostat&strek;o</label><item>Glando de viro kaj de multaj vir-mamuloj, troviĝanta ĉe la veziko,
 kaj produktanta parton de la sperma likvo.</item>
 
 <label lang="eo">protein&strek;o</label><item>Substanco, kiu estas (apud sukeroj kaj grasoj) ĉefkonsistaĵo de
-ĉiuj vivaĵoj, kaj grava parto de la manĝaĵoj de homoj kaj bestoj, konsistanta precipe el karbono, oksigeno, azoto, hidrogeno kaj sulfuro: ovoblankaĵo enhavas proteinojn kaj akvon.</item>
+ĉiuj vivaĵoj, kaj grava parto de la manĝaĵoj de homoj kaj bestoj, konsistanta precipe el karbono, oksigeno, 
+azoto, hidrogeno kaj sulfuro: <eg>ovoblankaĵo enhavas proteinojn kaj akvon</eg>.</item>
 
 <label lang="eo">pub&strek;o</label><item>La malsupra parto de la ventro, ĉe plenkreskuloj normale kovrita de
 haroj, kovranta la antaŭan parton de la koksosto.</item>
@@ -3887,22 +3893,21 @@ haroj, kovranta la antaŭan parton de la koksosto.</item>
 <label lang="eo">pulp&strek;o</label><item>
 <list type="def">
   <item>1 Fruktokarno. Mola, karneca parto de frukto aŭ legomo.</item>
-  <item>2 Kunteniĝema maso de mola vegetaĵa materio: pulpo de sukerbetoj; ligna
-pulpo (el kiu oni faras paperon). </item>
+  <item>2 Kunteniĝema maso de mola vegetaĵa materio: <eg>pulpo de sukerbetoj; ligna pulpo</eg> (el kiu oni faras paperon). </item>
   <item>3 Mola aŭ duonmola parto de kelkaj org-
-anoj: denta pulpo (= interna parto 
- de dento); liena pulpo.</item>
+anoj: <eg>denta pulpo</eg> (= interna parto 
+ de dento); <eg>liena pulpo</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">pund&strek;o</label><item>Monunuo de Britujo k.a.
- landoj: ĝi kostas dek pundojn kaj kvindek
-pencojn.</item>
+ landoj: <eg>ĝi kostas dek pundojn kaj kvindek
+pencojn</eg>.</item>
 
 <label lang="eo">radar&strek;o</label><item>Aparato, kiu ebligas ekkoni karakterizaĵojn de la pozicio kaj rapido
  de objektoj per reflektiĝo de elektromagnetaj ondoj.</item>
 
-<label lang="eo">radiograf&strek;i</label><item>Fotografi (ekz. organon) per iks-radioj: radiografi pulmojn.</item>
+<label lang="eo">radiograf&strek;i</label><item>Fotografi (ekz. organon) per iks-radioj: <eg>radiografi pulmojn</eg>.</item>
 
 <label lang="eo">raked&strek;o</label><item>Plata pilkobatilo, konsistanta el kadro kun reto de interplektitaj
 streĉitaj ŝnuroj, kaj kun longa tenilo, uzata en teniso kaj similaj sportoj.</item>
@@ -3926,8 +3931,8 @@ plenumi taskojn, uzata ekz. en fabrikoj por anstataŭi profesiulon en maniero pl
 </list>
 </item>
 
-<label lang="eo">ronĝ&strek;i</label><item>Per la dentoj mordet(ad)i forigante pecetojn: ratoj ronĝas la
-meblojn; sciuroj ronĝas; mi iom ronĝis la biskviton. 
+<label lang="eo">ronĝ&strek;i</label><item>Per la dentoj mordet(ad)i forigante pecetojn: <eg>ratoj ronĝas la
+meblojn; sciuroj ronĝas; mi iom ronĝis la biskviton</eg>. 
 <list type="deriv">
   <label lang="eo">ronĝ&strek;ul&strek;o</label><item>Tia mamula besto kiel ekz. muso, rato, hamstro, kastoro, sciuro aŭ histriko, kiu
 havas po du grandajn ĉizilformajn tranĉodentojn en la supra kaj malsupra
@@ -3935,8 +3940,8 @@ makzeloj. (Rodentia.)</item>
 </list>
 </item>
 
-<label lang="eo">rotaci&strek;i</label><item>Turniĝi ĉirkaŭ interna akso aŭ punkto: la tero rotacias unu fojon
- en 24 horoj; la karuselo rotaciis rapide.</item>
+<label lang="eo">rotaci&strek;i</label><item>Turniĝi ĉirkaŭ interna akso aŭ punkto: <eg>la tero rotacias unu fojon
+ en 24 horoj; la karuselo rotaciis rapide</eg>.</item>
 
 <label lang="eo">rulet&strek;o</label><item>Hazardludo (ofte ludata en kazinoj), en kiu la gajniga numero estas
 montrata per halto de globeto sur unu el la fakoj de horizontale turniĝanta rado.</item>
@@ -3959,8 +3964,8 @@ Leander, Crangon, Paeneus kaj parencaj genroj.)</item>
 <label lang="eo">sesi&strek;o</label><item>
 <list type="def">
   <item>1 Periodo de kunsidoj de parlamento, asembleo, juĝa instanco,
-komisiono k.s.: ordinara sesio; eksterordinara sesio; la aŭtuna sesio de la
-parlamento; la ekzamena sesio daŭros de la 11a ĝis la 25a de Junio.</item>
+komisiono k.s.: <eg>ordinara sesio; eksterordinara sesio; la aŭtuna sesio de la
+parlamento; la ekzamena sesio daŭros de la 11a ĝis la 25a de Junio</eg>.</item>
   <item>2 Serio de universitataj prelegoj.</item>
 </list>
 </item>
@@ -3970,8 +3975,8 @@ griza (en stato kristala).
  Simbolo Si, atomnumero 14, atommaso 28,09.</item>
 
 <label lang="eo">skan&strek;i</label><item>Plene kaj laŭorde ekzameni, punkton post punkto, parton de spaco
-aŭ surfaco: skani la ĉirkaŭon per radaro; skani libron kaj fotografaĵojn
-per skanilo por prilabori ilin per komputilo. 
+aŭ surfaco: <eg>skani la ĉirkaŭon per radaro; skani libron kaj fotografaĵojn
+per skanilo por prilabori ilin per komputilo</eg>. 
 <list type="deriv">
   <label lang="eo">skan&strek;il&strek;o</label><item>Aparato por skani,
 precipe por ciferecigi optikajn bildojn.</item>
@@ -3991,25 +3996,25 @@ pozicio aŭ forto de la malamiko, pri la irota vojo (de armeo), k.s.</item>
 </list>
 </item>
 
-<label lang="eo">specif&strek;i</label><item>Nome esprimi, detale difini, precize mencii: specifi postulojn;
-specifi regulojn; specifi celojn. 
+<label lang="eo">specif&strek;i</label><item>Nome esprimi, detale difini, precize mencii: <eg>specifi postulojn;
+specifi regulojn; specifi celojn</eg>. 
 <list type="deriv">
   <label lang="eo">specif&strek;a</label><item>Havanta ecojn karakterizajn aŭ
-unikajn por unu individuo aŭ unu klaso; propra al individuo aŭ klaso: la
-specifa stilo de pentristo (la stilo karakterizas ĝuste tiun pentriston); la
-specifaj formoj de unu klaso de bestoj (nur tiu klaso havas tiujn formojn).</item>
+unikajn por unu individuo aŭ unu klaso; propra al individuo aŭ klaso: <eg>la
+specifa stilo de pentristo</eg> (la stilo karakterizas ĝuste tiun pentriston); <eg>la
+specifaj formoj de unu klaso de bestoj</eg> (nur tiu klaso havas tiujn formojn).</item>
 </list>
 </item>
 
 <label lang="eo">spekt&strek;i</label><item>Atenti per vido, kaj eventuale ankaŭ per aŭdo, tion, kio estas pre-
-zentata: spekti filmon; spekti operon; spekti teatraĵon; spekti baleton;
-spekti sportan festivalon.</item>
+zentata: <eg>spekti filmon; spekti operon; spekti teatraĵon; spekti baleton;
+spekti sportan festivalon</eg>.</item>
 
 <label lang="eo">stabil&strek;a</label><item>
 <list type="def">
-  <item>1 Ema firme restadi en sama pozicio aŭ stato: stabila konstruaĵo;
-stabila situacio; stabila paco; stabila solvaĵo; stabila elemento.</item>
-  <item>2 Ŝanĝiĝanta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ekvilibra kaj antaŭvidebla maniero: stabila kresko; stabila evoluo; stabila ekonomio.</item>
+  <item>1 Ema firme restadi en sama pozicio aŭ stato: <eg>stabila konstruaĵo;
+stabila situacio; stabila paco; stabila solvaĵo; stabila elemento</eg>.</item>
+  <item>2 Ŝanĝiĝanta aŭ evoluanta (nedraste kaj ne tro rapide) en glata, unudirekta, ekvilibra kaj antaŭvidebla maniero: <eg>stabila kresko; stabila evoluo; stabila ekonomio</eg>.</item>
 </list>
 </item>
 
@@ -4018,8 +4023,8 @@ stabila situacio; stabila paco; stabila solvaĵo; stabila elemento.</item>
    <item>1 (pri likvo) Restadi senflua (kaj tial fariĝi malpura kaj malagrabla):
 akvo stagnis en truoj ĉe la flanko de la vojo.</item>
    <item>2 (pri agadkampo, entrepreno k.s.) Restadi senmova, senaga, malaktiva, ne evoluanta, ne
-progresanta k.s.: la komerco stagnas; la ekonomio stagnis; la movado
-stagnis; la membronombro stagnas.</item>
+progresanta k.s.: <eg>la komerco stagnas; la ekonomio stagnis; la movado
+stagnis; la membronombro stagnas</eg>.</item>
 </list>
 </item>
 
@@ -4028,48 +4033,48 @@ stagnis; la membronombro stagnas.</item>
 <label lang="eo">stereofoni&strek;o</label><item>Sontekniko, kiu uzas du kanalojn por aŭdigi sonon, kaj kiu tiel
 kapablas krei impreson de multaj dise situantaj sonfontoj.</item>
 
-<label lang="eo">stir&strek;i</label><item>Direkti moviĝadon de veturilo: stiri aŭton; stiri ŝipon; stiri biciklon;
-stiri aviadilon.</item>
+<label lang="eo">stir&strek;i</label><item>Direkti moviĝadon de veturilo: <eg>stiri aŭton; stiri ŝipon; stiri biciklon;
+stiri aviadilon</eg>.</item>
 
 <label lang="eo">stok&strek;o</label><item>
 <list type="def">
   <item>1 Disponebla kvanto da varoj, krudmaterialoj aŭ fabrikitaĵoj (tenata en provizejo).</item>
-  <item>2 (figure) Provizo, kolekto (de io havebla por uzo): vortostoko (= vortprovizo); ŝi havas grandan stokon da ŝercoj.</item>
+  <item>2 (figure) Provizo, kolekto (de io havebla por uzo): <eg>vortostoko</eg> (= vortprovizo); <eg>ŝi havas grandan stokon da ŝercoj</eg>.</item>
 </list> 
 <list type="deriv">
-  <label lang="eo">stok&strek;i</label><item>Teni en stoko; amasigi en stoko; aldoni al stoko: stoki varojn; stoki manĝaĵojn;
-stokata varo (= varo tenata en stoko/metata en stokon); stokita varo
+  <label lang="eo">stok&strek;i</label><item>Teni en stoko; amasigi en stoko; aldoni al stoko: <eg>stoki varojn; stoki manĝaĵojn;
+stokata varo</eg> (= varo tenata en stoko/metata en stokon); <eg>stokita varo</eg>
 (= varo metita en stokon).</item>
 </list>
 </item>
 
 <label lang="eo">strangol&strek;i</label><item>Sufoki per premo 
- de la gorĝo: strangoli homon; strangoli beston.</item>
+ de la gorĝo: <eg>strangoli homon; strangoli beston</eg>.</item>
 
 <label lang="eo">sugest&strek;i</label><item>
 <list type="def">
-  <item>1 Prezenti, proponi (seninsiste) ideon por konsidero: mi sugestas,
-ke ni faru jene; sugesti solvon; sugesti respondon.</item>
+  <item>1 Prezenti, proponi (seninsiste) ideon por konsidero: <eg>mi sugestas,
+ke ni faru jene; sugesti solvon; sugesti respondon</eg>.</item>
   <item>2 Kaŭzi aperon de
-ideo, pensigi: la simptomoj sugestas, ke li havas malarion; ŝia esprimo
+ideo, pensigi: <eg>la simptomoj sugestas, ke li havas malarion; ŝia esprimo
 sugestis, ke ŝi estas kolera; la flugado de la birdoj sugestis novan ideon
-por flugmaŝino.</item>
+por flugmaŝino</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">ŝalt&strek;i</label><item>Ekfunkciigi aparaton per tiucela regilo (ŝaltilo), precipe tiel ke ĝi
-komencu produkti sonon, lumon, varmon, akvon ktp. (la gramatika objekto povas indiki la aparaton aŭ la produktatan efikon): ŝalti televidilon; ŝalti komputilon; ŝalti sonon; ŝalti lumon; ŝalti elektron. 
+komencu produkti sonon, lumon, varmon, akvon ktp. (la gramatika objekto povas indiki la aparaton aŭ la produktatan efikon): <eg>ŝalti televidilon; ŝalti komputilon; ŝalti sonon; ŝalti lumon; ŝalti elektron</eg>. 
 <list type="deriv">
   <label lang="eo">mal&strek;ŝalt&strek;i</label><item>Ĉesigi funkciadon de aparato per tiucela regilo (ŝaltilo).</item>
-  <label lang="eo">ŝalt&strek;il&strek;o</label><item>Aranĝaĵo por ŝalti aŭ malŝalti: baskula ŝaltilo; butonŝaltilo.</item>
+  <label lang="eo">ŝalt&strek;il&strek;o</label><item>Aranĝaĵo por ŝalti aŭ malŝalti: <eg>baskula ŝaltilo; butonŝaltilo</eg>.</item>
 </list></item>
 
 <label lang="eo">ŝenopraz&strek;o</label><item>Spicherbo parenca al cepo kaj ajlo, kun blankaj floroj kaj
 longaj tubformaj folioj uzataj pro sia aromo en salato kaj aliaj manĝaĵoj.
 (Allium schoenoprasum.)</item>
 
-<label lang="eo">ŝok&strek;i</label><item>Forte kaj malagrable surprizi aŭ ĉagreni: lia konduto ŝokis min; la
-novaĵo ŝokis ŝin. 
+<label lang="eo">ŝok&strek;i</label><item>Forte kaj malagrable surprizi aŭ ĉagreni: <eg>lia konduto ŝokis min; la
+novaĵo ŝokis ŝin</eg>. 
 <list type="deriv">
   <label lang="eo">ŝok&strek;o</label><item>
   <list type="def"> 
@@ -4106,18 +4111,18 @@ lernantoj, kvaliton de produkto, korpan sanstaton).</item>
 
 <label lang="eo">tonsil&strek;o</label><item>Ĉiu el pluraj limfaj organoj en la gorĝo ĉirkaŭ la faringo, kiuj pro-
 tektas kontraŭ infektoj, precipe la du palataj tonsiloj ambaŭflanke de la
-gorĝo super la bazo de la lango: palataj tonsiloj; faringa tonsilo; tuba
-tonsilo; langa tonsilo.</item>
+gorĝo super la bazo de la lango: <eg>palataj tonsiloj; faringa tonsilo; tuba
+tonsilo; langa tonsilo</eg>.</item>
 
 <label lang="eo">tortur&strek;i</label><item>Kruele turmentegi por eltiri konfeson (aŭ alian informon) aŭ por
-puni: torturi kaptiton; torturi krimulon.</item>
+puni: <eg>torturi kaptiton; torturi krimulon</eg>.</item>
 
 <label lang="eo">transistor&strek;o</label><item>Elektronika duonkonduka elemento uzata kiel signalfortigilo
 (analoge) aŭ kiel ŝaltilo (ciferece), ordinare kun tri kondukiloj (la kurento
 ĉe unu el la kondukiloj regas la kurenton tra la du aliaj).</item>
 
-<label lang="eo">tret&strek;i</label><item>Piedpremi. Premi (forte) per la piedoj: treti iun/ion (per la piedoj);
-treti sur iun/ion; treti (vinberojn) en vinpremejo.</item>
+<label lang="eo">tret&strek;i</label><item>Piedpremi. Premi (forte) per la piedoj: <eg>treti iun/ion</eg> (per la piedoj);
+<eg>treti sur iun/ion; treti (vinberojn) en vinpremejo</eg>.</item>
 
 <label lang="eo">trib&strek;o</label><item>
 <list type="def">
@@ -4169,16 +4174,16 @@ vando de ĉelo; vando de ĉambro; vando de vagono.</item>
 
 <label lang="eo">versi&strek;o</label><item>
 <list type="def">
-  <item>1 Prezento de afero el iu vidpunkto (normale kontraste al alia vidpunkto): ŝi rakontis sian version de la aventuro.</item>
+  <item>1 Prezento de afero el iu vidpunkto (normale kontraste al alia vidpunkto): <eg>ŝi rakontis sian version de la aventuro</eg>.</item>
   <item>2 Formo, redakto aŭ eldono de teksto, programo k.s.
- (normale kontraste al alia formo/redakto/eldono): mi konas nur la germanan version de la poemo, kaj ne la originan
-polan version; Petro uzas la novan version de la programo.</item>
+ (normale kontraste al alia formo/redakto/eldono): <eg>mi konas nur la germanan version de la poemo, kaj ne la originan
+polan version; Petro uzas la novan version de la programo</eg>.</item>
 </list>
 </item>
 
 <label lang="eo">virtual&strek;a</label><item>Kvazaŭa. Tia, ke ĝi funkcias, efikas aŭ impresas samkiel io, sed
-efektive estas io alia (plej ofte ne fizike reala): virtuala memoro; virtuala
-rapido; virtuala realo. (Tiu vorto, kiun virtuala gramatike priskribas, ekz.
+efektive estas io alia (plej ofte ne fizike reala): <eg>virtuala memoro; virtuala
+rapido; virtuala realo</eg>. (Tiu vorto, kiun virtuala gramatike priskribas, ekz.
 memoro, indikas tion, al kio la virtualaĵo similas.)</item>
 
 <label lang="eo">virus&strek;o</label><item>Speco de infekta parazito, kiu estas pli simpla ol bakterio, kaj kiu
@@ -4186,9 +4191,9 @@ povas reprodukti sin nur ene de kaj helpe de la ĉeloj de plurĉelaj organ-
 ismoj.</item>
 
 <label lang="eo">vitamin&strek;o</label><item>Organika nutrosubstanco, kiu en tre malgranda kvanto estas
-necesa por la kreskado kaj sano de homoj kaj bestoj: manko de vitaminoj
+necesa por la kreskado kaj sano de homoj kaj bestoj: <eg>manko de vitaminoj
 estigas malsanojn; oranĝoj enhavas vitaminon C; olesolveblaj vitaminoj
-(A, D, E, K); akvosolveblaj vitaminoj (B, PP, C, P).</item>
+(A, D, E, K); akvosolveblaj vitaminoj (B, PP, C, P)</eg>.</item>
 
 <label lang="eo">vodk&strek;o</label><item>Brando el greno, terpomoj aŭ aliaj kreskaĵoj, senkolora kaj per si
 mem praktike sengusta, produktata precipe en Rusujo, Pollando kaj Sved-
@@ -4208,41 +4213,33 @@ plastaj) dentoj, kiuj interplektiĝas per ŝovado de movebla peco intera</item>
 
 <list>
 <item n="1">
-<hi>1. Asbesto.</hi> La oficialigita difino de asbesto bedaŭrinde enhavas eraron.
+<hi>1. Asbesto.</hi> La oficialigita difino de <emph>asbesto</emph> bedaŭrinde enhavas eraron.
 
 Asbesto ne estas ĉiam griza. Tiu eraro estis malkovrita nur kiam estis tro
 malfrue por haltigi la oficialigan proceduron. La Akademio intencas iam
 oficiale ĝustigi tiun difinotekston.
 </item>
 <item n="2">
-<hi>2. Bito.</hi> La Akademio lasas por posta konsidero la demandon, ĉu bito estu
+<hi>2. Bito.</hi> La Akademio lasas por posta konsidero la demandon, ĉu <emph>bito</emph> estu
 ankaŭ la nomo de la mezurunuo el informteorio, aŭ ĉu oni tiun nomu
-ŝanono.
+<emph>ŝanono</emph>.
 </item>
 <item n="3">
-<hi>3. Israelo.</hi> Kromnomo por Jakob estis Izrael(o), laŭ kiu oni nomas la
-antikvan popolon Izrael(o) aŭ la antikvajn hebreojn Izraelidoj, ekzemple
- en la Esperanta Biblio.
+<hi>3. Israelo.</hi> Kromnomo por Jakob estis <emph>Izrael(o)</emph>, laŭ kiu oni nomas la antikvan popolon <emph>Izrael(o)</emph> aŭ la antikvajn hebreojn <emph>Izraelidoj</emph>, ekzemple en la Esperanta Biblio.
 </item>
 <item n="4">
 <hi>4. Kodo.</hi> La Akademio lasas por posta konsidero la demandon, ĉu la juran
 sencon “sistema normodona dokumento pri iu branĉo de socia aŭ faka
-vivo” oni esprimu per la vorto kodo (kio konformus al la rekomendo de la
-aŭtoritataj vortaroj kaj al la uzado de plimulto, sed malkoheras kun la
-signosistema senco), aŭ per kodekso (uzata malpli ofte, sed pli kohere
-kun la ĉefsenco).
+vivo” oni esprimu per la vorto <emph>kodo</emph> (kio konformus al la rekomendo de la aŭtoritataj vortaroj kaj al la uzado de plimulto, sed malkoheras kun la
+signosistema senco), aŭ per <emph>kodekso</emph> (uzata malpli ofte, sed pli kohere kun la ĉefsenco).
 </item>
 <item n="5">
-<hi>5. Kodekso.</hi> En multaj lingvoj per natura sencovastigo (kodekso, enten-
-anta la leĝaron  de Justiniano; la Kodekso de Justiniano) la vorto
-kodekso akiris la sencon “kohera normodona dokumento pri iu branĉo de
-socia aŭ faka vivo”: civila kodekso; mara kodekso; honorkodekso. Tia uzo
-estas atestita ankaŭ en Esperanto, tamen ĝi restas konsiderinde malpli
-ofta ol la homonima uzo de la samdevena vorto kodo.
+<hi>5. Kodekso.</hi> En multaj lingvoj per natura sencovastigo (<eg>kodekso, entenanta la leĝaron  de Justiniano; la Kodekso de Justiniano</eg>) la vorto
+<emph>kodekso</emph> akiris la sencon “kohera normodona dokumento pri iu branĉo de socia aŭ faka vivo”: <eg>civila kodekso; mara kodekso; honorkodekso</eg>. Tia uzo estas atestita ankaŭ en Esperanto, tamen ĝi restas konsiderinde malpli
+ofta ol la homonima uzo de la samdevena vorto <emph>kodo</emph>.
 </item>
 <item n="2">
-<hi>6. Mateo.</hi> La personan nomon Mateo, kaj la tutan problemon pri traktado
- de personaj nomoj, la Akademio prokrastis por posta konsidero.
+<hi>6. Mateo.</hi> La personan nomon <emph>Mateo</emph>, kaj la tutan problemon pri traktado de personaj nomoj, la Akademio prokrastis por posta konsidero.
 </item>
 </list>
 
