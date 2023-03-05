@@ -503,6 +503,41 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 
+<!-- apartaj reguloj por vortlisto en OA8, kie enestas difino antaŭ la
+listo de tradukoj -->
+
+<xsl:template match="list[@type='dict' and @rend='def_tr']/item" priority="1">
+  <p class="dict-entry">
+  <xsl:apply-templates select="preceding-sibling::label[1]"/>
+  <xsl:apply-templates select="list[@type='def']"/>
+  <xsl:apply-templates select="note"/> <!-- montru la notojn en la fluo de la difino -->
+  </p>
+  <xsl:apply-templates select="list[@type='deriv']"/>
+</xsl:template>
+
+<xsl:template match="list[@type='dict' and @rend='def_tr']//item[@lang='eo']" priority="1">
+  <xsl:apply-templates/>
+  <xsl:text> &dash; </xsl:text>
+</xsl:template>
+
+<xsl:template match="list[@type='dict' and @rend='def_tr']//item[@lang!='eo']" priority="1">
+  <i><xsl:value-of select="@lang"/></i>:
+  <xsl:apply-templates/>
+  <xsl:choose>
+    <xsl:when test="position()=last()">
+      <xsl:text>. </xsl:text>
+    </xsl:when>
+    <xsl:otherwise>
+      <xsl:text>, </xsl:text>	
+    </xsl:otherwise>
+  </xsl:choose>  
+</xsl:template>
+
+<xsl:template match="list[@type='dict' and @rend='def_tr']/item/note" priority="1">
+  <xsl:text> &dash; </xsl:text>
+  <xsl:apply-templates/>
+</xsl:template>
+
 <xsl:template match="list[@type='deriv']">
   <xsl:apply-templates select="item"/>
 </xsl:template>
