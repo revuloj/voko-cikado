@@ -243,15 +243,11 @@ Difinoj en Esperanto: ĉiuj elementoj havas difinon
   <titlePage>
     <docTitle>
       <titlePart type="main">
-          Unua Oficiala Aldono al Universala Vortaro
-      </titlePart>
-      <titlePart type="publisher">
-          PARIS, ESPERANTISTA CENTRA OFICEJO
-      </titlePart>
-      <titlePart type="date">
-        1909
+      Unua Oficiala Aldono al Universala Vortaro
       </titlePart>
     </docTitle>
+    <byline>prizorgita de <docAuthor>Théophile CART</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA OFICEJO, <docDate>1909</docDate></docImprint>    
   </titlePage>
 </front>
 
@@ -9189,13 +9185,15 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
   <titlePage>
     <docTitle>
       <titlePart type="main">
-          Dua Oficiala Aldono al Universala Vortaro
+      Dua Oficiala Aldono al Universala Vortaro
       </titlePart>
       <titlePart type="note">
           (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
+      </titlePart>      
     </docTitle>
-  </titlePage>
+    <byline>prizorgita de <docAuthor>Théophile CART</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA LIBREJO, <docDate>1919</docDate></docImprint>    
+  </titlePage>  
 </front>
 
 <body>
@@ -11136,12 +11134,9 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
       <titlePart type="main">
           Tria Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <!--
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
-      -->
     </docTitle>
+    <byline>prizorgita de <docAuthor>Émile GROSJEAN-MAUPIN</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA LIBREJO, <docDate>1921</docDate></docImprint>        
   </titlePage>
 </front>
 
@@ -13763,12 +13758,9 @@ Direktanto de la Sekcio por la Komuna Vortaro
       <titlePart type="main">
           Kvara Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <!--
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
-      -->
     </docTitle>
+    <byline>prizorgita de <docAuthor>Émile GROSJEAN-MAUPIN</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA LIBREJO, <docDate>1929</docDate></docImprint>        
   </titlePage>
 </front>
 
@@ -15900,6 +15892,8 @@ fiŝojn</item>
           (Radikoj akceptitaj de la Lingva Komitato)
       </titlePart>
     </docTitle>
+    <byline>prizorgita de <docAuthor>Louis BASTIEN</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA LIBREJO, <docDate>1934</docDate></docImprint>            
   </titlePage>
 </front>
 
@@ -16076,6 +16070,8 @@ energio</item>
           (Radikoj akceptitaj de la Lingva Komitato)
       </titlePart>
     </docTitle>
+    <byline>prizorgita de <docAuthor> William BAILEY</docAuthor></byline>
+    <docImprint>PARIS, ESPERANTISTA CENTRA LIBREJO, <docDate>1935</docDate></docImprint>                
   </titlePage>
 </front>
 
@@ -16386,12 +16382,9 @@ energio</item>
       <titlePart type="main">
           Sepa Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <!--
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
-      -->
     </docTitle>
+    <byline>prizorgita de <docAuthor>Gaston WARINGHIEN</docAuthor></byline>
+    <docImprint><docDate>1958</docDate></docImprint>                
   </titlePage>
 </front>
 
@@ -16757,12 +16750,9 @@ La fina sumo de la Fundamentaj kaj Oficialaj Radikoj estas do:
       <titlePart type="main">
           Oka Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <!--
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
-      -->
     </docTitle>
+    <byline>prizorgita de <docAuthor>André ALBAULT</docAuthor></byline>
+    <docImprint><docDate>1974</docDate></docImprint>       
   </titlePage>
 </front>
 
@@ -19059,12 +19049,9 @@ apartenas al plurlatero aŭ al pluredro. </item>
       <titlePart type="main">
           Naŭa Oficiala Aldono al Universala Vortaro
       </titlePart>
-      <!--
-      <titlePart type="note">
-          (Radikoj akceptitaj de la Lingva Komitato)
-      </titlePart>
-      -->
     </docTitle>
+    <byline>prizorgita de <docAuthor>Bertilo WENNERGREN</docAuthor></byline>
+    <docImprint><docDate>2007</docDate></docImprint>           
   </titlePage>
 </front>
 

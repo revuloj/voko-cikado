@@ -328,6 +328,10 @@ specialajn regulojn ne au alie difinitajn tie.
   </p>
 </xsl:template>
 
+<xsl:template match="titlePage/byline">
+  <span class="author"><xsl:apply-templates/></span><br/>
+</xsl:template>
+
 
 <!-- tabeloj -->
 
