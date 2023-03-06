@@ -467,10 +467,19 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <!-- antaŭ ĉiu "item" povas aperi "label" kun la kapvorto -->
 <xsl:template match="list[@type='dict']/label">
-  <strong id="{generate-id()}">
+  <strong>  <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="label-id"/>
+    </xsl:attribute>
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
   </strong>
+</xsl:template>
+
+<xsl:template name="label-id">
+  <xsl:value-of select="ancestor::list[@type='dict'][1]/@id"/>
+  <xsl:text>_</xsl:text>
+  <xsl:number level="any" from="list[@type='dict']"/>
 </xsl:template>
 
 <xsl:template match="list[@type='dict']/label/note[not(@rend='footnote')]
@@ -511,7 +520,10 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- kelkaj vortlistoj, ekz-e en OA 2 estas simplaj (nur <item>, sed ne <label>)
 ni evitu tamen krampigon per <li>...</li> -->
 <xsl:template match="list[@type='dict' and not(label)]/item[index]">
-  <p class="dict-entry" id="{generate-id()}">
+  <p class="dict-entry"> <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="label-id"/>
+    </xsl:attribute>
     <strong><xsl:apply-templates/></strong>
   </p>
 </xsl:template>
@@ -521,7 +533,7 @@ ni evitu tamen krampigon per <li>...</li> -->
 listo de tradukoj -->
 
 <xsl:template match="list[@type='dict' and @rend='def_tr']/item" priority="1">
-  <p id="{generate-id()}" class="dict-entry">
+  <p  class="dict-entry" id="{generate-id()}">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates select="list[@type='def']"/>
   <xsl:apply-templates select="note"/> <!-- montru la notojn en la fluo de la difino -->
@@ -575,7 +587,10 @@ listo de tradukoj -->
 </xsl:template>
 
 <xsl:template match="list[@type='deriv']/label">
-  <strong id="{generate-id()}">
+  <strong> <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="label-id"/>
+    </xsl:attribute>
   <xsl:apply-templates/>
   <xsl:text> </xsl:text>
   </strong>
@@ -815,7 +830,14 @@ listo de tradukoj -->
     <xsl:attribute name="href">
       <xsl:value-of select="ancestor::text/@id"/>
       <xsl:text>.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+        <xsl:choose>
+        <xsl:when test="self::label|self::item[index]">
+          <xsl:call-template name="label-id"/>
+        </xsl:when>
+        <xsl:otherwise>
+          <xsl:value-of select="generate-id()"/>
+        </xsl:otherwise>
+      </xsl:choose>
     </xsl:attribute>
     <xsl:text>OA </xsl:text>
     <xsl:value-of select="ancestor::text/@n"/>

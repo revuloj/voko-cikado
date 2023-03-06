@@ -302,7 +302,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="OA1_1A">
 
 <label lang="eo"><note>&stel;</note>abism&strek;</label><item>
 <list type="tr">
@@ -1378,7 +1378,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="OA1_1B">
 
 <label lang="eo"><note>&stel;</note>bal&strek;</label><item>
 <list type="tr">
@@ -1817,7 +1817,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="C">
 <head>C</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="OA1_1C">
 
 <label lang="eo"><note>&stel;</note>car&strek;</label><item>
 <list type="tr">
@@ -1966,7 +1966,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="Ĉ">
 <head>Ĉ</head>
 
-<list type="dict" n="Ĉ">
+<list type="dict" n="C" id="OA1_1Ĉ">
 
 <label lang="eo">ĉek&strek;</label><item>
 <list type="tr">
@@ -1985,7 +1985,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="C" id="OA1_1D">
 
 <label lang="eo">deficit&strek;</label><item>
 <list type="tr">
@@ -2454,7 +2454,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="C" id="OA1_1E">
 
 <label lang="eo"><note>&stel;</note>ebri&strek;</label><item>
 <list type="tr">
@@ -2903,7 +2903,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="C" id="OA1_1F">
 
 <label lang="eo">faksimil&strek;</label><item>
 <list type="tr">
@@ -3352,7 +3352,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="G">
 <head>G</head>
 
-<list type="dict" n="G">
+<list type="dict" n="C" id="OA1_1G">
 
 <label lang="eo"><note>&stel;</note>galer&strek;</label><item>
 <list type="tr">
@@ -3621,7 +3621,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="Ĝ">
 <head>Ĝ</head>
 
-<list type="dict" n="Ĝ">
+<list type="dict" n="C" id="OA1_1Ĝ">
 
 <label lang="eo"><note>&stel;</note>ĝeneral&strek;</label><item>
 <list type="tr">
@@ -3640,7 +3640,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="C" id="OA1_1H">
 
 <label lang="eo">hamak&strek;</label><item>
 <list type="tr">
@@ -3879,7 +3879,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="C" id="OA1_1I">
 
 <label lang="eo"><note>&stel;</note>ide&strek;</label><item>
 <list type="tr">
@@ -4179,7 +4179,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="J">
 <head>J</head>
 
-<list type="dict" n="J">
+<list type="dict" n="C" id="OA1_1J">
 
 <label lang="eo">jaguar&strek;</label><item>
 <list type="tr">
@@ -4248,7 +4248,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="Ĵ">
 <head>Ĵ</head>
 
-<list type="dict" n="Ĵ">
+<list type="dict" n="C" id="OA1_1Ĵ">
 
 <label lang="eo"><note>&stel;</note>ĵargon&strek;</label><item>
 <list type="tr">
@@ -4277,7 +4277,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="C" id="OA1_1K">
 
 <label lang="eo"><note>&stel;</note>kabal&strek;</label><item>
 <list type="tr">
@@ -5306,7 +5306,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="C" id="OA1_1L">
 
 <label lang="eo"><note>&stel;</note>labirint&strek;</label><item>
 <list type="tr">
@@ -5485,7 +5485,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="C" id="OA1_1M">
 
 <label lang="eo">madon&strek;</label><item>
 <list type="tr">
@@ -6144,7 +6144,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="C" id="OA1_1N">
 
 <label lang="eo"><note>&stel;</note>naft&strek;</label><item>
 <list type="tr">
@@ -6293,7 +6293,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="C" id="OA1_1O">
 
 <label lang="eo"><note>&stel;</note>oaz&strek;</label><item>
 <list type="tr">
@@ -6512,7 +6512,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="C" id="OA1_1P">
 
 <label lang="eo"><note>&stel;</note>pacient&strek;</label><item>
 <list type="tr">
@@ -7291,7 +7291,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="C" id="OA1_1R">
 
 <label lang="eo">rabarb&strek;</label><item>
 <list type="tr">
@@ -7680,7 +7680,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="S">
 <head>S</head>
 
-<list type="dict" n="S">
+<list type="dict" n="C" id="OA1_1S">
 
 <label lang="eo"><note>&stel;</note>sabr&strek;</label><item>
 <list type="tr">
@@ -8349,7 +8349,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="Ŝ">
 <head>Ŝ</head>
 
-<list type="dict" n="Ŝ">
+<list type="dict" n="C" id="OA1_1Ŝ">
 
 <label lang="eo"><note>&stel;</note>ŝanc&strek;</label><item>
 <list type="tr">
@@ -8418,7 +8418,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="C" id="OA1_1T">
 
 <label lang="eo">taksus&strek;</label><item>
 <list type="tr">
@@ -8897,7 +8897,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="C" id="OA1_1U">
 
 <label lang="eo"><note>&stel;</note>unison&strek;</label><item>
 <list type="tr">
@@ -8956,7 +8956,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="C" id="OA1_1V">
 
 <label lang="eo">vak&strek;</label><item>
 <list type="tr">
@@ -9125,7 +9125,7 @@ kompreneblaj por ĉiuj, oni ne ripetis ilin en la ceteraj lingvoj.
 <div type="letter" n="Z">
 <head>Z</head>
 
-<list type="dict" n="Z">
+<list type="dict" n="C" id="OA1_1Z">
 
 <label lang="eo"><note>&stel;</note>zigzag&strek;</label><item>
 <list type="tr">
@@ -9341,7 +9341,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="C" id="OA2_1A">
 
 <item lang="eo"><index/>agit&strek;i <note>(fig.)</note></item>
 <item lang="eo"><index/>akrobat&strek;o</item>
@@ -9384,7 +9384,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="C" id="OA2_1B">
 
 <item lang="eo"><index/>bacil&strek;o</item>
 <item lang="eo"><index/>bakteri&strek;o</item>
@@ -9421,7 +9421,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="C">
 <head>C</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="OA2_1C">
 
 <item lang="eo"><index/>celeri&strek;o</item>
 <item lang="eo"><index/>celuloz&strek;o</item>
@@ -9439,7 +9439,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="C" id="OA2_1D">
 
 <item lang="eo"><index/>dali&strek;o <note>(bot.)</note></item>
 <item lang="eo"><index/>debat&strek;o</item>
@@ -9476,7 +9476,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="C" id="OA2_1E">
 
 <item lang="eo"><index/>eklog&strek;o</item>
 <item lang="eo"><index/>ekip&strek;i</item>
@@ -9502,7 +9502,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="C" id="OA2_1F">
 
 <item lang="eo"><index/>fakir&strek;o</item>
 <item lang="eo"><index/>faktor&strek;o</item>
@@ -9527,7 +9527,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="G">
 <head>G</head>
 
-<list type="dict" n="G">
+<list type="dict" n="C" id="OA2_1G">
 
 <item lang="eo"><index/>galantin&strek;o</item>
 <item lang="eo"><index/>garnitur&strek;o</item>
@@ -9550,7 +9550,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="Ĝ">
 <head>Ĝ</head>
 
-<list type="dict" n="Ĝ">
+<list type="dict" n="C" id="OA2_1Ĝ">
 
 <item lang="eo"><index/>ĝendarm&strek;o</item>
 <item lang="eo"><index/>ĝin&strek;o <note>(trinkaĵo)</note></item>
@@ -9561,7 +9561,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="C" id="OA2_1H">
 
 <item lang="eo"><index/>halebard&strek;o</item>
 <item lang="eo"><index/>harem&strek;o</item>
@@ -9593,7 +9593,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="C" id="OA2_1I">
 
 <item lang="eo"><index/>idiom&strek;o</item>
 <item lang="eo"><index/>ignor&strek;i <note>(ŝajnigi nescion)</note></item>
@@ -9614,7 +9614,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="C" id="OA2_1K">
 
 <item lang="eo"><index/>kabriolet&strek;o <note>(veturilo)</note></item>
 <item lang="eo"><index/>kalejdoskop&strek;o</item>
@@ -9686,7 +9686,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="C" id="OA2_1L">
 
 <item lang="eo"><index/>lagun&strek;o</item>
 <item lang="eo"><index/>lama&strek;o <note>(pastro)</note></item>
@@ -9703,7 +9703,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="C" id="OA2_1M">
 
 <item lang="eo"><index/>majolik&strek;o</item>
 <item lang="eo"><index/>major&strek;o <note>(batalionestro)</note></item>
@@ -9752,7 +9752,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="C" id="OA2_1N">
 
 <item lang="eo"><index/>naftalin&strek;o</item>
 <item lang="eo"><index/>negativ&strek;a</item>
@@ -9775,7 +9775,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="C" id="OA2_1O">
 
 <item lang="eo"><index/>obelisk&strek;o</item>
 <item lang="eo"><index/>objektiv&strek;a</item>
@@ -9800,7 +9800,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="C" id="OA2_1P">
 
 <item lang="eo"><index/>pagod&strek;o</item>
 <item lang="eo"><index/>palanken&strek;o</item>
@@ -9861,7 +9861,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="C" id="OA2_1R">
 
 <item lang="eo"><index/>racionalism&strek;o</item>
 <item lang="eo"><index/>racionalist&strek;o</item>
@@ -9886,7 +9886,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="S">
 <head>S</head>
 
-<list type="dict" n="S">
+<list type="dict" n="C" id="OA2_1S">
 
 <item lang="eo"><index/>sagu&strek;o</item>
 <item lang="eo"><index/>sakristi&strek;o</item>
@@ -9940,7 +9940,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="Ŝ">
 <head>Ŝ</head>
 
-<list type="dict" n="Ŝ">
+<list type="dict" n="C" id="OA2_1Ŝ">
 
 <item lang="eo"><index/>ŝah&strek;o</item>
 <item lang="eo"><index/>ŝalup&strek;o</item>
@@ -9952,7 +9952,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="C" id="OA2_1T">
 
 <item lang="eo"><index/>taburet&strek;o</item>
 <item lang="eo"><index/>talisman&strek;o</item>
@@ -9993,7 +9993,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="C" id="OA2_1U">
 
 <item lang="eo"><index/>ukaz&strek;o</item>
 <item lang="eo"><index/>ulan&strek;o</item>
@@ -10005,7 +10005,7 @@ kiuj laŭ §15 de l’Fundamento estas Esperantaj</head>
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="C" id="OA2_1V">
 <item lang="eo"><index/>vvariant&strek;o</item>
 <item lang="eo"><index/>vazelin&strek;o</item>
 <item lang="eo"><index/>vegetar&strek;a</item>
@@ -10041,7 +10041,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="C" id="OA2_2A">
 
 <label lang="eo">abnegaci&strek;o</label><item>
 <list type="tr">
@@ -10178,7 +10178,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="C" id="OA2_2B">
 
 <label lang="eo">balot&strek;i</label><item>
 <list type="tr">
@@ -10243,7 +10243,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="C">
 <head>C</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="OA2_2C">
 
 <label lang="eo">cidoni&strek;o</label><item>
 <list type="tr">
@@ -10269,7 +10269,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="Ĉ">
 <head>Ĉ</head>
 
-<list type="dict" n="Ĉ">
+<list type="dict" n="C" id="OA2_2Ĉ">
 
 <label lang="eo">ĉar&strek;o</label><item>
 <list type="tr">
@@ -10286,7 +10286,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="C" id="OA2_2D">
 
 <label lang="eo">determin&strek;i</label><item>
 <list type="tr">
@@ -10328,7 +10328,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="C" id="OA2_2E">
 
 <label lang="eo">ebur&strek;o</label><item>
 <list type="tr">
@@ -10378,7 +10378,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="C" id="OA2_2F">
 
 <label lang="eo">falang&strek;o <note>(mil., anat.)</note></label><item>
 <list type="tr">
@@ -10411,7 +10411,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="G">
 <head>G</head>
 
-<list type="dict" n="G">
+<list type="dict" n="C" id="OA2_2G">
 
 <label lang="eo">galant&strek;o</label><item>
 <list type="tr">
@@ -10468,7 +10468,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="C" id="OA2_2H">
 
 <label lang="eo">helik&strek;o</label><item>
 <list type="tr">
@@ -10494,7 +10494,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="C" id="OA2_2I">
 
 <label lang="eo">ileks&strek;o</label><item>
 <list type="tr">
@@ -10527,7 +10527,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="C" id="OA2_2K">
 
 <label lang="eo">kaban&strek;o</label><item>
 <list type="tr">
@@ -10641,7 +10641,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="C" id="OA2_2L">
 
 <label lang="eo">laktuk&strek;o</label><item>
 <list type="tr">
@@ -10698,7 +10698,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="C" id="OA2_2M">
 
 <label lang="eo">marin&strek;i</label><item>
 <list type="tr">
@@ -10771,7 +10771,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="C" id="OA2_2N">
 
 <label lang="eo">niz&strek;o</label><item>
 <list type="tr">
@@ -10796,7 +10796,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="C" id="OA2_2O">
 
 <label lang="eo">onobrik&strek;o</label><item>
 <list type="tr">
@@ -10821,7 +10821,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="C" id="OA2_2P">
 
 <label lang="eo">palinur&strek;o</label><item>
 <list type="tr">
@@ -10910,7 +10910,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="C" id="OA2_2R">
 
 <label lang="eo">raj&strek;o <note>(zool.)</note></label><item>
 <list type="tr">
@@ -10951,7 +10951,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="S">
 <head>S</head>
 
-<list type="dict" n="S">
+<list type="dict" n="C" id="OA2_2S">
 
 <label lang="eo">septet&strek;o</label><item>
 <list type="tr">
@@ -11056,7 +11056,7 @@ laŭ konsilo de D-ro Zamenhof sin helpi per la alilingvaj tradukoj.
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="C" id="OA2_2T">
 
 <label lang="eo">tindr&strek;o</label><item>
 <list type="tr">
@@ -11342,7 +11342,7 @@ supersignitaj literoj estas anstataŭigitaj per sensupersignaj literoj.)
 </p>
 </note>
 
-<list type="dict">
+<list type="dict" n="1" id="OA3_1">
 
 <label lang="eo">abdik&strek;</label><item>
 <list type="tr">
@@ -12100,7 +12100,7 @@ supersignitaj literoj estas anstataŭigitaj per sensupersignaj literoj.)
 <div id="oa_3_radikoj_internaciaj" type="part" n="III">
   <head>III. Internaciaj radikoj uzeblaj laŭ la regulo 15</head>
 
-<list type="dict">
+<list type="dict" n="2" id="OA3_2">
 <label lang="eo">administraci&strek;</label><item>
 <list type="tr">
    <item lang="en">administration</item>
@@ -13796,7 +13796,7 @@ neniu voĉdonus kontraŭ ĝi.
 <div id="oa_4_vortlisto_fr_en_de" type="part" n="II">
 <head>II. Oficiala listo (franca, angla, germana)</head>
 
-<list type="dict">
+<list type="dict" n="1a" id="OA4_1a">
 
 <label lang="eo">abiturient&strek;o</label><item>
 <list type="tr">
@@ -14777,7 +14777,7 @@ Libro</emph> nun en preparo.
 <div id="oa_4_vortlisto_it_ktp" type="part" n="IV">
 <head>IV. Oficiala listo (itala, histpana, portugala, kataluna)</head>
 
-<list type="dict">
+<list type="dict" n="1b" id ="OA4_1b">
 
 <label lang="eo">abiturient&strek;o</label><item>
 <list type="tr">
@@ -15910,7 +15910,7 @@ I. Oficialaj vortradikoj aldonitaj al Universala Vortaro
 <note id="oa_5_n" n="1">Kun angla, franca, germana, hispana, itala kaj pola tradukoj.</note>
 </head>
 
-<list type="dict">
+<list type="dict" n="1" id="OA5_1">
 
 <label lang="eo">bulteno</label><item>
 <list type="tr">
@@ -15986,7 +15986,7 @@ I. Oficialaj vortradikoj aldonitaj al Universala Vortaro
 <head>II. Teknikaj vortradikoj enkondukitaj en la Komunan Vortaron
 <note target="oa_5_n" n="1"/></head>
 
-<list type="dict">
+<list type="dict" n="2" id="OA5_2">
 
 <label lang="eo">aviado</label><item>
 <list type="tr">
@@ -16086,7 +16086,7 @@ energio</item>
 <note n="1">Kun angla, franca, germana, hispana, itala kaj pola tradukoj.</note>
 </head>
 
-<list type="dict">
+<list type="dict" n="1" id="OA6_1">
 
 <label lang="eo">angoro</label><item>
 <list type="tr">
@@ -16284,7 +16284,7 @@ energio</item>
 <note n="1">Kun angla, franca, germana, hispana, itala kaj pola tradukoj.</note>
 </head>
 
-<list type="dict">
+<list type="dict" n="2" id="OA6_2">
 
 <label lang="eo">arbusto <note>(Botaniko)</note></label><item>
 <list type="tr">
@@ -16431,7 +16431,7 @@ difino estas aldonita.
 </p>
 
 
-<list type="dict">
+<list type="dict" n="1" id="OA7_1">
 <label lang="eo">a</label><item rend="def" lang="eo">nomo de la litero a, unua litero de la Esperanta alfabeto</item>
 <label lang="eo">absolut&strek;</label><item rend="ref">(1)</item>
 <label lang="eo">aktiv&strek;</label><item rend="ref">(1)</item>
@@ -16549,7 +16549,7 @@ difino estas aldonita.
 <div>
 <head>B. — 35 propraj nomoj</head>
 
-<list type="dict">
+<list type="dict" n="2" id="OA7_2">
 <label lang="eo">angl&strek;</label><item rend="def" lang="eo">(nomo de ano de popolo)</item>
 <label lang="eo">Ann&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
 <label lang="eo">Anton&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
@@ -16594,7 +16594,7 @@ propraj nomoj, jam konsideritaj en la inventaro de tiu parto de la
 Fundamento:
 </p>
 
-<list type="dict">
+<list type="dict" n="3" id="OA7_3">
 <label lang="eo">Aleksandr&strek;</label><item rend="def" lang="eo">(vira antaŭnomo)</item>
 <label lang="eo">Emili&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
 <label lang="eo">Henriet&strek;</label><item rend="def" lang="eo">(virina antaŭnomo)</item>
@@ -16624,7 +16624,7 @@ montrita interkrampe: ili estas samsignifaj kun la respondaj formoj en
 </p>
 
 
-<list type="dict">
+<list type="dict" n="4" id="OA7_4">
 <label lang="eo">agronom&strek;</label><item rend="ref">(1)</item>
 <label lang="eo">antropolog&strek;</label><item rend="ref">(1)</item>
 <label lang="eo">biolog&strek;</label><item rend="ref">(1)</item>
@@ -16664,7 +16664,7 @@ grekdevenaj pseŭdosufiksoj, kiel <emph lang="eo"><index/>-grafi’</emph> kaj k
 oficialigitaj. Do nova grupo de 15 radikoj estas aldonita al la Oficiala Listo:
 </p>
 
-<list type="dict">
+<list type="dict" n="5" id="OA7_5">
 <label lang="eo">aŭtokrat&strek;</label><item rend="ref">(3)</item>
 <label lang="eo">bibliograf&strek;</label><item rend="ref">(2)</item>
 <label lang="eo">biograf&strek;</label><item rend="ref">(2)</item>
@@ -16803,7 +16803,7 @@ Aldono, en kiu tiuj Fundamentaj vortoj estis siatempe kolektitaj.
 <p>
 Estas Fundamentaj jenaj radikoj:</p>
 
-<list type="dict">
+<list type="dict" n="1" id="OA8_1">
 <label lang="eo">adres&strek;o</label><item rend="ref">(1)</item>
 <label lang="eo">centr&strek;o</label><item rend="ref">(1)</item>
 <label lang="eo">frank&strek;o</label><item rend="ref">(1)</item>
@@ -16838,7 +16838,7 @@ aŭ de simpla preseraro (<emph>deino</emph> anstataŭ <emph>feino</emph>).
 <div> 
 <head>B) 2 propraj nomoj</head>
 
-<list type="dict">
+<list type="dict" n="2" id="OA8_2">
 <label lang="eo">Paŭl&strek;o</label><item rend="ref"/>
 <label lang="eo">Zamenhof</label><item rend="ref"/>
 </list>
@@ -16941,7 +16941,7 @@ derivas la nomon de la lando per diversaj rimedoj laŭ la monda internacieco
 <div>
 <head>1. Oficialigitaj landnomoj</head>
 
-<list type="dict">
+<list type="dict" n="3" id="OA8_3">
 <item lang="eo"><index/>Alĝerio</item>
 <item lang="eo"><index/>Aŭstralio</item>
 <item lang="eo"><index/>Birmo</item>
@@ -16980,7 +16980,7 @@ derivas la nomon de la lando per diversaj rimedoj laŭ la monda internacieco
 <div>
 <head>2. Oficialigitaj landano-nomoj</head>
 
-<list type="dict">
+<list type="dict" n="4" id="OA8_4">
 <item lang="eo"><index/>albano</item>
 <item lang="eo"><index/>arabo</item>
 <item lang="eo"><index/>armeno</item>
@@ -17056,7 +17056,7 @@ por la itala kaj Domingues por la portugala.
 </div>
 
 <div>
-<list type="dict" rend="def_tr">
+<list type="dict" rend="def_tr" n="5" id="OA8_5">
 
 <label lang="eo">Afrik&strek;o</label><item>
 <list type="def">
@@ -19126,7 +19126,7 @@ respektivaj difinotekstoj.
 <div type="part" n="II" id="oa_9_vortoj">
 <head>II. Oficialaj radikoj</head>
 
-<list type="dict" rend="def">
+<list type="dict" rend="def" n="1" id="OA9_1">
 
 <label lang="eo">adrenalin&strek;o</label><item>Hormono produktata de la surrenaj glandoj kaj sekreciata en
 la sangon okaze de mensa aŭ korpa premo (danĝero k.s.) por prepari la
