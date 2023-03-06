@@ -2238,7 +2238,7 @@ brilas. &dash; La patro estas sana. &dash; La patro estas tajloro.
 </p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_5">
 
 <label lang="eo">patro</label><item>
 <list type="def">
@@ -2461,7 +2461,7 @@ estas pomo. &dash; Jen estas la pomo, kiun mi trovis. &dash; Sur la tero
 kuŝas ŝtono.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_6">
 
 <label lang="eo">infano</label><item>
 <list type="def">
@@ -2728,7 +2728,7 @@ leono.</p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_7">
 
 <label lang="eo">forta</label><item>
 <list type="def">
@@ -2931,7 +2931,7 @@ Antaŭ la domo staras arbo. &dash; La patro estas en la
 ĉambro.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_8">
 
 <label lang="eo">bona</label><item>
 <list type="def">
@@ -3181,7 +3181,7 @@ onklo. &dash; Mi legas libron. &dash; La patro ne legas libron, sed li skribas
 leteron.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_9">
 
 <label lang="eo">flugi</label><item>
 <list type="def">
@@ -3488,7 +3488,7 @@ vi. &dash; El ĉiuj siaj fratoj Antono estas la malplej
 saĝa.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_10">
 
 <label lang="eo">papero</label><item>
 <list type="def">
@@ -4004,7 +4004,7 @@ portreto de sia patro laŭ sia boneco kaj honesteco, estis krom
 tio unu el la plej belaj knabinoj, kiujn oni povis trovi.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_11">
 
 <label lang="eo">feino</label><item>
 <list type="def">
@@ -4239,7 +4239,7 @@ Marto. &dash; Georgo Vaŝington estis naskita la dudek duan de
 Februaro de la jaro mil sepcent tridek dua.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_12">
 
 <label lang="eo">multe</label><item>
 <list type="def">
@@ -4652,7 +4652,7 @@ aferoj tiu ĉi malfeliĉa infano devis du fojojn en
 alporti domen plenan grandan kruĉon.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_13">
 
 <label lang="eo">daŭri</label><item>
 <list type="def">
@@ -5015,7 +5015,7 @@ dek kvin paĝoj, mi finos la tutan libron en kvar tagoj.</p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_14">
 
 <label lang="eo">on</label><item>
 <list type="def">
@@ -5381,7 +5381,7 @@ vorto, kiun vi diros, el via buŝo eliros aŭ floro
 aŭ multekosta ŝtono.</q></p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_15">
 
 <label lang="eo">fonto</label><item>
 <list type="def">
@@ -5579,7 +5579,7 @@ riĉa (aŭ riĉaj), oni havas multajn amikojn.</p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_16">
 
 <label lang="eo">ci</label><item>
 <list type="def">
@@ -5757,7 +5757,7 @@ akvon; kaj kiam malriĉa virino petos de vi trinki, vi donos
 ĝin al ŝi ĝentile.</q></p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_17">
 
 <label lang="eo">insulti</label><item>
 <list type="def">
@@ -5957,7 +5957,7 @@ la infano, kie kuŝas ĝia pupo. &dash; Oni ne forgesas facile
 sian unuan amon.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_18">
 
 <label lang="eo">kuri</label><item>
 <list type="def">
@@ -6162,7 +6162,7 @@ serpento aŭ rano.</q></p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_19">
 
 <label lang="eo">us</label><item>
 <list type="def">
@@ -6359,7 +6359,7 @@ sendu al mi kandelon. &dash; Ni estu gajaj, ni uzu bone la vivon,
 pro la patrujo estas agrable. &dash; La infano ne ĉesas petoli.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_20">
 
 <label lang="eo">sidi</label><item>
 <list type="def">
@@ -6739,7 +6739,7 @@ tute sola kaj pro kio ŝi ploras. &dash; <q>Ho ve, sinjoro, mia
 patrino forpelis min el la domo</q>.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_21">
 
 <label lang="eo">rimarki</label><item>
 <list type="def">
@@ -6915,7 +6915,7 @@ devas juĝi, estas juĝoto.</p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_22">
 
 <label lang="eo">flui</label><item>
 <list type="def">
@@ -7251,7 +7251,7 @@ multe kurinte kaj trovinte neniun, kiu volus ŝin akcepti,
 baldaŭ mortis en angulo de arbaro.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_23">
 
 <label lang="eo">kelke</label><item>
 <list type="def">
@@ -7407,7 +7407,7 @@ vi la veron. &dash; Mi volas, ke tio, kion mi diris, estu vera (aŭ
 mi volas esti dirinta la veron).</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_24">
 
 <label lang="eo">salono</label><item>
 <list type="def">
@@ -7463,7 +7463,7 @@ vaporo iras sur la korton.</p>
 
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_25">
 
 <label lang="eo">inviti</label><item>
 <list type="def">
@@ -7726,7 +7726,7 @@ al mi. &dash; Ho, Dio! kion vi faras! &dash; Ha, kiel bele! &dash; For de tie
 ĉi! &dash; Fi, kiel abomene! &dash; Nu, iru pli rapide!</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_26">
 
 <label lang="eo">ekster</label><item>
 <list type="def">
@@ -8043,7 +8043,7 @@ tagmanĝi, vespermanĝi; abonpago (= pago por la
 abono).</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_27">
 
 <label lang="eo">artikolo</label><item>
 <list type="def">
@@ -8307,7 +8307,7 @@ vi parolas. &dash; Mi renkontis nek lin, nek lian fraton (aŭ mi ne
 renkontis lin, nek lian fraton).</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_28">
 
 <label lang="eo">nominativo</label><item>
 <list type="def">
@@ -8512,7 +8512,7 @@ malamikon</q>, sed ni devas diri ĉiam <q>pardoni al la
 malamiko lian kulpon</q>.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_29">
 
 <label lang="eo">senco</label><item>
 <list type="def">
@@ -8655,7 +8655,7 @@ vortoj (sufiksoj); ekzemple: tiama, ĉiama, kioma, tiea,
 ĉi-tiea, tieulo, tiamulo k. t. p. (= kaj tiel plu).</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_30">
 
 <label lang="eo">ia</label><item>
 <list type="def">
@@ -8887,7 +8887,7 @@ En mia skribotablo sin trovas kvar tirkestoj. &dash; Liaj lipharoj estas
 pli grizaj, ol liaj vangharoj.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_31">
 
 <label lang="eo">humoro</label><item>
 <list type="def">
@@ -9157,7 +9157,7 @@ homoj. &dash; <mentioned>Da</mentioned> post ia vorto montras, ke tiu ĉi vorto
 havas signifon de mezuro.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_32">
 
 <label lang="eo">teatro</label><item>
 <list type="def">
@@ -9399,7 +9399,7 @@ mia bofratino. &dash; Mi havas bovon kaj bovinon. &dash; La juna vidvino
 fariĝis denove fianĉino.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_33">
 
 <label lang="eo">mezo</label><item>
 <list type="def">
@@ -9659,7 +9659,7 @@ kampoj paŝtas sin grandaj brutaroj, precipe aroj da bellanaj
 ŝafoj.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_34">
 
 <label lang="eo">viando</label><item>
 <list type="def">
@@ -10072,7 +10072,7 @@ folioj kaj diversaj aliaj kreskaĵoj. &dash; Mi vivas kun li en
 granda amikeco.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_35">
 
 <label lang="eo">kuko</label><item>
 <list type="def">
@@ -10339,7 +10339,7 @@ de Izraelo. &dash; Ĉevalido estas nematura ĉevalo, kokido &dash;
 nematura koko, bovido &dash; nematura bovo, birdido &dash; nematura birdo.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_36">
 
 <label lang="eo">ge</label><item>
 <list type="def">
@@ -10474,7 +10474,7 @@ timas eĉ sian propran ombron. &dash; Li estas mensogisto kaj
 malnoblulo. &dash; Preĝu al la Sankta Virgulino.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_37">
 
 <label lang="eo">an</label><item>
 <list type="def">
@@ -10748,7 +10748,7 @@ aŭ Viĉjo), Manjo (aŭ Marinjo), Klanjo kaj Sonjo
 (aŭ Sofinjo).</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_38">
 
 <label lang="eo">densa</label><item>
 <list type="def">
@@ -10849,7 +10849,7 @@ sinjoro! &dash; La junulo aliĝis al nia militistaro kaj
 kuraĝe batalis kune kun ni kontraŭ niaj malamikoj.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_39">
 
 <label lang="eo">koto</label><item>
 <list type="def">
@@ -11032,7 +11032,7 @@ portas paperujon; pli grandan paperujon mi portas sub la brako. &dash; La
 rusoj loĝas en Rusujo kaj la germanoj en Germanujo.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_40">
 
 <label lang="eo">surprizi</label><item>
 <list type="def">
@@ -11230,7 +11230,7 @@ purema, kaj eĉ unu polveron vi ne trovos sur lia vesto. &dash; Unu
 fajrero estas sufiĉa, por eksplodigi pulvon.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_41">
 
 <label lang="eo">ŝtalo</label><item>
 <list type="def">
@@ -11421,7 +11421,7 @@ sanilujo, sanigilujo, remalsano, remalsaniĝo, malsanulino,
 sanigista, sanigilista, sanilista, malsanulista k. t. p.</p>
 
 <div>
-<list type="dict">
+<list type="dict" id="FE_42">
 
 <label lang="eo">atingi</label><item>
 <list type="def">
@@ -11595,7 +11595,7 @@ trzech wyrazów, z których każdego należy szukać oddzielnie.
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="UV_A">
 
 <label lang="eo">a</label><item>
 <list type="def">
@@ -13365,7 +13365,7 @@ imiesłów bierny czasu teraźniejszego</item>
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="UV_B">
 
 <label lang="eo">babil&strek;</label><item>
 <list type="def">
@@ -14629,7 +14629,7 @@ hałasować</item>
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="UV_C">
 
 <label lang="eo">ĉagren&strek;</label><item>
 <list type="def">
@@ -15564,7 +15564,7 @@ zmienia je w pieszczotliwe; np. <hi lang="eo" rend="bold">Miĥael&strek;</hi> &d
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="UV_D">
 
 <label lang="eo">da</label><item>
 <list type="def">
@@ -16689,7 +16689,7 @@ roztargać</item>
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="UV_E">
 
 <label lang="eo">e</label><item>
 <list type="def">
@@ -17623,7 +17623,7 @@ stopnia; np. <hi lang="eo" rend="bold">mur&strek;</hi> ściana &dash; <hi lang="
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="F" id="UV_F">
 
 <label lang="eo">fab&strek;</label><item>
 <list type="def">
@@ -19411,7 +19411,7 @@ trefić</item>
 <div type="letter" n="G">
 <head>G, Ĝ</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="UV_G">
 
 <label lang="eo">gad&strek;</label><item>
 <list type="def">
@@ -20468,7 +20468,7 @@ przewodnikiem</item>
 <div type="letter" n="H">
 <head>H, Ĥ</head>
 
-<list type="dict" n="H">
+<list type="dict" n="H" id="UV_H">
 
 <label lang="eo">ha!</label><item>
 <list type="def">
@@ -21162,7 +21162,7 @@ się</item>
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="UV_I">
 
 <label lang="eo">i</label><item>
 <list type="def">
@@ -21962,7 +21962,7 @@ Particip. perfecti passivi</item>
 <div type="letter" n="J">
 <head>J, Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="UV_J">
 
 <label lang="eo">j</label><item>
 <list type="def">
@@ -22290,7 +22290,7 @@ Präpositionen übersetzt werden</item>
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="UV_K">
 
 <label lang="eo">kaĉ&strek;</label><item>
 <list type="def">
@@ -26091,7 +26091,7 @@ Klammer</item>
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="UV_L">
 
 <label lang="eo">l&apostrof;, la</label><item>
 <list type="def">
@@ -27409,7 +27409,7 @@ polny</item>
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="UV_M">
 
 <label lang="eo">mac&strek;</label><item>
 <list type="def">
@@ -29138,7 +29138,7 @@ muszkatałowy</item>
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="UV_N">
 
 <label lang="eo">n</label><item>
 <list type="def">
@@ -29884,7 +29884,7 @@ Emi&strek;nj&strek;</hi></item>
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="UV_O">
 
 <label lang="eo">o</label><item>
 <list type="def">
@@ -30564,7 +30564,7 @@ imiesłów bierny czasu przyszłego</item>
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="UV_P">
 
 <label lang="eo">pac&strek;</label><item>
 <list type="def">
@@ -33843,7 +33843,7 @@ verzögern</item>
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="R" id="UV_R">
 
 <label lang="eo">rab&strek;</label><item>
 <list type="def">
@@ -35131,7 +35131,7 @@ postrzegać</item>
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="UV_S">
 
 <label lang="eo">sabat&strek;</label><item>
 <list type="def">
@@ -38281,7 +38281,7 @@ werben</item>
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="UV_T">
 
 <label lang="eo">tabak&strek;</label><item>
 <list type="def">
@@ -39904,7 +39904,7 @@ aufdringen</item>
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="U" id="UV_U">
 
 <label lang="eo">u</label><item>
 <list type="def">
@@ -40264,7 +40264,7 @@ in verbs</item>
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="UV_V">
 
 <label lang="eo">vafl&strek;</label><item>
 <list type="def">
@@ -41593,7 +41593,7 @@ wizytować</item>
 <div type="letter" n="Z">
 <head>Z</head>
 
-<list type="dict" n="Z">
+<list type="dict" n="Z" id="UV_Z">
 
 <label lang="eo">zebr&strek;</label><item>
 <list type="def">
@@ -41889,7 +41889,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="AK_frA">
 
 <label lang="eo">abon&strek;</label><item>
 <list type="def">
@@ -42107,7 +42107,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="AK_frB">
 
 
 <label lang="eo">bak&strek;</label><item>
@@ -42279,7 +42279,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="AK_frC">
 
 <label lang="eo">ĉarnir&strek;</label><item>
 <list type="def">
@@ -42349,7 +42349,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="AK_frD">
 
 <label lang="eo">daŭr&strek;</label><item>
 <list type="def">
@@ -42468,7 +42468,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="AK_frE">
 
 <label lang="eo">edif&strek;</label><item>
 <list type="def">
@@ -42520,7 +42520,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="F" id="AK_frF">
 
 <label lang="eo">fak&strek;</label><item>
 <list type="def">
@@ -42667,7 +42667,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="G">
 <head>G, Ĝ</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="AK_frG">
 
 <label lang="eo">gal&strek;</label><item>
 <list type="def">
@@ -42761,7 +42761,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="H" id="AK_frH">
 
 <label lang="eo">hak&strek;</label><item>
 <list type="def">
@@ -42820,7 +42820,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="AK_frI">
 
 <label lang="eo">imag&strek;</label><item>
 <list type="def">
@@ -42896,7 +42896,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="J">
 <head>J, Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="AK_frJ">
  
 <label lang="eo">ĵongl&strek;</label><item>
 <list type="def">
@@ -42924,7 +42924,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="AK_frK">
 
 <label lang="eo">kaĉ&strek;</label><item>
 <list type="def">
@@ -43273,7 +43273,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="AK_frL">
 
 <label lang="eo">laĉ&strek;</label><item>
 <list type="def">
@@ -43365,7 +43365,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="AK_frM">
 
 <label lang="eo">makler&strek;</label><item>
 <list type="def">
@@ -43441,7 +43441,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="AK_frN">
 
 <label lang="eo">nap&strek;</label><item>
 <list type="def">
@@ -43487,7 +43487,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="AK_frO">
 
 <label lang="eo">odor&strek;</label><item>
 <list type="def">
@@ -43515,7 +43515,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="AK_frP">
 
 <label lang="eo">paĝi&strek;</label><item>
 <list type="def">
@@ -43789,7 +43789,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="R" id="AK_frR">
 
 <label lang="eo">rapir&strek;</label><item>
 <list type="def">
@@ -43868,7 +43868,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="AK_frS">
 
 <label lang="eo">ŝaf&strek;</label><item>
 <list type="def">
@@ -44148,7 +44148,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="AK_frT">
 
 <label lang="eo">tabl&strek;</label><item>
 <list type="def">
@@ -44269,7 +44269,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="U" id="AK_frU">
 
 <label lang="eo">uln&strek;</label><item>
 <list type="def">
@@ -44309,7 +44309,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="AK_frV">
 
 <label lang="eo">vafl&strek;</label><item>
 <list type="def">
@@ -44395,7 +44395,7 @@ al la L.K. (1911).</note>
 <div type="letter" n="Z">
 <head>Z</head>
 
-<list type="dict" n="Z">
+<list type="dict" n="Z" id="AK_frZ">
 
 <label lang="eo">zizel&strek;</label><item>
 <list type="def">
@@ -44448,7 +44448,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="AK_enA">
 
 <label lang="eo">absint&strek;</label><item>
 <list type="def">
@@ -44652,7 +44652,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="AK_enB">
 
 <label lang="eo">bala&strek;</label><item>
 <list type="def">
@@ -44873,7 +44873,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="AK_enC">
 
 <label lang="eo">ĉagren&strek;</label><item>
 <list type="def">
@@ -44997,7 +44997,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="AK_enD">
 
 <label lang="eo">datur&strek;</label><item>
 <list type="def">
@@ -45196,7 +45196,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="AK_enE">
 
 <label lang="eo">eben&strek;</label><item>
 <list type="def">
@@ -45308,7 +45308,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="F" id="AK_enF">
 
 <label lang="eo">fabrik&strek;</label><item>
 <list type="def">
@@ -45617,7 +45617,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="G">
 <head>G, Ĝ</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="AK_enG">
 
 <label lang="eo">gad&strek;</label><item>
 <list type="def">
@@ -45842,7 +45842,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="H" id="AK_enH">
 
 <label lang="eo">hal&strek;</label><item>
 <list type="def">
@@ -45939,7 +45939,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="AK_enI">
 
 <label lang="eo">ia</label><item>
 <list type="def">
@@ -46057,7 +46057,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="J">
 <head>J, Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="AK_enJ">
 
 <label lang="eo">ja</label><item>
 <list type="def">
@@ -46085,7 +46085,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="AK_enK">
 
 <label lang="eo">kadr&strek;</label><item>
 <list type="def">
@@ -46858,7 +46858,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="AK_enL">
 
 <label lang="eo">labor&strek;</label><item>
 <list type="def">
@@ -47059,7 +47059,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="AK_enM">
 
 <label lang="eo">magazen&strek;</label><item>
 <list type="def">
@@ -47285,7 +47285,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="AK_enN">
 
 <label lang="eo">nap&strek;</label><item>
 <list type="def">
@@ -47394,7 +47394,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="AK_enO">
 
 <label lang="eo">oblat&strek;</label><item>
 <list type="def">
@@ -47494,7 +47494,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="AK_enP">
 
 <label lang="eo">paĝ&strek;</label><item>
 <list type="def">
@@ -48166,7 +48166,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="R" id="AK_enR">
 
 <label lang="eo">rabot&strek;</label><item>
 <list type="def">
@@ -48408,7 +48408,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="AK_enS">
 
 <label lang="eo" rend="hidden">sabl&strek;</label>
 <item><list type="deriv">
@@ -49027,7 +49027,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="AK_enT">
 
 <label lang="eo">tabul&strek;</label><item>
 <list type="def">
@@ -49329,7 +49329,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="U" id="AK_enU">
 
 <label lang="eo" rend="hidden">ung&strek;</label>
 <item><list type="deriv">
@@ -49390,7 +49390,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="AK_enV">
 
 <label lang="eo">vafl&strek;</label><item>
 <list type="def">
@@ -49626,7 +49626,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
 <div type="letter" n="Z">
 <head>Z</head>
 
-<list type="dict" n="Z">
+<list type="dict" n="Z" id="AK_enZ">
 
 <label lang="eo">zizel&strek;</label><item>
 <list type="def">
@@ -49684,7 +49684,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="AK_deA">
 
 <label lang="eo">absces&strek;</label><item>
 <list type="def">
@@ -49801,7 +49801,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="AK_deB">
 
 <label lang="eo">bant&strek;</label><item>
 <list type="def">
@@ -49886,7 +49886,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="AK_deC">
 
 <label lang="eo">ĉe</label><item>
 <list type="def">
@@ -49932,7 +49932,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="AK_deD">
 
 <label lang="eo">da</label><item>
 <list type="def">
@@ -50020,7 +50020,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="AK_deE">
 
 <label lang="eo">eksped&strek;</label><item>
 <list type="def">
@@ -50175,7 +50175,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="G">
 <head>G, Ĝ</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="AK_deG">
  
 
 <label lang="eo">galon&strek;</label><item>
@@ -50234,7 +50234,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="H" id="AK_deH">
 
 <label lang="eo">ha</label><item>
 <list type="def">
@@ -50266,7 +50266,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="AK_deI">
 
 <label lang="eo">idol&strek;</label><item>
 <list type="def">
@@ -50377,7 +50377,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="J">
 <head>J, Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="AK_deJ">
 
 <label lang="eo">ĵus</label><item>
 <list type="def">
@@ -50393,7 +50393,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="AK_deK">
 
 <label lang="eo">kan&strek;</label><item>
 <list type="def">
@@ -50657,7 +50657,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="AK_deL">
 
 <label lang="eo" rend="hidden">larĝ</label>
 <item><list type="deriv">
@@ -50716,7 +50716,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="AK_deM">
 
 
 <label lang="eo">makler&strek;</label><item>
@@ -50798,7 +50798,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="AK_deN">
 
 <label lang="eo" rend="hidden">nask&strek;</label>
 <item><list type="deriv">
@@ -50865,7 +50865,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="AK_deO">
 
 <label lang="eo">obl&strek;</label><item>
 <list type="def">
@@ -50911,7 +50911,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="AK_deP">
 
 
 <label lang="eo" rend="hidden">pag&strek;</label>
@@ -51154,7 +51154,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="AK_deS">
 
 <label lang="eo">saĝ&strek;</label><item>
 <list type="def">
@@ -51413,7 +51413,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="AK_deT">
 
 <label lang="eo">ted&strek;</label><item>
 <list type="def">
@@ -51549,7 +51549,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="AK_deV">
 
 <label lang="eo">vant&strek;</label><item>
 <list type="def">
@@ -51689,7 +51689,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="AK_ruA">
 
 <label lang="eo">abat&strek;</label><item>
 <list type="def">
@@ -51789,7 +51789,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="AK_ruB">
 
 <label lang="eo">bagatel&strek;</label><item>
 <list type="def">
@@ -51887,7 +51887,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="AK_ruC">
 
 <label lang="eo">ĉagren&strek;</label><item>
 <list type="def">
@@ -51913,7 +51913,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="AK_ruD">
 
 <label lang="eo">damask&strek;</label><item>
 <list type="def">
@@ -51997,7 +51997,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="AK_ruE">
 
 
 
@@ -52044,7 +52044,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="F" id="AK_ruF">
 
 
 <label lang="eo">fajl&strek;</label><item>
@@ -52149,7 +52149,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="G">
 <head>G</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="AK_ruG">
 
 
 <label lang="eo">gamaŝ&strek;</label><item>
@@ -52188,7 +52188,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="AK_ruI">
 
 
 <label lang="eo">indulg&strek;</label><item>
@@ -52234,7 +52234,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="J">
 <head>J, Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="AK_ruJ">
 
 
  
@@ -52250,7 +52250,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="AK_ruK">
 
 
 <label lang="eo">kan&strek;</label><item>
@@ -52427,7 +52427,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="AK_ruL">
 
 
 <label lang="eo">led&strek;</label><item>
@@ -52467,7 +52467,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="AK_ruM">
 
 
 <label lang="eo">maiz&strek;</label><item>
@@ -52526,7 +52526,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="AK_ruN">
 
 
 <label lang="eo" rend="hidden">nask&strek;</label>
@@ -52549,7 +52549,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="AK_ruO">
 
 <label lang="eo">obstrukc&strek;</label><item>
 <list type="def">
@@ -52588,7 +52588,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="AK_ruP">
 
 
 <label lang="eo">pantofl&strek;</label><item>
@@ -52698,7 +52698,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="R" id="AK_ruR">
 
 
 <label lang="eo">radi&strek;</label><item>
@@ -52774,7 +52774,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="AK_ruS">
 
 
 <label lang="eo">sagac&strek;</label><item>
@@ -52916,7 +52916,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="AK_ruT">
 
 
 <label lang="eo">tali&strek;</label><item>
@@ -53030,7 +53030,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="U">
 <head>U</head>
 
-<list type="dict" n="U">
+<list type="dict" n="U" id="AK_ruU">
 
 
 <label lang="eo">uniform&strek;</label><item>
@@ -53058,7 +53058,7 @@ enkondukis multajn el proponitaj de ni korektoj.
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="AK_ruV">
 
 
 <label lang="eo">van&strek;</label><item>
@@ -53158,7 +53158,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="A">
 <head>A</head>
 
-<list type="dict" n="A">
+<list type="dict" n="A" id="AK_plA">
 
 <label lang="eo">absces&strek;</label><item>
 <list type="def">
@@ -53255,7 +53255,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="B">
 <head>B</head>
 
-<list type="dict" n="B">
+<list type="dict" n="B" id="AK_plB">
 
 <label lang="eo">babil&strek;</label><item>
 <list type="def">
@@ -53326,7 +53326,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="C">
 <head>C, Ĉ</head>
 
-<list type="dict" n="C">
+<list type="dict" n="C" id="AK_plC">
 
 <label lang="eo">ĉan&strek;</label><item>
 <list type="def">
@@ -53378,7 +53378,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="D">
 <head>D</head>
 
-<list type="dict" n="D">
+<list type="dict" n="D" id="AK_plD">
 
 <label lang="eo">dec&strek;</label><item>
 <list type="def">
@@ -53418,7 +53418,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="E">
 <head>E</head>
 
-<list type="dict" n="E">
+<list type="dict" n="E" id="AK_plE">
 
 <label lang="eo">eben&strek;</label><item>
 <list type="def">
@@ -53500,7 +53500,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="F">
 <head>F</head>
 
-<list type="dict" n="F">
+<list type="dict" n="F" id="AK_plF">
 
 <label lang="eo">fabel&strek;</label><item>
 <list type="def">
@@ -53630,7 +53630,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="G">
 <head>G, Ĝ</head>
 
-<list type="dict" n="G">
+<list type="dict" n="G" id="AK_plG">
 
 <label lang="eo">gajn&strek;</label><item>
 <list type="def">
@@ -53682,7 +53682,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="H">
 <head>H</head>
 
-<list type="dict" n="H">
+<list type="dict" n="H" id="AK_plH">
 
 <label lang="eo">hiskiam&strek;</label><item>
 <list type="def">
@@ -53710,7 +53710,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="I">
 <head>I</head>
 
-<list type="dict" n="I">
+<list type="dict" n="I" id="AK_plI">
 
 <label lang="eo">ibis&strek;</label><item>
 <list type="def">
@@ -53774,7 +53774,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="J">
 <head>Ĵ</head>
 
-<list type="dict" n="J">
+<list type="dict" n="J" id="AK_plJ">
 
 <label lang="eo">ĵongl&strek;</label><item>
 <list type="def">
@@ -53789,7 +53789,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="K">
 <head>K</head>
 
-<list type="dict" n="K">
+<list type="dict" n="K" id="AK_plK">
 
 <label lang="eo">kaĉ&strek;</label><item>
 <list type="def">
@@ -54085,7 +54085,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="L">
 <head>L</head>
 
-<list type="dict" n="L">
+<list type="dict" n="L" id="AK_plL">
 
 <label lang="eo" rend="hidden">labor&strek;</label>
 <item><list type="deriv">
@@ -54182,7 +54182,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="M">
 <head>M</head>
 
-<list type="dict" n="M">
+<list type="dict" n="M" id="AK_plM">
 
 <label lang="eo">mac&strek;</label><item>
 <list type="def">
@@ -54261,7 +54261,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="N">
 <head>N</head>
 
-<list type="dict" n="N">
+<list type="dict" n="N" id="AK_plN">
 
 <label lang="eo">neces&strek;</label><item>
 <list type="def">
@@ -54283,7 +54283,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="O">
 <head>O</head>
 
-<list type="dict" n="O">
+<list type="dict" n="O" id="AK_plO">
 
 <label lang="eo">ofend&strek;</label><item>
 <list type="def">
@@ -54311,7 +54311,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="P">
 <head>P</head>
 
-<list type="dict" n="P">
+<list type="dict" n="P" id="AK_plP">
 
 <label lang="eo">par&strek;</label><item>
 <list type="def">
@@ -54507,7 +54507,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="R">
 <head>R</head>
 
-<list type="dict" n="R">
+<list type="dict" n="R" id="AK_plR">
 
 <label lang="eo">rajt&strek;</label><item>
 <list type="def">
@@ -54589,7 +54589,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="S">
 <head>S, Ŝ</head>
 
-<list type="dict" n="S">
+<list type="dict" n="S" id="AK_plS">
 
 <label lang="eo">ŝalm&strek;</label><item>
 <list type="def">
@@ -54797,7 +54797,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="T">
 <head>T</head>
 
-<list type="dict" n="T">
+<list type="dict" n="T" id="AK_plT">
 
 <label lang="eo">taĉment&strek;</label><item>
 <list type="def">
@@ -54912,7 +54912,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="V">
 <head>V</head>
 
-<list type="dict" n="V">
+<list type="dict" n="V" id="AK_plV">
 
 <label lang="eo">vant&strek;</label><item>
 <list type="def">
@@ -55015,7 +55015,7 @@ S-roj K. BEIN (= KABE) kaj GRABOWSKI.</note>
 <div type="letter" n="Z">
 <head>Z</head>
 
-<list type="dict" n="Z">
+<list type="dict" n="Z" id="AK_plZ">
 
 <label lang="eo">zebr&strek;</label><item>
 <list type="def">

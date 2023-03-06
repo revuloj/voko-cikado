@@ -52,6 +52,11 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level1" select="'part'"/>
 <xsl:variable name="content_level2" select="'chapter'"/>
 
+<!-- ĵeto de komencliteroj al indeksĉapitroj -->
+<xsl:variable name="map_from" select="'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;'"/>
+<xsl:variable name="map_to" select="'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXXCFHJSU'"/>
+
+
 <xsl:template match="/TEI.2/text/front">
   <xsl:apply-templates/>
   <hr/>
@@ -588,10 +593,19 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="list[@type='dict']/label">
-  <strong id="{generate-id()}">
+  <strong>  <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="label-id"/>
+    </xsl:attribute>
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
   </strong>
+</xsl:template>
+
+<xsl:template name="label-id">
+  <xsl:value-of select="ancestor::list[@type='dict'][1]/@id"/>
+  <xsl:text>_</xsl:text>
+  <xsl:number level="any" from="list[@type='dict']"/>
 </xsl:template>
 
 <xsl:template match="label[@rend='hidden']" priority="2"/>
@@ -622,7 +636,10 @@ specialajn regulojn ne au alie difinitajn tie.
 </xsl:template>
 
 <xsl:template match="list[@type='deriv']/label">
-  <strong id="{generate-id()}">
+  <strong> <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="label-id"/>
+    </xsl:attribute>
   <xsl:apply-templates/>
   <xsl:text> </xsl:text>
   </strong>
@@ -678,9 +695,7 @@ specialajn regulojn ne au alie difinitajn tie.
 	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo']"
-	 use="translate(substring(.,1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
+	 use="translate(substring(.,1,1),$map_from,$map_to)"/>
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
@@ -696,9 +711,7 @@ specialajn regulojn ne au alie difinitajn tie.
 	    //emph[@lang='eo'] | 
 	    //hi[@lang='eo'])
 	    [count(.|key('eoletters',
-	    translate(substring(.,1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU'))[1])=1]">
+	    translate(substring(.,1,1),$map_from,$map_to))[1])=1]">
 
        <!-- ordigu ilin -->
        <xsl:sort lang="eo" case-order="upper-first" />
@@ -711,9 +724,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template name="letter">
 
   <xsl:variable name="firstletter">
-    <xsl:value-of select="translate(substring(.,1,1),
-     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXCFHJSU')"/>
+    <xsl:value-of select="translate(substring(.,1,1),$map_from,$map_to)"/>
   </xsl:variable>
 
   <xsl:variable name="letterdesc">
@@ -811,7 +822,14 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>ekz_</xsl:text>
         <xsl:value-of select="ancestor::div[@type='section']/@n"/>
         <xsl:text>.html#</xsl:text>
-        <xsl:value-of select="generate-id()"/>
+        <xsl:choose>
+          <xsl:when test="self::label">
+            <xsl:call-template name="label-id"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="generate-id()"/>
+          </xsl:otherwise>
+        </xsl:choose>        
       </xsl:attribute>
       <xsl:text>Ekzerc. &para; </xsl:text>
 	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
@@ -823,7 +841,14 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>uv_</xsl:text>
         <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
         <xsl:text>.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:choose>
+          <xsl:when test="self::label">
+            <xsl:call-template name="label-id"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="generate-id()"/>
+          </xsl:otherwise>
+        </xsl:choose>
       </xsl:attribute>
       <xsl:text>UV </xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
@@ -834,7 +859,14 @@ specialajn regulojn ne au alie difinitajn tie.
       <xsl:attribute name="href">
         <xsl:value-of select="ancestor::div[@type='chapter']/@id"/>
         <xsl:text>.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:choose>
+          <xsl:when test="self::label">
+            <xsl:call-template name="label-id"/>
+          </xsl:when>
+          <xsl:otherwise>
+            <xsl:value-of select="generate-id()"/>
+          </xsl:otherwise>
+        </xsl:choose>        
       </xsl:attribute>
       <xsl:text>AK </xsl:text>
       <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
