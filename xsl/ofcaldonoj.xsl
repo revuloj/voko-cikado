@@ -53,11 +53,16 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level1" select="'xxx'"/> <!-- <text@doc> -->
 <xsl:variable name="content_level2" select="'part'"/>
 
+<!-- ĵeto de komencliteroj al indeksĉapitroj -->
+<xsl:variable name="map_from" select="'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;'"/>
+<xsl:variable name="map_to" select="'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXXCFHJSU'"/>
+
 <xsl:template match="/TEI.2/text/front">
   <xsl:apply-templates/>
   <hr/>
   
   <!-- enmetu enhavtabelon -->
+
   <xsl:for-each select="..">
     <xsl:call-template name="table-of-content">
       <xsl:with-param name="level1" select="$content_level1"/>
@@ -115,7 +120,7 @@ specialajn regulojn ne au alie difinitajn tie.
       <xsl:if test="($level2!='') and (.//div[@type=$level2])">
         <ul>
           <xsl:for-each select=".//div[@type=$level2]">
-<!--            <xsl:variable name="ref">
+            <xsl:variable name="ref">
               <xsl:choose>
                 <xsl:when test="ancestor::node()[@rend='doc']">
                   <xsl:value-of select="ancestor::node()[@rend='doc']/@id"/>
@@ -128,7 +133,8 @@ specialajn regulojn ne au alie difinitajn tie.
                 </xsl:otherwise>
               </xsl:choose>
             </xsl:variable>
--->
+
+<!--
    <xsl:variable name="ref">
       <xsl:choose>
         <xsl:when test="@rend='doc'">
@@ -141,7 +147,7 @@ specialajn regulojn ne au alie difinitajn tie.
         </xsl:otherwise>
       </xsl:choose>
     </xsl:variable>
-
+-->
             <li class="subcontent">
               <a href="{$ref}">
                 <xsl:apply-templates select="./head[1]" mode="toc"/>
@@ -206,7 +212,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <span class="header_left">
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
-            <!-- por ekzercaro skribu §xx -->
+            <!-- por ekzercaro skribu §xx 
             <xsl:if test="ancestor::text[@id='ekz']">
               <xsl:if test="@n">
                 <xsl:text>&para; </xsl:text>
@@ -214,6 +220,7 @@ specialajn regulojn ne au alie difinitajn tie.
                 <xsl:text>. </xsl:text>            
               </xsl:if>
             </xsl:if>
+            -->
             <xsl:apply-templates select="head" mode="toc"/>
           </a>
         </span>
@@ -257,9 +264,11 @@ specialajn regulojn ne au alie difinitajn tie.
             <xsl:when test="$n=current()/@n">
               <xsl:value-of select="head"/>
             </xsl:when>
+            <!--
             <xsl:otherwise>
               <a href="uv_{@n}.html"><xsl:value-of select="head"/></a>
             </xsl:otherwise>
+            -->
           </xsl:choose>
           <xsl:if test="not(@n='Z')">
             <xsl:text>, </xsl:text>
@@ -460,26 +469,28 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
-<xsl:template match="list[@type='dict']/label/note">
+<xsl:template match="list[@type='dict']/label/note[not(@rend='footnote')]
+  |list[@type='dict']/item/note[not(@rend='footnote')]">
   <i><xsl:apply-templates/></i>
 </xsl:template>
 
 <xsl:template match="label[@rend='hidden']" priority="2"/>
 
-<!-- emfazojn kun lingvo=eo ni ankaŭ ebligas adresi el la indekso -->
+<!-- emfazojn kun ido <index> ni ankaŭ ebligas adresi el la indekso -->
 
-<xsl:template match="emph[@lang='eo']">
+<xsl:template match="emph[index]|foreign[index]">
   <em id="{generate-id()}">
-    <xsl:apply-templates/>
+  <xsl:apply-templates/>
   </em>
 </xsl:template>
 
-<xsl:template match="hi[@lang='eo']">
+<xsl:template match="hi[index]">
   <strong id="{generate-id()}">
-    <xsl:apply-templates/>
-    <xsl:text> </xsl:text>
+  <xsl:apply-templates/>
+  <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
+
 
 <!-- strukturita enhavo de vortlistero vorto + pluraj tradukoj ks -->
 
@@ -493,12 +504,20 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:apply-templates select="note"/>
 </xsl:template>
 
+<!-- kelkaj vortlistoj, ekz-e en OA 2 estas simplaj (nur <item>, sed ne <label>)
+ni evitu tamen krampigon per <li>...</li> -->
+<xsl:template match="list[@type='dict' and not(label)]/item[index]">
+  <p class="dict-entry" id="{generate-id()}">
+    <strong><xsl:apply-templates/></strong>
+  </p>
+</xsl:template>
+
 
 <!-- apartaj reguloj por vortlisto en OA8, kie enestas difino antaŭ la
 listo de tradukoj -->
 
 <xsl:template match="list[@type='dict' and @rend='def_tr']/item" priority="1">
-  <p class="dict-entry">
+  <p id="{generate-id()}" class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates select="list[@type='def']"/>
   <xsl:apply-templates select="note"/> <!-- montru la notojn en la fluo de la difino -->
@@ -532,7 +551,7 @@ listo de tradukoj -->
 <!-- apartaj reguloj por difinlistoj de OA9 (sen tradukoj) -->
 
 <xsl:template match="list[@type='dict' and @rend='def']/item" priority="1">
-  <p class="dict-entry">
+  <p id="{generate-id()}" class="dict-entry">
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates select="text()|eg|foreign"/>
   </p>
@@ -614,24 +633,32 @@ listo de tradukoj -->
 
 
 
-
 <!-- esperanta vortindekso -->
 
+  <!--
+    Ni kreas indekson de ĉiuj indekseroj laŭ ties komenclitero. Ni
+    bezonos ĝin por krei liston de vortoj en ĉiu literĉapitro de la indekso:
+    - ni indeksas ĉiujn aperojn de <label> kaj aliajn elementojn markitajn per ena <index/>
+    - ni elektas la unuan literon de teksta enhavo (ignorante ekze enajn <note>...</note>)
+    - la unuan literon ni ĵetas la majuskloj de alfabeto, specialsignojn ("-"...) ni ĵetas al "0"
+  -->
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //list[@type='dict']/item[@lang='eo'] |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
-	 use="translate(substring(text(),1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU')"/>
+   //item[index] | //emph[index] | //hi[index]"
+	 use="translate(substring(normalize-space(text()),1,1),$map_from,$map_to)"/>
+
+  <!--
+    Ni kreas indekson de ĉiuj indeksendaj vortoj laŭ ties normigita teksto.
+    Ni bezonas gin, ĉar ni volas montri ciun vorton en la indekso nur unufoje kun
+    la listo de aperoj apud gi:
+    - ni indeksas ĉiujn aperojn de <label> kaj aliajn elementojn markitajn per ena <index/>
+    - ni elektas la tekstan enahvon (ignorante ekze enajn <note>...</note>) kaj forigante marĝenajn spacsignojn
+  -->
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //list[@type='dict']/item[@lang='eo'] |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
-         use="."/>
+   //item[index] | //emph[index] | //hi[index]"
+         use="normalize-space(text())"/>
 
 <xsl:template name="wordindex">
 
@@ -640,18 +667,22 @@ listo de tradukoj -->
 <!--//list[@type='dict']//label[not(@rend='hidden')] |
 	    //list[@type='dict']/item[not(list)] -->
 
+<!-- 
+  Ni elektas por ĉiu litero en la indekso 'eoletters' reprezentanton, t.e. la unuan
+  vorton, kiu komenciĝas per tiu litero. La truko kun [count(.|key(_,_))[1])=1]
+  necesas por XSL 1, postaj eldonoj povus uzi eblecojn de xsl:group!
+-->
   <xsl:for-each select="(
    //list[@type='dict']//label[not(@rend='hidden')] |
-   //list[@type='dict']/item[@lang='eo'] |
-	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo'])
+   //item[index] | //emph[index] | //hi[index])
 	    [count(.|key('eoletters',
-	    translate(substring(text(),1,1),
-    'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-    'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU'))[1])=1]">
+	    translate(substring(normalize-space(text()),1,1),$map_from,$map_to))[1])=1]">
 
-       <!-- ordigu ilin -->
-       <xsl:sort lang="eo" case-order="upper-first" />      
+       <!-- ordigu la reprezentantojn laŭ ies unua litero -->
+       <xsl:sort select="substring(normalize-space(text()),1,1)" lang="eo"/> <!-- case-order="upper-first"/ -->    
+       <!-- xsl:message select="."/ -->
+
+       <!-- traktu la tutan ĉapitron de tiu litero... -->
        <xsl:call-template name="letter"/>
  
   </xsl:for-each>
@@ -659,10 +690,10 @@ listo de tradukoj -->
 
 <xsl:template name="letter">
 
+  <!-- ni reprenas la unuan literon de la reprezentanto, ĉar laŭ
+    tiu ni poste elektos ĉiujn samliterajn vortojn -->
   <xsl:variable name="firstletter">
-    <xsl:value-of select="translate(substring(text(),1,1),
-     'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;',
-     'ABCCDEFGGHHIJJKLMNOPRSSTUUVZ000CFHJSU')"/>
+    <xsl:value-of select="translate(substring(normalize-space(text()),1,1),$map_from,$map_to)"/>
   </xsl:variable>
 
   <xsl:variable name="letterdesc">
@@ -685,7 +716,7 @@ listo de tradukoj -->
       <xsl:when test="$firstletter='C'">
         <xsl:text>U, &Ubreve;</xsl:text>
       </xsl:when>
-      <xsl:when test="$firstletter='0'">
+      <xsl:when test="$firstletter='X'">
         <xsl:text>specialaj</xsl:text>
       </xsl:when>
       <xsl:otherwise>
@@ -694,40 +725,58 @@ listo de tradukoj -->
     </xsl:choose>
   </xsl:variable>
 
+<!--
+  <xsl:message>
+    <xsl:text>
+    LETTER: '</xsl:text><xsl:value-of select="$firstletter"/>
+    <xsl:text>'</xsl:text></xsl:message>
+-->
 
-  <a href="vortinx_{$firstletter}.html">
-    <xsl:value-of select="$letterdesc"/>
-  </a>
-   <xsl:if test="position() != last()">
-    <xsl:text>, </xsl:text>
+  <xsl:if test="$firstletter != '' "> <!-- 
+     evitante eraran dosieron: se el iu kaŭzo la vorto ne komenciĝas
+     per la literoj a-z, ĉ..ŭ, kaj ^,˘,- ni ignoras ĝin -->
+
+    <a href="vortinx_{$firstletter}.html">
+      <xsl:value-of select="$letterdesc"/>
+    </a>
+    <xsl:if test="position() != last()">
+      <xsl:text>, </xsl:text>
+    </xsl:if>
+
+    <!-- ĉiu literĉapitro estu en aparta dosiero -->
+    <xsl:result-document method="html" href="vortinx_{$firstletter}.html"> 
+      <html>
+        <head>
+          <title>e-a vortindekso, litero <xsl:value-of
+            select="$firstletter"/>
+          </title>
+        </head>
+        <body background="../bld/papero.jpg">
+          <xsl:call-template name="indexheader"/>
+
+      <!-- la litero kiel titolo -->
+      <h1><xsl:value-of select="$letterdesc"/></h1>
+
+        <!-- elektu ĉiujn vortojn kun sama komenclitero.
+          La trukon kun [count(.|key('eowords',.)[1])=1] ni
+          bezonas, ĉar tio por vorto, kiu aperas plurloke 
+          ni tiel traktas nur la unuan reprezentanton
+          (duoblajn vortojn ni ne volas duoble en la indekso, sed
+          kun ties apeeroj listigite apud la vorto)
+        -->
+
+          <xsl:for-each select="key('eoletters',$firstletter)
+          [count(.|key('eowords',.)[1])=1]"> 
+
+            <!-- ordigu ilin -->
+            <xsl:sort select="text()" lang="eo"/> 
+            <!-- kaj listigu nun -->
+            <xsl:call-template name="entry"/>
+        </xsl:for-each> 
+      </body>
+      </html>
+    </xsl:result-document>
   </xsl:if>
-
- <xsl:result-document method="html" href="vortinx_{$firstletter}.html"> 
-   <html>
-     <head>
-       <title>e-a vortindekso, litero <xsl:value-of
-         select="$firstletter"/>
-       </title>
-     </head>
-     <body background="../bld/papero.jpg">
-       <xsl:call-template name="indexheader"/>
-
-   <!-- la litero kiel titolo -->
-   <h1><xsl:value-of select="$letterdesc"/></h1>
-
-    <!-- elektu chiujn vortojn kun sama komenclitero -->
-
-       <xsl:for-each select="key('eoletters',$firstletter)
-			[count(.|key('eowords',.)[1])=1]"> 
-
-         <!-- ordigu ilin -->
-         <xsl:sort lang="eo"/> 
-         <!-- kaj listigu nun -->
-         <xsl:call-template name="entry"/>
-    </xsl:for-each> 
-  </body>
-  </html>
-  </xsl:result-document>
 </xsl:template>
 
 <xsl:template name="indexheader">
@@ -746,13 +795,14 @@ listo de tradukoj -->
   <strong>
     <xsl:apply-templates mode="index"/>:
   </strong>
-  <xsl:for-each select="key('eowords',.)">
+  <xsl:for-each select="key('eowords',normalize-space(text()))">
      <xsl:call-template name="ref"/>
   </xsl:for-each><br/>
 </xsl:template>
 
 <!-- subpremu alnotojn en indeksigitaj kapvortoj -->
 <xsl:template match="label/note" mode="index"/>
+<xsl:template match="item/note" mode="index"/>
 
 <xsl:template name="ref">
   <!-- OA 1..9 -->
@@ -765,6 +815,10 @@ listo de tradukoj -->
     </xsl:attribute>
     <xsl:text>OA </xsl:text>
     <xsl:value-of select="ancestor::text/@n"/>
+    <xsl:if test="ancestor::div[@type='part']">
+      <xsl:text>,</xsl:text>
+      <xsl:value-of select="ancestor::div[@type='part'][1]/@n"/>
+    </xsl:if>
   </a>
   <xsl:if test="position() != last()">
     <xsl:text> | </xsl:text>
@@ -775,17 +829,3 @@ listo de tradukoj -->
 
 
 </xsl:transform>
-
-
-
-
-
-
-
-
-
-
-
-
-
-

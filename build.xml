@@ -60,7 +60,7 @@ voku ekz-e:
 
    <target name="klasikaj-verkoj"
     depends="preparo,
-      biblio,fundamento,faraono,gfabeloj,fabeloj,
+      biblio,fundamento,ofcaldonoj,faraono,gfabeloj,fabeloj,
       fumejo,kandid,lasta,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
@@ -142,6 +142,12 @@ voku ekz-e:
        style="${xsl}/fundamento.xsl" classpathref="saxon.classpath"/>
    </target>
 
+   <target name="ofcaldonoj" description="kreas HTML-paghojn el ofcaldonoj.xml">
+     <xslt in="${xml}/ofcaldonoj.xml" out="${celo}/ofcaldonoj/index.html"
+       style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath"/>
+   </target>   
+
+<!--
    <target name="ofcaldonoj1" description="kreas HTML-paghojn el ofcaldonoj.xml">
      <xslt in="${xml}/ofcaldonoj_1.xml" out="${celo}/ofcaldonoj/index.html"
        style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath"/>
@@ -154,6 +160,7 @@ voku ekz-e:
      <xslt in="${xml}/ofcaldonoj_7_9.xml" out="${celo}/ofcaldonoj/index.html"
        style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath"/>
    </target>   
+-->   
 
    <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
      <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
