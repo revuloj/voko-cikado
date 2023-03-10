@@ -27,7 +27,7 @@
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
       tial difinu mediovariablon CLASSPATH aldonante la Saxon-arkivon antau voki Formikon -->
    <path id="saxon.classpath">
-     <!-- pathelement location="${saxon}"/ -->
+     <pathelement location="${saxon}"/>
      <!-- pathelement location="${v.voko.ant}/respiro.jar"/ -->
      <pathelement path="${java.class.path}"/>
    </path>
