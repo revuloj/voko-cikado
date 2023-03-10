@@ -8,8 +8,9 @@ ARG GRUNDO=https://github.com/revuloj/voko-grundo/archive/master.zip
 # Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune
 # citaĵoserĉo.
 
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    ant libsaxonhe-java unzip curl \
+
+RUN apt-get update && apt-get install -y --no-install-recommends \    
+    ant libsaxonb-java unzip curl \
     && rm -rf /var/lib/apt/lists/* \
     && cd /tmp && echo "<- ${BIBLIOGR}" && curl -LO ${BIBLIOGR} \
     && echo "<- ${GRUNDO}" && curl -LO ${GRUNDO} && unzip -q master.zip voko-grundo-master/dtd/* \
@@ -19,16 +20,22 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 # se uzi xalan anst. saxon necesas uzi fallback redirect anst. result-document,
 # vd. http://www.java2s.com/Code/XML/XSLT-stylesheet/resultdocumentdemo.htm por kiel fari tion
 
+# libsaxonhe-java: havas problemon transformante multajn artikolojn: normalizationData.xml not found...
+
+
 #RUN useradd -ms /bin/bash -u 1001 revo
 #USER revo:users
 
 COPY  . /home/revo/verkoj
-#COPY --chown=revo:users /xml /home/revo/verkoj/xml
-#COPY --chown=revo:users /bld /home/revo/verkoj/bld
-#COPY --chown=revo:users /xsl /home/revo/verkoj/xsl
-#COPY --chown=revo:users /css /home/revo/verkoj/css
-#COPY --chown=revo:users /build.xml /home/revo/verkoj/build.xml
-ENV CLASSPATH=/usr/share/java/Saxon-HE.jar
+
+# JAXP limo:
+# JAXP00010001: The parser has encountered more than "64000" entity expansions in this document
+# vd. https://stackoverflow.com/questions/26809558/jdk-limit-on-entity-expansions
+# sen limo: jdk.xml.entityExpansionLimit=0
+ENV CLASSPATH=/usr/share/java/saxonb.jar \
+    SAXONJAR=/usr/share/java/saxonb.jar \
+    ANT_OPTS="-Xmx1000m -Djdk.xml.entityExpansionLimit=256000"
+  # vd. supre: /usr/share/java/Saxon-HE.jar
 RUN cd /home/revo/verkoj && ant klasikaj-verkoj
 
 # Nun ni kreos la propran keston por servi la verkojn...

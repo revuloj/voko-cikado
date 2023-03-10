@@ -20,12 +20,15 @@
    <property name="epub-kontrolo" location="epubcheck/epubcheck-1.1.jar"/>
    <property name="celo" location="steloj.de"/>
    
-   <property name="saxon" location="/usr/share/java/Saxon-HE.jar"/> <!--${ENV.SAXONJAR}"/-->
+   <!-- property name="saxon" location="/usr/share/java/Saxon-HE.jar"/--> <!--${ENV.SAXONJAR}"/-->
+   <!-- property name="saxon" location="/usr/share/java/saxonb.jar"/ -->
+   <property name="saxon" location="${ENV.SAXONJAR}"/> 
+
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
       tial difinu mediovariablon CLASSPATH aldonante la Saxon-arkivon antau voki Formikon -->
    <path id="saxon.classpath">
-     <pathelement location="${saxon}"/>
-     <pathelement location="${v.voko.ant}/respiro.jar"/>
+     <!-- pathelement location="${saxon}"/ -->
+     <!-- pathelement location="${v.voko.ant}/respiro.jar"/ -->
      <pathelement path="${java.class.path}"/>
    </path>
    
@@ -128,7 +131,12 @@ voku ekz-e:
         <fileset dir="bld/biblio" includes="*.jpg"/>
     </copy>
     <xslt in="${xml}/biblio.xml" out="${celo}/biblio/index.html"
-       style="${xsl}/biblio.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/biblio.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
 

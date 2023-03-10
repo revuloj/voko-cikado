@@ -839,7 +839,7 @@ listo de tradukoj -->
         </xsl:otherwise>
       </xsl:choose>
     </xsl:attribute>
-    <xsl:text>OA </xsl:text>
+    <xsl:text>OA&nbsp;</xsl:text>
     <xsl:value-of select="ancestor::text/@n"/>
     <xsl:if test="ancestor::div[@type='part']">
       <xsl:text>,</xsl:text>
