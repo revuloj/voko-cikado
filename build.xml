@@ -147,12 +147,22 @@ voku ekz-e:
 
    <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
      <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/index.html"
-       style="${xsl}/fundamento.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/fundamento.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
    <target name="ofcaldonoj" description="kreas HTML-paghojn el ofcaldonoj.xml">
      <xslt in="${xml}/ofcaldonoj.xml" out="${celo}/ofcaldonoj/index.html"
-       style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>   
 
 <!--
@@ -181,13 +191,33 @@ voku ekz-e:
 
   <target name="fabeloj" description="kreas HTML-paghojn el fabeloj?.xml">
      <xslt in="${xml}/fabeloj1.xml" out="${celo}/fabeloj1/index.html"
-       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
      <xslt in="${xml}/fabeloj2.xml" out="${celo}/fabeloj2/index.html"
-       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
      <xslt in="${xml}/fabeloj3.xml" out="${celo}/fabeloj3/index.html"
-       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
      <xslt in="${xml}/fabeloj4.xml" out="${celo}/fabeloj4/index.html"
-       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/fabeloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
   <target name="gfabeloj" description="kreas HTML-paghojn el gfabeloj.xml">
