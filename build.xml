@@ -107,7 +107,10 @@ voku ekz-e:
     <xslt in="${tmp}/verkolisto.xml" out="${celo}/index.html"
            style="${xsl}/verkolisto.xsl"
            classpathref="saxon.classpath">
-
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
     </xslt>
 
     <copy todir="${celo}">
@@ -139,10 +142,14 @@ voku ekz-e:
       </xslt>
    </target>
 
-
    <target name="esenco" description="kreas HTML-paghojn el esenco.xml">
      <xslt in="${xml}/esenco.xml" out="${celo}/esenco/index.html"
-       style="${xsl}/esenco.xsl"/>
+       style="${xsl}/esenco.xsl">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
    <target name="fundamento" description="kreas HTML-paghojn el fundamento.xml">
@@ -182,11 +189,26 @@ voku ekz-e:
 
    <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
      <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
-       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
      <xslt in="${xml}/faraono2.xml" out="${celo}/faraono2/index.html"
-       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
      <xslt in="${xml}/faraono3.xml" out="${celo}/faraono3/index.html"
-       style="${xsl}/faraono.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/faraono.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
   <target name="fabeloj" description="kreas HTML-paghojn el fabeloj?.xml">
@@ -222,7 +244,12 @@ voku ekz-e:
 
   <target name="gfabeloj" description="kreas HTML-paghojn el gfabeloj.xml">
      <xslt in="${xml}/gfabeloj.xml" out="${celo}/gfabeloj/index.html"
-       style="${xsl}/gfabeloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/gfabeloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
    <target name="fumejo" description="kreas HTML-paĝojn el fumejo.xml">
@@ -240,7 +267,12 @@ voku ekz-e:
         <fileset dir="bld/kandid" includes="*.jpg *.png"/>
     </copy>
     <xslt in="${xml}/kandid.xml" out="${celo}/kandid/index.html"
-       style="${xsl}/kandid.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/kandid.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>              
    </target>   
 
    <target name="lasta" description="kreas HTML-paĝojn el lasta.xml">
@@ -254,7 +286,12 @@ voku ekz-e:
 
    <target name="interrompita" description="kreas HTML-paghojn el interrompita.xml">
      <xslt in="${xml}/interrompita.xml" out="${celo}/interrompita/index.html"
-       style="${xsl}/interrompita.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/interrompita.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
   <target name="marta" description="kreas HTML-paghojn el marta.xml">
@@ -268,32 +305,62 @@ voku ekz-e:
         <fileset dir="bld/butiko" includes="*.*"/>
      </copy>
      <xslt in="${xml}/butiko.xml" out="${celo}/butiko/index.html"
-       style="${xsl}/butiko.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/butiko.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
   <target name="paroloj" description="kreas HTML-paghojn el paroloj.xml">
      <xslt in="${xml}/paroloj.xml" out="${celo}/paroloj/index.html"
-       style="${xsl}/paroloj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/paroloj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
   <target name="proverb" description="kreas HTML-paghojn el proverb.xml">
      <xslt in="${xml}/proverb.xml" out="${celo}/proverb/index.html"
-       style="${xsl}/proverb.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/proverb.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
   <target name="poemoj" description="kreas HTML-paghojn el poemoj.xml">
      <xslt in="${xml}/poemoj.xml" out="${celo}/poemoj/index.html"
-       style="${xsl}/teixlite_default.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/teixlite_default.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
    <target name="homaranismo" description="kreas HTML-paghojn el homaranismo.xml">
      <xslt in="${xml}/homaranismo.xml" out="${celo}/homaranismo/index.html"
-       style="${xsl}/homaranismo.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/homaranismo.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
    </target>
 
    <target name="revizoro" description="kreas HTML-paghojn el revizoro.xml">
      <xslt in="${xml}/revizoro.xml" out="${celo}/revizoro/index.html"
-       style="${xsl}/revizoro.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/revizoro.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
    <target name="rabistoj" description="kreas HTML-paghojn el rabistoj.xml">
@@ -302,7 +369,12 @@ voku ekz-e:
      </copy>
 
      <xslt in="${xml}/rabistoj.xml" out="${celo}/rabistoj/index.html"
-       style="${xsl}/rabistoj.xsl" classpathref="saxon.classpath"/>
+       style="${xsl}/rabistoj.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>       
    </target>
 
 <!--
