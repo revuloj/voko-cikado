@@ -536,6 +536,12 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- ne montru kapnotojn en la enhav-tabelo! -->
 <xsl:template match="head/note" mode="toc"/>
 
+<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso -->
+<xsl:template match="index/term"/>
+<xsl:template match="index/term" mode="index">
+  <xsl:apply-templates/>
+</xsl:template>
+
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
   <xsl:text>(</xsl:text>
@@ -694,13 +700,15 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
+	 //hi[@lang='eo'] |
+   //index"
 	 use="translate(substring(.,1,1),$map_from,$map_to)"/>
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
-	 //hi[@lang='eo']"
+	 //hi[@lang='eo'] |
+   //index"
          use="."/>
 
 <xsl:template name="wordindex">
@@ -709,7 +717,8 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:for-each select=
     "(//list[@type='dict']//label[not(@rend='hidden')] |
 	    //emph[@lang='eo'] | 
-	    //hi[@lang='eo'])
+	    //hi[@lang='eo'] |
+      //index)
 	    [count(.|key('eoletters',
 	    translate(substring(.,1,1),$map_from,$map_to))[1])=1]">
 
@@ -805,7 +814,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template name="entry">
   <strong>
-    <xsl:apply-templates/>:
+    <xsl:apply-templates mode="index"/>:
   </strong>
   <xsl:for-each select="key('eowords',.)">
      <xsl:call-template name="ref"/>
@@ -831,7 +840,7 @@ specialajn regulojn ne au alie difinitajn tie.
           </xsl:otherwise>
         </xsl:choose>        
       </xsl:attribute>
-      <xsl:text>Ekzerc. &para; </xsl:text>
+      <xsl:text>FE&nbsp;&para;</xsl:text>
 	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
     </xsl:when>
 
@@ -850,7 +859,7 @@ specialajn regulojn ne au alie difinitajn tie.
           </xsl:otherwise>
         </xsl:choose>
       </xsl:attribute>
-      <xsl:text>UV </xsl:text>
+      <xsl:text>UV&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
     </xsl:when>
 
@@ -868,7 +877,7 @@ specialajn regulojn ne au alie difinitajn tie.
           </xsl:otherwise>
         </xsl:choose>        
       </xsl:attribute>
-      <xsl:text>AK </xsl:text>
+      <xsl:text>AK&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
       <!--xsl:value-of select="ancestor::div[@type='letter']/@n"/-->
     </xsl:when>
@@ -888,7 +897,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>gra_fr.html#</xsl:text>
         <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
-      <xsl:text>Gram. fr.</xsl:text>
+      <xsl:text>FG&nbsp;fr.</xsl:text>
     </xsl:when>
 
     <!-- GRAMATIKO ANGLA -->
@@ -897,7 +906,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>gra_en.html#</xsl:text>
 	      <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
-      <xsl:text>Gram. angl.</xsl:text>
+      <xsl:text>FG&nbsp;angl.</xsl:text>
     </xsl:when>
 
     <!-- GRAMATIKO GERMANA -->
@@ -906,7 +915,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>gra_de.html#</xsl:text>
 	      <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
-      <xsl:text>Gram. germ.</xsl:text>
+      <xsl:text>FG&nbsp;germ.</xsl:text>
     </xsl:when>
 
     <!-- GRAMATIKO RUSA -->
@@ -915,7 +924,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>gra_ru.html#</xsl:text>
 	      <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
-      <xsl:text>Gram. rus.</xsl:text>
+      <xsl:text>FG&nbsp;rus.</xsl:text>
     </xsl:when>
 
     <!-- GRAMATIKO POLA -->
@@ -924,7 +933,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>gra_pl.html#</xsl:text>
 	      <xsl:value-of select="generate-id()"/>
       </xsl:attribute>
-      <xsl:text>Gram. pola</xsl:text>
+      <xsl:text>FG&nbsp;pola</xsl:text>
     </xsl:when>
     
   </xsl:choose>
