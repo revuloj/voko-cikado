@@ -285,7 +285,7 @@ kontraŭ tiu ĉi libro, devas esti rigardata kiel malbona,
 se ĝi eĉ apartenus al la plumo de la aŭtoro de
 Esperanto mem. Nur la supre nomitaj tri verkoj publikigitaj en la
 libro <title>Fundamento de Esperanto</title>, devas esti rigardataj kiel
-oficialaj; ĉio alia, kion mi verkis aŭ verkos, konsilas,
+<index>oficiala</index>j; ĉio alia, kion mi verkis aŭ verkos, konsilas,
 korektas, aprobas k. t. p., estas nur verkoj <emph>privataj</emph>, kiujn la
 esperantistoj &dash; se ili trovas tion ĉi utila por la unueco de
 nia afero &dash; povas rigardadi kiel <emph>modela</emph>, sed ne kiel
@@ -306,7 +306,7 @@ kiu povus kaŭzi disputojn kaj kiu en verko fundamenta ne povas
 esti tolerata. <emph>La fundamento devas resti severe netuŝebla
 eĉ kune kun siaj eraroj.</emph> La <emph>erareco</emph> en la nacia
 traduko de tiu aŭ alia vorto ne prezentas grandan
-malfeliĉon, ĉar, komparante la kuntekstan tradukon en la
+malfeliĉon, ĉar, komparante la kuntekstan<index><term>teksto</term></index> tradukon en la
 aliaj lingvoj, oni facile trovos la veran sencon de ĉiu vorto;
 sed senkompare pli grandan danĝeron prezentus la
 <emph>ŝanĝado</emph> de la traduko de ia vorto, ĉar,
@@ -370,14 +370,14 @@ pri tio, ke ĉiuj uzu tiujn vortojn en la sama formo; sed tiuj
 ilin uzadi nur en la <emph lang="eo">literaturo</emph>; sed en korespondado kun
 personoj <emph>nekonataj</emph> estas bone ĉiam peni uzadi nur
 vortojn el la <title>Fundamento</title> ĉar nur pri tiaj vortoj ni
-povas esti certaj, ke nia adresato ilin nepre trovos en sia
+povas esti certaj, ke nia adresato<index><term>adresi</term></index> ilin nepre trovos en sia
 vortaro. Nur iam poste, kiam la plej granda parto de la novaj vortoj
 estos jam tute matura, ia aŭtoritata institucio enkondukos ilin
 en la vortaron <emph>oficialan</emph>, kiel <mentioned rend="italic">Aldonon al la
 Fundamento</mentioned></p>
 </item>
 
-<item n="2"><p>Se ia aŭtoritata centra institucio trovos, ke tiu aŭ
+<item n="2"><p>Se ia aŭtoritata <index>centra</index> institucio trovos, ke tiu aŭ
 alia vorto aŭ regulo en nia lingvo estas <emph>tro neoportuna</emph>,
 ĝi ne devos <emph>forigi</emph> aŭ <emph>ŝanĝi</emph>
 la diritan formon, sed ĝi povos proponi formon <emph>novan</emph>,
@@ -435,7 +435,7 @@ kun sia antaŭparolo estos prezentita.</p>
 
 
 <signed>
-<name>L. ZAMENHOF</name>.<lb/>
+<name>L. ZAMENHOF</name>.<index><term>Zamenhof</term></index><lb/>
 Varsovio, Julio 1905.
 </signed>
 </div>
@@ -2180,8 +2180,8 @@ Ses-hó-ra Bat-hú-fo. Hó-ro. Ĥó-ro. Kó-ro. Ĥo-lé-ro.
 Ĥe-mí-o. I-mí-ti. Fí-lo. Bír-do. Tró-vi. Prin-tém-po.
 Min. Fo-í-ro. Fe-í-no. I-el. I-am. In. Jam. Ju. Jes.
 Ju-ris-to. Kra-jó-no. Ma-jés-ta. Tuj. Dó-moj. Ru-í-no.
-Prúj-no. Ba-lá-i. Pá-laj. De-í-no. Véj-no. Pe-ré-i.
-Mál-plej. Jús-ta. Ĵus. Ĵé-ti. Ĵa-lú-za. Ĵur-nálo.
+Prúj-no. Ba-lá-i. Pá-laj. De-í-no<index><term>deino</term></index>. Véj-no. Pe-ré-i.
+Mál-plej. Jús-ta. Ĵus. Ĵé-ti. Ĵa-lú-za. Ĵur-nálo<index><term>ĵurnalo</term></index>.
 Má-jo. Bo-ná-ĵo. Ká-po. Ma-kú-lo. Kés-to. Su-ké-ro.
 Ak-vo. Ko-ké-to. Li-kvó-ro. Pac-ká-po.</p>
 </div>
@@ -2197,8 +2197,8 @@ Sén-ti. So-fís-mo. Ci-pré-so. Ŝi. Pá-ŝo. Stá-lo.
 Ŝtá-lo. Vés-to. Véŝ-to. Dis-ŝí-ri. Ŝan-cé-li. Ta-pí-ŝo
 Te-o-rí-o<index><term>teorio</term></index>. 
 Pa-tén-to<index><term>patento</term></index>. U-tí-la. Un-go. Plú-mo.
-Tu-múl-to. Plu. Lú-i. Kí-u. Ba-lá-u. Tra-ú-lo.
-Pe-ré-u. Ne-ú-lo. Fráŭ-lo. Paŭ-lí-no<index><term>Paŭlino</term></index>. Láŭ-di.
+Tu-múl-to. Plu. Lú-i. Kí-u. Ba-lá-u. Tra-ú-lo. Pe-ré-u. Ne-ú-lo. Fráŭ-lo. 
+Paŭ-lí-no<index><term>Paŭlino</term></index><index><term>Paŭlo</term></index>. Láŭ-di.
 Eŭ-ró-po<index><term>Eŭropo</term></index>. Tro-ú-zi. Ho-dí-aŭ. Vá-na. Vér-so.
 Sól-vi. Zór-gi. Ze-ní-to. Zo-o-lo-gí-o. A-zé-no.
 Me-zú-ro. Ná-zo. Tre-zó-ro. Mez-nók-to. Zú-mo.
@@ -2225,7 +2225,7 @@ Seshora. Cipreso. Stalo. Feino. Plu. Sukero. Gento.
 Indigni. Sigelo. Krajono. Ruino. Pesilo. Lipharo. Metio.
 Ĝardeno. Sono. Laŭdi. Pale. Facila. Insekto. Kiu.
 Zorgi. Cikano. Traetera. Sofismo<index><term>sofismo</term></index>. Domoj. Spino.
-Majo. Signi. Ec. Bonaĵo. Legi. Iel. Juristo. 
+Majo. Signi. Ec. Bonaĵo. Legi. Iel. Juristo<index><term>juro</term></index>. 
 Ĉielo. Ĥemio.
 </p>
 </div>
@@ -5001,7 +5001,7 @@ urbo havas <index>miliono</index>n da loĝantoj. &dash; Mi aĉetis dekduon
 (aŭ milo da jaroj) faras miljaron. &dash; Unue mi redonas al vi la
 monon, kiun vi pruntis al mi; due mi dankas vin por la prunto; trie mi
 petas vin ankaŭ poste prunti al mi, kiam mi bezonos monon. &dash;
-Por ĉiu tago mi ricevas kvin frankojn, sed por la
+Por ĉiu tago mi ricevas kvin <index>franko</index>jn, sed por la
 hodiaŭa tago mi ricevis duoblan pagon, t. e. (= tio estas) dek
 frankojn. &dash; Kvinoble sep estas tridek kvin. &dash; Tri estas duono de
 ses. &dash; Ok estas kvar kvinonoj de dek. &dash; Kvar metroj da tiu ĉi
@@ -15578,7 +15578,8 @@ instead of <hi lang="eo" rend="bold">de</hi> after words expressing weight or me
 e. g. <hi lang="eo" rend="bold">funt&strek;o da viand&strek;o</hi> a pound of meat, <hi lang="eo" rend="bold">glas&strek;o da te&strek;o</hi> a cup of
 tea</item>
   <item lang="de">ersetzt den Genitiv (nach Mass, Gewicht u. drgl. bezeichnenden
-Wörtern); z. B. <hi lang="eo" rend="bold">kilogram&strek;o da viand&strek;o</hi> ein Kilogramm Fleisch; <hi lang="eo" rend="bold">glas&strek;o
+Wörtern); z. B. <hi lang="eo" rend="bold">kilogram&strek;o da viand&strek;o</hi><index><term>kilogramo</term></index>
+ ein Kilogramm Fleisch; <hi lang="eo" rend="bold">glas&strek;o
 da te&strek;o</hi> ein Glass Thee</item>
   <item lang="ru">(посл&yat; словъ, означающихъ м&yat;ру, в&yat;съ и т. д.)
 зам&yat;няетъ родительный падежъ; напр. <hi lang="eo" rend="bold">kilogram&strek;o da viand&strek;o</hi> килограмъ
@@ -28944,7 +28945,8 @@ obyczaj</item>
 <label lang="eo">moŝt&strek;</label><item>
 <list type="def">
   <item lang="fr">titre commun; ex. <hi lang="eo" rend="bold">vi&strek;a reĝ&strek;a moŝt&strek;o</hi> votre majesté, <hi lang="eo" rend="bold">vi&strek;a
-general&strek;a moŝt&strek;o</hi> monsieur le général, <hi lang="eo" rend="bold">vi&strek;a episkop&strek;a moŝt&strek;o</hi> etc.</item>
+general&strek;a moŝt&strek;o</hi><index><term>generalo</term></index>
+ monsieur le général, <hi lang="eo" rend="bold">vi&strek;a episkop&strek;a moŝt&strek;o</hi> etc.</item>
   <item lang="en">universal title; e. g. <hi lang="eo" rend="bold">vi&strek;a reĝ&strek;a moŝt&strek;o</hi> your majesty; <hi lang="eo" rend="bold">vi&strek;a moŝt&strek;o</hi>
 your honor</item>
   <item lang="de">allgemeiner Titel; z. B. <hi lang="eo" rend="bold">vi&strek;a reĝ&strek;a moŝt&strek;o</hi> Eure
@@ -29721,6 +29723,7 @@ Emi&strek;nj&strek;</hi></item>
 </list>
 <list type="deriv">
   <label lang="eo">not&strek;o (muzik&strek;a)</label><item>
+  <index><term>muziko</term></index>
   <list type="def">
     <item lang="fr">note (de musique)</item>
     <item lang="en">note (mus.)</item>
@@ -41785,7 +41788,7 @@ Tamen la partoj pola kaj rusa ŝajne estas ne tute kontentigaj kaj oni
 decidas peti konfirmon de la polaj kaj rusaj L.K.-anoj antaŭ definitiva 
 publikigo <note rend="footnote" n="8">OG 6, 4 (59), 25 OKT 13, p. 60.</note>. 
 Tia konfirmo sub formo de novaj korektoj venis por
-la rusa ŝajne nur post 1914 kaj povis aperi nur kun la definitiva teksto
+la rusa ŝajne nur post 1914 kaj povis aperi nur kun la definitiva <index>teksto</index>
 en 1923. Aliparte, restis dubo, kiel oni nun uzu tiujn korektojn? Ĉu
 enpreni ilin en novan korektitan eldonon de la Fundamento?
 </p><p>
@@ -45325,6 +45328,7 @@ signifojn. Ekz.: <emph>gri'</emph> = 1) hulled grain; 2) coarse oatmeal.
   <item lang="en">thread (a)</item>
 </list><list type="deriv">
 <label lang="eo">metal&strek;faden&strek;</label><item>
+<index><term>metalo</term></index>
 <list type="def">
   <item lang="en">wire</item>
 </list>
