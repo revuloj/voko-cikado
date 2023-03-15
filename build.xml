@@ -22,6 +22,11 @@
    
    <!-- property name="saxon" location="/usr/share/java/Saxon-HE.jar"/--> <!--${ENV.SAXONJAR}"/-->
    <!-- property name="saxon" location="/usr/share/java/saxonb.jar"/ -->
+   <!-- aldonu ekz-e
+     export SAXONJAR=/usr/share/java/saxonb.jar
+        en via medio / .bashrc
+     kaj aldonu $SAXONJAR al CLASSPATH ankaŭ!
+    -->
    <property name="saxon" location="${ENV.SAXONJAR}"/> 
 
    <!-- ial Formiko foje ne trovas Saxon per klaspado donita en la tasko mem,
@@ -162,6 +167,16 @@ voku ekz-e:
       </xslt>
    </target>
 
+   <target name="fundamento-json" description="kreas JSON-indekso el fundamento.xml">
+     <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/fundamento.json"
+       style="${xsl}/fund_oa_json.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
+   </target>   
+
    <target name="ofcaldonoj" description="kreas HTML-paghojn el ofcaldonoj.xml">
      <xslt in="${xml}/ofcaldonoj.xml" out="${celo}/ofcaldonoj/index.html"
        style="${xsl}/ofcaldonoj.xsl" classpathref="saxon.classpath">
@@ -170,7 +185,18 @@ voku ekz-e:
                      value="true"/>      
         </factory>
       </xslt>
-   </target>   
+   </target>
+
+
+   <target name="ofcaldonoj-json" description="kreas JSON-indekso el ofcaldonoj.xml">
+     <xslt in="${xml}/ofcaldonoj.xml" out="${celo}/ofcaldonoj/ofcaldonoj.json"
+       style="${xsl}/fund_oa_json.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
+   </target>      
 
 <!--
    <target name="ofcaldonoj1" description="kreas HTML-paghojn el ofcaldonoj.xml">
