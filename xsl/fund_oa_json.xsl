@@ -70,7 +70,9 @@
 	 //list[@type='dict']//label[not(@rend='hidden')] |
    //emph[@lang='eo'] | //hi[@lang='eo'] |
    //item[index and not(index/node())] | 
-   //emph[index] | //hi[index] | //index[text()]"
+   //emph[index and not(index/node())] | 
+   //hi[index and not(index/node())] | 
+   //index[text()] | //index/term"
          use="normalize-space(text())"/>
 
 <xsl:template name="wordindex">
@@ -79,7 +81,9 @@
   <xsl:for-each select=
     "(//list[@type='dict']//label[not(@rend='hidden')] |
       //emph[@lang='eo'] | //hi[@lang='eo'] |
-      //emph[index] | //hi[index] | //index[text()])
+      //emph[index and not(index/node())] | 
+      //hi[index and not(index/node())] | 
+      //index[text()] | //index/term)
 	    [count(.|key('eowords',normalize-space(text()))[1])=1]">
 
        <!-- ordigu ilin -->
@@ -93,7 +97,14 @@
 <!-- indekseroj konsistas el kapvorto kaj listo de referencoj -->
 <xsl:template name="entry">
   <xsl:text>"</xsl:text>
-    <xsl:apply-templates/>
+    <xsl:choose>
+      <xsl:when test="index/term">
+        <xsl:apply-templates select="index"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates/>
+      </xsl:otherwise>
+    </xsl:choose>
   <xsl:text>":[</xsl:text>
   <xsl:for-each select="key('eowords',normalize-space(text()))">
      <xsl:call-template name="ref"/>

@@ -409,6 +409,17 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- ne montru kapnotojn en la enhav-tabelo! -->
 <xsl:template match="head/note" mode="toc"/>
 
+<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso -->
+<xsl:template match="index/term"/>
+
+<xsl:template match="index/term" mode="index">
+  <xsl:apply-templates/>
+</xsl:template>
+
+<!-- subpremu alnotojn en indeksigitaj kapvortoj -->
+<xsl:template match="label/note" mode="index"/>
+<xsl:template match="item/note" mode="index"/>
+
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
   <xsl:text>(</xsl:text>
@@ -663,7 +674,9 @@ listo de tradukoj -->
   -->
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //item[index] | //emph[index] | //hi[index]"
+   //item[index] | 
+   //emph[index] | 
+   //hi[index]"
 	 use="translate(substring(normalize-space(text()),1,1),$map_from,$map_to)"/>
 
   <!--
@@ -676,7 +689,9 @@ listo de tradukoj -->
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //item[index] | //emph[index] | //hi[index]"
+   //item[index] | 
+   //emph[index] | 
+   //hi[index]"
          use="normalize-space(text())"/>
 
 <xsl:template name="wordindex">
@@ -692,8 +707,10 @@ listo de tradukoj -->
   necesas por XSL 1, postaj eldonoj povus uzi eblecojn de xsl:group!
 -->
   <xsl:for-each select="(
-   //list[@type='dict']//label[not(@rend='hidden')] |
-   //item[index] | //emph[index] | //hi[index])
+      //list[@type='dict']//label[not(@rend='hidden')] |
+      //item[index] | 
+      //emph[index] | 
+      //hi[index])
 	    [count(.|key('eoletters',
 	    translate(substring(normalize-space(text()),1,1),$map_from,$map_to))[1])=1]">
 
@@ -812,16 +829,26 @@ listo de tradukoj -->
 <!-- indekseroj konsistas el kapvorto kaj listo de referencoj -->
 <xsl:template name="entry">
   <strong>
-    <xsl:apply-templates mode="index"/>:
+  <!--
+<xsl:if test="starts-with(text(),'Administra')">
+<xsl:message>WINX... <xsl:value-of select="name()"/></xsl:message>
+</xsl:if>
+-->
+    <xsl:choose>
+      <xsl:when test="index/term">
+        <xsl:apply-templates select="index" mode="index"/>
+      </xsl:when>
+      <xsl:otherwise>
+        <xsl:apply-templates mode="index"/>
+      </xsl:otherwise>
+    </xsl:choose>
+    <xsl:text>: </xsl:text>
   </strong>
   <xsl:for-each select="key('eowords',normalize-space(text()))">
      <xsl:call-template name="ref"/>
   </xsl:for-each><br/>
 </xsl:template>
 
-<!-- subpremu alnotojn en indeksigitaj kapvortoj -->
-<xsl:template match="label/note" mode="index"/>
-<xsl:template match="item/note" mode="index"/>
 
 <xsl:template name="ref">
   <!-- OA 1..9 -->
