@@ -81,6 +81,7 @@
   <xsl:for-each select=
     "(//list[@type='dict']//label[not(@rend='hidden')] |
       //emph[@lang='eo'] | //hi[@lang='eo'] |
+      //item[index and not(index/node())] | 
       //emph[index and not(index/node())] | 
       //hi[index and not(index/node())] | 
       //index[text()] | //index/term)
