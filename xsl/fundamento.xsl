@@ -536,6 +536,15 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- ne montru kapnotojn en la enhav-tabelo! -->
 <xsl:template match="head/note" mode="toc"/>
 
+<xsl:template match="index">
+  <span>
+    <xsl:attribute name="id">
+      <xsl:call-template name="inx-id"/>
+    </xsl:attribute>
+    <xsl:apply-templates/>
+  </span>
+</xsl:template>
+
 <!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso -->
 <xsl:template match="index/term"/>
 <xsl:template match="index/term" mode="index">
@@ -601,29 +610,41 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template match="list[@type='dict']/label">
   <strong>  <!-- id="{generate-id()}" -->
     <xsl:attribute name="id">
-      <xsl:call-template name="label-id"/>
+      <xsl:call-template name="inx-id"/>
     </xsl:attribute>
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
   </strong>
 </xsl:template>
-
+<!--
 <xsl:template name="label-id">
   <xsl:value-of select="ancestor::list[@type='dict'][1]/@id"/>
   <xsl:text>_</xsl:text>
   <xsl:number level="any" from="list[@type='dict']"/>
 </xsl:template>
+-->
+<xsl:template name="inx-id">
+  <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
+  <xsl:text>_n</xsl:text>
+  <xsl:number level="any" from="node()[@id]" count="label|emph|hi|index"/>
+</xsl:template>
 
 <xsl:template match="label[@rend='hidden']" priority="2"/>
 
 <xsl:template match="emph[@lang='eo']">
-  <em id="{generate-id()}">
+  <em> <!-- id="{generate-id()}"-->
+    <xsl:attribute name="id">
+      <xsl:call-template name="inx-id"/>
+    </xsl:attribute>
     <xsl:apply-templates/>
   </em>
 </xsl:template>
 
 <xsl:template match="hi[@lang='eo']">
-  <strong id="{generate-id()}">
+  <strong> <!-- id="{generate-id()}" -->
+    <xsl:attribute name="id">
+      <xsl:call-template name="inx-id"/>
+    </xsl:attribute>
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
   </strong>
@@ -644,7 +665,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template match="list[@type='deriv']/label">
   <strong> <!-- id="{generate-id()}" -->
     <xsl:attribute name="id">
-      <xsl:call-template name="label-id"/>
+      <xsl:call-template name="inx-id"/>
     </xsl:attribute>
   <xsl:apply-templates/>
   <xsl:text> </xsl:text>
@@ -831,6 +852,8 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>ekz_</xsl:text>
         <xsl:value-of select="ancestor::div[@type='section']/@n"/>
         <xsl:text>.html#</xsl:text>
+        <xsl:call-template name="inx-id"/>
+        <!--
         <xsl:choose>
           <xsl:when test="self::label">
             <xsl:call-template name="label-id"/>
@@ -838,7 +861,8 @@ specialajn regulojn ne au alie difinitajn tie.
           <xsl:otherwise>
             <xsl:value-of select="generate-id()"/>
           </xsl:otherwise>
-        </xsl:choose>        
+        </xsl:choose>      
+      -->  
       </xsl:attribute>
       <xsl:text>FE&nbsp;&para;</xsl:text>
 	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
@@ -850,6 +874,8 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:text>uv_</xsl:text>
         <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
         <xsl:text>.html#</xsl:text>
+        <xsl:call-template name="inx-id"/>
+<!--
         <xsl:choose>
           <xsl:when test="self::label">
             <xsl:call-template name="label-id"/>
@@ -858,6 +884,7 @@ specialajn regulojn ne au alie difinitajn tie.
             <xsl:value-of select="generate-id()"/>
           </xsl:otherwise>
         </xsl:choose>
+        -->
       </xsl:attribute>
       <xsl:text>UV&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
@@ -868,6 +895,8 @@ specialajn regulojn ne au alie difinitajn tie.
       <xsl:attribute name="href">
         <xsl:value-of select="ancestor::div[@type='chapter']/@id"/>
         <xsl:text>.html#</xsl:text>
+        <xsl:call-template name="inx-id"/>
+        <!--
         <xsl:choose>
           <xsl:when test="self::label">
             <xsl:call-template name="label-id"/>
@@ -875,7 +904,8 @@ specialajn regulojn ne au alie difinitajn tie.
           <xsl:otherwise>
             <xsl:value-of select="generate-id()"/>
           </xsl:otherwise>
-        </xsl:choose>        
+        </xsl:choose>  
+        -->      
       </xsl:attribute>
       <xsl:text>AK&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
@@ -886,7 +916,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='antparol']">
       <xsl:attribute name="href">
         <xsl:text>antparol.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+        <!-- xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>Antaŭparolo</xsl:text>
     </xsl:when>
@@ -895,7 +926,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='gra_fr']">
       <xsl:attribute name="href">
         <xsl:text>gra_fr.html#</xsl:text>
-        <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+        <!--xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>FG&nbsp;fr.</xsl:text>
     </xsl:when>
@@ -904,7 +936,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='gra_en']">
       <xsl:attribute name="href">
         <xsl:text>gra_en.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+	      <!--xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>FG&nbsp;angl.</xsl:text>
     </xsl:when>
@@ -913,7 +946,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='gra_de']">
       <xsl:attribute name="href">
         <xsl:text>gra_de.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+	      <!--xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>FG&nbsp;germ.</xsl:text>
     </xsl:when>
@@ -922,7 +956,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='gra_ru']">
       <xsl:attribute name="href">
         <xsl:text>gra_ru.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+	      <!--xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>FG&nbsp;rus.</xsl:text>
     </xsl:when>
@@ -931,7 +966,8 @@ specialajn regulojn ne au alie difinitajn tie.
     <xsl:when test="ancestor::div[@id='gra_pl']">
       <xsl:attribute name="href">
         <xsl:text>gra_pl.html#</xsl:text>
-	      <xsl:value-of select="generate-id()"/>
+        <xsl:call-template name="inx-id"/>
+	      <!-- xsl:value-of select="generate-id()"/-->
       </xsl:attribute>
       <xsl:text>FG&nbsp;pola</xsl:text>
     </xsl:when>

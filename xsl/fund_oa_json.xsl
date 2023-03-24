@@ -122,11 +122,20 @@
   <xsl:value-of select="normalize-space()"/>
 </xsl:template>
 
+<!--
 <xsl:template name="label-id">
   <xsl:value-of select="ancestor::list[@type='dict'][1]/@id"/>
   <xsl:text>_</xsl:text>
   <xsl:number level="any" from="list[@type='dict']"/>
 </xsl:template>
+-->
+
+<xsl:template name="inx-id">
+  <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
+  <xsl:text>_n</xsl:text>
+  <xsl:number level="any" from="node()[@id]" count="label|emph|hi|index"/>
+</xsl:template>
+
 
 <xsl:template name="ref">
   <xsl:choose>
@@ -136,6 +145,8 @@
       <xsl:text>ekz_</xsl:text>
       <xsl:value-of select="ancestor::div[@type='section']/@n"/>
       <xsl:text>.html#</xsl:text>
+      <xsl:call-template name="inx-id"/>
+<!--
       <xsl:choose>
         <xsl:when test="self::label">
           <xsl:call-template name="label-id"/>
@@ -143,7 +154,8 @@
         <xsl:otherwise>
           <xsl:value-of select="generate-id()"/>
         </xsl:otherwise>
-      </xsl:choose>        
+      </xsl:choose> 
+-->             
       <xsl:text>","</xsl:text>      
       <xsl:text>FE&nbsp;&para;</xsl:text>
 	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
@@ -156,6 +168,8 @@
       <xsl:text>uv_</xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
       <xsl:text>.html#</xsl:text>
+      <xsl:call-template name="inx-id"/>
+      <!--
       <xsl:choose>
         <xsl:when test="self::label">
           <xsl:call-template name="label-id"/>
@@ -164,6 +178,7 @@
           <xsl:value-of select="generate-id()"/>
         </xsl:otherwise>
       </xsl:choose>
+      -->
       <xsl:text>","</xsl:text>      
       <xsl:text>UV&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
@@ -175,6 +190,8 @@
       <xsl:text>"</xsl:text>      
       <xsl:value-of select="ancestor::div[@type='chapter']/@id"/>
       <xsl:text>.html#</xsl:text>
+      <xsl:call-template name="inx-id"/>
+<!--
       <xsl:choose>
         <xsl:when test="self::label">
           <xsl:call-template name="label-id"/>
@@ -182,7 +199,8 @@
         <xsl:otherwise>
           <xsl:value-of select="generate-id()"/>
         </xsl:otherwise>
-      </xsl:choose>        
+      </xsl:choose> 
+      -->       
       <xsl:text>","</xsl:text>      
       <xsl:text>AK&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
@@ -194,7 +212,7 @@
     <xsl:when test="ancestor::div[@id='antparol']">
       <xsl:text>"</xsl:text>      
       <xsl:text>antparol.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>Antaŭparolo</xsl:text>
       <xsl:text>"</xsl:text>
@@ -204,7 +222,7 @@
     <xsl:when test="ancestor::div[@id='gra_fr']">
       <xsl:text>"</xsl:text>      
       <xsl:text>gra_fr.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>FG&nbsp;fr.</xsl:text>
       <xsl:text>"</xsl:text>
@@ -214,7 +232,7 @@
     <xsl:when test="ancestor::div[@id='gra_en']">
       <xsl:text>"</xsl:text>      
       <xsl:text>gra_en.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>FG&nbsp;angl.</xsl:text>
       <xsl:text>"</xsl:text>
@@ -224,7 +242,7 @@
     <xsl:when test="ancestor::div[@id='gra_de']">
       <xsl:text>"</xsl:text>      
       <xsl:text>gra_de.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>FG&nbsp;germ.</xsl:text>
       <xsl:text>"</xsl:text>
@@ -234,7 +252,7 @@
     <xsl:when test="ancestor::div[@id='gra_ru']">
       <xsl:text>"</xsl:text>      
       <xsl:text>gra_ru.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>FG&nbsp;rus.</xsl:text>
       <xsl:text>"</xsl:text>
@@ -244,7 +262,7 @@
     <xsl:when test="ancestor::div[@id='gra_pl']">
       <xsl:text>"</xsl:text>      
       <xsl:text>gra_pl.html#</xsl:text>
-      <xsl:value-of select="generate-id()"/>
+      <xsl:call-template name="inx-id"/>
       <xsl:text>","</xsl:text>      
       <xsl:text>FG&nbsp;pola</xsl:text>
       <xsl:text>"</xsl:text>
@@ -254,7 +272,9 @@
     <xsl:when test="ancestor::text[starts-with(@id,'oa_')]">
       <xsl:text>"</xsl:text>      
       <xsl:value-of select="ancestor::text[@rend='doc']/@id"/>
-      <xsl:text>.html#</xsl:text>      
+      <xsl:text>.html#</xsl:text>    
+      <xsl:call-template name="inx-id"/>        
+      <!--
       <xsl:choose>
         <xsl:when test="self::label|self::item[index]">
           <xsl:call-template name="label-id"/>
@@ -263,6 +283,7 @@
           <xsl:value-of select="generate-id()"/>
         </xsl:otherwise>
       </xsl:choose>
+      -->
       <xsl:text>","</xsl:text>      
       <xsl:text>OA&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::text/@n"/>
