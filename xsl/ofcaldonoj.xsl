@@ -694,9 +694,10 @@ listo de tradukoj -->
   -->
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //item[index] | 
-   //emph[index] | 
-   //hi[index]"
+   //item[index and not(index/node())] | 
+   //emph[index and not(index/node())] | 
+   //hi[index and not(index/node())] |
+   //index/term"
 	 use="translate(substring(normalize-space(text()),1,1),$map_from,$map_to)"/>
 
   <!--
@@ -709,9 +710,10 @@ listo de tradukoj -->
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
-   //item[index] | 
-   //emph[index] | 
-   //hi[index]"
+   //item[index and not(index/node())] | 
+   //emph[index and not(index/node())] | 
+   //hi[index and not(index/node())]|
+   //index/term"
          use="normalize-space(text())"/>
 
 <xsl:template name="wordindex">
@@ -728,9 +730,10 @@ listo de tradukoj -->
 -->
   <xsl:for-each select="(
       //list[@type='dict']//label[not(@rend='hidden')] |
-      //item[index] | 
-      //emph[index] | 
-      //hi[index])
+      //item[index and not(index/node())] | 
+      //emph[index and not(index/node())] | 
+      //hi[index and not(index/node())] |
+      //index/term)
 	    [count(.|key('eoletters',
 	    translate(substring(normalize-space(text()),1,1),$map_from,$map_to))[1])=1]">
 
