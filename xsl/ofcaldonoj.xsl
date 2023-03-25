@@ -409,8 +409,16 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- ne montru kapnotojn en la enhav-tabelo! -->
 <xsl:template match="head/note" mode="toc"/>
 
-<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso -->
-<xsl:template match="index/term"/>
+<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso,
+krome pro ĝusta referencado lasu nevideblan markon -->
+<xsl:template match="index/term">
+  <!-- nevidebla referenccelo -->
+  <span>
+    <xsl:attribute name="id">
+      <xsl:call-template name="inx-id"/>
+    </xsl:attribute>
+  </span>
+</xsl:template>
 
 <xsl:template match="index/term" mode="index">
   <xsl:apply-templates/>
