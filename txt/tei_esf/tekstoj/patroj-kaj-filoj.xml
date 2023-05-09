@@ -3,61 +3,33 @@
 <TEI xml:id="patroj-kaj-filoj" xml:lang="eo" xmlns="http://www.tei-c.org/ns/1.0">
 
 	<teiHeader>
-
 		<fileDesc>
-
 			<titleStmt>
-
 				<title>Patroj kaj filoj: elektronika versio</title>
-
 				<respStmt>
-
 					<resp>La bazan tekston origine enkomputiligis</resp>
-
 					<name>Sergio <foreign xml:lang="ru">Pokrovskij</foreign></name>
-
 				</respStmt>
-
 			</titleStmt>
-
 			<extent>61.710 vortoj</extent>
-
 			<publicationStmt>
-
 				<publisher><name xml:lang="en">Esperantic Studies Foundation</name></publisher>
-
 			</publicationStmt>
-
 			<sourceDesc>
-
 				<biblStruct>
-
 					<monogr>
-
 						<author><name xml:lang="ru">I. S. Turgenev</name></author>
-
 						<title type="main">Patroj kaj filoj</title>
-
 						<respStmt>
-
 							<resp>Tradukis el la Rusa lingvo</resp>
-
 							<name><abbr type="title">D-ro</abbr> <foreign xml:lang="pl">K. Bein</foreign> (Kabe)</name>
-
 						</respStmt>
-
 						<imprint>
-
 							<publisher>Librejo “Esperanto”</publisher>
-
 							<pubPlace><name>Moskvo</name></pubPlace>
-
 							<date>1909</date>
-
 						</imprint>
-
 						<extent>163 p.</extent>
-
 					</monogr>
 
 					<note>Proksimuma tradukojaro: 1909</note>
@@ -71,11 +43,8 @@
 					<note type="nemontri">Ĉefdivido: chapitro</note>
 
 				</biblStruct>
-
 			</sourceDesc>
-
 		</fileDesc>
-
 	</teiHeader>
 
 	<text>
@@ -1759,7 +1728,7 @@
 
 				<p xml:id="bd804">– Kiel vi pasigis la nokton? – demandis sinjorino <name xml:lang="ru">Odincov</name>, plilaŭtigante la voĉon.</p>
 
-				<p xml:id="bd805">– Ree ĉi tiu hundo estas tie ĉi, – murmuris responde la maljunulino. Rimarkinte, ke la hundo faras du sendecidajn pasojn al ŝi, ŝi ekkriis: – For, for!</p>
+				<p xml:id="bd805">– Ree ĉi tiu hundo estas tie ĉi, – murmuris responde la maljunulino. Rimarkinte, ke la hundo faras du sendecidajn paŝojn al ŝi, ŝi ekkriis: – For, for!</p>
 
 				<p xml:id="bd806"><name xml:lang="ru">Katja</name> alvokis la hundon kaj malfermis la pordon.</p>
 
