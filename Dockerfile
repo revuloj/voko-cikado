@@ -1,11 +1,11 @@
-FROM openjdk:jre-slim as builder
+FROM openjdk:21-slim as builder
 LABEL MAINTAINER=<diestel@steloj.de>
 
 ARG BIBLIOGR=https://raw.githubusercontent.com/revuloj/revo-fonto/master/cfg/bibliogr.xml
 ARG GRUNDO=https://github.com/revuloj/voko-grundo/archive/master.zip
 
-# Tiu Javo-kesto servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
-# Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune
+# Tiu ĉi Javo-procezujo servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
+# Ni poste forĵetos ĝin por krei Prolog-procezujon, kiu servas la paĝojn kune kune
 # citaĵoserĉo.
 
 
