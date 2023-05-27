@@ -1,16 +1,16 @@
-FROM openjdk:jre-slim as builder
+FROM debian:stable-slim as builder
 LABEL MAINTAINER=<diestel@steloj.de>
 
 ARG BIBLIOGR=https://raw.githubusercontent.com/revuloj/revo-fonto/master/cfg/bibliogr.xml
 ARG GRUNDO=https://github.com/revuloj/voko-grundo/archive/master.zip
 
-# Tiu Javo-kesto servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
-# Ni poste forĵetos ĝin por krei Prolog-keston, kiu servas la paĝojn kune kune
+# Tiu ĉi Javo-procezujo servas nur por prepari ĉion, t.e. krei la HTML-paĝojn el la xml
+# Ni poste forĵetos ĝin por krei Prolog-procezujon, kiu servas la paĝojn kune kune
 # citaĵoserĉo.
 
 
-RUN apt-get update && apt-get install -y --no-install-recommends \    
-    ant libsaxonb-java unzip curl \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+    openjdk-17-jre ant libsaxonb-java unzip curl \
     && rm -rf /var/lib/apt/lists/* \
     && cd /tmp && echo "<- ${BIBLIOGR}" && curl -LO ${BIBLIOGR} \
     && echo "<- ${GRUNDO}" && curl -LO ${GRUNDO} && unzip -q master.zip voko-grundo-master/dtd/* \
