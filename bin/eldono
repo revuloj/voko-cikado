@@ -22,6 +22,6 @@ helpo | *)
     echo "---------------------------------------------------------------------------"
     echo "Per la celo 'preparo' oni povas krei git-branĉon kun nova eldono por tie "
     echo "komenci programadon de novaj funkcioj, ŝanĝoj ktp. Antaŭ adaptu en la kapo de ĉi-skripto"
-    echo "la variablojn 'eldono' kaj 'node_eldono' al la nova eldono."
+    echo "la variablon 'eldono' al la nova eldono."
     ;;    
 esac
