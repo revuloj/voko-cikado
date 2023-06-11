@@ -68,24 +68,20 @@
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
+	 //list[@rend='index']/item |
    //emph[@lang='eo'] | //hi[@lang='eo'] |
-   //item[index and not(index/node())] | 
-   //emph[index and not(index/node())] | 
-   //hi[index and not(index/node())] | 
-   //index[text()] | //index/term"
-         use="normalize-space(text())"/>
+   //index/@level1"
+         use="normalize-space(.)"/>
 
 <xsl:template name="wordindex">
 
   <!-- elektu por chiu litero unu reprezentanton -->
   <xsl:for-each select=
     "(//list[@type='dict']//label[not(@rend='hidden')] |
+      //list[@rend='index']/item |
       //emph[@lang='eo'] | //hi[@lang='eo'] |
-      //item[index and not(index/node())] | 
-      //emph[index and not(index/node())] | 
-      //hi[index and not(index/node())] | 
-      //index[text()] | //index/term)
-	    [count(.|key('eowords',normalize-space(text()))[1])=1]">
+      //index/@level1)
+	    [count(.|key('eowords',normalize-space(.))[1])=1]">
 
        <!-- ordigu ilin -->
        <xsl:sort lang="eo" case-order="upper-first" />      
@@ -98,23 +94,27 @@
 <!-- indekseroj konsistas el kapvorto kaj listo de referencoj -->
 <xsl:template name="entry">
   <xsl:text>"</xsl:text>
+  <!--
     <xsl:choose>
       <xsl:when test="index/term">
         <xsl:apply-templates select="index"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates/>
+      -->
+        <xsl:apply-templates select="."/> <!-- select="." mode="index" -->
+        <!--
       </xsl:otherwise>
     </xsl:choose>
+    -->
   <xsl:text>":[</xsl:text>
-  <xsl:for-each select="key('eowords',normalize-space(text()))">
+  <xsl:for-each select="key('eowords',normalize-space(.))">
      <xsl:call-template name="ref"/>
   </xsl:for-each>  <xsl:text>],
 </xsl:text>
 </xsl:template>
 
 <!-- subpremu alnotojn en indeksigitaj kapvortoj -->
-<xsl:template match="label/note"/>
+<xsl:template match="label/emph[@rend='note']"/>
 <xsl:template match="item/note"/>
 
 <!-- evitu aparte linirompojn... -->
@@ -133,7 +133,7 @@
 <xsl:template name="inx-id">
   <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
   <xsl:text>_n</xsl:text>
-  <xsl:number level="any" from="div[@id]|list[@id]" count="label|emph|hi|index"/>
+  <xsl:number level="any" from="div[@id]|list[@id]" count="label|item|emph|hi|index"/>
 </xsl:template>
 
 
@@ -303,4 +303,10 @@
 </xsl:template>
 
 
+<xsl:template match="@level1"> <!-- mode="index"> -->
+  <xsl:value-of select="."/>
+</xsl:template>
+
+
 </xsl:transform>
+ 
