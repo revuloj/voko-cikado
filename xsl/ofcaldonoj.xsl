@@ -482,11 +482,14 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 </xsl:template>
 
 <!-- antaŭ ĉiu "item" povas aperi "label" kun la kapvorto -->
-<xsl:template match="list[@type='dict']/label">
+<xsl:template match="list[@type='dict']/label">  
   <strong>  <!-- id="{generate-id()}" -->
     <xsl:attribute name="id">
       <xsl:call-template name="inx-id"/>
     </xsl:attribute>
+    <!-- ĉar <note> ne estas permesita en <label> ni uzas @rend
+      ekz-e por marki per steleto -->
+    <xsl:value-of select="@rend"/>
     <xsl:apply-templates/>
     <xsl:text> </xsl:text>
   </strong>
