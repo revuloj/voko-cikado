@@ -543,23 +543,9 @@ specialajn regulojn ne au alie difinitajn tie.
     </xsl:attribute>
     <xsl:apply-templates/>
   </span>
+  <!-- [<xsl:value-of select="@level1"/>] -->
 </xsl:template>
 
-
-<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso,
-krome pro ĝusta referencado lasu nevideblan markon -->
-<xsl:template match="index/term">
-  <!-- nevidebla referenccelo -->
-  <span>
-    <xsl:attribute name="id">
-      <xsl:call-template name="inx-id"/>
-    </xsl:attribute>
-  </span>
-</xsl:template>
-
-<xsl:template match="index/term" mode="index">
-  <xsl:apply-templates/>
-</xsl:template>
 
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
 <xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
@@ -732,14 +718,14 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo'] |
-   //index"
+   //index/@level1"
 	 use="translate(substring(.,1,1),$map_from,$map_to)"/>
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
 	 //emph[@lang='eo'] | 
 	 //hi[@lang='eo'] |
-   //index"
+   //index/@level1"
          use="."/>
 
 <xsl:template name="wordindex">
@@ -749,7 +735,7 @@ krome pro ĝusta referencado lasu nevideblan markon -->
     "(//list[@type='dict']//label[not(@rend='hidden')] |
 	    //emph[@lang='eo'] | 
 	    //hi[@lang='eo'] |
-      //index)
+      //index/@level1)
 	    [count(.|key('eoletters',
 	    translate(substring(.,1,1),$map_from,$map_to))[1])=1]">
 
@@ -819,13 +805,16 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 
     <!-- elektu chiujn vortojn kun sama komenclitero -->
 
-       <xsl:for-each select="key('eoletters',$firstletter)
+    <xsl:for-each select="key('eoletters',$firstletter)
 			[count(.|key('eowords',.)[1])=1]"> 
 
-         <!-- ordigu ilin -->
-         <xsl:sort lang="eo"/> 
-         <!-- kaj listigu nun -->
-         <xsl:call-template name="entry"/>
+        <!-- ordigu ilin -->
+        <xsl:sort lang="eo"/> 
+        <!-- kaj listigu nun -->
+        <!-- sencimigo:
+        :<xsl:value-of select="local-name()"/>:<xsl:value-of select="."/>:
+        -->
+        <xsl:call-template name="entry"/>
     </xsl:for-each> 
   </body>
   </html>
@@ -845,7 +834,7 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 
 <xsl:template name="entry">
   <strong>
-    <xsl:apply-templates mode="index"/>:
+    <xsl:apply-templates select="." mode="index"/>:
   </strong>
   <xsl:for-each select="key('eowords',.)">
      <xsl:call-template name="ref"/>
@@ -863,16 +852,6 @@ krome pro ĝusta referencado lasu nevideblan markon -->
         <xsl:value-of select="ancestor::div[@type='section']/@n"/>
         <xsl:text>.html#</xsl:text>
         <xsl:call-template name="inx-id"/>
-        <!--
-        <xsl:choose>
-          <xsl:when test="self::label">
-            <xsl:call-template name="label-id"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="generate-id()"/>
-          </xsl:otherwise>
-        </xsl:choose>      
-      -->  
       </xsl:attribute>
       <xsl:text>FE&nbsp;&para;</xsl:text>
 	    <xsl:value-of select="ancestor::div[@type='section']/@n"/>
@@ -885,16 +864,6 @@ krome pro ĝusta referencado lasu nevideblan markon -->
         <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
         <xsl:text>.html#</xsl:text>
         <xsl:call-template name="inx-id"/>
-<!--
-        <xsl:choose>
-          <xsl:when test="self::label">
-            <xsl:call-template name="label-id"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="generate-id()"/>
-          </xsl:otherwise>
-        </xsl:choose>
-        -->
       </xsl:attribute>
       <xsl:text>UV&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='letter']/@n"/>
@@ -905,17 +874,7 @@ krome pro ĝusta referencado lasu nevideblan markon -->
       <xsl:attribute name="href">
         <xsl:value-of select="ancestor::div[@type='chapter']/@id"/>
         <xsl:text>.html#</xsl:text>
-        <xsl:call-template name="inx-id"/>
-        <!--
-        <xsl:choose>
-          <xsl:when test="self::label">
-            <xsl:call-template name="label-id"/>
-          </xsl:when>
-          <xsl:otherwise>
-            <xsl:value-of select="generate-id()"/>
-          </xsl:otherwise>
-        </xsl:choose>  
-        -->      
+        <xsl:call-template name="inx-id"/>     
       </xsl:attribute>
       <xsl:text>AK&nbsp;</xsl:text>
       <xsl:value-of select="ancestor::div[@type='chapter']/@n"/>
@@ -990,19 +949,8 @@ krome pro ĝusta referencado lasu nevideblan markon -->
   </xsl:if>
 </xsl:template>
 
+<xsl:template match="@level1" mode="index">
+  <xsl:value-of select="."/>
+</xsl:template>
 
 </xsl:transform>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
