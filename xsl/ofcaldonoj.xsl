@@ -411,7 +411,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso,
 krome pro ĝusta referencado lasu nevideblan markon -->
-<xsl:template match="index/term">
+<xsl:template match="index">
   <!-- nevidebla referenccelo -->
   <span>
     <xsl:attribute name="id">
@@ -420,12 +420,9 @@ krome pro ĝusta referencado lasu nevideblan markon -->
   </span>
 </xsl:template>
 
-<xsl:template match="index/term" mode="index">
-  <xsl:apply-templates/>
-</xsl:template>
 
 <!-- subpremu alnotojn en indeksigitaj kapvortoj -->
-<xsl:template match="label/note" mode="index"/>
+<xsl:template match="label/emph[@rend='note']" mode="index"/>
 <xsl:template match="item/note" mode="index"/>
 
 <!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
@@ -498,7 +495,7 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 <xsl:template name="inx-id">
   <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
   <xsl:text>_n</xsl:text>
-  <xsl:number level="any" from="div[@id]|list[@id]" count="label|emph|hi|index"/>
+  <xsl:number level="any" from="div[@id]|list[@id]" count="label|item|emph|hi|index"/>
 </xsl:template>
 
 <!--
@@ -642,6 +639,14 @@ listo de tradukoj -->
   </p>
 </xsl:template>
 
+<xsl:template match="list[@rend='index']/item">
+  <li>
+    <xsl:attribute name="id">
+      <xsl:call-template name="inx-id"/>
+    </xsl:attribute>
+    <xsl:apply-templates/>
+  </li>
+</xsl:template>
 
 <!-- listo kun tradukoj -->
 
@@ -702,10 +707,11 @@ listo de tradukoj -->
   -->
 <xsl:key name="eoletters" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
+ 	 //list[@rend='index']/item |
    //item[index and not(index/node())] | 
    //emph[index and not(index/node())] | 
    //hi[index and not(index/node())] |
-   //index/term"
+   //index/@level1"
 	 use="translate(substring(normalize-space(text()),1,1),$map_from,$map_to)"/>
 
   <!--
@@ -718,10 +724,11 @@ listo de tradukoj -->
 
 <xsl:key name="eowords" match="
 	 //list[@type='dict']//label[not(@rend='hidden')] |
+	 //list[@rend='index']/item |
    //item[index and not(index/node())] | 
    //emph[index and not(index/node())] | 
-   //hi[index and not(index/node())]|
-   //index/term"
+   //hi[index and not(index/node())] |
+   //index/@level1"
          use="normalize-space(text())"/>
 
 <xsl:template name="wordindex">
@@ -738,10 +745,11 @@ listo de tradukoj -->
 -->
   <xsl:for-each select="(
       //list[@type='dict']//label[not(@rend='hidden')] |
+      //list[@rend='index']/item |
       //item[index and not(index/node())] | 
       //emph[index and not(index/node())] | 
       //hi[index and not(index/node())] |
-      //index/term)
+      //index/@level1)
 	    [count(.|key('eoletters',
 	    translate(substring(normalize-space(text()),1,1),$map_from,$map_to))[1])=1]">
 
@@ -865,14 +873,17 @@ listo de tradukoj -->
 <xsl:message>WINX... <xsl:value-of select="name()"/></xsl:message>
 </xsl:if>
 -->
+<!--
     <xsl:choose>
       <xsl:when test="index/term">
         <xsl:apply-templates select="index" mode="index"/>
       </xsl:when>
       <xsl:otherwise>
-        <xsl:apply-templates mode="index"/>
-      </xsl:otherwise>
+      -->
+        <xsl:apply-templates select="." mode="index"/>
+<!--      </xsl:otherwise>
     </xsl:choose>
+    -->
     <xsl:text>: </xsl:text>
   </strong>
   <xsl:for-each select="key('eowords',normalize-space(text()))">
@@ -888,17 +899,11 @@ listo de tradukoj -->
     <xsl:attribute name="href">
       <xsl:value-of select="ancestor::text/@id"/>
       <xsl:text>.html#</xsl:text>
-        <xsl:call-template name="inx-id"/>
-        <!--
-        <xsl:choose>
-        <xsl:when test="self::label|self::item[index]">
-          <xsl:call-template name="label-id"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select="generate-id()"/>
-        </xsl:otherwise>
-      </xsl:choose>
-      -->
+        <!-- ĉe index/@level1 ni devos reiri al la patra elemento (<indeex>) 
+          ni atingas tion per for-each kun nur unua trafo en select [1] -->
+        <xsl:for-each select="ancestor-or-self::node()[1]">
+          <xsl:call-template name="inx-id"/>
+        </xsl:for-each>
     </xsl:attribute>
     <xsl:text>OA&nbsp;</xsl:text>
     <xsl:value-of select="ancestor::text/@n"/>
@@ -912,6 +917,10 @@ listo de tradukoj -->
   </xsl:if>
   </xsl:if>    
 
+</xsl:template>
+
+<xsl:template match="@level1" mode="index">
+  <xsl:value-of select="."/>
 </xsl:template>
 
 
