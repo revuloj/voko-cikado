@@ -3,7 +3,6 @@
 # Tio estas la eldono de voko-cikado
 eldono=2k
 
-# ni komprenas preparo 
 target="${1:-helpo}"
 
 case $target in
@@ -20,8 +19,8 @@ etikedo)
     ;;    
 helpo | *)
     echo "---------------------------------------------------------------------------"
-    echo "Per la celo 'preparo' oni povas krei git-branĉon kun nova eldono por tie "
-    echo "komenci programadon de novaj funkcioj, ŝanĝoj ktp. Antaŭ adaptu en la kapo de ĉi-skripto"
-    echo "la variablon 'eldono' al la nova eldono."
+    echo "Per la celo 'kreo' oni povas krei docker-procezujon de voko-cikado. "
+    echo "Per etikedo vi etikedas la aktualan staton per la eldono (adaptebla variablo supre en la skripto)"
+    echo "kaj puŝas tion al Github, per kio tie kreiĝas aktuala procezujo kun tiu eldono."
     ;;    
 esac
