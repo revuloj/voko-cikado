@@ -1,79 +1,43 @@
 <?xml version="1.0"?>
 <!DOCTYPE TEI SYSTEM "../dtd/tei-tekstaro.dtd">
 <TEI xml:id="esperanto-en-perspektivo" xml:lang="eo" xmlns="http://www.tei-c.org/ns/1.0">
-
 	<teiHeader>
-
 		<fileDesc>
-
 			<titleStmt>
-
 				<title>Esperanto en Perspektivo: elektronika versio</title>
-
 			</titleStmt>
-
 			<extent>282.767 vortoj</extent>
-
 			<publicationStmt>
-
 				<publisher><name xml:lang="en">Esperantic Studies Foundation</name></publisher>
-
 			</publicationStmt>
-
 			<sourceDesc>
-
 				<biblStruct>
-
 					<monogr>
-
 						<author><name xml:lang="hr">Ivo Lapenna</name>, <name xml:lang="it">Tazio Carlevaro</name> kaj <name xml:lang="de">Ulrich Lins</name></author>
-
 						<title type="main">Esperanto en Perspektivo</title>
-
 						<title type="subordinate">Faktoj kaj analizoj pri la Internacia Lingvo</title>
-
 						<imprint>
-
 							<publisher>Universala Esperanto-Asocio</publisher>
-
 							<pubPlace><name xml:lang="en">London</name> – <name xml:lang="nl">Rotterdam</name></pubPlace>
-
 							<date>1974</date>
-
 						</imprint>
-
 						<extent>845 p.</extent>
-
 					</monogr>
-
 					<note>Proksimuma verkojaro: 1974</note>
-
 					<note>Kreis la Esperantan tekston: <name xml:lang="hr">Ivo Lapenna</name> (ĉap. 1, 2, 4, 11-13, 18, 20.2, 20.4, 20.5-20.8, 22 kaj 23), <name xml:lang="it">Tazio Carlevaro</name> (ĉap. 3 kaj 5-10) kaj <name xml:lang="de">Ulrich Lins</name> (ĉap. 14-17, 19, 20.1, 20.3 kaj 21).</note>
-
 					<note>La teksto de “Esperanto en Perspektivo” aperas en la Tekstaro de Esperanto kun afabla permeso de la Centro de Esploro kaj Dokumentado kaj la Universala Esperanto-Asocio, kiuj posedas la kopirajton.</note>
-
 					<note>Tiu ĉi versio de “Esperanto en Perspektivo” estas bazita sur teksto enretigita ĉe <idno type="URI" xml:lang="zxx">http://www.ivolapenna.org/verkoj/books/persp.pdf</idno>.</note>
-
 					<note>La baza skanaĵo de la teksto kaj la rezulta teksto kreita per aŭtomata tekstorekonado enhavis tre multajn erarojn. Plejparte mi korektis tiujn erarojn, sed sendube ankoraŭ restas multo por ĝustigi. Aparte suferis la supersignoj en ne-Esperantaj vortoj, kiuj plejparte malaperis en la tekstorekonado. Tial en multaj ne-Esperantaj nomoj ankoraŭ forestas tiaj kromsignoj. Korekti ilin ĉiujn estos tre malfacila tasko.</note>
-
 					<note>Mi konservis ĉiujn bildojn kaj bildotekstojn, sed la bildoj aperas en iom alia grafika aranĝo.</note>
-
 					<note>La Enhavtabelo estas konservita, sed anstataŭ paĝonumeroj estas ligiloj al la koncernaj lokoj en la teksto. La finaj indeksoj de temoj kaj personoj estas tute ellasitaj.</note>
-
 					<note type="nemontri">Ĉefdivido: parto</note>
-
 				</biblStruct>
-
 			</sourceDesc>
-
 		</fileDesc>
-
 	</teiHeader>
 
 	<text>
-
 		<body>
-
 			<div type="parto" xml:id="eep-nomaro">
 
 				<head xml:id="dd2">NOMARO DE KUNLABORINTOJ</head>
@@ -2508,7 +2472,7 @@
 
 							<p xml:id="dd882"><hi>Aŭstrio:</hi> Per Dekreto 102 de la Federacia Ministerio por Instruado de la 23-a de februaro 1968, oni donis al Esperanto la pozicion de fakultativa instruobjekto kun po du lecionoj semajne. Laŭ la instruiplano oni povas instrui Esperanton en la 3-a kaj 4-a klasoj de ĉeflernejoj (12-14-jaraj infanoj).</p>
 
-							<p xml:id="dd883">Per Dekreto de la sama Ministerio de la 28-a de aŭgusto 1946, B1 5058-IV/8/1946, estis starigita en Vieno (kaj poste ankaŭ en <name xml:lang="">Innsbruck</name> kaj <name xml:lang="">Salzburg</name>) Ŝtata Ekzamen-Komisiono pri Esperanto. La oficiala ekzamenregulo estis publikigita en la Bulteno de la Inistruministerio <hi><name xml:lang="">Verordnungsblatt des Bundesministeriums für Unterricht, Stück 10 v. 1/10/46</name></hi>.</p>
+							<p xml:id="dd883">Per Dekreto de la sama Ministerio de la 28-a de aŭgusto 1946, B1 5058-IV/8/1946, estis starigita en Vieno (kaj poste ankaŭ en <name xml:lang="">Innsbruck</name> kaj <name xml:lang="">Salzburg</name>) Ŝtata Ekzamen-Komisiono pri Esperanto. La oficiala ekzamenregulo estis publikigita en la Bulteno de la Instruministerio <hi><name xml:lang="">Verordnungsblatt des Bundesministeriums für Unterricht, Stück 10 v. 1/10/46</name></hi>.</p>
 
 							<p xml:id="dd884"><hi>Belgio:</hi> En 1963 la Instruministerio, en respondo al Senatano <name xml:lang="">Vandermeulen</name> diris, ke la instruado de Esperanto inter “kromaj kursoj” ne estas malpermesita. Tio signifas, ke lernejestro rajtas enkonduki la lingvon laŭ sia propra iniciato.</p>
 
@@ -13995,11 +13959,7 @@
 			</div>
 
 			<gap><desc>Indekso de personoj</desc></gap>
-
 			<gap><desc>Indekso de temoj</desc></gap>
-
 		</body>
-
 	</text>
-
 </TEI>
