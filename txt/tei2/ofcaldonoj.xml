@@ -148,6 +148,15 @@ Enhavas: 209 radikojn kun finaĵoj
 Tradukoj: mankas
 Difinoj en Esperanto: ĉiuj elementoj havas difinon
 
+10a OA
+
+Titolo: Deka Oficiala Aldono al la Universala Vortaro
+Jaro: 2023
+Prizorgis: Jesper Lykke Jacobsen
+Enhavas: 420 novaj radikoj kaj 832 novaj vortoj aŭ plurvortaj terminoj kaj iliaj difino
+Tradukoj: mankas
+Difinoj en Esperanto: ĉiuj elementoj havas difinon
+
 ===================================================================================
 -->
 
@@ -18949,7 +18958,8 @@ la internacia ~o valoras 2,83m³.</item>
 
 <label lang="eo">trajn&strek;o</label><item>
 <list type="def">
-  <item lang="eo">1. Sinsekvo de similaj veturiloj aŭ objektoj trenataj, aŭ (se figure)
+<item lang="eo">
+1. Sinsekvo de similaj veturiloj aŭ objektoj trenataj, aŭ (se figure)
 vice irantaj unu post la alia: ŝipo~o, fos~o; (f) ondo~o.
 2. Vagonaro movata de lokomotivo kaj iranta laŭ difinita horaro (= vagon~o).
 3. Veturilaro, kiu transportas ĉion, kion la trupoj bezonas por vivi kaj
@@ -20382,6 +20392,3568 @@ mem praktike sengusta, produktata precipe en Rusujo, Pollando kaj Svedujo.</item
 
 <label lang="eo">zip&strek;o</label><item>Fermilo, konsistanta el du rubandoj kun malgrandaj (metalaj aŭ
 plastaj) dentoj, kiuj interplektiĝas per ŝovado de movebla peco intera</item>
+
+</list>
+</div>
+
+</body>
+</text>
+
+
+<!-- =========================== 10a OA ======================================== -->
+<!-- https://www.akademio-de-esperanto.org/decidoj/10oa.html 
+     https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_lite.doc.html
+-->
+
+<text id="oa_10" n="10" rend="doc">
+
+<front>
+  <titlePage>
+    <docTitle>
+      <titlePart type="main">
+          Deka Oficiala Aldono al la Universala Vortaro
+      </titlePart>
+    </docTitle>
+    <byline>prizorgita de <docAuthor>Jesper Lykke JACOBSEN</docAuthor></byline>
+    <docImprint><docDate>2023</docDate></docImprint>           
+  </titlePage>
+</front>
+
+<body>
+
+<head>Deka Oficiala Aldono al la Universala Vortaro</head>
+
+<div type="part" n="0" id="oa_10_deklaro">
+<head>Aprobo</head>
+<p>
+<q>La 24an de septembro 2023, la Akademio aprobis la 10an Oficialan Aldonon al la Universala Vortaro, kun 420 novaj radikoj kaj 832 novaj vortoj aŭ plurvortaj terminoj kaj iliaj difinoj. Voĉdonis 41 akademianoj el 45 (91%), 32 aprobis (78%), 4 voĉdonis kontraŭ kaj 5 sindetenis.</q>
+</p>
+</div>
+
+
+<div type="part" n="I" id="oa_10_enkonduko">
+<head>I. Enkonduko</head>
+
+<p>
+La Akademio de Esperanto prezentas en tiu ĉi Deka Oficiala Aldono 420 radikojn kaj 832 vortojn aŭ plurvortajn terminojn, kiujn ĝi decidis aldoni al la Universala Vortaro, t.e. oficialigi. Post tiu aldono, la Akademia Vortaro tiel konsistos el la origina Universala Vortaro kaj dek Oficialaj Aldonoj.
+</p><p>
+La unua renkonto inter esperantistoj tre ofte komenciĝas per interŝanĝo de informoj pri la lokoj, kie ili kaj iliaj familianoj loĝas aŭ naskiĝis, pri ilia genta aŭ landana aparteno, kaj pri la lingvoj, kiujn ili lernis denaske aŭ nun scipovas paroli. Surbaze de tiu realo povas ŝajni surpriza la fakto, ke la Universala Vortaro enhavas relative malmulte da propraj nomoj pri geografio, kaj ke ĝia paletro de nomoj por gentoj kaj lingvoj estas ankoraŭ modesta kompare kun la vasta kanvaso, sur kiu evoluas la nuntempa lingvouzo. La jena Oficiala Aldono volas ŝanĝi tiun situacion kaj fiksi la formon de multaj tiaj vortoj surbaze de raciaj principoj kaj de uzo konstatebla ĉe bonaj aŭtoroj.
+</p><p>
+Sed la intereso de tiu ĉi dokumento kompreneble ne limiĝas al la faciligo de sinprezentaj konversacioj. Sur la geografia tereno ĝi starigas detalan mapon de la aktuala mondo kaj evidentigas gravajn rilatojn inter gentoj, landoj kaj lingvoj. Ĝi ebligos paroli pri la ĉefaj montoj, maroj, riveroj, insuloj kaj lagoj per nomoj ekde nun oficialigitaj. Ĝi ankaŭ atestas la rilaton inter lingvoj kaj lingvofamilioj, la historian evoluon de landoj nuntempaj kaj antikvaj, kaj skizas la administran dividon de multaj landoj en regionojn aŭ alinomajn landerojn. Kaj preter la aro da elementoj, kiujn oficialigas la Aldono, ĝi volas montri per ekzemploj la ĝeneralajn principojn aplikindajn ĉe ĝusta esperantigo de pliaj samspecaj vortoj.
+</p><p>
+Nomoj de gentoj aŭ landanoj (vidu la postan atentigon pri la rilato inter tiuj du konceptoj) kiel anglo, franco, germano, hispano kaj ruso jam estas Fundamentaj, kaj el tiuj eblas formi la landnomojn Anglujo, Francujo, Germanujo, Hispanujo kaj Rusujo. Same Fundamentaj estas la kontinentonomo Eŭropo kaj la urbonomoj Berlino, Bulonjo, Londono, Nov‐Jorko kaj Parizo, kiel detalite en la parto B de la 1‐a Listo de la Sepa Oficiala Aldono. La Oka Oficiala Aldono el la jaro 1974 plie oficialigis 32 landnomojn kaj 15 landanonomojn (tamen sen difinotekstoj) kaj krome la nomojn de kvar kontinentoj, unu maro kaj du oceanoj (kun difinotekstoj kaj tradukoj en ses naciajn lingvojn). La Naŭa Oficiala Aldono el la jaro 2007 poste oficialigis la nomojn de la du polusaj regionoj kaj du pliajn landnomojn.
+</p><p>
+La Akademio de Esperanto aperigis en la jaro 1989 dokumenton kun la nomo “Listo de Normaj Landnomoj” (Oficialaj Informoj de la Akademio de Esperanto, n‐ro 9), kiun ĝi anstataŭigis en la jaro 2009 per ĝisdatigita kaj reviziita “Listo de Rekomendataj Landnomoj” (Oficialaj Informoj de la Akademio de Esperanto, n‐ro 11 – 2009 04 15). Tiu lasta dokumento enhavas nomojn por ĉiuj 192 tiam ekzistantaj membroŝtatoj de la Unuiĝintaj Nacioj. La Deka Oficiala Aldono nun oficialigas ĉiujn el tiuj landnomoj, kiuj ankoraŭ ne estis oficialigitaj, kaj aldone la nomon de 193‐a membroŝtato (Sud‐Sudano), kiu sendependiĝis en la jaro 2011. La Akademio faras tiun elpaŝon konstatinte, ke la antaŭaj Akademiaj Rekomendoj kontribuis al firmigo kaj unuecigo de la lingvouzo, kaj ke la tempo nun estas matura por plena oficialigo.
+</p><p>
+Per la Deka Oficiala Aldono la Akademio oficialigas ankaŭ la nomon de la plejparto de urboj, kie iam okazis Universala Kongreso. Ĝi faras tion konstatinte, ke tiuj urbonomoj firme enradikiĝis en la reala lingvouzo, kaj agnoskinte, ke la Esperanta geografio kelkfoje posedas trajtojn, kiuj distingas ĝin disde la kutima tutmonda geografio.
+</p><p>
+Estas menciinde, ke la Deka Oficiala Aldono sekvas la modelon de la Naŭa Oficiala Aldono, en kiu ĉiuj difinoj estas verkitaj nur en Esperanto, sen tradukoj en naciajn lingvojn. Ĝi nur escepte provizas difinojn por elementoj jam antaŭe oficialigitaj. La Akademio konsideras la eblon estonte aldoni difinojn ankaŭ al la geografiaj nomoj entenataj en la Fundamento kaj en antaŭaj Oficialaj Aldonoj, laŭ la kriterioj de la jena dokumento. Estas notinde ankaŭ, ke la Deka Oficiala Aldono je la unua fojo oficialigas kelkajn plurvortajn kombinaĵojn (kiel la Ruĝa Maro kaj la Roma Regno), kiuj havas valoron de propra nomo.
+</p><p>
+La Direktoro volas aparte danki al la membroj de la Sekcio pri la Ĝenerala Vortaro, kiuj per sindona laboro kaj konstruaj komentoj senlace kontribuis al plibonigo de la dokumento.
+</p><p>
+La Deka Oficiala Aldono estis aprobita de la Akademio la 24‐an de Septembro 2023. Voĉdonis 41 el 45 Akademianoj (pli ol du trionoj). La limo de aprobo estis do 21 jesaj voĉdonoj (duono el ĉiuj voĉdonintoj). La dokumento ricevis 32 jesajn, 4 neajn kaj 5 sindetenajn voĉojn. Sekve estas oficialigitaj ĉiuj 420 radikoj kaj 832 vortoj aŭ plurvortaj terminoj kun siaj respektivaj difinotekstoj.
+</p>
+
+<signed>
+La Direktoro de la Sekcio
+pri la Ĝenerala Vortaro,
+<name>Jesper Lykke Jacobsen</name>
+</signed>
+</div>
+
+
+<div type="part" n="II" id="oa_10_atentigo">
+<head>II. Atentigo pri uzado de popolnomoj</head>
+
+<p>
+Pli‐malpli ĉiuj popolnomoj apartenas al unu el la du kategorioj: gentobazaj popolnomoj kaj landobazaj popolnomoj.
+</p><p>
+La nocio “gento” estas malfacile difinebla de scienca vidpunkto. Eĉ se oni alprenas la vastan difinon de “homgrupo kun difinitaj historiaj kaj kulturaj tradicioj”, estas malfacile difini, laŭ kiuj objektivaj kriterioj iu homo apartenu aŭ ne apartenu al tiu grupo. Kaj estas malfacile pravigi, kial por iuj el tiaj homgrupoj ekzistas en Esperanto aparta nomo por montri al ties anoj, kaj por aliaj ne.
+</p><p>
+En tiu ĉi dokumento, ni uzas la vorton “gento” en vasta senco, agnoskante ke laŭ iuj preferoj kaj en certaj kuntekstoj oni povas distingi tiun vorton de la rilata termino “etno”. Same, la nocioj “popolo” kaj “nacio” havas signifojn apudajn al tiuj de la ĵus menciitaj terminoj. Por nuntempe ekzistanta, politike sendependa kaj internacie rekonata teritorio ni plejofte uzas la vorton “lando”, kvankam en iuj situacioj oni povas paroli pri “regno”, “ŝtato”, “princlando” aŭ alio.
+</p>
+
+
+<div type="subpart" n="IIa" id="oa_10_gentobazaj">
+<head>Gentobazaj popolnomoj</head>
+
+<p>
+En la historio de lingvoj antaŭ Esperanto multaj popolnomoj aperis antaŭ la rilataj nomoj de landoj nun ekzistantaj, kaj iĝis nomdona elemento por formiĝantaj landoj. Ofte oni nomas tian nomdonan genton la “ĉefgento” de la lando nomita laŭe. Esperanto enprenis multajn landnomojn laŭ tiu skemo (Skotlando, Grekujo, Egiptujo, Japanujo), kaj ankaŭ la rilata vorto “ĉefgento” troviĝas en antaŭaj Akademiaj decidoj, kiel la Naŭa Oficiala Aldono. La termino “ĉefgento” cetere estas pure konvencia kaj tute aparte permesas konkludi, nek ke tiu gento nun konsistigas (aŭ eĉ iam konsistigis) la plimulton de la loĝantaro de la koncerna lando, nek ke ties (realaj aŭ supozitaj) trajtoj senŝanĝe konserviĝis tra la historia evoluo.
+</p><p>
+Notindas, ke la nomoj de kelkaj, eĉ tre antikvaj, gentoj ne donis nomon al regno, aŭ tia regno ekzistis, sed en iu historia periodo malaperis aŭ dividiĝis en kelkajn regnojn (hebreoj kaj filiŝtoj de antikveco; frankoj; gaŭloj; poloj en la periodo, kiam Pollando ne ekzistis kiel aparta ŝtato; prusoj post la malapero de Prusujo; jugoslavoj ktp).
+</p><p>
+Se la popolnomo estas gentobaza, tiam ĝi ofte konserviĝas tra la ŝanĝiĝoj en la konsisto de la popolo kaj refasonado de la mondmapo, dum la koncerna lando povas esti tute alia ol origine. Por tiaj popolnomoj la lingvaj rimedoj de Esperanto permesas distingi apartenon al la nomdona popolo de la lando disde landaneco. Ekzemplo de tia rigora, gentobaza uzo troviĝas jam en la Ekzercaro:
+</p><p>
+<q>Germanoj kaj francoj, kiuj loĝas en Rusujo, estas Rusujanoj, kvankam ili ne estas rusoj.</q>
+</p><p>
+Tia distingado povas esti aparte utila en esence multgentaj landoj, kie aparteno al gento (aŭ eĉ al la ĉefgento de la lando) estas ofte konsiderata afero alia ol landaneco.
+</p>
+</div>
+
+<div type="subpart" n="IIb" id="oa_10_landobazaj">
+<head>Landobazaj popolnomoj</head>
+
+<p>
+Male, multaj popoloj nomiĝas laŭ la lando, kie ili loĝas, tiel, ke la landnomo servas por derivi la nomon de la landanoj. Ankaŭ pri tiu skemo troviĝas abundaj ekzemploj en la ĝenerala lingvohistorio antaŭ Esperanto. Specife en tiu ĉi lasta, tiu nomdona kutimo ekzistas ne nur en la “Nova Mondo”, kie formiĝis la “novaj” nacioj de usonanoj, kanadanoj, aŭstralianoj, brazilanoj, meksikanoj kaj multaj aliaj, sed ankaŭ en la “Malnova Mondo” ekzistas (aŭ ekzistis) tiaj nacioj (nederlandanoj, venecianoj, irlandanoj, libianoj, marokanoj).
+</p><p>
+La signifo de la popolnomo kutime evoluas konforme kun la ŝanĝiĝo de la teritoria konsisto de la koncerna lando.
+</p>
+</div>
+
+<div type="subpart" n="IIc" id="oa_10_landanuzo">
+<head>Landana uzo de gentobazaj popolnomoj</head>
+
+<p>
+En kelkaj landoj la nomo de la ĉefgento estas ankaŭ uzata iom elaste por signifi simple loĝanton de la koncerna lando. Tia uzo estas ofta en landoj tradicie malmultgentaj, aŭ kiam ekzistas tradicio kaj atendo, ke malplimultaj gentoj aŭ enmigre alvenintoj rapide asimiliĝas al la ĉefgento.
+</p><p>
+Alia motivo por elasta landana uzo ekzistas en oficialaj aŭ statistikaj rilatoj, en kiuj oni emas konsideri, ke ĉiu, kiu posedas ekzemple germanan naciecon kaj pasporton, estas efektiva germano, sendepende de gentaj konsideroj. Same, iuj nomas sin mem per tia landana uzo por montri sian asimiliĝon al la ĉefgento, laŭ memidentiĝo.
+</p><p>
+La landana uzo de gentobaza popolnomo povas sin trudi ankaŭ al okazoj, kie tradicie valoras la rigore gentana uzo, aparte kiam temas pri deekstera rigardo al la koncerna lando. Tiu fenomeno montras, ke ne nur rolas la lokaj validaj faktoroj, sed ankaŭ la limigita kono, kiun eksterulo havas aŭ povas havi pri ili.
+</p>
+</div>
+
+<div type="subpart" n="IId" id="oa_10_signifo">
+<head>Kion signifas tiaj diferencoj?</head>
+
+<p>
+El socia vidpunkto la diferenco inter gentobazaj kaj landobazaj popolnomoj ŝajnas sensignifa. Tiel oni apenaŭ povas tiri iajn socipolitikajn diferencojn el tio, ke la popolnomo “belgoj” estas gentobaza, dum la nomo de najbara nacio “nederlandanoj” estas derivita el la nomo de ilia lando. Ŝajnas do, ke tia distingo estas nur historia kaprico.
+</p><p>
+Pri tiu vidpunkto jam atestas la antaŭa Akademia decido “Rekomendoj pri Landnomoj” el 1985, kies 3‐a punkto tekstas:
+</p><p>
+<q>La Akademio rekomendas konsideri, ke la signifo‐rilatoj inter la landnomoj kaj la koncernaj landano‐nomoj ĉiam estas principe la samaj, kiu ajn estas la kategorio de la landnomoj. Ekz‐e, Angl‐ujo / ‐io — Angl‐oj kaj en la alia kategorio Nederland‐o — Nederland‐anoj.</q>
+</p><p>
+Tamen, en kelkaj landoj oni nete distingas apartenon al la ĉefgento kaj landanecon. Ekzemple, nomi ajnan rusujanon “ruso” povas soni al tieaj landanoj kiel speco de ŝovinismo aŭ minimume nekompreno de bazaj sociaj distingoj.
+</p><p>
+En aliaj landoj oni kutime ne faras tian distingadon. Tiel, la formo “italujano” apenaŭ renkonteblas. Tute analoge, la formo “nederlandano” kutime funkcias kiel gentana aŭ naciana nomo, ne nur kiel nomo de landano.
+</p><p>
+Fine, en iuj aliaj landoj la uzado estas transira inter tiuj du polusaj modeloj kaj, krome, la uzado povas varii depende de la historia periodo, politika klimato kaj eĉ socia grupo kaj antaŭvideble plu evoluos.
+
+
+</p>
+</div>
+
+<div type="subpart" n="IIe" id="oa_10_decido">
+<head>Kiel tio reflektiĝas en la nuna decido de la Akademio?</head>
+
+<p>
+Ni atendas, ke la decidoj de la Akademio estos validaj dum longa tempo kaj nur minimume dependos de la politikaj kaj sociaj ŝanĝoj en la mondo. Tial ni ne penas pedante priskribi precizajn nuancojn de la hodiaŭa uzado de ĉiu aparta popolnomo. Tiaj detaloj kaj nuancoj ne aperu sur la nivelo de difinoj en la Akademia Vortaro.
+</p><p>
+<hi>Tial ni difinas</hi> ĝenerale la koncernajn gentonomojn elaste, kun du konvenciaj signifoj: <hi>1</hi> Ano de la ĉefgento de X‐ujo (aŭ simila vortumo, eventuale kun kelkaj aldonaj informoj), kaj <hi>2</hi> Ano de X‐ujo, <hi>subkomprenante ke</hi> depende de la specifa termino, la kunteksto kaj de la parolanto povas validi pli rigora vidpunkto, tiel ke unu el la du signifoj estas pli verŝajna ol la alia.
+</p><p>
+Tia flekseblo kaj variado estas parto de normala funkciado de Esperanto. Kiel validas preskaŭ pri ĉio en lingvo, por klare esprimi sian penson kaj por esti ĝuste komprenita, oni devas apliki atendeblajn eksterlingvajn sciojn kaj lingvo‐sociajn normojn de la koncerna medio kaj epoko.
+</p>
+
+</div>
+</div>
+
+<div type="part" n="III" id="oa_10_rekomendo">
+
+<head>III. Rekomendo pri la elekto inter <emph>land</emph> kaj <emph>uj</emph></head>
+
+<p>
+En kelkaj gentobazaj nomoj oni uzas la radikon land anstataŭ uj, pro internacieco aŭ Esperanta tradicio:
+</p>
+<lg>
+  <l>poloj → Pollando (la lando de la poloj)</l>
+  <l>svisoj → Svislando (la lando de la svisoj)</l>
+</lg>
+<p>
+Sed kompreneble oni povas ankaŭ en tiaj okazoj uzi uj: Polujo, Svisujo. En la ĉi‐postaj difinotekstoj, la Akademio prezentas kelkajn gentobazajn nomojn kun land anstataŭ uj, ĉar la formoj kun land estas pli kutimaj por tiuj nomoj. Sed la Akademio neniel kontraŭas la respondajn formojn kun uj. Inverse ankaŭ eblas ĉe tiuj landoj, por kiuj la Akademio prezentas formon kun uj, anstataŭe uzi formojn kun land (Danlando, Anglolando k.s.). Sed ĝenerale estas preferinde uzi land tiamaniere nur tiam, kiam la rezulta formo havas Esperantan tradicion.
+</p>
+</div>
+
+
+<div type="part" n="IV" id="oa_10_ujo_io">
+
+<head>IV. Pri <emph>‐ujo</emph> kaj <emph>‐io</emph></head>
+
+<p>
+En la Oka Oficiala Aldono (1974) la Akademio esprimis sin pri la uzo de “la sufikso <emph>‐io”</emph> apud la Fundamenta <emph>‐ujo</emph> por formi gentobazan landnomon, “nuligante la antaŭan malkonsilon de la Lingva Komitato, sed ne ŝanĝante ĝin al rekomendo”. En la “Listo de Rekomendataj Landnomoj” (2009) la
+Akademio sisteme prezentis formojn kun la finaĵo <emph>‐io</emph> post la respondaj formoj kun la finaĵo <emph>‐ujo</emph>, sed piednote rememorigis pri la neoficiala statuso de <emph>‐io</emph>.
+</p><p>
+En la jena Deka Oficiala Aldono la Akademio volas nenion ŝanĝi aŭ aldoni al siaj antaŭaj decidoj pri <emph>‐io</emph>. Konstateblas nur, ke la Akademio ĝin ne oficialigis kaj ankaŭ nun ne oficialigas ĝin. Tial la nunaj difinotekstoj uzas la Fundamentan finaĵon <emph>‐ujo</emph>. La respondaj formoj kun <emph>‐io</emph> restas neoficialaj.
+</p>
+</div>
+
+
+<div type="part" n="V" id="oa_10_subdividoj">
+
+<head>V. Rekomendoj pri nomoj de landoj kaj iliaj subdividoj</head>
+<p>
+En 1985 la Akademio oficialigis la jenajn Rekomendojn pri Landnomoj, ree konfirmitan en la enkonduko al la Listo de Rekomendataj Landnomoj de 2009:
+</p><p>
+<list type="ordered">
+    <item>Pro respekto al la tradicio, kaj en pacema spirito, ni deklaros, ke landnomo estas taŭga, se ĉiuj aŭ la granda plimulto senkonteste uzas la saman formon.</item>
+
+    <item>En okazo de konflikto inter du aŭ pluraj formoj por unu sama landnomo aŭ ankaŭ inter la uzo de kategorio aŭ la alia por unu sama radiko, la Akademio rekomendas preferi la plej internacian landnomon kaj tiel obei al la 15‐a Regulo de la Fundamento.</item>
+    
+    <item>La Akademio rekomendas konsideri, ke la signifo‐rilatoj inter la landnomoj kaj la koncernaj landano‐nomoj ĉiam estas principe la samaj, kiu ajn estas la kategorio de la landnomoj. Ekz‐e, Angl‐ujo / ‐io ‐ Angl‐oj kaj en la alia kategorio Nederland‐o ‐ Nederland‐anoj.</item>
+    
+    <item>Principe estas malrekomendite nove formi nomon per iu internacia “sufikso” aŭ sufikse uzata fremda vorto (‐io, ‐(i)stano, …), se la tiel ricevita landnomo ne jam ekzistas internacie.</item>
+</list>
+</p><p>
+Ni konsideras ĉi tiujn rekomendojn aplikindaj ne nur al la nomoj de sendependaj landoj, sed ankaŭ al iliaj subdividoj (ŝtatoj, provincoj, federaciaj landoj, dependaj teritorioj, kantonoj, regionoj, respublikoj, gubernioj ktp).
+</p><p>
+La kvara listero klarigas, kial ni oficialigis formojn kiel “Luksemburgo” (por sendependa lando), “Nov‐Jorko” kaj “Kolorado” (por usonaj ŝtatoj) kaj ne la foje uzatajn konkurencajn formojn “Luksemburgio”, “Nov‐Jorkio” kaj “Koloradio”. La unua listero klarigas, kial ni oficialigis “Kebekio” por kanada provinco malgraŭ la malkohero de ĉi tiu formo kun la kvara principo: Ni konstatis, ke en la efektiva lingvouzo la uzado de “Kebekio” estas tiom unueca, ke ĉi‐okaze la unua listero havas prioritaton super la kvara listero.
+</p>
+</div>
+
+
+<div type="part" n="VI" id="oa_10_dividostrekoj">
+
+<head>VI. Uzado de dividostrekoj</head>
+<p>
+En ĉi tiu dokumento ni uzas dividostrekon en iuj kunmetitaj geografiaj nomoj, ekz. “Sud‐Afriko” kaj “Nov‐Gvineo”. Oni povus same bone skribi “Sudafriko” k.s., sed la uzo de dividostreko estas kutima kaj substrekas la kunmetitecon. Ni tamen uzas dividostrekon nur inter Esperantaj lingvoelementoj, neniam ene de Esperanta lingvoelemento, sekvante la jam okazintan decidon de la Oka Oficiala Aldono koncerne la nomon “Kostariko”. Tial, ekzemple, ni oficialigas la formojn “Riodeĵanejro” kaj “Telavivo”, ne “Rio‐de‐Ĵanejro” kaj “Tel‐Avivo”, kvankam tiuj lastaj skribmanieroj kun dividostreko estas oftaj. Ili restu konsiderataj neplene esperantigitaj same kiel aliaj tiaj formoj, eventuale uzeblaj por atingi pli facilan rekoneblon. Kiel ajn oni skribas la nomojn de tiuj du urboj, iliaj esperantaj radikoj ĉiuokaze estas “riodeĵanejr&strek;” kaj “telaviv&strek;”.
+</p>
+</div>
+
+
+<div type="part" n="VII" id="oa_10_isokodo">
+
+<head>VII. Uzo de internaciaj kodaĵoj</head>
+<p>
+Nia dokumento uzas la internacian normon ISO 3166‐2 por provizi kodaĵojn por landoj kaj landeroj. La landera subdivido estas rekonebla pro la apero de dividostreko. La nomo de subdivido (ŝtato, provinco, federacia lando, dependa teritorio, kantono, regiono, respubliko, gubernio ktp) varias laŭ la koncerna lando. Aldone ni montras naciajn landerokodaĵojn por kvar respublikoj en la Rusuja Federacio, laŭ la normo ГОСТ Р 50577‐2018. Por lingvoj ni uzas la internacian normon ISO 639‐3.
+</p>
+</div>
+
+
+<div type="part" n="VIII" id="oa_10_radikoj">
+<head>Oficialaj radikoj</head>
+
+<list type="dict" rend="def" n="1" id="OA10_1">
+
+<label lang="eo">Acor&strek;o&strek;j</label>
+<item lang="eo">Insularo de Portugalujo, en Atlantiko. Internacia landerokodaĵo: PT‑20.</item>
+
+<label lang="eo">Adelajd&strek;o</label>
+<item> La ĉefurbo de la aŭstralia ŝtato Sud‑Aŭstralio.</item>
+
+<label lang="eo">Aden&strek;o</label>
+<item> Havenurbo en la sudokcidenta parto de Jemeno, ĉe la Adena Golfo.</item>
+
+<label lang="eo">Adriatik&strek;o</label>
+<item> Maro inter la Balkana kaj Itala Duoninsuloj.</item>
+
+<label lang="eo">afgan&strek;o</label>
+<item lang="eo">Ano de Afganujo. 
+  <list type="deriv">
+    <label lang="eo">Afgan&strek;uj&strek;o</label>
+    <item>Lando en meza Azio, inter Irano kaj Ĉinujo. Internacia landokodaĵo: AF.</item>
+    <label>afgan&strek;a</label>
+    <item>Rilata al afganoj aŭ Afganujo.</item>
+  </list>
+</item> 
+
+<label lang="eo">Afrik&strek;o</label>
+<item> (8OA)
+<list type="deriv">
+<label lang="eo">Centr‑Afrik&strek;o</label>
+<item>Lando en meza Afriko, norde de Demokratia Respubliko Kongo kaj sude de Ĉado 2. Internacia landokodaĵo: CF.</item>
+<label lang="eo">Okcident‑Afrik&strek;o</label>
+<item>Regiono de Afriko nuntempe plej ofte difinata kiel konsistanta el la landoj Maŭritanio, Malio, Niĝero, Niĝerio, ĉiuj landoj inter tiuj kvar kaj Atlantiko, kaj la apudaj insuloj.</item>
+<label lang="eo">Sud‑Afrik&strek;o</label>
+<item>La plej suda lando de Afriko. Internacia landokodaĵo: ZA.</item>
+</list>
+</item>
+
+<label lang="eo">Akad&strek;o</label>
+<item> Antikva urbo en Mezopotamio, la ĉefurbo de la Akada Imperio.
+<list type="deriv">
+<label lang="eo">akad&strek;an&strek;o</label>
+<item> Ano de la antikva ĉefgento de la Akada Imperio, parolanta ŝemidan lingvon (internacia lingvokodaĵo: akk).</item>
+<label lang="eo">akad&strek;a</label>
+<item> Rilata al Akado, akadanoj, la akada lingvo aŭ la Akada Imperio.</item>
+</list>
+</item>
+
+<label lang="eo">Alask&strek;o</label>
+<item> Usona ŝtato, en la nordokcidenta parto de Nord‑Ameriko. Internacia landerokodaĵo: US‑AK.</item>
+
+<label lang="eo">Aleksandri&strek;o</label>
+<item><list type="def">
+<item n="1">Antikva urbo en Egiptujo, ĉe la bordo de Mediteraneo, fondita de Aleksandro la Granda</item>
+<item n="2">Gubernio de Egiptujo, kies ĉefurbo estas Aleksandrio 1. Internacia landerokodaĵo: EG‑ALX.</item>
+</list></item>
+
+<label lang="eo">Alp&strek;o&strek;j</label>
+<item><list type="def">
+<item n="1">La plej granda eŭropa montaro, kiu etendiĝas de Mediteraneo ĝis Aŭstrujo</item>
+<item n="2">(kun preciziga nomepiteto) Kelkaj aliaj montaroj aŭ partoj de Alpoj 1: Italaj Alpoj; Japanaj Alpoj; Aŭstraliaj Alpoj; Lunaj Alpoj.</item></list>
+<list type="deriv">
+<label lang="eo">Alt&strek;a&strek;j Alp&strek;o&strek;j</label>
+<item>Departemento en Francujo, apud la itala landlimo, sudokcidente de Torino. Internacia landerokodaĵo: FR‑05.</item>
+<label lang="eo">Mar&strek;bord&strek;a&strek;j Alp&strek;o&strek;j</label>
+<item>Departemento en Francujo, ĉe Mediteraneo, apud la itala landlimo. Internacia landerokodaĵo: FR‑06.</item>
+</list>
+</item>
+
+<label lang="eo">Alzac&strek;o</label>
+<item> Regiono kun speciala statuso de Francujo, situanta inter Vogezoj 1 kaj Rejno, konsistanta el la departementoj Supra Rejno kaj Malsupra Rejno. Internacia landerokodaĵo: FR‑6AE.
+<list type="deriv">
+<label lang="eo">alzac&strek;an&strek;o</label>
+<item> Ano de Alzaco.</item>
+<label lang="eo">alzac&strek;a</label>
+<item> Rilata al alzacanoj, Alzaco aŭ la ĝermana lingvo tie parolata (internacia lingvokodaĵo: gsw): alzaca vino.</item>
+</list></item>
+
+<label lang="eo">Amazon&strek;o</label>
+<item><list type="def">
+<item n="1">Rivero en Sud‑Ameriko, kiu fluas de Andoj tra Peruo kaj Kolombio ĝis Brazilo, kie ĝi enfluas Atlantikon apud la ekvatoro</item>
+<item n="2">Brazila ŝtato, en kiu situas granda parto de la amazona pluvarbaro. Internacia landerokodaĵo: BR‑AM</item>
+<item n="3">Departemento en Kolombio, en ties suda parto. Internacia landerokodaĵo: CO‑AMA</item>
+<item n="4">Regiono de Peruo, en ties norda parto. Internacia landerokodaĵo: PE‑AMA</item>
+<item n="5">Venezuela ŝtato, en la suda parto de Venezuelo. Internacia landerokodaĵo: VE‑Z.</item>
+</list></item>
+
+<label lang="eo">Amerik&strek;o</label>
+<item> (8OA)
+<list type="deriv">
+  <label lang="eo">Centr‑Amerik&strek;o</label>
+  <item> Regiono de Ameriko konsistanta el la landoj Gvatemalo, Belizo, Salvadoro, Honduro, Nikaragvo, Kostariko kaj Panamo.</item>
+  <label lang="eo">Nord‑Amerik&strek;o</label>
+  <item> Regiono de Ameriko nuntempe plej ofte difinata kiel konsistanta el la insulo Gronlando kaj la landoj Kanado, Usono kaj Meksiko; iafoje ankaŭ Centr‑Ameriko kaj la insuloj en kaj apud la Kariba Maro estas enkalkulataj.</item>
+  <label lang="eo">Sud‑Amerik&strek;o</label>
+  <item> La suda parto de Ameriko, kiun ĉirkaŭas Pacifiko, Atlantiko, la Kariba Maro kaj la orienta limo de Panamo.</item>
+</list>
+</item>
+
+<label lang="eo">Amsterdam&strek;o</label>
+<item> La ĉefurbo de Nederlando, situanta en Nord‐Holando.</item>
+
+<label lang="eo">And&strek;o&strek;j</label>
+<item> La plej longa montoĉeno en Sud‑Ameriko, apartiganta Ĉilion disde Argentino kaj Bolivio kaj etendiĝanta pli norde tra Peruo kaj Ekvadoro, ĝis Kolombio.</item>
+
+<label lang="eo">Andor&strek;o</label>
+<item> Lando en Pireneoj, inter Hispanujo kaj Francujo. Internacia landokodaĵo: AD.</item>
+
+<label lang="eo">Angol&strek;o</label>
+<item> Lando en sudokcidenta Afriko, inter Demokratia Respubliko Kongo kaj Namibio. Internacia landokodaĵo: AO.</item>
+
+<label lang="eo">Antigv&strek;o</label>
+<item> La ĉefa insulo de Antigvo kaj Barbudo. 
+<list type="deriv">
+  <label lang="eo">Antigv&strek;o kaj Barbud&strek;o</label>
+  <item> Insulara lando en la norda parto de Malgrandaj Antiloj, konsistanta precipe el Antigvo kaj la pli malgranda insulo Barbudo. Internacia landokodaĵo: AG.</item>
+</list></item>
+
+<label lang="eo">Antil&strek;o&strek;j</label>
+<item> Insularo inter la Kariba Maro kaj Atlantiko, konsistanta el Grandaj Antiloj kaj Malgrandaj Antiloj.
+<list type="deriv">
+<label lang="eo">Grand&strek;a&strek;j Antil&strek;o&strek;j</label>
+<item>La kvar plej grandaj insuloj en Antiloj (i.a. Kubo kaj Jamajko) kaj la Kajmana Insularo, situantaj en la norda parto de la Kariba Maro.</item>
+<label lang="eo">Mal&strek;grand&strek;a&strek;j Antil&strek;o&strek;j</label>
+<item>Ĉeno de pli malgrandaj insuloj, en la orienta kaj sudorienta partoj de la Kariba Maro, etendiĝanta de Grandaj Antiloj ĝis Venezuelo kaj laŭlonge de ties bordo.</item>
+</list></item>
+
+<label lang="eo">Antverpen&strek;o</label>
+<item><list type="def">
+<item n="1">Havenurbo en Flandrujo</item>
+<item n="2">Provinco de Belgujo, kies ĉefurbo estas Antverpeno 1. Internacia landerokodaĵo: BE‑VAN.</item>
+</list></item>
+
+<label lang="eo">Apolon&strek;o</label>
+<item> Dio de lumo, poezio kaj artoj, filo de Zeŭso, laŭ la antikvaj greka kaj roma mitologioj.</item>
+
+<label lang="eo">arb&strek;o</label>
+<item> (FdE) 
+<list type="deriv">
+  <label lang="eo">Nigr&strek;a Arb&strek;ar&strek;o</label>
+  <item> Granda arbarkovrita montaro en sudokcidenta Germanujo, oriente de Rejno, proksima al la limoj kun Francujo kaj Svislando.</item>
+</list></item>
+
+<label lang="eo">Argentin&strek;o</label>
+<item> Lando en Sud‑Ameriko, inter Andoj kaj Atlantiko. Internacia landokodaĵo: AR.</item>
+
+<label lang="eo">Asiri&strek;o</label>
+<item> Antikva regno en la norda parto de Mezopotamio, nun parto de Turkujo, Sirio, Irako kaj Irano.
+<list type="deriv">
+  <label lang="eo">asiri&strek;an&strek;o</label>
+  <item> Ano de la antikva ĉefgento de Asirio.</item>
+<label lang="eo">asiri&strek;a</label>
+  <item> Rilata al asirianoj, Asirio aŭ la vario de la akada lingvo tie parolata.</item>
+</list></item>
+
+<label lang="eo">Aten&strek;o</label>
+<item><list type="def">
+<item n="1">La ĉefurbo de Grekujo</item>
+<item n="2">Urboŝtato en la antikva Grekujo.</item>
+</list></item>
+
+<label lang="eo">Aŭgsburg&strek;o</label>
+<item> Urbo en Germanujo, situanta en Bavarujo, nordokcidente de Munkeno.</item>
+
+<label lang="eo">aŭstr&strek;o</label>
+<item><list type="def">
+<item n="1">Ano de la ĉefgento de Aŭstrujo, parolanta la germanan lingvon</item>
+<item n="2">Ano de Aŭstrujo.</item>
+</list>
+<list type="deriv">
+<label lang="eo">Aŭstr&strek;uj&strek;o</label>
+<item> Federacia regno en la suda parto de Mez‑Eŭropo, ĉe la orienta parto de Alpoj. Internacia landokodaĵo: AT.</item>
+<label lang="eo">aŭstr&strek;a</label>
+<item> Rilata al aŭstroj aŭ Aŭstrujo.</item>
+<label lang="eo">Aŭstr&strek;a Imperi&strek;o</label>
+<item> Inter la jaroj 1804 kaj 1867, imperio konsistanta el Aŭstrujo kaj aliaj landoj sub ties superrego.</item>
+<label lang="eo">Aŭstr&strek;uj&strek;o‑Hungar&strek;uj&strek;o</label>
+<item> Inter la jaroj 1867 kaj 1918, imperio formita per kunigo de la Aŭstra Imperio kaj parto de la Hungara Regno.</item>
+<label lang="eo">Mal&strek;supr&strek;a Aŭstr&strek;uj&strek;o</label>
+<item> Aŭstra federacia lando, en la nordorienta parto de Aŭstrujo. Internacia landerokodaĵo: AT‑3.</item>
+<label lang="eo">Supr&strek;a Aŭstr&strek;uj&strek;o</label>
+<item> Aŭstra federacia lando, okcidente de Malsupra Aŭstrujo. Internacia landerokodaĵo: AT‑4.</item>
+</list></item>
+
+<label lang="eo">Aŭstronezi&strek;o</label>
+<item> Tiu parto de la mondo, en kiu vivas aŭstroneziaj gentoj.
+<list type="deriv">
+<label lang="eo">aŭstronezi&strek;a</label>
+<item> Rilata al grupo de lingvoj kaj gentoj, kiuj originas el Tajvano 1 aŭ suda Ĉinujo, kaj kiuj estas disvastiĝintaj al la insularo de sudorienta Azio, Mikronezio, Nov‑Gvineo, Melanezio, Polinezio kaj Madagaskaro.</item>
+</list></item>
+
+<label lang="eo">Azerbajĝan&strek;o</label>
+<item> Lando situanta okcidente de Kaspio. Internacia landokodaĵo: AZ.
+<list type="deriv">
+<label lang="eo">azerbajĝan&strek;an&strek;o</label>
+<item> Ano de Azerbajĝano.</item>
+<label lang="eo">azerbajĝan&strek;a</label>
+<item> Rilata al azerbajĝananoj, Azerbajĝano aŭ la tjurka lingvo tie parolata (internacia lingvokodaĵo: aze).</item>
+<label lang="eo">Okcident&strek;a Azerbajĝan&strek;o</label>
+<item> Provinco de Irano, en ties nordokcidenta parto. Internacia landerokodaĵo: IR‑04.</item>
+<label lang="eo">Orient&strek;a Azerbajĝan&strek;o</label>
+<item> Provinco de Irano, oriente de Okcidenta Azerbajĝano. Internacia landerokodaĵo: IR‑03.</item>
+</list></item>
+
+<label lang="eo">Azi&strek;o</label>
+<item> (8OA)
+<list type="deriv">
+<label lang="eo">Mal&strek;grand‑Azi&strek;o</label>
+<item> Larĝa duoninsulo inter la Nigra Maro, la Egea Maro kaj Mediteraneo.</item>
+<label lang="eo">Orient‑Azi&strek;o</label>
+<item> Regiono pli‑malpli konsistanta el Ĉinujo, Japanujo kaj Koreujo.</item>
+<label lang="eo">Sud‑Azi&strek;o</label>
+<item> Regiono de Azio nuntempe plej ofte difinata kiel konsistanta el la landoj Barato, Pakistano, Bangladeŝo, Nepalo, Butano, Srilanko, Maldivoj kaj ankaŭ (sed ne ĉiam) Afganujo; iafoje ankaŭ Birmo kaj Irano estas enkalkulataj.</item>
+</list></item>
+
+<label lang="eo">aztek&strek;o</label>
+<item> Ano de grupo da indiĝenaj popoloj en centra Meksiko, kies kulturo floris tra meza Ameriko de la 14‑a jarcento ĝis la alveno de la hispanaj konkerantoj en la jaro 1521.
+<list type="deriv">
+<label lang="eo">aztek&strek;a</label>
+<item> Rilata al aztekoj aŭ ilia kulturo: azteka sunŝtono; azteka piramido.</item>
+</list></item>
+
+<label lang="eo">Babilon&strek;o</label>
+<item> Antikva urbo en Mezopotamio, fama pro siaj muregoj, sia sepŝtupa temploturo kaj siaj pendoĝardenoj.
+<list type="deriv">
+<label lang="eo">babilon&strek;an&strek;o</label>
+<item> Ano de Babilono.</item>
+<label lang="eo">babilon&strek;a</label>
+<item> Rilata al babilonanoj, Babilono aŭ la vario de la akada lingvo tie parolata: babilona konfuzo de lingvoj (Zamenhof).</item>
+</list></item>
+
+<label lang="eo">Bagdad&strek;o</label>
+<item><list type="def">
+<item n="1">La ĉefurbo de Irako, ĉe Tigriso</item>
+<item n="2">Gubernio de Irako, en kiu situas Bagdado 1. Internacia landerokodaĵo: IQ‑BG.</item>
+</list></item>
+
+<label lang="eo">Baham&strek;o&strek;j</label>
+<item> Insulara lando en Atlantiko, norde de Kubo. Internacia landokodaĵo: BS. 
+<list type="deriv">
+<label lang="eo">Grand&strek;a Baham&strek;o</label>
+<item> La plej norda insulo de Bahamoj, ĉirkaŭ 100 kilometrojn oriente de Florido.</item>
+</list></item>
+
+<label lang="eo">Balkan&strek;o</label>
+<item><list type="def">
+<item n="1">Montaro en Bulgarujo</item>
+<item n="2">Regiono de Turkmenujo, en ties okcidenta parto. Internacia landerokodaĵo: TM‑B.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">balkan&strek;a</label>
+<item> Rilata al Balkano aŭ la Balkana Duoninsulo: balkana kulturo; balkana muziko.</item>
+</list></item>
+
+<label lang="eo">balt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de unu el la gentoj, kiuj parolas baltan lingvon</item>
+<item n="2">Ano de Baltujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Balt&strek;uj&strek;o</label>
+<item> Regiono konsistanta el Litovujo, Latvujo kaj Estonujo; historie ankaŭ kun kelkaj apudaj regionoj de Rusujo kaj orienta Prusujo.</item>
+<label lang="eo">balt&strek;a</label>
+<item> Rilata al baltoj, baltaj lingvoj aŭ Baltujo.</item>
+<label lang="eo">balt&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item>Hindeŭropaj lingvoj el la branĉo, al kiu apartenas la litova kaj latva lingvoj: estonoj estas baltoj, sed ilia lingvo ne estas balta lingvo.</item>
+</list></item>
+
+<label lang="eo">Bangladeŝ&strek;o</label>
+<item> Lando ĉe la Bengala Golfo, inter Barato kaj Birmo. Internacia landokodaĵo: BD.</item>
+
+<label lang="eo">Bankok&strek;o</label>
+<item> La ĉefurbo de Tajlando.</item>
+
+<label lang="eo">bantu&strek;o</label>
+<item> Ano de vasta grupo da popoloj en la suda parto de Afriko, karakterizata precipe per la parenceco de la lingvoj.
+<list type="deriv">
+<label lang="eo">bantu&strek;a</label>
+<item> Rilata al bantuoj: bantuaj lingvoj.</item>
+</list></item>
+
+<label lang="eo">Barat&strek;o</label>
+<item> Federacia regno en Azio, okupanta la plej grandan parton de la hinda subkontinento. Internacia landokodaĵo: IN.</item>
+
+<label lang="eo">Barbad&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La plej orienta insulo en Malgrandaj Antiloj</item>
+<item n="2">Lando situanta sur Barbado 1. Internacia landokodaĵo: BB.</item>
+</list></item>
+
+<label lang="eo">Barbud&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo de Antigvo kaj Barbudo, ĉirkaŭ 40 kilometrojn norde de Antigvo</item>
+<item n="2">Dependa teritorio de Antigvo kaj Barbudo, situanta sur Barbudo 1. Internacia landerokodaĵo: AG‑10.</item>
+</list></item>
+
+<label lang="eo">Barcelon&strek;o</label>
+<item> La ĉefurbo de Katalunujo 2.</item>
+
+<label lang="eo">Barejn&strek;o</label>
+<item> Insulara lando en la Persa Golfo, inter Kataro kaj Sauda Arabujo. Internacia landokodaĵo: BH.</item>
+
+<label lang="eo">baŝkir&strek;o</label>
+<item> Ano de la ĉefgento de Baŝkirujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: bak).
+<list type="deriv">
+<label lang="eo">Baŝkir&strek;uj&strek;o</label>
+<item> Respubliko en la Rusuja Federacio, inter Volgo kaj Uralo, oriente de Tatarujo. Internacia landerokodaĵo: RU‑BA. Nacia landerokodaĵo: 02.</item>
+<label lang="eo">baŝkir&strek;a</label>
+<item> Rilata al baŝkiroj, la baŝkira lingvo aŭ Baŝkirujo.</item>
+</list></item>
+
+<label lang="eo">bavar&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Bavarujo</item>
+<item n="2">Ano de Bavarujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Bavar&strek;uj&strek;o</label>
+<item> Germana federacia lando en la sudorienta parto de Germanujo. Landerokodaĵo: DE‑BY.</item>
+<label lang="eo">bavar&strek;a</label>
+<item> Rilata al bavaroj, la bavara vario de la germana lingvo (internacia lingvokodaĵo: bar) aŭ Bavarujo.</item>
+</list></item>
+
+<label lang="eo">Belfast&strek;o</label>
+<item> La ĉefurbo de Nord‑Irlando.</item>
+
+<label lang="eo">Beliz&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Rivero en Belizo 2, kiu enfluas la Kariban Maron norde de Belizo 3</item>
+<item n="2">Lando en Centr‑Ameriko, ĉe la Kariba Maro, nordoriente de Gvatemalo. Internacia landokodaĵo: BZ</item>
+<item n="3">Urbo en la orienta parto de Belizo 2.</item>
+</list></item>
+
+<label lang="eo">belorus&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Belorusujo, parolanta orientslavan lingvon (internacia lingvokodaĵo: bel)</item>
+<item n="2">Ano de Belorusujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Belorus&strek;uj&strek;o</label>
+<item> Lando en orienta Eŭropo, oriente de Pollando kaj sudoriente de Litovujo kaj Latvujo. Internacia landokodaĵo: BY.</item>
+<label lang="eo">belorus&strek;a</label>
+<item> Rilata al belorusoj, la belorusa lingvo aŭ Belorusujo.</item>
+</list></item>
+
+<label lang="eo">bengal&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Bengallando, parolanta sanskritidan lingvon (internacia lingvokodaĵo: ben)</item>
+<item n="2">Ano de Bengallando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Bengal&strek;land&strek;o</label>
+<item> Regiono konsistanta el Bangladeŝo kaj Okcidenta Bengallando.</item>
+<label lang="eo">Okcident&strek;a Bengal&strek;land&strek;o</label>
+<item> Barata ŝtato, en la orienta parto de Barato, ĉe la Bengala Golfo. Internacia landerokodaĵo: IN‑WB.</item>
+<label lang="eo">bengal&strek;a</label>
+<item> Rilata al bengaloj, la bengala lingvo aŭ Bengallando: bengala fajro (artfajraĵo); bengala tigro; Bengala Golfo; ni povas nun traduki inter 64 malsamaj lingvoj […] kiel la bengala (Kalocsay).</item>
+</list></item>
+
+<label lang="eo">Benin&strek;o</label>
+<item> Lando en Okcident‑Afriko, inter Togolando kaj Niĝerio. Internacia landokodaĵo: BJ.</item>
+
+<label lang="eo">Beograd&strek;o</label>
+<item> La ĉefurbo de Serbujo, kaj inter la jaroj 1918 kaj 2003 de Jugoslavujo.</item>
+
+<label lang="eo">Bergen&strek;o</label>
+<item> Havenurbo en la sudokcidenta parto de Norvegujo.</item>
+
+<label lang="eo">Bern&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en okcidenta Svislando, la sidejo de la svisaj parlamento kaj registaro</item>
+<item n="2">Kantono en Svislando, kies ĉefurbo estas Berno 1. Internacia landerokodaĵo: CH‑BE.</item>
+</list></item>
+
+<label lang="eo">Bisaŭ&strek;o</label>
+<item> La ĉefurbo de Gvineo‑Bisaŭo.</item>
+
+<label lang="eo">Bizanc&strek;o</label>
+<item> Antikva greka urbo, ĉe Bosporo; alinomita Konstantinopolo en la jaro 330.</item>
+
+<label lang="eo">Bjalistok&strek;o</label>
+<item> Urbo en nordorienta Pollando, la naskiĝloko de Zamenhof.</item>
+
+<label lang="eo">Bocvan&strek;o</label>
+<item> Lando en suda Afriko, oriente de Namibio kaj norde de Sud‑Afriko. Internacia landokodaĵo: BW.</item>
+
+<label lang="eo">Bogot&strek;o</label>
+<item> La ĉefurbo de Kolombio.</item>
+
+<label lang="eo">bohem&strek;o</label>
+<item> Ano de Bohemujo.
+<list type="deriv">
+<label lang="eo">Bohem&strek;uj&strek;o</label>
+<item> Okcidenta parto de Ĉeĥujo, iama reĝlando.</item>
+</list></item>
+
+<label lang="eo">Bolonj&strek;o</label>
+<item> Universitata urbo en la norda parto de Italujo, inter Florenco kaj Venecio.</item>
+
+<label lang="eo">Bon&strek;aer&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Argentino</item>
+<item n="2">Provinco de Argentino, en kiu situas Bonaero 1. Internacia landerokodaĵo: AR‑B.</item>
+</list></item>
+
+<label lang="eo">bord&strek;o</label>
+<item> (FdE)
+<list type="deriv">
+<label lang="eo">Ebur‑Bord&strek;o</label>
+<item> Lando en Okcident‑Afriko, inter Ganao kaj Liberio. Internacia landokodaĵo: CI.</item>
+<label lang="eo">Lazur&strek;a Bord&strek;o</label>
+<item> La mediteranea bordo de sudorienta Francujo.</item>
+</list></item>
+
+<label lang="eo">Borne&strek;o</label>
+<item> Insulo en sudorienta Azio, dividita inter Malajzio, Brunejo kaj Indonezio.</item>
+
+<label lang="eo">bosn&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Bosnujo kaj Hercegovino, parolanta sudslavan lingvon (internacia lingvokodaĵo: bos)</item>
+<item n="2">Ano de Bosnujo kaj Hercegovino.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Bosn&strek;uj&strek;o</label>
+<item> Regiono de la Balkana Duoninsulo, la norda parto de Bosnujo kaj Hercegovino.</item>
+<label lang="eo">Bosn&strek;uj&strek;o kaj Hercegovin&strek;o</label>
+<item> Lando en la Balkana Duoninsulo. Internacia landokodaĵo: BA.</item>
+<label lang="eo">bosn&strek;a</label>
+<item> Rilata al bosnoj, la bosna lingvo, Bosnujo, aŭ Bosnujo kaj Hercegovino.</item>
+</list></item>
+
+<label lang="eo">Bospor&strek;o</label>
+<item> Markolo en nordokcidenta Turkujo, liganta la Nigran Maron kun la Marmora Maro kaj formanta la limon inter Eŭropo kaj Malgrand‑Azio.</item>
+
+<label lang="eo">Boston&strek;o</label>
+<item> Havenurbo en la nordorienta parto de Usono, ĉe Atlantiko.</item>
+
+<label lang="eo">Brajton&strek;o</label>
+<item> Havenurbo en sudorienta Anglujo.</item>
+
+<label lang="eo">Bratislav&strek;o</label>
+<item> La ĉefurbo de Slovakujo.</item>
+
+<label lang="eo">Brazavil&strek;o</label>
+<item> La ĉefurbo de Respubliko Kongo (Kongo Brazavila).</item>
+
+<label lang="eo">Brazilj&strek;o</label>
+<item> La ĉefurbo de Brazilo.</item>
+
+<label lang="eo">breton&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Bretonujo, parolanta precipe la francan, dum malplimulto parolas la bretonan lingvon de kelta origino (internacia lingvokodaĵo: bre)</item>
+<item n="2">Ano de Bretonujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Breton&strek;uj&strek;o</label>
+<item> Duoninsula regiono en nordokcidenta Francujo. Internacia landerokodaĵo: FR‑BRE.</item>
+<label lang="eo">breton&strek;a</label>
+<item> Rilata al bretonoj, la bretona lingvo aŭ Bretonujo.</item>
+</list></item>
+
+<label lang="eo">Brunej&strek;o</label>
+<item> Lando en sudorienta Azio, ĉe la Sudĉina Maro, en la norda parto de Borneo.
+<list type="deriv">
+<label lang="eo">brunej&strek;an&strek;o</label>
+<item> Ano de Brunejo.</item>
+<label lang="eo">brunej&strek;a</label>
+<item> Rilata al brunejanoj, Brunejo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: kxd), parenca al la malaja.</item>
+</list></item>
+
+<label lang="eo">Brusel&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Belgujo</item>
+<item n="2">Regiono de Belgujo, kiu entenas Bruselon 1. Internacia landerokodaĵo: BE‑BRU.</item>
+</list></item>
+
+<label lang="eo">Budapeŝt&strek;o</label>
+<item> La ĉefurbo de Hungarujo.</item>
+
+<label lang="eo">Bukareŝt&strek;o</label>
+<item> La ĉefurbo de Rumanujo.</item>
+
+<label lang="eo">Burkin&strek;o</label>
+<item> Lando en Okcident‑Afriko, norde de Ganao. Internacia landokodaĵo: BF.</item>
+
+<label lang="eo">Burund&strek;o</label>
+<item> Lando en orienta Afriko, inter Tanzanio, Ruando kaj Demokratia Respubliko Kongo. Internacia landokodaĵo: BI.</item>
+
+<label lang="eo">Butan&strek;o</label>
+<item> Lando en Sud‑Azio, ĉe la orienta parto de Himalajo, inter Tibeto kaj Barato. Internacia landokodaĵo: BT.</item>
+
+<label lang="eo">Cezar&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Vira nomo, i.a. de la roma regnestro kaj generalo Gajo Julio Cezaro (100–44 antaŭ nia erao)</item>
+<item n="2">Imperiestra titolo en la Roma Regno: redonu al Cezaro la propraĵon de Cezaro, kaj al Dio la propraĵon de Dio (Nova Testamento).
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">cezar&strek;a</label>
+<item> Rilata al Cezaro: homo estas kiel papilio: li vivas en la suno de la cezara favoro (Lidja Zamenhof).</item>
+</list></item>
+
+<label lang="eo">Ĉad&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda lago oriente de Saharo</item>
+<item n="2">Lando en meza Afriko, ĉe kies okcidenta landlimo troviĝas Ĉado 1. Internacia landokodaĵo: TD.</item>
+</list></item>
+
+<label lang="eo">ĉeĉen&strek;o</label>
+<item> Ano de la ĉefgento de Ĉeĉenujo, parolanta nordorientkaŭkazan lingvon (internacia lingvokodaĵo: che).
+<list type="deriv">
+<label lang="eo">Ĉeĉen&strek;uj&strek;o</label>
+<item> Respubliko en la Rusuja Federacio, norde de Kartvelujo. Internacia landerokodaĵo: RU‑CE. Nacia landerokodaĵo: 20.</item>
+<label lang="eo">ĉeĉen&strek;a</label>
+<item> Rilata al ĉeĉenoj, la ĉeĉena lingvo aŭ Ĉeĉenujo.</item>
+</list></item>
+
+<label lang="eo">ĉeĥ&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Ĉeĥujo, parolanta okcidentslavan lingvon (internacia lingvokodaĵo: ces)</item>
+<item n="2">Ano de Ĉeĥujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Ĉeĥ&strek;uj&strek;o</label>
+<item> Lando en Mez‑Eŭropo, inter Aŭstrujo kaj Pollando. Internacia landokodaĵo: CZ.</item>
+<label lang="eo">ĉeĥ&strek;a</label>
+<item> Rilata al ĉeĥoj, la ĉeĥa lingvo aŭ Ĉeĥujo.</item>
+</list></item>
+
+<label lang="eo">Ĉenaj&strek;o</label>
+<item> La ĉefurbo de la barata ŝtato Tamillando.</item>
+
+<label lang="eo">Ĉikag&strek;o</label>
+<item> Urbo en Usono, ĉe la Grandaj Lagoj.</item>
+
+<label lang="eo">Ĉili&strek;o</label>
+<item> Lando ĉe la okcidenta marbordo de Sud‑Ameriko. Internacia landokodaĵo: CL.</item>
+
+<label lang="eo">ĉin&strek;o</label>
+<item> (9OA)
+<list type="deriv">
+<label lang="eo">Hind&strek;o&strek;ĉin&strek;uj&strek;o</label>
+<item> La duoninsulo en sudorienta Azio, kiu entenas Birmon, Tajlandon, Vjetnamujon, Laoson, Kamboĝon kaj kontinentan Malajzion.</item>
+</list></item>
+
+<label lang="eo">ĉuvaŝ&strek;o</label>
+<item> Ano de la ĉefgento de Ĉuvaŝujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: chv).
+<list type="deriv">
+<label lang="eo">Ĉuvaŝ&strek;uj&strek;o</label>
+<item> Respubliko en la Rusuja Federacio, ĉe Volgo, okcidente de Tatarujo. Internacia landerokodaĵo: RU‑CU. Nacia landerokodaĵo: 21.</item>
+<label lang="eo">ĉuvaŝ&strek;a</label>
+<item> Rilata al ĉuvaŝoj, la ĉuvaŝa lingvo aŭ Ĉuvaŝujo.</item>
+</list></item>
+
+<label lang="eo">Dak&strek;o</label>
+<item> La ĉefurbo de Bangladeŝo.</item>
+
+<label lang="eo">Dalas&strek;o</label>
+<item> Urbo en Usono, en nordorienta Teksaso.</item>
+
+<label lang="eo">Damask&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Sirio</item>
+<item n="2">Gubernio de Sirio, en kiu situas Damasko 1. Internacia landerokodaĵo: SY‑DI.</item>
+</list></item>
+
+<label lang="eo">Dancig&strek;o</label>
+<item> Iama nomo de Gdansko.</item>
+
+<label lang="eo">Danub&strek;o</label>
+<item> Granda eŭropa rivero, kiu fluas de la Nigra Arbaro en Germanujo, tra centra kaj sudorienta Eŭropo, ĝis ĝi enfluas la Nigran Maron.</item>
+
+<label lang="eo">Delhi&strek;o</label>
+<item> Urbo en norda Barato.
+<list type="deriv">
+<label lang="eo">Nov‑Delhi&strek;o</label>
+<item> Urbo en la mezo de Delhio, kiu estas ties administra centro kaj la ĉefurbo de Barato.</item>
+</list></item>
+
+<label lang="eo">Dominik&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en la mezo de Malgrandaj Antiloj</item>
+<item n="2">Lando situanta sur Dominiko 1. Internacia landokodaĵo: DM.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Dominik&strek;a Respublik&strek;o</label>
+<item> Lando en Grandaj Antiloj, en la orienta parto de la insulo, sur kiu situas ankaŭ Haitio. Internacia landokodaĵo: DO.</item>
+</list></item>
+
+<label lang="eo">dravid&strek;o</label>
+<item> Ano de unu el la gentoj parolantaj dravidan lingvon.
+<list type="deriv">
+<label lang="eo">dravid&strek;a</label>
+<item> Rilata al dravidoj aŭ la dravidaj lingvoj.</item>
+<label lang="eo">dravid&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item>
+Lingvofamilio konsistanta el la tamila kaj parencaj lingvoj, parolataj en Srilanko, suda Barato, centra Barato, orienta Barato kaj sudokcidenta Pakistano.</item>
+</list></item>
+
+<label lang="eo">Dresden&strek;o</label>
+<item> Urbo en orienta Germanujo, la ĉefurbo de Saksujo 2.</item>
+
+<label lang="eo">Dublin&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de la respubliko Irlando</item>
+<item n="2">Graflando de la respubliko Irlando, en kiu situas Dublino 1. Internacia landerokodaĵo: IE‑D.</item>
+</list></item>
+
+<label lang="eo">Edinburg&strek;o</label>
+<item> La ĉefurbo de Skotlando.</item>
+
+<label lang="eo">Ege&strek;o</label>
+<item> Mitologia reĝo de Ateno 2.</item>
+
+<label lang="eo">egipt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Egiptujo, parolinta dum antikveco afrikazian lingvon (internacia lingvokodaĵo: egy), sed parolanta nun araban lingvon (internacia lingvokodaĵo: arz)</item>
+<item n="2">Ano de Egiptujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Egipt&strek;uj&strek;o</label>
+<item> Lando en nordorienta Afriko, ĉe Nilo, konata pro sia civilizacio dum antikveco. Internacia landokodaĵo: EG.</item>
+<label lang="eo">egipt&strek;a</label>
+<item> Rilata al egiptoj, la egiptaj lingvoj aŭ Egiptujo: egiptaj piramidoj; egipta vario de la araba lingvo.</item>
+</list></item>
+
+<label lang="eo">Elam&strek;o</label>
+<item> Antikva regno, kiu ekzistis inter la 4‑a kaj 1‑a jarmiloj antaŭ nia erao en parto de la nuntempa Irano, oriente de Tigriso kaj de la Persa Golfo.
+<list type="deriv">
+<label lang="eo">elam&strek;an&strek;o</label>
+<item> Ano de la antikva ĉefgento de Elamo.</item>
+<label lang="eo">elam&strek;a</label>
+<item> Rilata al Elamo, elamanoj aŭ ilia lingvo (internacia lingvokodaĵo: elx).</item>
+</list></item>
+
+<label lang="eo">emir&strek;o</label>
+<item> Titolo de princo, generalo aŭ guberniestro en islamaj landoj.
+<list type="deriv">
+<label lang="eo">emir&strek;land&strek;o</label>
+<item> Teritorio, kies suvereno estas emiro.</item>
+<label lang="eo">Unu&strek;iĝ&strek;int&strek;a&strek;j Arab&strek;a&strek;j Emir&strek;land&strek;o&strek;j</label>
+<item>Federacio de sep emirlandoj sur la Araba Duoninsulo, inter la Persa Golfo kaj la Omana Golfo. Internacia landokodaĵo: AE.</item>
+</list></item>
+
+<label lang="eo">era&strek;o</label>
+<item> Kronologia sistemo, laŭ kiu oni kalkulas la tempon ekde aparta difinita tempopunkto: la kristana erao; la erao de la fondo de Romo. 
+<list type="deriv">
+<label lang="eo">ni&strek;a era&strek;o</label>
+<item> La erao kalkulata ekde la jaro 1 laŭ la gregoria kaj julia kalendaroj (ligita, laŭ tradiciaj kalkuloj, al la naskiĝo de Kristo): Julio Cezaro estis murdita en la jaro 44 antaŭ nia erao.</item>
+</list></item>
+
+<label lang="eo">Eritre&strek;o</label>
+<item> Lando en orienta Afriko, ĉe la Ruĝa Maro, inter Sudano kaj Ĝibutio. Internacia landokodaĵo: ER.</item>
+
+<label lang="eo">etrusk&strek;o</label>
+<item> Ano de la ĉefgento de Etruskujo.
+<list type="deriv">
+<label lang="eo">Etrusk&strek;uj&strek;o</label>
+<item> Antikva regno, kiu ekzistis en la okcidenta parto de meza Italujo dum la unua jarmilo antaŭ nia erao; ĝi fariĝis parto de la Roma Imperio en la jaro 27 antaŭ nia erao.</item>
+<label lang="eo">etrusk&strek;a</label>
+<item> Rilata al etruskoj, la etruska lingvo aŭ Etruskujo.</item>
+</list></item>
+
+<label lang="eo">Eŭfrat&strek;o</label>
+<item> Rivero en okcidenta Mezopotamio, kiu fluas de Turkujo tra Sirio ĝis Irako, kie ĝi kunfluas kun Tigriso ĉirkaŭ 200 kilometrojn nordokcidente de la Persa Golfo.</item>
+
+<label lang="eo">Eŭrop&strek;o</label>
+<item> (FdE)
+<list type="deriv">
+<label lang="eo">Mez‑Eŭrop&strek;o</label>
+<item> Regiono de Eŭropo nuntempe plej ofte difinata kiel konsistanta el la landoj Aŭstrujo, Ĉeĥujo, Germanujo, Hungarujo, Kroatujo, Liĥtenŝtejno, Pollando, Slovakujo, Slovenujo kaj Svislando; iafoje estas enkalkulataj ankaŭ kelkaj apudaj landoj. </item>
+<label lang="eo">hind&strek;eŭrop&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item>Familio konsistanta el lingvoj parolataj en preskaŭ ĉiuj partoj de Eŭropo kaj en Irano, Afganujo, Pakistano, norda Barato, Bangladeŝo, Srilanko kaj Maldivoj.</item>
+</list></item>
+
+<label lang="eo">eŭsk&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Eŭskujo 1</item>
+<item n="2">Ano de Eŭskujo 1.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Eŭsk&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Regiono dividita inter Hispanujo kaj Francujo, ĉe la okcidenta parto de Pireneoj</item>
+<item n="2">Aŭtonoma regiono de Hispanujo, formanta la sudokcidentan parton de Eŭskujo 1. Internacia landerokodaĵo: ES‑PV.</item>
+</list></item>
+
+<label lang="eo">eŭsk&strek;a</label>
+<item> Rilata al eŭskoj, ilia lingvo (internacia lingvokodaĵo: eus) aŭ Eŭskujo.</item>
+</list></item>
+
+<label lang="eo">fenic&strek;o</label>
+<item> Ano de la antikva ĉefgento de Fenicujo, parolanta ŝemidan lingvon (internacia lingvokodaĵo: phn).
+<list type="deriv">
+<label lang="eo">Fenic&strek;uj&strek;o</label>
+<item> Antikva mara imperio, kiu ekzistis ĉe la orienta parto de Mediteraneo, pli‑malpli en la nunaj Libano kaj Sirio, ekde la tria jarmilo antaŭ nia erao; ĝi estis konkerita de la Roma Regno en la jaro 64 antaŭ nia erao.</item>
+<label lang="eo">fenic&strek;a</label>
+<item> Rilata al fenicoj, la fenica lingvo aŭ Fenicujo: el la fenica alfabeto fontas la postaj hebrea, greka, latina kaj araba alfabetoj.</item>
+</list></item>
+
+<label lang="eo">Fiĝi&strek;o</label>
+<item> Insulara lando en la orienta parto de Melanezio, ĉirkaŭ 2000 kilometrojn nord‑nordoriente de Nov‑Zelando. Internacia landokodaĵo: FJ.
+<list type="deriv">
+<label lang="eo">fiĝi&strek;an&strek;o</label>
+<item> Ano de Fiĝio.</item>
+<label lang="eo">fiĝi&strek;a</label>
+<item> Rilata al fiĝianoj, Fiĝio aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: fij).</item>
+</list></item>
+
+<label lang="eo">Filadelfi&strek;o</label>
+<item> Havenurbo en Usono, sudokcidente de Nov‑Jorko.</item>
+
+<label lang="eo">Filipin&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Insularo en okcidenta Pacifiko</item>
+<item n="2">Lando, kiu okupas Filipinojn 1. Internacia landokodaĵo: PH.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">filipin&strek;an&strek;o</label>
+<item> Ano de Filipinoj.</item>
+<label lang="eo">filipin&strek;a</label>
+<item> Rilata al filipinanoj, Filipinoj aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: fil).</item>
+</list></item>
+
+<label lang="eo">filiŝt&strek;o</label>
+<item> Ano de antikva popolo, loĝanta en teritorio ĉe Mediteraneo, okcidente de la Morta Maro, hodiaŭ parto de Egiptujo, Palestino kaj Israelo.
+<list type="deriv">
+<label lang="eo">Filiŝt&strek;uj&strek;o</label>
+<item> Antikva regno, federacio de pluraj filiŝtaj urboŝtatoj, kiu ekzistis, ĝis la dua Babilona Imperio ĝin konkeris en la jaro 604 antaŭ nia erao.</item>
+</list></item>
+
+<label lang="eo">finn&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de ĉefgento de Finnlando, parolanta uralan lingvon (internacia lingvokodaĵo: fin)</item>
+<item n="2">Ano de Finnlando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Finn&strek;land&strek;o</label>
+<item> Lando en norda Eŭropo, nordoriente de la Balta Maro. Internacia landokodaĵo: FI.</item>
+<label lang="eo">finn&strek;a</label>
+<item> Rilata al finnoj, la finna lingvo aŭ Finnlando.</item>
+</list></item>
+
+<label lang="eo">flandr&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Flandrujo, parolanta la nederlandan lingvon</item>
+<item n="2">Ano de Flandrujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Flandr&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Iama graflando, nun dividita inter Nederlando, Belgujo kaj Francujo</item>
+<item n="2">Regiono de Belgujo; ties norda, nederlandlingva parto. Internacia landerokodaĵo: BE‑VLG.</item>
+</list></item>
+
+<label lang="eo">flandr&strek;a</label>
+<item> Rilata al flandroj, la flandra vario de la nederlanda lingvo aŭ Flandrujo.</item>
+</list></item>
+
+<label lang="eo">Florenc&strek;o</label>
+<item> Urbo en centra Italujo, inter 1865 kaj 1871 la ĉefurbo de Italujo.</item>
+
+<label lang="eo">Florid&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Duoninsulo, en la sudoriento de Nord‑Ameriko</item>
+<item n="2">Usona ŝtato, kiu okupas Floridon 1. Internacia landerokodaĵo: US‑FL.</item>
+</list></item>
+
+<label lang="eo">Fortalez&strek;o</label>
+<item> Havenurbo en la nordorienta parto de Brazilo.</item>
+
+<label lang="eo">Frankfurt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en sudokcidenta Germanujo, ĉe la rivero Majno (Frankfurt&strek;o ĉe Majn&strek;o)</item>
+<item n="2">Urbo en orienta Germanujo, apud la pola landlimo, ĉe la rivero Odro (Frankfurt&strek;o ĉe Odr&strek;o).</item>
+</list></item>
+
+<label lang="eo">Friul&strek;o</label>
+<item> Regiono en nordorienta Italujo.
+<list type="deriv">
+<label lang="eo">friul&strek;an&strek;o</label>
+<item> Ano de Friulo.</item>
+<label lang="eo">friul&strek;a</label>
+<item> Rilata al friulanoj, Friulo aŭ la latinida lingvo tie parolata (internacia lingvokodaĵo: fur).</item>
+</list></item>
+
+<label lang="eo">Gabon&strek;o</label>
+<item> Lando en meza Afriko, okcidente de Respubliko Kongo. Internacia landokodaĵo: GA.</item>
+
+<label lang="eo">gael&strek;o</label>
+<item> Ano de kelta popolo, loĝanta en Skotlando kaj Irlando.
+<list type="deriv">
+<label lang="eo">gael&strek;a</label>
+<item> Rilata al gaeloj, la kelta lingvo de Skotlando (internacia lingvokodaĵo: gla) aŭ la okcidenta branĉo de la keltaj lingvoj, al kiu apartenas la irlanda (internacia lingvokodaĵo: gle).</item>
+</list></item>
+
+<label lang="eo">Gaj&strek;o</label>
+<item> Vira nomo, en la periodo de la Roma Regno.</item>
+
+<label lang="eo">galeg&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Galegujo, parolanta iberolatinidan lingvon (internacia lingvokodaĵo: glg)</item>
+<item n="2">Ano de Galegujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Galeg&strek;uj&strek;o</label>
+<item> Aŭtonoma regiono en la nordokcidenta parto de Hispanujo. Internacia landerokodaĵo: ES‑GA.</item>
+<label lang="eo">galeg&strek;a</label>
+<item> Rilata al galegoj, la galega lingvo aŭ Galegujo.</item>
+</list></item>
+
+<label lang="eo">Galici&strek;o</label>
+<item> Regiono norde de Karpatoj, dividita inter Pollando kaj Ukrainujo.</item>
+
+<label lang="eo">Galile&strek;o</label>
+<item> Regiono en la nordo de Palestino kaj la sudo de Libano, kie Jesuo predikis komence.</item>
+
+<label lang="eo">Gambi&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda rivero en Okcident‑Afriko, kiu fluas de norda Gvineo tra Senegalo ĝis Gambio 2, kie ĝi enfluas Atlantikon</item>
+<item n="2">Lando en Okcident‑Afriko, preskaŭ tute ĉirkaŭata de Senegalo. Internacia landokodaĵo: GM.</item>
+</list></item>
+
+<label lang="eo">Gana&strek;o</label>
+<item> Lando en Okcident‑Afriko, ĉe la Gvinea Golfo. Internacia landokodaĵo: GH.</item>
+
+<label lang="eo">Gang&strek;o</label>
+<item> Granda rivero en Barato kaj Bangladeŝo, rigardata de la hinduoj kiel sankta.</item>
+
+<label lang="eo">gaŭl&strek;o</label>
+<item> Ano de grupo da antikvaj popoloj, parolanta keltan lingvon (internacia lingvokodaĵo: xtg, xcg) kaj loĝantaj en Gaŭlujo.
+<list type="deriv">
+<label lang="eo">Gaŭl&strek;uj&strek;o</label>
+<item> Parto de okcidenta Eŭropo, responda pli‑malpli al la nunaj Francujo, Belgujo, Luksemburgo, okcidenta Svislando, norda Italujo kaj la parto de Germanujo okcidente de Rejno; ĝin konkeris la Roma Regno en la 2‑a kaj 1‑a jarcentoj antaŭ nia erao.</item>
+<label lang="eo">gaŭl&strek;a</label>
+<item> Rilata al gaŭloj, la gaŭla lingvo aŭ Gaŭlujo.</item>
+</list></item>
+
+<label lang="eo">Gdansk&strek;o</label>
+<item> Havenurbo en Pollando, ĉe la Balta Maro.</item>
+
+<label lang="eo">golf&strek;o</label>
+<item> (FdE)
+<list type="deriv">
+<label lang="eo">Aden&strek;a Golf&strek;o</label>
+<item> Parto de la Hinda Oceano, inter Somalujo kaj Jemeno, kiu ligas la Ruĝan Maron al la Araba Maro.</item>
+<label lang="eo">Alask&strek;a Golf&strek;o</label>
+<item> Parto de Pacifiko, ĉe la suda marbordo de Alasko.</item>
+<label lang="eo">Bengal&strek;a Golf&strek;o</label>
+<item> Nordorienta parto de la Hinda Oceano, oriente de Barato kaj sude de Bangladeŝo.</item>
+<label lang="eo">Gvine&strek;a Golf&strek;o</label>
+<item> Parto de Atlantiko, ĉe la suda bordo de Okcident‑Afriko.</item>
+<label lang="eo">Kaliforni&strek;a Golf&strek;o</label>
+<item> Randa maro de Pacifiko, inter la Kalifornia Duoninsulo kaj la meksika ĉeftero.</item>
+<label lang="eo">Meksik&strek;a Golf&strek;o</label>
+<item> Maro formanta parton de Atlantiko, ĉirkaŭata precipe de Kubo kaj la nord‑amerika kontinento.</item>
+<label lang="eo">Oman&strek;a Golf&strek;o</label>
+<item> Golfo nordoriente de Omano, liganta la Araban Maron kun la Persa Golfo.</item>
+<label lang="eo">Pers&strek;a Golf&strek;o</label>
+<item> Interna maro en okcidenta Azio, inter Irano kaj la Araba Duoninsulo.</item>
+<label lang="eo">Taj&strek;land&strek;a Golf&strek;o</label>
+<item> Okcidenta parto de la Sudĉina Maro, sudokcidente de Hindoĉinujo.</item>
+</list></item>
+
+<label lang="eo">got&strek;o</label>
+<item> Ano de tribo parolanta ĝermanan lingvon (internacia lingvokodaĵo: got), kiu invadis la Roman Imperion inter la 3‑a kaj 5‑a jarcentoj.
+<list type="deriv">
+<label lang="eo">got&strek;a</label>
+<item> Rilata al gotoj aŭ la gota lingvo.</item>
+</list></item>
+
+<label lang="eo">Gotenburg&strek;o</label>
+<item> Havenurbo ĉe la okcidenta marbordo de Svedujo.</item>
+
+<label lang="eo">Gregori&strek;o</label>
+<item> Vira nomo, i.a. de pluraj antikvaj kaj mezepokaj ekleziuloj kaj papoj.
+<list type="deriv">
+<label lang="eo">gregori&strek;a</label>
+<item> Rilata al unu el la Gregorioj.</item>
+<label lang="eo">gregori&strek;a kalendar&strek;o</label>
+<item> Kalendaro enkondukita de papo Gregorio la 13‑a en la jaro 1582 por anstataŭi la julian kalendaron.</item>
+</list></item>
+
+<label lang="eo">Grenad&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulara lando en la suda parto de Malgrandaj Antiloj. Internacia landokodaĵo: GD</item>
+<item n="2">La ĉefa insulo de Grenado 1.</item>
+</list></item>
+
+<label lang="eo">Grenadin&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Insularo inter la insuloj Sankta Vincento kaj Grenado 2, kies norda parto apartenas al la lando Sankta Vincento kaj Grenadinoj, dum la suda parto apartenas al Grenado 1</item>
+<item n="2">Paroĥo de Sankta Vincento kaj Grenadinoj, situanta sur Grenadinoj 1. Internacia landerokodaĵo: VC‑06.</item>
+</list></item>
+
+<label lang="eo">Grizon&strek;o</label>
+<item> Kantono de Svislando, en ties sudorienta parto, inter Liĥtenŝtejno kaj Italujo. Internacia landerokodaĵo: CH‑GR.</item>
+
+<label lang="eo">Gronland&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda insulo inter Atlantiko kaj la Arkta Oceano, oriente de norda Kanado, plejparte kovrita de glacio kaj loĝata precipe de inuitoj</item>
+<item n="2">Dependa teritorio de Danujo, situanta sur Gronlando 1. Internacia landokodaĵo: GL.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">gronland&strek;an&strek;o</label>
+<item> Ano de Gronlando.</item>
+<label lang="eo">gronland&strek;a</label>
+<item> Rilata al gronlandanoj, Gronlando aŭ la inuita lingvo tie parolata (internacia lingvokodaĵo: kal).</item>
+</list></item>
+
+<label lang="eo">guĝarat&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Guĝaratlando, parolanta sanskritidan lingvon (internacia lingvokodaĵo: guj)</item>
+<item n="2">Ano de Guĝaratlando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Guĝarat&strek;land&strek;o</label>
+<item> Barata ŝtato, en la okcidenta parto de Barato, ĉe la Araba Maro. Internacia landerokodaĵo: IN‑GJ.</item>
+<label lang="eo">guĝarat&strek;a</label>
+<item> Rilata al guĝaratoj, la guĝarata lingvo aŭ Guĝaratlando.</item>
+</list></item>
+
+<label lang="eo">Gujan&strek;o</label>
+<item> Lando en la nordorienta parto de Sud‑Ameriko, inter Venezuelo kaj Surinamo. Internacia landokodaĵo: GY. 
+<list type="deriv">
+<label lang="eo">Franc&strek;a Gujan&strek;o</label>
+<item> Regiono kaj transmara departemento de Francujo, en la nordorienta parto de Sud‑Ameriko. Internacia land(er)okodaĵo: GF, FR‑973.</item>
+</list></item>
+
+<label lang="eo">Gvadelup&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insularo en la mezo de Malgrandaj Antiloj, inter Dominiko kaj Antigvo</item>
+<item n="2">Regiono kaj transmara departemento de Francujo, sur Gvadelupo 1. Internacia land(er)okodaĵo: GP, FR‑971.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">gvadelup&strek;an&strek;o</label>
+<item> Ano de Gvadelupo.</item>
+<label lang="eo">gvadelup&strek;a</label>
+<item> Rilata al gvadelupanoj, Gvadelupo aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: gcf), bazita sur la franca.</item>
+</list></item>
+
+<label lang="eo">Gvine&strek;o</label>
+<item> (8OA) Lando en Okcident‑Afriko. Internacia landokodaĵo: GN.
+<list type="deriv">
+<label lang="eo">Gvine&strek;o‑Bisaŭ&strek;o</label>
+<item> Lando en Okcident‑Afriko, inter Senegalo kaj Gvineo. Internacia landokodaĵo: GW.</item>
+<label lang="eo">Ekvator&strek;a Gvine&strek;o</label>
+<item> Lando en meza Afriko, inter Kameruno kaj Gabono. Internacia landokodaĵo: GQ.</item>
+<label lang="eo">Nov‑Gvine&strek;o</label>
+<item> Granda insulo norde de Aŭstralio.</item>
+</list></item>
+
+<label lang="eo">Ĝakart&strek;o</label>
+<item> La ĉefurbo de Indonezio.</item>
+
+<label lang="eo">Ĝenev&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en la sudokcidenta parto de Svislando</item>
+<item n="2">Kantono de Svislando, kies ĉefurbo estas Ĝenevo 1. Internacia landerokodaĵo: CH‑GE.</item>
+</list></item>
+
+<label lang="eo">ĝerman&strek;o</label>
+<item> Ano de historia gentaro, de kiu devenas la nuntempaj germanoj, nederlandanoj, angloj, svedoj, norvegoj, danoj kaj aliaj.
+<list type="deriv">
+<label lang="eo">Ĝerman&strek;uj&strek;o</label>
+<item> Parto de Eŭropo, oriente de Rejno kaj norde de Danubo, en kiu loĝis la ĝermanoj.</item>
+<label lang="eo">ĝerman&strek;a</label>
+<item> Rilata al ĝermanoj aŭ la ĝermanaj lingvoj.</item>
+</list></item>
+
+<label lang="eo">Ĝibraltar&strek;o</label>
+<item> Dependa teritorio de Britujo, ĉe la suda pinto de la Ibera Duoninsulo. Internacia landokodaĵo: GI.</item>
+
+<label lang="eo">Ĝibuti&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Lando en orienta Afriko, ĉe la suda ekstremaĵo de la Ruĝa Maro. Internacia landokodaĵo: DJ</item>
+<item n="2">La ĉefurbo de Ĝibutio 1.</item>
+</list></item>
+
+<label lang="eo">Hag&strek;o</label>
+<item> Urbo en Nederlando, en Sud‑Holando, sidejo de la nederlandaj parlamento kaj registaro.</item>
+
+<label lang="eo">Haiti&strek;o</label>
+<item> Lando en Grandaj Antiloj, en la okcidenta parto de la insulo, sur kiu situas ankaŭ Dominika Respubliko. Internacia landokodaĵo: HT.
+<list type="deriv">
+<label lang="eo">haiti&strek;an&strek;o</label>
+<item> Ano de Haitio.</item>
+<label lang="eo">haiti&strek;a</label>
+<item> Rilata al haitianoj, Haitio aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: hat), bazita sur la franca.</item>
+</list></item>
+
+<label lang="eo">Hamburg&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en norda Germanujo</item>
+<item n="2">Germana federacia lando, en kiu situas Hamburgo 1. Internacia landerokodaĵo: DE‑HH.</item>
+</list></item>
+
+<label lang="eo">Hanoj&strek;o</label>
+<item> La ĉefurbo de Vjetnamujo.</item>
+
+<label lang="eo">Havaj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La plej granda insulo de la Havaja Insularo</item>
+<item n="2">Usona ŝtato, kiu okupas la Havajan Insularon preskaŭ tute. Internacia landerokodaĵo: US‑HI.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">havaj&strek;an&strek;o</label>
+<item> Ano de Havajo.</item>
+<label lang="eo">havaj&strek;a</label>
+<item> Rilata al havajanoj, Havajo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: haw).</item>
+</list></item>
+
+<label lang="eo">Havan&strek;o</label>
+<item> La ĉefurbo de Kubo.</item>
+
+<label lang="eo">Helsink&strek;o</label>
+<item> La ĉefurbo de Finnlando.</item>
+
+<label lang="eo">Hercegovin&strek;o</label>
+<item> Regiono sur la Balkana Duoninsulo, la suda parto de Bosnujo kaj Hercegovino.</item>
+
+<label lang="eo">Himalaj&strek;o</label>
+<item> Montaro, kun la plej altaj pintoj en la mondo, norde de la hinda subkontinento.</item>
+
+<label lang="eo">hind&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de unu el la gentoj de la hinda subkontinento, precipe en kuntekstoj, en kiuj temas pri historia periodo antaŭ la fondiĝo de la modernaj sendependaj sud‑aziaj ŝtatoj</item>
+<item n="2">Baratano.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Hind&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La hinda subkontinento: la ideo de Kolumbo, ke devas ekzisti okcidenta vojo Hindujon (Zamenhof)</item>
+<item n="2">La Brita Hinda Imperio, kiu situis en Hindujo 1</item>
+<item n="3">Barato.</item>
+</list></item>
+
+<label lang="eo">Brit&strek;a Hind&strek;uj&strek;o</label>
+<item> Tiu parto de la Brita Hinda Imperio, kiu estis sub rekta regado de Britujo (diference de la vasalaj princlandoj ene de tiu imperio).</item>
+<label lang="eo">Nederland&strek;a Hind&strek;uj&strek;o</label>
+<item> Kolonio de Nederlando, kiu situis en la teritorio de la nuna Indonezio.</item>
+<label lang="eo">hind&strek;a</label>
+<item> Rilata al la hinda subkontinento, precipe en kuntekstoj, kie gravas historiaj tradicioj: hinda civilizacio, arto, filozofio; la personaro de “hinda restoracio” en okcidenta lando ofte devenas el Bangladeŝo aŭ Pakistano.</item>
+</list></item>
+
+<label lang="eo">hindi&strek;a</label>
+<item> Sanskritida lingvo parolata en norda Barato (internacia lingvokodaĵo: hin), kiun karakterizas altnivela uzo de sanskritaj pruntvortoj.</item>
+
+<label lang="eo">hindu&strek;o</label>
+<item> Ano de hinduismo.
+<list type="deriv">
+<label lang="eo">hindu&strek;ism&strek;o</label>
+<item> Politeisma religio, kies sanktaj tekstoj estas en Sanskrito kaj kies anoj plejparte loĝas en Barato kaj Nepalo.</item>
+</list></item>
+
+<label lang="eo">Hiroŝim&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en Japanujo, trafita de usona atombombo la 6‑an de Aŭgusto 1945</item>
+<item n="2">Gubernio de Japanujo, kies ĉefurbo estas Hiroŝimo 1. Internacia landerokodaĵo: JP‑34.</item>
+</list></item>
+
+<label lang="eo">Holand&strek;o</label>
+<item> Parto de Nederlando, laŭlonge de la Norda Maro.
+<list type="deriv">
+<label lang="eo">Nord‑Holand&strek;o</label>
+<item> Provinco en Nederlando, formanta la nordan parton de Holando. Internacia landerokodaĵo: NL‑NH.</item>
+<label lang="eo">Sud‑Holand&strek;o</label>
+<item> Provinco en Nederlando, formanta la sudan parton de Holando. Internacia landerokodaĵo: NL‑ZH.</item>
+</list></item>
+
+<label lang="eo">Hondur&strek;o</label>
+<item> Lando en Centr‑Ameriko, inter Gvatemalo kaj Nikaragvo. Internacia landokodaĵo: HN.</item>
+
+<label lang="eo">Honkong&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en suda Ĉinujo, en la norda parto de la Sudĉina Maro</item>
+<item n="2">Urbo en Ĉinujo, kies suda parto estas Honkongo 1</item>
+<item n="3">Teritorio kun speciala statuso en suda Ĉinujo, en kiu situas Honkongo 2. Internacia land(er)okodaĵo: HK, CN‑HK.</item>
+</list></item>
+
+<label lang="eo">Honŝu&strek;o</label>
+<item> La ĉefa insulo de la japana insularo.</item>
+
+<label lang="eo">hun&strek;o</label>
+<item> Ano de azia popolo, kiu invadis Eŭropon en la 4‑a kaj 5‑a jarcentoj.</item>
+
+<label lang="eo">ĥalde&strek;o</label>
+<item> Ano de la asiria ĉefgento de Ĥaldeujo, parolanta ŝemidan lingvon.
+<list type="deriv">
+<label lang="eo">Ĥalde&strek;uj&strek;o</label>
+<item> Regno en la sudorienta parto de Mezopotamio, kiu formiĝis en la 10‑a jarcento antaŭ nia erao; asimilita al la dua Babilona Imperio en la 6‑a jarcento antaŭ nia erao.</item>
+<label lang="eo">ĥalde&strek;a</label>
+<item> Rilata al ĥaldeoj, la ĥaldea lingvo aŭ Ĥaldeujo.</item>
+</list></item>
+
+<label lang="eo">iber&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de iu el la popoloj, kiuj loĝis en Iberujo dum la prahistorio</item>
+<item n="2">Ano de iu el la nunaj landoj de Iberujo.</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Iber&strek;uj&strek;o</label>
+<item> Ibera Duoninsulo.</item>
+<label lang="eo">iber&strek;a</label>
+<item> Rilata al iberoj, iberaj lingvoj aŭ Iberujo: ibera skolo de Esperanta literaturo.</item>
+</list></item>
+
+<label lang="eo">imperi&strek;o</label>
+<item> (FdE) 
+<list type="deriv">
+<label lang="eo">Akad&strek;a Imperi&strek;o</label>
+<item> Imperio regata de Akado, kiu disfloris en Mezopotamio inter la 24‑a kaj 22‑a jarcentoj antaŭ nia erao.</item>
+<label lang="eo">Babilon&strek;a Imperi&strek;o</label>
+<item> Ĉiu el la imperioj en Mezopotamio regataj de Babilono inter la 2‑a jarmilo kaj la jaro 539 antaŭ nia erao.</item>
+<label lang="eo">Bizanc&strek;a Imperi&strek;o</label>
+<item> Imperio regata de Konstantinopolo kaj ekzistanta de la jaro 395 ĝis la jaro 1453; la orienta parto de la Roma Imperio post ties divido.</item>
+<label lang="eo">Inka&strek;a Imperi&strek;o</label>
+<item> La plej granda imperio en Ameriko antaŭ la invado de la hispanoj, ekestinta en la altaj regionoj de la nuna Peruo, kaj fine ampleksinta grandan parton de la Pacifika flanko de Sud‑Ameriko.</item>
+<label lang="eo">Otoman&strek;a Imperi&strek;o</label>
+<item> Imperio, kiu regis super grandaj partoj de sudorienta Eŭropo, okcidenta Azio kaj norda Afriko inter la 14‑a jarcento kaj la jaro 1922; ĝi konkeris la Bizancan Imperion en la jaro 1453.</item>
+<label lang="eo">Pers&strek;a Imperi&strek;o</label>
+<item> Imperio establita en Irano en la jaro 550 antaŭ nia erao, poste ampleksinta grandan teritorion inter Egiptujo, la Balkana Duoninsulo kaj centra Azio, ĝis en la jaro 330 antaŭ nia erao konkeris ĝin Aleksandro la Granda.</item>
+<label lang="eo">Rom&strek;a Imperi&strek;o</label>
+<item> Imperia formo de la Roma Regno ekde la jaro 27 antaŭ nia erao.</item>
+</list></item>
+
+<label lang="eo">Indonezi&strek;o</label>
+<item> Lando sude de kontinenta Azio, konsistanta precipe el Sumatro, Javo, la suda parto de Borneo, kaj la okcidenta parto de Nov‑Gvineo. Internacia landokodaĵo: ID.
+<list type="deriv">
+<label lang="eo">indonezi&strek;an&strek;o</label>
+<item> Ano de Indonezio.</item>
+<label lang="eo">indonezi&strek;a</label>
+<item> Rilata al indonezianoj, Indonezio aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: ind).</item>
+</list></item>
+
+<label lang="eo">Indus&strek;o</label>
+<item> Granda rivero en Sud‑Azio, fluanta de Tibeto tra Kaŝmiro kaj Pakistano, kie ĝi enfluas la Araban Maron apud Karaĉio.</item>
+
+<label lang="eo">inka&strek;o</label>
+<item> Ano de la popolo de la Inkaa Imperio.
+<list type="deriv">
+<label lang="eo">inka&strek;a</label>
+<item> Rilata al inkaoj aŭ la Inkaa Imperio.</item>
+</list></item>
+
+<label lang="eo">insul&strek;o</label>
+<item> (FdE) 
+<list type="deriv">
+<label lang="eo">Arab&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Duoninsulo en okcidenta Azio, nordoriente de Afriko, inter la Ruĝa Maro, la Araba Maro, la Omana Golfo kaj la Persa Golfo.</item>
+<label lang="eo">Balkan&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Duoninsulo en sudorienta Eŭropo, inter Adriatiko, la Egea Maro, Mediteraneo kaj la Nigra Maro.</item>
+<label lang="eo">Iber&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Duoninsulo en sudokcidenta Eŭropo, sude de Pireneoj.</item>
+<label lang="eo">Ital&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Sudeŭropa mediteranea duoninsulo, sur kiu situas granda parto de Italujo, Sanmarino kaj Vatikano.</item>
+<label lang="eo">Kaliforni&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Duoninsulo en nordokcidenta Meksiko, etendiĝanta sude de la usona landlimo, laŭlonge de Pacifiko.</item>
+<label lang="eo">Kore&strek;a Du&strek;on&strek;insul&strek;o</label>
+<item> Duoninsulo en orienta Azio, inter la Flava Maro kaj la Japana Maro.</item>
+<label lang="eo">Havaj&strek;a Insul&strek;ar&strek;o</label>
+<item> Insularo en la norda parto de Polinezio, ĉirkaŭ 3650 kilometrojn okcidente de la nord‑amerika kontinento.</item>
+<label lang="eo">Kajman&strek;a Insul&strek;ar&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insularo sude de Kubo kaj nordoriente de Honduro, en Grandaj Antiloj</item>
+<item n="2">Transmara teritorio de Britujo, en la okcidenta parto de la Kariba Maro, sur la Kajmana Insularo 1. Internacia landokodaĵo: KY.</item>
+</list></item>
+</list></item>
+
+<label lang="eo">inuit&strek;o</label>
+<item> Ano de grupo de indiĝenaj popoloj, loĝantaj en Gronlando, Kanado kaj Alasko.</item>
+
+<label lang="eo">islam&strek;o</label>
+<item> Religio, kies sankta libro estas la Korano.
+<list type="deriv">
+<label lang="eo">islam&strek;an&strek;o</label>
+<item> Kredanto de islamo.</item>
+</list></item>
+
+<label lang="eo">Istanbul&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo ĉe Bosporo, kies historia centro situas en la eŭropa parto de Turkujo</item>
+<item n="2">Provinco de Turkujo, en kiu situas Istanbulo 1. Internacia landerokodaĵo: TR‑34.</item>
+</list></item>
+
+<label lang="eo">Jamajk&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en Grandaj Antiloj, sude de Kubo</item>
+<item n="2">Lando sur Jamajko 1. Internacia landokodaĵo: JM.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">jamajk&strek;an&strek;o</label>
+<item> Ano de Jamajko.</item>
+<label lang="eo">jamajk&strek;a</label>
+<item> Rilata al jamajkanoj, Jamajko aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: jam), bazita sur la angla.</item>
+</list></item>
+
+<label lang="eo">Jav&strek;o</label>
+<item> La ĉefa insulo de Indonezio.
+<list type="deriv">
+<label lang="eo">jav&strek;an&strek;o</label>
+<item> Ano de Javo.</item>
+<label lang="eo">jav&strek;a</label>
+<item> Rilata al javanoj, Javo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: jav): java homo (speco de prahomo).</item>
+</list></item>
+
+<label lang="eo">Jemen&strek;o</label>
+<item> Lando en la sudokcidenta parto de la Araba Duoninsulo. Internacia landokodaĵo: YE.</item>
+
+<label lang="eo">Jerusalem&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo situanta sur altebenaĵo inter Mediteraneo kaj la Morta Maro; sankta urbo de la religioj hebrea, kristana kaj islama</item>
+<item n="2">Distrikto de Israelo, en kiu situas Jerusalemo 1. Internacia landerokodaĵo: IL‑JM.</item>
+</list></item>
+
+<label lang="eo">Jokoham&strek;o</label>
+<item> Havenurbo en Japanujo, sude de Tokio.</item>
+
+<label lang="eo">Jordan&strek;o</label>
+<item> Rivero, kiu fluas de la limo inter Libano kaj Sirio tra Israelo kaj la Galilea Lago, ĝis ĝi enfluas la Mortan Maron.</item>
+
+<label lang="eo">Jordani&strek;o</label>
+<item> Lando en okcidenta Azio, ĉe la orienta bordo de Jordano. Internacia landokodaĵo: JO.</item>
+
+<label lang="eo">Jork&strek;o</label>
+<item> (FdE) Urbo en nordorienta Anglujo, ĉe la kunfluejo de du riveroj, fondita de la Roma Regno en la jaro 71.
+<list type="deriv">
+<label lang="eo">Nov‑Jork&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Usona ŝtato, en la nordorienta parto de Usono. Internacia landerokodaĵo: US‑NY</item>
+<item n="2">Havenurbo en Usono, ĉe Atlantiko, la plej granda urbo de Nov‑Jorko 1.</item>
+</list></item>
+</list></item>
+
+<label lang="eo">jorub&strek;o</label>
+<item> Ano de la ĉefgento de Jorubolando, parolanta atlantikkongan lingvon (internacia lingvokodaĵo: yor). 
+<list type="deriv">
+<label lang="eo">Jorub&strek;o&strek;land&strek;o, Jorub&strek;uj&strek;o</label>
+<item> Regiono en Okcident‑Afriko, eksa regno, konsistanta el partoj de Niĝerio, Benino kaj Togolando.</item>
+<label lang="eo">jorub&strek;a</label>
+<item> Rilata al joruboj, la joruba lingvo aŭ Jorubolando.</item>
+</list></item>
+
+<label lang="eo">jugoslav&strek;o</label>
+<item> Ano de Jugoslavujo.
+<list type="deriv">
+<label lang="eo">Jugoslav&strek;uj&strek;o</label>
+<item> Inter la jaroj 1918 kaj 2003, federacia regno sur la Balkana Duoninsulo, kiu konsistis el Bosnujo kaj Hercegovino, Kroatujo, Makedonujo 4, Montenegro, Serbujo kaj Slovenujo. Internacia landokodaĵo: YU.</item>
+<label lang="eo">jugoslav&strek;a</label>
+<item> Rilata al jugoslavoj aŭ Jugoslavujo.</item>
+</list></item>
+
+<label lang="eo">Juli&strek;o</label>
+<item> Vira nomo, i.a. de Julio Cezaro. 
+<list type="deriv">
+<label lang="eo">juli&strek;a kalendar&strek;o</label>
+<item> Kalendaro enkondukita de Julio Cezaro en la jaro 46 antaŭ nia erao.</item>
+<label lang="eo">Juli&strek;in&strek;o</label>
+<item> Virina nomo (karesformo: Julinjo).</item>
+</list></item>
+
+<label lang="eo">Kaboverd&strek;o</label>
+<item> Insulara lando en Atlantiko, inter 600 kaj 850 kilometrojn okcidente de Senegalo. Internacia landokodaĵo: CV.
+<list type="deriv">
+<label lang="eo">kaboverd&strek;an&strek;o</label>
+<item> Ano de Kaboverdo.</item>
+<label lang="eo">kaboverd&strek;a</label>
+<item> Rilata al kaboverdanoj, Kaboverdo aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: kea), bazita sur la portugala.</item>
+</list></item>
+
+<label lang="eo">Kair&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Egiptujo</item>
+<item n="2">Gubernio de Egiptujo, en kiu situas Kairo 1. Internacia landerokodaĵo: EG‑C.</item>
+</list></item>
+
+<label lang="eo">kajman&strek;o</label>
+<item> Besto el la sama familio kiel aligatoro, kun dentoj pli longaj kaj pintaj ol ĉi ties, vivanta en meza Ameriko kaj Sud‑Ameriko; ĝin karakterizas ventra kiraso formita de sinkovrantaj dupartaj ostecaj skvamoj kaj manko de osteca naza vando (familio Alligatoridae, subfamilio Caimaninae, precipa genro Caiman).</item>
+
+<label lang="eo">Kaliforni&strek;o</label>
+<item> Usona ŝtato, laŭlonge de Pacifiko. Internacia landerokodaĵo: US‑CA. 
+<list type="deriv">
+<label lang="eo">Mal&strek;supr&strek;a Kaliforni&strek;o</label>
+<item> Meksika ŝtato, en la norda parto de la Kalifornia Duoninsulo. Internacia landerokodaĵo: MX‑BCN.</item>
+<label lang="eo">Sud&strek;a Mal&strek;supr&strek;a Kaliforni&strek;o</label>
+<item> Meksika ŝtato, en la suda parto de la Kalifornia Duoninsulo. Internacia landerokodaĵo: MX‑BCS.</item>
+</list></item>
+
+<label lang="eo">Kamboĝ&strek;o</label>
+<item> Lando en Hindoĉinujo, sude de Laoso, ĉe la Tajlanda Golfo. Internacia landokodaĵo: KH.</item>
+
+<label lang="eo">Kamerun&strek;o</label>
+<item> Lando en meza Afriko, ĉe la Gvinea Golfo, sudoriente de Niĝerio. Internacia landokodaĵo: CM.</item>
+
+<label lang="eo">Kanton&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en suda Ĉinujo, ĉe la norda bordo de la Sudĉina Maro</item>
+<item n="2">Provinco en suda Ĉinujo, kies ĉefurbo estas Kantono 1. Internacia landerokodaĵo: CN‑GD.</item>
+</list></item>
+
+<label lang="eo">Karaĉi&strek;o</label>
+<item> Havenurbo en Pakistano.</item>
+
+<label lang="eo">karib&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ĉeftera karibo</item>
+<item n="2">Insula karibo. 
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">ĉef&strek;ter&strek;a karib&strek;o</label>
+<item> Ano de indiĝena gento vivanta ĉe la riveroj kaj marbordo de la nordokcidenta parto de kontinenta Sud‑Ameriko.</item>
+<label lang="eo">insul&strek;a karib&strek;o</label>
+<item> Ano de indiĝena gento vivanta nun en Dominiko kaj en Sankta Vincento kaj Grenadinoj, sed antaŭe ankaŭ sur aliaj insuloj en la Kariba Maro.</item>
+<label lang="eo">karib&strek;a</label>
+<item> Rilata al kariboj aŭ la karibaj lingvoj.</item>
+</list></item>
+
+<label lang="eo">Karpat&strek;o&strek;j</label>
+<item> Montaro en Mez‑Eŭropo, etendiĝanta arkoforme de Slovakujo ĝis Rumanujo.</item>
+
+<label lang="eo">kartvel&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Kartvelujo, parolanta sudkaŭkazan lingvon (internacia lingvokodaĵo: kat)</item>
+<item n="2">Ano de Kartvelujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Kartvel&strek;uj&strek;o</label>
+<item> Lando sude de Kaŭkazo 1 kaj nordoriente de Turkujo. Internacia landokodaĵo: GE.</item>
+<label lang="eo">kartvel&strek;a</label>
+<item> Rilata al kartveloj, la kartvela lingvo aŭ Kartvelujo.</item>
+</list></item>
+
+<label lang="eo">Kaspi&strek;o</label>
+<item> Interna maro kaj la plej granda lago en la mondo, ĉe la limo inter Eŭropo kaj Azio, en kiun enfluas Volgo.</item>
+
+<label lang="eo">Kaŝmir&strek;o</label>
+<item> Iama hinda reĝlando, nun dividita inter Barato, Pakistano kaj Ĉinujo.
+<list type="deriv">
+<label lang="eo">kaŝmir&strek;an&strek;o</label>
+<item> Ano de Kaŝmiro.</item>
+<label lang="eo">kaŝmir&strek;a</label>
+<item> Rilata al kaŝmiranoj, Kaŝmiro aŭ la sanskritida lingvo tie parolata (internacia lingvokodaĵo: kas).</item>
+</list></item>
+
+<label lang="eo">katalun&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Katalunujo 1, parolanta okcitanlatinidan lingvon (internacia lingvokodaĵo: cat)</item>
+<item n="2">Ano de Katalunujo 1.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Katalun&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Regiono en la nordorienta parto de Iberujo, dividita inter Hispanujo, Francujo kaj Andoro</item>
+<item n="2">Aŭtonoma regiono en nordorienta Hispanujo, parto de Katalunujo 1. Internacia landerokodaĵo: ES‑CT.</item>
+</list></item>
+
+<label lang="eo">katalun&strek;a</label>
+<item> Rilata al katalunoj, la kataluna lingvo aŭ Katalunujo.</item>
+</list></item>
+
+<label lang="eo">Katar&strek;o</label>
+<item> Duoninsula lando en la nordorienta parto de la Araba Duoninsulo, ĉe la Persa Golfo. Internacia landokodaĵo: QA.</item>
+
+<label lang="eo">Katmandu&strek;o</label>
+<item> La ĉefurbo de Nepalo.</item>
+
+<label lang="eo">Kaŭkaz&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Montaro inter la Nigra Maro kaj Kaspio</item>
+<item n="2">Kaŭkazio.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">kaŭkaz&strek;a</label>
+<item> Rilata al Kaŭkazo aŭ la multaj lingvoj parolataj en Kaŭkazio.</item>
+</list></item>
+
+<label lang="eo">Kaŭkazi&strek;o</label>
+<item> Regiono ĉiuflanke de la montaro Kaŭkazo, inter la Nigra Maro kaj Kaspio.</item>
+
+<label lang="eo">kazaĥ&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Kazaĥujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: kaz)</item>
+<item n="2">Ano de Kazaĥujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Kazaĥ&strek;uj&strek;o</label>
+<item> Lando, situanta ĉefe en centra Azio kaj parte en orienta Eŭropo, nordoriente de Kaspio. Internacia landokodaĵo: KZ.</item>
+<label lang="eo">kazaĥ&strek;a</label>
+<item> Rilata al kazaĥoj, la kazaĥa lingvo aŭ Kazaĥujo.</item>
+</list></item>
+
+<label lang="eo">Kebek&strek;o</label>
+<item> Urbo en orienta Kanado.</item>
+
+<label lang="eo">Kebeki&strek;o</label>
+<item> Franclingva provinco de Kanado, kies ĉefurbo estas Kebeko. Internacia landerokodaĵo: CA‑QC. Rimarko: Ĉi tiu oficialigo de “Kebeki&strek;o” ne estu uzata kiel pravigo por la uzado de aliaj Esperantaj nomoj de landoj aŭ subdividoj, kiuj finiĝas per “‑io” malgraŭ manko de internacie uzata nomformo, kiu pravigas tiun esperantigon. “Kebeki&strek;o” estas ĉi‑rilate escepta, ĉar ĉi tiu formo jam estas tiel forte kaj senkonteste enradikiĝinta en la Esperantan lingvouzon, ke ĉi‑okaze la jama lingvouzo pli gravas ol principoj ĝenerale observindaj ĉe esperantigo. Vidu ankaŭ la ĉi‑rilatan klarigon en la sekcio Rekomendoj pri nomoj de landoj kaj iliaj subdividoj de la enkonduko al ĉi tiu dokumento.</item>
+
+<label lang="eo">kelt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de hindeŭropa gentaro, kiu invadis grandan parton de Eŭropo kaj Malgrand‑Azio dum la 3‑a jarcento antaŭ nia erao</item>
+<item n="2">Homo, kiu devenas de keltoj 1 aŭ de regiono, en kiu kelta lingvo estas parolata, aŭ estis parolata en pli moderna tempo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">kelt&strek;a</label>
+<item> Rilata al keltoj aŭ keltaj lingvoj.</item>
+</list></item>
+
+<label lang="eo">Kembriĝ&strek;o</label>
+<item> Universitata urbo en Anglujo, norde de Londono.</item>
+
+<label lang="eo">Kenj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La plej alta monto en Kenjo 2</item>
+<item n="2">Lando en ekvatora orienta Afriko. Internacia landokodaĵo: KE.</item>
+</list></item>
+
+<label lang="eo">kimr&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Kimrujo</item>
+<item n="2">Ano de Kimrujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Kimr&strek;uj&strek;o</label>
+<item> Lando en okcidenta Britujo. Internacia landerokodaĵo: GB‑WLS.</item>
+<label lang="eo">kimr&strek;a</label>
+<item> Rilata al kimroj, ilia lingvo aŭ Kimrujo: kimra lingvo (kelta lingvo, internacia lingvokodaĵo: cym).</item>
+<label lang="eo">Nova Sud‑Kimr&strek;uj&strek;o</label>
+<item> Aŭstralia ŝtato, en la orienta parto de Aŭstralio. Internacia landerokodaĵo: AU‑NSW.</item>
+</list></item>
+
+<label lang="eo">Kinŝas&strek;o</label>
+<item> La ĉefurbo de Demokratia Respubliko Kongo (Kongo Kinŝasa).</item>
+
+<label lang="eo">Kiot&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Eksa ĉefurbo de Japanujo, nordoriente de Osako</item>
+<item n="2">Gubernio de Japanujo, en kiu situas Kioto 1. Internacia landerokodaĵo: JP‑26.</item>
+</list></item>
+
+<label lang="eo">Kipr&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en la orienta parto de Mediteraneo, nordokcidente de Libano</item>
+<item n="2">Lando sur Kipro 1, kies norda parto estas okupata de Turkujo ekde la jaro 1974. Internacia landokodaĵo: CY.</item>
+</list></item>
+
+<label lang="eo">kirgiz&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Kirgizujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: kir)</item>
+<item n="2">Ano de Kirgizujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Kirgiz&strek;uj&strek;o</label>
+<item> Lando en meza Azio, inter Kazaĥujo kaj Ĉinujo. Internacia landokodaĵo: KG.</item>
+<label lang="eo">kirgiz&strek;a</label>
+<item> Rilata al kirgizoj, la kirgiza lingvo aŭ Kirgizujo.</item>
+</list></item>
+
+<label lang="eo">Kiribat&strek;o</label>
+<item> Insulara lando en la sudorienta parto de Mikronezio, ĉe la ekvatoro. Internacia landokodaĵo: KI.</item>
+
+<label lang="eo">Kolkat&strek;o</label>
+<item> Havenurbo en Barato, la ĉefurbo de Okcidenta Bengallando.</item>
+
+<label lang="eo">Kolombi&strek;o</label>
+<item> Lando en la nordokcidenta parto de Sud‑Ameriko, inter Venezuelo kaj Ekvadoro. Internacia landokodaĵo: CO.</item>
+
+<label lang="eo">Kolonj&strek;o</label>
+<item> Urbo en okcidenta Germanujo, ĉe Rejno.</item>
+
+<label lang="eo">Kolorad&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda rivero en la sudokcidenta parto de Nord‑Ameriko, kiu fluas de la Roka Montaro en Kolorado 2 ĝis Kalifornio, kie ĝi fluas laŭlonge de ties sudorienta bordo kaj tra nordokcidenta Meksiko, kie ĝi enfluas la Kalifornian Golfon ĉe ties norda ekstremaĵo</item>
+<item n="2">Usona ŝtato, norde de Nov‑Meksiko. Internacia landerokodaĵo: US‑CO.</item>
+</list></item>
+
+<label lang="eo">Kolumb&strek;o</label>
+<item> Familia nomo, i.a. de la fama esplorvojaĝanto Kristoforo Kolumbo (proks. 1451–1506), kiu ŝipveturis de Eŭropo al Ameriko kvarfoje inter 1492 kaj 1504: ovo de Kolumbo (eltrovaĵo, kiu poste ŝajnas simpla).</item>
+
+<label lang="eo">Komor&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Insularo en sudorienta Afriko, en la Hinda Oceano, oriente de Mozambiko kaj nordokcidente de Madagaskaro</item>
+<item n="2">Lando, kiu okupas grandan parton de Komoroj 1. Internacia landokodaĵo: KM.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Grand&strek;a Komor&strek;o</label>
+<item> La ĉefinsulo de Komoroj 2.</item>
+<label lang="eo">komor&strek;an&strek;o</label>
+<item> Ano de Komoroj.</item>
+<label lang="eo">komor&strek;a</label>
+<item> Rilata al komoranoj, Komoroj aŭ iu el la kvar bantuaj lingvoj tie parolataj (internaciaj lingvokodaĵoj: swb, wlc, wni, zdj).</item>
+</list></item>
+
+<label lang="eo">Kong&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda rivero en meza Afriko</item>
+<item n="2">Mez‑afrika lando oriente de Kongo 1, Demokrati&strek;a Respublik&strek;o Kong&strek;o (Kong&strek;o Kinŝas&strek;a, internacia landokodaĵo: CD)</item>
+<item n="3">Mez‑afrika lando okcidente de Kongo 1, Respublik&strek;o Kong&strek;o (Kong&strek;o Brazavil&strek;a, internacia landokodaĵo: CG).</item>
+</list></item>
+
+<label lang="eo">Konstantinopol&strek;o</label>
+<item> Dua ĉefurbo de la Roma Imperio (330‑395), poste la ĉefurbo de la Bizanca Imperio (395‑1453) kaj de la Otomana Imperio (1453‑1922); antaŭ la jaro 330 nomata Bizanco kaj post 1930 Istanbulo.</item>
+
+<label lang="eo">kontinent&strek;o</label>
+<item> (1OA)
+<list type="deriv">
+<label lang="eo">sub&strek;kontinent&strek;o</label>
+<item> Parto de kontinento, rigardata kiel geologie, geografie aŭ politike aparta regiono.</item>
+<label lang="eo">hind&strek;a sub&strek;kontinent&strek;o</label>
+<item> Regiono de Azio formanta vastan triangulon sude de Himalajo, inter la Araba Maro kaj la Bengala Golfo; ĝi entenas Baraton, Pakistanon, Bangladeŝon, Nepalon kaj Butanon; iafoje ankaŭ Srilanko kaj Maldivoj estas enkalkulataj, precipe en kulturgeografiaj kaj geologiaj kuntekstoj.</item>
+</list></item>
+
+<label lang="eo">Kopenhag&strek;o</label>
+<item> La ĉefurbo de Danujo.</item>
+
+<label lang="eo">kore&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Ano de la ĉefgento de Koreujo, parolanta la korean lingvon (internacia lingvokodaĵo: kor)</item>
+  <item n="2">Ano de Koreujo.
+  </item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Kore&strek;uj&strek;o</label>
+    <item> Lando en orienta Azio, sur la Korea Duoninsulo; de post la jaro 1948, dividita en du landojn: Nord‑Koreujo kaj Sud‑Koreujo.</item>
+    <label lang="eo">Nord‑Kore&strek;uj&strek;o</label>
+    <item> Lando en orienta Azio, al kiu apartenas la norda parto de la Korea Duoninsulo. Internacia landokodaĵo: KP.</item>
+    <label lang="eo">Sud‑Kore&strek;uj&strek;o</label>
+    <item> Lando en orienta Azio, al kiu apartenas la suda parto de la Korea Duoninsulo. Internacia landokodaĵo: KR.</item>
+    <label lang="eo">kore&strek;a</label>
+    <item> Rilata al koreoj, la korea lingvo aŭ Koreujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Kornval&strek;o</label>
+<item>Graflando kaj iama reĝlando en la sudokcidenta parto de Anglujo. Internacia landerokodaĵo: GB‑CON.
+  <list type="deriv">
+    <label lang="eo">kornval&strek;an&strek;o</label>
+    <item> Ano de Kornvalo.</item>
+    <label lang="eo">kornval&strek;a</label>
+    <item> Rilata al kornvalanoj, Kornvalo aŭ la kelta lingvo tie parolata (internacia lingvokodaĵo: cor).</item>
+  </list>
+</item>
+
+<label lang="eo">Korsik&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Insulo de Francujo, en okcidenta Mediteraneo, sudoriente de la kontinenta parto de Francujo</item>
+    <item n="2">Regiono kun speciala statuso, sur Korsiko 1, konsistanta el la departementoj Sud‑Korsiko kaj Supra Korsiko.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">korsik&strek;an&strek;o</label>
+    <item> Ano de Korsiko.</item>
+    <label lang="eo">Sud‑Korsik&strek;o</label>
+    <item> Departemento en Francujo, kiu estas la suda parto de Korsiko 2. Internacia landerokodaĵo: FR‑2A.</item>
+    <label lang="eo">Supr&strek;a Korsik&strek;o</label>
+    <item> Departemento en Francujo, kiu estas la norda parto de Korsiko 2. Internacia landerokodaĵo: FR‑2B.</item>
+    <label lang="eo">korsik&strek;a</label>
+    <item> Rilata al korsikanoj, Korsiko aŭ la italolatinida lingvo tie parolata (internacia lingvokodaĵo: cos).</item>
+  </list>
+</item>
+
+<label lang="eo">Kosov&strek;o</label>
+<item> Lando sur la Balkana Duoninsulo, inter Montenegro kaj Nord‑Makedonujo. Internacia landokodaĵo: XK.</item>
+
+<label lang="eo">Krakov&strek;o</label>
+<item> Urbo en la sudo de Pollando.</item>
+
+<label lang="eo">Krime&strek;o</label>
+<item> Duoninsulo en la norda parto de la Nigra Maro.</item>
+
+<label lang="eo">Kristofor&strek;o</label>
+<item> Vira nomo, i.a. de Kolumbo. 
+  <list type="deriv">
+  <label lang="eo">Sankt&strek;a Kristofor&strek;o</label>
+  <item>
+  <list type="def">
+  <item n="1">La ĉefa insulo de Sankta Kristoforo kaj Neviso</item>
+  <item n="2">Ŝtato de Sankta Kristoforo kaj Neviso, sur Sankta Kristoforo 1. Internacia landerokodaĵo: KN‑K.</item>
+  </list></item>
+</list></item>
+
+<label lang="eo">Sankt&strek;a Kristofor&strek;o kaj Nevis&strek;o</label>
+<item> Insulara lando en la norda parto de Malgrandaj Antiloj, okcidente de Antigvo kaj Barbudo, konsistanta el Sankta Kristoforo 1 kaj la pli malgranda insulo Neviso. Internacia landokodaĵo: KN.</item>
+
+<label lang="eo">kroat&strek;o</label>
+  <item>
+  <list type="def">
+  <item n="1">Ano de la ĉefgento de Kroatujo, parolanta sudslavan lingvon (internacia lingvokodaĵo: hrv)</item>
+  <item n="2">Ano de Kroatujo.</item>
+    </list>
+  <list type="deriv">
+    <label lang="eo">Kroat&strek;uj&strek;o</label>
+    <item> Lando sur la Balkana Duoninsulo, inter Slovenujo, Bosnujo kaj Adriatiko. Internacia landokodaĵo: HR.</item>
+    <label lang="eo">kroat&strek;a</label>
+    <item> Rilata al kroatoj, la kroata lingvo aŭ Kroatujo.</item>
+    <label lang="eo">serb&strek;o&strek;kroat&strek;a</label>
+    <item> Rilata al la bosna, kroata, montenegra kaj serba lingvoj, rigardataj kiel unu lingvo. Internacia lingvokodaĵo: hbs.</item>
+  </list>
+</item>
+
+<label lang="eo">kurd&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Ano de la ĉefgento de Kurdujo, parolanta iranan lingvon (internaciaj lingvokodaĵoj: ckb, kmr, sdh)</item>
+  <item n="2">Ano de Kurdujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Kurd&strek;uj&strek;o</label>
+    <item>
+    <list type="def">
+      <item n="1">Regiono en okcidenta Azio, dividita inter Armenujo, Irano, Irako, Sirio kaj Turkujo, precipe loĝata de kurdoj</item>
+      <item n="2">Provinco de Irano, ĉe la iraka landlimo. Internacia landerokodaĵo: IR‑12</item>
+      <item n="3">Aŭtonoma regiono de Irako, en ties nordorienta parto. Internacia landerokodaĵo: IQ‑KR.</item>
+    </list>
+    </item>
+  </list>
+</item>
+
+<label lang="eo">kurd&strek;a</label>
+<item> Rilata al kurdoj, la kurda lingvo aŭ Kurdujo.</item>
+
+<label lang="eo">Kuvajt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Kuvajto 2</item>
+<item n="2">Lando sur la Araba Duoninsulo, ĉe la norda parto de la Persa Golfo. Internacia landokodaĵo: KW.</item>
+</list></item>
+
+<label lang="eo">lag&strek;o</label>
+<item> (FdE) 
+<list type="deriv">
+<label lang="eo">Galile&strek;a Lag&strek;o</label>
+<item> Lago en la nordorienta parto de Israelo. Grand&strek;a&strek;j Lag&strek;o&strek;j. Kvin grandaj lagoj inter Kanado kaj Usono, en la orienta parto de tiuj landoj.</item>
+</list></item>
+
+<label lang="eo">Lagos&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en sudokcidenta Niĝerio, ĉe la Gvinea Golfo; eksa ĉefurbo de Niĝerio</item>
+<item n="2">Ŝtato de Niĝerio, en ties sudokcidenta parto, ĉe la Gvinea Golfo. Internacia landerokodaĵo: NG‑LA.</item>
+</list></item>
+
+<label lang="eo">Laos&strek;o</label>
+<item> Lando en Hindoĉinujo, inter Tajlando kaj Vjetnamujo. Internacia landokodaĵo: LA.</item>
+
+<label lang="eo">Latin&strek;o</label>
+<item> La lingvo parolata de la antikvaj romanoj (internacia lingvokodaĵo: lat), kaj hodiaŭ ankoraŭ uzata en la romkatolika eklezio kaj en diversaj sciencaj fakoj: (figurasence) venis fino al mia latino (Zamenhof).
+<list type="deriv">
+<label lang="eo">latin&strek;a</label>
+<item> Rilata al Latino: latina traduko; la latina (lingvo).</item>
+<label lang="eo"> latin&strek;id&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item> Lingvoj devenintaj el Latino.</item>
+</list></item>
+
+<label lang="eo">Lesb&strek;o</label>
+<item> Insulo de Grekujo en la Egea Maro, hejmo de la samseksema poetino Sapfo.
+<list type="deriv">
+<label lang="eo">lesb&strek;an&strek;in&strek;o</label>
+<item> (figurasence) Samseksemulino.</item>
+</list></item>
+
+<label lang="eo">Lesot&strek;o</label>
+<item> Lando en suda Afriko, tute ĉirkaŭata de Sud‑Afriko. Internacia landokodaĵo: LS.</item>
+
+<label lang="eo">Liĥtenŝtejn&strek;o</label>
+<item> Lando en Alpoj, inter Aŭstrujo kaj Svislando. Internacia landokodaĵo: LI.</item>
+
+<label lang="eo">Lill&strek;o</label>
+<item> Urbo en norda Francujo, oriente de Bulonjo ĉe Maro, proksima al la belga landlimo.</item>
+
+<label lang="eo">Lisbon&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Portugalujo</item>
+<item n="2">Distrikto de Portugalujo, en kiu situas Lisbono 1. Internacia landerokodaĵo: PT‑11.</item>
+</list></item>
+
+<label lang="eo">litov&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Litovujo, parolanta baltan lingvon (internacia lingvokodaĵo: lit)</item>
+    <item n="2">Ano de Litovujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Litov&strek;uj&strek;o</label>
+    <item> Lando ĉe la Balta Maro, sude de Latvujo. Internacia landokodaĵo: LT.</item>
+    <label lang="eo">litov&strek;a</label>
+    <item> Rilata al litovoj, la litova lingvo aŭ Litovujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Loren&strek;o</label>
+<item> Regiono en orienta Francujo, okcidente de Alzaco, en kiu situas Vogezoj 2 kaj tri aliaj departementoj. Internacia landerokodaĵo: FR‑54, FR‑55, FR‑57, FR‑88.</item>
+
+<label lang="eo">Losanĝeles&strek;o</label>
+<item> Havenurbo en Usono, en la suda parto de Kalifornio.</item>
+
+<label lang="eo">Lucern&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en Svislando, ĉe la Lago de la Kvar Kantonoj</item>
+<item n="2">Kantono de Svislando, kies ĉefurbo estas Lucerno 1. Internacia landerokodaĵo: CH‑LU.</item>
+</list></item>
+
+<label lang="eo">Luci&strek;o</label>
+<item>Roma nomo. 
+  <list type="deriv">
+    <label lang="eo">Sankt&strek;a Luci&strek;o</label>
+    <item>
+      <list type="def">
+      <item n="1">Insulo en Malgrandaj Antiloj, norde de Sankta Vincento</item>
+      <item n="2">Lando situanta sur Sankta Lucio 1. Internacia landokodaĵo: LC.</item>
+      </list>
+    </item>
+    <label lang="eo">sankt&strek;a&strek;luci&strek;an&strek;o</label>
+    <item> Ano de Sankta Lucio.</item>
+    <label lang="eo">sankt&strek;a&strek;luci&strek;a</label>
+    <item> Rilata al sanktalucianoj, Sankta Lucio aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: acf), bazita sur la franca.</item>
+  </list>
+</item>
+
+<label lang="eo">Luksemburg&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">La ĉefurbo de Luksemburgo 2</item>
+    <item n="2">Lando en okcidenta Eŭropo, situanta inter Belgujo, Francujo kaj Germanujo. Internacia landokodaĵo: LU</item>
+    <item n="3">Kantono de Luksemburgo 2, en kiu situas Luksemburgo 1. Internacia landerokodaĵo: LU‑LU.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">luksemburg&strek;an&strek;o</label>
+    <item> Ano de Luksemburgo.</item>
+    <label lang="eo">luksemburg&strek;a</label>
+    <item> Rilata al luksemburganoj, Luksemburgo aŭ la okcidentĝermana lingvo tie parolata (internacia lingvokodaĵo: ltz).</item>
+  </list>
+</item>
+
+<label lang="eo">Madagaskar&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda insulo en la Hinda Oceano, oriente de Mozambiko</item>
+<item n="2">Lando, kiu situas sur Madagaskaro 1. Internacia landokodaĵo: MG.</item>
+</list></item>
+
+<label lang="eo">Madrid&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Hispanujo</item>
+<item n="2">Regiono de Hispanujo, en kiu situas Madrido 1. Internacia landerokodaĵo: ES‑M.</item>
+</list></item>
+
+<label lang="eo">maja&strek;o</label>
+<item> Ano de la indiĝena gento, kiu starigis inter la 3‑a kaj la 16‑a jarcentoj potencan regnon en meza Ameriko.
+<list type="deriv">
+<label lang="eo">maja&strek;a</label>
+<item> Rilata al majaoj aŭ la majaaj lingvoj. maja&strek;a&strek;j lingv&strek;o&strek;j. Familio de lingvoj, parolataj precipe en Gvatemalo, Meksiko, Belizo, Salvadoro kaj Honduro.</item>
+</list></item>
+
+<label lang="eo">Majenc&strek;o</label>
+<item> Urbo en Germanujo, apud la kunfluejo de Rejno kaj Majno.</item>
+
+<label lang="eo">Majn&strek;o</label>
+<item> Rivero en Germanujo, la plej longa alfluanto de Rejno.</item>
+
+<label lang="eo">Majot&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insularo en la sudorienta parto de Komoroj 1</item>
+<item n="2">Regiono kaj transmara departemento de Francujo, sur Majoto 1. Internacia land(er)okodaĵo: YT, FR‑976.</item>
+</list></item>
+
+<label lang="eo">makedon&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Ano de Makedonujo 1, parolanta hindeŭropan lingvon parencan al la antikva greka (internacia lingvokodaĵo: xmk)</item>
+  <item n="2">Ano de la ĉefgento de Makedonujo 2, parolanta sudslavan lingvon (internacia lingvokodaĵo: mkd)</item>
+  <item n="3">Ano de Nord‑Makedonujo.
+  </item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Makedon&strek;uj&strek;o</label>
+    <item>
+      <list type="def">
+        <item n="1">Reĝlando norde de la antikva Grekujo, ĉe la Egea Maro; ĝi estis konkerita de la Roma Regno en la jaro 168 antaŭ nia erao</item>
+        <item n="2">Nuntempa regiono sur la Balkana Duoninsulo, kies ĉefaj partoj apartenas al Bulgarujo, Grekujo kaj Nord‑Makedonujo, dum malpli grandaj partoj apartenas al Albanujo, Serbujo kaj Kosovo</item>
+        <item n="3">Parto de la nuntempa Grekujo, kiu dum antikveco apartenis al Makedonujo 1, nun dividita inter tri regionoj: Orient&strek;a Makedon&strek;uj&strek;o kaj Trak&strek;uj&strek;o (internacia landerokodaĵo: GR‑A), Centr&strek;a Makedon&strek;uj&strek;o (internacia landerokodaĵo: GR‑B) kaj Okcident&strek;a Makedon&strek;uj&strek;o (internacia landerokodaĵo: GR‑C)</item>
+        <item n="4">Iama federacia respubliko (1944‑1991) de Jugoslavujo, sur la sama teritorio kiel la nuna Nord‑Makedonujo.</item>
+      </list>
+    </item>
+    <label lang="eo">Nord‑Makedon&strek;uj&strek;o</label>
+    <item> Lando sur la Balkana Duoninsulo, inter Albanujo kaj Bulgarujo, okupanta la nordokcidentan teritorion de Makedonujo 2. Internacia landokodaĵo: MK.</item>
+    <label lang="eo">makedon&strek;a</label>
+    <item> Rilata al makedonoj, la makedonaj lingvoj, Makedonujo aŭ Nord‑Makedonujo.</item>
+  </list>
+</item>
+
+<label lang="eo">malaj&strek;o</label>
+<item> Ano de gento, parolanta aŭstronezian lingvon (internacia lingvokodaĵo: msa) kaj loĝanta precipe en Malajzio kaj orienta Sumatro.
+<list type="deriv">
+<label lang="eo">malaj&strek;a</label>
+<item> Rilata al malajoj aŭ la malaja lingvo.</item>
+</list></item>
+
+<label lang="eo">Malajzi&strek;o</label>
+<item> Federacia konstitucia monarĥio en sudorienta Azio, konsistanta el kontinenta parto kaj parto sur Borneo, disigitaj de la Sudĉina Maro. Internacia landokodaĵo: MY.</item>
+
+<label lang="eo">Malavi&strek;o</label>
+<item> Lando en sudorienta Afriko, inter Zambio, Tanzanio kaj Mozambiko. Internacia landokodaĵo: MW.</item>
+
+<label lang="eo">Maldiv&strek;o&strek;j</label>
+<item>
+  <list type="def">
+  <item n="1">Insularo en Sud‑Azio, en la Hinda Oceano, ĉirkaŭ 600 kilometrojn sudokcidente de la suda pinto de la hinda subkontinento</item>
+  <item n="2">Lando, kiu okupas Maldivojn 1. Internacia landokodaĵo: MV.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">maldiv&strek;an&strek;o</label>
+    <item> Ano de Maldivoj.</item>
+    <label lang="eo">maldiv&strek;a</label>
+    <item> Rilata al maldivanoj, Maldivoj aŭ la sanskritida lingvo tie parolata (internacia lingvokodaĵo: div).</item>
+  </list>
+</item>
+
+<label lang="eo">Mali&strek;o</label>
+<item> Lando en okcidenta Afriko, sudokcidente de Alĝerio. Internacia landokodaĵo: ML.</item>
+
+<label lang="eo">Malt&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulara lando en Mediteraneo, inter Sicilio kaj Nord‑Afriko. Internacia landokodaĵo: MT</item>
+<item n="2">La ĉefa insulo de Malto 1.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">malt&strek;an&strek;o</label>
+<item> Ano de Malto.</item>
+<label lang="eo">malt&strek;a</label>
+<item> Rilata al maltanoj, Malto aŭ la ŝemida lingvo tie parolata (internacia lingvokodaĵo: mlt): malta ordeno (kavalira ordeno kristana).</item>
+</list></item>
+
+<label lang="eo">Manil&strek;o</label>
+<item> La ĉefurbo de Filipinoj.</item>
+
+<label lang="eo">mar&strek;o</label>
+<item>(FdE)
+  <list type="deriv">
+  <label lang="eo">Arab&strek;a Mar&strek;o</label>
+  <item> Randa maro inter Afriko kaj Barato, en la norda parto de la Hinda Oceano.</item>
+  <label lang="eo">Balt&strek;a Mar&strek;o</label>
+  <item> Interna maro en norda Eŭropo, formanta parton de Atlantiko kaj etendiĝanta inter Danujo kaj Finnlando.</item>
+  <label lang="eo">Blank&strek;a Mar&strek;o</label>
+  <item> Randa maro formanta parton de la Arkta Oceano, ĉe la nordokcidenta marbordo de Rusujo.</item>
+  <label lang="eo">Ege&strek;a Mar&strek;o</label>
+  <item> Parto de Mediteraneo, situanta inter Grekujo kaj Turkujo.</item>
+  <label lang="eo">Filipin&strek;a Mar&strek;o</label>
+  <item> Randa maro en la okcidenta parto de Pacifiko, oriente de Filipinoj.</item>
+  <label lang="eo">Flav&strek;a Mar&strek;o</label>
+  <item> Randa maro inter Ĉinujo kaj la Korea Duoninsulo, la nordokcidenta parto de la Orientĉina Maro.</item>
+  <label lang="eo">Japan&strek;a Mar&strek;o</label>
+  <item> Randa maro de Pacifiko, ĉirkaŭata de Japanujo, la Korea Duoninsulo kaj la orienta bordo de Rusujo.</item>
+  <label lang="eo">Karib&strek;a Mar&strek;o</label>
+  <item> Randa maro inter Sud‑Ameriko, Centr‑Ameriko kaj Antiloj.</item>
+  <label lang="eo">Kaspi&strek;a Mar&strek;o</label>
+  <item> Kaspio.</item>
+  <label lang="eo">Koral&strek;a Mar&strek;o</label>
+  <item> Randa maro de suda Pacifiko, ĉe la nordorienta marbordo de Aŭstralio.</item>
+  <label lang="eo">Marmor&strek;a Mar&strek;o</label>
+  <item> Interna maro en nordokcidenta Turkujo, inter la Egea Maro kaj la Nigra Maro.</item>
+  <label lang="eo">Mort&strek;a Mar&strek;o</label>
+  <item> Sala lago okcidente de Jordanio, en kiun fluas Jordano.</item>
+  <label lang="eo">Nigr&strek;a Mar&strek;o</label>
+  <item> Interna maro inter Eŭropo kaj Azio, oriente de la Balkana Duoninsulo kaj norde de Malgrand‑Azio, ligita al Mediteraneo.</item>
+  <label lang="eo">Nord&strek;a Mar&strek;o</label>
+  <item> Parto de Atlantiko inter la nordokcidentaj bordoj de la eŭropa kontinento kaj Britujo.</item>
+  <label lang="eo">Orient&strek;ĉin&strek;a Mar&strek;o</label>
+  <item> Maro en la okcidenta parto de Pacifiko, oriente de Ĉinujo.</item>
+  <label lang="eo">Ruĝ&strek;a Mar&strek;o</label>
+  <item>
+    <list type="def">
+    <item n="1">Maro inter Afriko kaj la Araba Duoninsulo, etendiĝanta ĝis la Adena Golfo</item>
+    <item n="2">Gubernio de Egiptujo, en ties sudorienta parto, laŭlonge de la Ruĝa Maro 1. Internacia landerokodaĵo: EG‑BA</item>
+    <item n="3">Ŝtato de Sudano, en ties nordorienta parto, laŭlonge de la Ruĝa Maro 1. Internacia landerokodaĵo: SD‑RS. Sargas&strek;a Maro. Parto de Atlantiko, ĉirkaŭata de oceanaj fluoj, kiun distingas ĝia aparta riĉeco je sargasoj kaj ĝia plej ofte kvieta surfaco kun aparte malhelblua koloro.</item>
+    </list>
+  </item>
+  </list>
+</item>
+
+<label lang="eo">Sud&strek;ĉin&strek;a Mar&strek;o</label>
+<item> Maro en la okcidenta parto de Pacifiko, sude de Ĉinujo.</item>
+
+<label lang="eo">Maraton&strek;o</label>
+<item> Urbo de Grekujo, fama pro la venko de Ateno super la Persa Imperio en la jaro 490 antaŭ nia erao.
+<list type="deriv">
+<label lang="eo">maraton&strek;o</label>
+<item> Vetkuro laŭ distanco de 42,195 kilometroj.</item>
+</list></item>
+
+<label lang="eo">Marsejl&strek;o</label>
+<item> Havenurbo en suda Francujo, oriente de Montpeliero.</item>
+
+<label lang="eo">Marŝal&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Insularo en la orienta parto de Mikronezio 1, norde de Nauro kaj oriente de Mikronezio 2</item>
+<item n="2">Lando, kiu okupas Marŝalojn 1. Internacia landokodaĵo: MH.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">marŝal&strek;an&strek;o</label>
+<item> Ano de Marŝaloj.</item>
+<label lang="eo">marŝal&strek;a</label>
+<item> Rilata al marŝalanoj, Marŝaloj aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: mah).</item>
+</list></item>
+
+<label lang="eo">Martinik&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en la mezo de Malgrandaj Antiloj, inter Dominiko kaj Sankta Lucio</item>
+<item n="2">Regiono kaj transmara departemento de Francujo, sur Martiniko 1. Internacia land(er)okodaĵo: MQ, FR‑972.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">martinik&strek;an&strek;o</label>
+<item> Ano de Martiniko.</item>
+<label lang="eo">martinik&strek;a</label>
+<item> Rilata al martinikanoj, Martiniko aŭ la vario de la gvadelupa lingvo tie parolata.</item>
+</list></item>
+
+<label lang="eo">maŭr&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Dum antikveco, nomo donata de la romanoj al la loĝantoj de la Maŭritania Regno en nordokcidenta Afriko</item>
+<item n="2">Dum mezepoko, nomo donata de la eŭropanoj al la islamaj loĝantoj de nordokcidenta Afriko, la Ibera Duoninsulo, Sicilio kaj Malto: maŭra arĥitekturo en Hispanujo.</item>
+</list></item>
+
+<label lang="eo">Maŭrici&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefa insulo en Maŭricio 2</item>
+<item n="2">Insulara lando en la Hinda Oceano, ĉirkaŭ 900 kilometrojn oriente de Madagaskaro. Internacia landokodaĵo: MU.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">maŭrici&strek;an&strek;o</label>
+<item> Ano de Maŭricio.</item>
+<label lang="eo">maŭrici&strek;a</label>
+<item> Rilata al maŭricianoj, Maŭricio aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: mfe), bazita sur la franca.</item>
+</list></item>
+
+<label lang="eo">Maŭritani&strek;o</label>
+<item> Lando en Okcident‑Afriko, nordoriente de Senegalo 2. Internacia landokodaĵo: MR.</item>
+
+<label lang="eo">Meksik&strek;o</label>
+<item> (8OA)
+<list type="deriv">
+<label lang="eo">Nov‑Meksik&strek;o</label>
+<item> Usona ŝtato, okcidente de Teksaso kaj sude de Kolorado 2, ĉe la suda parto de la Roka Montaro. Internacia landerokodaĵo: US‑NM.</item>
+</list></item>
+
+<label lang="eo">Melanezi&strek;o</label>
+<item> Parto de Oceanio, konsistanta el Nov‑Gvineo kaj grupo de insularoj en okcidenta Pacifiko, sude de Mikronezio kaj okcidente de Polinezio.</item>
+
+<label lang="eo">Mezopotami&strek;o</label>
+<item> Historia regiono, kiu grandparte troviĝas inter Tigriso kaj Eŭfrato, hodiaŭ parto precipe de Irako.</item>
+
+<label lang="eo">Mikronezi&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Parto de Oceanio, konsistanta el grupo de insularoj en okcidenta Pacifiko, oriente de Filipinoj</item>
+<item n="2">Insulara federacia lando en la sudokcidenta parto de Mikronezio 1, nordoriente de Nov‑Gvineo. Internacia landokodaĵo: FM.</item>
+</list></item>
+
+<label lang="eo">Milan&strek;o</label>
+<item> Urbo en norda Italujo, inter Torino kaj Venecio.</item>
+
+<label lang="eo">moldav&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Ano de la ĉefgento de Moldavujo, parolanta la rumanan lingvon</item>
+  <item n="2">Ano de Moldavujo.</item>
+  </list>
+  <list type="deriv">
+  <label lang="eo">Moldav&strek;uj&strek;o</label>
+  <item> Lando de orienta Eŭropo, inter Rumanujo kaj Ukrainujo. Internacia landokodaĵo: MD.</item>
+  <label lang="eo">moldav&strek;a</label>
+  <item> Rilata al moldavoj, la moldava vario de la rumana lingvo aŭ Moldavujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Monak&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">La ĉefurbo de Monako 2</item>
+  <item n="2">Lando ĉe la orienta parto de la Lazura Bordo, proksime de la franc‑itala landlimo. Internacia landokodaĵo: MC.</item>
+  </list>
+</item>
+
+<label lang="eo">mongol&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Mongolujo, parolanta la mongolan lingvon (internacia lingvokodaĵo: mon)</item>
+    <item n="2">Ano de Mongolujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Mongol&strek;uj&strek;o</label>
+    <item>
+      <list type="def">
+      <item n="1">Regiono en Azio, sude de Siberio, dividita inter Mongolujo 2, Ĉinujo kaj Rusujo</item>
+      <item n="2">Lando en meza Azio, en la norda parto de Mongolujo 1. Internacia landokodaĵo: MN.</item>
+      </list>
+    </item>
+  </list>
+</item>
+
+<label lang="eo">mongol&strek;a</label>
+<item> Rilata al mongoloj, al la mongola lingvo aŭ Mongolujo.</item>
+
+<label lang="eo">mont&strek;o</label>
+<item> (FdE)
+<list type="deriv">
+  <label lang="eo">Blank&strek;a Mont&strek;o</label>
+  <item> Monto ĉe la limo inter Francujo, Italujo kaj Svislando, la plej alta monto en Alpoj.</item>
+  <label lang="eo">Rok&strek;a Mont&strek;ar&strek;o</label>
+  <item> Montaro en la okcidenta parto de Nord‑Ameriko, kiu etendiĝas liniforme de okcidenta Kanado ĝis la sudokcidenta parto de Usono.</item>
+  </list>
+</item>
+
+<label lang="eo">Montenegr&strek;o</label>
+<item> Lando en sudorienta Eŭropo, ĉe la adriatika flanko de la Balkana Duoninsulo. Internacia landokodaĵo: ME.
+  <list type="deriv">
+    <label lang="eo">montenegr&strek;an&strek;o</label>
+    <item> Ano de Montenegro.</item>
+    <label lang="eo">montenegr&strek;a</label>
+    <item> Rilata al montenegranoj, Montenegro aŭ la sudslava lingvo tie parolata (internacia lingvokodaĵo: cnr).</item>
+  </list>
+</item>
+
+<label lang="eo">Montevide&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">La ĉefurbo de Urugvajo</item>
+  <item n="2">Departemento en Urugvajo, en kiu situas Montevideo 1. Internacia landerokodaĵo: UY‑MO.</item>
+  </list>
+</item>
+
+<label lang="eo">Montpelier&strek;o</label>
+<item> Urbo en suda Francujo, ĉe la mediteranea bordo de Okcitanujo 2.</item>
+
+<label lang="eo">Montreal&strek;o</label>
+<item> Havenurbo en Kanado, en Kebekio.</item>
+
+<label lang="eo">Moravi&strek;o</label>
+<item> Orienta parto de Ĉeĥujo.</item>
+
+<label lang="eo">Moskv&strek;o</label>
+<item> La ĉefurbo de Rusujo, kaj inter la jaroj 1922 kaj 1991 de Sovet‑Unio.</item>
+
+<label lang="eo">Mozambik&strek;o</label>
+<item> Lando en sudorienta Afriko, sude de Tanzanio. Internacia landokodaĵo: MZ.</item>
+
+<label lang="eo">Mumbaj&strek;o</label>
+<item> Havenurbo ĉe la okcidenta marbordo de Barato.</item>
+
+<label lang="eo">Munken&strek;o</label>
+<item> Urbo en suda Germanujo, la ĉefurbo de la federacia lando Bavarujo.</item>
+
+<label lang="eo">Nagasak&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en Japanujo, trafita de usona atombombo tri tagojn post Hiroŝimo</item>
+<item n="2">Gubernio de Japanujo, kies ĉefurbo estas Nagasako 1. Internacia landerokodaĵo: JP‑42.</item>
+</list></item>
+
+<label lang="eo">Namibi&strek;o</label>
+<item> Lando en la okcidento de suda Afriko. Internacia landokodaĵo: NA.</item>
+
+<label lang="eo">Napol&strek;o</label>
+<item> Urbo en la okcidenta parto de suda Italujo.
+<list type="deriv">
+<label lang="eo">napol&strek;an&strek;o</label>
+<item> Ano de Napolo.</item>
+<label lang="eo">napol&strek;a</label>
+<item> Rilata al napolanoj, Napolo aŭ la vario de la itala lingvo parolata en la suda parto de la itala ĉeftero (internacia lingvokodaĵo: nap).</item>
+</list></item>
+
+<label lang="eo">Naur&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en la nordorienta parto de Melanezio, sude de Marŝaloj kaj norde de Vanuatuo</item>
+<item n="2">Lando sur Nauro 1. Internacia landokodaĵo: NR.</item>
+</list>
+<list type="deriv">
+<label lang="eo">naur&strek;an&strek;o</label>
+<item> Ano de Nauro.</item>
+<label lang="eo">naur&strek;a</label>
+<item> Rilata al nauranoj, Nauro aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: nau).</item>
+</list></item>
+
+<label lang="eo">Nepal&strek;o</label>
+<item> Lando en Azio, inter Barato kaj Tibeto. Internacia landokodaĵo: NP.
+<list type="deriv">
+<label lang="eo">nepal&strek;an&strek;o</label>
+<item> Ano de Nepalo.</item>
+<label lang="eo">nepal&strek;a</label>
+<item> Rilata al nepalanoj, Nepalo aŭ la sanskritida lingvo tie parolata (internacia lingvokodaĵo: nep).</item>
+</list></item>
+
+<label lang="eo">Nevis&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo de Sankta Kristoforo kaj Neviso, ĉirkaŭ 3 kilometrojn sudoriente de Sankta Kristoforo</item>
+<item n="2">Ŝtato de Sankta Kristoforo kaj Neviso, sur Neviso 1. Internacia landerokodaĵo: KN‑N.</item>
+</list></item>
+
+<label lang="eo">Niĝer&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Granda rivero en Okcident‑Afriko, kiu fluas de sudorienta Gvineo tra Malio kaj Niĝero, laŭlonge de ties limo kun Benino, ĝis Niĝerio, kie ĝi enfluas la Gvinean Golfon</item>
+<item n="2">Lando en Okcident‑Afriko, sudoriente de Alĝerio. Internacia landokodaĵo: NE</item>
+<item n="3">Ŝtato de Niĝerio, en ties okcidenta parto, tra kiu fluas Niĝero 1. Internacia landerokodaĵo: NG‑NI.</item>
+</list></item>
+
+<label lang="eo">Niĝeri&strek;o</label>
+<item> Lando en Okcident‑Afriko, ĉe la Gvinea Golfo. Internacia landokodaĵo: NG.</item>
+
+<label lang="eo">Nil&strek;o</label>
+<item> Rivero en orienta Afriko, la plej longa en Afriko, kiu post la kunfluo de Blanka Nilo kaj Blua Nilo en Sudano fluas ĝis Egiptujo, kie ĝi enfluas Mediteraneon.
+  <list type="deriv">
+    <label lang="eo">Blank&strek;a Nil&strek;o</label>
+    <item>
+      <list type="def">
+      <item n="1">Alfluanto de Nilo, kiu fluas de Ugando tra Sud‑Sudano ĝis Sudano, kie ĝi kunfluas kun Blua Nilo</item>
+      <item n="2">Ŝtato de Sudano, en ties suda parto, nordokcidente de Blua Nilo 2. Internacia landerokodaĵo: SD‑NW.</item>
+      </list>
+    </item>
+  </list>
+</item>
+
+<label lang="eo">Blu&strek;a Nil&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Alfluanto de Nilo, kiu fluas de norda Etiopujo ĝis Sudano, kie ĝi kunfluas kun Blanka Nilo</item>
+<item n="2">Ŝtato de Sudano, en ties sudorienta parto. Internacia landerokodaĵo: SD‑NB.</item>
+</list></item>
+
+<label lang="eo">Nurenberg&strek;o</label>
+<item> Urbo en Germanujo, en la federacia lando Bavarujo.</item>
+
+<label lang="eo">ocean&strek;o</label>
+<item> (1OA)
+<list type="deriv">
+<label lang="eo">Arkt&strek;a Ocean&strek;o</label>
+<item> Oceano norde de Nord‑Ameriko, Eŭropo kaj Azio, en kiu situas la Norda Poluso.</item>
+<label lang="eo">Hind&strek;a Ocean&strek;o</label>
+<item> Oceano ĉirkaŭata de Afriko, Azio, Aŭstralio kaj la Suda Oceano.</item>
+<label lang="eo">Sud&strek;a Ocean&strek;o</label>
+<item> Oceano ĉirkaŭanta Antarkton kaj situanta en la regiono kun pli ol 60‑grada suda latitudo.</item>
+</list></item>
+
+<label lang="eo">Oceani&strek;o</label>
+<item> Mondoparto konsistanta el Aŭstralio kaj la ĉirkaŭantaj insuloj.</item>
+
+<label lang="eo">Odes&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en Ukrainujo, ĉe la Nigra Maro</item>
+<item n="2">Regiono en sudokcidenta Ukrainujo, kiu entenas Odeson 1. Internacia landerokodaĵo: UA‑51.</item>
+</list></item>
+
+<label lang="eo">Odr&strek;o</label>
+<item> Rivero, kiu fluas de Ĉeĥujo tra Pollando, kie ĝi formas parton de ties landlimo kun Germanujo, ĝis ĝi enfluas la Baltan Maron.</item>
+
+<label lang="eo">okcitan&strek;o</label>
+<item> Ano de Okcitanujo 1, precipe se portanto de la okcitana kulturo kaj parolanto de ties okcitanlatinida lingvo (internacia lingvokodaĵo: oci).
+<list type="deriv">
+<label lang="eo">Okcitan&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Partoj de suda Francujo, nordorienta Hispanujo kaj nordokcidenta Italujo, en kiuj estas aŭ estis parolataj dialektoj de la okcitana lingvo</item>
+<item n="2">Regiono en suda Francujo, ĉe Pireneoj kaj apud Mediteraneo. Internacia landerokodaĵo: FR‑OCC.</item>
+</list></item>
+</list></item>
+
+<label lang="eo">okcitan&strek;a</label>
+<item> Rilata al okcitanoj, la okcitana lingvo aŭ Okcitanujo.</item>
+
+<label lang="eo">Okinav&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo de Japanujo, inter la Orientĉina Maro kaj Pacifiko</item>
+<item n="2">Gubernio de Japanujo, konsistanta el Okinavo 1 kaj kelkaj el la pli malgrandaj insuloj inter la japana ĉeftero kaj Tajvano 1. Internacia landerokodaĵo: JP‑47.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">okinav&strek;an&strek;o</label>
+<item> Ano de Okinavo.</item>
+<label lang="eo">okinav&strek;a</label>
+<item> Rilata al okinavanoj, Okinavo aŭ la lingvo tie parolata (internacia lingvokodaĵo: ryu), parenca al la japana.</item>
+</list></item>
+
+<label lang="eo">Oksford&strek;o</label>
+<item> Universitata urbo en Anglujo, nordokcidente de Londono.</item>
+
+<label lang="eo">Olimp&strek;o</label>
+<item> La plej alta monto en Grekujo, laŭ la mitologio la restadejo de la antikvaj grekaj dioj.</item>
+
+<label lang="eo">Olimpi&strek;o</label>
+<item>Urbo en Grekujo, kie okazis la unuaj Olimpiaj ludoj. 
+  <list type="deriv">
+  <label lang="eo">Olimpi&strek;a&strek;j lud&strek;o&strek;j</label>
+  <item>
+    <list type="def">
+    <item n="1">Sportkonkursoj, okazintaj en Olimpio dum antikveco</item>
+    <item n="2">Internaciaj sportkonkursoj, okazantaj ĉiun kvaran jaron ekde 1896 en malsamaj landoj.</item>
+    </list>
+  </item>
+  </list>
+</item>
+
+<label lang="eo">Oman&strek;o</label>
+<item> Lando en la sudorienta parto de la Araba Duoninsulo. Internacia landokodaĵo: OM.</item>
+
+<label lang="eo">Osak&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en Japanujo, sudokcidente de Kioto</item>
+<item n="2">Gubernio de Japanujo, kies ĉefurbo estas Osako 1. Internacia landerokodaĵo: JP‑27.</item>
+</list></item>
+
+<label lang="eo">Osl&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Norvegujo</item>
+<item n="2">Distrikto de Norvegujo, en kiu situas Oslo 1. Internacia landerokodaĵo: NO‑03.</item>
+</list></item>
+
+<label lang="eo">otoman&strek;o</label>
+<item> Ano de unu branĉo el la turka popolo, kiu kreis la Otomanan Imperion.
+<list type="deriv">
+<label lang="eo">otoman&strek;a</label>
+<item> Rilata al otomanoj aŭ la Otomana Imperio.</item>
+</list></item>
+
+<label lang="eo">Palaŭ&strek;o</label>
+<item> Insulara lando en la sudokcidenta parto de Mikronezio 1, okcidente de Mikronezio 2. Internacia landokodaĵo: PW.
+<list type="deriv">
+<label lang="eo">palaŭ&strek;an&strek;o</label>
+<item> Ano de Palaŭo.</item>
+<label lang="eo">palaŭ&strek;a</label>
+<item> Rilata al palaŭanoj, Palaŭo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: pau).</item>
+</list></item>
+
+<label lang="eo">Palestin&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Lando en okcidenta Azio, sude de Libano. Internacia landokodaĵo: PS</item>
+<item n="2">Historia lando, kie troviĝas nun Israelo kaj Palestino 1.</item>
+</list></item>
+
+<label lang="eo">Papu&strek;o</label>
+<item> Provinco de Indonezio, en la nordokcidenta parto de Nov‑Gvineo. Internacia landerokodaĵo: ID‑PA.
+<list type="deriv">
+<label lang="eo">Papu&strek;o‑Nov‑Gvine&strek;o</label>
+<item> Lando en la orienta parto de Nov‑Gvineo. Internacia landokodaĵo: PG.</item>
+<label lang="eo">papu&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item>Grupo de lingvoj parolataj en Nov‑Gvineo, kiuj estas nek aŭstroneziaj, nek aŭstraliaj.</item>
+</list></item>
+
+<label lang="eo">Parnas&strek;o</label>
+<item> Monto en Grekujo, laŭ la mitologio la restadejo de Apolono kaj la muzoj.</item>
+
+<label lang="eo">Pekin&strek;o</label>
+<item> La ĉefurbo de Ĉinujo.</item>
+
+<label lang="eo">Pensilvani&strek;o</label>
+<item> Usona ŝtato, en la nordorienta parto de Usono, sude kaj sudokcidente de Nov‑Jorko 1.</item>
+
+<label lang="eo">pers&strek;o</label>
+<item> Ano de la ĉefgento de Persujo, parolanta iranan lingvon (internacia lingvokodaĵo: fas).
+<list type="deriv">
+<label lang="eo">Pers&strek;uj&strek;o</label>
+<item> Alia nomo por Irano, uzata de okcidentanoj, precipe antaŭ la jaro 1935.</item>
+<label lang="eo">pers&strek;a</label>
+<item> Rilata al persoj, la persa lingvo aŭ Persujo.</item>
+</list></item>
+
+<label lang="eo">Peterburg&strek;o</label>
+<item> = Sankt‑Peterburgo. Havenurbo en Rusujo, ĉe la Balta Maro.</item>
+
+<label lang="eo">Pirene&strek;o&strek;j</label>
+<item> Montoĉeno inter Hispanujo kaj Francujo. 
+<list type="deriv">
+<label lang="eo">Alt&strek;a&strek;j Pirene&strek;o&strek;j</label> 
+<item>Departemento en Francujo, oriente de Atlantikaj Pireneoj. Internacia landerokodaĵo: FR‑65.</item>
+<label lang="eo">Atlantik&strek;a&strek;j Pirene&strek;o&strek;j</label> 
+<item>Departemento en Francujo, en ties sudokcidenta ekstremaĵo. Internacia landerokodaĵo: FR‑64.</item>
+<label lang="eo">Orient&strek;a&strek;j Pirene&strek;o&strek;j</label> 
+<item>Departemento en Francujo, ĉe la sudokcidenta parto de ties mediteranea marbordo. Internacia landerokodaĵo: FR‑66.</item>
+</list></item>
+
+
+<label lang="eo">portugal&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Portugalujo, parolanta iberolatinidan lingvon (internacia lingvokodaĵo: por)</item>
+<item n="2">Ano de Portugalujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Portugal&strek;uj&strek;o</label>
+<item> Lando en sudokcidenta Eŭropo, okcidente de Hispanujo, ĉe Atlantiko. Internacia landokodaĵo: PT.</item>
+<label lang="eo">portugal&strek;a</label>
+<item> Rilata al portugaloj, la portugala lingvo aŭ Portugalujo.</item>
+</list></item>
+
+<label lang="eo">Prag&strek;o</label>
+<item> La ĉefurbo de Ĉeĥujo, kaj antaŭe de Bohemujo kaj de Ĉeĥoslovakujo.</item>
+
+<label lang="eo">Principe&strek;o</label>
+<item> Insulo de Santomeo kaj Principeo, ĉirkaŭ 150 kilometrojn nordoriente de Santomeo 1.</item>
+
+<label lang="eo">prus&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Prusujo, parolinta dum mezepoko baltan lingvon (internacia lingvokodaĵo: prg) kaj poste la germanan lingvon</item>
+<item n="2">Ano de Prusujo.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">Prus&strek;uj&strek;o</label>
+<item> Iama germana reĝlando, sude de la Balta Maro, kiu iom post iom aneksis grandan parton de Germanujo ĝis Rejno; malfondita en la jaro 1947.</item>
+<label lang="eo">prus&strek;a</label>
+<item> Rilata al prusoj aŭ Prusujo.</item>
+</list></item>
+
+<label lang="eo">Raŭm&strek;o</label>
+<item> Urbo ĉe la okcidenta bordo de Finnlando.</item>
+
+<label lang="eo">regn&strek;o</label>
+<item> (FdE)
+<list type="deriv">
+<label lang="eo">Hungar&strek;a Regn&strek;o</label>
+<item> Reĝlando en Mez‑Eŭropo ekzistanta inter la jaroj 1000 kaj 1918, precipe sur la teritorio de la nuna Hungarujo.</item>
+<label lang="eo">Rom&strek;a Regn&strek;o</label>
+<item> Regno regata de Romo ekde la 8‑a jarcento antaŭ nia erao, kiu en la 4‑a jarcento de nia erao dispartiĝis en okcidentan regnon, regatan de Romo ĝis ties falo en la jaro 476, kaj orientan regnon, regatan de Konstantinopolo, kiu regno plu ekzistis en la formo de la Bizanca Imperio ĝis ties falo en la jaro 1453.</item>
+</list></item>
+
+<label lang="eo">Rejkjavik&strek;o</label>
+<item> La ĉefurbo de Islando.</item>
+
+<label lang="eo">Rejn&strek;o</label>
+<item> Rivero, kiu fluas de Svislando tra Germanujo ĝis Nederlando, kie ĝi enfluas la Nordan Maron.
+<list type="deriv">
+<label lang="eo">Supr&strek;a Rejn&strek;o</label>
+<item> Departemento en Francujo, formanta la sudan parton de Alzaco. Internacia landerokodaĵo: FR‑68.</item>
+<label lang="eo">Mal&strek;supr&strek;a Rejn&strek;o</label>
+<item> Departemento en Francujo, formanta la nordan parton de Alzaco. Internacia landerokodaĵo: FR‑67.</item>
+</list></item>
+
+<label lang="eo">Reuni&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo en la okcidenta parto de la Hinda Oceano, inter Maŭricio kaj Madagaskaro</item>
+<item n="2">Regiono kaj transmara departemento de Francujo, sur Reunio 1. Internacia land(er)okodaĵo: RE, FR‑974.</item>
+</list>
+<list type="deriv">
+<label lang="eo">reuni&strek;an&strek;o</label>
+<item> Ano de Reunio.</item>
+<label lang="eo">reuni&strek;a</label>
+<item> Rilata al reunianoj, Reunio aŭ la kreola lingvo tie parolata (internacia lingvokodaĵo: rcf), bazita sur la franca.</item>
+</list></item>
+
+<label lang="eo">Riodeĵanejr&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo en la sudorienta parto de Brazilo, ĉe Atlantiko</item>
+<item n="2">Brazila ŝtato, kies ĉefurbo estas Riodeĵanejro 1. Internacia landerokodaĵo: BR‑RJ.</item>
+</list></item>
+
+<label lang="eo">Rom&strek;o</label>
+<item> La ĉefurbo de Italujo kaj de la antikva Roma Regno.</item>
+
+<label lang="eo">romanĉ&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Romanĉujo, parolanta latinidan lingvon (internacia lingvokodaĵo: roh)</item>
+<item n="2">Ano de Romanĉujo.</item>
+</list>
+<list type="deriv">
+<label lang="eo">Romanĉ&strek;uj&strek;o</label>
+<item> Parto de sudorienta Svislando, precipe Grizono, kaj nordorienta Italujo, precipe Friulo, kie loĝas la romanĉoj.</item>
+<label lang="eo">romanĉ&strek;a</label>
+<item> Rilata al romanĉoj, la romanĉa lingvo aŭ Romanĉujo.</item>
+</list></item>
+
+<label lang="eo">Roterdam&strek;o</label>
+<item> Havenurbo en Nederlando, en Sud‑Holando.</item>
+
+<label lang="eo">Ruand&strek;o</label>
+<item> Lando en orienta Afriko, inter Ugando kaj Burundo. Internacia landokodaĵo: RW.</item>
+
+<label lang="eo">Sahar&strek;o</label>
+<item> Granda dezerto en norda Afriko, etendiĝanta de Atlantiko ĝis la Ruĝa Maro.</item>
+
+<label lang="eo">saks&strek;o</label>
+  <item>
+    <list type="def">
+    <item n="1">Ano de ĝermana tribo, loĝanta precipe en Saksujo 1; parto de tiu tribo konkeris Anglujon en la 5‑a jarcento</item>
+    <item n="2">Ano de Saksujo 2.</item>
+  </list>
+  <list type="deriv">
+  <label lang="eo">Saks&strek;uj&strek;o</label>
+    <item>
+      <list type="def">
+      <item n="1">Iama duklando kaj reĝlando, situanta en tiu nordokcidenta parto de Germanujo, kiu pli‑malpli respondas al la nuna Malsupra Saksujo</item>
+      <item n="2">Germana federacia lando situanta en orienta Germanujo, apud la limoj kun Pollando kaj Ĉeĥujo. Internacia landerokodaĵo: DE‑SN.</item>
+    </list>
+    </item>
+  </list>
+</item>
+
+<label lang="eo">Mal&strek;supr&strek;a Saks&strek;uj&strek;o</label>
+<item> Germana federacia lando situanta en nordokcidenta Germanujo, apud la Norda Maro. Internacia landerokodaĵo: DE‑NI.</item>
+
+<label lang="eo">Salomon&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Insularo en la norda parto de Melanezio, oriente de Papuo‑Nov‑Gvineo kaj nordokcidente de Vanuatuo</item>
+<item n="2">Lando, kiu okupas la sudorientan parton de Salomonoj 1. Internacia landokodaĵo: SB.</item>
+</list></item>
+
+<label lang="eo">Salvador&strek;o</label>
+<item> Lando en Centr‑Ameriko, ĉe Pacifiko, sudokcidente de Honduro. Internacia landokodaĵo: SV.</item>
+
+<label lang="eo">Samarkand&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en orienta Uzbekujo, ĉirkaŭ 50 kilometrojn okcidente de ties limo kun Taĝikujo</item>
+<item n="2">Regiono de Uzbekujo, kiu entenas Samarkandon 1. Internacia landerokodaĵo: UZ‑SA.</item>
+</list></item>
+
+<label lang="eo">Samo&strek;o</label>
+<item> Insulara lando en la okcidenta parto de Polinezio, inter Nov‑Zelando kaj Havajo. Internacia landokodaĵo: WS.
+  <list type="deriv">
+  <label lang="eo">samo&strek;an&strek;o</label>
+  <item> Ano de Samoo.</item>
+  <label lang="eo">samo&strek;a</label>
+  <item> Rilata al samoanoj, Samoo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: smo).</item>
+  </list>
+</item>
+
+<label lang="eo">Sanfrancisk&strek;o</label>
+<item> Havenurbo en Usono, en la norda parto de Kalifornio.</item>
+
+<label lang="eo">Sanmarin&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Sanmarino 2</item>
+<item n="2">Lando tute ĉirkaŭata de Italujo, oriente de Florenco. Internacia landokodaĵo: SM.</item>
+</list></item>
+
+<label lang="eo">Sanpaŭl&strek;o</label>
+<item>
+<list type="def">
+  <item n="1">La ĉefurbo de Sanpaŭlo 2</item>
+  <item n="2">Brazila ŝtato, situanta en sudorienta Brazilo. Internacia landerokodaĵo: BR‑SP.</item>
+</list></item>
+
+<label lang="eo">Sanskrit&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Lingvo kodigita de la gramatikisto Pāṇini ĉirkaŭ la 4‑a jarcento antaŭ nia erao kaj funkciinta kiel norma kultura lingvo en la antikva kaj mezepoka Hindujo. Internacia lingvokodaĵo: san</item>
+    <item n="2">Unu el la lingvoj parolataj en la antikva Hindujo, kies parolantoj povis reciproke kompreni sin, kaj sur kiuj baziĝis la kodigo de Sanskrito 1: la epopeoj ekzemplas la “epopean Sanskriton”.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">sanskrit&strek;a</label>
+    <item> Rilata al Sanskrito: la sanskrita (lingvo).</item>
+    <label lang="eo">sanskrit&strek;id&strek;a&strek;j lingv&strek;o&strek;j</label>
+    <item>Lingvoj devenintaj el Sanskrito 2.</item>
+  </list>
+</item>
+
+<label lang="eo">Santiag&strek;o</label>
+<item>
+<list type="def">
+  <item n="1">La ĉefurbo de Ĉilio (Santiag&strek;o de Ĉili&strek;o)</item>
+  <item n="2">Granda urbo ĉe la sudorienta marbordo de Kubo (Santiag&strek;o de Kub&strek;o)</item>
+  <item n="3">Provinco de Kubo, en kiu situas Santiago 2. Internacia landerokodaĵo: CU‑13.</item>
+</list></item>
+
+<label lang="eo">Santome&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">La ĉefa insulo de Santomeo kaj Principeo, ĉirkaŭ 250 kilometrojn okcidente de Gabono, ĉe la ekvatoro</item>
+    <item n="2">La ĉefurbo de Santomeo kaj Principeo, sur Santomeo 1.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Santome&strek;o kaj Principe&strek;o</label>
+    <item> Insulara lando en la Gvinea Golfo, konsistanta precipe el Santomeo 1 kaj la pli malgranda insulo Principeo. Internacia landokodaĵo: ST.</item>
+  </list>
+</item>
+
+<label lang="eo">Sapf&strek;o</label>
+<item> Poetino el antikva Grekujo (6‑a jarcento antaŭ nia erao).</item>
+
+<label lang="eo">Sarajev&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Bosnujo kaj Hercegovino</item>
+<item n="2">Kantono de Bosnujo kaj Hercegovino, en kiu situas Sarajevo 1. Internacia landerokodaĵo: BA‑09.</item>
+</list></item>
+
+<label lang="eo">sargas&strek;o</label>
+<item> Genro de maralgoj el la klaso brunalgoj. (Sargassum.)</item>
+
+<label lang="eo">Saud&strek;o</label>
+<item> Familinomo de anoj de araba reĝa dinastio, kiu regas Saudan Arabujon.
+<list type="deriv">
+<label lang="eo">Saud&strek;a Arab&strek;uj&strek;o</label>
+<item> Lando inter la Ruĝa Maro kaj la Persa Golfo, kiu kovras la plej grandan parton de la Araba Duoninsulo. Internacia landokodaĵo: SA.</item>
+<label lang="eo">saud&strek;arab&strek;uj&strek;an&strek;o</label>
+<item> Ano de Sauda Arabujo.</item>
+<label lang="eo">saud&strek;a</label>
+<item> Rilata al Saudo, saudarabujanoj aŭ Sauda Arabujo.</item>
+</list></item>
+
+<label lang="eo">Sejŝel&strek;o&strek;j</label>
+<item> Insulara lando en la Hinda Oceano, ĉirkaŭ 1300 kilometrojn sudoriente de Somalio. Internacia landokodaĵo: SC.</item>
+
+<label lang="eo">Senegal&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Rivero en Okcident‑Afriko, kiu fluas de Gvineo tra Malio, formas la limon inter Senegalo 2 kaj Maŭritanio, kaj fine enfluas Atlantikon</item>
+<item n="2">Lando en Okcident‑Afriko, sudokcidente de Malio. Internacia landokodaĵo: SN.</item>
+</list></item>
+
+<label lang="eo">serb&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Serbujo, parolanta sudslavan lingvon (internacia lingvokodaĵo: srp)</item>
+    <item n="2">Ano de Serbujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Serb&strek;uj&strek;o</label>
+    <item> Lando sur la Balkana Duoninsulo, inter Bosnujo kaj Hercegovino kaj Rumanujo. Internacia landokodaĵo: RS.</item>
+    <label lang="eo">serb&strek;a</label>
+    <item> Rilata al serboj, la serba lingvo aŭ Serbujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Seul&strek;o</label>
+<item> La ĉefurbo de Sud‑Koreujo.</item>
+
+<label lang="eo">Siberi&strek;o</label>
+<item> Parto de Azio, etendiĝanta de Uralo ĝis Pacifiko, norde de la vasta montaro kaj dezertaro de meza Azio.</item>
+
+<label lang="eo">Sicili&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Insulo de Italujo, sude de la itala duoninsulo</item>
+    <item n="2">Regiono de Italujo, situanta sur Sicilio 1. Internacia landerokodaĵo: IT‑82.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">sicili&strek;an&strek;o</label>
+    <item> Ano de Sicilio.</item>
+    <label lang="eo">sicili&strek;a</label>
+    <item> Rilata al sicilianoj, Sicilio aŭ la vario de la itala lingvo tie parolata (internacia lingvokodaĵo: scn).</item>
+  </list>
+</item>
+
+<label lang="eo">Sieraleon&strek;o</label>
+<item> Lando en Okcident‑Afriko, inter Gvineo kaj Liberio. Internacia landokodaĵo: SL.</item>
+
+<label lang="eo">Silezi&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Regiono en Mez‑Eŭropo, kies plej granda parto apartenas al Pollando</item>
+    <item n="2">Provinco de Pollando, en ties suda parto. Internacia landerokodaĵo: PL‑24.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">silezi&strek;an&strek;o</label>
+    <item> Ano de Silezio.</item>
+    <label lang="eo">silezi&strek;a</label>
+    <item> Rilata al silezianoj, Silezio aŭ la okcidentslava lingvo tie parolata (internacia lingvokodaĵo: szl).</item>
+    <label lang="eo">Mal&strek;supr&strek;a Silezi&strek;o</label>
+    <item> Provinco de Pollando, en ties sudokcidenta parto. Internacia landerokodaĵo: PL‐ 02.</item>
+  </list>
+</item>
+
+<label lang="eo">Singapur&strek;o</label>
+<item>
+<list type="def">
+  <item n="1">La ĉefurbo de Singapuro 2</item>
+  <item n="2">Lando sude de Malajzio. Internacia landokodaĵo: SG.</item>
+</list></item>
+
+<label lang="eo">skandinav&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de unu el la nordĝermanaj gentoj de Skandinavujo</item>
+<item n="2">Ano de Skandinavujo.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">Skandinav&strek;uj&strek;o</label>
+  <item>
+  <list type="def">
+  <item n="1">Duoninsulo en norda Eŭropo, ampleksanta Norvegujon, Svedujon kaj nordokcidentan Finnlandon</item>
+  <item n="2">Regiono en norda Eŭropo ampleksanta, krom Norvegujo kaj Svedujo, Danujon; iafoje ankaŭ Finnlando kaj Islando estas enkalkulataj.</item>
+  </list>
+  </item>
+</list></item>
+
+<label lang="eo">skandinav&strek;a</label>
+<item> Rilata al skandinavoj: la skandinavaj lingvoj (parolataj en Islando, Svedujo, Norvegujo kaj Danujo).</item>
+
+<label lang="eo">skot&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Skotlando</item>
+    <item n="2">Ano de Skotlando.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Skot&strek;land&strek;o</label>
+    <item> Lando en Britujo, norde de Anglujo. Internacia landerokodaĵo: GB‑SCT.</item>
+    <label lang="eo">skot&strek;a</label>
+    <item> Rilata al skotoj, ilia okcidentĝermana lingvo aŭ Skotlando: skota lingvo (okcidentĝermana lingvo, internacia lingvokodaĵo: sco); skota skolo de Esperanta literaturo; en la nordo kaj okcidento [de Skotlando] oni parolis la lingvon gaelan, [dum] en la centro kaj nordoriento oni parolis skote (Auld).</item>
+  </list>
+</item>
+
+<label lang="eo">slav&strek;o</label>
+<item>Ano de eŭropa gentaro, kiu karakteriziĝas per uzado de parencaj lingvoj, kaj al kiu apartenas la gentoj belorusoj, bulgaroj, ĉeĥoj, kroatoj, poloj, rusoj, serboj, slovenoj, slovakoj, ukrainoj kaj aliaj.
+<list type="deriv">
+  <label lang="eo">slav&strek;a</label>
+  <item>Rilata al slavoj aŭ slavaj lingvoj.</item>
+</list>
+</item>
+
+<label lang="eo">slovak&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Slovakujo, parolanta okcidentslavan lingvon (internacia lingvokodaĵo: slk)</item>
+    <item n="2">Ano de Slovakujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Slovak&strek;uj&strek;o</label>
+    <item> Lando en Mez‑Eŭropo, inter Pollando kaj Hungarujo. Internacia landokodaĵo: SK.</item>
+    <label lang="eo">slovak&strek;a</label>
+    <item> Rilata al slovakoj, la slovaka lingvo aŭ Slovakujo.</item>
+    <label lang="eo">ĉeĥ&strek;o&strek;slovak&strek;o</label>
+    <item> Ano de Ĉeĥoslovakujo.</item>
+    <label lang="eo">Ĉeĥ&strek;o&strek;slovak&strek;uj&strek;o</label>
+    <item> Inter la jaroj 1918 kaj 1992, lando konsistanta el Ĉeĥujo kaj Slovakujo.</item>
+    <label lang="eo">ĉeĥ&strek;o&strek;slovak&strek;a</label>
+    <item> Rilata al Ĉeĥoslovakujo.</item>
+  </list>
+</item>
+
+<label lang="eo">sloven&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Slovenujo, parolanta sudslavan lingvon (internacia lingvokodaĵo: slv)</item>
+    <item n="2">Ano de Slovenujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Sloven&strek;uj&strek;o</label>
+    <item>Lando en Mez‑Eŭropo, inter Aŭstrujo kaj Kroatujo. Internacia landokodaĵo: SI.</item>
+    <label lang="eo">sloven&strek;a</label>
+    <item>Rilata al slovenoj, la slovena lingvo aŭ Slovenujo.</item>
+  </list>
+</item>
+
+
+<label lang="eo">Sofi&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">La ĉefurbo de Bulgarujo</item>
+    <item n="2">Provinco de Bulgarujo, en ties okcidenta parto, kies administra centro estas Sofio 1. Internacia landerokodaĵo: BG‑23.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Sofi&strek;o‑Urb&strek;o</label>
+    <item> Provinco de Bulgarujo, kiu entenas Sofion 1, preskaŭ tute ĉirkaŭata de Sofio 2 sed ne parto de tiu ĉi. Internacia landerokodaĵo: BG‑22.</item>
+  </list>
+</item>
+
+<label lang="eo">somal&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Ano de la ĉefgento de Somalujo, parolanta afrikazian lingvon (internacia lingvokodaĵo: som)</item>
+    <item n="2">Ano de Somalujo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">Somal&strek;uj&strek;o</label>
+    <item> Lando en orienta Afriko, nordoriente de Kenjo 2. Internacia landokodaĵo: SO.</item>
+    <label lang="eo">somal&strek;a</label>
+    <item> Rilata al somaloj, la somala lingvo aŭ Somalujo.</item>
+  </list>
+</item>
+
+<label lang="eo">sovet&strek;o</label>
+<item>
+  <list type="def">
+    <item n="1">Dum la revoluciaj tempoj en Rusujo (la jaroj 1905 kaj 1917), konsilantaro de elektitaj deputitoj, kutime konsistanta el laboristoj, kamparanoj kaj soldatoj, kiu funkciis kiel organo de popola memregado ekde loka ĝis regiona nivelo</item>
+    <item n="2">En Soveta Unio, reprezenta organo kun leĝofara kaj decida povo ekde vilaĝa kaj urbodistrikta ĝis ŝtata nivelo.</item>
+  </list>
+  <list type="deriv">
+    <label lang="eo">sovet&strek;a</label>
+    <item> Rilata al sovetoj, politika sistemo asociita kun sovetoj, al Soveta Unio kaj ties loĝantoj, precipe en la kunteksto de la koncerna politika reĝimo.</item>
+    <label lang="eo">Sovet&strek;a Uni&strek;o, Sovet‑Uni&strek;o</label>
+    <item> Unio de Sovetaj Socialismaj Respublikoj; iama federacia regno, ekzistanta inter la jaroj 1922 kaj 1991, kiu de 1956 ĝis sia dismembriĝo konsistis el 15 respublikoj, respondaj al la nunaj landoj Armenujo, Azerbajĝano, Belorusujo, Estonujo, Kartvelujo, Kazaĥujo, Kirgizujo, Latvujo, Litovujo, Moldavujo, Rusujo, Taĝikujo, Turkmenujo, Ukrainujo kaj Uzbekujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Soveti&strek;o</label>
+<item> = Soveta Unio.
+  <list type="deriv">
+  <label lang="eo">soveti&strek;a</label>
+  <item> Rilata al Sovetio kaj ties loĝantoj.</item>
+  </list>
+</item>
+
+<label lang="eo">Srilank&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Insulo en Sud‑Azio, en la Hinda Oceano, sudokcidente de la Bengala Golfo, ĉirkaŭ 200 kilometojn oriente de la suda pinto de la hinda subkontinento</item>
+  <item n="2">Lando sur Srilanko 1. Internacia landokodaĵo: LK.</item>
+  </list>
+</item>
+
+<label lang="eo">status&strek;o</label>
+<item> Leĝa aŭ jura situacio de persono, organizo, regiono, lingvo k.s.</item>
+
+<label lang="eo">Stokholm&strek;o</label>
+<item> La ĉefurbo de Svedujo.</item>
+
+<label lang="eo">Strasburg&strek;o</label>
+<item> Urbo en orienta Francujo, la ĉefurbo de Malsupra Rejno.</item>
+
+<label lang="eo">Sudan&strek;o</label>
+<item> (8OA)
+<list type="deriv">
+<label lang="eo">Sud‑Sudan&strek;o</label>
+<item> Lando en meza Afriko, inter Centr‑Afriko kaj Etiopujo. Internacia landokodaĵo: SS.</item>
+</list></item>
+
+<label lang="eo">Sumatr&strek;o</label>
+<item> Insulo de Indonezio, situanta rande de la Hinda Oceano ambaŭflanke de la ekvatoro.</item>
+
+<label lang="eo">Sumer&strek;o</label>
+<item> Dum antikveco, regno de Mezopotamio, sudoriente de Babilono.
+<list type="deriv">
+<label lang="eo">sumer&strek;an&strek;o</label>
+<item> Ano de la antikva ĉefgento de Sumero, parolanta la sumeran lingvon (internacia lingvokodaĵo: sux).</item>
+<label lang="eo">sumer&strek;a</label>
+<item> Rilata al sumeranoj, ilia lingvo aŭ Sumero.</item>
+</list></item>
+
+<label lang="eo">Surinam&strek;o</label>
+<item> Lando en la nordorienta parto de Sud‑Ameriko, inter Gujano kaj Franca Gujano. Internacia landokodaĵo: SR.</item>
+
+<label lang="eo">suveren&strek;o</label>
+<item> Tiu, kiu en regno havas la plej superan povon.</item>
+
+<label lang="eo">svazi&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Svazilando, parolanta bantuan lingvon (internacia lingvokodaĵo: ssw)</item>
+<item n="2">Ano de Svazilando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Svazi&strek;land&strek;o</label>
+<item> Lando en suda Afriko, inter Sud‑Afriko kaj Mozambiko. Internacia landokodaĵo: SZ.</item>
+<label lang="eo">svazi&strek;a</label>
+<item> Rilata al svazioj, la svazia lingvo aŭ Svazilando.</item>
+</list></item>
+
+<label lang="eo">svis&strek;o</label>
+<item> Ano de Svislando. 
+<list type="deriv">
+<label lang="eo">Svis&strek;land&strek;o, Svis&strek;uj&strek;o</label>
+<item> Federacia regno en Mez‑Eŭropo, okcidente de Aŭstrujo. Internacia landokodaĵo: CH.</item>
+<label lang="eo">svis&strek;a</label>
+<item> Rilata al svisoj aŭ Svislando.</item>
+</list></item>
+
+<label lang="eo">Ŝanhaj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Havenurbo ĉe la Orientĉina Maro, ĉefurbo de Ŝanhajo 2</item>
+<item n="2">Distrikto en orienta Ĉinujo, en kiu situas Ŝanhajo 1. Internacia landerokodaĵo: CN‑SH.</item>
+</list></item>
+
+<label lang="eo">Ŝem&strek;o</label>
+<item> Unu el la filoj de Noa, laŭ la sanktaj tekstoj de kristanoj, hebreoj kaj islamanoj.
+<list type="deriv">
+<label lang="eo">ŝem&strek;id&strek;o</label>
+<item> Ano de kiu ajn el la gentoj, supozataj deveni de Ŝemo.</item>
+<label lang="eo">ŝem&strek;id&strek;a</label>
+<item> Rilata al ŝemidoj aŭ ŝemidaj lingvoj.</item>
+<label lang="eo">ŝem&strek;id&strek;a&strek;j lingv&strek;o&strek;j</label>
+<item>Branĉo de la afrikazia lingvaro, parolata precipe en okcidenta Azio, norda kaj okcidenta Afriko kaj Malto.</item>
+</list></item>
+
+<label lang="eo">Ŝetland&strek;o</label>
+<item> Insularo de Skotlando, ĉirkaŭ 170 kilometrojn nordoriente de la ĉeftero. Internacia landerokodaĵo: GB‑ZET.</item>
+
+<label lang="eo">taĝik&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Taĝikujo, parolanta iranan lingvon (internacia lingvokodaĵo: tgk)</item>
+<item n="2">Ano de Taĝikujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Taĝik&strek;uj&strek;o</label>
+<item> Lando en meza Azio, inter Afganujo kaj Kirgizujo. Internacia landokodaĵo: TJ.</item>
+<label lang="eo">taĝik&strek;a</label>
+<item> Rilata al taĝikoj, la taĝika lingvo aŭ Taĝikujo.</item>
+</list></item>
+
+<label lang="eo">taj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Tajlando, parolanta la tajan lingvon (internacia lingvokodaĵo: tha)</item>
+<item n="2">Ano de Tajlando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Taj&strek;land&strek;o</label>
+<item> Lando en Hindoĉinujo, inter Birmo kaj Kamboĝo. Internacia landokodaĵo: TH.</item>
+<label lang="eo">taj&strek;a</label>
+<item> Rilata al tajoj, la taja lingvo aŭ Tajlando.</item>
+</list></item>
+
+<label lang="eo">Tajvan&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insulo situanta sudoriente de kontinenta Ĉinujo</item>
+<item n="2">Lando situanta sur Tajvano 1. Internacia landokodaĵo: TW.</item>
+</list></item>
+
+<label lang="eo">tamil&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Tamillando, parolanta dravidan lingvon (internacia lingvokodaĵo: tam)</item>
+<item n="2">Ano de Tamillando.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Tamil&strek;land&strek;o</label>
+<item> Barata ŝtato, en la sudorienta parto de Barato. Internacia landerokodaĵo: IN‑TN.</item>
+<label lang="eo">tamil&strek;a</label>
+<item> Rilata al tamiloj, la tamila lingvo aŭ Tamillando.</item>
+</list></item>
+
+<label lang="eo">Tamiz&strek;o</label>
+<item> Rivero en Anglujo, kiu trafluas Londonon.</item>
+
+<label lang="eo">Tampere&strek;o</label>
+<item> Landinterna urbo en sudokcidenta Finnlando.</item>
+
+<label lang="eo">Tanzani&strek;o</label>
+<item> Lando en orienta Afriko, sude de Kenjo. Internacia landokodaĵo: TZ.</item>
+
+<label lang="eo">Tasmani&strek;o</label>
+<item> Insula ŝtato de Aŭstralio, ĉirkaŭ 240 kilometrojn sude de la orienta parto de la aŭstralia ĉeftero. Internacia landerokodaĵo: AU‑TAS.</item>
+
+<label lang="eo">tatar&strek;o</label>
+<item> Ano de iu el pluraj gentoj, loĝantaj precipe en Tatarujo, Krimeo kaj okcidenta Siberio, parolantaj tjurkan lingvon (internacia lingvokodaĵo: tat).
+<list type="deriv">
+<label lang="eo">Tatar&strek;uj&strek;o</label>
+<item> Respubliko en la Rusuja Federacio, ĉe Volgo, oriente de Ĉuvaŝujo. Internacia landerokodaĵo: RU‑TA. Nacia landerokodaĵo: 16.</item>
+<label lang="eo">tatar&strek;a</label>
+<item> Rilata al tataroj, la tatara lingvo aŭ Tatarujo.</item>
+</list></item>
+
+<label lang="eo">Teheran&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Irano</item>
+<item n="2">Provinco de Irano, en kiu situas Teherano 1. Internacia landerokodaĵo: IR‑23.</item>
+</list></item>
+
+<label lang="eo">Teksas&strek;o</label>
+<item> Usona ŝtato, en la meza parto de suda Usono. Internacia landerokodaĵo: US‑TX.</item>
+
+<label lang="eo">Telaviv&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en Israelo, ĉe Mediteraneo</item>
+<item n="2">Distrikto de Israelo, kies ĉefurbo estas Telavivo 1. Internacia landerokodaĵo: IL‑TA.</item>
+</list></item>
+
+<label lang="eo">Tibet&strek;o</label>
+<item> Lando en meza Azio, de la jaro 1950 sub regado de Ĉinujo.
+<list type="deriv">
+<label lang="eo">tibet&strek;an&strek;o</label>
+<item> Ano de Tibeto.</item>
+<label lang="eo">tibet&strek;a</label>
+<item> Rilata al tibetanoj, Tibeto aŭ al pluraj lingvoj tie parolataj (internaciaj lingvokodaĵoj: adx, bod, khg).</item>
+</list></item>
+
+<label lang="eo">Tigris&strek;o</label>
+<item> Rivero en orienta Mezopotamio, kiu fluas de Turkujo kaj laŭlonge de ties limo kun Sirio ĝis Irako, kie ĝi kunfluas kun Eŭfrato.</item>
+
+<label lang="eo">Timor&strek;o</label>
+<item> Insulo norde de Aŭstralio.
+<list type="deriv">
+<label lang="eo">Okcident&strek;a Timor&strek;o</label>
+<item> Okcidenta parto de Timoro, kiu apartenas al Indonezio.</item>
+<label lang="eo">Orient&strek;a Timor&strek;o</label>
+<item> Lando en la orienta parto de Timoro. Internacia landokodaĵo: TL.</item>
+</list></item>
+
+<label lang="eo">tjurk&strek;o</label>
+<item> Ano de unu el la multaj triboj, origine loĝantaj en norda Ĉinujo, kiuj poste disvastiĝis ankaŭ en Mongolujon, Siberion, kaspiajn ĉirkaŭaĵojn kaj ĝis la Balkana Duoninsulo, interalie azerbajĝananoj, baŝkiroj, kazaĥoj, kirgizoj, tataroj, turkoj, turkmenoj, ujguroj kaj uzbekoj.
+<list type="deriv">
+<label lang="eo">tjurk&strek;a</label>
+<item> Rilata al tjurkoj kaj tjurkaj lingvoj.</item>
+</list></item>
+
+<label lang="eo">Tobag&strek;o</label>
+<item> Insulo de Trinidado kaj Tobago, ĉirkaŭ 35 kilometrojn nordoriente de Trinidado.</item>
+
+<label lang="eo">Tog&strek;o</label>
+<item> Lago en la suda parto de Togolando, apud la Gvinea Golfo.
+<list type="deriv">
+<label lang="eo">Tog&strek;o&strek;land&strek;o</label>
+<item> Lando en Okcident‑Afriko, inter Ganao kaj Benino. Internacia landokodaĵo: TG.</item>
+</list></item>
+
+<label lang="eo">Toki&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Japanujo</item>
+<item n="2">Gubernio de Japanujo, kie situas Tokio 1. Internacia landerokodaĵo: JP‑13.</item>
+</list></item>
+
+<label lang="eo">Tong&strek;o</label>
+<item> Insulara lando en la okcidenta parto de Polinezio, sudokcidente de Samoo. Internacia landokodaĵo: TO.
+<list type="deriv">
+<label lang="eo">tong&strek;an&strek;o</label>
+<item> Ano de Tongo.</item>
+<label lang="eo">tong&strek;a</label>
+<item> Rilata al tonganoj, Tongo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: ton).</item>
+</list></item>
+
+<label lang="eo">Torin&strek;o</label>
+<item> Urbo en la okcidenta parto de norda Italujo.</item>
+
+<label lang="eo">Toront&strek;o</label>
+<item> Urbo en Kanado, ĉe la Grandaj Lagoj.</item>
+
+<label lang="eo">trak&strek;o</label>
+<item> Ano de gento, kiu dum antikveco loĝis en Trakujo 1.
+<list type="deriv">
+<label lang="eo">Trak&strek;uj&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Antikva reĝlando ĉe la okcidenta bordo de la Nigra Maro kaj la norda bordo de la Egea Maro, kiu iĝis provinco de la Roma Imperio en la jaro 46</item>
+<item n="2">Nuntempa regiono en sudorienta Eŭropo, dividita inter Bulgarujo, Grekujo kaj Turkujo.</item>
+</list></item>
+</list></item>
+
+<label lang="eo">Trinidad&strek;o</label>
+<item> La plej suda insulo en Malgrandaj Antiloj kaj ĉefa insulo de Trinidado kaj Tobago. 
+<list type="deriv">
+<label lang="eo">Trinidad&strek;o kaj Tobag&strek;o</label>
+<item> Insulara lando en la suda parto de Malgrandaj Antiloj, ĉe la nordorienta bordo de Venezuelo. Internacia landokodaĵo: TT.</item>
+</list></item>
+
+<label lang="eo">turkmen&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Turkmenujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: tuk)</item>
+<item n="2">Ano de Turkmenujo.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">Turkmen&strek;uj&strek;o</label>
+<item> Lando en meza Azio, norde de Irano kaj Afganujo. Internacia landokodaĵo: TM.</item>
+<label lang="eo">turkmen&strek;a</label>
+<item> Rilata al turkmenoj, la turkmena lingvo aŭ Turkmenujo.</item>
+</list></item>
+
+<label lang="eo">Tuval&strek;o</label>
+<item> Insulara lando en la okcidenta parto de Polinezio, inter Kiribato kaj Samoo. Internacia landokodaĵo: TV.
+<list type="deriv">
+<label lang="eo">tuval&strek;an&strek;o</label>
+<item> Ano de Tuvalo.</item>
+<label lang="eo">tuval&strek;a</label>
+<item> Rilata al tuvalanoj, Tuvalo aŭ la aŭstronezia lingvo tie parolata (internacia lingvokodaĵo: tvl).</item>
+</list></item>
+
+<label lang="eo">Ugand&strek;o</label>
+<item> Lando en orienta Afriko, inter Sud‑Sudano kaj Tanzanio. Internacia landokodaĵo: UG.</item>
+
+<label lang="eo">ujgur&strek;o</label>
+<item> Ano de gento loĝanta en meza Azio, precipe en Ĉinujo norde de Tibeto, parolanta tjurkan lingvon (internacia lingvokodaĵo: uig).
+<list type="deriv">
+<label lang="eo">ujgur&strek;a</label>
+<item> Rilata al ujguroj aŭ la ujgura lingvo.</item>
+</list></item>
+
+<label lang="eo">ukrain&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Ukrainujo, parolanta orientslavan lingvon (internacia lingvokodaĵo: ukr)</item>
+<item n="2">Ano de Ukrainujo.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">Ukrain&strek;uj&strek;o</label>
+<item> Lando en orienta Eŭropo, norde de la Nigra Maro. Internacia landokodaĵo: UA.</item>
+<label lang="eo">ukrain&strek;a</label>
+<item> Rilata al ukrainoj, la ukraina lingvo aŭ Ukrainujo.</item>
+</list></item>
+
+<label lang="eo">Ulanbator&strek;o</label>
+<item> La ĉefurbo de Mongolujo.</item>
+
+<label lang="eo">Upsal&strek;o</label>
+<item> Universitata urbo en Svedujo, norde de Stokholmo.</item>
+
+<label lang="eo">Ural&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Montaro inter Eŭropo kaj Azio, de la Arkta Oceano ĝis Uralo 2</item>
+<item n="2">Rivero inter Rusujo kaj Kazaĥujo, fluanta de Uralo 1 en Kaspion. ural&strek;a&strek;j lingv&strek;oj. Familio, al kiu apartenas ekzemple la lingvoj hungara, finna kaj estona.</item>
+</list></item>
+
+<label lang="eo">uzbek&strek;o</label>
+<item>
+  <list type="def">
+  <item n="1">Ano de la ĉefgento de Uzbekujo, parolanta tjurkan lingvon (internacia lingvokodaĵo: uzb)</item>
+  <item n="2">Ano de Uzbekujo.
+  </item>
+  </list>
+  <list type="deriv">
+  <label lang="eo">Uzbek&strek;uj&strek;o</label>
+  <item> Lando en meza Azio, inter Turkmenujo kaj Kazaĥujo. Internacia landokodaĵo: UZ.</item>
+  <label lang="eo">uzbek&strek;a</label>
+  <item> Rilata al uzbekoj, la uzbeka lingvo aŭ Uzbekujo.</item>
+  </list>
+</item>
+
+<label lang="eo">Valenci&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo ĉe la mediteranea bordo de Hispanujo</item>
+<item n="2">Urbo en la norda parto de Venezuelo</item>
+<item n="3">Regiono de Hispanujo, kies ĉefurbo estas Valencio 1. Internacia landerokodaĵo: ES‑V.</item>
+</list></item>
+
+<label lang="eo">valon&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Valonujo, parolanta precipe la francan, dum malplimulto parolas apartan gaŭlolatinidan lingvon (internacia lingvokodaĵo: wln)</item>
+<item n="2">Ano de Valonujo.
+</item>
+</list>
+<list type="deriv">
+<label lang="eo">Valon&strek;uj&strek;o</label>
+<item> Regiono de Belgujo; ties suda, franclingva parto. Internacia landerokodaĵo: BE‑WAL.</item>
+<label lang="eo">valon&strek;a</label>
+<item> Rilata al valonoj, la valona lingvo aŭ Valonujo.</item>
+</list></item>
+
+<label lang="eo">vandal&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de ĝermana tribaro, kiu en la 5‑a jarcento rabis en Gaŭlujo, Hispanujo, norda Afriko kaj la Roma Imperio</item>
+<item n="2">(figurasence) Persono, kiu intence aŭ senkomprene detruas aŭ difektas valoraĵojn.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">vandal&strek;ism&strek;o</label>
+<item> Ago de vandalo 2.</item>
+</list></item>
+
+<label lang="eo">Vankuver&strek;o</label>
+<item> Havenurbo ĉe la okcidenta marbordo de Kanado.</item>
+
+<label lang="eo">Vanuatu&strek;o</label>
+<item> Insulara lando en la orienta parto de Melanezio, inter Salomonoj kaj Fiĝio. Internacia landokodaĵo: VU.</item>
+
+<label lang="eo">Varn&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Marborda urbo en Bulgarujo</item>
+<item n="2">Provinco de Bulgarujo, en ties orienta parto, kies ĉefurbo estas Varno 1. Internacia landerokodaĵo: BG‑03.</item>
+</list></item>
+
+<label lang="eo">Vatikan&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Monteto ekster la antikva limo de Romo</item>
+<item n="2">Lando sur Vatikano 1, kies suvereno estas la papo. Internacia landokodaĵo: VA</item>
+<item n="3">La ĉefurbo de Vatikano 2.</item>
+</list></item>
+
+<label lang="eo">Veneci&strek;o</label>
+<item> Urbo en norda Italujo, ĉe Adriatiko, nord‑oriente de Bolonjo.
+<list type="deriv">
+<label lang="eo">veneci&strek;an&strek;o</label>
+<item> Ano de Venecio.</item>
+<label lang="eo">veneci&strek;a</label>
+<item> Rilata al venecianoj, Venecio aŭ al la vario de la itala lingvo parolata en la nordorienta parto de Italujo (internacia lingvokodaĵo: vec).</item>
+</list></item>
+
+<label lang="eo">Vien&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Aŭstrujo</item>
+<item n="2">Aŭstra federacia lando, en kiu situas Vieno 1. Internacia landerokodaĵo: AT‑9.</item>
+</list></item>
+
+<label lang="eo">viking&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de skandinava grupo de maristoj, kiuj ekde la 8‑a ĝis la 11‑a jarcento vaste vojaĝis tra plejparte eŭropaj regionoj, kie ili rabis, komercis kaj ekloĝis</item>
+<item n="2">Ano de unu el la historiaj popoloj, el kiuj originas vikingoj 1.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">viking&strek;a</label>
+<item> Rilata al vikingoj: vikinga ŝipo.</item>
+</list></item>
+
+<label lang="eo">Vincent&strek;o</label>
+<item> Vira nomo, i.a. de pluraj sanktuloj.
+<list type="deriv">
+<label lang="eo">Sankt&strek;a Vincent&strek;o</label>
+<item> Insulo en Malgrandaj Antiloj, okcidente de Barbado. </item>
+<label lang="eo">Sankt&strek;a Vincent&strek;o kaj Grenadin&strek;o&strek;j</label>
+<item> Insulara lando en Malgrandaj Antiloj, kies ĉefa insulo estas Sankta Vincento. Internacia landokodaĵo: VC.</item>
+</list></item>
+
+<label lang="eo">vjetnam&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Ano de la ĉefgento de Vjetnamujo, parolanta sudazian lingvon (internacia lingvokodaĵo: vie)</item>
+<item n="2">Ano de Vjetnamujo.
+</item>
+</list>
+
+<list type="deriv">
+<label lang="eo">Vjetnam&strek;uj&strek;o</label>
+<item> Lando en suda kaj orienta Hindoĉinujo. Internacia landokodaĵo: VN.</item>
+<label lang="eo">vjetnam&strek;a</label>
+<item> Rilata al vjetnamoj, la vjetnama lingvo aŭ Vjetnamujo.</item>
+</list></item>
+
+<label lang="eo">Vogez&strek;o&strek;j</label>
+<item>
+<list type="def">
+<item n="1">Montaro en orienta Francujo, paralela al la Nigra Arbaro trans Rejno</item>
+<item n="2">Departemento en orienta Francujo, el kiu granda parto estas okupata de Vogezoj 1. Internacia landerokodaĵo: FR‑88.</item>
+</list></item>
+
+<label lang="eo">Volg&strek;o</label>
+<item> Rivero en okcidenta Rusujo, la plej longa en Eŭropo, kiu fluas tra meza Rusujo ĝis suda Rusujo, kie ĝi enfluas Kaspion.</item>
+
+<label lang="eo">Zagreb&strek;o</label>
+<item>
+<list type="def">
+<item n="1">La ĉefurbo de Kroatujo</item>
+<item n="2">Provinco de Kroatujo, en ties norda parto, kiu entenas Zagrebon 1. Internacia landerokodaĵo: HR‑01.</item>
+</list></item>
+
+<label lang="eo">Zambi&strek;o</label>
+<item> Lando en suda Afriko, oriente de Angolo. Internacia landokodaĵo: ZM.</item>
+
+<label lang="eo">Zanzibar&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Insularo de Tanzanio, en la Hinda Oceano, ĉirkaŭ 35 kilometrojn oriente de la ĉeftero</item>
+<item n="2">La plej granda urbo sur Zanzibaro 1, ĉe la okcidenta bordo de ties plej granda insulo.</item>
+</list></item>
+
+<label lang="eo">Zeland&strek;o</label>
+<item> Provinco en sudokcidenta Nederlando, inter Sud‑Holando kaj Belgujo. Internacia landerokodaĵo: NL‑ZE.
+<list type="deriv">
+<label lang="eo">Nov‑Zeland&strek;o</label>
+<item> Lando en Oceanio, sudoriente de Aŭstralio. Internacia landokodaĵo: NZ.</item>
+</list></item>
+
+<label lang="eo">Zeŭs&strek;o</label>
+<item> Laŭ la antikva greka mitologio, la reĝo de dioj kaj homoj, kiu vivas sur Olimpo.</item>
+
+<label lang="eo">Zimbabv&strek;o</label>
+<item> Lando en sudorienta Afriko, inter Bocvano kaj Mozambiko. Internacia landokodaĵo: ZW.</item>
+
+<label lang="eo">Zurik&strek;o</label>
+<item>
+<list type="def">
+<item n="1">Urbo en la norda parto de Svislando</item>
+<item n="2">Kantono de Svislando, kies ĉefurbo estas Zuriko 1. Internacia landerokodaĵo: CH‑ZH.</item>
+</list>
+</item>
 
 </list>
 </div>

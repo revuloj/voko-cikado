@@ -600,10 +600,10 @@ listo de tradukoj -->
   <xsl:apply-templates/>
 </xsl:template>
 
-<!-- apartaj reguloj por difinlistoj de OA9 (sen tradukoj) -->
+<!-- apartaj reguloj por difinlistoj de OA9 k OA10 (sen tradukoj) -->
 
 <xsl:template match="list[@type='dict' and @rend='def']/item" priority="1">
-  <p class="dict-entry"> <!-- id="{generate-id()}" -->
+  <p class="dict-entry" data-xsl="oa9_oa10"> <!-- id="{generate-id()}" -->
     <xsl:attribute name="id">
       <xsl:call-template name="inx-id"/>
     </xsl:attribute>
