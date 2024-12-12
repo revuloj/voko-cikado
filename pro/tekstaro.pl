@@ -104,6 +104,9 @@ vrk(fr2,faraono2,1926,
 vrk(fr3,faraono3,1926,
     struct_teix(chapter),
     verkoj('faraono3.xml')).
+vrk(pgm,post_milito,1922,
+    struct_tei(chapter),
+    esf('post-la-granda-milito.xml')).
 vrk(f_e,fundamento,1905,
     struct_fundamento,
     verkoj('fundamento.xml')).
