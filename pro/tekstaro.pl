@@ -104,9 +104,6 @@ vrk(fr2,faraono2,1926,
 vrk(fr3,faraono3,1926,
     struct_teix(chapter),
     verkoj('faraono3.xml')).
-vrk(pgm,post_milito,1922,
-    struct_tei(chapter),
-    esf('post-la-granda-milito.xml')).
 vrk(f_e,fundamento,1905,
     struct_fundamento,
     verkoj('fundamento.xml')).
@@ -254,10 +251,9 @@ vrk(pkp,patroj_filoj,1909,
     struct_tei(chapitro),
     esf('patroj-kaj-filoj.xml')).
 
-% div snd @type
-%vrk(pgm,post_milito,1914,
-%    struct_tei(chapitro),
-%    esf('post-la-granda-milito.xml')).
+vrk(pgm,post_milito,1915,
+    struct_tei(artikolo),
+    esf('post-la-granda-milito.xml')).
 
 vrk(p_i,pro_ishtar,1924,
     struct_tei(chapitro),
