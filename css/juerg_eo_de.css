@@ -1,0 +1,49 @@
+@import url("teixlite.css");
+
+.dict-entry {
+	    font-size: 12pt;
+	    text-align: left; 
+	    margin-top: 0.5em; 
+	    margin-bottom: 0em; 
+	    margin-left: 1em;
+	    text-indent: -1em;
+	    }   
+
+.dict-entry li {
+	margin-left: -1em;
+	text-indent: 0;
+}		
+
+.dict-entry>li::marker, 
+.dict-subentry>li::marker {
+	font-weight: bold;
+}
+
+.dict-subentry {
+	    font-size: 12pt;
+	    text-align: left; 
+	    margin-top: 0.5em; 
+	    margin-bottom: 0em; 
+	    margin-left: 2em;
+	    text-indent: -1em;
+	    } 
+
+
+.dict-subentry li {
+	margin-left: -0.5em;
+	text-indent: 0;
+}		
+
+.titlePart {
+	    color: darkgreen;
+}
+
+.smallTitle {
+	    color: darkgreen;
+	    font-size: 12pt;
+	    font-weight: bold;
+}  
+
+
+.uv_header {font-variant: small-caps; font-size: 90%; font-weight: bold; 
+         margin-bottom: 0; height: 2em; line-height: 120% }

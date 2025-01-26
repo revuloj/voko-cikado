@@ -53,9 +53,6 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level1" select="'part'"/> 
 <xsl:variable name="content_level2" select="'letter'"/>
 
-<!-- ĵeto de komencliteroj al indeksĉapitroj -->
-<xsl:variable name="map_from" select="'abc&ccirc;defg&gcirc;h&hcirc;ij&jcirc;klmnoprs&scirc;tu&ubreve;vz&circ;&breve;-&Ccirc;&Gcirc;&Hcirc;&Jcirc;&Scirc;&Ubreve;'"/>
-<xsl:variable name="map_to" select="'ABCCDEFGGHHIJJKLMNOPRSSTUUVZXXXCFHJSU'"/>
 
 <xsl:template match="/TEI.2/text/front">
   <xsl:apply-templates/>
@@ -234,7 +231,7 @@ specialajn regulojn ne au alie difinitajn tie.
       </div>
     </xsl:when>
 
-    <!-- kapo por ĉapitroj de literoj en UV -->
+    <!-- kapo por ĉapitroj de literoj en la vortaro -->
     <xsl:when test="self::div[@type='letter']">
       <div class="uv_header">
       <p align="center">
@@ -276,11 +273,11 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template name="footer">
   <hr/>
-  <!-- <xsl:if test="self::div">-->
+  <!-- <xsl:if test="self::div">
     <div class="footnotes">
       <xsl:call-template name="footnotes"/>
     </div>
-  <!-- </xsl:if> -->
+ </xsl:if> -->
 
   <div class="footer">
   <xsl:choose>
@@ -314,6 +311,7 @@ specialajn regulojn ne au alie difinitajn tie.
   </div>
 </xsl:template>
 
+
 <xsl:template match="titlePart[@rend='small']">
   <p class="smallTitle">
     <xsl:apply-templates/>
@@ -323,7 +321,6 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template match="titlePage/byline">
   <span class="author"><xsl:apply-templates/></span><br/>
 </xsl:template>
-
 
 <!-- tabeloj -->
 
@@ -346,121 +343,9 @@ specialajn regulojn ne au alie difinitajn tie.
   </td>
 </xsl:template>
 
-
 <!-- listoj -->
 
-<xsl:template match="list">
-  <xsl:choose>
-    <xsl:when test="@rend='1.'">
-      <xsl:apply-templates/>
-    </xsl:when>
-    <xsl:when test="@rend='a)'">
-      <xsl:apply-templates/>
-    </xsl:when>
-    <xsl:otherwise>
-      <ul>
-        <xsl:apply-templates/>
-      </ul>
-    </xsl:otherwise>
-  </xsl:choose>
-</xsl:template>
-
-<xsl:template match="list[@rend='1.']/item[@n]">
-  <p>
-  <strong><xsl:value-of select="@n"/>. </strong>
-  <xsl:apply-templates/>
-  </p>
-</xsl:template>
-
-<xsl:template match="list[@rend='a)']/item[@n]">
-  <p>
-  <xsl:value-of select="@n"/>)
-  <xsl:apply-templates/>
-  </p>
-</xsl:template>
-
-
-<xsl:template match="list[@rend='1)']/item[@n]">
-  <p class="p">
-  <xsl:value-of select="@n"/>) 
-  <xsl:apply-templates/>
-  </p>
-</xsl:template>
-
-<xsl:template match="address[@rend='right']">
-  <p class="right">
-  <xsl:apply-templates/>
-  </p>
-</xsl:template>
-<!--
-<xsl:template match="note[@rend='footnote']">
-  <span class="note">(<xsl:apply-templates/>)</span>
-</xsl:template>
--->
-
-<!-- ne montru kapnotojn en la enhav-tabelo! -->
-<xsl:template match="head/note" mode="toc"/>
-
-<!-- ne montru index-terminojn en la normala teksto, sed ja en la indekso,
-krome pro ĝusta referencado lasu nevideblan markon -->
-<xsl:template match="index">
-  <!-- nevidebla referenccelo -->
-  <span>
-    <xsl:attribute name="id">
-      <xsl:call-template name="inx-id"/>
-    </xsl:attribute>
-  </span>
-</xsl:template>
-
-
-<!-- subpremu alnotojn en indeksigitaj kapvortoj -->
-<xsl:template match="label/emph[@rend='note']" mode="index"/>
-<xsl:template match="item/note" mode="index"/>
-
-<!-- montru piednotojn ne ene, sed fine de dokumento (div) -->
-<xsl:template match="note[(@rend='footnote') or (@rend='footnoteref')]">
-  <xsl:text>(</xsl:text>
-  <a>
-    <xsl:attribute name="id">
-      <xsl:text>fn_</xsl:text>
-      <xsl:call-template name="footnote-id"/>
-    </xsl:attribute>
-    <xsl:attribute name="href">
-      <xsl:text>#</xsl:text>
-      <xsl:call-template name="footnote-id"/>
-    </xsl:attribute>
-    <xsl:text>&#x2193;</xsl:text><xsl:call-template name="footnote-id"/>
-  </a>
-  <xsl:text>)</xsl:text>
-</xsl:template>
-
-
-<xsl:template name="footnotes">
-  <xsl:for-each select=".//note[@rend='footnote']">
-    <p>
-      <xsl:attribute name="id">
-        <xsl:call-template name="footnote-id"/>
-      </xsl:attribute>
-    <xsl:text>(</xsl:text>
-    <a>
-      <xsl:attribute name="href">
-        <xsl:text>#fn_</xsl:text>
-        <xsl:call-template name="footnote-id"/>
-      </xsl:attribute>
-      <xsl:text>&#x2191;</xsl:text><xsl:call-template name="footnote-id"/>
-    </a>
-    <xsl:text>) </xsl:text>
-    <xsl:apply-templates/>
-    </p>
-  </xsl:for-each>
-</xsl:template>
-
-<xsl:template name="footnote-id">
-  <xsl:value-of select="@n"/>
-</xsl:template>
-
-
-<xsl:template match="list/head">
+<xsl:template match="list/head|head[@type='subtitle1']">
   <h4><xsl:apply-templates/></h4>
 </xsl:template>
 
@@ -494,10 +379,24 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 </xsl:template>
 
 
+<xsl:template match="ref">
+  <xsl:variable name="file" select="//div[@type='letter' and .//label[@id=current()/@target]]/@id"/>
+  <strong>
+    <a href="{$file}.html#{@target}">
+      <xsl:apply-templates/>
+    </a>
+  </strong>
+</xsl:template>  
+
 <!-- strukturita enhavo de vortlistero vorto + difino + derivaĵoj -->
 
 <xsl:template match="list[@type='dict']/item">
   <p class="dict-entry">
+  <xsl:if test="preceding-sibling::label[1]/@id">
+    <xsl:attribute name="id">
+      <xsl:value-of select="preceding-sibling::label[1]/@id"/>
+    </xsl:attribute>
+  </xsl:if>
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates/>
   <xsl:text>. </xsl:text>
@@ -523,6 +422,11 @@ krome pro ĝusta referencado lasu nevideblan markon -->
 
 <xsl:template match="list[@type='deriv']/item">
   <span class="dict-subentry">
+  <xsl:if test="preceding-sibling::label[1]/@id">
+    <xsl:attribute name="id">
+      <xsl:value-of select="preceding-sibling::label[1]/@id"/>
+    </xsl:attribute>
+  </xsl:if>  
   <xsl:apply-templates select="preceding-sibling::label[1]"/>
   <xsl:apply-templates/>
   <xsl:if test="following-sibling::label">
