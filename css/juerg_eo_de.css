@@ -19,16 +19,6 @@
 	font-weight: bold;
 }
 
-.dict-subentry {
-	    font-size: 12pt;
-	    text-align: left; 
-	    margin-top: 0.5em; 
-	    margin-bottom: 0em; 
-	    margin-left: 2em;
-	    text-indent: -1em;
-	    } 
-
-
 .dict-subentry li {
 	margin-left: -0.5em;
 	text-indent: 0;
@@ -47,3 +37,35 @@
 
 .uv_header {font-variant: small-caps; font-size: 90%; font-weight: bold; 
          margin-bottom: 0; height: 2em; line-height: 120% }
+
+
+
+.content ul {
+	list-style: none;
+	display: inline-block;
+	padding: 1em 2em;
+	margin-top: 1em;
+}
+
+.content ul li {
+	display: inline-block;
+	padding: 0 0.5em;
+	min-width: 1em;
+	text-align: center;
+	cursor: pointer;
+}
+
+.content ul li:not(:last-child) {
+	border-right: 1px solid green;
+}
+
+
+.content li:hover {
+	text-decoration: underline;
+}
+
+.subcontent {
+	width: 0;
+	margin-left: 0;
+}
+		  

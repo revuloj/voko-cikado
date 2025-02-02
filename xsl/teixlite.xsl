@@ -251,6 +251,10 @@ konvenciojn:
           <xsl:for-each select=".//div[@type=$level2]">
             <xsl:variable name="ref">
               <xsl:choose>
+                <xsl:when test="@rend='doc'">
+                  <xsl:value-of select="@id"/>
+                  <xsl:text>.html</xsl:text>
+                </xsl:when>            
                 <xsl:when test="ancestor::node()[@rend='doc']">
                   <xsl:value-of select="ancestor::node()[@rend='doc']/@id"/>
                   <xsl:text>.html#</xsl:text>

@@ -54,102 +54,6 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:variable name="content_level2" select="'letter'"/>
 
 
-<xsl:template match="/TEI.2/text/front">
-  <xsl:apply-templates/>
-  <hr/>
-  
-  <!-- enmetu enhavtabelon -->
-
-  <xsl:for-each select="..">
-    <xsl:call-template name="table-of-content">
-      <xsl:with-param name="level1" select="$content_level1"/>
-      <xsl:with-param name="level2" select="$content_level2"/>
-    </xsl:call-template>
-  </xsl:for-each>
-
-  <hr/>
-
-</xsl:template>
-
-<xsl:template name="table-of-content">
-  <xsl:param name="level1"/>
-  <xsl:param name="level2"/>
-
-  <h3 class="contentTitle">Enhavo</h3>
-  <ul class="content">
-  <xsl:for-each select=".//div[@type=$level1]|.//text[@rend='doc']">
-
-    <xsl:variable name="ref">
-      <xsl:choose>
-        <xsl:when test="@rend='doc'">
-          <xsl:value-of select="@id"/>
-          <xsl:text>.html</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>#</xsl:text>
-          <xsl:value-of select="@id"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-    <xsl:variable name="refstr">
-      <xsl:choose>
-        <xsl:when test="self::text">
-          <xsl:apply-templates select=".//docTitle" mode="index"/>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:value-of select=".//head[1]"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
-
-    <li class="content">
-      <a href="{$ref}">
-        <xsl:value-of select="$refstr"/>  
-      </a>
-      <xsl:if test="($level2!='') and (.//div[@type=$level2])">
-        <ul>
-          <xsl:for-each select=".//div[@type=$level2]">
-            <xsl:variable name="ref">
-              <xsl:choose>
-                <xsl:when test="ancestor::node()[@rend='doc']">
-                  <xsl:value-of select="ancestor::node()[@rend='doc']/@id"/>
-                  <xsl:text>.html#</xsl:text>
-                  <xsl:value-of select="@id"/>
-                </xsl:when>
-                <xsl:otherwise>
-                  <xsl:text>#</xsl:text>
-                  <xsl:value-of select="@id"/>
-                </xsl:otherwise>
-              </xsl:choose>
-            </xsl:variable>
-
-<!--
-   <xsl:variable name="ref">
-      <xsl:choose>
-        <xsl:when test="@rend='doc'">
-          <xsl:value-of select="@id"/>
-          <xsl:text>.html</xsl:text>
-        </xsl:when>
-        <xsl:otherwise>
-          <xsl:text>#</xsl:text>
-          <xsl:value-of select="@id"/>
-        </xsl:otherwise>
-      </xsl:choose>
-    </xsl:variable>
--->
-            <li class="subcontent">
-              <a href="{$ref}">
-                <xsl:apply-templates select="./head[1]" mode="toc"/>
-              </a>
-            </li>
-          </xsl:for-each>
-        </ul>
-      </xsl:if>
-    </li>
-  </xsl:for-each>
-  </ul>
-</xsl:template>
-
 <xsl:template match="docTitle" mode="index">
   <xsl:value-of select="titlePart[@type='main']"/>
 </xsl:template>
@@ -342,6 +246,7 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:apply-templates/>
   </td>
 </xsl:template>
+
 
 <!-- listoj -->
 
