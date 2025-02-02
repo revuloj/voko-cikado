@@ -39,6 +39,9 @@
          margin-bottom: 0; height: 2em; line-height: 120% }
 
 
+.letter_aktuala {
+	border: 2px solid green;
+}
 
 .content ul {
 	list-style: none;

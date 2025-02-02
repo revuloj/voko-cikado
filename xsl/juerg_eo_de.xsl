@@ -105,15 +105,6 @@ specialajn regulojn ne au alie difinitajn tie.
         <span class="header_left">
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
-            <!-- por ekzercaro skribu §xx 
-            <xsl:if test="ancestor::text[@id='ekz']">
-              <xsl:if test="@n">
-                <xsl:text>&para; </xsl:text>
-                <xsl:value-of select="@n"/>
-                <xsl:text>. </xsl:text>            
-              </xsl:if>
-            </xsl:if>
-            -->
             <xsl:apply-templates select="head" mode="toc"/>
           </a>
         </span>
@@ -155,13 +146,11 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:for-each select="../div[@type='letter']">
           <xsl:choose>
             <xsl:when test="$n=current()/@n">
-              <xsl:value-of select="head"/>
+              <span class="letter_aktuala"><xsl:value-of select="head"/></span>
             </xsl:when>
-            <!--
             <xsl:otherwise>
-              <a href="uv_{@n}.html"><xsl:value-of select="head"/></a>
+              <a href="{@id}.html"><xsl:value-of select="head"/></a>
             </xsl:otherwise>
-            -->
           </xsl:choose>
           <xsl:if test="not(@n='Z')">
             <xsl:text>, </xsl:text>
