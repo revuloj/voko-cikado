@@ -68,7 +68,7 @@ voku ekz-e:
 
    <target name="klasikaj-verkoj"
     depends="preparo,
-      biblio,fundamento,ofcaldonoj,faraono,gfabeloj,fabeloj,
+      biblio,fundamento,ofcaldonoj,juerg_eo_de,faraono,gfabeloj,fabeloj,
       fumejo,kandid,lasta,interrompita,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
