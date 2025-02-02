@@ -119,7 +119,7 @@ konvenciojn:
   </xsl:if>
   <xsl:choose>
     <xsl:when test="@type">
-      <div class="@type">
+      <div class="{@type}">
         <xsl:apply-templates/>
       </div>
     </xsl:when>

@@ -70,34 +70,8 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <xsl:choose>
  
-    <!-- TEXT header -->
-    <xsl:when test="self::text">
-      <div class="header">
-      <!-- navigeblo al antaŭa dokumento -->
-      <xsl:for-each select="(preceding-sibling::text[@rend='doc'] | ./div[@id='antparol']) [last()]"> 
-        <span class="header_left">
-          <a href="{@id}.html">
-            <xsl:text>&lt;&lt;&nbsp;</xsl:text>
-            <xsl:value-of select="(.//titlePart[@type='main']|head)[1]"/>
-          </a>
-        </span>
-      </xsl:for-each>
-
-      <!-- aktuala dokumento kun navigeblo supren-->
-      <span class="header_center">        
-        <xsl:text> </xsl:text>
-        <a href="index.html">
-          <xsl:for-each select="(//front//docAuthor)[1]">
-            <xsl:value-of select="."/>:
-          </xsl:for-each>
-          <xsl:value-of select="(//front//titlePart[@type='main'])[1]"/>
-        </a>
-      </span>
-      </div>
-    </xsl:when>
-
     <!-- DIV header -->
-    <xsl:when test="self::div[@type='chapter' or @type='section']">
+    <xsl:when test="self::div[@type='part']">
       <div class="header">
 
       <!-- navigeblo al la antaŭa ĉapitro -->
@@ -105,7 +79,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <span class="header_left">
           <a href="{@id}.html">
             <xsl:text>&lt;&lt;&nbsp;</xsl:text>
-            <xsl:apply-templates select="head" mode="toc"/>
+            <xsl:apply-templates select=".//head[1]" mode="toc"/>
           </a>
         </span>
       </xsl:for-each>
@@ -174,16 +148,7 @@ specialajn regulojn ne au alie difinitajn tie.
 
   <div class="footer">
   <xsl:choose>
-    <xsl:when test="self::text|self::div[@id='antparol']">
-      <xsl:for-each select="following::text[@rend='doc'][1]">
-        <a href="{@id}.html">
-          <xsl:value-of select=".//titlePart[@type='main'][1]"/>
-          <xsl:text>&nbsp;&gt;&gt;</xsl:text>
-        </a>
-      </xsl:for-each>
-    </xsl:when>
-
-    <xsl:when test="self::div[@type='chapter' or @type='section']">
+    <xsl:when test="self::div[@type='part']">
       <xsl:for-each select="following-sibling::div[@rend='doc'][1]">
         <a href="{@id}.html">
           <!-- por ekzercaro skribu §xx -->
@@ -194,7 +159,7 @@ specialajn regulojn ne au alie difinitajn tie.
               <xsl:text>. </xsl:text>            
             </xsl:if>
           </xsl:if>
-          <xsl:apply-templates select="head" mode="toc"/>
+          <xsl:apply-templates select=".//head[1]" mode="toc"/>
           <xsl:text>&nbsp;&gt;&gt;</xsl:text>
         </a>
       </xsl:for-each>
@@ -213,6 +178,11 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="titlePage/byline">
   <span class="author"><xsl:apply-templates/></span><br/>
+</xsl:template>
+
+<!-- subpremu ripeti la titolo de la vortaroparto (jam en la enhavtabelo) -->
+<xsl:template match="div[@id='jed_vortaro']">
+  <xsl:apply-templates select="div[@type='letter']"/>
 </xsl:template>
 
 <!-- tabeloj -->

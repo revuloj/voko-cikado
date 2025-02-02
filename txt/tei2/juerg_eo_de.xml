@@ -229,41 +229,51 @@ Approbation meinen herzlichsten Dank.
 <head>Zeichen und Abkürzungen</head>
  
 <p> 
-<list type="dict">
-<label>- (Kurzer Strich)</label> 
-<item>Wo dieser steht, schließe man
+
+<table cols="2" rows="8">
+<row>
+  <cell>- (Kurzer Strich)</cell> 
+  <cell>Wo dieser steht, schließe man
 den Anhängebuchstaben oder die 
 Anhänge- bezw. Vorsetzsilbe mit der Wortwurzel
-zusammen</item>
-
-<label>&mdash; (Langer Strich)</label> 
-<item>findet sich nur innerhalb eines
-Wortes. An dieser Stelle ist die Wortwurzel
-einzusetzen; z. B.: <hi>tiri, kork&mdash;ilo</hi> = 
-<hi>tiri, korktirilo</hi></item>
-
-<label>[]</label> 
-<item>Was in eckigen Klammern steht, kann dem
-außerhalb der Klammer Stehenden bei-
-bezw. angefügt oder vorgesetzt, kann aber
-auch gänzlich fortgelassen werden</item>
-
-<label>()</label>
-<item>Erklärende Beigaben und Bemerkungen stehen
-in runden Klammern</item>
-
-<label><emph>trans.</emph></label>
-<item>transitives Verbum</item>
-
-<label><emph>intrans.</emph></label>
-<item>intransitives Verbum</item>
-
-<label><emph>fig.</emph></label>
-<item>figürlich, im bildlichen Sinne</item>
-
-<label><emph>vgl.</emph></label>
-<item>vergleiche</item>
-</list>
+zusammen</cell>
+</row>
+<row>
+  <cell>&mdash; (Langer Strich)</cell> 
+  <cell>findet sich nur innerhalb eines
+  Wortes. An dieser Stelle ist die Wortwurzel
+  einzusetzen; z. B.: <hi>tiri, kork&mdash;ilo</hi> = 
+  <hi>tiri, korktirilo</hi></cell>
+</row>
+<row>
+  <cell>[]</cell> 
+  <cell>Was in eckigen Klammern steht, kann dem
+  außerhalb der Klammer Stehenden bei-
+  bezw. angefügt oder vorgesetzt, kann aber
+  auch gänzlich fortgelassen werden</cell>
+</row>
+<row>
+  <cell>()</cell>
+  <cell>Erklärende Beigaben und Bemerkungen stehen
+  in runden Klammern</cell>
+</row>
+<row>
+  <cell><emph>trans.</emph></cell>
+  <cell>transitives Verbum</cell>
+</row>
+<row>
+  <cell><emph>intrans.</emph></cell>
+  <cell>intransitives Verbum</cell>
+</row>
+<row>
+  <cell><emph>fig.</emph></cell>
+  <cell>figürlich, im bildlichen Sinne</cell>
+</row>
+<row>
+  <cell><emph>vgl.</emph></cell>
+  <cell>vergleiche</cell>
+</row>
+</table>
 </p>
 
 <p>
@@ -272,7 +282,7 @@ in Kursivschrift gedruckt.
 </p>
 </div>
 
-<div type="part" rend="doc" id="jed_vortaro">
+<div type="part" id="jed_vortaro">
 <head>Wörterbuch</head>
 <head type="subtitle1">Esperanto - Deutsch</head>
 
@@ -4875,13 +4885,13 @@ Schabracke</item>
 verdrießen, ärgern, Kummer bereiten;  
 <list type="deriv">
 
-  <label lang="eo">ĉagren-iĝi</label>
+  <label lang="eo">-iĝi</label>
   <item>sich grämen</item>  
 
-  <label lang="eo">ĉagren-o</label>
+  <label lang="eo">-o</label>
   <item>Kummer, Sorge</item>  
 
-  <label lang="eo">ĉagren-a</label>
+  <label lang="eo">-a</label>
   <item>ärgerlich, verdrießlich</item>  
 </list></item>
 
