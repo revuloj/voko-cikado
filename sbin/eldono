@@ -5,6 +5,12 @@ eldono=2n
 
 target="${1:-helpo}"
 
+
+# aldonu en /etc/hosts!
+host=revo
+revo=${host}:www/revo
+cgibin=${host}:www/cgi-bin
+
 case $target in
 kreo)
     echo "Kreante lokan procezujon (por docker) voko-cikado"
@@ -16,7 +22,12 @@ etikedo)
     echo "Provizante la aktualan staton per etikedo (git tag) v${eldono}"
     echo "kaj puŝante tiun staton al la centra deponejo"
     git tag -f v${eldono} && git push && git push origin v${eldono} -f
-    ;;    
+    ;;   
+ofc)
+    scp ./steloj.de/fundamento/fundamento.json ${revo}/inx
+    scp ./steloj.de/ofcaldonoj/ofcaldonoj.json ${revo}/inx
+    #scp cgi/admin/upofc.pl ${cgibin}/admin
+    ;;     
 helpo | *)
     echo "---------------------------------------------------------------------------"
     echo "Per la celo 'kreo' oni povas krei docker-procezujon de voko-cikado. "

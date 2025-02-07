@@ -622,7 +622,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <xsl:template name="inx-id">
   <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
   <xsl:text>_n</xsl:text>
-  <xsl:number level="any" from="div[@id]|list[@id]" count="label|emph|hi|index"/>
+  <xsl:number level="any" from="div[@id]|list[@id]" count="label|item|emph|hi|index"/>
 </xsl:template>
 
 <xsl:template match="label[@rend='hidden']" priority="2"/>

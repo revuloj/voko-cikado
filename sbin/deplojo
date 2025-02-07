@@ -1,0 +1,48 @@
+#!/bin/bash
+
+# eldonas kadrajn paĝojn, sendante ilin al la publika servilo
+# tio estas iom provizora solvo, kiun necesas plibonigi poste:
+#
+# la kadraj paĝoj prefere ankaŭ aperu en la ĉiutagaj eldonoj de la vortaro,
+# almenaŭ dum eblas uzi la vortaron loke per statikaj paĝoj....
+# Tamen ni ne volas ilin inkluzivi en voko-grundo, voko-formiko dum ni
+# iom pli multe prilaboras ilin, por eviti ĉiufoje krei novan procezumon voko-formiko
+
+# jen kelkaj informoj kiel eviti plurfoje doni la pasvorton por scp:
+# https://linux.101hacks.com/unix/ssh-controlmaster/
+# + ControlPersist 2m
+# http://blogs.perl.org/users/smylers/2011/08/ssh-productivity-tips.html
+
+# aldonu en /etc/hosts!
+release=2n
+
+# ni komprenas preparo | docker | servilo |index
+# kaj supozas "docker", se nenio donita argumente
+target="${1:-docker}"
+
+cgidir=/usr/local/apache2/cgi-bin
+perllib=/usr/local/apache2/cgi-bin/perllib
+revodir=/usr/local/apache2/htdocs/revo
+
+case $target in
+
+docker-ofc)
+    araneo_id=$(docker ps --filter name=araneujo_araneo -q)
+    # PLIBONIGU: 
+    # - kopiado el voko-cikado funkcias nur ĉe mi loke pro aranĝo de projektoj
+    #   eble prenu la JSON-dosierojn de pli kohera loko aŭ kreu ilin laŭbezone?
+    # - necesas ankaŭ dosiero inx_ofc.json el voko-formiko ant/indekso.xml inx-oficialaj
+    #   kiel ni povas elegante krei ĝin loke (momente necesas pluraj docker-komandoj exec, cp...):
+    #          $ bin/fs-formiko formiko inx-oficialaj
+    #          $ formiko_id=$(docker ps --filter name=formikujo_formiko -q)
+    #          $ docker cp <formiko_id>:/home/formiko/tmp/inx_tmp/inx/inx_ofc.json ./
+    #          $ araneo_id=$(docker ps --filter name=araneujo_araneo -q)
+    #          $ docker cp inx_ofc.json <araneo_id> :/usr/local/apache2/htdocs/revo/inx
+    docker cp -q ./steloj.de/fundamento/fundamento.json ${araneo_id}:${revodir}/inx
+    docker cp -q ./steloj.de/ofcaldonoj/ofcaldonoj.json ${araneo_id}:${revodir}/inx
+
+    docker cp -q cgi/admin/upofc.pl ${araneo_id}:${cgidir}/admin
+    docker exec ${araneo_id} bash -c "perl ${cgidir}/admin/upofc.pl"
+    ;;
+
+esac

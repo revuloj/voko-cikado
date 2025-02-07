@@ -167,7 +167,7 @@ voku ekz-e:
       </xslt>
    </target>
 
-   <target name="fundamento-json" description="kreas JSON-indekso el fundamento.xml">
+   <target name="fundamento-json" description="kreas JSON-indekson el fundamento.xml">
      <xslt in="${xml}/fundamento.xml" out="${celo}/fundamento/fundamento.json"
        style="${xsl}/fund_oa_json.xsl" classpathref="saxon.classpath">
         <factory name="net.sf.saxon.TransformerFactoryImpl">
