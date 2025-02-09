@@ -259,7 +259,7 @@ specialajn regulojn ne au alie difinitajn tie.
         <xsl:for-each select="../div[@type='letter']">
           <xsl:choose>
             <xsl:when test="$n=current()/@n">
-              <xsl:value-of select="head"/>
+              <span class="letter_aktuala"><xsl:value-of select="head"/></span>
             </xsl:when>
             <xsl:otherwise>
               <a href="uv_{@n}.html"><xsl:value-of select="head"/></a>

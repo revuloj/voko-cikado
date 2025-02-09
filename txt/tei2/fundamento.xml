@@ -5940,7 +5940,7 @@ duźy</item>
 <div type="section" n="18" id="ekz_18" rend="doc">
 
 <p>Li amas min, sed mi lin ne amas. &dash; Mi volis lin bati, sed li
-forkuris de mi. &dash; Diru al mi vian nomon. &dash; Ne skribu al mi tiajn
+<index level1="forkuri"/>forkuris de mi. &dash; Diru al mi vian nomon. &dash; Ne skribu al mi tiajn
 longajn leterojn. &dash; Venu al mi hodiaŭ vespere. &dash; Mi rakontos al
 vi historion. &dash; Ĉu vi diros al mi la veron? &dash; La domo apartenas
 al li. &dash; Li estas mia onklo, ĉar mia patro estas lia frato. &dash;
@@ -9389,7 +9389,7 @@ sin tiel malfeliĉa, ke li malbenis la tagon, en kiu li estis
 naskita. &dash; Ni forte malestimas tiun ĉi malnoblan homon. &dash; La
 fenestro longe estis nefermita; mi ĝin fermis, sed mia frato
 tuj ĝin denove malfermis. &dash; Rekta vojo estas pli mallonga, ol
-kurba. &dash; La tablo staras malrekte kaj kredeble baldaŭ
+kurba. &dash; La tablo staras malrekte kaj <index level1="kredeble"/>kredeble baldaŭ
 renversiĝos. &dash; Li staras supre sur la monto kaj rigardas
 malsupren sur la kampon. &dash; Malamiko venis en nian landon. &dash; Oni tiel
 malhelpis al mi, ke mi malbonigis mian tutan laboron. &dash; La edzino de
@@ -11028,7 +11028,7 @@ sidas en la kuirejo. &dash; La kuracisto konsilis al mi iri en
 ĉambro, en kiu oni tenas cigarojn, estas cigarejo; skatoleto
 aŭ alia objekto, en kiu oni tenas cigarojn, estas cigarujo;
 tubeto, en kiun oni metas cigaron, kiam oni ĝin fumas, estas
-cigaringo. &dash; Skatolo, en kiu oni tenas plumojn, estas plumujo, kaj
+cigaringo. &dash; Skatolo, en kiu oni tenas plumojn, estas <index level1="plumujo"/>plumujo, kaj
 bastoneto, sur kiu oni tenas plumon por skribado, estas plumingo. &dash; En
 la kandelingo sidis brulanta kandelo. &dash; En la poŝo de mia
 pantalono mi portas monujon, kaj en la poŝo de mia surtuto mi
@@ -11217,18 +11217,18 @@ estas rompebla kaj travidebla. &dash; Ne ĉiu kreskaĵo estas
 manĝebla. &dash; Via parolo estas tute nekomprenebla kaj viaj
 leteroj estas ĉiam skribitaj tute nelegeble. &dash; Rakontu al mi
 vian malfeliĉon, ĉar eble mi povos helpi al vi. &dash; Li
-rakontis al mi historion tute nekredeblan. &dash; Ĉu vi amas vian
+rakontis al mi historion tute <index level1="nekredebla"/>nekredeblan. &dash; Ĉu vi amas vian
 patron? Kia demando! kompreneble, ke mi lin amas. &dash; Mi kredeble ne
 povos veni al vi hodiaŭ, ĉar mi pensas, ke mi mem havos
-hodiaŭ gastojn. &dash; Li estas homo ne kredinda. &dash; Via ago estas
+hodiaŭ gastojn. &dash; Li estas homo ne <index level1="kredinda"/>kredinda. &dash; Via ago estas
 tre laŭdinda. &dash; Tiu ĉi grava tago restos por mi
 ĉiam memorinda. &dash; Lia edzino estas tre laborema kaj
 ŝparema, sed ŝi estas ankaŭ tre babilema kaj
 kriema. Li estas tre ekkolerema kaj ekscitiĝas ofte ĉe
 la plej malgranda bagatelo; tamen li estas tre pardonema, li ne portas
 longe la koleron kaj li tute ne estas venĝema. &dash; Li estas tre
-kredema: eĉ la plej nekredeblajn aferojn, kiujn rakontas al li
-la plej nekredindaj homoj, li tuj kredas. &dash; Centimo<index level1="centimo"/>, <index level1="pfenigo"/>pfenigo kaj
+<index level1="kredema"/>kredema: eĉ la plej nekredeblajn aferojn, kiujn rakontas al li
+la plej <index level1="nekredinda"/>nekredindaj homoj, li tuj kredas. &dash; Centimo<index level1="centimo"/>, <index level1="pfenigo"/>pfenigo kaj
 <index level1="kopeko"/>kopeko estas moneroj. &dash; Sablero enfalis en mian okulon. &dash; Li estas tre
 purema, kaj eĉ unu polveron vi ne trovos sur lia vesto. &dash; Unu
 fajrero estas sufiĉa, por eksplodigi pulvon.</p>
@@ -34269,6 +34269,7 @@ konno</item>
 </item>
 
 <label lang="eo">registr&strek;</label><item>
+<index level1="registri"/>
 <list type="def">
   <item lang="fr">registrer</item>
   <item lang="en">register</item>
@@ -43817,6 +43818,7 @@ al la L.K. (1911).</note>
 </item>
 
 <label lang="eo">registr&strek;</label><item>
+<index level1="registri"/>
 <list type="def">
   <item lang="fr">enregistrer</item>
 </list>
@@ -51094,6 +51096,7 @@ CHRISTALLER, HANAUER, MYBS (Vd. noton 15).</note>
 </item>
 
 <label lang="eo">registr&strek;</label><item>
+<index level1="registri"/>
 <list type="def">
   <item lang="de">eintragen, registrieren</item>
 </list>

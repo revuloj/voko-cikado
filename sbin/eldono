@@ -26,7 +26,7 @@ etikedo)
 ofc)
     scp ./steloj.de/fundamento/fundamento.json ${revo}/inx
     scp ./steloj.de/ofcaldonoj/ofcaldonoj.json ${revo}/inx
-    #scp cgi/admin/upofc.pl ${cgibin}/admin
+    echo "poste voku https://retavortaro.de/cgi-bin/admin/upofc.pl"
     ;;     
 helpo | *)
     echo "---------------------------------------------------------------------------"
