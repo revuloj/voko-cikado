@@ -75,7 +75,7 @@
 
 <xsl:template name="wordindex">
 
-  <!-- elektu por chiu litero unu reprezentanton -->
+  <!-- elektu por chiu kapvorto unu reprezentanton -->
   <xsl:for-each select=
     "(//list[@type='dict']//label[not(@rend='hidden')] |
       //list[@rend='index']/item |
