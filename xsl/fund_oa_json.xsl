@@ -37,7 +37,7 @@
      laŭ permesilo GPL 2.0
 
   Tiu transformilo kreas JSON-indekson de Fudamento de Esperanto resp. Oficialaj Aldonoj.  
-  Ni uzos la indekson por ligi Revo-artikolojn en la tezaŭro al la fontoj den Fde kaj OA.
+  Ni uzos la indekson por ligi Revo-artikolojn en la tezaŭro al la fontoj de FdE kaj OA.
 -->
 
 
@@ -58,7 +58,7 @@
 
   <!--
     Ni kreas indekson de ĉiuj indeksendaj vortoj laŭ ties normigita teksto.
-    Ni bezonas gin, ĉar ni volas montri ciun vorton en la indekso nur unufoje kun
+    Ni bezonas ĝin, ĉar ni volas montri ĉiun vorton en la indekso nur unufoje kun
     la listo de aperoj apud gi:
     - ni indeksas ĉiujn aperojn de <label> kaj aliajn elementojn markitajn per ena <index/>
     - aldone ni indeksas emfaziztajn tekstojn kun lang="eo", eble ni aldonu tie <index/>

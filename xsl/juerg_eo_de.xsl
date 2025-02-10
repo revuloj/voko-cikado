@@ -25,7 +25,7 @@
   <!ENTITY circ "^">
   <!ENTITY breve "&#x02d8;">
 
-  <!ENTITY OA_fonto "https://github.com/revuloj/voko-cikado/blob/master/txt/tei2/juerg_eo_de.xml">
+  <!ENTITY JED_fonto "https://github.com/revuloj/voko-cikado/blob/master/txt/tei2/juerg_eo_de.xml">
 
 ]>
 
@@ -38,11 +38,11 @@
 
 <!--
 
-XSLT-stildifinoj por ofcaldonoj.xml (La Oficialaj Aldonoj al la UV). 
+XSLT-stildifinoj por juerg_eo_de.xml (Jürgensen Wörterbuch Esperanto-Deutsch). 
 Ĝi importas la bazajn regulojn de teixlite.xsl kaj enhavas nur
 specialajn regulojn ne au alie difinitajn tie.
 
-(c) 2023 ĉe Wolfram DIESTEL
+(c) 2025 ĉe Wolfram DIESTEL
     permesilo GPL 2.0
 
 -->
@@ -61,7 +61,7 @@ specialajn regulojn ne au alie difinitajn tie.
 <!-- teiHeader -->
 <xsl:template match="teiHeader">
      <address>
-       fonto: <a target="_new" href="&OA_fonto;">ofcaldonoj.xml (ĉe Github)</a>
+       fonto: <a target="_new" href="&JED_fonto;">juerg_eo_de.xml (ĉe Github)</a>
      </address>
 </xsl:template>
 
