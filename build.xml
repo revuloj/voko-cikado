@@ -224,6 +224,16 @@ voku ekz-e:
       </xslt>
    </target>
 
+   <target name="juerg-json" description="kreas JSON-indekson el juerg_eo_de.xml">
+     <xslt in="${xml}/juerg_eo_de.xml" out="${celo}/juerg_eo_de/juerg_eo_de.json"
+       style="${xsl}/juerg_json.xsl" classpathref="saxon.classpath">
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+      </xslt>
+   </target>   
+
    <target name="faraono" description="kreas HTML-paghojn el faraono?.xml">
      <xslt in="${xml}/faraono1.xml" out="${celo}/faraono1/index.html"
        style="${xsl}/faraono.xsl" classpathref="saxon.classpath">

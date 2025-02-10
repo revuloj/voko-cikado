@@ -236,10 +236,18 @@ specialajn regulojn ne au alie difinitajn tie.
   </strong>
 </xsl:template>
 
+<!--
 <xsl:template name="inx-id">
   <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
   <xsl:text>_n</xsl:text>
   <xsl:number level="any" from="div[@id]|list[@id]" count="label|item|emph|hi|index"/>
+</xsl:template>
+-->
+
+<xsl:template name="inx-id">
+  <xsl:value-of select="ancestor::node()[@id][1]/@id"/>
+  <xsl:text>_n</xsl:text>
+  <xsl:number level="any" from="div[@id]|list[@id]" count="label|item"/>
 </xsl:template>
 
 
