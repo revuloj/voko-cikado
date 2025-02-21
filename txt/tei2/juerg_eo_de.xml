@@ -3402,7 +3402,6 @@ Beet</item>
 <label lang="eo">bedaŭr-i</label><item>
 bedauern;  
 <list type="deriv">
-
   <label lang="eo">-inde</label>
   <item>bedauerlich[erweise], leider</item>
 </list></item>
@@ -7712,7 +7711,7 @@ Epoche, Zeitpunkt, Zeitabschnitt</item>
 <label lang="eo">epolet-o</label><item>
 Achselklappe, Epaulette</item>
 
-<label lang="eo">epopeo</label><item>
+<label lang="eo">epope-o</label><item>
 Epopöe</item>
 
 <label lang="eo">epos-o</label><item>
@@ -15299,11 +15298,10 @@ verstecken, verbergen, verheimlichen;
 
 <label lang="eo">kaŝtan-o</label><item>
 Kastanie, Marone; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ujo</label><item>
-Kastanienbaum;
-  <list type="deriv">
+  <label lang="eo">-ujo</label><item>
+  Kastanienbaum;</item>
 
   <label lang="eo">-kolora</label>
   <item>kastanienbraun</item>
@@ -15311,27 +15309,27 @@ Kastanienbaum;
 
 <label lang="eo">kato</label><item>
 Katze (<emph>Gattung</emph>); 
-</item>
+<list type="deriv">
+  <label lang="eo">-ino</label><item>
+  Katze (<emph>das weibliche
+    Tier</emph>); 
+  </item>
 
-<label lang="eo">-ino</label><item>
-Katze (<emph>das weibliche
-  Tier</emph>); 
-</item>
+  <label lang="eo">-viro</label><item>
+  Kater; 
+  </item>
 
-<label lang="eo">-viro</label><item>
-Kater; 
-</item>
+  <label lang="eo">-eto</label><item>
+  Kätzchen, kleine Katze;
+  </item>
 
-<label lang="eo">-eto</label><item>
-Kätzchen, kleine Katze;
-</item>
+  <label lang="eo">-ido</label><item>
+  Kätzchen, Katzenjunges; 
+  </item>
 
-<label lang="eo">-ido</label><item>
-Kätzchen, Katzenjunges; 
-</item>
-
-<label lang="eo">-aĵo</label><item>
-Katzenfleisch</item>
+  <label lang="eo">-aĵo</label><item>
+  Katzenfleisch</item>
+</list></item>
 
 <label lang="eo">katafalk-o</label><item>
 Katafalk</item>
@@ -15363,14 +15361,14 @@ Kataplasma</item>
 
 <label lang="eo">katar-o</label><item>
 Katarrh; 
-</item>
+<list type="deriv">
+  <label lang="eo">-a</label><item>
+  katarrhalisch;
+  </item>
 
-<label lang="eo">-a</label><item>
-katarrhalisch;
-</item>
-
-<label lang="eo">naz&mdash;o</label><item>
-Schnupfen (der)</item>
+  <label lang="eo">naz&mdash;o</label><item>
+  Schnupfen (der)</item>
+</list></item>
 
 <label lang="eo">katarakt-o</label><item>
 Katarakt</item>
@@ -15398,28 +15396,28 @@ Katechet</item>
 
 <label lang="eo">katen-oj</label><item>
 Fesseln, Bande; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-i</label><item>
 ketten, fesseln</item>
+</list></item>
 
 <label lang="eo">katolicism-o</label><item>
 Katholizismus</item>
 
 <label lang="eo">katolik-o</label><item>
 Katholik; 
-</item>
+<list type="deriv">
+  <label lang="eo">-a</label><item>
+  katholisch; 
+  </item>
 
-<label lang="eo">-a</label><item>
-katholisch; 
-</item>
+  <label lang="eo">-eco</label><item>
+  Katholikentum;
+  </item>
 
-<label lang="eo">-eco</label><item>
-Katholikentum;
-</item>
-
-<label lang="eo">-aro</label><item>
-katholische Christenheit</item>
+  <label lang="eo">-aro</label><item>
+  katholische Christenheit</item>
+</list></item>
 
 <label lang="eo">katun-o</label><item>
 Kattun</item>
@@ -15438,36 +15436,35 @@ kauern</item>
 
 <label lang="eo">kaŭz-i</label><item>
 verursachen, veranlassen; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-o</label><item>
 Ursache, Grund, Veranlassung;
 </item>
-
 <label lang="eo">-a</label><item>
 kausal</item>
+</list></item>
 
 <label lang="eo">kav-o</label><item>
 Höhlung, Vertiefung, Grube, Graben; 
-</item>
+<list type="deriv">
+  <label lang="eo">-igi</label><item>
+  aushöhlen;
+  </item>
 
-<label lang="eo">-igi</label><item>
-aushöhlen;
-</item>
+  <label lang="eo">-aĵo</label><item>
+  Aushöhlung; 
+  </item>
 
-<label lang="eo">-aĵo</label><item>
-Aushöhlung; 
-</item>
-
-<label lang="eo">-aĵa</label><item>
-ausgehöhlt, hohl</item>
+  <label lang="eo">-aĵa</label><item>
+  ausgehöhlt, hohl</item>
+</list></item>
 
 <label lang="eo">kavaleri-o</label><item>
 Kavallerie; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-ano</label><item>
 Kavallerist</item>
+</list></item>
 
 <label lang="eo">kavalir-o</label><item>
 Ritter, Kavalier</item>
@@ -15486,10 +15483,10 @@ Kasus, Fall</item>
 
 <label lang="eo">kaze-o</label><item>
 Quark, Käse, Matz, Topfen; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-iĝi</label><item>
 gerinnen, käsen</item>
+</list></item>
 
 <label lang="eo">kazein-o</label><item>
 Kaseïn</item>
@@ -15515,17 +15512,17 @@ daß</item>
 
 <label lang="eo">kegl-o</label><item>
 Kegel; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-aro</label><item>
 Kegelspiel</item>
+</list></item>
 
 <label lang="eo">kel-o</label><item>
 Keller; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-isto</label><item>
 Kellermeister</item>
+</list></item>
 
 <label lang="eo">kelk-a</label><item>
 mancher, -e, -es;
@@ -15561,11 +15558,11 @@ wie viel</item>
 
 <label lang="eo">kest-o</label><item>
 Kasten, Kiste, Lade; 
-</item>
-
+<list type="deriv">
 <label lang="eo">tir&mdash;o</label><item>
 Schublade; 
 </item>
+</list></item>
 
 <label lang="eo">poŝta kesto</label><item>
 Postkasten, Briefkasten</item>
@@ -15585,10 +15582,10 @@ wann, als, wenn (<emph>vgl.</emph>  <ref>se</ref>);
 
 <label lang="eo">kie</label><item>
 wo; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-n</label><item>
 wohin, nach wo</item>
+</list></item>
 
 <label lang="eo">kiel</label><item>
 wie, als; 
@@ -15609,10 +15606,10 @@ Kiel (<emph>eines Schiffes</emph>)</item>
 
 <label lang="eo">kilogram-o</label><item>
 Kilo[gramm]; 
-</item>
-
-<label lang="eo">-ometro</label><item>
-Kilogramm[o]meter</item>
+<list type="deriv">
+  <label lang="eo">-ometro</label><item>
+  Kilogramm[o]meter</item>
+</list></item>
 
 <label lang="eo">kilolitr-o</label><item>
 Kiloliter</item>
@@ -15647,30 +15644,31 @@ wieviel, wie;
 
 <label lang="eo">kiras-o</label><item>
 Küraß, Panzer, Harnisch; 
-</item>
+  <list type="deriv">
 
-<label lang="eo">-i</label><item>
-panzern; 
-</item>
+  <label lang="eo">-i</label><item>
+  panzern; 
+  </item>
 
-<label lang="eo">-a ŝipo</label><item>
-Panzerschiff; 
-</item>
+  <label lang="eo">-a ŝipo</label><item>
+  Panzerschiff; 
+  </item>
 
-<label lang="eo">-ulo</label><item>
-Kürassier; 
-</item>
+  <label lang="eo">-ulo</label><item>
+  Kürassier; 
+  </item>
+</list></item>
 
 <label lang="eo">kiraso de testudo, de ostro</label><item>
 Panzer der Schildkröte, Austerschale</item>
 
 <label lang="eo">kirl-i</label><item>
 quirlen; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-ilo</label><item>
 Quirl; 
 </item>
+</list></item>
 
 <label lang="eo">akvo&mdash;o</label><item>
 Strudel; 
@@ -15684,14 +15682,13 @@ Kirsch[wasser]</item>
 
 <label lang="eo">kis-i</label><item>
 küssen; 
-</item>
+<list type="deriv">
+  <label lang="eo">-o</label><item>
+  Kuß;</item>
 
-<label lang="eo">-o</label><item>
-Kuß; 
-</item>
-
-<label lang="eo">-ado</label><item>
-Küssen</item>
+  <label lang="eo">-ado</label><item>
+  Küssen</item>
+</list></item>
 
 <label lang="eo">kitel-o</label><item>
 Kittel</item>
@@ -15707,37 +15704,35 @@ Klappe</item>
 
 <label lang="eo">klar-a</label><item>
 klar, deutlich, bestimmt; 
-</item>
+<list type="deriv">
+  <label lang="eo">-eco</label><item>
+  Klarheit;</item>
 
-<label lang="eo">-eco</label><item>
-Klarheit; 
-</item>
-
-<label lang="eo">mal&mdash;a</label><item>
-trübr, dunkel, undeutlich; <list type="deriv">
+  <label lang="eo">mal&mdash;a</label><item>
+  trübr, dunkel, undeutlich;</item>
 
   <label lang="eo">mal&mdash;eco</label>
   <item>Dunkelheit, Undeutlichkeit</item>
+
+  <label lang="eo">ne&mdash;a</label><item>
+  nicht klar, unklar, unbestimmt; 
+  </item>
+
+  <label lang="eo">-igi</label><item>
+  klar machen, erklären; 
+  </item>
+
+  <label lang="eo">-igebla</label><item>
+  erklärlich, -bar; 
+  </item>
+
+  <label lang="eo">ne&mdash;igebla</label><item>
+  unerklärlich;
+  </item>
+
+  <label lang="eo">-iĝi</label><item>
+  klar werden, sich [auf]klären, sich erklären</item>
 </list></item>
-
-<label lang="eo">ne&mdash;a</label><item>
-nicht klar, unklar, unbestimmt; 
-</item>
-
-<label lang="eo">-igi</label><item>
-klar machen, erklären; 
-</item>
-
-<label lang="eo">-igebla</label><item>
-erklärlich, -bar; 
-</item>
-
-<label lang="eo">ne&mdash;igebla</label><item>
-unerklärlich;
-</item>
-
-<label lang="eo">-iĝi</label><item>
-klar werden, sich [auf]klären, sich erklären</item>
 
 <label lang="eo">klarnet-o</label><item>
 Klarinette</item>
@@ -15756,75 +15751,75 @@ klassifizieren;
 
 <label lang="eo">klasik-a</label><item>
 klassisch; 
-</item>
+  <list type="deriv">
+  <label lang="eo">-eco</label><item>
+  Klassizität; 
+  </item>
 
-<label lang="eo">-eco</label><item>
-Klassizität; 
-</item>
-
-<label lang="eo">-ulo</label><item>
-Klassiker</item>
+  <label lang="eo">-ulo</label><item>
+  Klassiker</item>
+</list></item>
 
 <label lang="eo">klav-o</label><item>
 [Klavier-]Taste; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-aro</label><item>
 Klaviatur, Tastatur</item>
+</list></item>
 
 <label lang="eo">klemat-o</label><item>
 Waldrebe</item>
 
 <label lang="eo">kler-a</label><item>
 gebildet; 
-</item>
+<list type="deriv">
+  <label lang="eo">&mdash;eco</label><item>
+  Bildung; 
+  </item>
 
-<label lang="eo">&mdash;eco</label><item>
-Bildung; 
-</item>
+  <label lang="eo">-ulo</label><item>
+  Gebildeter;  
+  </item>
 
-<label lang="eo">-ulo</label><item>
-Gebildeter;  
-</item>
+  <label lang="eo">-igi</label><item>
+  gebildet machen, bilden, aufklären; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-gebildet machen, bilden, aufklären; 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  gebildet werden, aufgeklärt werden; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-gebildet werden, aufgeklärt werden; 
-</item>
+  <label lang="eo">mal&mdash;a</label><item>
+  ungebildet, roh, unwissend; 
+  </item>
 
-<label lang="eo">mal&mdash;a</label><item>
-ungebildet, roh, unwissend; 
-</item>
-
-<label lang="eo">mal&mdash;eco</label><item>
-Rohheit, Unwissenheit</item>
+  <label lang="eo">mal&mdash;eco</label><item>
+  Rohheit, Unwissenheit</item>
+</list></item>
 
 <label lang="eo">klerik-a</label><item>
 klerikal; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-ulo</label><item>
 Klerikaler</item>
+</list></item>
 
 <label lang="eo">klient-o</label><item>
 Klient, Schutzbefohlener, Patient, Kunde; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-aro</label><item>
 Klientenschaft, Kundschaft, (<emph>ärztliche</emph>) Praxis</item>
+</list></item>
 
 <label lang="eo">klimat-o</label><item>
 Klima</item>
 
 <label lang="eo">klin-i</label><item>
 [hin]neigen (<emph>trans.</emph>); 
-</item>
-
+<list type="deriv">
 <label lang="eo">de&mdash;iĝi</label><item>
 sich (ab)neigen (<emph>von</emph>), abweichen weichen (<emph>von</emph>)</item>
+</list></item>
 
 <label lang="eo">kling-o</label><item>
 Klinge</item>
@@ -15834,21 +15829,21 @@ Klinik</item>
 
 <label lang="eo">klister-o</label><item>
 Klistier; 
-</item>
+<list type="deriv">
+  <label lang="eo">-i</label><item>
+  klistieren; 
+  </item>
 
-<label lang="eo">-i</label><item>
-klistieren; 
-</item>
-
-<label lang="eo">-ilo</label><item>
-Klistierspritze</item>
+  <label lang="eo">-ilo</label><item>
+  Klistierspritze</item>
+</list></item>
 
 <label lang="eo">kliŝ-i</label><item>
 klischieren; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-aĵo</label><item>
 Klischee</item>
+</list></item>
 
 <label lang="eo">kloak-o</label><item>
 Kloake</item>
@@ -15860,10 +15855,9 @@ sich bemühen, sich anstrengen, sich bestreben (<emph>um etwas zu erreichen</emp
 <list type="deriv"> 
   <label lang="eo">-o</label>
   <item>Bestrebung, Bemühung, Anstrengung</item> 
+  <label lang="eo">-igi</label><item>
+  (<emph>jemand</emph>) Mühe machen, Arbeit machen</item>
 </list></item>
-
-<label lang="eo">-igi</label><item>
-(<emph>jemand</emph>) Mühe machen, Arbeit machen</item>
 
 <label lang="eo">klor-o</label><item>
 Chlor</item>
@@ -15885,17 +15879,17 @@ Schleuse</item>
 
 <label lang="eo">knab-o</label><item>
 Knabe; 
-</item>
-
+<list type="deriv">
 <label lang="eo">&mdash;ino</label><item>
 Mädchen</item>
+</list></item>
 
 <label lang="eo">kned-i</label><item>
 kneten; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-ujo</label><item>
 Backtrog</item>
+</list></item>
 
 <label lang="eo">knut-o</label><item>
 Knute</item>
@@ -15943,33 +15937,33 @@ koïnzidieren, zusammenfallen, sich decken</item>
 
 <label lang="eo">kojn-o</label><item>
 Keil; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-e fiksi</label><item>
 verkeilen</item>
+</list></item>
 
 <label lang="eo">kok-o</label><item>
 Huhn; 
-</item>
+  <list type="deriv">
+  <label lang="eo">-ino</label><item>
+  Henne; 
+  </item>
 
-<label lang="eo">-ino</label><item>
-Henne; 
-</item>
+  <label lang="eo">-viro</label><item>
+  Hahn; 
+  </item>
 
-<label lang="eo">-viro</label><item>
-Hahn; 
-</item>
+  <label lang="eo">-ido</label><item>
+  Küchlein, Küken; 
+  </item>
 
-<label lang="eo">-ido</label><item>
-Küchlein, Küken; 
-</item>
+  <label lang="eo">-ejo</label><item>
+  Hühnerhaus, -stall; 
+  </item>
 
-<label lang="eo">-ejo</label><item>
-Hühnerhaus, -stall; 
-</item>
-
-<label lang="eo">-krii</label><item>
-krähen</item>
+  <label lang="eo">-krii</label><item>
+  krähen</item>
+</list></item>
 
 <label lang="eo">kokard-o</label><item>
 Kokarde</item>
@@ -15995,146 +15989,147 @@ Kokon</item>
 
 <label lang="eo">kokos-o</label><item>
 Kokosnusß; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-ujo</label><item>
 Kokosnußbaum, -palme</item>
+</list></item>
 
 <label lang="eo">koks-o</label><item>
 Hüfte, Hanke</item>
 
 <label lang="eo">kol-o</label><item>
 Hals; 
-</item>
+<list type="deriv">
+  <label lang="eo">-umo</label><item>
+  Kragen; 
+  </item>
 
-<label lang="eo">-umo</label><item>
-Kragen; 
-</item>
+  <label lang="eo">-brido</label><item>
+  Halfter; 
+  </item>
 
-<label lang="eo">-brido</label><item>
-Halfter; 
-</item>
+  <label lang="eo">-hararo</label><item>
+  Mähne; 
+  </item>
 
-<label lang="eo">-hararo</label><item>
-Mähne; 
-</item>
+  <label lang="eo">-jungo</label><item>
+  Kum[me]t; 
+  </item>
 
-<label lang="eo">-jungo</label><item>
-Kum[me]t; 
-</item>
+  <label lang="eo">post&mdash;o</label><item>
+  Rist; 
+  </item>
 
-<label lang="eo">post&mdash;o</label><item>
-Rist; 
-</item>
+  <label lang="eo">ĉirkaŭ&mdash;o</label><item>
+  Halsband, -kette, -schnur 
+  etc.; 
+  </item>
 
-<label lang="eo">ĉirkaŭ&mdash;o</label><item>
-Halsband, -kette, -schnur 
-etc.; 
-</item>
+  <label lang="eo">mar&mdash;o</label><item>
+  Meeresenge; 
+  </item>
 
-<label lang="eo">mar&mdash;o</label><item>
-Meeresenge; 
-</item>
-
-<label lang="eo">ter&mdash;o</label><item>
-Landenge</item>
+  <label lang="eo">ter&mdash;o</label><item>
+  Landenge</item>
+</list></item>
 
 <label lang="eo">kolbas-o</label><item>
 Wurst; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-eto</label><item>
 Würstchen, Knackwurst; 
 </item>
+</list></item>
 
 <label lang="eo">sang&mdash;o</label><item>
 Blutwurst</item>
 
 <label lang="eo">koleg-o</label><item>
 Kollege; 
-</item>
-
+<list type="deriv">
 <label lang="eo">-e</label><item>
 kollegialisch</item>
+</list></item>
 
 <label lang="eo">kolegi-o</label><item>
 Kollegium, Collège</item>
 
 <label lang="eo">kolekt-i</label><item>
 [ein]sammeln; 
-</item>
+<list type="deriv">
+  <label lang="eo">-anto</label><item>
+  Sammler; 
+  </item>
 
-<label lang="eo">-anto</label><item>
-Sammler; 
-</item>
+  <label lang="eo">-isto</label><item>
+  [Ein-]Sammler, Einnehmer (<emph>z. B. Steuer-</emph>), Kollekteur; 
+  </item>
 
-<label lang="eo">-isto</label><item>
-[Ein-]Sammler, Einnehmer (<emph>z. B. Steuer-</emph>), Kollekteur; 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  sich [ver]sammeln, sich vereinigen; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-sich [ver]sammeln, sich vereinigen; 
-</item>
+  <label lang="eo">-iĝo</label><item>
+  Versammlung;
+  </item>
 
-<label lang="eo">-iĝo</label><item>
-Versammlung;
-</item>
+  <label lang="eo">-o</label><item>
+  Sammlung, Kollektion; 
+  </item>
 
-<label lang="eo">-o</label><item>
-Sammlung, Kollektion; 
-</item>
+  <label lang="eo">jar&mdash;o</label><item>
+  Jahrgang (<emph>z. B. einer Zeitschrift</emph>); 
+  </item>
 
-<label lang="eo">jar&mdash;o</label><item>
-Jahrgang (<emph>z. B. einer Zeitschrift</emph>); 
-</item>
-
-<label lang="eo">mon&mdash;o</label><item>
-Kollekte</item>
+  <label lang="eo">mon&mdash;o</label><item>
+  Kollekte</item>
+</list></item>
 
 <label lang="eo">kolektiv-a</label><item>
 kollektiv, zusammenfassend, Sammel-; 
-</item>
-
-<label lang="eo">-e</label><item>
-insgesamt, als [ein] Ganzes</item>
+<list type="deriv">
+  <label lang="eo">-e</label><item>
+  insgesamt, als [ein] Ganzes</item>
+</list></item>
 
 <label lang="eo">koler-i</label><item>
 zürnen; 
-</item>
+<list type="deriv">
+  <label lang="eo">-igi</label><item>
+  erzürnen, in Zorn [ver]setzen; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-erzürnen, in Zorn [ver]setzen; 
-</item>
+  <label lang="eo">-a</label><item>
+  zornig, böse, in, voll Zorn; 
+  </item>
 
-<label lang="eo">-a</label><item>
-zornig, böse, in, voll Zorn; 
-</item>
+  <label lang="eo">-o</label><item>
+  Zorn; 
+  </item>
 
-<label lang="eo">-o</label><item>
-Zorn; 
-</item>
+  <label lang="eo">-ema</label><item>
+  aufbrausend, aufwallend, leicht aufgebracht; 
+  </item>
 
-<label lang="eo">-ema</label><item>
-aufbrausend, aufwallend, leicht aufgebracht; 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  zornig, böse werden, in Zorn geraten; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-zornig, böse werden, in Zorn geraten; 
-</item>
+  <label lang="eo">ek&mdash;ema</label><item>
+  jähzornig, gereizt; 
+  </item>
 
-<label lang="eo">ek&mdash;ema</label><item>
-jähzornig, gereizt; 
-</item>
-
-<label lang="eo">-emo</label><item>
-Jähzorn, Reizbarkeit, Gereiztheit</item>
+  <label lang="eo">-emo</label><item>
+  Jähzorn, Reizbarkeit, Gereiztheit</item>
+</list></item>
 
 <label lang="eo">kolerik-a</label><item>
 cholerisch; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ulo</label><item>
-Choleriker</item>
+  <label lang="eo">-ulo</label><item>
+  Choleriker</item>
+</list></item>
 
 <label lang="eo">kolibr-o</label><item>
 Kolibri</item>
@@ -16148,10 +16143,10 @@ Kolik</item>
 
 <label lang="eo">kolizi-o</label><item>
 Kollision; 
-</item>
-
-<label lang="eo">-i</label><item>
-kollidieren</item>
+<list type="deriv">
+  <label lang="eo">-i</label><item>
+  kollidieren</item>
+</list></item>
 
 <label lang="eo">kolodi-o</label><item>
 Kollodium</item>
@@ -16161,87 +16156,90 @@ Kolophonium</item>
 
 <label lang="eo">kolomb-o</label><item>
 Taube; 
-</item>
-
-<label lang="eo">-ejo</label><item>
-Taubenschlag, -haus</item>
+<list type="deriv">
+  <label lang="eo">-ejo</label><item>
+  Taubenschlag, -haus</item>
+</list></item>
 
 <label lang="eo">kolon-o</label><item>
 Säule, Kolumne; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-aro</label><item>
-Kolonade</item>
+  <label lang="eo">-aro</label><item>
+  Kolonade</item>
+</list></item>
 
 <label lang="eo">kolonel-o</label><item>
 Oberst</item>
 
 <label lang="eo">koloni-o</label><item>
 Kolonie; 
-</item>
+<list type="deriv">
+  <label lang="eo">-i</label><item>
+  kolonisieren; 
+  </item>
 
-<label lang="eo">-i</label><item>
-kolonisieren; 
-</item>
-
-<label lang="eo">-ano</label><item>
-Kolonist</item>
+  <label lang="eo">-ano</label><item>
+  Kolonist</item>
+</list></item>
 
 <label lang="eo">kolor-o</label><item>
 Farbe (<emph>vgl.</emph> <ref>tinkturo</ref>)
-</item>
+<list type="deriv">
+  <label lang="eo">-i</label><item>
+  färben, in bestimmter Farbe, in bestimmtem Lichte zeigen; 
+  </item>
 
-<label lang="eo">-i</label><item>
-färben, in bestimmter Farbe, in bestimmtem Lichte zeigen; 
-</item>
+  <label lang="eo">-ilo</label><item>
+  Farbe, Farbstoff, Tusche; 
+  </item>
 
-<label lang="eo">-ilo</label><item>
-Farbe, Farbstoff, Tusche; 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  sich färben; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-sich färben; 
-</item>
+  <label lang="eo">ali&mdash;iĝi</label><item>
+  sich verfärben; 
+  </item>
 
-<label lang="eo">ali&mdash;iĝi</label><item>
-sich verfärben; 
-</item>
+  <label lang="eo">-igi</label><item>
+  kolorieren, [aus-, an-]tuschen, ausmalen; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-kolorieren, [aus-, an-]tuschen, ausmalen; 
-</item>
+  <label lang="eo">-igisto</label><item>
+  Kolorist; 
+  </item>
 
-<label lang="eo">-igisto</label><item>
-Kolorist; 
-</item>
+  <label lang="eo">roz&mdash;a</label><item>
+  rosenfarbig, rosig; 
+  </item>
 
-<label lang="eo">roz&mdash;a</label><item>
-rosenfarbig, rosig; 
-</item>
+  <label lang="eo">divers&mdash;a</label><item>
+  verschiedenfarbig; 
+  </item>
 
-<label lang="eo">divers&mdash;a</label><item>
-verschiedenfarbig; 
-</item>
-
-<label lang="eo">mult&mdash;a</label><item>
-vielfarbig, bunt</item>
+  <label lang="eo">mult&mdash;a</label><item>
+  vielfarbig, bunt</item>
+</list></item>
 
 <label lang="eo">koloratur-o</label><item>
 Koloratur</item>
 
 <label lang="eo">kolos-o</label><item>
 Koloß; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-a</label><item>
-kolossal</item>
+  <label lang="eo">-a</label><item>
+  kolossal</item>
+</list></item>
 
 <label lang="eo">kolport-i</label><item>
 kolportieren, hausieren; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-isto</label><item>
-Kolporteur, Hausierer</item>
+  <label lang="eo">-isto</label><item>
+  Kolporteur, Hausierer</item>
+</list></item>
 
 <label lang="eo">kolubr-o</label><item>
 Hausschlange</item>
@@ -16251,23 +16249,24 @@ Raps</item>
 
 <label lang="eo">kom-o</label><item>
 Komma; 
-</item>
+<list type="deriv">
 
-<label lang="eo">punkt&mdash;o</label><item>
-Semikolon</item>
+  <label lang="eo">punkt&mdash;o</label><item>
+  Semikolon</item>
+</list></item>
 
 <label lang="eo">komand-i</label><item>
 befehlen, befehligen, kommandieren (<emph>militärisch, auf Schiffen</emph>) (<emph>vgl.</emph>   
  <ref>ordoni</ref>);
 <list type="deriv"> 
+
+  <label lang="eo">-o</label><item>
+  Kommando; 
+  </item>
+
+  <label lang="eo">-anto</label><item>
+  Kommandant</item>
 </list></item>
-
-<label lang="eo">-o</label><item>
-Kommando; 
-</item>
-
-<label lang="eo">-anto</label><item>
-Kommandant</item>
 
 <label lang="eo">komandit-o</label><item>
 Kommandite</item>
@@ -16277,115 +16276,123 @@ Kommandeur (<emph>eines Ordens</emph>)</item>
 
 <label lang="eo">komb-i</label><item>
 kämmen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ilo</label><item>
-Kamm</item>
+  <label lang="eo">-ilo</label><item>
+  Kamm</item>
+</list></item>
 
 <label lang="eo">kombin-i</label><item>
 kombinieren; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-o</label><item>
-Kombination</item>
+  <label lang="eo">-o</label><item>
+  Kombination</item>
+</list></item>
 
 <label lang="eo">komedi-o</label><item>
 Komödie, Lustspiel; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-isto</label><item>
-Komiker; 
-</item>
+  <label lang="eo">-isto</label><item>
+  Komiker; 
+  </item>
 
-<label lang="eo">-anto</label><item>
-Komödiant, Heuchler, Schwindler</item>
+  <label lang="eo">-anto</label><item>
+  Komödiant, Heuchler, Schwindler</item>
+</list></item>
 
 <label lang="eo">komenc-i</label><item>
 (etwas) anfangen, beginnen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-iĝi</label><item>
-anfangen, beginnen (<emph>intrans.</emph>); 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  anfangen, beginnen (<emph>intrans.</emph>); 
+  </item>
 
-<label lang="eo">-o</label><item>
-Anfang, Beginn; 
-</item>
+  <label lang="eo">-o</label><item>
+  Anfang, Beginn; 
+  </item>
 
-<label lang="eo">-e</label><item>
-anfangs, anfänglich; 
-</item>
+  <label lang="eo">-e</label><item>
+  anfangs, anfänglich; 
+  </item>
 
-<label lang="eo">de&mdash;e</label><item>
-da capo, von vorne</item>
+  <label lang="eo">de&mdash;e</label><item>
+  da capo, von vorne</item>
 
-<label lang="eo">komentari-o</label><item>
-Kommentar; 
-</item>
+  <label lang="eo">komentari-o</label><item>
+  Kommentar; 
+  </item>
 
-<label lang="eo">-i</label><item>
-kommentieren</item>
+  <label lang="eo">-i</label><item>
+  kommentieren</item>
+</list></item>
 
 <label lang="eo">komerc-i</label><item>
 handeln, Handel treiben (<emph>vgl.</emph>   
  <ref>negoci</ref>);
 <list type="deriv"> 
+
+  <label lang="eo">-o</label><item>
+  Handel, Geschäft; 
+  </item>
+
+  <label lang="eo">-isto</label><item>
+  Kaufmann, Handeltreibender; 
+  </item>
+
+  <label lang="eo">-aĵo</label><item>
+  Handelsgegenstand, Ware;
+  </item>
+
+  <label lang="eo">fi&mdash;aĵo</label><item>
+  Ramsch; 
+  </item>
+
+  <label lang="eo">-ejo</label><item>
+  Geschäft[sraum]; 
+  </item>
+
+  <label lang="eo">-a ŝipo</label><item>
+  Handels-, Kauffahrteischiff</item>
 </list></item>
-
-<label lang="eo">-o</label><item>
-Handel, Geschäft; 
-</item>
-
-<label lang="eo">-isto</label><item>
-Kaufmann, Handeltreibender; 
-</item>
-
-<label lang="eo">-aĵo</label><item>
-Handelsgegenstand, Ware;
-</item>
-
-<label lang="eo">fi&mdash;aĵo</label><item>
-Ramsch; 
-</item>
-
-<label lang="eo">-ejo</label><item>
-Geschäft[sraum]; 
-</item>
-
-<label lang="eo">-a ŝipo</label><item>
-Handels-, Kauffahrteischiff</item>
 
 <label lang="eo">komet-o</label><item>
 Komet</item>
 
 <label lang="eo">komfort-o</label><item>
 Komfort; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-a</label><item>
-komfortabel</item>
+  <label lang="eo">-a</label><item>
+  komfortabel</item>
+</list></item>
 
 <label lang="eo">komik-a</label><item>
 komisch; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-eco</label><item>
-Komik; 
-</item>
+  <label lang="eo">-eco</label><item>
+  Komik; 
+  </item>
 
-<label lang="eo">-ulo</label><item>
-Komiker</item>
+  <label lang="eo">-ulo</label><item>
+  Komiker</item>
+</list></item>
 
 <label lang="eo">komisi-o</label><item>
 Kommission, Auftrag, Bestellung; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-[be]auftragen; 
-</item>
+  <label lang="eo">-i</label><item>
+  [be]auftragen; 
+  </item>
 
-<label lang="eo">-isto</label><item>
-Kommissionär</item>
+  <label lang="eo">-isto</label><item>
+  Kommissionär</item>
+</list></item>
+
 
 <label lang="eo">komisari-o</label><item>
 Kommissar</item>
@@ -16395,10 +16402,11 @@ Komitee</item>
 
 <label lang="eo">komiz-o</label><item>
 Kommis, Handlungsgehilfe; 
-</item>
+<list type="deriv">
 
 <label lang="eo">-ino</label><item>
 Ladenfräulein, Ladnerin</item>
+</list></item>
 
 <label lang="eo">komod-o</label><item>
 Kommode</item>
@@ -16408,10 +16416,11 @@ kompakt, massig-fest</item>
 
 <label lang="eo">kompani-o</label><item>
 Kompa[g]nie, Gesellschaft (Abkürzung: Kⁱ⁰); 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ano</label><item>
-Kompagnon</item>
+  <label lang="eo">-ano</label><item>
+  Kompagnon</item>
+</list></item>
 
 <label lang="eo">kompar-i</label><item>
 vergleichen</item>
@@ -16424,122 +16433,120 @@ Kompaß</item>
 
 <label lang="eo">kompat-i</label><item>
 Mitleid, Mitgefühl haben, bemitleiden, sich erbarmen (<emph>über</emph>); 
-</item>
+<list type="deriv">
 
-<label lang="eo">-o</label><item>
-Mitleid, Mitgefühl, Erbarmen; 
-</item>
+  <label lang="eo">-o</label><item>
+  Mitleid, Mitgefühl, Erbarmen; 
+  </item>
 
-<label lang="eo">-a</label><item>
-Mitleids-; 
-</item>
+  <label lang="eo">-a</label><item>
+  Mitleids-; 
+  </item>
 
-<label lang="eo">-ema</label><item>
-mitleidig, teilnehmend, mitfühlend; 
-</item>
+  <label lang="eo">-ema</label><item>
+  mitleidig, teilnehmend, mitfühlend; 
+  </item>
 
-<label lang="eo">mal&mdash;ema</label><item>
-hart[fühlend], kalt, hartherzig; 
-</item>
+  <label lang="eo">mal&mdash;ema</label><item>
+  hart[fühlend], kalt, hartherzig; 
+  </item>
 
-<label lang="eo">sen&mdash;a</label><item>
-mitleidslos, gefühllos, erbarmungslos; 
-</item>
+  <label lang="eo">sen&mdash;a</label><item>
+  mitleidslos, gefühllos, erbarmungslos; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-Mitleid, Teilnahme, Mitgefühl erwecken, zum Mitleid rühren;
-</item>
+  <label lang="eo">-igi</label><item>
+  Mitleid, Teilnahme, Mitgefühl erwecken, zum Mitleid rühren;
+  </item>
 
-<label lang="eo">-ige</label><item>
-erbarmend, zum Erbarmen</item>
+  <label lang="eo">-ige</label><item>
+  erbarmend, zum Erbarmen</item>
+</list></item>
 
 <label lang="eo">kompendi-o</label><item>
 Kompendium</item>
 
 <label lang="eo">kompens-i</label><item>
 vergüten, ersetzen, ausgleichen, aufwiegen, kompensieren; 
-</item>
+<list type="deriv"> 
+  <label lang="eo">-o</label><item>
+  Ersatz, Vergütung, Ausgleich;</item>
 
-<label lang="eo">-o</label><item>
-Ersatz, Vergütung, Ausgleich; 
-</item>
-
-<label lang="eo">perdo&mdash;o</label><item>
-Schadenersatz</item>
+  <label lang="eo">perdo&mdash;o</label><item>
+  Schadenersatz</item>
+</list></item>
 
 <label lang="eo">kompetent-a</label><item>
 kompetent, zuständig; 
-</item>
-
-<label lang="eo">-ulo</label><item>
-Sachverständiger</item>
+<list type="deriv"> 
+  <label lang="eo">-ulo</label><item>
+  Sachverständiger</item>
+</list></item>
 
 <label lang="eo">kompil-i</label><item>
 kompilieren; 
-</item>
+<list type="deriv">  
+  <label lang="eo">-o</label><item>
+  Kompilation</item>
+</list></item>
 
-<label lang="eo">-o</label><item>
-Kompilation</item>
-
-<label lang="eo">komplekso</label><item>
+<label lang="eo">kompleks-o</label><item>
 Komplex</item>
 
 <label lang="eo">komplement-o</label><item>
 Komplement, Ergänzung, Vervollständigung; 
-</item>
-
-<label lang="eo">rekta -o</label><item>
-direktes Objekt (<emph>Akkusativ</emph>)</item>
+<list type="deriv">
+  <label lang="eo">rekta -o</label><item>
+  direktes Objekt (<emph>Akkusativ</emph>)</item>
+</list></item>
 
 <label lang="eo">komplet-o</label><item>
 Vollständigkeit; 
-</item>
-
-<label lang="eo">-igi</label><item>
-vervollständigen</item>
+<list type="deriv">
+  <label lang="eo">-igi</label><item>
+  vervollständigen</item>
+</list></item>
 
 <label lang="eo">komplez-o</label><item>
 (der) Gefallen, (eine) Gefälligkeit; 
-</item>
-
-<label lang="eo">-i</label><item>
-willfahren, gefallen; 
-</item>
-
-<label lang="eo">-ema</label><item>
-bereitwillig; 
-</item>
-
-<label lang="eo">-emo</label><item>
-Gefälligkeit, Bereitwilligkeit</item>
+<list type="deriv">
+  <label lang="eo">-i</label><item>
+  willfahren, gefallen;</item>
+  <label lang="eo">-ema</label><item>
+  bereitwillig; 
+  </item>
+  <label lang="eo">-emo</label><item>
+  Gefälligkeit, Bereitwilligkeit</item>
+</list></item>
 
 <label lang="eo">komplik-i</label><item>
 komplizieren, verwickeln, verwirren; 
-</item>
-
-<label lang="eo">-ita</label><item>
-kompliziert</item>
+<list type="deriv">
+  <label lang="eo">-ita</label><item>
+  kompliziert</item>
+</list></item>
 
 <label lang="eo">kompliment-i</label><item>
 komplimentieren, Komplimente machen; 
-</item>
-
-<label lang="eo">-o</label><item>
-Kompliment, Artigkeit, Höflichkeitsbezeugung</item>
+<list type="deriv">
+  <label lang="eo">-o</label><item>
+  Kompliment, Artigkeit, Höflichkeitsbezeugung</item>
+</list></item>
 
 <label lang="eo">komplot-o</label><item>
 Komplott; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-ein Komplott machen, sich verabreden</item>
+  <label lang="eo">-i</label><item>
+  ein Komplott machen, sich verabreden</item>
+</list></item>
 
 <label lang="eo">kompon-o</label><item>
 Komposition; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-komponieren; <list type="deriv">
+  <label lang="eo">-i</label><item>
+  komponieren;</item>
 
   <label lang="eo">-isto</label>
   <item>Komponist (<emph>vgl.</emph>  <ref>muzikverkisto</ref>)</item>
@@ -16547,52 +16554,54 @@ komponieren; <list type="deriv">
 
 <label lang="eo">kompost-i</label><item>
 setzen (<emph>im</emph> Buchdruck_); 
-</item>
+<list type="deriv">
 
 <label lang="eo">-isto</label><item>
 [Schrift-]Setzer</item>
+</list></item>
 
 <label lang="eo">kompot-o</label><item>
 Kompott</item>
 
 <label lang="eo">kompren-i</label><item>
 verstehen, begreifen, erfassen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-igi</label><item>
-verständlich machen; 
-</item>
+  <label lang="eo">-igi</label><item>
+  verständlich machen; 
+  </item>
 
-<label lang="eo">reciproke -iĝi</label><item>
-einander verstehen, sich verstehen; 
-</item>
+  <label lang="eo">reciproke -iĝi</label><item>
+  einander verstehen, sich verstehen; 
+  </item>
 
-<label lang="eo">-eti</label><item>
-halb verstehen, begreifen; 
-</item>
+  <label lang="eo">-eti</label><item>
+  halb verstehen, begreifen; 
+  </item>
 
-<label lang="eo">-aĵo</label><item>
-Begriff; 
-</item>
+  <label lang="eo">-aĵo</label><item>
+  Begriff; 
+  </item>
 
-<label lang="eo">mal&mdash;i</label><item>
-mißverstehen; 
-</item>
+  <label lang="eo">mal&mdash;i</label><item>
+  mißverstehen; 
+  </item>
 
-<label lang="eo">mal&mdash;iĝo</label><item>
-Mißverständnis; 
-</item>
+  <label lang="eo">mal&mdash;iĝo</label><item>
+  Mißverständnis; 
+  </item>
 
-<label lang="eo">inter&mdash;iĝo</label><item>
-Verständigung, [Ein-]Verständnis (<emph>untereinander</emph>); 
-</item>
+  <label lang="eo">inter&mdash;iĝo</label><item>
+  Verständigung, [Ein-]Verständnis (<emph>untereinander</emph>); 
+  </item>
 
-<label lang="eo">-emo</label><item>
-Verständnis (<emph>für etwas</emph>); 
-</item>
+  <label lang="eo">-emo</label><item>
+  Verständnis (<emph>für etwas</emph>); 
+  </item>
 
-<label lang="eo">-ema</label><item>
-verständnisvoll</item>
+  <label lang="eo">-ema</label><item>
+  verständnisvoll</item>
+</list></item>
 
 <label lang="eo">kompres-o</label><item>
 Kompresse</item>
@@ -16603,70 +16612,71 @@ Kompromiß</item>
 <label lang="eo">komun-a</label><item>
 gemein[sam], gemeinschaftlich, allgemein (<emph>vgl.</emph> <ref>ĝenerala</ref>);
 <list type="deriv"> 
-</list></item>
 
-<label lang="eo">-eco</label><item>
-Gemeinsamkeit, Gemeinschaftlichkeit; 
-</item>
+  <label lang="eo">-eco</label><item>
+  Gemeinsamkeit, Gemeinschaftlichkeit; 
+  </item>
 
-<label lang="eo">-umo</label><item>
-Gemeinde; 
-</item>
+  <label lang="eo">-umo</label><item>
+  Gemeinde; 
+  </item>
 
-<label lang="eo">-uma</label><item>
-kommunal; 
-</item>
+  <label lang="eo">-uma</label><item>
+  kommunal; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-gemeinsam, allgemein machen, verallgemeinern</item>
+  <label lang="eo">-igi</label><item>
+  gemeinsam, allgemein machen, verallgemeinern</item>
+</list></item>  
 
 <label lang="eo">komuni-o</label><item>
 Kommunion, heiliges Abendmahl; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-kommunizieren, das heilige Abendmahl reichen; 
-</item>
+  <label lang="eo">-i</label><item>
+  kommunizieren, das heilige Abendmahl reichen; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-zum Abendmahl gehen, das heilige Abendmahl empfangen, einnehmen, kommunizieren; 
-</item>
+  <label lang="eo">-iĝi</label><item>
+  zum Abendmahl gehen, das heilige Abendmahl empfangen, einnehmen, kommunizieren; 
+  </item>
 
-<label lang="eo">-iĝanto</label><item>
-Kommunikant</item>
+  <label lang="eo">-iĝanto</label><item>
+  Kommunikant</item>
+</list></item> 
 
 <label lang="eo">komunik-i</label><item>
 verbinden, mitteilen, teilhaftig machen, anschließen (<emph>trans.</emph>) (<emph>vgl.</emph>   
  <ref>sciigi</ref>);
 <list type="deriv"> 
+
+  <label lang="eo">-o</label><item>
+  Verbindung, Anschluß, Kommunikation, Mitteilung; 
+  </item>
+
+  <label lang="eo">-aĵo</label><item>
+  Verbindung (<emph>die verbindende Sache</emph>), Zusammenhang, Anschluß; 
+  </item>
+
+  <label lang="eo">-iĝi kun</label><item>
+  in Verbindung, Verkehr stehen mit, verkehren mit; 
+  </item>
+
+  <label lang="eo">-iĝo</label><item>
+  Verbindung, Verkehr, Anschluß (<emph>wörtlich: das Sichverbinden [mit], das Teilhaftigwerden [an]</emph>);
+  </item>
+
+  <label lang="eo">ek&mdash;iĝi</label><item>
+  in Verbindung, in vErkehr treten mit;
+  </item>
+
+  <label lang="eo">inter&mdash;i</label><item>
+  untereinander verbinden, in Verbindung, Verkehr setzen;
+  </item>
+
+  <label lang="eo">inter&mdash;iĝi</label><item>
+  untereinander in Verkehr, Verbindung stehen, miteinander verkehren, umgehen</item>
 </list></item>
-
-<label lang="eo">-o</label><item>
-Verbindung, Anschluß, Kommunikation, Mitteilung; 
-</item>
-
-<label lang="eo">-aĵo</label><item>
-Verbindung (<emph>die verbindende Sache</emph>), Zusammenhang, Anschluß; 
-</item>
-
-<label lang="eo">-iĝi kun</label><item>
-in Verbindung, Verkehr stehen mit, verkehren mit; 
-</item>
-
-<label lang="eo">-iĝo</label><item>
-Verbindung, Verkehr, Anschluß (<emph>wörtlich: das Sichverbinden [mit], das Teilhaftigwerden [an]</emph>);
-</item>
-
-<label lang="eo">ek&mdash;iĝi</label><item>
-in Verbindung, in vErkehr treten mit;
-</item>
-
-<label lang="eo">inter&mdash;i</label><item>
-untereinander verbinden, in Verbindung, Verkehr setzen;
-</item>
-
-<label lang="eo">inter&mdash;iĝi</label><item>
-untereinander in Verkehr, Verbindung stehen, miteinander verkehren, umgehen</item>
 
 <label lang="eo">komunism-o</label><item>
 Kommunismus; 
@@ -16677,89 +16687,94 @@ Kommunist</item>
 
 <label lang="eo">komut-i</label><item>
 umschalten; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ilo</label><item>
-(<emph>elektr.</emph>), Umschalter, Kommutator; 
-</item>
+  <label lang="eo">-ilo</label><item>
+  (<emph>elektr.</emph>), Umschalter, Kommutator; 
+  </item>
 
-<label lang="eo">rel&mdash;ilo</label><item>
-(<emph>Eisenbahn</emph>), Weiche</item>
+  <label lang="eo">rel&mdash;ilo</label><item>
+  (<emph>Eisenbahn</emph>), Weiche</item>
+</list></item>
 
 <label lang="eo">kon-i</label><item>
 kennen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-o</label><item>
-Kenntnis; 
-</item>
+  <label lang="eo">-o</label><item>
+  Kenntnis; 
+  </item>
 
-<label lang="eo">-igi</label><item>
-kennen lehren; 
-</item>
+  <label lang="eo">-igi</label><item>
+  kennen lehren; 
+  </item>
 
-<label lang="eo">ek&mdash;i</label><item>
-erkennen; 
-</item>
+  <label lang="eo">ek&mdash;i</label><item>
+  erkennen; 
+  </item>
 
-<label lang="eo">re&mdash;i</label><item>
-wiedererkennen; 
-</item>
+  <label lang="eo">re&mdash;i</label><item>
+  wiedererkennen; 
+  </item>
 
-<label lang="eo">-ato</label><item>
-Bekannter; 
-</item>
+  <label lang="eo">-ato</label><item>
+  Bekannter; 
+  </item>
 
-<label lang="eo">-ataro</label><item>
-Bekanntschaft; 
-</item>
+  <label lang="eo">-ataro</label><item>
+  Bekanntschaft; 
+  </item>
 
-<label lang="eo">-atigi</label><item>
-bekannt machen; 
-</item>
+  <label lang="eo">-atigi</label><item>
+  bekannt machen; 
+  </item>
 
-<label lang="eo">-atiĝi kun</label><item>
-bekannt werden mit, die Bekanntschaft machen von; 
-</item>
+  <label lang="eo">-atiĝi kun</label><item>
+  bekannt werden mit, die Bekanntschaft machen von; 
+  </item>
 
-<label lang="eo">-anto</label><item>
-Kenner;
-</item>
+  <label lang="eo">-anto</label><item>
+  Kenner;
+  </item>
 
-<label lang="eo">mem&mdash;o</label><item>
-Selbsterkenntnis</item>
+  <label lang="eo">mem&mdash;o</label><item>
+  Selbsterkenntnis</item>
+</list></item>
 
 <label lang="eo">koncentr-a</label><item>
 konzentrisch; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-igi</label><item>
-konzentrieren, auf einen [Mittel-]Punkt [ver]sammeln, zusammenziehen; 
-</item>
+  <label lang="eo">-igi</label><item>
+  konzentrieren, auf einen [Mittel-]Punkt [ver]sammeln, zusammenziehen; 
+  </item>
 
-<label lang="eo">-igo</label><item>
-Konzentration; 
-</item>
+  <label lang="eo">-igo</label><item>
+  Konzentration; 
+  </item>
 
-<label lang="eo">-iĝi</label><item>
-sich konzentrieren</item>
+  <label lang="eo">-iĝi</label><item>
+  sich konzentrieren</item>
+</list></item>
 
 <label lang="eo">koncept-o</label><item>
 (<emph>phil.</emph>), Konzept; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-konzipieren</item>
+  <label lang="eo">-i</label><item>
+  konzipieren</item>
+</list></item>
 
 <label lang="eo">koncern-i</label><item>
 betreffen, angehen, an[be]langen</item>
 
 <label lang="eo">koncert-o</label><item>
 Konzert; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-konzertieren</item>
+  <label lang="eo">-i</label><item>
+  konzertieren</item>
+</list></item>
 
 <label lang="eo">koncesi-o</label><item>
 Konzession, Zugeständnis</item>
@@ -16769,39 +16784,42 @@ konzis, kurz, gedrängt, bündig</item>
 
 <label lang="eo">kondamn-i</label><item>
 verurteilen, verdammen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ito</label><item>
-Verurteilter, Verdammter</item>
+  <label lang="eo">-ito</label><item>
+  Verurteilter, Verdammter</item>
+</list></item>
 
 <label lang="eo">kondicional-o</label><item>
 Konditionalis</item>
 
 <label lang="eo">kondiĉ-o</label><item>
 Bedingung, Verpflichtung,Vorbehalt,  Klausel; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-bedingen, zur Bedingung machen, stipulieren; 
-</item>
+  <label lang="eo">-i</label><item>
+  bedingen, zur Bedingung machen, stipulieren; 
+  </item>
 
-<label lang="eo">-a modo</label><item>
-Bedingungs[zeit]form; 
-</item>
+  <label lang="eo">-a modo</label><item>
+  Bedingungs[zeit]form; 
+  </item>
 
-<label lang="eo">-e ke</label><item>
-bedingt daß; 
-</item>
+  <label lang="eo">-e ke</label><item>
+  bedingt daß; 
+  </item>
 
-<label lang="eo">sen&mdash;e</label><item>
-bedingungslos</item>
+  <label lang="eo">sen&mdash;e</label><item>
+  bedingungslos</item>
+</list></item>
 
 <label lang="eo">kondolenc-i</label><item>
 kondolieren, Beileid bezeigen; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-o</label><item>
-Beileid, Kondolenz</item>
+  <label lang="eo">-o</label><item>
+  Beileid, Kondolenz</item>
+</list></item>
 
 <label lang="eo">kondor-o</label><item>
 Kondor</item>
@@ -18521,7 +18539,6 @@ liegen, gelegen sein; <list type="deriv">
 
 <label lang="eo">kutim-i</label><item>
 sich gewöhnen; <list type="deriv">
-
   <label lang="eo">-o</label>
   <item>Gewohnheit, Brauch</item> 
   <label lang="eo">-a</label>
@@ -18535,14 +18552,12 @@ Kutter</item>
 
 <label lang="eo">kuv-o</label><item>
 Wanne; <list type="deriv">
-
   <label lang="eo">ban&mdash;o</label>
   <item>Badewanne</item>
 </list></item>
 
 <label lang="eo">kuz-o</label><item>
 Vetter, Cousin; <list type="deriv">
-
   <label lang="eo">-ino</label>
   <item>Cousine, Base</item>
 </list></item>
@@ -18552,7 +18567,6 @@ Quadrant</item>
 
 <label lang="eo">kvadrat-o</label><item>
 Quadrat, Viereck, Karree; <list type="deriv">
-
   <label lang="eo">-a</label>
   <item>quadratisch, viereckig</item> 
   <label lang="eo">-i</label>
@@ -18576,14 +18590,12 @@ Quäker</item>
 
 <label lang="eo">kvalifik-i</label><item>
 qualifizieren; <list type="deriv">
-
   <label lang="eo">-o</label>
   <item>Qualifikation</item>
 </list></item>
 
 <label lang="eo">kvalit-o</label><item>
 Qualität, Beschaffenheit, Güte; <list type="deriv">
-
   <label lang="eo">-i</label>
   <item>befähigen</item> 
   <label lang="eo">-a</label>
@@ -18703,14 +18715,12 @@ Quintillion (<emph>Million in der 5. Potenz</emph>)</item>
 
 <label lang="eo">kvit-a</label><item>
 quitt, nichts schuldig, los, ledig, frei, ausgeglichen; <list type="deriv">
-
   <label lang="eo">-iĝi kun iu</label>
   <item>jemand abfinden</item>
 </list></item>
 
 <label lang="eo">kvitanc-i</label><item>
 quittieren; <list type="deriv">
-
   <label lang="eo">-o</label>
   <item>Quittung, Zahlungsschein</item>
 </list></item>
@@ -24405,7 +24415,7 @@ Parafin</item>
 <label lang="eo">parafraz-o</label><item>
 Paraphrase</item>
 
-<label lang="eo">paragrafo</label><item>
+<label lang="eo">paragraf-o</label><item>
 Paragraph</item>
 
 <label lang="eo">paralel-a</label><item>
@@ -34585,10 +34595,10 @@ Schaf (<emph>Gattungsname</emph>);
   
   <label lang="eo">-lano</label>
   <item>Schafwolle</item>
-
-  <label lang="eo">ŝaft-o</label>
-  <item>(<emph>techn.</emph>), Welle</item>  
 </list></item>
+
+<label lang="eo">ŝaft-o</label>
+<item>(<emph>techn.</emph>), Welle</item>  
 
 <label lang="eo">ŝah-o</label><item>
 Schah</item>
@@ -37663,7 +37673,6 @@ Drossel</item>
 <label lang="eo">tur-ismo</label><item>
 Reisesport;  
 <list type="deriv">
-
   <label lang="eo">-isto</label>
   <item>Tourist</item>
 </list></item>
