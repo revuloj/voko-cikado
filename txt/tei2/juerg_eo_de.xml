@@ -1309,7 +1309,7 @@ Algerien;
   <item>Algerier</item>  
 </list></item>
 
-<label lang="eo">alhemi-o</label><item>
+<label lang="eo">alĥemi-o</label><item>
 Alchimie</item>
 
 <label lang="eo">ali-a</label><item>
@@ -2553,7 +2553,7 @@ Gicht;
 
 </list></item>
 
-<label lang="eo">&mdash;as</label><item>
+<label lang="eo">-as</label><item>
 <emph>die das Präsens (die Gegenwart) eines Verbums (Zeitworts) kennzeichnende Endung; z. B.:</emph>  
 <list type="deriv">
 
@@ -6913,9 +6913,7 @@ Eklektizismus</item>
 
 <label lang="eo">eklezi-o</label><item>
 Kirche (die Gemeinschaft der Gläubigen, nicht das Gebäude, <emph>vgl.</emph>   
- <ref>preĝejo</ref>).
-<list type="deriv">
-</list></item>
+ <ref>preĝejo</ref>)</item>
 
 <label lang="eo">eklips-o</label><item>
 <emph>(astr.)</emph>,
@@ -7223,7 +7221,7 @@ bestehen, existieren;
   <label lang="eo">-veni</label>
   <item>herauskommen</item>  
 
-  <label lang="eo">-Ĵeti</label>
+  <label lang="eo">-ĵeti</label>
   <item>[her]auswerfen</item>  
 
   <label lang="eo">-doni</label>
@@ -14786,19 +14784,18 @@ Kanevas, [Baumwoll-]Stramin</item>
 
 <label lang="eo">kap-o</label><item>
 Kopf; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-turniĝo</label><item>
-Schwindel, Taumel;
-  <list type="deriv">
-
+  <label lang="eo">-turniĝo</label><item>
+  Schwindel, Taumel;</item>
+  
   <label lang="eo">trans&mdash;iĝi</label>
   <item>purzeln</item>
 </list></item>
 
 <label lang="eo">kapabl-a</label><item>
 fähig, imstande;
-  <list type="deriv">
+<list type="deriv">
 
   <label lang="eo">-o</label>
   <item>Vermögen, Fähigkeit</item>
@@ -14815,24 +14812,27 @@ fähig, imstande;
 
 <label lang="eo">kapel-o</label><item>
 Kapelle; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-estro</label><item>
-Kapellmeister</item>
+  <label lang="eo">-estro</label><item>
+  Kapellmeister</item>
+</list></item>
 
 <label lang="eo">kaper-i</label><item>
 kapern; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ŝipo</label><item>
-Kaper[schiff]</item>
+  <label lang="eo">-ŝipo</label><item>
+  Kaper[schiff]</item>
+</list></item>
 
 <label lang="eo">kapital-o</label><item>
 Kapital; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-isto</label><item>
-Kapitalist</item>
+  <label lang="eo">-isto</label><item>
+  Kapitalist</item>
+</list></item>
 
 <label lang="eo">kapitan-o</label><item>
 Hauptmann, Kapitän
@@ -14972,30 +14972,27 @@ teuer, wert, lieb;
 
   <label lang="eo">&mdash;eco</label>
   <item>(hoher) Wert, Preis</item>
+
+  <label lang="eo">-ulo</label><item>
+  Lieber, Teurer, Liebling;</item>
+
+  <label lang="eo">mal&mdash;a</label><item>
+  billig, wohlfeil; 
+  </item>
+
+  <label lang="eo">mal&mdash;eco</label><item>
+  Billigkeit; 
+  </item>
+
+  <label lang="eo">pli&mdash;iĝo</label><item>
+  Hausse,
+    Steigen (<emph>der Preise</emph>); 
+  </item>
+
+  <label lang="eo">malpli&mdash;iĝo</label><item>
+  Baisse, Sinken
+    (<emph>der Preise</emph>)</item>
 </list></item>
-
-<label lang="eo">-ulo</label><item>
-Lieber, Teurer,
-  Liebling; 
-</item>
-
-<label lang="eo">mal&mdash;a</label><item>
-billig,
-  wohlfeil; 
-</item>
-
-<label lang="eo">mal&mdash;eco</label><item>
-Billigkeit; 
-</item>
-
-<label lang="eo">pli&mdash;iĝo</label><item>
-Hausse,
-  Steigen (<emph>der Preise</emph>); 
-</item>
-
-<label lang="eo">malpli&mdash;iĝo</label><item>
-Baisse, Sinken
-  (<emph>der Preise</emph>)</item>
 
 <label lang="eo">karaben-o</label><item>
 Karabiner, Büchse</item>
@@ -15008,8 +15005,7 @@ Charakter</item>
 
 <label lang="eo">karakteriz-i</label><item>
 charakterisieren, kennzeichnen;
-  <list type="deriv">
-
+<list type="deriv">
   <label lang="eo">-a</label>
   <item>charakteristisch</item>
 </list></item>
@@ -15036,11 +15032,9 @@ Karawane</item>
 
 <label lang="eo">karb-o</label><item>
 Kohle; 
-</item>
-
-<label lang="eo">-igi</label><item>
-abkohlen;
-  <list type="deriv">
+<list type="deriv">
+  <label lang="eo">-igi</label><item>
+  abkohlen;</item>
 
   <label lang="eo">-isto</label>
   <item>Köhler</item>
@@ -15090,10 +15084,11 @@ Karriere</item>
 
 <label lang="eo">karikatur-o</label><item>
 Karikatur; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-karikieren</item>
+  <label lang="eo">-i</label><item>
+  karikieren</item>
+</list></item>
 
 <label lang="eo">kariofil-o</label><item>
 [Gewürz-]Nelke,
@@ -15129,10 +15124,10 @@ Karo, Carreau</item>
 
 <label lang="eo">karob-o</label><item>
 Johannisbrot; 
-</item>
-
-<label lang="eo">-ujo</label><item>
-Johannisbrotbaum</item>
+<list type="deriv">
+  <label lang="eo">-ujo</label><item>
+  Johannisbrotbaum</item>
+</list></item>  
 
 <label lang="eo">karot-o</label><item>
 Mohrrübe, Möhre, Karotte</item>
@@ -15142,29 +15137,28 @@ Karpfen</item>
 
 <label lang="eo">karpen-o</label><item>
 Hagebuche, Hornbaum; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ejo</label><item>
-Hagebuchenpflanzung; 
-</item>
+  <label lang="eo">-ejo</label><item>
+  Hagebuchenpflanzung; 
+  </item>
 
-<label lang="eo">-aleo</label><item>
-Hagebuchengang, -allee;
-</item>
+  <label lang="eo">-aleo</label><item>
+  Hagebuchengang, -allee;
+  </item>
 
-<label lang="eo">-laŭbo</label><item>
-Hagebuchenlaube</item>
+  <label lang="eo">-laŭbo</label><item>
+  Hagebuchenlaube</item>
+</list></item>
 
 <label lang="eo">Karpat-oj</label><item>
 Karpathen</item>
 
 <label lang="eo">kart-o</label><item>
 Karte; 
-</item>
-
-<label lang="eo">-eto</label><item>
-Visitenkarte;
-  <list type="deriv">
+<list type="deriv">
+  <label lang="eo">-eto</label><item>
+  Visitenkarte;</item>
 
   <label lang="eo">[lud]&mdash;oj</label>
   <item>Spielkarten</item>
@@ -15190,10 +15184,11 @@ Kartographie</item>
 
 <label lang="eo">kartoĉ-o</label><item>
 Patrone; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ujo</label><item>
-Patronentasche</item>
+  <label lang="eo">-ujo</label><item>
+  Patronentasche</item>
+</list></item>
 
 <label lang="eo">karton-o</label><item>
 Karton, Pappe</item>
@@ -15207,29 +15202,31 @@ Ringelstechen, -rennen, Karussell</item>
 
 <label lang="eo">kas-o</label><item>
 Kasse, Geldkasten; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-ejo</label><item>
-Kasse[nraum, -zimmer];
-</item>
+  <label lang="eo">-ejo</label><item>
+  Kasse[nraum, -zimmer];
+  </item>
 
-<label lang="eo">-isto</label><item>
-Kassierer; 
-</item>
+  <label lang="eo">-isto</label><item>
+  Kassierer; 
+  </item>
 
-<label lang="eo">en&mdash;igi</label><item>
-[ein]kassieren;
-</item>
+  <label lang="eo">en&mdash;igi</label><item>
+  [ein]kassieren;
+  </item>
 
-<label lang="eo">-eto</label><item>
-Kassette</item>
+  <label lang="eo">-eto</label><item>
+  Kassette</item>
+</list></item>
 
 <label lang="eo">kasaci-o</label><item>
 Kassation; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-kassieren (<emph>ungültig machen, beseitigen</emph>)</item>
+  <label lang="eo">-i</label><item>
+  kassieren (<emph>ungültig machen, beseitigen</emph>)</item>
+</list></item>
 
 <label lang="eo">kaserol-o</label><item>
 Kasserolle, Schmor- Kochpfanne</item>
@@ -15245,10 +15242,11 @@ Kaste</item>
 
 <label lang="eo">kastel-o</label><item>
 Burg, Schloß, Kastell; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-mastro</label><item>
-Kastellan</item>
+  <label lang="eo">-mastro</label><item>
+  Kastellan</item>
+</list></item>
 
 <label lang="eo">kastor-o</label><item>
 Biber</item>
@@ -15339,11 +15337,10 @@ Katakombe</item>
 
 <label lang="eo">katalepsi-o</label><item>
 Katalepsie, Starrsucht;
-</item>
+<list type="deriv">
 
-<label lang="eo">-ulo</label><item>
-Kataleptiker;
-  <list type="deriv">
+  <label lang="eo">-ulo</label><item>
+  Kataleptiker;</item>
 
   <label lang="eo">-a</label>
   <item>kataleptisch</item>
@@ -15351,10 +15348,11 @@ Kataleptiker;
 
 <label lang="eo">katalog-o</label><item>
 Katalog; 
-</item>
+<list type="deriv">
 
-<label lang="eo">-i</label><item>
-katalogisieren</item>
+  <label lang="eo">-i</label><item>
+  katalogisieren</item>
+</list></item>
 
 <label lang="eo">kataplasm-o</label><item>
 Kataplasma</item>
@@ -15526,10 +15524,10 @@ Kellermeister</item>
 
 <label lang="eo">kelk-a</label><item>
 mancher, -e, -es;
-</item>
+<list type="deriv">
 
-<label lang="eo">-aj</label><item>
-manche, einige; <list type="deriv">
+  <label lang="eo">-aj</label><item>
+  manche, einige;</item>
 
   <label lang="eo">post kelka tempo</label>
   <item>nach einiger Zeit</item>
@@ -15651,31 +15649,27 @@ Küraß, Panzer, Harnisch;
   </item>
 
   <label lang="eo">-a ŝipo</label><item>
-  Panzerschiff; 
-  </item>
+  Panzerschiff;</item>
 
   <label lang="eo">-ulo</label><item>
-  Kürassier; 
-  </item>
-</list></item>
+  Kürassier;</item>
 
-<label lang="eo">kiraso de testudo, de ostro</label><item>
-Panzer der Schildkröte, Austerschale</item>
+  <label lang="eo">kiraso de testudo, de ostro</label><item>
+  Panzer der Schildkröte, Austerschale</item>
+</list></item>
 
 <label lang="eo">kirl-i</label><item>
 quirlen; 
 <list type="deriv">
-<label lang="eo">-ilo</label><item>
-Quirl; 
-</item>
+  <label lang="eo">-ilo</label><item>
+  Quirl;</item>
+
+  <label lang="eo">akvo&mdash;o</label><item>
+  Strudel;</item>
+
+  <label lang="eo">vento&mdash;kirlo</label><item>
+  Wirbelwind</item>
 </list></item>
-
-<label lang="eo">akvo&mdash;o</label><item>
-Strudel; 
-</item>
-
-<label lang="eo">vento&mdash;kirlo</label><item>
-Wirbelwind</item>
 
 <label lang="eo">kirŝ-o</label><item>
 Kirsch[wasser]</item>
@@ -15715,8 +15709,7 @@ klar, deutlich, bestimmt;
   <item>Dunkelheit, Undeutlichkeit</item>
 
   <label lang="eo">ne&mdash;a</label><item>
-  nicht klar, unklar, unbestimmt; 
-  </item>
+  nicht klar, unklar, unbestimmt; </item>
 
   <label lang="eo">-igi</label><item>
   klar machen, erklären; 
@@ -15773,13 +15766,11 @@ Waldrebe</item>
 <label lang="eo">kler-a</label><item>
 gebildet; 
 <list type="deriv">
-  <label lang="eo">&mdash;eco</label><item>
-  Bildung; 
-  </item>
+  <label lang="eo">-eco</label><item>
+  Bildung;</item>
 
   <label lang="eo">-ulo</label><item>
-  Gebildeter;  
-  </item>
+  Gebildeter;</item>
 
   <label lang="eo">-igi</label><item>
   gebildet machen, bilden, aufklären; 
@@ -15923,12 +15914,8 @@ Koffer</item>
 
 <label lang="eo">koher-i</label><item>
 (<emph>physik., chem.</emph>), zusammenhängen, koherieren; 
-</item>
-
-<label lang="eo">-emo</label><item>
 <list type="deriv">
-
-  <label lang="eo">-eco</label>
+  <label lang="eo">-emo, -eco</label>
   <item>Kohäsion, Koherenz</item>
 </list></item>
 
@@ -15972,10 +15959,11 @@ Kokarde</item>
 Marienkäfer, Gotteskuh</item>
 
 <label lang="eo">koket-a</label><item>
-kokett, gefallsüchtig</item>
+kokett, gefallsüchtig
+<list type="deriv">
 
-<label lang="eo">-eco</label><item>
-Koketterie, gefallsucht; <list type="deriv">
+  <label lang="eo">-eco</label><item>
+  Koketterie, Gefallsucht;</item>
 
   <label lang="eo">-ulino</label>
   <item>Kokette</item>
@@ -16036,13 +16024,12 @@ Hals;
 <label lang="eo">kolbas-o</label><item>
 Wurst; 
 <list type="deriv">
-<label lang="eo">-eto</label><item>
-Würstchen, Knackwurst; 
-</item>
+  <label lang="eo">-eto</label><item>
+  Würstchen, Knackwurst; 
+  </item>
+  <label lang="eo">sang&mdash;o</label><item>
+  Blutwurst</item>
 </list></item>
-
-<label lang="eo">sang&mdash;o</label><item>
-Blutwurst</item>
 
 <label lang="eo">koleg-o</label><item>
 Kollege; 
@@ -18771,7 +18758,7 @@ arbeiten; <list type="deriv">
   <item>Trägheit, Faulheit</item> 
   <label lang="eo">man&mdash;o</label>
   <item>Handarbeit</item> 
-  <label lang="eo">el&mdash;</label>
+  <label lang="eo">el&mdash;i</label>
   <item>(etwas) ausarbeiten</item> 
   <label lang="eo">el&mdash;aĵo</label>
   <item>Ausarbeitung, Werk</item> 
@@ -21792,9 +21779,9 @@ moralisch, sittlich; <list type="deriv">
 
   <label lang="eo">-eco</label>
   <item>Moralität, Sittlichkeit</item> 
-  <label lang="eo">-ajĵo</label>
+  <label lang="eo">-aĵo</label>
   <item>Moralisches, Moral</item> 
-  <label lang="eo">ne&mdash;nan</label>
+  <label lang="eo">ne&mdash;a</label>
   <item>unmoralisch</item>
 </list></item>
 
@@ -35223,7 +35210,7 @@ Klotz, Scheit;
 </list></item>
 
 <label lang="eo">ŝtof-o</label><item>
-Stoff, Zeug (Wollen, Seiden etc., <emph>vgl.</emph>    <ref>materialo</ref>,  <ref>drapo</ref>,l  <ref>tuko</ref>);
+Stoff, Zeug (Wollen, Seiden etc., <emph>vgl.</emph> <ref>materialo</ref>,  <ref>drapo</ref>, <ref>tuko</ref>);
 <list type="deriv">
   
   <label lang="eo">sub&mdash;o</label>
