@@ -873,7 +873,7 @@ angenehm;
 <label lang="eo">agregat&nbhyph;o</label><item>
 <emph>(phil.)</emph> Aggregat, der Haufen</item>
 
-<label lang="eo">agvikultur&nbhyph;o</label><item>
+<label lang="eo">agrikultur&nbhyph;o</label><item>
 Ackerbau</item>
 
 <label lang="eo">agronomi&nbhyph;o</label><item>
@@ -7077,7 +7077,7 @@ ausrotten, [ver]tilgen
 </item>
 
 
-<label lang="eo">ekstra</label><item>
+<label lang="eo">ekstr&nbhyph;a</label><item>
 Extra-, extra;
  <list type="deriv">
 
@@ -8028,7 +8028,7 @@ Ethymologie</item>
 <label lang="eo">etiologi&nbhyph;o</label><item>
 Ätiologie</item>
 
-<label lang="eo">ethiop&nbhyph;a</label><item>
+<label lang="eo">etiop&nbhyph;a</label><item>
 äthiopisch;  
 <list type="deriv">
 
@@ -9294,7 +9294,7 @@ Floss;
   <item>flößen</item>
 </list></item>
 
-<label lang="eo">fiu&nbhyph;i</label><item>
+<label lang="eo">flu&nbhyph;i</label><item>
 fließen;  
 <list type="deriv">
 
@@ -10742,7 +10742,7 @@ gleiten, glitschen;
   <item>Schlitten</item>
 </list></item>
 
-<label lang="eo">aglob&nbhyph;o</label><item>
+<label lang="eo">glob&nbhyph;o</label><item>
 Kugel;  
 <list type="deriv">
 
@@ -11697,7 +11697,7 @@ hebräisch;
 <label lang="eo">hebreism&nbhyph;o</label><item>
 Hebräismus</item>
 
-<label lang="eo">hellotrop&nbhyph;o</label><item>
+<label lang="eo">heliotrop&nbhyph;o</label><item>
 Heliotrop</item>
 
 <label lang="eo">heder&nbhyph;o</label><item>
@@ -15587,14 +15587,15 @@ wohin, nach wo</item>
 
 <label lang="eo">kiel</label><item>
 wie, als; 
-</item>
+<list type="deriv">
 
-<label lang="eo">kiel eble plej bone</label><item>
-so gut wie möglich, möglichst gut, bestens; 
-</item>
+  <label lang="eo">kiel eble plej bone</label><item>
+  so gut wie möglich, möglichst gut, bestens; 
+  </item>
 
-<label lang="eo">kiel eble plej baldaŭ</label><item>
-baldmöglichst</item>
+  <label lang="eo">kiel eble plej baldaŭ</label><item>
+  baldmöglichst</item>
+</list></item>
 
 <label lang="eo">kies</label><item>
 wessen, dessen, deren</item>
@@ -26644,7 +26645,7 @@ Portikus, Säulenhalle</item>
 <label lang="eo">portret&nbhyph;o</label><item>
 Porträt, Bild[nis]</item>
 
-<label lang="eo">portngal&nbhyph;a</label><item>
+<label lang="eo">portugal&nbhyph;a</label><item>
 portugiesisch;  
 <list type="deriv">
 
@@ -26677,7 +26678,7 @@ besitzen;
 
 </list></item>
 
-<label lang="eo">possediv&nbhyph;o</label><item>
+<label lang="eo">posesiv&nbhyph;o</label><item>
 Possessivum, Possessivpronomen</item>
 
 <label lang="eo">post</label><item>
@@ -34945,7 +34946,7 @@ Schiff;
   <item>zupfen</item>  
 </list></item>
 
-<label lang="eo">sirm&nbhyph;i</label><item>
+<label lang="eo">ŝirm&nbhyph;i</label><item>
 [be]schirmen;  
   <list type="deriv">
 
@@ -35008,7 +35009,7 @@ schmieren;
   <item>Schmiere</item>  
 </list></item>
 
-<label lang="eo">snur&nbhyph;o</label><item>
+<label lang="eo">ŝnur&nbhyph;o</label><item>
 Strick, Seil, Strang, Leine  
   (<emph>vgl.</emph>   
  <ref>laĉo</ref>);
