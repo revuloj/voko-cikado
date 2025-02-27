@@ -553,7 +553,7 @@ adieu! lebe wohl!
   sagen, sich verabschieden</item> 
   <label lang="eo">&nbhyph;o</label>
   <item>Adieu, Lebewohl,
-  Abschied. (<emph>vgl.</emph>   <ref>eksigi</ref>,  <ref>eksiĝi</ref>)</item>
+  Abschied. (<emph>vgl.</emph> <ref target="eksigi">eksigi</ref>,  <ref target="eksiĝi">eksiĝi</ref>)</item>
 </list></item>
 
 <label lang="eo">adici&nbhyph;i</label><item>
@@ -789,7 +789,7 @@ Lafette</item>
 
 <label lang="eo">ag&nbhyph;i</label><item>
 <emph>(intrans.)</emph> handeln, verfahren, agieren 
-(<emph>vgl.</emph>  <ref>fari</ref>, <ref>komerci</ref>, <ref>negoci</ref>)</item>
+(<emph>vgl.</emph>  <ref target="fari">fari</ref>, <ref target="komerci">komerci</ref>, <ref target="negoci">negoci</ref>)</item>
 
 <label lang="eo">agac&nbhyph;o</label><item>
 Stumpfwerden (der Zähne)</item>
@@ -879,8 +879,8 @@ Ackerbau</item>
 <label lang="eo">agronomi&nbhyph;o</label><item>
 Agronomie, Landwirtschaftskunde</item>
 
-<label lang="eo" id="agxo">aĝ&nbhyph;o</label><item>
-(das) Alter (<emph>vgl.</emph>   <ref>maljuna</ref>,  <ref>malnova</ref>);
+<label lang="eo" id="aĝo">aĝ&nbhyph;o</label><item>
+(das) Alter (<emph>vgl.</emph> <ref target="maljuna">maljuna</ref>, <ref target="malnova">malnova</ref>);
   <list type="deriv">
   
   <label lang="eo">plen&mdash;aĝa</label>
@@ -891,7 +891,7 @@ Agronomie, Landwirtschaftskunde</item>
 </list></item>
 
 <label lang="eo">aĝi&nbhyph;o</label><item>
-Agio, Aufgeld (<emph>vgl.</emph>  <ref>primo</ref>)</item>
+Agio, Aufgeld (<emph>vgl.</emph> <ref target="primo">primo</ref>)</item>
 
 <label lang="eo">aĝiot&nbhyph;i</label><item>
 mit Wertpapieren spekulieren;
@@ -1916,7 +1916,7 @@ antizipieren;
 Antichrist</item>
 
 <label lang="eo" id="antikva">antikv&nbhyph;a</label><item>
-antik, altertümlich (<emph>vgl.</emph>   <ref>maljuna</ref>,  <ref>malnova</ref>);
+antik, altertümlich (<emph>vgl.</emph> <ref target="maljuna">maljuna</ref>, <ref target="malnova">malnova</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;aĵo</label>
@@ -2740,7 +2740,7 @@ einen Anschlag, Attentat machen, ausführen;
   <item>Attentat, Anschlag</item>  
 </list></item>
 
-<label lang="eo">atend&nbhyph;i</label><item>
+<label lang="eo" id="atendi">atend&nbhyph;i</label><item>
 [er]warten;  
 <list type="deriv">
 
@@ -2931,7 +2931,7 @@ Automat;
 <label lang="eo">aŭtomobil&nbhyph;o</label><item>
 Automobil</item>
 
-<label lang="eo" id="auxtoro">aŭtor&nbhyph;o</label><item>
+<label lang="eo" id="aŭtoro">aŭtor&nbhyph;o</label><item>
 Autor, Urheber, Verfasser</item>
 
 <label lang="eo">aŭtoritat&nbhyph;o</label><item>
@@ -3047,7 +3047,7 @@ backen;
 <list type="deriv">
 
   <label lang="eo">&nbhyph;aĵo</label>
-  <item>Gebäck, Backwerk (<emph>vgl.</emph>  <ref>kukaĵo</ref>)</item>  
+  <item>Gebäck, Backwerk (<emph>vgl.</emph> <ref target="kukaĵo">kukaĵo</ref>)</item>  
 
   <label lang="eo">&nbhyph;isto</label>
   <item>Bäcker</item>  
@@ -3056,8 +3056,8 @@ backen;
 <label lang="eo">bakteri&nbhyph;o</label><item>
 Bakterie</item>
 
-<label lang="eo">bal&nbhyph;o</label><item>
-Ball, Tanzgesellschaft (<emph>vgl.</emph> <ref>pilko</ref>)</item>
+<label lang="eo" id="balo">bal&nbhyph;o</label><item>
+Ball, Tanzgesellschaft (<emph>vgl.</emph> <ref target="pilko">pilko</ref>)</item>
 
 <label lang="eo">bala&nbhyph;i</label><item>
 fegen;  
@@ -3183,9 +3183,9 @@ Banderole, (Papier-)Streifen, (Kreuz-)Band</item>
 <label lang="eo">bandit&nbhyph;o</label><item>
 Bandit</item>
 
-<label lang="eo">bank&nbhyph;o</label><item>
+<label lang="eo" id="banko">bank&nbhyph;o</label><item>
 Bank <emph>(für Geldgeschäfte)</emph>
-(<emph>vgl</emph> <ref>benko</ref>);  
+(<emph>vgl</emph> <ref target="benko">benko</ref>);  
 <list type="deriv">
   <label lang="eo">&nbhyph;a bileto</label>
   <item>Banknote</item>  
@@ -3332,7 +3332,7 @@ Baschlik <emph>(Art Frauenkappe)</emph></item>
 
 <label lang="eo">bat&nbhyph;i</label><item>
 schlagen (<emph>vgl.</emph>   
- <ref>venki</ref>);
+ <ref target="venki">venki</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;faligi</label>
@@ -3399,7 +3399,7 @@ Basilisk</item>
 <label lang="eo">bed&nbhyph;o</label><item>
 Beet</item>
 
-<label lang="eo">bedaŭr&nbhyph;i</label><item>
+<label lang="eo" id="bedaŭri">bedaŭr&nbhyph;i</label><item>
 bedauern;  
 <list type="deriv">
   <label lang="eo">&nbhyph;inde</label>
@@ -3460,9 +3460,9 @@ segnen;
 <label lang="eo">benefic&nbhyph;o</label><item>
 Benefiz</item>
 
-<label lang="eo">benk&nbhyph;o</label><item>
+<label lang="eo" id="benko">benk&nbhyph;o</label><item>
 Bank (zum Sitzen) (<emph>vgl.</emph>   
- <ref>banko</ref>).
+ <ref target="banko">banko</ref>).
 <list type="deriv">
 </list></item>
 
@@ -3859,7 +3859,7 @@ boxen;
 
 <label lang="eo">bol&nbhyph;i</label><item>
 sieden, kochen (<emph>vgl.</emph>   
- <ref>kuiri</ref>);
+ <ref target="kuiri">kuiri</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;ejo</label>
@@ -3928,7 +3928,7 @@ Ufer, Küste, Gestade, Strand;
 
 <label lang="eo">bors&nbhyph;o</label><item>
 Börse (der Kaufleute, Gebäude) (<emph>vgl.</emph>   
- <ref>monujo</ref>).
+ <ref target="monujo">monujo</ref>).
 <list type="deriv">
 </list></item>
 
@@ -4540,7 +4540,7 @@ hundert;
   <item>Hundertjähriger</item>  
 
   <label lang="eo">&nbhyph;funto</label>
-  <item>Zentner (<emph>vgl.</emph>    <ref>procento</ref>,  <ref>kvar</ref>,  <ref>kvin</ref>)</item>
+  <item>Zentner (<emph>vgl.</emph> <ref target="procento">procento</ref>, <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)</item>
 </list></item>
 
 <label lang="eo">centav&nbhyph;o</label><item>
@@ -4597,11 +4597,11 @@ zensieren;
   <item>Zensor</item>  
 </list></item>
 
-<label lang="eo">cerb&nbhyph;o</label><item>
+<label lang="eo" id="cerbo">cerb&nbhyph;o</label><item>
 Hirn, Gehirn;  
 <list type="deriv">
 
-  <label lang="eo">osto&mdash;o</label>
+  <label lang="eo" id="ostocerbo">osto&mdash;o</label>
   <item>[Knochen-]Mark</item>  
 
   <label lang="eo">&nbhyph;umi</label>
@@ -4798,7 +4798,7 @@ Zirkus</item>
 
 <label lang="eo">cirkel&nbhyph;o</label><item>
 Zirkel(Instrument) (<emph>vgl.</emph>   
- <ref>rondo</ref>).
+ <ref target="rondo">rondo</ref>).
 <list type="deriv">
 </list></item>
 
@@ -4866,7 +4866,7 @@ zivilisieren; <list type="deriv">
 Zivilisation</item>
 
 <label lang="eo">col&nbhyph;o</label><item>
-Zoll (Maß) (<emph>vgl.</emph> <ref>limdepago</ref>)</item>
+Zoll (Maß) (<emph>vgl.</emph> <ref target="limdepago">limdepago</ref>)</item>
 
 </list>
 </div>
@@ -4880,7 +4880,7 @@ Zoll (Maß) (<emph>vgl.</emph> <ref>limdepago</ref>)</item>
 <label lang="eo">ĉabrak&nbhyph;o</label><item>
 Schabracke</item>
 
-<label lang="eo">ĉagren&nbhyph;i</label><item>
+<label lang="eo" id="ĉagreni">ĉagren&nbhyph;i</label><item>
 verdrießen, ärgern, Kummer bereiten;  
 <list type="deriv">
 
@@ -4968,7 +4968,7 @@ zimmern; <list type="deriv">
 <label lang="eo">ĉarpi&nbhyph;o</label><item>
 Charpie</item>
 
-<label lang="eo">ĉas&nbhyph;i</label><item>
+<label lang="eo" id="ĉasi">ĉas&nbhyph;i</label><item>
 jagen, Jagd machen, auf Jagd gehen; <list type="deriv">
 
   <label lang="eo">&nbhyph;aĵo</label>
@@ -5260,7 +5260,7 @@ meißeln, ziselieren;
   <item>Ziseleur</item>  
 </list></item>
 
-<label lang="eo" id="cxj">ĉj</label><item>
+<label lang="eo" id="ĉj">ĉj</label><item>
 <emph>den 2-5 ersten Buchstaben eines männlichen Names beigefügt, verwandelt diesen in
 einen Kosenamen:</emph> 
 
@@ -5438,7 +5438,7 @@ Dativ</item>
 <label lang="eo">datur&nbhyph;o</label><item>
 Stechapfel</item>
 
-<label lang="eo">daŭr&nbhyph;i</label><item>
+<label lang="eo" id="daŭri">daŭr&nbhyph;i</label><item>
 dauern, währen, vorhalten; <list type="deriv">
 
   <label lang="eo">&nbhyph;igi</label>
@@ -5592,7 +5592,7 @@ den Dienst haben, dejourieren</item>
 zehn; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
-  <item>Zehner (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>)</item>
+  <item>Zehner (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)</item>
 </list></item>
 
 <label lang="eo">dekadenc&nbhyph;o</label><item>
@@ -5760,8 +5760,8 @@ deputieren, abordnen; <list type="deriv">
 <label lang="eo">deriv&nbhyph;i</label><item>
 ableiten, herleiten</item>
 
-<label lang="eo">des</label><item>
-desto, um so (<emph>vgl.</emph> <ref>ju</ref>), <emph>z. B.:</emph> 
+<label lang="eo" id="des">des</label><item>
+desto, um so (<emph>vgl.</emph> <ref target="ju">ju</ref>), <emph>z. B.:</emph> 
 <list type="deriv"> 
   <label lang="eo">ju pli longe, des pli bone</label>
   <item>je länger, desto besser</item> 
@@ -5929,7 +5929,7 @@ Diamant</item>
 <label lang="eo">diametr&nbhyph;o</label><item>
 Durchmesser, Diameter</item>
 
-<label lang="eo">diant&nbhyph;o</label><item>
+<label lang="eo" id="dianto">diant&nbhyph;o</label><item>
 Nelke (Pflanze, Blume)</item>
 
 <label lang="eo">diapazon&nbhyph;o</label><item>
@@ -5956,7 +5956,7 @@ Didym</item>
 <label lang="eo">diet&nbhyph;o</label><item>
 Diät</item>
 
-<label lang="eo">difekt&nbhyph;i</label><item>
+<label lang="eo" id="difekti">difekt&nbhyph;i</label><item>
 beschädigen, Schaden zufügen, verderben;
   <list type="deriv">
 
@@ -6099,7 +6099,7 @@ Diplomat</item>
 <label lang="eo">diplomati&nbhyph;o</label><item>
 Diplomatie</item>
 
-<label lang="eo">dir&nbhyph;i</label><item>
+<label lang="eo" id="diri">dir&nbhyph;i</label><item>
 sagen;
 <list type="deriv">
 
@@ -6356,11 +6356,11 @@ Haus; <list type="deriv">
   <item>daheim, zu Hause</item>
 </list></item>
 
-<label lang="eo">domaĝ&nbhyph;e</label><item>
+<label lang="eo" id="domaĝe">domaĝ&nbhyph;e</label><item>
 (es ist) schade; <list type="deriv">
 
   <label lang="eo">&nbhyph;i</label>
-  <item>bedauern (<emph>vgl.</emph>  <ref>bedaŭri</ref>)</item>
+  <item>bedauern (<emph>vgl.</emph> <ref target="bedaŭri">bedaŭri</ref>)</item>
 </list></item>
 
 <label lang="eo">domen&nbhyph;o</label><item>
@@ -6458,8 +6458,8 @@ Drama, Schauspiel; <list type="deriv">
 <label lang="eo">dramaturgi&nbhyph;o</label><item>
 Dramaturgie</item>
 
-<label lang="eo">drap&nbhyph;o</label><item>
-Tuch (Wollenzeug); (<emph>vgl.</emph> <ref>tuko</ref>,  <ref>ŝtofo</ref>,  <ref>viŝilo</ref>)
+<label lang="eo" id="drapo">drap&nbhyph;o</label><item>
+Tuch (Wollenzeug); (<emph>vgl.</emph> <ref target="tuko">tuko</ref>, <ref target="ŝtofo">ŝtofo</ref>, <ref target="viŝilo">viŝilo</ref>)
 </item>
 
 <label lang="eo">drapir&nbhyph;i</label><item>
@@ -6491,9 +6491,9 @@ drainieren; <list type="deriv">
 <label lang="eo">dres&nbhyph;i</label><item>
 dressieren</item>
 
-<label lang="eo">drink&nbhyph;i</label><item>
+<label lang="eo" id="drinki">drink&nbhyph;i</label><item>
 saufen, zechen, kneipen (<emph>vgl.</emph>   
- <ref>trinki</ref>);
+ <ref target="trinki">trinki</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;ado</label>
   <item>Saufen, Zechen, Trinken</item> 
@@ -6540,7 +6540,7 @@ zwei; <list type="deriv">
   <label lang="eo">&nbhyph;ulo</label>
   <item>Doppelgänger</item> 
   <label lang="eo">po -ono</label>
-  <item>zur Hälfte (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>)</item>
+  <item>zur Hälfte (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)</item>
 </list></item>
 
 <label lang="eo">dualism&nbhyph;o</label><item>
@@ -6632,10 +6632,10 @@ Dusche, Sturzbad</item>
   <item>beispielsweise,  zum Beispiel</item>
 </list></item>
 
-<label lang="eo">eben&nbhyph;a</label><item>
+<label lang="eo" id="ebena">eben&nbhyph;a</label><item>
 eben, glatt, flach; <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="ebeno">&nbhyph;o</label>
   <item><emph>(math.)</emph> Ebene</item> 
   <label lang="eo">&nbhyph;aĵo</label>
   <item>Ebene, Fläche</item> 
@@ -6644,7 +6644,7 @@ eben, glatt, flach; <list type="deriv">
  
 </list></item>
 
-<label lang="eo">&nbhyph;ebl-</label><item>
+<label lang="eo" id="ebl">&nbhyph;ebl-</label><item>
 <emph>(Suffix)</emph>, möglich; <emph>z. B.:</emph> <list type="deriv">
 
   <label lang="eo">kredebla</label>
@@ -6652,7 +6652,7 @@ eben, glatt, flach; <list type="deriv">
 
   <label lang="eo">legebla</label>
   <item>leserlich</item> 
-  <label lang="eo">&nbhyph;igi</label>
+  <label lang="eo" id="ebligi">&nbhyph;igi</label>
   <item>ermöglichen, möglich machen</item> 
   <label lang="eo">&nbhyph;e</label>
   <item>möglicherweise, vielleicht</item>
@@ -6711,7 +6711,7 @@ Elfenbein</item>
   <item>Gemüt</item>
 </list></item>
 
-<label lang="eo">eĉ</label><item>
+<label lang="eo" id="eĉ">eĉ</label><item>
 [so]gar, selbst, ja; <list type="deriv">
 
   <label lang="eo">ne .... eĉ</label>
@@ -6865,7 +6865,7 @@ Echo</item>
   <label lang="eo">preĝejo</label>
   <item>Kirche</item> 
 
-  <label lang="eo">kuiri</label>
+  <label lang="eo" id="kuiri">kuiri</label>
   <item>kochen</item>
   <label lang="eo">kuirejo</label>
   <item>Küche</item> 
@@ -6911,9 +6911,9 @@ eklektisch</item>
 <label lang="eo">eklektikism&nbhyph;o</label><item>
 Eklektizismus</item>
 
-<label lang="eo">eklezi&nbhyph;o</label><item>
+<label lang="eo" id="eklezio">eklezi&nbhyph;o</label><item>
 Kirche (die Gemeinschaft der Gläubigen, nicht das Gebäude, <emph>vgl.</emph>   
- <ref>preĝejo</ref>)</item>
+ <ref target="preĝejo">preĝejo</ref>)</item>
 
 <label lang="eo">eklips&nbhyph;o</label><item>
 <emph>(astr.)</emph>,
@@ -6949,11 +6949,11 @@ Ekloge</item>
   <item>Exhauptmann</item> 
   <label lang="eo">&nbhyph;fabrikanto</label>
   <item>ehemaliger Fabrikant</item> 
-  <label lang="eo">&nbhyph;igi</label>
+  <label lang="eo" id="eksigi">&nbhyph;igi</label>
   <item>ab-, entsetzen, den Abschied geben, verabschieden, entlassen (aus dem Amt)</item> 
-  <label lang="eo">&nbhyph;iĝi</label>
+  <label lang="eo" id="eksiĝi">&nbhyph;iĝi</label>
   <item>austreten, demissionieren, den Abschied nehmen, abdanken</item> 
-  <label lang="eo">eks-edziĝi</label>
+  <label lang="eo">&nbhyph;edziĝi</label>
   <item>sich scheiden lassen</item>
 </list></item>
 
@@ -7130,7 +7130,7 @@ Gleichgewicht;
 <label lang="eo">ekzakt&nbhyph;a</label><item>
 <emph>(mathz.)</emph>, exakt, genau</item>
 
-<label lang="eo">ekzamen&nbhyph;i</label><item>
+<label lang="eo" id="ekzameni">ekzamen&nbhyph;i</label><item>
 prüfen, examinieren;  
 <list type="deriv">
 
@@ -7266,11 +7266,11 @@ elastisch;
   <item>Elastizität</item>
 </list></item>
 
-<label lang="eo">elefant&nbhyph;o</label><item>
+<label lang="eo" id="elefanto">elefant&nbhyph;o</label><item>
 Elefant;  
 <list type="deriv">
 
-  <label lang="eo">&nbhyph;osto</label>
+  <label lang="eo" id="elefantosto">&nbhyph;osto</label>
   <item>Elfenbein</item>
 </list></item>
 
@@ -7860,10 +7860,10 @@ hoffen; <list type="deriv">
 <label lang="eo">esponant&nbhyph;o</label><item>
 <emph>(algeb.)</emph>, Exponent</item>
 
-<label lang="eo">esprim&nbhyph;i</label><item>
+<label lang="eo" id="esprimi">esprim&nbhyph;i</label><item>
 ausdrücken; <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="esprimo">&nbhyph;o</label>
   <item>Ausdruck</item>
 </list></item>
 
@@ -7902,7 +7902,7 @@ Aesthetik;
   <item>ästhetisch</item>
 </list></item>
 
-<label lang="eo">estim&nbhyph;i</label><item>
+<label lang="eo" id="estimi">estim&nbhyph;i</label><item>
 schätzen, achten;  
 <list type="deriv">
 
@@ -8171,7 +8171,7 @@ Facette, Rautenfläche;
   <item>facettieren</item>
 </list></item>
 
-<label lang="eo">facil&nbhyph;a</label><item>
+<label lang="eo" id="facila">facil&nbhyph;a</label><item>
 leicht;  
 <list type="deriv">
 
@@ -8184,9 +8184,9 @@ leicht;
   <label lang="eo">&nbhyph;eco</label>
   <item>Leichtigkeit</item>  
 
-  <label lang="eo">mal&mdash;a</label>
+  <label lang="eo" id="malfacila">mal&mdash;a</label>
   <item>schwierig, schwer
-(<emph>vgl.</emph>  <ref>peza</ref>)</item>
+(<emph>vgl.</emph> <ref target="peza">peza</ref>)</item>
 </list></item>
 
 <label lang="eo">faden&nbhyph;o</label><item>
@@ -8425,16 +8425,16 @@ Phantasie;
   <item>Phantast</item> 
 </list></item>
 
-<label lang="eo">fantom&nbhyph;o</label><item>
+<label lang="eo" id="fantomo">fantom&nbhyph;o</label><item>
 Gespenst, Phantom, Spuk, Schatten (<emph>vgl.</emph>   
- <ref>ombro</ref>);
+ <ref target="ombro">ombro</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;i</label>
   <item>spuken</item>
 </list></item>
 
-<label lang="eo">far&nbhyph;i</label><item>
+<label lang="eo" id="fari">far&nbhyph;i</label><item>
 machen, tun;  
 <list type="deriv">
 
@@ -8516,7 +8516,7 @@ Bund, Bündel, Büschel</item>
 <label lang="eo">fason&nbhyph;o</label><item>
 Façon <emph>(z.B. von Kleidungsstücken)</emph>;  
 (<emph>vgl.</emph>   
- <ref>maniero</ref>).
+ <ref target="maniero">maniero</ref>).
 <list type="deriv">
 </list></item>
 
@@ -8721,9 +8721,9 @@ Eisen;
 <label lang="eo">ferdek&nbhyph;o</label><item>
 Verdeck</item>
 
-<label lang="eo">ferm&nbhyph;i</label><item>
+<label lang="eo" id="fermi">ferm&nbhyph;i</label><item>
 schließen, zumachen (<emph>vgl.</emph> : 
- <ref>ŝlosi</ref>);  
+ <ref target="ŝlosi">ŝlosi</ref>);  
 <list type="deriv">
   <label lang="eo">mal&mdash;i</label>
   <item>aufmachen, öffnen</item>  
@@ -8764,7 +8764,7 @@ feiern;
   <label lang="eo">&nbhyph;o</label>
   <item>Feier, Fest</item>  
 
-  <label lang="eo">Kandel&mdash;o</label>
+  <label lang="eo" id="kandelo">Kandel&mdash;o</label>
   <item>Lichtmeß</item>
 </list></item>
 
@@ -8847,9 +8847,9 @@ Faser, Fiber;
 <label lang="eo">fibrin&nbhyph;o</label><item>
 Fibrin, Faserstoff</item>
 
-<label lang="eo">fid&nbhyph;i</label><item>
+<label lang="eo" id="fidi">fid&nbhyph;i</label><item>
 sich verlassen auf, vertrauen, zählen auf, rechnen auf (<emph>vgl.</emph>   
- <ref>konfidi</ref>);
+ <ref target="konfidi">konfidi</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;ebla</label>
@@ -9060,7 +9060,7 @@ Fiskus;
 <label lang="eo">fistul&nbhyph;o</label><item>
 Fistel (Krankheit)</item>
 
-<label lang="eo">fiŝ&nbhyph;o</label><item>
+<label lang="eo" id="fiŝo">fiŝ&nbhyph;o</label><item>
 Fisch;  
 <list type="deriv">
 
@@ -9085,7 +9085,7 @@ Fisch;
   <label lang="eo">&nbhyph;oleo</label>
   <item>Tran</item>  
 
-  <label lang="eo">&nbhyph;osto</label>
+  <label lang="eo" id="fiŝosto">&nbhyph;osto</label>
   <item>Gräte</item>
 </list></item>
 
@@ -9167,7 +9167,7 @@ Flanell</item>
 <label lang="eo">flank&nbhyph;o</label><item>
 Seite, Flanke
 (<emph>vgl.</emph>   
- <ref>paĝo</ref>);
+ <ref target="paĝo">paĝo</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;a</label>
@@ -9183,10 +9183,10 @@ Seite, Flanke
   <item>(an jemand) herantreten, landen, entern</item>
 </list></item>
 
-<label lang="eo">flar&nbhyph;i</label><item>
+<label lang="eo" id="flari">flar&nbhyph;i</label><item>
 riechen, schnupfen, wittern
 (<emph>vgl.</emph>   
- <ref>odori</ref>);
+ <ref target="odori">odori</ref>);
 <list type="deriv">  
 
   <label lang="eo">antaŭ&mdash;i</label>
@@ -9830,7 +9830,7 @@ Junggeselle, unverheirateter Herr
   <item>Cölibat, Ehelosigkeit</item>
 </list></item>
 
-<label lang="eo">fraz&nbhyph;o</label><item>
+<label lang="eo" id="frazo">fraz&nbhyph;o</label><item>
 Phrase, Satz, Redensart;  
 <list type="deriv">
 
@@ -9842,7 +9842,7 @@ Phrase, Satz, Redensart;
 Fregatte</item>
 
 <label lang="eo">fremd&nbhyph;a</label><item>
-fremd, ausländisch (<emph>vgl.</emph> <ref>stranga</ref>);
+fremd, ausländisch (<emph>vgl.</emph> <ref target="stranga">stranga</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;ulo</label>
@@ -10504,7 +10504,7 @@ Geschlecht, Stamm, Sippe;
   <item>Stammesgenosse</item>
 </list></item>
 
-<label lang="eo">genu&nbhyph;o</label><item>
+<label lang="eo" id="genuo">genu&nbhyph;o</label><item>
 Knie;  
 <list type="deriv">
 
@@ -10514,7 +10514,7 @@ Knie;
   <label lang="eo">&nbhyph;flekso</label>
   <item>Kniebeuge</item>  
 
-  <label lang="eo">&nbhyph;osto</label>
+  <label lang="eo" id="genuosto">&nbhyph;osto</label>
   <item>Kniescheibe</item>
 </list></item>
 
@@ -10674,8 +10674,8 @@ Eichel</item>
 <label lang="eo">gland&nbhyph;o</label><item>
 Drüse</item>
 
-<label lang="eo">glas&nbhyph;o</label><item>
-Glas <emph>(Gefäß)</emph> (<emph>vgl.</emph> <ref>vitro</ref>)</item>
+<label lang="eo" id="glaso">glas&nbhyph;o</label><item>
+Glas <emph>(Gefäß)</emph> (<emph>vgl.</emph> <ref target="vitro">vitro</ref>)</item>
 
 <label lang="eo">glat&nbhyph;a</label><item>
 glatt;
@@ -10909,9 +10909,9 @@ Graphit</item>
 <label lang="eo">grafologi&nbhyph;o</label><item>
 Graphologie</item>
 
-<label lang="eo">grajn&nbhyph;o</label><item>
+<label lang="eo" id="grajno">grajn&nbhyph;o</label><item>
 Korn (<emph>vgl.</emph>   
- <ref>greno</ref>);
+ <ref target="greno">greno</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;a</label>
@@ -11078,9 +11078,9 @@ griechisch;
 <label lang="eo">grenad&nbhyph;o</label><item>
 Granate</item>
 
-<label lang="eo">gren&nbhyph;o</label><item>
+<label lang="eo" id="greno">gren&nbhyph;o</label><item>
 Getreide, Korn (<emph>vgl.</emph>   
- <ref>grajno</ref>);
+ <ref target="grajno">grajno</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;ejo</label>
@@ -11217,12 +11217,12 @@ Gutti, Gummigutt;
   <item>Gummiguttbaum</item>
 </list></item>
 
-<label lang="eo">gurd&nbhyph;o</label><item>
+<label lang="eo" id="gurdo">gurd&nbhyph;o</label><item>
 Leierkasten, Drehorgel;  
 <list type="deriv">
 
   <label lang="eo">&nbhyph;i</label>
-  <item>leiern (<emph>vgl.</emph>  <ref>orgeno</ref>)</item>
+  <item>leiern (<emph>vgl.</emph> <ref target="orgeno">orgeno</ref>)</item>
 </list></item>
 
 <label lang="eo">gust&nbhyph;o</label><item>
@@ -11283,9 +11283,9 @@ Garde, Truppenabteilung;
   <item>Nachhut</item>
 </list></item>
 
-<label lang="eo">gvid&nbhyph;i</label><item>
+<label lang="eo" id="gvidi">gvid&nbhyph;i</label><item>
 führen, leiten, lenken (<emph>vgl.</emph>   
- <ref>konduki</ref>);
+ <ref target="konduki">konduki</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;anto</label>
@@ -11340,7 +11340,7 @@ genieren, beengen, hemmen, lästig fallen;
  
 </list></item>
 
-<label lang="eo">ĝeneral&nbhyph;a</label><item>
+<label lang="eo" id="ĝenerala">ĝeneral&nbhyph;a</label><item>
 allgemein; <list type="deriv">
 
   <label lang="eo">&nbhyph;igi</label>
@@ -12088,7 +12088,7 @@ Hysterie;
   <item>Hysteriker</item>
 </list></item>
 
-<label lang="eo">histori&nbhyph;o</label><item>
+<label lang="eo" id="historio">histori&nbhyph;o</label><item>
 Geschichte;
 <list type="deriv">
 
@@ -12148,16 +12148,16 @@ holländisch;
 <label lang="eo">hold&nbhyph;o</label><item>
 Raum eines Schiffes</item>
 
-<label lang="eo">hom&nbhyph;o</label><item>
+<label lang="eo" id="homo">hom&nbhyph;o</label><item>
 Mensch;
 <list type="deriv">
 
   <label lang="eo">&nbhyph;aro</label>
   <item>Menschheit</item>
 
-  <label lang="eo">&nbhyph;a</label>
+  <label lang="eo" id="homa">&nbhyph;a</label>
   <item>menschlich, Mensch-
-(<emph>vgl.</emph>  <ref>humana</ref>)</item>
+(<emph>vgl.</emph> <ref target="humana">humana</ref>)</item>
 
   <label lang="eo">sen&mdash;a</label>
   <item>menschenleer, entvölkert</item>
@@ -12346,10 +12346,10 @@ Huf;
 <label lang="eo">hum&nbhyph;o</label><item>
 Humus</item>
 
-<label lang="eo">human&nbhyph;a</label><item>
+<label lang="eo" id="humana">human&nbhyph;a</label><item>
 human, menschlich
 (<emph>vgl.</emph>   
- <ref>homa</ref>);
+ <ref target="homa">homa</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;eco</label>
@@ -12386,10 +12386,10 @@ demütig, kleinlaut;
   <item>demütigen</item>
 </list></item>
 
-<label lang="eo">humor&nbhyph;o</label><item>
+<label lang="eo" id="humoro">humor&nbhyph;o</label><item>
 Humor, Laune
 (<emph>vgl.</emph>   
- <ref>kaprico</ref>);
+ <ref target="kaprico">kaprico</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;aĵo</label>
@@ -13910,7 +13910,7 @@ Jahr;
 <label lang="eo">jasmen&nbhyph;o</label><item>
 Jasmin</item>
 
-<label lang="eo">je</label><item>
+<label lang="eo" id="je">je</label><item>
 <emph>kann durch verschiedene Präpositionen (Verhältniswörter) übersetzt werden. 
 Durch welche, ergibt sich in jedem einzelnen Falle aus dem Zusammenhang.
 <hi>je</hi> kommt in Anwendung, wenn man im Zweifel ist, 
@@ -13959,10 +13959,10 @@ Jesuit</item>
 <label lang="eo">jod&nbhyph;o</label><item>
 Jod</item>
 
-<label lang="eo">ju .... des</label><item>
+<label lang="eo" id="ju">ju .... des</label><item>
 je ... desto;
   (<emph>vgl.</emph>   
- <ref>des</ref>)
+ <ref target="des">des</ref>)
 
 <list type="deriv"></list></item>
 
@@ -14042,7 +14042,7 @@ jucken</item>
 <label lang="eo">Juli&nbhyph;o</label><item>
 Juli</item>
 
-<label lang="eo">jun&nbhyph;a</label><item>
+<label lang="eo" id="juna">jun&nbhyph;a</label><item>
 jung, jugendlich;
   <list type="deriv">
 
@@ -14064,11 +14064,11 @@ jung, jugendlich;
   <label lang="eo">ne-</label>
   <item>nicht [mehr] jung</item>
   
-  <label lang="eo">mal&mdash;a</label>
-  <item>alt (<emph>vgl.</emph> <ref target="antikva">antikva</ref>, <ref>malnova</ref>)</item>
+  <label lang="eo" id="maljuna">mal&mdash;a</label>
+  <item>alt (<emph>vgl.</emph> <ref target="antikva">antikva</ref>, <ref target="malnova">malnova</ref>)</item>
   
   <label lang="eo">mal&mdash;eco</label>
-  <item>Alter <emph>(Zeit und Eigenschaft)</emph> (<emph>vgl.</emph> <ref target="agxo">aĝo</ref>)</item>
+  <item>Alter <emph>(Zeit und Eigenschaft)</emph> (<emph>vgl.</emph> <ref target="aĝo">aĝo</ref>)</item>
   
   <label lang="eo">mal-ulo</label>
   <item>Greis</item>
@@ -14186,7 +14186,7 @@ Jargon</item>
 <label lang="eo">ĵaŭd&nbhyph;o</label><item>
 Donnerstag</item>
 
-<label lang="eo">ĵet&nbhyph;i</label><item>
+<label lang="eo" id="ĵeti">ĵet&nbhyph;i</label><item>
 werfen, schleudern; 
   <list type="deriv">
 
@@ -14196,7 +14196,7 @@ werfen, schleudern;
   <label lang="eo">&nbhyph;aĵo</label>
   <item>Geschoß</item>
   
-  <label lang="eo">&nbhyph;kubo, &nbhyph;osto</label>
+  <label lang="eo" id="ĵetosto">&nbhyph;kubo, &nbhyph;osto</label>
   <item>Würfel</item>
   
   <label lang="eo">ek&mdash;i</label>
@@ -14452,7 +14452,7 @@ Kaliber</item>
 <label lang="eo">kalif&nbhyph;o</label><item>
 Kalif</item>
 
-<label lang="eo">kalik&nbhyph;o</label><item>
+<label lang="eo" id="kaliko">kalik&nbhyph;o</label><item>
 Kelch, Becher</item>
 
 <label lang="eo">kalikot&nbhyph;o</label><item>
@@ -14837,7 +14837,7 @@ Kapital;
 <label lang="eo">kapitan&nbhyph;o</label><item>
 Hauptmann, Kapitän
   (<emph>Offizier, vgl.</emph>   
- <ref>ŝipestro</ref>).
+ <ref target="ŝipestro">ŝipestro</ref>).
 <list type="deriv">
 </list></item>
 
@@ -14910,10 +14910,10 @@ Reh (<emph>Gattung</emph>);
   <item>Rehbock</item>
 </list></item>
 
-<label lang="eo">kapric&nbhyph;o</label><item>
+<label lang="eo" id="kaprico">kapric&nbhyph;o</label><item>
 Laune,
   (<emph>vgl.</emph>   
- <ref>humoro</ref>);
+ <ref target="humoro">humoro</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;a</label>
@@ -14934,7 +14934,7 @@ Spill</item>
 <label lang="eo">kapsul&nbhyph;o</label><item>
 Kapsel</item>
 
-<label lang="eo">kapt&nbhyph;i</label><item>
+<label lang="eo" id="kapti">kapt&nbhyph;i</label><item>
 fangen, fassen,
   greifen; 
   <list type="deriv">
@@ -14952,7 +14952,7 @@ fangen, fassen,
   <label lang="eo">&nbhyph;iteco</label>
   <item>Gefangenschaft</item>
   
-  <label lang="eo">milit&mdash;ito</label>
+  <label lang="eo" id="militkaptito">milit&mdash;ito</label>
   <item>Kriegsgefangener</item>
   
   <label lang="eo">&nbhyph;aĵo</label>
@@ -15092,7 +15092,7 @@ Karikatur;
 
 <label lang="eo">kariofil&nbhyph;o</label><item>
 [Gewürz-]Nelke,
-  Gewürznägelein (<emph>vgl.</emph>  <ref>dianto</ref>)</item>
+  Gewürznägelein (<emph>vgl.</emph> <ref target="dianto">dianto</ref>)</item>
 
 <label lang="eo">kariol&nbhyph;o</label><item>
 Karriole</item>
@@ -15103,10 +15103,10 @@ Karmesin</item>
 <label lang="eo">karmin&nbhyph;o</label><item>
 Karmin</item>
 
-<label lang="eo">karn&nbhyph;o</label><item>
+<label lang="eo" id="karno">karn&nbhyph;o</label><item>
 Fleisch (<emph>an einem
   Körper</emph>) (<emph>vgl.</emph>   
- <ref>viando</ref>);
+ <ref target="viando">viando</ref>);
 <list type="deriv">
   
   <label lang="eo">tibi&mdash;o</label>
@@ -15571,8 +15571,8 @@ welch, was für ein</item>
 <label lang="eo">kial</label><item>
 warum, weshalb</item>
 
-<label lang="eo">kiam</label><item>
-wann, als, wenn (<emph>vgl.</emph>  <ref>se</ref>);
+<label lang="eo" id="kiam">kiam</label><item>
+wann, als, wenn (<emph>vgl.</emph> <ref target="se">se</ref>);
 <list type="deriv"> 
   <label lang="eo">post &mdash;</label>
   <item>nachdem [daß]</item>
@@ -15843,7 +15843,7 @@ Kloake</item>
 <label lang="eo">klopod&nbhyph;i</label><item>
 sich bemühen, sich anstrengen, sich bestreben (<emph>um etwas zu erreichen</emph>), trachten (<emph>nach</emph>)
 (<emph>vgl.</emph>   
- <ref>peni</ref>);
+ <ref target="peni">peni</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Bestrebung, Bemühung, Anstrengung</item> 
@@ -15857,7 +15857,7 @@ Chlor</item>
 <label lang="eo">kloroz&nbhyph;o</label><item>
 Bleichsucht</item>
 
-<label lang="eo">kloŝ&nbhyph;o</label><item>
+<label lang="eo" id="kloŝo">kloŝ&nbhyph;o</label><item>
 Kappe, Glocke (<emph>z. B. über Käse, Uhren</emph>), Sturz</item>
 
 <label lang="eo">klub&nbhyph;o</label><item>
@@ -16172,7 +16172,7 @@ Kolonie;
 </list></item>
 
 <label lang="eo">kolor&nbhyph;o</label><item>
-Farbe (<emph>vgl.</emph> <ref>tinkturo</ref>)
+Farbe (<emph>vgl.</emph> <ref target="tinkturo">tinkturo</ref>)
 <list type="deriv">
   <label lang="eo">&nbhyph;i</label><item>
   färben, in bestimmter Farbe, in bestimmtem Lichte zeigen; 
@@ -16243,9 +16243,9 @@ Komma;
   Semikolon</item>
 </list></item>
 
-<label lang="eo">komand&nbhyph;i</label><item>
+<label lang="eo" id="komandi">komand&nbhyph;i</label><item>
 befehlen, befehligen, kommandieren (<emph>militärisch, auf Schiffen</emph>) (<emph>vgl.</emph>   
- <ref>ordoni</ref>);
+ <ref target="ordoni">ordoni</ref>);
 <list type="deriv"> 
 
   <label lang="eo">&nbhyph;o</label><item>
@@ -16317,12 +16317,12 @@ Komödie, Lustspiel;
   kommentieren</item>
 </list></item>
 
-<label lang="eo">komerc&nbhyph;i</label><item>
+<label lang="eo" id="komerci">komerc&nbhyph;i</label><item>
 handeln, Handel treiben (<emph>vgl.</emph>   
- <ref>negoci</ref>);
+ <ref target="negoci">negoci</ref>);
 <list type="deriv"> 
 
-  <label lang="eo">&nbhyph;o</label><item>
+  <label lang="eo" id="komerco">&nbhyph;o</label><item>
   Handel, Geschäft; 
   </item>
 
@@ -16537,7 +16537,7 @@ Komposition;
   komponieren;</item>
 
   <label lang="eo">&nbhyph;isto</label>
-  <item>Komponist (<emph>vgl.</emph>  <ref>muzikverkisto</ref>)</item>
+  <item>Komponist (<emph>vgl.</emph> <ref target="muzikverkisto">muzikverkisto</ref>)</item>
 </list></item>
 
 <label lang="eo">kompost&nbhyph;i</label><item>
@@ -16551,7 +16551,7 @@ setzen (<emph>im</emph> Buchdruck_);
 <label lang="eo">kompot&nbhyph;o</label><item>
 Kompott</item>
 
-<label lang="eo">kompren&nbhyph;i</label><item>
+<label lang="eo" id="kompreni">kompren&nbhyph;i</label><item>
 verstehen, begreifen, erfassen; 
 <list type="deriv">
 
@@ -16598,7 +16598,7 @@ Kompresse</item>
 Kompromiß</item>
 
 <label lang="eo">komun&nbhyph;a</label><item>
-gemein[sam], gemeinschaftlich, allgemein (<emph>vgl.</emph> <ref>ĝenerala</ref>);
+gemein[sam], gemeinschaftlich, allgemein (<emph>vgl.</emph> <ref target="ĝenerala">ĝenerala</ref>);
 <list type="deriv"> 
 
   <label lang="eo">&nbhyph;eco</label><item>
@@ -16635,7 +16635,7 @@ Kommunion, heiliges Abendmahl;
 
 <label lang="eo">komunik&nbhyph;i</label><item>
 verbinden, mitteilen, teilhaftig machen, anschließen (<emph>trans.</emph>) (<emph>vgl.</emph>   
- <ref>sciigi</ref>);
+ <ref target="sciigi">sciigi</ref>);
 <list type="deriv"> 
 
   <label lang="eo">&nbhyph;o</label><item>
@@ -16812,9 +16812,9 @@ kondolieren, Beileid bezeigen;
 <label lang="eo">kondor&nbhyph;o</label><item>
 Kondor</item>
 
-<label lang="eo">konduk&nbhyph;i</label><item>
+<label lang="eo" id="konduki">konduk&nbhyph;i</label><item>
 führen, leiten (<emph>vgl.</emph>   
- <ref>gvidi</ref>);
+ <ref target="gvidi">gvidi</ref>);
 <list type="deriv"> 
   <label lang="eo">al&mdash;i</label>
   <item>herbeiführen, zuführen</item> 
@@ -16872,9 +16872,9 @@ bekennen,[ein-, zu-] gestehen; <list type="deriv">
   <item>Beichtiger, Beichtvater</item>
 </list></item>
 
-<label lang="eo">konfid&nbhyph;i</label><item>
+<label lang="eo" id="konfidi">konfid&nbhyph;i</label><item>
 Vertrauen setzen (<emph>in</emph>), vertrauen, betrauen (<emph>mit</emph>) (<emph>vgl.</emph>   
- <ref>fidi</ref>);
+ <ref target="fidi">fidi</ref>);
 
 <list type="deriv"> 
   <label lang="eo">&nbhyph;ema</label>
@@ -16968,7 +16968,7 @@ Kognak</item>
 
 <label lang="eo">konjekt&nbhyph;i</label><item>
 mutmaßen, vermuten (<emph>vgl.</emph>   
- <ref>suspekti</ref>);
+ <ref target="suspekti">suspekti</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;ebla</label>
   <item>mutmaßlich</item>
@@ -17416,7 +17416,7 @@ bekehren, umstimmen; <list type="deriv">
   <item>sich überzeugen</item>
 </list></item>
 
-<label lang="eo">konvulsi&nbhyph;o</label><item>
+<label lang="eo" id="konvulsio">konvulsi&nbhyph;o</label><item>
 Zuckung, Krampf, Zucken (<emph>der Glieder</emph>), Konvulsion; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
@@ -17559,7 +17559,7 @@ Krähe</item>
 Körper, Leib; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
-  <item>körperlich, Körper-, leiblich, leibhaftig, Leibes- (<emph>vgl.</emph>  <ref>korpuso</ref>)</item> 
+  <item>körperlich, Körper-, leiblich, leibhaftig, Leibes- (<emph>vgl.</emph> <ref target="korpuso">korpuso</ref>)</item> 
   <label lang="eo">&nbhyph;igi</label>
   <item>verkörpern</item> 
   <label lang="eo">&nbhyph;iĝi</label>
@@ -17579,7 +17579,7 @@ Korporation, Zunft, Körperschaft; <list type="deriv">
   <item>Zünftler</item>
 </list></item>
 
-<label lang="eo">korpus&nbhyph;o</label><item>
+<label lang="eo" id="korpuso">korpus&nbhyph;o</label><item>
 Korps, (<emph>Heeres- etc.</emph>)Körper</item>
 
 <label lang="eo">kors&nbhyph;o</label><item>
@@ -17629,10 +17629,10 @@ Kosmologie, Welt[en]lehre</item>
 <label lang="eo">kosmopolit&nbhyph;o</label><item>
 Kosmopolit, Weltbürger</item>
 
-<label lang="eo">kost&nbhyph;i</label><item>
+<label lang="eo" id="kosti">kost&nbhyph;i</label><item>
 kosten; <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="kosto">&nbhyph;o</label>
   <item>Preis</item> 
   <label lang="eo">multe&mdash;a</label>
   <item>teuer, wertvoll, kostbar</item>
@@ -17700,7 +17700,7 @@ Krabbe</item>
 <label lang="eo">krabr&nbhyph;o</label><item>
 Hornisse</item>
 
-<label lang="eo">kraĉ&nbhyph;i</label><item>
+<label lang="eo" id="kraĉi">kraĉ&nbhyph;i</label><item>
 speien, spucken; <list type="deriv">
 
   <label lang="eo">&nbhyph;aĵo</label>
@@ -17986,7 +17986,7 @@ Kriterium</item>
 kritisieren; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
-  <item>kritisch, kritisierend (<emph>vgl.</emph>  <ref>kriza</ref>)</item> 
+  <item>kritisch, kritisierend (<emph>vgl.</emph> <ref target="kriza">kriza</ref>)</item> 
   <label lang="eo">&nbhyph;aĵi</label>
   <item>kritteln, mäkeln</item> 
   <label lang="eo">&nbhyph;o</label>
@@ -17995,10 +17995,10 @@ kritisieren; <list type="deriv">
   <item>Kritiker</item>
 </list></item>
 
-<label lang="eo">kriz&nbhyph;o</label><item>
+<label lang="eo" id="krizo">kriz&nbhyph;o</label><item>
 Krisis, Krise; <list type="deriv">
 
-  <label lang="eo">&nbhyph;a</label>
+  <label lang="eo" id="kriza">&nbhyph;a</label>
   <item>kritisch (<emph>eine Krise bezeichnend, bedenklich, mißlich</emph>)</item>
 </list></item>
 
@@ -18178,14 +18178,14 @@ Kubus, Würfel; <list type="deriv">
 <label lang="eo">kubut&nbhyph;o</label><item>
 Ell[en]bogen</item>
 
-<label lang="eo">kudr&nbhyph;i</label><item>
+<label lang="eo" id="kudri">kudr&nbhyph;i</label><item>
 nähen, heften; <list type="deriv">
 
   <label lang="eo">&nbhyph;ado</label>
   <item>Nähen, Heften</item> 
   <label lang="eo">&nbhyph;ejo</label>
   <item>Nähatelier, &nbhyph;raum</item> 
-  <label lang="eo">&nbhyph;ilo</label>
+  <label lang="eo" id="kudrilo">&nbhyph;ilo</label>
   <item>[Näh-]Nadel</item> 
   <label lang="eo">&nbhyph;istino</label>
   <item>Näherin</item> 
@@ -18218,10 +18218,10 @@ kochen; <list type="deriv">
   <item>Köchin</item>
 </list></item>
 
-<label lang="eo">kuk&nbhyph;o</label><item>
+<label lang="eo" id="kuko">kuk&nbhyph;o</label><item>
 Kuchen; <list type="deriv">
 
-  <label lang="eo">&nbhyph;aĵo</label>
+  <label lang="eo" id="kukaĵo">&nbhyph;aĵo</label>
   <item>feines Backwerk</item>
 </list></item>
 
@@ -18250,7 +18250,7 @@ Kulmination; <list type="deriv">
   <item>kulminieren</item>
 </list></item>
 
-<label lang="eo">kulp&nbhyph;a</label><item>
+<label lang="eo" id="kulpa">kulp&nbhyph;a</label><item>
 schuldig; <list type="deriv">
 
   <label lang="eo">&nbhyph;ulo</label>
@@ -18262,7 +18262,7 @@ schuldig; <list type="deriv">
   <item>Schuld</item> 
   <label lang="eo">sen&mdash;a</label>
   <item>schuldlos, unschuldig</item> 
-  <label lang="eo">&nbhyph;igi</label>
+  <label lang="eo" id="kulpigi">&nbhyph;igi</label>
   <item>beschuldigen, anklagen</item> 
   <label lang="eo">&nbhyph;igito</label>
   <item>Beschuldigter, Angeklagter</item> 
@@ -18397,13 +18397,13 @@ heilen, kurieren, (<emph>ärztlich</emph>) behandeln; <list type="deriv">
   <item>Arzt</item>
 </list></item>
 
-<label lang="eo">kuraĝ&nbhyph;a</label><item>
+<label lang="eo" id="kuraĝa">kuraĝ&nbhyph;a</label><item>
 mutig; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
   <item>Mut</item> 
-  <label lang="eo">&nbhyph;i</label>
-  <item>den Mut haben (<emph>etwas zu tun</emph>), wagen, sich erkühnen (<emph>vgl.</emph>  <ref>riski</ref>)</item> 
+  <label lang="eo" id="kuraĝi">&nbhyph;i</label>
+  <item>den Mut haben (<emph>etwas zu tun</emph>), wagen, sich erkühnen (<emph>vgl.</emph> <ref target="riski">riski</ref>)</item> 
   <label lang="eo">&nbhyph;igi</label>
   <item>ermutigen, Mut machen</item> 
   <label lang="eo">&nbhyph;iĝi</label>
@@ -18602,7 +18602,7 @@ Quantität, Menge, Quantum; <list type="deriv">
   <item>quantitativ</item>
 </list></item>
 
-<label lang="eo">kvar</label><item>
+<label lang="eo" id="kvar">kvar</label><item>
 vier; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
@@ -18650,7 +18650,7 @@ Eiche</item>
 <label lang="eo">kvestor&nbhyph;o</label><item>
 Quästor</item>
 
-<label lang="eo">kviet&nbhyph;a</label><item>
+<label lang="eo" id="kvieta">kviet&nbhyph;a</label><item>
 sanft, fromm (<emph>von Tieren</emph>), (im innersten) ruhig, gelassen; ; <list type="deriv">
 
   <label lang="eo">&nbhyph;eco</label>
@@ -18671,7 +18671,7 @@ sanft, fromm (<emph>von Tieren</emph>), (im innersten) ruhig, gelassen; ; <list 
   <item>sich er-, aufregen, sich gehen lassen</item>
 </list></item>
 
-<label lang="eo">kvin</label><item>
+<label lang="eo" id="kvin">kvin</label><item>
 fünf; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
@@ -18794,7 +18794,7 @@ müde, matt; <list type="deriv">
 <label lang="eo">lacert&nbhyph;o</label><item>
 Eidechse</item>
 
-<label lang="eo">laĉ&nbhyph;o</label><item>
+<label lang="eo" id="laĉo">laĉ&nbhyph;o</label><item>
 Schnur; <list type="deriv">
 
   <label lang="eo">&nbhyph;i</label>
@@ -19010,9 +19010,9 @@ Träne; <list type="deriv">
   <item>tränen</item>
 </list></item>
 
-<label lang="eo">larv&nbhyph;o</label><item>
+<label lang="eo" id="larvo">larv&nbhyph;o</label><item>
 Larve (<emph>vgl.</emph>   
- <ref>masko</ref>).
+ <ref target="masko">masko</ref>).
 <list type="deriv">
 </list></item>
 
@@ -19393,7 +19393,7 @@ frei; <list type="deriv">
   <label lang="eo">mal&mdash;eco</label>
   <item>Unfreiheit, Gefangenschaft</item> 
   <label lang="eo">mal&mdash;ulo</label>
-  <item>Unfreier, Gefangener (<emph>vgl.</emph>  <ref>militkaptito</ref>)</item>
+  <item>Unfreier, Gefangener (<emph>vgl.</emph> <ref target="militkaptito">militkaptito</ref>)</item>
 
   <label lang="eo">mal&mdash;ejo</label>
   <item>Gefängnis</item>
@@ -19941,7 +19941,7 @@ wiegen; <list type="deriv">
 leuchten (<emph>intrans.</emph>); <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
-  <item>Licht, Leuchten (<emph>vgl.</emph>  <ref>kandelo</ref>)</item> 
+  <item>Licht, Leuchten (<emph>vgl.</emph> <ref target="kandelo">kandelo</ref>)</item> 
   <label lang="eo">mal&mdash;o</label>
   <item>Dunkel, Finsternis</item> 
   <label lang="eo">&nbhyph;a</label>
@@ -20376,7 +20376,7 @@ essen, fressen (<emph>von Tieren</emph>); <list type="deriv">
 <label lang="eo">mani&nbhyph;o</label><item>
 Manie, übertriebene Vorliebe für etwas, Sucht</item>
 
-<label lang="eo">manier&nbhyph;o</label><item>
+<label lang="eo" id="maniero">manier&nbhyph;o</label><item>
 Manier, Art, Weise; <list type="deriv">
 
   <label lang="eo">tia&mdash;e</label>
@@ -20493,7 +20493,7 @@ Dienstag</item>
 <label lang="eo">margarin&nbhyph;o</label><item>
 Margarine</item>
 
-<label lang="eo">marĝen&nbhyph;o</label><item>
+<label lang="eo" id="marĝeno">marĝen&nbhyph;o</label><item>
 Rand (<emph>unbeschriebener, unbedruckter Streifen eines Buches, Heftes, etc.</emph>)</item>
 
 <label lang="eo">marin&nbhyph;i</label><item>
@@ -20587,9 +20587,9 @@ Massage; <list type="deriv">
 <label lang="eo">masiv&nbhyph;a</label><item>
 massiv</item>
 
-<label lang="eo">mask&nbhyph;o</label><item>
+<label lang="eo" id="masko">mask&nbhyph;o</label><item>
 Maske (<emph>vgl.</emph>   
- <ref>larvo</ref>);
+ <ref target="larvo">larvo</ref>);
 <list type="deriv"> 
   <label lang="eo">sen&mdash;igi</label>
   <item>demaskieren, entlarven, die Maske abnehmen</item> 
@@ -20675,7 +20675,7 @@ Mathematik; <list type="deriv">
 
 <label lang="eo">maten&nbhyph;o</label><item>
 Morgen (<emph>vgl.</emph>   
- <ref>morgaŭ</ref>).
+ <ref target="morgaŭ">morgaŭ</ref>).
 <list type="deriv">
 </list></item>
 
@@ -20686,7 +20686,7 @@ Materie; <list type="deriv">
   <item>materiell</item>
 </list></item>
 
-<label lang="eo">material&nbhyph;o</label><item>
+<label lang="eo" id="materialo">material&nbhyph;o</label><item>
 Material; <list type="deriv">
 
   <label lang="eo">&nbhyph;ismo</label>
@@ -20700,7 +20700,7 @@ Matratze</item>
 
 <label lang="eo">matric&nbhyph;o</label><item>
 Mater, Matrize (<emph>Gießerei</emph>) (<emph>vgl.</emph>   
- <ref>utero</ref>).
+ <ref target="utero">utero</ref>).
 <list type="deriv">
 </list></item>
 
@@ -20838,8 +20838,8 @@ Melone; <list type="deriv">
 <label lang="eo">meloplast&nbhyph;o</label><item>
 Meloplast</item>
 
-<label lang="eo">mem</label><item>
-selbst, selber (<emph>vgl.</emph>   <ref>eĉ</ref>,  <ref>sama</ref>)
+<label lang="eo" id="mem">mem</label><item>
+selbst, selber (<emph>vgl.</emph> <ref target="eĉ">eĉ</ref>, <ref target="sama">sama</ref>)
 <list type="deriv">
   <label lang="eo">&nbhyph;stara</label>
   <item>selbstständig</item> 
@@ -21250,7 +21250,7 @@ tausend; <list type="deriv">
   <label lang="eo">&nbhyph;o</label>
   <item>Tausend</item> 
   <label lang="eo">&nbhyph;jaro</label>
-  <item>Jahrtausend (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>)</item>
+  <item>Jahrtausend (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)</item>
 </list></item>
 
 <label lang="eo">mild&nbhyph;a</label><item>
@@ -21639,7 +21639,7 @@ Molluske</item>
 <label lang="eo">moment&nbhyph;o</label><item>
 Moment, Augenblick</item>
 
-<label lang="eo">mon&nbhyph;o</label><item>
+<label lang="eo" id="mono">mon&nbhyph;o</label><item>
 Geld; <list type="deriv">
 
   <label lang="eo">&nbhyph;a</label>
@@ -21654,7 +21654,7 @@ Geld; <list type="deriv">
   <item>Subskription</item> 
   <label lang="eo">&nbhyph;ero</label>
   <item>Geldstück, Münze</item> 
-  <label lang="eo">&nbhyph;ujo</label>
+  <label lang="eo" id="monujo">&nbhyph;ujo</label>
   <item>[Geld-]Börse, Portemonnaie</item> 
   <label lang="eo">&nbhyph;a puno</label>
   <item>Geldstrafe, Amende, Pön</item> 
@@ -21805,7 +21805,7 @@ beißen; <list type="deriv">
 <label lang="eo">morfin&nbhyph;o</label><item>
 Morphium, Morphin</item>
 
-<label lang="eo">morgaŭ</label><item>
+<label lang="eo" id="morgaŭ">morgaŭ</label><item>
 morgen; <list type="deriv">
 
   <label lang="eo">post-</label>
@@ -21972,7 +21972,7 @@ dumpfig</item>
 <label lang="eo">muf&nbhyph;o</label><item>
 Muffe</item>
 
-<label lang="eo">muĝ&nbhyph;i</label><item>
+<label lang="eo" id="muĝi">muĝ&nbhyph;i</label><item>
 brausen, sausen (<emph>vom Sturm und von den Wogen</emph>)</item>
 
 <label lang="eo">muk&nbhyph;o</label><item>
@@ -22099,7 +22099,7 @@ Muskel; <list type="deriv">
 <label lang="eo">muslin&nbhyph;o</label><item>
 Musselin, Nesseltuch</item>
 
-<label lang="eo">mustard&nbhyph;o</label><item>
+<label lang="eo" id="mustardo">mustard&nbhyph;o</label><item>
 Mostrich, Senf; <list type="deriv">
 
   <label lang="eo">&nbhyph;ujo</label>
@@ -22337,10 +22337,10 @@ Natur; <list type="deriv">
 Naturalismus (<emph>philos. und theolog.</emph>)</item>
 
 <label lang="eo">naŭ</label><item>
-neun (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>fünf</ref>)
+neun (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)
 </item>
 
-<label lang="eo">naŭz&nbhyph;i</label><item>
+<label lang="eo" id="naŭzi">naŭz&nbhyph;i</label><item>
 [an]ekeln, Uebelkeit, Ekel erregen, mit Widerwillen erfüllen; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -22349,7 +22349,7 @@ neun (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>fünf</ref>)
 
 <label lang="eo">nav&nbhyph;o</label><item>
 Schiff (<emph>in der Kirche</emph>), (<emph>vgl.</emph>   
- <ref>ŝipo</ref>).
+ <ref target="ŝipo">ŝipo</ref>).
 <list type="deriv">  
 </list></item>
 
@@ -22441,9 +22441,9 @@ Negligé</item>
 
 <label lang="eo">negoc&nbhyph;o</label><item>
 Geschäft (<emph>jegliches Unternehmen, dessen Endzweck ein Profit ist</emph>) 
-(<emph>vgl.</emph> <ref target="afero">afero</ref>, <ref>komerco</ref>)
+(<emph>vgl.</emph> <ref target="afero">afero</ref>, <ref target="komerco">komerco</ref>)
 <list type="deriv">
-  <label lang="eo">&nbhyph;i</label>
+  <label lang="eo" id="negoci">&nbhyph;i</label>
   <item>Geschäfte machen, betreiben</item>
 </list></item>
 
@@ -22687,7 +22687,7 @@ Sperber</item>
 
 <label lang="eo">&nbhyph;nj-</label><item>
 <emph>den 2 –5 ersten Buchstagben eines weiblichen Namens beigefügt, verwandelt diesen in einen Kosenamen, 
-(vgl. <ref target="cxj">&nbhyph;ĉj</ref>); z. B.:</emph>
+(vgl. <ref target="ĉj">&nbhyph;ĉj</ref>); z. B.:</emph>
 <list type="deriv">
   <label lang="eo">Greto</label>
   <item>Grete</item> 
@@ -22870,7 +22870,7 @@ notieren, anmerken, aufzeichnen; <list type="deriv">
 <label lang="eo">notari&nbhyph;o</label><item>
 Notar</item>
 
-<label lang="eo">nov&nbhyph;a</label><item>
+<label lang="eo" id="nova">nov&nbhyph;a</label><item>
 neu; <list type="deriv">
 
   <label lang="eo">&nbhyph;eco</label>
@@ -22895,10 +22895,10 @@ neu; <list type="deriv">
   <item>Erneuerer, Restaurateur (<emph>von Gemälden etc.</emph>)</item> 
   <label lang="eo">re&mdash;iĝi</label>
   <item>wieder neu werden, sich erneuern</item> 
-  <label lang="eo">mal&mdash;a</label>
-  <item>alt (<emph>vgl.</emph>   <ref target="antikva">antikva</ref>,  <ref>maljuna</ref>)</item> 
+  <label lang="eo" id="malnova">mal&mdash;a</label>
+  <item>alt (<emph>vgl.</emph>   <ref target="antikva">antikva</ref>, <ref target="maljuna">maljuna</ref>)</item> 
   <label lang="eo">mal&mdash;eco</label>
-  <item>Alter (<emph>vgl.</emph>  <ref>aĝo</ref>)</item> 
+  <item>Alter (<emph>vgl.</emph> <ref target="aĝo">aĝo</ref>)</item> 
   <label lang="eo">mal&mdash;aĵo</label>
   <item>Altes, Plunder, Trödel</item> 
   <label lang="eo">&nbhyph;latina</label>
@@ -22933,14 +22933,14 @@ Novize; <list type="deriv">
 nu! nun! nun wohl!
 </item>
 
-<label lang="eo">nuanc&nbhyph;o</label><item>
+<label lang="eo" id="nuanco">nuanc&nbhyph;o</label><item>
 Nuance, Schattierung
   [Farben-]Abstufung; <list type="deriv">
 
-  <label lang="eo">&nbhyph;i</label>
+  <label lang="eo" id="nuanci">&nbhyph;i</label>
   <item>nuancieren,
   (Farben) abstufen, schattieren
-  (<emph>vgl.</emph>  <ref>ombrumi</ref>)</item> 
+  (<emph>vgl.</emph> <ref target="ombrumi">ombrumi</ref>)</item> 
   <label lang="eo">&nbhyph;iĝi</label>
   <item>sich nuancieren,
   sich abstufen, sich schattieren</item>
@@ -23189,9 +23189,9 @@ Ozeanien, Australien</item>
 <label lang="eo">od&nbhyph;o</label><item>
 Ode</item>
 
-<label lang="eo">odor&nbhyph;i</label><item>
+<label lang="eo" id="odori">odor&nbhyph;i</label><item>
 riechen, duften (<emph>vgl.</emph>   
- <ref>flari</ref>);
+ <ref target="flari">flari</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Geruch, Duft</item> 
@@ -23211,7 +23211,7 @@ riechen, duften (<emph>vgl.</emph>
   <item>brenzlig (riechend)</item>
 </list></item>
 
-<label lang="eo">ofend&nbhyph;i</label><item>
+<label lang="eo" id="ofendi">ofend&nbhyph;i</label><item>
 beleidigen, kränken, verletzen; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -23300,10 +23300,10 @@ oft, häufig; <list type="deriv">
 Spitzbogen</item>
 
 <label lang="eo">ok</label><item>
-acht (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>)
+acht (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)
 </item>
 
-<label lang="eo">okaz&nbhyph;i</label><item>
+<label lang="eo" id="okazi">okaz&nbhyph;i</label><item>
 geschehen, sich ereignen, stattfinden, statthaben, sich zutragen; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -23455,9 +23455,9 @@ Olive; <list type="deriv">
 <label lang="eo">omar&nbhyph;o</label><item>
 Hummer</item>
 
-<label lang="eo">ombr&nbhyph;o</label><item>
+<label lang="eo" id="ombro">ombr&nbhyph;o</label><item>
 Schatten (<emph>vgl.</emph>   
- <ref>fantomo</ref>);
+ <ref target="fantomo">fantomo</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;a, &nbhyph;oplena</label>
   <item>schattig</item> 
@@ -23465,8 +23465,8 @@ Schatten (<emph>vgl.</emph>
   <item>(etwas) Schattiges, schattiges Laub</item> 
   <label lang="eo">&nbhyph;i</label>
   <item>schatten</item> 
-  <label lang="eo">&nbhyph;umi</label>
-  <item>schattieren (<emph>vgl.</emph>  <ref>nuancigi</ref>)</item>
+  <label lang="eo" id="ombrumi">&nbhyph;umi</label>
+  <item>schattieren (<emph>vgl.</emph> <ref target="nuanci">nuancigi</ref>)</item>
 </list></item>
 
 <label lang="eo">ombrel&nbhyph;o</label><item>
@@ -23709,12 +23709,12 @@ gewöhnlich; <list type="deriv">
   <item>un-, außergewöhnlich</item>
 </list></item>
 
-<label lang="eo">ordon&nbhyph;i</label><item>
+<label lang="eo" id="ordoni">ordon&nbhyph;i</label><item>
 befehlen, anordnen, gebieten, vorschreiben (<emph>vgl.</emph>   
- <ref>komandi</ref>);
+ <ref target="komandi">komandi</ref>);
 <list type="deriv">
   
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="ordono">&nbhyph;o</label>
   <item>Befehl, Ordre</item>
   
   <label lang="eo">&nbhyph;ema</label>
@@ -23766,9 +23766,9 @@ organisieren; <list type="deriv">
   <item>Reorganisation</item>
 </list></item>
 
-<label lang="eo">orgen&nbhyph;o</label><item>
+<label lang="eo" id="orgeno">orgen&nbhyph;o</label><item>
 Orgel (<emph>vgl.</emph>   
- <ref>gurdo</ref>);
+ <ref target="gurdo">gurdo</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;i</label>
@@ -23889,7 +23889,7 @@ gähnen; <list type="deriv">
 <label lang="eo">osmi&nbhyph;o</label><item>
 Osmium</item>
 
-<label lang="eo">ost&nbhyph;o</label><item>
+<label lang="eo" id="osto">ost&nbhyph;o</label><item>
 Knochen; <list type="deriv">
 
   <label lang="eo">&nbhyph;aro</label>
@@ -23901,7 +23901,7 @@ Knochen; <list type="deriv">
   <label lang="eo">&nbhyph;iĝi</label>
   <item>verknöchern, zu Knochen werden</item> 
   <label lang="eo">&nbhyph;iĝo</label>
-  <item>Knochenbildung, Verknöcherung (<emph>vgl.</emph> <ref>elefantosto</ref>,  <ref>fiŝosto</ref>,  <ref>genuosto</ref>,  <ref>ĵetosto</ref>,  <ref>ŝlosilosto</ref>,  <ref>ostocerbo</ref>)</item>
+  <item>Knochenbildung, Verknöcherung (<emph>vgl.</emph> <ref target="elefantosto">elefantosto</ref>, <ref target="fiŝosto">fiŝosto</ref>, <ref target="genuosto">genuosto</ref>, <ref target="ĵetosto">ĵetosto</ref>, <ref target="ŝlosilosto">ŝlosilosto</ref>, <ref target="ostocerbo">ostocerbo</ref>)</item>
 </list></item>
 
 <label lang="eo">ostr&nbhyph;o</label><item>
@@ -24082,7 +24082,7 @@ Schießen, feuern, Feuer geben;
   <item>Teilzahlung, Rate</item> 
   <label lang="eo">de&mdash;o</label>
   <item>Abgabe, Steuer</item> 
-  <label lang="eo">limde&mdash;o</label>
+  <label lang="eo" id="limdepago">limde&mdash;o</label>
   <item>Zoll</item> 
   <label lang="eo">antaŭ&mdash;ante</label>
   <item>pränumerando</item> 
@@ -24095,7 +24095,7 @@ Schießen, feuern, Feuer geben;
 <label lang="eo">pagod&nbhyph;o</label><item>
 Pagode</item>
 
-<label lang="eo">paĝ&nbhyph;o</label><item>
+<label lang="eo" id="paĝo">paĝ&nbhyph;o</label><item>
 (Schrift-, Druck-, Buch-)Seite; <list type="deriv">
 
   <label lang="eo">&nbhyph;opreparisto</label>
@@ -24536,11 +24536,11 @@ Parochie, Pfarre[i]; <list type="deriv">
 <label lang="eo">paroksism&nbhyph;o</label><item>
 Paroxismus</item>
 
-<label lang="eo">parol&nbhyph;i</label><item>
+<label lang="eo" id="paroli">parol&nbhyph;i</label><item>
 sprechen, reden; <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
-  <item>Wort (<emph>vgl.</emph>     <ref>vorto</ref>,  <ref>diro</ref>,  <ref>esprimo</ref>,  <ref>termino</ref>)</item> 
+  <label lang="eo" id="parolo">&nbhyph;o</label>
+  <item>Wort (<emph>vgl.</emph> <ref target="vorto">vorto</ref>, <ref target="diri">diro</ref>, <ref target="esprimo">esprimo</ref>, <ref target="termino">termino</ref>)</item> 
   <label lang="eo">&nbhyph;ado</label>
   <item>Rede, Vortrag</item> 
   <label lang="eo">&nbhyph;e</label>
@@ -24866,9 +24866,9 @@ Pavian</item>
 <label lang="eo">pavilon&nbhyph;o</label><item>
 Pavillon</item>
 
-<label lang="eo">pavim&nbhyph;o</label><item>
+<label lang="eo" id="pavimo">pavim&nbhyph;o</label><item>
 Pflaster (Straßen-) (<emph>vgl.</emph>   
- <ref>plastro</ref>);
+ <ref target="plastro">plastro</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;i</label>
   <item>pflastern</item> 
@@ -24964,7 +24964,7 @@ sündigen, sich versündigen; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">pekl&nbhyph;i</label><item>
+<label lang="eo" id="pekli">pekl&nbhyph;i</label><item>
 pökeln, einsalzen; <list type="deriv">
 
   <label lang="eo">&nbhyph;akvo</label>
@@ -24974,8 +24974,8 @@ pökeln, einsalzen; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">pel&nbhyph;i</label><item>
-jagen, treiben, (vor sich) hertreiben (<emph>vgl.</emph>   <ref>ĉasi</ref>,  <ref>puŝi</ref>)
+<label lang="eo" id="peli">pel&nbhyph;i</label><item>
+jagen, treiben, (vor sich) hertreiben (<emph>vgl.</emph> <ref target="ĉasi">ĉasi</ref>, <ref target="puŝi">puŝi</ref>)
 <list type="deriv">
   <label lang="eo">el&mdash;i</label>
   <item>austreiben, hinaus-, herausjagen</item> 
@@ -25012,7 +25012,7 @@ Pelz; <list type="deriv">
 <label lang="eo">pelv&nbhyph;o</label><item>
 Becken, Schale</item>
 
-<label lang="eo">pen&nbhyph;i</label><item>
+<label lang="eo" id="peni">pen&nbhyph;i</label><item>
 sich be-, abmühen, sich anstrenen, scih Mühe geben; 
 <list type="deriv">
   <label lang="eo">&nbhyph;o</label>
@@ -25329,7 +25329,7 @@ Perlmutter</item>
 
 <label lang="eo">permes&nbhyph;i</label><item>
 erlauben, gestatten (<emph>vgl.</emph>   
- <ref>ebligi</ref>);
+ <ref target="ebligi">ebligi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Erlaubnis</item> 
@@ -25432,9 +25432,9 @@ Perücke; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">pes&nbhyph;i</label><item>
+<label lang="eo" id="pesi">pes&nbhyph;i</label><item>
 [ab-]wägen, wiegen (<emph>trans.</emph>) (<emph>vgl.</emph>   
- <ref>pezi</ref>);
+ <ref target="pezi">pezi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;ilo</label>
   <item>Wage</item>
@@ -25503,9 +25503,9 @@ Neunauge</item>
 <label lang="eo">petrosel&nbhyph;o</label><item>
 Petersilie</item>
 
-<label lang="eo">pez&nbhyph;i</label><item>
+<label lang="eo" id="pezi">pez&nbhyph;i</label><item>
 wiegen, .... schwer sein (<emph>ein bestimmtes Gewicht haben</emph>) (<emph>vgl.</emph>   
- <ref>pesi</ref>);
+ <ref target="pesi">pesi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Gewicht (<emph>das ein Körper hat</emph>), Schwere</item> 
@@ -25526,12 +25526,12 @@ wiegen, .... schwer sein (<emph>ein bestimmtes Gewicht haben</emph>) (<emph>vgl.
   <item>Senkel</item> 
   <label lang="eo">streĉ&mdash;ilo</label>
   <item>Lot</item> 
-  <label lang="eo">a</label>
+  <label lang="eo" id="peza">&nbhyph;a</label>
   <item>schwer von Gewicht</item> 
   <label lang="eo">multe&mdash;a</label>
   <item>viel wiegend</item> 
   <label lang="eo">sen&mdash;a</label>
-  <item>leicht (<emph>vgl.</emph>   <ref>facila</ref>,  <ref>malfacila</ref>)</item> 
+  <item>leicht (<emph>vgl.</emph> <ref target="facila">facila</ref>, <ref target="malfacila">malfacila</ref>)</item> 
   <label lang="eo">&nbhyph;aĵa</label>
   <item>schwerfällig, plump</item> 
   <label lang="eo">sur&mdash;i</label>
@@ -25675,9 +25675,9 @@ pilgern, wallfahrten, ; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">pilk&nbhyph;o</label><item>
+<label lang="eo" id="pilko">pilk&nbhyph;o</label><item>
 (Spiel-)Ball (<emph>vgl.</emph>   
- <ref>balo</ref>),
+ <ref target="balo">balo</ref>),
 <list type="deriv"> 
   <label lang="eo">pied&mdash;o</label>
   <item>Fußball</item>
@@ -25719,7 +25719,7 @@ kneifen; <list type="deriv">
 
 <label lang="eo">pingl&nbhyph;o</label><item>
 [Steck-]Nadel (<emph>vgl.</emph>   
- <ref>kudrilo</ref>);
+ <ref target="kudrilo">kudrilo</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o por haroj</label>
   <item>Haarnadel</item>
@@ -25933,9 +25933,9 @@ Plastik; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">plastr&nbhyph;o</label><item>
+<label lang="eo" id="plastro">plastr&nbhyph;o</label><item>
 (<emph>chirurg., pharmaceut.</emph>) Pflaster (<emph>vgl.</emph>   
- <ref>pavimo</ref>).
+ <ref target="pavimo">pavimo</ref>).
 <list type="deriv">
 </list></item>
 
@@ -25943,7 +25943,7 @@ Plastik; <list type="deriv">
 flach, platt; <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
-  <item>Fläche, Ebene (<emph>mathemat.</emph>) (<emph>vgl.</emph>  <ref>ebeno</ref>)</item> 
+  <item>Fläche, Ebene (<emph>mathemat.</emph>) (<emph>vgl.</emph> <ref target="ebeno">ebeno</ref>)</item> 
   <label lang="eo">&nbhyph;aĵo</label>
   <item>Platte, Plattform</item> 
   <label lang="eo">&nbhyph;eco</label>
@@ -26064,7 +26064,7 @@ voll; <list type="deriv">
 
 <label lang="eo">plend&nbhyph;i</label><item>
 klagen, sich beklagen (<emph>vgl.</emph>   
- <ref>kulpigi</ref>);
+ <ref target="kulpigi">kulpigi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Klage</item> 
@@ -26097,8 +26097,8 @@ Vergnügen; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">pli</label><item>
-mehr (<emph>vgl.</emph> <ref>plu</ref>). <emph>Durch  Vorstellung von <hi>pli</hi>
+<label lang="eo" id="pli">pli</label><item>
+mehr (<emph>vgl.</emph> <ref target="plu">plu</ref>). <emph>Durch  Vorstellung von <hi>pli</hi>
 vor den Positiv wird der Komparativ der Eigenschafts- und Umstandswörter gebildet, z. B.:</emph>
 
 <list type="deriv">
@@ -26155,7 +26155,7 @@ Weichselzopf</item>
 Plombe (<emph>Zahnheilkunde</emph>); <list type="deriv">
 
   <label lang="eo">&nbhyph;i</label>
-  <item>plombieren (<emph>vgl.</emph>  <ref>plumbi</ref>)</item>
+  <item>plombieren (<emph>vgl.</emph> <ref target="plumbi">plumbi</ref>)</item>
 
 </list></item>
 
@@ -26172,8 +26172,8 @@ weinen; <list type="deriv">
 <label lang="eo">plot&nbhyph;o</label><item>
 Plötze, Rotauge, Schwall</item>
 
-<label lang="eo">plu</label><item>
-mehr, weiter, ferner, fürder, (<emph>vgl.</emph> <ref>pli</ref>);
+<label lang="eo" id="plu">plu</label><item>
+mehr, weiter, ferner, fürder, (<emph>vgl.</emph> <ref target="pli">pli</ref>);
 <emph>z. B.:</emph> 
 <list type="deriv">
   <label lang="eo">li ne povas diri vorton plu</label>
@@ -26208,8 +26208,8 @@ pflügen; <list type="deriv">
 
 </list></item>
 
-<label lang="eo">plum&nbhyph;o</label><item>
-Feder (der Vögel und Schreib-) (<emph>vgl.</emph> <ref>risorto</ref>)
+<label lang="eo" id="plumo">plum&nbhyph;o</label><item>
+Feder (der Vögel und Schreib-) (<emph>vgl.</emph> <ref target="risorto">risorto</ref>)
 
 <list type="deriv">
   <label lang="eo">&nbhyph;aro</label>
@@ -26229,10 +26229,10 @@ Feder (der Vögel und Schreib-) (<emph>vgl.</emph> <ref>risorto</ref>)
 
 </list></item>
 
-<label lang="eo">plumb&nbhyph;o</label><item>
+<label lang="eo" id="plumbo">plumb&nbhyph;o</label><item>
 Blei; <list type="deriv">
 
-  <label lang="eo">&nbhyph;i</label>
+  <label lang="eo" id="plumbi">&nbhyph;i</label>
   <item>plombieren, Bleisiegel an etwas hängen</item>  
 
   <label lang="eo">&nbhyph;aĵo</label>
@@ -26323,7 +26323,7 @@ Poesie, Dichtkunst</item>
 
 <label lang="eo">pokal&nbhyph;o</label><item>
 Pokal, Becher (<emph>vgl.</emph>   
- <ref>kaliko</ref>).
+ <ref target="kaliko">kaliko</ref>).
 <list type="deriv">
 
 </list></item>
@@ -27029,15 +27029,15 @@ vorziehen, den Vorzug geben;
 <label lang="eo">prefiks&nbhyph;o</label><item>
 Präfix</item>
 
-<label lang="eo">preĝ&nbhyph;i</label><item>
+<label lang="eo" id="preĝi">preĝ&nbhyph;i</label><item>
 beten;  
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
   <item>Gebet</item>  
 
-  <label lang="eo">&nbhyph;ejo</label>
-  <item>Kirche (<emph>vgl.</emph>  <ref>eklezio</ref>)</item>  
+  <label lang="eo" id="preĝejo">&nbhyph;ejo</label>
+  <item>Kirche (<emph>vgl.</emph> <ref target="eklezio">eklezio</ref>)</item>  
 
   <label lang="eo">&nbhyph;ejeto</label>
   <item>Kirchlein, Betthaus</item>  
@@ -27062,12 +27062,12 @@ Prälat</item>
 <label lang="eo">prelud&nbhyph;o</label><item>
 Präludium</item>
 
-<label lang="eo">prem&nbhyph;i</label><item>
+<label lang="eo" id="premi">prem&nbhyph;i</label><item>
 drücken, pressen;  
 <list type="deriv">
 
   <label lang="eo">&mdash;o</label>
-  <item>Druck, Pressen, Drücken (<emph>vgl.</emph>  <ref>presi</ref>)</item>
+  <item>Druck, Pressen, Drücken (<emph>vgl.</emph> <ref target="presi">presi</ref>)</item>
 
   <label lang="eo">&nbhyph;egi</label>
   <item>(stark) pressen, (schwer) bedrücken, lasten (auf)</item> 
@@ -27104,7 +27104,7 @@ drücken, pressen;
 
 </list></item>
 
-<label lang="eo">premi&nbhyph;o</label><item>
+<label lang="eo" id="premio">premi&nbhyph;o</label><item>
 Prämie, Preis;  
 <list type="deriv">
 
@@ -27117,7 +27117,7 @@ Prämie, Preis;
 Prämisse</item>
 
 <label lang="eo">pren&nbhyph;i</label><item>
-nehmen (<emph>vgl.</emph>     <ref>kapti</ref>,  <ref>ŝteli</ref>,  <ref>uzurpi</ref>,  <ref>kompreni</ref>)
+nehmen (<emph>vgl.</emph> <ref target="kapti">kapti</ref>, <ref target="ŝteli">ŝteli</ref>, <ref target="uzurpi">uzurpi</ref>, <ref target="kompreni">kompreni</ref>)
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -27188,9 +27188,9 @@ Vorhaut, Praeputium</item>
 <label lang="eo">prerogativ&nbhyph;o</label><item>
 Prerogative, Vorrecht</item>
 
-<label lang="eo">pres&nbhyph;i</label><item>
+<label lang="eo" id="presi">pres&nbhyph;i</label><item>
 drucken, prägen (<emph>vgl.</emph>   
- <ref>premi</ref>);
+ <ref target="premi">premi</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o, &nbhyph;ado</label>
@@ -27308,7 +27308,7 @@ vorbei, vorüber, über .... hinaus;
 Präteritum</item>
 
 <label lang="eo">prez&nbhyph;o</label><item>
-[Kosten-]Preis (<emph>vgl.</emph>   <ref>kosto</ref>,  <ref>premio</ref>)
+[Kosten-]Preis (<emph>vgl.</emph> <ref target="kosto">kosto</ref>, <ref target="premio">premio</ref>)
 <list type="deriv">
 
   <label lang="eo">&nbhyph;aro, &nbhyph;tabelo</label>
@@ -27382,7 +27382,7 @@ von, über, betreffend;
 
 </list></item>
 
-<label lang="eo">prim&nbhyph;o</label><item>
+<label lang="eo" id="primo">prim&nbhyph;o</label><item>
 Prime</item>
 
 <label lang="eo">primadon&nbhyph;o</label><item>
@@ -27504,7 +27504,7 @@ verfahren, vorgehen, &nbhyph;schreiten; <list type="deriv">
 <label lang="eo">procedur&nbhyph;o</label><item>
 Prozedur</item>
 
-<label lang="eo">procent&nbhyph;o</label><item>
+<label lang="eo" id="procento">procent&nbhyph;o</label><item>
 Prozent;  
 <list type="deriv">
 
@@ -27891,7 +27891,7 @@ Proportion, Verhältnis;
 </list></item>
 
 <label lang="eo">propozici&nbhyph;o</label><item>
-Satz[gefüge] (<emph>vgl.</emph>   <ref>frazo</ref>,  <ref>tezo</ref>)
+Satz[gefüge] (<emph>vgl.</emph> <ref target="frazo">frazo</ref>, <ref target="tezo">tezo</ref>)
 </item>
 
 
@@ -27928,7 +27928,7 @@ Proskription, Ächtung;
 <label lang="eo">prospekt&nbhyph;o</label><item>
 Prospekt</item>
 
-<label lang="eo">prosper&nbhyph;i</label><item>
+<label lang="eo" id="prosperi">prosper&nbhyph;i</label><item>
 glücken, gelingen, prosperieren (<list type="deriv">
 
   <label lang="eo">prosperis al li forkuri</label>
@@ -28009,8 +28009,8 @@ Prototyp, Urbild</item>
 <label lang="eo">protuberanc&nbhyph;o</label><item>
 Protuberanz</item>
 
-<label lang="eo">prov&nbhyph;i</label><item>
-versuchen, probieren, prüfen (<emph>vgl.</emph> <ref>tenti</ref>, <ref>ekzameni</ref>)
+<label lang="eo" id="provi">prov&nbhyph;i</label><item>
+versuchen, probieren, prüfen (<emph>vgl.</emph> <ref target="tenti">tenti</ref>, <ref target="ekzameni">ekzameni</ref>)
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -28111,8 +28111,8 @@ Prosodie</item>
 <label lang="eo">prud&nbhyph;a</label><item>
 übertrieben sittsam, zimperlich, prüde</item>
 
-<label lang="eo">prudent&nbhyph;a</label><item>
-verständig, vernünftig (<emph>vgl.</emph>  <ref>saĝa</ref>);
+<label lang="eo" id="prudenta">prudent&nbhyph;a</label><item>
+verständig, vernünftig (<emph>vgl.</emph> <ref target="saĝa">saĝa</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -28477,9 +28477,9 @@ Eiter; <list type="deriv">
 <label lang="eo">pustul&nbhyph;o</label><item>
 Pustel</item>
 
-<label lang="eo">puŝ&nbhyph;i</label><item>
+<label lang="eo" id="puŝi">puŝ&nbhyph;i</label><item>
 stoßen, treiben (<emph>vgl.</emph>   
- <ref>peli</ref>);
+ <ref target="peli">peli</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Stoß</item> 
@@ -28761,7 +28761,7 @@ erzählen;
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
-  <item>Erzählung, Geschichte (<emph>vgl.</emph>  <ref>historio</ref>)</item>  
+  <item>Erzählung, Geschichte (<emph>vgl.</emph> <ref target="historio">historio</ref>)</item>  
 
   <label lang="eo">mir&mdash;o</label>
   <item>Wundererzählung</item>
@@ -28801,7 +28801,7 @@ ranzig; <list type="deriv">
 
 <label lang="eo">rand&nbhyph;o</label><item>
 Rand, Kante, Saum (<emph>vgl.</emph>   
- <ref>marĝeno</ref>);
+ <ref target="marĝeno">marĝeno</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;a</label>
   <item>kantig</item> 
@@ -28813,7 +28813,7 @@ Rand, Kante, Saum (<emph>vgl.</emph>
 
 <label lang="eo">rang&nbhyph;o</label><item>
 Rang, Grad, Stand (<emph>Ehren-, Rangstufe, Amtsstellung</emph>) (<emph>vgl.</emph>   
- <ref>vico</ref>);
+ <ref target="vico">vico</ref>);
 <list type="deriv"> 
   <label lang="eo"><term>alt&mdash;a</term> oder <term>grand&mdash;a</term></label>
   <item>hochgestellt, von hohem Rang, von Rang und Würden</item>
@@ -29145,7 +29145,7 @@ reflektieren;
   <label lang="eo">&nbhyph;o</label>
   <item>Reflexion</item> 
   <label lang="eo">&nbhyph;a</label>
-  <item>reflexiv (<emph>vgl.</emph>  <ref>resenda</ref>)</item>
+  <item>reflexiv (<emph>vgl.</emph> <ref target="resenda">resenda</ref>)</item>
 
 </list></item>
 
@@ -29524,7 +29524,7 @@ Renaissance</item>
 
 <label lang="eo">renkont&nbhyph;i</label><item>
 begegnen, [an]treffen (<emph>vgl.</emph>   
- <ref>okazi</ref>);
+ <ref target="okazi">okazi</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -29581,8 +29581,8 @@ Reskript, Verfügung;
 
 </list></item>
 
-<label lang="eo">respekt&nbhyph;i</label><item>
-respektieren, Achtung erweisen (<emph>vgl.</emph>   <ref>estimi</ref>,  <ref>ŝati</ref>);
+<label lang="eo" id="respekti">respekt&nbhyph;i</label><item>
+respektieren, Achtung erweisen (<emph>vgl.</emph> <ref target="estimi">estimi</ref>, <ref target="ŝati">ŝati</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -29724,7 +29724,7 @@ Rheumatismus; <list type="deriv">
 <label lang="eo">rev&nbhyph;i</label><item>
 träumen, schwärmen  
   (<emph>vgl.</emph>   
- <ref>sonĝi</ref>);
+ <ref target="sonĝi">sonĝi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;o</label>
   <item>Traum</item>  
@@ -30153,9 +30153,9 @@ vorwerfen, Vorwürfe machen;
   <item>Vorwurf</item>  
 </list></item>
 
-<label lang="eo">risk&nbhyph;i</label><item>
+<label lang="eo" id="riski">risk&nbhyph;i</label><item>
 wagen, riskieren (<emph>vgl.</emph>   
- <ref>kuraĝi</ref>);
+ <ref target="kuraĝi">kuraĝi</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;o</label>
@@ -30171,9 +30171,9 @@ wagen, riskieren (<emph>vgl.</emph>
 <label lang="eo">rism&nbhyph;o</label><item>
 Ries (<emph>Papier</emph>)</item>
 
-<label lang="eo">risort&nbhyph;o</label><item>
+<label lang="eo" id="risorto">risort&nbhyph;o</label><item>
 [Trieb-]Feder (<emph>vgl.</emph>   
- <ref>plumo</ref>).
+ <ref target="plumo">plumo</ref>).
 <list type="deriv">  
 </list></item>
 
@@ -30312,7 +30312,7 @@ brechen (<emph>trans.</emph>);
   <item>Eisgang</item>  
 </list></item>
 
-<label lang="eo">rond&nbhyph;o</label><item>
+<label lang="eo" id="rondo">rond&nbhyph;o</label><item>
 Runde, Kreis;  
   <list type="deriv">
 
@@ -30692,9 +30692,9 @@ spitzfindig;
 <label lang="eo">sagu&nbhyph;o</label><item>
 Sago</item>
 
-<label lang="eo">saĝ&nbhyph;a</label><item>
+<label lang="eo" id="saĝa">saĝ&nbhyph;a</label><item>
 klug, weise (<emph>vgl.</emph>   
- <ref>prudenta</ref>);
+ <ref target="prudenta">prudenta</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;o</label>
@@ -30784,7 +30784,7 @@ Salz;
   <item>salzig, salzen</item>  
   
   <label lang="eo">&nbhyph;i</label>
-  <item>salzen (<emph>vgl.</emph>  <ref>pekli</ref>)</item>  
+  <item>salzen (<emph>vgl.</emph> <ref target="pekli">pekli</ref>)</item>  
   
   <label lang="eo">tro&mdash;i</label>
   <item>versalzen</item>  
@@ -30890,8 +30890,8 @@ Salve</item>
 <label lang="eo">salvi&nbhyph;o</label><item>
 Salbei</item>
 
-<label lang="eo">sam&nbhyph;a</label><item>
-selber, gleicher, &nbhyph;e, &nbhyph;es (<emph>vgl.</emph>   <ref>eĉ</ref>,  <ref>mem</ref>);
+<label lang="eo" id="sama">sam&nbhyph;a</label><item>
+selber, gleicher, &nbhyph;e, &nbhyph;es (<emph>vgl.</emph> <ref target="eĉ">eĉ</ref>, <ref target="mem">mem</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;nome</label>
@@ -31242,7 +31242,7 @@ Szene;
 <label lang="eo">sceptr&nbhyph;o</label><item>
 Scepter</item>
 
-<label lang="eo">sci&nbhyph;i</label><item>
+<label lang="eo" id="scii">sci&nbhyph;i</label><item>
 wissen;  
   <list type="deriv">
 
@@ -31258,7 +31258,7 @@ wissen;
   <label lang="eo">&nbhyph;inda</label>
   <item>wissenswert</item>  
   
-  <label lang="eo">&nbhyph;igi</label>
+  <label lang="eo" id="sciigi">&nbhyph;igi</label>
   <item>(jemand etwas) wissen lassen, kund tun, benachrichtigen, mitteilen</item>  
   
   <label lang="eo">&nbhyph;igo</label>
@@ -31285,9 +31285,9 @@ Wissenschaft;
 <label lang="eo">sciur&nbhyph;o</label><item>
 Eichhörnchen</item>
 
-<label lang="eo">se</label><item>
+<label lang="eo" id="se">se</label><item>
 wenn (bedingend) (<emph>vgl.</emph>   
- <ref>kiam</ref>).
+ <ref target="kiam">kiam</ref>).
 <list type="deriv">  
 </list></item>
 
@@ -31603,8 +31603,8 @@ Senat;
 
 </list></item>
 
-<label lang="eo">senc&nbhyph;o</label><item>
-Sinn, Verstand (<emph>vgl.</emph>   <ref>signifo</ref>,  <ref>sento</ref>);
+<label lang="eo" id="senco">senc&nbhyph;o</label><item>
+Sinn, Verstand (<emph>vgl.</emph> <ref target="signifo">signifo</ref>, <ref target="sento">sento</ref>);
 <list type="deriv">
   
   <label lang="eo">sen&mdash;a</label>
@@ -31620,7 +31620,7 @@ Sinn, Verstand (<emph>vgl.</emph>   <ref>signifo</ref>,  <ref>sento</ref>);
   <item>doppelsinnig</item>  
 </list></item>
 
-<label lang="eo">send&nbhyph;i</label><item>
+<label lang="eo" id="sendi">send&nbhyph;i</label><item>
 senden, schicken;  
   <list type="deriv">
 
@@ -31651,7 +31651,7 @@ senden, schicken;
   <label lang="eo">re&mdash;i</label>
   <item>zurücksenden, retournieren</item>  
   
-  <label lang="eo">re&mdash;a</label>
+  <label lang="eo" id="resenda">re&mdash;a</label>
   <item>reflexiv</item>  
 </list></item>
 
@@ -31663,13 +31663,13 @@ Sensation;
   <item>sensationell</item>  
 </list></item>
 
-<label lang="eo">sent&nbhyph;i</label><item>
+<label lang="eo" id="senti">sent&nbhyph;i</label><item>
 fühlen, empfinden;  
   <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="sento">&nbhyph;o</label>
   <item>Sinn (<term>la kvin -oj</term>, die fünf Sinne) 
-  (<emph>vgl.</emph> <ref>senco</ref>)</item>  
+  (<emph>vgl.</emph> <ref target="senco">senco</ref>)</item>  
   
   <label lang="eo">&mdash;ado</label>
   <item>Fühlen, Empfinden</item>  
@@ -31720,7 +31720,7 @@ sentimental;
 </list></item>
 
 <label lang="eo">sep</label><item>
-sieben (<emph>vgl.</emph>  _  <ref>kvar</ref>,  <ref>kvin</ref>)</item>  
+sieben (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>)</item>  
 
 
 <label lang="eo">sepi&nbhyph;o</label><item>
@@ -31869,7 +31869,7 @@ frönen;
 </list></item>
 
 <label lang="eo">ses</label><item>
-sechs (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>);
+sechs (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>);
 <list type="deriv"> 
   
   <label lang="eo">&nbhyph;deko</label>
@@ -31929,7 +31929,7 @@ Sibirien</item>
 
 <label lang="eo">sibl&nbhyph;i</label><item>
 zischen (<emph>vgl.</emph>   
- <ref>muĝi</ref>).
+ <ref target="muĝi">muĝi</ref>).
 <list type="deriv">  
 </list></item>
 
@@ -32052,11 +32052,11 @@ Signal;
   <item>Reveille</item>  
 </list></item>
 
-<label lang="eo">signif&nbhyph;i</label><item>
+<label lang="eo" id="signifi">signif&nbhyph;i</label><item>
 bezeichnen, bedeuten;  
   <list type="deriv">
 
-  <label lang="eo">&nbhyph;o</label>
+  <label lang="eo" id="signifo">&nbhyph;o</label>
   <item>Bezeichnung, Bedeutung</item>  
   
   <label lang="eo">&nbhyph;a</label>
@@ -32218,7 +32218,7 @@ Synagoge</item>
 
 <label lang="eo">sinap&nbhyph;o</label><item>
 Senf(pflanze) (<emph>vgl.</emph>   
- <ref>mustardo</ref>).
+ <ref target="mustardo">mustardo</ref>).
 <list type="deriv">  
 </list></item>
 
@@ -32579,7 +32579,7 @@ schreiben;
   <item>schriftlich</item>  
   
   <label lang="eo">&nbhyph;isto</label>
-  <item>Schreiber (<emph>von Beruf</emph>) (<emph>vgl.</emph>   <ref target="auxtoro">aŭtoro</ref>,  <ref>verkisto</ref>)</item>  
+  <item>Schreiber (<emph>von Beruf</emph>) (<emph>vgl.</emph>   <ref target="aŭtoro">aŭtoro</ref>, <ref target="verkisto">verkisto</ref>)</item>  
   
   <label lang="eo">&nbhyph;ilaro</label>
   <item>Schreibzeug</item>  
@@ -32687,7 +32687,7 @@ Schoner</item>
 
 <label lang="eo">skurĝ&nbhyph;o</label><item>
 Geißel, Peitsche (<emph>vgl.</emph>   
- <ref>vipo</ref>);
+ <ref target="vipo">vipo</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;i</label>
@@ -32930,9 +32930,9 @@ Somnambule;
   <item>Somnambulismus</item>  
 </list></item>
 
-<label lang="eo">son&nbhyph;i</label><item>
+<label lang="eo" id="soni">son&nbhyph;i</label><item>
 Tönen, laut klingen, einen Ton; Klang, Laut, Schall von sich geben (<emph>vgl.</emph>   
- <ref>sonori</ref>);
+ <ref target="sonori">sonori</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;igi</label>
@@ -32999,13 +32999,19 @@ sondieren, mit der Sonde, dem Sucheisen, dem Senkblei etc. untersuchen, loten;
 <label lang="eo">sonet&nbhyph;o</label><item>
 Sonett</item>
 
-<label lang="eo">sonor&nbhyph;i</label><item>
+<label lang="eo" id="sonĝo">sonĝ&nbhyph;o</label><item>
+Traum; <list type="deriv">
+  <label lang="eo" id="sonĝi">&nbhyph;i</label>
+  <item>träumen</item>
+</list></item> 
+
+<label lang="eo" id="sonori">sonor&nbhyph;i</label><item>
 stönen, schallen, hallen, klingen, läuten (<emph>intrans.</emph>) (<emph>vgl.</emph>   
- <ref>soni</ref>);
+ <ref target="soni">soni</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;ilo</label>
-  <item>Glocke (<emph>vgl.</emph>  <ref>kloŝo</ref>)</item>
+  <item>Glocke (<emph>vgl.</emph> <ref target="kloŝo">kloŝo</ref>)</item>
 
   <label lang="eo">&nbhyph;ileto</label>
   <item>Glöckchen, &nbhyph;lein, Klingel</item> 
@@ -33125,7 +33131,7 @@ wild;
 </list></item>
 
 <label lang="eo">spac&nbhyph;o</label><item>
-Raum (n<emph>ur lokal, nicht temporal</emph>) (<emph>vgl.</emph>   <ref>daŭro</ref>,  <ref>tempo</ref>);
+Raum (n<emph>ur lokal, nicht temporal</emph>) (<emph>vgl.</emph> <ref target="daŭri">daŭro</ref>, <ref target="tempo">tempo</ref>);
 <list type="deriv">
   
   <label lang="eo">inter&mdash;o</label>
@@ -33144,8 +33150,8 @@ Degen</item>
 <label lang="eo">spalir&nbhyph;o</label><item>
 Spalier</item>
 
-<label lang="eo">spasm&nbhyph;o</label><item>
-Krampf, Spasmus (<emph>vgl.</emph>   <ref>konvulsio</ref>,  <ref>tetano</ref>)
+<label lang="eo" id="spasmo">spasm&nbhyph;o</label><item>
+Krampf, Spasmus (<emph>vgl.</emph> <ref target="konvulsio">konvulsio</ref>, <ref target="tetano">tetano</ref>)
 </item>
 
 <label lang="eo">spat&nbhyph;o</label><item>
@@ -33438,7 +33444,7 @@ Sprott</item>
 
 <label lang="eo">sput&nbhyph;i</label><item>
 [aus]spein, auswerfen, spucken (<emph>Blut, Schleim etc.</emph>)  
-  (<emph>vgl.</emph>   <ref>kraĉi</ref>,  <ref>vomi</ref>);
+  (<emph>vgl.</emph> <ref target="kraĉi">kraĉi</ref>, <ref target="vomi">vomi</ref>);
 <list type="deriv">
   
   <label lang="eo">sang&mdash;o</label>
@@ -33734,7 +33740,7 @@ schielen;
   <item>Schielender</item>
 </list></item>
 
-<label lang="eo">strang&nbhyph;a</label><item>
+<label lang="eo" id="stranga">strang&nbhyph;a</label><item>
 sonderbar, seltsam, fremdartig, befremdend, kurios, bizarr, wunderlich;  
   <list type="deriv">
 
@@ -34078,7 +34084,7 @@ Süden;
 
 <label lang="eo">sufer&nbhyph;i</label><item>
 [er]leiden, dulden (<emph>vgl.</emph>   
- <ref>toleri</ref>);
+ <ref target="toleri">toleri</ref>);
 <list type="deriv">  
     
   <label lang="eo">&nbhyph;o, &nbhyph;ado</label>
@@ -34172,7 +34178,7 @@ Bernstein</item>
 
 <label lang="eo">sukces&nbhyph;i</label><item>
 Erfolg haben (<emph>vgl.</emph>   
- <ref>prosperi</ref>);
+ <ref target="prosperi">prosperi</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;o</label>
@@ -34464,7 +34470,7 @@ Chorhemd</item>
 <label lang="eo">surtut&nbhyph;o</label><item>
 [Über-]Rock</item>
 
-<label lang="eo">suspekt&nbhyph;i</label><item>
+<label lang="eo" id="suspekti">suspekt&nbhyph;i</label><item>
 verdächtigen, argwöhnen, Verdacht haben, hegen;  
   <list type="deriv">
 
@@ -34754,9 +34760,9 @@ laden (<emph>Schießwaffen</emph>);
 <label lang="eo">ŝark&nbhyph;o</label><item>
 Hai[fisch]</item>
 
-<label lang="eo">ŝat&nbhyph;i</label><item>
+<label lang="eo" id="ŝati">ŝat&nbhyph;i</label><item>
 viel halten (von einer Sache), einer Sache hohen Wert beimessen, 
-hoch achten, schätzen, große Stücke halten auf, von (<emph>vgl.</emph>    <ref>estimi</ref>,  <ref>respekti</ref>,  <ref>valori</ref>);
+hoch achten, schätzen, große Stücke halten auf, von (<emph>vgl.</emph> <ref target="estimi">estimi</ref>, <ref target="respekti">respekti</ref>, <ref target="valori">valori</ref>);
 <list type="deriv">
   
   <label lang="eo">mal&mdash;i</label>
@@ -34849,7 +34855,7 @@ Schinken;
   <item>Schinkenwurst</item>  
 </list></item>
 
-<label lang="eo">ŝip&nbhyph;o</label><item>
+<label lang="eo" id="ŝipo">ŝip&nbhyph;o</label><item>
 Schiff;  
   <list type="deriv">
 
@@ -34865,7 +34871,7 @@ Schiff;
   <label lang="eo">&nbhyph;etaro</label>
   <item>Flottille</item>  
   
-  <label lang="eo">&nbhyph;estro</label>
+  <label lang="eo" id="ŝipestro">&nbhyph;estro</label>
   <item>[Schiffs-]Kapitän</item>  
   
   <label lang="eo">&nbhyph;ano</label>
@@ -34977,13 +34983,13 @@ Schlamm;
   <item>Schlammkuhle, Morast-, Sumpfloch</item>  
 </list></item>
 
-<label lang="eo">ŝlos&nbhyph;i</label><item>
+<label lang="eo" id="ŝlosi">ŝlos&nbhyph;i</label><item>
 [zu-, ver-]schließen (<emph>mit dem Schlüssel</emph>) (<emph>vgl.</emph>   
- <ref>fermi</ref>);
+ <ref target="fermi">fermi</ref>);
 <list type="deriv"> 
   <label lang="eo">&nbhyph;ilo</label>
   <item>Schlüssel</item> 
-  <label lang="eo">&nbhyph;ilosto</label>
+  <label lang="eo" id="ŝlosilosto">&nbhyph;ilosto</label>
   <item>Schlüsselbein</item> 
   <label lang="eo">mal&mdash;i</label>
   <item>aufschließen</item>
@@ -35012,7 +35018,7 @@ schmieren;
 <label lang="eo">ŝnur&nbhyph;o</label><item>
 Strick, Seil, Strang, Leine  
   (<emph>vgl.</emph>   
- <ref>laĉo</ref>);
+ <ref target="laĉo">laĉo</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;ego</label>
@@ -35179,7 +35185,7 @@ Staat;
   <item>Staatsminister</item>  
 </list></item>
 
-<label lang="eo">ŝtel&nbhyph;i</label><item>
+<label lang="eo" id="ŝteli">ŝtel&nbhyph;i</label><item>
 stehlen;  
   <list type="deriv">
 
@@ -35210,8 +35216,8 @@ Klotz, Scheit;
   <item>Leisten (<emph>des Schusters</emph>)</item>  
 </list></item>
 
-<label lang="eo">ŝtof&nbhyph;o</label><item>
-Stoff, Zeug (Wollen, Seiden etc., <emph>vgl.</emph> <ref>materialo</ref>,  <ref>drapo</ref>, <ref>tuko</ref>);
+<label lang="eo" id="ŝtofo">ŝtof&nbhyph;o</label><item>
+Stoff, Zeug (Wollen, Seiden etc., <emph>vgl.</emph> <ref target="materialo">materialo</ref>, <ref target="drapo">drapo</ref>, <ref target="tuko">tuko</ref>);
 <list type="deriv">
   
   <label lang="eo">sub&mdash;o</label>
@@ -35768,7 +35774,7 @@ Theater;
 
 <label lang="eo">ted&nbhyph;i</label><item>
 verdrießen, Überdruß erregen (<emph>vgl.</emph>   
- <ref>naŭzi</ref>);
+ <ref target="naŭzi">naŭzi</ref>);
 <list type="deriv">  
   
   <label lang="eo">&nbhyph;a</label>
@@ -35899,7 +35905,7 @@ Tellur</item>
 <label lang="eo">tem&nbhyph;o</label><item>
 Thema</item>
 
-<label lang="eo">temp&nbhyph;o</label><item>
+<label lang="eo" id="tempo">temp&nbhyph;o</label><item>
 Zeit;  
   <list type="deriv">
 
@@ -36048,8 +36054,8 @@ Tenor;
   <item>Tenorist, Tenorsänger</item>  
 </list></item>
 
-<label lang="eo">tent&nbhyph;i</label><item>
-versuchen, in Versuchung führen (<emph>vgl.</emph>   <ref>ekzameni</ref>,  <ref>provi</ref>);
+<label lang="eo" id="tenti">tent&nbhyph;i</label><item>
+versuchen, in Versuchung führen (<emph>vgl.</emph> <ref target="ekzameni">ekzameni</ref>, <ref target="provi">provi</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;o</label>
@@ -36173,9 +36179,9 @@ Territorium;
   <item>(<emph>arith.</emph>), Glied</item>  
 </list></item>
 
-<label lang="eo">termin&nbhyph;o</label><item>
-Terminus, Ausdruck, Wort (<emph>vgl.</emph> <ref>vorto</ref>, 
- <ref>parolo</ref>,  <ref>diro</ref>,  <ref>esprimo</ref>);
+<label lang="eo" id="termino">termin&nbhyph;o</label><item>
+Terminus, Ausdruck, Wort (<emph>vgl.</emph> <ref target="vorto">vorto</ref>, 
+ <ref target="parolo">parolo</ref>, <ref target="diri">diro</ref>, <ref target="esprimo">esprimo</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;o teknika</label>
@@ -36239,8 +36245,8 @@ Schildkröte;
   <item>Panzer der Schildkröte</item>  
 </list></item>
 
-<label lang="eo">tetan&nbhyph;o</label><item>
-Starrkrampf (<emph>vgl.</emph>   <ref>konvulsio</ref>,  <ref>spasmo</ref>);
+<label lang="eo" id="tetano">tetan&nbhyph;o</label><item>
+Starrkrampf (<emph>vgl.</emph> <ref target="konvulsio">konvulsio</ref>, <ref target="spasmo">spasmo</ref>);
 <list type="deriv">
   
   <label lang="eo">&nbhyph;iĝi</label>
@@ -36253,7 +36259,7 @@ Birkhahn</item>
 <label lang="eo">tetra&nbhyph;o</label><item>
 Haselhuhn</item>
 
-<label lang="eo">tez&nbhyph;o</label><item>
+<label lang="eo" id="tezo">tez&nbhyph;o</label><item>
 These;  
   <list type="deriv">
 
@@ -36446,7 +36452,7 @@ Motte</item>
 <label lang="eo">tink&nbhyph;o</label><item>
 Schleie</item>
 
-<label lang="eo">tinktur&nbhyph;o</label><item>
+<label lang="eo" id="tinkturo">tinktur&nbhyph;o</label><item>
 Tinktur, (flüssige) Farbe (<emph>zum Färben</emph>);  
 <list type="deriv">
 
@@ -36486,7 +36492,7 @@ Typus;
 
 <label lang="eo">tir&nbhyph;i</label><item>
 ziehen (<emph>vgl.</emph>   
- <ref>treni</ref>);
+ <ref target="treni">treni</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -36582,7 +36588,7 @@ Leinwand, Linnen;
   <item>Chemisette</item>  
 </list></item>
 
-<label lang="eo">toler&nbhyph;i</label><item>
+<label lang="eo" id="toleri">toler&nbhyph;i</label><item>
 dulden, Toleranz üben;  
 <list type="deriv">
 
@@ -36684,9 +36690,9 @@ Topographie</item>
 <label lang="eo">torĉ&nbhyph;o</label><item>
 Fackel</item>
 
-<label lang="eo">tord&nbhyph;i</label><item>
+<label lang="eo" id="tordi">tord&nbhyph;i</label><item>
 (Tau etc. in etwas zusammen) drehen, winden (<emph>vgl.</emph>   
- <ref>turni</ref>);
+ <ref target="turni">turni</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -36971,7 +36977,7 @@ transcendental, übersinnlich</item>
 
 <label lang="eo">trankvil&nbhyph;a</label><item>
 ruhig, still (<emph>vgl.</emph>   
- <ref>kvieta</ref>);
+ <ref target="kvieta">kvieta</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -37159,7 +37165,7 @@ Zitterpappel, Espe</item>
 <label lang="eo">tremp&nbhyph;i</label><item>
 [ein]tunken, [ein]tauchen</item>
 
-<label lang="eo">tren&nbhyph;i</label><item>
+<label lang="eo" id="treni">tren&nbhyph;i</label><item>
 [nach]schleppen;  
 <list type="deriv">
 
@@ -37177,7 +37183,7 @@ Zitterpappel, Espe</item>
 Schatz</item>
 
 <label lang="eo">tri</label><item>
-drei (<emph>vgl.</emph>   <ref>kvar</ref>,  <ref>kvin</ref>);
+drei (<emph>vgl.</emph> <ref target="kvar">kvar</ref>, <ref target="kvin">kvin</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -37254,9 +37260,9 @@ Triller;
   <item>(<emph>arithm.</emph>), Trillion</item>
 </list></item>
 
-<label lang="eo">trink&nbhyph;i</label><item>
+<label lang="eo" id="trinki">trink&nbhyph;i</label><item>
 trinken (<emph>vgl.</emph>   
- <ref>drinki</ref>);
+ <ref target="drinki">drinki</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;o</label>
@@ -37574,8 +37580,8 @@ Büschel</item>
   <item>gleich wenn, sobald (<emph>Konjunktion</emph>)</item>
 </list></item>
 
-<label lang="eo">tuk&nbhyph;o</label><item>
-(Hand-, Schnupf-, Hals- etc.) Tuch (<emph>vgl.</emph>    <ref>drapo</ref>,  <ref>ŝtofo</ref>,  <ref>viŝilo</ref>);
+<label lang="eo" id="tuko">tuk&nbhyph;o</label><item>
+(Hand-, Schnupf-, Hals- etc.) Tuch (<emph>vgl.</emph> <ref target="drapo">drapo</ref>, <ref target="ŝtofo">ŝtofo</ref>, <ref target="viŝilo">viŝilo</ref>);
 <list type="deriv">
 
   <label lang="eo">antaŭ&mdash;o</label>
@@ -37690,9 +37696,9 @@ quälen, peinigen, martern, foltern;
   <item>Folter</item>
 </list></item>
 
-<label lang="eo">turn&nbhyph;i</label><item>
+<label lang="eo" id="turni">turn&nbhyph;i</label><item>
 drehen, wenden, kehren (<emph>trans.</emph>) (<emph>vgl.</emph>   
- <ref>tordi</ref>);
+ <ref target="tordi">tordi</ref>);
 <list type="deriv">  
 
   <label lang="eo">sin &nbhyph;i</label>
@@ -37923,7 +37929,7 @@ ultramarin[blau]</item>
 
 <label lang="eo">&nbhyph;um-</label><item>
 <emph>ein Suffix von verschiedener Bedeutung (vgl. die Rolle, die
-<ref>je</ref> unter den Präpositionen spielt) mit dessen Hilfe man Wörter, 
+<ref target="je">je</ref> unter den Präpositionen spielt) mit dessen Hilfe man Wörter, 
 die in gewissen Beziehungen zur Wurzel stehen, bildet, z. B.:</emph>
  
  <list type="deriv">
@@ -38303,7 +38309,7 @@ Bär;
   <item>ich würde wollen</item>
 </list></item>
 
-<label lang="eo">uter&nbhyph;o</label><item>
+<label lang="eo" id="utero">uter&nbhyph;o</label><item>
 Gebärmutter, Uterus</item>
 
 <label lang="eo">util&nbhyph;a</label><item>
@@ -38326,7 +38332,7 @@ nützlich, dienlich, vorteilhaft, ersprießlich;
   <item>schädlich, nachteilig</item>  
 
   <label lang="eo">mal&mdash;o</label>
-  <item>Schade[n], Nachteil (<emph>vgl.</emph>  <ref>domaĝo</ref>)</item>  
+  <item>Schade[n], Nachteil (<emph>vgl.</emph> <ref target="domaĝe">domaĝo</ref>)</item>  
 
   <label lang="eo">mal&mdash;i</label>
   <item>schaden, benachteiligen, schädlich sein</item>  
@@ -38389,7 +38395,7 @@ Ouvertüre</item>
   <item>aufbrauchen, ausgebrauchen, abnutzen</item>
 </list></item>
 
-<label lang="eo">uzurp&nbhyph;i</label><item>
+<label lang="eo" id="uzurpi">uzurp&nbhyph;i</label><item>
 usurpieren; 
 <list type="deriv">
 
@@ -38414,7 +38420,7 @@ waten</item>
 <label lang="eo">vafl&nbhyph;o</label><item>
 Waffel</item>
 
-<label lang="eo">vag-</label><item>
+<label lang="eo">vag&nbhyph;i</label><item>
 herumschweifen, [umher]streifen, vagieren;  
 <list type="deriv">
 
@@ -38479,7 +38485,7 @@ gültig, rechtsgültig</item>
 <label lang="eo">valiz&nbhyph;o</label><item>
 Felleisen</item>
 
-<label lang="eo">valor&nbhyph;i</label><item>
+<label lang="eo" id="valori">valor&nbhyph;i</label><item>
 wert sein, gelten, sich verlohnen, aufwiegen;  
 <list type="deriv">
 
@@ -39042,7 +39048,7 @@ rächen;
   <item>Rachsucht</item>
 </list></item>
 
-<label lang="eo">venk&nbhyph;i</label><item>
+<label lang="eo" id="venki">venk&nbhyph;i</label><item>
 [be]siegen, überwinden, [be]meistern;  
 <list type="deriv">
 
@@ -39205,7 +39211,7 @@ Rute, Gerte;
   <item>mit Ruten schlagen, stäupen</item>
 </list></item>
 
-<label lang="eo">verk&nbhyph;i</label><item>
+<label lang="eo" id="verki">verk&nbhyph;i</label><item>
 (<emph>ein literarisches oder Kunst-Werk</emph>) ab-, verfassen, arbeiten, schreiben, komponieren;  
 <list type="deriv">
 
@@ -39215,10 +39221,10 @@ Rute, Gerte;
   <label lang="eo">&nbhyph;ado</label>
   <item>(<emph>literarisches oder künstlerisch</emph>) Arbeiten, Abfassung, Schreiben, Schriftstellern, Komponieren</item>  
 
-  <label lang="eo">&nbhyph;isto</label>
+  <label lang="eo" id="verkisto">&nbhyph;isto</label>
   <item>Schriftsteller</item>  
 
-  <label lang="eo">muzik&mdash;isto</label>
+  <label lang="eo" id="muzikverkisto">muzik&mdash;isto</label>
   <item>Komponist</item>
 
   <label lang="eo">&nbhyph;anto, &nbhyph;into, &nbhyph;onto</label>
@@ -39573,9 +39579,9 @@ ihr, du, Sie;
 <label lang="eo">viadukt&nbhyph;o</label><item>
 Viadukt</item>
 
-<label lang="eo">viand&nbhyph;o</label><item>
+<label lang="eo" id="viando">viand&nbhyph;o</label><item>
 Fleisch (<emph>als Nahrungsmittel</emph>) (<emph>vgl.</emph>   
- <ref>karno</ref>).
+ <ref target="karno">karno</ref>).
 <list type="deriv">
 </list></item>
 
@@ -39590,7 +39596,7 @@ vibrieren, schwirren;
 <label lang="eo">viburn&nbhyph;o</label><item>
 Wasserholder, Schneeball, Schlinge</item>
 
-<label lang="eo">vic&nbhyph;o</label><item>
+<label lang="eo" id="vico">vic&nbhyph;o</label><item>
 Reihe[nfolge];  
 <list type="deriv">
 
@@ -39810,7 +39816,7 @@ Wein;
 Essig</item>
 
 <label lang="eo">vind&nbhyph;i</label><item>
-(<emph>ein Kind in Windeln</emph>) [ein-]wickeln, winden (<emph>vgl.</emph>   <ref>tordi</ref>,  <ref>turni</ref>);
+(<emph>ein Kind in Windeln</emph>) [ein-]wickeln, winden (<emph>vgl.</emph> <ref target="tordi">tordi</ref>, <ref target="turni">turni</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -39890,7 +39896,7 @@ Violoncell[o], Cello;
   <item>Violoncellist, Cellospieler</item>
 </list></item>
 
-<label lang="eo">vip&nbhyph;o</label><item>
+<label lang="eo" id="vipo">vip&nbhyph;o</label><item>
 Peitsche;  
 <list type="deriv">
 
@@ -39987,14 +39993,14 @@ Whisky</item>
 <label lang="eo">vist&nbhyph;o</label><item>
 Whist (<emph>Kartenspiel</emph>)</item>
 
-<label lang="eo">viŝ&nbhyph;i</label><item>
+<label lang="eo" id="viŝi">viŝ&nbhyph;i</label><item>
 wischen;  
 <list type="deriv">
 
   <label lang="eo">de&mdash;i</label>
   <item>abwischen</item>  
 
-  <label lang="eo">&nbhyph;ilo</label>
+  <label lang="eo" id="viŝilo">&nbhyph;ilo</label>
   <item>Wischer, Wischtuch, &nbhyph;lappen</item>
 
   <label lang="eo">man&mdash;ilo</label>
@@ -40005,9 +40011,9 @@ wischen;
 
 </list></item>
 
-<label lang="eo">vitr&nbhyph;o</label><item>
+<label lang="eo" id="vitro">vitr&nbhyph;o</label><item>
 Glas (<emph>Material</emph>) (<emph>vgl.</emph>   
- <ref>glasso</ref>);
+ <ref target="glaso">glaso</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;i</label>
@@ -40373,7 +40379,7 @@ Wollust, [Sinnen-]Lust;
   <item>zusammenrollen</item>
 </list></item>
 
-<label lang="eo">vom&nbhyph;i</label><item>
+<label lang="eo" id="vomi">vom&nbhyph;i</label><item>
 sich [er]brechen, sich übergeben;  
 <list type="deriv">
 
@@ -40384,9 +40390,9 @@ sich [er]brechen, sich übergeben;
   <item>Brechmittel</item>
 </list></item>
 
-<label lang="eo">vort&nbhyph;o</label><item>
+<label lang="eo" id="vorto">vort&nbhyph;o</label><item>
 Wort, Vokabel (<emph>vgl.</emph>   
- <ref>parolo</ref>);
+ <ref target="parolo">parolo</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;aro</label>
@@ -40473,7 +40479,7 @@ Fuchs;
 Geier</item>
 
 <label lang="eo">vund&nbhyph;i</label><item>
-verwunden, verletzen (<emph>vgl.</emph>   <ref>difekti</ref>,  <ref>ofendi</ref>);
+verwunden, verletzen (<emph>vgl.</emph> <ref target="difekti">difekti</ref>, <ref target="ofendi">ofendi</ref>);
 <list type="deriv">
 
   <label lang="eo">&nbhyph;o</label>
@@ -40572,7 +40578,7 @@ Zoologie;
 
 <label lang="eo">zorg&nbhyph;i</label><item>
 sorgen, Sorge tragen für (<emph>vgl.</emph>   
- <ref>ĉagreni</ref>);
+ <ref target="ĉagreni">ĉagreni</ref>);
 <list type="deriv">  
 
   <label lang="eo">&nbhyph;a</label>

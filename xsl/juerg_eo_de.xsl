@@ -253,6 +253,11 @@ specialajn regulojn ne au alie difinitajn tie.
 
 <xsl:template match="ref">
   <xsl:variable name="file" select="//div[@type='letter' and .//label[@id=current()/@target]]/@id"/>
+  <xsl:if test="not($file)">
+    <xsl:message>
+      Celo @target="<xsl:value-of select="@target"/>" ne troviĝis (verŝajne mankas tie @id)!
+    </xsl:message>
+  </xsl:if>
   <strong>
     <a href="{$file}.html#{@target}">
       <xsl:apply-templates/>
