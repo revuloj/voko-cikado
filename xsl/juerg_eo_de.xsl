@@ -58,6 +58,11 @@ specialajn regulojn ne au alie difinitajn tie.
   <xsl:value-of select="titlePart[@type='main']"/>
 </xsl:template>
 
+<xsl:template name="subdoc-title">
+  <xsl:text>Jürgensen: </xsl:text>
+  <xsl:value-of select="(.//head)[1]"/>
+</xsl:template>
+
 <!-- teiHeader -->
 <xsl:template match="teiHeader">
      <address>
