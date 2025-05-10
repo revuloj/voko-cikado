@@ -14,7 +14,7 @@
 # http://blogs.perl.org/users/smylers/2011/08/ssh-productivity-tips.html
 
 # aldonu en /etc/hosts!
-release=2n
+release=2o
 
 # ni komprenas preparo | docker | servilo |index
 # kaj supozas "docker", se nenio donita argumente
