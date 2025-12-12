@@ -39,6 +39,7 @@ bib(kis,'Kiso').
 bib(kon,'Kon11').
 bib(knd,'Kandid').
 bib(lst,'Lasta').
+bib(miz,'Mizero').
 bib(lbl,'BonaLingvo').
 bib(lpl,'Plumamikoj').
 bib(lrz,'LR').
@@ -116,6 +117,9 @@ vrk(knd,kandid,1929,
 vrk(lst,lasta,1910,
     struct_teix(story),
     verkoj('lasta.xml')).
+vrk(miz,mizero,1904,
+    struct_teix(chapter),
+    verkoj('mizero.xml')).
 vrk(ika,interompita,1928,
     struct_teix(chapter),
     verkoj('interrompita.xml')).
