@@ -69,7 +69,7 @@ voku ekz-e:
    <target name="klasikaj-verkoj"
     depends="preparo,
       biblio,fundamento,ofcaldonoj,juerg_eo_de,faraono,gfabeloj,fabeloj,
-      fumejo,kandid,lasta,interrompita,butiko,revizoro,rabistoj,marta,
+      fumejo,kandid,lasta,interrompita,mizero,butiko,revizoro,rabistoj,marta,
       paroloj,poemoj,homaranismo,esenco,proverb,
       kadro">
    </target>
@@ -102,7 +102,7 @@ voku ekz-e:
        logError="true">
      </exec>-->
 
-    <xslt out="${tmp}/verkolisto.xml" in="${xml}/fumejo.xml"
+    <xslt out="${tmp}/verkolisto.xml" in="${xml}/mizero.xml"
            style="${xsl}/verkolisto_prep.xsl"
            classpathref="saxon.classpath">
        <param name="xml_base_url" expression="file://${user.dir}"/>  <!--'file:///home/revo/verkoj'/-->
@@ -340,6 +340,19 @@ voku ekz-e:
         </factory>
       </xslt>
    </target>
+
+   <target name="mizero" description="kreas HTML-paĝojn el mizero.xml">
+    <mkdir dir="${celo}/mizero"/>
+    <xslt in="${xml}/mizero.xml" out="${celo}/mizero/index.html"
+       style="${xsl}/mizero.xsl" classpathref="saxon.classpath">
+
+        <factory name="net.sf.saxon.TransformerFactoryImpl">
+          <attribute name="http://saxon.sf.net/feature/allow-external-functions" 
+                     value="true"/>      
+        </factory>
+    </xslt>
+   </target>   
+
 
   <target name="marta" description="kreas HTML-paghojn el marta.xml">
      <xslt in="${xml}/marta.xml" out="${celo}/marta/index.html"

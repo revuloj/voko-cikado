@@ -24,6 +24,7 @@ li.subcontent {margin-bottom: 1mm; margin-top: 1mm;}
 .p {text-indent: 5mm; margin-bottom: 1mm; margin-top: 1mm; text-align:justify; max-width: 50em}
 .first_p {margin-bottom: 1mm; margin-top: 1mm; text-align: justify; max-width: 50em}
 .lg {margin: 10mm}
+.lg_left {margin: 10mm; margin-left: 20mm}
 .stanza {margin: 5mm}
 /* .l {text-align: left; margin-top: 0mm; margin-bottom: 0mm;
    margin-left: 5cm} */

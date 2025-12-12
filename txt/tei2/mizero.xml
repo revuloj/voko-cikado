@@ -37,7 +37,7 @@
       <author>Vaclav Sieroŝevski</author>
       <respStmt>
         <resp>tradukis</resp>
-        <name>Kabe</name>
+        <name>Kazimierz Bein</name>
       </respStmt>
       <respStmt>
         <resp>transformita, redaktita kaj adaptita al TEI de</resp>
@@ -116,7 +116,7 @@
         <pubPlace>LONDON</pubPlace>.
         <lb/>
         <pubPlace>DANUJO</pubPlace>. — 
-        <publisher>ANDR-FRED. HÖST &amp; SÖN</publisher>, 
+        <publisher>ANDR.-FRED. HÖST &amp; SÖN</publisher>, 
         <pubPlace>KJØBENHAVN</pubPlace>.
         <lb/>
         <pubPlace>GERMANUJO</pubPlace>. — 
@@ -142,7 +142,7 @@
 
   <body>
 
-<div type="chapter" n="I">
+<div type="chapter" rend="doc" id="I">
 <head>I</head>
 <p>
 En la <foreign rend="«»">tajga</foreign><note type="footnote" rend="(1)">Virga siberia arbaro.</note>
@@ -499,7 +499,7 @@ ellasis la akiron el sia mano.
 </p>
 </div>
 
-<div type="chapter" n="II">
+<div type="chapter" rend="doc" id="II">
 <head>II</head>
 <p>
 La ruĝaj briloj de l' fajro rampis sur la malalta plafono
@@ -926,7 +926,7 @@ post ferajn kradojn...</q>
 </div>
 
 <!-- paĝo: 16 -->
-<div type="chapter" n="III">
+<div type="chapter" rend="doc" id="III">
 <head>III</head>
 <p>
 Vintre la ekstera mondo preskaŭ ne ekzistis por la malsanuloj. 
@@ -1377,7 +1377,7 @@ vangojn.
 </p>
 </div>
 
-<div type="chapter" n="IV">
+<div type="chapter" rend="doc" id="IV">
 <head>IV</head>
 <p>
 Aŭskultu maljunulino: hodiaŭ nokte la lastaj fingroj 
@@ -2009,7 +2009,7 @@ li la lepruloj.
 </p>
 </div>
 
-<div type="chapter" n="V">
+<div type="chapter" rend="doc" id="V">
 <head>V</head>
 <p>
 Ne longe daŭras ĉi-tie la printempo, somero kaj
@@ -2056,7 +2056,7 @@ kanteton de l' fiŝkaptisto, kiu kuniĝis kun la
 <!-- paĝo: 36-->
 potenca printempa ĥoro de la lagoj kaj arbaroj:
 </p>
-<lg>
+<lg rend="left">
   <l>Pale brilas nova luno,</l>
   <l>Ĉe palaco belulino</l>
   <l>Staras en orita vesto,</l>
@@ -2114,7 +2114,7 @@ sendos al vi iun ne tute malsanan, kiel Gregorio... Nun
 helpu al mi treni la ŝipeton en la akvon, ni veturos
 meti retojn.</q>
 </p>
-<lg>
+<lg rend="left">
   <l>Pale brilas nova luno...</l>
 </lg>  
 <p>
@@ -2444,7 +2444,7 @@ pensis la knabino, lasis la ŝtelitan ĉemizon.
 </p>
 </div>
 
-<div type="chapter" n="VI">
+<div type="chapter" rend="doc" id="VI">
 <head>VI</head>
 <p>
 Nokte, kiam la suno ne varmigas, kaj la nuboj sur la
@@ -2757,7 +2757,7 @@ intencis stari garde ĉe la baro la tutan nokton.
 </p>
 </div>
 
-<div type="chapter" n="VII">
+<div type="chapter" rend="doc" id="VII">
 <head>VII</head>
 <p>
 La ĉielo estis malluma, kvankam la nuboj ne kovris
@@ -2879,7 +2879,7 @@ la kuloj...</q> ili diris pri Mergenj.
 korbo plena de fiŝoj. Biterĥaj ĉiam atendis lin, starante
 sur la plata tegmento de l' jurta.
 </p>
-<lg>
+<lg rend="left">
   <l>Li venas, li venas!</l>
   <l>Sur la dorso li havas korbon,</l>
   <l>La korbo estas plena de fiŝoj...</l>
@@ -3100,7 +3100,7 @@ pecetojn da kuirita fiŝo,
 </p>
 </div>
 
-<div type="chapter" n="VIII">
+<div type="chapter" rend="doc" id="VIII">
 <head>VIII</head>
 <p>
 Post kelke da tagoj la unua granda vundo aperis sur
@@ -3645,7 +3645,7 @@ vojo.
 </p>
 </div>
 
-<div type="chapter" n="IX">
+<div type="chapter" rend="doc" id="IX">
 <head>IX</head>
 <p>
 En la sekvinta tago la vento malfortiĝis. La suno gaje
@@ -4165,7 +4165,7 @@ kolere.
 </p>
 </div>
 
-<div type="chapter" n="X">
+<div type="chapter" rend="doc" id="X">
 <head>X</head>
 <p>
 Nur nun Biterĥaj eksciis, kiel agrable estas havi
@@ -4500,7 +4500,7 @@ arboj kliniĝis al la akvo.
 </p>
 </div>
 
-<div type="chapter" n="XI">
+<div type="chapter" rend="doc" id="XI">
 <head>XI</head>
 <p>
 Alflugis la ventoj de l' okcidento, renkontis la ventojn
@@ -5119,7 +5119,7 @@ Kutujaĥsit.
 </p>
 </div>
 
-<div type="chapter" n="XII">
+<div type="chapter" rend="doc" id="XII">
 <head>XII</head>
 <p>
 Kutujaĥsit tuj revenis en la jurta'n, kuŝiĝis kaj ne 
