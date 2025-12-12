@@ -1,53 +1,155 @@
+<?xml-stylesheet type="text/xml" href="kandid.xsl"?>
 
-La fundo de l' mizero
-</p>
-<p>
-Hachette
-Paris; FRA 1904
-</p>
+<!DOCTYPE TEI.2 PUBLIC "-//TEI//DTD TEI Lite XML ver. 1//EN" "teixlite.dtd" 
+[
 
+<!-- e-aj literoj -->
+<!ENTITY Ccirc "&#x0108;">
+<!ENTITY ccirc "&#x0109;">
+<!ENTITY Gcirc "&#x011c;">
+<!ENTITY gcirc "&#x011d;">
+<!ENTITY Hcirc "&#x0124;">
+<!ENTITY hcirc "&#x0125;">
+<!ENTITY Jcirc "&#x0134;">
+<!ENTITY jcirc "&#x0135;">
+<!ENTITY Scirc "&#x015c;">
+<!ENTITY scirc "&#x015d;">
+<!ENTITY Ubreve "&#x016c;">
+<!ENTITY ubreve "&#x016d;">
 
-<p>
-VACLAV SIEROSEVSKI
-</p>
-<p>
-La fundo de l' mizero
-</p>
-<p>
-Kun la permeso de Laŭtoro
-</p>
-<p>
-TRADUKIS EL LA POLA LINGVO
-</p>
-<p>
-KABE
-</p>
-<p>
-FRANCUJO. — HACHETTE et C^ie, PARIS.
-</p>
-<p>
-ANGLUJO. — « REVIEW of REVIEWS », LONDON.
-DANUJO. — ANDR-FRED. HÖST & SÖN, KJOBENHAVN.
-GERMANUJO. — MÖLLER & BOREL, BERLIN.
-HISPANUJO. — J. ESPASA, BARCELONA.
-ITALUJO. RAFFAELLO GIUSTI, LIVORNO.
-POLUJO. — M. ARCT, WAZSZAWA.
-</p>
+<!-- aliaj literoj -->
+<!ENTITY leftquot "«">
+<!ENTITY rightquot "»">
 
-<!-- paĝo: 1-->
+<!ENTITY dash "&#x2015;"> 
+<!ENTITY elipse "...">
 
+]>
 
-LA FUNDO DE l' MIZERO
-</div>
+<!-- $Id: mizero.xml,v 1.0 2025/12/12 12:00:00 revo Exp $ -->
+
+<TEI.2>
+<teiHeader>
+
+  <fileDesc>
+    <titleStmt>
+      <title>La fundo de l' mizero</title>
+      <author>Vaclav Sieroŝevski</author>
+      <respStmt>
+        <resp>tradukis</resp>
+        <name>Kabe</name>
+      </respStmt>
+      <respStmt>
+        <resp>transformita, redaktita kaj adaptita al TEI de</resp>
+        <name>Wolfram DIESTEL</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>$Id: mizero.xml,v 1.0 2025/12/12 12:00:00 revo Exp $</edition>
+    </editionStmt>
+    <extent>185 kB</extent>
+    <publicationStmt>
+      <publisher>Hachette</publisher>
+      <pubPlace>Paris</pubPlace>
+      <date>1904</date>
+    </publicationStmt>
+    <sourceDesc>
+      <p>Vidu la redaktan noton.</p>
+    </sourceDesc>
+  </fileDesc>
+
+  <encodingDesc>
+    <!-- https://tei-c.org/release/doc/tei-p5-exemplars/html/tei_lite.doc.html -->
+
+    <projectDesc>
+      <p>Tiu teksto esti&gcirc;is kadre de projekto
+      celanta disponigi gravajn verkojn de la esperanta literaturo
+      en XML-igita formo por ebligi konvertadon al aliaj formoj
+      kaj a&ubreve;tomatan traser&ccirc;adon je cita&jcirc;oj.</p>
+    </projectDesc>
+    <editorialDecl>
+      <p>La tekstoj registri&gcirc;is per signorekona programo
+      kaj posta mana prilaboro.</p>
+
+      <p>La unuopaj &ccirc;apitroj estas apartigitaj per
+      &lt;div type="chapter" id="/markilo/"&gt;.</p>
+
+      <p>En la originala romano la paroloj kaj aliaj citilaj tekstoj estas diverse markitaj
+      per '«', '»' kaj longaj strekoj. Por konservi la diversajn signojn mi
+      uzis en la atributo rend la sekvajn kombinojn: '- ', '--', '« ', ' »', '«»', '  '. 
+      Tiu kun la spacoj okazas, se parolo finiĝas sametempe kun alineo, aŭ se pensado etendi&gcirc;as
+      tra pluraj alineoj.</p>
+
+      <p>Kiel emfazajn elementojn estas uzataj diversloke hi, name, emph, mentioned, foreign.</p>
+
+      <p>La amlmultajn piednotojn mi signis per &lt;note&gt;.</p>
+    </editorialDecl>	
+  </encodingDesc>
+
+  <profileDesc>
+    <langUsage>
+      <language id="eo">Esperanto</language>
+    </langUsage>
+  </profileDesc>
+</teiHeader>
+
+<text lang="eo">
+
+ <front rend="index">
+    <titlePage>
+      <docAuthor>Vaclav Sieroŝevski</docAuthor>
+      <docTitle>
+        <titlePart type="main">La fundo de l' mizero</titlePart>
+        <titlePart type="approval">Kun la permeso de l' aŭtoro</titlePart>
+        <titlePart type="translator">
+          TRADUKIS EL LA POLA LINGVO <name>KABE</name>
+        </titlePart>
+      </docTitle>
+
+      <docImprint>
+        <pubPlace>FRANCUJO</pubPlace>. — 
+        <publisher>HACHETTE et Cⁱᵉ</publisher>, 
+        <pubPlace>PARIS</pubPlace>. 
+        <lb/>
+        <pubPlace>ANGLUJO</pubPlace>. — 
+        <publisher>«REVIEW of REVIEWS»</publisher>, 
+        <pubPlace>LONDON</pubPlace>.
+        <lb/>
+        <pubPlace>DANUJO</pubPlace>. — 
+        <publisher>ANDR-FRED. HÖST &amp; SÖN</publisher>, 
+        <pubPlace>KJØBENHAVN</pubPlace>.
+        <lb/>
+        <pubPlace>GERMANUJO</pubPlace>. — 
+        <publisher>MÖLLER &amp; BOREL</publisher>, 
+        <pubPlace>BERLIN</pubPlace>.
+        <lb/>
+        <pubPlace>HISPANUJO</pubPlace>. — 
+        <publisher>J. ESPASA</publisher>, 
+        <pubPlace>BARCELONA</pubPlace>.
+        <lb/>
+        <pubPlace>ITALUJO</pubPlace>. 
+        <publisher>RAFFAELLO GIUSTI</publisher>, 
+        <pubPlace>LIVORNO</pubPlace>.
+        <lb/>
+        <pubPlace>POLUJO</pubPlace>. — 
+        <publisher>M. ARCT</publisher>, 
+        <pubPlace>WAZSZAWA</pubPlace>.
+      </docImprint>
+
+    </titlePage>
+
+  </front>
+
+  <body>
 
 <div type="chapter" n="I">
 <head>I</head>
 <p>
-En la <hi rend="«»">tajga</hi><note type="footnote" rend="(1)">Virga siberia arbaro.</note>
+En la <foreign rend="«»">tajga</foreign><note type="footnote" rend="(1)">Virga siberia arbaro.</note>
 de l' malproksima nordo misteraj lokoj
 ekzistas, pri kiuj la enlanduloj nevolonte parolas, eviteme
-respondante la demandojn: « tien nur la vento alflugas
-kaj la migrantaj birdoj sidiĝas dum sia flugo al la maro. »
+respondante la demandojn: <q rend="«»">tien nur la vento alflugas
+kaj la migrantaj birdoj sidiĝas dum sia flugo al la maro.</q>
 Tie la akvoj reĝas; oni ĉie vidas ilin palajn kaj brilantajn, 
 kaj la ĉielo pendas super ili pala pro ilia rebrilo.
 Sur la bluaj vastaĵoj vejnoj de akvumita tero serpentas
@@ -238,7 +340,7 @@ decido.
 la vojo, ke mi ne povis fari unu paŝon plu... Ne ekzistas
 leĝo postulanta, ke oni iru, kie la sango de la lepruloj
 estas... La sola rigardado povas kaŭzi malsanon... Tiu-ĉi
-<hi rend="«»"> sinjorino</hi> ne ŝercas.</q>
+<hi rend="«»">sinjorino</hi> ne ŝercas.</q>
 </p>
 <p>
 <q rend="- ">Tiam mi neniun vidos!</q>
@@ -253,7 +355,7 @@ vizaĝo...</q>
 <q rend="- ">Pjotruĉan, Pjotruĉan... Vi ja promesis. Nur unu
 fojon, solan fojon... Eble, kiam mi ekvidos lian senkarnan 
 vizaĝon, mi lin forgesos... lia ombro ĉesos min
-turmenti nokte? La <hi rend="«»"> ŝaman'</hi><note type="footnote" rend="(1)">Jakuta idolista pastro.</note>
+turmenti nokte? La <foreign rend="«»">ŝaman'</foreign><note type="footnote" rend="(1)">Jakuta idolista pastro.</note>
 ja ordonis... Mi volas esti trankvila, kiel la aliaj... mi volas, ke ĝi ŝanĝiĝu.
 Tiam eble mi vin ekamos, kutimos...</q>
 </p>
@@ -301,7 +403,7 @@ ke la koro tiel terure batas kaj doloras. La okuloj, rigardantaj
 malproksimen, ne vidis, ke Pjotruĉan time rapidis
 post ŝi; la oreloj ne aŭdis la krakadon de l' glitveturilo
 kaj la ronkadon de la cervoj. Fine ŝi ekvidis malproksime 
-<hi rend="«»"> jurta'n</hi> <note type="footnote" rend="(1)">Jakuta domo.</note> 
+<foreign rend="«»">jurta'n</foreign><note type="footnote" rend="(1)">Jakuta domo.</note> 
 inter neĝaj amasoj, kovritan de la
 neĝo ĝis la supro, kaj antaŭ ĝi kelke da nigraj homaj
 figuroj. Ili rimarkis ŝin kaj genufleksis, etendinte la
@@ -366,7 +468,7 @@ litaĵon. Li deĵetis ĉion kaj ekbatis la cervojn, kiuj ekkuris
 galope. La virino tute ne intencis lin persekuti; ŝi
 ridis, kliniĝis al la deĵetitaj objektoj kaj rigardis ilin. La
 terurita Jakuto lasis ankaŭ sian propraĵon kaj tiamaniere 
-pligrandigis la <hi rend="«»"> riĉaĵojn</hi>, senditajn de la komunumo. 
+pligrandigis la <hi rend="«»">riĉaĵojn</hi>, senditajn de la komunumo. 
 La malsanuloj alrampis al la donacoj, rigardis
 ilin scivole, kaj homaj delikataj briloj eklumis en iliaj
 doloraj bestiĝintaj vizaĝoj.
@@ -456,8 +558,8 @@ min. Mi estis por ili kvazaŭ ŝua plando... Plej longe mi
 loĝis ĉe riĉulo Simono. Li ne nutris min, sed almenaŭ ne
 elpelis. Mi vivis per la almozo. Sed kiam mi kulpigis la
 fraton en la juĝo pri mia havo, ankaŭ Simono elpelis
-min. « Mi ne bezonas fierajn laboristinojn-riĉulinojn.
-Pro ĝi la najbaroj malamos min ». La frato kalumniis
+min. <q rend="«»">Mi ne bezonas fierajn laboristinojn-riĉulinojn.
+Pro ĝi la najbaroj malamos min</q>. La frato kalumniis
 min, ĉikanis, promesis, ke li nutros vin. Li diris, ke li
 sendis al vi jam tre multe. Oni aljuĝis al li unu duonon,
 la alian oni ordonis redoni. Ĉu li sendis ion al vi?</q>
@@ -571,7 +673,7 @@ Biterĥaj kaj montris la kaldronojn per la
 mano. Ĉiuj turnis sin tien.
 </p>
 <p>
-Oni elverŝis la <hi rend="«»"> enhavon</hi> en grandegan lignan pladon,
+Oni elverŝis la <hi rend="«»">enhavon</hi> en grandegan lignan pladon,
 kaj la malsanuloj, sidiĝinte ĉirkaŭ la tablo, komencis
 vice ĉerpi per kuleroj. Nur Salban kaj Kutujaĥsit manĝis
 aparte el malgrandaj vazoj, ĉar la komuna nutraĵo estis
@@ -638,8 +740,8 @@ al sia protektanto Fluo.
 </p>
 <p>
 El la plej gravaj novaĵoj plej multe impresis ĉiujn la
-rakonto pri « sinjorino, kiun cent ĉevaloj alveturigis de
-malproksime, de l' sudo ».
+rakonto pri <q rend="«»">sinjorino, kiun cent ĉevaloj alveturigis de
+malproksime, de l' sudo</q>.
 </p>
 <p>
 <q rend="- ">Ŝi estis tre granda sinjorino, oni faris por ŝi apartajn
@@ -754,28 +856,28 @@ brilas la korpo amata.</q>
 </p>
 <p>
 <q rend=" »">
-Post iom da tempo Ĥaĝit-Bergenj, la filo de « Glora
-sanga Okulo » iris en la grandan, malluman arbaron.
+Post iom da tempo Ĥaĝit-Bergenj, la filo de <q rend="«»">Glora
+sanga Okulo</q> iris en la grandan, malluman arbaron.
 Subite li ekvidis: apud la domo de Dika Maljunulino, kiu
 posedis kvin bovinojn, sciuro sidas sur lariko. Li komencis 
 celi kaj bone pafi. De l' frua mateno ĝis la malluma
 vespero li ne trafis eĉ unu fojon. La suno subiris. En
 ĉi-tiu tempo lia sago falis en la kamentubon de l' jurta.
-« Maljunulino, redonu al mi la sagon » li petas. Neniu
+<q rend="«»">Maljunulino, redonu al mi la sagon</q> li petas. Neniu
 respondis. La varmega sango ruĝigis liajn vangojn, la
 ruĝa sango kolorigis lian frunton, de la flanko kolera
 penso alsaltis, de poste aroganta penso alflugis, li ĵetis
 sin en la jurta'n. Li ekvidis la virgulinon; li ekvidis ŝin 
 <!-- paĝo: 15 -->
 kaj svenis; poste li reviviĝis, enamiĝis, elkuris el la
-jurta, saltis sur la ĉevalon kaj galopis hejmen: « Gepatroj 
+jurta, saltis sur la ĉevalon kaj galopis hejmen: <q rend="«»">Gepatroj 
 miaj, diris li, Maljunulino, kiu posedas kvin bovinojn, 
 havas belegan knabinon! Prenu ŝin kaj donu al
-mi »... La patro sendis naŭ militistojn sur naŭ ĉevaloj.
+mi</q>... La patro sendis naŭ militistojn sur naŭ ĉevaloj.
 Ili galope rajdis en la arbaron, rapide eniris en la jurta'n,
 ekrigardis kaj svenis pro la beleco de l' knabino... Ili
-reviviĝis, eliris; la plej eminenta restis... « Malgranda
-Maljunulino, kiom vi postulas por via filino?</q>...
+reviviĝis, eliris; la plej eminenta restis... <q rend="«»">Malgranda
+Maljunulino, kiom vi postulas por via filino?</q></q>...
 </p>
 <p>
 Fluo interrompis la rakonton kaj enpensiĝis. La virinoj
@@ -821,12 +923,9 @@ post ferajn kradojn...</q>
 <p>
 <q rend="- ">Mi prenos vin, mi prenos... Sed nun dormu.</q>
 </p>
-
-<!-- paĝo: 16 -->
- 
-</p>
 </div>
 
+<!-- paĝo: 16 -->
 <div type="chapter" n="III">
 <head>III</head>
 <p>
@@ -986,7 +1085,7 @@ amuziĝas!... La frosto
 <!-- paĝo: 19 -->  
 krakas ekstere... La knaboj, knabinoj
 vetkuras, kaj kiun oni estas kaptinta, tiun oni povas
-kisi... Oni nomas ĝin: « kun fermilaj okuloj », ĉar la
+kisi... Oni nomas ĝin: <q rend="«»">kun fermitaj okuloj</q>, ĉar la
 kisanto fermas la okulojn... Aŭ oni alpelas la ĉevalojn el
 la aro... Aŭ oni dancas... La viroj kaj virinoj tenas la
 manojn reciproke unuj de la aliaj kaj lerte turniĝas en la
@@ -1049,7 +1148,7 @@ pli grandan fajron... Ĉu vi konsentas?</q>
 <p>
 <q rend="--">Mi ĉiam diras, ke peko estas por ni lepruloj pensi
 pri la morgaŭa tago!</q> ekĝemis Salban. <q rend="- ">Dio ne volis,
-ke ni pensu kaj reprenis nian sanon.
+ke ni pensu kaj reprenis nian sanon.</q>
 </p>
 <p>
 <q rend="--">Ĉu vi furioziĝis?... Ĉu vi estas solaj?... La vintro
@@ -1137,9 +1236,9 @@ kredi nur al si mem, ĉar ĉiu estas nur sia propra
 amiko... Mi havis edzon, li prenis min de la gepatroj
 dorlotatan kaj vivemam. Ni estis feliĉaj, mi laboris, amis
 lin, sed mi ne havis infanojn... Ĉu ĝi estis mia kulpo?...
-Li ekmalamis min... « Mi restos sola</q> diris li <q rend="- ">pro vi,
-kiel karbigita arbo, kiel trunko sen branĉoj, mia fajrujo
-estingiĝos, mia domo restos sen heredontoj. » Ĉu ĝi estis
+Li ekmalamis min... <q rend="«»">Mi restos sola</q> diris li 
+<q rend="«»">pro vi, kiel karbigita arbo, kiel trunko sen branĉoj, mia fajrujo
+estingiĝos, mia domo restos sen heredontoj.</q> Ĉu ĝi estis
 mia kulpo?! Dio ne donis!... La edzo malamis min,
 li trovis al si alian virinon, kaj min li turmentis, batis; li
 intencis mortigi min per malsato, sed li ne sukcesis...
@@ -1155,7 +1254,7 @@ kaj li ĵetis min ĉi-tien... Li ĵetis min ĉi-tien... Li ĵetis min
     
 <!-- paĝo: 21 -->
     
-  
+<p>  
 <q rend="--">Donu la infanon! Ĉu vi vindis ĝin!?</q> fine diris ŝi,
 kiam ŝi iom trankviliĝis.
 </p>
@@ -1528,7 +1627,7 @@ forlasis.
 </p>
 <p>
 La lepruloj kuiris la lastan vespermanĝon kaj kuŝiĝis,
-por <hi rend="«»"> atendi</hi>. Ili kovris sin per la vestoj ĝis la kapo kaj
+por <hi rend="«»">atendi</hi>. Ili kovris sin per la vestoj ĝis la kapo kaj
 penis ekdormi. Anka komunikis sian projekton al Gregorio, 
 sed li respondis indiferente:
 </p>
@@ -1957,16 +2056,16 @@ kanteton de l' fiŝkaptisto, kiu kuniĝis kun la
 <!-- paĝo: 36-->
 potenca printempa ĥoro de la lagoj kaj arbaroj:
 </p>
-<p>
-  Pale brilas nova luno,
-  Ĉe palaco belulino
-  Staras en orita vesto,
-  Sen l' amato l' amatino!
-  Ho, vi ploras! Malaperis
-  La amato, via koro,
-  En la tombon vi vin kaŝu,
-  Aŭ tuj vendu por la oro...
-</p>
+<lg>
+  <l>Pale brilas nova luno,</l>
+  <l>Ĉe palaco belulino</l>
+  <l>Staras en orita vesto,</l>
+  <l>Sen l' amato l' amatino!</l>
+  <l>Ho, vi ploras! Malaperis</l>
+  <l>La amato, via koro,</l>
+  <l>En la tombon vi vin kaŝu,</l>
+  <l>Aŭ tuj vendu por la oro...</l>
+</lg>  
 <p>
 <q rend="- ">En kia lingvo vi kantas, Fluo?</q>
 </p>
@@ -2015,9 +2114,9 @@ sendos al vi iun ne tute malsanan, kiel Gregorio... Nun
 helpu al mi treni la ŝipeton en la akvon, ni veturos
 meti retojn.</q>
 </p>
-<p>
-  Pale brilas nova luno...
-</p>
+<lg>
+  <l>Pale brilas nova luno...</l>
+</lg>  
 <p>
 li ekkantis, sed tuj eksilentis.
 </p>
@@ -2709,7 +2808,7 @@ Anka silentis.
 la inferanino nur lasus nin trankvilaj... Eble Dio sendos
 al ni infanon... Ni edukos ĝin, ĝi nin zorgos, kiam ni
 maljuniĝos... Eble mi restos sana, eble niaj idoj ankaŭ
-kreskos sanaj... La <hi rend="«»"> terura Sinjorino</hi> estas kaprica, ŝi
+kreskos sanaj... La <hi rend="«»">terura Sinjorino</hi> estas kaprica, ŝi
 ofte lasas la proksimajn, kaj prenas la malproksimajn...
 Tiam eble ĝojaj ridoj eksonos ĉi-tie, kie nun oni aŭdas
 nur ĝemojn... La jurta'j pleniĝos, oni konstruos novajn
@@ -2780,11 +2879,11 @@ la kuloj...</q> ili diris pri Mergenj.
 korbo plena de fiŝoj. Biterĥaj ĉiam atendis lin, starante
 sur la plata tegmento de l' jurta.
 </p>
-<p>
-  Li venas, li venas!
-  Sur la dorso li havas korbon,
-  La korbo estas plena de fiŝoj...
-</p>
+<lg>
+  <l>Li venas, li venas!</l>
+  <l>Sur la dorso li havas korbon,</l>
+  <l>La korbo estas plena de fiŝoj...</l>
+</lg>  
 <p>
 kantis ŝi per sia delikata voĉo... Sed foje ŝi subite 
 interrompis la kanton kaj enkuris en la jurtan, malfacile 
@@ -2939,7 +3038,7 @@ soifo turmentis min? Ĉu vi iam faris ion propravole?
 Ĉiam oni devas krii: Gregorio iru, Gregoriu faru... Gregorio, 
 ĝi estas via laboro... Vi estas kvazaŭ peco da
 glacio... Mi devis ami vin tian, kia vi estas, ĉar mi havis
-neniun alian, sed Anka... malsaĝa Anka.</q></p>
+neniun alian, sed Anka... malsaĝa Anka.</q>
 </p>
 <p>
 Ŝia vizaĝo fariĝis terura, la okuloj brilis kiel serpenta
@@ -3098,16 +3197,16 @@ kaj pli frue preni ĝin. Foje li revenis tre ekscitita:
 <p>
 <q rend="- ">Ŝi ŝtelis, malgraŭ mia ĉeesto ŝi ŝtelis... Ŝi venis
 rekte al la baro, suriris la ponteton, malligis la korbon...
-Mi kriis, mi ĵetis bastonojn... « Ĉesigu ĝin », ŝi ridis,
-« alie mi malsupreniros kaj batos vin!... »</q>
+Mi kriis, mi ĵetis bastonojn... <q rend="«»">Ĉesigu ĝin</q>, ŝi ridis,
+<q rend="«»">alie mi malsupreniros kaj batos vin!...</q></q>
 </p>
 <p>
 <q rend="- ">Kaj vi?</q>
 </p>
 <p>
 <q rend="--">Mi provis hontigi ŝin, sed ĉu ŝi havas konsciencon!
-Ŝi remetis la korbon. « Ĝi estas mia », ŝi diris, « se vi
-vagos ĉi-tie, mi vin kaptos kaj derompos al vi la piedojn! » 
+Ŝi remetis la korbon. <q rend="«»">Ĝi estas mia</q>, ŝi diris, <q rend="«»">se vi
+vagos ĉi-tie, mi vin kaptos kaj derompos al vi la piedojn!</q> 
 Miajn malsanajn piedojn!</q> kriis kolere Fluo.
 </p>
 <p>
@@ -3818,7 +3917,7 @@ kompatajn vortojn.
 La vento preskaŭ tute malfortiĝis. Ili glitis rapide sur
 la oritaj de la suno, travideblaj ondoj. Malantaŭe paliĝis,
 malgrandiĝis kaj malaperis la verdaj arbaroj, kie la
-<hi rend="«»"> homoj</hi> loĝis, kie kreskis grandaj arboj, kie riĉa vivo
+<hi rend="«»">homoj</hi> loĝis, kie kreskis grandaj arboj, kie riĉa vivo
 bolis, kie oni aŭdis ne sole plorojn kaj ĝemojn... Anka
 returnis sin, por ankoraŭ unu fojon rigardi ĉion tion, kaj
 ekvidis larĝan fumon, rampantan sur la tero. Oni bruligis
@@ -4070,7 +4169,7 @@ kolere.
 <head>X</head>
 <p>
 Nur nun Biterĥaj eksciis, kiel agrable estas havi
-kunulon. La malgranda <hi rend="«»"> Bovĉjo</hi> estis tiel ridinda,
+kunulon. La malgranda <hi rend="«»">Bovĉjo</hi> estis tiel ridinda,
 kiam li ne volis transpaŝi la altan sojlon de l' jurta, li
 tiel mallerte etendis siajn malgraciajn piedojn, ke oni
 devis kontraŭvole ridi. Li havis plej diversajn kaj neatendatajn 
@@ -4083,7 +4182,7 @@ haroj suprenflugis, kvazaŭ korvoj. Same kiel antaŭe ili
 estis la solaj objektoj, kiuj povis suprenflugi de ŝi dum
 ŝia kurado, ĉar la ĉemizeton &dash; la belan bluan ĉemizeton
 kun ruĝa kolumo &dash; tuj post la reveno hejmen ŝi demetis
-kaj kaŝis <hi rend="«»"> por la festoj</hi>.
+kaj kaŝis <hi rend="«»">por la festoj</hi>.
 </p>
 <p>
 Bovĉjo havis ankaŭ aliajn, eksterordinarajn kaj rimarkindajn 
@@ -4103,7 +4202,7 @@ la jurta'n, ĉar Anka baldaŭ alpelos Patrinjon!</q>
 </p>
 <p>
 Ilia amikeco tiel grandiĝis, ke Biterĥaj metis al Bovĉjo
-en la trogon <hi rend="«»"> por ĉiam</hi> la donacitajn al ŝi belajn,
+en la trogon <hi rend="«»">por ĉiam</hi> la donacitajn al ŝi belajn,
 skulptitajn ludilojn. Ŝi eĉ volis dormi kun li en lia angulo
 post la kameno, sed Anka ne konsentis.
 </p>
@@ -4114,7 +4213,7 @@ per la ŝnuro aŭ rompi la piedon. La bruto ankaŭ devas
 havi liberan tempon.</q>
 </p>
 <p>
-Biterĥaj tre bone sciis, kio estas <hi rend="«»"> libera tempo</hi>, ĉar
+Biterĥaj tre bone sciis, kio estas <hi rend="«»">libera tempo</hi>, ĉar
 ŝi preskaŭ neniam havis ĝin, precipe post la alveno de
 l' bovino. Al la devo balai la ĉambron, porti akvon,
 kolekti vergaĵon, okzalon, herbojn, berojn, aliĝis la 
@@ -4129,10 +4228,9 @@ aŭ kuris en la jurtan blekante kaj balancante la mamojn, &dash; ĉio
 tio-ĉi senĉese plenigis la infanon per timo,
 <!-- paĝo: 74 -->
 kiun eĉ la amo al Bovĉjo ne povis forigi. 
-</p>
-<p>
-<q rend"--">«Ŝi ja estas lia
-patrinjo!»</q> trankviligis ŝi sin mem. Sed malgraŭ tio-ĉi, 
+
+<q rend="«»">Ŝi ja estas lia
+patrinjo!</q> trankviligis ŝi sin mem. Sed malgraŭ tio-ĉi, 
 kiam ŝi devis peli la erarintan bovinon hejmen, ŝi
 prenis grandan branĉon kaj, kaŝinte sin post la arboj, ŝi
 laŭte kriis: 
@@ -4165,7 +4263,7 @@ dezirego labori konsumis ŝin.
 Kiel muso ŝi kolektis en la ĉirkaŭaĵo kaj portis en la
 jurta'n ĉion, kio taŭgis kiel manĝaĵo, kio havis nutran
 indon. Kratago, nigra ribo, okzalo, sovaĝa ajlo, dolĉaj
-herboj, <hi rend="«»"> lagaj manĝaĵoj</hi>, gelatenaj globoj de <hi rend="«»"> akvaj
+herboj, <hi rend="«»">lagaj manĝaĵoj</hi>, gelatenaj globoj de <hi rend="«»">akvaj
 beroj</hi>, &dash; ĉion tion-ĉi oni povas konservi kaj uzi, ĉar ĝi
 fluidiĝas en la acida lakto kaj plibonigas ĝian guston kaj
 nutran indon. La loĝantoj de la jurta tute ne suspektis,
@@ -4173,7 +4271,7 @@ ke Anka ŝparas multe da lakto. Ili ja havis ĉiutage
 matene teon el herboj kun lakto, vespere supon el acida
 lakto kaj beroj, en la festoj kuiritan lakton sen aldonoj,
 iafoje eĉ buteron, Anka estis bona mastrino, ĉion ili
-havis, kiel la <hi rend="«»"> homoj</hi>. Negrandajn porciojn ili ricevis;
+havis, kiel la <hi rend="«»">homoj</hi>. Negrandajn porciojn ili ricevis;
 ĝi estis komprenebla, ĉar eĉ bona bovino liveras ne
 multe da lakto.
 </p>
@@ -4362,9 +4460,9 @@ ekesperis, ke ŝi resaniĝos!...</q>
 </p>
 <p>
 <q rend="- ">Kial vi supozas, ke mi? Kompreneble, mi faris ĝin
-per miaj manoj, sed ŝi diris: « Fluo, ĉu ni bezonas du
+per miaj manoj, sed ŝi diris: <q rend="«»">Fluo, ĉu ni bezonas du
 ŝipetojn kaj tiom da retoj? Ili ja posedas nenion! Redonu
-al ili! »</q>
+al ili!</q></q>
 </p>
 <p>
 <q rend="--">Pli bone estus, se ŝi ne resendus... se ŝi tute nin
@@ -4439,7 +4537,7 @@ gutas ankoraŭ...</q>
 en la provizejon, al la fumaĵitaj fiŝoj!</q>
 </p>
 <p>
-La <hi rend="«»"> atendado</hi> ne estis longa, ne ekzistis plu seka loko
+La <hi rend="«»">atendado</hi> ne estis longa, ne ekzistis plu seka loko
 en la jurta. La malvarma akvo ne faras la homojn afablaj. 
 Tamen ili ne malpacis. Anka gardis la ĝeneralan
 pacon per sia bonkora gajeco. Iafoje Gregorio, kies ostoj
@@ -4715,7 +4813,7 @@ jurta intence pro la varmo: estis konstruita tiel
 <!-- paĝo: 84-->
 malgranda, ke restis nur mallarĝa, malalta trairo inter la
 muro kaj la flanko de l' bruto. Sed tio-ĉi detenis nek
-Biterĥaj'on, nek Fluon, kiu vizitis la najbarojn <hi rend="«»"> de
+Biterĥaj'on, nek Fluon, kiu vizitis la najbarojn <hi rend="«»">de
 tempo al tempo</hi>. Por regali la gastojn la geedzoj kuiris
 teon el arbaraj herboj. Mergenj tutajn longajn vesperojn
 pasigis sola en la jurta kaj nur la ĝemoj de Kutujaĥsit
@@ -4802,34 +4900,34 @@ la voĉon kaj komencis novan rakontan... Ne, ĝi ne estis
 rakonto, ĝi estis ama kanto!
 </p>
 <p>
-« Ho koro! kial vi devigas mian moviĝeman buŝon
-paroli? Kial vi aŭskultas tiel avide?
+<q rend="« ">Ho koro! kial vi devigas mian moviĝeman buŝon
+paroli? Kial vi aŭskultas tiel avide?</q>
 </p>
 <p>
-« Se miaj vortoj povus penetri tra la aero kaj resti en
+<q rend="« ">Se miaj vortoj povus penetri tra la aero kaj resti en
 via memoro, ho, mi kantus, mi kantus senĉese, 
-seninterrompe...
+seninterrompe...</q>
 </p>
 <p>
-«Kial mia koro malfortiĝis? Kial miaj akraj okuloj ne
-vidas plu? Kial malklariĝis miaj pensoj?!
+<q rend="« ">Kial mia koro malfortiĝis? Kial miaj akraj okuloj ne
+vidas plu? Kial malklariĝis miaj pensoj?!</q>
 </p>
 <p>
-« Ho, jahaj! For la malĝojo... Ni gaje ridos, ni ĝojos,
-dum ni vivos... la vivo forkuras tiel rapide!...
+<q rend="« ">Ho, jahaj! For la malĝojo... Ni gaje ridos, ni ĝojos,
+dum ni vivos... la vivo forkuras tiel rapide!...</q>
 </p>
 <p>
-« Ho, sonu mia kupra gorĝo, laŭte kantu... Ni amu, ĝis
+<q rend="« ">Ho, sonu mia kupra gorĝo, laŭte kantu... Ni amu, ĝis
 la maljuneco kaj malsano venkos nin, ĝis ni fariĝos
-plenmano da cindro.
+plenmano da cindro.</q>
 </p>
 <p>
-« Ho, se la forto de mia kanto povus deteni la ventetojn, 
+<q rend="«»">Ho, se la forto de mia kanto povus deteni la ventetojn, 
 dispeli la nubojn, aŭ malvarmigi la sunon, ho! mi
-blovus, mi ĉiam blovus sur vin!... »
+blovus, mi ĉiam blovus sur vin!...</q>
 </p>
 <p>
-Tion-ĉi li ofte kantis al *ŝi*.
+Tion-ĉi li ofte kantis al <emph>ŝi</emph>.
 </p>
 <p>
 Mergenj vivege malfermis la pordon. Lumigitaj de la
@@ -5105,7 +5203,7 @@ fariĝis malmola, kiel kristalo.
 Kiam la komunumo eksciis de la ĉasistoj, ke fumo ne
 leviĝas plu el la jurta de la lepruloj, la princo sendis 
 delegiton por konvinkiĝi, ĉu Dio efektive forprenis de la lando
-la <hi rend="«»"> malbenon</hi>. La Jakuto longe vane kriis, fine li levis
+la <hi rend="«»">malbenon</hi>. La Jakuto longe vane kriis, fine li levis
 la pordon per sia ponardego... Li rimarkis la rompitan
 tegmenton kaj komprenis ĉion.
 </p>
@@ -5113,7 +5211,7 @@ tegmenton kaj komprenis ĉion.
 <q rend="--">Urso!</q> murmuretis li.
 </p>
 <p>
-Li revenis kaj raportis pri la terura okazo. La <hi rend="«»"> kunveno</hi> 
+Li revenis kaj raportis pri la terura okazo. La <hi rend="«»">kunveno</hi> 
 decidis sendi monon en la urbeton por funebra
 meso kaj bruligi la jurta'n.
 </p>
@@ -5136,4 +5234,8 @@ estis detruita kune kun la malfeliĉuloj, &dash; ĝi ree ekkreskos
 ie sur homaj korpoj kaj ree pleniĝos kaj ekĝemos la
 malbenitaj dezertoj.
 </p>
+</div>
 
+</body>
+</text>
+</TEI.2>
