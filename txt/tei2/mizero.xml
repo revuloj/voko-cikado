@@ -26,6 +26,7 @@
 
 ]>
 
+<!-- faksimilo el https://archive.org/details/LaFundoDeLmizero -->
 <!-- $Id: mizero.xml,v 1.0 2025/12/12 12:00:00 revo Exp $ -->
 
 <TEI.2>
@@ -54,6 +55,9 @@
       <date>1904</date>
     </publicationStmt>
     <sourceDesc>
+      <bibl>
+        <ref>https://archive.org/details/LaFundoDeLmizero</ref>
+      </bibl>
       <p>Vidu la redaktan noton.</p>
     </sourceDesc>
   </fileDesc>
