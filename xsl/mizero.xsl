@@ -35,6 +35,14 @@ specialajn regulojn ne aŭ alie difinitajn tie.
 <xsl:text>«</xsl:text><xsl:apply-templates/>
 </xsl:template>
 
+<xsl:template match="*[@rend='«-']">
+<xsl:text>«</xsl:text><xsl:apply-templates/><xsl:text> &dash;</xsl:text>
+</xsl:template>
+
+<xsl:template match="*[@rend='-»']">
+<xsl:text>&dash; </xsl:text><xsl:apply-templates/><xsl:text>»</xsl:text>
+</xsl:template>
+
 
 <xsl:template match="note">
   [<i><xsl:apply-templates/></i>]
