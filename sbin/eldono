@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tio estas la eldono de voko-cikado
-eldono=2o
+eldono=2p
 
 target="${1:-helpo}"
 
@@ -12,6 +12,16 @@ revo=${host}:www/revo
 cgibin=${host}:www/cgi-bin
 
 case $target in
+preparo)
+    # kontrolu la branĉonomon kaj komparu kun eldono
+    branch=$(git symbolic-ref --short HEAD)
+    if [ "${branch}" != "${eldono}" ]; then
+        echo "Ne kongruas la branĉo (${branch}) kun la eldono (${eldono})"
+        echo "Agordu la variablon 'eldono' en tiu ĉi skripto por prepari novan eldonon."
+        exit 1
+    fi
+    echo "Nenio farenda por preparo."
+    ;;
 kreo)
     echo "Kreante lokan procezujon (por docker) voko-cikado"
     #docker build --build-arg VERSION=${eldono} --build-arg VG_TAG=v${eldono} --build-arg ZIP_SUFFIX=${eldono} \
