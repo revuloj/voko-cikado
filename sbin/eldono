@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Tio estas la eldono de voko-cikado
-eldono=2q
+eldono=2r
 
 target="${1:-helpo}"
 
