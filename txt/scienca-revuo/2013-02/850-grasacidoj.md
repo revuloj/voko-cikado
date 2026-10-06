@@ -99,7 +99,7 @@ karbonatomo estas saturita kiam ĝi estas ligita kun la plej granda nombro da hi
 disigita en dodek+en+oika (tabelo ). Finﬁne oni disigas la nomon “oktadekadienoikan” acidon en “oktadeka”+“di”+“en”+„oika”. Tiam aperas la nova aﬁkso “di” kiu
 indikas la nombron da duoblaj ligoj en la ĉeno (tabelo 3).
 
-![Bildo 1](32-1-97-7-10-20130408_bld-1.png)
+![Bildo 1](850-grasacidoj_bld-1.png)
 Bildo 1: trans-9-heksadekenoika acido (palmolea acido, C16:1(9) aŭ C16:1 (ω − 7).
 Sinteza skemo reprezentanta la sisteman ĥemia nomenklaturo de la grasaj acidoj kaj la omega-nomenklaturo.
 
@@ -129,7 +129,7 @@ duoblaj ligoj en la ĉeno (tabelo 1). Kaze de nesaturitaj grasaj acidoj, la nume
 unua karbonatomo de ĉiu duobla ligo estas parenteze almetitaj kaj disigitaj per komoj
 (tabeloj 2 kaj 3).
 
-![Bildo 2](32-1-97-7-10-20130408_bld-2.png)
+![Bildo 2](850-grasacidoj_bld-2.png)
 Bildo 2: Skemo de la cis kaj trans agordo. R kaj R’ estas karbonaj ĉenoj.
 
 La omega-sistemo estas ĉefe uzata de nutradsciencistoj. Ĝi estas malpli preciza ol la

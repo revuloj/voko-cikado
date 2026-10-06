@@ -51,7 +51,7 @@ Kiam la aŭtomobilo enkondukiĝis kiel amase disponebla veturilo, ne estis evide
 ke ĝi uzos brulmotoron. Fakte la elektra motoro havas avantaĝojn kompare al la brul-
 motoro.
 
-![bildo 1](11-1-29-4-10-20120426_bld-1.png)
+![bildo 1](10-transporto_bld-1.png)
 Bildo 1: La tutmonda uzado de aŭtoj [^2]
 
 - Ĝi estas pli eﬁka.
@@ -75,7 +75,7 @@ kaj la veturkondiĉoj oni povas eĉ malkluĉi kaj poste malŝalti la brulmotoron
 nur elektre. La ŝoforo ne bezonas mem decidi, ĉar tion tute aŭtomate faras komputilo.
 
 
-![bildo 2](11-1-29-4-10-20120426_bld-2.png)
+![bildo 2](10-transporto_bld-2.png)
 Bildo 2: Principo de hibrida aŭtomobilo [4]
 
 ### 2.2 Kontaktila hibrido

@@ -56,7 +56,7 @@ La tertremoj estas prognozeblaj. Ne ĉiuj, sed reale tiuj kun la magnitudo M ≥
 Tiuokaze kutime eblas observi antaŭsignojn pli ol unu tagon antaŭ la ĉefa evento. La
 
 
-![bildo 1](4-1-30-4-10-20120426_bld-1.png)
+![bildo 1](6-tertremoj_bld-1.png)
 
 Bildo 1: Anomalia inklino kaj bruo de la pendolo, lokita en jam neuzita areo de la
 minejo Lubeník en Slovakio, antaŭ la tertremo en la insularo Tonga la 19-an de marto
