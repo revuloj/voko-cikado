@@ -347,52 +347,44 @@ Esperante ke ekde nun la Esperantista biologiistaro prizorgos la aferon.
 ## Bibliografio
 
 [^1]: X. Bao, M. Pollard kaj J. Ohlrogge. “The biosynthesis of erucic acid in developing
-embryos of brassica rapa”. En: Plant Physiol. . (), p. –. : -
-. : 10.1104/pp.118.1.183.
+embryos of brassica rapa”. En: Plant Physiol. 118.1 (1998), p. 183-190. ISSN: 1532-2548. DOI: 10.1104/pp.118.1.183.
 
-[^2]: M.E. Chevreul. Recherches chimiques sur les corps gras d'origine animale. F. G. Le-
-vrault, . : http://books.google.de/books?id=94\_H7hfQfS0C.
+[^2]: M.E. Chevreul. Recherches chimiques sur les corps gras d'origine animale. F. G. Levrault, 1823. URL: http://books.google.de/books?id=94\_H7hfQfS0C.
 
-[^3]: M.H. Cooper, S.J. Iverson kaj K. Rouvinen-Watt. “Metabolism of dietary cetoleic acid (:n-) in mink (Mustela vison) and gray seals (Halichoerus grypus)
-studied using radiolabeled fatty acids”. En: Physiol. Biochem. Zool. . (),
-p. –. : -. : 10.1086/505513.
+[^3]: M.H. Cooper, S.J. Iverson kaj K. Rouvinen-Watt. “Metabolism of dietary cetoleic acid (22:1n-11) in mink (Mustela vison) and gray seals (Halichoerus grypus)
+studied using radiolabeled fatty acids”. En: Physiol. Biochem. Zool. 79.4 (2006),
+p. 820-9. ISSN: 1522-2152. DOI: 10.1086/505513.
 
 [^4]: J. Dyerberg, H. O. Bang kaj N. Hjorne. “Fatty acid composition of the plasma
-lipids in Greenland Eskimos”. En: Am. J. Clin. Nutr. . (), p. –. :
--. : http://ajcn.nutrition.org/content/28/9/958.long.
+lipids in Greenland Eskimos”. En: Am. J. Clin. Nutr. 28.9 (1975), p. 958-66. ISSN:
+0002-9165. URL: http://ajcn.nutrition.org/content/28/9/958.long.
 
 [^5]: W.B. Johnson. History of the process and present state of animal chemistry. History
-of the Process and Present State of Animal Chemistry. Johnson, . : http:
+of the Process and Present State of Animal Chemistry. Johnson, 1803. URL: http:
 //books.google.de/books?id=eAOIqOm0GScC.
-
 
-[^6]: Wray John. “Extract of a Letter, Written by Mr. John Wray to the Publisher Ja-
-nuary . . Concerning Some Un-Common Observations and Experiments
-Made with an Acid Juyce to be Found in Ants”. En: Phil. Trans.  (), p. .
-: 10.1098/rstl.1670.0052.
+[^6]: Wray John. “Extract of a Letter, Written by Mr. John Wray to the Publisher January 13. 1670. Concerning Some Un-Common Observations and Experiments
+Made with an Acid Juyce to be Found in Ants”. En: Phil. Trans. 5 (1670), p. 2063.
+DOI: 10.1098/rstl.1670.0052.
 
-[^7]: Les Lipides. : http : / / sites . univ - provence . fr / wabim / d _ agora / d _
-biochimie/lipides.pdf.
+[^7]: Les Lipides. URL: http://sites.univ-provence.fr/wabim/d_agora/d_biochimie/lipides.pdf.
 
-[^8]: Zdeněk Pluhař. “Sitema ĥemia nomeklaturo en Esperanto”. En: (). : http:
+[^8]: Zdeněk Pluhař. “Sitema ĥemia nomeklaturo en Esperanto”. En: (2011). URL: http:
 //www.eventoj.hu/steb/kemio/kemia-nomenklaturo-versio-2011-2.pdf.
 
 [^9]: N. Sarda k.a. “Docosahexaenoic acid (cervonic acid) incorporation into diﬀerent
-brain regions in the awake rat”. En: Neurosci. Lett. . (), p. –. :
--. : 10.1016/0304-3940(91)90157-O.
+brain regions in the awake rat”. En: Neurosci. Lett. 123.1 (1991), p. 57-60. ISSN:
+0304-3940. DOI: 10.1016/0304-3940(91)90157-O.
 
-[^10]: Vikipedio, eld. Aceta acido. : http://eo.wikipedia.org/wiki/Aceta_acido.
+[^10]: Vikipedio, eld. Aceta acido. URL: http://eo.wikipedia.org/wiki/Aceta_acido.
 
-[^11]: Vikipedio, eld. Palmita acido. : http://eo.wikipedia.org/wiki/Palmita_
+[^11]: Vikipedio, eld. Palmita acido. URL: http://eo.wikipedia.org/wiki/Palmita_
 acido.
 
-[^12]: Vikipedio, eld. Valerata acido. : http://eo.wikipedia.org/wiki/Valerata_
+[^12]: Vikipedio, eld. Valerata acido. URL: http://eo.wikipedia.org/wiki/Valerata_
 acido.
 
-[^13]: Vikipedio – la libera enceklopedio. : http://eo.wikipedia.org.
+[^13]: Vikipedio – la libera enceklopedio. URL: http://eo.wikipedia.org.
 
 [^14]: L.L. Zamenhof. Fundamento de Esperanto: gramatiko, ekzercaro, universala vortaro.
-Hachette, . : http://www.akademio-de-esperanto.org/fundamento/.
-Scienca Revuo 2/63
-(2013)
-
+Hachette, 1905. URL: http://www.akademio-de-esperanto.org/fundamento/.
