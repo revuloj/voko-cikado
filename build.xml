@@ -10,6 +10,7 @@
     </description>
 
  
+   <property name="txt" location="txt"/>
    <property name="xml" location="txt/tei2"/>
    <property name="esf" location="txt/tei_esf/tekstoj"/>
    <property name="tmp" location="tmp"/>
@@ -621,6 +622,67 @@ voku ekz-e:
          <arg value="${destino}"/>
       </java>
 
+   </target>
+
+
+   <target name="scienca-revuo" description="Konvertas tekstojn de Scienca Revuo al HTML">
+      <property name="fonto" location="${txt}/scienca-revuo/"/>
+      <property name="destino" location="${celo}/scienca-revuo"/> 
+
+      <!-- Evtl. kreu celdosieron -->
+      <mkdir dir="${destino}" />
+
+      <!-- transformu per Pandoc -->
+      <apply executable="pandoc" parallel="false" dest="${destino}">
+        <arg value="-s" />
+
+        <!-- permesu formulojn per MathJax / mhchem -->
+        <arg value="--mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=TeX-AMS_HTML-full&amp;extra=mhchem"/>
+        <arg value="-f" />
+        <arg value="markdown+raw_tex" />
+
+        <arg value="-o" />
+        <targetfile /> 
+        <srcfile />
+
+        <fileset dir="${fonto}" includes="1949-004/*.md" />
+        <chainedmapper>
+          <flattenmapper/>
+          <globmapper from="*.md" to="*.html"/>
+        </chainedmapper>
+      </apply>
+
+      <!-- 3. Kreu enhavon en index.html -->
+      <echo file="${destino}/enhavlisto.csv" append="false" message='"dosiero","titolo","aŭtoro"${line.separator}' />
+
+      <!-- 2. Fast Pass: Extract metadata for ALL files to rebuild the CSV fresh -->
+      <!-- Per force="true" ni legas en ĉiuj dosieroj, ne nur la pli novaj -->
+      <apply executable="pandoc" parallel="false" force="true">
+        <arg value="-t" />
+        <arg value="markdown" />
+        <arg value="-o" />
+        <arg value="/dev/null" /> <!-- neniu eligo krom la meta-informoj -->
+
+        <arg value="-M" />
+        <arg value="dest_dir=${destino}" />
+        <arg value="--lua-filter=${fonto}/enhavo.lua" />
+        
+        <srcfile />
+        <fileset dir="${fonto}" includes="1949-004/*.md" />
+      </apply>     
+
+      <exec executable="pandoc">
+          <arg value="-s" />
+          <arg value="${destino}/enhavlisto.csv" />
+          <arg value="-o" />
+          <arg value="${destino}/index.html" />
+      </exec>     
+<!--
+      <copy todir="${destino}">
+        <fileset dir="${fonto}" includes="**/*.png"/>
+        <mapper type="flatten"/>
+      </copy>
+-->
    </target>
 
 

@@ -1,6 +1,6 @@
 ---
 eldono: Scienca Revuo 4/1949
-titolo: Helpo por reŭmatismuloj
+title: Helpo por reŭmatismuloj
 tradukintoj:
     - T. L. C. Bluett
 kapvortoj:

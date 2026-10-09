@@ -1,6 +1,6 @@
 ---
 eldono: Scienca Revuo 4/1949
-titolo: Mezuro de la suna energidisradiado
+title: Mezuro de la suna energidisradiado
 aŭtoroj:
     - Curt Dellian (Germanujo)
 kapvortoj:
