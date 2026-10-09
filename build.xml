@@ -672,10 +672,15 @@ voku ekz-e:
       </apply>     
 
       <exec executable="pandoc">
-          <arg value="-s" />
-          <arg value="${destino}/enhavlisto.csv" />
-          <arg value="-o" />
-          <arg value="${destino}/index.html" />
+       <!-- <arg value="-f" />
+        <arg value="csv" /> -->
+        <arg value="-s" />
+        <!--arg value="-metadata" />
+        <arg value="title=Enhavlisto" /-->      
+        <arg value="--lua-filter=${fonto}/csv2inx.lua" />
+        <arg value="-o" />
+        <arg value="${destino}/index.html" />
+        <arg value="${destino}/enhavlisto.csv" />
       </exec>     
 <!--
       <copy todir="${destino}">
