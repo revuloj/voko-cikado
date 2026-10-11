@@ -1,29 +1,28 @@
 ---
-eldono: Scienca Revuo n-ro 163 2/1993
-rubriko: 
-titolo: Nova rigardo al la nomoj de la kemiaj elementoj en esperanto
-aŭtoroj: Doug Portmann
-kapvortoj: 
+title: Nova rigardo al la nomoj de la kemiaj elementoj en esperanto
+author: Doug Portmann
+lang: eo
+magazine: Scienca Revuo
+volume: 037
+year: 1958
+keywords: 
     - kemiaj elementoj
     - nomenklaturo
-fonto: https://scienca-revuo.info/article/268
-permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+source: https://scienca-revuo.info/article/268
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
-
-# Nova rigardo al la nomoj de la kemiaj elementoj en esperanto
-
 La deirpunkto de tiu ĉi artikolo estas la grava artikolo de nia eminenta
-forpasinta D-ro Duncan, kun la titolo "La nomado de la elementoj" [1].
+forpasinta D-ro [Duncan]{.maldense}, kun la titolo "La nomado de la elementoj" [[1](#b-1)].
 Ĝi aperis en la jaro 1950. Pasas jam pli ol 40 jaroj post tiam. Mi unue
 demandas, ĉu estas progreso en la nomado de la elementoj de post tiu
 tempo? Tiam mi konsideros nuntempajn problemojn, precipe konfliktajn
 nomojn. Mi proponos nomaron por la elementoj.
 
-D-ro *Duncan*, en la citita artikolo, pacience kribris la nomojn de kemiaj
+D-ro [Duncan]{.maldense}, en la citita artikolo, pacience kribris la nomojn de kemiaj
 elementoj el diversaj fontoj, kaj notis konfliktojn. Ekzemple, la elemento
 kun atom-numero 7 kaj la simbolo N estis nomata aŭ nitrogeno aŭ azoto
-en Esperanto. Kiel tiun ĉi konflikton solvi? *Duncan* donas siajn
+en Esperanto. Kiel tiun ĉi konflikton solvi? [Duncan]{.maldense} donas siajn
 preferojn. En la ekzempla kazo, li ŝajne preferis "nitrogeno".
 
 Komparante lian artikolon kun la plej lastatempaj publikigaĵoj pri la
@@ -47,9 +46,9 @@ Kontraste, la supre menciitaj arkaikaj formoj ne plu baziĝas sur
 ekzistantaj formoj en la etnaj lingvoj, krom eble "kolombio' (niobo) por
 la angla.
 
-[Tabelo 1] havas liston de deviaj element-nomoj.
+[Tabelo 1](#tabelo-1) havas liston de deviaj element-nomoj.
 
-[Tabelo 1]: Deviaj element-nomoj en Esperanto
+[Tabelo 1]{#abelo-1}: Deviaj element-nomoj en Esperanto
 
 |elementnomo|
 |---|
@@ -67,17 +66,17 @@ la angla.
 |sulfo (sulfuro)|
 |tungsteno aŭ tunsteno (volframo)|
 
-*Duncan*, kun kutima bona prudento, registras ilin, sed preferas la
+[Duncan]{.maldense}, kun kutima bona prudento, registras ilin, sed preferas la
 formojn interkrampajn, kiuj estas fakte la nun akceptitaj formoj. Unu
 escepto: li strange preferis protaktiniumon al protaktinio. Mi ne scias,
 kial li decidis eviti la nomon protaktinio, kiu ne havas alian sencon en
-Esperanto, laŭ PIV. Ciukaze, li iel ne registris protaktini(um)o en sia
-vortaro [6].
+Esperanto, laŭ PIV. Ĉiukaze, li iel ne registris protaktini(um)o en sia
+vortaro [[6](#b-6)].
 
 Mi koncedas, ke kelkaj de ili estas ankoraŭ citataj. Sed ili ne plu trovas
-preferon. Tiel, *Westermayer* mencias "platino" [2], sed preferas "plateno".
-Kaj *Kolker* en sia ruslingva kurso "Esperanto por kemiistoj" uzis "azoto"
-anstataŭ "nitrogeno" [3]. Sed oni devas enkalkuli tion, ke la soveta
+preferon. Tiel, [Westermayer]{.maldense} mencias "platino" [[2](#b-2)], sed preferas "plateno".
+Kaj [Kolker]{.maldense} en sia ruslingva kurso "Esperanto por kemiistoj" uzis "azoto"
+anstataŭ "nitrogeno" [[3](#b-3)]. Sed oni devas enkalkuli tion, ke la soveta
 Esperanta movado estis delonge izolita de la okcidenta mondo.
 
 Oni eble notis, ke en la supra listo la diferencoj inter la deviaj kaj nun
@@ -88,10 +87,11 @@ Tiel, la diferencoj estas kutime etaj. Ni vidos la saman aferon sube.
 
 Estas tempo ekzameni la konfliktajn elementnomojn en modernaj
 Esperantaj konsultiloj. Vidu la tabelon sube. La rubrikoj reprezentas
-la fontojn, kiuj estas: Wr- *Westermayer* [2], HFTK- Ĥemia Fakterminologia Komisiono [7], PIV [8], Monato [9], kaj DFE- *Dictionnaire
-Francais-Esperanto* [10].
+la fontojn, kiuj estas: Wr- [Westermayer]{.maldense} [[2](#b-2)], 
+ĤFTK - Ĥemia Fakterminologia Komisiono [[7](#b-7)], PIV [[8](#b-8)], Monato [[9](#b-9)], kaj DFE - *Dictionnaire
+Francais-Esperanto* [[10](#b-10)].
 
-[Tabelo 2]: Konfliktaj element-nomo en moderna Esperanto
+[Tabelo 2]{#tabelo-2}: Konfliktaj element-nomo en moderna Esperanto
 
 ||Wr|HETK|BIY|Monato|DFE|
 |---|---|---|---|---|---|
@@ -117,18 +117,18 @@ Notu, ke la diferencoj inter la kolumno ne estas grandaj. Kutime temas
 pri diferenco en la finaĵo. El tio fluas la konkludo, ke la Esperanta
 element-nomaro estas rimarkinde stabila kaj respektas tradicion.
 
-La *"Dictionnaire Francais-Espĉranto"* de *Leger* kaj *Albault* ankaŭ havas
+La *"Dictionnaire Français-Espéranto"* de [Léger]{.maldense} kaj [Albault]{.maldense} ankaŭ havas
 tiun ĉi nekonforman nomon: urano (apud uranio). Observu, ke la
 kolumno de nomoj de tiu ĉi vortaro hezitas inter la formoj indikitaj per
 krampo. Tiel, tali(um)o signifas, ke DFE permesas aŭ 'talio' aŭ
 'taliumo'.
 
-Estas notindaj tendencoj en iuj kolumnoj de [Tabelo 2]. Tiel, la
-nepublikigita HFTK-listo elmontras klaran preferon por forigo de
+Estas notindaj tendencoj en iuj kolumnoj de [Tabelo 2](#tabelo-2). Tiel, la
+nepublikigita ĤFTK-listo elmontras klaran preferon por forigo de
 koliziantaj vortoj, modifante la element-nomon. Mi alprenis la 
-HFTK-liston por nia ankoraŭ ne eldonita Esperanta kemia lernolibro "Ĝenerala,
-organika, kaj biologia kemio" [14]. Sed poste mi decidis favore al alia
-skemo, pri kiu vidu malsupre. La listo de *M. Westermayer* elmontras
+ĤFTK-liston por nia ankoraŭ ne eldonita Esperanta kemia lernolibro "Ĝenerala,
+organika, kaj biologia kemio" [[14](#b-14)]. Sed poste mi decidis favore al alia
+skemo, pri kiu vidu malsupre. La listo de [M. Westermayer]{.maldense} elmontras
 etan tendencon konformigi la Esperantajn element-nomojn al la
 internaciaj simboloj de la elementoj. Tiel, ĝi havas 'aŭro' anstataŭ oro.
 Sed li ŝanĝis sian opinion pri 'iodo', kiam li vidis, ke ĝi kondukis al
@@ -166,7 +166,7 @@ sistemon rekomenditan de IUPAK.
     a. Tio estas, krom malgrandaj ortografiaj ŝanĝoj por adapti tiun
     sistemon al la esp-a ortografio.
 
-    b. Tiu sistemo estas priskribita en la organo de IUPAK [5].
+    b. Tiu sistemo estas priskribita en la organo de IUPAK [[5](#b-5)].
 
     c. Ekzemplo estas elemento 107 (simbolo: Uns), kiu estas nomata
     "*unnilseptium*" de IUPAK, kaj do 'unnilseptio" en Esperanto. La
@@ -227,7 +227,7 @@ La PIV-nomoj baziĝas sur la ISNoj, nomoj komunaj al multaj (precipe
 eŭropaj) lingvoj. Ili do havas internaciecon. La ISV-oj siavice baziĝas
 sur la simboloj de la elementoj. Preskaŭ la sola reala problemo por PIV,
 estis ĉu akcepti formon kun -io aŭ kun (konsonanto plus) -o. Ekzemple,
-ĉu titanio aŭ titano? Vidu denove en [Tabelo 2]. Estas nur 4-5 da ili.
+ĉu titanio aŭ titano? Vidu denove en [Tabelo 2](#tabelo-2). Estas nur 4-5 da ili.
 Generale, PIV akceptas la pli mallongan formon. La sola escepto estas
 ke PIV registras 'uranio' anst. 'urano'. La lasta formo ricevus apogon
 de G. *Uran* kaj R. *uran* (en la japana ankaŭ). Sed evidente oni decidis,
@@ -244,14 +244,14 @@ Ekzemple:
 
 |ISN|Esperanto|
 |---|---|
-|*calcium*|kalcio|
-|*phosphorus*|fosforo|
-|*yttrium*|itrio|
+|calcium|kalcio|
+|phosphorus|fosforo|
+|yttrium|itrio|
 
 Tiuj ekzemploj plue malkaŝas, ke la latina finaĵo (-us, -um) estas
 forprenita, kaj duoblaj konsonantoj perdas unu konsonanton. Por plua
-gvidado pri transskribado, vidu *Wüster* [15]. *Duncan* havigas utilajn
-transskribajn regulojn komence de sia vortaro [6].
+gvidado pri transskribado, vidu [Wüster]{.maldense} [[15](#b-15)]. [Duncan]{.maldense} havigas utilajn
+transskribajn regulojn komence de sia vortaro [[6](#b-6)].
 
 ## Komentario
 
@@ -275,13 +275,13 @@ kiel tiu de PIV escepte de
 4. kurio anstataŭ kuriumo
 5. elimino de arkaikaj nomoj.
 
-En [Tabelo 3] estas elementa tabelo, laŭ tiuj reguloj. Ĝi estas ordita laŭ
+En [Tabelo 3](#tabelo-3) estas elementa tabelo, laŭ tiuj reguloj. Ĝi estas ordita laŭ
 la internacia kemia simbolo de ĉiu elemento, post kiu sekvas la
 atomnumero. Tiam estas la Esperanta nomo, tiam la angla kaj germana
 nomoj. Aliaj Esperantaj nomoj - konkuraj - aperas en la kolumno "aliaj
 eblecoj".
 
-[Tabelo 3]: La tabelo de la kemiaj elementoj
+[Tabelo 3]{#tabelo-3}: La tabelo de la kemiaj elementoj
 
 |||Esperanto|Aliaj Ebloj|Angla|Germana|
 |---|---|---|---|---|---|
@@ -307,7 +307,7 @@ eblecoj".
 |Cl|17|Kloro|Ĥloro|Chlorine|Chlor|
 |Cm|96|Kurio|Kuriumo|Curium|Curium|
 |Co|27|Kobalto||Cobalt|Cobalt, Kobalt|
-|Cr|24|Kromo|Kromio, Hromo|Chromium|Chrom|
+|Cr|24|Kromo|Kromio, Ĥromo|Chromium|Chrom|
 |Cs|55|Cezio||C(a)esium|Casium|
 |Cu|29|Kupro||Copper|Kupfer|
 |Dy|66|Disprozio||Dysprosium|Dysprosium|
@@ -409,19 +409,19 @@ malatentante la germanan ortografion. La supraj germanaj nomoj
 plejparte respegulas tiun tendencon. Tiel, anstataŭ 'k' aperas malmola
 'c' (*Cobalt*, *Zirconium*). Kaj anstataŭ 'z' aperas mola 'c' (*Cer* anstataŭ
 malnova *Zer*). Tamen, eĉ plej moderna angla-germana germana-angla
-vortaro registras por kalcio germane "*Kalzium*" anstataŭ "*Calcium*" [19].
+vortaro registras por kalcio germane "*Kalzium*" anstataŭ "*Calcium*" [[19](#b-19)].
 En kelkaj kazoj oni provas longigi la nomon per aldono de 'ium' (*Cerium*
 anstataŭ *Cer*), sed mi ne scias, kiom sukcesa estas tiu provo. Oni eĉ
 provis forigi delonge establitajn kaj popularajn formojn kiel '*Wasserstoff*',
 substituante al ĝi '*Hydrogen*', sed tio ne gajnas subtenon. Anstataŭ la
 germana simbolo por jodo, J, oni ekuzas I, konforme al IUPAK.
 
-## Analizo de la esperantaj element-nomoj en tabelo 3
+## Analizo de la esperantaj element-nomoj en [Tabelo 3](#tabelo-3)
 
 Ĝenerale parolante, la supre proponita Esperanta element-nomero
 konformiĝas al la nomoj troveblaj en PIV, nia plej grava aŭtoritato. Eble
 la plej grava escepto estas stibio anstataŭ antimono. Kiel vi povas vidi
-de [Tabelo 2], "stibio" apenaŭ estas mia neologismo; ĝi estas delonge
+de [Tabelo 2](#tabelo-2), "stibio" apenaŭ estas mia neologismo; ĝi estas delonge
 proponata. Eĉ PIV menciis ĝin, kvankam ĝi ne registris ĝin: vidu sub la
 artikolo por "emetiko", kie troviĝas la esprimo "stibia tartrato". Uzi
 "stibio" estas koncedo al la logiko. Nome, ĉiu alia Esperanta
@@ -449,7 +449,7 @@ Oni simple lasas forfali la flankan 'o' en helio dum kunmetado:
 heli-balono, heli-fridigita superkondukta drato. Kontraŭe: heliocentra,
 heliostato.
 
-Estas unusola kazo, kie mi deflankiĝas de ĉiu aŭtoritato en [Tabelo 2].
+Estas unusola kazo, kie mi deflankiĝas de ĉiu aŭtoritato en [Tabelo 2](#tabelo-2).
 Temas pri "kurio" anstataŭ la ĝis nun universale akceptata "kuriumo".
 Se "kurio" estus Fundamenta vorto, tiam mi ja devus akcepti "kuriumo",
 laŭ miaj reguloj. La sencoj atribuitaj al kurio de PIV ĉiuj rilatas al tute
@@ -459,7 +459,7 @@ tiu estas verŝajne malofte, ekster SI, kaj kutime uzata en la pluralo.)
 
 Observeblaj estas du deviaj formoj por Cr kaj Cl: ĥromio kaj ĥloro. Tiuj
 formoj estas la rezulto de provo revivigi la uzadon de la litero 'ĥ', precipe
-en la faka literaturo. Alia devia formo estas mia propono [12], "fluro"
+en la faka literaturo. Alia devia formo estas mia propono [[12](#b-12)], "fluro"
 anstataŭ fluoro. Mia motivo estas la latenta konfuzo inter la derivaĵoj
 bazitaj sur elemento fluoro (fluorkarbono) kaj tiuj surbaze de la kemia
 fenomeno fluoreski (fluorometro). Sed mi konfesas, ke aliaj motivoj estas
@@ -473,7 +473,7 @@ eltrovitaj elementoj.
 
 Domaĝe, ke la kemiaj simboloj de la elementoj ofte ne estas deriveblaj de
 la Esperantaj nomoj. Sed tiu ŝuldas al la regula esp-a ortografio,
-avantaĝo ne forĵetinda aŭ forĵetenda. En [Tabelo 3] estas 25 deviaj esp-aj
+avantaĝo ne forĵetinda aŭ forĵetenda. En [Tabelo 3](#tabelo-3) estas 25 deviaj esp-aj
 elementnomoj, el kiuj ne estas plene deriveblaj la simboloj. Por la angla
 estas nur 11. La simboloj estas elpensitaj surbaze de la latina kaj aliaj
 lingvoj.
@@ -491,12 +491,12 @@ la spiriton, ne la literon, ke la ISNoj.
 
 Dum la lastaj 25 jaroj oni eltrovis la elementojn kun atomnumeroj
 104 - 109. Tiuj radioaktivaj elementoj havas tre mallongan duoniĝodaŭron.
-Ili estas listigitaj en [Tabelo 3] (post elemento uranio) laŭ la nomoj
+Ili estas listigitaj en [Tabelo 3](#tabelo-3) (post elemento uranio) laŭ la nomoj
 rekomenditaj de IUPAK. Vidu la simbolojn Une ĝis Uns.
 
 Oni komencis al ili doni nesistemajn nomojn, simile al la aliaj elementoj.
 Tiel, elementon 104 oni angle baptis '*rutherfordium*'. En la verko
-"Nepivaj Vortoj" [18] troviĝas esperantigita formo de la rusa nomo por
+"Nepivaj Vortoj" [[18](#b-18)] troviĝas esperantigita formo de la rusa nomo por
 la sama elemento: kurĉatovio. Por elemento 105 tiu sama verko
 registras 'hanio'. Sed komence de elementnumero 104 IUPAK decidis
 (almenaŭ provizore) enkonduki sistemajn nomojn por la novaj elementoj.
@@ -525,9 +525,9 @@ kemiistoj. Eĉ IUPAK indikis, ke la nomoj estas nur provizoraj.
 ## Proponoj por raciigi la esperantan element-nomaron
 
 Estas du proponoj raciigi la nomojn de la elementoj en Esperanto. La
-plej sciata estas tiu de *Pióro* (Pollando), kiu persiste prezentas sian
-skemon [11], laŭ kiu ĉiu element-nomo finiĝu je -io. Mi respondis per
-detala kritiko de tiu skemo [12], kaj li replikis en alia artikolo [20]. Mi
+plej sciata estas tiu de [Pióro]{.maldense} (Pollando), kiu persiste prezentas sian
+skemon [[11](#b-11)], laŭ kiu ĉiu element-nomo finiĝu je -io. Mi respondis per
+detala kritiko de tiu skemo [[12](#b-12)], kaj li replikis en alia artikolo [[20](#b-20)]. Mi
 ne intencas redoni mian tutan argumenton ĉi tie, sed mi diru iom. Lia
 celo doni unuforman finiĝon al ĉiu element-nomo, estas laŭdinda celo.
 Sed la kosto estas, i.a., ke ĉiu elementnomo havus minimume tri silabojn,
@@ -539,17 +539,17 @@ tendencon, kial ne raciigi la nomojn de la planedoj? Oni almetus finaĵon
 jupiteredo, ktp.
 
 Tamen, mi opinias, ke limigita raciigo de la element-nomoj eblas. Tiu
-raciigo estas kompromiso kun la pli radikala skemo de *Pióro*. Mi
-sugestas forigon de ĉiuj pseŭdofinaĵoj krom -io. Vidu [Tabelon 4].
+raciigo estas kompromiso kun la pli radikala skemo de [Pióro]{.maldense}. Mi
+sugestas forigon de ĉiuj pseŭdofinaĵoj krom -io. Vidu [Tabelon 4](#tabelo-4).
 
 Mi menciis ĝin kiel skemon, sed pro la konservemo de Esperanto mi
-apenaŭ pensas, ke ĝi estos adoptita. (*Pióro* ĝin malakceptis.) Estas
+apenaŭ pensas, ke ĝi estos adoptita. ([Pióro]{.maldense} ĝin malakceptis.) Estas
 problemoj almenaŭ ĉe "karbio", ĉar kvankam oni formas 'karbido'
 surbaze de la (pra)radiko 'karb-', la kompleksa anjono 'karbonato'
-baziĝas sur 'karbon-'. Interese estas, tamen, noti ke Inĝ. *Pluhar*
-proponis ion similan por neorganikaj kombinaĵoj: sulfa trioksido [7].
+baziĝas sur 'karbon-'. Interese estas, tamen, noti ke Inĝ. [Pluhar]{.maldense}
+proponis ion similan por neorganikaj kombinaĵoj: sulfa trioksido [[7](#b-7)].
 
-[Tabelo 4]: Esperantaj element-nomoj kun pswŭdosufikoj
+[Tabelo 4]{#tabelo4}: Esperantaj element-nomoj kun pswŭdosufikoj
 
 ||nuna formo| praradiko| nova formo|
 |---|---|---|---|
@@ -562,10 +562,10 @@ proponis ion similan por neorganikaj kombinaĵoj: sulfa trioksido [7].
 |S| sulfuro| sulf- |sulfio|
 
 La alia propono venas de la estro de la Akademio de Esperanto, 
-*A. Albault*. Laŭ ĝi [13], ĉiu element-nomo finiĝu je -iumo. Tiu kondukus
-al element-nomoj kun minimume de kvar silaboj. Se la skemo de *Pióro*
+[A. Albault]{.maldense}. Laŭ ĝi [[13](#b-13)], ĉiu element-nomo finiĝu je -iumo. Tiu kondukus
+al element-nomoj kun minimume de kvar silaboj. Se la skemo de [Pióro]{.maldense}
 rezultigos pezajn element-nomojn, tiu problemo estas duoble pli grava ĉe
-la skemo de *Albault*.
+la skemo de [Albault]{.maldense}.
 
 Se oni efektive kaj plenkore volas raciigi la elementan nomaron, kial ne
 etendi tiun oficialan sistemon de IUPAK klarigitan supre al la elementoj
@@ -579,18 +579,18 @@ unseptido*. Jen la perfekta filozofa skemo!
 Lastatempe IUPAK sukcesis forigi la konfuzon de la nomoj de kolumnoj
 en la perioda tabelo de la elementoj. Ĝi kreis arab-ciferan sistemon por
 anstataŭigi la konkurajn usonan kaj eŭropajn sistemojn, kiuj baziĝas sur
-romanaj ciferoj kaj latinaj literoj [14]. Jen ekzempla parto de la 
+romanaj ciferoj kaj latinaj literoj [[14](#b-14)]. Jen ekzempla parto de la 
 18-kolumna perioda tabelo, kun la malnovaj kaj nova skemoj:
 
-[Tabelo 5]: La signado de la kolumnoj (grupoj) de la perioda tabelo
+[Tabelo 5]{#tabelo5}: La signado de la kolumnoj (grupoj) de la perioda tabelo
 
-|sistemo de IUPAK: |13 |14 |15 |16 |17|
-|------------------|---|---|---|---|---|
-|usona sistemo: |NIIA |IVA |VA |VIA |VIIA|
-|eŭropa sistemo: |NIB |IVB |VB |VIB |VIIB|
-|ĉef-elementoj: |boro |karbono |nitrogeno |oksigeno |fluoro|
+|sistemo de IUPAK:|13 |14 |15 |16 |17|
+|----------------|---|---|---|---|---|
+|usona sistemo:  |IIIA |IVA |VA |VIA |VIIA|
+|eŭropa sistemo: |IIIB |IVB |VB |VIB |VIIB|
+|ĉef-elementoj:  |boro |karbono |nitrogeno |oksigeno |fluoro|
 
-La element-nomoj montritaj en [Tabelo 5] estas supre de siaj respondaj
+La element-nomoj montritaj en [Tabelo 5](#tabelo-5) estas supre de siaj respondaj
 kolumnoj en la perioda tabelo. Tiel halogeno estas elemento de grupo 17.
 Kiel oni povas diveni, IUPAK elpensis sian sistemon celintence por la
 versio de la perioda tabelo kun 18 kolumnoj.
@@ -604,11 +604,11 @@ tiuj sufiksoj: -id/, -oid/, kaj -an/. PIV havas "[lantan]ido" en sia artikoleto
 por lantano.
 
 La propono por -id/ suferas pro tio, ke tiu sama prefikso ja estas kemie
-uzata por simpla anjono (bromido). La propono por -an/ de *Pióro* [11b]
+uzata por simpla anjono (bromido). La propono por -an/ de [Pióro]{.maldense} [11b]
 estas pli bona, sed bedaŭrinde ĝi same suferas pro tio, ke -an/, kemia
 sufikso en organika kemio, nun uziĝas ankaŭ neorganike. Tiel, 'borano'
 estas klaso de kombinaĵoj de boro kun hidrogeno kaj karbono. Tiel mi
-favoras -oid/, aŭ pli ĝuste -ojd/, variaĵo subtenita de *Butler* [15].
+favoras -oid/, aŭ pli ĝuste -ojd/, variaĵo subtenita de [Butler]{.maldense} [[15](#b-15)].
 
 Ekzemple, la halogenoj, elementoj de grupo 17, fariĝas la fluorojdoj laŭ
 tiu skemo. La elementoj en grupo 10, kies ĉefo estas nikelo, fariĝas la
@@ -635,7 +635,7 @@ element-nomoj kun finaĵo -io. Ĉu oni eliziu (eliminu) la literon 'i' aŭ ne?
 Ekzemple, ĉu natria aluminiato aŭ natria aluminato? PIV hezitas je tiu
 punkto pri alumin(i)ato. Sed aliloke PIV ĝenerale evitas elizion:
 germaniato, osmiato, siliciido. Mi opinias, ke PIV eraras. Tiel, mi aliĝas
-al *Duncan* [6] kaj *Westermayer* [2], kiuj subtenas elizion. PIV supozas,
+al [Duncan]{.maldense} [[6](#b-6)] kaj [Westermayer]{.maldense} [[2](#b-2)], kiuj subtenas elizion. PIV supozas,
 ke tiuj kemiaj sufiksoj kondutas kiel normalaj Esperantaj sufiksoj. Sed
 tiel ne estas: tiuj kemiaj sufiksoj preskaŭ ĉiam devas esti uzataj
 konforme al sia uzado en la gravaj naciaj lingvoj. Ili vere ne havas
@@ -681,14 +681,14 @@ plejmulto de ili estas preskaŭ preter disputo.
 Sed ni esperantistoj estas disputema popolo. Ni klopodas plibonigi la
 lingvon kaj varbi aliajn adeptojn al niaj kaŭzetoj. Jam en la unua
 jardeko de tiu ĉi jarcento aperis la unua propono por plibonigi la
-nomenklaturon de kemio [21]. Sed la plimulto de ni almenaŭ pretas
+nomenklaturon de kemio [[21](#b-21)]. Sed la plimulto de ni almenaŭ pretas
 aŭskulti voĉojn de aŭtoritato. Tiel, la nomenklaturaj normoj publikigitaj
-de ISAE [22] jam antaŭ la Unua Monda Milito plejparte validas ĝis
-hodiaŭ. Ili enkorpiĝis en PIV [8].
+de ISAE [[22](#b-22)] jam antaŭ la Unua Monda Milito plejparte validas ĝis
+hodiaŭ. Ili enkorpiĝis en PIV [[8](#b-8)].
 
-Kelkaj el ni (*Pióro*, *Albault*) volas kiel eble plej raciajn nomojn. Aliaj
-(*Pluhar*) volas severe eviti homonimojn. Ankoraŭ aliaj (*Portmann*) volas
-nomojn kiel eble plej kurtajn. Aliaj (*Westermayer*) volas proksimigi la
+Kelkaj el ni ([Pióro]{.maldense}, [Albault]{.maldense}) volas kiel eble plej raciajn nomojn. Aliaj
+([Pluhar]{.maldense}) volas severe eviti homonimojn. Ankoraŭ aliaj ([Portmann]{.maldense}) volas
+nomojn kiel eble plej kurtajn. Aliaj ([Westermayer]{.maldense}) volas proksimigi la
 elementnomojn al tiuj de IUPAK. Ĉiuj ĉi kriterioj kaj aliaj estas validaj
 en la formado de vortoj en Esperanto.
 
@@ -699,76 +699,49 @@ manpleno da reguloj, eblas derivi la tutan element-nomaron.
 
 ## Literaturo
 
-[1] Duncan, D., "La nomado de la elementoj", Scienca Revuo, 1950, p.
-128-133.
+1. [Duncan, D., "La nomado de la elementoj", Scienca Revuo, 1950, p. 128-133.]{#b-1}
 
-[2] Westermayer, M., “International chemical dictionary". F. R.
-Germanio: memeldono, 1982. 75 p.
+2. [Westermayer, M., “International chemical dictionary". F. R. Germanio: memeldono, 1982. 75 p.]{#b-2}
 
-[3] Kolker, B., "Esperanto - glja ĥimikov" (Esperanto por kemiistoj),
-Himija i ĵizn', 1982, n-ro 7, p. 78-81.
+3. [Kolker, B., "Esperanto - glja ĥimikov" (Esperanto por kemiistoj), Himija i ĵizn', 1982, n-ro 7, p. 78-81.]{#b-3}
 
-[4] Léger, Roger kaj A. Albault, "Dictionnaire Frangais-Espéranto".
-Francio: Editions Françaises d'Espéranto, 1961. 672 p. Vidu p. XII-XOI
-en la Aldonaĵo ĉe la fino de la libro.
+4. [Léger, Roger kaj A. Albault, "Dictionnaire Frangais-Espéranto". Francio: Editions Françaises d'Espéranto, 1961. 672 p. Vidu p. XII-XOI en la Aldonaĵo ĉe la fino de la libro.]{#b-4}
 
-[5] Pure and Applied Chemistry, feb. 1979, p. 383-384.
+5. [Pure and Applied Chemistry, feb. 1979, p. 383-384.]{#b-5}
 
-[6] Duncan, D. R., "English-Esperanto chemical dictionary". London:
-British Esperanto Association, 1956. 56 p.
+6. [Duncan, D. R., "English-Esperanto chemical dictionary". London: British Esperanto Association, 1956. 56 p.]{#b-6}
 
-[7] Pluhar, Zdenek, "Problemoj de la sistema ĥemia nomenklaturo en la
-Internacia Lingvo". En: Apliko de Esperanto en Scienco kaj Tekniko
-[SAEST]. Ĉeĥa Esperanto-Asocio, 1980. p. 86-93.
+7. [Pluhar, Zdenek, "Problemoj de la sistema ĥemia nomenklaturo en la Internacia Lingvo". En: Apliko de Esperanto en Scienco kaj Tekniko [SAEST]. Ĉeĥa Esperanto-Asocio, 1980. p. 86-93.]{#b-7}
 
-[8] Waringhien, G., red., "Plena ilustrita vortaro de Esperanto". 2a
-eldono. Paris: SAT, 1977. 1303 p.
+8. [Waringhien, G., red., "Plena ilustrita vortaro de Esperanto". 2a eldono. Paris: SAT, 1977. 1303 p.]{#b-8}
 
-[9] Perioda tabelo de la elementoj, aperinta en: Monato, n-ro 1, 1982. p.
-27.
+9. [Perioda tabelo de la elementoj, aperinta en: Monato, n-ro 1, 1982. p. 27.]{#b-9}
 
-[10] Léger, Roger kaj André Albault, "Dictionnaire Français-Espéranto".
-Éditions Françaises D'Espéranto, 1961. 672 p.
+10. [Léger, Roger kaj André Albault, "Dictionnaire Français-Espéranto". Éditions Françaises D'Espéranto, 1961. 672 p.]{#b-10}
 
-[11] Piéro, J., a) "Kemiaj afiksoj". Varsovio: Wydawnictwa
-Naukowa-Techniezne, 1966. 36 p. b) "Fundamento de kemia nomenklaturo".
-Varsovio: Pola Esperanta Asocio, 1986. 77 p.
+11. [Piéro, J., a) "Kemiaj afiksoj". Varsovio: Wydawnictwa Naukowa-Techniezne, 1966. 36 p. b) "Fundamento de kemia nomenklaturo". Varsovio: Pola Esperanta Asocio, 1986. 77 p.]{#b-11}
 
-[12] Portmann, D., "Recenzo de 'Kemia Nomenklaturo' de Jan Pióro".
-En: Akademiaj Studoj, 1985. p. 81-86
+12. [Portmann, D., "Recenzo de 'Kemia Nomenklaturo' de Jan Pióro". En: Akademiaj Studoj, 1985. p. 81-86]{#b-12}
 
-[13] Albault, A., "Studo de la vortoj entenantaj unu el la silaboj aŭ, eŭ,
-oŭ". Akademiaj Studoj, 1988-1990. p. 49-67; vidu p. 51.
+13. [Albault, A., "Studo de la vortoj entenantaj unu el la silaboj aŭ, eŭ, oŭ". Akademiaj Studoj, 1988-1990. p. 49-67; vidu p. 51.]{#b-13}
 
-[14] Chemical and Engineering News, 4 feb. 1985, p. 26-27.
+14. [Chemical and Engineering News, 4 feb. 1985, p. 26-27.]{#b-14}
 
-[15] Bulter, M., "Esperanto-English dictionary". British-Esperanto
-Association, 1967. Vidu p. 9.
+15. [Bulter, M., "Esperanto-English dictionary". British-Esperanto Association, 1967. Vidu p. 9.]{#b-15}
 
-[16] Stoker, H. kaj M. Slabaugh, "Ĝenerala, organika, kaj biologia kemio:
-mallonga enkonduko". Tradukita el la angla de teamo sub la gvido de R.
-K. Jones kaj D. Portmann. Ĉikago, Usono: Esperanto-Societo de Ĉikago,
-malneta 'eldono' en 1987. (Ne eldonita libroforme; poparta eldono
-planata por Scienca Revuo.)
+16. [Stoker, H. kaj M. Slabaugh, "Ĝenerala, organika, kaj biologia kemio: mallonga enkonduko". Tradukita el la angla de teamo sub la gvido de R. K. Jones kaj D. Portmann. Ĉikago, Usono: Esperanto-Societo de Ĉikago, malneta 'eldono' en 1987. (Ne eldonita libroforme; poparta eldono planata por Scienca Revuo.)]{#b-16}
 
-[17] Wüster, E., "Esperantologiaj studoj". Antverpeno: Stafeto, 1978.
-254 p.
+17. [Wüster, E., "Esperantologiaj studoj". Antverpeno: Stafeto, 1978. 254 p.]{#b-17}
 
-[18] Cherpillod, A., "Nepivaj vortoj". Francio, Courgenard: eldono de la
-aŭtoro, c1988. 179 p.
+18. [Cherpillod, A., "Nepivaj vortoj". Francio, Courgenard: eldono de la aŭtoro, c1988. 179 p.]{#b-18}
 
-[19] Terrel, P., k.a. "Collins German-English English-German
-dictionary". 2a eldono. Glasgow: HarperCollins Publishers, 1991.
-800+902 p.
+19. [Terrel, P., k.a. "Collins German-English English-German dictionary". 2a eldono. Glasgow: HarperCollins Publishers, 1991. 800+902 p.]{#b-19}
 
-[20] Piéro, J., "Respondo al recenzo en AkSt. 1985", Akademiaj Studoj,
-1986, p. 138-140.
+20. [Piéro, J., "Respondo al recenzo en AkSt. 1985", Akademiaj Studoj, 1986, p. 138-140.]{#b-20}
 
-[21] Berthelot, P., "Provo de khemia nomigado en Esperanto". Francio,
-1904. 16 p.
+21. [Berthelot, P., "Provo de khemia nomigado en Esperanto". Francio, 1904. 16 p.]{#b-21}
 
-[22] "Esperanta nomenklaturo de kemio kaj vortaro de kemio". Paris:
-Internacia Scienca Asocio Esperantista, 1913. 14 p.
+22. ["Esperanta nomenklaturo de kemio kaj vortaro de kemio". Paris: Internacia Scienca Asocio Esperantista, 1913. 14 p.]{#b-22}
 
 Adreso de la aŭtoro:
 1517 Raymond, Apt. 101
