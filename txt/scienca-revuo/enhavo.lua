@@ -4,7 +4,8 @@ function Meta(meta)
 
     local title = meta.title and pandoc.utils.stringify(meta.title) or "sen titolo"
     local author = meta.author and pandoc.utils.stringify(meta.author) or ""
-    local date = meta.date and pandoc.utils.stringify(meta.date) or ""
+    local year = meta.year and pandoc.utils.stringify(meta.year) or ""
+    local volume = meta.volume and pandoc.utils.stringify(meta.volume) or ""
 
     -- por krei hiperligojn ni bezonas ankaŭ la dosiernomon 
     local input_file = PANDOC_STATE.input_files[1] or ""
@@ -17,7 +18,9 @@ function Meta(meta)
         file:write(
             '"' .. filename .. '",',
             '"' .. title:gsub('"', '""') .. '",',
-            '"' .. author:gsub('"', '""') .. '"\n'
+            '"' .. author:gsub('"', '""') .. '",',
+            '"' .. year:gsub('"', '""') .. '",',
+            '"' .. volume:gsub('"', '""') .. '"\n'
         )
         file:close()
     else

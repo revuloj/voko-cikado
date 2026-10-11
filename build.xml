@@ -636,6 +636,8 @@ voku ekz-e:
       <apply executable="pandoc" parallel="false" dest="${destino}">
         <arg value="-s" />
 
+        <arg value="--lua-filter=${fonto}/artikolo.lua" />
+
         <!-- permesu formulojn per MathJax / mhchem -->
         <arg value="--mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=TeX-AMS_HTML-full&amp;extra=mhchem"/>
         <arg value="-f" />
@@ -645,7 +647,7 @@ voku ekz-e:
         <targetfile /> 
         <srcfile />
 
-        <fileset dir="${fonto}" includes="1949-004/*.md" />
+        <fileset dir="${fonto}" includes="1957*/*.md" />
         <chainedmapper>
           <flattenmapper/>
           <globmapper from="*.md" to="*.html"/>
@@ -653,7 +655,7 @@ voku ekz-e:
       </apply>
 
       <!-- 3. Kreu enhavon en index.html -->
-      <echo file="${destino}/enhavlisto.csv" append="false" message='"dosiero","titolo","aŭtoro"${line.separator}' />
+      <echo file="${destino}/enhavlisto.csv" append="false" message='"dosiero","titolo","aŭtoro","jaro","numero",${line.separator}' />
 
       <!-- 2. Fast Pass: Extract metadata for ALL files to rebuild the CSV fresh -->
       <!-- Per force="true" ni legas en ĉiuj dosieroj, ne nur la pli novaj -->
@@ -668,26 +670,25 @@ voku ekz-e:
         <arg value="--lua-filter=${fonto}/enhavo.lua" />
         
         <srcfile />
-        <fileset dir="${fonto}" includes="1949-004/*.md" />
+        <fileset dir="${fonto}" includes="1957*/*.md" />
       </apply>     
 
       <exec executable="pandoc">
        <!-- <arg value="-f" />
         <arg value="csv" /> -->
         <arg value="-s" />
-        <!--arg value="-metadata" />
-        <arg value="title=Enhavlisto" /-->      
+        <arg value="--metadata" />
+        <arg value="title=Scienca Revuo - listo de artikoloj" />      
         <arg value="--lua-filter=${fonto}/csv2inx.lua" />
         <arg value="-o" />
         <arg value="${destino}/index.html" />
         <arg value="${destino}/enhavlisto.csv" />
       </exec>     
-<!--
+
       <copy todir="${destino}">
         <fileset dir="${fonto}" includes="**/*.png"/>
         <mapper type="flatten"/>
       </copy>
--->
    </target>
 
 

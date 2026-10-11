@@ -1,31 +1,33 @@
 ---
-eldono: Scienca Revuo 4/1949
 title: Helpo por reŭmatismuloj
-tradukintoj:
-    - T. L. C. Bluett
-kapvortoj:
+author:
+    - T. L. C. Bluett (tradukinto)
+lang: eo
+magazine: Scienca Revuo
+volume: 004
+year: 1949
+keywords:
     - reŭmatismo
-fonto: https://scienca-revuo.info/article/1512
-permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+source: https://scienca-revuo.info/article/1512
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
-
-# Helpo por reŭmatismuloj
 
 <blockquote>
 (El la *Listener* de la 15-a de Septembro, 1949, p, 435.
 Tradukis T.L.C.B., kun permeso de la B.B.C.)
 </blockquote>
 
-Nova drogo, kiu nomiĝas *kortisono* aŭ *Kombinaĵo E*[^1], estas nuntempe
+Nova drogo, kiu nomiĝas *kortisono* aŭ *Kombinaĵo E* [^1], estas nuntempe
 uzata ĉe la kuracado de reŭmatismaj malsanoj. Bedaŭrinde la provizo
 ĝis nun estas tiel malabunda, ke kostas ĉirkaŭ £ 50 por fari kvanton
 sufiĉan por eĉ unu injekto. Tamen esploristoj lastatempe eltrovis, ke ili
 povas fabriki tiun saman drogon el planto, kiu kreskas abunde en Afriko.
 
-D-ro *George Taylor* en disradiigita parolado diris jene: „Mi trovis ĉi
-tiun kreskaĵon *(Strophanthus Sarmentosus)* en la densaj verdaj arbaregoj de la protektorato Ugando, kie ĝi festone ornamas la altajn arbojn,
-kaj grimpas kelkfoje eĉ ĝis 70 aŭ 80 futoj[^2] super la tero, Ĝi
-iom similas al vinberujo; ĝia trunketo estas dika je 2 aŭ 4 coloj[^2] kaj
+D-ro _George Taylor_ en disradiigita parolado diris jene: „Mi trovis ĉi
+tiun kreskaĵon *(Strophanthus Sarmentosus)* en la densaj verdaj arbaregoj de
+la protektorato Ugando, kie ĝi festone ornamas la altajn arbojn,
+kaj grimpas kelkfoje eĉ ĝis 70 aŭ 80 futoj [^2] super la tero, Ĝi
+iom similas al vinberujo; ĝia trunketo estas dika je 2 aŭ 4 coloj [^2] kaj
 la supraj branĉoj portas malgrandajn verdajn foliojn kaj amasojn da
 belaj floroj. La petaloj havas longajn, maldikajn torditajn „vostojn”, kies
 longeco estas ĉirkaŭ tri coloj kaj pro tio la kreskaĵo nomiĝas
@@ -41,7 +43,7 @@ Ja ekzistas multaj specioj de *Strophanthus*. El unu el ili devenas drogo,
 kiun oni uzas ĉe la kuracado de kormalsano. Sed la kreskaĵo, el kiu ni
 eltiros la „kombinaĵon E” estas la sama kreskaĵo, el kiu oni povas eltiri
 mortigan venenon, kiun la Afrikanoj uzas por ŝmiri la pintojn de siaj
-mansagoj. La Afrikanoj metas ĉirkaŭ kvaronon de funto[^3] da semoj,
+mansagoj. La Afrikanoj metas ĉirkaŭ kvaronon de funto [^3] da semoj,
 maldelikate muelitaj, en feran poton kun ĉirkaŭ du pajntoj (unu litro) da
 akvo, kaj kiam ili jam varmigis ĝin sufiĉe por ĝin boligi, ili aldonas
 malgrandan kvanton de pulvoro farita el la ŝelo kaj radikoj de kelkaj aliaj
