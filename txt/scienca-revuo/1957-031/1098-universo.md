@@ -2,6 +2,7 @@
 title: Universo kurbeca universo ebeneca kaj la svisfromaĝa modelo de kvardimensia spaco
 subtitle: Dept. of Physics, Purdue University, Lafayette, Indiana, Usono
 author: Prof. D-ro F. J. Belinfante
+lang: eo
 magazine: Scienca Revuo
 volume: 031
 year: 1957

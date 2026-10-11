@@ -2,6 +2,7 @@
 title: La maro en la internacia juro
 subtitle: Prelego en Internacia Somera LIniversitato, Kopenhago, 1956
 author: Prof. D-ro I. Lapenna
+lang: eo
 magazine: Scienca Revuo
 volume: 031
 year: 1957

@@ -647,7 +647,7 @@ voku ekz-e:
         <targetfile /> 
         <srcfile />
 
-        <fileset dir="${fonto}" includes="1957*/*.md" />
+        <fileset dir="${fonto}" includes="1958*/*.md" />
         <chainedmapper>
           <flattenmapper/>
           <globmapper from="*.md" to="*.html"/>
@@ -670,7 +670,7 @@ voku ekz-e:
         <arg value="--lua-filter=${fonto}/enhavo.lua" />
         
         <srcfile />
-        <fileset dir="${fonto}" includes="1957*/*.md" />
+        <fileset dir="${fonto}" includes="1958*/*.md" />
       </apply>     
 
       <exec executable="pandoc">
@@ -678,7 +678,7 @@ voku ekz-e:
         <arg value="csv" /> -->
         <arg value="-s" />
         <arg value="--metadata" />
-        <arg value="title=Scienca Revuo - listo de artikoloj" />      
+        <arg value="title=Scienca Revuo - elektitaj artikoloj" />      
         <arg value="--lua-filter=${fonto}/csv2inx.lua" />
         <arg value="-o" />
         <arg value="${destino}/index.html" />

@@ -1,41 +1,37 @@
 ---
-eldono: Scienca Revuo n-ro 37 4/1958
-rubriko: 
-titolo: Terminaro pri la ekstera morfologio de la florhavaj plantoj
-aŭtoroj: J. W. Moll
-kapvortoj: 
+title: Terminaro pri la ekstera morfologio de la florhavaj plantoj
+subtitle: laŭ „Handboek der Plantbeschrijving” (lernolibro pri la priskribo de plantoj)
+author: 
+    - J. W. Moll
+    - Chr. F. W. Slijper (esperanta prilaboro)
+lang: eo
+magazine: Scienca Revuo
+volume: 037
+year: 1958
+keywords: 
     - botaniko
     - nomenklaturo
-fonto: https://scienca-revuo.info/article/265
-permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+source: https://scienca-revuo.info/article/265
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
-# Terminaro pri la ekstera morfologio de la florhavaj plantoj (Anthophyta)
-
-laŭ
-„HANDBOEK DER PLANTBESCHRIJVING”
-(lernolibro pri la priskribo de plantoj)
-
-de d-ro J. W. MOLL †.
-
-iama profesoro pri botaniko
+<blockquote>
+J. W. Moll iama profesoro pri botaniko
 ĉe la ŝtata universitato en
 Groningen (Nederlando).
-
-Prilaboris esperantlingve
-
-Chr. F. W. Slijper
+</blockquote>
 
 ## Antaŭparolo
 
 Tiu ĉi terminaro tute baziĝas sur la lernolibro de profesoro 
-d-ro *J. W. Moll*. Tamen, plurajn aldonojn mi ĉerpis el la terminologia parto de
-„*Compendium*” de d-ro *A. A. Pulle*, eksprofesoro ĉe la ŝtata universitato
+d-ro [J. W. Moll]{.maldense}. Tamen, plurajn aldonojn mi ĉerpis el la terminologia parto de
+„*Compendium*” de d-ro [A. A. Pulle]{.maldense}, eksprofesoro ĉe la ŝtata universitato
 en *Utrecht* (Nederlando) kaj el „*Leerboek der algemene plantkunde*”
-(Lernolibro pri la ĝenerala botaniko) de d-ro *E. Reinders*, profesoro ĉe
-la ŝtata agronomia altlernejo en *Wageningen* (Nederlando).
+(Lernolibro pri la ĝenerala botaniko) de d-ro [E. Reinders]{.maldense}, profesoro ĉe
+la ŝtata agronomia altlernejo en [Wageningen]{.maldense} (Nederlando).
 
-Kiel eble plej multe mi uzis terminojn, troveblajn en „Botanika klasifiko” de d-ro *A. L. Malmanche*, membro de la franca botanika asocio, kaj
+Kiel eble plej multe mi uzis terminojn, troveblajn en „Botanika klasifiko” de
+d-ro [A. L. Malmanche]{.maldense}, membro de la franca botanika asocio, kaj
 en Plena Vortaro. Tamen, ĉar multajn el tiuj terminoj nur laŭ aspekto
 oni povas nomi esperantaj, tiajn mi klopodis vere esperantigi. Bedaŭrinde ne ĉiam mi sukcesis.
 
@@ -43,12 +39,12 @@ Post la terminoj troviĝas la scienca traduko; ordinare la latinaj substantivoj 
 
 Mi ĝojas, ke ĉiloke mi povas esprimi koran dankon al kelkaj 
 amikoj-esperantistoj, kiuj bonvole helpis min en dubaj kazoj, speciale al s-ro
-*G. F. Makkink*, biologia doktorando, prezidanto de ANSE, kiu zorge
+[G. F. Makkink]{.maldense}, biologia doktorando, prezidanto de ANSE, kiu zorge
 tralegis la tutan manuskripton.
 
 Plurajn rimarkojn liajn mi profite uzis por pliprecizigi mian laboron.
 
-Plue mi sincere dankas la eldonejon *J. B. Wolters* (*Groningen*, Nederlando), kiu senrezerve permesis al mi uzi la libron de profesoro *Moll*.
+Plue mi sincere dankas la eldonejon [J. B. Wolters]{.maldense} ([Groningen]{.maldense}, Nederlando), kiu senrezerve permesis al mi uzi la libron de profesoro [Moll]{.maldense}.
 
 Chr. S.
 
@@ -191,7 +187,6 @@ povas esti:
 
 17. Limbobazo povas esti:
     a. *nekunkreskinta*:
-
         1. *akuta* (acutus); Salix alba L., Oxalis L.
         2. *obtuza* (obtusus), se la limbo estas ronda, ovoforma aŭ ovala.
         3. *detranĉita* (truncatus), se la limbo estas aŭ triangula, aŭ deltoforma.
@@ -258,8 +253,9 @@ nomiĝas:
     d. *plumloba* (pinnatilobus), plumnerva kaj loba.
     e. *plumfenda* (pinnatifissus), plumnerva kaj fenda.
     f. *plumparta* (pinnatipartitus), plumnerva kaj parta.
-    *Rim.* 1. Folioj, kiaj la folioj de Achillea Millefolium L., nomiĝas *duoble plumpartaj* (pinnati-bipartus).
-    *Rim.* 2. Parton de folio inter du pli-malpli profundaj entranĉoj oni nomas *basko* (lacinia); Quercus Robur var. laciniata.
+
+       *Rim.* 1. Folioj, kiaj la folioj de Achillea Millefolium L., nomiĝas *duoble plumpartaj* (pinnati-bipartus).  
+       *Rim.* 2. Parton de folio inter du pli-malpli profundaj entranĉoj oni nomas *basko* (lacinia); Quercus Robur var. laciniata.
 
 ## Surfaco.
 
@@ -272,7 +268,8 @@ nomiĝas:
     c. *malglata*, *raspa* (scaber, asper).
     d. *sulketa* (rugosus).
     d. *buleta* (bullatus).
-    Pri haroj kaj aliaj akcesoraĵoj vd. 63.
+
+    Pri haroj kaj aliaj akcesoraĵoj vd. 63.  
     Pri koloroj vd. 106.
 
 27. Laŭ ĝia diko oni nomas limbon:
@@ -292,15 +289,15 @@ nomiĝas:
     a. *folia ingo* (vagina).
     b. *komuna petiolo* (petiolus communis).
     c. *subpetioloj* (petiolulus), ĉiuj subtenantaj unu *sublimbon*.
-    d. *folioloj* (foliolum), la unuopaj sublimboj.
-    *Rim.* Se folio estas pluroble kompozita, oni povas paroli pri petioloj kaj folioloj unuarangaj, duarangaj, k.t.p.
+    d. *folioloj* (foliolum), la unuopaj sublimboj.  
+       *Rim.* Se folio estas pluroble kompozita, oni povas paroli pri petioloj kaj folioloj unuarangaj, duarangaj, k.t.p.
     e. *substipoloj* (stipellae), stipoloj ĉe la bazo de la folioloj.
 
 29. Kompozita folio povas esti:
     a. *palmkompozita* (palmatus), tri aŭ pli da folioloj insertitaj sur la supro de komuna petiolo; vd. 30.
     b. *plumkompozita* (pinnatus), folioloj ambaŭflanke de komuna petiolo. Du kontraŭaj folioloj formas *jugon* (jugum); vd. 31.
-    c. *palm-plumkompozita* (digitatopinnatus), palmkompozita kun plumkompozitaj folioloj; Mimosa pudica L.
-    *Rim.* Folio de Helleborus foetidus L. kaj multaj Aroideae nomiĝas *piedforme kompozita* (pedatipartus).
+    c. *palm-plumkompozita* (digitatopinnatus), palmkompozita kun plumkompozitaj folioloj; Mimosa pudica L.  
+       *Rim.* Folio de Helleborus foetidus L. kaj multaj Aroideae nomiĝas *piedforme kompozita* (pedatipartus).
 
 30. Laŭ la nombro de la folioloj palmkompozita folio nomiĝas:
     a. *trifoliola* (trifoliolatus).
@@ -323,31 +320,31 @@ nomiĝas:
 
 32. Sur ĉiu nodo (vd. 33) povas esti lokita(j):
     a. unu folio; tiukaze la lokiĝo estas:
-        1. *disa* (alternus, sparsus); la folioj ŝajne estas neregule dislokitaj sur la tigo, sed la lokiĝo estas indikebla jene: 1/3, 2/5, 3/8 k.t.p.
-        2. *duvice alterna* (folia disticha); tia lokiĝo estas indikebla per 1/2.
+        1. *disa* (alternus, sparsus); la folioj ŝajne estas neregule dislokitaj sur la tigo, sed la lokiĝo estas indikebla jene: ⅓, ⅖, ⅜ k.t.p.
+        2. *duvice alterna* (folia disticha); tia lokiĝo estas indikebla per ½.
     b. du folioj; ili nomiĝas *kontraŭaj* (folia opposita) kaj la lokiĝon Oni nomas *kruca* (decussata), ĉar du sinsekvaj paroj da folioj ĉiam formas krucon.
     c. pli ol du folioj; tia lokiĝo nomiĝas *verticila*  (verticillatus); Asperula L.
 
 ## Tigo, trunko (caulis).
 
 33. *Tigo* estas la portanto de folioj kaj diversaj aliaj organoj. La ofte iom dikiĝinta loko, sur kiu troviĝas unu aŭ pli da folioj nomiĝas *nodo* (nodus).
-Parto de tigo inter du nodoj nomiĝas *internodaĵo* (internodium).
+Parto de tigo inter du nodoj nomiĝas *internodaĵo* (internodium).  
 La supra angulo, limigita de tigo kaj folio, petiolo aŭ branĉo nomiĝas *akselo* (axilla).
 Dika, rekte staranta tigo de arbo nomiĝas *trunko*.
 
 34. Oni distingas:
     a. *sentigajn plantojn* (planta acaulis), ŝajne sentigajn, sed fakte havantajn ege mallongan tigon; tiukaze la folioj nomiĝas *radikaj* folioj (folia radicalia); ili formas *rozeton* (rosula).
-    b. *tighavajn plantojn*.
-    *Rim.* Veratrum L. kaj Musa L. (la banan„arbo”) nur ŝajne havas tigon aŭ trunkon. Tia *pseŭdotrunko* (truncus spurius) konsistas el fortikaj folio-ingoj, kiuj ĉirkaŭas unu la alian.
+    b. *tighavajn plantojn*.  
+       *Rim.* Veratrum L. kaj Musa L. (la banan„arbo”) nur ŝajne havas tigon aŭ trunkon. Tia *pseŭdotrunko* (truncus spurius) konsistas el fortikaj folio-ingoj, kiuj ĉirkaŭas unu la alian.
 
 35. Subtera tigo nomiĝas:
     a. *tigo-piedo* (caudex), la subtera, mallonga, travintranta parto de la tigo de dujardaŭraj herboj; Valeriana officinalis L.
-    b. *rizomo* (rhizoma), iom longa, plej ofte horizontale kreskanta; Acorus Calamus L.
-    *Rim.* Burĝonoj, elkreskintaj el rizomo, nomiĝas *subteraj eliruloj* (turion).
+    b. *rizomo* (rhizoma), iom longa, plej ofte horizontale kreskanta; Acorus Calamus L.  
+       *Rim.* Burĝonoj, elkreskintaj el rizomo, nomiĝas *subteraj eliruloj* (turion).
 
 36. Laŭ ĝiaj ecoj tigo estas:
-    a. *herbeca* (herbaceus), suka, ofte verda, neligneca; ordinare oni nomas ĝin *tigo*, kelkfoje *trunketo*.
-    *Rim.* Plantoj, havantaj herbecajn tigojn, nomiĝas *herboj* (herba); Lilium L., gresoj.
+    a. *herbeca* (herbaceus), suka, ofte verda, neligneca; ordinare oni nomas ĝin *tigo*, kelkfoje *trunketo*.  
+       *Rim.* Plantoj, havantaj herbecajn tigojn, nomiĝas *herboj* (herba); Lilium L., gresoj.
     b. *ligneca*; tiukaze ĝi estas nomata *trunko* (truncus); vd. 37.
 
 37. Plantoj havantaj trunkon, nomiĝas:
@@ -357,8 +354,8 @@ Dika, rekte staranta tigo de arbo nomiĝas *trunko*.
 38. Laŭforme tigo povas esti:
     a. *cilindra* (teres, ecylindraceus).
     b. *angula* (angularis), prismoforma: *triangula* (triangularis), *kvarangula* (quadrangularis), *kvinangula* (quinquangularis); ... ĝis *multangula* (multangularis).
-    c. *plata* (compressus), la transversa tratranĉo estas pli-malpli plat-elipsa.
-    *Rim.* Cyclamen L. havas *tuberforman tigon*, la ŝvelintan *subloban internodaĵon* (internodium hypocotylum); vd. 144 c.
+    c. *plata* (compressus), la transversa tratranĉo estas pli-malpli plat-elipsa.  
+       *Rim.* Cyclamen L. havas *tuberforman tigon*, la ŝvelintan *subloban internodaĵon* (internodium hypocotylum); vd. 144 c.
 
 39. La surfaco de tigo povas esti:
     a. *glata* (laevis); vd. 26 a.
@@ -375,6 +372,7 @@ Dika, rekte staranta tigo de arbo nomiĝas *trunko*.
     b. *trunko* (truncus); vd. 36 b.
     c. *ŝalmo* (culmus), la ordinare kava tigo de multaj Gramenacoj, havanta klare videblajn nodojn kaj internodaĵojn.
     d. *kalamo* (calamus), la „ŝalmo” de la Junkacoj kaj kelkaj Ciperacoj, konsistanta el unu tre longa internodaĵo.
+       
     *Rim.* Ĉe multaj Orkidacoj kaj kelkaj aliaj tropikaj plantoj la tigo dikiĝas tiel, ke oni nomas la dikiĝintan parton *pseŭdotubero* (pseudobulbus).
 
 42. Laŭ ĝia direkto tigo estas:
@@ -439,9 +437,10 @@ substancojn.
     b. *aeroradiko* (radix aereus); ili eliras el tigo aŭ branĉoj kaj kreskas en la teron se ili atingas ĝin; Ficus Benjamina L.
     *Rim.* Se aeroradikoj, elirantaj el la trunko kaj subtenantaj ĝin, fiksiĝas en la tero, oni nomas ilin stilzoradikoj; pandano, rizoforoj.
     c. *suĉradikoj* (haustorium); ili penetras en aliajn kreskaĵojn por suĉi nutraĵon el ili; Viscum album L.
-    d. *fiksradikoj* (fulcrum), mallongaj eltigaj kromradikoj per kiuj ne-parazitaj kreskaĵoj fiksiĝas al iu subtenaĵo; Hedera Helix L.<br>
-    *Rim.* 1. Kelkfoje la radikpinto de kromradiko estas ŝvelinta: *ŝvelpinta radiko* (radix filipendula); Spiraea filipendula L., Ulmaria fil. J. Hill.
-    *Rim.* 2. Radikon havantan plurajn ŝvelaĵojn, oni nomas *rozari-radiko*(radix moniliformis); Pelargonium triste Soland.
+    d. *fiksradikoj* (fulcrum), mallongaj eltigaj kromradikoj per kiuj ne-parazitaj kreskaĵoj fiksiĝas al iu subtenaĵo; Hedera Helix L.
+
+    *Rim.* 1. Kelkfoje la radikpinto de kromradiko estas ŝvelinta: *ŝvelpinta radiko* (radix filipendula); Spiraea filipendula L., Ulmaria fil. J. Hill.  
+    *Rim.* 2. Radikon havantan plurajn ŝvelaĵojn, oni nomas *rozari-radiko* (radix moniliformis); Pelargonium triste Soland.
 
 
 ## Burĝonoj (gemma).
@@ -453,6 +452,7 @@ ordinare ilin ŝirmas ia envolvaĵo; vd. 53 b.
     a. *finburĝonojn* (g. terminalis); ili estas finstaraj.
     b. *flankburĝonojn* (g. lateralis), flanke de la tigoj kaj branĉoj; ordinare ili troviĝas en la akseloj de folioj aŭ tuj super la *folio-cikatroj*: *akselburĝonoj* (g. axellaris).
     c. *kromburĝonojn* (g. adventicius), en neordinaraj lokoj; ofte ili estas dormantaj flankburĝonoj, provizore ne disvolviĝintaj.
+
     *Rim.* Ĉe kelkaj plantoj, ekz. Juglans L., Acer rubrum L., sambuko, tabako kaj aliaj, en ĉiu akselo ordinare troviĝas pli ol unu burĝono. La unua, ofte la plej granda, estas la *ĉefburĝono*, la aliaj nomiĝas *aldonaj burĝonoj*.
 
 52. Laŭ enhavo burĝonoj nomiĝas:
@@ -546,8 +546,9 @@ sin volvas ĉirkaŭ subtenaĵo. Laŭdevene ili estas:
       *mallong-felteca* (tomentellus).
     g. *silkeca* (sericeus), kun densa hararo, la haroj alpremitaj, rektaj kaj molaj.
     h. *velureca* (velutinus), kun densa, mola, mallonga hararo destara.
-    i. *harega*, *pikilhara* (hispidus strigosus, setosus), kun rigidaj, malmolaj haroj.<br>
-    *Rim.* 1. Se rando de folio aŭ ripo de tigo havas destarajn harojn, ciliojn (cilia), oni nomas ĝin *cilia* (ciliatus).
+    i. *harega*, *pikilhara* (hispidus strigosus, setosus), kun rigidaj, malmolaj haroj.
+
+    *Rim.* 1. Se rando de folio aŭ ripo de tigo havas destarajn harojn, ciliojn (cilia), oni nomas ĝin *cilia* (ciliatus).  
     *Rim.* 2. *Barbaj* (barbatus) nomiĝas organoj, ekz. korolfolioj, stilusoj, stamenoj, kiuj estas provizitaj per densa tufeto de haroj.
 
 ## lokiĝo de la floroj (anthotaxis).
@@ -581,7 +582,8 @@ sin volvas ĉirkaŭ subtenaĵo. Laŭdevene ili estas:
     a. *dubranĉa kimo* (cyma dichotoma, dichasium) ripete disbranĉiĝas per du kontraŭaj branĉoj, tamen la altrangaj flankaksoj ofte iĝas unubranĉaj; Begonia L.
     b. *plurbranĉa kimo* (pleiochasium); ĉe ĉiu disbranĉiĝo troviĝas pli ol du branĉoj; kelkaj Eŭforbiacoj, kelkaj specioj de Sedum L.
     c. *unubranĉa kimo* (monochasium); vd. 71.
-    d. *pseŭdo-verticilo* (verticillaster), du ege kunpremitaj kimaj floraroj, troviĝantaj en la akseloj de du kontraŭstaraj folioj; Labiacoj.<br>
+    d. *pseŭdo-verticilo* (verticillaster), du ege kunpremitaj kimaj floraroj, troviĝantaj en la akseloj de du kontraŭstaraj folioj; Labiacoj.
+
     *Rim.* *Glomerolo* (glomerulus) estas bulforma, senpedikla floraro, kiu plejofte havas kiman karakteron; Urtica L.
 
 71. Specoj de unubranĉaj kimoj estas:
@@ -618,19 +620,16 @@ sin volvas ĉirkaŭ subtenaĵo. Laŭdevene ili estas:
         c. *antelo* (anthela); la malsupraj branĉoj estas tiom longaj, ke iliaj suproj alte elstaras super la aliaj branĉoj; Junkacoj.
 
 73. *Miksaj floraroj*, kompleksaj floraroj, diversmaniere kunmetitaj;
-ofte ili similas paniklon aŭ korimbon, kaj tiukaze oni nomas ilin
-tiel.
+    ofte ili similas paniklon aŭ korimbon, kaj tiukaze oni nomas ilin tiel.
 
     Florarojn kiel tiuj de Aesculus L. kaj Scrophularia Trn. oni nomas *tirso* (thyrsus).
 
-    *Rim.* 1. Rilate al floraroj oni uzas plue la terminojn:
-
+    *Rim.* 1. Rilate al floraroj oni uzas plue la terminojn:  
     a. *malmultflora* (pauciflores).
     b. *densa* (densus) kaj *maldensa* (depauperatus), speciale uzataj je priskribo de spikoj kaj botroj.
     c. *glob(et)forma*, *globa*, *sfera* (globatus, globulosus).
 
-    *Rim.* 2. Kelkfoje floraro similas unuopan floron; tia floraro nomiĝas *pseŭdofloro* (pseudanthium); pluraj Eŭforbiacoj, Kompozacoj,
-Aracoj, Hydrangea L.
+    *Rim.* 2. Kelkfoje floraro similas unuopan floron; tia floraro nomiĝas *pseŭdofloro* (pseudanthium); pluraj Eŭforbiacoj, Kompozacoj, Aracoj, Hydrangea L.
 
 
 ## Floro (flos).
@@ -654,11 +653,9 @@ ludas rolon ĉe la seksa reproduktado. Partoj de floro povas esti:
 77. Floro, havanta ĉiujn kvar zonojn, estas *kompleta* (completus).
 Se mankas unu aŭ pli da zonoj, floro estas nekompleta (incompletus); vd. 78.
 
-*Rim.* 1. Se la du zonoj de la florvestaĵo estas tute aŭ preskaŭ tute
-similaj, ankaŭ en tiu kazo oni nomas floron *nekompleta*; Liliacoj.
+    *Rim.* 1. Se la du zonoj de la florvestaĵo estas tute aŭ preskaŭ tute similaj, ankaŭ en tiu kazo oni nomas floron *nekompleta*; Liliacoj.
 
-*Rim.* 2. Se la nombro de organoj de ĉiu zono estas 3, 4 aŭ 5 aŭ dividebla per 3, 4 aŭ 5, la floro nomiĝas *trinombra* (ternarius),
-*kvarnombra* (quaternarius) aŭ *kvinnombra* (quinarius).
+    *Rim.* 2. Se la nombro de organoj de ĉiu zono estas 3, 4 aŭ 5 aŭ dividebla per 3, 4 aŭ 5, la floro nomiĝas *trinombra* (ternarius), *kvarnombra* (quaternarius) aŭ *kvinnombra* (quinarius).
 
 78. Rilate al la florvestaĵo oni parolas pri:
     a. floroj kun *kaliko* kaj *korolo*.
@@ -716,18 +713,19 @@ floro povas esti:
 86. Florkovraĵo laŭforme estas: regula, duflanke simetria aŭ malregula, vd. 83 kaj 89; ĝi povas konsisti el:
     a. *kovraĵfolioj* (tepalum); vd. 87.
     b. *haroj* (pilus).
+
     *Rim.* La foliecaj organoj de gramenacaj floroj nomiĝas glumoj (gluma); super ili troviĝas *ŝvelkorpetoj* (lodiculus).
 
 87. La kovraĵfolioj povas esti:
-    a. *liberaj* (liber); la kovraĵo tiukaze estas liberfolia (pleiophyllus).
-    b. *kunkreskintaj* (gamophyllus); tiukaze oni ĉiam indikas la nombron de la *baskoj* (lacinia), la elstaraĵoj inter du entranĉoj.
-    
-    Ofte oni indikas ankaŭ la profundon de la entranĉoj pere de la terminoj du-, tri-, kvar-, kvindenta, -loba, -fenda, -parta ktp.; vd. 23.
+    a.  *liberaj* (liber); la kovraĵo tiukaze estas liberfolia (pleiophyllus).
+    b.  *kunkreskintaj* (gamophyllus); tiukaze oni ĉiam indikas la nombron de la *baskoj* (lacinia), la elstaraĵoj inter du entranĉoj.
 
-    Plue oni distingas:
-        1. *tubon* (tubus), la cilindroforman parton; vd. 89.
-        2. *limbon* (limbus), la pli-malpli platan, sterniĝintan parton.
-        3. *gorĝon* (faux), la limon inter tubo kaj limbo.
+        Ofte oni indikas ankaŭ la profundon de la entranĉoj pere de la terminoj du-, tri-, kvar-, kvindenta, -loba, -fenda, -parta ktp.; vd. 23.
+
+        | Plue oni distingas:
+        |     1. *tubon* (tubus), la cilindroforman parton; vd. 89.
+        |     2. *limbon* (limbus), la pli-malpli platan, sterniĝintan parton.
+        |     3. *gorĝon* (faux), la limon inter tubo kaj limbo.
 
 88. Kunkreskinta florkovraĵo laŭforme povas esti:
     a. *stelforma* (stelliformus, rotatus), malgranda tubo, granda limbo; Solanum tuberosum L.
@@ -738,15 +736,17 @@ floro povas esti:
     e. *funelforma* (infundibuliformis); Convolvulus sepium L.
     f. *sonorilforma* (campanulatus); Hyacinthus orientalis L.
 
-89. Duflanke simetria florkovraĵo kelkfoje estas provizita per *ergoto* (calcar), kava alpendaĵo cilindroforma, enhavanta nektaron;
-Tropaeolum majus L.
-La tubo de florkovraĵo kelkfoje kontinuas kiel cilindra surstaraĵo
-de la limbo; oni nomas ĝin *kromkorolo* (corona, paracorolus);
-Narcissus Pseudonarcissus L.
+89. Duflanke simetria florkovraĵo kelkfoje estas provizita per *ergoto* (calcar), 
+    kava alpendaĵo cilindroforma, enhavanta nektaron; Tropaeolum majus L.
+
+    La tubo de florkovraĵo kelkfoje kontinuas kiel cilindra surstaraĵo 
+    de la limbo; oni nomas ĝin *kromkorolo* (corona, paracorolus); 
+    Narcissus Pseudonarcissus L.
 
 90. Laŭ la koloro florkovraĵo povas esti:
     a. *kalika* (calycinus), verda aŭ verdeska.
     b. *korola* (corollinus), kolorhava (coloratus).
+    
     Pri koloroj vd. 106.
 
 ## Kaliko (calyx).
@@ -817,7 +817,8 @@ korolo; oni kelkfoje trovas ilin:
      b. sur la limo inter ungo kaj limbo; Silene nutans L.
      c. en la tubo; Symphytum officinale L.
      d. sur la gorĝo; kelkaj miozotoj.
-     *Rim.* 1. Pri plenaj floroj (flos plenus) vd. 107.
+
+     *Rim.* 1. Pri plenaj floroj (flos plenus) vd. 107.  
      *Rim.* 2. Pri kromkorolo vd. 89.
 
 106. La koloro de korolo povas esti:
@@ -833,8 +834,7 @@ korolo; oni kelkfoje trovas ilin:
      h. *griza* (grizeus), *cindrogriza* (cinereus), *blugriza* (caesius), *grizeska* (canescens).
      i. *nigra* (niger), *brilnigra* (niger), *malbrilnigra* (ater), *brunenigra* (fuscatus),
 
-*Rim.* Folioj kaj tigoj kelkfoje estas du- aŭ plurkoloraj; oni povas
-nomi ilin *buntaj* (variegatus).
+     *Rim.* Folioj kaj tigoj kelkfoje estas du- aŭ plurkoloraj; oni povas nomi ilin *buntaj* (variegatus).
 
 ## Stamenoj (stamen).
 
@@ -859,9 +859,8 @@ nomas: *duoblaj floroj* (flos duplex).
         1. *antaŭsepalaj* (episepalus), se ili staras antaŭ la kalikfolioj.
         2. *antaŭpetalaj* (epipetalus), se ili staras antaŭ la korolfolioj.
 
-     *Rim.* 1. En kazo 1 oni nomas la stamenojn kelkfoje petalalternaj (alternipetalus), en kazo 2 *sepalalternaj* (alternisepalus).
-
-     *Rim.* 2. Floron kun 1, 2, 3, 4 k.t.p. stamenoj oni povas nomi *unustamena* (monandrus), *dustamena* (diandrus), *tristamena* (triandrus), *kvarstamena* (tetrandrus), k.t.p.
+        *Rim.* 1. En kazo 1 oni nomas la stamenojn kelkfoje petalalternaj (alternipetalus), en kazo 2 *sepalalternaj* (alternisepalus).  
+        *Rim.* 2. Floron kun 1, 2, 3, 4 k.t.p. stamenoj oni povas nomi *unustamena* (monandrus), *dustamena* (diandrus), *tristamena* (triandrus), *kvarstamena* (tetrandrus), k.t.p.
 
 110. La stamenoj estas insertitaj:
      a. sur la florbazo; *bazostaraj stamenoj*.
@@ -873,12 +872,11 @@ nomas: *duoblaj floroj* (flos duplex).
      b. *kvarpotencaj* (tetradynamus), se el la ses stamenoj kvar estas pli longaj.
 
 112. Kelkfoje pro kunkresko de la pistilo kun la stameno(j) estiĝas
-organo, kiu nomiĝas *pistilstamenaĵo* (gynostemium). Floro, havanta tian organon, nomiĝas *pistilstamenaĵa floro* (flos gynan-
-drus).
+     organo, kiu nomiĝas *pistilstamenaĵo* (gynostemium). Floro, havanta tian organon, nomiĝas *pistilstamenaĵa floro* (flos gynandrus).
 
-*Rim.* Sur la pistilstamenaĵo de la orkidacaj floroj troviĝas duloba
-antero. La poleneroj en ĉiu lobo kungluiĝis kaj estigas du klaboformajn *polenaĵojn* (pollinium, pollinarium). La „pediklo” de ambaŭ polenaĵoj finiĝas per malgranda *algludisko* (retinaculum).
-Ĝi entenas multajn *glu-glandojn*. La du *alglu-disketoj* estas enfermitaj en la tiel nomita *burseto* (bursicula).
+     *Rim.* Sur la pistilstamenaĵo de la orkidacaj floroj troviĝas duloba
+     antero. La poleneroj en ĉiu lobo kungluiĝis kaj estigas du klaboformajn *polenaĵojn* (pollinium, pollinarium). La „pediklo” de ambaŭ polenaĵoj finiĝas per malgranda *algludisko* (retinaculum).  
+     Ĝi entenas multajn *glu-glandojn*. La du *alglu-disketoj* estas enfermitaj en la tiel nomita *burseto* (bursicula).
 
 ## Stamenfadeno (filamentum).
 
@@ -940,25 +938,25 @@ f= funiklo, x = pordeto
      c. *heterotropa* (heterotropus).
 
 ![bildo 2](265-botaniko_bld-2.png)
-p = placento, f = funiklo, x = pordeto Laŭ Wettstein (simpligita)
+p = placento, f = funiklo, x = pordeto Laŭ [Wettstein]{.maldense} (simpligita)
 
 
-122. *Stilusmalsameco* (heterostylus). Povas esti, ke malsamaj individuoj de la sama specio produktas florojn, kiuj diferencas per tio,
-ke iliaj stamenoj kaj pistiloj malsamas rilate al la longeco.
+122.    *Stilusmalsameco* (heterostylus). Povas esti, ke malsamaj individuoj de la sama specio produktas 
+        florojn, kiuj diferencas per tio, ke iliaj stamenoj kaj pistiloj malsamas rilate al la longeco.
 
-Laŭ la diverseco de la stilusoj oni distingas du kazojn:
-     a. floroj kun du malsamaj stiluslongoj (heterodistylus); la floro povas esti:
-        1. *longstilusa* (macrostylus), stiluso(j) longa(j), stamenoj mallongaj.
-        2. *mallongstilusa* (microstylus), stiluso(j) mallonga(j), stamenoj longaj.
-     b. floroj kun tri malsamaj stiluslongoj (heterotristylus); la floro estas:
-        1. *longstilusa* (macrostylus), stiluso(j) longa(j), stamenoj mezlongaj kaj mallongaj.
-        2. *mezlongstilusa* (mesostylus), stiluso(j) mezlonga(j), stamenoj longaj kaj mallongaj.
-        3. *mallongstilusa* (microstylus), stiluso (j) mallonga (j), stamenoj longaj kaj mezlongaj.
+        Laŭ la diverseco de la stilusoj oni distingas du kazojn:
+        a. floroj kun du malsamaj stiluslongoj (heterodistylus); la floro povas esti:
+            1. *longstilusa* (macrostylus), stiluso(j) longa(j), stamenoj mallongaj.
+            2. *mallongstilusa* (microstylus), stiluso(j) mallonga(j), stamenoj longaj.
+        b. floroj kun tri malsamaj stiluslongoj (heterotristylus); la floro estas:
+            1. *longstilusa* (macrostylus), stiluso(j) longa(j), stamenoj mezlongaj kaj mallongaj.
+            2. *mezlongstilusa* (mesostylus), stiluso(j) mezlonga(j), stamenoj longaj kaj mallongaj.
+            3. *mallongstilusa* (microstylus), stiluso (j) mallonga (j), stamenoj longaj kaj mezlongaj.
 
-123. Laŭ la lokiĝo de la ovolujo kompare al la lokiĝo de la aliaj florpartoj ovolujo povas esti:
-     a. *supra* (superus), la libera(j) ovolujo(j) de substaranta aŭ ĉirkaŭstaranta floro; Ranunculus L., Prunus Cerasus L.; vd. 85 a kaj b.
-     b. *malsupra* (inferus), ovolujo kunkreskinta kun la florbazo de surstaranta floro; Pirus L., Fuchsia coccinea Ait.; vd. 85 c.
-     c. *duonsupra* (semi-superus, semi-inferus, semi-adhaerens), ovolujo nur parte enkreskinta en la florbazon; Saxifraga L.
+123.    Laŭ la lokiĝo de la ovolujo kompare al la lokiĝo de la aliaj florpartoj ovolujo povas esti:
+        a. *supra* (superus), la libera(j) ovolujo(j) de substaranta aŭ ĉirkaŭstaranta floro; Ranunculus L., Prunus Cerasus L.; vd. 85 a kaj b.
+        b. *malsupra* (inferus), ovolujo kunkreskinta kun la florbazo de surstaranta floro; Pirus L., Fuchsia coccinea Ait.; vd. 85 c.
+        c. *duonsupra* (semi-superus, semi-inferus, semi-adhaerens), ovolujo nur parte enkreskinta en la florbazon; Saxifraga L.
 
 124. Ovolujo enhavas unu aŭ pli da *loĝioj* (loculus), tial ĝi nomiĝas:
      a. *unuloĝia* (unilocularis); tia estas la ovolujo de ĉiuj simplaj pistiloj (vd. 118) kaj la kompozita ovolujo kies fruktfolioj ne estas kunfaldiĝintaj.
@@ -985,26 +983,24 @@ Ili povas esti:
 
 ## Frukto (fructus).
 
-129. *Vera frukto* fakte estas nur la evoluinta ovolujo, enhavanta se
-merojn; vd. 132. Pri semero vd. 139.
+129.    *Vera frukto* fakte estas nur la evoluinta ovolujo, enhavanta se merojn; vd. 132. Pri semero vd. 139.
 
-Tamen, aliaj partoj ofte elkreskas kun la ovolujo, kune formante
-pli-malpli kompleksan frukton, kiun oni nomas ŝajnfrukto (fructus spurius, fr. inclusus, anthocarpus); vd. 131.
+        Tamen, aliaj partoj ofte elkreskas kun la ovolujo, kune formante
+        pli-malpli kompleksan frukton, kiun oni nomas ŝajnfrukto (fructus spurius, fr. inclusus, anthocarpus); vd. 131.
 
-*Rim.* 1. Kelkfoje aliaj organoj elkreskas samtempe kiel la ovolujo:
-    a. la *envolvaĵo* (involucrum), formante *kupulon* (cupula); Kupulacoj, kverko.
-    b. la *kaliko*, formante „fruktkalikon”; Physalis Alkekengi L.
-    c. la „karniĝanta” pediklo de Anacardium occidentale L.
+        *Rim.* 1. Kelkfoje aliaj organoj elkreskas samtempe kiel la ovolujo:
+        a. la *envolvaĵo* (involucrum), formante *kupulon* (cupula); Kupulacoj, kverko.
+        b. la *kaliko*, formante „fruktkalikon”; Physalis Alkekengi L.
+        c. la „karniĝanta” pediklo de Anacardium occidentale L.
 
-*Rim.* 2. Kelkaj fruktoj finiĝas per sensema elstaraĵo en formo
-de „beko” (rostrum), la elkreskinta supra parto de la stiluso.
-Tian frukton oni nomas *beka*, *bekhava* (rostratus, rostellatus);
-Erodium L'Hérit.
+        *Rim.* 2. Kelkaj fruktoj finiĝas per sensema elstaraĵo en formo
+        de „beko” (rostrum), la elkreskinta supra parto de la stiluso.  
+        Tian frukton oni nomas *beka*, *bekhava* (rostratus, rostellatus); Erodium L'Hérit.
 
-130. Alimaniere oni dividas la fruktojn jene:
-     a. *simplaj*, se ili estiĝas el ununura ovolujo de unu floro; ĉerizo.
-     b. *pluroblaj*, se ili estiĝas el du aŭ pli da ovolujoj de unu sola floro; klemato.
-     c. *kompozitaj*, se ili estiĝas el aro da floroj tiel dense kunpremitaj, ke iliaj fruktiĝintaj ovolujoj ŝajne formas unu frukton; Morus L., Anona L.
+130.    Alimaniere oni dividas la fruktojn jene:
+        a. *simplaj*, se ili estiĝas el ununura ovolujo de unu floro; ĉerizo.
+        b. *pluroblaj*, se ili estiĝas el du aŭ pli da ovolujoj de unu sola floro; klemato.
+        c. *kompozitaj*, se ili estiĝas el aro da floroj tiel dense kunpremitaj, ke iliaj fruktiĝintaj ovolujoj ŝajne formas unu frukton; Morus L., Anona L.
 
 131. Ŝajnfruktoj estas:
      a. *frago*, konusforme elkreskinta, karneca kaj sukplena florbazo, sur kiu troviĝas pluraj akenoj (vd. 133 b).
@@ -1024,10 +1020,8 @@ Erodium L'Hérit.
 
 133. Sekaj, unusemeraj fruktoj ĝenerale estas nedehiskaj (indehiscens) kaj povas esti:
      a. *grenfrukto* (caryopsis); la semertegilo kunkreskis kun la fruktpario aŭ perikarpo; Gramenacoj.
-     b. *akeno* (achaena); la semertegilo ne kunkreskis kun la fruktpario, kiu formiĝis el unu fruktfolio; Fragaria vesca L., Kompozacoj.
-
-     *Rim.* Kelkfoje akeno estas ala kaj nomiĝas *samaro* (samar); Betula alba L. La fruktoj de Acer Pseudoplatanus L. estas *duoblaj samaro*.
-
+     b. *akeno* (achaena); la semertegilo ne kunkreskis kun la fruktpario, kiu formiĝis el unu fruktfolio; Fragaria vesca L., Kompozacoj.  
+        *Rim.* Kelkfoje akeno estas ala kaj nomiĝas *samaro* (samar); Betula alba L. La fruktoj de Acer Pseudoplatanus L. estas *duoblaj samaro*.
      c. *nukso* (nux); kiel akeno, sed ĝi formiĝis el du fruktfolioj kaj la fruktpario estas malmola, ligneca; Corylus Avellana L.
 
 134. Sekaj, plursemeraj fruktoj nomiĝas:
@@ -1042,13 +1036,13 @@ Erodium L'Hérit.
      d. *kvinakenaj* (pentachenium); Erodium L'Hèrit.
      e. *multakenaj* (polyachenium); multaj Malvacoj.
 
-136. Fendiĝfruktoj povas esti:
+136.    Fendiĝfruktoj povas esti:
 
-     a. *duglobaj* (dicoccus); Mercurialis annua L.
-     b. *triglobaj* (tricoccus); Ricinus communis L.
-     c. *kvinglobaj* (pentacoccus); Geranium L..
+        a. *duglobaj* (dicoccus); Mercurialis annua L.
+        b. *triglobaj* (tricoccus); Ricinus communis L.
+        c. *kvinglobaj* (pentacoccus); Geranium L..
 
-     *Rim.* La globfruktoj de Erodium ne fendiĝas, do estas akenoj; ili sin boras en la teron pere de longa ,„vosto”.
+        *Rim.* La globfruktoj de Erodium ne fendiĝas, do estas akenoj; ili sin boras en la teron pere de longa ,„vosto”.
 
 137. Kapsulfruktoj povas esti:
      a. *foliklo* (folliculus), semerujo formiĝinta el unu fruktfolio, dehiskanta nur ventre: Delphinium Ajacis L., Helleborus Adans.
@@ -1071,11 +1065,12 @@ Erodium L'Hérit.
 
 ## Semo (semen).
 
-139. *Semero* estas evoluinta ovolo; ĝi estas ligita al la *placento* (placenta) per *funiklo* (funiculus); vd. 140. Semero aŭ grajno estas
-ĉirkaŭita de *semer-* aŭ *grajnhaŭto* (spermodermis; vd. 141), kiu
-tegas la *semerkernon* (nucleus); vd. 143.
+139.    *Semero* estas evoluinta ovolo; ĝi estas ligita al la *placento* (placenta) 
+        per *funiklo* (funiculus); vd. 140. Semero aŭ grajno estas
+        ĉirkaŭita de *semer-* aŭ *grajnhaŭto* (spermodermis; vd. 141), kiu
+        tegas la *semerkernon* (nucleus); vd. 143.
 
-En la kerno troviĝas la *ĝermo* (embryo); vd. 144.
+        En la kerno troviĝas la *ĝermo* (embryo); vd. 144.
 
 ## Funiklo (funiculus).
 

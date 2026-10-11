@@ -1,8 +1,8 @@
 ---
 title: La longo de lumondo kiel natura etalono
 subtitle: Prelego en Internacia Somera Universitato, Haarlem, 1954
-author:
-    - Prof. D-ro H. Sirk
+author: Prof. D-ro H. Sirk
+lang: eo    
 magazine: Scienca Revuo
 volume: 031
 year: 1957
