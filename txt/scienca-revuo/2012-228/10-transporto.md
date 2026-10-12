@@ -1,19 +1,21 @@
 ---
-eldono: Scienca Revuo 1/2012
-rubriko: Scienco kaj socio
-titolo: Homa movebleco estonta
-aŭtoroj: Johannes Mueller
-kapvortoj: 
+title: Homa movebleco estonta
+subtitle: Kiel ni moviĝos en tempoj de altiĝantaj energikostoj
+author: Johannes Mueller
+lang: eo    
+magazine: Scienca Revuo
+volume: 228
+year: 2012    
+rubric: Scienco kaj socio
+keywords: 
     - movebleco
     - hibrida aŭtomobilo
     - elektra aŭtomobilo
     - fuelĉelo
-fonto: https://scienca-revuo.info/article/10    
-permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+source: https://scienca-revuo.info/article/10    
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
-# Homa movebleco estonta
-## Kiel ni moviĝos en tempoj de altiĝantaj energikostoj
 
 <!--
 <Johannes.Mueller@esperanto.de>
@@ -34,7 +36,7 @@ En la nuna epoko en kelkaj mondpartoj la homoj dum jardekoj alkutimiĝis al vast
 homa movebleco. Ekzemple en Usono kaj Aŭstralio pli ol po sescent aŭtomobiloj por
 mil enloĝantoj ekzistas. En Eŭropo estas depende de la lando inter po tricent kaj po
 sescent. En aliaj mondpartoj, ekzemple Afriko, Ĉinio ekzistas malpli ol po dek aŭ-
-tomobiloj por mil enloĝantoj []. La tutmonda kvanto de uzataj aŭtomobiloj rapide
+tomobiloj por mil enloĝantoj [[1](#b-1)]. La tutmonda kvanto de uzataj aŭtomobiloj rapide
 kreskas, ĉefe en partoj, kie oni ĝis nun malmulte uzas ilin, ekzemple Ĉinio kaj Barato.
 Eĉ ĉi-tempe oni rimarkas, ke la prezo por nafto kreskadas. Foje okazas pro ekonomia
 krizo, ke ĝi malkreskas, sed tiaj eﬁkoj kutime estas portempaj. Tiu kreskado de la
@@ -48,11 +50,10 @@ oni bezonas iel anstataŭigi la nafton.
 
 ## 2 Paŝoj al la elektra aŭtomobilo
 Kiam la aŭtomobilo enkondukiĝis kiel amase disponebla veturilo, ne estis evidente,
-ke ĝi uzos brulmotoron. Fakte la elektra motoro havas avantaĝojn kompare al la brul-
-motoro.
+ke ĝi uzos brulmotoron. Fakte la elektra motoro havas avantaĝojn kompare al la brulmotoro.
 
 ![bildo 1](10-transporto_bld-1.png)
-Bildo 1: La tutmonda uzado de aŭtoj [^2]
+Bildo 1: La tutmonda uzado de aŭtoj [[2](#b-2)]
 
 - Ĝi estas pli eﬁka.
 - Ĝi povas reuzi energion per dezirata bremsado.
@@ -109,8 +110,7 @@ tiaj baterioj estas multekostaj kaj tiel kaŭzas grandan parton de la prezo de l
 Plia malavantaĝo estas, ke la ŝargo de la baterioj daŭras plurajn horojn. Do ne eblas
 dum kelkaj minutoj reŝargi ĝin post elĉerpiĝo.
 
-Unu ideo por solvi la problemon pri la distancpovo, estas starigi sistemon de ŝan-
-ĝeblaj baterioj. Kiam dum vojaĝo elĉerpiĝas la baterio oni en fuelejo povas ŝanĝi la
+Unu ideo por solvi la problemon pri la distancpovo, estas starigi sistemon de ŝanĝeblaj baterioj. Kiam dum vojaĝo elĉerpiĝas la baterio oni en fuelejo povas ŝanĝi la
 baterion. Oni fordonas la elĉerpitan kaj ricevas plenŝargitan kaj por tio pagas monon.
 Tio postulas eblon rapide ŝanĝi la baterion de la aŭto per ia maŝino. Krome ĉiuj veturilfarantoj devus interkonsenti pri normaj baterioj kiuj estas interŝanĝeblaj.
 
@@ -133,8 +133,7 @@ esceptaj okazoj trovi alian manieron vojaĝi? Grava kialo vojaĝi per aŭto esta
 surloke bezonas aŭton. Do alternativo estus vojaĝi pertrajne kaj surloke laŭbezone lui
 veturilon. Tiel eĉ nuntempe jam eblus uzi nurelektran aŭton.
 
-Krome ankaŭ por la enurba traﬁko ofte neindividuaj traﬁkiloj tute taŭgas. En gran-
-daj urboj multaj homoj jam tute rezignas pri propra aŭtomobilo kaj uzas publikajn
+Krome ankaŭ por la enurba traﬁko ofte neindividuaj traﬁkiloj tute taŭgas. En grandaj urboj multaj homoj jam tute rezignas pri propra aŭtomobilo kaj uzas publikajn
 traﬁkilojn por la ĉiutagaj bezonoj. Enkondukiĝis dum la pasintaj jardekoj plia eblo
 por kompletigi la enurban moveblecon, la aŭtodividado. Estas ﬁrmaoj, kiuj disponebligas aŭtojn al siaj klientoj por mallonga tempo. La kliento pagas etan monatan
 kotizon de ekzemple kvin Eŭroj, kaj povas uzi aŭtojn kontraŭ pago de porhora kaj
@@ -157,7 +156,7 @@ sennafta aviado, kontraste al la aŭtomobilado kiel priskribita en sekcio ^2. Ki
 do fuelos aviadilojn sen nafto? Ĉu per hidrogeno? Ĉu per biologia fuelo? Ĉu tiaj
 konceptoj jam post dek ĝis dudek jaroj estos pretaj por vasta uzado? Rigardante la
 renovigemon de la grandaj aviadilfarantoj oni dubas. La aviadila industrio estas iom
-pli optimisma pri tio [^3].
+pli optimisma pri tio [[3](#b-3)].
 
 Ne malverŝajnas, ke la homoj kiuj dum sia studenta aĝo ĝuis la eblon malmultekoste
 aviadile vojaĝi, iam rakontas pri tio al siaj genepoj, kvazaŭ rakonto el fora nekredebla
@@ -177,18 +176,10 @@ Stuttgart. En sia libertempo li multe okupiĝas pri Esperanto. Interalie li inst
 
 ## Bibliografio
 
-[^1]: World Bank. Passenger cars (per 1,000 people). World Development Indicators. URL:
-http://data.worldbank.org/indicator/IS.VEH.PCAR.P3/.
+1. [World Bank. Passenger cars (per 1,000 people). World Development Indicators. URL: http://data.worldbank.org/indicator/IS.VEH.PCAR.P3/]{#b-1}.
 
-[^2]: International Transport Forum. Transport Outlook. Meeting the Needs of 9 Billion
-People. OECD, 2011.
+2. [International Transport Forum. Transport Outlook. Meeting the Needs of 9 Billion People. OECD, 2011]{#b-2}.
 
-[^3]: Jörg Sieber. Langfristige Sicherung der Luftverkehrs durch neue Antriebstechnologien
-und alternative Brennstoﬀe. München: MTU Aero Engines, 2008. URL: http://www.
-mtu.de/de/technologies/engineering_news/development/Sieber_Sicherun
-g_Luftverkehr_de.pdf.
-
-Scienca Revuo 1/2012Homa movebleco estonta
+3. [Jörg Sieber. Langfristige Sicherung der Luftverkehrs durch neue Antriebstechnologien und alternative Brennstoﬀe. München: MTU Aero Engines, 2008. URL: http://www.mtu.de/de/technologies/engineering_news/development/Sieber_Sicherung_Luftverkehr_de.pdf]{#b-3}.
 
-[^4]: Wikipedia. Hybridelektrokraftfahrzeug. URL: http://de.wikipedia.org/w/index.
-php?title=Hybridelektrokraftfahrzeug&oldid=97132789.
+4. [Wikipedia. Hybridelektrokraftfahrzeug. URL: http://de.wikipedia.org/w/index.php?title=Hybridelektrokraftfahrzeug&oldid=97132789]{#b-4}.
