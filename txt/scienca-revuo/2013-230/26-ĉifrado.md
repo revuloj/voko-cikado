@@ -37,17 +37,17 @@ mesaĝojn al alia homo, sen ke tria homo povu ekscii ĝian enhavon. Unu el la
 plej facilaj metodoj estas flustri en la orelon de la persono, al kiu oni celas transsendi 
 la mesaĝon. Ĝis nun oni uzas la rimedon de la “kvarokula interparolado”, do
 la interparolado kun nur du ĉeestantoj. Antaŭ ĉirkaŭ 5000 jaroj la homaro inventis la
-skribon [^3]. Ankaŭ por la skriba mesaĝumado oni serĉis vojojn skribi mesaĝon, kiun
+skribon [[3](#b-3)]. Ankaŭ por la skriba mesaĝumado oni serĉis vojojn skribi mesaĝon, kiun
 nur kapablu legi la persono alskribata kaj neniu alia. Por tio oni inventis sekretajn
 skribaĵojn aŭ kodojn aŭ ankaŭ sekretajn lingvojn.
 Ĉiuj tiaj provoj protekti informon havas unu komunan trajton. Ili uzas la principon,
 ke la homo, kiu ne eksciu la informon, ne konas la metodon. La modernaj ĉifraj metodoj 
-uzas la tute kontraŭan principon, nome la principon de *Kerckoff* [^9]. Tiu principo
+uzas la tute kontraŭan principon, nome la principon de [Kerckoff]{.maldense} [[9](#b-9)]. Tiu principo
 diras, ke “La atakanto konas vian metodon.” Sed kiel do oni povas skribi sekretojn,
 se la atakanto konas la principon de la ĉifro? Por tio oni uzas matematikajn rimedojn,
 kiujn oni inventis en la pasinta jarcento kaj kiuj estas facile uzeblaj per komputiloj.
 
-![bildo 1](26-ĉifrado_bld-1.png)
+![bildo 1](26-ĉifrado_bld-1.png){#bld-1}
 Bildo 1: La principo de simetria ĉifrado
 
 ## 2 Bazaj principoj
@@ -59,15 +59,15 @@ uzas ĉifradon. Tiu ĉi sekcio klarigas la principojn, ne la praktikan uzon de �
 La praktika uzo estas pli facila, ĉar la meĥanismoj estas kaŝitaj malantaŭ programaĵo.
 Matematikajn detalojn ni en tiu ĉi artikolo ne traktas. Eble estonte troviĝas aŭtoro, kiu
 kontribuos tian artikolon al Scienca Revuo. Ankaŭ ekzistas vikipedia artikolo pri la
-temo [^6].
+temo [[6](#b-6)].
 
 ### 2.1 Simetria ĉifrado
 
-La pli facila metodo estas la simetria ĉifrado. La principo estas montrata en bildo 1.
+La pli facila metodo estas la simetria ĉifrado. La principo estas montrata en [bildo 1](#bld-1).
 Anjo kaj Boĉjo interkonsentas pri komuna ŝlosilo[^pn1]. kaj poste komunikas per mesaĝoj
 ĉifritaj per tiu komuna ŝlosilo. Du gravaj malavantaĝoj evidentas:
 
-- En bildo 1 oni vidas, ke la interkonsento pri la komuna ŝlosilo okazas en la publika sfero. La atakanto povas kapti la ŝlosilon dum interkonsento. Do oni bezonas
+- En [bildo 1](#bld-1) oni vidas, ke la interkonsento pri la komuna ŝlosilo okazas en la publika sfero. La atakanto povas kapti la ŝlosilon dum interkonsento. Do oni bezonas
 komunikkanalon tre fidindan por interkonsenti pri la komuna ŝlosilo. Tian oni
 kutime ne havas.
 - La komuna ŝlosilo taŭgas nur por la komunikparo Anjo kaj Boĉjo. Se Anjo volas skribi mesaĝon al – ni diru – Conjo, Anjo kaj Conjo devas interkonsenti pri
@@ -75,18 +75,18 @@ komuna ŝlosilo kaj Anjo devas stoki ĉiujn unuopajn ŝlosilojn, pri kiu ŝi int
 ŝlosilaro ke neniu atakanto – eble nerimarkite – kopias unu el la ŝlosi loj. Se ŝi
 perdas unu ŝlosilon, ŝi ne plu povas malĉifri la mesaĝojn de la koncerna persono.
 
-![bildo 2](26-ĉifrado_bld-2.png)
+![bildo 2](26-ĉifrado_bld-2.png){#bld-2}
 Bildo 2: La principo de malsimetria ĉifrado
 
 ### 2.2 Malsimetria ĉifrado
 
 Pro la ĵus menciitaj malavantaĝoj de la simetria ĉifrado oni inventis la tiel nomatan
-malsimetrian ĉifradon. La principo estas montrata en bildo 2. Ĉiu partoprenanto de
+malsimetrian ĉifradon. La principo estas montrata en [bildo 2](#bld-2). Ĉiu partoprenanto de
 la komuniko kreas por si ŝlosilparon. La ŝlosilparo konsistas el la privata ŝlosilo kaj la
 publika ŝlosilo. Per la publika ŝlosilo oni nur povas ĉifri. Per la privata oni malĉifras.
-Do se Boĉjo kiel en bildo  volas ricevi ĉifritan mesaĝon de Anjo, li publikigas sian
+Do se Boĉjo kiel en [bildo 2](#bld-2) volas ricevi ĉifritan mesaĝon de Anjo, li publikigas sian
 publikan ŝlosilon. Anjo akiras t.e. elŝutas ĝin kaj ĉifras per ĝi mesaĝon al Boĉjo. Tiun
-mesaĝon nur Boĉjo povas malĉifri per sia privata ŝlosilo. En bildo 2 oni vidas, ke la
+mesaĝon nur Boĉjo povas malĉifri per sia privata ŝlosilo. En [bildo 2](#bld-2) oni vidas, ke la
 privata ŝlosilo de Boĉjo restas en la privata sfero de Boĉjo kaj ne eniras la publikan
 sferon.
 Se Anjo volas skribi ĉifritan mesaĝon al Conjo, ŝi petas la publikan ŝlosilon de Conjo
@@ -115,7 +115,7 @@ postulas tiel altan kvanton da komputila forto, ke ĝi praktike ne eblas kaj ne 
 malfortaj punktoj ne estas la metodoj mem sed ties uzantoj. Tial uzanto sciu kelkajn
 aferojn pri atakebloj kaj kontraŭmezuroj.
 
-### 3.1 Atakebloj
+### 3.1 Atakebloj{#s-3-1}
 #### 3.1.1 Ŝtelo de la privata ŝlosilo
 
 La ĉefa kondiĉo por la fidindeco de ĉifrado estas, ke la privataj ŝlosiloj uzataj restu
@@ -124,8 +124,7 @@ stoku ĝin sur perdiĝemaj datumstokiloj kiel ekzemple poŝmemoriloj. Oni bone g
 la komputilojn, kiuj enhavas la privatan ŝlosilon. Kiam oni lasas ilin enŝaltitaj, ĉiam
 oni protektu ĝin per pasvorto. La privataj ŝlosiloj mem kutime estas protektitaj per
 pasvorto. Tiu pasvorto nepre estu forta pasvorto.
-Samtempe oni zorge protektu siajn komputilojn de virusoj kaj aliaj ŝteleniremaj pro-
-gramaĵoj. Tio fakte estas tasko de ĉiu respondeca komputiluzanto. Estas bone imagebla, ke ni iam spertos virusojn aŭ vermojn, kiuj celas kapti tiajn privatajn ŝlosilojn.
+Samtempe oni zorge protektu siajn komputilojn de virusoj kaj aliaj ŝteleniremaj programaĵoj. Tio fakte estas tasko de ĉiu respondeca komputiluzanto. Estas bone imagebla, ke ni iam spertos virusojn aŭ vermojn, kiuj celas kapti tiajn privatajn ŝlosilojn.
 
 ### 3.1.2 Mezula atako
 
@@ -135,7 +134,7 @@ mesaĝi.
 Tiu kondiĉo implicas unu atakeblon, la tiel nomatan mezulan atakon. Do ni denove
 rigardas la ekzemplon de Anjo kaj Boĉjo. Anjo akiras la publikan ŝlosilon de Boĉjo kaj
 uzas ĝin por ĉifri mesaĝon sendotan al Boĉjo. Sed ĉu ŝi povas esti certa, ke la publika
-ŝlosilo mem estas aŭtenta? Eble atakanto – en bildo 3 li nomiĝas Moĉjo – kaptis la
+ŝlosilo mem estas aŭtenta? Eble atakanto – en [bildo 3](#bld-3) li nomiĝas Moĉjo – kaptis la
 publikan ŝlosilon de Boĉjo survojan al Anjo kaj anstataŭigis ĝin per alia publika ŝlosilo,
 kiu mensoge diras ke ĝi estas de Boĉjo. Poste la atakanto kaptas la mesaĝon tiel ĉifritan,
 malĉifras kaj legas ĝin kaj fine ĉifras ĝin per la vera publika ŝlosilo de Boĉjo por sendi
@@ -143,35 +142,34 @@ malĉifras kaj legas ĝin kaj fine ĉifras ĝin per la vera publika ŝlosilo de 
 eĉ ne suspektas, ke la atakanto Moĉjo jam legis la klarmesaĝon. Per tiu mezula atako
 la atakanto en la mezo povas ataki kaj la fidindecon kaj la aŭtentecon de la mesaĝo.
 
-![bildo 3](26-ĉifrado_bld-3.png)
+![bildo 3](26-ĉifrado_bld-3.png){#bld-3}
 Bildo 3: La principo de la mezula atako. La atakanto Moĉjo unue manipulas la publikan
 ŝlosilon de Boĉjo kaj poste la mesaĝon de Anjo al Boĉjo.
 
 ### 3.2 Kontraŭmezuroj
 
 Kion fari kontraŭ la mezula atako? La respondo estas simpla, sed tio ne signifas ke la
-afero facilas. La publikaj ŝlosiloj devas esti aŭtentaj. Oni povas uzi alian sekuran ko-
-munikkanalon por interŝanĝi la publikajn ŝlosilojn. Sed sekuraj komunikkanaloj estas
+afero facilas. La publikaj ŝlosiloj devas esti aŭtentaj. Oni povas uzi alian sekuran komunikkanalon por interŝanĝi la publikajn ŝlosilojn. Sed sekuraj komunikkanaloj estas
 multekostaj aŭ malkomfortaj, ekzemple oni povas renkontiĝi persone por interŝanĝi
 la publikajn ŝlosilojn. Tio postulas almenaŭ unufoje renkontiĝi kun ĉiu komunikpartnero antaŭ ol kapabli komuniki fidinde. Do necesas faciligaj rimedoj.
 
 #### 3.2.1 La fingrospuro
 
-Oni povas voĉlegi la ŝlosilojn per telefono. Tio estas malavantaĝa ĉar la ŝlosiloj kutime estas longaj sensignifaj ĉenoj de literoj kaj ciferoj (vd. bildo 4a). Tion oni povas
+Oni povas voĉlegi la ŝlosilojn per telefono. Tio estas malavantaĝa ĉar la ŝlosiloj kutime estas longaj sensignifaj ĉenoj de literoj kaj ciferoj (vd. [bildo 4a](#bld-4a)). Tion oni povas
 faciligi per tiel nomata fingrospuro. La fingrospuro estas kvazaŭ kontrolsumo de la
-tuta ŝlosilo. Bildo 4 montras la diferencon inter la tuta ŝlosilo kaj la fingrospuro. La
+tuta ŝlosilo. [Bildo 4](#bld-4) montras la diferencon inter la tuta ŝlosilo kaj la fingrospuro. La
 fingrospuro eblas printi sur vizitkarto aŭ kontroli telefone.
 
 Do reen al Anjo kaj Boĉjo. Ili lernis de la spertita mezula atako kaj poste volas uzi
-aŭtentajn ŝlosilojn. Ili interŝanĝas siajn publikajn ŝlosilojn per atakebla kanalo. Po-
-ste ili uzas fidindan sed multekostan kanalon por interŝanĝi la fingrospurojn. Anjo
+aŭtentajn ŝlosilojn. Ili interŝanĝas siajn publikajn ŝlosilojn per atakebla kanalo. Poste ili uzas fidindan sed multekostan kanalon por interŝanĝi la fingrospurojn. Anjo
 kalkulas de la ebla publika ŝlosilo de Boĉjo la fingrospuron kaj komparas ĝin kun la
 sekure ricevita fingrospuro. Se fingrospuroj identas la publika ŝlosilo de Boĉjo estas
 aŭtenta. Boĉjo sammaniere povas aŭtentigi la eblan publikan ŝlosilon de Anjo.
 
-<table>
-<tr>
-<td><pre>
+[Bildo 4: Komparo de kompleta plublika ŝlosilo kaj ties fingrospuro.
+Montrata estas la vera publika ŝlosilo de la aŭtoro:]{#bld-4}
+
+```
 -----BEGIN PGP PUBLIC KEY BLOCK-----
 Version: GnuPG v1.4.14 (GNU/Linux)
 mQMuBFHUWO4RCADMJpQzY7J9nG6+xbMyeKOJu8ZZoRPswXuHs6Yq+rtioMvlkSG3
@@ -229,23 +227,15 @@ eoPTjZ2MALy+amp8uah/LauXJqvnn/caf3i0xVj9dcXCnEl5YjU88yP8eOG4sYLu
 EyZXrg/3zwJ00b4WAg==
 =2Y3a
 -----END PGP PUBLIC KEY BLOCK-----</pre>
-</td>
-<td>
-<pre>E76C 345C 80B1 9E65 5653 9987 F134 117C 7642 93D2</pre>
-</td></tr>
-<tr>
-<td>
-(a) La tuta ŝlosilo
-</td>
-<td>
-(b) La fingrospuro
-</td>
-</tr>
-</table>
-Bildo 4: Komparo de kompleta plublika ŝlosilo kaj ties fingrospuro. Montrata estas la
-vera publika ŝlosilo de la aŭtoro.
+```
+[Bildo 4a: La tuta ŝlosilo]{#bld-4a}
 
-![bildo 5](26-ĉifrado_bld-5.png)
+```
+E76C 345C 80B1 9E65 5653 9987 F134 117C 7642 93D2
+```
+[Bildo 4b: La fingrospuro]{#bld-4b}
+
+![bildo 5](26-ĉifrado_bld-5.png){#bld-5}
 Bildo 5: Reto de fido. Ni mem (Anjo) rekte nur fidas je du personoj, nome Boĉjo kaj
 Conjo. Pro la fido de Boĉjo je Enjo kaj ties fido je Foĉjo kaj ties je Doĉjo, ni malrekte
 fidas je tiuj personoj. Same Conjo, ĉar ŝi fidas je ni.
@@ -254,8 +244,7 @@ fidas je tiuj personoj. Same Conjo, ĉar ŝi fidas je ni.
 
 Alia eblo estus, ke fidinda aŭtoritato subskribas ĉies publikajn ŝlosilojn. Do Anjo kreas
 ŝlosilparon kaj kun la publika ŝlosilo vizitas la aŭtentigan aŭtoritaton kaj petas subskribon de sia publika ŝlosilo. La aŭtentiga aŭtoritato subskribas ĝin per sia privata
-ŝlosilo kaj donas la subskribon al Anjo. Anjo poste povas sendi al Boĉjo sian publi-
-kan ŝlosilon kun la subskribo de la aŭtentiga aŭtoritato. Boĉjo povas uzi la ĉie konatan
+ŝlosilo kaj donas la subskribon al Anjo. Anjo poste povas sendi al Boĉjo sian publikan ŝlosilon kun la subskribo de la aŭtentiga aŭtoritato. Boĉjo povas uzi la ĉie konatan
 publikan ŝlosilon de la aŭtentiga aŭtoritato por aŭtentigi la subskribitan publikan ŝlosilon de Anjo. Stariĝas kelkaj demandoj pri tiu metodo:
 
 - Ĉu la aŭtentiga aŭtoritato estas fidinda? Eble atakanto povas konvinki ĝin, ke li
@@ -263,13 +252,13 @@ estas Anjo kaj tiel ricevi subskribitan ŝlosilon, kiu funkcias kiel aŭtenta pu
 ŝlosilo de Anjo.
 - Kio okazas se atakanto sukcesas ŝteli la privatan ŝlosilon de la aŭtentiga aŭtoritato? Tiam la atakanto povas subskribi ajnan falsan ŝlosilon kaj ŝajnigi ke la
 aŭtoritato agnoskis ĝin aŭtenta. Tia afero en la jaro 2011 grandskale okazis. Pri
-tio okazo legu en sekcio 4.2.1.
+tio okazo legu en [sekcio 4.2.1](#s-4-2-1).
 
 #### 3.2.3 Reto de fido
 
 Simpatia metodo aŭtentigi ŝlosilojn estas la tiel nomata reto de fido. Ĝi signifas, ke ne
 centra aŭtentiga aŭtoritato subskribas la ŝlosilojn, sed ĉiu uzanto subskribas la ŝlosilojn, kiujn li konsideras aŭtentaj. Oni ne nur fidas la ŝlosilojn mem kontrolitajn sed
-ankaŭ tiujn kontrolitajn de amikoj kaj de amikoj de amikoj. Bildo 5 montras la principon. Ni prenas la pozicion de Anjo. Anjo havas du amikojn, kiujn ŝi fidas, nome
+ankaŭ tiujn kontrolitajn de amikoj kaj de amikoj de amikoj. [Bildo 5](#bld-5) montras la principon. Ni prenas la pozicion de Anjo. Anjo havas du amikojn, kiujn ŝi fidas, nome
 Boĉjon kaj Conjon. Boĉjo fidas Enjon, kiu fidas Foĉjon, kiu fidas Doĉjon. Ĉiu subskribas la ŝlosilojn de ĉiu sia fidato. Do Anjo nerekte fidas ankaŭ la ŝlosilon de Enjo, Foĉjo,
 kaj Doĉjo.
 
@@ -287,7 +276,7 @@ subskriboj bezonataj por atingi kompletan fidon. Same estu *K* la nombro de plen
 fidataj subskriboj por atingi kompletan fidon. La aŭtenteco de la koncerna ŝlosilo
 kalkuliĝas per
 
-$$ A = \frac{p}{P} + \frac{k}{K}$$
+$$A = \frac{p}{P} + \frac{k}{K}$$
 
 Se la valoro de A estas malpli granda ol 1, ni parte fidas la ŝlosilon, se ĝi estas egala al
 aŭ pli granda ol 1 ni plene fidas ĝin. Kutime oni uzas *K* = 1 kaj *P* = 2. Tio signifas,
@@ -325,7 +314,7 @@ homoj havas la fakajn konojn por fari tion, estas pripensinda eblo kunigi grupon
 amikaj homoj, kiuj uzas komunan servilon.
 
 ### 4.2 Ĉifri komunikon
-#### 4.2.1 Kie vi eble senkonscie jam uzas ĉifradon
+#### 4.2.1 Kie vi eble senkonscie jam uzas ĉifradon{#s-4-2-1}
 
 Ankaŭ por ĉifri komunikon ekzistas bona programaĵo. Ekzemple por komuniki per
 retejo – ekzemple kun banko – ekzistas la protokolo “https”. Ĝi funkcias per malsimetria ĉifrado eĉ sen la konscio de la uzanto. Aŭtentigaj aŭtoritatoj aŭtentigas la
@@ -334,10 +323,9 @@ kutima retumilo estas granda listo de aŭtentigaj aŭtoritatoj, je kiuj la retum
 Trarigardante tiun liston, oni ne certas, ĉu ĉiuj tiuj aŭtoritatoj vere estas fidindaj.
 
 La historio montris, ke fakte ne ĉiuj estas fidindaj. Ekzemple Nederlanda aŭtentiga
-asocio estis atakata de iu, kiu sukcesis ŝteli la privatan ŝlosilon de la asocio. La ata-
-kanto poste vendis la ŝlosilon verŝajne al la Irana registaro, kiu uzis ĝin por observi
-sekretan komunikadon inter Irano kaj la resto de la mondo [^4]. Por tio ili uzis mezulan
-atakon priskribitan en sekcio 3.1.
+asocio estis atakata de iu, kiu sukcesis ŝteli la privatan ŝlosilon de la asocio. La atakanto poste vendis la ŝlosilon verŝajne al la Irana registaro, kiu uzis ĝin por observi
+sekretan komunikadon inter Irano kaj la resto de la mondo [[4](#b-4)]. Por tio ili uzis mezulan
+atakon priskribitan en [sekcio 3.1](#s-3-1).
 
 Alia malavantaĝo estas, ke la aŭtoritatoj uzas sian kapablon atesti la aŭtentecon de
 publikaj ŝlosiloj por kvazaŭ printi monon. Ili apenaŭ kontrolas la aŭtentecon de la
@@ -352,15 +340,15 @@ malsimetria ĉifrado. La ĉefa malfacilaĵo estas, ke ne sufiĉas, ke oni mem ka
 volas ĉifri mesaĝojn. Ankaŭ la komunikpartneroj devas kapabli kaj voli tion, por ke
 ĉifrita komuniko povu okazi.
 
-La plej populara formato por ĉifri retmesaĝojn estas la PGP formato [^8]. PGP staras por *pretty good privacy*. Same nomiĝas la unua programaĵo, kiu disponebligis
+La plej populara formato por ĉifri retmesaĝojn estas la PGP formato [[8](#b-8)]. PGP staras por *pretty good privacy*. Same nomiĝas la unua programaĵo, kiu disponebligis
 ĝin. Nuntempe ekzistas aliaj programaĵoj. Inter ili la plej populara verŝajne estas
-GnuPG [^2]. Ekzistas en la reto multaj paĝoj kaj filmetoj, kiuj praktike montras la uzon
-de GnuPG. Tre populara estas la kombino de la retpoŝtilo Thunderbird kaj la kromprogramaĵo Enigmail, kiu peras la eblojn de GnuPG [^1]. Uzantoj de retejaj retpoŝtiloj
-kiel gmail povas uzi la kromaĵon Mailvelope por la retumilo Chrome [^7].
+GnuPG [[2](#b-2)]. Ekzistas en la reto multaj paĝoj kaj filmetoj, kiuj praktike montras la uzon
+de GnuPG. Tre populara estas la kombino de la retpoŝtilo Thunderbird kaj la kromprogramaĵo Enigmail, kiu peras la eblojn de GnuPG [[1](#b-1)]. Uzantoj de retejaj retpoŝtiloj
+kiel gmail povas uzi la kromaĵon Mailvelope por la retumilo Chrome [[7](#b-7)].
 
 Bedaŭrinde ne troviĝas tia informo en Esperanto. La aŭtoro de tiu ĉi artikolo foje
 okazigas atelierojn pri ĉifrado kaj ĉifrofestojn (vd. 3.2.3) en Esperanto-aranĝoj. La
-instrumaterialoj kolektiĝas en la retejo http://ĉifru.net [^5].
+instrumaterialoj kolektiĝas en la retejo http://ĉifru.net [[5](#b-5)].
 
 La publikajn ŝlosilojn oni povas akiri de publikaj serviloj. La programaĵoj por administri sian ŝlosilaron kutime konas la servilojn kaj oni povas per serĉado de nomo aŭ
 retpoŝtadreso serĉi publikan ŝlosilon de persono. Akirante la ŝlosilon, oni ricevas ĉiujn
@@ -383,10 +371,8 @@ memcenzuro. Multaj ideoj, kiuj antaŭenigas la mondon komence estas kaŝindaj, �
 scienca aŭ teknika malkovraĵo, ĉu nova politika ideo, kiu danĝerigas la ekzistantajn
 registrarojn aŭ la aktualajn potenculojn. Se homoj konstante timas malkovron de tiaj
 kaŝindaĵoj pro konstanta observado, ili vere ĉesus pensi en kaŝinda maniero. Estas
-kvazaŭ tondiloj en ĉies kapo, kiuj tranĉas niajn pensojn eble kaŝindajn antaŭ ol ni dis-
-kutas ilin eĉ kun amikoj. Libereca socio ĉiam devas doni al siaj membroj la eblon,
-bonkonscience havi sekretojn. Tiel faru la ŝtatoj, kiuj deklaras sin libereca kaj demo-
-krata.
+kvazaŭ tondiloj en ĉies kapo, kiuj tranĉas niajn pensojn eble kaŝindajn antaŭ ol ni diskutas ilin eĉ kun amikoj. Libereca socio ĉiam devas doni al siaj membroj la eblon,
+bonkonscience havi sekretojn. Tiel faru la ŝtatoj, kiuj deklaras sin libereca kaj demokrata.
 
 La etoso esti observata ĉiam kaj ĉie estas verŝajne eĉ pli danĝera ol la observado
 mem. Eble iuj el la legantoj aŭdis aŭ uzis la frazon “Dio vidas ĉion”, kiun oni uzas
@@ -425,26 +411,20 @@ kontrolon de la aŭtenteco, kiam oni uzas retpoŝtadreson.
 
 ## Bibliografio
 
-[^1]: A simple interface for OpenPGP email security. URL: https://www.enigmail.net
-(vizitita 2013-12-24).
+1. [A simple interface for OpenPGP email security. URL: https://www.enigmail.net (vizitita 2013-12-24).]{#b-1}
 
-[^2]: GnuPG, The GNU Privacy Guard. URL: http://gnupg.org (vizitita 2013-12-14).
+2. [GnuPG, The GNU Privacy Guard. URL: http://gnupg.org (vizitita 2013-12-14).]{#b-2}
 
-[^3]: H. Haarmann. Geschichte der Schrift. C.H. Beck, 2002. ISBN: 3-406-47998-7.
+3. [H. Haarmann. Geschichte der Schrift. C.H. Beck, 2002. ISBN: 3-406-47998-7.]{#b-3}
 
-[^4]: A. Kaplan kaj O. Lendl. Zwischenbericht DigiNotar Certificate Authority Hack und
-Relevanz für Österreich. URL: http://www.cert.at/static/downloads/specials/
-CERT.at_report_DigiNotar_Breach_public.pdf (vizitita 2013-12-24).
+4. [A. Kaplan kaj O. Lendl. Zwischenbericht DigiNotar Certificate Authority Hack und Relevanz für Österreich. URL: http://www.cert.at/static/downloads/specials/CERT.at_report_DigiNotar_Breach_public.pdf (vizitita 2013-12-24).]{#b-4}
 
-[^5]: Kolektejo por esperantlingvaj materialoj pri ĉifrado. URL: http://ĉifru.net.
+5. [Kolektejo por esperantlingvaj materialoj pri ĉifrado. URL: http://ĉifru.net.]{#b-5}
 
-[^6]: Kriptologio. Vikipedio, la libera enciklopedio. URL: http://eo.wikipedia.org/
-wiki/Kriptologio (vizitita 2013-12-14).
+6. [Kriptologio. Vikipedio, la libera enciklopedio. URL: http://eo.wikipedia.org/wiki/Kriptologio (vizitita 2013-12-14).]{#b-6}
 
-[^7]: OpenPGP Encryption for Webmail. URL: http://www.mailvelope.com/ (vizitita
-2013-12-24).
+7. [OpenPGP Encryption for Webmail. URL: http://www.mailvelope.com/ (vizitita 2013-12-24).]{#b-7}
 
-[^8]: PGP. Vikipedio, la libera enciklopedio. URL: http://eo.wikipedia.org/wiki/
-PGP (vizitita 2013-12-14).
+8. [PGP. Vikipedio, la libera enciklopedio. URL: http://eo.wikipedia.org/wiki/PGP (vizitita 2013-12-14).]{#b-8}
 
-[^9]: B. Schneier. Applied Cryptography. John Wiley & Sons, 1996. ISBN: 0-471-11709-9.
+9. [B. Schneier. Applied Cryptography. John Wiley & Sons, 1996. ISBN: 0-471-11709-9.]{#b-9}

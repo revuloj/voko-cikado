@@ -6,11 +6,24 @@ magazine: Scienca Revuo
 rubric: Terminologio
 volume: 230
 year: 2013
-source: https://scienca-revuo.info/author/850
+source: https://scienca-revuo.info/article/17
 permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 ---
 
 <!-- * anthony.lucas@netforspeed.com -->
+
+<style>
+    div.plenlargha {
+        width: 90vw !important;
+        max-width: 90em !important;
+        margin-left: 50% !important;
+        transform: translateX(-50%);
+        border-collapse: collapse;
+        display: block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+</style>
 
 <blockquote class="resumo">
 Post prezento de la diversaj nomenklaturoj por nomi la grasajn acidojn, la kutimuzaj
@@ -22,14 +35,14 @@ viglecon de la biologiistoj por ke ili zorgu pri la problemoj.
 
 ## 1 Enkonduko
 
-La grasaj acidoj estas karboksilaj acidoj konsistantaj el karboksila funkcio kaj hidro-
-fobia alifata ĉeno saturita aŭ nesaturita. La longeco de la ĉeno ebligas ordigon de la
+La grasaj acidoj estas karboksilaj acidoj konsistantaj el karboksila funkcio kaj hidrofobia alifata ĉeno saturita aŭ nesaturita. La longeco de la ĉeno ebligas ordigon de la
 grasaj acidoj en kvar grupojn. La vaporiĝemaj grasaj acidoj konsistas el 2, 3 aŭ 4 karbonatomoj. La mallongaj grasaj acidoj konsistas el 6 ĝis 10 karbonatomoj. La mezlongaj
 grasaj acidoj konsistas el 12 ĝis 14 karbonatomoj kaj la longaj grasaj acidoj el pli ol 16
-karbonatomoj. Fakte, ekzistas almenaŭ tri sistemoj por nomi grasajn acidojn. Kompreneble, la unua estas la sistema ĥemia nomenklaturo tre bone priskribita de *Pluhař, Z.* en sia sistema ĥemia nomenklaturo en Esperanto, 3-a versio 2011 [^8]. La dua sistemo nomata omegao-sistemo estas pli specifa de la biologia scienco. Dum la unua
+karbonatomoj. Fakte, ekzistas almenaŭ tri sistemoj por nomi grasajn acidojn. Kompreneble, la unua estas la sistema ĥemia nomenklaturo tre bone priskribita de [Pluhař, Z.]{.maldense} en sia sistema ĥemia nomenklaturo en Esperanto, 3-a versio 2011 [[8](#b-8)].
+La dua sistemo nomata omegao-sistemo estas pli specifa de la biologia scienco. Dum la unua
 sistemo numeras la karbonatomojn de la karboksila funkcio ĝis la plej malproksima
 karbono de la ĉeno, la dua numeras la karbonojn de la plej malproksima karbonatomo de la karboksila funkcio (ω − 1) ĝis la karbonatomoj de la karboksila funkcio mem
-(ω − n) (bildo 1) [^7]. La tria sistemo, fakte ne estas sistemo, sed la biologiistoj ofte preferas nomi ĉiun grasan acidon, kiu havas biologiajn eﬁkojn per specifa nomo sen iu ajn
+(ω − n) ([bildo 1](#bld-1)) [[7](#b-7)]. La tria sistemo, fakte ne estas sistemo, sed la biologiistoj ofte preferas nomi ĉiun grasan acidon, kiu havas biologiajn eﬁkojn per specifa nomo sen iu ajn
 akordo kun ekzistantaj sistemaj nomenklaturoj. Ĉi tiu artikolo celas prezenti la duan
 sistemon kaj diskuti pri la tria maniero kadre de la Esperanta lingvo.
 
@@ -37,11 +50,11 @@ sistemon kaj diskuti pri la tria maniero kadre de la Esperanta lingvo.
 
 Kutime oni enklasigas la grasajn acidojn laŭ ilia nombro da nesaturitaj ligoj. Se la
 acido ne havas nesaturitan ligon, ĝi apartenas al la grupo de la saturitaj grasaj acidoj
-kies ĥemiaj strukturoj sekvas la ĝeneralan formulon $\ce{ CH_3-(CH_2)_n-COOH }$ (tabelo 1).
+kies ĥemiaj strukturoj sekvas la ĝeneralan formulon $\ce{ CH_3-(CH_2)_n-COOH }$ ([tabelo 1](#tab-1)).
 
-La grasaj acidoj enhavantaj unu duoblan ligon apartenas al la grupo de la mononesaturitaj acidoj. Ilia ĝenerala formulo estas $\ce{ CH_3-(CH_2)_x-CH=CH-(CH_2)_y-COOH }$ (tabelo 2).
+La grasaj acidoj enhavantaj unu duoblan ligon apartenas al la grupo de la mononesaturitaj acidoj. Ilia ĝenerala formulo estas $\ce{ CH_3-(CH_2)_x-CH=CH-(CH_2)_y-COOH }$ ([tabelo 2](#tab-2)).
 
-Tabelo 1: Ĉefaj grasaj acidoj saturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.
+[Tabelo 1: Ĉefaj grasaj acidoj saturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.]{#tab-1}
 
 |Simbolo laŭ normiga nomenklaturo|Simbolo laŭ omegao-nomenklaturo|Ĥemia strukturo|Sistema nomo|
 |---|---|---|---|
@@ -67,9 +80,13 @@ Tabelo 1: Ĉefaj grasaj acidoj saturitaj nature trovitaj. Ili estas prezentataj 
 |C28:0|C28:0|$\ce{CH_3(CH_2)_{26}COOH}$|Oktakozanoika|
 |C30:0|C30:0|$\ce{CH_3(CH_2)_{28}COOH}$|Trikontanoika|
 
-Tabelo 2: Ĉefaj grasaj acidoj mononesaturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.
 
-|Simbolo laŭ normiga nomenklaturo|Simbolo laŭ omegao-nomenklaturo|Ĥemia strukturo|Sistema nomo de la acido|
+::: {.plenlargha}
+
+[Tabelo 2: Ĉefaj grasaj acidoj mononesaturitaj nature trovitaj.  
+Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.]{#tab-2}
+
+|Simbolo laŭ nor-<br>miga nomenklaturo|Simbolo laŭ ome-<br>gao-nomenklaturo|Ĥemia strukturo|Sistema nomo de la acido|
 |---|---|---|---|
 |C12:1(9)|C12:1 ω − 3|$\ce{CH_3CH_2CH = CH(CH_2)_7COOH}$|cis-9-dodekenoika|
 |C14:1(9)|C14:1 ω − 5|$\ce{CH_3(CH_2)_3CH = (CH_2)_7COOH}$|cis-9-tetradekenoika|
@@ -84,27 +101,32 @@ Tabelo 2: Ĉefaj grasaj acidoj mononesaturitaj nature trovitaj. Ili estas prezen
 |C22:1(13)|C22:1 ω − 9|$\ce{CH_3(CH_2)_7CH = CH(CH_2)_{11}COOH}$|cis-13-dokozenoika|
 |C24:1(15)|C24:1 ω − 9|$\ce{CH_3(CH_2)CH = CH(CH_2)_{13}COOH}$|cis-15-tetrakozenoika|
 
-La tria grupo arigas la grasajn acidojn polinesaturitajn. Ne ekzistas ĝenerala formulo por ili (tabelo 3). Dum la simpla ligo ebligas liberan rotacion de la du
+:::
+
+La tria grupo arigas la grasajn acidojn polinesaturitajn. Ne ekzistas ĝenerala formulo por ili ([tabelo 3](#tab-3)). Dum la simpla ligo ebligas liberan rotacion de la du
 karbonatomoj ĉirkaŭ sia akso, la duobla ligo ﬁksas la relativan pozicion inter la du
 karbonatomoj. Konsekvence aperas du agordoj ĉirkaŭ la duobla ligo. Oni parolas pri
-la cis-agordo kaj la trans-agordo (bildo 2). Kutime, en la naturo, ĉefe ekzistas la cis-izomeroj kaj ofte la trans-izomeroj havas negativajn eﬁkojn al la vivaj estaĵoj. Ekzistas
+la cis-agordo kaj la trans-agordo ([bildo 2](#bld-2)). Kutime, en la naturo, ĉefe ekzistas la cis-izomeroj kaj ofte la trans-izomeroj havas negativajn eﬁkojn al la vivaj estaĵoj. Ekzistas
 alia izomertipo, ĉe kiu la karbonatomoj havas nelinian agordon. Tiukaze, oni almetas
-la preﬁkson “izo” al la kutimuza nomo de la grasa acido. Tiumaniere, la valeriana acido havas unu izomeron, la izovaleriana acido (tabelo 2). La nombro da karbonatomoj
-estas la sama sed ne ties agordo [^7].
+la preﬁkson “izo” al la kutimuza nomo de la grasa acido. Tiumaniere, la valeriana acido havas unu izomeron, la izovaleriana acido ([tabelo 2](#tab-2)). La nombro da karbonatomoj
+estas la sama sed ne ties agordo [[7](#b-7)].
 
 La sistema ĥemia nomenklaturo diﬁnas aﬁksojn por ĉiu ĥemia funkcio. Tiamaniere
 koncerne la saturitajn grasajn acidojn la ĝenerala formulo estas X+Y+oika. La aﬁkso
 X esprimas la nombron da karbonatomoj en la ĉeno laŭ la sistema ĥemia nomenklaturo, la aﬁkso Y diﬁnas la saturitan aŭ nesaturitan karakteron de la karbonĉenoj (t.e.
 karbonatomo estas saturita kiam ĝi estas ligita kun la plej granda nombro da hidrogen-atomoj kiun ĝi povas akcepti). Ĉu Y estas “an” tiu, kiu signifas ke la grasa acido estas saturita ĉu Y estas “en” tiam la grasa acido estas nesaturita. La aﬁkso “-oika” karakterizas la funkcion karboksilan (COOH). Tiumaniere oni disigas la nomon “etanoika acido” tiel “et”+“an”+“oika” acido. “Et” estas la aﬁkso por du karbonatomoj, “an” kaj
-“oika” respektas la regulon ĉi-supre (tabelo 2). Samregule, dodekenoika acido estas
-disigita en dodek+en+oika (tabelo ). Finﬁne oni disigas la nomon “oktadekadienoikan” acidon en “oktadeka”+“di”+“en”+„oika”. Tiam aperas la nova aﬁkso “di” kiu
-indikas la nombron da duoblaj ligoj en la ĉeno (tabelo 3).
+“oika” respektas la regulon ĉi-supre ([tabelo 2](#tab-2)). Samregule, dodekenoika acido estas
+disigita en dodek+en+oika ([tabelo 1](#tab-1)). Finﬁne oni disigas la nomon “oktadekadienoikan” acidon en “oktadeka”+“di”+“en”+„oika”. Tiam aperas la nova aﬁkso “di” kiu
+indikas la nombron da duoblaj ligoj en la ĉeno ([tabelo 3](#tab-3)).
 
-![Bildo 1](850-grasacidoj_bld-1.png)
+![Bildo 1](17-grasacidoj_bld-1.png){#bld-1}
 Bildo 1: trans-9-heksadekenoika acido (palmolea acido, C16:1(9) aŭ C16:1 (ω − 7).
 Sinteza skemo reprezentanta la sisteman ĥemia nomenklaturo de la grasaj acidoj kaj la omega-nomenklaturo.
 
-Tabelo 3: Ĉefaj grasaj acidoj polinesaturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.
+::: {.plenlargha}
+
+[Tabelo 3: Ĉefaj grasaj acidoj polinesaturitaj nature trovitaj.  
+Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.]{#tab-3}
 
 |Normiga|Omegaa|Ĥemia strukturo|Sistema nomo|
 |---|---|---|---|
@@ -119,18 +141,16 @@ Tabelo 3: Ĉefaj grasaj acidoj polinesaturitaj nature trovitaj. Ili estas prezen
 |C22:5(4, 8, 12, 15, 19)|C22:5 ω−3|$\ce{CH_3CH_2CH = CH(CH_2)_2CH = CHCH_2(CH=CH(CH_2)_2)_3COOH}$|cis,cis,cis,cis,cis-4,8,12,15,19-dokozapentaenoika|
 |C22:6(4, 7, 10, 13, 16, 19)|C22:6 ω−6|$\ce{CH_3CH_2(CH=CHCH_2)_5CH = CH(CH_2)_2COOH}$|cis,cis,cis,cis,cis,cis-4,7,10,13,16,19-dokozaheksaenoika|
 
-
-
-
+:::
 
 
 La formulo C*a:b* sinteze karakterizas la grasajn acidojn. La C*a* diﬁnas la nombron
 da karbonatomoj en la ĉeno (ekzemple por etanoika acido: C2) kaj *b* por la nombro da
-duoblaj ligoj en la ĉeno (tabelo 1). Kaze de nesaturitaj grasaj acidoj, la numeroj de la
+duoblaj ligoj en la ĉeno ([tabelo 1](#tab-1)). Kaze de nesaturitaj grasaj acidoj, la numeroj de la
 unua karbonatomo de ĉiu duobla ligo estas parenteze almetitaj kaj disigitaj per komoj
 (tabeloj 2 kaj 3).
 
-![Bildo 2](850-grasacidoj_bld-2.png)
+![Bildo 2](17-grasacidoj_bld-2.png){#bld-2}
 Bildo 2: Skemo de la cis kaj trans agordo. R kaj R’ estas karbonaj ĉenoj.
 
 La omega-sistemo estas ĉefe uzata de nutradsciencistoj. Ĝi estas malpli preciza ol la
@@ -145,15 +165,14 @@ sistemo. Fine la uzado de tiuj nomoj en konversacioj estas nefarebla, ĉar la me
 gimnastiko estas tro malfacila. Tial ekzistas kutimuzaj nomoj pli facile lerneblaj ĉar
 ofte pli bildaj ol la nomenklaturaj nomoj. Fakte la nomo estas ofte donita de la malkovrantoj laŭ la cirkonstancoj de la malkovro kaj longtempe antaŭ ol bone koni la
 precizan strukturon de la molekulo. Mirinde oni facile konstatas spikumante kutimuzajn nomojn de grasaj acidoj, ke Esperantaj nomoj estas heterogenaj kaj nesistemaj.
-Tiel la grasa acido malkovrita en la vinagro estis nomita de la esploristo anglaling-
-ve “acetic acid” kaj franclingve “acide acétique”. Tiu nomo ne estas elektita hazarde
+Tiel la grasa acido malkovrita en la vinagro estis nomita de la esploristo anglalingve “acetic acid” kaj franclingve “acide acétique”. Tiu nomo ne estas elektita hazarde
 sed ĝi venas de la latina vorto “acetum”, kiu Esperante signifas “aceto” aŭ “vinagro”.
 Respektante la fundamentan 15-an regulon la nomo “acetic acid” estis kompreneble
-paŭse alprenita al Esperanto kiel “aceta acido” [^10]. Ankoraŭ respektante la saman
-regulon Esperantisto paŭsis “palmitic acid” kiel “palmita acido” [^11]. Ĉu tiu elekto estas logika? Ĝi malrespektas la -an regulon kaj se oni trarigardas la tabelojn 4 kaj 5,
+paŭse alprenita al Esperanto kiel “aceta acido” [[10](#b-10)]. Ankoraŭ respektante la saman
+regulon Esperantisto paŭsis “palmitic acid” kiel “palmita acido” [[11](#b-11)]. Ĉu tiu elekto estas logika? Ĝi malrespektas la -an regulon kaj se oni trarigardas la [tabelojn 4](#tab-4) [kaj 5](#tab-5),
 oni konstatas, ke la rezulto estas tre heterogena kaj sensistema. Mankas kohereco. Se
 la kreintoj de tiu nomo kalkulis ties signifon, t.e grasa acido eltirita el palmo, eble ili
-simple nomis ĝin palma acido. Tiam la 15-a regulo de la Fundamento estus bone respektita [^14]. Ankoraŭ pli evidenta ekzemplo estas la “valerata” acido [^15]. Tiu acido
+simple nomis ĝin palma acido. Tiam la 15-a regulo de la Fundamento estus bone respektita [[14](#b-14)]. Ankoraŭ pli evidenta ekzemplo estas la “valerata” acido [[15](#b-15)]. Tiu acido
 estis eltirita el la vegetaĵo nomita “Valeriano”. Eĉ se oni imagus ke “ata” estas suﬁkso,
 ĝi ne povus modiﬁ la radikon “Valerian-” kaj respektante bonan Esperanton oni skribu valerianata acido. Sed eble pro facileco oni tro facile misaplikis la 15-an regulon
 kaj oni tro ofte rekte transprenas al Esperanto fremdajn vortojn. Ĉu valeriana acido
@@ -162,16 +181,15 @@ ne kompreneblas?
 ## 4 Prezento de la grasaj acidoj enklasigitaj
 
 Nun mi petas al la legantoj, ke ili senkulpigu min pro la sekvo, kiu ŝajnas kvazaŭ
-katalogo. Fakte en tabelo 5 estas arigitaj la nomoj de la diversaj ĉefaj grasaj acidoj
-troveblaj rete kaj ĉefe en Vikipedio [^13] kaj en la najbara kolumno estas proponoj por
+katalogo. Fakte en [tabelo 5](#tab-5) estas arigitaj la nomoj de la diversaj ĉefaj grasaj acidoj
+troveblaj rete kaj ĉefe en Vikipedio [[13](#b-13)] kaj en la najbara kolumno estas proponoj por
 koherigo de la nomoj de la grasaj acidoj. La sekvo mallonge prezentas la nomojn unu
 post la alian kaj atentigas pri kio eble ŝajnas malafabla.
 
 ### 4.1 La saturitaj grasaj acidoj
-En la unua grupo estas arigitaj la saturitaj grasaj acidoj (tabelo 4).
+En la unua grupo estas arigitaj la saturitaj grasaj acidoj ([tabelo 4](#tab-4)).
 
-Tabelo 4: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi
-kaj kompletigi la liston. Grasaj acidoj saturitaj.
+[Tabelo 4: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi kaj kompletigi la liston. Grasaj acidoj saturitaj.]{#tab-4}
 
 |Sistema nomo de la acido|uzata nomo anglalingve trovebla|uzata nomo esperantalingve trovebla|Sugesto de novaj nomoj|
 |---|---|---|---|
@@ -198,7 +216,7 @@ kaj kompletigi la liston. Grasaj acidoj saturitaj.
 |Trikontanoika|Melissic||Melisa|
 
 La formika acido 
-: estis priskribita de s-ro John Wray en 1670 el suko de formikoj. Tamen, antaŭaj observoj ekzistis. Botanikistoj konstatis ke blua cikoria petalo (Cichorium sp) estis ruĝigita de formikaj abdomenoj, kiam oni metas ilin sur ĝin [^5],[^6].
+: estis priskribita de s-ro John Wray en 1670 el suko de formikoj. Tamen, antaŭaj observoj ekzistis. Botanikistoj konstatis ke blua cikoria petalo (Cichorium sp) estis ruĝigita de formikaj abdomenoj, kiam oni metas ilin sur ĝin [[5](#b-5)],[[6](#b-6)].
 
 La aceta acido 
 : estas konata ekde la antikva epoko. La antikvaj romianoj faris vinagron el vino aere eksponita. Ili ŝatis saŭcon preparitan el boligita acida vino
@@ -261,8 +279,8 @@ unuaj malsimiloj inter grasaj acidoj ĉefe baziĝas sur iliaj diversaj ﬂuidiga
 temperaturoj. Oni nomas “oleoj” la grasajn acidojn kiu ﬂuidiĝas sub 15
 gradoj celsiaj, buteroj tiujn kiu moliĝas je 18 gradoj celsiaj kaj ﬂuidiĝas je
 kelkaj gradoj supre. La grasoj ĝenerale estas malpli ﬂuidigeblaj ol la buteroj. La seboj estas tiuj, kiuj ﬂuidiĝas supere de 40 gradoj celsiaj kaj ﬁnﬁne
-la cerinoj fandiĝas inter 44 kaj 64 gradoj celsiaj [^2]. [*Traduko de la aŭtoro*]
-<blockquote>
+la cerinoj fandiĝas inter 44 kaj 64 gradoj celsiaj [[2](#b-2)]. [*Traduko de la aŭtoro*]
+</blockquote>
 
 Escepte buteran, kapran kaj elkapran acidojn, ĉiuj saturitaj acidoj menciitaj solidiĝas
 je 20 celsiaj gradoj. Inverse ĉiuj ne saturitaj acidoj menciitaj likviĝas je tiu temperaturo.
@@ -271,17 +289,17 @@ tio estas laŭrolea acido (C12:1), miristikokea acido (C14:1), palmolea acido (i
 nomas ĝin palmitoleata) (C16:1) kaj tiel plu…
 
 Ĉi sube estas diskutataj nur la nomoj de grasaj acidoj, kies radikoj ankoraŭ ne estis
-menciitaj (tabelo 5).
+menciitaj ([tabelo 5](#tab-5)).
 
 La erukolea acido
 : estas eltirata el eruko. Eruko estas kreskaĵo el la familio de la kruciferacoj aŭ brasikacoj. Fakte se oni respektus la 15-an regulon, oni nomus ĝin
 eruka acido, sed tiam mankus la informo pri ĝia ﬂuideco je etosa temperaturo,
-t.e. ĉirkaŭ inter 20 kaj 25 gradoj celsiaj [^1].
+t.e. ĉirkaŭ inter 20 kaj 25 gradoj celsiaj [[1](#b-1)].
 
 La gadolea acido
 : tenas sian nomon el la moruo ĉar ĝia ﬁŝa genro estas Gadus sp. La
 cetacolea acido estas bona markaĵo de la dieto de la predatoraj cetaceoj por la
-mar-biologiistoj [^3].
+mar-biologiistoj [[3](#b-3)].
 
 La ŝarkolea acido
 : La *selacholeic acid* Estus Esperante ŝarkolea acido. Efektive, la *Selachyomorpha* estas super-ordo de ŝarkoj. Iu povas kritiki tiun elekton ĉar la
@@ -289,29 +307,28 @@ vorto ŝarko estas malpli preciza ol la vorto *selach-* sed la rolo de tiuj kuti
 nomoj ne estas precizeco sed facileco de la uzo. La sistema ĥemia nomenklaturo
 zorgas pri precizeco.
 
-Konstateblas, ke, kiam la grasaj acidoj enhavas pli ol unu nesaturitan ligon, tiam aperas la kvazaŭa suﬁkso “onic” tiel, kiel *arachidonic acid* aŭ *culpanodonic acid* (tabelo 6).
+Konstateblas, ke, kiam la grasaj acidoj enhavas pli ol unu nesaturitan ligon, tiam aperas la kvazaŭa suﬁkso “onic” tiel, kiel *arachidonic acid* aŭ *culpanodonic acid* ([tabelo 6](#tab-6)).
 
-Tabelo 5: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi
-kaj kompletigi la liston. Grasaj acidoj mononesaturitaj.
+[Tabelo 5: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi kaj kompletigi la liston. Grasaj acidoj mononesaturitaj.]{#tab-5}
 
 |Sistema nomo de la acido|uzata nomo anglalingve trovebla|uzata nomo esperantalingve trovebla|Sugesto de novaj nomoj|
 |---|---|---|---|
-|cis-9-dodekenoika|Laŭroleic|Laŭrolea|
-|cis-9-tetradekenoika|Myristoleic|Miristikolea|
-|cis-9-heksadekanoika|Palmitoleic|Palmolea|
-|trans-6-oktadekenoika|Petroselaidic||
-|cis-9-oktadekenoika|Oleic|Olea|
-|trans-9-oktadekenoika|Elaidic||
-|cis-11-oktadekenoika|Vaccenic|Vakcenolea|
-|trans-11-oktadekenoika|trans vaccenic|trans Vakcenolea|
-|cis-9-ikozenoika|gadoleic|Gadolea|
-|cis-11-dokozenoika|cetoleic|Cetacolea|
-|cis-13-dokozenoika|erucic|Erukolea|
-|cis-15-tetrakozenoika|selacholeic|Ŝarkolea|
+|cis-9-dodekenoika|Laŭroleic||Laŭrolea|
+|cis-9-tetradekenoika|Myristoleic||Miristikolea|
+|cis-9-heksadekanoika|Palmitoleic||Palmolea|
+|trans-6-oktadekenoika|Petroselaidic|||
+|cis-9-oktadekenoika|Oleic||Olea|
+|trans-9-oktadekenoika|Elaidic|||
+|cis-11-oktadekenoika|Vaccenic||Vakcenolea|
+|trans-11-oktadekenoika|trans vaccenic||trans Vakcenolea|
+|cis-9-ikozenoika|gadoleic||Gadolea|
+|cis-11-dokozenoika|cetoleic||Cetacolea|
+|cis-13-dokozenoika|erucic||Erukolea|
+|cis-15-tetrakozenoika|selacholeic||Ŝarkolea|
 
 
-Tabelo 6: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi
-kaj kompletigi la liston. Grasaj acidoj polinesaturitaj.
+[Tabelo 6: Komparo inter la nomoj en la angla kaj Esperanto kaj sugesto por koherigi
+kaj kompletigi la liston. Grasaj acidoj polinesaturitaj.]{#tab-6}
 
 |Sistema nomo de la acido|uzata nomo anglalingve trovebla|uzata nomo esperantalingve trovebla|Sugesto de novaj nomoj|
 |---|---|---|---|
@@ -326,18 +343,16 @@ kaj kompletigi la liston. Grasaj acidoj polinesaturitaj.
 |cis,cis,cis,cis,cis-4,8,12,15,19-dokozapentaenoika|cuplanodonique|||
 |cis,cis,cis,cis,cis,cis-4,7,10,13,16,19-dokozaheksaenoika|cervonic||Cerbolena|
 
-Sed fakte ne ekzistas oﬁciala regulo pri la kutimuzaj nomoj. Tio estas la natura histo-
-rio de lingvoj kaj do ekzistas multaj esceptoj je la kvazaŭa regulo ekzemple rumenic
+Sed fakte ne ekzistas oﬁciala regulo pri la kutimuzaj nomoj. Tio estas la natura historio de lingvoj kaj do ekzistas multaj esceptoj je la kvazaŭa regulo ekzemple rumenic
 acid aŭ eleostearic acid. La internacia lingvo kontraŭe al la naciaj lingvoj estas kreita
-relative regula. Tiu estas la volboŝlosilo kiu faciligas la lernadon. Tial oni provas iden-
-tigi kvazaŭan regulon en la naciaj lingvoj kaj transformi ĝin al senescepta regulo en
+relative regula. Tiu estas la volboŝlosilo kiu faciligas la lernadon. Tial oni provas identigi kvazaŭan regulon en la naciaj lingvoj kaj transformi ĝin al senescepta regulo en
 Esperanto. Kompreneble estus sensencaĵo, ke rezulto tro malsimilus naciajn lingvon
 ekzemple Volapuko, do oni proponas konservi la radikojn sed ĝeneraligi la uzadon de
 la vortoj olea kaj olenia por specife paroli pri la mononesaturitaj kaj la polinesaturitaj
 grasaj acidoj. Tiel la grasaj acidoj C16:0 estus palma acido, C16:1 estus palmolea acido
 kaj la aliaj C16:X (kun X > 24) estus palmoleniaj acidoj.
 
-Finﬁne sciencaj verkoj abundas pri ikozapentaenoika kaj la dokozaheksaenoika acidoj. Ilia trovebla kutimuza nomo estas “timnodonic” [^4] kaj “cervonic acid” [^9] esprimeblaj en Esperanto kiel tinusolenia kaj cerbonia acidoj laŭ la ĉi-supra regulo. Sed fakte
+Finﬁne sciencaj verkoj abundas pri ikozapentaenoika kaj la dokozaheksaenoika acidoj. Ilia trovebla kutimuza nomo estas “timnodonic” [[4](#b-4)] kaj “cervonic acid” [[9](#b-9)] esprimeblaj en Esperanto kiel tinusolenia kaj cerbonia acidoj laŭ la ĉi-supra regulo. Sed fakte
 en la scienca literaturo, tiuj grasaj acidoj estas menciitaj kiel EPA kaj DHA.
 
 Konklude, la celo de tiu artikolo ne estas solvi ĉiujn problemojn pri kutimuzaj nomoj de la grasaj acidoj sed klare prezenti la problemon. Tial ne estas proponoj por
@@ -347,45 +362,31 @@ Esperante ke ekde nun la Esperantista biologiistaro prizorgos la aferon.
 
 ## Bibliografio
 
-[^1]: X. Bao, M. Pollard kaj J. Ohlrogge. “The biosynthesis of erucic acid in developing
+1. [X. Bao, M. Pollard kaj J. Ohlrogge. “The biosynthesis of erucic acid in developing]{#b-1}
 embryos of brassica rapa”. En: Plant Physiol. 118.1 (1998), p. 183-190. ISSN: 1532-2548. DOI: 10.1104/pp.118.1.183.
 
-[^2]: M.E. Chevreul. Recherches chimiques sur les corps gras d'origine animale. F. G. Levrault, 1823. URL: http://books.google.de/books?id=94\_H7hfQfS0C.
+2. [M.E. Chevreul. Recherches chimiques sur les corps gras d'origine animale. F. G. Levrault, 1823. URL: http://books.google.de/books?id=94\_H7hfQfS0C.]{#b-2}
 
-[^3]: M.H. Cooper, S.J. Iverson kaj K. Rouvinen-Watt. “Metabolism of dietary cetoleic acid (22:1n-11) in mink (Mustela vison) and gray seals (Halichoerus grypus)
-studied using radiolabeled fatty acids”. En: Physiol. Biochem. Zool. 79.4 (2006),
-p. 820-9. ISSN: 1522-2152. DOI: 10.1086/505513.
+3. [M.H. Cooper, S.J. Iverson kaj K. Rouvinen-Watt. “Metabolism of dietary cetoleic acid (22:1n-11) in mink (Mustela vison) and gray seals (Halichoerus grypus) studied using radiolabeled fatty acids”. En: Physiol. Biochem. Zool. 79.4 (2006), p. 820-9. ISSN: 1522-2152. DOI: 10.1086/505513.]{#b-3}
 
-[^4]: J. Dyerberg, H. O. Bang kaj N. Hjorne. “Fatty acid composition of the plasma
-lipids in Greenland Eskimos”. En: Am. J. Clin. Nutr. 28.9 (1975), p. 958-66. ISSN:
-0002-9165. URL: http://ajcn.nutrition.org/content/28/9/958.long.
+4. [J. Dyerberg, H. O. Bang kaj N. Hjorne. “Fatty acid composition of the plasma lipids in Greenland Eskimos”. En: Am. J. Clin. Nutr. 28.9 (1975), p. 958-66. ISSN: 0002-9165. URL: http://ajcn.nutrition.org/content/28/9/958.long.]{#b-4}
 
-[^5]: W.B. Johnson. History of the process and present state of animal chemistry. History
-of the Process and Present State of Animal Chemistry. Johnson, 1803. URL: http:
-//books.google.de/books?id=eAOIqOm0GScC.
+5. [W.B. Johnson. History of the process and present state of animal chemistry. History of the Process and Present State of Animal Chemistry. Johnson, 1803. URL: http://books.google.de/books?id=eAOIqOm0GScC.]{#b-5}
 
-[^6]: Wray John. “Extract of a Letter, Written by Mr. John Wray to the Publisher January 13. 1670. Concerning Some Un-Common Observations and Experiments
-Made with an Acid Juyce to be Found in Ants”. En: Phil. Trans. 5 (1670), p. 2063.
-DOI: 10.1098/rstl.1670.0052.
+6. [Wray John. “Extract of a Letter, Written by Mr. John Wray to the Publisher January 13. 1670. Concerning Some Un-Common Observations and Experiments Made with an Acid Juyce to be Found in Ants”. En: Phil. Trans. 5 (1670), p. 2063. DOI: 10.1098/rstl.1670.0052.]{#b-6}
 
-[^7]: Les Lipides. URL: http://sites.univ-provence.fr/wabim/d_agora/d_biochimie/lipides.pdf.
+7. [Les Lipides. URL: http://sites.univ-provence.fr/wabim/d_agora/d_biochimie/lipides.pdf.]{#b-7}
 
-[^8]: Zdeněk Pluhař. “Sitema ĥemia nomeklaturo en Esperanto”. En: (2011). URL: http:
-//www.eventoj.hu/steb/kemio/kemia-nomenklaturo-versio-2011-2.pdf.
+8. [Zdeněk Pluhař. “Sistema ĥemia nomeklaturo en Esperanto”. En: (2011). URL: http://www.eventoj.hu/steb/kemio/kemia-nomenklaturo-versio-2011-2.pdf.]{#b-8}
 
-[^9]: N. Sarda k.a. “Docosahexaenoic acid (cervonic acid) incorporation into diﬀerent
-brain regions in the awake rat”. En: Neurosci. Lett. 123.1 (1991), p. 57-60. ISSN:
-0304-3940. DOI: 10.1016/0304-3940(91)90157-O.
+9. [N. Sarda k.a. “Docosahexaenoic acid (cervonic acid) incorporation into diﬀerent brain regions in the awake rat”. En: Neurosci. Lett. 123.1 (1991), p. 57-60. ISSN: 0304-3940. DOI: 10.1016/0304-3940(91)90157-O.]{#b-9}
 
-[^10]: Vikipedio, eld. Aceta acido. URL: http://eo.wikipedia.org/wiki/Aceta_acido.
+10. [Vikipedio, eld. Aceta acido. URL: http://eo.wikipedia.org/wiki/Aceta_acido.]{#b-10}
 
-[^11]: Vikipedio, eld. Palmita acido. URL: http://eo.wikipedia.org/wiki/Palmita_
-acido.
+11. [Vikipedio, eld. Palmita acido. URL: http://eo.wikipedia.org/wiki/Palmita_acido.]{#b-11}
 
-[^12]: Vikipedio, eld. Valerata acido. URL: http://eo.wikipedia.org/wiki/Valerata_
-acido.
+12. [Vikipedio, eld. Valerata acido. URL: http://eo.wikipedia.org/wiki/Valerata_acido.]{#b-12}
 
-[^13]: Vikipedio – la libera enceklopedio. URL: http://eo.wikipedia.org.
+13. [Vikipedio – la libera enceklopedio. URL: http://eo.wikipedia.org.]{#b-13}
 
-[^14]: L.L. Zamenhof. Fundamento de Esperanto: gramatiko, ekzercaro, universala vortaro.
-Hachette, 1905. URL: http://www.akademio-de-esperanto.org/fundamento/.
+14. [L.L. Zamenhof. Fundamento de Esperanto: gramatiko, ekzercaro, universala vortaro. Hachette, 1905. URL: http://www.akademio-de-esperanto.org/fundamento/.]{#b-14}
