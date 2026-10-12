@@ -1,13 +1,14 @@
 ---
-eldono: Scienca Revuo 2/63 (2013)
-rubriko: Terminologio
-titolo: Kutimuzaj nomoj de grasaj acidoj
-aŭtoroj: Anthony Lucas
-fonto: https://scienca-revuo.info/author/850
+title: Kutimuzaj nomoj de grasaj acidoj
+author: Anthony Lucas
+lang: eo    
+magazine: Scienca Revuo
+rubric: Terminologio
+volume: 230
+year: 2013
+source: https://scienca-revuo.info/author/850
 permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 ---
-
-# Kutimuzaj nomoj de grasaj acidoj
 
 <!-- * anthony.lucas@netforspeed.com -->
 
@@ -36,52 +37,52 @@ sistemon kaj diskuti pri la tria maniero kadre de la Esperanta lingvo.
 
 Kutime oni enklasigas la grasajn acidojn laŭ ilia nombro da nesaturitaj ligoj. Se la
 acido ne havas nesaturitan ligon, ĝi apartenas al la grupo de la saturitaj grasaj acidoj
-kies ĥemiaj strukturoj sekvas la ĝeneralan formulon $$ CH_3-(CH_2)_n-COOH $$ (tabelo 1).
+kies ĥemiaj strukturoj sekvas la ĝeneralan formulon $\ce{ CH_3-(CH_2)_n-COOH }$ (tabelo 1).
 
-La grasaj acidoj enhavantaj unu duoblan ligon apartenas al la grupo de la mononesaturitaj acidoj. Ilia ĝenerala formulo estas $$ CH_3-(CH_2)_x-CH=CH-(CH_2)_y-COOH $$ (tabelo 2).
+La grasaj acidoj enhavantaj unu duoblan ligon apartenas al la grupo de la mononesaturitaj acidoj. Ilia ĝenerala formulo estas $\ce{ CH_3-(CH_2)_x-CH=CH-(CH_2)_y-COOH }$ (tabelo 2).
 
 Tabelo 1: Ĉefaj grasaj acidoj saturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.
 
 |Simbolo laŭ normiga nomenklaturo|Simbolo laŭ omegao-nomenklaturo|Ĥemia strukturo|Sistema nomo|
 |---|---|---|---|
-|C1:0|C1:0|$$CHOOH$$|Metanoika|
-|C2:0|C2:0|$$CH_3COOH$$|Etanoika|
-|C3:0|C3:0|$$CH_3CH_2COOH$$|Propanoika|
-|C4:0|C4:0|$$CH_3(CH_2)_2COOH$$|Butanoika|
-|C5:0|C5:0|$$CH_3(CH_2)_3COOH$$|Pentanoika|
-|C5:0 izo|C5:0 izo|$$CH_3CHCHCH_2COOH$$|Metil-3-butanoika|
-|C6:0|C6:0|$$CH_3(CH_2)_4COOH$$|Heksanoika|
-|C7:0|C7:0|$$CH_3(CH_2)_5COOH$$|Heptanoika|
-|C8:0|C8:0|$$CH_3(CH_2)_6COOH$$|Oktanoika|
-|C9:0|C9:0|$$CH_3(CH_2)_7COOH$$|Nonanoika|
-|C10:0|C10:0|$$CH_3(CH_2)_8COOH$$|Dekanoika|
-|C12:0|C12:0|$$CH_3(CH_2)_{10}COOH$$|Dodekanoika|
-|C14:0|C14:0|$$CH_3(CH_2)_{12}COOH$$|Tetradekanoika|
-|C16:0|C16:0|$$CH_3(CH_2)_{14}COOH$$|Heksadekanoika|
-|C18:0|C18:0|$$CH_3(CH_2)_{16}COOH$$|Oktadekanoika|
-|C20:0|C20:0|$$CH_3(CH_2)_{18}COOH$$|Ikozanoika|
-|C22:0|C22:0|$$CH_3(CH_2)_{20}COOH$$|Dokozanoika|
-|C24:0|C24:0|$$CH_3(CH_2)_{22}COOH$$|Tetrakozanoika|
-|C26:0|C26:0|$$CH_3(CH_2)_{24}COOH$$|Heksakozanoika|
-|C28:0|C28:0|$$CH_3(CH_2)_{26}COOH$$|Oktakozanoika|
-|C30:0|C30:0|$$CH_3(CH_2)_{28}COOH$$|Trikontanoika|
+|C1:0|C1:0|$\ce{CHOOH}$|Metanoika|
+|C2:0|C2:0|$\ce{CH_3COOH}$|Etanoika|
+|C3:0|C3:0|$\ce{CH_3CH_2COOH}$|Propanoika|
+|C4:0|C4:0|$\ce{CH_3(CH_2)_2COOH}$|Butanoika|
+|C5:0|C5:0|$\ce{CH_3(CH_2)_3COOH}$|Pentanoika|
+|C5:0 izo|C5:0 izo|$\ce{CH_3CHCHCH_2COOH}$|Metil-3-butanoika|
+|C6:0|C6:0|$\ce{CH_3(CH_2)_4COOH}$|Heksanoika|
+|C7:0|C7:0|$\ce{CH_3(CH_2)_5COOH}$|Heptanoika|
+|C8:0|C8:0|$\ce{CH_3(CH_2)_6COOH}$|Oktanoika|
+|C9:0|C9:0|$\ce{CH_3(CH_2)_7COOH}$|Nonanoika|
+|C10:0|C10:0|$\ce{CH_3(CH_2)_8COOH}$|Dekanoika|
+|C12:0|C12:0|$\ce{CH_3(CH_2)_{10}COOH}$|Dodekanoika|
+|C14:0|C14:0|$\ce{CH_3(CH_2)_{12}COOH}$|Tetradekanoika|
+|C16:0|C16:0|$\ce{CH_3(CH_2)_{14}COOH}$|Heksadekanoika|
+|C18:0|C18:0|$\ce{CH_3(CH_2)_{16}COOH}$|Oktadekanoika|
+|C20:0|C20:0|$\ce{CH_3(CH_2)_{18}COOH}$|Ikozanoika|
+|C22:0|C22:0|$\ce{CH_3(CH_2)_{20}COOH}$|Dokozanoika|
+|C24:0|C24:0|$\ce{CH_3(CH_2)_{22}COOH}$|Tetrakozanoika|
+|C26:0|C26:0|$\ce{CH_3(CH_2)_{24}COOH}$|Heksakozanoika|
+|C28:0|C28:0|$\ce{CH_3(CH_2)_{26}COOH}$|Oktakozanoika|
+|C30:0|C30:0|$\ce{CH_3(CH_2)_{28}COOH}$|Trikontanoika|
 
 Tabelo 2: Ĉefaj grasaj acidoj mononesaturitaj nature trovitaj. Ili estas prezentataj laŭ la sistema ĥemia nomenklaturo.
 
 |Simbolo laŭ normiga nomenklaturo|Simbolo laŭ omegao-nomenklaturo|Ĥemia strukturo|Sistema nomo de la acido|
 |---|---|---|---|
-|C12:1(9)|C12:1 ω − 3|$$CH_3CH_2CH = CH(CH_2)_7COOH$$|cis-9-dodekenoika|
-|C14:1(9)|C14:1 ω − 5|$$CH_3(CH_2)_3CH = (CH_2)_7COOH$$|cis-9-tetradekenoika|
-|C16:1(9)|C16:1 ω − 7|$$CH_3(CH_2)_5CH = CH(CH_2)_7COOH$$|cis-9-heksadekanoika|
-|C18:1(trans6)|C18:1 ω − 12|$$CH_3(CH_2)_{10}CH = CH(CH_2)_4COOH$$|trans-9-oktadekenoika|
-|C18:1(9)|C18:1 ω − 9|$$CH_3(CH_2)_7CH = CH(CH_2)_7COOH$$|cis-9-oktadekenoika|
-|C18:1(trans9)|C18:1 ω − 9|$$CH_3(CH_2)_7CH = CH(CH_2)_7COOH$$|trans-9-oktadekenoika|
-|C18:1(11)|C18:1 ω − 7|$$CH_3(CH_2)_5CH = CH(CH_2)_9COOH$$|cis-11-oktadekenoika|
-|C18:1(trans11)|C18:1 ω − 7|$$CH_3(CH_2)_5CH = CH(CH_2)_9COOH$$|trans-11-oktadekenoika|
-|C20:1(9)|C20:1 ω − 11|$$CH_3(CH_2)_9CH = CH(CH_2)_7COOH$$|cis-9-ikozenoika|
-|C22:(11)|C22:1 ω − 11|$$CH_3(CH_2)_9CH = CH(CH_2)_9COOH$$|cis-11-dokozenoika|
-|C22:1(13)|C22:1 ω − 9|$$CH_3(CH_2)_7CH = CH(CH_2)_{11}COOH$$|cis-13-dokozenoika|
-|C24:1(15)|C24:1 ω − 9|$$CH_3(CH_2)CH = CH(CH_2)_{13}COOH$$|cis-15-tetrakozenoika|
+|C12:1(9)|C12:1 ω − 3|$\ce{CH_3CH_2CH = CH(CH_2)_7COOH}$|cis-9-dodekenoika|
+|C14:1(9)|C14:1 ω − 5|$\ce{CH_3(CH_2)_3CH = (CH_2)_7COOH}$|cis-9-tetradekenoika|
+|C16:1(9)|C16:1 ω − 7|$\ce{CH_3(CH_2)_5CH = CH(CH_2)_7COOH}$|cis-9-heksadekanoika|
+|C18:1(trans6)|C18:1 ω − 12|$\ce{CH_3(CH_2)_{10}CH = CH(CH_2)_4COOH}$|trans-9-oktadekenoika|
+|C18:1(9)|C18:1 ω − 9|$\ce{CH_3(CH_2)_7CH = CH(CH_2)_7COOH}$|cis-9-oktadekenoika|
+|C18:1(trans9)|C18:1 ω − 9|$\ce{CH_3(CH_2)_7CH = CH(CH_2)_7COOH}$|trans-9-oktadekenoika|
+|C18:1(11)|C18:1 ω − 7|$\ce{CH_3(CH_2)_5CH = CH(CH_2)_9COOH}$|cis-11-oktadekenoika|
+|C18:1(trans11)|C18:1 ω − 7|$\ce{CH_3(CH_2)_5CH = CH(CH_2)_9COOH}$|trans-11-oktadekenoika|
+|C20:1(9)|C20:1 ω − 11|$\ce{CH_3(CH_2)_9CH = CH(CH_2)_7COOH}$|cis-9-ikozenoika|
+|C22:(11)|C22:1 ω − 11|$\ce{CH_3(CH_2)_9CH = CH(CH_2)_9COOH}$|cis-11-dokozenoika|
+|C22:1(13)|C22:1 ω − 9|$\ce{CH_3(CH_2)_7CH = CH(CH_2)_{11}COOH}$|cis-13-dokozenoika|
+|C24:1(15)|C24:1 ω − 9|$\ce{CH_3(CH_2)CH = CH(CH_2)_{13}COOH}$|cis-15-tetrakozenoika|
 
 La tria grupo arigas la grasajn acidojn polinesaturitajn. Ne ekzistas ĝenerala formulo por ili (tabelo 3). Dum la simpla ligo ebligas liberan rotacion de la du
 karbonatomoj ĉirkaŭ sia akso, la duobla ligo ﬁksas la relativan pozicion inter la du
@@ -107,16 +108,16 @@ Tabelo 3: Ĉefaj grasaj acidoj polinesaturitaj nature trovitaj. Ili estas prezen
 
 |Normiga|Omegaa|Ĥemia strukturo|Sistema nomo|
 |---|---|---|---|
-|C18:2(9, 12)|C18:2 ω−6|$$CH_3(CH_2)_4CH = CHCH_2CH = CH(CH_2)_7COOH$$|cis,cis-9,12-oktadekadienoika|
-|C18:2(9, trans11)|C18:2 ω−7|$$CH_3(CH_2)_5CH = CHCH = CH(CH_2)_7COOH$$|cis,trans-9,11-oktadekadienoika|
-|C18:2(trans10, 12)|C18:2 ω−6|$$CH_3(CH_2)_4CH = CHCH = CH(CH_2)_8COOH$$|trans,cis-10,12-oktadekadienoika|
-|C18:3(6, 9, 12)|C18:3 ω−6|$$CH_3(CH_2)_3(CH_2CH=CH)_3(CH_2)_4COOH$$|cis,cis,cis-6,9,12-oktadekatrienoika|
-|C18:3(9, 12, 15)|C18:3 ω−3|$$CH_3(CH_2CH=CH)_3(CH_2)_7COOH$$|cis,trans,trans-9,12,15-okadekatrienoika|
-|C18:3(9, trans11, trans13)|C18:3 ω−5|$$CH_3(CH_2)_3(CH=CH)_3(CH_2)_7COOH$$|cis,trans,trans-9,11,13-oktadekatrienoika|
-|C20:4(5, 8, 11, 14)|C20:4 ω−6|$$CH_3(CH_2)_4(CH=CHCH_2)_3CH = CH(CH_2)_3COOH$$|cis,cis,cis,cis-5,8,11,14-ikozatetraenoika|
-|C20:5(5, 8, 11, 14, 17)|C20:5 ω−3|$$CH_3CH_2(CH=CHCH_2)_4CH = CH = CH(CH_2)_3COOH$$|cis,cis,cis,cis,cis-4,8,12,15,19-ikozapentaenoika|
-|C22:5(4, 8, 12, 15, 19)|C22:5 ω−3|$$CH_3CH_2CH = CH(CH_2)_2CH = CHCH_2(CH=CH(CH_2)_2)_3COOH$$|cis,cis,cis,cis,cis-4,8,12,15,19-dokozapentaenoika|
-|C22:6(4, 7, 10, 13, 16, 19)|C22:6 ω−6|$$CH_3CH_2(CH=CHCH_2)_5CH = CH(CH_2)_2COOH$$|cis,cis,cis,cis,cis,cis-4,7,10,13,16,19-dokozaheksaenoika|
+|C18:2(9, 12)|C18:2 ω−6|$\ce{CH_3(CH_2)_4CH = CHCH_2CH = CH(CH_2)_7COOH}$|cis,cis-9,12-oktadekadienoika|
+|C18:2(9, trans11)|C18:2 ω−7|$\ce{CH_3(CH_2)_5CH = CHCH = CH(CH_2)_7COOH}$|cis,trans-9,11-oktadekadienoika|
+|C18:2(trans10, 12)|C18:2 ω−6|$\ce{CH_3(CH_2)_4CH = CHCH = CH(CH_2)_8COOH}$|trans,cis-10,12-oktadekadienoika|
+|C18:3(6, 9, 12)|C18:3 ω−6|$\ce{CH_3(CH_2)_3(CH_2CH=CH)_3(CH_2)_4COOH}$|cis,cis,cis-6,9,12-oktadekatrienoika|
+|C18:3(9, 12, 15)|C18:3 ω−3|$\ce{CH_3(CH_2CH=CH)_3(CH_2)_7COOH}$|cis,trans,trans-9,12,15-okadekatrienoika|
+|C18:3(9, trans11, trans13)|C18:3 ω−5|$\ce{CH_3(CH_2)_3(CH=CH)_3(CH_2)_7COOH}$|cis,trans,trans-9,11,13-oktadekatrienoika|
+|C20:4(5, 8, 11, 14)|C20:4 ω−6|$\ce{CH_3(CH_2)_4(CH=CHCH_2)_3CH = CH(CH_2)_3COOH}$|cis,cis,cis,cis-5,8,11,14-ikozatetraenoika|
+|C20:5(5, 8, 11, 14, 17)|C20:5 ω−3|$\ce{CH_3CH_2(CH=CHCH_2)_4CH = CH = CH(CH_2)_3COOH}$|cis,cis,cis,cis,cis-4,8,12,15,19-ikozapentaenoika|
+|C22:5(4, 8, 12, 15, 19)|C22:5 ω−3|$\ce{CH_3CH_2CH = CH(CH_2)_2CH = CHCH_2(CH=CH(CH_2)_2)_3COOH}$|cis,cis,cis,cis,cis-4,8,12,15,19-dokozapentaenoika|
+|C22:6(4, 7, 10, 13, 16, 19)|C22:6 ω−6|$\ce{CH_3CH_2(CH=CHCH_2)_5CH = CH(CH_2)_2COOH}$|cis,cis,cis,cis,cis,cis-4,7,10,13,16,19-dokozaheksaenoika|
 
 
 

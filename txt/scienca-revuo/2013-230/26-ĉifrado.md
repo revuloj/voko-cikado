@@ -1,17 +1,18 @@
 ---
-eldono: Scienca Revuo 1/64 (2013)
-rubriko: Scienco kaj socio
-titolo: Ĉifrado, pli kaj pli grava
-aŭtoroj: Johannes Mueller
-fonto: https://scienca-revuo.info/article/26
-permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
+title: Ĉifrado, pli kaj pli grava
+subtitle: Kiel ni protektu nian komunikadon kaj niajn datumojn kaj kial
+author: Johannes Mueller
+lang: eo    
+magazine: Scienca Revuo
+rubric: Scienco kaj socio
+volume: 230
+year: 2013
+source: https://scienca-revuo.info/article/26
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 ---
 
-# Ĉifrado, pli kaj pli grava
 
-## Kiel ni protektu nian komunikadon kaj niajn datumojn kaj kial
-
-<blockquote class="resumo>
+<blockquote class="resumo">
 En la pasintaj jardekoj la reta komunikado iĝis la plej grava formo de longdistanca
 komunikado. Pri telefono kaj telefonnumeroj, ni eble rakontos al niaj nepoj kiel niaj
 geavoj nuntempe rakontas pri la permana konektado de telefonligoj fare de la “ĉarma
