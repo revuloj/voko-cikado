@@ -12,6 +12,27 @@ source: https://scienca-revuo.info/article/268
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
+<!--
+Adreso de la aŭtoro:
+1517 Raymond, Apt. 101
+Naperville, IL 60563
+Usono
+
+ABSTRACT: This article deals with the progress and problems of the
+nomenclature of the chemical elemenis. lt notes the significant
+contribution of Duncan (1950) to this area. Only a small percentage of
+the names ofelements in Esperanto are really in dispute, and the disputes
+are usually over minor variations of the same root word, as in:
+Francio/Franciumo (Francium). The chief contribution of this article is
+the proposal for a set of principles permitting the derivation ofthe names
+of every element in the Esperanto language. The resultant set is quite
+close to the one found in PIV, the authoritative all-Esperanto dictionary.
+
+The author also deals with the naming of groups of elements in the
+periodiec table and the combining roots used to form inorganic compound
+names.
+-->
+
 La deirpunkto de tiu ĉi artikolo estas la grava artikolo de nia eminenta
 forpasinta D-ro [Duncan]{.maldense}, kun la titolo "La nomado de la elementoj" [[1](#b-1)].
 Ĝi aperis en la jaro 1950. Pasas jam pli ol 40 jaroj post tiam. Mi unue
@@ -743,21 +764,4 @@ manpleno da reguloj, eblas derivi la tutan element-nomaron.
 
 22. ["Esperanta nomenklaturo de kemio kaj vortaro de kemio". Paris: Internacia Scienca Asocio Esperantista, 1913. 14 p.]{#b-22}
 
-Adreso de la aŭtoro:
-1517 Raymond, Apt. 101
-Naperville, IL 60563
-Usono
 
-ABSTRACT: This article deals with the progress and problems of the
-nomenclature of the chemical elemenis. lt notes the significant
-contribution of Duncan (1950) to this area. Only a small percentage of
-the names ofelements in Esperanto are really in dispute, and the disputes
-are usually over minor variations of the same root word, as in:
-Francio/Franciumo (Francium). The chief contribution of this article is
-the proposal for a set of principles permitting the derivation ofthe names
-of every element in the Esperanto language. The resultant set is quite
-close to the one found in PIV, the authoritative all-Esperanto dictionary.
-
-The author also deals with the naming of groups of elements in the
-periodiec table and the combining roots used to form inorganic compound
-names.
