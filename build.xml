@@ -647,7 +647,7 @@ voku ekz-e:
         <targetfile /> 
         <srcfile />
 
-        <fileset dir="${fonto}" includes="**/*.md" />
+        <fileset dir="${fonto}" includes="1999*/*.md" />
         <chainedmapper>
           <flattenmapper/>
           <globmapper from="*.md" to="*.html"/>
@@ -670,7 +670,7 @@ voku ekz-e:
         <arg value="--lua-filter=${fonto}/enhavo.lua" />
         
         <srcfile />
-        <fileset dir="${fonto}" includes="**/*.md" />
+        <fileset dir="${fonto}" includes="1999*/*.md" />
       </apply>     
 
       <exec executable="pandoc">
