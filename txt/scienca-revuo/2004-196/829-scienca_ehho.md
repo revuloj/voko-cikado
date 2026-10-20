@@ -1,5 +1,5 @@
 ---
-title: Sciecna eĥo
+title: Scienca eĥo
 lang: eo
 magazine: Scienca Revuo
 volume: 196
