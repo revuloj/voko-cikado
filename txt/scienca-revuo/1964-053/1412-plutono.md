@@ -21,6 +21,8 @@ marto 1962, kun permeso de la verkinto kaj de la redaktoro, tradukita
 de T. L. C. Bluett.)
 </blockquote>
 
+![orbitoj de Plutono, Neptuno, Urano](1412-plutono_bld-1.png)
+
 Plutono, la naŭa planedo, kaj la, plej malprokisma membro de la suna sistemo,
 ne estas videbla per senteleskopa okulo, aŭ eĉ per malgranda teleskopo;
 ĝi estas treege malhela, kaj eĉ kiam oni ĝin observas per
@@ -149,14 +151,14 @@ estas malĝustaj; Plutono estas tiel malproksima, ke nur la reflekta
 teleskopo sur la monto _Palomar_ povas montri percepteblan diskon. Oni
 proponis plurajn solvojn de tiu problemo:
 
-    1. ke Plutono tute ne estas la »Planedo X« de _Lowell_, kaj ke la e
+1. ke Plutono tute ne estas la »Planedo X« de _Lowell_, kaj ke la e
     fektiva X ankoraŭ restas eltrovota. Tio implicus plurajn strangajn koincidojn, sed ĝi ne estas malebla, Efektive _K. Schütte_ kaj liaj kolegoj jam komencis serĉi planedon trans Plutono. 
 
-    2. Ke Plutono estas nur la plej brila en ringo de malproksimaj
+2. Ke Plutono estas nur la plej brila en ringo de malproksimaj
     asteroidoj. Tio eble estas vera; sed ĝi ne estas verŝajna, kaj en ĉiu 
     okazo, ĝi ne solvus la enigmon.
 
-    3. ke Plutono efektive estas multe pli granda, ol tio, kion indikas
+3. ke Plutono efektive estas multe pli granda, ol tio, kion indikas
     la mezuroj faritaj de _Kuiper_, kaj ke la malgranda mezuro de la
     diametro konstatita per la observoj en _Palomar_ estas kaŭzita de spegula reflekto.
 

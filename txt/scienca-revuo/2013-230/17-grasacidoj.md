@@ -12,19 +12,6 @@ permesilo: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 
 <!-- * anthony.lucas@netforspeed.com -->
 
-<style>
-    div.plenlargha {
-        width: 90vw !important;
-        max-width: 90em !important;
-        margin-left: 50% !important;
-        transform: translateX(-50%);
-        border-collapse: collapse;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-</style>
-
 <blockquote class="resumo">
 Post prezento de la diversaj nomenklaturoj por nomi la grasajn acidojn, la kutimuzaj
 nomoj de la ĉefaj grasaj acidoj plej bone troveblaj estas diskutitaj. Fakte, la kutimuzaj

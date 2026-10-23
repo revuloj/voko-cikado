@@ -12,19 +12,6 @@ source: https://scienca-revuo.info/article/479
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
-<style>
-    div.plenlargha {
-        width: 90vw !important;
-        max-width: 90em !important;
-        margin-left: 50% !important;
-        transform: translateX(-50%);
-        border-collapse: collapse;
-        display: block;
-        overflow-x: auto;
-        white-space: nowrap;
-    }
-</style>
-
 <!--
 
 Adreso de la aŭtoro

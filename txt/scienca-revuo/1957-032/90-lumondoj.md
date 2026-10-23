@@ -4,7 +4,7 @@ subtitle: Prelego en Internacia Somera Universitato, Haarlem, 1954
 author: Prof. D-ro H. Sirk
 lang: eo    
 magazine: Scienca Revuo
-volume: 031
+volume: 032
 year: 1957
 keywords:
     - lumondoj
@@ -520,11 +520,14 @@ tra du sinsekvaj lamenoj kaj poste tra unu el la du kompensaj kojnoj
 $F$ kaj $G$. kiuj ne situas kiel en nia antaŭa skemo [fig. 10] en la akso de la
 lamenoj.
 
+::: {.plenlargha}
+
 ![fig. 11](90-lumondoj_bld-11.png){#fig-11}
 
 ![fig. 12: Aerlamenoj kaj akcesoraĵoj uzitaj de [Benoît]{.maldense}, [Fabry]{.maldense}
 kaj [Pérot]{.maldense} en la determinado de ondolongoj.](90-lumondoj_bld-12.png){#fig-12}
 
+:::
 
 Mi nun priskribos la mezuradon, sed procedos en inversa ordo kiel
 antaŭe. Mi komencos per la komparo de la 100-centimetra lameno kun
