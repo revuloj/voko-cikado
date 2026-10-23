@@ -3,7 +3,27 @@ function Meta(meta)
     local output_path = root .. "/enhavlisto.csv"
 
     local title = meta.title and pandoc.utils.stringify(meta.title) or "sen titolo"
-    local author = meta.author and pandoc.utils.stringify(meta.author) or ""
+
+    -- local author = meta.author and pandoc.utils.stringify(meta.author) or ""
+    local author = ""
+    if meta.author then
+        -- print("tipo: " .. type(meta.author[1]))
+        -- print("author: " .. tostring(meta.author[2]))
+
+        -- povas esti listo...
+        if type(meta.author[1]) == "table" then
+            local authors = {}
+            for _, item in ipairs(meta.author) do
+                table.insert(authors, pandoc.utils.stringify(item))
+            end
+            -- kunigu al listo kun komoj
+            author = table.concat(authors, ", ")
+        else
+            -- nur unu aŭtoro
+            author = pandoc.utils.stringify(meta.author)
+        end
+    end
+
     local year = meta.year and pandoc.utils.stringify(meta.year) or ""
     local volume = meta.volume and pandoc.utils.stringify(meta.volume) or ""
 

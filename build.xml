@@ -632,11 +632,16 @@ voku ekz-e:
       <!-- Evtl. kreu celdosieron -->
       <mkdir dir="${destino}" />
 
+      <copy todir="${destino}">
+        <fileset dir="bld" includes="papero.jpg"/>
+      </copy>
+
       <!-- transformu per Pandoc -->
       <apply executable="pandoc" parallel="false" dest="${destino}">
         <arg value="-s" />
 
         <arg value="--lua-filter=${fonto}/artikolo.lua" />
+        <arg value="--include-in-header=${fonto}/artikolo_kapo.html" />
 
         <!-- permesu formulojn per MathJax / mhchem -->
         <arg value="--mathjax=https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js?config=TeX-AMS_HTML-full&amp;extra=mhchem"/>
@@ -647,7 +652,7 @@ voku ekz-e:
         <targetfile /> 
         <srcfile />
 
-        <fileset dir="${fonto}" includes="1999*/*.md" />
+        <fileset dir="${fonto}" includes="**/*.md" />
         <chainedmapper>
           <flattenmapper/>
           <globmapper from="*.md" to="*.html"/>
@@ -670,7 +675,7 @@ voku ekz-e:
         <arg value="--lua-filter=${fonto}/enhavo.lua" />
         
         <srcfile />
-        <fileset dir="${fonto}" includes="1999*/*.md" />
+        <fileset dir="${fonto}" includes="**/*.md" />
       </apply>     
 
       <exec executable="pandoc">
@@ -680,6 +685,7 @@ voku ekz-e:
         <arg value="--metadata" />
         <arg value="title=Scienca Revuo - elektitaj artikoloj" />      
         <arg value="--lua-filter=${fonto}/csv2inx.lua" />
+        <arg value="--include-in-header=${fonto}/enhavo_stl.html" />
         <arg value="-o" />
         <arg value="${destino}/index.html" />
         <arg value="${destino}/enhavlisto.csv" />
