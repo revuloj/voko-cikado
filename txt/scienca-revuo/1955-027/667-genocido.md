@@ -11,7 +11,7 @@ keywords:
     - krimo
     - genocido
 source: https://scienca-revuo.info/article/667
-source: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
 Ne estas ĉi tie la loko por esplori pli profunde la esencon de la juro, nek
@@ -282,7 +282,8 @@ solvi la konflikton je postulo de kiu ajn el la partioj. Laŭ la art. 9 de la Ko
 de Unuiĝintaj Nacioj* kaj tra la artikolo 36 de la *Statuto de la Internacia Kortumo* en Hago, estas ebla internacia kontrolo kaj eĉ aplikado de juraj devigaj
 rimedoj kontraŭ la ŝtato, kiu ne obeus la Konvencion.
 
---
+---
+
 La genocido ne anstataŭas la tri kategoriojn de internacia krimo, difinitajn
 en la aktoj de la 8-a de Aŭgusto 1945, Ĝi estas nova kategorio de internacia
 krimo, kiu, diference de la krimo kontraŭ la homeco, povas esti farita ankaŭ

@@ -9,7 +9,7 @@ year: 1957
 keywords: 
     - universo
 source: https://scienca-revuo.info/article/268
-source: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
 <blockquote>

@@ -54,7 +54,7 @@ Deksesfolia harneso jam estas iom malavantaĝa kaj oni tial anstataŭigas
 Ĉiu harneso havas tiom da harneseroj, kiom da varperoj havas la teksaĵo, kutime kelkajn milojn. Oni ekzemple kalkulu nur la ege maldensan teksaĵon,
 kiu havas nur 10 varperoj en unu centimetro kaj estas 70 cm larĝa: 700 varperoj, 700 harneseroj. Kaj ĉiun varperon oni devas unuope *tredi*, kio ankoraŭ
 ofte okazas mane, ĉar nur sufiĉe komplikaj aparatoj kapablas iom anstataŭi la
-atentajn okulojn kaj manojn de tredistinoj. Pri la tredado legu en Scienca revuo, Vol. 23, 1972, n-ro 3(95), en la artikolo "La teksokombilo". Tie vi ankaŭ vidas la sĥemon de teksmaŝino kun dufolia harneso.
+atentajn okulojn kaj manojn de tredistinoj. Pri la tredado legu en [Scienca revuo, Vol. 23, 1972, n-ro 3(95)](1448-tekskombilo), en la artikolo "La teksokombilo". Tie vi ankaŭ vidas la sĥemon de teksmaŝino kun dufolia harneso.
 
 Tamen por fari kanalon por la ĵetota vefto mankas sur la bildo ankoraŭ
 la pedaloj, kiujn oni *tretas* laŭ preskribita sinsekvo. La pedaloj en tia teksmaŝino estis longaj levumiloj unubrakaj, fiksitaj sur pivotoj sub la varpo (laŭ
