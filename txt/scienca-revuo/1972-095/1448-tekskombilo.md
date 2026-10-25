@@ -1,6 +1,6 @@
 ---
 title: La teksokombilo
-author: M. Bartovská
+author: Marie Bartovská
 date: 1972-06-25
 lang: eo
 magazine: Scienca Revuo

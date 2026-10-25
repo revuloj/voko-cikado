@@ -1,7 +1,7 @@
 ---
 title: Tredo, tretado, ligo
 subtitle: Kiel ekestas teksaĵo
-author: M. Bartovská
+author: Marie Bartovská
 date: 1975-12-30
 lang: eo
 magazine: Scienca Revuo
@@ -67,7 +67,11 @@ unu pedalo.
 La tredon, tretadon kaj ligon oni desegnas sur retpapero: La tredon super la plekto (B 13 a), la tretadon dekstre de la plekto (B 13 b), la ligon en
 la dekstra supra angulo (B 13 c).
 
+::: {.plenlargha}
+
 ![retpapero](1079-teksado_bld-2.png)
+
+:::
 
 Por la tredo signifas la interspaco inter du horizontalaj linioj unu harnesofolion kaj oni kalkulas ilin de supre, kvazaŭ oni la harneson rigardus de
 supre, ĉar la unua folio en la maŝino estas tiu pli proksima al la varpoprovizo,
