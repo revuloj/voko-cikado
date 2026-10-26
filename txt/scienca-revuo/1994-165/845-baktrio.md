@@ -25,13 +25,11 @@ STEB: [http://www.eventoj.hu](http://www.eventoj.hu/)
 
 La esplorado de la arkeologiaj monumentoj de la Sapalli-kulturo en suda
 Uzbekistano montris, ke la plej granda fruurbeca centro de la
-Proto-Baktria civilizacio estis Ĝarkutan [(rigardu [SR, Vol. 43
-(1992)(1), p.
-3-8)](1641-baktrio).
-Ĝarkutan estis ne nur la plej granda ĉefurba centro de la vasta regiono,
+Proto-Baktria civilizacio estis Ĝarkutan (rigardu [SR, Vol. 43 (1992) (1), p. 3-8)](1641-baktrio.html).
+*Ĝarkutan* estis ne nur la plej granda ĉefurba centro de la vasta regiono,
 sed ankaŭ unika sociala organismo, interne de kiu okazadis historiaj
 procesoj de struktura transiro de primitiveco al la frua ŝtateco. Ĉi
-tiun epokfaran historian transiron sukcese karakterizis _I. L. Andrejev_:
+tiun epokfaran historian transiron sukcese karakterizis [I. L. Andrejev]{.maldense}:
 "La transira ŝtupo estas epoko de la paralela kunekzistado (kutime je
 diversaj niveloj, je diversaj etapoj de la vivo de la socio) de du
 principe kontraŭaj sistemoj, laŭ la fonto kaj perspektivoj de la evoluo,
@@ -39,34 +37,34 @@ kaj samtempe genetike juntiĝantaj, najbaraj interagantaj strukturoj kiel
 principoj de socia regulado kaj sociala kontrolo" (1985, p. 194).
 
 Unuafoje al la problemo de la socia evoluo de Proto-Baktria civilizacio
-adresis sin _A. A. Askarov_ dum analizo de la arkitektura-planeca kaj
+adresis sin [A. A. Askarov]{.maldense} dum analizo de la arkitektura-planeca kaj
 enteriga kompleksoj de *Sapallitepa* (1973, p. 130-139). Post la kompleta
-malkovro de la loĝloko kaj eltrovo de la tombejo Ĝarkutan 4A li
+malkovro de la loĝloko kaj eltrovo de la tombejo *Ĝarkutan* 4A li
 konstatis, ke la kulturo *Sapalli* "ĝenerale estis en la lasta fazo de
 evoluo de primitiveca sociordo, en la ŝtupo antaŭiranta al la epoko de
-la milita demokratio " (_Askarov_, 1977, p. 144).
+la milita demokratio " ([Askarov]{.maldense}, 1977, p. 144).
 
 Postsekve dank\' al la ĝustigita kronologio de Sapalli-kulturo la
 uzbekaj arkeologoj proponis ekzameni du fruajn etapojn de la kulturo
-(*Sapallitepa* kaj Ĝarkutan) kiel periodon de malformiĝo de primitiveca
+(*Sapallitepa* kaj *Ĝarkutan*) kiel periodon de malformiĝo de primitiveca
 sistemo, kaj du malfruajn etapojn (*Kuzali* kaj *Molali*) kiel periodon de
-formiĝo de fruaj formoj de klasaj rilatoj (_Askarov_, _Abdulajev_, 1983, p.
+formiĝo de fruaj formoj de klasaj rilatoj ([Askarov]{.maldense}, [Abdulajev]{.maldense}, 1983, p.
 55).
 
 En najbaraj nord-afganaj arkeologiaj kompleksoj de la Bronza epoko
-(*Dashli* I, III) _V. I. Sarianidi_ vidas ateston "\... de longe
+(*Dashli* I, III) [V. I. Sarianidi]{.maldense} vidas ateston "\... de longe
 enprofundiĝinta procezo de la sociala diferenciĝo, kiam la tuta socia
 vivo de oazo-anoj reglamentiĝis per elstariĝinta intertavolo de la loka
 socio" (1976, p. 84).
 
 Tuŝante la politikan evoluon de la nenomadaj socioj de antikva Baktrio,
-_V. M. Masson_ karakterizis ilin kiel "socion de kompleksa sociala
+[V. M. Masson]{.maldense} karakterizis ilin kiel "socion de kompleksa sociala
 strukturo, en kiu la instituigo de la sekulara potenco akcelas la
 kreskadon de la rolo de la administraj kaj militaj funkcionoj de la
 registoj, pro la kulturigo de novaj teritorioj kaj intensiĝo de
 intertribaj kaj eble ankaŭ de interetnaj kolizioj " (1984, p. 62).
 
-La analizo de la enterigaj kompleksoj de Ĝarkutan, entreprenita de ni,
+La analizo de la enterigaj kompleksoj de *Ĝarkutan*, entreprenita de ni,
 en la kunteksto kun ĝia urbaneca evoluo ebligas al ni fari novajn
 konkretajn konkludojn pri la procezo de la genezo kaj evoluo de
 frupolitikaj rilatoj en la Proto-Baktria civilizacio.
@@ -77,29 +75,36 @@ embriiĝo de ia primaraj politikaj institucioj, ligitaj kun
 
 a.  progresanta dispartiĝo de gentoj kaj ilia miksiĝo kaj
 b.  plifortiĝintaj kontaktoj kun la ekstera mondo sekve de alfluo de
-    nova loĝantaro (_Istorija pervobytnogo obŝĉestva_, 1988, p. 246).
+    nova loĝantaro ([Istorija pervobytnogo obŝĉestva]{.maldense}, 1988, p. 246).
 
-Kiel videblas el la historia topografio de Ĝarkutan, la triba dispartiĝo
+Kiel videblas el la historia topografio de *Ĝarkutan*, la triba dispartiĝo
 de loĝ-mastrumaj kvartaloj estas laŭgrade anstataŭata per la
 sociala-teritoria disiĝo (apartiĝintaj ekonomia akumulaĵoj, templo,
 palaco, loĝkvartaloj). La enterigaj kompleksoj transformiĝas el
-komun-familiaj, kvartalaj tombejoj (etapoj *Sapalli* kaj Ĝarkutan I,
-1750 - 1550 a.K.) en apartiĝintajn gentajn (etapoj Ĝarkutan II, *Kuzali*
+komun-familiaj, kvartalaj tombejoj (etapoj *Sapalli* kaj *Ĝarkutan* I,
+1750 - 1550 a.K.) en apartiĝintajn gentajn (etapoj *Ĝarkutan* II, *Kuzali*
 kaj *Molali-Bustan*, 1550 - 950 a. K.) kaj subgentajn nekropolojn (etapoj
-malfru-*Kuzali* kaj *Molali-Bustan*, 1250 - 950 a. K.) (Bildo 1)(#bld-1).
+malfru-*Kuzali* kaj *Molali-Bustan*, 1250 - 950 a. K.) ([Bildo 1](#bld-1)).
 
-![Bildo 1: Dinamiko de la evoluo de la enterigaj kompleksoj de Ĝarkutan.](baktrio1_files/baktrio3.png){#bld-1}
+::: {.figure}
+
+![](845-baktrio_bld-1.png){#bld-1}
+
+Bildo 1: Dinamiko de la evoluo de la enterigaj kompleksoj de Ĝarkutan.
+
 En la historia topografio oni distingas 3 etapojn:
 
 I.  tombejoj situantaj interne de la loĝloko en diversaj loĝ-mastrumaj
     masivoj sub la plankoj kaj muroj de la konstruaĵoj (etapoj
     *Sapallitepa* kaj *Ĝarkutan I*);
 II. tombejoj elportitaj ekster la limojn de la loĝloko kaj konstruitaj
-    sur la apartaj montetoj sude kaj okcidente de Ĝarkutan (etapoj
+    sur la apartaj montetoj sude kaj okcidente de *Ĝarkutan* (etapoj
     *Ĝarkutan II. Kuzali, Molali-Bustan*);
 III. tombejoj lokigitaj sur la Bustanoj montetoj vastiginte la
      malnovajn ĝarkutanajn nekropolojn (etapoj malfrua *Kuzali* kaj
      *Molali-Bustan*).
+
+:::
 
 La evoluo de la produktadaj fortoj kaj la kresko de la loĝantaro
 komplikigis la ekonomiajn kaj socialajn ligojn en la komunumo, kio
@@ -108,11 +113,14 @@ aldona produkto en la socio ebligis apartigi por ĉi tiu celo la
 specialan privilegian administran aparaton en la fino de la ĝarkutana
 etapo. Ĉi tiu aparato, probable, konsistis el la plejaĝuloj de la plej
 deven-noblaj bonhavaj membroj de la socio (genta aristokrataro). Ne
-hazarde ĝuste en ĉi tiu tempo en la urbeca sistemo de Ĝarkutan aperas
-novaj monumentaj kreaĵoj: palaco kaj templo de fajro. (Bildo 4)(#bld-4).
+hazarde ĝuste en ĉi tiu tempo en la urbeca sistemo de *Ĝarkutan* aperas
+novaj monumentaj kreaĵoj: palaco kaj templo de fajro. ([Bildo 4](#bld-4)).
 
-![Bildo 4: Ĝarkutana templo de fajro (D) kaj la ritaj variaĵoj en la
-imita rito de la Sapalli-kulturo.](baktrio1_files/baktrio6.png)
+::: {.plenlargha .figure}
+
+![](845-baktrio_bld-4.png){#bld-4}
+
+Bildo 4: Ĝarkutana templo de fajro (D) kaj la ritaj variaĵoj en la imita rito de la *Sapalli*-kulturo.
 
 A.  argilaj figuretoj de la homo kaj aliaj atributoj el la
     cenotafoj;
@@ -120,9 +128,11 @@ B.  bronzaj miniaturaj votaj enterigaj ujoj;
 C.  tipoj de la imita enteriga rito (tomboj de la ŝafoj, pupo, kruĉa
     tombo, dismembrigita skeleto de la homo).
 
+:::
+
 Ĉio ĉi estas akompanata de kreado de produktantaj ceramikaj manufakturoj
 kiel sekvo de la evoluinta teknologio kaj de kreado de altkvalitaj
-potfaraj produktejoj (Ĝarkutan-monteto 1, *Bustan*-4) kaj ankaŭ de la
+potfaraj produktejoj (*Ĝarkutan*-monteto 1, *Bustan*-4) kaj ankaŭ de la
 kreado de speciala apudtempla metalfanda kaj metalprilabora produktado
 (metiejoj). Rezulte, pligrandiĝis la kvanto de tomboj kun metalaj aĵoj
 (ĝis 41,8%) kaj ritaj oferdonoj de bestoj (ĝis 23,8%) en la etapo
@@ -138,7 +148,7 @@ produktado alvenis en la manojn de la burokrata aparato.
 Laŭ la datumoj de la enterigaj ritoj ni ne povas paroli pri konfiskado
 de la bazaj produktiloj far\' de genttriba aristokrataro. Por irigacia
 ekonomio, tiu ĉi varianto de la sociala evoluo estus estinta la plej
-malkonvena (_Pavlenko_, 1989, p. 262 - 263). La socialan kaj posedaĵan
+malkonvena ([Pavlenko]{.maldense}, 1989, p. 262 - 263). La socialan kaj posedaĵan
 diferencigon de la Proto-Baktria socio evidente eksplikiĝas per
 neegalvalora aliro de diversaj hierarkiaj sociaj grupoj al la bazaj
 produktadaj fontoj de la komunumo.
@@ -157,7 +167,7 @@ tavolojn:
 4.  genta aristokrataro (gvidantoj, idolpastroj).
 
 Plifortikiĝo de la socialaj oficoj kaj tavolaj privilegioj estis nur la
-unua granda paŝo al institutigo de la sociala malegaleco (_Lensky_, 1966,
+unua granda paŝo al institutigo de la sociala malegaleco ([Lensky]{.maldense}, 1966,
 p. 132).
 
 Laŭgrade disiga izoliĝo de la publika potenco for de la baza loĝantaro
@@ -172,38 +182,44 @@ de la administra-burokrata kaj idolpastra korporacioj.
 
 La rompo de mondkonceptaj principoj riveliĝis en la erozio de la
 relative ordigita tradicia religia ideologio. Plej bone tio videblas en
-la enteriga rito de la lasta etapo de Ĝarkutan. La karaktera trajto de
+la enteriga rito de la lasta etapo de *Ĝarkutan*. La karaktera trajto de
 la enterigaj kompleksoj de la etapo *Molali-Bustan* estis la kunekzistado
 de diversaj variantoj de la enterigaj ritoj. En la ĝarkutana etapo
 ekzistis nur 6 variantoj de la enteriga rito, sed en la stadio *Bustan*
 ekzistas jam 14 variantoj de rito (tomboj de dismembrigita skeleto de la
 homo, kruĉaj tomboj, tomboj de bestoj, cenotafoj, tomboj de homoj en
 pozo sidanta aŭ surdorsa). Krom tio, en la fina stadio aperas la nova
-maniero de kremacio-entombigo. (Bildo 2) (Bildo 3) (Bildo 4)
+maniero de kremacio-entombigo. ([Bildo 2](#bld-2)) ([Bildo 3](#bld-3)) ([Bildo 4](#bld-4))
+
+::: {.plenlargha}
 
 ![Bildo 2: Tipologia klasifiko de la antikvaj tomboj de la
 *Sapalli*-kulturo (*Proto-Baktria* civilizacio) laŭ la kronologiaj
-etapoj.](baktrio1_files/baktrio4.png)
+etapoj.](845-baktrio_bld-2.png){#bld-2}
 
+:::
+
+::: {.plenlargha}
 
 ![Bildo 3: Kronologia klasifiko de la argilaj ujoj de la
-*Sapalli*-kulturo.](baktrio1_files/baktrio5.png)
+*Sapalli*-kulturo.](845-baktrio_bld-3.png){#bld-3}
 
+:::
 
-![Bildo 5. Ceramiko de la *bustana* tempo (1050-950 a. K.) el la
-ĝarkutanaj tombejoj.](baktrio1_files/baktrio7.png)
+![Bildo 5: Ceramiko de la *bustana* tempo (1050-950 a. K.) el la
+ĝarkutanaj tombejoj.](845-baktrio_bld-5.png){#bld-5}
 
 Disfalo de la etno-kultura unueco ĉe la portantoj de kulturo *Sapalli*
 rimarkeblas ankaŭ en la enteriga ilaro (modlitaj potoj kun geometria
-ornamento k.a.) (Bildo 7)(#bld-7) kaj, kio estas aparte grava, en la
+ornamento k.a.) ([Bildo 7](#bld-7)) kaj, kio estas aparte grava, en la
 antropologia konsisto de la loĝantaro.
 
-![Bildo 7. Arkeotogiaj aĵoj de la fina stadio, kiuj reflektas la
-influojn de la tradicioj de la stepaj brutbredistaj kulturoj.](baktrio1_files/baktrio9.png)
+![Bildo 7: Arkeotogiaj aĵoj de la fina stadio, kiuj reflektas la
+influojn de la tradicioj de la stepaj brutbredistaj kulturoj.](845-baktrio_bld-7.png){#bld-7}
 
 Aliflanke, la kreskado de redistribu-ekonomia ekspluatado sekvigis la
 polarigon de la socia vivo kaj amasan mizeriĝon de la ordinaraj
-komunumanoj (70,5 % da tomboj de la fina stadio de Ĝarkutan havas tre
+komunumanoj (70,5 % da tomboj de la fina stadio de *Ĝarkutan* havas tre
 malriĉan sortimenton de la enterigaj oferdonoj aŭ ne havas ĝin entute).
 Redistribuo de la materiaj valoroj kaj parazitado de la burokratia
 aparato, evidente, senigas bazajn produktantojn de la ekonomiaj
@@ -213,18 +229,18 @@ reanimigo de la arkaismaj tradicioj por protekti la tradician kulturon
 kontraŭ la neevitebla historia modifiĝo. En la enteriga rito denove
 aperas la ceramikujaj kaj paraj tomboj, tipaj por la fruaj etapoj de la
 *Sapalli*-kulturo. Samtempe reviviĝas rilate al la enteriga ilaro la
-antaŭaj Sapalli-Ĝarkutanaj atributoj: ŝtonaj amuletoj, bronzaj
+antaŭaj *Sapalli-Ĝarkutan*aj atributoj: ŝtonaj amuletoj, bronzaj
 kosmetikaj flakonoj , ceramikaj tekruĉoj, vazoj kun altaj kaj maldikaj
-piedoj k.a. (Bildo 6).
+piedoj k.a. ([Bildo 6](#bld-6)).
 
 ![Bildo 6: Ceramikaj ujoj el tombo N 165 (Ĝ-4B) de la *bustana* tempo,
 kiuj kopias la formojn de la frua ĝarkutana etapo (la fenomeno de la
-renaskiĝo de la arkaikaj tradicioj).](baktrio1_files/baktrio8.png)
+renaskiĝo de la arkaikaj tradicioj).](845-baktrio_bld-6.png){#bld-6}
 
 
 Ekonomia malstabiliĝo kaj la plifortiĝinta sociala konflikto estis
 stimulata ankaŭ per la kreskanta milita danĝero, plej probable, flanke
-de la brutbredistaj triboj de la stepa Nordo (_Askarov_, 1989).
+de la brutbredistaj triboj de la stepa Nordo ([Askarov]{.maldense}, 1989).
 Progresanta evoluo de la brutbredado, armilfarado, senprecedenca
 disvastiĝo de cenotafoj k.a. en la *Sapalli*-kulturo estas la arkeologia
 atesto pri tio.
@@ -232,23 +248,23 @@ atesto pri tio.
 Historia destino de la Proto-Baktria civilizacio estis determinata
 komence de la 1-a jm a. K. kaŭze de la epokfara interna krizo pro
 ekstera stimuligo . Malfortiĝinte sekve de la socialaj konfliktoj, la
-ekonomia organismo de Ĝarkutan jam ne povis rezisti (kaj des malpli
+ekonomia organismo de *Ĝarkutan* jam ne povis rezisti (kaj des malpli
 haltigi) la plifortiĝantan agresan movadon de la stepaj brutbredistoj
 kaj, plej probable, fariĝis la viktimo de konkero . Iukaze, la loĝantaro
-forlasis Ĝarkutan kaj la tombojn de siaj antaŭuloj kaj ankaŭ rezignis de
+forlasis *Ĝarkutan* kaj la tombojn de siaj antaŭuloj kaj ankaŭ rezignis de
 siaj tradiciaj enterigaj ritoj. Kio do devigis la komunumon agi ĝuste
 tiel?
 
-Estas konate, ke granda kvanto de la Ĝarkutanaj tomboj estis prirabitaj
+Estas konate, ke granda kvanto de la ĝarkutanaj tomboj estis prirabitaj
 kaj detruitaj ankoraŭ en la antikva tempo. Evidente, forlaso kaj
 malhonorigo de la tomboj okazis preskaŭ samtempe. Povas esti, ke post la
-invado de la stepaj brutbredistoj en Ĝarkutan jam komenciĝis la detruo
+invado de la stepaj brutbredistoj en *Ĝarkutan* jam komenciĝis la detruo
 de la suragraj "sanktejoj". Interpretado por tia detruo kaj
 malhonorigo de la tomboj de la ĝarkutanaj antaŭuloj povas esti la
 rivelo, ke en la tomboj, laŭ arkaika konscio, estas konservata la
 "forto" de la tribo. Vidu la sciigon, ke la okcidentaj skitoj estinte
 konkeritaj de la persoj ne konsideris sin venkitoj tiom longe kiam la
-tomboj de iliaj antaŭuloj restis netuŝitaj de la konkerintoj (_Herodot_,
+tomboj de iliaj antaŭuloj restis netuŝitaj de la konkerintoj ([Herodot]{.maldense},
 p. 218-219). Ekzistas kialoj supozi, ke ankaŭ la ĝarkutanaj tombejoj
 estis intence detruitaj de barbaroj ne tiom cele al prirabo kiom cele al
 malhonorigo, neniigo de la spiritoj radikoj de la konkerita popolo, por
@@ -257,7 +273,7 @@ supozo ni havas multnombrajn nerektajn atestojn. Ekzemple, estas signifa
 kvanto da tomboj, en kiuj ĉiuj enterigaj oferdonoj (ritaj atributoj,
 instrumentaro) troviĝas en surloka pozicio malgraŭ evidentaj spuroj de
 elterigo kaj malhonorigo de la korpo de la mortinto. En la tombo N 258
-(Ĝarkutan - 4B) troviĝis forte rompita skeleto de viro (la kranio ĉe la
+(*Ĝarkutan* - 4B) troviĝis forte rompita skeleto de viro (la kranio ĉe la
 piedoj, pelvaj ostoj kaose disĵetitaj), dum 9 grandaj ceramikaj ujoj,
 ses bronzaj aĵoj kaj ankaŭ skeleto de ŝafo ne havas eĉ etajn signojn de
 malordo kaj translokigo, sed restis surloke. La tombo N 268 montras la
@@ -278,7 +294,7 @@ skita tempo en la centro de *Tuva*, kie la skeletoj de mortintoj estis
 dishakitaj kaj poste ree superŝutitaj per la ŝtonoj, dum la valoraj oroj
 kaj bronzaj aĵoj tute ne estis elprenitaj el la tomboj. Ekzistas la
 versio, ke la almigrantaj okupintoj la teritorion tiamaniere faris
-"malutiligebla" rilate al la --- eĉ mortintaj --- malamikoj (_Grach_,
+"malutiligebla" rilate al la --- eĉ mortintaj --- malamikoj ([Grach]{.maldense},
 1975, p. 178).
 
 Interesajn faktojn ni povas trovi ankaŭ en la poemo Iliado de Homer. Tie
@@ -287,7 +303,7 @@ la trojanoj malgraŭ tio, ke la grekaj triboj en tiu historia periodo
 praktikis la riton de entombigo. La aĥeaj herooj prunteprenis tiun ĉi
 praktikon en la ekstrema situacio kiel decan manieron enterigi siajn
 mortintojn en fremda lando, defendante ilin kontraŭ ebla malhonorigo
-flanke de la malamikoj (laŭ la opinio de _Gerni_, 1987, p. 150).
+flanke de la malamikoj (laŭ la opinio de [Gerni]{.maldense}, 1987, p. 150).
 
 Verŝajne, ĝuste pro tio okazis la transiro al la kremacio de la
 mortintoj ankaŭ en Norda Baktrio en la periodo de interetnaj kunpuŝiĝoj
@@ -304,7 +320,7 @@ povas okazi sen turmentaj bataloj kaj adaptiĝstreĉoj de la nomada kaj
 malnomada sistemoj. Tamen, la post-ĝarkutana epoko montris, ke, finfine
 "laŭ la nediskutebla leĝo de la historio, konkerintaj barbaroj mem
 estas konkerataj de la pli alta civilizacio de la popoloj konkeritaj de
-ili" (_Marx_, p. 225).
+ili" ([Marx]{.maldense}, p. 225).
 
 La rezultoj de la kultura infiltrado en la jaroj 900-750 a. K. klare
 elmontriĝis en la monumenta arkitekturo, ceramiko kaj ankaŭ en la nova
