@@ -19,7 +19,7 @@ prenita el:
 
 Fonto: Scienca Revuo Vol. 43(1992)(l)-160, pĝ. 3-8
 Enretigo: Mészáros István
-STEB: [http://www.eventoj.hu](http://www.eventoj.hu/)
+STEB: http://www.eventoj.hu/steb/arkeologio/baktrio/baktrio2.htm
 -->
 
 Dum lastaj du jardekoj en la sudo de Uzbekistano kaj en norda

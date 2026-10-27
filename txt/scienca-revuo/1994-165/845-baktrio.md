@@ -19,7 +19,7 @@ Fonto: Scienca Revuo Vol. 45 (1994) (2) 165 pp. 9-25
 
 Aŭtoro: Vladimir I. Ionesov (RU)
 Enretigo: *Mészáros István
-STEB: [http://www.eventoj.hu](http://www.eventoj.hu/)
+STEB: http://www.eventoj.hu/steb/arkeologio/baktrio/baktrio1.htm
 -->
 
 
