@@ -17,7 +17,6 @@ license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 
 <!--
 prenita el:
-------------------------------------------------------------------------
 
 Fonto: Scienca Revuo, Vol. 24, 1993 n-ro 5. - (103)
 Aŭtoro: B. V. Tokearev, docento; MOSKVO, Sovetio
@@ -27,15 +26,15 @@ STEB: http://www.eventoj.hu/steb/fiziko/energio_de_plena_jonigo_de_atomoj/energi
 -->
 
 La unua formulo por elkalkulo de energio de plena jonigo de atomoj estis
-proponita de _Veselov_ en la 1938. [[1](#b-1)]
+proponita de [Veselov]{.maldense} en la 1938. [[1](#b-1)]
 
 \(1\)
 
 $$E_Z = 0,513\cdot Z^{12/5}$$
 
 kie $E_Z$ estas esprimita en atomaj unuoj de energio; la unuo egalas al
-27,08 eV; $Z$ estas vica numero de elemento. La formulon de _Veselov_ teorie
-prilaboris en la 1966. Gáspár_ [[2](#b-2)]. Alia formulo, proponita de _Miller_ en
+27,08 eV; $Z$ estas vica numero de elemento. La formulon de [Veselov]{.maldense} teorie
+prilaboris en la 1966. Gáspár_ [[2](#b-2)]. Alia formulo, proponita de [Miller]{.maldense} en
 la 1967. [[3](#b-3)], donas ampleksojn de $E_Z$ diferenciĝantajn de la efektivaj
 je dekoj da procentoj.
 
