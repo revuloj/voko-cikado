@@ -12,6 +12,12 @@ source: https://scienca-revuo.info/article/967
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
+<style>
+    .fno {
+        margin-right: 2em;
+    }
+</style>    
+
 <!--
 
 prenita el
@@ -67,7 +73,7 @@ La ondoj generataj de vento estas tre neregulaj. La individuaj ondoj
 havas malsamajn dimensiojn, kaj ili eĉ ne propagiĝas en sama direkto.
 Por simpligi la aferon, oni povas konsideri idealigitajn, regulajn
 ondojn, kiuj propagiĝas en unu sola direkto ([B. Méhauté]{.maldense} -- 
-[A. Brenner]{.maldense} 1960, *F. Biésel* 1951). La suba priskribo de la ondoj kaj de
+[A. Brenner]{.maldense} 1960, [F. Biésel]{.maldense} 1951). La suba priskribo de la ondoj kaj de
 la akompanaj fenomenoj estas tre resuma, sed necesa bazo por la postaj
 sekcioj de tiu ĉi artikolo. [Figuro 1](#bld-1), kiu montras profilon de ondaro,
 suplementas la klarigon.
@@ -75,15 +81,14 @@ suplementas la klarigon.
 La ondolongo sur profunda maro ("profunda" tie ĉi: $d > L/2$)
 dependas nur de la periodo --- ne de la alto:
 
-\(1\) $$L_0 = (g/{2\pi})T^2 = (\pu{1,56 m/s^2})T^2$$
+[\(1\)]{.fno #e-1} $L_0 = (g/{2\pi})T^2 = (\pu{1,56 m/s^2})T^2$
 
 ![](967-marondoj_bld-1.png){#bld-1}\
 Fig. 1: Regulaj, dudimensiaj ondoj.
 
 Tio validas ankaŭ por la rapido:
 
-\(2\)
-$$C_0 = L_0/T = (g/{2\pi})T = (\pu{1,46 m/s^2})T$$
+[\(2\)]{.fno #e-2} $C_0 = L_0/T = (g/{2\pi})T = (\pu{1,56 m/s^2})T$
 
 La simboloj signifas: $d$ --- profundo, t.e. distanco de surfaca
 meznivelo al fundo, $L$ --- ondolongo ĝenerale, $L_0$ ---
@@ -95,13 +100,13 @@ gravito, $m$ kaj $s$ --- metro kaj sekundo.
 Kiam la ondo venas al malpli profunda akvo, la periodo restas konstanta,
 sed la longo kaj rapido malpliiĝas (vidu ankaŭ [fig. 2]{#bld-2}):
 
-\(3\) $$L = L_0 \tanh(2\pi d/L)$$
+[\(3\)]{.fno #e-3} $L = L_0 \tanh(2\pi d/L)$
 
-\(4\) $$C = C_0 \tanh(2\pi d/L)$$
+[\(4\)]{.fno #e-4} $C = C_0 \tanh(2\pi d/L)$
 
 kie $\tanh$ estas tangento hiperbola, $\tanh(x) = \sinh(x)/\cosh(x)$,
 $\sinh(x) = (e^x - e^{-x})/2$, $\cosh(x) = (e^x + e^{-x})/2$. Rimarku,
-ke $L$ estas nur implicite donita per (3).
+ke $L$ estas nur implicite donita per ([3](#e-3)).
 
 En [fig. 1](#bld-1) estas notitaj, kiel ekzempla okazo, la nombroj, kiuj rezultas
 kalkule el la esprimoj. La figuro estas desegnita surbaze de periodo
@@ -121,7 +126,7 @@ kiu dependas nur de la subsurfaca distanco $Z$, kaj alia parto
 varia, kiu estas funkcio ne nur de $Z$, sed ankaŭ de la profundo
 kaj de la ondolongo, krom de la amplitudo $A$ de la ondoj:
 
-\(5\) $$p(Z) = \rho g(Z+A\frac{\cosh(2\pi(d-Z))}{\cosh(2\pi d/L)}\sin(2\pi t/T))$$
+[\(5\)]{.fno #e-5} $\displaystyle p(Z) = \rho g(Z+A\frac{\cosh(2\pi(d-Z))}{\cosh(2\pi d/L)}\sin(2\pi t/T))$
 
 kie $\rho$ estas la masdenso de la akvo, kaj $t$ estas
 tempovariablo.
@@ -133,14 +138,14 @@ la horizontala akso de la orbito en [fig. 1](#bld-1). Oni diras, ke
 $K = H'/H$ estas faktoro de premrespondo (aŭ premtransmeto). Speciale
 sur la fundo, la faktoro estas
 
-\(6\) $$K=1/\cosh(2\pi d/L)$$
+[\(6\)]{.fno #e-6} $K=1/\cosh(2\pi d/L)$
 
 Fine ni devas mencii la energion en la ondoj. La energio varias
 interŝanĝe de potenciala energio al kineta energio kaj inverse. Ambaŭ
 formoj de energio estas mezvalore egalgrandaj. La tuta energio estas, je
 unuo da longo de ondofronto,
 
-\(7\) $$E_l = (\rho g/2)A^2L$$
+[\(7\)]{.fno #e-7} $E_l = (\rho g/2)A^2L$
 
 La energio propagiĝas kun rapido $C_g$, nomata gruporapido, kiu
 estas malpli granda ol la ondorapido. Sur profunda akvo 
@@ -149,7 +154,7 @@ malprofunda akvo, se $d/L > 0,04$. Uzante la rilaton [(1)](#e-1), oni
 trovas, ke en profunda akvo la povumo transportata je unu da frontlongo
 estas
 
-\(8\) $$P_l =(\rho g/32\pi)TH^2 \approx (\pu{1 kW/m}\cdot(T/s)\cdot(H/m)^2$$
+[\(8\)]{.fno #e-8} $P_l =(\rho g/32\pi)TH^2 \approx (\pu{1 kW/m}\cdot(T/\pu{s})\cdot(H/\pu{m})^2$
 
 kio estas konsiderenda, eĉ kun modere grandaj ondoj. Orkanoj povas havi
 timige detruan efikon, sed aliflanke: en la lastaj jaroj oni serioze
@@ -280,9 +285,6 @@ praktike malfacila. La plej gravan problemon kaŭzas la fakto, ke la
 surfaco ne estas akustike bone difinita en tempesta, tumulta ondo-stato,
 speciale pro ŝaŭmo kaj aervezikoj en la supra akvozono.
 
-![](967-marondoj_bld-4.png){#bld-4}\
-Fig. 4: Faktoro de premrespondo surfunda kiel funkcio de ondoperiodo kaj profundo.
-
 ## 3.6. Premomezurado surfunda
 
 Tiu ĉi metodo estas vaste uzata --- almenaŭ pli frue --- por mezuri
@@ -294,6 +296,9 @@ $d/L_0$ aŭ de $d/L$ ([R. L. Wiegel]{.maldense} 1954). Komparoj inter
 surfaca mezurilo kaj surfunda mezurilo indikis, ke oni devas ĝustige
 multipliki la teoriajn valorojn de $K$ per faktoro inter 1,10 kaj
 1,15 ([L. Draper]{.maldense} 1957)).
+
+![](967-marondoj_bld-4.png){#bld-4}\
+Fig. 4: Faktoro de premrespondo surfunda kiel funkcio de ondoperiodo kaj profundo.
 
 La tajdo komplikas la metodon, parte pro la nekonstanteco de la statika
 meza premo, parte pro la efiko al la faktoro $K$, ĉar la profundo
@@ -349,8 +354,8 @@ Fig. 5: Sekcio de tipa ondoregistraĵo.
 
 Tiaj karakterizaj grandoj estas ekzemple
 
-\(9a\) $H_\text{mez} = (1/N)\sum_n H_n, n=1,2,...,N$\
-\(9b\) $T_\text{mez} = (1/N)\sum_n T_n$
+[\(9a\)]{.fno #e-9a} $H_\text{mez} = (1/N)\sum_n H_n \quad n=1,2,...,N$\
+[\(9b\)]{.fno #e-9b} $T_\text{mez} = (1/N)\sum_n T_n$
 
 kie $N$ estas nombro da ondoj.
 
@@ -358,8 +363,8 @@ Pli interesaj estas mezvaloroj de kelkaj el la plej grandaj ondoj. Por
 kalkuli ilin, oni devas antaŭe ordigi ĉiujn ondojn laŭ kreskanta alto
 kaj preni difinitan nombron da plej altaj ondoj:
 
-\(10a\) $H_{1/3} = (3/N) \sum_n H_n, n=2N/3+1,...,N$
-\(10b\) $H_{1/10} = (10/N) \sum_n H_n, n=9N/10+1,...,N$
+[\(10a\)]{.fno #e-10a} $H_{1/3} = (3/N) \sum_n H_n \quad n=2N/3+1,...,N$ \
+[\(10b\)]{.fno #e-10b} $H_{1/10} = (10/N) \sum_n H_n \quad n=9N/10+1,...,N$
 
 kun similaj esprimoj por $T_{1/3}$ kaj $T_{1/10}$. Speciale
 $H_{1/3}$ estas multe uzata parametro, ofte nomata "signifa
@@ -370,8 +375,8 @@ certa karakterizanto por la tuta ondaro aŭ ondostato.
 Plue oni povas kalkuli grandojn, kiuj prezentas la energion (aŭ povumon)
 de la ondoj:
 
-\(11a\) $H_\text{pov} = \sqrt{(1/N_o)\sum H_n^2}, n=1,2,...,N_o$
-\(11b\) $z_\text{pov} = \sqrt{(1/N_s)\sum z_n^2}, n=1,2,...,N_s$
+[\(11a\)]{.fno #e-11a} $H_\text{pov} = \sqrt{(1/N_o)\sum H_n^2} \quad n=1,2,...,N_o$ \
+[\(11b\)]{.fno #e-11b} $z_\text{pov} = \sqrt{(1/N_s)\sum z_n^2} \quad n=1,2,...,N_s$
 
 kie $N_o$ estas nombro da ondoj, kaj $N_s$ nombro da
 ordinatoj (specimenpunktoj). Teorie oni povas montri, ke inter la
@@ -380,8 +385,8 @@ sur mezurado pravigas la teorion ([fig. 6](#bld-6)). Konsekvence, la ordinatoj
 estas distribuitaj laŭ la formuloj de [Gauss]{.maldense}, kiuj esprimiĝas (kun
 arbitra variablo $x$:
 
-\(12\) $f_G(x) = (1/s\sqrt{2\pi} e^{-(x/s)^2/2}$ \
-       $F_G(x) = \int_{-\infty}^x f_G(y)dy$
+[\(12a\)]{.fno #e-12} $\displaystyle f_G(x) = (1/s\sqrt{2\pi}) e^{-(x/s)^2/2}$ \
+[(12b)]{.fno}  $\displaystyle F_G(x) = \int_{-\infty}^x f_G(y)dy$
 
 $f_G$ estas distribua denso, $F_G$ estas akumula
 distribufunkcio, kaj $s^2$ estas varianco.
@@ -393,22 +398,22 @@ Se la ondoj ne estas tro neregulaj, t.e. se ili havas "mallarĝan
 spektron" (vidu la sekcion 4.2), tiuokaze la altoj estas distribuitaj
 laŭ la formuloj de [Rayleigh]{.maldense},
 
-\(13\) $f_R(x) = (2x/t^2) e^{-(x/t)^2}$\
-$F_r(x) = \int_0^x f_R(y)dy = 1- e^{-(x/t)^2}$
+[\(13a\)]{.fno #e-13} $\displaystyle f_R(x) = (2x/t^2) e^{-(x/t)^2}$\
+[(13b)]{.fno} $\displaystyle F_R(x) = \int_0^x f_R(y)dy = 1- e^{-(x/t)^2}$
 
 kie $t^2$ estas varianco-simila parametro.
 
 Aplikante la [Gauss]{.maldense}-formulojn al la distribuo de ordinatoj, oni devas
 substitui $z$ al $x$ kaj $z_\text{pov}$ al $s$,
 kaj simile en la [Rayleigh]{.maldense}-formuloj oni devas substitui $H$ al
-$x$ kaj $H_{pov} al $t$. [Fig. 7](#bld-7) montras la
+$x$ kaj $H_\text{pov}$ al $t$. [Fig. 7](#bld-7) montras la
 distribufunkciojn. La diversaj karakterizaj parametroj estas markitaj
 sur la skalo de $H$.
 
 En la sama figuro oni vidas ankaŭ, kiel la punktoj de efektiva distribuo
 kompariĝas kun la kurbo de teoria distribuo. La devioj de la kurbo
 ekzistas parte pro la finia nombro da ondoj (tipa nombro 
-$N_o = 200$.
+$N_o = 200$).
 
 ![](967-marondoj_bld-7.png){#bld-7}\
 Fig. 7: Distribua denso $f(x)$ kaj distribua funkcio $F(x)$ de
@@ -480,28 +485,28 @@ Fig. 10: Alternativaj metodoj por kalkulado de povuma spektro.
 La korelacia funkcio, en la okazo, kie $z(t)$ estas kontinua
 funkcio, konata en la tempintervalo $0 ≤ t ≤ T$, jenas:
 
-\(14\) $R(\tau) = \overline{z(t)z(t+\tau)} = \frac{1}{T-\tau} \int_0^{T-\tau} z(t)z(t+\tau)dt = R(-\tau)$
+[\(14\)]{.fno #e-14} $\displaystyle R(\tau) = \overline{z(t)z(t+\tau)} = \frac{1}{T-\tau} \int_0^{T-\tau} z(t)z(t+\tau)dt = R(-\tau)$
 
 Sed se $z(t)$ estas konata nur ĉe diskretaj tempopunktoj
 $n\Delta t(n=O,1,...,N)$, tiam oni skribas
 
-\(15\) $R(m\Delta t) = R_m = \frac{1}{N-m}\sum_{n=0}^{N-m} z_n Z_{n+m}, m=0,1,...,M$
+[\(15\)]{.fno #e-15} $\displaystyle R(m\Delta t) = R_m = \frac{1}{N-m}\sum_{n=0}^{N-m} z_n z_{n+m} \quad m=0,1,...,M$
 
 Ordinare $M/N < 1/10$. Oni povas speciale noti, ke
 
-\(16\) $R(\tau=0) = \overline{z_n^2} = \overline{z^2} = z_\text{pov}^2$
+[\(16\)]{.fno #e-16} $\displaystyle R(\tau=0) = \overline{z_n^2} = \overline{z^2} = z_\text{pov}^2$
 
 do la varianco aŭ povumo de $z$.
 
 La sekvanta ŝtupo en la klasika metodo estas *Fourier*-transformado de
 la korelacia funkcio kaj multipliko per frekvencoskala faktoro:
 
-\(17\) $S(f) = S_k = 2T\left(R_0+2\sum_{m=1}^{M-1}R_mW_{2M}^{-km}\right), k=0,1,...,M-1$
+[\(17\)]{.fno #e-17} $\displaystyle S(f) = S_k = 2T\left(R_0+2\sum_{m=1}^{M-1}R_mW_{2M}^{-km}\right) \quad k=0,1,...,M-1$
 
 kie $f = k\Delta f = k/2T$ (tie ĉi $T = M\Delta t$), kaj
 $W_M = e^{2\pi i/M}$. Aliforma esprimo de tiu faktoro estas
 
-\(18\) $W_{2M}^{-km} = W_M^{-km/2} = \cos(\pi km/M) - i \sin(\pi km/M)$
+[\(18\)]{.fno #e-18} $W_{2M}^{-km} = W_M^{-km/2} = \cos(\pi km/M) - i \sin(\pi km/M)$
 
 Pro la simetrio $R_{-m} = R_m$ oni povas jam komence elimini la
 sinus-termon. --- La spektra komponanto $S_k$ estas speco de
@@ -515,7 +520,7 @@ multiplikoj kaj da adicioj). La labortasko fariĝas konsiderinda, se oni
 havas multajn registrostaciojn, kaj se ĉiu stacio produktas plurajn
 registraĵojn ĉiutage.
 
-Oni rimarku en la formuloj (17) kaj (18), ke multaj kombinoj de la
+Oni rimarku en la formuloj ([17](#e-17)) kaj ([18](#e-18)), ke multaj kombinoj de la
 faktoroj $k-m$ donas saman valoron de la harmonaj funkcioj. Do
 kalkuloj de tiuj funkcioj estas neracie ripetataj.
 
@@ -532,12 +537,12 @@ Rezulto de la mallongigo de la kalkullaboro estas, ke nun oni ofte
 preferas iri la alian vojon, montritan en [fig. 10](#bld-10): Unue
 *Fourier*-transformi la originalan tempofunkcion
 
-\(19\) $Z_j=\frac{1}{N}\sum_{n=0}^{N-1}z_nW_n^{-jn}\, j=0,1,...,N-1$
+[\(19\)]{.fno #e-19} $\displaystyle Z_j=\frac{1}{N}\sum_{n=0}^{N-1}z_nW_n^{-jn} \quad j=0,1,...,N-1$
 
 kaj dividi per frekvenco-ŝtupo $\Delta f = 1/T = 1/N\Delta t$, kaj poste
 kvadratigi por havi "krudan" spektron
 
-[\(20\)]{#e-20} $P_j=2T|Z_j|^2\, j=0,1,...,N/2-1$
+[\(20\)]{.fno #e-20} $\displaystyle P_j=2T|Z_j|^2 \quad j=0,1,...,N/2-1$
 
 Oni ordinare uzas nur $N/2$ frekvenco-valorojn, ĉar la restantaj
 $N/2$ ripetas la unuajn simetrie. Tial oni anstataŭe simple
@@ -545,7 +550,7 @@ duobligas per la faktoro 2 en ([20](#e-20)). Plue oni kungrupigas po certa nombr
 $L$ da najbaraj komponantoj $P_j$ kaj kalkulas la
 mezvaloron en ĉiu grupo. Rezultas la spektro
 
-[\(21\)]{#e-21} $S_k=\frac{1}{L}\sum_{j=-L/2}^{L/2} P_{kL+j}\, k=0,1,...,N/2L$
+[\(21\)]{.fno #e-21} $\displaystyle S_k=\frac{1}{L}\sum_{j=-L/2}^{L/2} P_{kL+j} \quad k=0,1,...,N/2L$
 
 Oni parolas pri "frekvenca fenestro" de larĝo $L$, kiam oni
 tiel mezvalorigas la spektron. En ([21](#e-21)) la fenestro estas kvarangula, sed
@@ -577,7 +582,7 @@ de mezuriloj, kiuj kune donas la necesajn informojn ([L. Borgman]{.maldense} 196
 
 Alitipa evoluo de la spektroj konsideras la fakton, ke la ondoj ne estas
 simetriaj ambaŭflanke de la meza nivelo, t.e. la distribuo de 
-$z±$ simetriaj ambaŭflanke de la meza nivelo, t.e. la distribuo de
+$z^±$ simetriaj ambaŭflanke de la meza nivelo, t.e. la distribuo de
 $z$ ne estas simetria ([D. Wells]{.maldense} 1964). Oni esprimas la
 distribuan malsimetrion per la grando $z^3$ aŭ 
 $z^3/(z^2)^{3/2} = z^3/z^3_\text{pov}$. Por esplori pli detale la naturon de la
