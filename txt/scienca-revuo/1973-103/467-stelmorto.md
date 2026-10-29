@@ -10,7 +10,7 @@ volume: 103
 year: 1973
 keywords: 
     - astronomio
-    - sdteloj
+    - steloj
 source: https://scienca-revuo.info/article/467
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
