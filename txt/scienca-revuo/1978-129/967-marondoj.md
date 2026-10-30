@@ -12,12 +12,6 @@ source: https://scienca-revuo.info/article/967
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
-<style>
-    .fno {
-        margin-right: 2em;
-    }
-</style>    
-
 <!--
 
 prenita el
