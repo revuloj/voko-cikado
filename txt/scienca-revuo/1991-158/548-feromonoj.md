@@ -5,11 +5,11 @@ lang: eo
 magazine: Scienca Revuo
 volume: 158
 year: 1991
-keywords: 
+keywords:
     - organika kemio
     - feromonoj
 source: https://scienca-revuo.info/article/548
-license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
+license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 ---
 
 <style>

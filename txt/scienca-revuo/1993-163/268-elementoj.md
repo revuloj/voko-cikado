@@ -3,8 +3,8 @@ title: Nova rigardo al la nomoj de la kemiaj elementoj en esperanto
 author: Doug Portmann
 lang: eo
 magazine: Scienca Revuo
-volume: 037
-year: 1958
+volume: 163
+year: 1993
 keywords: 
     - kemiaj elementoj
     - nomenklaturo
