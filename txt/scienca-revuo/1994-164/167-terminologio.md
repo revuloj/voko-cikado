@@ -1,5 +1,5 @@
 ---
-title: Internacia Kunlaboro en la Terminologio-Planado
+title: Internacia kunlaboro en la terminologio-planado
 author: 
     - C. Galinsky
     - G. Budin
