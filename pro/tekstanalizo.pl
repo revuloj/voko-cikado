@@ -14,15 +14,15 @@
 :- use_module(library(http/json)).
 :- use_module(library(xpath)).
 %:- use_module(agordo).
-
+:- use_module('markdown').
 
 % faktoj:
-% vrk(mt,...)
+%% vrk(mt,...)
 % txt(mt:1,'Genezo','biblio/malnova/01biblio.gen.utf')
 % cit(mt:1,'3:14','Kaj Dio la Eternulo diris al la..').
 % aut(m2:1,'Funebro sen dio','Anna Loewenstein').
 
-:- dynamic txt/3, cit/4, aut/3, vrk/4, bib/2, bib/4.
+:- dynamic txt/3, cit/4, aut/3, bib/2, bib/4. %vrk/4, 
 
 :- consult(tekstaro).
 
@@ -57,11 +57,15 @@ read_all_vrk :-
     nb_setval(fraznro,0),
     \+ (
 	vrk(Vrk,_,_,_,_),
-	read_vrk(Vrk),
+	read_vrk_(Vrk),
 	fail
     ).
 
 read_vrk(Vrk) :-
+    nb_setval(fraznro,0),
+    read_vrk_(Vrk).
+
+read_vrk_(Vrk) :-
     (atom(Vrk) -> forget(Vrk); true),
     vrk(Vrk,Desc,Jar,Struct,PathSpec),
     % debug(tekstaro(vrk),'[~q] ~q',[Vrk,Desc]),
@@ -177,6 +181,14 @@ struct_monato2_html(Vrk:No,Titolo,File,_) :- !,
 % Monato 3: legas kaj preparas HTML-fonton de 'Monato'
 struct_monato3_html(Vrk:No,Titolo,File,_) :- !,
     monato3_html(Vrk:No,Titolo,File).
+
+
+%! struct_markdown(+Vrk_No,-Titolo,+File,--Ign) is det
+%
+% Markdown: legas kaj preparas tekstdosieron el YAML-kapo kaj simpla marklingva teksto
+struct_markdown(Vrk:No,Titolo,File,_) :- !,
+    markdown_teksto(Vrk:No,Titolo,File),
+    debug(tekstaro(txt),'~q',[Titolo]).
 
 %verko_teksto(_,'','').
 
@@ -493,6 +505,40 @@ text_content_([A|R1],[A|R2]) :-
     text_content_(R1,R2).
 text_content_([_|R1],R2) :-
     text_content_(R1,R2).
+
+markdown_teksto(Dos,Titolo,File) :-
+    parse_markdown_file(File,Kapo,Enhavo),
+
+    % titolo, aŭtoro
+    once((
+        get_dict(title, Kapo, Titolo)
+        ;
+        Titolo=''
+    )),
+    assert(txt(Dos,Titolo,File)),
+    once((
+        get_dict(title, Kapo, Autoro)
+        ;
+        Autoro = '' % ĉu aserti aŭtoron, se ne estas?
+    )),
+    assert(aut(Dos,Titolo,Autoro)),
+
+    % disigu kaj asertu frazojn
+    markdown_frazoj(Dos,Titolo,Enhavo).
+
+markdown_frazoj(Dos,Titolo,Teksto) :-
+    atom_codes(T,Teksto),
+    atomic_list_concat(Frazoj,'.',T),
+    forall(
+        member(Fraz,Frazoj),
+        once((
+        normalize_space(atom(Frazo),Fraz),
+        Frazo \= '',
+        debug(tekstaro(txt),'~q',[Frazo]),
+        fraznro(N),
+        assert(cit(Dos,Titolo,Frazo,N))
+        ; true))
+    ).	    
 
 
 monato2_html(Dos,Titolo,File) :-
@@ -839,7 +885,7 @@ bib_(Vrk,Bib) :- bib(Bib,_,_,_), downcase_atom(Bib,Vrk).
 
 %! fnt_json(+Vrk_No,+Lok,-JSON) is det
 %
-% Transformats trovlokon al JSON-strukturo.
+% Transformas trovlokon al JSON-strukturo.
 fnt_json(Vrk:No,Lok,json([bib=Bib,lok=FntLok])) :-
 	     (Vrk = m_t ; Vrk = n_t),
 	     % TODO: aldonu titolon de la teksto
@@ -875,6 +921,16 @@ fnt_json(ode:_,Lok,json([bib='LOdE',lok=Loko])) :-
     )).
 
 fnt_json(scr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
+
+
+%Fnt = json([vrk=scienca_revuo_1990, lok="De incenso antikva al moderna parfumo"]) 
+% el vrk(Vrk:No,Tit,Dos) ni povus ricevi pliajn informojn
+% sed por eviti ĉiufoje relegi la koncernan dosieron pli bone
+% registru (asertu) informojn el artikolkapoj dum la origina enlegado!
+% eble la YAML (Dict) rekte?? aŭ kreu bib-informon el ĝi tuj?
+%fnt_json(SR:No,Lok,json([])) :-
+%    member(SR,[sr4,sr5,sr6,sr7,sr8,sr9,sr0,sr1]),
+
 
 fnt_json(mo1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
     tekstaro:txt(mo1:No,_,File),

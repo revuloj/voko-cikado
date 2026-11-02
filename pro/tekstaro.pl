@@ -51,6 +51,7 @@ bib(p_i,'Iŝtar').
 bib(pkp,'PatrojFiloj').
 bib(rab,'Rabistoj').
 bib(rvz,'Revizoro').
+bib(sci,'SR').
 bib(spj,'SkandalJozef').
 bib(sra,'SatirRak').
 bib(vch,'Ĉukĉoj').
@@ -320,7 +321,6 @@ vrk(zam,zamenhof,1929,
 % postaj tekstoj (ekde 1940)
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 vrk(chb,chu_bremsis,1978,
     struct_tei(chapitro),
     esf('chu-li-bremsis-sufiche.xml')).
@@ -473,6 +473,38 @@ vrk(mja,memorajhoj_agripina,2021,
     struct_tei(parto),
     esf('la-memorajhoj-de-julia-agripina.xml')).
     
+vrk(sr4,scienca_revuo_1940,1940,
+    struct_markdown,
+    tekstoj('scienca-revuo/194*/*.md')).
+
+vrk(sr5,scienca_revuo_1950,1950,
+    struct_markdown,
+    tekstoj('scienca-revuo/195*/*.md')).
+
+vrk(sr6,scienca_revuo_1960,1960,
+    struct_markdown,
+    tekstoj('scienca-revuo/196*/*.md')).
+
+vrk(sr7,scienca_revuo_1970,1970,
+    struct_markdown,
+    tekstoj('scienca-revuo/197*/*.md')).
+
+vrk(sr8,scienca_revuo_1980,1980,
+    struct_markdown,
+    tekstoj('scienca-revuo/198*/*.md')).
+
+vrk(sr9,scienca_revuo_1990,1990,
+    struct_markdown,
+    tekstoj('scienca-revuo/199*/*.md')).
+
+vrk(sr0,scienca_revuo_2000,2000,
+    struct_markdown,
+    tekstoj('scienca-revuo/200*/*.md')).
+
+vrk(sr1,scienca_revuo_2010,2010,
+    struct_markdown,
+    tekstoj('scienca-revuo/201*/*.md')).
+                
 
 /* kvalito nur subaveraĝa...:
 vrk(md02,mondediplo1,2002,
