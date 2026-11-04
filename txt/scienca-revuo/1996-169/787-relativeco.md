@@ -6,7 +6,10 @@ magazin: Scienca Revuo
 year: 1996
 volume: 169
 keywords:
-    - radio
+    - fiziko
+    - spaco
+    - gravito
+    - relativeco
 source: https://scienca-revuo.info/article/787
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---

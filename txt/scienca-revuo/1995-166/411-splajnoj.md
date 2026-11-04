@@ -8,7 +8,8 @@ volume: 166
 year: 1994
 keywords: 
     - matematiko
-    - kombinatoriko
+    - analitiko
+    - splajno
 source: https://scienca-revuo.info/article/411
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
