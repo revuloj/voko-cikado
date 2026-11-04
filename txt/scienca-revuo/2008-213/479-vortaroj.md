@@ -422,4 +422,4 @@ Gramatiko.
 9. PV: [Grosjean-Maupin E]{.maldense}. (1934, 1971): Plena Vortaro de Esperanto kun
 Suplemento, SAT.
 
-10. [Schubert Klaus]{.maldense}, http./ourworld.compuserve.com/Homepages/profcon/e dlt2.htm.
+10. [Schubert Klaus]{.maldense}, http://ourworld.compuserve.com/Homepages/profcon/edlt2.htm.
