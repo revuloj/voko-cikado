@@ -15,7 +15,7 @@ license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)
 <!--
 prenita el:
 
-Fonto: Scienca Revuo Vol. 45 (1994)(2)-165. pp. 26-30.     **STEB:** [http://www.eventoj.hu/](http://www.eventoj.hu/steb/){.al}
+Fonto: Scienca Revuo Vol. 45 (1994)(2)-165. pp. 26-30. 
 Aŭtoro:  Ulrich Matthias (DE)
 STEB: https://www.eventoj.hu/steb/matematiko/turan/refuto-de-kombinatorika-konjekto-de-turan.htm
 -->
