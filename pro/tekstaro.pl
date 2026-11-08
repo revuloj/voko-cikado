@@ -51,7 +51,8 @@ bib(p_i,'Iŝtar').
 bib(pkp,'PatrojFiloj').
 bib(rab,'Rabistoj').
 bib(rvz,'Revizoro').
-bib(sci,'SR').
+% Sciencan Revuon ni deividas laŭ jardekoj
+bib(sr4,'SR'). bib(sr5,'SR'). bib(sr6,'SR'). bib(sr7,'SR'). bib(sr8,'SR'). bib(sr9,'SR'). bib(sr0,'SR'). bib(sr1,'SR'). 
 bib(spj,'SkandalJozef').
 bib(sra,'SatirRak').
 bib(vch,'Ĉukĉoj').

@@ -17,12 +17,14 @@
 :- use_module('markdown').
 
 % faktoj:
-%% vrk(mt,...)
+%% vrk(mt,...) - vd. tekstaro.pl
 % txt(mt:1,'Genezo','biblio/malnova/01biblio.gen.utf')
 % cit(mt:1,'3:14','Kaj Dio la Eternulo diris al la..').
 % aut(m2:1,'Funebro sen dio','Anna Loewenstein').
+% nro(sr9:1,'164','1994'). -- numero/jaro de revuo
+% bib(Bib,Tit,Aut,Url). -- el Revo bibliogr.xml
 
-:- dynamic txt/3, cit/4, aut/3, bib/2, bib/4. %vrk/4, 
+:- dynamic txt/3, cit/4, aut/3, nro/3, bib/2, bib/4. %vrk/4, 
 
 :- consult(tekstaro).
 
@@ -517,11 +519,25 @@ markdown_teksto(Dos,Titolo,File) :-
     )),
     assert(txt(Dos,Titolo,File)),
     once((
-        get_dict(title, Kapo, Autoro)
+        get_dict(author, Kapo, Autoro),
+        atomic(Autoro)
+        ;
+        get_dict(author, Kapo, AList),
+        AList = [A1|_],
+        atom_concat(A1, ' k.a.', Autoro)        
         ;
         Autoro = '' % ĉu aserti aŭtoron, se ne estas?
     )),
     assert(aut(Dos,Titolo,Autoro)),
+
+    % se ni havas n-ro/jaro por revuo ni registru tiun informon ankaŭ
+    once((
+        get_dict(volume, Kapo, Nro),
+        get_dict(year, Kapo, Jaro),
+        assert(nro(Dos,Nro,Jaro))
+        ;
+        true
+    )),
 
     % disigu kaj asertu frazojn
     markdown_frazoj(Dos,Titolo,Enhavo).
@@ -821,7 +837,7 @@ bib_url(Vrk,Url) :- once((xpath(Vrk,url(normalize_space),Url); Url='')).
 %! cit_to_ekzj(+Citoj,-Tekstoj) is det
 %
 % transformas liston de trovitaj citaĵojn  en la formo sim-cit
-% al listo de paroj [sim,json], t.e. kun la citajoj transformitaj
+% al listo de paroj [sim,json], t.e. kun la citaĵoj transformitaj
 % al JSON-strukturoj
 cit_to_ekzj(Citoj,Texts) :-
     findall(
@@ -835,7 +851,7 @@ cit_to_ekzj(Citoj,Texts) :-
 %! check_cit_to_json is det
 %
 % Kontrolas ĉu ĉiuj verkoj estas efektive citeblaj prenante la unuan frazon de
-% ciu verko kaj transformante ĝin als JSON-fontindiko. La rezultoj estas
+% ĉiu verko kaj transformante ĝin als JSON-fontindiko. La rezultoj estas
 % rekte elskribitaj en la ekranon.
 check_cit_to_json :-
     %findall(V,vrk(V,_,_,_,_),Verkoj),
@@ -922,15 +938,13 @@ fnt_json(ode:_,Lok,json([bib='LOdE',lok=Loko])) :-
 
 fnt_json(scr:_,Lok,json([aut='Michael Ende, trad. Wolfram Diestel',vrk='La Senĉesa Rakonto',lok=Lok])).
 
-
-%Fnt = json([vrk=scienca_revuo_1990, lok="De incenso antikva al moderna parfumo"]) 
-% el vrk(Vrk:No,Tit,Dos) ni povus ricevi pliajn informojn
-% sed por eviti ĉiufoje relegi la koncernan dosieron pli bone
-% registru (asertu) informojn el artikolkapoj dum la origina enlegado!
-% eble la YAML (Dict) rekte?? aŭ kreu bib-informon el ĝi tuj?
-%fnt_json(SR:No,Lok,json([])) :-
-%    member(SR,[sr4,sr5,sr6,sr7,sr8,sr9,sr0,sr1]),
-
+% por revuoj ni bezonas la n-ro/jaron el faktoj nro/3 por plena fontindiko
+fnt_json(Vrk:No,_Lok,json([bib=Bib,aut=Autoro,vrk=Titolo,lok=Lok])) :-
+    % temas pri gazeto/revuo kun n-roj
+    nro(Vrk:No,Nro,Jaro),
+    once((aut(Vrk:No,Titolo,Autoro);Autoro='')), % iu artikoloj estas sen aŭtoro
+    bib(Vrk,Bib), bib(Bib,Revuo,_,_),
+    format(atom(Lok),'~w, nro ~w/~w',[Revuo,Nro,Jaro]).
 
 fnt_json(mo1:No,Tit,json([bib='Monato',vrk=Tit,lok=Nro,url=Url])) :-
     tekstaro:txt(mo1:No,_,File),
