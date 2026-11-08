@@ -20,6 +20,12 @@
                 select="collection($collection)//teiHeader/fileDesc"/>
             <!-- xsl:apply-templates 
                 select="collection($collection_esf)//tei:teiHeader//tei:biblStruct"/ -->
+
+            <verko dosiero="scienca-revuo/index.html">
+                <titolo>Scienca Revuo 1949 - 2015</titolo>
+                <autoro>diversaj</autoro>
+            </verko>
+
         </verkolisto>
     </xsl:template>
 

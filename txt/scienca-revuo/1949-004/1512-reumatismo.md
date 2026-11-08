@@ -23,15 +23,15 @@ uzata ĉe la kuracado de reŭmatismaj malsanoj. Bedaŭrinde la provizo
 sufiĉan por eĉ unu injekto. Tamen esploristoj lastatempe eltrovis, ke ili
 povas fabriki tiun saman drogon el planto, kiu kreskas abunde en Afriko.
 
-D-ro _George Taylor_ en disradiigita parolado diris jene: „Mi trovis ĉi
-tiun kreskaĵon *(Strophanthus Sarmentosus)* en la densaj verdaj arbaregoj de
+D-ro [George Taylor]{.maldense} en disradiigita parolado diris jene: „Mi trovis ĉi
+tiun kreskaĵon ([Strophanthus Sarmentosus]{.maldense}) en la densaj verdaj arbaregoj de
 la protektorato Ugando, kie ĝi festone ornamas la altajn arbojn,
 kaj grimpas kelkfoje eĉ ĝis 70 aŭ 80 futoj [^2] super la tero, Ĝi
 iom similas al vinberujo; ĝia trunketo estas dika je 2 aŭ 4 coloj [^2] kaj
 la supraj branĉoj portas malgrandajn verdajn foliojn kaj amasojn da
 belaj floroj. La petaloj havas longajn, maldikajn torditajn „vostojn”, kies
 longeco estas ĉirkaŭ tri coloj kaj pro tio la kreskaĵo nomiĝas
-*Strophanthus* — kio signifas, laŭvorte, „torditan floron”, Du spindel-formaj
+[Strophanthus]{.maldense} — kio signifas, laŭvorte, „torditan floron”, Du spindel-formaj
 semujoj, ĉirkaŭ unu futon longaj kaj unu colon dikaj, pendas de ĉiu floro. Ĉi
 tiuj semujoj enhavas semojn, el kiuj ni estontece ricevos la drogon
 „kombinaĵo E”. La semujoj enhavas multnombrajn semojn, kaj ĉiu semo havas
@@ -39,7 +39,7 @@ longan, maldikan bekon, sur kiu troviĝas tufo da silkaj haroj tre simila al
 la paraŝut-simila tufo ĉe la semoj de la leontodo kaj multaj aliaj 
 kompozitoj.
 
-Ja ekzistas multaj specioj de *Strophanthus*. El unu el ili devenas drogo,
+Ja ekzistas multaj specioj de [Strophanthus]{.maldense}. El unu el ili devenas drogo,
 kiun oni uzas ĉe la kuracado de kormalsano. Sed la kreskaĵo, el kiu ni
 eltiros la „kombinaĵon E” estas la sama kreskaĵo, el kiu oni povas eltiri
 mortigan venenon, kiun la Afrikanoj uzas por ŝmiri la pintojn de siaj
@@ -58,11 +58,11 @@ Efektive ĝi kapablas mortigi eĉ elefanton, kaj ĝi estas uzata de la
 Afrikanoj ĉe la ĉasado de elefantoj.
 
 Oni jam konis ĉi tiun kreskaĵon dum ĉirkaŭ 150 jaroj. Efektive la
-esploristo *Mungo Park* kolektis specimenojn de ĝi en Nigerio jam en la
+esploristo [Mungo Park]{.maldense} kolektis specimenojn de ĝi en Nigerio jam en la
 jaro 1795. Poste, en 1824, oni alportis kelkajn semojn al Londono el
-*Sierra Leone*, kaj plantis ilin en varmejoj taŭgaj por la tropikaj kreskaĵoj.
+[Sierra Leone]{.maldense}, kaj plantis ilin en varmejoj taŭgaj por la tropikaj kreskaĵoj.
 Oni ankaŭ kulturis tiajn kreskaĵojn en Florido por ornamaj celoj. En la
-sovaĝa stato *Strophanthus* estas tre ofta kreskaĵo en okcidenta Airiko,
+sovaĝa stato [Strophanthus]{.maldense} estas tre ofta kreskaĵo en okcidenta Airiko,
 kaj abundas de Senegalio kaj la Franca Sudano ĝis la arbaregoj de la
 malsupra Kongo kaj Angolo. Ŝajnas ke ne ekzistas la kaŭzo, kiu malhelpus
 ĝian grandskalan kulturadon en la pli tropikaj regionoj de Ameriko.
