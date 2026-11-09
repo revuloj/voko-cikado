@@ -354,7 +354,7 @@ akvojn en la enirejo kaj en la golfo mem. Escepton faras la t.n.
 historiaj golfoj, je kiuj la ŝtatoj havas longedaŭrajn historiajn rajtojn.
 
 Pri la jura karaktero de la rajtoj de la marborda ŝtato sur la
-teritorian maron ekzistis kaj ekzistas multaj teorioj. Sajnas ke hodiaŭ,
+teritorian maron ekzistis kaj ekzistas multaj teorioj. Ŝajnas ke hodiaŭ,
 tamen, estas ĝenerale rekonite, ke la marborda ŝtato havas plenan
 suverenecon je la teritoria maro kaj je la spacoj sub ĝi kaj super
 ĝi. La sola limigo estas la rajto de t.n. sendanĝera paso por ĉiuj ŝipoj

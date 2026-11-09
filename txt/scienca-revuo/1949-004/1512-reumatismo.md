@@ -62,7 +62,7 @@ esploristo [Mungo Park]{.maldense} kolektis specimenojn de ĝi en Nigerio jam en
 jaro 1795. Poste, en 1824, oni alportis kelkajn semojn al Londono el
 [Sierra Leone]{.maldense}, kaj plantis ilin en varmejoj taŭgaj por la tropikaj kreskaĵoj.
 Oni ankaŭ kulturis tiajn kreskaĵojn en Florido por ornamaj celoj. En la
-sovaĝa stato [Strophanthus]{.maldense} estas tre ofta kreskaĵo en okcidenta Airiko,
+sovaĝa stato [Strophanthus]{.maldense} estas tre ofta kreskaĵo en okcidenta Afriko,
 kaj abundas de Senegalio kaj la Franca Sudano ĝis la arbaregoj de la
 malsupra Kongo kaj Angolo. Ŝajnas ke ne ekzistas la kaŭzo, kiu malhelpus
 ĝian grandskalan kulturadon en la pli tropikaj regionoj de Ameriko.
