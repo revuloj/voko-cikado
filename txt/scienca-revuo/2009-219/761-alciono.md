@@ -13,6 +13,19 @@ source: https://scienca-revuo.info/article/761
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
+```{=html}
+<style>
+ img {
+  width: 30%;
+  float: left;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+ }
+</style>
+```
+
+![](761-alciono_bld-1.png){#bld-1}
+
 Ĝi estas rigardata “fluganta juvelŝtono“,
 frapas la atenton ne nur ĝia belege bunta
 plumaro, ankaŭ alie la paserogranda
