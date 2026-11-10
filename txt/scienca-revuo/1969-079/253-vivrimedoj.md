@@ -63,17 +63,17 @@ evoluantaj landoj (sen Ĉinio) pligrandigis totalan produktaĵon de manĝeblaj
 kulturoj je 40 centonoj. Bedaŭrinde plej grandan parton de tiu pligrandigo
 englutis kreskanta loĝantaro; por unu persono provizo pliboniĝis nur je 8%.
 En 1965. kaj 1966. jaroj tropikajn landojn trafis vico de plagoj. Produktaĵo
-por unu kapo falisje 4% duone, neniiginte atingojn de la antaŭaj jaroj. Ŝajnis,
+por unu kapo falis je 4% duone, neniiginte atingojn de la antaŭaj jaroj. Ŝajnis,
 ke, se la tendenco al malaltigo, estos stabila, la homaron baldaŭ atendas
 grandaj skuegoj. Sed sekvintaj jaroj alportis neatenditan turnon. 1967. jaro
 donis neniam estintan absolutan kreskon je 6% (35 por unu kapo de loĝantaro), kaj kio estas aparte konsolive, en malfavora pro veteraj kondiĉoj 1968.
-jaro tiu pligrandigo daŭris. Tio estas akceptita kiel pruzvo, ke teknika revolucio komencas penetri en agrokulturado de evoluantaj landoj kaj ke ili estas
+jaro tiu pligrandigo daŭris. Tio estas akceptita kiel pruvo, ke teknika revolucio komencas penetri en agrokulturado de evoluantaj landoj kaj ke ili estas
 en stato memstare venki malfacilaĵojn. La direktoro de FAO [A. H. Barma]{.maldense}
 (Burma) ĉe la konferenco deklaris: "Mi asertas decideme, ke FAO havas 
 neniujn statistikajn pruvojn, kiuj supozigus, k la homaro ne estas en stato
 nutri kreskantan loĝantaron... Mi ne vidas pravigon por nove-maltusanismaj profetaĵoj de katastrofo". La angla delegito [F. F. Dariling]{.maldense} eldiris pri
 tiu temo: "Mi subtenus optimisman vidpunkton se ekologo povus permesi
-al si, esti optimisto". Ciuokaze, maltusanisma vidpunkto nun estas kontestata ne nur per sciencistoj de socialisiaj landoj, sed ankaŭ per la plejparto
+al si, esti optimisto". Ĉiuokaze, maltusanisma vidpunkto nun estas kontestata ne nur per sciencistoj de socialismaj landoj, sed ankaŭ per la plejparto
 de avangardaj sciencistoj en landoj de OKcidento.
 
 Tiel aŭ aliel unu triono de la loĝantaro de la Terglobo kaj pli ol duono — de Afriko, Suda Azio kaj Suda Ameriko dume vivas en malsato. Por
@@ -89,7 +89,7 @@ kreskis kvaroble, rikoltoj de rizo dum la sama tempo pligrandiĝis en Japanio je
 kvanto de vilaĝanoj reduktiĝis ĝis 8 - 10%; tio okazis plene sufiĉe por
 nutri la tutan landon. Tio ne atestas pri la plibonigo de bonstato de teknike avangardaj landoj, ĉar estas ligita kun povrigo kaj pereo de multaj
 etaj farmistaj bienoj, kies posedantoj kompletigas vicojn de proletoj. Sed
-tiu situacio subtenas konkurivon de progesintaj landoj sur mondaj merkatoj.
+tiu situacio subtenas konkurivon de progresintaj landoj sur mondaj merkatoj.
 Tiuj landoj iom post iom reduktas sematan areon forlasante por novalo
 unuavice la plej neproduktivajn terenojn. Dum la lastaj jaroj oni trovis por
 ili aplikon: oni utiligas ilin por rekreado (ripozo). Oni malpenas pri ili ĝis
@@ -101,7 +101,7 @@ naturo. Medicino atribuas al tia ripozo grandan signifon kaj nomas ĝin
 "landŝafta terapio".
 
 Ambaŭ neegalaj socioj venas, kvankam el tute diversaj pozicioj, al
-neceso regi la biosferon kaj enirantajn en ĝi ekologiajn ŝistemojn. Biosfero
+neceso regi la biosferon kaj enirantajn en ĝi ekologiajn sistemojn. Biosfero
 posedas ioman stabilecon, t.e. kapablon retroveni al la antaŭa stato ĉe
 kaŭzitaj al ĝi limigitaj domaĝoj. Sed, se sub influo de bruskaj kaj intensaj
 rompoj biosfero transitas "sojlon de la ekvilibro", ĝi subite kvazaŭ retiriĝas al malpli alta nivelo, al pli frua etapo de sia evoluo, kio estas sekvata
@@ -111,10 +111,10 @@ kaŭzas al biosfero tiajn ŝokajn frapojn reduktante komplikajn, multplanajn
 iliajn landŝaftojn ĝis plej simplaj ekologiaj sistemoj "de pasero kaj rato".
 Jen por eviti tiujn postsekvojn sciencistoj opinias necesa transgvidi la biosferon al reĝimo de severa reguligo.
 
-Bedaŭrinde, kiel diris unu ekologiisto, inventemo de homo antaŭiras lian saĝecon. Li komemcis ŝanĝi naturon ekde tiu tempo, kiam li eklernis bruligi 1a fajron. En la nuna tempo la nivelo de civilizo kreskas je la
+Bedaŭrinde, kiel diris unu ekologiisto, inventemo de homo antaŭiras lian saĝecon. Li komencis ŝanĝi naturon ekde tiu tempo, kiam li eklernis bruligi 1a fajron. En la nuna tempo la nivelo de civilizo kreskas je la
 konto de perdo de fontoj de vivrimedoj. Eĉ ne parolante pri mineralaj fontoj, kies laŭgrada neniigo estas en ordo de eventoj, homaro sisteme subfosas akiradon de la biologiaj, principe restarigeblaj, ne scipovante organizi
 ilian disvastigitan reproduktadon, ofte oferante por partaj kaj provizoraj
-sukcesoj de rabaj, ekspluatantaj grupoj de loĝantato pli komunajn kaj pli
+sukcesoj de rabaj, ekspluatantaj grupoj de loĝantaro pli komunajn kaj pli
 longdaŭrajn valoraĵojn.
 
 Aparte karakteriza en rilato al fraŭdo de fontoj de vivrimedoj estas
@@ -122,8 +122,7 @@ problemo de tiel nomata "paŭperigo de tropikaj landoj". La grundo de
 ekskoloniaj landoj elĉerpiĝis per kulturado sen deca rotacio de plantoj nekovenaj al lokaj terenoj. Ĉi kulturoj estis profitaj por koloniistoj kaj estis
 truditaj al aborigenoj estintaj en ekonomika kaj politika dependecoj de siaj
 mastroj. La grundoj suferis pro erozio aŭ pro troa paŝtado. Ili estis sisteme
-senigataj de necesaj mikroelementoj, kiuj estis absorbataj per kulturplantoj kaj kune kun "koloniaj" varoj eksportataj en metropolojn. Tiu proce
-dank' al la ekonomika koloniismo daŭras ankoraŭ nun.
+senigataj de necesaj mikroelementoj, kiuj estis absorbataj per kulturplantoj kaj kune kun "koloniaj" varoj eksportataj en metropolojn. Tiu procezo dank' al la ekonomika koloniismo daŭras ankoraŭ nun.
 
 ## Problemo pri albuminoj
 
@@ -201,10 +200,10 @@ formo, en formo de neĝo kaj glacio. Cirkulantaj trinkeblaj akvoj en dispono
 de homaro, inkluzive grunda akvo en zono de aktiva akvoŝanĝo, konsistigas 0,3%. El tiu kvanto, ekzemple en Usono, estas elspezataj por malkoncentri uzinajn defluojn ĉirkaŭ 80% (mi memorigu, ke, ekzemple dum produktado de 1 tuno de kaprono estas malpurigitaj 5 mil kubometroj da akvo).
 Se konsideri aliajn bezonojn: senreversa \[senreserva, red.\] utiligado en industrio (metalurgiaj
 uzinoj elvaporigas ĉirkaŭ 15 kubometrojn da akvo por ĉiu tuno da metalo)
-kaj agrokulturo (por 1 tuno da maizo oni bezonas mil, kubometrojn da akvo), krom tio akvoprovizo de urboj (0,4 - 0,8 kubometpoj por unu homo
+kaj agrokulturo (por 1 tuno da maizo oni bezonas mil, kubometrojn da akvo), krom tio akvoprovizo de urboj (0,4 - 0,8 kubometroj por unu homo
 dum tagnokto) do fariĝas klare, kial plejparto da industriozaj landoj jam 
 suferas pro akvomalsato kaj estas igataj alkonduki akvon trans centoj da
-kilometroj aŭ ĉerpi ĝin el ĉiam profundaj tavoloj de terkruso.
+kilometroj aŭ ĉerpi ĝin el ĉiam profundaj tavoloj de terkrusto.
 
 Oni proponas diversajn rimedojn por plibonigi la situacion. Estas projektata multjara regulado de riveroj, kiu devas fine alkonduki al plena likvido de defluo en maroj kaj elvaporado de la tuta akvo el firmtero. Enŝloso
 de akvo en akvokonservejoj por ĝia pli plena uzado estas ebla nur kun
@@ -212,10 +211,10 @@ kondiĉo de ĝia absoluta purigo de defluoj, t.e, ĉesigo de ilia dissolvo, orga
 forĵetaĵoj en iujn utilajn produktojn pere de la enkonduko de aldonaj teknologiaj procedoj. Finfine forĵetaĵoj nur tial estas sandanĝeraj, ke ili. trafas ne
 tien, kie estas bezonataj, kaj, ne en deca stato. Ilia plena translaborado en
 estonteco estas neevitebla, ĉar alia alternativo jam pruvinta sian netaŭgecon
-estas transformado de riveroj, almenaŭ de unu el ĉiu paro, en kloakaj defluejoj. Vivi apud tiuj riveroj estas neeble. Krom tio, forĵataĵoj elfluantaj
+estas transformado de riveroj, almenaŭ de unu el ĉiu paro, en kloakaj defluejoj. Vivi apud tiuj riveroj estas neeble. Krom tio, forĵetaĵoj elfluantaj
 el ili estante disportitaj per maraj ondoj neniigas tutan vivon en oceano kaj
 sur ĝiaj bordoj. Tio estas nekunigebla kun utiligado de maro kiel dua fonto
-de homaraj vivimedoj.
+de homaraj vivrimedoj.
 
 Evidente, la plej efika metodo de akvoprovizo metodo de estonteco
 estas malsaligo de salitaj, inkluzive maraj, akvoj kaj ilia pumpado tra tubkondukiloj en internon de kontinentoj. Ĉi metodo jam estas uzata en eta
@@ -240,14 +239,14 @@ vico de denspopolitaj malaltaj ebenaĵoj kaj ĉiuj apudmaraj urboj estos subakvi
 Ne nur bruligado de hejtaĵo estas kaŭzo de malpurigo de la aero.
 Ega kvanto da diversaj gasoj: sulfita anhidrido, nitra oksido, karbona oksido,
 kloro, floro kaj diversaj aerosoloj estas forĵetataj per fumotuboj de kemiaj,
-metalurgiaj, cementaj kaj aliaj uzinoj. Entreprenistoj tre nevolonte konsentas konstrui purigilojn, kvankam en multaj kazoj ĉiuj elspezoj estas kompensataj per ekerstraktado el gasoj kaj fumoj de altvaloraj kromproduktoj. Evidente
+metalurgiaj, cementaj kaj aliaj uzinoj. Entreprenistoj tre nevolonte konsentas konstrui purigilojn, kvankam en multaj kazoj ĉiuj elspezoj estas kompensataj per ekstraktado el gasoj kaj fumoj de altvaloraj kromproduktoj. Evidente
 fabrikposedantoj ne estas emaj riski sian profiton por komuna bono.
 
 Granda malfeliĉo estas aŭtomobila trafiko. Nekompleta bruligo de 
 hejtaĵo en motoroj kun interna brulado ĝis tia grado venenigas aeron de
 grandadaj urboj, ke municipaj aŭtoritatoj estas devigataj post ĉiuj 3 - 4 horoj
 de laboro sendi la reguligistojn de la strata trafiko respiri en oksigenaj kameroj. Venena plumbo entenata en gasoj de aŭtomobiloj, ekzemple en
-Kalifornio, eniras en acron en kvanto de 1 kg por ĉiu homo dum unu jaro.
+Kalifornio, eniras en aeron en kvanto de 1 kg por ĉiu homo dum unu jaro.
 Invento de elektromobiloj fariĝas urĝa vivneceso.
 
 Malpurigo de aero en ega grado oftigas malsanojn de astmo, kronika
@@ -323,8 +322,7 @@ al ĉiuj landoj, ke ili akceptu samspecajn naciajn leĝojn.
 Kio koncernas Sovetunion kaj socialismajn landojn, ili konsideras la
 estontecon optimisma. Tio ne signifas, ke al ili mankas malfacilaĵoj, ligitaj
 kun malprofito kaŭzata al naturo dum asimilado de novaj teritorioj kaj
-novaj fontoj, sed ĉe ŝtata propreco de la tero, planeco de la popola ekono-.
-miko, manko de senlaboreco kaj neekzisto de monstraj formoj de urbismo,
+novaj fontoj, sed ĉe ŝtata propreco de la tero, planeco de la popola ekonomiko, manko de senlaboreco kaj neekzisto de monstraj formoj de urbismo,
 tiuj malfacilaĵoj estas venkeblaj. Registaro kaj popoloj ekkonsciis tiujn taskojn kaj lukto por ilia solvo estas starigita en vico.
 
 Sovetunio posedas vastan teritorion, riĉajn eblecojn de pluaj grundplibonigoj kaj asimilado de virgaj teroj, abundon de diversaj utilaj mineraloj, kio ĉe modera kresko de la loĝantaro permesas al ĝi disvolvi sian 
@@ -346,24 +344,24 @@ zono.
 Dum lastaj jaroj disvolviĝis granda kampanjo por la purigo de riveroj kaj lagoj de industriaj kaj komunumaj defluaĵoj. En vico de basenoj
 ekzemple de Volga kaj Moskva rivero tiudirekte jam estas atingitaj unuaj
 sukcesoj. Estas fiksitaj sanitaraj normoj (limitoj) de malpurigo per diversaj
-substantoj entenataj en uzinaj elfluaĵoj, senĉese estas ellaborataj ĉiam pli
+substancoj entenataj en uzinaj elfluaĵoj, senĉese estas ellaborataj ĉiam pli
 perfektaj projektoj de purigaj aparatoj. Estas preparata eldono de unueca
 leĝo pri utiligado de akvoj de la tuta respubliko.
 
 Proksimume same iras aferoj kun la aera oceano. Novajn uzinojn 
 estas malpermesite konstrui sen filtroj ĉe elĵetiloj, sed la malnovaj ankoraŭ
-konsiderinde difektas la atmosferon. Tamen ili estast laŭgrade transfarataj
+konsiderinde difektas la atmosferon. Tamen ili estas laŭgrade transfarataj
 por gasa hejtaĵo kaj tiam la atmosfero puriĝos. En Moskvo kaj kelkaj aliaj
 centroj gasizado estas preskaŭ finita, aero fariĝis konsiderinde pli pura kaj
 sana.
 
-Estas komencitaj laboroj por rekulturado de minaj akmulaĵoj.
+Estas komencitaj laboroj por rekulturado de minaj akumulaĵoj.
 
 ## Deficito, de naturfontoj kaj ilia posedo
 
 El konsideritaj situoj sin trudas konkludo, ke ĉefa kaŭzo de fonta
 krizo sur la Terglobo estas ne naturaj fortoj, sed maljusta organizo de sociekonomikaj rilatoj gvidanta al la paŭperigo de vastaj popolamasoj dum
-supermezura kresko de riĉaĵoj ĉe etaj grupoj de ekspluatantaj klasoj. Malfacilaĵoj, kiuj nun aperas en la tuta mondo konekse kun deficito de naturfontoj kaj malpurigo de medio, ne estas esolveblaj en kondiĉoj de pnivata
+supermezura kresko de riĉaĵoj ĉe etaj grupoj de ekspluatantaj klasoj. Malfacilaĵoj, kiuj nun aperas en la tuta mondo konekse kun deficito de naturfontoj kaj malpurigo de medio, ne estas solveblaj en kondiĉoj de privata
 posedo de tero, kiam tero, arbaroj, minoj, fontoj de energio apartenas al
 apartaj personoj. Ili povas esti venkitaj nur tiam, kiam ĉiuj naturriĉaĵoj
 partenos al ŝtatoj kaj ekonomiko disvolvos ne sur bazo de libera konkurado, sed laŭ unueca plano, projektita por komunaj interesoj, t.e. kiam estos

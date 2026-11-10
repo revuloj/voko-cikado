@@ -45,7 +45,7 @@ Ekzistas du specoj de harnesoj: *harnesoj foliaj* por malpli komplikaj plektoj k
 
 ![harneso](1079-teksado_bld-1.png)
 
-Harnesa folio (B 12) ekestas per tio, ke oni la harneserojn por sammpe levotaj varperoj fiksas en unu kadron. Harneso devas havi minimume du
+Harnesa folio (B 12) ekestas per tio, ke oni la harneserojn por samtempe levotaj varperoj fiksas en unu kadron. Harneso devas havi minimume du
 foliojn (por ne tre delikata kaj ne tre densa tolo).
 
 Deksesfolia harneso jam estas iom malavantaĝa kaj oni tial anstataŭigas
@@ -78,7 +78,7 @@ supre, ĉar la unua folio en la maŝino estas tiu pli proksima al la varpoproviz
 al la varpotrabo, la lasta proksimas la teksokombilon. Sur la retpapero oni plenigas tiujn kvadratetojn, kie oni la varperon per la koncerna folio levadu. Laŭ
 la uzita tolplekto de maldensa teksaĵo oni do tredas ĉiujn malparajn varperojn
 en la varperingojn de la unua folio kaj la parajn inter ĝiajn harneserojn; en la
-dua folio pasas tra la varperingoj la paraj verperoj kaj la malparaj inter la harneseroj.
+dua folio pasas tra la varperingoj la paraj varperoj kaj la malparaj inter la harneseroj.
 
 Dekstre de la plekto estas pedaloj kiel interspacoj inter du vertikalaj
 linioj. Oni plenigas por la koncerna veftero kvadrateton sur tiu pedalo, kiun oni

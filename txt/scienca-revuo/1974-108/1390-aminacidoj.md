@@ -75,7 +75,7 @@ la amoniakato estas relative specifa kaj siaspeca, al kio pli ol unufoje indikis
 diversaj esplorantoj (rig. ekzemple[[20](#b-20)]).
 
 Dum interago de amoniakato de kalcio kun dioksido de karbono, procedanta
-kun evoluo de varmo, estas observata formiĝo de miksaĵo de rezineskaj kaj fluidaj produktoj, en kiu estas ankaŭ aminacidoj — glicino, alanino, serno kaj tirozino, identigitaj pere de la papera kromatografio. La plej simplaj produktoj de
+kun evoluo de varmo, estas observata formiĝo de miksaĵo de rezineskaj kaj fluidaj produktoj, en kiu estas ankaŭ aminacidoj — glicino, alanino, serino kaj tirozino, identigitaj pere de la papera kromatografio. La plej simplaj produktoj de
 la redukto - saloj de formiata kaj oksalata acidoj, volatilaj aminoj — ne estis
 trovitaj. La eksperimentoj de la redukto de $\ce{CO2}$ estis farataj je diversaj temperaturoj, en malrapida fluo de $\ce{CO2}$ — l/horo kaj en la rapida, ĝis 2 l/sek. Dum
 la reakcio eblas lokaj trovarmiĝoj, ne permesantaj juĝi pri efektiva temperaturo
@@ -106,7 +106,7 @@ Interago de dioksido de karbono kun amoniakato de kalcio.
 |---|---|---|
 |[1.]{#e-1} |Malvarmigo per fluo de $\ce{CO2}$ 1,2-1,7 l/sek.; 12 minutoj.| glicino 5,0; peptidoj 0,65 |
 |[2.]{#e-2} |2 l/horo $\ce{CO2}$; 2,3 horoj en heptano.| glicino 17,2; peptidoj 2,2 |
-|[3.]{#e-3} | 1-1,5 l/horo $\ce{CO2}$; 2 horoj (eblaslokaj trovarmiĝoj). | glicino 2,8; serino 7,7; peptidoj 1,33.|
+|[3.]{#e-3} | 1-1,5 l/horo $\ce{CO2}$; 2 horoj (eblas lokaj trovarmiĝoj). | glicino 2,8; serino 7,7; peptidoj 1,33.|
 |[4.]{#e-4} |2 l/horo $\ce{CO2}$, 2,5 horoj en heptano je 50°.|glicino 4,85; serino 4,75 peptidoj 4,0.|
 |[5.]{#e-5} |0,30 l/sek. $\ce{CO2}$, varmigita ĝis 75°; 30 minutoj.|glicino 30; serino 96.|
 |[6.]{#e-6} |0,1-0,5 l/sek. $\ce{CO2}$ post 10 minutoj - eksplodeto.| glicino 1,64; alanino 1,0 tirozino 1,0.|

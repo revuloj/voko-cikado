@@ -38,8 +38,7 @@ La plekto konsistas el *plekto-punktoj*. Kie *vanpero* (varpa fadeno) transiras 
 La varpo kaj la vefto kunteniĝas verdire nur tie, kie varpero tre
 pasas inter du vefteroj, aŭ kie veftero trapasas inter du varperoj.
 Tie estas la veraj *ligpunktoj* (B2c). *Liga plektopunkto* estas tiu, kie
-unu varpero transiras unu vefteron kaj tuj denove malaperas sub la najbaran vefteron; tio estas *liga plektopunkto varpa* (B1c]). *Vefta liga
-ptektopunkto* (B1d) estas tie, kie unu veftero transiras unu varperon
+unu varpero transiras unu vefteron kaj tuj denove malaperas sub la najbaran vefteron; tio estas *liga plektopunkto varpa* (B1c). *Vefta liga plektopunkto* (B1d) estas tie, kie unu veftero transiras unu varperon
 kaj tuj malaperas sub la najbaran varperon.
 
 Ĉiun plekton oni povas pentri sur *retpapero*, kie la interspacoj
@@ -58,21 +57,21 @@ Ekzistas amaso da diversaj plektoj, sed ili ĉiuj estas nur derivaĵoj de tri *p
 1. *Tolo* estas la plej simpla el ĉiuj plektoj. En ĝi alternas po unu
     plektopunktoj varpaj kaj veftaj same laŭlonge, kiel laŭlarĝe.
     Ĝi do konsistas nur el plektopunktoj ligaj kaj el ligpunktoj (B1).
-    Tio donas al la tola plekto la avantaĝon, ke tia teksaĵo tre re    zistas frotadon kaj ne ŝiriĝas tiel facile, kiel teksaĵoj kun
-    plektoj pli komplikaj. Bedaŭrinde ĝi rezistas ankaŭ lavadon, pre    cipe se ĝi estas densa. Se al tio aldoniĝas malfacila lavableco
+    Tio donas al la tola plekto la avantaĝon, ke tia teksaĵo tre rezistas frotadon kaj ne ŝiriĝas tiel facile, kiel teksaĵoj kun
+    plektoj pli komplikaj. Bedaŭrinde ĝi rezistas ankaŭ lavadon, precipe se ĝi estas densa. Se al tio aldoniĝas malfacila lavebleco
     de materialo (ekz. kotono), tiam ĝi prezentas katastrofeton por
     mastrino.
 
 2. *Kepro* estas karakterizata per oblikvaj linioj, ascendantaj dekstren
     aŭ maldekstren. En la baza kepro ĉiu (ekz.) varpero unu vefteron
-    transiras kaj minimume du pluajn subiras; Plua varpero sammani    ere transiras duan vefteron, tria la trian ktp., kiel ĝin mon    tras B2. Ekestas do el la vico da varpaj ligaj plektopunktoj - oblikva *linio*. Apud ĝi ekestas duvica linio el veftaj plekto-punktoj. 
+    transiras kaj minimume du pluajn subiras; Plua varpero sammaniere transiras duan vefteron, tria la trian ktp., kiel ĝin montras B2. Ekestas do el la vico da varpaj ligaj plektopunktoj - oblikva *linio*. Apud ĝi ekestas duvica linio el veftaj plekto-punktoj. 
     Ĉar la linioj ascendas dekstren, temas pri kepro dekstra,
-    ĉar sur la supro oni vidas pli multajn vefterojn, temas pri ke    pro vefta. Sur la suba flanko de la sama teksaĵo oni vidas, kiel
+    ĉar sur la supro oni vidas pli multajn vefterojn, temas pri kepro vefta. Sur la suba flanko de la sama teksaĵo oni vidas, kiel
     aspektas maldekstra varpa kepro.
 
-3. *Sateno* diferencas de la baza kepro per tio ke ĝiaj ligaj plektopun    ktoj ne tuŝas sin reciproke (B4). En preta teksaĵo ilin kaŝas la
-    liberaj fadenoj kaj la teksaĵo briletas, precipe se ĝi estas te    ksita el filamentoj (silko, rajono k.s.). Ekzistas sateno vefta
-    (B4), kie oni vidas nur liberajn vefterojn, kaj sateno varpa - kie
+3. *Sateno* diferencas de la baza kepro per tio ke ĝiaj ligaj plektopunktoj ne tuŝas sin reciproke (B4). En preta teksaĵo ilin kaŝas la
+    liberaj fadenoj kaj la teksaĵo briletas, precipe se ĝi estas teksita el filamentoj (silko, rajono k.s.). Ekzistas sateno vefta
+    (B4), kie oni vidas nur liberajn vefterojn, kaj sateno varpa -- kie
     oni vidas nur liberajn varperojn (B5).
 
 Desegninte sufiĉe grandan pecon de iu plekto, oni rimarkas, ke post

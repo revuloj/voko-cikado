@@ -53,7 +53,7 @@ epidemioj, nun ĝi montras sin kiel grupa aŭ familia malsano. La
 morteco atingas 5 - 11% kaj pli da procentoj. Sed ne nur turmentoj
 kaj morto de la malsanuloj difinas rolon de triĥinelozo en patologio
 de la homo. Kiom da laborkapablo perdas personoj,
-kiuj havas subklinikan aŭ eĉ sensimptoman formojn de tiu-ĉi helmintozo! Ekzeple nur en Usono milionoj da homoj (16 - 32% da la loĝantaro — laŭ [Gould]{.maldense}, 1945) estas infektitaj de triĥineloj (pro uzo
+kiuj havas subklinikan aŭ eĉ sensimptoman formojn de tiu-ĉi helmintozo! Ekzemple nur en Usono milionoj da homoj (16 - 32% da la loĝantaro — laŭ [Gould]{.maldense}, 1945) estas infektitaj de triĥineloj (pro uzo
 de ne triĥineloskopiita porka viando[^x].
 
 [^x]: En Usono oni ne praktikas triĥineloskopiadon (Mikroskopan esploron je triĥineloj) de porka viando, kiu estas laŭlege deviga en
@@ -69,7 +69,7 @@ nun ne atingeblaj muskolaj triĥineloj pereas post apliko de tiabendazolo[^5]. T
 La supredirito difinas gravan rolon de tiu-ĉi malsano inter aliaj
 malsanoj de la homo.
 
-## La antaŭjaj konceptoj
+## La antaŭaj konceptoj
 
 Por sukcese batali kontraŭ iu ajn infekta malsano oni devas
 bone koni vojojn de la cirkulado de ties elvoka agento en la ekstera
@@ -86,8 +86,8 @@ kuirita.
 Laŭ [Leuckart]{.maldense} (1860), en sinantropa fokuso la unuan rolon en disvastigado de la malsano ludas cirkulado de triĥineloj inter ratoj kaj la
 duan — inter porkoj, kiuj infektiĝas manĝinte triĥinelozajn ratojn.
 Laŭ [Zenker]{.maldense} (1860), male la unua rolo apartenas al porkoj kaj la
-dua — al ratoj, kiuj infrektiĝas manĝinte restaĵojn de triĥineloza porka
-viando (vidu la sekmon).
+dua — al ratoj, kiuj infektiĝas manĝinte restaĵojn de triĥineloza porka
+viando (vidu la skemon).
 
 Ĝis la kvardekaj jaroj de la nuna jarcento daŭris diskutado
 inter adeptoj de »la rata« kaj de »la porka« teorioj de triĥinelozo
@@ -95,13 +95,13 @@ Kelkaj aŭtoroj ([Gruber]{.maldense}, 1926) komencis atentigi ke krom ratoj kaj
 porkoj en la disvastigado de triĥinelozo kulpas hundoj, katoj kaj
 sovaĝaj animaloj. Tamen ĉiuj tiuj sciencistoj opiniis - ke triĥinelozo
 ekzistas nur en sinantropaj fokusoj; en la sovaĝan naturon ĝi trafas
-nur tiam, kiam sovaĝaj animaloj hazarde riucevas de la hejmaj animaloj tiun-ĉi helmintozon.
+nur tiam, kiam sovaĝaj animaloj hazarde ricevas de la hejmaj animaloj tiun-ĉi helmintozon.
 
 Karaktera ilustraĵo por tiamaj konceptoj povas esti la jena
 cito el [Zelenski]{.maldense} (1929): „Kondiĉoj kaj vivmaniero en homaj loĝlokoj
 ege difinas kiel malproksimen en animala mondo povas esti al alportita
 triĥinozo for de lokoj (ekzemple, for de rubejoj ktp.), kie troviĝas
-infektaj forĵetaĵoj" (p. 368). Do, tiam eĉ ne suspozis pri sendependa
+infektaj forĵetaĵoj" (p. 368). Do, tiam eĉ ne supozis pri sendependa
 ekzistado de triĥinelozo en la sovaĝa naturo. 
 
 ## La modernaj konceptoj
@@ -148,7 +148,7 @@ kulpas ankaŭ la kanibalismo.
 
 Ĉe pinipedoj vojoj de la cirkulado de triĥineloj ne estas bone
 esploritaj. Oni supozas ke rosmaroj infektiĝas manĝante fokojn. Siavice la lastaj (same kiel rosmaroj) ricevas la infekton dum nutrado
-per amfipodoj. La amfipodoj infektiĥas, kiam ili sin nutras per kadavroj de mambestoj. Pinipedoj kaj amfipodoj povas infektiĝi ankaŭ
+per amfipodoj. La amfipodoj infektiĝas, kiam ili sin nutras per kadavroj de mambestoj. Pinipedoj kaj amfipodoj povas infektiĝi ankaŭ
 per fekaĵoj de maraj birdoj (precipe de mevoj), kiuj manĝis kadavraĵon de triĥinelozaj animaloj ([Abs and Schmid]{.maldense}, 1954). Tiom komplika cirkulado ekzistas ĉe la "natura" triĥinelozo.
 
 La sinantropaj fokusoj aperas kutime kiel rezulto de penetro

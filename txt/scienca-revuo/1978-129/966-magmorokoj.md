@@ -36,7 +36,7 @@ nerostných fází.
 
 ## 1. Enkonduko
 
-Jenaj konsideroj prezentas esencon de prelego, plenumita ĉehlingve
+Jenaj konsideroj prezentas esencon de prelego, plenumita ĉeĥlingve
 (25.1.1977) por Katedro de Petrologio ĉe Naturscienca Fakultato de
 Karola Universitato en Prago. Ili provas skizi pri tendencoj koncerne la
 magmorokaĵan sistematikon. Por la petrologoj, kies profesio postulas

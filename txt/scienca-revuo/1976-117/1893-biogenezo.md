@@ -106,7 +106,7 @@ atmosfero? La procezo de aliformiĝo de unu tipo de la atmosfero en la alian tra
 paroli pri preciza limo inter ili, tamen pritakse oni povas
 montri tian limon; ĉar manko de libera oksigeno, kaj poste ĝia
 aperigo, videbliĝis en la medio eĉ nur per konforma konsisto
-de rokoj, per specifa ilia kemia konsisto. Kaj tiel, indikaĵoj de la oksigena atmosfero estas tiel nomataj "ruĝaj preĉipitaĵoj!" (sedimentoj, sedimento-precipitaĵoj), enhavantaj feron en stato altgrade oksidita, kutime en la formo
+de rokoj, per specifa ilia kemia konsisto. Kaj tiel, indikaĵoj de la oksigena atmosfero estas tiel nomataj "ruĝaj precipitaĵoj!" (sedimentoj, sedimento-precipitaĵoj), enhavantaj feron en stato altgrade oksidita, kutime en la formo
 de limonito $\ce{Fe2O3 \cdot n H2O}$. Jen por la plej tempaĝaj tiaj ruĝaj sedimentoj la proksimuma aĝo sumiĝas je unu miliardo da
 jaroj. Ĝi estas do minimuma aĝo de la nuna oksigena atmosfero. Aliflanke ekzistas tiaj sedimentaj rokoj, kies konforma
 konsisto montras al tio, ke ili devis ekesti en la atmosfero senoksigena, redukta. La aĝon de tiaj plej junaj rokoj oni
@@ -159,7 +159,7 @@ la formoj hodiaŭ dominantaj, sekvis en la periodo de sinsekva transiro de la at
 signifas de transiro elde vaste komprenata kemisintezo al
 fotosintezo. Tiu klare adaptiva kaj kreopova fazo traira povis daŭri, kiel estis jam dirite, ĉirkaŭ unu miliardon da jaroj aŭ eĉ iom pli. Ĉe tio oni vidas, ke konforme al la stabiligado de pli produktivaj energetike mekanismoj de organikaj ŝanĝoj bazitaj sur fotosintezo, intensiĝadis la ĉiam pli
 kaj pli evolucia impeto de la vivo tiel, por en la lastaj
-500 milionoj da Ĵaroj atingi vertiĝodonan rapidecon.
+500 milionoj da jaroj atingi vertiĝodonan rapidecon.
 
 Sur tiu perspektiva kaj traktita tre konciza fono de
 la historio de la vivo kaj ĝia medio ekde la supozeblaj komencoj ĝis la krizaj periodoj de la prekambrio kaj kambrio,

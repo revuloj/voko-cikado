@@ -20,7 +20,7 @@ La instruado de Fiziko kaj pli speciale tiu de Mekaniko Racionala
 Kiel enkonduko al ekzameno de ĉi tiuj eraroj, nepras antaŭe starigi la aksiomaron de Mekaniko tian kia ĝi estas instruata hodiaŭe ĉe
 la kursoj por inĝenieroj.
 
-Estas advertinde ke pri ĉi tiuj bazaj eldiroj ne ekzistas absoluta
+Estas avertinde ke pri ĉi tiuj bazaj eldiroj ne ekzistas absoluta
 akordo inter diversaj aŭtoroj, kio estas plia motivo por fiksi bazon de
 la diskutado. Kompreneble tiuj eldiroj, ankoraŭ estas perfektigeblaj.
 
@@ -42,7 +42,7 @@ tute ne uzas ĝin.
 
 »Materia Pukto: korpo de sufiĉe malgrandaj dimensioj, rilate al
 tiuj de kampo kie disvolviĝas movo, tiel ke ĝia pozicio povu esti facile
-indviduigata sen perceptebla eraro per geometria punkto«. ([1](#b-1))
+individuigata sen perceptebla eraro per geometria punkto«. ([1](#b-1))
 
 (@e-1) »Ĉiu materia punkto infinite forigita de la ceteraj moviĝas laŭ
 rektlinio kun konstanta rapido«.
@@ -164,7 +164,7 @@ supozu iun sistemon de koordinatoj kies centro koincidas kun la materia punkto $
 materia punkto $B$. Se el ĉitiu sistemo ni mezuros la forton ekzercatan
 sur $B$, ni akiros finitan valoron ne nulan de $m_B\cdot a_B$ okazante la kontraŭo
 kun la produto $m_A\cdot a_A$ tial ke $a_A = O$. Tiuokaze, ni ne diru ke la fundamenta eldiro ne konstatiĝas, sed ke la sistemo de referenco ne estas
-inercia. Estas do, nevera ke en ajna sistemo de koondinatoj efektiviĝas
+inercia. Estas do, nevera ke en ajna sistemo de koordinatoj efektiviĝas
 la fundamentaj eldiroj de Mekaniko. El ĉio ĉi ni konkludas ke oni devas
 precizigi la sistemon por kiu validas tiuj eldiroj.
 
@@ -172,12 +172,12 @@ II. La korpoj aludataj de la eldiroj devas esti punktecaj, t.e. kun
     malgrandaj dimensioj rilate al la translokiĝoj kiujn ili suferas (v. difinon de materia punkto).
 
 Se oni ne utiligus la koncepton de materia punkto, ni troviĝus
-fronte al malfacilaĵoj je la apliko de la fundamenaj eldiroj ĉe ne tiom
+fronte al malfacilaĵoj je la apliko de la fundamentaj eldiroj ĉe ne tiom
 esceptaj kazoj.
 
 Ekzemple, por la kazo de du korpoj tuj koliziontaj, kiun sencon
 havus la esprimo »la rektlinio liganta ambaŭ korpojn? Kiun punkton de
-la unua korpo oni devus ligi kiu alia de la dua kompo por determini
+la unua korpo oni devus ligi kiu alia de la dua korpo por determini
 la aglinion? ...
 
 Pro la sama motivo, la leĝo de universala altiro ne povas esti aplikata tia kia ĝi estas. Ekzemple, okaze de libera korpo falanta laŭlonge
@@ -186,7 +186,7 @@ por determini la grandon de la altira forto por iu donita absciso de la
 akso de la puto, kio pruvas ankaŭ ke la dirita leĝo rigore validas nur
 por materiaj punktoj.
 
-Ekzistas aliaj apartaj kondiĉoj de valideco por la malsamaj eldiroj kiujn oni povos vidi ðe la kritikado de la respondaj teoriaj eksponoj
+Ekzistas aliaj apartaj kondiĉoj de valideco por la malsamaj eldiroj kiujn oni povos vidi de la kritikado de la respondaj teoriaj eksponoj
 kaj interpretoj de eksperimentoj.
 
 ## Nekorekta terminologio
@@ -209,7 +209,7 @@ la jenon:
 
 Ne devas esti nomataj ago kaj reago la reciprokaj fortoj kiujn du
 materiaj punktoj ekzercas unu al la alia, ĉar ne ekzistas motivo por diferencigi kvalite ĉi tiujn fortojn (neniu el ili estas privilegiata, ili agas
-samptempe kaj konstante). La hodiaŭa tendenco en la bonaj traktatoj
+samtempe kaj konstante). La hodiaŭa tendenco en la bonaj traktatoj
 estas nomi ilin *interagoj*.
 
 Kontraŭe, la ligila reago ja estas forto kiu dependas de la aplikata

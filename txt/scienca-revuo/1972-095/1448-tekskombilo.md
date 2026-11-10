@@ -32,8 +32,7 @@ de la kombilo kaj de la varperordigo en ĝi je aspekto de la teksaĵo, ĝian inf
 la influon je la tuta maŝinkapacito.
 
 La teksokombilo similas ordinaran kombilon, konsistante el
-vico da kombileroj, sed ĝi estas ambaŭflanke fermita. Inter la kom
-bilerojn oni tredas varperojn unuope aŭ plurope, regule aŭ malregule, laŭ tio, kiel ĝin preskribas la estonta aspekto de la teksaĵo.
+vico da kombileroj, sed ĝi estas ambaŭflanke fermita. Inter la kombilerojn oni tredas varperojn unuope aŭ plurope, regule aŭ malregule, laŭ tio, kiel ĝin preskribas la estonta aspekto de la teksaĵo.
 
 La teksokombilo tenas la varperojn en la destinita denso, garantias la destinitan larĝon de la teksajo, prezentas la malantaŭan parieton de, la ĵetkanalo, subtenante tiamaniere la trakurantan navedon, alpremas la unuopajn vefterojn al la preta teksaĵo
 kaj ebligas diversdensajn striojn laŭlonge de la teksaĵo.
@@ -69,7 +68,7 @@ mondmilito.
 La kanon por la teksokombiloj oni ĥemie preparadis interesmaniere: En la veturiloj, kiuj transportadis salon tra la tuta Mezeŭropo, sub la salo kuŝis kano, kiu post certa tempo tiamaniere
 gajnis bonajn ecojn por iĝi materialo por teksmaŝinaj kombiloj.
 Post la ĥemia preparo oni purigis la kanon, tranĉis ĝin je pecoj
-tiel longaj, kiel altaj devis esti la kombiloj. La tranĉitan kanon oni fendis per tranĉiloj stelforme fiksitaj al stangeca tenilo. La mombron de la tranĉiloj destinis la dezirata larĝo de la
+tiel longaj, kiel altaj devis esti la kombiloj. La tranĉitan kanon oni fendis per tranĉiloj stelforme fiksitaj al stangeca tenilo. La nombron de la tranĉiloj destinis la dezirata larĝo de la
 kombileroj. Tiujn kombilerojn oni poste laŭbezone prirabotis. La
 preparitajn kombilerojn oni metadis inter duojn de duoncilindraj
 stangetoj (ĉe ambaŭ finoj de la kombileroj), kiujn oni post ĉiu
@@ -83,16 +82,16 @@ ke la kombileroj ne difektu la varperojn, kiuj pasus dum la teksado inter ili.
 Ankaŭ la ŝtalajn kombilerojn oni metadis inter similajn lignajn stangetojn kaj peĉadis la bindaĵon. Tiajn kombilojn oni uzadas ankoraŭ nun, kvankam malofte. Sed la modernaj kombiloj havas
 kombilerojn binditajn inter stangetoj ŝtalaj, ĉirkaŭvolvitaj per
 dratoj, trempataj en fanditan stanon anstataŭ en peĉon. La bindaĵo de ĉiu rando konsistas el kvar duoncilindraj ŝtalvergoj. Ĉe
-iuj kombiloj, precipe la silkindustriaj, anstatŭas la ekstremajn
+iuj kombiloj, precipe la silkindustriaj, anstataŭas la ekstremajn
 vergojn ŝtalbendoj, simple alstanitaj, nevolvitaj per drato. Malofte anstataŭas plumbo la stanon en la bindaĵo.
 
-Memkompreneble oni faras nun teksokombilojn per maŝinoj, kiuĵ
+Memkompreneble oni faras nun teksokombilojn per maŝinoj, kiuj
 la kombilerojn mem tranĉas el proviza drato. Ĉe la ekstremaĵoj de
 la kombilo kun ŝtalaj kombileroj oni metas kolonetojn el platfero, kiuj firmigas la alton kaj sur kiuj oni ĉizostampas la denson kaj longon de la teksokombilo.
 
 La ŝtalaj kombileroj permesas fabriki kombilojn por plej diversaj celoj, laŭ kiuj oni elektas iliajn dimensiojn kaj denson.
 La plej maldensaj kaj fortikaj kombiloj servas por teksaĵoj drataj, plue por tapiŝoj, la plej subtilaj kaj densaj estas destinitaj por silko kaj la ceteraj filament-materialoj. La denso de
-la kombiloj varias inter 10 gis 600 kombileroj en 10 cm. Ilia laboralto inter la bindaĵoj mezuras 4 cm por silko ĝis 22 cm por
+la kombiloj varias inter 10 ĝis 600 kombileroj en 10 cm. Ilia laboralto inter la bindaĵoj mezuras 4 cm por silko ĝis 22 cm por
 pluŝoj, kiujn oni teksas per du navedoj en duetaĝa ĵetkanalo. Iam
 oni elektas pli altan kombilon, por ke la kombileroj pli facile
 cedu antaŭ neregulaĵoj de la ŝpinaĵo. Por tia celo ekzistas ankaŭ

@@ -11,7 +11,7 @@ year: 1973
 keywords: 
     - matematiko
     - Koernik
-source: https://scienca-revuo.info/article/467
+source: https://scienca-revuo.info/article/470
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
 
@@ -284,7 +284,7 @@ Akademio, sur kies pordo estis la surskribo: "Ne eniru tiu kiu ne konas
 geometrion", dank\'al la laboro de analitika metodo por pruvoj de
 geometriaj teoremoj kaj ankaŭ kvalifikon de tiuj ideoj kiel: punkto,
 rekto, ebeno kiel originaj ideoj. Pro malfacilaĵoj kiujn renkontis la
-greka matematiko, post malkovro de neracionalaj nombroj (precipe $\sqrt{2}$
+greka matematiko, post malkovro de neracionalaj nombroj (precipe $\sqrt{2}$)
 disĉiploj de Plato diferencigis sciencon pri nombroj de la kalkulado kaj
 de geometrio de mezurado.
 
@@ -678,7 +678,7 @@ La tuta ĉapitro estas al li necesa por prikalkulo de tendenoj rilatantaj
 al iliaj anguloj kaj finiĝas per la tabulo de tiuj tendenoj. La tabulo
 estas nenio alia nur tabulo de angulsinusoj. La valorojn prezentitajn en
 ĝi sufiĉas dividi per 100 000 por ricevi niajn sinusojn. En la fino de
-tiu ĉi ĉapltro ni legas "Tamen mi opinias, ke sufiĉos, ke nur duonoj de
+tiu ĉi ĉapitro ni legas "Tamen mi opinias, ke sufiĉos, ke nur duonoj de
 tendenoj apogantaj la arkojn duoble pli grandajn en tabulon ni lokos kaj
 per tiu mallongigo fermos en unu kvadranto ĉion, kio al duoncirklo oni
 povas etendi; precipe tial, ke pli ofte estas uzataj en pruvado kaj
@@ -790,7 +790,7 @@ praktika matematiko.
 
 Kiel ni diris supre, la plifaciligoj enkondukitaj de Kopernik ĉe la
 astronomiaj kalkuloj estis impulso por Neper enkonduki logaritmojn.
-Ankoraŭi pli frue Rheticus prikalkulis la tabelojn de sinusoj,
+Ankoraŭ pli frue Rheticus prikalkulis la tabelojn de sinusoj,
 tangentoj, sekantoj ĝis dek kvin frakciciferoj. La malfacilaĵoj ligitaj
 kun solvado de la sferaj trianguloj inklinigis matematikiston [Viète]{.maldense} al
 la preciza prilaboro kaj finfaro de la sfera trigonometrio. Jam oni ne

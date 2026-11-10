@@ -49,7 +49,7 @@ Poluo de riveroj povas esti aŭ konservativa aŭ nekonservativa
 
 ## Baza ekvacio de modelo
 
-Ŝanĝoj en koncetriteco de polua substanco en fluanta rivero estas priskribitaj per ĝenerala rilato:
+Ŝanĝoj en koncentriteco de polua substanco en fluanta rivero estas priskribitaj per ĝenerala rilato:
 
 [(1)]{#e-1} $$\frac{\partial Y}{\partial t} = D_x \frac{\partial^2 Y}{\partial x^2} = U \frac{\partial Y}{\partial x} - Ky$$
 

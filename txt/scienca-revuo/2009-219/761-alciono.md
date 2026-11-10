@@ -6,8 +6,9 @@ magazine: Scienca Revuo
 volume: 219
 year: 2009
 keywords: 
-    - vortaro
-    - pasivo
+    - zoologio
+    - birdo
+    - alciono
 source: https://scienca-revuo.info/article/761
 license: CC BY-ND 4.0 (https://creativecommons.org/licenses/by-nd/4.0/)    
 ---
