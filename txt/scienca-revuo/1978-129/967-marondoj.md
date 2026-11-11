@@ -40,7 +40,7 @@ retnings-effektspektret for bølgjene.
 ### 1. Enkonduko
 
 Ni devas supozi, ke maristoj ĉiam interesiĝis pri ondoj sur la maroj,
-kie ili navigis per siaj ŝipoj. La ŝipkontruistoj evoluigis ŝipojn
+kie ili navigis per siaj ŝipoj. La ŝipkonstruistoj evoluigis ŝipojn
 diverstipajn laŭ bezonoj de uzo kaj sur bazo de sperto, akirita de la
 maristoj.
 
@@ -233,7 +233,7 @@ ondomezurilon ([J. Caldwell]{.maldense} 1955).
 Alia praktikata principo estas, ke oni fabrikas specialan kablon, ĉirkaŭ
 kiu rezistanca drato estas helice muldita en la surfaco de la izolaĵo.
 Interne de la kablo, laŭlonge de la akso, estas ŝtala kerno por
-fortigiki la kablon. La akvo kurtcirkvitas la trempiĝintajn volvojn de
+fortikigi la kablon. La akvo kurtcirkvitas la trempiĝintajn volvojn de
 la kablo.
 
 La mezuriloj de tiuj ĉi diversaj surfaco-specoj povas esti fiksitaj
@@ -374,7 +374,7 @@ de la ondoj:
 
 kie $N_o$ estas nombro da ondoj, kaj $N_s$ nombro da
 ordinatoj (specimenpunktoj). Teorie oni povas montri, ke inter la
-diversaj paramentroj ekzistas certaj korelacioj, kaj kalkulado bazita
+diversaj parametroj ekzistas certaj korelacioj, kaj kalkulado bazita
 sur mezurado pravigas la teorion ([fig. 6](#bld-6)). Konsekvence, la ordinatoj
 estas distribuitaj laŭ la formuloj de [Gauss]{.maldense}, kiuj esprimiĝas (kun
 arbitra variablo $x$:
