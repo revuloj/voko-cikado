@@ -184,7 +184,7 @@ Videblas, ke la bezono de diversaj aminoacidoj malsamas laŭ aĝo kaj sekso. [Ta
 |rizo (polurita)|8,0|5,5|4,5|8,1|3,0|3,3|4,1|1,2|6,0|
 :::
 
-Por la homa organismo la animaldevenaj proteinoj plejofte valoras pli ol la vegetaldevenaj. Nome, en pluraj el inter ĉi-lastaj unu aŭ alia aminoacido troviĝas, en multe pli eta kvanto ol estus bezonata. La esenca aminoacido ĉe estanta en plej malgranda kvanto nomiĝas *limiga aminoacido*, ĉar la organismo povas utiligi la aliajn esencajn aminocidojn nur proporcie al ĝi, do ĝi grave efikas sur la kvaliton, biologian valoron de la proteino. Tiel limige funkcias ekz. la lizino en la tritiko, la metionino en la pizo. Prenante la nutran valoron de la ovoproteino 100%, tiu de la tritiko-proteino estus nur ĉirkaŭ 50%, kaj tiu de la pizoproteino ĉ. 60%.
+Por la homa organismo la animaldevenaj proteinoj plejofte valoras pli ol la vegetaldevenaj. Nome, en pluraj el inter ĉi-lastaj unu aŭ alia aminoacido troviĝas, en multe pli eta kvanto ol estus bezonata. La esenca aminoacido ĉe estanta en plej malgranda kvanto nomiĝas *limiga aminoacido*, ĉar la organismo povas utiligi la aliajn esencajn aminoacidojn nur proporcie al ĝi, do ĝi grave efikas sur la kvaliton, biologian valoron de la proteino. Tiel limige funkcias ekz. la lizino en la tritiko, la metionino en la pizo. Prenante la nutran valoron de la ovoproteino 100%, tiu de la tritiko-proteino estus nur ĉirkaŭ 50%, kaj tiu de la pizoproteino ĉ. 60%.
 
 Por eviti tiun malavantaĝon, la plej simpla metodo estas konsumi mankantajn proteinojn kune kun plenvaloraj, ekz. terpomon kun ovo (optimuma proporcio 64:36), aŭ rizon kun lakto k.t.p., ĉar la 
 "superabundaj" aminoacidoj de plenvaloraj proteinoj
@@ -237,7 +237,7 @@ kun la acido dum 18 - 24 horoj. Per tiu ĉi longa acid-efiko kelkaj
 aminoacidoj (precipe triptofano) difektiĝas. Se gravas, precize
 determini ties kvantojn, oni aplikas paralele ankaŭ aliajn oportunajn
 metodojn. --- La superfluan acidon oni forpelas per ripetita distilado
-en vakuo. La postrestinta seka substanto servas kiel bazmaterialo por la
+en vakuo. La postrestinta seka substanco servas kiel bazmaterialo por la
 analizo.
 
 La analizado de aminoacidoj nuntempe okazas plej ofte per ĥromatografio,
@@ -511,7 +511,7 @@ nutraĵoj.
 **nutradologio**        nutradscienco, branĉo de la       
                         nutraĵo-scienco.                  
 
-**fenilalanino**        aminociado $\ce{C6H5                  esenca
+**fenilalanino**        aminoacido $\ce{C6H5                  esenca
                         CH2NH2COOH}$                 
                                                         
 **izoleŭcino**          aminoacido                            konstru-

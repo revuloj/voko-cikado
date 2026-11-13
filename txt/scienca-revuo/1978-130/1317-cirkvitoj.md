@@ -95,7 +95,7 @@ cirkvito\
 10 - elduktaj dratoj
 
 1.  Tavola cirkvito estas elektra cirkvito, farita el diktavolaj aŭ minctavolaj elementoj, kiuj estas reciproke interkonektitaj per la sistemo de tavola konduktilaro. La tavolo funkcianta kiel tavola konduktilaro aŭ tavola komponanto, estas plej ofte pretigata per: kemia deponado, brulizado de suspensio sur la substrato, senkurenta deponado, metalizado, vakua vapordeponado, katoda disŝpruco kaj serigrafio.
-2.  Tavolaj komponantoj, precipe la tavola rezistilo, estas formataj sur la substrato de HICo per la surmeto de rezistiva suspensio aŭ pasto. La precizan rezistanc-valoron de tavola rezistilo oni alĝustigas per ŝlifado, blovegado de fajna malmola pulvoro aŭ per lasero. Tavola kondensilo estas formata sur la substrato per du konduktilaj tavoloj kaj per intermetita dielektrika tavolo. Tavola bobeno estas fabrikata per tekinologio de tavolaj konduktilaroj rekte sur la substrato de HICo. Minctavola transistoro estas kutime la transistoro de tipo [FET]{.maldense}, produktata per la teknologio de minctavoloj.
+2.  Tavolaj komponantoj, precipe la tavola rezistilo, estas formataj sur la substrato de HICo per la surmeto de rezistiva suspensio aŭ pasto. La precizan rezistanc-valoron de tavola rezistilo oni alĝustigas per ŝlifado, blovegado de fajna malmola pulvoro aŭ per lasero. Tavola kondensilo estas formata sur la substrato per du konduktilaj tavoloj kaj per intermetita dielektrika tavolo. Tavola bobeno estas fabrikata per teknologio de tavolaj konduktilaroj rekte sur la substrato de HICo. Minctavola transistoro estas kutime la transistoro de tipo [FET]{.maldense}, produktata per la teknologio de minctavoloj.
 3.  **Ĉipoj** estas aktivaj aŭ pasivaj cirkvit-elementoj, kutime neenskatoligitaj, destinitaj por muntado al HICo. Uzataj estas precipe ĉipaj transistoroj, rezistiloj, kondensiloj, monolitaj ICoj. Por ilia muntado oni uzas lutadon, ultrasonan aŭ termopreman veldadon, gluadon per elektre konduktiva gluaĵo aŭ mastiko.
 
 ![](1317-cirkvitoj_bld-2.png){#bld-2}\
@@ -113,7 +113,7 @@ kaj reguleblaj humido kaj temperaturo de aero. Estas necese prikonsideri
 la fakton, ke ĉe la HICoj malkreskas la dimensioj de unuopaj elementoj
 ĝis kelkaj nanometroj kaj sekve de tio la difektiĝo povas esti kaŭzata
 per la maska efekto de polvaj eroj sedimentiĝintaj sur fotorezistalon aŭ
-sur produktan maskon ĉe eksponado k.s.. La tehnologio de la fabrikado de
+sur produktan maskon ĉe eksponado k.s.. La teknologio de la fabrikado de
 HICoj estas tre ekzakta, ĝi postulas altan specialiĝon kaj zorgemon de
 laboristoj kaj ankaŭ precize funkciantajn maŝinojn kaj aparatojn. La
 plenumado de teknologia disciplino kaj de labor-higienaj principoj dum
@@ -142,7 +142,7 @@ helpe de koordinatografo (direktata ofte per komputoro) kaj per deigo de
 opaka materialo. Por atingi deziratan precizecon de estonta ICo oni
 pretigas la preponaĵon en taŭga pligrandigo, 25:1 ĝis 125:1. Poste
 sekvas pretigo de la reduktita preponaĵo en dezirata dimensio. Laŭ la
-reduktita preponaĵo estas fabrikata aŭ ŝablono por la telinologio de
+reduktita preponaĵo estas fabrikata aŭ ŝablono por la teknologio de
 minctavoloj, aŭ serigrafia ŝablono por la teknologio de diktavoloj. Ĝis
 nun estas la teknologioj por minctavoloj kaj diktavoloj preskaŭ
 ekvivalentaj. Plej grava diferenco estas en la metodoj de surmeto de
