@@ -71,7 +71,7 @@ per Tf, aparte la medolo por maturigo de la antaŭaj eritropoezaj ĉeloj. Tre ma
 da fero estas filtrita de la renaj glomeruloj; tiu fero estas tute resorbita laŭ la nefro [2].
 
 
-Kiam fero estas en hema formo, ĝin ensorbas la enterocitoj kaj la hemo-oksgenazo[^3],
+Kiam fero estas en hema formo, ĝin ensorbas la enterocitoj kaj la hemo-oksigenazo[^3],
 kies ĉefa izoformo estas hemo-oksigenazo-1 (HO-1), ĝin liberigas el la hemo 2. La ensorbo de la hemo estas pli efika ol la ensorbo de la neorganika fero, sed la meĥanismo
 estas malbone konata [[2](#b-2)] ([bildo 2](#bld-2)).
 
@@ -79,7 +79,7 @@ estas malbone konata [[2](#b-2)] ([bildo 2](#bld-2)).
 
 [^2]: laŭ esperanta adapto de EC 1.16.3.1. Feroksidazo. Reakcio katalizata: $\ce{4 Fe(II) + 4 H+ + O2 -> 4 Fe(III) + 2 H2O}$.
 
-[^3]: laŭ esperanta adapto de EC 1.14.99.3. Hemo-oksgenazo. Reakcio katalizata: $\ce{hemo + 3 AH2 + 3 O2 -> biliverdino + Fe2+ + CO + 3 A + 3 H2O}$.
+[^3]: laŭ esperanta adapto de EC 1.14.99.3. Hemo-oksigenazo. Reakcio katalizata: $\ce{hemo + 3 AH2 + 3 O2 -> biliverdino + Fe2+ + CO + 3 A + 3 H2O}$.
 
 
 ## 4 Sistema regado de intesta ensorbo

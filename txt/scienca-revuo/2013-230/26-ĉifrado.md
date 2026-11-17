@@ -72,7 +72,7 @@ komunikkanalon tre fidindan por interkonsenti pri la komuna ŝlosilo. Tian oni
 kutime ne havas.
 - La komuna ŝlosilo taŭgas nur por la komunikparo Anjo kaj Boĉjo. Se Anjo volas skribi mesaĝon al – ni diru – Conjo, Anjo kaj Conjo devas interkonsenti pri
 komuna ŝlosilo kaj Anjo devas stoki ĉiujn unuopajn ŝlosilojn, pri kiu ŝi interkonsentis kun siaj unuopaj komunikpartneroj. Kaj ŝi devas zorge atenti pri tiu
-ŝlosilaro ke neniu atakanto – eble nerimarkite – kopias unu el la ŝlosi loj. Se ŝi
+ŝlosilaro ke neniu atakanto – eble nerimarkite – kopias unu el la ŝlosiloj. Se ŝi
 perdas unu ŝlosilon, ŝi ne plu povas malĉifri la mesaĝojn de la koncerna persono.
 
 ![bildo 2](26-ĉifrado_bld-2.png){#bld-2}
@@ -305,9 +305,9 @@ estas ĉifrataj. Ŝlosilo por malĉifri ilin estas la pasvorto, kiun la uzanto u
 en la komputilon. Do eĉ se iu ŝtelas vian komputilon, la datumoj restas sekretaj.
 
 Ankoraŭ ne facilas ĉifri datumojn stokitajn aliloke, sur la tiel nomata nubo. Nuntempe multajn datumojn siajn oni alŝutas al iaj serviloj por stoki ilin tie kaj aliri ilin de
-ĉie ajn. Tiaj datumoj kutime ne estas ĉifritaj kaj do legebla por ĉiu, al kiu la posendanto
+ĉie ajn. Tiaj datumoj kutime ne estas ĉifritaj kaj do legebla por ĉiu, al kiu la posedanto
 de la servilo donas aliron. Oni ankaŭ konsciu ke oni ne fidinde povas viŝi kaj detrui
-tiajn datumojn, ĉar verŝajne la posendanto de la servilo konservas rezervajn kopiojn.
+tiajn datumojn, ĉar verŝajne la posedanto de la servilo konservas rezervajn kopiojn.
 Taŭga solvo por tio estus, alŝuti nur la ĉifritajn datumojn kaj konservi la ŝlosilon nur
 sur la propraj komputiloj. Bedaŭrinde por tio metodo ankoraŭ ne ekzistas facile uzebla programaĵo. Alternativo estas starigi siajn proprajn nubajn servilojn. Ĉar ne ĉiuj
 homoj havas la fakajn konojn por fari tion, estas pripensinda eblo kunigi grupon de
