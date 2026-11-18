@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="200" height="200"
+     viewBox="0 0 200 200">
+
+ <style>
+    text {
+      font-family: "Arial Narrow", "Helvetica Condensed", sans-serif;
+      font-stretch: condensed;
+      font-style: italic;
+    }
+  </style>
+
+  <defs>
+    <marker id="arrow"
+            markerWidth="8"
+            markerHeight="8"
+            refX="6"
+            refY="5"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <path d="M2,5 L0,2 L8,5 L0,8 Z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- kadro -->
+  <path d="M55,25 V10 H155 V25"
+        fill="none" stroke="black" stroke-width="0.6"/>
+  <path d="M55,45 V170 H155 V45"
+        fill="none" stroke="black" stroke-width="0.6"/>
+
+  <!-- sagoj supre maldekstre dekstren -->
+  <path d="M15,32 H30"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M30,32 H40"
+        fill="none" stroke="black" stroke-width="1"/>
+
+  <path d="M70,32 H83"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M80,32 H90"
+        fill="none" stroke="black" stroke-width="1"/>
+
+  <path d="M120,32 H133"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M130,32 H140"
+        fill="none" stroke="black" stroke-width="1"/>
+
+  <path d="M170,35 H190"
+        fill="none" stroke="black" stroke-width="1.2"
+        marker-end="url(#arrow)"/>
+
+  <!-- sagoj P, P0 -->  
+  <path d="M15,133 H40"
+        fill="none" stroke="black" stroke-width="1.2"
+        marker-end="url(#arrow)"/>
+  <path d="M30,133 H90"
+        fill="none" stroke="black" stroke-width="1.2"/>
+  <text x="30" y="125" text-anchor="middle"
+        font-size="12">P</text>
+
+  <path d="M105,140 V190"
+        fill="none" stroke="black" stroke-width="1.2"
+        marker-end="url(#arrow)"/>
+  <text x="95" y="182" text-anchor="middle"
+        font-size="12">P₀</text>
+  <path d="M120,133 H135 V40 H140"
+        fill="none" stroke="black" stroke-width="1.2"/>
+
+  <!-- sagoj meze cirkulaj -->  
+  <path d="M120,40 H128 V60"
+        fill="none" stroke="black" stroke-width="0.8"
+        marker-end="url(#arrow)"/>
+  <path d="M128,60 V76 H120"
+        fill="none" stroke="black" stroke-width="0.8"/>
+  <path d="M120,83 H128 V108"
+        fill="none" stroke="black" stroke-width="0.8"/>
+  <path d="M120,126 H128 V103 "
+        fill="none" stroke="black" stroke-width="0.8"        
+        marker-end="url(#arrow)"/>
+  <path d="M90,83 H80 V108"
+        fill="none" stroke="black" stroke-width="0.8"
+        marker-end="url(#arrow)"/>
+  <path d="M80,108 V126 H90"
+        fill="none" stroke="black" stroke-width="0.8"/>
+  <path d="M90,76 H80 V53"
+        fill="none" stroke="black" stroke-width="0.8"
+        marker-end="url(#arrow)"/>
+  <path d="M80,53 V40 H90"
+        fill="none" stroke="black" stroke-width="0.8"/>
+
+  <!-- nodoj -->
+  <rect x="40" y="25" width="30" height="20"
+        rx="5" fill="none" stroke="black"/>
+  <text x="55" y="39" text-anchor="middle"
+        font-size="12">Ric.</text>
+
+  <rect x="90" y="25" width="30"    height="20"
+        rx="5" fill="none" stroke="black"/>
+  <text x="105" y="39" text-anchor="middle"
+        font-size="12">Kor.</text>
+
+  <rect x="140" y="25" width="30" height="20"
+        rx="5" fill="none" stroke="black"/>
+  <text x="155" y="39" text-anchor="middle"
+        font-size="12">Ef.</text>
+
+  <rect x="90" y="70" width="30"    height="20"
+        rx="5" fill="none" stroke="black"/>    
+  <text x="105" y="84" text-anchor="middle"
+        font-size="12">Hom.</text>
+
+  <rect x="90" y="120" width="30"    height="20"
+        rx="5" fill="none" stroke="black"/>        
+  <text x="105" y="134" text-anchor="middle"
+        font-size="12">Ak.</text>
+
+
+
+
+</svg>

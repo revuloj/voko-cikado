@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="230" height="140"
+     viewBox="0 0 230 140">
+
+  <defs>
+    <marker id="arrow"
+            markerWidth="8"
+            markerHeight="8"
+            refX="6"
+            refY="5"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <path d="M2,5 L0,2 L8,5 L0,8 Z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- nodoj -->
+  <rect x="90" y="25" width="50"    height="20"
+        rx="5" fill="none" stroke="black"/>        
+
+  <rect x="20" y="85" width="50" height="20"
+        rx="5" fill="none" stroke="black"/>
+  <rect x="90" y="85" width="50"    height="20"
+        rx="5" fill="none" stroke="black"/>
+  <rect x="160" y="85" width="50" height="20"
+        rx="5" fill="none" stroke="black"/>
+
+  <!-- sago de supre malsupren  (dekstre) -->
+  <path d="M140,35 H226 V93"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M226,95 H210"
+        fill="none" stroke="black" stroke-width="1"/>
+        
+  <!-- sagoj malsupre dekstren -->
+  <path d="M160,95 H142"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M90,95 H72"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <!-- sago de malsupre malsupren (maldekstre) -->
+  <path d="M20,95 H4 V37"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <path d="M4,35 H90"
+        fill="none" stroke="black" stroke-width="1"/>
+
+</svg>

@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     width="180" height="170"
+     viewBox="20 0 200 170">
+
+  <defs>
+    <marker id="arrow"
+            markerWidth="8"
+            markerHeight="8"
+            refX="6"
+            refY="5"
+            orient="auto"
+            markerUnits="strokeWidth">
+      <path d="M2,5 L0,2 L8,5 L0,8 Z" fill="black"/>
+    </marker>
+  </defs>
+
+  <!-- nodoj -->
+  <rect x="90" y="25" width="50" height="30"
+        rx="5" fill="none" stroke="black"/>
+  <text x="115" y="45" text-anchor="middle"
+        font-size="16">X</text>
+
+  <rect x="90" y="85" width="50" height="30"
+        rx="5" fill="none" stroke="black"/>
+  <text x="115" y="105" text-anchor="middle"
+        font-size="16">Y</text>
+
+  <!-- sago de Y al X (dekstre) -->
+  <path d="M140,100 H180 V42"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+
+  <path d="M180,40 H140"
+        fill="none" stroke="black" stroke-width="1"/>
+
+  <!-- sago de X al Y (maldekstre) -->
+  <path d="M90,40 H50 V98"
+        fill="none" stroke="black" stroke-width="1"
+        marker-end="url(#arrow)"/>
+  <path d="M50,100 H90"
+        fill="none" stroke="black" stroke-width="1"/>
+
+</svg>
