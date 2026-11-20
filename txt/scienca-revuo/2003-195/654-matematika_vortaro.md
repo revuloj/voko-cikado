@@ -1,5 +1,5 @@
 ---
-title: Bavant: Matematika vortaro kaj oklingva leksikono
+title: "Bavant: Matematika vortaro kaj oklingva leksikono"
 subtitle: recenzo
 author: O. Haszpra
 lang: eo

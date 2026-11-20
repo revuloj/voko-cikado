@@ -88,7 +88,14 @@ read_vrk_files(Vrk,Struct,[File|More],No) :-
     debug(tekstaro(dos),'[~q.~d] ~q',[Vrk,No,File]),
     % analizu la tekston
     Struct =.. [Pred|Dividoj],
-    call(Pred,Vrk:No,_Titolo,File,Dividoj),
+    catch(
+        call(Pred,Vrk:No,_Titolo,File,Dividoj),
+        Exc,
+        (
+            format('ERARO: ~q: ~q~n',[File,Exc]),
+            debug(tekstaro(vrk,'ERARO: ~q: ~q',[File,Exc]))
+        )
+    ),
     % assert(txt(Vrk:No,Titolo,File)),
     % legu pliaj dosierojn de la verko
     No_1 is No+1,
