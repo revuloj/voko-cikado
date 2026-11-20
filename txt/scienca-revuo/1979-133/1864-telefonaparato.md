@@ -93,7 +93,7 @@ estas malfermita, la baterio preskaŭ ne malŝargiĝas. Se nia aparato sonorigas
 sonorilo do troviĝas en kurta cirkvito kaj ne konsumas energion. Sed kiam
 ni ricevas sonoradon, tiam en la baza stato nia induktoro troviĝas en kurta
 cirkvito por ne konsumi energion. Post sonorado ambaŭ telefonantoj levas
-la telefonilon kaj la telefonilaj kontaktiloj fermiĝas (al la blankaj kontaktiloj). Tiam la kontakto ĉe la nigra kontaktilo ĉesas, la sonorilo kaj la induktoro apartiĝas kiel elementoj nun superfluaj. Fermiĝas la cirkvito de mikrofno kaj ambaŭ telefonantoj povas paroli.
+la telefonilon kaj la telefonilaj kontaktiloj fermiĝas (al la blankaj kontaktiloj). Tiam la kontakto ĉe la nigra kontaktilo ĉesas, la sonorilo kaj la induktoro apartiĝas kiel elementoj nun superfluaj. Fermiĝas la cirkvito de mikrofono kaj ambaŭ telefonantoj povas paroli.
 
 La CB-aparato ne bezonas induktoron, ĝi simple signalas per levo de telefonilo. Tiam la kontaktiloj fermiĝas, la kurento el la centrala baterio povas
 flui tra la aparato (tra unu el la bobenoj, mikrofono); tion la centralo rimarkas kaj baldaŭ faras parol-kontakton. En ĉi tiu aparato la bobenoj ankaŭ reduktas la flankaŭdon, ĉar la aŭdilo troviĝas en la cirkvito de ponto laŭ
