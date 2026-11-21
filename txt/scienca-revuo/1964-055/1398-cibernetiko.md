@@ -33,7 +33,7 @@ pri regado kaj strukturo kaj klarigitaj la diferencoj inter aŭtomatoj de
 unu flanko kaj aŭtonomoj de la alia. Estas prezentita la koncepto de la
 cibernetika skemo de organismo. Sur la bazo de elementaj procezoj de
 la egaligado de potencialoj estas klarigitaj kvalitaj kaj kvantaj faktoroj
-de la egaligado de viviprocezo, kiu estas konsiderata kiel procezo de la
+de la egaligado de vivprocezo, kiu estas konsiderata kiel procezo de la
 potenco en funkcio de tempo. La aŭtoro eksplikas kalkajn problemojn,
 ligitajn kun energetikaj kaj informaj faktoroj en la konduto de
 organismo
@@ -62,9 +62,9 @@ lingvo en alian, komponi muzikajn verkojn, ŝakludi ktp, tiuspeca apartigo perdi
 Cirkonstanco, ke ĉiun procezon de regado eblas trakti kiel la
 trakuron de informoj, permesas klarigi la diferencon inter aŭtomato
 kaj cibernetika maŝino. Servu nin pro tia la sekvonta figura ekzemplo.
-Surozu ke iu ordonis al sia subulo aĉeti certan varon en la certa
+Supozu ke iu ordonis al sia subulo aĉeti certan varon en la certa
 butiko. En tiu ĉi kazo plenumanto disponas pri ĉiuj necesaj informoj;
-plenumante ricevitan taskon li agas kiel aŭtomato. Se taman aŭdiĝus
+plenumante ricevitan taskon li agas kiel aŭtomato. Se tamen aŭdiĝus
 la ordono ke li devu aĉeti certan varon je plej malgranda prezo, tiam
 la ricevitaj informoj estus nekompletaj. La plenumanto mem devus
 akiri la mankantajn informojn, nome li devus viziti ĉiujn butikojn,
@@ -85,7 +85,7 @@ la organismo kvazaŭ ĝi estus iuspeca mekanismo, trompis ekspertojn
 
 ## 2. Regado
 
-Kiel eni scias, la cibernetiko estas difnita kiel scienco pri regado.
+Kiel eni scias, la cibernetiko estas difinita kiel scienco pri regado.
 Vicsekve, oni povas difini la regadon kiel dezirindan influadon sur
 laŭvolajn fenomenojn. El la cibernetika vidpunkto la regado estas ekzemple la regulado de rapideco en teknikaj aranĝoj, agado de glandoj en
 organismo, ŝanĝoj de prezoj en ekonomio ktp.
@@ -100,7 +100,7 @@ tiam ne nure X inluas Y-on, sed ankaŭ Y influas X-on (fig. [1](#bld-1)).
 fig. 1. Ĝenerala skemo de la turna koplado
 
 Ne nure ŝoforo influas aŭtomobilon, sed ankaŭ
-aŭtomobilo inflaus ŝoforon. Kiam elektra forno
+aŭtomobilo influas ŝoforon. Kiam elektra forno
 estas regata per la regulilo de temperaturo, tiam
 ankaŭ bone oni povas diri ke la regulilo de
 temperaturo estas regata per la forno. Se ni
@@ -112,10 +112,10 @@ cibernetikuloj. Oni povas reprezenti la sistemon de regado ĝenerale
 kiel sur la fig. [2](#bld-2). 
 
 ![](1398-cibernetiko_bld-2.svg){#bld-2}\
-fig. 2. Sistemo de gerado en cibernetika koncepto
+fig. 2. Sistemo de regado en cibernetika koncepto
 
 Ŝanĝoj en la regata objekto estas malkovrataj per
-la ricevilo kaj taksataj en la korelatilo, kio sekvigas ifluon de la
+la ricevilo kaj taksataj en la korelatilo, kio sekvigas influon de la
 efektivigilo sur la regatan objekton
 kaj tiamaniere fermiĝas la procezo
 de la regado. Ekzemplojn de tia
@@ -168,9 +168,8 @@ paroli pri la "kvanto de la strukturo". Ĝi povas esti surprizanta, sed
 eble nur kaŭze de eksterordinareco de la dirformo. En realeco la
 scienca problematiko en la plej granda grado rilatis la kvantecan pritakson de la strukturo, kvankam pere de alia terminologio, konforme
 al la vidpunkto, el kiu la strukturo estas pritaksata. Tiaj konceptoj
-
-kiel efiko, efikivo, kreterio de la simileco, kvociento de la inteligenteco
-profiteco, rilata pliĝo de la loĝantaro ktp. estas nur formoj de la
+kiel efiko, efikivo, kriterio de la simileco, kvociento de la inteligenteco
+profiteco, rilata pliiĝo de la loĝantaro ktp. estas nur formoj de la
 kvanta pritakso de la strukturo.
 
 Se oni enkondukos en la sistemon certan energikvanton — konforme al la leĝoj de energikonservado -- ĝi povas esti nek malpliigita nek
@@ -188,9 +187,9 @@ Anstataŭ memregadi maŝinojn, homo faciligas al si problemon kaj konstruas maŝ
 
 La esprimo "memregata maŝino" postulas certan komentarion. La formo ekipita per la regegulilo de temperaturo estas memregata nur tiom,
 ke ĝi subtenas por si mem la temperaturon fiksiton sur la regulilo, sed
-kiu starigas tiun ĉi temperaturon sur la regulilo? Faras tion homo, uitliganta la fornon. Oni eblas verdire konstrui memstariĝantan regulilon, alivorte -- dependigi aŭtomatan starigon de la temperaturo en regulilo de ia alia fizika grando, tamen tio ĉi signifas enkondukon de aldona organo, kiun laŭvice devos instali homo ktp. Kiel oni vidas, povas esti maŝinoj
+kiu starigas tiun ĉi temperaturon sur la regulilo? Faras tion homo, utiliganta la fornon. Oni eblas verdire konstrui memstariĝantan regulilon, alivorte -- dependigi aŭtomatan starigon de la temperaturo en regulilo de ia alia fizika grando, tamen tio ĉi signifas enkondukon de aldona organo, kiun laŭvice devos instali homo ktp. Kiel oni vidas, povas esti maŝinoj
 de diveraj gradoj da memregado, do -- pri pli malgranda aŭ pli granda partopreno de la homo. Maŝinoj de tiu speco estas *aŭtomatoj*.
-La plej alta grado de meregeco aperas en la sistemoj, kiuj regiĝas pro sia afero, t.e. zorgas ekskluzive pri la propra sekureco kaj evoluo. Maŝinoj de tia speco ja ne estas ankoraŭ konstruataj, tamen ekzistas organikaj memstaraj strukturoj kaj nome *organismoj*.
+La plej alta grado de memregeco aperas en la sistemoj, kiuj regiĝas pro sia afero, t.e. zorgas ekskluzive pri la propra sekureco kaj evoluo. Maŝinoj de tia speco ja ne estas ankoraŭ konstruataj, tamen ekzistas organikaj memstaraj strukturoj kaj nome *organismoj*.
 
 ## 4. Organismo kiel memstara strukturo 
 
@@ -204,7 +203,7 @@ Fig. 3. Cibernetika skemo de organismo
 Traktante organismon kiel regantan sistemon kaj medion en kiu organismo estadas, kiel regatan sistemon kaj konsiderante la skemon
 montritan sur la fig. [2](#bld-2), oni povas distingi en la organismo *informan vojon*, kiu konsistas
 el: riceviloj (sentumaj organoj), korelatilo (cerbo) kaj efektivigilo (movaj muskoloj). Tuj kiam la reago de
-medio sur organizmon aperas en la
+medio sur organismon aperas en la
 formo de impulsoj sur la eniro de la
 informa vojo, tiam la reago de la
 organismo sur la medion aperas en 
@@ -297,7 +296,7 @@ tio estas bezonaj konvenaj organoj kaj ĉar organismo estas la strukturo
 memstara, do ĝi devas tiajn ĉi organojn konstrui memstare. Oni bezonas
 ankaŭ konsideri cirkonstancon ke ricevata energio devas posedi adekvatan formon. Por ke oni povu transformi la ricevatan energion en la
 bezonatan formon, organismo devas ankaŭ konstrui por si mem konvenajn organojn. La evoluado de organismo estas do nepreco de la bataloj 
-de organismo kontraŭ la propea malorganizaĵo.
+de organismo kontraŭ la propra malorganizaĵo.
 
 Rapido de la evoluado de organismo estiĝas per tio ke la plimalbonigo de la eco de organika substanco estas por organismo perturbo;
 al la forigado de tiu ĉi plimalbonigo celas la homeostato, kiu evoluigas 
@@ -370,7 +369,7 @@ ni ricevas por la maksimumo de tiu ĉi funkcio la kondiĉon
 
 [(8)]{.fno #e-8} $\displaystyle \mathrm{e}^{-Bt_m}=0{,}5$
 
-kie: $t_m$ esas tempo en kiu estiĝas la maksimuma potenco de organismo. Enkondukante la esprimon ([8](#e-8)) en la esprimon ([6](#e-6)) ni ricevas la esprimon por la maksimuma potenco
+kie: $t_m$ estas tempo en kiu estiĝas la maksimuma potenco de organismo. Enkondukante la esprimon ([8](#e-8)) en la esprimon ([6](#e-6)) ni ricevas la esprimon por la maksimuma potenco
 
 [(9)]{.fno #e-9} $\displaystyle P_m=\frac{va_0c_z}{4}$
 
@@ -379,7 +378,7 @@ al kiu respondas la kurba $P$ sur la fig. [5](#bld-5).
 [(10)]{.fno #e-10} $\displaystyle P=4P_m \mathrm{e}^{-Bt}(1-\mathrm{e}^{-Bt})$
 
 Sur la bazo de la trakuro de ĉi tiu kurbo facile estas konstati, ke la
-kondiĉio $t_1:t_2 = 1 : 3{,}5$ estas plenumita ĉe la potenco $= 0{,}82 P_m$. Do
+kondiĉo $t_1:t_2 = 1 : 3{,}5$ estas plenumita ĉe la potenco $= 0{,}82 P_m$. Do
 la potenco de homa organismo devas esti egala plie ol 82% de sia maksimuma potenco, por ke organismo povu kapabli por la reproduktado.
 En la periodo de $t_1 = 20{...}25$ jaroj ĝis la $t_2 = 40{...}50$ jaroj la potenco de organismo transpaŝas eĉ 95% de sia maksimumo. Kiel oni vidas
 la maturo(?) postulas de la organismo egan potencon koncerne la plimultiĝado. Krom tio la cirkonstanco, ke la potenco de homa organismo dum
@@ -390,7 +389,7 @@ demando, ĉu la vivo, eĉ kiam la vivpotenco de organismo kontinue malgrandiĝas
 
 La respondo al tiu ĉi demando estas facila, se oni konsideras estiĝadon de la neaga vivpotenco de organismo. Oni povas akcepti ke la
 neaga vivpotenco estas proporcia al la kvanto de substanco organika $c$.
-La fiziologio ankaŭ tion ĉi konfirmas; estas konstatite ke la neaga vivpotenco de organismo je 1 kg egalas ĉirkaŭ 1 kcal/h, do la neaga vivpotenco de organimso je ĉirkaŭ 70 kg egalas ĉirkaŭ *P*~0~ = 70 kcal/h. Por
+La fiziologio ankaŭ tion ĉi konfirmas; estas konstatite ke la neaga vivpotenco de organismo je 1 kg egalas ĉirkaŭ 1 kcal/h, do la neaga vivpotenco de organismo je ĉirkaŭ 70 kg egalas ĉirkaŭ *P*~0~ = 70 kcal/h. Por
 komparo aldonu ke la totala vivpotenco de homa matura organismo
 estas ĉirkaŭ *P* = 125 kcal/h (se oni akceptas ke por la nutrado de organismo oni bezonu ĉirkaŭ 3000 kcal je tagnokto).
 
@@ -442,7 +441,7 @@ $t_z$. Analizo de cititaj esprimoj permesas konstati ke tiu ĉi supozo estas
 ĝusta, ne rilate al la valoro $t$, sed al la valoro $Bt$. Eblas pruvi
 senkonsidere trakuron de la kurbo $P = f(Bt)$, punkto de ĝia intersekco kun la kurbo $P = f(Bt)$ koincidas kun la sama valoro $Bt_z$
 
-Malgraŭ tio, la valorao $t_z$ estos pli granda, ĉar la valoro $B$ estas
+Malgraŭ tio, la valoro $t_z$ estos pli granda, ĉar la valoro $B$ estas
 pli malgranda, pri kio oni povas sin konvinki konsiderante la rilaton
 $t_1:t_2$ (fig. [4b](#bld-4)) ĉe modifita (koncerne la haltigadon de evoluo), trakuro de
 la kurbo de totala potenco $P$.
@@ -473,7 +472,7 @@ neadon de la determinismo.
 
 Personoj kutimiĝantaj al la dualisma komprenado de la homo, t.e. 
 al diferencigo de la "korpo" kaj "spirito" estas incitiĝemaj pro la nura
-fizika interpreto de la konduto de organismo. Kiel argumento oni starigas en tiu ĉi kazo, itner aliaj, la ekzemplon, ke multaj scienculoj atingas la kulminojn de sia agado malfruaĝe, je multe malfrue ol tio ĉi
+fizika interpreto de la konduto de organismo. Kiel argumento oni starigas en tiu ĉi kazo, inter aliaj, la ekzemplon, ke multaj scienculoj atingas la kulminojn de sia agado malfruaĝe, je multe malfrue ol tio ĉi
 ??? el la pozicio de maksimuma potenco sur la kurbo de la potenctrakuro de organismo. Tia motivigo estas rezultato de miskompreno.
 Ĉiu travivaĵo enkondukas informojn registratajn en la korelatilo, dank'
 al ĉio pligrandiĝas la “provizo de informoj registritaj en la korelatilo,
@@ -488,6 +487,6 @@ io "nemateriala" (tio signifas "nefizika"); sur tiu ĉi fono estiĝis koncepto d
 Tiuj sentas sin kvazaŭ konfuzitaj per la traktado de homo kiel
 cibernetika sistemo kaj esprimas timojn ke tio ĉi eblas konduki al la.
 malriĉigo de homaj travivaĵoj. Tiuj ĉi timoj estas tute senbazaj. Homo
-tiel restas kiel restadis, sendepende de tio kiel oni lin inetrpretas, simile kiel la eltrovo de [Kopernik]{.maldense} ne ĉesigis la sunleviĝon kaj sunsubiron nek senigis ilin je poezieco. Cibernetikaj konsideradoj povas
+tiel restas kiel restadis, sendepende de tio kiel oni lin interpretas, simile kiel la eltrovo de [Kopernik]{.maldense} ne ĉesigis la sunleviĝon kaj sunsubiron nek senigis ilin je poezieco. Cibernetikaj konsideradoj povas
 alporti nur utilon kontribuante al la pli bona kompreno de la homa
 naturo.
