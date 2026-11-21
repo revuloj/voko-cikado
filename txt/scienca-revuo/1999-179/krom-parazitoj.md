@@ -80,7 +80,7 @@ ekskretoria kaj seksa sistemoj. Mankas sangovazoj kaj specialaj
 spirorganoj. Platvermoj estas primare hermafroditaj; nur kelkaj specioj
 estas unuseksaj kun estiĝo de masklaj kaj femalaj individuoj (ekz.
 sĥistosomoj). Dum inter la trematoda grupo troviĝas *kaj*
-eksteraj *kaj* internkorpaj parazitoj, la ĉestodoj vivas
+eksteraj *kaj* internkorpaj parazitoj, la cestodoj vivas
 senescepte endoparazite en la gastiganta korpo.
 
 Plua alloga stimulo por pristudado de la parazita mondo estas la unika
@@ -100,7 +100,7 @@ kaj porkaĵa tenioj tiel ankaŭ por la sĥistosomoj la homo estas la
 ununura fina gastiganto.
 
 La plej grava kaŭzo por studi la vivociklojn de parazitoj tamen estas
-kaj restas, ke speciale ĉe helmintaj rnalsanoj, kiuj endanĝerigas la
+kaj restas, ke speciale ĉe helmintaj malsanoj, kiuj endanĝerigas la
 homon, validas la ĝenerala komunpopola eldiro, ke "ju pli bone estas
 konata la malamiko, des pli bone li povas esti kontraŭbatalata". Tiu ĉi
 libro do celas, doni al studento kaj leganto enkondukan konon de la
@@ -372,7 +372,7 @@ nervosistemo, hepato kaj pulmo. Infektiĝo de ventrikloj aŭ ĉebazaj
 cisternoj de cerbo povas disvolviĝi al ĉirkaŭ 20 centimetroj grandaj
 misformiĝoj de cisticerko. Ĉe homa infektito tio estas konata kiel
 cisticerko racemoza ([Cysticercus racemosus]{.maldense}) kaj preskaŭ
-ekzkluzive kaŭzita de la porkaĵa teniolarvo.
+ekskluzive kaŭzita de la porkaĵa teniolarvo.
 
 La cisticerkoj de [Taenia saginata]{.maldense} restas infektaj ĝis 9 monatojn, tiuj
 de [T. solium]{.maldense} ĝis 6 jarojn. La homo infektas sin per ingesto de nesufiĉe
@@ -426,7 +426,7 @@ Siberujo, la Manĝurio kaj en Japanujo. En la norda Ameriko la malsano
 okazas en la nordusona marebenaĵo kaj en Kanado. La nombro de infektitaj
 personoj estis meze de la 20a jarcento (ĉirkaŭ 1950) pli ol dek
 milionoj. Sed tiu nombro certe malplialtiĝis pro la kreskanta konsumado
-de malaltglaciigita fíŝaĵo.
+de malaltglaciigita fiŝaĵo.
 
 ##### Evoluciklo kaj epidemiologio (Bildo [2](#bld-2))
 
@@ -639,8 +639,8 @@ senkapsule en la vitreo aŭ en la antaŭa okulĉambro.
 
 ###### Cerba cisticerkozo
 okazigas diversajn klinikajn simptomojn laŭ la lokiĝo de la cisticerko.
-Ĉe la duono de la kazoj ekestas epilepsio, kiu montriĝas kelkaj
-sernajnoj post la infektiĝo. Dum lokalizado de 1a cisticerkoj en la
+Ĉe la duono de la kazoj ekestas epilepsio, kiu montriĝas kelkajn
+semajnojn post la infektiĝo. Dum lokalizado de 1a cisticerkoj en la
 akvodukta regiono de la cerbo povas, kaŭze de okluzio, estiĝi interna
 hidrocefalo kaj simptomoj de cerba tumoro.
 
@@ -670,7 +670,7 @@ komputiltomografia ekzameno.
 
 ##### Difino
 
-Iniekto de la homo per la larvaj stadioj de la eĥinokoka cestodo. La
+Infekto de la homo per la larvaj stadioj de la eĥinokoka cestodo. La
 adoltaj vermoj estas parazitoj de karnovoruloj kaj estas ricevintaj
 (bedaŭrinde) aliajn nomojn ol iliaj larvostadioj ĉe la homo, nome
 
@@ -679,7 +679,7 @@ adoltaj vermoj estas parazitoj de karnovoruloj kaj estas ricevintaj
 |[Echinococcus **granulosus**]{.maldense} (eĥinokoko granuloza)     |[Echinococcus **cysticus**]{.maldense} (eĥinokoko cista)|
 |[Echinococcus **multilocularis**]{.maldense} (eĥinokoko multloka)  |[Echinococcus **alveolaris**]{.maldense} (eĥinokoko alveola)|
 
-Ĉar ambaŭ infektoj difcrenciĝas koncerne epidemiologion, distribuon kaj
+Ĉar ambaŭ infektoj diferenciĝas koncerne epidemiologion, distribuon kaj
 prognozon ili estas aparte pritraktotaj.
 
 #### a) Cista eĥinokokozo
@@ -765,7 +765,7 @@ cestodo (1) dum daŭro de ĉirkaŭ ok semajnoj.
 Pro sia perfekta enkapsuliĝado kontraŭ la gastiganta histo kaj la tre
 malrapida kreskado, la eĥinokokaj vezikoj povas resti nerimarkite tra
 jaroj, eĉ tra jardekoj --- kondiĉe, ke ili estas "en tipa maniero"
-lokataj: en hepato aŭ pulmo. Malsanosimpotomoj primare estiĝas pro
+lokataj: en hepato aŭ pulmo. Malsanosimptomoj primare estiĝas pro
 spacopostulo de la parazito, sed danĝero ankaŭ ekestas por infektita
 persono pro alergia efiko de la hidatida likvaĵo, kiu en eta kvanto
 daŭre difuziĝas tra la vezikovando kaj tiel konstante subtenas alergion.
@@ -990,7 +990,7 @@ digestita, parte vomita.
 
 :::{.tab-spaca}
   ----------------------------------- -----------------------------------
-  **Lokiĝo en organo/organisistemo**  **Kaŭzanta aganto**
+  **Lokiĝo en organo/organsistemo**   **Kaŭzanta aganto**
 
   Vejnoj                              sĥistosomo hematobia ([Schistosoma
                                       haematobium]{.maldense})\
@@ -1076,7 +1076,7 @@ Infekto de la homo fare de sĥistosomo hematobia, s. mansona, s. japana
 aŭ s. interkalata. En la germanlingva scienco, la malsano origine
 ricevis sian nomon laŭ d-ro Bilharz, la unua malkovrinto de la medicina
 ligiteco inter parazito, limako kaj homo; intertempe venkis la en
-Britujo kaj Usono preferata nomiĝo de la intekto laŭ la parazito mem
+Britujo kaj Usono preferata nomiĝo de la infekto laŭ la parazito mem
 kiel ĝenerale uzita nomo kaj por kuracista difino de la malsano.
 
 ##### Geografia distribuo
@@ -1149,7 +1149,7 @@ semajnoj (depende de la akvotemperaturo) la cerkarioj forlasas la ege
 malsanan limakon. La sĥistosomaj cerkarioj havas forkitan longan
 vosteton kaj estas 0,5 mm longaj. Ĉe la kapo estas borglandoj helpe de
 kiuj ili kapablas penetri tra la (nedifektitan) epidermon de fina
-gastiganto. Cerkarioj perdas sian infektokapablon en tempodauro de 48
+gastiganto. Cerkarioj perdas sian infektokapablon en tempodaŭro de 48
 horoj post la eksterlimaka libera vivo. Tio signifas, ke senlimake
 ĉerpata akvo devas esti uzata nur minimume 2 tagojn poste. Cerkarioj
 penetras la homan haŭton en tempodaŭro de 10 sekundoj, forĵetas la
@@ -1233,8 +1233,8 @@ natans]{.maldense} kaj [Trapa bicornis]{.maldense}. Tiuj plantoj servas kiel
 homa nutraĵo, sed ankaŭ estas uzataj kiel furaĝo por porkoj. Porkoj tial
 estas plej gravaj kromaj gastigantoj por [Fasciolopsis buski]{.maldense}.
 
-Post adheriĝo la cerkarioj perdas la vostetojn kaj fotmas malmolan
-ŝelon: ili encistiĝas al stadio de metacerkario (7). La homo intektiĝas
+Post adheriĝo la cerkarioj perdas la vostetojn kaj formas malmolan
+ŝelon: ili encistiĝas al stadio de metacerkario (7). La homo infektiĝas
 dum malfermo de la nuksoj per la dentoj kaj hazarda engluto de la
 ekstere algluiĝantaj metacerkarioj. En la duodeno digestiĝas la cista
 ŝelo kaj la liberigita juna distomo (8) alkroĉas sin al la mukozo de
@@ -1251,7 +1251,7 @@ bildo decide influas la parazitonombro. Malmultaj vermoj ne kaŭzas
 simptomojn, mezgrada infektiĝo (ĝis 100 distomoj) kaŭzas ventrodoloron,
 diareojn, avidan malsategon. Altgrada infektiĝo (pli ol 100 parazitoj)
 povas aldone kaŭzi obstrukcon, edemojn kaj asciton kun letaleco.
-Eozinotllio kiel konstanta klinika signo estiĝas nur dum intensa infekto
+Eozinofilio kiel konstanta klinika signo estiĝas nur dum intensa infekto
 konstanta klinika signo.
 
 ##### Diagnozo
@@ -1327,7 +1327,7 @@ eligataj per la fekaĵo. En nesala akvo certaj limakoj ingestas la ovojn,
 post certa tempodaŭro eloviĝas miracidio (2) kaj kreskas ĝis 1,5 mm
 longa sporocisto (3) el kiu disvolviĝas redio (4). El tiu pluevoluas en
 daŭro de ĉirkaŭ 2 monatoj post infektiĝo la cerkario (5) kiu kapablas
-aktive penetri fíŝan haŭton. Per encistado estiĝas en la fiŝa muskolaro
+aktive penetri fiŝan haŭton. Per encistado estiĝas en la fiŝa muskolaro
 metacerkario (6) kiu post ĉirkaŭ 6 semajnoj estas evolukapabla en taŭga
 fina gastiganto.
 
@@ -1350,7 +1350,7 @@ Dum daŭra infektebleco kumulas la parazitonombro. Ek de 50-200 vermoj
 povas evidentiĝi simptomoj kiel ekz. senapetiteco, ventraj suferoj,
 subiktero. Infekto kun pli ol 1000 hepatodistomoj havas malbonan
 prognozon. Dum frua infektostadio estas karakteriza mezgrada eozinofilio
-(gis 20%), dum akompanaj infektoj fare de bakterioj ekestos grava febra
+(ĝis 20%), dum akompanaj infektoj fare de bakterioj ekestos grava febra
 galmalsano. Ties longa pluekzistado kaŭzos fibrozajn ŝanĝojn kaj fine
 hepatan cirozon. Kiel tipa postsekvo de hepata distomozo povas estiĝi
 primara galdukta karcinomo.
@@ -1359,7 +1359,7 @@ primara galdukta karcinomo.
 
 Ovokonfirmo en fekaĵo. Ĉar la eligado de ovoj estas intermita, oni devas
 ekzameni plurajn fekaĵerojn dum sinsekvaj tagoj. Okaze troviĝas ankaŭ
-kompleta distomo en la fekaĵo. Diferencdiagnoze gravas lhepata
+kompleta distomo en la fekaĵo. Diferencdiagnoze gravas hepata
 adenokarcinomo, ameba absceso kaj eĥinokokozo de la hepato.
 
 
@@ -1494,7 +1494,7 @@ pulmodistomoj estas 10 ĝis 20 jaroj.
 
 ##### Patogenezo kaj klinikaj signoj
 
-Post ingesto de metacarkariojn enhavanta krustulo aŭ ĝia parto en
+Post ingesto de metacerkariojn enhavanta krustulo aŭ ĝia parto en
 senkuirita aŭ ne sufiĉe rostita stato, la junaj parazitolarvoj liberiĝas
 en la duodeno aŭ jejuno, traboras la intestan vandon kaj enpenetras la
 ventran kavaĵon. Ilia plua vojo estas markita per evidenta kaj
@@ -1523,7 +1523,7 @@ epilepsion, ĝeneralan konfuziĝon kaj paralizon.
 
 Konfirmo de ĉeesto de la tipaj paragonimo-ovoj en sputo aŭ fekaĵo.
 Rentgenologie diferenciga diagnozo estas tuberkulozo, tumoro aŭ absceso
-de la pulmo, kaj pulma eĥinokokozo. Ĉe fermitaj pulmocistoj aĵ
+de la pulmo, kaj pulma eĥinokokozo. Ĉe fermitaj pulmocistoj aŭ
 eksterpulma paragonimozo povas helpi dum diagnozado la serologio kiel
 ekz. la nerekta imunfluoreskado kaj elektroforezo.
 
